@@ -1,14 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS13683Bakimos">
-    <teiHeader xml:base="https://betamasaheft.eu/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS13683Bakimos"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
-         <titleStmt>
-                <title type="full">Bakimos</title>
+         <titleStmt><title type="full">Bakimos</title>
             <title xml:id="t1">Bakimos</title>
-         <respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES">
-                    <resp>contributor</resp>
-                    <name>Eugenia Sokolinski</name>
-                </respStmt>
-            </titleStmt>
+         <respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -20,14 +14,7 @@
                                             Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">6.2.2024 at 20:00:53</date>
-                <date type="lastModified">5.1.2022</date>
-                <idno type="collection">persons</idno>
-                <idno type="url">https://betamasaheft.eu/persons/PRS13683Bakimos/main</idno>
-                <idno type="URI">https://betamasaheft.eu/PRS13683Bakimos</idno>
-                <idno type="filename">PRS13683Bakimos.xml</idno>
-                <idno type="ID">PRS13683Bakimos</idno>
-            </publicationStmt>
+         <date type="expanded">6.2.2024 at 20:00:53</date><date type="lastModified">5.1.2022</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS13683Bakimos/main</idno><idno type="URI">https://betamasaheft.eu/PRS13683Bakimos</idno><idno type="filename">PRS13683Bakimos.xml</idno><idno type="ID">PRS13683Bakimos</idno></publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             
@@ -44,33 +31,8 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p>
-            <listPrefixDef>
-                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
-                <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/>
-                <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/>
-                <prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/>
-                <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/>
-                <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/>
-                <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/>
-                <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/>
-                <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/>
-                <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/>
-                <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/>
-                <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/>
-                <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/>
-                <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/>
-                <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/>
-                <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/>
-                <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/>
-                <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/>
-                <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/>
-                <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
-            </listPrefixDef>
-            <classDecl xmlns:xi="http://www.w3.org/2001/XInclude">
-   <taxonomy>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><classDecl xmlns:xi="http://www.w3.org/2001/XInclude">
+    <taxonomy xml:id="ethioauthlist">
       <category>
          <desc>Types of Inscriptions</desc>
          <category xml:id="Royal" corresp="https://betamasaheft.eu/authority-files/Royal/main">
@@ -119,7 +81,7 @@
             </category>
             <category xml:id="openMitredCorner" corresp="https://betamasaheft.eu/authority-files/openMitredCorner/main">
                <catDesc>open mitred corner</catDesc>
-            </category>  
+            </category>
          </category>
          <category>
             <desc>Inlays</desc>
@@ -263,7 +225,10 @@
             </category>
          </category>
          <category>
-            <desc>Decoration Motifs</desc>
+            <desc>Decoration</desc>
+            <category xml:id="tooling" corresp="https://betamasaheft.eu/authority-files/tooling/main">
+               <catDesc>Blind tooling</catDesc>
+            </category>
             <category xml:id="tripleStraightLine" corresp="https://betamasaheft.eu/authority-files/tripleStraightLine/main">
                <catDesc>Triple straight line</catDesc>
             </category>
@@ -422,33 +387,85 @@
             <catDesc>Gǝʿǝz Mode</catDesc>
          </category>
       </category>
-      <category>
-         <desc>Qǝne Types</desc>
-         <category xml:id="EtanaMogar" corresp="https://betamasaheft.eu/authority-files/EtanaMogar/main">
-            <catDesc>ʿƎṭāna mogar</catDesc>
-         </category>
-         <category xml:id="Mawaddes" corresp="https://betamasaheft.eu/authority-files/Mawaddes/main">
-            <catDesc>Mawaddǝs</catDesc>
-         </category>        
-         <category xml:id="KebrYeeti" corresp="https://betamasaheft.eu/authority-files/KebrYeeti/main">
-            <catDesc>Kǝbr yǝʾǝti</catDesc>
-         </category>
-         <category xml:id="Sellase" corresp="https://betamasaheft.eu/authority-files/Sellase/main">
-            <catDesc>Śǝllase</catDesc>
-         </category>
-         <category xml:id="Zayeeze" corresp="https://betamasaheft.eu/authority-files/Zayeeze/main">
-            <catDesc>Za-yǝʾǝze</catDesc>
-         </category>
-         <category xml:id="Kwellekomu" corresp="https://betamasaheft.eu/authority-files/Zayeeze/main">
-            <catDesc>Kʷǝllǝkǝmu gǝʿǝz</catDesc>
-         </category>
-         <category xml:id="Wazema" corresp="https://betamasaheft.eu/authority-files/Wazema/main">
-            <catDesc>Wāzemā</catDesc>
-         </category>
-         <category xml:id="GubaeQana" corresp="https://betamasaheft.eu/authority-files/GubaeQana/main">
-            <catDesc>Gubāʿe Qānā</catDesc>
-         </category>
-      </category>
+       <category>
+          <desc>Qəne Types</desc>
+          <category xml:id="EtanaMogar" corresp="https://betamasaheft.eu/authority-files/EtanaMogar/main">
+             <catDesc>ʿƎṭāna mogar</catDesc>
+          </category>
+          <category xml:id="Mawaddes" corresp="https://betamasaheft.eu/authority-files/Mawaddes/main">
+             <catDesc>Mawaddǝs</catDesc>
+          </category>         
+          <category xml:id="KebrYeeti" corresp="https://betamasaheft.eu/authority-files/KebrYeeti/main">
+             <catDesc>Kǝbr yǝʾǝti</catDesc>
+          </category>
+          <category xml:id="Sellase" corresp="https://betamasaheft.eu/authority-files/Sellase/main">
+             <catDesc>Śǝllase</catDesc>
+          </category>
+          <category xml:id="Zayeeze" corresp="https://betamasaheft.eu/authority-files/Zayeeze/main">
+             <catDesc>Za-yǝʾǝze</catDesc>
+          </category>
+          <category xml:id="Kwellekomu" corresp="https://betamasaheft.eu/authority-files/Kwellekomu/main">
+             <catDesc>Kʷǝllǝkǝmu gǝʿǝz</catDesc>
+          </category>
+          <category xml:id="Wazema" corresp="https://betamasaheft.eu/authority-files/Wazema/main">
+             <catDesc>Wāzemā</catDesc>
+          </category>
+          <category xml:id="GubaeQana" corresp="https://betamasaheft.eu/authority-files/GubaeQana/main">
+             <catDesc>Gubāʿe Qānā</catDesc>
+          </category>       
+          <category xml:id="Mibazhu" corresp="https://betamasaheft.eu/authority-files/Mibazhu/main">
+             <catDesc>Mi-bazḫu</catDesc>
+          </category>
+          <category xml:id="Zaamlakiya" corresp="https://betamasaheft.eu/authority-files/Zaamlakiya/main">
+             <catDesc>Za-ʾamlākiya</catDesc>
+          </category>
+          <category xml:id="Sahleka" corresp="https://betamasaheft.eu/authority-files/Sahleka/main">
+             <catDesc>Śāhlǝka</catDesc>
+          </category>
+       </category>       
+       <category>
+          <desc>Magic and spells</desc>
+          <category>
+             <desc>Subtypes</desc>
+             <category xml:id="MagicDrawing" corresp="https://betamasaheft.eu/authority-files/MagicDrawing/main">
+                <catDesc>Magic drawing </catDesc>
+             </category>
+             <category xml:id="MagicSymbols" corresp="https://betamasaheft.eu/authority-files/MagicSymbols/main">
+                <catDesc>Magic symbols or letters</catDesc>
+             </category>
+          </category>
+          <category>
+             <desc>Subgenres</desc>
+             <category xml:id="Divination" corresp="https://betamasaheft.eu/authority-files/Divination/main">
+                <catDesc>Divination</catDesc>
+             </category>             
+          </category>
+          <category>
+             <desc>Diseases and demons</desc>
+             <category xml:id="Disease" corresp="https://betamasaheft.eu/authority-files/Disease/main">
+                <catDesc>Disease (generic)</catDesc>
+             </category>                
+             <category xml:id="DiseaseFever" corresp="https://betamasaheft.eu/authority-files/DiseaseFever/main">
+                <catDesc>Disease with fever</catDesc>
+             </category>
+             <category xml:id="DiseaseMental" corresp="https://betamasaheft.eu/authority-files/DiseaseMental/main">
+                <catDesc>Disease with mental symptoms</catDesc>
+             </category>
+             <category xml:id="DiseasePain" corresp="https://betamasaheft.eu/authority-files/DiseasePain/main">
+                <catDesc>Disease with pain/colic</catDesc>
+             </category>
+             <category xml:id="DiseaseWomen" corresp="https://betamasaheft.eu/authority-files/DiseaseWomen/main">
+                <catDesc>Disease in women</catDesc>
+             </category>                   
+             <category xml:id="EvilEye" corresp="https://betamasaheft.eu/authority-files/EvilEye/main">
+                <catDesc>Evil Eye</catDesc>
+             </category>
+             <category xml:id="EvilSpirit" corresp="https://betamasaheft.eu/authority-files/EvilSpirit/main">
+                <catDesc>Evil Spirit</catDesc>
+             </category>
+          </category>
+       </category>
+       
       <category>
          <desc>Additiones</desc>
          <category xml:id="GuestText" corresp="https://betamasaheft.eu/authority-files/GuestText/main">
@@ -781,6 +798,9 @@
          <category xml:id="sunandmoon" corresp="https://betamasaheft.eu/authority-files/sunandmoon/main">
             <catDesc>Sun and Moon</catDesc>
          </category>
+         <category xml:id="star" corresp="https://betamasaheft.eu/authority-files/star/main">
+            <catDesc>Star</catDesc>
+         </category>
          <category xml:id="tetramorph" corresp="https://betamasaheft.eu/authority-files/tetramorph/main">
             <catDesc>Tetramorph</catDesc>
          </category>
@@ -828,7 +848,7 @@
          </category>
          <category xml:id="curtain" corresp="https://betamasaheft.eu/authority-files/curtain/main">
             <catDesc>curtain</catDesc>
-         </category>
+         </category>         
          <category xml:id="eucharist" corresp="https://betamasaheft.eu/authority-files/eucharist/main">
             <catDesc>eucharist</catDesc>
          </category>
@@ -1195,10 +1215,7 @@
          </category>
          <category xml:id="AT1139MMDog" corresp="https://betamasaheft.eu/authority-files/AT1139MMDog/main">
             <catDesc>Miracle of Mary: Mary gives a thirsty dog water to drink from her shoe</catDesc>
-         </category>
-         <category xml:id="AT1144SealSol" corresp="https://betamasaheft.eu/authority-files/AT1144SealSol/main">
-            <catDesc>Seal of Solomon</catDesc>
-         </category>
+         </category>         
          <category xml:id="AT1140AngelGoodThief" corresp="https://betamasaheft.eu/authority-files/AT1140AngelGoodThief/main">
             <catDesc>The Angel and the Good Thief</catDesc>
          </category>
@@ -1210,6 +1227,18 @@
          </category>
          <category xml:id="AT1143SecondComingJesus" corresp="https://betamasaheft.eu/authority-files/AT1143SecondComingJesus/main">
             <catDesc>Second Coming of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1144SealSol" corresp="https://betamasaheft.eu/authority-files/AT1144SealSol/main">
+            <catDesc>Seal of Solomon</catDesc>
+         </category>
+         <category xml:id="AT1145MMGarment" corresp="https://betamasaheft.eu/authority-files/AT1145MMGarment/main">
+            <catDesc>Miracle of Mary: Miracle of the poor monk to whom Mary gave a garment</catDesc>
+         </category>
+         <category xml:id="AT1146JoachimAnnaGrieving" corresp="https://betamasaheft.eu/authority-files/AT1145MMGarment/main">
+            <catDesc>Joachim and Anne grieving for not having a child</catDesc>
+         </category>
+         <category xml:id="AT1147BeheadingJohn" corresp="https://betamasaheft.eu/authority-files/AT1147BeheadingJohn/main">
+            <catDesc>Beheading of John the Baptist</catDesc>
          </category>
       </category>
       <category>
@@ -1351,6 +1380,9 @@
          </category>
          <category xml:id="zoba" corresp="https://betamasaheft.eu/authority-files/zoba/main">
             <catDesc>zobā</catDesc>
+         </category>
+         <category xml:id="neuszoba" corresp="https://betamasaheft.eu/authority-files/neuszoba/main">
+            <catDesc>nǝʾus zobā</catDesc>
          </category>
          <category xml:id="wadi" corresp="https://betamasaheft.eu/authority-files/wadi/main">
             <catDesc>wādī</catDesc>
@@ -1560,6 +1592,9 @@
          <category xml:id="Chronicles" corresp="https://betamasaheft.eu/authority-files/Chronicles/main">
             <catDesc>Chronicles</catDesc>
          </category>
+         <category xml:id="generalRecord" corresp="https://betamasaheft.eu/authority-files/generalRecord/main">
+            <catDesc>General Record</catDesc>
+         </category>
          <category xml:id="Homily" corresp="https://betamasaheft.eu/authority-files/Homily/main">
             <catDesc>Homily</catDesc>
          </category>
@@ -1645,57 +1680,57 @@
             <catDesc>Didactic Material</catDesc>
          </category>
       </category>
-      <category>
-         <desc>IslHornAfr</desc>
-         <category xml:id="prose" corresp="https://betamasaheft.eu/authority-files/prose/main">
-            <catDesc>prose in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Jurisprudence" corresp="https://betamasaheft.eu/authority-files/Jurisprudence/main">
-            <catDesc>Jurisprudence in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Devotional" corresp="https://betamasaheft.eu/authority-files/Devotional/main">
-            <catDesc>Devotional in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Linguistics" corresp="https://betamasaheft.eu/authority-files/Linguistics/main">
-            <catDesc>Linguistics in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Ethics" corresp="https://betamasaheft.eu/authority-files/Ethics/main">
-            <catDesc>Ethics in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Belief" corresp="https://betamasaheft.eu/authority-files/Belief/main">
-            <catDesc>Belief in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Adab" corresp="https://betamasaheft.eu/authority-files/Adab/main">
-            <catDesc>Adab in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Documentary" corresp="https://betamasaheft.eu/authority-files/Documentary/main">
-            <catDesc>Documentary in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Fadail" corresp="https://betamasaheft.eu/authority-files/Fadail/main">
-            <catDesc>Fadail in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Fawaid_Masail" corresp="https://betamasaheft.eu/authority-files/Fawaid_Masail/main">
-            <catDesc>Fawaid_Masail in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Geography" corresp="https://betamasaheft.eu/authority-files/Geography/main">
-            <catDesc>Geography in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Hadit" corresp="https://betamasaheft.eu/authority-files/Hadit/main">
-            <catDesc>Hadit in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="History" corresp="https://betamasaheft.eu/authority-files/Hadit/main">
-            <catDesc>History in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Natural_Sciences" corresp="https://betamasaheft.eu/authority-files/Natural_Sciences/main">
-            <catDesc>Natural_Sciences in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Preaching" corresp="https://betamasaheft.eu/authority-files/Preaching/main">
-            <catDesc>Preaching in IslHornAfr</catDesc>
-         </category>
-         <category xml:id="Quran" corresp="https://betamasaheft.eu/authority-files/Quran/main">
-            <catDesc>Quran in IslHornAfr</catDesc>
-         </category>
-      </category>
+       <category>
+          <desc>IslHornAfr</desc>
+          <category xml:id="prose" corresp="https://betamasaheft.eu/authority-files/prose/main">
+             <catDesc>prose in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Jurisprudence" corresp="https://betamasaheft.eu/authority-files/Jurisprudence/main">
+             <catDesc>Jurisprudence in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Devotional" corresp="https://betamasaheft.eu/authority-files/Devotional/main">
+             <catDesc>Devotional in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Linguistics" corresp="https://betamasaheft.eu/authority-files/Linguistics/main">
+             <catDesc>Linguistics in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Ethics" corresp="https://betamasaheft.eu/authority-files/Ethics/main">
+             <catDesc>Ethics in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Belief" corresp="https://betamasaheft.eu/authority-files/Belief/main">
+             <catDesc>Belief in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Adab" corresp="https://betamasaheft.eu/authority-files/Adab/main">
+             <catDesc>Adab in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Documentary" corresp="https://betamasaheft.eu/authority-files/Documentary/main">
+             <catDesc>Documentary in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Fadail" corresp="https://betamasaheft.eu/authority-files/Fadail/main">
+             <catDesc>Fadail in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Fawaid_Masail" corresp="https://betamasaheft.eu/authority-files/Fawaid_Masail/main">
+             <catDesc>Fawaid_Masail in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Geography" corresp="https://betamasaheft.eu/authority-files/Geography/main">
+             <catDesc>Geography in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Hadit" corresp="https://betamasaheft.eu/authority-files/Hadit/main">
+             <catDesc>Hadit in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="History" corresp="https://betamasaheft.eu/authority-files/Hadit/main">
+             <catDesc>History in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Natural_Sciences" corresp="https://betamasaheft.eu/authority-files/Natural_Sciences/main">
+             <catDesc>Natural_Sciences in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Preaching" corresp="https://betamasaheft.eu/authority-files/Preaching/main">
+             <catDesc>Preaching in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Quran" corresp="https://betamasaheft.eu/authority-files/Quran/main">
+             <catDesc>Quran in IslHornAfr</catDesc>
+          </category>
+       </category>
       <category>
          <desc>rubrication</desc>
          <category xml:id="beginnings" corresp="https://betamasaheft.eu/authority-files/beginnings/main">
@@ -1958,11 +1993,7 @@
          </category>
       </category>
    </taxonomy>
-</classDecl>
-            <refsDecl>
-                <citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/>
-            </refsDecl>
-        </encodingDesc>
+</classDecl><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:langUsage>
             <t:language ident="en">English</t:language>
@@ -1974,47 +2005,14 @@
                <t:term key="martyr" ana="#martyr"/>
             </t:keywords>
          </t:textClass>
-      <calendarDesc>
-                <calendar xml:id="world">
-                    <p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p>
-                </calendar>
-                <calendar xml:id="ethiopian">
-                    <p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p>
-                </calendar>
-                <calendar xml:id="grace">
-                    <p>ʿĀmata məḥrat (Era of Grace)</p>
-                </calendar>
-                <calendar xml:id="diocletian">
-                    <p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p>
-                </calendar>
-                <calendar xml:id="alexander">
-                    <p> Era of Alexander</p>
-                </calendar>
-                <calendar xml:id="evangelists">
-                    <p>Evangelists' years</p>
-                </calendar>
-                <calendar xml:id="islamic">
-                    <p>Hiǧrī (Islamic)</p>
-                </calendar>
-                <calendar xml:id="hijri">
-                    <p>Hiǧrī (Islamic) in IslHornAfr</p>
-                </calendar>
-                <calendar xml:id="julian">
-                    <p>Julian</p>
-                </calendar>
-            </calendarDesc>
-        </t:profileDesc>
+      <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#ES" when="2022-01-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record</change>
       </t:revisionDesc>
-   </teiHeader>
-    <standOff>
-        <listRelation>               
+   </teiHeader><standOff><listRelation>               
                <relation name="ecrm:P129i_is_subject_of" ref="http://erlangen-crm.org/current/P129i_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/subject_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/PRS13683Bakimos" passive="https://betamasaheft.eu/LIT6539Bakimus"/>
-            </listRelation>
-    </standOff>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
          <t:listPerson>
             <t:person sex="1" sameAs="wd:Q7193522">
@@ -2022,63 +2020,17 @@
                <t:persName xml:lang="gez" type="normalized" corresp="#n1">Bakimos</t:persName>
                
                <t:persName xml:lang="cop" xml:id="n2" type="normalized">Pīǧīmī</t:persName>
-               <t:persName xml:lang="en" corresp="#n2">
-                        <t:addName>Anba</t:addName> Pidjimi</t:persName>
+               <t:persName xml:lang="en" corresp="#n2"><t:addName>Anba</t:addName> Pidjimi</t:persName>
 
                <t:faith type="Christianity Coptic Orthodox"/>
                <t:nationality type="Egypt"/>
                <t:residence>Wadī an-Naṭrūn</t:residence>
                <t:occupation type="ecclesiastic">Egyptian anachorete in Scete; desert father; ascetic in the wilderness of Shihat, from the city of Fishah</t:occupation>
-               <t:note type="commemoration">
-                        <t:date type="diesNatalis" ref="ethiocal:Tahsas11">11 Tāḫśāś</t:date>
-                    </t:note>
-               <t:note>
-                        <t:ref type="mss" corresp="https://betamasaheft.eu/EMML7602">EMML 7602, f. 118v</t:ref> has a miniature of Bakimos</t:note>
+               <t:note type="commemoration"><t:date type="diesNatalis" ref="ethiocal:Tahsas11">11 Tāḫśāś</t:date></t:note>
+               <t:note><t:ref type="mss" corresp="https://betamasaheft.eu/EMML7602">EMML 7602, f. 118v</t:ref> has a miniature of Bakimos</t:note>
             </t:person>
             
          </t:listPerson>
-         <t:listBibl type="secondary">
-                <t:bibl corresp="http://zotero.org/groups/358366/items/26EZZBCA">
-                    <seg type="bookSection"><!-- attributes from original bibl--></seg>
-                    <ptr target="bm:Esbroeck1991Pidjimi"/>
-                    <title level="a">Pidjimi, Saint</title>
-                    <title level="m">The Coptic Encyclopedia</title>
-                    <author>
-                        <t:forename>Michel van</t:forename>
-                        <t:surname>Esbroeck</t:surname>
-                    </author>
-                    <editor>
-                        <t:forename>Aziz Suryal</t:forename>
-                        <t:surname>Atiya</t:surname>
-                    </editor>
-                    <date>1991</date>
-                    <biblScope unit="volume">VI</biblScope>
-                    <biblScope unit="page">1966b-1967b</biblScope>
-                </t:bibl>
-                <t:bibl corresp="http://zotero.org/groups/358366/items/7Z43FWSK">
-                    <seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg>
-                    <ptr target="bm:Sauget1961Pijimi"/>
-                    <title level="a">Pīǧīmī</title>
-                    <title level="m">Bibliotheca Sanctorum</title>
-                    <author>
-                        <t:forename>Joseph-Marie</t:forename>
-                        <t:surname>Sauget</t:surname>
-                    </author>
-                    <editor>
-                        <t:forename>Filippo</t:forename>
-                        <t:surname>Caraffa</t:surname>
-                    </editor>
-                    <editor>
-                        <t:forename>Giuseppe</t:forename>
-                        <t:surname>Morelli</t:surname>
-                    </editor>
-                    <pubPlace>Roma</pubPlace>
-                    <publisher>Istituto Giovanni XXIII della Pontifica Università Lateranense : Città Nuova Editrice</publisher>
-                    <date>1961</date>
-                    <biblScope unit="volume">II</biblScope>
-                    <biblScope unit="page">868-870</biblScope>
-                </t:bibl>
-            </t:listBibl>
+         <t:listBibl type="secondary"><t:bibl corresp="http://zotero.org/groups/358366/items/26EZZBCA"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Esbroeck1991Pidjimi"/><title level="a">Pidjimi, Saint</title><title level="m">The Coptic Encyclopedia</title><author><t:forename>Michel van</t:forename><t:surname>Esbroeck</t:surname></author><editor><t:forename>Aziz Suryal</t:forename><t:surname>Atiya</t:surname></editor><date>1991</date><biblScope unit="volume">VI</biblScope><biblScope unit="page">1966b-1967b</biblScope></t:bibl><t:bibl corresp="http://zotero.org/groups/358366/items/7Z43FWSK"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Sauget1961Pijimi"/><title level="a">Pīǧīmī</title><title level="m">Bibliotheca Sanctorum</title><author><t:forename>Joseph-Marie</t:forename><t:surname>Sauget</t:surname></author><editor><t:forename>Filippo</t:forename><t:surname>Caraffa</t:surname></editor><editor><t:forename>Giuseppe</t:forename><t:surname>Morelli</t:surname></editor><pubPlace>Roma</pubPlace><publisher>Istituto Giovanni XXIII della Pontifica Università Lateranense : Città Nuova Editrice</publisher><date>1961</date><biblScope unit="volume">II</biblScope><biblScope unit="page">868-870</biblScope></t:bibl></t:listBibl>
       </t:body>
-   </t:text>
-</TEI>
+   </t:text></TEI>
