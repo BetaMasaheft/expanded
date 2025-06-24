@@ -1,0 +1,104 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT0355Malke"><teiHeader>
+      <fileDesc>
+         <titleStmt><title type="full">LIT0355Malke</title>
+            <title xml:id="t1" xml:lang="gez">መልክአ፡ እስጢፋኖስ፡</title>
+            <title corresp="#t1" xml:lang="gez" type="normalized">Malkəʾa ʾƎsṭifānos</title>
+            <title corresp="#t1" xml:lang="en">Image of Stephen</title>
+         <respStmt xml:id="AD" corresp="https://betamasaheft.eu/team.html#AD"><resp>contributor</resp><name>Augustine Dickinson</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+               This file is licensed under the Creative Commons
+               Attribution-ShareAlike 4.0. 
+            </licence>
+            </availability>
+         <date type="expanded">16.5.2025 at 00:07:25</date><date type="lastModified">9.1.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT0355Malke/main</idno><idno type="URI">https://betamasaheft.eu/LIT0355Malke</idno><idno type="filename">LIT0355Malke.xml</idno><idno type="ID">LIT0355Malke</idno></publicationStmt>
+         <sourceDesc>
+            <p>Malkəʾa Gubāʾe</p>
+         </sourceDesc>
+         <sourceDesc>
+            <listWit>
+               <witness corresp="https://betamasaheft.eu/EMDA118"><idno>EMDA 00118</idno></witness>
+               <witness corresp="https://betamasaheft.eu/EMIP00764"><idno facs="EMIP/Codices/764/" n="155">Chelekot Silasie 23</idno></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term key="Poetry" ana="#Poetry"/>
+               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
+            </keywords>
+         </textClass>
+      <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
+      <revisionDesc>
+         <change who="#AD" when="2024-12-01"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record for Malkea gubae</change>
+         <change who="#ES" when="2025-01-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Transformed XML record by Augustine Dickinson</change>
+      </revisionDesc>
+   </teiHeader><standOff><listRelation>
+            <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT0355Malke" passive="https://betamasaheft.eu/PRS8974Stephen"/>
+            <relation name="skos:exactMatch" ref="http://www.w3.org/2004/02/skos/core#exactMatch" active="https://betamasaheft.eu/LIT0355Malke" passive="https://w3id.org/malke/0355/"/>
+         </listRelation></standOff><text>
+      <body>
+         
+         <div type="bibliography">
+            <listBibl type="editions">
+               <bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV"><seg type="webpage"><!-- attributes from original bibl--></seg><ptr target="bm:MgWebsite"/><title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Augustine</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Dickinson</t:surname></author><date>2020</date><note type="accessed">2024-09-24</note><note type="url">https://malkeagubae.com/</note></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="gez">
+            <div type="textpart" xml:id="malke">
+               <lg type="stanza" n="1">
+                  <l n="1">እምጥበብከ፡ ስፉሕ፡ ወእምጸጋከ፡ ረቂቅ፨</l>
+                  <l n="2">እንተ፡ ተበጽዐ፡ ፈድፋደ፡ በአፈ፡ ኅሩያን፡ ደቂቅ፨</l>
+                  <l n="3">እስጢፋኖስ፡ ክፍለኒ፡ በሥምረተ፡ ሰላም፡ ወጽድቅ፨</l>
+                  <l n="4">አሠረከ፡ እትሉ፡ እግዚኦ፡ ወፍኖተከ፡ በጻሕቅ፨</l>
+                  <l n="5">እስመ፡ ጸጋ፡ ዘንቱ፡ ይትበደር፡ እምብሩር፡ ወወርቅ፨</l>
+               </lg>
+               <lg type="stanza" n="2">
+                  <l n="1">ሰላም፡ ለዝክረ፡ ስምከ፡ ሆህያተ፡ አሌፍ፡ እምጥንቱ፨</l>
+                  <l n="2">ወለሥዕርተ፡ ርእስከ፡ ወለገጽከ፡ በደመ፡ ውግረት፡ ሠርጐ፡ ትርሲቱ፨</l>
+                  <l n="3">እስጢፋኖስ፡ መምህር፡ ወሊቀ፡ ዲያቆናት፡ ሰባዕቱ፨</l>
+                  <l n="4">አርትዕ፡ ሊተ፡ እግዚኦ፡ ልዕላኤ፡ አፉየ፡ ዝንቱ፨</l>
+                  <l n="5">ውዳሴ፡ ዚአከ፡ ከመ፡ አንብብ፡ ቦቱ፨</l>
+               </lg>
+               <lg type="stanza" n="3">
+                  <l n="1">ሰላም፡ ለቀራንብቲከ፡ ወለአዕይንቲከ፡ ምስለ፡ አእዛን፨</l>
+                  <l n="2">ወለመላትሒከ፡ ቀይሕ፡ አምሳለ፡ ሮማን፨</l>
+                  <l n="3">እስጢፋኖስ፡ ዲያቆን፡ ወሠዋዔ፡ ሐዲስ፡ ቍርባን፨</l>
+                  <l n="4">ቤዛ፡ ይኩነኒ፡ ለወልድከ፡ ውስተ፡ ዐውደ፡ አይሁድ፡ መካን፨</l>
+                  <l n="5">ውግረተ፡ ዚአከ፡ በብዝኅ፡ አእባን፨</l>
+               </lg>
+               <lg type="stanza" n="14">
+                  <l n="1">ሰላም፡ ለፍልሰተ፡ አፅምከ፡ ዘተረክበ፡ እምተከብቶ፨</l>
+                  <l n="2">አመ፡ ፲ወ፭፡ ለወርኀ፡ መስከረም፡ ቲቶ፨</l>
+                  <l n="3">ተወኪፈከ፡ እስጢፋኖስ፡ መሥዋዕተ፡ ሰላምየ፡ በኢያስትቶ፨</l>
+                  <l n="4">ምስሌየ፡ ግበር፡ እግዚኦ፡ ለሠናይትከ፡ ትእምርቶ፨</l>
+                  <l n="5">ናሁ፡ ለውዳሴከ፡ ርኢኩ፡ ማኅለቅቶ፨</l>
+               </lg>
+               <lg type="stanza" n="15">
+                  <l n="1">እስጢፋኖስ፡ አእላፍ፡ አመ፡ ኃጥኡከ፡ በሞት፨</l>
+                  <l n="2">ከመ፡ በከዩ፡ ፈድፋደ፡ እምኍልቈ፡ አርብዓ፡ ዕለት፨</l>
+                  <l n="3">በእንተ፡ ጌጋይየ፡ ኢትትኀየይ፡ እስጢፋኖስ፡ ሰማዕት፨</l>
+                  <l n="4">እመሰ፡ ተሐየይከ፡ እምገቢረ፡ ብዙኅ፡ ጸሎት፨</l>
+                  <l n="5">ተስፋ፡ ድኅነተ፡ ነፍስ፡ አልብየ፡ በአፍአ፡ ወቤት፨</l>
+               </lg>
+               <lg type="stanza" n="16">
+                  <l n="1">በየማነ፡ አምላክ፡ ለወልድ፡ ከመ፡ ነጸርከ፡ በግርማ፨</l>
+                  <l n="2">አመ፡ ተልዕለ፡ ዐይንከ፡ መንገለ፡ ልዑል፡ ራማ፨</l>
+                  <l n="3">ዐይነ፡ ሕሊናየ፡ ክሥት፡ እስጢፋኖስ፡ ለባሴ፡ ፃማ፨</l>
+                  <l n="4">እትሉ፡ ፍና፡ ዚአሁ፡ ለጸዊረ፡ መስቀል፡ ባማ፨</l>
+                  <l n="5">ወተግሣጻቲሁ፡ እትወከፍ፡ ለብፁዕ፡ በርሶማ፨</l>
+               </lg>
+            </div>
+         </div>
+      </body>
+   </text></TEI>

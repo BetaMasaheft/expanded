@@ -1,0 +1,90 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT0208Malke"><teiHeader>
+      <fileDesc>
+         <titleStmt><title type="full">LIT0208Malke</title>
+            <title xml:id="t1" xml:lang="gez">መልክአ፡ ዐሠርቱ፡ ወክልኤቱ፡ ሐዋርያት፡</title>
+            <title corresp="#t1" xml:lang="gez" type="normalized">Malkəʾa ʿAśśartu wa-Kəlʾettu Ḥawārəyāt</title>
+            <title corresp="#t1" xml:lang="en">Image of the Twelve Apostles</title>
+         <respStmt xml:id="AD" corresp="https://betamasaheft.eu/team.html#AD"><resp>contributor</resp><name>Augustine Dickinson</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+               This file is licensed under the Creative Commons
+               Attribution-ShareAlike 4.0. 
+            </licence>
+            </availability>
+         <date type="expanded">16.5.2025 at 00:07:25</date><date type="lastModified">9.1.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT0208Malke/main</idno><idno type="URI">https://betamasaheft.eu/LIT0208Malke</idno><idno type="filename">LIT0208Malke.xml</idno><idno type="ID">LIT0208Malke</idno></publicationStmt>
+         <sourceDesc>
+            <p>Malkəʾa Gubāʾe</p>
+         </sourceDesc>
+         <sourceDesc>
+            <listWit>
+               <witness corresp="https://betamasaheft.eu/EMML659"><idno>MS EMML no. 659</idno></witness>
+               <witness corresp="https://betamasaheft.eu/EMML6251"><idno facs="EMIP/Codices/1184/" n="218">MS EMML no. 6251</idno></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term key="Poetry" ana="#Poetry"/>
+               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
+            </keywords>
+         </textClass>
+      <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
+      <revisionDesc>
+         <change who="#AD" when="2024-12-01"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record for Malkea gubae</change>
+         <change who="#ES" when="2025-01-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Transformed XML record by Augustine Dickinson</change>
+      </revisionDesc>
+   </teiHeader><standOff><listRelation>
+            <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT0208Malke" passive="https://betamasaheft.eu/PRS14530Apostles"/>
+            <relation name="skos:exactMatch" ref="http://www.w3.org/2004/02/skos/core#exactMatch" active="https://betamasaheft.eu/LIT0208Malke" passive="https://w3id.org/malke/0208/"/>
+         </listRelation></standOff><text>
+      <body>
+         
+         <div type="bibliography">
+            <listBibl type="editions">
+               <bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV"><seg type="webpage"><!-- attributes from original bibl--></seg><ptr target="bm:MgWebsite"/><title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Augustine</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Dickinson</t:surname></author><date>2020</date><note type="accessed">2024-09-24</note><note type="url">https://malkeagubae.com/</note></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="gez">
+            <div type="textpart" xml:id="malke">
+               <lg type="stanza" n="1">
+                  <l n="1">ሰላም፡ እብል፡ ዘአስማቲክሙ፡ ዝክረ፨</l>
+                  <l n="2">እንተ፡ ይጥዕም፡ መዐረ፨</l>
+                  <l n="3">ሐዋርያት፡ አድባር፡ ዘታተልዉ፡ አውግረ፨</l>
+                  <l n="4">ከመ፡ አሐዱ፡ ብእሲ፡ እዌድሰክሙ፡ ምዕረ፨</l>
+                  <l n="5">እስመ፡ ንዋየክሙ፡ በንዋዩ፡ ኢየሱስ፡ ደመረ፨</l>
+               </lg>
+               <lg type="stanza" n="2">
+                  <l n="1">ሰላም፡ ለዝክረ፡ ስምክሙ፡ ዘጥቀ፡ አፍታዊ፨</l>
+                  <l n="2">እምፍትወተ፡ ዓለም፡ ምድራዊ፨</l>
+                  <l n="3">ሐዋርያት፡ ጽኑዓን፡ ዕቀብተ፡ አንቀጽ፡ ሰማያዊ፨</l>
+                  <l n="4">ጽንሑኒ፡ ታብኡኒ፡ ውስተ፡ ጽርሐ፡ ሥርግው፡ መርዓዊ፨</l>
+                  <l n="5">ከመ፡ ብእሲ፡ ከብካብ፡ ጽውዐ፡ ይጸንሕ፡ ዐፃዊ፨</l>
+               </lg>
+               <lg type="stanza" n="3">
+                  <l n="1">ሰላም፡ ለሥዕርተ፡ ርእስክሙ፡ ዘጥሉል፡ በቅብዑ፨</l>
+                  <l n="2">ለመለኮታዊ፡ በግዑ፨</l>
+                  <l n="3">ሐዋርያት፡ ስንዕዋን፡ ነገርያኒሁ፡ ወሰብኡ፨</l>
+                  <l n="4">ከመ፡ ታንግፉኒ፡ አስተበቍዐክሙ፡ ንዑ፨</l>
+                  <l n="5">አመ፡ ላዕሌየ፡ ዕድወ፡ ደም፡ ተንሥኡ፨</l>
+               </lg>
+               <lg type="stanza" n="48">
+                  <l n="1">ሰላም፡ ለግንዘትክሙ፡ በስንዱናተ፡ ኪን፡ ዘፈተሎ፨</l>
+                  <l n="2">ወለመቃብሪክሙ፡ ኵሎ፨</l>
+                  <l n="3">ሐዋርያት፡ በልዎ፡ ለዘይፃረረኒ፡ በተሐብሎ፨</l>
+                  <l n="4">ይኂስከ፡ እግዚአብሔር፡ ወያርኢከ፡ ኀይሎ፨</l>
+                  <l n="5">ከመ፡ ሚካኤል፡ ቅድመ፡ ለሰይጣን፡ ይቤሎ፨</l>
+               </lg>
+            </div>
+         </div>
+      </body>
+   </text></TEI>

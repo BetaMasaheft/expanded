@@ -1,0 +1,2572 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT5840SecondEthioMaccabees"><teiHeader>
+      <fileDesc>
+         <titleStmt><title type="full">The Second Ethiopian Book of Maccabees</title>
+            <title xml:lang="en" xml:id="t1">The Second Ethiopian Book of Maccabees</title>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         <date type="expanded">5.6.2025 at 14:39:32</date><date type="lastModified">5.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5840SecondEthioMaccabees/main</idno><idno type="URI">https://betamasaheft.eu/LIT5840SecondEthioMaccabees</idno><idno type="filename">LIT5840SecondEthioMaccabees.xml</idno><idno type="ID">LIT5840SecondEthioMaccabees</idno></publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>A digital born TEI file</p>
+      <p>Encoded according 
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
+                        These Guidelines detail the TEI format ruled by 
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
+                        The present TEI file is enriched with an 
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><classDecl xmlns:xi="http://www.w3.org/2001/XInclude">
+    <taxonomy xml:id="ethioauthlist">
+      <category>
+         <desc>Types of Inscriptions</desc>
+         <category xml:id="Royal" corresp="https://betamasaheft.eu/authority-files/Royal/main">
+            <catDesc>Royal inscription</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Special Manuscripts</desc>
+         <category xml:id="GoldenGospel" corresp="https://betamasaheft.eu/authority-files/GoldenGospel/main">
+            <catDesc>Golden Gospel</catDesc>
+         </category>
+         <category xml:id="miniatureCollection" corresp="https://betamasaheft.eu/authority-files/miniatureCollection/main">
+            <catDesc>Miniature Collection</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Objects of Veneration</desc>
+         <category xml:id="TrueCross" corresp="https://betamasaheft.eu/authority-files/TrueCross/main">
+            <catDesc>True Cross</catDesc>
+         </category>
+         <category xml:id="CovenantMercy" corresp="https://betamasaheft.eu/authority-files/CovenantMercy/main">
+            <catDesc>Kidāna Mǝḥrat</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Binding Description</desc>
+         <category>
+            <desc>Turn-ins and Cover</desc>
+            <category xml:id="overCover" corresp="https://betamasaheft.eu/authority-files/overCover/main">
+               <catDesc>over-cover</catDesc>
+            </category>
+            <category xml:id="overlappingCornerFO" corresp="https://betamasaheft.eu/authority-files/overlappingCornerFO/main">
+               <catDesc>overlapping corner foredge over</catDesc>
+            </category>
+            <category xml:id="overlappingCornerHTO" corresp="https://betamasaheft.eu/authority-files/overlappingCornerHTO/main">
+               <catDesc>overlapping corner head/tail over</catDesc>
+            </category>
+            <category xml:id="tonguedCorner" corresp="https://betamasaheft.eu/authority-files/tonguedCorner/main">
+               <catDesc>tongued corner</catDesc>
+            </category>
+            <category xml:id="stitchedCorner" corresp="https://betamasaheft.eu/authority-files/stitchedCorner/main">
+               <catDesc>stitched corner</catDesc>
+            </category>
+            <category xml:id="mitredCorner" corresp="https://betamasaheft.eu/authority-files/mitredCorner/main">
+               <catDesc>mitred corner</catDesc>
+            </category>
+            <category xml:id="openMitredCorner" corresp="https://betamasaheft.eu/authority-files/openMitredCorner/main">
+               <catDesc>open mitred corner</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Inlays</desc>
+            <category xml:id="inlay" corresp="https://betamasaheft.eu/authority-files/inlay/main">
+               <catDesc>inlay</catDesc>
+            </category>
+            <category xml:id="paperInlay" corresp="https://betamasaheft.eu/authority-files/paperInlay/main">
+               <catDesc>paper inlay</catDesc>
+            </category>
+            <category xml:id="parchmentInlay" corresp="https://betamasaheft.eu/authority-files/parchmentInlay/main">
+               <catDesc>parchment inlay</catDesc>
+            </category>
+            <category xml:id="textileInlay" corresp="https://betamasaheft.eu/authority-files/textileInlay/main">
+               <catDesc>textile inlay</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Guards</desc>
+            <category xml:id="guard" corresp="https://betamasaheft.eu/authority-files/guard/main">
+               <catDesc>Guard</catDesc>
+            </category>
+            <category xml:id="centerfold" corresp="https://betamasaheft.eu/authority-files/centerfold/main">
+               <catDesc>Centerfold</catDesc>
+            </category>
+            <category xml:id="spinefold" corresp="https://betamasaheft.eu/authority-files/spinefold/main">
+               <catDesc>Spine fold</catDesc>
+            </category>
+            <category xml:id="sidestitches" corresp="https://betamasaheft.eu/authority-files/sidestitches/main">
+               <catDesc>Side stitches</catDesc>
+            </category>
+            <category xml:id="mainSewing" corresp="https://betamasaheft.eu/authority-files/mainSewing/main">
+               <catDesc>Main sewing</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Bookmarks</desc>
+            <category xml:id="leafStringMark" corresp="https://betamasaheft.eu/authority-files/leafStringMark/main">
+               <catDesc>Leaf string marker</catDesc>
+            </category>
+            <category xml:id="leafTabMark" corresp="https://betamasaheft.eu/authority-files/leafTabMark/main">
+               <catDesc>Leaf tab marker</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Endband Type</desc>
+            <category xml:id="slitBraid" corresp="https://betamasaheft.eu/authority-files/slitBraid/main">
+               <catDesc>Slit-braid</catDesc>
+            </category>
+            <category xml:id="linkStitch" corresp="https://betamasaheft.eu/authority-files/linkStitch/main">
+               <catDesc>Link-stitch</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Board Lining</desc>
+            <category xml:id="textile" corresp="https://betamasaheft.eu/authority-files/textile/main">
+               <catDesc>Textile</catDesc>
+            </category>
+            <category xml:id="mirror" corresp="https://betamasaheft.eu/authority-files/mirror/main">
+               <catDesc>Mirror</catDesc>
+            </category>
+            <category xml:id="additionalLeatherPatch" corresp="https://betamasaheft.eu/authority-files/additionalLeatherPatch/main">
+               <catDesc>Additional leather patch</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Wood Type</desc>
+            <category xml:id="cordiaAfricana" corresp="https://betamasaheft.eu/authority-files/cordiaAfricana/main">
+               <catDesc>Cordia africana</catDesc>
+            </category>
+            <category xml:id="oleaAfricana" corresp="https://betamasaheft.eu/authority-files/oleaAfricana/main">
+               <catDesc>Olea africana</catDesc>
+            </category>
+            <category xml:id="cedar" corresp="https://betamasaheft.eu/authority-files/cedar/main">
+               <catDesc>Cedar</catDesc>
+            </category>
+            <category xml:id="eucalyptus" corresp="https://betamasaheft.eu/authority-files/eucalyptus/main">
+               <catDesc>Eucalyptus</catDesc>
+            </category>
+            <category xml:id="juniper" corresp="https://betamasaheft.eu/authority-files/juniper/main">
+               <catDesc>Juniper</catDesc>
+            </category>
+            <category xml:id="hageniaAbyssinica" corresp="https://betamasaheft.eu/authority-files/hageniaAbyssinica/main">
+               <catDesc>Hagenia abyssinica</catDesc>
+            </category>
+            <category xml:id="acacia" corresp="https://betamasaheft.eu/authority-files/acacia/main">
+               <catDesc>Acacia</catDesc>
+            </category>
+            <category xml:id="ficus" corresp="https://betamasaheft.eu/authority-files/ficus/main">
+               <catDesc>Ficus</catDesc>
+            </category>
+            <category xml:id="crotonMacrostachyus" corresp="https://betamasaheft.eu/authority-files/crotonMacrostachyus/main">
+               <catDesc>Croton macrostachyus</catDesc>
+            </category>
+            <category xml:id="euphorbia" corresp="https://betamasaheft.eu/authority-files/euphorbia/main">
+               <catDesc>Euphorbia</catDesc>
+            </category>
+            <category xml:id="ekebergia" corresp="https://betamasaheft.eu/authority-files/ekebergia/main">
+               <catDesc>Ekebergia capensis</catDesc>
+            </category>
+            <category xml:id="podocarpus" corresp="https://betamasaheft.eu/authority-files/podocarpus/main">
+               <catDesc>Podocarpus gracilior</catDesc>
+            </category>
+            <category xml:id="plywood" corresp="https://betamasaheft.eu/authority-files/plywood/main">
+               <catDesc>Plywood</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Sewing Pattern</desc>
+            <category xml:id="patternA" corresp="https://betamasaheft.eu/authority-files/patternA/main">
+               <catDesc>Pattern A</catDesc>
+            </category>
+            <category xml:id="patternA1" corresp="https://betamasaheft.eu/authority-files/patternA1/main">
+               <catDesc>Pattern A1</catDesc>
+            </category>
+            <category xml:id="patternA2" corresp="https://betamasaheft.eu/authority-files/patternA2/main">
+               <catDesc>Pattern A2</catDesc>
+            </category>
+            <category xml:id="patternA3" corresp="https://betamasaheft.eu/authority-files/patternA3/main">
+               <catDesc>Pattern A3</catDesc>
+            </category>
+            <category xml:id="patternA4" corresp="https://betamasaheft.eu/authority-files/patternA4/main">
+               <catDesc>Pattern A4</catDesc>
+            </category>
+            <category xml:id="patternA5" corresp="https://betamasaheft.eu/authority-files/patternA5/main">
+               <catDesc>Pattern A5</catDesc>
+            </category>
+            <category xml:id="patternA6" corresp="https://betamasaheft.eu/authority-files/patternA6/main">
+               <catDesc>Pattern A6</catDesc>
+            </category>
+            <category xml:id="patternA7" corresp="https://betamasaheft.eu/authority-files/patternA7/main">
+               <catDesc>Pattern A7</catDesc>
+            </category>
+            <category xml:id="patternB" corresp="https://betamasaheft.eu/authority-files/patternB/main">
+               <catDesc>Pattern B</catDesc>
+            </category>
+            <category xml:id="patternC" corresp="https://betamasaheft.eu/authority-files/patternC/main">
+               <catDesc>Pattern C</catDesc>
+            </category>
+            <category xml:id="patternC1" corresp="https://betamasaheft.eu/authority-files/patternC1/main">
+               <catDesc>Pattern C1</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Decoration</desc>
+            <category xml:id="tooling" corresp="https://betamasaheft.eu/authority-files/tooling/main">
+               <catDesc>Blind tooling</catDesc>
+            </category>
+            <category xml:id="tripleStraightLine" corresp="https://betamasaheft.eu/authority-files/tripleStraightLine/main">
+               <catDesc>Triple straight line</catDesc>
+            </category>
+            <category xml:id="doubleStraightLine" corresp="https://betamasaheft.eu/authority-files/doubleStraightLine/main">
+               <catDesc>Double straight Line</catDesc>
+            </category>
+            <category xml:id="singleStraightLine" corresp="https://betamasaheft.eu/authority-files/singleStraightLine/main">
+               <catDesc>Single straight line</catDesc>
+            </category>
+            <category xml:id="crissCross" corresp="https://betamasaheft.eu/authority-files/crissCross/main">
+               <catDesc>Criss-cross</catDesc>
+            </category>
+            <category xml:id="doubleCircle" corresp="https://betamasaheft.eu/authority-files/doubleCircle/main">
+               <catDesc>Double circle</catDesc>
+            </category>
+            <category xml:id="singleCircle" corresp="https://betamasaheft.eu/authority-files/singleCircle/main">
+               <catDesc>Single circle</catDesc>
+            </category>
+            <category xml:id="crescent" corresp="https://betamasaheft.eu/authority-files/crescent/main">
+               <catDesc>Crescent</catDesc>
+            </category>
+            <category xml:id="XForm" corresp="https://betamasaheft.eu/authority-files/XForm/main">
+               <catDesc>X-Form</catDesc>
+            </category>
+            <category xml:id="palmShape" corresp="https://betamasaheft.eu/authority-files/palmShape/main">
+               <catDesc>Palm shape</catDesc>
+            </category>
+            <category xml:id="rosette" corresp="https://betamasaheft.eu/authority-files/rosette/main">
+               <catDesc>Rosette</catDesc>
+            </category>
+            <category xml:id="corniForm" corresp="https://betamasaheft.eu/authority-files/corniForm/main">
+               <catDesc>Corni-form</catDesc>
+            </category>
+            <category xml:id="grid" corresp="https://betamasaheft.eu/authority-files/grid/main">
+               <catDesc>Grid</catDesc>
+            </category>
+            <category xml:id="VForm" corresp="https://betamasaheft.eu/authority-files/VForm/main">
+               <catDesc>V-form</catDesc>
+            </category>
+            <category xml:id="wavyLine" corresp="https://betamasaheft.eu/authority-files/wavyLine/main">
+               <catDesc>Wavy line</catDesc>
+            </category>
+            <category xml:id="zigZag" corresp="https://betamasaheft.eu/authority-files/zigZag/main">
+               <catDesc>Zig-zag</catDesc>
+            </category>
+            <category xml:id="motherOfWater" corresp="https://betamasaheft.eu/authority-files/motherOfWater/main">
+               <catDesc>Mother of water</catDesc>
+            </category>
+            <category xml:id="straightStrapwork" corresp="https://betamasaheft.eu/authority-files/straightStrapwork/main">
+               <catDesc>Straight strapwork element</catDesc>
+            </category>
+            <category xml:id="curveStrapwork" corresp="https://betamasaheft.eu/authority-files/curveStrapwork/main">
+               <catDesc>Curve strapwork element</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Thread Material</desc>
+            <category xml:id="animalThread" corresp="https://betamasaheft.eu/authority-files/animalThread/main">
+               <catDesc>Animal thread</catDesc>
+            </category>
+            <category xml:id="vegetalThread" corresp="https://betamasaheft.eu/authority-files/vegetalThread/main">
+               <catDesc>Vegetal thread</catDesc>
+            </category>
+            <category xml:id="syntheticThread" corresp="https://betamasaheft.eu/authority-files/syntheticThread/main">
+               <catDesc>Synthetic thread</catDesc>
+            </category>
+            <category xml:id="tannedSkin" corresp="https://betamasaheft.eu/authority-files/tannedSkin/main">
+               <catDesc>Tanned skin</catDesc>
+            </category>
+         </category>
+      </category>
+      <category>
+         <desc>Occupation</desc>
+         <category xml:id="ruler" corresp="https://betamasaheft.eu/authority-files/ruler/main">
+            <catDesc>Ruler</catDesc>
+         </category>
+         <category xml:id="military" corresp="https://betamasaheft.eu/authority-files/military/main">
+            <catDesc>Military</catDesc>
+         </category>
+         <category xml:id="academic" corresp="https://betamasaheft.eu/authority-files/academic/main">
+            <catDesc>Academic</catDesc>
+         </category>
+         <category xml:id="political" corresp="https://betamasaheft.eu/authority-files/political/main">
+            <catDesc>Political</catDesc>
+         </category>
+         <category xml:id="literary" corresp="https://betamasaheft.eu/authority-files/literary/main">
+            <catDesc>Literary</catDesc>
+         </category>
+         <category xml:id="ecclesiastic" corresp="https://betamasaheft.eu/authority-files/ecclesiastic/main">
+            <catDesc>Ecclesiastic</catDesc>
+         </category>
+         <category xml:id="medical" corresp="https://betamasaheft.eu/authority-files/medical/main">
+            <catDesc>Medical</catDesc>
+         </category>
+         <category xml:id="art" corresp="https://betamasaheft.eu/authority-files/art/main">
+            <catDesc>Art</catDesc>
+         </category>
+         <category xml:id="Other" corresp="https://betamasaheft.eu/authority-files/Other/main">
+            <catDesc>Other</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Person Types</desc>
+         <category xml:id="saint" corresp="https://betamasaheft.eu/authority-files/saint/main">
+            <catDesc>Saint</catDesc>
+         </category>
+         <category xml:id="biblical" corresp="https://betamasaheft.eu/authority-files/biblical/main">
+            <catDesc>Biblical</catDesc>
+         </category>
+         <category xml:id="prophet" corresp="https://betamasaheft.eu/authority-files/prophet/main">
+            <catDesc>Prophet</catDesc>
+         </category>
+         <category xml:id="angel" corresp="https://betamasaheft.eu/authority-files/angel/main">
+            <catDesc>angel</catDesc>
+         </category>
+         <category xml:id="martyr" corresp="https://betamasaheft.eu/authority-files/martyr/main">
+            <catDesc>Martyr</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Periods</desc>
+         <category xml:id="PreAks" corresp="https://betamasaheft.eu/authority-files/PreAks/main">
+            <catDesc>South-Arabian, Pre-Aksumite and Proto-Aksumite</catDesc>
+         </category>
+         <category xml:id="Eaks" corresp="https://betamasaheft.eu/authority-files/Eaks/main">
+            <catDesc>Early Aksumite</catDesc>
+         </category>
+         <category xml:id="Aks" corresp="https://betamasaheft.eu/authority-files/Aks/main">
+            <catDesc>Aksumite</catDesc>
+         </category>
+         <category xml:id="Paks1" corresp="https://betamasaheft.eu/authority-files/Paks1/main">
+            <catDesc>Postaksumite I</catDesc>
+         </category>
+         <category xml:id="Paks2" corresp="https://betamasaheft.eu/authority-files/Paks2/main">
+            <catDesc> Postaksumite II</catDesc>
+         </category>
+         <category xml:id="Gon" corresp="https://betamasaheft.eu/authority-files/Gon/main">
+            <catDesc>Gondarine</catDesc>
+         </category>
+         <category xml:id="ZaMa" corresp="https://betamasaheft.eu/authority-files/ZaMa/main">
+            <catDesc>Zamana Masāfǝnt</catDesc>
+         </category>
+         <category xml:id="MoPe" corresp="https://betamasaheft.eu/authority-files/MoPe/main">
+            <catDesc>Modern Period</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Chant Modes</desc>
+         <category xml:id="ArarayMode" corresp="https://betamasaheft.eu/authority-files/ArarayMode/main">
+            <catDesc>ʾArārāy Mode</catDesc>
+         </category>
+         <category xml:id="EzelMode" corresp="https://betamasaheft.eu/authority-files/EzelMode/main">
+            <catDesc>ʿƎzǝl Mode</catDesc>
+         </category>
+         <category xml:id="GeezMode" corresp="https://betamasaheft.eu/authority-files/GeezMode/main">
+            <catDesc>Gǝʿǝz Mode</catDesc>
+         </category>
+      </category>
+       <category>
+          <desc>Qəne Types</desc>
+          <category xml:id="EtanaMogar" corresp="https://betamasaheft.eu/authority-files/EtanaMogar/main">
+             <catDesc>ʿƎṭāna mogar</catDesc>
+          </category>
+          <category xml:id="Mawaddes" corresp="https://betamasaheft.eu/authority-files/Mawaddes/main">
+             <catDesc>Mawaddǝs</catDesc>
+          </category>         
+          <category xml:id="KebrYeeti" corresp="https://betamasaheft.eu/authority-files/KebrYeeti/main">
+             <catDesc>Kǝbr yǝʾǝti</catDesc>
+          </category>
+          <category xml:id="Sellase" corresp="https://betamasaheft.eu/authority-files/Sellase/main">
+             <catDesc>Śǝllase</catDesc>
+          </category>
+          <category xml:id="Zayeeze" corresp="https://betamasaheft.eu/authority-files/Zayeeze/main">
+             <catDesc>Za-yǝʾǝze</catDesc>
+          </category>
+          <category xml:id="Kwellekomu" corresp="https://betamasaheft.eu/authority-files/Kwellekomu/main">
+             <catDesc>Kʷǝllǝkǝmu gǝʿǝz</catDesc>
+          </category>
+          <category xml:id="Wazema" corresp="https://betamasaheft.eu/authority-files/Wazema/main">
+             <catDesc>Wāzemā</catDesc>
+          </category>
+          <category xml:id="GubaeQana" corresp="https://betamasaheft.eu/authority-files/GubaeQana/main">
+             <catDesc>Gubāʿe Qānā</catDesc>
+          </category>       
+          <category xml:id="Mibazhu" corresp="https://betamasaheft.eu/authority-files/Mibazhu/main">
+             <catDesc>Mi-bazḫu</catDesc>
+          </category>
+          <category xml:id="Zaamlakiya" corresp="https://betamasaheft.eu/authority-files/Zaamlakiya/main">
+             <catDesc>Za-ʾamlākiya</catDesc>
+          </category>
+          <category xml:id="Sahleka" corresp="https://betamasaheft.eu/authority-files/Sahleka/main">
+             <catDesc>Śāhlǝka</catDesc>
+          </category>
+       </category>       
+       <category>
+          <desc>Magic and spells</desc>
+          <category>
+             <desc>Subtypes</desc>
+             <category xml:id="MagicDrawing" corresp="https://betamasaheft.eu/authority-files/MagicDrawing/main">
+                <catDesc>Magic drawing </catDesc>
+             </category>
+             <category xml:id="MagicSymbols" corresp="https://betamasaheft.eu/authority-files/MagicSymbols/main">
+                <catDesc>Magic symbols or letters</catDesc>
+             </category>
+          </category>
+          <category>
+             <desc>Subgenres</desc>
+             <category xml:id="Divination" corresp="https://betamasaheft.eu/authority-files/Divination/main">
+                <catDesc>Divination</catDesc>
+             </category>             
+          </category>
+          <category>
+             <desc>Diseases and demons</desc>
+             <category xml:id="Disease" corresp="https://betamasaheft.eu/authority-files/Disease/main">
+                <catDesc>Disease (generic)</catDesc>
+             </category>                
+             <category xml:id="DiseaseFever" corresp="https://betamasaheft.eu/authority-files/DiseaseFever/main">
+                <catDesc>Disease with fever</catDesc>
+             </category>
+             <category xml:id="DiseaseMental" corresp="https://betamasaheft.eu/authority-files/DiseaseMental/main">
+                <catDesc>Disease with mental symptoms</catDesc>
+             </category>
+             <category xml:id="DiseasePain" corresp="https://betamasaheft.eu/authority-files/DiseasePain/main">
+                <catDesc>Disease with pain/colic</catDesc>
+             </category>
+             <category xml:id="DiseaseWomen" corresp="https://betamasaheft.eu/authority-files/DiseaseWomen/main">
+                <catDesc>Disease in women</catDesc>
+             </category>                   
+             <category xml:id="EvilEye" corresp="https://betamasaheft.eu/authority-files/EvilEye/main">
+                <catDesc>Evil Eye</catDesc>
+             </category>
+             <category xml:id="EvilSpirit" corresp="https://betamasaheft.eu/authority-files/EvilSpirit/main">
+                <catDesc>Evil Spirit</catDesc>
+             </category>
+          </category>
+       </category>
+       
+      <category>
+         <desc>Additiones</desc>
+         <category xml:id="GuestText" corresp="https://betamasaheft.eu/authority-files/GuestText/main">
+            <catDesc>Guest Text</catDesc>
+         </category>
+         <category xml:id="AcquisitionNote" corresp="https://betamasaheft.eu/authority-files/AcquisitionNote/main">
+            <catDesc>Acquisition Note</catDesc>
+         </category>
+         <category xml:id="Comment" corresp="https://betamasaheft.eu/authority-files/Comment/main">
+            <catDesc>Comment</catDesc>
+         </category>
+         <category xml:id="Gloss" corresp="https://betamasaheft.eu/authority-files/Gloss/main">
+            <catDesc>Gloss</catDesc>
+         </category>
+         <category xml:id="Correction" corresp="https://betamasaheft.eu/authority-files/Correction/main">
+            <catDesc>Correction</catDesc>
+         </category>
+         <category xml:id="Letter" corresp="https://betamasaheft.eu/authority-files/Letter/main">
+            <catDesc>Letter</catDesc>
+         </category>
+         <category xml:id="Foundation" corresp="https://betamasaheft.eu/authority-files/Foundation/main">
+            <catDesc>Foundation</catDesc>
+         </category>
+         <category xml:id="Headband" corresp="https://betamasaheft.eu/authority-files/Headband/main">
+            <catDesc>Headband</catDesc>
+         </category>
+         <category xml:id="Tailband" corresp="https://betamasaheft.eu/authority-files/Tailband/main">
+            <catDesc>Tailband</catDesc>
+         </category>
+         <category xml:id="DonationNote" corresp="https://betamasaheft.eu/authority-files/DonationNote/main">
+            <catDesc>Donation Note</catDesc>
+         </category>
+         <category xml:id="OwnershipNote" corresp="https://betamasaheft.eu/authority-files/OwnershipNote/main">
+            <catDesc>Ownership Note</catDesc>
+         </category>
+         <category xml:id="PurchaseNote" corresp="https://betamasaheft.eu/authority-files/PurchaseNote/main">
+            <catDesc>Purchase Note</catDesc>
+         </category>
+         <category xml:id="ReceiptNote" corresp="https://betamasaheft.eu/authority-files/ReceiptNote/main">
+            <catDesc>Receipt Note</catDesc>
+         </category>
+         <category xml:id="Admonition" corresp="https://betamasaheft.eu/authority-files/Admonition/main">
+            <catDesc>Admonition</catDesc>
+         </category>
+         <category xml:id="DocumentaryText" corresp="https://betamasaheft.eu/authority-files/DocumentaryText/main">
+            <catDesc>Documentary Text</catDesc>
+         </category>
+         <category>
+            <desc>Land Ownership</desc>
+            <category>
+               <desc>Land Charters</desc>
+               <category xml:id="LandGrant" corresp="https://betamasaheft.eu/authority-files/LandGrant/main">
+                  <catDesc>Land Grant</catDesc>
+               </category>
+               <category xml:id="GweltDeed" corresp="https://betamasaheft.eu/authority-files/GweltDeed/main">
+                  <catDesc>Gwəlt Deed</catDesc>
+               </category>
+               <category xml:id="RestDeed" corresp="https://betamasaheft.eu/authority-files/RestDeed/main">
+                  <catDesc>Rəst Deed</catDesc>
+               </category>
+               <category xml:id="RestaGweltDeed" corresp="https://betamasaheft.eu/authority-files/RestaGweltDeed/main">
+                  <catDesc>Rəsta gwəlt Deed</catDesc>
+               </category>
+            </category>
+            <category xml:id="Rim" corresp="https://betamasaheft.eu/authority-files/Rim/main">
+               <catDesc>Rim</catDesc>
+            </category>
+            <category xml:id="siso" corresp="https://betamasaheft.eu/authority-files/siso/main">
+               <catDesc>Siso</catDesc>
+            </category>
+            <category xml:id="Tazkar" corresp="https://betamasaheft.eu/authority-files/Tazkar/main">
+               <catDesc>Tazkar</catDesc>
+            </category>
+            <category xml:id="Renovation" corresp="https://betamasaheft.eu/authority-files/Renovation/main">
+               <catDesc>Renovation</catDesc>
+            </category>
+            <category xml:id="Confirmation" corresp="https://betamasaheft.eu/authority-files/Confirmation/main">
+               <catDesc>Confirmation</catDesc>
+            </category>
+            <category xml:id="FoundationCharter" corresp="https://betamasaheft.eu/authority-files/FoundationCharter/main">
+               <catDesc>Foundation Charter</catDesc>
+            </category>
+            <category xml:id="unclearOwnershipDocument" corresp="https://betamasaheft.eu/authority-files/unclearOwnershipDocument/main">
+               <catDesc>Unclear Ownership</catDesc>
+            </category>
+         </category>
+         <category xml:id="Genealogy" corresp="https://betamasaheft.eu/authority-files/Genealogy/main">
+            <catDesc>Genealogy</catDesc>
+         </category>
+         <category xml:id="ScribalSignature" corresp="https://betamasaheft.eu/authority-files/ScribalSignature/main">
+            <catDesc>Scribal Signature</catDesc>
+         </category>
+         <category xml:id="Supplication" corresp="https://betamasaheft.eu/authority-files/Supplication/main">
+            <catDesc>Supplication</catDesc>
+         </category>
+         <category xml:id="Subscription" corresp="https://betamasaheft.eu/authority-files/Subscription/main">
+            <catDesc>Subscription</catDesc>
+         </category>
+         <category xml:id="Doxology" corresp="https://betamasaheft.eu/authority-files/Doxology/main">
+            <catDesc>Doxology</catDesc>
+         </category>
+         <category xml:id="Exhortation" corresp="https://betamasaheft.eu/authority-files/Exhortation/main">
+            <catDesc>Exhortation</catDesc>
+         </category>
+         <category xml:id="Invocation" corresp="https://betamasaheft.eu/authority-files/Invocation/main">
+            <catDesc>Invocation</catDesc>
+         </category>
+         <category xml:id="Inventory" corresp="https://betamasaheft.eu/authority-files/Inventory/main">
+            <catDesc>Inventory</catDesc>
+         </category>
+         <category xml:id="ScribalNoteCommencing" corresp="https://betamasaheft.eu/authority-files/ScribalNoteCommencing/main">
+            <catDesc>Scribal Note Commencing</catDesc>
+         </category>
+         <category xml:id="ScribalNoteOrdering" corresp="https://betamasaheft.eu/authority-files/ScribalNoteOrdering/main">
+            <catDesc>Scribal Note Ordering</catDesc>
+         </category>
+         <category xml:id="ScribalNoteCommissioning" corresp="https://betamasaheft.eu/authority-files/ScribalNoteCommissioning/main">
+            <catDesc>Scribal Note Commissioning</catDesc>
+         </category>
+         <category xml:id="ScribalNoteCompleting" corresp="https://betamasaheft.eu/authority-files/ScribalNoteCompleting/main">
+            <catDesc>Scribal Note Completing</catDesc>
+         </category>
+         <category xml:id="ScribalNoteAssigningLand" corresp="https://betamasaheft.eu/authority-files/ScribalNoteAssigningLand/main">
+            <catDesc>Scribal Note Assigning Land</catDesc>
+         </category>
+         <category xml:id="ScribalNoteBequeathing" corresp="https://betamasaheft.eu/authority-files/ScribalNoteBequeathing/main">
+            <catDesc>Scribal Note Bequeathing</catDesc>
+         </category>
+         <category xml:id="RecordReconciliation" corresp="https://betamasaheft.eu/authority-files/RecordReconciliation/main">
+            <catDesc>Record Reconciliation</catDesc>
+         </category>
+         <category xml:id="RecordLitigation" corresp="https://betamasaheft.eu/authority-files/RecordLitigation/main">
+            <catDesc>Record Litigation</catDesc>
+         </category>
+         <category xml:id="RecordTransaction" corresp="https://betamasaheft.eu/authority-files/RecordTransaction/main">
+            <catDesc>Record Transaction</catDesc>
+         </category>
+         <category xml:id="RecordDistribution" corresp="https://betamasaheft.eu/authority-files/RecordDistribution/main">
+            <catDesc>Record Distribution</catDesc>
+         </category>
+         <category xml:id="RecordGuarantors" corresp="https://betamasaheft.eu/authority-files/RecordGuarantors/main">
+            <catDesc>Record Guarantors</catDesc>
+         </category>
+         <category xml:id="Record" corresp="https://betamasaheft.eu/authority-files/Record/main">
+            <catDesc>Record</catDesc>
+         </category>
+         <category xml:id="ScribalSupplication" corresp="https://betamasaheft.eu/authority-files/ScribalSupplication/main">
+            <catDesc>Scribal Supplication</catDesc>
+         </category>
+         <category xml:id="Unclear" corresp="https://betamasaheft.eu/authority-files/Unclear/main">
+            <catDesc>Unclear</catDesc>
+         </category>
+         <category xml:id="GuarantorsList" corresp="https://betamasaheft.eu/authority-files/GuarantorsList/main">
+            <catDesc>Guarantors List</catDesc>
+         </category>
+         <category xml:id="CommemorativeNote" corresp="https://betamasaheft.eu/authority-files/CommemorativeNote/main">
+            <catDesc>Commemorative Note</catDesc>
+         </category>
+         <category xml:id="Condemnation" corresp="https://betamasaheft.eu/authority-files/Condemnation/main">
+            <catDesc>Condemnation</catDesc>
+         </category>
+         <category xml:id="ProtectivePrayer" corresp="https://betamasaheft.eu/authority-files/ProtectivePrayer/main">
+            <catDesc>Protective Prayer</catDesc>
+         </category>
+         <category xml:id="Poem" corresp="https://betamasaheft.eu/authority-files/Poem/main">
+            <catDesc>Poem</catDesc>
+         </category>
+         <category xml:id="PoemQene" corresp="https://betamasaheft.eu/authority-files/PoemQene/main">
+            <catDesc>Poem Qǝne</catDesc>
+         </category>
+         <category xml:id="PoemSalam" corresp="https://betamasaheft.eu/authority-files/PoemSalam/main">
+            <catDesc>Poem Salām</catDesc>
+         </category>
+         <category xml:id="PoemArke" corresp="https://betamasaheft.eu/authority-files/PoemArke/main">
+            <catDesc>Poem Arke</catDesc>
+         </category>
+         <category xml:id="StampExlibris" corresp="https://betamasaheft.eu/authority-files/StampExlibris/main">
+            <catDesc>Stamp Ex libris</catDesc>
+         </category>
+         <category xml:id="CalendaricNote" corresp="https://betamasaheft.eu/authority-files/CalendaricNote/main">
+            <catDesc>Calendaric Note</catDesc>
+         </category>
+         <category xml:id="Excerpt" corresp="https://betamasaheft.eu/authority-files/Excerpt/main">
+            <catDesc>Excerpt</catDesc>
+         </category>
+         <category xml:id="MagicFormula" corresp="https://betamasaheft.eu/authority-files/MagicFormula/main">
+            <catDesc>Magic Formula</catDesc>
+         </category>
+         <category xml:id="MagicText" corresp="https://betamasaheft.eu/authority-files/MagicText/main">
+            <catDesc>Magic Text</catDesc>
+         </category>
+         <category xml:id="Excommunication" corresp="https://betamasaheft.eu/authority-files/Excommunication/main">
+            <catDesc>Excommunication</catDesc>
+         </category>
+         <category xml:id="MalkeHymn" corresp="https://betamasaheft.eu/authority-files/MalkeHymn/main">
+            <catDesc>Malkǝʾ Hymn</catDesc>
+         </category>
+         <category xml:id="Directive" corresp="https://betamasaheft.eu/authority-files/Directive/main">
+            <catDesc>Directive</catDesc>
+         </category>
+         <category xml:id="Asmat" corresp="https://betamasaheft.eu/authority-files/Asmat/main">
+            <catDesc>ʾAsmāt</catDesc>
+         </category>
+         <category xml:id="CustomaryLaw" corresp="https://betamasaheft.eu/authority-files/CustomaryLaw/main">
+            <catDesc>CustomaryLaw</catDesc>
+         </category>
+         <category xml:id="Statutes" corresp="https://betamasaheft.eu/authority-files/Statutes/main">
+            <catDesc>Statutes</catDesc>
+         </category>
+         <category xml:id="MixedNote" corresp="https://betamasaheft.eu/authority-files/MixedNote/main">
+            <catDesc>Mixed Note</catDesc>
+         </category>
+         <category xml:id="findingAid" corresp="https://betamasaheft.eu/authority-files/findingAid/main">
+            <catDesc>Finding Aid</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Art Keywords</desc>
+         <category xml:id="AksumiteStyle" corresp="https://betamasaheft.eu/authority-files/AksumiteStyle/main">
+            <catDesc>Aksumite Style</catDesc>
+         </category>
+         <category xml:id="FirstSolomonicStyle" corresp="https://betamasaheft.eu/authority-files/FirstSolomonicStyle/main">
+            <catDesc>First Solomonic Style</catDesc>
+         </category>
+         <category xml:id="SecondSolomonicStyle" corresp="https://betamasaheft.eu/authority-files/SecondSolomonicStyle/main">
+            <catDesc>Second Solomonic Style</catDesc>
+         </category>
+         <category xml:id="ThirdSolomonicStyle" corresp="https://betamasaheft.eu/authority-files/ThirdSolomonicStyle/main">
+            <catDesc>Third Solomonic Style</catDesc>
+         </category>
+         <category xml:id="FirstGondarineStyle" corresp="https://betamasaheft.eu/authority-files/FirstGondarineStyle/main">
+            <catDesc>First Gondarine Style</catDesc>
+         </category>
+         <category xml:id="GeometricStyle" corresp="https://betamasaheft.eu/authority-files/GeometricStyle/main">
+            <catDesc>Geometric Style</catDesc>
+         </category>
+         <category xml:id="SecondGondarineStyle" corresp="https://betamasaheft.eu/authority-files/SecondGondarineStyle/main">
+            <catDesc>Second Gondarine Style</catDesc>
+         </category>
+         <category xml:id="PostGondarineStyle" corresp="https://betamasaheft.eu/authority-files/PostGondarineStyle/main">
+            <catDesc>Zamana Masāfǝnt Style</catDesc>
+         </category>
+         <category xml:id="ModernStyle" corresp="https://betamasaheft.eu/authority-files/ModernStyle/main">
+            <catDesc>Modern Style</catDesc>
+         </category>
+         <category xml:id="ShortCycle" corresp="https://betamasaheft.eu/authority-files/ShortCycle/main">
+            <catDesc>Short Cycle</catDesc>
+         </category>
+         <category xml:id="LongCycle" corresp="https://betamasaheft.eu/authority-files/LongCycle/main">
+            <catDesc>Long Cycle</catDesc>
+         </category>
+         <category xml:id="attribute" corresp="https://betamasaheft.eu/authority-files/attribute/main">
+            <catDesc>attribute</catDesc>
+         </category>
+         <category xml:id="bearded" corresp="https://betamasaheft.eu/authority-files/bearded/main">
+            <catDesc>bearded</catDesc>
+         </category>
+         <category xml:id="beardless" corresp="https://betamasaheft.eu/authority-files/beardless/main">
+            <catDesc>beardless</catDesc>
+         </category>
+         <category xml:id="deadjesus" corresp="https://betamasaheft.eu/authority-files/deadjesus/main">
+            <catDesc>Dead Jesus</catDesc>
+         </category>
+         <category xml:id="demon" corresp="https://betamasaheft.eu/authority-files/demon/main">
+            <catDesc>demon</catDesc>
+         </category>
+         <category xml:id="donordepiction" corresp="https://betamasaheft.eu/authority-files/donordepiction/main">
+            <catDesc>donor depiction</catDesc>
+         </category>
+         <category xml:id="dragon" corresp="https://betamasaheft.eu/authority-files/dragon/main">
+            <catDesc>dragon</catDesc>
+         </category>
+         <category xml:id="emptycross" corresp="https://betamasaheft.eu/authority-files/emptycross/main">
+            <catDesc>Empty Cross</catDesc>
+         </category>
+         <category xml:id="livingjesus" corresp="https://betamasaheft.eu/authority-files/livingjesus/main">
+            <catDesc>Living Jesus</catDesc>
+         </category>
+         <category xml:id="interlace" corresp="https://betamasaheft.eu/authority-files/interlace/main">
+            <catDesc>interlace</catDesc>
+         </category>
+         <category xml:id="gesture" corresp="https://betamasaheft.eu/authority-files/gesture/main">
+            <catDesc>gesture</catDesc>
+         </category>
+         <category xml:id="gestureblessing" corresp="https://betamasaheft.eu/authority-files/gestureblessing/main">
+            <catDesc>gesture of blessing</catDesc>
+         </category>
+         <category xml:id="gesturecrossed" corresp="https://betamasaheft.eu/authority-files/gesturecrossed/main">
+            <catDesc>gesture of crossed arms</catDesc>
+         </category>
+         <category xml:id="gesturefoldedhands" corresp="https://betamasaheft.eu/authority-files/gesturefoldedhands/main">
+            <catDesc>gesture of folded hands</catDesc>
+         </category>
+         <category xml:id="gesturegrief" corresp="https://betamasaheft.eu/authority-files/gesturegrief/main">
+            <catDesc>gesture of grief</catDesc>
+         </category>
+         <category xml:id="gestureorans" corresp="https://betamasaheft.eu/authority-files/gestureorans/main">
+            <catDesc>orans</catDesc>
+         </category>
+         <category xml:id="gesturewitnessing" corresp="https://betamasaheft.eu/authority-files/gesturewitnessing/main">
+            <catDesc>gesture of witnessing</catDesc>
+         </category>
+         <category xml:id="halo" corresp="https://betamasaheft.eu/authority-files/halo/main">
+            <catDesc>halo</catDesc>
+         </category>
+         <category xml:id="handGod" corresp="https://betamasaheft.eu/authority-files/handGod/main">
+            <catDesc>Hand of God</catDesc>
+         </category>
+         <category xml:id="HolySpirit" corresp="https://betamasaheft.eu/authority-files/HolySpirit/main">
+            <catDesc>Holy Spirit</catDesc>
+         </category>
+         <category xml:id="mandorla" corresp="https://betamasaheft.eu/authority-files/mandorla/main">
+            <catDesc>mandorla</catDesc>
+         </category>
+         <category xml:id="saluspopuli" corresp="https://betamasaheft.eu/authority-files/saluspopuli/main">
+            <catDesc>Salus Populi Romani</catDesc>
+         </category>
+         <category xml:id="hodegetria" corresp="https://betamasaheft.eu/authority-files/hodegetria/main">
+            <catDesc>Hodegetria</catDesc>
+         </category>
+         <category xml:id="seated" corresp="https://betamasaheft.eu/authority-files/seated/main">
+            <catDesc>seated</catDesc>
+         </category>
+         <category xml:id="standing" corresp="https://betamasaheft.eu/authority-files/standing/main">
+            <catDesc>standing</catDesc>
+         </category>
+         <category xml:id="spinning" corresp="https://betamasaheft.eu/authority-files/spinning/main">
+            <catDesc>spinning</catDesc>
+         </category>
+         <category xml:id="sunandmoon" corresp="https://betamasaheft.eu/authority-files/sunandmoon/main">
+            <catDesc>Sun and Moon</catDesc>
+         </category>
+         <category xml:id="star" corresp="https://betamasaheft.eu/authority-files/star/main">
+            <catDesc>Star</catDesc>
+         </category>
+         <category xml:id="tetramorph" corresp="https://betamasaheft.eu/authority-files/tetramorph/main">
+            <catDesc>Tetramorph</catDesc>
+         </category>
+         <category xml:id="twothieves" corresp="https://betamasaheft.eu/authority-files/twothieves/main">
+            <catDesc>Two Thieves</catDesc>
+         </category>
+         <category xml:id="scabbard" corresp="https://betamasaheft.eu/authority-files/scabbard/main">
+            <catDesc>Scabbard</catDesc>
+         </category>
+         <category xml:id="protectiveCurtain" corresp="https://betamasaheft.eu/authority-files/protectiveCurtain/main">
+            <catDesc>Protective Curtain</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Objects and Animals</desc>
+         <category xml:id="animal" corresp="https://betamasaheft.eu/authority-files/animal/main">
+            <catDesc>animal</catDesc>
+         </category>
+         <category xml:id="arch" corresp="https://betamasaheft.eu/authority-files/arch/main">
+            <catDesc>arch</catDesc>
+         </category>
+         <category xml:id="architecture" corresp="https://betamasaheft.eu/authority-files/architecture/main">
+            <catDesc>architecture</catDesc>
+         </category>
+         <category xml:id="bird" corresp="https://betamasaheft.eu/authority-files/bird/main">
+            <catDesc>bird</catDesc>
+         </category>
+         <category xml:id="canopy" corresp="https://betamasaheft.eu/authority-files/canopy/main">
+            <catDesc>canopy</catDesc>
+         </category>
+         <category xml:id="censer" corresp="https://betamasaheft.eu/authority-files/censer/main">
+            <catDesc>censer</catDesc>
+         </category>
+         <category xml:id="codex" corresp="https://betamasaheft.eu/authority-files/codex/main">
+            <catDesc>codex</catDesc>
+         </category>
+         <category xml:id="column" corresp="https://betamasaheft.eu/authority-files/column/main">
+            <catDesc>column</catDesc>
+         </category>
+         <category xml:id="cross" corresp="https://betamasaheft.eu/authority-files/cross/main">
+            <catDesc>cross</catDesc>
+         </category>
+         <category xml:id="crown" corresp="https://betamasaheft.eu/authority-files/crown/main">
+            <catDesc>crown</catDesc>
+         </category>
+         <category xml:id="curtain" corresp="https://betamasaheft.eu/authority-files/curtain/main">
+            <catDesc>curtain</catDesc>
+         </category>         
+         <category xml:id="eucharist" corresp="https://betamasaheft.eu/authority-files/eucharist/main">
+            <catDesc>eucharist</catDesc>
+         </category>
+         <category xml:id="globe" corresp="https://betamasaheft.eu/authority-files/globe/main">
+            <catDesc>globe</catDesc>
+         </category>
+         <category xml:id="maniple" corresp="https://betamasaheft.eu/authority-files/maniple/main">
+            <catDesc>maniple</catDesc>
+         </category>
+         <category xml:id="prayerstaff" corresp="https://betamasaheft.eu/authority-files/prayerstaff/main">
+            <catDesc>prayer staff</catDesc>
+         </category>
+         <category xml:id="rod" corresp="https://betamasaheft.eu/authority-files/rod/main">
+            <catDesc>rod</catDesc>
+         </category>
+         <category xml:id="scale" corresp="https://betamasaheft.eu/authority-files/scale/main">
+            <catDesc>scale</catDesc>
+         </category>
+         <category xml:id="scroll" corresp="https://betamasaheft.eu/authority-files/scroll/main">
+            <catDesc>scroll</catDesc>
+         </category>
+         <category xml:id="shield" corresp="https://betamasaheft.eu/authority-files/shield/main">
+            <catDesc>shield</catDesc>
+         </category>
+         <category xml:id="spear" corresp="https://betamasaheft.eu/authority-files/spear/main">
+            <catDesc>spear</catDesc>
+         </category>
+         <category xml:id="sponge" corresp="https://betamasaheft.eu/authority-files/sponge/main">
+            <catDesc>sponge</catDesc>
+         </category>
+         <category xml:id="sword" corresp="https://betamasaheft.eu/authority-files/sword/main">
+            <catDesc>sword</catDesc>
+         </category>
+         <category xml:id="vestment" corresp="https://betamasaheft.eu/authority-files/vestment/main">
+            <catDesc>vestment</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Art Themes</desc>
+         <category xml:id="AT1068AdamandEveeatfruit" corresp="https://betamasaheft.eu/authority-files/AT1068AdamandEveeatfruit/main">
+            <catDesc>Adam and Eve eat the Forbidden Fruit</catDesc>
+         </category>
+         <category xml:id="AT1001Agony" corresp="https://betamasaheft.eu/authority-files/AT1001Agony/main">
+            <catDesc>Agony in the garden</catDesc>
+         </category>
+         <category xml:id="AT1082Angel" corresp="https://betamasaheft.eu/authority-files/AT1082Angel/main">
+            <catDesc>Angel</catDesc>
+         </category>
+         <category xml:id="AT1002Annunciation" corresp="https://betamasaheft.eu/authority-files/AT1002Annunciation/main">
+            <catDesc>Annunciation</catDesc>
+         </category>
+         <category xml:id="AT1054AnnunciationZaccharia" corresp="https://betamasaheft.eu/authority-files/AT1054AnnunciationZaccharia/main">
+            <catDesc>Annunciation to Zacharias</catDesc>
+         </category>
+         <category xml:id="AT1046Apostle" corresp="https://betamasaheft.eu/authority-files/AT1046Apostle/main">
+            <catDesc>Apostle Portrait</catDesc>
+         </category>
+         <category xml:id="AT1047Apostles" corresp="https://betamasaheft.eu/authority-files/AT1047Apostles/main">
+            <catDesc>Apostles Portrait</catDesc>
+         </category>
+         <category xml:id="AT1003Arrest" corresp="https://betamasaheft.eu/authority-files/AT1003Arrest/main">
+            <catDesc>Arrest of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1033Ascension" corresp="https://betamasaheft.eu/authority-files/AT1033Ascension/main">
+            <catDesc>Ascension of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1037AscensionMary" corresp="https://betamasaheft.eu/authority-files/AT1037AscensionMary/main">
+            <catDesc>Assumption of Mary</catDesc>
+         </category>
+         <category xml:id="AT1038Baptism" corresp="https://betamasaheft.eu/authority-files/AT1038Baptism/main">
+            <catDesc>Baptism of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1004Bitter" corresp="https://betamasaheft.eu/authority-files/AT1004Bitter/main">
+            <catDesc>Bitter Water Ordeal</catDesc>
+         </category>
+         <category xml:id="AT1062CoronationMary" corresp="https://betamasaheft.eu/authority-files/AT1062CoronationMary/main">
+            <catDesc>Coronation of Mary</catDesc>
+         </category>
+         <category xml:id="AT1036MercyCovenant" corresp="https://betamasaheft.eu/authority-files/AT1036MercyCovenant/main">
+            <catDesc>Covenant of Mercy</catDesc>
+         </category>
+         <category xml:id="AT1005Crucifixion" corresp="https://betamasaheft.eu/authority-files/AT1005Crucifixion/main">
+            <catDesc>Crucifixion of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1071Cross" corresp="https://betamasaheft.eu/authority-files/AT1071Cross/main">
+            <catDesc>Cross</catDesc>
+         </category>
+         <category xml:id="AT1079DavidGoliath" corresp="https://betamasaheft.eu/authority-files/AT1079DavidGoliath/main">
+            <catDesc>David Beheads Goliath</catDesc>
+         </category>
+         <category xml:id="AT1066DavidHarp" corresp="https://betamasaheft.eu/authority-files/AT1066DavidHarp/main">
+            <catDesc>David Playing the Harp</catDesc>
+         </category>
+         <category xml:id="AT1006Denial" corresp="https://betamasaheft.eu/authority-files/AT1006Denial/main">
+            <catDesc>Denial of Peter</catDesc>
+         </category>
+         <category xml:id="AT1007Deposition" corresp="https://betamasaheft.eu/authority-files/AT1007Deposition/main">
+            <catDesc>Deposition from the Cross</catDesc>
+         </category>
+         <category xml:id="AT1008Descent" corresp="https://betamasaheft.eu/authority-files/AT1008Descent/main">
+            <catDesc>Descent into Hell</catDesc>
+         </category>
+         <category xml:id="AT1058DormitionMary" corresp="https://betamasaheft.eu/authority-files/AT1058DormitionMary/main">
+            <catDesc>Dormition of Mary</catDesc>
+         </category>
+         <category xml:id="AT1009Doubting" corresp="https://betamasaheft.eu/authority-files/AT1009Doubting/main">
+            <catDesc>Doubting of Thomas</catDesc>
+         </category>
+         <category xml:id="AT1010Entombment" corresp="https://betamasaheft.eu/authority-files/AT1010Entombment/main">
+            <catDesc>Entombment of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1011Entry" corresp="https://betamasaheft.eu/authority-files/AT1011Entry/main">
+            <catDesc>Entry into Jerusalem</catDesc>
+         </category>
+         <category xml:id="AT1012Equestrian" corresp="https://betamasaheft.eu/authority-files/AT1012Equestrian/main">
+            <catDesc>Equestrian Saint</catDesc>
+         </category>
+         <category xml:id="AT1013EvaPortrait" corresp="https://betamasaheft.eu/authority-files/AT1013EvaPortrait/main">
+            <catDesc>Evangelist Portrait</catDesc>
+         </category>
+         <category xml:id="AT1014Evangelists" corresp="https://betamasaheft.eu/authority-files/AT1014Evangelists/main">
+            <catDesc>Evangelists</catDesc>
+         </category>
+         <category xml:id="AT1015Flagellation" corresp="https://betamasaheft.eu/authority-files/AT1015Flagellation/main">
+            <catDesc>Flagellation of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1016Flight" corresp="https://betamasaheft.eu/authority-files/AT1016Flight/main">
+            <catDesc>Flight into Egypt</catDesc>
+         </category>
+         <category xml:id="AT1101GodtheFather" corresp="https://betamasaheft.eu/authority-files/AT1101GodtheFather/main">
+            <catDesc>God the Father</catDesc>
+         </category>
+         <category xml:id="AT1042HagiographicScene" corresp="https://betamasaheft.eu/authority-files/AT1042HagiographicScene/main">
+            <catDesc>Hagiographic Scene</catDesc>
+         </category>
+         <category xml:id="AT1051HistoricalPerson" corresp="https://betamasaheft.eu/authority-files/AT1051HistoricalPerson/main">
+            <catDesc>Historical Person Portrait</catDesc>
+         </category>
+         <category xml:id="AT1052HistoricalPersons" corresp="https://betamasaheft.eu/authority-files/AT1052HistoricalPersons/main">
+            <catDesc>Historical Persons Portrait</catDesc>
+         </category>
+         <category xml:id="AT1053HistoricalScene" corresp="https://betamasaheft.eu/authority-files/AT1053HistoricalScene/main">
+            <catDesc>Historical Scene</catDesc>
+         </category>
+         <category xml:id="AT1035HolyMan" corresp="https://betamasaheft.eu/authority-files/AT1035HolyMan/main">
+            <catDesc>Holy Man Portrait</catDesc>
+         </category>
+         <category xml:id="AT1041HolyMen" corresp="https://betamasaheft.eu/authority-files/AT1041HolyMen/main">
+            <catDesc>Holy Men Potrait</catDesc>
+         </category>
+         <category xml:id="AT1105HolyWoman" corresp="https://betamasaheft.eu/authority-files/AT1105HolyWoman/main">
+            <catDesc>Holy Woman</catDesc>
+         </category>
+         <category xml:id="AT1106HolyWomen" corresp="https://betamasaheft.eu/authority-files/AT1106HolyWomen/main">
+            <catDesc>Holy Women</catDesc>
+         </category>
+         <category xml:id="AT1017WomenAtTomb" corresp="https://betamasaheft.eu/authority-files/AT1017WomenAtTomb/main">
+            <catDesc>Holy Women at Tomb</catDesc>
+         </category>
+         <category xml:id="AT1018JBefPilate" corresp="https://betamasaheft.eu/authority-files/AT1018JBefPilate/main">
+            <catDesc>Jesus before Pilate</catDesc>
+         </category>
+         <category xml:id="AT1084JesusChrist" corresp="https://betamasaheft.eu/authority-files/AT1084JesusChrist/main">
+            <catDesc>Jesus Christ</catDesc>
+         </category>
+         <category xml:id="AT1070JesushealstheBlind" corresp="https://betamasaheft.eu/authority-files/AT1070JesushealstheBlind/main">
+            <catDesc>Jesus Heals the Blind</catDesc>
+         </category>
+         <category xml:id="AT1048Lamentation" corresp="https://betamasaheft.eu/authority-files/AT1048Lamentation/main">
+            <catDesc>Lamentation of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1057LastJudgement" corresp="https://betamasaheft.eu/authority-files/AT1057LastJudgement/main">
+            <catDesc>Last Judgment</catDesc>
+         </category>
+         <category xml:id="AT1067LastSupper" corresp="https://betamasaheft.eu/authority-files/AT1067LastSupper/main">
+            <catDesc>The Last Supper</catDesc>
+         </category>
+         <category xml:id="AT1019Cana" corresp="https://betamasaheft.eu/authority-files/AT1019Cana/main">
+            <catDesc>Marriage at Cana</catDesc>
+         </category>
+         <category xml:id="AT1061SaintMartyrdom" corresp="https://betamasaheft.eu/authority-files/AT1061SaintMartyrdom/main">
+            <catDesc>Martyrdom</catDesc>
+         </category>
+         <category xml:id="AT1063AngelFeedsMary" corresp="https://betamasaheft.eu/authority-files/AT1063AngelFeedsMary/main">
+            <catDesc>Mary fed by an Angel</catDesc>
+         </category>
+         
+         <category xml:id="AT1020Massacre" corresp="https://betamasaheft.eu/authority-files/AT1020Massacre/main">
+            <catDesc>Massacre of the Innocents</catDesc>
+         </category>
+         <category xml:id="AT1021MiraclesOfJesus" corresp="https://betamasaheft.eu/authority-files/AT1021MiraclesOfJesus/main">
+            <catDesc>Miracles of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1022MiraclesOfMary" corresp="https://betamasaheft.eu/authority-files/AT1022MiraclesOfMary/main">
+            <catDesc>Miracle of Mary: Unidentified miracle</catDesc>
+         </category>
+         <category xml:id="AT1023Mocking" corresp="https://betamasaheft.eu/authority-files/AT1023Mocking/main">
+            <catDesc>Mocking of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1024MosesLaw" corresp="https://betamasaheft.eu/authority-files/AT1024MosesLaw/main">
+            <catDesc>Moses Receiving Law</catDesc>
+         </category>
+         <category xml:id="AT1025NativityJesus" corresp="https://betamasaheft.eu/authority-files/AT1025NativityJesus/main">
+            <catDesc>Nativity of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1026NativityMary" corresp="https://betamasaheft.eu/authority-files/AT1026NativityMary/main">
+            <catDesc>Nativity of Mary</catDesc>
+         </category>
+         <category xml:id="AT1050ApparitionResur" corresp="https://betamasaheft.eu/authority-files/AT1050ApparitionResur/main">
+            <catDesc>Post-Resurrection Appearance of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1043PresentationMary" corresp="https://betamasaheft.eu/authority-files/AT1043PresentationMary/main">
+            <catDesc>Presentation of Mary</catDesc>
+         </category>
+         <category xml:id="AT1027PresentationJesus" corresp="https://betamasaheft.eu/authority-files/AT1027PresentationJesus/main">
+            <catDesc>Presentation of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1044Prophet" corresp="https://betamasaheft.eu/authority-files/AT1044Prophet/main">
+            <catDesc>Prophet Portrait</catDesc>
+         </category>
+         <category xml:id="AT1045Prophets" corresp="https://betamasaheft.eu/authority-files/AT1045Prophets/main">
+            <catDesc>Prophets Portraits</catDesc>
+         </category>
+         <category xml:id="AT1049Resurrection" corresp="https://betamasaheft.eu/authority-files/AT1049Resurrection/main">
+            <catDesc>Resurrection of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1065RoadtoCalvary" corresp="https://betamasaheft.eu/authority-files/AT1065RoadtoCalvary/main">
+            <catDesc>Road to Calvary</catDesc>
+         </category>
+         <category xml:id="AT1092SacrificeIsaac" corresp="https://betamasaheft.eu/authority-files/AT1092SacrificeIsaac/main">
+            <catDesc>The Sacrifice of Isaac</catDesc>
+         </category>
+         <category xml:id="AT1096SavioroftheWorld" corresp="https://betamasaheft.eu/authority-files/AT1096SavioroftheWorld/main">
+            <catDesc>Savior of the World (Jesus seated holding orb)</catDesc>
+         </category>
+         <category xml:id="AT1086StrikingHead" corresp="https://betamasaheft.eu/authority-files/AT1086StrikingHead/main">
+            <catDesc>The Striking of the Head, ኵርዓተ፡ ርእሱ፡</catDesc>
+         </category>
+         <category xml:id="AT1028HebrewsFurnace" corresp="https://betamasaheft.eu/authority-files/AT1028HebrewsFurnace/main">
+            <catDesc>Three Hebrews</catDesc>
+         </category>
+         <category xml:id="AT1093TakingRobeofJesus" corresp="https://betamasaheft.eu/authority-files/AT1093TakingRobeofJesus/main">
+            <catDesc>Taking off the Robe of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1034Tempietto" corresp="https://betamasaheft.eu/authority-files/AT1034Tempietto/main">
+            <catDesc>Tempietto</catDesc>
+         </category>
+         <category xml:id="AT1060TemptationJesus" corresp="https://betamasaheft.eu/authority-files/AT1060TemptationJesus/main">
+            <catDesc>Temptation of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1029Transfiguration" corresp="https://betamasaheft.eu/authority-files/AT1029Transfiguration/main">
+            <catDesc>Transfiguration of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1030Trinity" corresp="https://betamasaheft.eu/authority-files/AT1030Trinity/main">
+            <catDesc>The Trinity</catDesc>
+         </category>
+         <category xml:id="AT1031VirginAndChild" corresp="https://betamasaheft.eu/authority-files/AT1031VirginAndChild/main">
+            <catDesc>Virgin and Child</catDesc>
+         </category>
+         <category xml:id="AT1064Visitation" corresp="https://betamasaheft.eu/authority-files/AT1064Visitation/main">
+            <catDesc>Visitation</catDesc>
+         </category>
+         <category xml:id="AT1032Washing" corresp="https://betamasaheft.eu/authority-files/AT1032Washing/main">
+            <catDesc>Washing of the Feet</catDesc>
+         </category>
+         <category xml:id="AT1059WeighingOfSouls" corresp="https://betamasaheft.eu/authority-files/AT1059WeighingOfSouls/main">
+            <catDesc>Weighing of Souls</catDesc>
+         </category>
+         <category xml:id="AT1107Synaxis" corresp="https://betamasaheft.eu/authority-files/AT1107Synaxis/main">
+            <catDesc>Synaxis of the Twelve Apostles</catDesc>
+         </category>
+         <category xml:id="AT1108MMDaqseyos" corresp="https://betamasaheft.eu/authority-files/AT1108MMDaqseyos/main">
+            <catDesc>Miracle of Mary: Daqsǝyos</catDesc>
+         </category>
+         <category xml:id="AT1109MMWorker" corresp="https://betamasaheft.eu/authority-files/AT1109MMWorker/main">
+            <catDesc>Miracle of Mary: Mary speaks to a worker</catDesc>
+         </category>
+         <category xml:id="AT1110MMJew" corresp="https://betamasaheft.eu/authority-files/AT1110MMJew/main">
+            <catDesc>Miracle of Mary: The Jew of ʾAkmim</catDesc>
+         </category>
+         <category xml:id="AT1111MMDamianus" corresp="https://betamasaheft.eu/authority-files/AT1111MMDamianus/main">
+            <catDesc>Miracle of Mary: Dǝmyanos who wrote Mary's name in golden ink</catDesc>
+         </category>
+         <category xml:id="AT1112MMAbbas" corresp="https://betamasaheft.eu/authority-files/AT1112MMAbbas/main">
+            <catDesc>Miracle of Mary: ʾAbbās, bishop of Rome</catDesc>
+         </category>
+         <category xml:id="AT1113MMYeshaq" corresp="https://betamasaheft.eu/authority-files/AT1113MMYeshaq/main">
+            <catDesc>Miracle of Mary: The monk, Yǝsḥaq, who prayed for seven years that St Mary would appear to him</catDesc>
+         </category>
+         <category xml:id="AT1114MMMaryam" corresp="https://betamasaheft.eu/authority-files/AT1114MMMaryam/main">
+            <catDesc>Miracle of Mary: Māryām of Dafrā</catDesc>
+         </category>
+         <category xml:id="AT1115MMFrenchman" corresp="https://betamasaheft.eu/authority-files/AT1115MMFrenchman/main">
+            <catDesc>Miracle of Mary: The French artist who fell from the scaffolding while painting frescoes</catDesc>
+         </category>
+         <category xml:id="AT1116MMJerusalem" corresp="https://betamasaheft.eu/authority-files/AT1116MMJerusalem/main">
+            <catDesc>Miracle of Mary: Mary carries a sick man to Jerusalem</catDesc>
+         </category>
+         <category xml:id="AT1117MMZakaryas" corresp="https://betamasaheft.eu/authority-files/AT1117MMZakaryas/main">
+            <catDesc>Miracle of Mary: Zakāryās, who used to bring roses to the icon of St Mary</catDesc>
+         </category>
+         <category xml:id="AT1118MMYolyana" corresp="https://betamasaheft.eu/authority-files/AT1118MMYolyana/main">
+            <catDesc>Miracle of Mary: Yolyānā and Barbārā from Bethlehem</catDesc>
+         </category>
+         <category xml:id="AT1119MMArabs" corresp="https://betamasaheft.eu/authority-files/AT1119MMArabs/main">
+            <catDesc>Miracle of Mary: The three Arabs journeying to Rif and Salomon, the abbot of Qalamon</catDesc>
+         </category>
+         <category xml:id="AT1120MMSea" corresp="https://betamasaheft.eu/authority-files/AT1120MMSea/main">
+            <catDesc>Miracle of Mary: The church of ʿƎqonā, which was removed to the edge of the sea</catDesc>
+         </category>
+         <category xml:id="AT1121MMYohannes" corresp="https://betamasaheft.eu/authority-files/AT1121MMYohannes/main">
+            <catDesc>Miracle of Mary: The blind priest, Yoḥannǝs Bakansi</catDesc>
+         </category>
+         <category xml:id="AT1122MMGreek" corresp="https://betamasaheft.eu/authority-files/AT1122MMGreek/main">
+            <catDesc>Miracle of Mary: The rich man from Qʷalāsis who fought the Qʷǝz and whose eye was pierced by an arrow</catDesc>
+         </category>
+         <category xml:id="AT1123MMElsabet" corresp="https://betamasaheft.eu/authority-files/AT1123MMElsabet/main">
+            <catDesc>Miracle of Mary: Elizabeth, the blind daughter of Abraham and Gerā ʾAnǝśt of Badǝrmān</catDesc>
+         </category>
+         <category xml:id="AT1124MMWidow" corresp="https://betamasaheft.eu/authority-files/AT1124MMWidow/main">
+            <catDesc>Miracle of Mary: The widow who could not find husbands for her three daughters</catDesc>
+         </category>
+         <category xml:id="AT1125MMScribes" corresp="https://betamasaheft.eu/authority-files/AT1125MMScribes/main">
+            <catDesc>Miracle of Mary: The two brothers who copied the Miracles of Mary</catDesc>
+         </category>
+         <category xml:id="AT1126MMGiyorgis" corresp="https://betamasaheft.eu/authority-files/AT1126MMGiyorgis/main">
+            <catDesc>Miracle of Mary: Giyorgis Ḥaddis, who was delivered from prison</catDesc>
+         </category>
+         <category xml:id="AT1127MMQatir" corresp="https://betamasaheft.eu/authority-files/AT1127MMQatir/main">
+            <catDesc>Miracle of Mary: Kaṭir, the old priest at ʾƎlkǝsus</catDesc>
+         </category>
+         <category xml:id="AT1128MMDyers" corresp="https://betamasaheft.eu/authority-files/AT1128MMDyers/main">
+            <catDesc>Miracle of Mary: The two brothers Tāg and Nazib from Dalgā who were dyers</catDesc>
+         </category>
+         <category xml:id="AT1129MMFrank" corresp="https://betamasaheft.eu/authority-files/AT1129MMFrank/main">
+            <catDesc>Miracle of Mary: The stone-footed man from France</catDesc>
+         </category>
+         <category xml:id="AT1130MMMarqorewos" corresp="https://betamasaheft.eu/authority-files/AT1130MMMarqorewos/main">
+            <catDesc>Miracle of Mary: Bishop Mercurius, whom the patriarch wanted to remove because of leprosy</catDesc>
+         </category>
+         <category xml:id="AT1131MMWoman" corresp="https://betamasaheft.eu/authority-files/AT1131MMWoman/main">
+            <catDesc>Miracle of Mary: The woman with a broken foot from Hartarom</catDesc>
+         </category>
+         <category xml:id="AT1132MMSophia" corresp="https://betamasaheft.eu/authority-files/AT1132MMSophia/main">
+            <catDesc>Miracle of Mary: Sophia, abbess of Mount Carmel, who became pregnant</catDesc>
+         </category>
+         <category xml:id="AT1133MMBarok" corresp="https://betamasaheft.eu/authority-files/AT1133MMBarok/main">
+            <catDesc>Miracle of Mary: Bārok of Finǝqi whom his enemies could not kill until he had confessed himself to a priest</catDesc>
+         </category>
+         <category xml:id="AT1134MMAnestasyos" corresp="https://betamasaheft.eu/authority-files/AT1134MMAnestasyos/main">
+            <catDesc>Miracle of Mary: The deacon ʾAnǝsṭāsyos who recited the prayer tafaśśǝḥi and was healed by Mary</catDesc>
+         </category>
+         <category xml:id="AT1135MMSalusi" corresp="https://betamasaheft.eu/authority-files/AT1135MMSalusi/main">
+            <catDesc>Miracle of Mary: The monk of Dabra Qalǝmon who did not fast</catDesc>
+         </category>
+         <category xml:id="AT1136MMCannibal" corresp="https://betamasaheft.eu/authority-files/AT1136MMCannibal/main">
+            <catDesc>Miracle of Mary: The cannibal of Qǝmǝr</catDesc>
+         </category>
+         <category xml:id="AT1137MMThief" corresp="https://betamasaheft.eu/authority-files/AT1137MMThief/main">
+            <catDesc>Miracle of Mary: The son of a widow, who became a thief, is saved by Mary</catDesc>
+         </category>
+         <category xml:id="AT1138MMFlood" corresp="https://betamasaheft.eu/authority-files/AT1138MMFlood/main">
+            <catDesc>Miracle of Mary: The pregnant woman who was caught by the tide while going to the church of St Michael</catDesc>
+         </category>
+         <category xml:id="AT1139MMDog" corresp="https://betamasaheft.eu/authority-files/AT1139MMDog/main">
+            <catDesc>Miracle of Mary: Mary gives a thirsty dog water to drink from her shoe</catDesc>
+         </category>         
+         <category xml:id="AT1140AngelGoodThief" corresp="https://betamasaheft.eu/authority-files/AT1140AngelGoodThief/main">
+            <catDesc>The Angel and the Good Thief</catDesc>
+         </category>
+         <category xml:id="AT1141NursingMary" corresp="https://betamasaheft.eu/authority-files/AT1141NursingMary/main">
+            <catDesc>Nursing Mary</catDesc>
+         </category>
+         <category xml:id="AT1142Pentecost" corresp="https://betamasaheft.eu/authority-files/AT1142Pentecost/main">
+            <catDesc>Pentecost</catDesc>
+         </category>
+         <category xml:id="AT1143SecondComingJesus" corresp="https://betamasaheft.eu/authority-files/AT1143SecondComingJesus/main">
+            <catDesc>Second Coming of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1144SealSol" corresp="https://betamasaheft.eu/authority-files/AT1144SealSol/main">
+            <catDesc>Seal of Solomon</catDesc>
+         </category>
+         <category xml:id="AT1145MMGarment" corresp="https://betamasaheft.eu/authority-files/AT1145MMGarment/main">
+            <catDesc>Miracle of Mary: Miracle of the poor monk to whom Mary gave a garment</catDesc>
+         </category>
+         <category xml:id="AT1146JoachimAnnaGrieving" corresp="https://betamasaheft.eu/authority-files/AT1145MMGarment/main">
+            <catDesc>Joachim and Anne grieving for not having a child</catDesc>
+         </category>
+         <category xml:id="AT1147BeheadingJohn" corresp="https://betamasaheft.eu/authority-files/AT1147BeheadingJohn/main">
+            <catDesc>Beheading of John the Baptist</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Place types</desc>
+         <category xml:id="tabiya" corresp="https://betamasaheft.eu/authority-files/tabiya/main">
+            <catDesc>ṭābiyā</catDesc>
+         </category>
+         <category xml:id="dabr" corresp="https://betamasaheft.eu/authority-files/dabr/main">
+            <catDesc>dabr</catDesc>
+         </category>
+         <category xml:id="gadam" corresp="https://betamasaheft.eu/authority-files/gadam/main">
+            <catDesc>gadām</catDesc>
+         </category>
+         <category xml:id="gatar" corresp="https://betamasaheft.eu/authority-files/gatar/main">
+            <catDesc>gaṭar</catDesc>
+         </category>
+         <category xml:id="warada" corresp="https://betamasaheft.eu/authority-files/warada/main">
+            <catDesc>waradā</catDesc>
+         </category>
+         <category xml:id="settlement" corresp="https://betamasaheft.eu/authority-files/settlement/main">
+            <catDesc>settlement</catDesc>
+         </category>
+         <category xml:id="archaeologicalSite" corresp="https://betamasaheft.eu/authority-files/archaeologicalSite/main">
+            <catDesc>archaeological site</catDesc>
+         </category>
+         <category xml:id="shrine" corresp="https://betamasaheft.eu/authority-files/shrine/main">
+            <catDesc>shrine</catDesc>
+         </category>
+         <category xml:id="town" corresp="https://betamasaheft.eu/authority-files/town/main">
+            <catDesc>town</catDesc>
+         </category>
+         <category xml:id="region" corresp="https://betamasaheft.eu/authority-files/region/main">
+            <catDesc>region</catDesc>
+         </category>
+         <category xml:id="RegionalState" corresp="https://betamasaheft.eu/authority-files/RegionalState/main">
+            <catDesc>regional state</catDesc>
+         </category>
+         <category xml:id="monastery" corresp="https://betamasaheft.eu/authority-files/monastery/main">
+            <catDesc>monastery</catDesc>
+         </category>
+         <category xml:id="church" corresp="https://betamasaheft.eu/authority-files/church/main">
+            <catDesc>church</catDesc>
+         </category>
+         <category xml:id="lake" corresp="https://betamasaheft.eu/authority-files/lake/main">
+            <catDesc>lake</catDesc>
+         </category>
+         <category xml:id="area" corresp="https://betamasaheft.eu/authority-files/area/main">
+            <catDesc>area</catDesc>
+         </category>
+         <category xml:id="river" corresp="https://betamasaheft.eu/authority-files/river/main">
+            <catDesc>river</catDesc>
+         </category>
+         <category xml:id="mountain" corresp="https://betamasaheft.eu/authority-files/mountain/main">
+            <catDesc>mountain</catDesc>
+         </category>
+         <category xml:id="mosque" corresp="https://betamasaheft.eu/authority-files/mosque/main">
+            <catDesc>mosque</catDesc>
+         </category>
+         <category xml:id="district" corresp="https://betamasaheft.eu/authority-files/district/main">
+            <catDesc>district</catDesc>
+         </category>
+         <category xml:id="valley" corresp="https://betamasaheft.eu/authority-files/valley/main">
+            <catDesc>valley</catDesc>
+         </category>
+         <category xml:id="state" corresp="https://betamasaheft.eu/authority-files/state/main">
+            <catDesc>state</catDesc>
+         </category>
+         <category xml:id="port" corresp="https://betamasaheft.eu/authority-files/port/main">
+            <catDesc>port</catDesc>
+         </category>
+         <category xml:id="religiousSite" corresp="https://betamasaheft.eu/authority-files/religiousSite/main">
+            <catDesc>religious Site</catDesc>
+         </category>
+         <category xml:id="zone" corresp="https://betamasaheft.eu/authority-files/zone/main">
+            <catDesc>zone</catDesc>
+         </category>
+         <category xml:id="country" corresp="https://betamasaheft.eu/authority-files/country/main">
+            <catDesc>country</catDesc>
+         </category>
+         <category xml:id="qushat" corresp="https://betamasaheft.eu/authority-files/qushat/main">
+            <catDesc>qušat</catDesc>
+         </category>
+         <category xml:id="pass" corresp="https://betamasaheft.eu/authority-files/pass/main">
+            <catDesc>pass</catDesc>
+         </category>
+         <category xml:id="island" corresp="https://betamasaheft.eu/authority-files/island/main">
+            <catDesc>island</catDesc>
+         </category>
+         <category xml:id="cataract" corresp="https://betamasaheft.eu/authority-files/cataract/main">
+            <catDesc>cataract</catDesc>
+         </category>
+         <category xml:id="kingdom" corresp="https://betamasaheft.eu/authority-files/kingdom/main">
+            <catDesc>kingdom</catDesc>
+         </category>
+         <category xml:id="spring" corresp="https://betamasaheft.eu/authority-files/spring/main">
+            <catDesc>spring</catDesc>
+         </category>
+         <category xml:id="plateau" corresp="https://betamasaheft.eu/authority-files/plateau/main">
+            <catDesc>plateau</catDesc>
+         </category>
+         <category xml:id="forest" corresp="https://betamasaheft.eu/authority-files/forest/main">
+            <catDesc>forest</catDesc>
+         </category>
+         <category xml:id="administrativeUnit" corresp="https://betamasaheft.eu/authority-files/administrativeUnit/main">
+            <catDesc>administrative unit</catDesc>
+         </category>
+         <category xml:id="emirate" corresp="https://betamasaheft.eu/authority-files/emirate/main">
+            <catDesc>emirate</catDesc>
+         </category>
+         <category xml:id="plain" corresp="https://betamasaheft.eu/authority-files/plain/main">
+            <catDesc>plain</catDesc>
+         </category>
+         <category xml:id="rockSite" corresp="https://betamasaheft.eu/authority-files/rockSite/main">
+            <catDesc>rock site</catDesc>
+         </category>
+         <category xml:id="volcano" corresp="https://betamasaheft.eu/authority-files/volcano/main">
+            <catDesc>volcano</catDesc>
+         </category>
+         <category xml:id="city" corresp="https://betamasaheft.eu/authority-files/city/main">
+            <catDesc>city</catDesc>
+         </category>
+         <category xml:id="falls" corresp="https://betamasaheft.eu/authority-files/falls/main">
+            <catDesc>falls</catDesc>
+         </category>
+         <category xml:id="amba" corresp="https://betamasaheft.eu/authority-files/amba/main">
+            <catDesc>ʾambā</catDesc>
+         </category>
+         <category xml:id="sultanate" corresp="https://betamasaheft.eu/authority-files/sultanate/main">
+            <catDesc>sultanate</catDesc>
+         </category>
+         <category xml:id="sea" corresp="https://betamasaheft.eu/authority-files/sea/main">
+            <catDesc>sea</catDesc>
+         </category>
+         <category xml:id="cape" corresp="https://betamasaheft.eu/authority-files/cape/main">
+            <catDesc>cape</catDesc>
+         </category>
+         <category xml:id="chapel" corresp="https://betamasaheft.eu/authority-files/chapel/main">
+            <catDesc>chapel</catDesc>
+         </category>
+         <category xml:id="zoba" corresp="https://betamasaheft.eu/authority-files/zoba/main">
+            <catDesc>zobā</catDesc>
+         </category>
+         <category xml:id="neuszoba" corresp="https://betamasaheft.eu/authority-files/neuszoba/main">
+            <catDesc>nǝʾus zobā</catDesc>
+         </category>
+         <category xml:id="wadi" corresp="https://betamasaheft.eu/authority-files/wadi/main">
+            <catDesc>wādī</catDesc>
+         </category>
+         <category xml:id="dam" corresp="https://betamasaheft.eu/authority-files/dam/main">
+            <catDesc>dam</catDesc>
+         </category>
+         <category xml:id="quarter" corresp="https://betamasaheft.eu/authority-files/quarter/main">
+            <catDesc>quarter</catDesc>
+         </category>
+         <category xml:id="well" corresp="https://betamasaheft.eu/authority-files/well/main">
+            <catDesc>well</catDesc>
+         </category>
+         <category xml:id="awragga" corresp="https://betamasaheft.eu/authority-files/awragga/main">
+            <catDesc>ʾawrāǧǧā</catDesc>
+         </category>
+         <category xml:id="site" corresp="https://betamasaheft.eu/authority-files/site/main">
+            <catDesc>site</catDesc>
+         </category>
+         <category xml:id="katama" corresp="https://betamasaheft.eu/authority-files/katama/main">
+            <catDesc>katamā</catDesc>
+         </category>
+         <category xml:id="oasis" corresp="https://betamasaheft.eu/authority-files/oasis/main">
+            <catDesc>oasis</catDesc>
+         </category>
+         <category xml:id="gorge" corresp="https://betamasaheft.eu/authority-files/gorge/main">
+            <catDesc>gorge</catDesc>
+         </category>
+         <category xml:id="strait" corresp="https://betamasaheft.eu/authority-files/strait/main">
+            <catDesc>strait</catDesc>
+         </category>
+         <category xml:id="station" corresp="https://betamasaheft.eu/authority-files/station/main">
+            <catDesc>station</catDesc>
+         </category>
+         <category xml:id="post" corresp="https://betamasaheft.eu/authority-files/post/main">
+            <catDesc>post</catDesc>
+         </category>
+         <category xml:id="market" corresp="https://betamasaheft.eu/authority-files/market/main">
+            <catDesc>market</catDesc>
+         </category>
+         <category xml:id="temple" corresp="https://betamasaheft.eu/authority-files/temple/main">
+            <catDesc>temple</catDesc>
+         </category>
+         <category xml:id="planet" corresp="https://betamasaheft.eu/authority-files/planet/main">
+            <catDesc>planet</catDesc>
+         </category>
+         <category xml:id="fort" corresp="https://betamasaheft.eu/authority-files/fort/main">
+            <catDesc>fort</catDesc>
+         </category>
+         <category xml:id="farm" corresp="https://betamasaheft.eu/authority-files/farm/main">
+            <catDesc>farm</catDesc>
+         </category>
+         <category xml:id="desert" corresp="https://betamasaheft.eu/authority-files/desert/main">
+            <catDesc>desert</catDesc>
+         </category>
+         <category xml:id="cave" corresp="https://betamasaheft.eu/authority-files/cave/main">
+            <catDesc>cave</catDesc>
+         </category>
+         <category xml:id="gulf" corresp="https://betamasaheft.eu/authority-files/gulf/main">
+            <catDesc>gulf</catDesc>
+         </category>
+         <category xml:id="qabale" corresp="https://betamasaheft.eu/authority-files/qabale/main">
+            <catDesc>qabale</catDesc>
+         </category>
+         <category xml:id="peninsula" corresp="https://betamasaheft.eu/authority-files/peninsula/main">
+            <catDesc>peninsula</catDesc>
+         </category>
+         <category xml:id="castle" corresp="https://betamasaheft.eu/authority-files/castle/main">
+            <catDesc>castle</catDesc>
+         </category>
+         <category xml:id="bay" corresp="https://betamasaheft.eu/authority-files/bay/main">
+            <catDesc>bay</catDesc>
+         </category>
+         <category xml:id="academicInstitution" corresp="https://betamasaheft.eu/authority-files/academicInstitution/main">
+            <catDesc>academic institution</catDesc>
+         </category>
+         <category xml:id="library" corresp="https://betamasaheft.eu/authority-files/library/main">
+            <catDesc>library</catDesc>
+         </category>
+         <category xml:id="museum" corresp="https://betamasaheft.eu/authority-files/museum/main">
+            <catDesc>museum</catDesc>
+         </category>
+         <category xml:id="province" corresp="https://betamasaheft.eu/authority-files/province/main">
+            <catDesc>province</catDesc>
+         </category>
+         <category xml:id="depression" corresp="https://betamasaheft.eu/authority-files/depression/main">
+            <catDesc>depression</catDesc>
+         </category>
+         <category xml:id="privateHouse" corresp="https://betamasaheft.eu/authority-files/privateHouse/main">
+            <catDesc>Private House</catDesc>
+         </category>
+         <category xml:id="ford" corresp="https://betamasaheft.eu/authority-files/ford/main">
+            <catDesc>ford</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Confessions</desc>
+         <category xml:id="Christianity" corresp="https://betamasaheft.eu/authority-files/Christianity/main">
+            <catDesc>Christianity</catDesc>
+            <category xml:id="Catholicism" corresp="https://betamasaheft.eu/authority-files/Catholicism/main">
+               <catDesc>Catholicism</catDesc>
+            </category>
+            <category xml:id="Protestantism" corresp="https://betamasaheft.eu/authority-files/Protestantism/main">
+               <catDesc>Protestantism</catDesc>
+            </category>
+            <category xml:id="Anglican" corresp="https://betamasaheft.eu/authority-files/Anglican/main">
+               <catDesc>Anglican</catDesc>
+            </category>
+            <category xml:id="Orthodox" corresp="https://betamasaheft.eu/authority-files/Orthodox/main">
+               <catDesc>Orthodox</catDesc>
+               <category xml:id="EOTC" corresp="https://betamasaheft.eu/authority-files/EOTC/main">
+                  <catDesc>EOTC</catDesc>
+               </category>
+               <category xml:id="Coptic" corresp="https://betamasaheft.eu/authority-files/Coptic/main">
+                  <catDesc>Coptic</catDesc>
+               </category>
+               <category xml:id="Syriac" corresp="https://betamasaheft.eu/authority-files/Syriac/main">
+                  <catDesc>Syriac</catDesc>
+               </category>
+               <category xml:id="Greek" corresp="https://betamasaheft.eu/authority-files/Greek/main">
+                  <catDesc>Greek</catDesc>
+               </category>
+               <category xml:id="Russian" corresp="https://betamasaheft.eu/authority-files/Russian/main">
+                  <catDesc>Russian</catDesc>
+               </category>
+               <category xml:id="Armenian" corresp="https://betamasaheft.eu/authority-files/Armenian/main">
+                  <catDesc>Armenian</catDesc>
+               </category>
+            </category>
+         </category>
+         <category xml:id="Islam" corresp="https://betamasaheft.eu/authority-files/Islam/main">
+            <catDesc>Islam</catDesc>
+            <category xml:id="Sunni" corresp="https://betamasaheft.eu/authority-files/Sunni/main">
+               <catDesc>Sunni</catDesc>
+            </category>
+            <category xml:id="Shia" corresp="https://betamasaheft.eu/authority-files/Shia/main">
+               <catDesc>Shia</catDesc>
+            </category>
+         </category>
+         <category xml:id="Judaism" corresp="https://betamasaheft.eu/authority-files/Judaism/main">
+            <catDesc>Judaism</catDesc>
+         </category>
+         <category xml:id="Traditional" corresp="https://betamasaheft.eu/authority-files/Traditional/main">
+            <catDesc>Traditional</catDesc>
+         </category>
+         <category xml:id="Aksumite" corresp="https://betamasaheft.eu/authority-files/Aksumite/main">
+            <catDesc>Aksumite</catDesc>
+         </category>
+         <category xml:id="Oromo" corresp="https://betamasaheft.eu/authority-files/Oromo/main">
+            <catDesc>Oromo</catDesc>
+         </category>
+         <category xml:id="Gurage" corresp="https://betamasaheft.eu/authority-files/Gurage/main">
+            <catDesc>Gurage</catDesc>
+         </category>
+         <category xml:id="notSpecified" corresp="https://betamasaheft.eu/authority-files/notSpecified/main">
+            <catDesc>not Specified</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Subjects</desc>
+         <category xml:id="AmharicLiterature" corresp="https://betamasaheft.eu/authority-files/AmharicLiterature/main">
+            <catDesc>Amharic Literature</catDesc>
+         </category>
+         <!--mycore-->
+         <category xml:id="Apocrypha" corresp="https://betamasaheft.eu/authority-files/Apocrypha/main">
+            <catDesc>Apocrypha</catDesc>
+         </category>
+         <category xml:id="Miracle" corresp="https://betamasaheft.eu/authority-files/Miracle/main">
+            <catDesc>Miracle</catDesc>
+         </category>
+         <category xml:id="NewTestament" corresp="https://betamasaheft.eu/authority-files/NewTestament/main">
+            <catDesc>New Testament</catDesc>
+         </category>
+         <category xml:id="OldTestament" corresp="https://betamasaheft.eu/authority-files/OldTestament/main">
+            <catDesc>Old Testament</catDesc>
+         </category>
+         <category xml:id="BetaEsraelLiterature" corresp="https://betamasaheft.eu/authority-files/BetaEsraelLiterature/main">
+            <catDesc>Beta Esrael Literature</catDesc>
+         </category>
+         <category xml:id="Bible" corresp="https://betamasaheft.eu/authority-files/Bible/main">
+            <catDesc>Bible</catDesc>
+         </category>
+         <category xml:id="Biography" corresp="https://betamasaheft.eu/authority-files/Biography/main">
+            <catDesc>Biography</catDesc>
+         </category>
+         <category xml:id="CanonLaw" corresp="https://betamasaheft.eu/authority-files/CanonLaw/main">
+            <catDesc>Canon Law</catDesc>
+         </category>
+         <category xml:id="Commentary" corresp="https://betamasaheft.eu/authority-files/Commentary/main">
+            <catDesc>Commentary</catDesc>
+         </category>
+         <category xml:id="ChristianLiterature" corresp="https://betamasaheft.eu/authority-files/ChristianLiterature/main">
+            <catDesc>Christian Literature</catDesc>
+         </category>
+         <category xml:id="Chronography" corresp="https://betamasaheft.eu/authority-files/Chronography/main">
+            <catDesc>Chronography</catDesc>
+         </category>
+         <category xml:id="Fiction" corresp="https://betamasaheft.eu/authority-files/Fiction/main">
+            <catDesc>Fiction</catDesc>
+         </category>
+         <category xml:id="Hagiography" corresp="https://betamasaheft.eu/authority-files/Hagiography/main">
+            <catDesc>Hagiography</catDesc>
+         </category>
+         <category xml:id="HistoryAndHistoriography" corresp="https://betamasaheft.eu/authority-files/HistoryAndHistoriography/main">
+            <catDesc>History and Historiography</catDesc>
+         </category>
+         <category xml:id="Chronicles" corresp="https://betamasaheft.eu/authority-files/Chronicles/main">
+            <catDesc>Chronicles</catDesc>
+         </category>
+         <category xml:id="generalRecord" corresp="https://betamasaheft.eu/authority-files/generalRecord/main">
+            <catDesc>General Record</catDesc>
+         </category>
+         <category xml:id="Homily" corresp="https://betamasaheft.eu/authority-files/Homily/main">
+            <catDesc>Homily</catDesc>
+         </category>
+         <category xml:id="IslamicLiterature" corresp="https://betamasaheft.eu/authority-files/IslamicLiterature/main">
+            <catDesc>Islamic Literature</catDesc>
+         </category>
+         <category xml:id="Koran" corresp="https://betamasaheft.eu/authority-files/Koran/main">
+            <catDesc>Koran</catDesc>
+         </category>
+         <category xml:id="LegalDocument" corresp="https://betamasaheft.eu/authority-files/LegalDocument/main">
+            <catDesc>Legal Document</catDesc>
+         </category>
+         <category xml:id="Liturgy" corresp="https://betamasaheft.eu/authority-files/Liturgy/main">
+            <catDesc>Liturgy</catDesc>
+         </category>
+         <category xml:id="Chants" corresp="https://betamasaheft.eu/authority-files/Chants/main">
+            <catDesc>Chants</catDesc>
+         </category>
+         <category xml:id="Lectionary" corresp="https://betamasaheft.eu/authority-files/Lectionary/main">
+            <catDesc>Lectionary</catDesc>
+         </category>
+         <category xml:id="Missal" corresp="https://betamasaheft.eu/authority-files/Missal/main">
+            <catDesc>Missal</catDesc>
+         </category>
+         <category xml:id="Rituals" corresp="https://betamasaheft.eu/authority-files/Rituals/main">
+            <catDesc>Rituals</catDesc>
+         </category>
+         <category xml:id="RitualsAndRites" corresp="https://betamasaheft.eu/authority-files/RitualsAndRites/main">
+            <catDesc>Rituals and Rites</catDesc>
+         </category>
+         <category xml:id="Study" corresp="https://betamasaheft.eu/authority-files/Study/main">
+            <catDesc>Study</catDesc>
+         </category>
+         <category xml:id="TigrinyaLiterature" corresp="https://betamasaheft.eu/authority-files/TigrinyaLiterature/main">
+            <catDesc>Tigrinya Literature</catDesc>
+         </category>
+         <category xml:id="Translation" corresp="https://betamasaheft.eu/authority-files/Translation/main">
+            <catDesc>Translation</catDesc>
+         </category>
+         <category xml:id="Vocabulary" corresp="https://betamasaheft.eu/authority-files/Vocabulary/main">
+            <catDesc>Vocabulary</catDesc>
+         </category>
+         <category xml:id="Magic" corresp="https://betamasaheft.eu/authority-files/Magic/main">
+            <catDesc>Magic</catDesc>
+         </category>
+         <category xml:id="Medicine" corresp="https://betamasaheft.eu/authority-files/Medicine/main">
+            <catDesc>Medicine</catDesc>
+         </category>
+         <category xml:id="Miscellanea" corresp="https://betamasaheft.eu/authority-files/Miscellanea/main">
+            <catDesc>Miscellanea</catDesc>
+         </category>
+         <category xml:id="MonasticLiterature" corresp="https://betamasaheft.eu/authority-files/MonasticLiterature/main">
+            <catDesc>Monastic Literature</catDesc>
+         </category>
+         <category xml:id="NaturalSciences" corresp="https://betamasaheft.eu/authority-files/NaturalSciences/main">
+            <catDesc>Natural Sciences</catDesc>
+         </category>
+         <category xml:id="Philosophy" corresp="https://betamasaheft.eu/authority-files/Philosophy/main">
+            <catDesc>Philosophy</catDesc>
+         </category>
+         <category xml:id="Poetry" corresp="https://betamasaheft.eu/authority-files/Poetry/main">
+            <catDesc>Poetry</catDesc>
+         </category>
+         <category xml:id="Prayers" corresp="https://betamasaheft.eu/authority-files/Prayers/main">
+            <catDesc>Prayers</catDesc>
+         </category>
+         <category xml:id="Qene" corresp="https://betamasaheft.eu/authority-files/Qene/main">
+            <catDesc>Qǝne</catDesc>
+         </category>
+         <category xml:id="Religion" corresp="https://betamasaheft.eu/authority-files/Religion/main">
+            <catDesc>Religion</catDesc>
+         </category>
+         <category xml:id="Theology" corresp="https://betamasaheft.eu/authority-files/Theology/main">
+            <catDesc>Theology</catDesc>
+         </category>
+         <category xml:id="ChristianContent" corresp="https://betamasaheft.eu/authority-files/ChristianContent/main">
+            <catDesc>Christian Content</catDesc>
+         </category>
+         <category xml:id="ApocalypticLiterature" corresp="https://betamasaheft.eu/authority-files/ApocalypticLiterature/main">
+            <catDesc>Apocalyptic Literature</catDesc>
+         </category>
+         <category xml:id="DidacticMaterial" corresp="https://betamasaheft.eu/authority-files/DidacticMaterial/main">
+            <catDesc>Didactic Material</catDesc>
+         </category>
+      </category>
+       <category>
+          <desc>IslHornAfr</desc>
+          <category xml:id="prose" corresp="https://betamasaheft.eu/authority-files/prose/main">
+             <catDesc>prose in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Jurisprudence" corresp="https://betamasaheft.eu/authority-files/Jurisprudence/main">
+             <catDesc>Jurisprudence in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Devotional" corresp="https://betamasaheft.eu/authority-files/Devotional/main">
+             <catDesc>Devotional in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Linguistics" corresp="https://betamasaheft.eu/authority-files/Linguistics/main">
+             <catDesc>Linguistics in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Ethics" corresp="https://betamasaheft.eu/authority-files/Ethics/main">
+             <catDesc>Ethics in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Belief" corresp="https://betamasaheft.eu/authority-files/Belief/main">
+             <catDesc>Belief in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Adab" corresp="https://betamasaheft.eu/authority-files/Adab/main">
+             <catDesc>Adab in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Documentary" corresp="https://betamasaheft.eu/authority-files/Documentary/main">
+             <catDesc>Documentary in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Fadail" corresp="https://betamasaheft.eu/authority-files/Fadail/main">
+             <catDesc>Fadail in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Fawaid_Masail" corresp="https://betamasaheft.eu/authority-files/Fawaid_Masail/main">
+             <catDesc>Fawaid_Masail in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Geography" corresp="https://betamasaheft.eu/authority-files/Geography/main">
+             <catDesc>Geography in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Hadit" corresp="https://betamasaheft.eu/authority-files/Hadit/main">
+             <catDesc>Hadit in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="History" corresp="https://betamasaheft.eu/authority-files/Hadit/main">
+             <catDesc>History in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Natural_Sciences" corresp="https://betamasaheft.eu/authority-files/Natural_Sciences/main">
+             <catDesc>Natural_Sciences in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Preaching" corresp="https://betamasaheft.eu/authority-files/Preaching/main">
+             <catDesc>Preaching in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Quran" corresp="https://betamasaheft.eu/authority-files/Quran/main">
+             <catDesc>Quran in IslHornAfr</catDesc>
+          </category>
+       </category>
+      <category>
+         <desc>rubrication</desc>
+         <category xml:id="beginnings" corresp="https://betamasaheft.eu/authority-files/beginnings/main">
+            <catDesc>Beginnings</catDesc>
+         </category>
+         <category xml:id="titles" corresp="https://betamasaheft.eu/authority-files/titles/main">
+            <catDesc>Titles</catDesc>
+         </category>
+         <category xml:id="runningTitles" corresp="https://betamasaheft.eu/authority-files/runningTitles/main">
+            <catDesc>Running Titles</catDesc>
+         </category>
+         <category xml:id="abbreviations" corresp="https://betamasaheft.eu/authority-files/abbreviations/main">
+            <catDesc>Abbreviations</catDesc>
+         </category>
+         <category xml:id="divineNames" corresp="https://betamasaheft.eu/authority-files/divineNames/main">
+            <catDesc>Divine Names</catDesc>
+         </category>
+         <category xml:id="donorsNames" corresp="https://betamasaheft.eu/authority-files/donorsNames/main">
+            <catDesc>Donors Names</catDesc>
+         </category>
+         <category xml:id="nameOfProtagonist" corresp="https://betamasaheft.eu/authority-files/nameOfProtagonist/main">
+            <catDesc>Name of the Protagonist</catDesc>
+         </category>
+         <category xml:id="elementsOfPunctuation" corresp="https://betamasaheft.eu/authority-files/elementsOfPunctuation/main">
+            <catDesc>Elements of Punctuation</catDesc>
+         </category>
+         <category xml:id="elementsOfDigits" corresp="https://betamasaheft.eu/authority-files/elementsOfDigits/main">
+            <catDesc>Elements of Digits</catDesc>
+         </category>
+         <category xml:id="otherNames" corresp="https://betamasaheft.eu/authority-files/otherNames/main">
+            <catDesc>Other Names</catDesc>
+         </category>
+         <category xml:id="otherWords" corresp="https://betamasaheft.eu/authority-files/otherWords/main">
+            <catDesc>Other Words</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Feasts</desc>
+         <category xml:id="Christian" corresp="https://betamasaheft.eu/authority-files/Christian/main">
+            <catDesc>Christian</catDesc>
+            <category xml:id="AbrehawaAsbeha" corresp="https://betamasaheft.eu/authority-files/AbrehawaAsbeha/main">
+               <catDesc>ʾAbrǝhā wa-ʾAṣbǝḥā</catDesc>
+            </category>
+            <category xml:id="Advent" corresp="https://betamasaheft.eu/authority-files/Advent/main">
+               <catDesc>Advent</catDesc>
+            </category>
+            <category xml:id="Amanuel" corresp="https://betamasaheft.eu/authority-files/Amanuel/main">
+               <catDesc>ʾAmānuʾel</catDesc>
+            </category>
+            <category xml:id="Astamhero" corresp="https://betamasaheft.eu/authority-files/Astamhero/main">
+               <catDesc>ʾAstamḥǝro</catDesc>
+            </category>
+            <category xml:id="Astareeyo" corresp="https://betamasaheft.eu/authority-files/Astareeyo/main">
+               <catDesc>ʾAstarǝʾǝyo</catDesc>
+            </category>
+            <category xml:id="Astasreyo" corresp="https://betamasaheft.eu/authority-files/Astasreyo/main">
+               <catDesc>ʾAstasrǝyo</catDesc>
+            </category>
+            <category xml:id="Aynakwellu" corresp="https://betamasaheft.eu/authority-files/Aynakwellu/main">
+               <catDesc>ʿAyna kʷǝllu</catDesc>
+            </category>
+            <category xml:id="BaalaEgzi" corresp="https://betamasaheft.eu/authority-files/BaalaEgzi/main">
+               <catDesc>Baʿāla ʾƎgziʾ</catDesc>
+            </category>
+            <category xml:id="BaalaNegestu" corresp="https://betamasaheft.eu/authority-files/BaalaNegestu/main">
+               <catDesc>Baʿāla Nǝgǝśtu </catDesc>
+            </category>
+            <category xml:id="Baata" corresp="https://betamasaheft.eu/authority-files/Baata/main">
+               <catDesc>Baʿātā</catDesc>
+            </category>
+            <category xml:id="BaataGebs" corresp="https://betamasaheft.eu/authority-files/BaataGebs/main">
+               <catDesc>Baʿātā Gǝbṣ</catDesc>
+            </category>
+            <category xml:id="Baptism" corresp="https://betamasaheft.eu/authority-files/Baptism/main">
+               <catDesc>Baptism</catDesc>
+            </category>
+            <category xml:id="Barakaegziena" corresp="https://betamasaheft.eu/authority-files/Barakaegziena/main">
+               <catDesc>Bāraka ʾǝgziʾǝna</catDesc>
+            </category>
+            <category xml:id="Berhansaraqa" corresp="https://betamasaheft.eu/authority-files/Berhansaraqa/main">
+               <catDesc>Bǝrhān śaraqa</catDesc>
+            </category>
+            <category xml:id="BezuhanMaryam" corresp="https://betamasaheft.eu/authority-files/BezuhanMaryam/main">
+               <catDesc>Bǝzuḫān Māryām</catDesc>
+            </category>
+            <category xml:id="Berhan" corresp="https://betamasaheft.eu/authority-files/Berhan/main">
+               <catDesc>Bǝrhān</catDesc>
+            </category>
+            <category xml:id="CanaofGalilee" corresp="https://betamasaheft.eu/authority-files/CanaofGalilee/main">
+               <catDesc>Cana of Galilee</catDesc>
+            </category>
+            <category xml:id="ChristmasLedat" corresp="https://betamasaheft.eu/authority-files/ChristmasLedat/main">
+               <catDesc>Christmas Lǝdat</catDesc>
+            </category>
+            <category xml:id="CrucifixionSeqlat" corresp="https://betamasaheft.eu/authority-files/CrucifixionSeqlat/main">
+               <catDesc>Crucifixion Sǝqlat</catDesc>
+            </category>
+            <category xml:id="DabraMetmaq" corresp="https://betamasaheft.eu/authority-files/DabraMetmaq/main">
+               <catDesc>Dabra Mǝṭmāq</catDesc>
+            </category>
+            <category xml:id="DabraQwesqwam" corresp="https://betamasaheft.eu/authority-files/DabraQwesqwam/main">
+               <catDesc>Dabra Qʷǝsqʷām</catDesc>
+            </category>
+            <category xml:id="DabraSeyon" corresp="https://betamasaheft.eu/authority-files/DabraSeyon/main">
+               <catDesc>Dabra Ṣǝyon</catDesc>
+            </category>
+            <category xml:id="DabraTabor" corresp="https://betamasaheft.eu/authority-files/DabraTabor/main">
+               <catDesc>Dabra Tābor</catDesc>
+            </category>
+            <category xml:id="DabraZayt" corresp="https://betamasaheft.eu/authority-files/DabraZayt/main">
+               <catDesc>Dabra Zayt</catDesc>
+            </category>
+            <category xml:id="Daqseyos" corresp="https://betamasaheft.eu/authority-files/Daqseyos/main">
+               <catDesc>Daqsǝyos</catDesc>
+            </category>
+            <category xml:id="Easter" corresp="https://betamasaheft.eu/authority-files/Easter/main">
+               <catDesc>Easter</catDesc>
+            </category>
+            <category xml:id="Erafta" corresp="https://betamasaheft.eu/authority-files/Erafta/main">
+               <catDesc>ʿƎraftā</catDesc>
+            </category>
+            <category xml:id="Ergata" corresp="https://betamasaheft.eu/authority-files/Ergata/main">
+               <catDesc>ʿƎrgatā</catDesc>
+            </category>
+            <category xml:id="Felsata" corresp="https://betamasaheft.eu/authority-files/Felsata/main">
+               <catDesc>Fǝlsatā</catDesc>
+            </category>
+            <category xml:id="FlightintoEgypt" corresp="https://betamasaheft.eu/authority-files/FlightintoEgypt/main">
+               <catDesc>Flight into Egypt</catDesc>
+            </category>
+            <category xml:id="Ganna" corresp="https://betamasaheft.eu/authority-files/Ganna/main">
+               <catDesc>Gannā</catDesc>
+            </category>
+            <category xml:id="Gezrat" corresp="https://betamasaheft.eu/authority-files/Gezrat/main">
+               <catDesc>Gǝzrat</catDesc>
+            </category>
+            <category xml:id="Gubaeqana" corresp="https://betamasaheft.eu/authority-files/Gubaeqana/main">
+               <catDesc>Gubāʾe qānā</catDesc>
+            </category>
+            <category xml:id="Hanna" corresp="https://betamasaheft.eu/authority-files/Hanna/main">
+               <catDesc>Ḥānnā</catDesc>
+            </category>
+            <category xml:id="Lebbamedr" corresp="https://betamasaheft.eu/authority-files/Lebbamedr/main">
+               <catDesc>Lǝbba mǝdr</catDesc>
+            </category>
+            <category xml:id="Mabraq" corresp="https://betamasaheft.eu/authority-files/Mabraq/main">
+               <catDesc>Mabraq</catDesc>
+            </category>
+            <category xml:id="MadhaneAlam" corresp="https://betamasaheft.eu/authority-files/MadhaneAlam/main">
+               <catDesc>Madḫāne ʿĀlam</catDesc>
+            </category>
+            <category xml:id="Maedot" corresp="https://betamasaheft.eu/authority-files/Maedot/main">
+               <catDesc>Māʿǝdot</catDesc>
+            </category>
+            <category xml:id="Maerar" corresp="https://betamasaheft.eu/authority-files/Maerar/main">
+               <catDesc>Māʾǝrār</catDesc>
+            </category>
+            <category xml:id="MaryamSeyon" corresp="https://betamasaheft.eu/authority-files/MaryamSeyon/main">
+               <catDesc>Māryām Ṣǝyon</catDesc>
+            </category>
+            <category xml:id="Masqal" corresp="https://betamasaheft.eu/authority-files/Masqal/main">
+               <catDesc>Masqal</catDesc>
+            </category>
+            <category xml:id="NativityofMary" corresp="https://betamasaheft.eu/authority-files/NativityofMary/main">
+               <catDesc>Nativity of Mary</catDesc>
+            </category>
+            <category xml:id="CNewYear" corresp="https://betamasaheft.eu/authority-files/CNewYear/main">
+               <catDesc> New Year</catDesc>
+            </category>
+            <category xml:id="Nineveh" corresp="https://betamasaheft.eu/authority-files/Nineveh/main">
+               <catDesc>Nineveh</catDesc>
+            </category>
+            <category xml:id="PalmSunday" corresp="https://betamasaheft.eu/authority-files/PalmSunday/main">
+               <catDesc>Palm Sunday</catDesc>
+            </category>
+            <category xml:id="Pentecost" corresp="https://betamasaheft.eu/authority-files/Pentecost/main">
+               <catDesc>Pentecost</catDesc>
+            </category>
+            <category xml:id="Qedameseur" corresp="https://betamasaheft.eu/authority-files/Qedameseur/main">
+               <catDesc>Qǝdāme sǝʾur</catDesc>
+            </category>
+            <category xml:id="Qeddasebeta" corresp="https://betamasaheft.eu/authority-files/Qeddasebeta/main">
+               <catDesc>Qǝddāse beta</catDesc>
+            </category>
+            <category xml:id="Sawit" corresp="https://betamasaheft.eu/authority-files/Sawit/main">
+               <catDesc>Sawit</catDesc>
+            </category>
+            <category xml:id="Seddat" corresp="https://betamasaheft.eu/authority-files/Seddat/main">
+               <catDesc>Sǝddat</catDesc>
+            </category>
+            <category xml:id="Tadewos" corresp="https://betamasaheft.eu/authority-files/Tadewos/main">
+               <catDesc>Tādewos</catDesc>
+            </category>
+            <category xml:id="Tentasomaledat" corresp="https://betamasaheft.eu/authority-files/Tentasomaledat/main">
+               <catDesc>Ṭǝnta ṣoma lǝdat</catDesc>
+            </category>
+            <category xml:id="Tesbeet" corresp="https://betamasaheft.eu/authority-files/Tesbeet/main">
+               <catDesc>Tǝsbǝʾǝt</catDesc>
+            </category>
+            <category xml:id="Tomas" corresp="https://betamasaheft.eu/authority-files/Tomas/main">
+               <catDesc>Tomās</catDesc>
+            </category>
+         </category>
+         <category xml:id="Islamic" corresp="https://betamasaheft.eu/authority-files/Islamic/main">
+            <catDesc>Islamic</catDesc>
+            <category xml:id="Arafa" corresp="https://betamasaheft.eu/authority-files/Arafa/main">
+               <catDesc>Arafā</catDesc>
+            </category>
+            <category xml:id="Ashura" corresp="https://betamasaheft.eu/authority-files/Ashura/main">
+               <catDesc>ʿĀšūrāʾ</catDesc>
+            </category>
+            <category xml:id="Ayyamattashriq" corresp="https://betamasaheft.eu/authority-files/Ayyamattashriq/main">
+               <catDesc>ʾAyyām at-tašrīq</catDesc>
+            </category>
+            <category xml:id="Idaladha" corresp="https://betamasaheft.eu/authority-files/Idaladha/main">
+               <catDesc>ʿĪd al-aḍḥā</catDesc>
+            </category>
+            <category xml:id="Idalfitr" corresp="https://betamasaheft.eu/authority-files/Idalfitr/main">
+               <catDesc>ʿĪd al-fiṭr</catDesc>
+            </category>
+            <category xml:id="LaylatalBaraat" corresp="https://betamasaheft.eu/authority-files/LaylatalBaraat/main">
+               <catDesc>Laylatal-Baraʿat</catDesc>
+            </category>
+            <category xml:id="Laylatalqadr" corresp="https://betamasaheft.eu/authority-files/Laylatalqadr/main">
+               <catDesc>Laylat al-qadr</catDesc>
+            </category>
+            <category xml:id="Mawlid" corresp="https://betamasaheft.eu/authority-files/Mawlid/main">
+               <catDesc>Mawlid</catDesc>
+            </category>
+            <category xml:id="INewYear" corresp="https://betamasaheft.eu/authority-files/INewYear/main">
+               <catDesc>New Year</catDesc>
+            </category>
+            <category xml:id="Ramadan" corresp="https://betamasaheft.eu/authority-files/Ramadan/main">
+               <catDesc>Ramaḍān</catDesc>
+            </category>
+         </category>
+         <category xml:id="Jewish" corresp="https://betamasaheft.eu/authority-files/Jewish/main">
+            <catDesc>Jewish</catDesc>
+            <category xml:id="Hanukkah" corresp="https://betamasaheft.eu/authority-files/Hanukkah/main">
+               <catDesc>Hanukkah</catDesc>
+            </category>
+            <category xml:id="JNewYear" corresp="https://betamasaheft.eu/authority-files/JNewYear/main">
+               <catDesc>JNewYear</catDesc>
+            </category>
+            <category xml:id="Passover" corresp="https://betamasaheft.eu/authority-files/Passover/main">
+               <catDesc>Passover</catDesc>
+            </category>
+            <category xml:id="Purim" corresp="https://betamasaheft.eu/authority-files/Purim/main">
+               <catDesc>Purim</catDesc>
+            </category>
+            <category xml:id="Shavuot" corresp="https://betamasaheft.eu/authority-files/Shavuot/main">
+               <catDesc>Shavuot</catDesc>
+            </category>
+            <category xml:id="Tabernacles" corresp="https://betamasaheft.eu/authority-files/Tabernacles/main">
+               <catDesc>Tabernacles</catDesc>
+            </category>
+            <category xml:id="Yomkippur" corresp="https://betamasaheft.eu/authority-files/Yomkippur/main">
+               <catDesc>Yomkippur</catDesc>
+            </category>
+         </category>
+      </category>
+   </taxonomy>
+</classDecl><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="chapter" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item></list></desc><citeStructure unit="l" match="l" use="l"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item><item>25</item><item>26</item><item>27</item><item>28</item><item>29</item><item>30</item><item>31</item><item>32</item><item>33</item><item>34</item><item>35</item><item>36</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <profileDesc>
+         <creation/>
+         <abstract>
+            <p>The Second Ethiopian Maccabees Book, not one of those allegedly translated
+                  from Vulgata (<ref type="work" corresp="https://betamasaheft.eu/LIT1820Maccab">Maccabees, Book of (Vulgata)</ref>),
+                  such as <ref type="work" corresp="https://betamasaheft.eu/LIT4302Maccab1">1 Maccabees, Book of (Vulgata)</ref>,
+                   <ref type="work" corresp="https://betamasaheft.eu/LIT4303Maccab2">2 Maccabees, Book of (Vulgata)</ref>.</p>
+         </abstract>
+         <textClass>
+            <keywords>
+               <term key="ApocalypticLiterature" ana="#ApocalypticLiterature"/>
+               <term key="BetaEsraelLiterature" ana="#BetaEsraelLiterature"/>
+               <term key="Bible" ana="#Bible"/>
+               <term key="HistoryAndHistoriography" ana="#HistoryAndHistoriography"/>
+               <term key="OldTestament" ana="#OldTestament"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
+      <revisionDesc>
+         <change who="#DN" when="2020-02-25"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+         <change who="#ES" when="2025-06-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
+      </revisionDesc>
+   </teiHeader><standOff><listRelation>
+               <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT5840SecondEthioMaccabees" passive="https://betamasaheft.eu/BNFabb55"/>
+               <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT5840SecondEthioMaccabees" passive="https://betamasaheft.eu/LIT5841EthioMaccabBooks"/>
+            </listRelation></standOff><text>
+      <body>
+         <div type="bibliography">
+            
+         </div>
+         <div type="edition" xml:lang="gez">
+            <note>Text of the EOTC printed Bible</note>
+            <div type="textpart" subtype="chapter" n="1" xml:id="chapter1">
+               <label>Chapter 1</label>
+               <ab>
+                  <l n="1">በእንተ፡ ዘረከቦሙ፡ መቃቢስ፡ ለአይሁድ፡ በመሰጴጦምያ፡ ዘሶርያ፡ ወቀተሎሙ፡ በቍላ፡ ቲሆሙ፡ እስከ፡ ዓውደ፡ ለኢየሩሳሌም፡ እምኢያቦቅ፡ ወእምጥፍዓ፡ ለገረግ፡ ቅድስት።</l>
+                  <l n="2">እስመ፡ ተዓነዩ፡ እምሰማርያ፡ እሰ፡ ዓውደ፡ ለኢየሩሳሌም፡ ወኵሉ፡ አድያሚሃ፡ ወቀተሉ፡ በአፈ፡ ሐፂን፡ እስከ፡ ኢያትረፉ፡ ዘእንበለ፡ ኅዳጣን፡ እስመ፡ ኀብሩ፡ ኤዶማውያን፡ ወሶር፡ ያውያን፡ ወአማሌቃውያን፡ ምስለ፡ ሞዓባዊ፡ መቃብሰ፡ ዘአጥፍአ፡ ሀገረ፡ ኢየሩሳሌም።</l>
+                  <l n="3">ወሶበ፡ አበሱ፡ ደቂቀ፡ እስራኤል፡ ፈነወ፡ ሎሙ፡ ሞዓባዊ፡ መቃቢስሃ፡ ወቀተሎሙ፡ ለኵ፡ ሎሙ፡ በመጥባሕት።</l>
+                  <l n="4">ወበእንተዝ፡ ነገር፡ ወውዑ፡ ፀረ፡ እግዚአብሔር፡ ላዕለ፡ ሀገሩ፡ ቅድስት፡ ወተሰካተዩ፡ በማዕሌቶሙ።</l>
+                  <l n="5">ወተዓነዩ፡ ኤዶማውያን፡ ወኤሎፍሊ፡ ወአኀዘ፡ ይትበቀሉ፡ ሀገረ፡ እግዚአብሔር፡ እስመ፡ ለሊሁ፡ ፈነዎሙ፡ በእንተ፡ ዘተዓየሩ፡ ቃለ፡ እግዚአብሔር።</l>
+                  <l n="6">ወውእቱሰ፡ መቃቢስ፡ ሀገሩ፡ ሬማት፡ ዘሞዓብ፡ ወተንሥአ፡ በኃይል፡ እምሀገሩ፡ ወተሰካተየ፡ ምስለ፡ እለ፡ ምስሌሁ።</l>
+                  <l n="7">ወተዓየኑ፡ ቍላተ፡ ጌላቡሄ፡ ዘመስጴጦምያ፡ እስከ፡ ሶርያ፡ ከመ፡ ያጥፍኡ፡ ሀገረ፡ እግዚአብሔር፡ ወእምህየ፡ ሰአለ፡ ኤሎፍላውያነ፡ ወአማሌቃውያነ፡ ወወሀቦሙ፡ ብዙኃ፡ ወርቀ፡ ወብሩረ፡ ወአፍራሰ፡ ወሠረገላተ፡ ከመ፡ ይኩኑ፡ ምስሌሁ፡ ውስተ፡ ማዕሌት።</l>
+                  <l n="8">ወመጽኡ፡ ኅቡረ፡ ወኵዓትዋ፡ ለሀገረ፡ ወከዓዉ፡ ደሞሙ፡ ከመ፡ ማይ፡ ለእለ፡ ይነብሩ፡ ውስቴታ።</l>
+                  <l n="9">ወረስይዋ፡ ለኢየሩሳሌም፡ ከመ፡ ልገተ፡ ዓቃቤ፡ ቀምሕ፡ ወገብረ፡ ውስቴታ፡ ኵስሐ፡ ወዝብለ፡ ወኵሎ፡ ዘኢይሠምር፡ እግዚአብሔር፡ ምግባረ፡ ፁግ፡ ወአርኩሱ፡ ሀገረ፡ እግዚአብሔር፡ እንተ፡ ምልዕት፡ ጽድቀ፡ ወቅድሳተ።</l>
+                  <l n="10">ወረሰዩ፡ አብድንቲሆሙ፡ ለአግብርቲከ፡ መብልዓ፡ ለአዕዋፈ፡ ሰማይ፡ ወሥጋሆሙኒ፡ ለጻድቃኒከ፡ ለአራዊተ፡ ገዳም።</l>
+                  <l n="11">ወተአገሉ፡ ዕቢረ፡ ወእጓለ፡ ማውታ፡ ወለፅኑሳትኒ፡ አውፅኡ፡ ዘውስተ፡ ከርሦን፡ እስከ፡ ይትመዓዕ፡ እግዚአብሔር፡ ዘይፈትን፡ ልበ፡ ወኵልያተ፡ እስመ፡ ዘእንበለ፡ ፍርሃተ፡ እግዚአብሔር፡ ገብሩ፡ በከመ፡ መሐሮሙ፡ ሰይጣን።</l>
+                  <l n="12">ወተመይጡ፡ ውስተ፡ አድዋሌሆሙ፡ እንዝ፡ ይትፌሥሑ፡ በእንተ፡ ዘገብሩ፡ እኩየ፡ ላዕለ፡ ሕዝበ፡ እግዚአብሔር፡ ወነሥአ፡ ፄዋ፡ ወምህርካ፡ ዘማህርኩ፡ እምቅድስት፡ ሀገር።</l>
+                  <l n="13">ወሶበ፡ አተዉ፡ ወገብዑ፡ ውስተ፡ ማኅደሪሆሙ፡ ወገብሩ፡ ፍስሐ፡ ወፋሕለ፡ ወማዕሌተ።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="2" xml:id="chapter2">
+               <label>Chapter 2</label>
+               <ab>
+                  <l n="1">ወከመዝ፡ ይቤሎ፡ ነቢይ፡ ረዓይ፡ ዘይብልዎ፡ ይእዜሰ፡ ተፈሣሕ፡ ኅዳጠ፡ በብርሃነ፡ ሰዓት፡ ወሀለዎ፡ ይትበቀለከ፡ እግዚአብሔር፡ ቅዱስ፡ እስራኤል፡ በዘኢተሐዘብከ፡ ገጽ።</l>
+                  <l n="2">ተብለነ፡ ረዋጽያነ፡ አፍራስየ፡ ወበእንተዝ፡ አመሥጥ፡ በበዲር።</l>
+                  <l n="3">ወአንሰ፡ እብአከ፡ እምአንስርት፡ ይረውፁ፡ እለ፡ ይዴግኑከ፡ ወኢታመሥጥ፡ እመንሱት፡ ወመዓተ፡ እግዚአብሔር፡ ዘላዕሌከ።</l>
+                  <l n="4">ወትብልኑ፡ እለብስ፡ ሐፂነ፡ ወኢይክለኒ፡ ሂጵተ፡ ቀስት፡ ወደርብዮ፡ ኵያንው፡ ወአክኮኪ፡ ከማሁ፡ በደርብዮ፡ ሐፂን፡ ዘኢትቤቀለከ፡ ይቤ፡ እግዚአብሔር፡ ቅዱሰ፡ እስራኤል፡ አላ፡ አመጽእ፡ እኪተ፡ ሕማመ፡ ውስተ፡ ልብከ፡ ዘየአኪ፡ እምሄጳተ፡ ቀስት፡ ወደርብዮ፡ ኵናት፡ ወደዌ፡ ሲሕ፡ ወአበቅ።</l>
+                  <l n="5">ወአመጽእ፡ እኪተ፡ ሕማመ፡ ውስተ፡ ልብከ፡ ወተኃጥእ፡ ዘይረድአከ፡ ወኢትረክብ፡ እስመ፡ ወሀከ፡ መዓትየ፡ ወኢታመሥጥ፡ እምእዴየ፡ እስከ፡ አጥፍዕ፡ እምድር፡ ዝክረከ።</l>
+                  <l n="6">ወተአምረኒ፡ ከመ፡ አነ፡ እግዚአብሔር፡ ፈጣሪከ፡ ሶበ፡ አገብሮ፡ ለዝንቱ፡ ነገር፡ ፍጡነ፡ ከመ፡ ቅጽበተ፡ ዓይን፡ እስመ፡ አንተ፡ አግዘፍከ፡ ክሣድከ፡ ወአልዓልከ፡ ርእሰከ፡ ዲበ፡ ሀገርየ፡ እስመ፡ አንተ፡ ከመ፡ ሣዕር፡ ዘቅድመ፡ ገጸ፡ ነፋስ፡ ዘይበልዖ፡ እሳት፡ በቅድመ፡ አዕይን፡ ትየ፡ ወከመ፡ ሐመድ፡ ዘይነሥእዎ፡ ነፋሳት፡ ወአውሎ፡ እምቅድመ፡ ገጸ፡ ምድር፡ ከማሁ፡ አንተ፡ በኀቤየ።</l>
+                  <l n="7">እስመ፡ ወሀኮ፡ መዓትየ፡ ወኢያእመርከ፡ ፈጣሬ፡ ዚአከ፡ ወአነሂ፡ ኢትኄየዮ፡ ለኵሉ፡ ዘዚአከ፡ ወኢያተርፍ፡ ዘያስተአዝብ፡ በኵሉ፡ አድባሪከ።</l>
+                  <l n="8">ወይእዜኒ፡ ነስሕ፡ እምነ፡ ኵሉ፡ እኩይ፡ ዘገበርከ፡ ወለእመ፡ ነሳሕከ፡ ወተጋነይከ፡ በቅድመ፡ እግዚአብሔር፡ በአንብዕ፡ ወበብካይ፡ ወሰአልከ፡ ኀቤሁ፡ በንጹሕ፡ ልብ፡ ይትዓደዋ፡ እግዚአብሔር፡ ለኃጢአትከ፡ በኵሉ፡ ዘአበስከ፡ በቅድሜሁ።</l>
+                  <l n="9">ወውእተ፡ ጊዜ፡ በከየ፡ መቃቢስ፡ ቅድመ፡ እግዚአብሔር፡ በእንተ፡ ኃጢአቱ፡ ወለብሰ፡ ሐመደ፡ እስመ፡ ተምዕዖ፡ እግዚአብሔር።</l>
+                  <l n="10">ወአእመረ፡ ከመ፡ ኢያጐነዲ፡ እግዚአብሔር፡ እኪተ፡ ዘነበበ፡ በአፈ፡ ነቢዩ፡ እስመ፡ ትጉሕ፡ አዕይንቲሁ፡ ወኢይነውም፡ ወክሡት፡ ዕዘኒሁ፡ ወኢይጸመም፡ ወኢትሔሱ፡ ቃለ፡ ዘነበበ፡ ወይገብራ፡ በአሐቲ፡ ጊዜ፡ ከመ፡ ቅጽበተ፡ ዓይን።</l>
+                  <l n="11">ወገደፈ፡ አልባሲሁ፡ ወለብሰ፡ ሠቅ፡ ጸጕር፡ ወወደየ፡ ሐመደ፡ ዲበ፡ ርእሱ፡ ወበከየ፡ ወገዓረ፡ ቅድመ፡ እግዚአብሔር፡ አምላኩ፡ በእንተ፡ ዘገብረ፡ እኩየ።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="3" xml:id="chapter3">
+               <label>Chapter 3</label>
+               <ab>
+                  <l n="1">ወነበቦ፡ ነቢይ፡ እስመ፡ ቀሩብ፡ ሬማት፡ ዘሞዓብ፡ ለሶርያ።</l>
+                  <l n="2">ወከረየ፡ ምድረ፡ ወቦአ፡ እስከ፡ ክሣዱ፡ ወበከየ፡ ብካየ፡ መሪረ፡ ወነስሐ፡ በእንተ፡ ዘገብረ፡ ኃጢአተ፡ በቅድመ፡ እግዚአብሔር።</l>
+                  <l n="3">ወከመዝ፡ ይቤሎ፡ ለነቢይ፡ እግዚአብሔር፡ ኀበ፡ ምድር፡ ይሁዳ፡ ግባዕ፡ ኀበ፡ ምድረ፡ ሬማት፡ ኀበ፡ መቃቢስ፡ መኰንነ፡ ሞዓብ፡ ወበሉ፡ ከመዝ፡ ይቤ፡ እግዚአብሔር፡ እስመ፡ አኮ፡ ዘገበርካሁ፡ አንተ፡ ለዝንቱ፡ ከመ፡ ኢትበልዕ፡ በፅንዓ፡ ኃይልየ፡ ወበትዕይንትየ፡ አጥፋዕክዋ፡ ለሀገር፡ ቅድስት፡ አላ፡ አነ፡ ውእቱ፡ እግዚአብሔር፡ መላኬ፡ ዚአከ፡ ለልየ፡ በፈቃድየ፡ ፈነውኩከ፡ ከመ፡ ታጥፍእ፡ ሀገርየ።</l>
+                  <l n="4">እስመ፡ እምዕዓተኒ፡ በኵሉ፡ ስስዕታ፡ ወዝሙታ፡ ወጽልሑታ።</l>
+                  <l n="5">ወአነፂ፡ ተሐየይክዋ፡ ወመጠውክዋ፡ ውስተ፡ እዴከ፡ ወአኮ፡ በእንቲአከ፡ ዘአግዘፍከ፡ ክሣደከ፡ ወትቤ፡ አነ፡ ሮድክዋ፡ ለሀገር፡ በጽንዓ፡ እዴየ፡ ወይእዜኒ፡ በእንተ፡ ደቂቅከ፡ እለ፡ ወለድኮ፡ ተዓደዋ፡ እግዚአብሔር፡ ለኃጢአትከ።</l>
+                  <l n="6">ወይእዜኒ፡ ነስሕ፡ በኵሉ፡ ልብከ፡ ወጥባዕ፡ ወኢትኩን፡ ንፉቀ፡ እስመ፡ እለ፡ ይናፍቁ፡ ኢያጠብዑ፡ ለንስሐ።</l>
+                  <l n="7">ወብፁዓንሰ፡ እለ፡ ይኔስሑ፡ በኵሉ፡ ልቦሙ፡ ወኢይትመየጡ፡ ኀበ፡ ጹግ፡ ወኃጢአት፡ በኵሉ፡ ዘይኔስሑ፡ በእንተ፡ እከዮሙ።</l>
+                  <l n="8">ወይጠብዑ፡ በብካይ፡ ወበአንብዕ፡ ወበስኢል፡ ብዙኅ፡ ወበሰጊድ፡ ኀበ፡ እግዚአብሔር፡ ዘፈ፡ ጠሮሙ፡ እስመ፡ ይቤሎሙ፡ ለነሳሕያን፡ አንትሙ፡ እምድኅረ፡ ስሕትክሙ፡ ወነሳሕክሙ፡ እሊዓየ፡ አንትሙ።</l>
+                  <l n="9">ወለዕቡይኒ፡ ይቤሎ፡ እምድኅረ፡ ስሕተ፡ ሶበ፡ ገብዓ፡ ኀቤሁ፡ በንስሐ፡ በእንተ፡ ድንጋፄከ፡ ወበፍርሃትከ፡ እትዓደዋ፡ ለኃጢአትከ፡ እስመ፡ አነ፡ እግዚአብሔር፡ መሳኬ፡ ዚአከ፡ ዘእፈዱ፡ ኃጢአተ፡ አብ፡ ላዕለ፡ ውሉድ፡ እስከ፡ ሣልስ፡ ወእስከ፡ ራብዕ፡ ትውልድ፡ ወለእለሰ፡ ያፈቅሩኒ፡ ወየዓቅቡ፡ ትእዛዝየ፡ እገብር፡ ምሕረተ፡ ምስሌሆሙ፡ እስከ፡ ))፡ ትውልድ።</l>
+                  <l n="10">ወይእዜኒ፡ በእንተ፡ እሉ፡ ደቂቅከ፡ እለ፡ ወለድከ፡ አዓቅብ፡ ኪዳንየ፡ ዘምስሌከ፡ ወእትዌከፍ፡ ንስሐ፡ ዘገበርኩ፡ በእንተ፡ እከየ፡ ምግባሪከ፡ ይቤ፡ እግዚአብሔር፡ ቅዱስ፡ እስራኤል፡ ዘክሉይመልክ።</l>
+                  <l n="11">ወውእተ፡ ጊዜ፡ ወጽአ፡ እምግብ፡ ወሰገደ፡ ለነቢይ፡ እንዘ፡ ይብል፡ ከመዝ፡ ወከመዝ፡ ለይረሰየኒ፡ እግዚአብሔር፡ ከመ፡ ኢይትፈለጥ፡ እምኔከ፡ አላ፡ ረሰየኒ፡ ዘፍቀድከ፡ እስመ፡ አነ፡ አምዓዕክዎ፡ ለእግዚአብሔር፡ ወኢሖርኩ፡ በትእዛኡ፡ ከመ፡ አበውየ፡ እስመ፡ ንሕነሰ፡ አልብነ፡ ሕግ፡ ወለሊከ፡ ተአምር፡ ከመ፡ ናመልክ፡ ጣዖተ፡ በከመ፡ መሐሩነ፡ አበዊነ።</l>
+                  <l n="12">ወአነሰ፡ ኢሰማዕኩ፡ ቃለ፡ ነቢያቲሁ፡ ለእግዚአብሔር፡ እሰከ፡ ይእዜ፡ እስመ፡ ኃጥእ፡ አነ፡ ዘሖርኩ፡ በኃጢአትየ፡ ወበትዕቢተ፡ ልብየ፡ ወበግዝፈተ፡ ክሣድየ፡ ዘአምዓዕኩ፡ ትእዛዘ፡ እግዚአብሔር፡ ወኢሖርኩ፡ በትእዛዙ፡ ወኵነኔሁ፡ ዘአዘዘኒ።</l>
+                  <l n="13">ወአውሥአ፡ ነቢይ፡ ወይቤሎ፡ አእመርኩ፡ ከመ፡ ይእዜ፡ ተወክፈ፡ ንስሐከ፡ እስመ፡ አልቦ፡ እምቅድሜክሙ፡ ዘይትአመና፡ ለኣጢአቱ፡ እምዘመድክሙ።</l>
+                  <l n="14">ወእምይእዜሰ፡ ኅድግ፡ አምልኮተ፡ ጣዖት፡ ወተመይጥ፡ ውስተ፡ አእምሮ፡ እግዚአብሔር፡ ከመ፡ ይኩን፡ ንስሐከ፡ ዘበአማን፡ ወሰገደ፡ ታሕተ፡ እገሪሁ፡ ለነቢይ፡ ወአንሥአ፡ ነቢይ፡ ወአዘዞ፡ ኵሎ፡ ዘይደሉ፡ ምግባረ፡ ሠናይ።</l>
+                  <l n="15">ወገብረ፡ በከመ፡ አዘዞ፡ እግዚአብሔር፡ ወገብአ፡ ውስተ፡ ቤቱ።</l>
+                  <l n="16">ወውእቱኒ፡ መቃቢስ፡ አርትዓ፡ ለነፍሱ፡ ውአሰሰለ፡ እምቤቱ፡ ኵሎ፡ ሰገለ፡ ወጠዖተ፡ ወማርያነ፡ ወመጥዓውያን፡ ወመሰግላን።</l>
+                  <l n="17">ወደቂቀ፡ ፂዋኒ፡ እለ፡ አምጽኦሙ፡ እምኢየሩሳሌም፡ የሐትቶሙ፡ ሠርከ፡ ወነግሃ፡ ኵሎ፡ ትእዛዘ፡ እግዚአብሔር፡ ወሕጎ፡ ወሥርዓቶ፡ በከመ፡ ይገብሩ፡ አበዊሆሙ።</l>
+                  <l n="18">ወሤመ፡ እምደቂቀ፡ ፄዋ፡ እምጠቢባን፡ ውስተ፡ ቤቱ።</l>
+                  <l n="19">ወካዕበ፡ እምንዑሳን፡ እምጠቢባኒሆሙ፡ ሢመ፡ በዋዕያነ፡ ውስተ፡ ምስካቡ፡ እለ፡ የዓቅቡ፡ ንዑሳነ፡ ደቂቆ፡ መሐዘኒሆሙ፡ ከመ፡ ይምሐርዎሙ፡ ፍኖተ፡ እግዚአብሔር፡ በከመ፡ ገብሩ፡ ደቂቀ፡ እስራኤል፡ ሕጎ፡ ወሥርዓቶ፡ ወኵነኔንሁ፡ ወፍትሐ፡ ወኵሎ፡ ምሕራማቲሆሙ፡ ዘይትሔረሙ፡ ሞዓባውያን፡ ይሰምዕ፡ እምደቂቀ፡ ፄዋ።</l>
+                  <l n="20">ወይሥዕር፡ ምሕራማቲሆሙ፡ ወኵሉ፡ ሠገላቲሆሙ፡ ወኵሉ፡ ጣዖታቲሆሙ፡ ወኵሉ፡ መዋጽሕቲሆሙ፡ ወምሥዋዒሆሙ፡ እምነ፡ ስቡሐኒሆሙ፡ እመነ፡ ሐራጊተ፡ መራዕይሁ፡ ወእምነ፡ መቍዓለ፡ ጠሊ፡ ዘይሠውዕ፡ ለአማልክቲሁ፡ ሠርክ፡ ወነግሂ።</l>
+                  <l n="21">ወይሠውዕ፡ ሎሙ፡ ወያመልኮሙ፡ በኵሉ፡ ግብር፡ ቀትረ፡ ወሰዓተ፡ ወይሰእሎሙ፡ ወይትአመኖሙ፡ ወይገብር፡ ፈቃዶሙ፡ በኵሉ፡ ዘነገርዎ፡ ገነውት፡ አማልክቲሁ።</l>
+                  <l n="22">ወኢያስትት፡ እምቃሎሙ፡ በኵሉ፡ ዘነገርዎ፡ እስመ፡ ይመስሎ፡ በኵሉ፡ ዘአድኀንዎ።</l>
+                  <l n="23">ውእቱሰ፡ መቃቢሰ፡ ዘዚአሆሙ፡ ፍኖተ፡ ኀደገ።</l>
+                  <l n="24">ወእምከመ፡ ሰምዓ፡ ዘረዓይ፡ ነገረ፡ ዘይብልዎ፡ ነቢይ፡ ወዓሠነየ፡ ፍኖቶ፡ ውስተ፡ ንስሐ፡ ወኵሉ፡ ቤቱ፡ አሠነዩ፡ ፍኖቶሙ፡ እምደቂቀ፡ እስራኤል፡ በውእቱ፡ መዋዕል፡ እስመ፡ ደቂቀ፡ እስራኤልሰ፡ አሐተ፡ ጊዜ፡ ያምዕዕዎ። ወጊዜ፡ ይቀሥፎሙ፡ የአምርዎ፡ ወየዓወይዉ፡ ኀበ፡ እግዚአብሔር።</l>
+                  <l n="25">ወሶበ፡ ርእዮሙ፡ ከመ፡ ኃሠሩ፡ በታሕተ፡ እደዊሆሙ፡ ለዕለ፡ ይሣቅይዎሙ፡ ወይግዕሩ፡ በቅድሜሁ፡ ውእተ፡ አሚረ፡ ይምሕሮሙ፡ ተዘኪሮ፡ ኪዳነ፡ አበዊሆሙ፡ ሶበ፡ የዓወይዉ፡ ኀቤሁ፡ በእንተ፡ አብርሃም፡ ወይስሐቅ፡ ወያዕቆብ፡ አበዊሆሙ።</l>
+                  <l n="26">ወሶአ፡ አድኃኖሙ፡ ይረስእዎ፡ ለዘአድኀኖሙ፡ ወይገብዑ፡ ውስተ፡ አምልኮ፡ ጣዖት።</l>
+                  <l n="27">ወውእተ፡ አሚረ፡ ይፌኑ፡ ቦሙ፡ አሕዛበ፡ እለ፡ ይሣቅይዎሙ፡ ወሶበ፡ ሣቀይዎሙ፡ ወአሕመምዎሙ፡ የዓወይዉ፡ ኀበ፡ እግዚአብሔር፡ ወውእተ፡ ጊዜ፡ ይምሕሮሙ፡ ወይሣሃሎሙ፡ እስመ፡ ያፈቅሮሙ፡ እስመ፡ ግብረ፡ እደዊሁ፡ እምንቱ።</l>
+                  <l n="28">ወካዕበ፡ ሶበ፡ ይጸንሖሙ፡ ይገብዑ፡ ከመ፡ ያምዕዕዎ፡ በአምላኮ፡ ጣዖት፡ ዘዓውዶሙ፡ ወግብረ፡ እደዊሆሙ፡ እኩይ።</l>
+                  <l n="29">ወውእቱኒ፡ ያነሥእ፡ ሎሙ፡ ሕዝበ፡ ኤሎፍሊ፡ ወሞዓብ፡ ወምድያም፡ ወሶርያ፡ ወግብፅ፡ ወይበክዩ፡ ወየዓወይዉ፡ ሶበ፡ ምዕዎሙ፡ ፀሮሙ፡ ወአሕመምዎሙ፡ ወአገብርዎሙ፡ ወቀነይዎሙ፡ ወያነሥእ፡ ሎሙ፡ መሳፍንተ፡ ከመ፡ ያድኅንዎሙ፡ መሳፍንት።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="4" xml:id="chapter4">
+               <label>Chapter 4</label>
+               <ab>
+                  <l n="1">ወቦ፡ ዘአመ፡ ሆሤዕ።</l>
+                  <l n="2">ወቦ፡ ዘአመ፡ ጌዴዎን።</l>
+                  <l n="3">ወቦ፡ ዘአመ፡ ሶምሶን፡ ወባርቅ፡ ወዲቦራ፡ ወዮዲት፡ እመሂ፡ በአንስት፡ ወእመሂ፡ በታባዕት፡ ያነሥእ፡ ሎሙ፡ መሳፍንተ፡ ከመ፡ ያድኅኖሙ፡ እምእለ፡ ይሣቅይዎሙ፡ ወከመ፡ ያድኅን፡ ዎሙ፡ እምእደ፡ ኵሉ፡ ፀሮሙ።</l>
+                  <l n="4">ወበከመ፡ ፈቀደ፡ ያድኅኖሙ፡ እግዚአብሔር፡ እምእለ፡ ይሣቅይዎሙ።</l>
+                  <l n="5">ወትትፌሥሑ፡ ፈድፋደ፡ በኵሉ፡ ዘዓሠነየ፡ ሎሙ፡ በዘርዓ፡ ምድሮሙ፡ ወአስተባዝኆ፡ እንስሳሆሙ፡ ወበኵሉ፡ መራዕይ፡ ዘውስተ፡ ሐቅል፡ ወዘገዳም።</l>
+                  <l n="6">ወይባርክ፡ ሎሙ፡ እንስሳሆሙ፡ ወአትክልቲሆሙ፡ ወኵሉ፡ ዘአኀዙ፡ ዘቤትኒ፡ ወዘገዳምኒ፡ ይባርክ፡ ሎሙ፡ ወኢያውኅድ፡ እንስሳሆሙ፡ እስመ፡ በአዕይንቲሁ፡ ይነጽሮሙ፡ ወፈድፋደ፡ ያፈቅሮሙ፡ እስመ፡ ትውልደ፡ ጻድቃን፡ እሙንቱ።</l>
+                  <l n="7">ወሶበ፡ ለሊሆሙ፡ ኮኑ፡ እኩያነ፡ በምግባሮሙ፡ ይሜጥዎሙ፡ ውስተ፡ ዕደ፡ ፀሮሙ።</l>
+                  <l n="8">ወአመ፡ ይቀትሎሙ፡ ውስተ፡ አሚረ፡ የኃሥሥዎ፡ ወይትመየጡ፡ ወይገይሡ፡ ኀበ፡ እግዚ፡ አብሔር፡ ፈጣሪሆሙ።</l>
+                  <l n="9">ወሶበ፡ ተመይጡ፡ በኵሉ፡ ልቦሙ፡ ይሠሪ፡ ሎሙ፡ ወዘቀዳሜ፡ አበሳሆሙ፡ ኢይዜከር፡ ሎሙ፡ እስመ፡ የአምሮሙ፡ ከመ፡ ሥጋ፡ ወደም፡ እሙንቱ፡ ወቦሙ፡ መስሕት፡ ሕሊና፡ ዝንቱ፡ ዓለም፡ ወአጋንንት።</l>
+                  <l n="10">ወውእቱ፡ መቃቢስ፡ እምከመ፡ ሰምዓ፡ ዘንተ፡ ነገረ፡ ዘሠርዓ፡ እግዚአብሔር፡ በደብረ፡ መቅደሱ፡ ተጋደለ፡ በንስሐ።</l>
+                  <l n="11">ወኢያስተተ፡ ገቢር፡ እምዘርእየ፡ ወሰምዓ፡ ዘንተ፡ ነገረ፡ ወበእንተ፡ ኵሉ፡ ኂሩት፡ ዘይገ፡ ብሩ፡ ደቂቀ፡ እስራኤል፡ እስመ፡ ተሣሃሎሙ፡ እግዚአብሔር፡ ወአመ፡ ይቀሥፎሙ፡ እግዚአብሔር፡ ሶበ፡ ተዓደዉ፡ ትእዛዘ፡ ይበክዩ፡ ወየዓወይዉ፡ ወካዕበ፡ ይሣሃሎሙ፡ ወይገብሩ፡ ትእዛዞ።</l>
+                  <l n="12">ወከማሁ፡ መቃቢስኒ፡ ያረትዕ፡ ፍናዊሁ፡ ወየዓቅብ፡ ትእዛዞ፡ ወየሐውር፡ በትእዛዙ፡ ለእግ፡ ዚአብሔር፡ አምላከ፡ እስራኤል።</l>
+                  <l n="13">ውእተ፡ አሚረ፡ እምዘሰምዓ፡ ወበኵሉ፡ ዘይትሜክሁ፡ ደቂቀ፡ እስራኤል፡ ከማሁ፡ ይትሜ፡ ካህ፡ በዓቂበ፡ ትእዛዙ፡ ለእግዚአብሔር።</l>
+                  <l n="14">ወይሠርዕ፡ ቤቶ፡ ወደቂቆ፡ ከመ፡ ይሑሩ፡ በኵሉ፡ ፍናዊሁ፡ ወትእዛዛቲሁ፡ ለእግዚአብሔር።</l>
+                  <l n="15">ወኀርመተ፡ አይሁድኒ፡ ዘይትኄረሙ፡ ውእቱኒ፡ ይትኄረም፡ ወትእዛዛትኒ፡ ዘየዓቅቡ፡ አይሁድ፡ በዘሰምዓ፡ ከማሁ፡ ይገብር፡ ወመባልዕተኒ፡ ዘይትኄረሙ፡ አይሁድ፡ ይትኄረም፡ እንዘ፡ ውእቱ፡ ካልዕ፡ ሕዝቡ፡ ሞዓባዊ።</l>
+                  <l n="16">ወአሥራተኒ፡ ይዔሥር፡ ወበኵረ፡ አባግዒሁ፡ ወአልህምቲሁ፡ ወአዕዱጊሁ፡ ወኵሎ፡ ዘአጥርየ፡ ይሁብ፡ ወመሥዋዕትኒ፡ ዘይሠውዑ፡ አይሁድ፡ ከማሁ፡ ይሠውዕ፡ አንጺሮ፡ መንገለ፡ ገጸ፡ ለኢየሩሳሌም።</l>
+                  <l n="17">ወዘበእንተ፡ ብፅዓት፡ ወዘበእንተ፡ ኃጢአት፡ ወዘፈቃድ፡ ወመሥዋዕተ፡ መድኃኒት፡ ወመሥዋዕተ፡ ዘዘልፍ።</l>
+                  <l n="18">ወቀዳሜ፡ ፍሬያት፡ ወሞጻሕተኒ፡ ዘያወጽሑ፡ አይሁድ፡ ከማሁ፡ ያወጽሕ፡ ወይሁብ፡ ለሌ፡ ዋሲ፡ ዘሢመ፡ ወኵሎ፡ ዘይገብሩ፡ አይሁድ፡ ከማሁ፡ ይገብር፡ ወጽዒጠ፡ ዕጣን።</l>
+                  <l n="19">ወገብረ፡ መራናታ፡ ወሚሎናት፡ ወጠረጴዛት፡ ወደባትራተ፡ ወባሕርያተ፡ ወሖፃዳት፡ ወክ፡ ብዓ፡ ውጉዐ፡ ለማሕቶተ፡ ቅድሳት፡ ወመንጦላዕት፡ ከመ፡ ይገብሩ፡ በውስተ፡ ቅዱሳተ፡ ቅዱሳን፡ እስራኤል፡ እመ፡ አሥመርዎ፡ ለእግዚአብሔር።</l>
+                  <l n="20">እስመ፡ ነበሩ፡ በሕጉ፡ ወበሥርዓቱ፡ ወእመ፡ ኢተሐየዮሙ፡ እግዚአብሔር፡ ወኢያግብ፡ ዖሙ፡ ውስተ፡ ዕደ፡ ፀሮሙ፡ ከማሁ፡ ያሠኒ፡ መካቢስ፡ በኵሉ፡ ፍናዊሁ።</l>
+                  <l n="21">ወይጼሊ፡ በኵሉ፡ ጊዜ፡ ኀበ፡ እግዚአብሔር፡ አምላከ፡ እስራኤል፡ ከመ፡ ይኩኖ፡ መርሐ፡ ወኢይፍልጦ፡ እማኅበረ፡ እስራኤል፡ እለ፡ ኃረየ፡ ወገብር፡ ፈቃደ።</l>
+                  <l n="22">ወካዕበ፡ ይጼሊ፡ ከመ፡ የሀቦ፡ ዘርዓ፡ በጽዮን፡ ወአብያተ፡ በኢየሩሳሌም፡ ወከመ፡ ያድኅኖ፡ እመንሱት፡ እንተ፡ ነበበ፡ በአፈ፡ ነቢይ፡ ወከመ፡ ይትወከፍ፡ ንስሐሁ፡ በኵሉ፡ ዘነስሐ።</l>
+                  <l n="23">ወበክየ፡ ቅድመ፡ እግዚአብሔር፡ በአንብዓ፡ ወከመ፡ እያጥፍዕ፡ ዘርአ፡ እምድር፡ ወከመ፡ ይዕቀቦ፡ በበዓቱ፡ ወበፀአቱ።</l>
+                  <l n="24">ወእምአሕዛበ፡ ሞዓብኒ፡ እለ፡ እምታሕተ፡ እዴሁ፡ ለመቃቢስ፡ አስተሐወዙ፡ ከመ፡ ይእምኑ፡ እስመ፡ ርትዕት፡ ፍኖተ፡ የሐውር፡ መልአኮሙ፡ ወይኔጽሩ፡ ፍትሐ፡ ወይገብሩ፡ ፈቃዶ፡ ወያስተሐቆሩ፡ ፍትሐ፡ አህጉሪሆሙ፡ ወተሰናነ፡ ብሔሮሙ፡ ወይሬእዩ፡ ከመ፡ ዘይረትዕ፡ ወይኄይስ፡ ፈድፋደ፡ ዘመቃቢስ።</l>
+                  <l n="25">ወይመጽኡ፡ ኀቤሁ፡ ወይሰምዑ፡ ፍትሐ፡ ጽድቁ፡ ወኂሩቱ፡ ለመቃቢስ።</l>
+                  <l n="26">ወቦቱ፡ ብዝኅ፡ ጥሪት፡ ወአግብርት፡ ወአዕማት፡ ወአዕዱግ፡ ወአግማል፡ ወቦቱ፡ አፍራስ፡ እለ፡ ያለብሱ፡ ኀፂነ</l>
+                  <l n="27">ወእምአመሰ፡ ያመልኮ፡ ለእግዚአብሔር፡ ሶበሰ፡ የሐውር፡ ውስተ፡ ፀብዕ፡ አልቦ፡ ዘሞዖ፡ ዘእንበለ፡ ለሊሁ፡ ዘሞዓ።</l>
+                  <l n="28">ወእሙንቱ፡ ይመጽኡ፡ በኃይለ፡ አማልክቲሆሙ፡ ከመ፡ ይጽብዕዎ፡ ወይረግምዎ፡ በስመ፡ አማልክቲሆሙ፡ ወአልቦ፡ ዘይመውዕዎ፡ እስመ፡ ረሰየ፡ ትውክልቶ፡ ላዕለ፡ እግዚአብሔር፡ አምላኩ።</l>
+                  <l n="29">ወነበረ፡ እንዘ፡ ይገብር፡ ከመዝ፡ ወእንዘ፡ ይመውዕ፡ ፀሮ፡ ወያገብእ፡ አሕዛበ፡ ታሕተ፡ እዴሁ።</l>
+                  <l n="30">ወይትቤቀል፡ በእንተ፡ ግፉዓን፡ ወያጸድቅ፡ ፍትሐ፡ እጓለ፡ ማውታ።</l>
+                  <l n="31">ወይትዌከፎሙ፡ ለዕቤራት፡ ወለእጓለ፡ ማውታ፡ በተጽናሶሙ፡ ወያጸግቦሙ፡ ለርኁባን፡ እምሲሳዩ፡ ወያለብሶሙ፡ ለዕሩቃን፡ እምልብሱ።</l>
+                  <l n="32">ወይትፌሣሕ፡ በተግባሩ፡ ወበግብረ፡ እደዊሁ፡ ወይሁብ፡ እምዘቦ፡ እንዘ፡ ኢይከልዕ፡ ወአሥራተ፡ ይሁብ፡ ለቤተ፡ እግዚአብሔር፡ ወዘንተ፡ እንዘ፡ ይገብር፡ መቃቢስ፡ አዕረፈ፡ በሠናይ።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="5" xml:id="chapter5">
+               <label>Chapter 5</label>
+               <ab>
+                  <l n="1">ወኀደገ፡ ዕጐሊሁ፡ ውሉደ፡ ንዑሳነ፡ ወልህቁ፡ በከመ፡ ሠርዖሙ፡ አቡሆሙ፡ ወዓቀቡ፡ ሥርዓተ፡ ቤቶሙ፡ ወኵሎ፡ ዘዚአሆሙ፡ የዓቅዑ፡ ወኢያግዕሩ፡ ነደየ፡ ወእጓለ፡ ማውታ፡ ወዕቤረ።</l>
+                  <l n="2">ወይፈርህዎ፡ ለእግዚአብሔር፡ ወይመጸውቱ፡ ንዋዮሙ፡ ለነዳያን፡ ወይትመሐፀኑ፡ በኵሉ፡ ዘአማኅፀኖሙ፡ አቡሆሙ፡ ወይናዝዙ፡ ዕቤረ፡ ወእጓለ፡ ማውታ፡ በተፅናሶሙ፡ ወይከውንዎሙ፡ አበ፡ ወእመ፡ ወያነግፍዎሙ፡ እምእደ፡ ገፋዕያኒሆሙ፡ ወይናዝዝዎሙ፡ በኵሉ፡ ዘረከቦሙ፡ ሁከት፡ ወኀዘን።</l>
+                  <l n="3">ወነበሩ፡ እንዘ፡ ከመዝ፡ ይግብሩ</l>
+                  <l n="5">ዓመተ።</l>
+                  <l n="4">ወእምድኅሬሁ፡ መጽአ፡ ጺሩጻይዳን፡ ንጉሥ፡ ከለዳውያን፡ ወአጥፍአ፡ ኵሎ፡ ሀገሮሙ፡ ወፄወውዎሙ፡ ለደቂቀ፡ መቃቢስ፡ ወአጥፍአ፡ ኵሉ፡ ብሔሮሙ።</l>
+                  <l n="5">ወማኅረከ፡ ኵሉ፡ ንዋዮሙ፡ ወኪያሆሙኒ፡ አኃዝዎሙ፡ ወወሰድዎሙ፡ ውስተ፡ ብሔሮሙ፡ መምላክያነ፡ ጣዖት፡ እለ፡ ኢየሐውሩ፡ በትእዛዙ፡ ወበኵነኔሁ፡ ለእግዚአብሔር፡ አላ፡ ውስተ፡ ኵሉ፡ እኩይ፡ ወዝሙት፡ ወርኩስ፡ ወስስዕት፡ ወጽርፈት፡ ወኢተዘክሮ፡ አምላኮሙ።</l>
+                  <l n="6">ወኢይበልዑ፡ ኵሎ፡ ማውታ፡ ወደመ፡ ወብልዓ፡ አርዌ፡ ወብትከ፡ ወኵሎ፡ ዘኢይሠምር፡ እግዚአብሔር፡ ወአልቦ፡ ሕግ፡ እምኵሉ፡ ትእዛዛተ፡ ጽድቅ፡ ዘጽሑፍ፡ ውስተ፡ ኦሪት።</l>
+                  <l n="7">ወኢያእምርዎ፡ ለእግዚአብሔር፡ ከመ፡ ውእቱ፡ ፈጣሪሆሙ፡ ወመድኃኒሆሙ፡ ዘአውጽ፡ ኦሙ፡ እምከርሠ፡ እሞሙ፡ ወሴሰዮሙ፡ በዘይደሉ።</l>
+                  <l n="8">ወአልቦሙ፡ ሕግ፡ በውስተ፡ ፍትሕ፡ እለ፡ የሐውሩ፡ ውስተ፡ ፁግ፡ ወትዕግልት፡ ወዝሙት፡ ወርኩስ፡ እንዘ፡ ያወስቡ፡ ብእሲተእ፡ አቡሆሙ፡ ወእኅተ፡ እሞሙ። ወይገብሩ፡ ክውሎ፡ እኩየ፡ ወያወስቡ፡ እኅቶሙ፡ ወአዝማዲሆሙ፡ ወአልቦሙ፡ ሕግ።</l>
+                  <l n="9">ወኵሉ፡ ፍኖቶሙ፡ ዳኅፅ፡ ወጽልመት፡ ወርኩስ፡ ወዝሙት።</l>
+                  <l n="10">ወእሙንቱሰ፡ ደቂቀ፡ መቃቢስ፡ ይትዓቀቡ፡ በኵሉ፡ ዘዚአሆሙ፡ ትኅርምት፡ ወኢይበልዑ፡ ማውታ፡ ወብትከ፡ ወኵሎ፡ ርኵሶሙ፡ ወኃጢአቶሙ፡ ለደቂቀ፡ ከለዳውያን፡ እስመ፡ እኩይ፡ ወብዙኅ፡ ምግባሪሆሙ፡ ዘኢትጽሕፈ፡ ውስተ፡ ዝንቱ፡ መጽሐፍ፡ ዘይገብሩ፡ ደቂቀ፡ አረባማያን፡ ኃጥአን፡ ወዓላውያን፡ መናፍቃን፡ ወጽልሕዋን፡ ወምሉዓን፡ ጺዕ፡ ወርኵስ፡ ወትዕግልት።</l>
+                  <l n="11">ወአልቦ፡ ላዕሌሆሙ፡ ክሉ፡ ዘይሠምር፡ እግዚአብሔር፡ ፈጣሪሆሙ።</l>
+                  <l n="12">ወካዕበ፡ ያመልኩ፡ ጣዖተ፡ ዘስሙ፡ ብኤል፡ ፌጎር፡ ወያመልክዎ፡ ወይትአመንዎ፡ ከመ፡ እግዚአብሔር፡ ፈጣሪሆሙ፡ እስመ፡ ጽሙም፡ ወበሐም፡ ውእቱ፡ ወአልቦ፡ ዘይሬኢ፡ ወዘይሰምዕ፡ እስመ፡ ግልፎ፡ ግብረ፡ እደ፡ ሰብእ፡ ውእቱ፡ ዘሰበኮ፡ ነሀቤ፡ ወርቅ፡ ወብሩር፡ ግብረ፡ ግብረ፡ እጓለ፡ እመሕያው፡ ዘአልቦ፡ አእመሮ፡ ወእስትንፋስ።</l>
+                  <l n="13">ወኢይበልዕ፡ ወኢይሰቲ።</l>
+                  <l n="14">ወኢይቀትል፡ ወኢያሐዩ።</l>
+                  <l n="15">ወኢይተክል፡ ወኢይምሑ።</l>
+                  <l n="16">ኢየሐስም፡ ወኢያሤኒ።</l>
+                  <l n="17">ኢያነጹ፡ ወኢያብዕል።</l>
+                  <l n="18">ኢይቀሥፍ፡ ወኢይሠሃል፡ አላ፡ ባሕቱ፡ ዕቅፍት፡ ይከውን፡ ለአስሕቶ፡ ዓብዳን፡ ሕዝበ፡ ከለዳውያን።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="6" xml:id="chapter6">
+               <label>Chapter 6</label>
+               <ab>
+                  <l n="1">ወገብረ፡ ዕቡይ፡ ጺሩጻይዳን፡ ፀረ፡ እግዚአብሔር፡ ካህናተ፡ ሐሰት፡ ወገሃነውተ፡ አማልክት።</l>
+                  <l n="2">ወይሠውዑ፡ ሎሙ፡ ወያወጽሑ፡ ሎሙ።</l>
+                  <l n="3">ወይመስሎ፡ ከመ፡ እሙንቱ፡ ዘይበልዑ፡ ወይሰትዩ።</l>
+                  <l n="4">ወይሁቦሙ፡ ለእለ፡ ጸብሐት፡ አልህምተ፡ ወአባግዓ፡ ወሐራጊተ፡ ወአጠሊ። ወይሠውዑ፡ ሠርከ፡ ወነግህ፡ ወይበልዕ፡ እምይእቲ፡ መሥዋዕት፡ ርኩሰት።</l>
+                  <l n="5">ወአኮ፡ ለሊሆሙ፡ ባሕቲቶሙ፡ ዘይገብርዎ፡ አላ፡ ለአብእኒ፡ ይዌህክዎሙ፡ ወያጌብርዎሙ፡ ከመ፡ ይሡዑ፡ ለአማልክቲሆሙ።</l>
+                  <l n="6">ወሶበ፡ እይዎሙ፡ ለደቂቀ፡ መቃቢስ፡ ከመ፡ ሠናያን፡ እሙንቱ፡ ወያመልክዎ፡ ለእግዚአብሔር፡ ፈጣሪሆሙ፡ ፈቀዱ፡ እሙንቱ፡ ገነውተ፡ አማልክተ፡ ያስሕትዎሙ፡ ከመ፡ ይሡዑ፡ ወይብልዑ፡ እምይእቲ፡ መሥዋዕት፡ ርኵሰት። ወአበይዎሙ፡ እሉ፡ ቡሩካን።</l>
+                  <l n="7">ወስእንዎሙ፡ ኦሁ፡ አብሎቶሙ፡ እስመ፡ ትእዛዘ፡ አቡሆሙ፡ የዓክቡ፡ ወይፀንዑ፡ በገቢረ፡ ሠናይ፡ ወይፈርህዎ፡ ለእግዚአብሔር፡ ፈድፋደ።</l>
+                  <l n="8">ወሶበ፡ ሐመይዎሙ፡ ወፀረፉ፡ ላዕሌሆሙ፡ ወተዓገልዎሙ።</l>
+                  <l n="9">ወነገርዎ፡ ለጺሩጻይዳን፡ ንጉሥ፡ ከመ፡ አብየ፡ ሰጊደ፡ ወሠዊዓ፡ ለአማልክቲሁ።</l>
+                  <l n="10">ወበእንተዝ፡ ተምዓ፡ ንጉሥ፡ ወኀዘነ፡ ወአዘዘ፡ ያምጽእዎም፡ ወአምጽእዎሙ፡ ወአቀም፡ ዎሙ፡ ቅድሜሁ፡ ወይቤሎሙ፡ ሡዑ፡ ወስግዱ፡ ለአማልክትየ።</l>
+                  <l n="11">ወአውሥኡ፡ ወይቤልዎ፡ ንሕነሰ፡ ኢንሰጠወከ፡ በዝነገር፡ ወኢንሠውዕ፡ ለአማልክቲከ፡ ርኩሳን።</l>
+                  <l n="12">ወገረሞሙ፡ በብዙኅ፡ ግብር፡ ወኢክህሎሙ፡ እስመ፡ አጥብዑ፡ ልቦሙ፡ ለእግዚአብሔር።</l>
+                  <l n="13">ወአንደደ፡ እሳት፡ ወወደዮሙ፡ ወመጠዉ፡ ነፍሶሙ፡ ለእግዚአብሔር።</l>
+                  <l n="14">ወአስተርአይዎ፡ ሕያዋኒሆሙ፡ እምድኅረ፡ ሞቱ፡ እንዘ፡ እኅዙ፡ አሰይፍቲሆሙ፡ ምሉ፡ ሐተ፡ እንዘ፡ ይነውም፡ ውስተ፡ ዓራተ፡ መንግሥቱ፡ በሌሊት፡ ወፈርሃ፡ ፈድፋደ።</l>
+                  <l n="15">ወይቤሎሙ፡ ምንተ፡ እግበር፡ ለክሙ፡ አጋዕዝትየ፡ ብቍዑኒ፡ ወኢትንሥእዋ፡ ለነፍስየ፡ ከመ፡ እግበር፡ ኵሎ፡ ዘአዘዝክሙኒ፡ ወአፍርህዎ፡ ፈድፋደ።</l>
+                  <l n="16">ወነገርዎ፡ ኵሎ፡ ዘይደሉ፡ እንዘ፡ ይብሉ፡ ተዘከር፡ ከመ፡ እግዚአብሔር፡ ፈጠሪከ፡ ውእቱ፡ ወሀሎ፡ ዘይሥዕረከ፡ እምዝ፡ ትዕቢትከ፡ ወያወርደከ፡ ውስተ፡ ገሃነም፡ መትሕተ፡ ምስለ፡ ዲያብሎስ፡ አቡከ፡ ወበህየ፡ ትፌጽም፡ ክውሎ፡ ኵነኔከ፡ በከመ፡ አውዓይከነ፡ በእሳት፡ እንዘ፡ አልቦ፡ ዘአበሰነ፡ ላዕሌከ፡ ወእንዘ፡ ናመልኮ፡ ለእግዚአብሔር፡ ፈጣሪነ፡ ወንሰግድ፡ ሎቱ፡ በፈሪሆቱ፡ ለእግዚአብሔር።</l>
+                  <l n="17">እስመ፡ ውእቱ፡ ፈጣሪ፡ ኵሉ፡ ዘገብረ፡ ሰማየ፡ ወምድረ፡ ወባሕረ፡ ዘኵሎ፡ ዘውስቴታ።</l>
+                  <l n="18">ፀሐየ፡ ወወርኀ፡ ወከዋክብተ፡ ወኵሎ፡ ፍጥረተ፡ ዘፈጠረ፡ እግዚአብሔር፡ ለሊሁ።</l>
+                  <l n="19">ወአልቦ፡ ባዕደ፡ አምላክ፡ ዘእንበሌሁ፡ በሰማይ፡ በላዕሉ፡ ወበምድር፡ ባታሕቱ፡ ዘይክል፡ ኵሎ፡ ወአልቦ፡ ዘይሠዓኖ፡ ዘይቀትል፡ ወያሐዩ፡ ዘይቀሥፍ፡ ወይሣሃል።</l>
+                  <l n="20">ወአልቦ፡ ዘይመሥጥ፡ እምእዴሁ፡ እስመ፡ መላኬ፡ ሰማይ፡ ወምድር፡ ውእቱ።</l>
+                  <l n="21">ወአልቦ፡ ዘይትዓደው፡ እምትእዛዙ፡ እምዘውእቱ፡ ፈጠሮ፡ ዘእንበለ፡ አንተ፡ ወምዕላይ፡ ወእለ፡ ከማከ፡ መምዕልያን፡ እለ፡ አዖረ፡ አቡከ፡ ሰይጣን፡ ልቦሙ፡ እሙንቱ፡ ወአንተ፡ ወአማልክቲከ፡ ትወርዱ፡ ኅቡረ፡ ውስተ፡ ገሃነመ፡ እንተ፡ አልባቲ፡ ሙፃዕ፡ እስከ፡ ለዓለም።</l>
+                  <l n="22">እስመ፡ ኢኮንከ፡ አንተ፡ ባሕቲትከ፡ ዘትገብር፡ ዘንተ፡ አላ፡ ሰይጣን፡ መምህረከ፡ ዘመሀረከ፡ ዘንተ፡ ምግባረ፡ እኩየ፡ ከመ፡ ታሕሥም፡ ላዕሌነ።</l>
+                  <l n="23">ወኢያእመርኮ፡ ለእግዚአብሔር፡ ፈጣሪከ፡ ወተፌሲ፡ ርእሰከ፡ ከመ፡ እግዚአብሔር፡ ፈጣሪከ።</l>
+                  <l n="24">ወትትዔበይ፡ በግብረ፡ እደዊከ፡ ወበጣዖትከ፡ እስከ፡ የኃሥረከ፡ እግዚአብሔር፡ ወያወርደከ፡ መፍሕተ፡ ገሃነም፡ ወይትቤቀለከ፡ በእንተ፡ ኵሉ፡ አበሳ፡ ወኃጢአት፡ ዘገበርከ፡ በዲበ፡ ምድር።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="7" xml:id="chapter7">
+               <label>Chapter 7</label>
+               <ab>
+                  <l n="1">አሌ፡ ለከ፡ እንተ፡ ወእለ፡ ከማከ፡ እለ፡ ኢተአምርዎ፡ ለእግዚአብሔር፡ ዘፈጠርክሙ፡ ወኢተአምሩ፡ ትእዛዞ፡ ወቃሎ፡ እስመ፡ ሀለወክሙ፡ ትነሥሑ፡ ኀበ፡ ዘኢይበቍዕ፡ ንስሐ፡ ሶበ፡ ተቀሠፍክሙ፡ በፃዕረ፡ ሲኦል።</l>
+                  <l n="2">ወአልብክሙ፡ ሙፃዕ፡ እምኔሃ፡ እስከ፡ ለዓለም፡ አንተ፡ ወአማልክቲከ፡ ወእለ፡ ትሠውዑ፡ ወትሰግዱ፡ ሎሙ፡ ከመ፡ እግዚአብሔር፡ ፈጣሪክሙ፡ ለእለ፡ አልቦሙ፡ ነፍሰ፡ ወእስትንፋስ፡ ወእለ፡ ኢይትቤከሉ፡ ለዘአሕሰመ፡ ሎሙ፡ ወኢያሤንዩ፡ ለዘአሠነየ፡ ሎሙ።</l>
+                  <l n="3">እስመ፡ ግብረ፡ እደ፡ ሰብእ፡ እሙንቱ፡ እለ፡ ይትናገር፡ ሰይጣን፡ በውስቴቶሙ፡ ለአስሕቶ፡ ልብ፡ ዘከማከ፡ ዓብዳን፡ ከመ፡ ያወርድክሙ፡ ውስተ፡ ገሃነም፡ ዘእሳት፡ ለክሙኒ፡ ወለገነውተ፡ አማልክቲክሙ፡ ወለእለ፡ ይትዔዘዙክሙ፡ አጋንንት፡ ለክሙ።</l>
+                  <l n="4">እስመ፡ ኢተአምሩ፡ ከመ፡ አልቦ፡ ዘይበቍዓክሙ፡ ትጌግዩ፡ ወትስሕቱ።</l>
+                  <l n="5">ወእምኔክሙሰ፡ ይኄይሱ፡ እንስሳ፡ እለ፡ ፈጠሮሙ፡ እግዚአብሔር፡ ለሲሳይክሙ፡ ወአራ፡ ዊትኒ፡ ወከለባትኒ፡ እስመ፡ እሙንቱ፡ አልቦሙ፡ ኵነኔ፡ ዳግመ፡ ዘእንበለ፡ አሐቲ፡ ሞት።</l>
+                  <l n="6">ወአንትሙሰ፡ ትመውቱ፡ ወትትኳነኑ፡ ዳግመ፡ በረዓድ፡ ገሃነመ፡ እንተ፡ አልባቲ፡ ሙፃዕ፡ እስከ፡ ለዓለም።</l>
+                  <l n="7">ወዘንተ፡ ብሂሎሙ፡ ኃለፉ፡ ወተሠወሩ፡ እምኔሁ።</l>
+                  <l n="8">ወውእቱሰ፡ ጺሩጻይዳን፡ ኮነ፡ በፍርሃት፡ ዓቢይ፡ ወረዓድ፡ ወኢኃደጎ፡ እስከ፡ ይጸብሕ።</l>
+                  <l n="9">ወእምዝ፡ ሖረ፡ ኀበ፡ ገደፈ፡ አብድንቲሆሙ፡ ለጻድቃን፡ ወኢረከቦሙ፡ እስመ፡ ፈቀደ፡ ይቀ፡ ብሮሙ፡ ወስዕኖሙ፡ እስመ፡ እግዚአብሔር፡ ሠወሮሙ፡ ከመ፡ ኢይትኃሥሥ፡ እምሥጋ፡ ሆሙ።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="8" xml:id="chapter8">
+               <label>Chapter 8</label>
+               <ab>
+                  <l n="1">ወሖረ፡ በትዕቢተ፡ ወበትምይንተ፡ ልብ።</l>
+                  <l n="2">ወዖደ፡ በሐውርተ፡ አሕዛብ፡ እለ፡ ዓውጹ፡ እስመ፡ ተብህለ፡ በመንግሥቱ፡ ከመ፡ ሐፂን፡ ዘርእየ፡ ዳንኤል፡ ነቢይ።</l>
+                  <l n="3">ወየሐውር፡ በኵሉ፡ ዕበድ፡ ወእኩይ፡ ወሁከት።</l>
+                  <l n="4">ወዘነገርነ፡ ቀዲሙ፡ የሐርጽ፡ ወያነጕዕ፡ ወይበልዕ።</l>
+                  <l n="5">ወዘተርፈ፡ ይከይድ፡ በእግሩ፡ እስመ፡ ጸያቂ፡ ውእቱ፡ ከመ፡ አቡሁ፡ ዲያብሎስ፡ ግዘፈ፡ ክሣድ።</l>
+                  <l n="6">ወኢያአምሮ፡ ለእግዚአብሔር፡ ከመ፡ ውእቱ፡ ፈጣሪሁ፡ እለ፡ ይብል፡ መዋዕልየ፡ ኮነ፡ ከመ፡ መዋዕለ፡ ሰማይ።</l>
+                  <l n="7">ወየሐሰብ፡ በልቡ፡ ከመ፡ እምኔሁ፡ ይሠርክ፡ ፀሐይ።</l>
+                  <l n="8">ወይተነሣእ፡ በጎድ፡ ወየኃድር፡ በብሔረ፡ ዛብሎን፡ ወያነሥእ፡ ፀብዓ፡ ወመቄዶንያ፡ ወይነ፡ ሥእ፡ ሲሳየ፡ እምሰማርያ፡ ወይሁብዎ፡ አሰበእምሶርያ።</l>
+                  <l n="9">ወየኃድር፡ እስከ፡ ደወለ፡ ቄዳር፡ ወይሰፍሕ፡ እስከ፡ ሲዶና፡ ወያገብዕ፡ ግብረ፡ በአካይያ፡ ወያሌዕል፡ ክሣደ፡ እስከ፡ ባሕረ፡ ተከዜ፡ ወይትመየጥ፡ ወይሰፍሕ፡ መልእክቶ፡ እስከ፡ ባሕረ፡ ሕንደኬ።</l>
+                  <l n="10">ወከመዝ፡ ያሌዕል፡ ክሣደ፡ እስከ፡ ሰማይ።</l>
+                  <l n="11">ወአልቦ፡ አትሕቶ፡ ርእሰ፡ አላ፡ በኵሉ፡ እከይ፡ ወትዝኅርት።</l>
+                  <l n="12">ወኵሉ፡ ፍኖቱ፡ ውስተ፡ ደሕፅ፡ ወጽልመት፡ ወትዝኅርት፡ ወዕልወት፡ ወቅጥቃጤ፡ ወክዒወ፡ ደም።</l>
+                  <l n="13">ወኵሉ፡ ፍሞቱ፡ ዘይጸልእ፡ እግዚአብሔር፡ ይገብር፡ በከመ፡ መሐሮ፡ ሰብላንዮስ፡ መም፡ ህሩ፡ ለእከይ፡ ወትዕግልት፡ ወጹግ፡ ወያግዕር፡ ዕጓለ፡ ማውታ፡ ወኢይምህክ፡ ነደየ።</l>
+                  <l n="14">ወነገሥተ፡ አሕዛብኒ፡ አግብኦሙ፡ ታሕተ፡ እዴሁ፡ ወቀተሎሙ።</l>
+                  <l n="15">ወመላእክተ፡ ፀርኒ፡ ኵነነ፡ ወአሕዛበ፡ ብዙኃነ፡ አግረረ፡ ወአገበሮሙ፡ በከመ፡ ፈቀደ።</l>
+                  <l n="16">ወኢኃደገ፡ ወአልቦ፡ ዘኢመሠጠ፡ እምባሕረ፡ ተርሴስ፡ እስከ፡ ባሕረ፡ ኢያሪኮ።</l>
+                  <l n="17">ወይሰግድ፡ ለጣዖት፡ ወይበልዕ፡ ማውታ፡ ወደመ፡ ወብትከ፡ ወዝቡሐ፡ ለአማልክት፡ ወአ፡ ልቦ፡ ፍትሕ፡ አላ፡ በኵሉ፡ ፍናዊሁ፡ ዘእንበለ፡ ፍትሕ፡ ወመዓት፡ ወቍጥዓ፡ ወሀከክ፡ እስመ፡ ኮነ፡ መደንግጾ፡ ለአሕዛብ፡ እለ፡ እምታሕተ፡ እዴሁ፡ ወያጌብሮሙ፡ ግብረ፡ በከመ፡ ፈቀደ።</l>
+                  <l n="18">ወአልቦ፡ ፍርሃተ፡ እግዚአብሔር፡ ቅዶመ፡ አዕይንቲሆሙ፡ እስመ፡ ኵሎ፡ ዘአደሞ፡ ይገ፡ ብር፡ ቅድሜሁ፡ ወየሐውር፡ በትምይንት፡ ቅድመ፡ እግዚአብሔር፡ ፈጣሪሁ።</l>
+                  <l n="19">ወኢይሬስዮ፡ ከመ፡ አምላኩ፡ ወእግዚአብሔር፡ ይፈድዮ፡ በከመ፡ ገብረ፡ እኩየ፡ ላዕለ፡ ቢጹ፡ አመ፡ ዕለተ፡ ይእኅዞ፡ በመዓቱ።</l>
+                  <l n="20">ወይትቤቀሎ፡ በጊዜሃ፡ በከመ፡ ሠረዎሙ፡ ለኃጥአን፡ እለ፡ እምቅድሜሆሙ፡ እስመ፡ ይቤ፡ አነ፡ እግዚአብሔር፡ ዘእትቤቀሎሙ፡ ለዕቡያን፡ እለ፡ ኢየሐወሩ፡ በትእዛዝየ፡ ወከመ፡ እሠሩ፡ እምድር፡ ዝክሮሙ።</l>
+                  <l n="21">ወይትፈደዩ፡ እኩያን፡ በከመ፡ ገብሩ፡ እኩየ።</l>
+                  <l n="22">ወለገብርያነ፡ ሠናይሰ፡ ትትልዎሙ፡ ሠናይት፡ እምኀበ፡ እግዚአብሔር።</l>
+                  <l n="23">ወበከመ፡ ኢያሱ፡ አኀለቆሙ፡ ለነገሥተ፡ ከነዓን፡ በአሐቲ፡ ጊዜ፡ ለ</l>
+                  <l n="5">ነገሥት፡ በውስተ፡ አሐቲ፡ በዓት፡ ወበጸሎቱ፡ ዓቀመ፡ ፀሐየ፡ በገባዖን፡ ከመ፡ ያኅልቆሙ፡ ለሠራዊተ፡ ዚአሆሙ፡ ወከተለ፡ በአሐቲ፡ ጊዜ፡ መጠነ</l>
+                  <l n="2">))፡ እስመ፡ ቆመ፡ ፀሐይ፡ ማዕከለ፡ ሰማይ፡ እስከ፡ ያኃልቆሙ፡ ለሠራዊተ፡ ከናኔዎን፡ ወኤዊዎን፡ ወኬጤዎን፡ ወፌሬዜዎን፡ ወኢያቡሴዎን፡ ወሎሙኒ፡ ቀተሎሙ፡ ወአሠረ፡ እገሪሆሙ፡ ውስተ፡ ክሣውዲሆሙ፡ ወቀተሎሙ፡ በአፈ፡ ሐፂን፡ ወውሰት፡ በዓት፡ ወከደነ፡ ዕብነ፡ ዲቤሆሙ።</l>
+                  <l n="24">ከመዝ፡ ይረክቦሙ፡ ለእለ፡ አምዕዕዎ፡ ለእግዚአብሔር፡ በእከየምግባሮሙ።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="9" xml:id="chapter9">
+               <label>Chapter 9</label>
+               <ab>
+                  <l n="1">ወአንተኒ፡ ኦሰብእ፡ ወአኮ፡ እግዚአብሔር፡ ለምንት፡ ትትዒበይ፡ ዘዮምኪ፡ ሰብእ፡ ወጌሠመ፡ መሬት፡ ወሐመድ፡ ወትከውን፡ ዕፄ፡ ወዕፄያት፡ ውስተ፡ መቃብሪከ።</l>
+                  <l n="2">ወዓዲ፡ ሲኦል፡ ትተልወከ፡ ወለእለ፡ ይገብሩ፡ ምግባረ፡ ዚአከ፡ እስመ፡ ለከሰ፡ መምህርከ፡ ሰብልያኖስ፡ ዘአግብኦ፡ ዲበ፡ ርእሱ፡ ኃጢአተ፡ ኵሉ፡ ዓለም፡ በእንተ፡ ዘአስሐቶ፡ ለአቡነ፡ አዳም፡ በትዕቢቱ።</l>
+                  <l n="3">እስመ፡ ዘአበየ፡ ሰጊደ፡ ለግብረ፡ አምላኩ፡ በአዕብዮ፡ ርእሱ፡ ወበግዝፈት፡ ክሣዱ።</l>
+                  <l n="4">ወአንተኒ፡ በከመ፡ መምህርከ፡ አበይከ፡ ሰፊደ፡ ለእግዚአብሔር፡ አምላክከ።</l>
+                  <l n="5">ውአንተኒ፡ ተሐውር፡ በከመ፡ ሖሩ፡ ቀደምትከ፡ እለ፡ ኢየአምርዎ፡ ለእግዚአብሔር፡ አምላኮሙ።</l>
+                  <l n="6">ወተበቀሎሙ፡ ወወረዱ፡ ውስተ፡ ሲኦል፡ በእንተ፡ እከየ፡ ምግባሮሙ፡ ዘገብሩ፡ በዲብነ፡ ምድር።</l>
+                  <l n="7">ወእንተኒ፡ ከማሆሙ፡ ትወርድ፡ ውስተ፡ ገሃነም።</l>
+                  <l n="8">ይመስለከኑ፡ ዘታመሥጥ፡ እምእዴሁ፡ ለእግዚአብሔር፡ እስመ፡ መዓቶ፡ ወሀከ፡ ወተሀከ፡ ይከ፡ አምልኮቶ፡ እግዚአብሔር፡ ዘወሀበከ፡ ሥልጣነ፡ ላዕለ</l>
+                  <l n="5">መንግሥታት።</l>
+                  <l n="9">ወፈተነከ፡ እመ፡ ትገብር፡ ፈቃዶ፡ ወእመ፡ አልቦ፡ ወእመሰ፡ ዓሠነይከ፡ ፍኖተከ፡ በዲበ፡ ምድር፡ ያሤኒ፡ እግዚአብሔር፡ ፍናዊከ፡ ወኵሎ፡ ዘወደይከ፡ እዴከ፡ ይሤኒ፡ ወይባርክ፡ ለከ፡ ወኵሎ፡ ፀረከ፡ ወጸላእትከ፡ ያገርር፡ ለከ።</l>
+                  <l n="10">ወትትፌሣሕ፡ በፀዓትከ፡ ወበበአትከ፡ ወበፍሬ፡ ከርሥከ፡ ወበመዛግብቲከ፡ ወበመራዕይከ፡ ወኀበ፡ ዘአንፀርከ፡ በአፃብዒከ፡ ወሀለይከ፡ በልብከ፡ ኵሉ፡ ይትኤዘዝ፡ ለከ፡ እስመ፡ እምኀበብ፡ እግዚአብሔር፡ ትበውሐ፡ ለከ፡ ከመዝ፡ ትግበር፡ ወትሕንጽ፡ ወትትክል፡ ወትንሥት።</l>
+                  <l n="11">ወእመሰ፡ አበይከ፡ ሰሚዓ፡ ቃሉ፡ ወሕጉ፡ ለእግዚአብሔር፡ ወኢሖርከ፡ በኵነኔሁ፡ አልብከ፡ ኀበ፡ ታመሥጥ፡ እምእዴሁ፡ ለእግዚአብሔር፡ ከመ፡ ኵሎሙ፡ ዓላውያን፡ እለ፡ እምቅድሜከ፡ እለ፡ ኢያመልክዎ፡ ለእግዚአብሔር፡ በንጹሕ፡ ወኢትወከሉ፡ በኵነኔሁ፡ ርቱዕ፡ እስመ፡ ጽድቅ፡ ኵሉ፡ ኵነኔሁ።</l>
+                  <l n="12">ወአልቦ፡ ዘይሴወር፡ እምቅድመ፡ እምአዕይንቲሁ፡ ወኵሉ፡ ክሡተ፡ ወጽጡህ፡ በቅድሜሁ።</l>
+                  <l n="13">አሐዜ፡ ሥልጣነ፡ ነገሥተ፡ ውእቱ፡ ወገፍታዒ፡ መነብርት፡ ኃያላን፡ ውእቱ።</l>
+                  <l n="14">ወመልዓሌ፡ ትሑታን፡ ውእቱ፡ ወመንሥኤ፡ ውዱቃን፡ ውእቱ።</l>
+                  <l n="15">ወፈታሑ፡ ዕሡራን፡ ውእቱ፡ ወመንሥኤ፡ ምውታን፡ ውእቱ፡ ወለእለ፡ በልየ፡ ሥጋሆሙ፡ ወኮነ፡ ከመ፡ ሐመድ፡ ያነቅሖሙ፡ በጊዜ፡ ፈቀደ፡ እስመ፡ ጠለ፡ ምሕረት፡ ውእቱ፡ እምኀቤሁ።</l>
+                  <l n="16">ወለእለ፡ ገብሩ፡ እኩየ፡ ያነሥ፡ ኦሙ፡ ውእተ፡ ትንሣኤ፡ ደይን፡ እስመ፡ አምዕዕዎ፡ ወይትበቀሎሙ።</l>
+                  <l n="17">ወዲበ፡ ምድርኒ፡ ያማስን፡ ዘርኦሙ፡ እስመ፡ ዓላውያን፡ ሕጉ፡ ወሥርዓቱ፡ ለእግዚአ፡ ብሔር፡ እሙንቱ።</l>
+                  <l n="18">ወኢይፈቅዱ፡ የሀልዉ፡ ኃጥአን፡ ውስተ፡ ምክሮሙ፡ ለጻድቃን፡ እስመ፡ ዕፁብ፡ ፍኖ፡ ቶሙ፡ ለጻድቃን፡ እምፍኖቶሙ፡ ለኃጥአን።</l>
+                  <l n="19">ወበከመ፡ ልዑል፡ ሰማይ፡ እምድር፡ ከማሁ፡ ርኁቅ፡ ፍኖቶሙ፡ ለጻድቃን፡ እምፍኖቶሙ፡ ለኃጥአን።</l>
+                  <l n="20">ወፍኖቶሙሰ፡ ለኃጥአን፡ ምግባረ፡ ጹግ፡ ወትዕግልት፡ ወዓመፃ፡ ወዝሙት፡ ወጽልሑት፡ ወስስዕት፡ ወሐይደ፡ ንዋዩ፡ ባዕደ፡ ወስካር፡ በዓመፃ።</l>
+                  <l n="21">ወረዊጽ፡ ውስተ፡ ከዕወተ፡ ደም፡ ወአማስኖ፡ ውስተ፡ ዘኢይበቍዕ፡ ወስአንብዓ፡ ዕጓለ፡ ማውታ፡ ወበሊዓ፡ ማውታ፡ ወደም፡ ወበሊዓ፡ ሥጋ፡ ሐራውያን፡ ወገመል፡ ወሐዊር፡ ውስተ፡ ብእሲት፡ ሐራሰ፡ ወትክት፡ ዘእንበለ፡ ተነጽሕ።</l>
+                  <l n="22">ወዝንቱ፡ ኵሉ፡ ምግባሮሙ፡ ለኃጥአን፡ ስፍሕት፡ ፍኖተ፡ ወርብብት፡ መርበብተ፡ ሰይጣን፡ እንተ፡ ትወስድ፡ ውስተ፡ ኃጐል፡ ወኵነኔ፡ ዘለዓለም።</l>
+                  <l n="23">ወፍኖቶሙሰ፡ ለጻድቃን፡ ፀባብ፡ ወመቅዓን፡ እንተ፡ ትወስድ፡ ውስተ፡ ሕይወት፡ ትሕትና፡ ወየሃውት፡ ፍቅረ፡ ወሰላም፡ ጾም፡ ወጸሎት፡ ወንጽሐ፡ ሥጋ፡ ወተዓቅቦ፡ እመባልዕት፡ ዘኢይበቍዕ፡ ማውታ፡ ወብትክ፡ ወዝሙት፡ ወሐዊረ፡ ብእሲተ፡ ብእሲ።</l>
+                  <l n="24">ወይትዓቀቡ፡ እምኵሉ፡ ምግባር፡ ርስሑ፡ ወመባልዕት፡ ርኵሳት፡ እለ፡ ኢእዝዙ፡ ውስተ፡ ሕግ፡ ወእምግባር፡ ርሱሕ፡ ዘኢይሠምሮ፡ እግዚአብሔር፡ እስመ፡ ዘንተ፡ ኵሉ፡ ይግብሩ፡ ኃጥአን።</l>
+                  <l n="25">ወጻድቃንሰ፡ ይትገሃሡ፡ እምኵሉ፡ ፍናዋት፡ እኵያተ፡ ዘኢይሠምሮ፡ እግዚአብሔር።</l>
+                  <l n="26">ወይፈቅሮሙ፡ ወይትመሐፀኖሙ፡ ወያድኅኖሙ፡ እምኵሉ፡ ምንዳቤሆሙ።</l>
+                  <l n="27">ወለኃጥአንሰ፡ ሰይጣን፡ ይቀንዮሙ፡ እስመ፡ የዓቅቡ፡ ሕጎ፡ ወሥርዓቶ፡ ወኵሎ፡ ዘያፈቅር።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="10" xml:id="chapter10">
+               <label>Chapter 10</label>
+               <ab>
+                  <l n="1">ወአንትሙኒ፡ ነገሥት፡ ወመኳንንት፡ ኢትሑሩ፡ በፍኖተ፡ ዚአሁ፡ አላ፡ ፍርህዎ፡ ለእግዚ፡ አብሔር፡ ዘፈጠርክሙ፡ ወዓቀበክሙ፡ እስከ፡ ይእዜ።</l>
+                  <l n="2">ወሖሩ፡ በትእዛዙ፡ ወኵነኔሁ፡ ለእግዚአብሔር፡ ዘክሎ፡ ይመልክ።</l>
+                  <l n="3">እስመ፡ ባላት፡ ወልደ፡ ሶፎር፡ ሶበ፡ መጽኡ፡ ደቂቀ፡ እስራኤል፡ መንገለ፡ አማሌቅ፡ ከመ፡ ይትዋረሱ፡ ምድረ፡ ከናኔዎን፡ ወኬጤዎን፡ ወፌሬዜዎን።</l>
+                  <l n="4">ወይቤሎ፡ ለበለዓም፡ አነ፡ ከመ፡ ትርግም፡ ሊተ፡ እስመ፡ ዘአንተ፡ ረገምከ፡ ርጉም፡ ውእቱ፡ ወዘአንተ፡ ባረከ፡ ቡሩክ፡ ውእቱ፡ ወአነ፡ እሁበከ፡ ብዙኃ፡ ወርቀ፡ ወብሩር፡ ዘያከብረከ፡ ከመ፡ ትርግም፡ ሊተ።</l>
+                  <l n="5">ወበለዓም፡ መጽአ፡ እንዘ፡ ይሴፎ፡ አስበ፡ ዓመፃሁ፡ ወአርአዮ፡ ባላቅ፡ ወልደ፡ ሶፎር፡ ኀበ፡ ተዓነዩ፡ ደቂቀ፡ እስራኤል።</l>
+                  <l n="6">ወገብረ፡ መቃስመ፡ ወሦዓ፡ መሥዋዕተ፡ ወጠብሐ፡ አባግዓ፡ ወአልሕምተ፡ እምነ፡ ስቡሐኒሆሙ፡ ወፈቀደ፡ ይርግሞሙ፡ ለደቂቀ፡ እስራኤል።</l>
+                  <l n="7">ወኢፈቅደ፡ እግዚአብሔር፡ ከመ፡ ይርግሞሙ፡ አላ፡ ሚጣ፡ ለመርገም፡ ውስተ፡ በረከተ፡ በቃለ፡ ዚአሁ።</l>
+                  <l n="8">ወይቤ፡ እለ፡ ይባርኩከ፡ ቡሩካነ፡ ይኩኑ፡ ወእለ፡ ይረግሙከ፡ ርጉማነ፡ ይኩኑ፡ እስመ፡ አንተ፡ ሕዝብ፡ ዘእግዚአብሔር፡ ኃረዮ፡ ወእንተ፡ ማኅደሩ፡ ለፍቁር፡ ዘይመጽእ፡ እምአርያም።</l>
+                  <l n="9">ወእምዝ፡ ኃዘነ፡ ወተምዓ፡ ወተቈጥዓ፡ ባላቅ፡ ወልደ፡ ሶፎር፡ ሶበ፡ ባረኮ፡ ባረኮሙ፡ በቅድሜሁ፡ ወአዘዘ፡ ከመ፡ ይርግሞሙ።</l>
+                  <l n="10">ወይቤሎ፡ በለዓም፡ ኢይረግም፡ አነ፡ ዘእግዚአብሔር፡ ባረኮሙ፡ እስመ፡ ሕዝብ፡ ዘኃረየ፡ እግዚአብሔር፡ መጽአ፡ ውስተ፡ ዝንቱ፡ ምድር።</l>
+                  <l n="11">ወይቤሎ፡ ለበለዓም፡ ባላቅ፡ ወልደ፡ ሶፎር፡ አነ፡ ፈቀድኩ፡ ከመ፡ ትርግሞሙ፡ ሊተ፡ ወኢረገምኮ፡ ወአንተ፡ ባርኮ፡ ባረኮሙ፡ በቅድሜየ፡ ወአንሰ፡ ምልዓ፡ ቢትኒ፡ ወርቀ፡ ወብሩር፡ እምወሀብኩከ፡ ሶበ፡ ትቤ፡ ሀበኒ፡ ወረገምኮ፡ ሊተ፡ ወአንተሰ፡ ባርኮ፡ ባረኮሙ፡ ወኢያሠነይከ፡ ሊተ፡ ወአነሂ፡ ኢያሤኒ፡ ለከ።</l>
+                  <l n="12">ወይቤ፡ በለዓም፡ አንሰ፡ ኢይክል፡ ተዓውሮ፡ ወተአድዎ፡ ቃለ፡ እግዚአብሔር፡ አላ፡ ዘወደየ፡ እግዚአብሔር፡ ቃለ፡ ውስተ፡ አፉየ፡ ኪያሁ፡ እነብብ።</l>
+                  <l n="13">ወአንሰ፡ ኢያበድር፡ ንዋየ፡ እምነፍስየ፡ እስመ፡ ለእመ፡ አፍቀርኩ፡ ንዋየ፡ ይትመዓዓኒ፡ እግዚአብሔር፡ ከመ፡ ኢይርግም፡ ሕዝበ፡ ቡሩከ።</l>
+                  <l n="14">እስመ፡ ይቤሎ፡ እግዚአብሔር፡ ለያዕቆብ፡ አቡሆሙ፡ እለ፡ ይባርኩከ፡ ቡሩካነ፡ ለይኩን፡ ወእለ፡ ይረግሙከ፡ ርጉማነ፡ ለይኩኑ፡ እስመ፡ ኵሎ፡ ዘይባርከከ፡ ቡሩክ፡ ውእቱ።</l>
+                  <l n="15">ወዘሰ፡ ይረግመከ፡ ዘእንበለ፡ ፍትሕ፡ ርጉም፡ ውእቱ፡ ዓሠኒ፡ ምግባሪከ፡ ወፍኖተከ፡ ከመ፡ ይሠምር፡ ብከ፡ እግዚአብሔር።</l>
+                  <l n="16">ወኢትኩን፡ ከመ፡ ቀዳሜ፡ ሕዝብ፡ እለ፡ አምዕዕዎ፡ ለእግዚአብሔር፡ በእከዮሙ፡ ወውእቱ፡ ተሐየዮሙ፡ ወቦ፡ እለ፡ ደምሰሶሙ፡ በማየ፡ አይህ።</l>
+                  <l n="17">ወቦ፡ እለ፡ አጥፍኦሙ፡ በእደ፡ ፀሮሙ፡ ወአምጽአ፡ ፀር፡ ሕዝበ፡ እኩያነ፡ እለ፡ አሕመ፡ ምዎሙ፡ ወፄወውሙ፡ ለነገሥቶሙ፡ ምስለ፡ ነቢያቲሆሙ፡ ወሌዋውያኒሆሙ።</l>
+                  <l n="18">ወአብጽሕዎሙ፡ ኀበ፡ ነከር፡ ብሔር፡ እንተ፡ ኢየአምሩ፡ ወፅወውዎሙ፡ ወማኀርክዎሙ፡ ወቀሠፍዎሙ፡ ወአማሰኑ፡ ብሔሮሙ።</l>
+                  <l n="19">ወረሰይዋ፡ ለኢየሩሳሌም፡ ከመ፡ ገራኀተ፡ እስመ፡ ነሠቱ፡ ጥቆማ፡ ወቅጽራ፡ ለቅድስት፡ ሀገር።</l>
+                  <l n="20">ወተጼወዉ፡ ካህናት፡ ወተጸርዓ፡ ሕግ፡ ወወድቁ፡ እደው፡ በኵናት።</l>
+                  <l n="21">ወተጼወዋ፡ ዕቤራተ፡ ወኢበከያ፡ ላዕለ፡ አምታቲሆን፡ እለ፡ ሞቱ፡ እስመ፡ ተጸወዋ፡ ወሀለዋ፡ ላዕለ፡ ርእሶን።</l>
+                  <l n="22">ወበከዩ፡ ሕፃናት፡ ወተኃፍሩ፡ አዕሩግ፡ ወኢመሐሩ፡ ገጸ፡ አረጋዊ፡ ወዘሲበት።</l>
+                  <l n="23">ወኢእለ፡ ውስተ፡ ሰብሰብ፡ ወኢደናግለ፡ ወአማሰኑ፡ ኵሎ፡ ዘረከቡ፡ እምውስተ፡ አህጉሪ፡ ሆሙ፡ ወአፍለስዎሙ፡ ብሔረ፡ ነኪር፡ ኀበ፡ ኢየአምሩ፡ እስመ፡ ሶበ፡ ፈቀደ፡ እግዚአብሔር፡ ተምዓ፡ ላዕለ፡ ሕዝበ፡ ዚአሁ፡ ያቀድም፡ ነሢተ፡ መቅደሱ።</l>
+                  <l n="24">ወበእንተዝ፡ ሶበ፡ ተሐየዮሙ፡ እግዚአብሔር፡ ለደቂቀ፡ እስራኤል፡ ረስያ፡ እግዚአብሔር፡ ለኢየሩሳሌም፡ ትትሐረስ፡ ከመ፡ ገራህት፡ እስመ፡ ኵሉ፡ ጊዜ፡ ያምዕዕዎ፡ ለፈጣሪሆሙ።</l>
+                  <l n="25">ወውእቱሰ፡ ኢያጠፍዖሙ፡ በምንትኒ፡ በምዕር፡ እስመ፡ ይምህኮሙ፡ በእንተ፡ አበዊ፡ ሆሙ፡ ወአኮ፡ በእንተ፡ ርእሶሙ፡ ዘይምህኮሙ፡ አላ፡ እስመ፡ ያፈቅሮሙ፡ ለአበዊሆሙ፡ ለአብርሃም፡ ወለይስሐቅ፡ ወለያዕቆብ፡ እለ፡ ነግሡ፡ በጽድቅ፡ ወሖሩ፡ ድሜሁ፡ በርትዕ፡ ለፈጠሮሙ።</l>
+                  <l n="26">ወውእቱኒ፡ ሢሞሙ፡ ምክዕቢተ፡ ክብር፡ ዘበሰማይኒ፡ ወዘበምድርኒ</l>
+                  <l n="2">መንግሥተ፡ አድምዑ።</l>
+                  <l n="27">ወከማሁ፡ አንትሙኒ፡ ነገሥት፡ ወመኳንንት፡ እለ፡ ሀለዉክሙ፡ ውስተ፡ ዝንቱ፡ ዓለም፡ ኃላፊ፡ ተዘከርዎሙ፡ ለእለ፡ እምቅድሜክሙ፡ እለ፡ ሖሩ፡ በንጹሕ፡ ከመ፡ ወረሱ፡ መንግሥተ፡ ሰማያት፡ ወሠነየ፡ ስሞሙ፡ ለትውልደ፡ ትውልድ።</l>
+                  <l n="28">ወአንተኒ፡ ከመ፡ ያርትዕ፡ መንግሥተከ፡ ወያሠኒ፡ ሰመከ፡ በከመ፡ እለ፡ እምቅድሜከ፡ ሠናያን፡ ነገሥት፡ እለ፡ አሥመርዎ፡ ለእግዚአብሔር፡ በሥነ፡ ሕይወቶሙ።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="11" xml:id="chapter11">
+               <label>Chapter 11</label>
+               <ab>
+                  <l n="1">ተዘከሮ፡ ለሙሴ፡ ብእሴ፡ እግዚአብሔር፡ በጸሎቱ፡ ወበትሕትናሁ፡ እንዘ፡ ይርኢ፡ ዘመጠነ፡ ሕዝቦ፡ ኢተምዕዓ፡ ወኢያኅጐለ፡ አላ፡ ለእለ፡ ሐመይዎ፡ እኁሁ፡ ወውእቱ፡ ለእለ፡ ፈቀደ፡ እግዚአብሔር፡ ያጠፍዖሙ፡ በምዕር፡ አስተስረየ፡ ሎሙ፡ ኀበ፡ እግዚአብሔር፡ በየዋሃት፡ እንዘ፡ ይብል፡ መሐር፡ እግዚአብሔር፡ ሕዝበከ፡ ወኢትትሐይ፡ እስመ፡ አበሱ፡ ሕዝብከ፡ በቅድሜከ።</l>
+                  <l n="2">ወሊተሰ፡ ለኃጥእ፡ ገብርከ፡ ተሣሃለኒ፡ እስመ፡ አበስኩ፡ አቅድሜከ፡ ወለእሙንቱኒ፡ ሥረይ፡ ሎሙ፡ እስመ፡ መሐሪ፡ አንተ፡ ወመስተሣህል።</l>
+                  <l n="3">ወከመዝ፡ አስተሥርየ፡ ሎሙ፡ ለአለ፡ ሐመይዎ።</l>
+                  <l n="4">ወበእንተ፡ ዝንቱ፡ ተአምየ፡ የዋሃ።</l>
+                  <l n="5">ወአፍቀሮ፡ እግዚአብሔር፡ ፈድፋደ፡ እምኬሎሙ፡ ድፈቂቀ፡ ሌዋውያን፡ አኃዊሁ፡ ወአስ፡ ተማሰሎ፡ ከመ፡ እግዚአብሔር፡ በኀቤሆሙ፡ እስመ፡ ለካህናትኒ፡ ይሰይሞሙ።</l>
+                  <l n="6">ወለእለ፡ ተዓደወ፡ ደቂቀ፡ ቆሬ፡ እሥጠሞሙ፡ መተሕተ፡ ምድር፡ ወአውረዶሙ፡ ውስተ፡ ሲኦል፡ ሕያዋኒሆሙ፡ በነፍስ፡ ወበሥጋ፡ ምስለ፡ ደባትሪሆሙ፡ ወእንስሳሆሙ፡ ወኵሉ፡ ቃሉ፡ በከመ፡ ነበበ፡ ይትገበር፡ ሎቱ፡ ከመ፡ እግዚአብሔር፡ እስመ፡ አፍቀሮ፡ ለእግዚአብ፡ ሔር፡ አምላኩ፡ ወኢተዓደወ፡ እምትእዛዙ።</l>
+                  <l n="7">ወከማሁ፡ አንተሂ፡ ለእመ፡ ኢተዓደውከ፡ ትእዛዘ፡ እግዚአብሔር፡ ይገብር፡ ለከ፡ እግዚአ፡ ብሔር፡ ፈቃደከ፡ ወይሠምር፡ ቃለከ፡ ወየዓቅብ፡ መንግሥተከ።</l>
+                  <l n="8">ወደቂቀ፡ ቆሬ፡ ወዓሳፍ፡ እለ፡ ተዓደዉ፡ እምትእዛዙ፡ ለሙሴ፡ ወአንጐርጐሩ፡ ላዕሌሁ፡ በእንተ፡ ዘይቤሎሙ፡ አርትዑ፡ ነፍስክሙ፡ ለእግዚአብሔር።</l>
+                  <l n="9">ወይቤልዎ፡ ኢኮነኑ፡ ንሕነሰ፡ ደቂከ፡ ሌዊ፡ ዘንገብር፡ ግብረ፡ ክህነት፡ በውስተ፡ ደብተራ፡ ዘመርውል።</l>
+                  <l n="10">ወነሥኡ፡ መዓጥኒሆሙ፡ ከመ፡ ይዕጥኑ፡ ወሖሩ፡ ወዓጠኑ፡ ወኢተወከፈ፡ እግዚአብሔር፡ ጸሎቶሙ፡ ወበእሳተ፡ መዓጥኒሆሙ፡ ወዕዩ፡ ወተመስዉ፡ ከመ፡ ሰምዕ፡ ዘይትመሰው፡ በእሳተ፡ ወኢተርፈ</l>
+                  <l n="1">እምውስቴቶሙ፡ ወኢአፅምቲሆሙ፡ ወኢአልባሆሙ፡ ዘእንበለ፡ ማዕጠንት፡ ዘብርት፡ ዘአግብኡ፡ ውስተ፡ ቤተ፡ እግዚአብሔር፡ ዘበትእዛዘ፡ እግዚአብሔር፡ እስመ፡ ይቤ፡ ተቀደሰ፡ መዓጥኒሆሙ፡ በውዕየት፡ ሥጋሆሙ።</l>
+                  <l n="11">ወበእንተዝ፡ ይቤሎሙ፡ እግዚአብሔር፡ ለሙሴ፡ ወለአሮን፡ አስተጋብዑ፡ መዓጥኒሆሙ፡ ውስተ፡ ደብተብራ፡ ወይኩን፡ ለቤትየ፡ ግበሪሃ፡ ወኵሉ፡ ዘሠራዕኩ፡ ላቱ፡ እምአፍኣ፡ እስከ፡ ውሥጥ።</l>
+                  <l n="12">ወዓሠነየ፡ ግበሪሃ፡ ለቅድስት፡ ደብተራ፡ ምስሐለ፡ ወኆፃደተ፡ ወኪሩበ፡ ወአብሕርተ።</l>
+                  <l n="13">ወመቅድሐ፡ ወመሣውረ፡ ወመዋድደ፡ ወዓፀደ፡ ገድገድኒ፡ ለደብተራ፡ ጻሕራተ፡ ወመሥ፡ ዋዕተ፡ ዘይሠውዑ፡ በውስተ፡ ደብተራ፡ መርጡል።</l>
+                  <l n="14">ወመሥዋዕተ፡ ዘፈቃድ፡ ወመሥዋዕተ፡ ዘመድኃኒት፡ ወመሥዋዕተ፡ ብፅዓት፡ ወዘበእንተ፡ ኃጢአት፡ ወመሥዋዕተ፡ ዘበሕጉ።</l>
+                  <l n="15">ወኵሎ፡ ዘአዘዞ፡ ለሙሴ፡ በውስተ፡ ደብተራ፡ መርጡል፡ ከመ፡ ይግበሩ፡ ባቲ፡ አዘዞሙ።</l>
+                  <l n="16">ወኢያስተቱ፡ ተቀንዮ፡ ለአምላኮሙ፡ ከመ፡ ይስባሕ፡ ስሙ፡ በላዕሌሆሙ፡ በውስተ፡ ደብተራ፡ ሕጉ፡ ለእግዚአብሔር፡ አምላኮሙ፡ ዘአሰፈዎሙ፡ ከመ፡ የሃቦሙ፡ ርስተ፡ አበዊሆሙ፡ ምድረ፡ አንተ፡ ትውኅዘ፡ ሐሊበ፡ ወመዓረ፡ ዘመሐለ፡ ሎቱ፡ ለአብርሃም።</l>
+                  <l n="17">ወተካየደ፡ ለይስሐቅ፡ ወዓቀመ፡ ሰምዓ፡ ለያዕቆብ።</l>
+                  <l n="18">ወለሙሴ፡ ወለአሮን፡ በውስተ፡ ደብተራ፡ ሰምዕ።</l>
+                  <l n="19">ወለሳሙኤል፡ ወለኤልያስ፡ በኢየሩሳሌም፡ በውስተ፡ ደብተራ፡ በቤተ፡ መቅደስ፡ በኀበ፡ ሐነጸ፡ ሰሎሞን፡ እስከ፡ ይከውን፡ ቤተ፡ እግዚአብሔር፡ ወምዕራፈ፡ ስሙ፡ ለልዑል፡ ወማሕደሮ፡ ለቅዱስ፡ እስራኤል።</l>
+                  <l n="20">እስመ፡ ምሰአል፡ ወምስትሥራየ፡ ኃጢአተ፡ ይእቲ፡ በኀበ፡ ያስተርኢ፡ ለካህናቲሁ፡ ለእለ፡ የሐውሩ፡ በየዋሃተ።</l>
+                  <l n="21">ወኀበ፡ ይሰምዕ፡ ጸሎቶሙ፡ ለእለ፡ ይገብሩ፡ ፈቃደ።</l>
+                  <l n="22">አኀበ፡ ይሠራዕ፡ ሕጉ፡ ለእግዚአብሔር፡ ቅዱስ፡ እስራኤል።</l>
+                  <l n="23">ወበኀበ፡ ይትገበር፡ ጽንሐሐ፡ መሥዋዕት፡ ወዕጣን፡ ለመዓዛ፡ ሠናይ፡ ለእግዚአብሔር፡ ቅዱስ፡ እስራኤል።</l>
+                  <l n="24">ወይትናገር፡ በመልዕልተ፡ ምስሐል፡ በደብተራ፡ መርጡል፡ ወያስተርኢ፡ ስብሐቲሁ፡ ለእግዚአብሔር፡ ለኅሩያኒሁ፡ ደቂቀ፡ ያዕቆብ፡ ወቅዱሳኒሁ፡ እለ፡ የሐውሩ፡ በትእዛዙ፡ ወኵነኔሁ፡ ለእግዚአብሔር።</l>
+                  <l n="25">ወእለሰ፡ ይትዔየሩ፡ ይከውኑ፡ ከመ፡ ደቂቀ፡ ቆሬ፡ እለ፡ ውኅጠቶሙ፡ ምድር፡ ወከማሁ፡ ኃጥአን፡ ሀለዎሙ፡ ይትወደዩ፡ ውስተ፡ ኵነኔ፡ ነደ፡ እሳት፡ እንተ፡ አልባቲ፡ ሙፆዕ፡ እስከ፡ ለዓለም።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="12" xml:id="chapter12">
+               <label>Chapter 12</label>
+               <ab>
+                  <l n="1">አሌ፡ ለክሙ፡ ኃያላነ፡ እስራኤል፡ እለ፡ ኢየዓቀብኩሙ፡ ዘአዘዝክሙ፡ በውስተ፡ ደብተራ፡ ወኢገበርክሙ፡ ፈቃደ፡ ዘእንበለ፡ ፈቃደ፡ ርእሰክሙ፡ ትዕቢት፡ ወትዝኅርት፡ ወዝሙት፡ ወስስዕት፡ ወስካር፡ ወስታይ፡ ወመሐሊ፡ በሐሰተ።</l>
+                  <l n="2">ወበእንተዝኬ፡ ይነደድ፡ መዓትየ፡ ላዕሌክሙ፡ ከመ፡ ሐሠር፡ ዘቅድመ፡ ገጸ፡ እሳት፡ ወከመ፡ እሳት፡ ዘያነድድ፡ አድባረ፡ ወከመ፡ ነፋስ፡ ዓውሎ፡ ዘያነሥኦ፡ ለፀበል፡ ድኩም፡ እምድር፡ ወይዘርዎ፡ መልዕልተ፡ አየረ፡ ኃበ፡ ዘኢይትረክብ፡ ዓሠሩ፡ እምነ፡ ምግባሩ።</l>
+                  <l n="3">ወከማሁ፡ አጠፍዖሙ፡ ለኵሎሙ፡ እለ፡ ይገብርዋ፡ ለእኪት፡ እምቅድመ፡ ገጽየ፡ ይቤ፡ እግዚአብሔር፡ ቅዱስ፡ እስራኤል፡ ወተዘከርዎ፡ ለእግዚአብሔር፡ ዘኵሎ፡ ይመልክ፡ ወአልቦ፡ ዘይሠዓኖ።</l>
+                  <l n="4">ወያፈቅሮሙ፡ ለአለ፡ ያፈቅርዎ፡ ወይሠሪ፡ ሎሙ፡ ኃጢአቶሙ፡ ወአበሳሆሙ፡ ለእለ፡ የሐውሩ፡ በትእዛዙ፡ ወኢትኩኑ፡ ድንፅዋነ፡ ወድንዙዛነ፡ ልብ፡ ለኢአሜን።</l>
+                  <l n="5">ወአርትዑ፡ ነፍስክሙ፡ ለአግዚአብሔር፡ ወተመሰሎ፡ ቦቱ፡ ከመ፡ ታድኅኑ፡ ነፍስክሙ፡ ወአድኅንክሙ፡ እምእደ፡ ፀርክሙ፡ አመ፡ ዕለተ፡ ምንዳቤክሙ።</l>
+                  <l n="6">ወሶበ፡ ተጼውዑኒ፡ አብለክሙ፡ ነዋ፡ ሀሎኩ፡ ምስሌክሙ፡ ወአድኅነክሙ፡ እምእደ፡ ፀርክሙ፡ ወኢይትሔየይክሙ፡ አመ፡ ዕለተ፡ ምንዳቤክሙ፡ እስመ፡ ተወከልክሙ፡ ብየ፡ ወገብርክሙ፡ ትእዛዝየ፡ ወኢተዓደውክሙ፡ እምሕግየ፡ ወአፍቀርክሙ፡ ዘአነ፡ አፍቀር፡ ይቤ፡ እግዚአብሔር፡ ዘኵሎ፡ ይመልክ።</l>
+                  <l n="7">ወለእለ፡ ያፈቅርዎ፡ ያፈክሮሙ፡ ወለእለ፡ የዓቅቡ፡ ትእዛዞ፡ ይትመሐፀኖሙ፡ እስመ፡ መሐሪ፡ ወመስተሥሕል፡ ውእቱ።</l>
+                  <l n="8">ወየበዝኅ፡ መይጠ፡ መዓቱ፡ ወኢያነድድ፡ በኵሉ፡ መቅሠፍቱ፡ እስመ፡ መሐሪ፡ ውእቱ፡ እስመ፡ የአምሮሙ፡ ከመ፡ ሥጋ፡ ወደም፡ እሙንቱ፡ ወእምከመ፡ ወጽአት፡ ነፍሰቶሙ፡ እምሥጋሆሙ፡ ይገብዑ፡ ውስተ፡ መሬቶሙ።</l>
+                  <l n="9">ወኢየአምሩ፡ ሀበ፡ ሀለዉ፡ እስከ፡ አመ፡ ፈቀዶ፡ እግዚአብሔር፡ ከመ፡ ያምጽኦሙ፡ እምኀበ፡ ኢሀለዉ፡ እስመ፡ ፈጠሮሙ፡ እምኀበ፡ ኡሀለዉ፡ ወካእበ፡ ውእቱ፡ ነሥአ፡ ነፍሶሙ፡ ወአግብአ፡ መሬተ፡ ውስተ፡ መርስቱ።</l>
+                  <l n="10">ወካዕበ፡ ውእቱ፡ ያመጽኦሙ፡ እምኀበ፡ ኢሀለዉ፡ ውስተ፡ ሀለዎ፡ ፈቃዱ።</l>
+                  <l n="11">ወጺሩጻይዳንሰ፡ ዓላዊሁ፡ ለእግዚአብሔር፡ አብዝኃ፡ ተዓብዮ፡ ቅድመ፡ እግዚአብሔር፡ ወሶበ፡ ኃደጎ፡ እስከ፡ አመ፡ ጊዜ፡ ፈቀዶ፡ አዕበየ፡ ርእሶ።</l>
+                  <l n="12">ወይቤ፡ ኮነ፡ መዋዕልየ፡ ከመ፡ መዋዕለ፡ ሰማይ፡ ወአነ፡ ውእቱ፡ ዘአሠርቅ፡ ፀሐየ፡ ዘኢይመውት፡ እስከ፡ ለዓለም።</l>
+                  <l n="13">ወዘንተ፡ ቃለ፡ እንዘ፡ ኢይፌጽም፡ ወረዶ፡ መልአከ፡ ሞት፡ ዘስሙ፡ ጥልምያኮስ፡ ወዘበጦ፡ ልቦ፡ ወሞተ፡ በጊዜሃ፡ ወተአጐለ፡ እምስነ፡ ንብረቱ፡ ወእምብዝኃ፡ ትዕቢቱ፡ ወእምእከየ፡ ምግባሩ፡ እስመ፡ ኢያእኰቶ፡ ለፈጣሪሁ።</l>
+                  <l n="14">ወሠራዊተ፡ ንጉሠ፡ ከለዳውያንሰ፡ እንዘ፡ ሀለዉ፡ አፍአ፡ ሀገሩ፡ ወትዕይንት፡ እንዘ፡ ይፈቅዱ፡ ፀቢዖቶ፡ ወሶበ፡ ሞተ፡ ወፅኡ፡ ወአጥፍዑ፡ ብሔሮ፡ ወማህረኩ፡ ኵሎ፡ እንሳስሁ፡ ወኢያትረፉ፡ እስከ፡ አኢያስተአዝብ፡ ውስተ፡ ዓረፍት።</l>
+                  <l n="15">ወኵሎ፡ ንዋዮ፡ ማህረኩ፡ ወቈሳቍሰ፡ ነሥኡ፡ ወአውዓዩ፡ በእሳት፡ ሀገሮ፡ ወአተዉ፡ ውስተ፡ ብሔሮሙ።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="13" xml:id="chapter13">
+               <label>Chapter 13</label>
+               <ab>
+                  <l n="1">ወእሙንቱሰ</l>
+                  <l n="5">መቃብያን፡ ደቂቁ፡ ለመቃቢስ፡ እለ፡ አምኑ፡ ወመጠዉ፡ ነፍሶሙ፡ ለሞት፡ አቢዮሙ፡ በፈዓ፡ መሥዋዕተ፡ ጣዖት።</l>
+                  <l n="2">ወመጢዉ፡ ነፍሶሙ፡ ለእሳት፡ ከመ፡ ይድኃኑ፡ እምእሳት፡ ዘበሰማያት፡ እእሚሮሙ፡ ከመ፡ ዝንቱ፡ ዓለምየ፡ የኃልፍ።</l>
+                  <l n="3">ወይቤሊ፡ ወኢይነብር፡ ተድላ፡ ለዝሉፍ፡ እስመ፡ አእመሩ፡ ከመ፡ የአኪ፡ ትዕይርተ፡ እግዚአብሔር፡ እምትዕይርተ፡ እጓለ፡ እመሕያው፡ ወየአኪ፡ መዓቱ፡ አእግዚአብሔር፡ እመዓቱ፡ ለንጉሥ።</l>
+                  <l n="4">ወይኄይስ፡ አሐቲ፡ ዕለት፡ ተፈሥሖ፡ በአዕፃዳተ፡ ገነት፡ እምአዕላፍ፡ ዓመታት፡ ሐይው፡ በዲበ፡ ምድር፡ ወለነዋህ፡ መዋዕል፡ ይኄይስ፡ አሐተ፡ ሰዓተ፡ ሣህለ፡ ዚአከ፡ እግዚኦ።</l>
+                  <l n="5">ወምንትኪ፡ መዋዕለኒ፡ ለሰብእ፡ አኮኑ፡ ከመ፡ ጽላሎት፡ የኃልፍ፡ ወከመ፡ ሰምዕ፡ ዘቅድመ፡ ገጸ፡ እሳት።</l>
+                  <l n="6">ወአንተሰ፡ እግዚኦ፡ ለዓለም፡ ትነብር፡ ወዓመቲከኒ፡ ዘኢየኃልቅ፡ ወዝክርከኒ፡ ለትውልደ፡ ትውልድ።</l>
+                  <l n="7">ወዘንተ፡ ኵሎ፡ ወዘይመስሎ፡ ሐለዩ፡ ደቂቀ፡ መቃቢስ፡ ወአብደሩ፡ ወአብደሩ፡ ተወክሎ፡ በእግዚአብሔር፡ ወአበዩ፡ በሊዓ፡ መሥዋዕተ፡ ርኵሰት።</l>
+                  <l n="8">ወበእንተዝ፡ መጠዉ፡ ሥጋሆሙ፡ ለስምዕ፡ በእንተ፡ እግዚአብሔር፡ አእሚሮሙ፡ ከመ፡ ይትነሥኡ፡ ምውታን፡ ወአእሚሮሙ፡ ከመ፡ ይከውን፡ ፍትሕ፡ እምድኅረ፡ ትንሣኤ።</l>
+                  <l n="9">ወእለ፡ ኢተአምሩ፡ ወኢተአምኑ፡ ትንሣኤ፡ ሙታን፡ አእምሩ፡ እንከ፡ እምአሎ</l>
+                  <l n="5">ዕደው፡ ሠናያነ፡ ዘውግ፡ እለ፡ ኅቡረ፡ መጠዉ፡ ነፍሶሙ፡ ለሞት፡ አእሚሮሙ፡ ከመ፡ ትሤኒዩኃሪት፡ ሕይወቶሙ፡ እምዛቲ፡ ምድራዊት፡ ኃላፊተ።</l>
+                  <l n="10">ወርእዮሙ፡ ከመ፡ ኵሎ፡ የኃልፍ፡ ወመጠዉ፡ ነፍሶሙ፡ ለሞት፡ ከመ፡ እምኀበ፡ እግዚ፡ አብሔር፡ ይርከቡ፡ ምዝጋና፡ በእንተ፡ ዘአምንዎ፡ ወኢሰገዱ፡ ለጣዖት፡ ወኢበልዑሰ፡ መሥዋዕት፡ ምዉት፡ ወርኵሰት።</l>
+                  <l n="11">ወበእንተዝ፡ አእሚሮሙ፡ ከመ፡ ያስተፌሥሖሙ፡ በደኃሪት፡ ዕለት፡ በነፍስ፡ ወሥጋ፡ እስመ፡ እንዘ፡ ቦሙ፡ ብእሲት፡ ወውሉድ፡ ኢያእመሩ፡ ጣዕማ፡ ለዛ፡ ዓለም፡ ወምረራ፡ ለሞት፡ ወመጠዉ፡ ነፍሶሙ፡ ለሞት፡ አእሚሮሙ፡ ከመ፡ ይከውን፡ ትንሣኤ፡ በደኃሪት፡ ዕለት፡ በነፍስ፡ ወበሥጋ።</l>
+                  <l n="12">ወአእሚሮሙ፡ ከመ፡ ይነግሡ፡ እለ፡ ዓቀቡ፡ ሥርዓቶ፡ ለእግዚአብሔር፡ በዓለም፡ ዘይመጽእ፡ ለትውልደ፡ ትውልድ፡ ወለነዋህ፡ መዋዕለ፡ ኀበ፡ አልቦ፡ ሕማም፡ ወኀዘን።</l>
+                  <l n="13">ቦ፡ አልቦ፡ ሕማም፡ ወኀዘን፡ ወአልቦ፡ ሞት፡ ወምስለ፡ እለ፡ አምኑ፡ በቃለ፡ እግዚአብሔር፡ ኄራን፡ ነገሥት፡ ወመኳንንት፡ ወመጠዉ፡ ነፍሶሙ፡ ለሞት፡ ከመ፡ ሰምዕ፡ ማዕከለ፡ እሳት፡ እንዘ፡ ይሬእዩ፡ በሕሊና፡ ልቦሙ፡ ዘደኀሪ።</l>
+                  <l n="14">ወይሴፈዉ፡ በዘይበርህ፡ ገጾሙ፡ ምስብዒተ፡ እምፀሐይ፡ ወከመ፡ ይትፈጽሑ፡ በፍቅረ፡ ዚአሁ፡ አመ፡ ትንሣኤ፡ ኵሉ፡ በነፍሰ፡ ወበሥጋከ።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="14" xml:id="chapter14">
+               <label>Chapter 14</label>
+               <ab>
+                  <l n="1">ሊተሰ፡ የኃዝነኒ፡ ፈድፋደ፡ ወያቴክዘኒ፡ ወይቀልየኒ፡ ልብየ፡ በእንተ፡ አይሁድ፡ ወሳም፡ ራውያን፡ ወፈሪሳውያን፡ ወሰዱቃውያን፡ እለ፡ ኢየአምኑ፡ ትንሣኤ፡ ምውታን፡ አይሁድ፡ ይብሉ፡ ንብላዕ፡ ወንሰተይ፡ ጌሠማ፡ ንመውት፡ ወበህየ፡ አልቦ፡ ዘንሬኢ።</l>
+                  <l n="2">ወሳምራውያንሰ፡ ይብሉ፡ ሥጋነሰ፡ ኢይትነሣእ፡ እስመ፡ ፀበለ፡ ይከውን።</l>
+                  <l n="3">ወእመሰ፡ ይከውን፡ ትንሣኤ፡ ትንሣኤ፡ ነፍሳቲነ፡ ነአምን፡ እስመ፡ ነፍሰ፡ እመኒ፡ ሞተ፡ ሥጋ፡ ኢትመውት፡ እስመ፡ ከመ፡ ነፋስ፡ ይእቲ፡ እንተ፡ ኢትትረአይ፡ ወከመ፡ ድምፀ፡ ነጐድጓድ፡ ወኢይብልዋ፡ ነያ፡ ወኢታስተርኢ።</l>
+                  <l n="4">ወሥጋነሰ፡ ትትረአይ፡ በኵሉ፡ ወትከውን፡ ሐመደ፡ ወፀበለ፡ እስመ፡ አራዊት፡ ይበልዕዋ፡ ወዕፄያትኒ፡ ይበልዕዋ፡ በውስተ፡ መቃብር።</l>
+                  <l n="5">ወእሙንቱኒ፡ እለ፡ በልዕዋ፡ ይከውኑ፡ ሐመደ፡ ወኢይትረከብ፡ ዓሠሮሙ፡ እስመ፡ ከመ፡ ሣዕር፡ ይከውኑ፡ ወከመ፡ ዘኢትፈጥሩ፡ ኮኑ፡ ሐመደ።</l>
+                  <l n="6">ወበይእቲ፡ ይትረከቡ፡ ሥጋት፡ እለ፡ በልዩ፡ ወከመዝ፡ ይብሉ፡ ፈሪሳውያን፡ ትንሣኤ፡ ምውታንሰ፡ ነአምን፡ ወባሕቱ፡ ያለብሶሙ፡ ለነፍሳት፡ በሰማያት፡ ካልዓ፡ ሥጋ፡ ዘኢኮነ፡ ዘበምድር።</l>
+                  <l n="7">ወከመዝ፡ ይብሉ፡ ሰዱቃውያን፡ እምአመ፡ ወፅአት፡ ነፍስነ፡ እምሥጋነ፡ ኢንትነሣእ፡ እምውታን፡ ወአልቦሙ፡ ትንሣኤ፡ ሙታን፡ ኢለነፍስ፡ ወኢለሥጋ፡ ወእምከመ፡ ሞትነ፡ ኢንትነሣእ።</l>
+                  <l n="8">ወበእንተ፡ ዝንቱ፡ የዓብዱ፡ ፈድፋደ፡ ወያቲክዘኒ፡ በእንተአሆሙ፡ እስመ፡ ይትናገሩ፡ ጽርፈት፡ ላዕለ፡ እግዚአብሔር፡ ወስብሐቲሁ።</l>
+                  <l n="9">ወአልቦሙ፡ ተስፋ፡ ለድኂን፡ እስመ፡ ኢተአመንዎ፡ ለእግዚአብሔር፡ ለዘያጸድቆሙ፡ ወባሕቱ፡ ተስፋ፡ አልቦሙ፡ ለድኂን፡ ወትንሣኤ፡ ሙታን።</l>
+                  <l n="10">ወአይሁዳዊ፡ ዕውር፡ ታሰተዓብይኑ፡ ለእግዚአብሔር፡ ዘአምጽአከ፡ እምኀበ፡ ኢሀሎከ፡ ወእንዘ፡ ምራት፡ ረሰየከ፡ ሰብአ፡ ይሥዕነከሁ፡ ዘዘርዓከ፡ ዓብቍሎ፡ ነፍስከ፡ ወሥጋከ፡ በአርዓያሁ፡ ወበአምሳሌሁ።</l>
+                  <l n="11">ወኢትትሐሰብኪ፡ ከመዝ፡ እስመ፡ ኢታመሥጥ፡ እምእዴሁ፡ ለእግዚአብሔር፡ ትትነሣ፡ እኬ፡ እንዘ፡ ኢትፈክድ፡ ወትትኳነን፡ እንዘ፡ ኢትሠምር፡ እስመ፡ ሀብለ፡ ሲኦል፡ ውስተ፡ ክሣድከ፡ ሀለወ፡ ዘተእኅዝከ፡ ዛቲ፡ አመ፡ ዕለት፡ ሞትከ።</l>
+                  <l n="12">እስመ፡ በውስተ፡ ከርሠ፡ እምከ፡ ትሠርፅ፡ ለከ፡ እምጕንደ፡ ሲኦል፡ ይእቲ፡ ሀብል፡ እንተ፡ ይወድይዋ፡ ውስተ፡ ክሣድከ፡ ወሶበ፡ ትልህቅ፡ አንተ፡ ወከማሁ፡ ትልህቅ፡ ይእቲ።</l>
+                  <l n="13">ወሶበ፡ ትመውት፡ አንተ፡ ይወድይዋ፡ ውስተ፡ ክሣድከ፡ ወሶበ፡ ይስህብዋ፡ ጕንዳ፡ ታመጽኦሙ፡ ይእቲ።</l>
+                  <l n="14">ወትስህብ፡ አዕፁቂሃ፡ እስመ፡ ሀለዉ፡ ኵሎሙ፡ ኃጥአን፡ እኁዛን፡ ውስቴታ፡ ከመ፡ አህባል፡ ሀሎ፡ ውስተ፡ ክሣውዲሆሙ።</l>
+                  <l n="15">ወየመጽአ፡ ኵሎን፡ ነፍሳተ፡ ኃጥአን፡ እምኀበ፡ ሀለዋ፡ እምአጽናፈ፡ ሰማይ፡ ወከማሁ፡ ትስሕበከ፡ ሀብልከ፡ ከመ፡ ታምጽእ፡ ነፍሰከ፡ እምኀበ፡ ሀለዉከ፡ ወታገብዓከ፡ ውስተ፡ ፈለገ፡ ሲኦል።</l>
+                  <l n="16">ወሥጋከኒ፡ ተአቲቶ፡ ወዊኖ፡ ምስብዒተ፡ በከመ፡ ሥጋሁ፡ ለአቡነ፡ አዳም፡ ታነሥአከ፡ ጠለ፡ ምሕረቱ፡ ለእግዚአብሔር፡ ወበህየ፡ ትትፈደይ፡ በከመ፡ ገብርከ፡ አበሰ፡ ወኃጢአተ፡ በከመ፡ ኢአሚኖትከ።</l>
+                  <l n="17">ወኢይመስልከ፡ በከመ፡ ዘታስት፡ ባዕደ፡ ወትስሐት፡ ለሊከ፡ ዘትነብር፡ ውስተ፡ መቃብር፡ በስሕተትከ፡ ወትብል፡ አልቦ፡ ትንሣኤ፡ ሙታን፡ ከመ፡ ይስሕቱ፡ እንትእዛዘ፡ እግዚአብሔር።</l>
+                  <l n="18">ወመኑ፡ የኃድገከ፡ ውስተ፡ ሐመድ፡ ወመሬት፡ ዳዕሙ፡ ያነሥአከ፡ ከመ፡ ይፍዲከ፡ በከመ፡ ምግባሪከ፡ ዘገበርከ።</l>
+                  <l n="19">ወአሜሃሰ፡ ይመጽእ፡ እመሂ፡ ዘውስተ፡ ነፋሳት፡ መናፍስቲከ፡ ወእመሂ፡ ዘውስተ፡ ምድር፡ ፀበልከ፡ ወእመሂ፡ ዘውስተ፡ እሳት፡ ላህብከ።</l>
+                  <l n="20">ወእመሂ፡ መንፈሰ፡ ሕይወት፡ ዘተነፍሐ፡ ላዕሌከ፡ በውስተ፡ ዓፀደ፡ ጽልመት።</l>
+                  <l n="21">ዘትዓዕዋቀ፡ ወነፍሳተ፡ ጻድቃንሰ፡ ውስተ፡ ገነት፡ በፍሥሐ፡ ይትዓፅዋ።</l>
+                  <l n="22">ወአንተሰ፡ ኦአይሁዳዊ፡ ወሳምራዊ፡ ወፈሪሳዊ፡ ወሰዱቃዊ፡ እስከ፡ ጊዜ፡ ኵነኔከ፡ ትት፡ ዓሠር፡ በውስተ፡ ጽልመት።</l>
+                  <l n="23">ወአሜሃ፡ ትሬኢ፡ በከመ፡ ይፈድየከ፡ እግዚአብሔር፡ በከመ፡ ምግባሪከ፡ በእንተ፡ ዘአስ፡ ሐተከ፡ ሉብኦ።</l>
+                  <l n="24">ወትቤሎሙ፡ ኢየሐይዉ፡ ምውታን፡ ንብላዕ፡ ወንስተይ፡ እስመ፡ ጌሠመ፡ ንመውት፡ ወትብል፡ በካልከ፡ እንዘ፡ ትትነብር፡ ዲበ፡ መንበረ፡ ሙሴ፡ አልቦ፡ ትንሣኤ፡ ሙታን።</l>
+                  <l n="25">ወበእንተዝ፡ ስሕተከ፡ እንዘ፡ ተአምር፡ መጽሐፈ፡ ኦሪት፡ ወትሜህር፡ ቃለ፡ መጻሕፍት፡ ወእምታሰሕት፡ ሰብእ፡ እምኀሰየከ፡ ሶበ፡ ኢትምህርከ፡ ወኢያአመርከ።</l>
+                  <l n="26">ቃለ፡ መጻሕፍት፡ እምታዕሉ፡ ሕዝበ፡ እግዚአብሔር፡ በአከየ፡ ትምህርትከ፡ ወበዘኢይበቍዕ፡ ቃልከ።</l>
+                  <l n="27">ወእንተሰ፡ ትትዓሠይ፡ በከመ፡ ምግባሪከ፡ ወበከመ፡ ፍሬ፡ ከናፍሪከ፡ እስመ፡ ኢያደሉ፡ እግዚአብሔር፡ ለገጽ፡ ወለእለ፡ ይሜህሩ፡ ሠናየ፡ የዓሥዮሙ፡ እምሠናያት፡ ዘአስተደለወ፡ ለእለ፡ ይፈቅርዎ።</l>
+                  <l n="28">ወአንተሰ፡ አልብከ፡ ኀበ፡ ታመሥጥ፡ እምእዴሁ፡ ለዘይኳንነከ፡ ወሀሎ፡ ይፍዲከ፡ በከመ፡ ምግባሪከ፡ እስመ፡ አንተ፡ ወእለ፡ መሀርኮሙ፡ ኅቡረ፡ ትትኳነኑ።</l>
+                  <l n="29">አእምርኩ፡ ከመ፡ ይትነሥኡ፡ ምውታን፡ እመሂ፡ እለ፡ ዓቀቡ፡ ትእዛዞ፡ ይትነሥኡ፡ ወኢ፡ ይትሃከሎሙ፡ ቀዊም፡ እስመ፡ ትእዛዙ፡ ያወፅኦሙ፡ ወበከመ፡ ታወፅዕ፡ ምድር፡ ሣዕረ፡ ሶበ፡ ይዘብጣ፡ ዝናም።</l>
+                  <l n="30">ወከመ፡ ታወፅኦ፡ ርጥብት፡ ዕፅ፡ ቈፅለ፡ ሶበ፡ አርወያ፡ ለምድር፡ ዝናመ፡ ወበከመ፡ ትገብር፡ ፍሬ፡ ሥርናይ፡ አው፡ ሰብለ፡ እክል፡ ወኢይትከሃል፡ ከመ፡ ትክላዕ፡ ፍሬሃ፡ ለአመ፡ ሠምረ፡ እግዚአብሔር።</l>
+                  <l n="31">ወከመ፡ ፅንሰተ፡ ሶበ፡ ይመጽአ፡ ሕማማ፡ ኢትክል፡ ዓፂወ፡ ማኅፀና፡ እምከመ፡ ሰምዓት፡ ቃለ፡ እግዚአብሔር፡ አላ፡ ትወልዶሙ፡ ሶቤሃ፡ በምዕር፡ እስመ፡ ጠል፡ ዘእምኀበ፡ እግዚአብሔር፡ ይወርድ፡ ላዕሌሃ።</l>
+                  <l n="32">ወከማሁ፡ ምድርኒ፡ ታወፅዕ፡ ዕለተ፡ ተዘግቡ፡ ኀቤሃ፡ ኢትክል፡ ዓፂወ፡ ማኅፀና፡ እምከመ፡ ሰምዓት፡ ቃለ፡ እግዚአብሔር፡ አላ፡ ትወልዶሙ፡ ሶቤሃ፡ በምዕር፡ እስመ፡ ጠል፡ ዘእምኀበ፡ እግዚአብሔር፡ ይወርድ፡ ላዕሌሃ።</l>
+                  <l n="33">ወይትጋብኡ፡ ሥጋት፡ ውስተ፡ መካናቲሆሙ፡ ኀበ፡ ወድቀ፡ አብድንቲሆሙ፡ ወይትረ፡ ኃው፡ አብያተ፡ መዛግብተ፡ ነፍሳት፡ ወይገብኡ፡ ነፍሳት፡ ውስተ፡ ሥጋት፡ እምኀበ፡ ወፅአ፡ ቀዲሙ።</l>
+                  <l n="34">ወበንፍሐተ፡ ከርን፡ ይትነሥኡ፡ ሙታን፡ ከመ፡ ቅጽበተ፡ ዓይን፡ ወይቀውሙ፡ ቅድመ፡ እግዚአብሔር፡ ወየዓሥዮሙ፡ በከመ፡ ግብረ፡ እደዊሆሙ።</l>
+                  <l n="35">አሜሃ፡ ትሬኢ፡ ከመ፡ ትትነሣእ፡ እምውታን፡ ወታነክር፡ በኵሉ፡ ምግባሪከ፡ ዘገበርከ፡ አንተ፡ በዲበ፡ ምድር፡ ወሶበ፡ ትሬኢዮሙ፡ ጽሑፋነ፡ ቅድመ፡ አዕይንቲከ፡ ወይእተ፡ አሚረ፡ ትኔስሕ፡ በኀበ፡ ኢይበቍአከ።</l>
+                  <l n="36">ወተአምረ፡ ከመ፡ ትትነሣእ፡ እሙታን፡ ወትትፈደይ፡ በከመ፡ ምግባሪከ፡ ዘገብርከ።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="15" xml:id="chapter15">
+               <label>Chapter 15</label>
+               <ab>
+                  <l n="1">ወእለሰ፡ አድምዑ፡ በምግባሮሙ፡ ሠናይ፡ አሜሃ፡ ይትፌሥሑ፡ ወእለሰ፡ ተሐከዩ፡ እንዘ፡ ይብሉ፡ ኢይትነሥኡ፡ ምውታን፡ አሜሃ፡ የኃዝኑ፡ ሶበ፡ ርእዩ፡ ከመ፡ ተንሥኡ፡ እሙታን፡ ምስለ፡ ምግባሮሙ፡ እኩይ፡ ዘአልቦ፡ ባቍዕ።</l>
+                  <l n="2">ወይኳንኖሙ፡ ውእቱ፡ ምግባሮሙ፡ ዘገብሩ፡ እንዘ፡ አልቦ፡ ዘይወቅሶሙ፡ ለሊሆሙ፡ የአምሩ፡ ርእሶሙ፡ ዘከመ፡ ይትኳነን።</l>
+                  <l n="3">ወይቀውሙ፡ ምቅዋመ፡ ረሲዓን፡ አመ፡ ዕለተ፡ ብካይ፡ ወኵነኔ፡ አመ፡ ዕለተ፡ ደይን፡ ወአመ፡ ዕለተ፡ እግዚአብሔር።</l>
+                  <l n="4">አመ፡ ዕለተ፡ ጽልመት፡ አመ፡ ዕለተ፡ ጣቃ፡ አመ፡ ዕለተ፡ ጊሚ፡ አመ፡ ዕለተ፡ ፀዓዕ፡ አመ፡ ዕለተ፡ መብረቅ።</l>
+                  <l n="5">አመ፡ ዕለተ፡ ፍርሃት፡ ወረዓድ፡ አመ፡ ዕለተ፡ ደደክ፡ ወመርቂ፡ አመ፡ ዕለተ፡ አሰሐትያ።</l>
+                  <l n="6">አመ፡ ዕለተ፡ ይትፈደይ፡ እኩይ፡ በከመ፡ ገብረእኩየ፡ ወአመ፡ ይትፈደይ፡ ንጹሕ፡ በከመ፡ ገብረ፡ ንጹሐ፡ ወአመ፡ ይትፈደይ፡ ጸዋግ፡ በከመ፡ ገብረ፡ ፁገ።</l>
+                  <l n="7">ወአመ፡ ኢይከብር፡ እግዚእ፡ እምገብረ፡ ወአመ፡ ኢትከብር፡ አግዓዚት፡ እምዓመት።</l>
+                  <l n="8">ወአመ፡ ኢይከብር፡ ንጉሥ፡ እምሰኪን፡ ወመኰንን፡ እምሕፃን፡ ወአብ፡ እምወልዱ፡ ወእም፡ እምወለታ።</l>
+                  <l n="9">ወአመ፡ ኢይከብር፡ ባዕል፡ እምነደይ፡ ወዕቡይ፡ እምትሑት፡ ወአአመ፡ ኢይከብር፡ ዓቢይ፡ እምንዑሰ፡ እስመ፡ ዕለተ፡ ፍትሕ፡ ይእቲ፡ ወዕለተ፡ ፍዳ፡ ወኵነኔ፡ ወእለት፡ በዘይት፡ ፈደይ፡ ኵሉ፡ በከመ፡ ገብረ።</l>
+                  <l n="10">ወዕለት፡ በዘይትዓሠዩ፡ ገባርያነ፡ ሠናይ፡ ወአመ፡ ይትፈደዩ፡ እኩየ፡ እለ፡ ገብሩእኪት።</l>
+                  <l n="11">ወዕለት፡ አመ፡ ይትፌሥሑ፡ እለ፡ ተዓሠዩ፡ ሠናየ፡ ወዕለት፡ አመ፡ የኃዝኑ፡ እለ፡ ተዓሠዩ፡ እኩየ፡ ወይሬእዩ፡ እለ፡ አሐሰዩ፡ መጻሕፍተ፡ እንዘ፡ ይብሉ፡ ኢይትነሥኡ፡ ምውታን።</l>
+                  <l n="12">አሜሃ፡ ይበክዩ፡ ኵሎሙ፡ ኃጥአን፡ ምድር፡ በእንተ፡ ኃጢአቶሙ፡ ዘገብሩ፡ በእንተ፡ ዘረከቦሙ፡ ኃዘን፡ ዘአልቦ፡ ኑዛዜ፡ በእንተ፡ ዘኢገብሩ፡ ሠናየ፡ በዲበ፡ ምድር።</l>
+                  <l n="13">ወከማሁ፡ ለኄራንሂ፡ እለ፡ ገብሩ፡ ሠናይ፡ ኢየኃልቅ፡ ፍስሐሆሙ፡ እስከ፡ ለዓለመ፡ ዓለም፡ እስመ፡ እንዘ፡ ሀለዉ፡ በዲበ፡ ምድር፡ አድምዑ፡ ገቢረ፡ ሠናይ።</l>
+                  <l n="14">ወኢተዓደዉ፡ ትእዛዘ፡ ፈጣሪሆሙ፡ እስመ፡ አእመሩ፡ ከመ፡ ይትነሥኡ፡ እምነ፡ ምውታን።</l>
+                  <l n="15">ወበእንተ፡ ዘኢተዓደዉ፡ እምትእዛዙ፡ ወይወርሱ</l>
+                  <l n="16">ወበሰማያትኒ፡ አውረሶሙ፡ ምድረ፡ ሕይወት፡ እንተ፡ መሐለ፡ ለአበዊሆሙ፡ አመ፡ ዕለተ፡ ትንሣኤ፡ አመ፡ ይነድዩ፡ አብዕልት።</l>
+                  <l n="17">ወየአወይዉ፡ ገባርያነ፡ እኪት፡ እለ፡ ኢየአምኑ፡ ትንሣኤ፡ ሙታን፡ ወሕገ፡ እግዚአብሔር፡ ወእዕለተ፡ ትንሣኤ፡ ኢተዘከሩ።</l>
+                  <l n="18">አሜሃ፡ ይሬእዩ፡ አንተ፡ ትረክቦሙ፡ እኪተ፡ እንተ፡ አልባቲ፡ ማኅለቅት፡ ወእንተ፡ አል፡ ባቲ፡ ፈውስ፡ ወኢኑዛዜ፡ ወበውስተ፡ ልቦሙኒ፡ ኃዘን፡ ዘአልቦ፡ ኑዛዜ፡ ወአልቦ፡ ዕረፍት።</l>
+                  <l n="19">ወዕፄ፡ ዘኢይነውም፡ ወእሳት፡ ዘኢይጠፍዕ።</l>
+                  <l n="20">ወበአፍአ፡ ሥጋሆሙኒ፡ እሳት፡ ወተይ፡ ወመንፈስ፡ ዓውሎ፡ ወሐሰትያ፡ ወበረድ፡ ወደደክ፡ ዘይዞንም፡ ላዕሌሆሙ።</l>
+                  <l n="21">መቃጽሐ፡ እሳት፡ ለእለ፡ ኢየአምኑ፡ ትንሣኤ፡ ሙታን።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="16" xml:id="chapter16">
+               <label>Chapter 16</label>
+               <ab>
+                  <l n="1">እሰኩ፡ ሐሊ፡ ለሊከ፡ ዘሀሎ፡ ውስተ፡ ሥጋከ፡ በጽፍረ፡ እደዊከ፡ ወእገሪከ፡ ወፀጕረ፡ ርእሰከ፡ እስመ፡ ለለጊዜሁ፡ ትቅርፆሙ፡ ወየዓክሉ፡ ወፂአ፡ ወበዝ፡ አእምር፡ ወለእመ፡ ሀለወከ፡ ልቡና፡ ወአእምሮ፡ ለአሜን።</l>
+                  <l n="2">ወእም፡ አይቴ፡ ይወፅእ፡ ትብል፡ እሉ፡ ጽፍረ፡ እደዊከ፡ ወእገሪከ፡ ወፀጕረ፡ ርእስከ፡ አኮኑ፡ እግዚአብሔር፡ ኀበ፡ ሠርዖሙ፡ ከመ፡ ይፃዑ፡ ከመ፡ ታእምር፡ አንተ፡ ትንሣኤ፡ ምውታን፡ ዘይከውን፡ ዘሥጋከ፡ በአኮ፡ በውስተ፡ ሥጋ፡ ባዕደ፡ ከመ፡ ታእምር፡ ለሊከ፡ ከመ፡ ትትነሥእ፡ እምውታን።</l>
+                  <l n="3">ወትትፈደይ፡ አንተ፡ በከመ፡ ምግባሪከ፡ ዘገብርከ፡ አበሳ፡ ወኃጢአተ፡ አመ፡ ትንሣኤ፡ ሙታን፡ በእንተ፡ ዘአስሐትከ፡ ሕዝበ፡ እንዘ፡ ትብል፡ አልቦ፡ ትንሣኤ፡ ሙታን።</l>
+                  <l n="4">ወይእዜኒ፡ ትሬእያ፡ አመ፡ ትብጽሐከ፡ ዕለተ፡ ፍዳከ፡ እስመ፡ አንተ፡ ዘዘራዕከ፡ ኢየዓቢ፡ ከመ፡ ይበቍል፡ እመሂ፡ እክል፡ ወእመሂ፡ ሥራናይ።</l>
+                  <l n="5">ወዓዲ፡ አንተ፡ ዘተከልከ፡ ዕፅ፡ ኢየዓቡ፡ በቍለ፡ እመሂ፡ ዕፀ፡ ወይን፡ ወእመሂ፡ ዕፀ፡ በለስ፡ ኢይትዌለጥ፡ ቍጸሊሁ፡ ወፍሬሁኒ።</l>
+                  <l n="6">ወእመኒ፡ ተከልከ፡ ወይነ፡ ኢይትዌለጥ፡ ከመ፡ ይኩን፡ በለስ፡ እመኒ፡ ተከልከ፡ በለይስ፡ ኢትዌለጥ፡ ከመ፡ ይኩን፡ ወይነ፡ ወእመኒ፡ ዘራዕከ፡ ሥርናየ፡ ኢይትዌለጥ፡ ከመ፡ ይኩን፡ ሰገመ።</l>
+                  <l n="7">ወእመኒ፡ ዘራእከ፡ ሰገመ፡ ኢይትዌለጥ፡ ከመ፡ ይኩን፡ ሥርናየ፡ እለ፡ ኵሉ፡ በዘርኡ፡ ወበበዘመዱ፡ ወበበፍሬሁ፡ ወበዕፁ፡ ወበበቍፅሉ፡ ወበበምርዉ፡ ይትቄበል፡ በረከተ፡ በጠለ፡ ምሕረት፡ ዘእምኀበ፡ እግዚአብሔር፡ ወያወፅ፡ ፍሬ።</l>
+                  <l n="8">ከማሁ፡ ምድርኒ፡ ታወጽኦ፡ በዘዘርአ፡ እግዚአብሔር፡ ታበቍል፡ ነፍሰ፡ ወሥጋ፡ ገባርያነ፡ ሠናይ፡ እንዘ፡ ኢይትዌለጡ፡ በገባርያነ፡ እኪት፡ ወገባርያነ፡ እኪት፡ እንዘ፡ ኢይትዌለጥ፡ በገባርያነ፡ ሠናይእለ፡ ዘዘርአ፡ እግዚአብሔር፡ ይበቍሉ፡ ነፍስ፡ ወሥጋ።</l>
+                  <l n="9">ወእምከመ፡ በጽሐ፡ ጊዜሑ፡ ለንፍሐተ፡ ቀርን፡ ይትነሥኡ፡ ምውታን፡ በጠለ፡ ምሕረት፡ ዘእምኀበ፡ እግዚአብሔር፡ እለ፡ ገብሩ፡ ሠናየ፡ ውስተ፡ ትንሣኤ፡ ሕይወት፡ ወዕሤቶሙ፡ ገነተ፡ ትፍሥሕት፡ ማኀድር፡ ለንጹሐን፡ ዘአስተዳለወ፡ ለኄራን፡ ኀበ፡ አልቦ፡ ደዌ፡ ወሕማም፡ ኀበ፡ ኢይመውቱ፡ እምዝ፡ ደግመ።</l>
+                  <l n="10">ወእለሰ፡ እኩየ፡ ገብሩ፡ ውስተ፡ ትንሣኤ፡ ደይን፡ ምስለ፡ ዲያብሎስ፡ ዘአለሐቶሙ።</l>
+                  <l n="11">ወአጋንንቲሁ፡ እኩያን፡ እለ፡ ኢይፈቅዱ፡ ይድኅን፡ እ፡ እምኵሉ፡ እጓለ፡ እመሕያው፡ ውስተ፡ ኵነኔ፡ ዘለዓለም።</l>
+                  <l n="12">መትሕት፡ ታሕቲት፡ ውስተ፡ ጸናፌ፡ ጽልመት፡ ኀበ፡ ብካይ፡ ወሐቅየስነን፡ ኀበ፡ አልቦ፡ ሣህል፡ ወምህረት፡ ወኀበ፡ አልቦ፡ ሙፃዕ፡ እስከ፡ ለዓለመ፡ ዓለም፡ እስመ፡ ኢገብሩ፡ ሠናየ፡ በሕይወቶሙ፡ በዲበ፡ ምድር፡ እንዘ፡ ሀለዉ፡ በሥጋሆሙ።</l>
+                  <l n="13">ወበእንተዝ፡ ይትኴነኑ፡ አመ፡ ትንሣኤ፡ ነፍሰ፡ ወሥጋ።</l>
+                  <l n="14">ለሌሎሙ፡ ለእለ፡ ኢየአምኑ፡ ትንሣኤ፡ ነፍስ፡ ወሥጋ፡ ኅቡረ፡ አንተ፡ ባቲ፡ ያርኢ፡ እግዚአብሔር፡ ዕበየ፡ ተአምሪሁ።</l>
+                  <l n="15">ወይትፈደይ፡ ኵሉ፡ ለለ</l>
+                  <l n="1">በከመ፡ ምግባሩ፡ ወበከመ፡ ፃማ፡ እዴሁ።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="17" xml:id="chapter17">
+               <label>Chapter 17</label>
+               <ab>
+                  <l n="1">ወኅጠተ፡ ሥርናይኒ፡ ለእመ፡ ኢሞተት፡ ኢትበቍል፡ ወኢትፈሪ፡ እስመ፡ ለእመ፡ ሞተት፡ ኅጠተ፡ ሥርናይ፡ ትገብር፡ ሥርወ፡ ውስተ፡ ምድር፡ ወታወፅዕ፡ ቍፅለ፡ ወይከውን፡ ሰብለ፡ ወይፈሪ፡ ወተአምሩ።</l>
+                  <l n="2">ለሊክሙ፡ ከመ፡ ይከውን፡ ኅጠታተ፡ ብዙኃ፡ አሐቲ፡ ኅጠተ፡ ሥርናይ።</l>
+                  <l n="3">ወከማሁ፡ ዛቲ፡ ኅጠት፡ ትበቍል፡ እምነፋስ፡ ወማይ፡ ወመሬት፡ ወፀሐይሰ፡ ሕየንተ፡ እሳት፡ እስመ፡ ዘእንበለ፡ ፀሐይ፡ ኢይክል፡ ፈርየ፡ ሥርናይ።</l>
+                  <l n="4">ወነፋስኒ፡ ህየንት፡ ነድስ፡ ወዘእንበለ፡ ነፋስ፡ ኢይክል፡ ፈርየ፡ ሥርናይ፡ ወማይኒ፡ ዘያሠቅያ፡ ወያረውያ፡ ለምድር።</l>
+                  <l n="5">ወእምከመ፡ ረውየት፡ ሐመድ፡ ወመሬት፡ ይገብር፡ ሥርወ፡ ወይትሊዓል፡ መልዕልተ፡ ወትፈሪ፡ በአምጣነ፡ ባረካ፡ እግዚአብሔር።</l>
+                  <l n="6">እስመ፡ ኅጠተ፡ ሥርናይሰ፡ በአምሳለ፡ አዳም፡ ዘተነፍሐት፡ ላዕሌሁ፡ መንፈሰ፡ እግዚአብሔር፡ ነባቢት፡ ወዕፀ፡ ወይንሂ፡ ከማሁ፡ ይሠቀይ፡ በማይ፡ ወይገብር፡ ሥርወ፡ ወይነሥእ፡ ማየ፡ አህባለ፡ ሥርው፡ ደቃቅ።</l>
+                  <l n="7">ወየዐርጋ፡ ሰማይላዕለ፡ ውስተ፡ ከተማ፡ አቍፅል፡ እስመ፡ ጠለ፡ ምሕረት፡ እምኀበ፡ እግዚአብሔር፡ ያጠብዎን፡ ውስተ፡ ከተማ፡ አሕሩግ፡ ነዋኀተወይበስል፡ በላህበ፡ ፀሐይ፡ ወይገብር፡ ፍሬ፡ ዘእምኀበ፡ እግዚአብሔር።</l>
+                  <l n="8">ወትገብር፡ መዓዛ፡ ሠናየ፡ ዘያስተፌሥሕ፡ ልበ፡ ወቦቱ፡ ሶበ፡ ይበልዕዎ፡ ያጸግብ፡ በከመ፡ ማይ፡ ወኅብስተ፡ ዘኢያርህብ፡ ወኢያጸምዕ፡ ወሶበ፡ የዓፅርዋ፡ ትገብር፡ ደመ፡ አስካል።</l>
+                  <l n="9">ወሶበ፡ ይስትይዋ፡ ታስተፌሥሕ፡ ልበ፡ ሰብእ፡ በከመ፡ ይቤ፡ በመዝሙር፡ ወይን፡ ያስተፌሥሕ፡ ልበ፡ ሰብዕ፡ ወብእሲ፡ ሥሙር፡ ይሰክር፡ ሶበ፡ ያበቍ፡ አፉሁ፡ ወይውኅጥ፡ ወይመልዕ፡ ውስተ፡ ሰንብዑ፡ ወይትከዐው፡ ደሙ፡ ውስተ፡ ልቡ።</l>
+                  <l n="10">ወይሬስዮ፡ ዘእንበለ፡ ልብ፡ እስመ፡ ስካረ፡ ወይን፡ ፈድፋደ፡ የዓብድ፡ ወይሬስዮ፡ ለጸድፍ፡ ወለጐጻጕጽ፡ ከመ፡ ምድር፡ ስፍሕት፡ ወኢየአምር፡ ዕቅፍት፡ ወሦከ፡ ዘውስተ፡ እደዊሁ፡ ወእገሪሁ።</l>
+                  <l n="11">ወከመዝ፡ ገብረ፡ እግዚአብሔር፡ በዕፀ፡ ወይን፡ ወበፍሬሃ፡ ከመ፡ ይትአኰት፡ ሰሙ፡ ለአለ፡ ይገብሩ፡ ፈቃዶ፡ ወለእለ፡ የአምኑ፡ ትንሣኤ፡ ምውታን።</l>
+                  <l n="12">ወያስተፌሥሖሙ፡ በማኅደረ፡ ሕይወት፡ ለእለ፡ የአምኑ፡ ትንሣኤ፡ ምውታን።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="18" xml:id="chapter18">
+               <label>Chapter 18</label>
+               <ab>
+                  <l n="1">ሚመጠነ፡ ስሕተተ፡ ትስሕቱ፡ አለ፡ ኢተአምኑ፡ ትንሣኤ፡ ሙታን፡ ወሶበ፡ ይወስዱክሙ፡ ኀበ፡ ኢተአምሩ፡ ይእተ፡ ጊዜ፡ ትነሥሑ፡ በኀበ፡ ኢይበቍዓክሙ፡ ወአመ፡ ይወድዩክሙ፡ ውስተ፡ ኵነኔ፡ በእንተ፡ ዘኢአመንክሙ፡ ትንሣኤ፡ ሙታን፡ በሥጋ፡ ወነፍስ፡ ኅቡረ።</l>
+                  <l n="2">ወትትዓሠዩ፡ በከመ፡ ገብርክሙ፡ እመሂ፡ ሠናየ፡ ወእመሂ፡ እኩየ፡ እስመ፡ አሕሰምክሙ፡ ልበ፡ ካልዓኒክሙ፡ እንዘ፡ ትብሉ፡ ንሕነ፡ ነአምን፡ ከመ፡ ኢይትነሥኡ፡ ምውታን፡ እለ፡ ኮኑ፡ ሐመደወ፡ ወመሬት።</l>
+                  <l n="3">ወበእንተዝ፡ የዓብዱ፡ ቢጾሙ፡ እስመ፡ አልቦ፡ ሳሕት፡ ለሞቶሙ፡ ወኢኀይል፡ ለመቅሠ፡ ፍቶሙ፡ ወበፃማሂ፡ ኢኮኑ፡ ንጉፋነ፡ እስመ፡ ሀለዎሙ፡ ይቁሙ፡ ቅድመ፡ ምኵናኑ፡ ለእግዚአብሔር።</l>
+                  <l n="4">ወይትኃፈሩ፡ ፈድፋደ፡ ሶበ፡ ይጌሥጾሙ፡ በመዓቱ፡ ወይትመዓዖሙ፡ በእንተ፡ ኵሉ፡ ዘገብሩ፡ እኩየ፡ እስመ፡ እንዘ፡ ኢየአምሩ፡ ፍኖተ፡ እግዚአብሔር፡ ይትናገሩ፡ እስመ፡ ለሊሆሙ፡ ኢየአምሩ፡ እምኀበ፡ መጽኡ።</l>
+                  <l n="5">ወኢየአምሩ፡ ኀበ፡ የሐውሩ፡ ውስተ፡ ኵነኔ፡ ነደ፡ እሳት፡ እስመ፡ በከመ፡ ጥውየተ፡ ልቦሙ፡ ይሜህሩ፡ ለቢጾሙ፡ እስመ፡ መራራን፡ እሙንቱ፡ ወጐጻጕጻን፡ በምግባሮሙ፡ ወጸዋጋን፡ ወእለ፡ ይሜህሩ፡ ጠዋየ፡ ነገረ፡ እንዘ፡ ይብሉ፡ አልቦ፡ ትንሣኤ፡ ምውታን።</l>
+                  <l n="6">ወይእተ፡ አሚረ፡ የአምሩ፡ ከመ፡ ይትነሥኡ፡ ምውታን፡ ወይትኴነኑ፡ በእንተ፡ ዘኢአምኑ፡ ትንሣኤ፡ ሙታን፡ ለኵሉ፡ ፍጥረተ፡ እጓለ፡ እመሕያው።</l>
+                  <l n="7">እስመ፡ ኵልነ፡ ፍሬ፡ አዳም፡ ወአእንተ፡ አዳም፡ ሞትነ፡ እስመ፡ ለኵልነ፡ በእንተ፡ ስሕተቱ፡ ለአቡነ፡ አዳም፡ ረከበነ፡ ኵነኔ፡ ሞት፡ እምኀበ፡ እግዚአብሔር።</l>
+                  <l n="8">ወካዕበ፡ ከመ፡ ንትፈደይ፡ በዘገብርነ፡ ንትነሣእ፡ ምስለ፡ ውእቱ፡ አዳም፡ አቡነ፡ እስመ፡ በኢያምሮ፡ አቡነ፡ አዳም፡ ተቀንየ፡ በዓለም፡ ለሞት።</l>
+                  <l n="9">ወበእንተዝ፡ ተፈደይነ፡ በተዓድዎ፡ አዳም፡ ወተመስወት፡ ሥጋነ፡ በውስተ፡ መቃብር፡ ወተቀጥቀጡ፡ አዕፅምትኒ።</l>
+                  <l n="10">ወሰትየት፡ ምድር፡ አንጕዓነ፡ ወማሰነ፡ ወተመሰወ፡ ላህይነ፡ በሐመድ፡ ወተደፍነ፡ ሥጋነ፡ በመሬት፡ ወቃልነ፡ ሠናይ፡ ተደፍነ፡ በውስተ፡ ምሬት።</l>
+                  <l n="11">ወወፅአ፡ ዕደ፡ እምአይንቲነ፡ ብሩሃት፡ ወማሰነ፡ ላህይነ፡ በውስተ፡ መካብ፡ ወኮነ፡ ፀበለ።</l>
+                  <l n="12">አይቴ፡ ሀለወ፡ ስነ፡ ላህዮሙ፡ ለወራዙት፡ ሠናያን፡ እለ፡ አዳም፡ ቆሞሙ፡ ወሣዕሣዕ፡ ጣዕመ፡ ቃሎሙ። አይቴ፡ ሀለወ፡ ዕበዮሙ፡ ለጽኑዓን።</l>
+                  <l n="13">ወአይቴ፡ ሀለወ፡ ኃይሎሙ፡ ለነገሦት፡ ወክብሮሙ፡ ለመኳንንተ፡ ወተረስዮ፡ በአፍራሰ፡ ወተሠርግዎ፡ በወርቅ፡ ወበብሩር፡ ወተረሥዮ፡ በንዋየ፡ ሐቅል፡ ዘያንፀበርቅ።</l>
+                  <l n="14">አይቴ፡ ሀሎጣዕመ፡ መባልዕት፡ ውስተ፡ ወይን፡ ጥዑም።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="19" xml:id="chapter19">
+               <label>Chapter 19</label>
+               <ab>
+                  <l n="1">ኦ፡ ምድር፡ እንተ፡ አስተጋባዕኪዮሙ፡ ለነገሥት፡ ወለመኰንንት፡ ወለዓበይት፡ ወለክቡራን፡ ወለአንስት፡ ላህያት፡ ወለሠናያት፡ ደናግል።</l>
+                  <l n="2">ወለዕደው፡ ፅኑዓን፡ እለ፡ ቦሙ፡ ሰን፡ ወሠናያን፡ አቍያጽ፡ ወእለ፡ ቦሙ፡ አእምሮ፡ ወልቡና፡ ወእለ፡ ቦሙ፡ ሠናይ፡ ቃል፡ ከመ፡ ቃለ፡ አርጋኖን፡ ነባቢት፡ ወከመ፡ ዝብጠት፡ መሰንቆ፡ ወዕንዚራ።</l>
+                  <l n="3">ወእለ፡ ቦሙ፡ ሠናይ፡ ዜማ፡ እለ፡ ያስተፌሥሑ፡ ከመ፡ ስታየ፡ ወይን፡ አዳም፡ አዕይንቲሆሙ፡ ብሩሃት፡ ከመ፡ ኮከብ፡ ጽባሕ።</l>
+                  <l n="4">ወየማኖሙ፡ ጽኑዕ፡ ከመ፡ ዘይሁብ፡ ወይነሥኦ፡ ወየሐይጱ፡ ወእገሪሆሙ፡ ሠናያን፡ ለርእይ፡ ወለእለ፡ ይረውጻ፡ ከመ፡ መኰራኵር፡ ርቱዓት።</l>
+                  <l n="5">አእምኔከ፡ ሞት፡ ዘነሣእከ፡ ነፍሣቲሆሙ፡ ለሠናያን፡ ዕደው፡ እስመ፡ በፈቃደ፡ እግዚአብ፡ ሔር፡ ተፈነውከ።</l>
+                  <l n="6">ወአንቲኒ፡ ምድር፡ እስመ፡ አስተጋባዖኪ፡ ብዙኃት፡ ሥጋተ፡ እለ፡ እምኔኪ፡ አውፅኦሙ፡ እግዚአብሔር፡ ወአግብኦሙ፡ ኀቤኪ፡ እምኔኪ፡ ወፃዕነ፡ ወኀቤኪ፡ ግባዕነ፡ በፈካደ፡ እግዚአብሔር፡ ተፈሣሕነ፡ በፈቃደ፡ እግዚአብሔር፡ ዲቤኪ።</l>
+                  <l n="7">ወኮንኪ፡ መንደፈ፡ ለአብድንቲነ፡ አንሶሰውነ፡ ዲቤኪ፡ ወኖምነ፡ በውቲትኪ፡ በላዕነ፡ ፍሬኪ፡ ወበላዕኪ፡ ሥጋነ።</l>
+                  <l n="8">ሠተይነ፡ እምጠለ፡ ነቅዕኪ፡ ወሰተይኪ፡ እምነቅዓ፡ ደምነ፡ በላዕነ፡ እምአንጕዓ፡ ምድርኪ፡ ወበላዕኪ፡ እምአንጕዓ፡ አዕፅምትኒ።</l>
+                  <l n="9">ባላዕነ፡ እምጠዕመ፡ ሐመድ፡ ጠልኪ፡ ሠናይ፡ በከመ፡ አዘዘኪ፡ እግዚአብሔር፡ ለሲሲትነ፡ ወነሣእኪ፡ ላህየ፡ ሥጋነ፡ ወረሰይኪ፡ ፀበለ፡ በከመ፡ አዘዘኪ፡ እግዚአብሔር፡ ለሲሲትኪ።</l>
+                  <l n="10">ኦ፡ እምኔከ፡ ሞት፡ ዘአስተጋባዕከ፡ ብዙኃነ፡ ኃያላነ፡ ነገሥት፡ ወመኳንንት፡ ወኢፈራህከ፡ እምግርማሆሙ፡ ወእምዕበዮሙ፡ በከመ፡ አዘዘከ፡ ዘፈጠሮሙ፡ ወኢመነንከ፡ ምስኪነ።</l>
+                  <l n="11">ወኤምሕርከ፡ እለ፡ ሠናይ፡ ላህዮሙ፡ ወኢኀደገ፡ ኃያላነ፡ ወፅኑዓነ፡ ወኢኀደገ፡ አብዕልተ፡ ወነዳያነ፡ ኃሡማነ፡ ወሠናያነ፡ አዕሩገ፡ ወሕፃናተ፡ ዕደወ፡ ወአንስተ።</l>
+                  <l n="12">ወኢኀደገ፡ እለ፡ ሠናየ፡ ይሔልዩ፡ ወኢትዓደወ፡ እምትእዛዙ፡ ወኢኀደገ፡ እለ፡ እኵየ፡ ይሔልዩ። እለ፡ ኮኑ፡ ከመ፡ እንስሳ፡ በምግባሮሙ፡ ወእለ፡ ፍጹማን፡ በሥነ፡ ላህዮሙ፡ ወቃሎሙ፡ ወጣዕመ፡ ነገሮሙ።</l>
+                  <l n="13">ወኢኃደገ፡ እለ፡ መሪር፡ ቃሎሙ፡ ወምሉዕ፡ መርገመ፡ ውስተ፡ አፉሆሙ፡ ወአስተጋባዕከ፡ ነፍሳቲሆሙ፡ ውስተ፡ መዛግብቲከ፡ እመሂ፡ ዘብሃን፡ ውእመሂ፡ ዘጽልመት።</l>
+                  <l n="14">ወምድርኒ፡ አስተጋብዖት፡ ሥጋሆሙ፡ እመሂ፡ ውስተ፡ ኰኵሕ፡ ወአመሂ፡ ውስተ፡ መሬት፡ እስከ፡ አመ፡ ንፍሐተ፡ ቀርን፡ ወይትነሥኦ፡ ምውታን።</l>
+                  <l n="15">ወይትፈደዩ፡ ገባርያነ፡ እስከ፡ በከመ፡ ምግባሮሙ፡ ዘገብሩ፡ እስመ፡ በንፍሐተ፡ ቀርን፡ ወበትእዛዘ፡ እግዚአብሔር፡ ይትነሥኡ፡ ምውታን፡ ከመ፡ ቅጽበተ፡ ዓይን፡ ወይት፡ ፌሥሑ፡ እለ፡ ሠናየ፡ ገብሩ።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="20" xml:id="chapter20">
+               <label>Chapter 20</label>
+               <ab>
+                  <l n="1">እመኑኒ፡ ከመ፡ ኢይትኃደግ፡ ወኢይትኃባዕ፡ ኵሉ፡ ምግባሪነ፡ ዘገበርነ፡ በዲበ፡ ምድር፡ አመ፡ ንቀውም፡ ቅድሜሁ፡ በፍርሃት፡ ወበርዓድ።</l>
+                  <l n="2">ወእመ፡ ኢንትማላዕ፡ ስንቀ፡ ለፍኖትነ፡ ወአመ፡ አልብነ፡ ልብሰ፡ ለእርቃነ።</l>
+                  <l n="3">ወእመ፡ አልብነ፡ ምርጉዝ፡ ለዕደዊነ፡ ወዓሣዕነ፡ ለእገሪነ።</l>
+                  <l n="4">ወአነ፡ ኢነምር፡ ፍኖቶ፡ ለኀበ፡ ይወስዱነ፡ አመኒ፡ ደኅፅ፡ ወእመኒ፡ ጐጻጕጽ፡ ወእመኒ፡ ጽልመት፡ ወእመኒ፡ ሦክ፡ ወአሜከላ፡ እመኒ፡ ቀላየ፡ ባሕር፡ ወቀላየ፡ ሲኦል።</l>
+                  <l n="5">ወእለሂ፡ ይወስዱነ፡ ኢነአምሮሙ፡ ወኢነሰምዕ፡ ነገሮሙ።</l>
+                  <l n="6">ወኢንሬኢ፡ ገጾሙ፡ እስመ፡ ጽልመት፡ እሙንቱ፡ ወውስተ፡ ጽልመት፡ ይመርሁነ።</l>
+                  <l n="7">በከመ፡ ይቤ፡ ዳዊት፡ ነቢይ፡ ሶበ፡ ተኀልቅ፡ ነርፍስየ፡ ባላዕሌየ፡ አንተ፡ እግዚኦ፡ ተአምር፡ ፍኖትየ፡ በዛቲ፡ ፍኖት፡ ሖርኩ፡ ኃብዑ፡ ሊተ፡ መሥገርተ፡ ወተመየጥኩ፡ መንገለ፡ የማንየ፡ ወርኢኩ፡ ወኃጣእኩ፡ ዘየአምረኒ፡ ወኀበሂ፡ አመሥጥ፡ አልብየ።</l>
+                  <l n="8">ወዘንተ፡ ሶበ፡ ይብል፡ እስመ፡ የአምር፡ ከመ፡ ይሣለቅዎ፡ አጋንንት፡ ወይመርህዎ፡ ኀበ፡ ዘኢየአምር፡ ፍኖተ፡ ወይትመየጥ፡ ይምነ፡ ወጽግመ፡ ወአልቦ፡ ዘይረክብ፡ ዘየአምሮ።</l>
+                  <l n="9">ወሊቱኒ፡ አልቦ፡ ዘየአምር፡ አላ፡ ባሕቲቱ፡ ማዕከለ፡ መላእክተ፡ ጽልመት።</l>
+                  <l n="10">ወመንፈሳውያን፡ መላእክተ፡ ብርሃን፡ እለ፡ ትፈነዉ፡ ኀበ፡ ኄራን፡ ከመ፡ ይትመጠዉ፡ ነፍሳቲሆሙ፡ ለጻድቃን፡ ወከመ፡ ይሰዱ፡ ኀበ፡ ዓፀደ፡ ብርሃን፡ ዘሕይወት።</l>
+                  <l n="11">ወእለሂ፡ ይትፌነዉ፡ መላእክተ፡ ጽልመት፡ ወአጋንንት፡ ኀበ፡ ነፍሳተ፡ ኃጥአን፡ ከመ፡ ይትቀበልዎሙ፡ ወይሰድዎሙ፡ ውስተ፡ ኵነኔ፡ ዘለዓለም፡ ዘድልወ፡ ሎሙ፡ ከመ፡ ይት፡ ፈደዩ፡ በከመ፡ ምግባሮሙ፡ ዘገብሩ።</l>
+                  <l n="12">አሌ፡ ሎሙ፡ ለነፍሳተ፡ ኃጥአን፡ እለ፡ ይወስድዎሙ፡ ውስተ፡ ኃጕል፡ ወአልቦ፡ ዕረፍት፡ ወአድኂን፡ ወኢአምሥጦ፡ ወኢሙፃዕ፡ እስከ፡ ለዓለም፡ እምዘረከቦሙ፡ ምንዳቤ።</l>
+                  <l n="13">አሌ፡ ሎሙ፡ ለኃጥአን፡ እስመ፡ በፍኖተ፡ ቃየን፡ ሖሩ፡ ወበአሰበ፡ ዓመፃሁ፡ ለበለዓም፡ ተኃጉሉ፡ ወኃጥኡ፡ ዘይገብሩን፡ እስመ፡ በነሢኦ፡ ህልያን፡ ወርዱ፡ ይመከንዩ፡ ከመ፡ ይንሥኡ፡ ንዋየ፡ ባዕድ፡ በዓመፃ፡ ዘኢኮነ፡ ንዋዮሙ።</l>
+                  <l n="14">እሙንቱኪ፡ ይትፈደዩ፡ በከመ፡ ምግባሮሙ፡ ዘገብሩ፡ በኵነኔ፡ ነደ፡ እሳት።</l>
+               </ab>
+            </div>
+            <div type="textpart" subtype="chapter" n="21" xml:id="chapter21">
+               <label>Chapter 21</label>
+               <ab>
+                  <l n="1">አይቴ፡ ሀለዉ፡ አስተጋባዕይነ፡ ንዋየ፡ ባዕድ፡ በዓመፃ፡ ዘኢኮነ፡ ንዋዮሙ፡ ወግብረ፡ እደዊሆሙ።</l>
+                  <l n="2">ወባሕቱ፡ እስመ፡ ይነሥኡ፡ ንዋየ፡ ባዕድ፡ ዘእንበለ፡ ሢጥ፡ ወያስተጋብኡ፡ እንዘ፡ ኢየአምሩ፡ ዕለተ፡ ሞቶሙ፡ አንተ፡ ትበጽሖሙ፡ ወየኀድጉ፡ ለባዕድ፡ ብዕሎሙ።</l>
+                  <l n="3">ወውሉዶሙኒ፡ ኢይትፌሥሑ፡ በብዕለ፡ አበዊሆሙ፡ እስመ፡ አብያተ፡ ኃጥአን፡ እሙንቱ፡ እመ፡ ያመነዝዝዎሙ፡ እመሂ፡ በሥርቅ፡ ወበትዕግልይ፡ እለ፡ ከማሆሙ፡ ኃጥአን፡ ከመ፡ አበዊሆሙ፡ ወእመሂ፡ በሐይድ።</l>
+                  <l n="4">ወአልቦ፡ ዘይበቍዖሙ፡ ንዋየ፡ እበዊሆሙ፡ እስመ፡ በዓመት፡ አስተጋብዑ፡ ሎሙ፡ ወከመ፡ ሣሕወ፡ ደመና፡ ወከመ፡ ጢስ፡ ዘይነሥኦ፡ ነፋስ፡ ወከመ፡ ፍሬ፡ ሣዕር፡ ዘይትነገፍ፡ ወከመ፡ ሰምዕ፡ ዘይትመሰው፡ በቅድመ፡ ገጾ፡ እሳት፡ ከመሁ፡ ይጠፍዕ፡ ክብሮሙ፡ ለኃጥአን።</l>
+                  <l n="5">በከመ፡ ይቤ፡ ዳዊት፡ ርኢክዎ፡ ለኃጥአን፡ ዓብየ፡ ወተለዓለ፡ ከመ፡ ዓርዘ፡ ሊባኖስ፡ ወሶበ፡ አገብእ፡ ኃጣእክዎ፡ ኃሠሥኩ፡ ወኢረከብኩ፡ መካኖ።</l>
+                  <l n="6">ወከመ፡ ዝኪ፡ ጥፍዓቶሙ፡ ለኃጥአን፡ በምዕር፡ ከመ፡ ኢይትመክሁ፡ እለ፡ ይኤምፁ፡ ቢሦሙ፡ እንዘ፡ ኢይመስሉ፡ ዘኢይመውቱ፡ በእንተ፡ ዘአስተጋብዑ፡ ንዋየ፡ ባዕድ፡ በዓ፡ መፃ።</l>
+                  <l n="7">ኦዓብዳን፡ ተዘከሩ፡ ከመ፡ ተኃልፉ፡ ወብዕልክሙኒ፡ የኃልፍ፡ ምስሌክሙ፡ ወእመሂ፡ በዝኃ፡ ወርቅክሙ፡ ወብሩርክሙኒ፡ ይከውን፡ ዘኀለ።</l>
+                  <l n="8">ወእመሂ፡ አብዛኅክሙ፡ ውሉደ፡ ይከውን፡ ብዙኃ፡ መቃብረ፡ ወእመሂ፡ አብዛኅክሙ፡ አብያተ፡ ይከውን፡ መዝበረ።</l>
+                  <l n="9">ወአመሂ፡ አብዛኅክሙ፡ እንስሳ፡ ይከውን፡ ምኅርካ፡ ለፀርክሙ፡ እስመ፡ ኢገበርክሙ፡ ፈቃዶ፡ ለእግዚአብሔር፡ አምላክክሙ፡ ወኵሉ፡ ዘወደይክሙ፡ እዴክሙ፡ ኢይትረከብ፡ እስመ፡ ኢኮነ፡ ቡሩከ።</l>
+                  <l n="10">እመሂ፡ ዘቤት፡ ወእመዚ፡ ዘገዳም፡ እመሂ፡ በአዕዖዳተ፡ ወፍር፡ ወበሐትል፡ ወበዓውደ፡ ዕክል፡ ወምክያደ፡ ወይን።</l>
+                  <l n="11">ወእመሂ፡ በፍሬ፡ ከርሥክሙ፡ ኢትፈሥሑ፡ አላ፡ ኃዘነ፡ ይከውነክሙ፡ እምነ፡ ኵሉ፡ ፀርክሙ፡ እስመ፡ ኢያስተባልሀክሙ፡ እግዚአብሔር፡ ምስለ፡ ኵሉ፡ ሰብአ፡ ቢትክሙ፡ እስመ፡ ኢዓቀብክሙ፡ ትእዛዛቲሁ፡ ለእግዚአብሔር።</l>
+                  <l n="12">ወለእለሰ፡ ዓቀቡ፡ ሕጎ፡ ወትእዛዞ፡ ወሥርዓቶ፡ ኢያስተፂንሶሙ፡ እምበረከቱ፡ ወይሆቦሙ፡ ኵሎ፡ ዘሰአልዎ፡ ወይባርክ፡ ሎሙ፡ ፍሬ፡ ምድሮሙ፡ ወፍሬ፡ ከርሦሙ።</l>
+                  <l n="13">ወይሬስዮሙ፡ መልዕልተ፡ ኵሉ፡ አሕዛብ፡ እለ፡ ዓውዶሙ፡ ከመ፡ ይኰንኑ፡ ወአኮ፡ ከመ፡ ይትኰነኑ፡ ወይሁቦሙ፡ ኵሎ፡ በረከተ፡ በአዕፃዳተ፡ ወፍሮሙ።</l>
+                  <l n="14">ወኵሎ፡ ዘወደዩ፡ እደዊሆሙ፡ ይባርክ፡ ሎሙ፡ ፍሬ፡ ተግባሮሙ፡ ወአዕፃዳተ፡ እንስሳ፡ ሆሙ፡ ወያስተፌሥሖሙ፡ በፍሬ፡ ከርሦሙ።</l>
+                  <l n="15">ወአያውኅድ፡ ሎሙ፡ እንስሳሆሙ፡ ወያድኅኖሙ፡ እምኵሉ፡ ምንዳቤሆሙ፡ ወደዌ፡ ወድካም፡ ወመንሱት፡ እምዘየአምሩ፡ ወኢየአምሩ።</l>
+                  <l n="16">ወይትቃወም፡ ሎሙ፡ በውስተ፡ ፍትሕ፡ ወያድኅኖሙ፡ እምንዳቤ፡ ወእምነገር፡ እኩይ፡ ወእምኵሉ፡ ዝይትቃወም፡ እስመ፡ በቀዳሙ፡ ግብረ፡ ደብተራ፡ እመቦ፡ ሌዋዊ፡ ዘይትመ፡ ሐፀን፡ ወየዓቅብ፡ ግብረ፡ ደብተራ፡ ወየሐውር፡ በፈቃደ፡ እግዚአብሔር፡ በቃዳሚ፡ ሕግ፡ ይሁብዎ፡ ዓሥራተ፡ በኵሉ፡ ዘበሕጉ፡ ወኵሎ፡ በኵረ፡ እምሰብእ፡ ወእስከ፡ እንስሳ።</l>
+                  <l n="17">ወሀገረ፡ ምስካይ፡ በኵሉ፡ አህጉሪሆሙ፡ በከመ፡ አዘዞ፡ ሙሴ፡ ለኢያሱ፡ ወልደ፡ ነዌ፡ ከመ፡ ይድኅን፡ ቀታሊ፡ ዘበኢያእምሮ፡ ቀተለ፡ ወእመኒ፡ ዘበአእምሮ።</l>
+                  <l n="18">እስከ፡ ያገብኡ፡ ሎቱ፡ ፍትሐ፡ ለዘይዴይኑ፡ ወለዘያጸድቁ።</l>
+                  <l n="19">ወበከመ፡ ብክሙ፡ ጠይቁ፡ ይቤሎሙ፡ እመቦ፡ ቀዲሙ፡ ጽልዕ፡ ምስሌሁ፡ ወይብል፡ እስመ፡ በኢያእምሮ፡ ወደቀ፡ እምእዴየ፡ ሐፂን፡ አው፡ እብን፡ አው፡ ዕፅ፡ ወሞተ፡ ውእቱ፡ ዘወደቀ፡ ላዕሌሁ፡ አዕሚረክሙ፡ አድኅንዎ፡ እስመ፡ በኢያእምሮ፡ ገብረ፡ ይድኅን።</l>
+                  <l n="20">ወለእመሰ፡ በአእምሮ፡ ገብረ፡ ይትፈደይ፡ በከመ፡ አበሳሁ፡ ወአልቦ፡ ዘይምህሮ፡ ወእመሰ፡ በኢያእምሮ፡ ገብረ፡ ወከተለ፡ ጠይቀክሙ፡ ኅድግዎ፡ ከመ፡ ኢይሙት፡ እስመ፡ በኢያእምሮ፡ ገብረ።</l>
+                  <l n="21">ወከመዝ፡ ሠርዖሙ፡ ሙሴ፡ ልደቂቀ፡ እስራኤል፡ ከመ፡ ኢይትዓደዉ፡ ትእዛዘ፡ እግዚአብ፡ ሔር፡ አላ፡ ከመ፡ ይትገኣሡ፡ እምኵሉ፡ እኩይ፡ ሠርዖሙ።</l>
+                  <l n="22">ወአዘዞሙኢ፡ ከመ፡ ይሑሩ፡ በኵሉ፡ ኵነኔሁ፡ ወጽድቁ፡ ፈድፋደ፡ ይርኁቁ፡ እምአግዕዎ፡ ወብትክ፡ ወማውታ፡ ወእምኵሉ፡ ዘኢይደሉ፡ ለውሉደ፡ ሰብእ፡ ከመ፡ ይግብርዎ፡ እለ፡ የሐውሩ፡ በትእዛዘ፡ እግዚአብሔር፡ ወእለ፡ ይትዔገሡ፡ እምኵሉ፡ እኩይ፡ በከመ፡ ሠርዖሙ።</l>
+                  <l n="23">ወአዘዞሙ፡ ከመ፡ ኢይትዓደዉ፡ እምትእዛዙ፡ እንተ፡ ሠርዓ፡ ሎሙ፡ በአርአያ፡ ዘበሰ፡ ማያት፡ እንተ፡ ይእቲ፡ ደብተራ፡ ከመ፡ ያድኅን፡ ነፍሶሙ፡ ወይርከቡ፡ ማኅደሪሆሙ፡ ምስለ፡ አበዊሆሙ፡ እለ፡ ገብሩ፡ ሠናየ።</l>
+                  <l n="24">እስመ፡ እለ፡ አምኑ፡ በቃለ፡ እግዚአብሔር፡ ወሖሩ፡ በትእዛዙ፡ ዝሙንቱ፡ ይሰመዩ፡ ትው፡ ልደ፡ ጻድቃን፡ እስመ፡ እምአዳም፡ ወሴት፡ እሙንቱ፡ እለ፡ ገብሩ፡ ፈቃደ፡ እግዚአብሔር፡ ኢይሜንን።</l>
+                  <l n="25">እስመ፡ ዘርዐ፡ አዳም፡ ንሕነ፡ ወበአርአያሁ፡ ለሐኰነ፡ ወበአምሳሊሁ፡ ፈጠርነ፡ ከመ፡ ንግ፡ በር፡ ሠናየ፡ ወኵሎ፡ ዘያሠምሮ፡ ለእግዚአብሔር።</l>
+                  <l n="26">ወለእመ፡ ገበርነ፡ ሠናየ፡ ንወርሳ፡ ለምድረ፡ ሕይወት፡ ምስለ፡ እለ፡ ገብሩ፡ ሠናየ፡ እስመ፡ ኢይፈልጥ፡ ወኢይሌሊ፡ ለእለ፡ ያፈቅርዎ።</l>
+                  <l n="27">ወፈድፋደ፡ ያፈቅሮሙ፡ ወይሰምዕ፡ ጸሎቶሙ፡ ለእለ፡ ይጼውዕዎ፡ በንጹሕ፡ ወይትዌ፡ ከፍ፡ ንስሐሆሙ፡ ለእለ፡ ይኔስሑ፡ በጥቡዕ፡ ወይሁቦሙ፡ ኃይለ፡ ወፀንዓ፡ ለእለ፡ የዓቅቡ፡ ሕጎ፡ ወሥርዓቶ፡ ወትእዛዞ።</l>
+                  <l n="28">ወይትፌሥሁ፡ ምስሌሁ፡ በመንግሥቱ፡ ዘለዓለም፡ እለ፡ ገብሩ፡ ፈቃዶ፡ እመሂ፡ ቀደምት፡ ወእመሂ፡ ደኃርት፡ ሎቱ፡ የዓርጉ፡ ስብሐተ፡ ምይእዜ፡ ወእስከ፡ ለዓለመ፡ ዓለም፡ አሜን።</l>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text></TEI>

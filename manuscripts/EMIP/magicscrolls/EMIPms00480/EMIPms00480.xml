@@ -1,0 +1,2173 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="EMIPms00480"><teiHeader xml:base="https://betamasaheft.eu/">
+      <fileDesc>
+         <titleStmt><title type="full">Portland, Ethiopic Manuscript Imaging Project, Tweed MS 12</title>
+            <title xml:id="t1">Tweed MS 12</title>
+            <editor key="RL" corresp="https://betamasaheft.eu/team.html#RL" xml:id="RL">Ralph Lee</editor>
+         <respStmt xml:id="ed-RL" corresp="https://betamasaheft.eu/team.html#RL"><resp>editor</resp><name>Ralph Lee</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
+         <editionStmt>
+            <p>The initial version of this file was created from data kindly
+                                        provided by the Ethiopic Manuscript Imaging Project directed
+                                        by Steve Delamarter.</p>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed under the Creative Commons
+                                                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         <date type="expanded">28.8.2024 at 17:17:09</date><date type="lastModified">28.8.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMIPms00480/main</idno><idno type="URI">https://betamasaheft.eu/EMIPms00480</idno><idno type="filename">EMIPms00480.xml</idno><idno type="ID">EMIPms00480</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository ref="https://betamasaheft.eu/INS0447EMIP">Tweed</repository>
+                  <collection>EMIP</collection>
+                  <idno facs="EMIP/Scrolls/MS0480/" n="5" corresp="https://betamasaheft.eu/api/iiif/EMIPms00480/manifest">Tweed MS 12</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary> </summary>
+                  <msItem xml:id="ms_i1">
+                     <textLang mainLang="gez">Gǝ‘ǝz</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="Scroll">
+                     <supportDesc>
+                        <support>
+                           <watermark/>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>
+                           <measure unit="strips">1</measure>
+                           <dimensions type="outer" unit="mm">
+                              <height>41</height>
+                              <width>8</width>
+                              <depth/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+            
+         
+      <p>Encoded according 
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
+                        These Guidelines detail the TEI format ruled by 
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
+                        The present TEI file is enriched with an 
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><classDecl xmlns:xi="http://www.w3.org/2001/XInclude">
+    <taxonomy xml:id="ethioauthlist">
+      <category>
+         <desc>Types of Inscriptions</desc>
+         <category xml:id="Royal" corresp="https://betamasaheft.eu/authority-files/Royal/main">
+            <catDesc>Royal inscription</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Special Manuscripts</desc>
+         <category xml:id="GoldenGospel" corresp="https://betamasaheft.eu/authority-files/GoldenGospel/main">
+            <catDesc>Golden Gospel</catDesc>
+         </category>
+         <category xml:id="miniatureCollection" corresp="https://betamasaheft.eu/authority-files/miniatureCollection/main">
+            <catDesc>Miniature Collection</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Objects of Veneration</desc>
+         <category xml:id="TrueCross" corresp="https://betamasaheft.eu/authority-files/TrueCross/main">
+            <catDesc>True Cross</catDesc>
+         </category>
+         <category xml:id="CovenantMercy" corresp="https://betamasaheft.eu/authority-files/CovenantMercy/main">
+            <catDesc>Kidāna Mǝḥrat</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Binding Description</desc>
+         <category>
+            <desc>Turn-ins and Cover</desc>
+            <category xml:id="overCover" corresp="https://betamasaheft.eu/authority-files/overCover/main">
+               <catDesc>over-cover</catDesc>
+            </category>
+            <category xml:id="overlappingCornerFO" corresp="https://betamasaheft.eu/authority-files/overlappingCornerFO/main">
+               <catDesc>overlapping corner foredge over</catDesc>
+            </category>
+            <category xml:id="overlappingCornerHTO" corresp="https://betamasaheft.eu/authority-files/overlappingCornerHTO/main">
+               <catDesc>overlapping corner head/tail over</catDesc>
+            </category>
+            <category xml:id="tonguedCorner" corresp="https://betamasaheft.eu/authority-files/tonguedCorner/main">
+               <catDesc>tongued corner</catDesc>
+            </category>
+            <category xml:id="stitchedCorner" corresp="https://betamasaheft.eu/authority-files/stitchedCorner/main">
+               <catDesc>stitched corner</catDesc>
+            </category>
+            <category xml:id="mitredCorner" corresp="https://betamasaheft.eu/authority-files/mitredCorner/main">
+               <catDesc>mitred corner</catDesc>
+            </category>
+            <category xml:id="openMitredCorner" corresp="https://betamasaheft.eu/authority-files/openMitredCorner/main">
+               <catDesc>open mitred corner</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Inlays</desc>
+            <category xml:id="inlay" corresp="https://betamasaheft.eu/authority-files/inlay/main">
+               <catDesc>inlay</catDesc>
+            </category>
+            <category xml:id="paperInlay" corresp="https://betamasaheft.eu/authority-files/paperInlay/main">
+               <catDesc>paper inlay</catDesc>
+            </category>
+            <category xml:id="parchmentInlay" corresp="https://betamasaheft.eu/authority-files/parchmentInlay/main">
+               <catDesc>parchment inlay</catDesc>
+            </category>
+            <category xml:id="textileInlay" corresp="https://betamasaheft.eu/authority-files/textileInlay/main">
+               <catDesc>textile inlay</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Guards</desc>
+            <category xml:id="guard" corresp="https://betamasaheft.eu/authority-files/guard/main">
+               <catDesc>Guard</catDesc>
+            </category>
+            <category xml:id="centerfold" corresp="https://betamasaheft.eu/authority-files/centerfold/main">
+               <catDesc>Centerfold</catDesc>
+            </category>
+            <category xml:id="spinefold" corresp="https://betamasaheft.eu/authority-files/spinefold/main">
+               <catDesc>Spine fold</catDesc>
+            </category>
+            <category xml:id="sidestitches" corresp="https://betamasaheft.eu/authority-files/sidestitches/main">
+               <catDesc>Side stitches</catDesc>
+            </category>
+            <category xml:id="mainSewing" corresp="https://betamasaheft.eu/authority-files/mainSewing/main">
+               <catDesc>Main sewing</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Bookmarks</desc>
+            <category xml:id="leafStringMark" corresp="https://betamasaheft.eu/authority-files/leafStringMark/main">
+               <catDesc>Leaf string marker</catDesc>
+            </category>
+            <category xml:id="leafTabMark" corresp="https://betamasaheft.eu/authority-files/leafTabMark/main">
+               <catDesc>Leaf tab marker</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Endband Type</desc>
+            <category xml:id="slitBraid" corresp="https://betamasaheft.eu/authority-files/slitBraid/main">
+               <catDesc>Slit-braid</catDesc>
+            </category>
+            <category xml:id="linkStitch" corresp="https://betamasaheft.eu/authority-files/linkStitch/main">
+               <catDesc>Link-stitch</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Board Lining</desc>
+            <category xml:id="textile" corresp="https://betamasaheft.eu/authority-files/textile/main">
+               <catDesc>Textile</catDesc>
+            </category>
+            <category xml:id="mirror" corresp="https://betamasaheft.eu/authority-files/mirror/main">
+               <catDesc>Mirror</catDesc>
+            </category>
+            <category xml:id="additionalLeatherPatch" corresp="https://betamasaheft.eu/authority-files/additionalLeatherPatch/main">
+               <catDesc>Additional leather patch</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Wood Type</desc>
+            <category xml:id="cordiaAfricana" corresp="https://betamasaheft.eu/authority-files/cordiaAfricana/main">
+               <catDesc>Cordia africana</catDesc>
+            </category>
+            <category xml:id="oleaAfricana" corresp="https://betamasaheft.eu/authority-files/oleaAfricana/main">
+               <catDesc>Olea africana</catDesc>
+            </category>
+            <category xml:id="cedar" corresp="https://betamasaheft.eu/authority-files/cedar/main">
+               <catDesc>Cedar</catDesc>
+            </category>
+            <category xml:id="eucalyptus" corresp="https://betamasaheft.eu/authority-files/eucalyptus/main">
+               <catDesc>Eucalyptus</catDesc>
+            </category>
+            <category xml:id="juniper" corresp="https://betamasaheft.eu/authority-files/juniper/main">
+               <catDesc>Juniper</catDesc>
+            </category>
+            <category xml:id="hageniaAbyssinica" corresp="https://betamasaheft.eu/authority-files/hageniaAbyssinica/main">
+               <catDesc>Hagenia abyssinica</catDesc>
+            </category>
+            <category xml:id="acacia" corresp="https://betamasaheft.eu/authority-files/acacia/main">
+               <catDesc>Acacia</catDesc>
+            </category>
+            <category xml:id="ficus" corresp="https://betamasaheft.eu/authority-files/ficus/main">
+               <catDesc>Ficus</catDesc>
+            </category>
+            <category xml:id="crotonMacrostachyus" corresp="https://betamasaheft.eu/authority-files/crotonMacrostachyus/main">
+               <catDesc>Croton macrostachyus</catDesc>
+            </category>
+            <category xml:id="euphorbia" corresp="https://betamasaheft.eu/authority-files/euphorbia/main">
+               <catDesc>Euphorbia</catDesc>
+            </category>
+            <category xml:id="ekebergia" corresp="https://betamasaheft.eu/authority-files/ekebergia/main">
+               <catDesc>Ekebergia capensis</catDesc>
+            </category>
+            <category xml:id="podocarpus" corresp="https://betamasaheft.eu/authority-files/podocarpus/main">
+               <catDesc>Podocarpus gracilior</catDesc>
+            </category>
+            <category xml:id="plywood" corresp="https://betamasaheft.eu/authority-files/plywood/main">
+               <catDesc>Plywood</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Sewing Pattern</desc>
+            <category xml:id="patternA" corresp="https://betamasaheft.eu/authority-files/patternA/main">
+               <catDesc>Pattern A</catDesc>
+            </category>
+            <category xml:id="patternA1" corresp="https://betamasaheft.eu/authority-files/patternA1/main">
+               <catDesc>Pattern A1</catDesc>
+            </category>
+            <category xml:id="patternA2" corresp="https://betamasaheft.eu/authority-files/patternA2/main">
+               <catDesc>Pattern A2</catDesc>
+            </category>
+            <category xml:id="patternA3" corresp="https://betamasaheft.eu/authority-files/patternA3/main">
+               <catDesc>Pattern A3</catDesc>
+            </category>
+            <category xml:id="patternA4" corresp="https://betamasaheft.eu/authority-files/patternA4/main">
+               <catDesc>Pattern A4</catDesc>
+            </category>
+            <category xml:id="patternA5" corresp="https://betamasaheft.eu/authority-files/patternA5/main">
+               <catDesc>Pattern A5</catDesc>
+            </category>
+            <category xml:id="patternA6" corresp="https://betamasaheft.eu/authority-files/patternA6/main">
+               <catDesc>Pattern A6</catDesc>
+            </category>
+            <category xml:id="patternA7" corresp="https://betamasaheft.eu/authority-files/patternA7/main">
+               <catDesc>Pattern A7</catDesc>
+            </category>
+            <category xml:id="patternB" corresp="https://betamasaheft.eu/authority-files/patternB/main">
+               <catDesc>Pattern B</catDesc>
+            </category>
+            <category xml:id="patternC" corresp="https://betamasaheft.eu/authority-files/patternC/main">
+               <catDesc>Pattern C</catDesc>
+            </category>
+            <category xml:id="patternC1" corresp="https://betamasaheft.eu/authority-files/patternC1/main">
+               <catDesc>Pattern C1</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Decoration</desc>
+            <category xml:id="tooling" corresp="https://betamasaheft.eu/authority-files/tooling/main">
+               <catDesc>Blind tooling</catDesc>
+            </category>
+            <category xml:id="tripleStraightLine" corresp="https://betamasaheft.eu/authority-files/tripleStraightLine/main">
+               <catDesc>Triple straight line</catDesc>
+            </category>
+            <category xml:id="doubleStraightLine" corresp="https://betamasaheft.eu/authority-files/doubleStraightLine/main">
+               <catDesc>Double straight Line</catDesc>
+            </category>
+            <category xml:id="singleStraightLine" corresp="https://betamasaheft.eu/authority-files/singleStraightLine/main">
+               <catDesc>Single straight line</catDesc>
+            </category>
+            <category xml:id="crissCross" corresp="https://betamasaheft.eu/authority-files/crissCross/main">
+               <catDesc>Criss-cross</catDesc>
+            </category>
+            <category xml:id="doubleCircle" corresp="https://betamasaheft.eu/authority-files/doubleCircle/main">
+               <catDesc>Double circle</catDesc>
+            </category>
+            <category xml:id="singleCircle" corresp="https://betamasaheft.eu/authority-files/singleCircle/main">
+               <catDesc>Single circle</catDesc>
+            </category>
+            <category xml:id="crescent" corresp="https://betamasaheft.eu/authority-files/crescent/main">
+               <catDesc>Crescent</catDesc>
+            </category>
+            <category xml:id="XForm" corresp="https://betamasaheft.eu/authority-files/XForm/main">
+               <catDesc>X-Form</catDesc>
+            </category>
+            <category xml:id="palmShape" corresp="https://betamasaheft.eu/authority-files/palmShape/main">
+               <catDesc>Palm shape</catDesc>
+            </category>
+            <category xml:id="rosette" corresp="https://betamasaheft.eu/authority-files/rosette/main">
+               <catDesc>Rosette</catDesc>
+            </category>
+            <category xml:id="corniForm" corresp="https://betamasaheft.eu/authority-files/corniForm/main">
+               <catDesc>Corni-form</catDesc>
+            </category>
+            <category xml:id="grid" corresp="https://betamasaheft.eu/authority-files/grid/main">
+               <catDesc>Grid</catDesc>
+            </category>
+            <category xml:id="VForm" corresp="https://betamasaheft.eu/authority-files/VForm/main">
+               <catDesc>V-form</catDesc>
+            </category>
+            <category xml:id="wavyLine" corresp="https://betamasaheft.eu/authority-files/wavyLine/main">
+               <catDesc>Wavy line</catDesc>
+            </category>
+            <category xml:id="zigZag" corresp="https://betamasaheft.eu/authority-files/zigZag/main">
+               <catDesc>Zig-zag</catDesc>
+            </category>
+            <category xml:id="motherOfWater" corresp="https://betamasaheft.eu/authority-files/motherOfWater/main">
+               <catDesc>Mother of water</catDesc>
+            </category>
+            <category xml:id="straightStrapwork" corresp="https://betamasaheft.eu/authority-files/straightStrapwork/main">
+               <catDesc>Straight strapwork element</catDesc>
+            </category>
+            <category xml:id="curveStrapwork" corresp="https://betamasaheft.eu/authority-files/curveStrapwork/main">
+               <catDesc>Curve strapwork element</catDesc>
+            </category>
+         </category>
+         <category>
+            <desc>Thread Material</desc>
+            <category xml:id="animalThread" corresp="https://betamasaheft.eu/authority-files/animalThread/main">
+               <catDesc>Animal thread</catDesc>
+            </category>
+            <category xml:id="vegetalThread" corresp="https://betamasaheft.eu/authority-files/vegetalThread/main">
+               <catDesc>Vegetal thread</catDesc>
+            </category>
+            <category xml:id="syntheticThread" corresp="https://betamasaheft.eu/authority-files/syntheticThread/main">
+               <catDesc>Synthetic thread</catDesc>
+            </category>
+            <category xml:id="tannedSkin" corresp="https://betamasaheft.eu/authority-files/tannedSkin/main">
+               <catDesc>Tanned skin</catDesc>
+            </category>
+         </category>
+      </category>
+      <category>
+         <desc>Occupation</desc>
+         <category xml:id="ruler" corresp="https://betamasaheft.eu/authority-files/ruler/main">
+            <catDesc>Ruler</catDesc>
+         </category>
+         <category xml:id="military" corresp="https://betamasaheft.eu/authority-files/military/main">
+            <catDesc>Military</catDesc>
+         </category>
+         <category xml:id="academic" corresp="https://betamasaheft.eu/authority-files/academic/main">
+            <catDesc>Academic</catDesc>
+         </category>
+         <category xml:id="political" corresp="https://betamasaheft.eu/authority-files/political/main">
+            <catDesc>Political</catDesc>
+         </category>
+         <category xml:id="literary" corresp="https://betamasaheft.eu/authority-files/literary/main">
+            <catDesc>Literary</catDesc>
+         </category>
+         <category xml:id="ecclesiastic" corresp="https://betamasaheft.eu/authority-files/ecclesiastic/main">
+            <catDesc>Ecclesiastic</catDesc>
+         </category>
+         <category xml:id="medical" corresp="https://betamasaheft.eu/authority-files/medical/main">
+            <catDesc>Medical</catDesc>
+         </category>
+         <category xml:id="art" corresp="https://betamasaheft.eu/authority-files/art/main">
+            <catDesc>Art</catDesc>
+         </category>
+         <category xml:id="Other" corresp="https://betamasaheft.eu/authority-files/Other/main">
+            <catDesc>Other</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Person Types</desc>
+         <category xml:id="saint" corresp="https://betamasaheft.eu/authority-files/saint/main">
+            <catDesc>Saint</catDesc>
+         </category>
+         <category xml:id="biblical" corresp="https://betamasaheft.eu/authority-files/biblical/main">
+            <catDesc>Biblical</catDesc>
+         </category>
+         <category xml:id="prophet" corresp="https://betamasaheft.eu/authority-files/prophet/main">
+            <catDesc>Prophet</catDesc>
+         </category>
+         <category xml:id="angel" corresp="https://betamasaheft.eu/authority-files/angel/main">
+            <catDesc>angel</catDesc>
+         </category>
+         <category xml:id="martyr" corresp="https://betamasaheft.eu/authority-files/martyr/main">
+            <catDesc>Martyr</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Periods</desc>
+         <category xml:id="PreAks" corresp="https://betamasaheft.eu/authority-files/PreAks/main">
+            <catDesc>South-Arabian, Pre-Aksumite and Proto-Aksumite</catDesc>
+         </category>
+         <category xml:id="Eaks" corresp="https://betamasaheft.eu/authority-files/Eaks/main">
+            <catDesc>Early Aksumite</catDesc>
+         </category>
+         <category xml:id="Aks" corresp="https://betamasaheft.eu/authority-files/Aks/main">
+            <catDesc>Aksumite</catDesc>
+         </category>
+         <category xml:id="Paks1" corresp="https://betamasaheft.eu/authority-files/Paks1/main">
+            <catDesc>Postaksumite I</catDesc>
+         </category>
+         <category xml:id="Paks2" corresp="https://betamasaheft.eu/authority-files/Paks2/main">
+            <catDesc> Postaksumite II</catDesc>
+         </category>
+         <category xml:id="Gon" corresp="https://betamasaheft.eu/authority-files/Gon/main">
+            <catDesc>Gondarine</catDesc>
+         </category>
+         <category xml:id="ZaMa" corresp="https://betamasaheft.eu/authority-files/ZaMa/main">
+            <catDesc>Zamana Masāfǝnt</catDesc>
+         </category>
+         <category xml:id="MoPe" corresp="https://betamasaheft.eu/authority-files/MoPe/main">
+            <catDesc>Modern Period</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Chant Modes</desc>
+         <category xml:id="ArarayMode" corresp="https://betamasaheft.eu/authority-files/ArarayMode/main">
+            <catDesc>ʾArārāy Mode</catDesc>
+         </category>
+         <category xml:id="EzelMode" corresp="https://betamasaheft.eu/authority-files/EzelMode/main">
+            <catDesc>ʿƎzǝl Mode</catDesc>
+         </category>
+         <category xml:id="GeezMode" corresp="https://betamasaheft.eu/authority-files/GeezMode/main">
+            <catDesc>Gǝʿǝz Mode</catDesc>
+         </category>
+      </category>
+       <category>
+          <desc>Qəne Types</desc>
+          <category xml:id="EtanaMogar" corresp="https://betamasaheft.eu/authority-files/EtanaMogar/main">
+             <catDesc>ʿƎṭāna mogar</catDesc>
+          </category>
+          <category xml:id="Mawaddes" corresp="https://betamasaheft.eu/authority-files/Mawaddes/main">
+             <catDesc>Mawaddǝs</catDesc>
+          </category>         
+          <category xml:id="KebrYeeti" corresp="https://betamasaheft.eu/authority-files/KebrYeeti/main">
+             <catDesc>Kǝbr yǝʾǝti</catDesc>
+          </category>
+          <category xml:id="Sellase" corresp="https://betamasaheft.eu/authority-files/Sellase/main">
+             <catDesc>Śǝllase</catDesc>
+          </category>
+          <category xml:id="Zayeeze" corresp="https://betamasaheft.eu/authority-files/Zayeeze/main">
+             <catDesc>Za-yǝʾǝze</catDesc>
+          </category>
+          <category xml:id="Kwellekomu" corresp="https://betamasaheft.eu/authority-files/Kwellekomu/main">
+             <catDesc>Kʷǝllǝkǝmu gǝʿǝz</catDesc>
+          </category>
+          <category xml:id="Wazema" corresp="https://betamasaheft.eu/authority-files/Wazema/main">
+             <catDesc>Wāzemā</catDesc>
+          </category>
+          <category xml:id="GubaeQana" corresp="https://betamasaheft.eu/authority-files/GubaeQana/main">
+             <catDesc>Gubāʿe Qānā</catDesc>
+          </category>       
+          <category xml:id="Mibazhu" corresp="https://betamasaheft.eu/authority-files/Mibazhu/main">
+             <catDesc>Mi-bazḫu</catDesc>
+          </category>
+          <category xml:id="Zaamlakiya" corresp="https://betamasaheft.eu/authority-files/Zaamlakiya/main">
+             <catDesc>Za-ʾamlākiya</catDesc>
+          </category>
+          <category xml:id="Sahleka" corresp="https://betamasaheft.eu/authority-files/Sahleka/main">
+             <catDesc>Śāhlǝka</catDesc>
+          </category>
+       </category>       
+       <category>
+          <desc>Magic and spells</desc>
+          <category>
+             <desc>Subtypes</desc>
+             <category xml:id="MagicDrawing" corresp="https://betamasaheft.eu/authority-files/MagicDrawing/main">
+                <catDesc>Magic drawing </catDesc>
+             </category>
+             <category xml:id="MagicSymbols" corresp="https://betamasaheft.eu/authority-files/MagicSymbols/main">
+                <catDesc>Magic symbols or letters</catDesc>
+             </category>
+          </category>
+          <category>
+             <desc>Subgenres</desc>
+             <category xml:id="Divination" corresp="https://betamasaheft.eu/authority-files/Divination/main">
+                <catDesc>Divination</catDesc>
+             </category>             
+          </category>
+          <category>
+             <desc>Diseases and demons</desc>
+             <category xml:id="Disease" corresp="https://betamasaheft.eu/authority-files/Disease/main">
+                <catDesc>Disease (generic)</catDesc>
+             </category>                
+             <category xml:id="DiseaseFever" corresp="https://betamasaheft.eu/authority-files/DiseaseFever/main">
+                <catDesc>Disease with fever</catDesc>
+             </category>
+             <category xml:id="DiseaseMental" corresp="https://betamasaheft.eu/authority-files/DiseaseMental/main">
+                <catDesc>Disease with mental symptoms</catDesc>
+             </category>
+             <category xml:id="DiseasePain" corresp="https://betamasaheft.eu/authority-files/DiseasePain/main">
+                <catDesc>Disease with pain/colic</catDesc>
+             </category>
+             <category xml:id="DiseaseWomen" corresp="https://betamasaheft.eu/authority-files/DiseaseWomen/main">
+                <catDesc>Disease in women</catDesc>
+             </category>                   
+             <category xml:id="EvilEye" corresp="https://betamasaheft.eu/authority-files/EvilEye/main">
+                <catDesc>Evil Eye</catDesc>
+             </category>
+             <category xml:id="EvilSpirit" corresp="https://betamasaheft.eu/authority-files/EvilSpirit/main">
+                <catDesc>Evil Spirit</catDesc>
+             </category>
+          </category>
+       </category>
+       
+      <category>
+         <desc>Additiones</desc>
+         <category xml:id="GuestText" corresp="https://betamasaheft.eu/authority-files/GuestText/main">
+            <catDesc>Guest Text</catDesc>
+         </category>
+         <category xml:id="AcquisitionNote" corresp="https://betamasaheft.eu/authority-files/AcquisitionNote/main">
+            <catDesc>Acquisition Note</catDesc>
+         </category>
+         <category xml:id="Comment" corresp="https://betamasaheft.eu/authority-files/Comment/main">
+            <catDesc>Comment</catDesc>
+         </category>
+         <category xml:id="Gloss" corresp="https://betamasaheft.eu/authority-files/Gloss/main">
+            <catDesc>Gloss</catDesc>
+         </category>
+         <category xml:id="Correction" corresp="https://betamasaheft.eu/authority-files/Correction/main">
+            <catDesc>Correction</catDesc>
+         </category>
+         <category xml:id="Letter" corresp="https://betamasaheft.eu/authority-files/Letter/main">
+            <catDesc>Letter</catDesc>
+         </category>
+         <category xml:id="Foundation" corresp="https://betamasaheft.eu/authority-files/Foundation/main">
+            <catDesc>Foundation</catDesc>
+         </category>
+         <category xml:id="Headband" corresp="https://betamasaheft.eu/authority-files/Headband/main">
+            <catDesc>Headband</catDesc>
+         </category>
+         <category xml:id="Tailband" corresp="https://betamasaheft.eu/authority-files/Tailband/main">
+            <catDesc>Tailband</catDesc>
+         </category>
+         <category xml:id="DonationNote" corresp="https://betamasaheft.eu/authority-files/DonationNote/main">
+            <catDesc>Donation Note</catDesc>
+         </category>
+         <category xml:id="OwnershipNote" corresp="https://betamasaheft.eu/authority-files/OwnershipNote/main">
+            <catDesc>Ownership Note</catDesc>
+         </category>
+         <category xml:id="PurchaseNote" corresp="https://betamasaheft.eu/authority-files/PurchaseNote/main">
+            <catDesc>Purchase Note</catDesc>
+         </category>
+         <category xml:id="ReceiptNote" corresp="https://betamasaheft.eu/authority-files/ReceiptNote/main">
+            <catDesc>Receipt Note</catDesc>
+         </category>
+         <category xml:id="Admonition" corresp="https://betamasaheft.eu/authority-files/Admonition/main">
+            <catDesc>Admonition</catDesc>
+         </category>
+         <category xml:id="DocumentaryText" corresp="https://betamasaheft.eu/authority-files/DocumentaryText/main">
+            <catDesc>Documentary Text</catDesc>
+         </category>
+         <category>
+            <desc>Land Ownership</desc>
+            <category>
+               <desc>Land Charters</desc>
+               <category xml:id="LandGrant" corresp="https://betamasaheft.eu/authority-files/LandGrant/main">
+                  <catDesc>Land Grant</catDesc>
+               </category>
+               <category xml:id="GweltDeed" corresp="https://betamasaheft.eu/authority-files/GweltDeed/main">
+                  <catDesc>Gwəlt Deed</catDesc>
+               </category>
+               <category xml:id="RestDeed" corresp="https://betamasaheft.eu/authority-files/RestDeed/main">
+                  <catDesc>Rəst Deed</catDesc>
+               </category>
+               <category xml:id="RestaGweltDeed" corresp="https://betamasaheft.eu/authority-files/RestaGweltDeed/main">
+                  <catDesc>Rəsta gwəlt Deed</catDesc>
+               </category>
+            </category>
+            <category xml:id="Rim" corresp="https://betamasaheft.eu/authority-files/Rim/main">
+               <catDesc>Rim</catDesc>
+            </category>
+            <category xml:id="siso" corresp="https://betamasaheft.eu/authority-files/siso/main">
+               <catDesc>Siso</catDesc>
+            </category>
+            <category xml:id="Tazkar" corresp="https://betamasaheft.eu/authority-files/Tazkar/main">
+               <catDesc>Tazkar</catDesc>
+            </category>
+            <category xml:id="Renovation" corresp="https://betamasaheft.eu/authority-files/Renovation/main">
+               <catDesc>Renovation</catDesc>
+            </category>
+            <category xml:id="Confirmation" corresp="https://betamasaheft.eu/authority-files/Confirmation/main">
+               <catDesc>Confirmation</catDesc>
+            </category>
+            <category xml:id="FoundationCharter" corresp="https://betamasaheft.eu/authority-files/FoundationCharter/main">
+               <catDesc>Foundation Charter</catDesc>
+            </category>
+            <category xml:id="unclearOwnershipDocument" corresp="https://betamasaheft.eu/authority-files/unclearOwnershipDocument/main">
+               <catDesc>Unclear Ownership</catDesc>
+            </category>
+         </category>
+         <category xml:id="Genealogy" corresp="https://betamasaheft.eu/authority-files/Genealogy/main">
+            <catDesc>Genealogy</catDesc>
+         </category>
+         <category xml:id="ScribalSignature" corresp="https://betamasaheft.eu/authority-files/ScribalSignature/main">
+            <catDesc>Scribal Signature</catDesc>
+         </category>
+         <category xml:id="Supplication" corresp="https://betamasaheft.eu/authority-files/Supplication/main">
+            <catDesc>Supplication</catDesc>
+         </category>
+         <category xml:id="Subscription" corresp="https://betamasaheft.eu/authority-files/Subscription/main">
+            <catDesc>Subscription</catDesc>
+         </category>
+         <category xml:id="Doxology" corresp="https://betamasaheft.eu/authority-files/Doxology/main">
+            <catDesc>Doxology</catDesc>
+         </category>
+         <category xml:id="Exhortation" corresp="https://betamasaheft.eu/authority-files/Exhortation/main">
+            <catDesc>Exhortation</catDesc>
+         </category>
+         <category xml:id="Invocation" corresp="https://betamasaheft.eu/authority-files/Invocation/main">
+            <catDesc>Invocation</catDesc>
+         </category>
+         <category xml:id="Inventory" corresp="https://betamasaheft.eu/authority-files/Inventory/main">
+            <catDesc>Inventory</catDesc>
+         </category>
+         <category xml:id="ScribalNoteCommencing" corresp="https://betamasaheft.eu/authority-files/ScribalNoteCommencing/main">
+            <catDesc>Scribal Note Commencing</catDesc>
+         </category>
+         <category xml:id="ScribalNoteOrdering" corresp="https://betamasaheft.eu/authority-files/ScribalNoteOrdering/main">
+            <catDesc>Scribal Note Ordering</catDesc>
+         </category>
+         <category xml:id="ScribalNoteCommissioning" corresp="https://betamasaheft.eu/authority-files/ScribalNoteCommissioning/main">
+            <catDesc>Scribal Note Commissioning</catDesc>
+         </category>
+         <category xml:id="ScribalNoteCompleting" corresp="https://betamasaheft.eu/authority-files/ScribalNoteCompleting/main">
+            <catDesc>Scribal Note Completing</catDesc>
+         </category>
+         <category xml:id="ScribalNoteAssigningLand" corresp="https://betamasaheft.eu/authority-files/ScribalNoteAssigningLand/main">
+            <catDesc>Scribal Note Assigning Land</catDesc>
+         </category>
+         <category xml:id="ScribalNoteBequeathing" corresp="https://betamasaheft.eu/authority-files/ScribalNoteBequeathing/main">
+            <catDesc>Scribal Note Bequeathing</catDesc>
+         </category>
+         <category xml:id="RecordReconciliation" corresp="https://betamasaheft.eu/authority-files/RecordReconciliation/main">
+            <catDesc>Record Reconciliation</catDesc>
+         </category>
+         <category xml:id="RecordLitigation" corresp="https://betamasaheft.eu/authority-files/RecordLitigation/main">
+            <catDesc>Record Litigation</catDesc>
+         </category>
+         <category xml:id="RecordTransaction" corresp="https://betamasaheft.eu/authority-files/RecordTransaction/main">
+            <catDesc>Record Transaction</catDesc>
+         </category>
+         <category xml:id="RecordDistribution" corresp="https://betamasaheft.eu/authority-files/RecordDistribution/main">
+            <catDesc>Record Distribution</catDesc>
+         </category>
+         <category xml:id="RecordGuarantors" corresp="https://betamasaheft.eu/authority-files/RecordGuarantors/main">
+            <catDesc>Record Guarantors</catDesc>
+         </category>
+         <category xml:id="Record" corresp="https://betamasaheft.eu/authority-files/Record/main">
+            <catDesc>Record</catDesc>
+         </category>
+         <category xml:id="ScribalSupplication" corresp="https://betamasaheft.eu/authority-files/ScribalSupplication/main">
+            <catDesc>Scribal Supplication</catDesc>
+         </category>
+         <category xml:id="Unclear" corresp="https://betamasaheft.eu/authority-files/Unclear/main">
+            <catDesc>Unclear</catDesc>
+         </category>
+         <category xml:id="GuarantorsList" corresp="https://betamasaheft.eu/authority-files/GuarantorsList/main">
+            <catDesc>Guarantors List</catDesc>
+         </category>
+         <category xml:id="CommemorativeNote" corresp="https://betamasaheft.eu/authority-files/CommemorativeNote/main">
+            <catDesc>Commemorative Note</catDesc>
+         </category>
+         <category xml:id="Condemnation" corresp="https://betamasaheft.eu/authority-files/Condemnation/main">
+            <catDesc>Condemnation</catDesc>
+         </category>
+         <category xml:id="ProtectivePrayer" corresp="https://betamasaheft.eu/authority-files/ProtectivePrayer/main">
+            <catDesc>Protective Prayer</catDesc>
+         </category>
+         <category xml:id="Poem" corresp="https://betamasaheft.eu/authority-files/Poem/main">
+            <catDesc>Poem</catDesc>
+         </category>
+         <category xml:id="PoemQene" corresp="https://betamasaheft.eu/authority-files/PoemQene/main">
+            <catDesc>Poem Qǝne</catDesc>
+         </category>
+         <category xml:id="PoemSalam" corresp="https://betamasaheft.eu/authority-files/PoemSalam/main">
+            <catDesc>Poem Salām</catDesc>
+         </category>
+         <category xml:id="PoemArke" corresp="https://betamasaheft.eu/authority-files/PoemArke/main">
+            <catDesc>Poem Arke</catDesc>
+         </category>
+         <category xml:id="StampExlibris" corresp="https://betamasaheft.eu/authority-files/StampExlibris/main">
+            <catDesc>Stamp Ex libris</catDesc>
+         </category>
+         <category xml:id="CalendaricNote" corresp="https://betamasaheft.eu/authority-files/CalendaricNote/main">
+            <catDesc>Calendaric Note</catDesc>
+         </category>
+         <category xml:id="Excerpt" corresp="https://betamasaheft.eu/authority-files/Excerpt/main">
+            <catDesc>Excerpt</catDesc>
+         </category>
+         <category xml:id="MagicFormula" corresp="https://betamasaheft.eu/authority-files/MagicFormula/main">
+            <catDesc>Magic Formula</catDesc>
+         </category>
+         <category xml:id="MagicText" corresp="https://betamasaheft.eu/authority-files/MagicText/main">
+            <catDesc>Magic Text</catDesc>
+         </category>
+         <category xml:id="Excommunication" corresp="https://betamasaheft.eu/authority-files/Excommunication/main">
+            <catDesc>Excommunication</catDesc>
+         </category>
+         <category xml:id="MalkeHymn" corresp="https://betamasaheft.eu/authority-files/MalkeHymn/main">
+            <catDesc>Malkǝʾ Hymn</catDesc>
+         </category>
+         <category xml:id="Directive" corresp="https://betamasaheft.eu/authority-files/Directive/main">
+            <catDesc>Directive</catDesc>
+         </category>
+         <category xml:id="Asmat" corresp="https://betamasaheft.eu/authority-files/Asmat/main">
+            <catDesc>ʾAsmāt</catDesc>
+         </category>
+         <category xml:id="CustomaryLaw" corresp="https://betamasaheft.eu/authority-files/CustomaryLaw/main">
+            <catDesc>CustomaryLaw</catDesc>
+         </category>
+         <category xml:id="Statutes" corresp="https://betamasaheft.eu/authority-files/Statutes/main">
+            <catDesc>Statutes</catDesc>
+         </category>
+         <category xml:id="MixedNote" corresp="https://betamasaheft.eu/authority-files/MixedNote/main">
+            <catDesc>Mixed Note</catDesc>
+         </category>
+         <category xml:id="findingAid" corresp="https://betamasaheft.eu/authority-files/findingAid/main">
+            <catDesc>Finding Aid</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Art Keywords</desc>
+         <category xml:id="AksumiteStyle" corresp="https://betamasaheft.eu/authority-files/AksumiteStyle/main">
+            <catDesc>Aksumite Style</catDesc>
+         </category>
+         <category xml:id="FirstSolomonicStyle" corresp="https://betamasaheft.eu/authority-files/FirstSolomonicStyle/main">
+            <catDesc>First Solomonic Style</catDesc>
+         </category>
+         <category xml:id="SecondSolomonicStyle" corresp="https://betamasaheft.eu/authority-files/SecondSolomonicStyle/main">
+            <catDesc>Second Solomonic Style</catDesc>
+         </category>
+         <category xml:id="ThirdSolomonicStyle" corresp="https://betamasaheft.eu/authority-files/ThirdSolomonicStyle/main">
+            <catDesc>Third Solomonic Style</catDesc>
+         </category>
+         <category xml:id="FirstGondarineStyle" corresp="https://betamasaheft.eu/authority-files/FirstGondarineStyle/main">
+            <catDesc>First Gondarine Style</catDesc>
+         </category>
+         <category xml:id="GeometricStyle" corresp="https://betamasaheft.eu/authority-files/GeometricStyle/main">
+            <catDesc>Geometric Style</catDesc>
+         </category>
+         <category xml:id="SecondGondarineStyle" corresp="https://betamasaheft.eu/authority-files/SecondGondarineStyle/main">
+            <catDesc>Second Gondarine Style</catDesc>
+         </category>
+         <category xml:id="PostGondarineStyle" corresp="https://betamasaheft.eu/authority-files/PostGondarineStyle/main">
+            <catDesc>Zamana Masāfǝnt Style</catDesc>
+         </category>
+         <category xml:id="ModernStyle" corresp="https://betamasaheft.eu/authority-files/ModernStyle/main">
+            <catDesc>Modern Style</catDesc>
+         </category>
+         <category xml:id="ShortCycle" corresp="https://betamasaheft.eu/authority-files/ShortCycle/main">
+            <catDesc>Short Cycle</catDesc>
+         </category>
+         <category xml:id="LongCycle" corresp="https://betamasaheft.eu/authority-files/LongCycle/main">
+            <catDesc>Long Cycle</catDesc>
+         </category>
+         <category xml:id="attribute" corresp="https://betamasaheft.eu/authority-files/attribute/main">
+            <catDesc>attribute</catDesc>
+         </category>
+         <category xml:id="bearded" corresp="https://betamasaheft.eu/authority-files/bearded/main">
+            <catDesc>bearded</catDesc>
+         </category>
+         <category xml:id="beardless" corresp="https://betamasaheft.eu/authority-files/beardless/main">
+            <catDesc>beardless</catDesc>
+         </category>
+         <category xml:id="deadjesus" corresp="https://betamasaheft.eu/authority-files/deadjesus/main">
+            <catDesc>Dead Jesus</catDesc>
+         </category>
+         <category xml:id="demon" corresp="https://betamasaheft.eu/authority-files/demon/main">
+            <catDesc>demon</catDesc>
+         </category>
+         <category xml:id="donordepiction" corresp="https://betamasaheft.eu/authority-files/donordepiction/main">
+            <catDesc>donor depiction</catDesc>
+         </category>
+         <category xml:id="dragon" corresp="https://betamasaheft.eu/authority-files/dragon/main">
+            <catDesc>dragon</catDesc>
+         </category>
+         <category xml:id="emptycross" corresp="https://betamasaheft.eu/authority-files/emptycross/main">
+            <catDesc>Empty Cross</catDesc>
+         </category>
+         <category xml:id="livingjesus" corresp="https://betamasaheft.eu/authority-files/livingjesus/main">
+            <catDesc>Living Jesus</catDesc>
+         </category>
+         <category xml:id="interlace" corresp="https://betamasaheft.eu/authority-files/interlace/main">
+            <catDesc>interlace</catDesc>
+         </category>
+         <category xml:id="gesture" corresp="https://betamasaheft.eu/authority-files/gesture/main">
+            <catDesc>gesture</catDesc>
+         </category>
+         <category xml:id="gestureblessing" corresp="https://betamasaheft.eu/authority-files/gestureblessing/main">
+            <catDesc>gesture of blessing</catDesc>
+         </category>
+         <category xml:id="gesturecrossed" corresp="https://betamasaheft.eu/authority-files/gesturecrossed/main">
+            <catDesc>gesture of crossed arms</catDesc>
+         </category>
+         <category xml:id="gesturefoldedhands" corresp="https://betamasaheft.eu/authority-files/gesturefoldedhands/main">
+            <catDesc>gesture of folded hands</catDesc>
+         </category>
+         <category xml:id="gesturegrief" corresp="https://betamasaheft.eu/authority-files/gesturegrief/main">
+            <catDesc>gesture of grief</catDesc>
+         </category>
+         <category xml:id="gestureorans" corresp="https://betamasaheft.eu/authority-files/gestureorans/main">
+            <catDesc>orans</catDesc>
+         </category>
+         <category xml:id="gesturewitnessing" corresp="https://betamasaheft.eu/authority-files/gesturewitnessing/main">
+            <catDesc>gesture of witnessing</catDesc>
+         </category>
+         <category xml:id="halo" corresp="https://betamasaheft.eu/authority-files/halo/main">
+            <catDesc>halo</catDesc>
+         </category>
+         <category xml:id="handGod" corresp="https://betamasaheft.eu/authority-files/handGod/main">
+            <catDesc>Hand of God</catDesc>
+         </category>
+         <category xml:id="HolySpirit" corresp="https://betamasaheft.eu/authority-files/HolySpirit/main">
+            <catDesc>Holy Spirit</catDesc>
+         </category>
+         <category xml:id="mandorla" corresp="https://betamasaheft.eu/authority-files/mandorla/main">
+            <catDesc>mandorla</catDesc>
+         </category>
+         <category xml:id="saluspopuli" corresp="https://betamasaheft.eu/authority-files/saluspopuli/main">
+            <catDesc>Salus Populi Romani</catDesc>
+         </category>
+         <category xml:id="hodegetria" corresp="https://betamasaheft.eu/authority-files/hodegetria/main">
+            <catDesc>Hodegetria</catDesc>
+         </category>
+         <category xml:id="seated" corresp="https://betamasaheft.eu/authority-files/seated/main">
+            <catDesc>seated</catDesc>
+         </category>
+         <category xml:id="standing" corresp="https://betamasaheft.eu/authority-files/standing/main">
+            <catDesc>standing</catDesc>
+         </category>
+         <category xml:id="spinning" corresp="https://betamasaheft.eu/authority-files/spinning/main">
+            <catDesc>spinning</catDesc>
+         </category>
+         <category xml:id="sunandmoon" corresp="https://betamasaheft.eu/authority-files/sunandmoon/main">
+            <catDesc>Sun and Moon</catDesc>
+         </category>
+         <category xml:id="star" corresp="https://betamasaheft.eu/authority-files/star/main">
+            <catDesc>Star</catDesc>
+         </category>
+         <category xml:id="tetramorph" corresp="https://betamasaheft.eu/authority-files/tetramorph/main">
+            <catDesc>Tetramorph</catDesc>
+         </category>
+         <category xml:id="twothieves" corresp="https://betamasaheft.eu/authority-files/twothieves/main">
+            <catDesc>Two Thieves</catDesc>
+         </category>
+         <category xml:id="scabbard" corresp="https://betamasaheft.eu/authority-files/scabbard/main">
+            <catDesc>Scabbard</catDesc>
+         </category>
+         <category xml:id="protectiveCurtain" corresp="https://betamasaheft.eu/authority-files/protectiveCurtain/main">
+            <catDesc>Protective Curtain</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Objects and Animals</desc>
+         <category xml:id="animal" corresp="https://betamasaheft.eu/authority-files/animal/main">
+            <catDesc>animal</catDesc>
+         </category>
+         <category xml:id="arch" corresp="https://betamasaheft.eu/authority-files/arch/main">
+            <catDesc>arch</catDesc>
+         </category>
+         <category xml:id="architecture" corresp="https://betamasaheft.eu/authority-files/architecture/main">
+            <catDesc>architecture</catDesc>
+         </category>
+         <category xml:id="bird" corresp="https://betamasaheft.eu/authority-files/bird/main">
+            <catDesc>bird</catDesc>
+         </category>
+         <category xml:id="canopy" corresp="https://betamasaheft.eu/authority-files/canopy/main">
+            <catDesc>canopy</catDesc>
+         </category>
+         <category xml:id="censer" corresp="https://betamasaheft.eu/authority-files/censer/main">
+            <catDesc>censer</catDesc>
+         </category>
+         <category xml:id="codex" corresp="https://betamasaheft.eu/authority-files/codex/main">
+            <catDesc>codex</catDesc>
+         </category>
+         <category xml:id="column" corresp="https://betamasaheft.eu/authority-files/column/main">
+            <catDesc>column</catDesc>
+         </category>
+         <category xml:id="cross" corresp="https://betamasaheft.eu/authority-files/cross/main">
+            <catDesc>cross</catDesc>
+         </category>
+         <category xml:id="crown" corresp="https://betamasaheft.eu/authority-files/crown/main">
+            <catDesc>crown</catDesc>
+         </category>
+         <category xml:id="curtain" corresp="https://betamasaheft.eu/authority-files/curtain/main">
+            <catDesc>curtain</catDesc>
+         </category>         
+         <category xml:id="eucharist" corresp="https://betamasaheft.eu/authority-files/eucharist/main">
+            <catDesc>eucharist</catDesc>
+         </category>
+         <category xml:id="globe" corresp="https://betamasaheft.eu/authority-files/globe/main">
+            <catDesc>globe</catDesc>
+         </category>
+         <category xml:id="maniple" corresp="https://betamasaheft.eu/authority-files/maniple/main">
+            <catDesc>maniple</catDesc>
+         </category>
+         <category xml:id="prayerstaff" corresp="https://betamasaheft.eu/authority-files/prayerstaff/main">
+            <catDesc>prayer staff</catDesc>
+         </category>
+         <category xml:id="rod" corresp="https://betamasaheft.eu/authority-files/rod/main">
+            <catDesc>rod</catDesc>
+         </category>
+         <category xml:id="scale" corresp="https://betamasaheft.eu/authority-files/scale/main">
+            <catDesc>scale</catDesc>
+         </category>
+         <category xml:id="scroll" corresp="https://betamasaheft.eu/authority-files/scroll/main">
+            <catDesc>scroll</catDesc>
+         </category>
+         <category xml:id="shield" corresp="https://betamasaheft.eu/authority-files/shield/main">
+            <catDesc>shield</catDesc>
+         </category>
+         <category xml:id="spear" corresp="https://betamasaheft.eu/authority-files/spear/main">
+            <catDesc>spear</catDesc>
+         </category>
+         <category xml:id="sponge" corresp="https://betamasaheft.eu/authority-files/sponge/main">
+            <catDesc>sponge</catDesc>
+         </category>
+         <category xml:id="sword" corresp="https://betamasaheft.eu/authority-files/sword/main">
+            <catDesc>sword</catDesc>
+         </category>
+         <category xml:id="vestment" corresp="https://betamasaheft.eu/authority-files/vestment/main">
+            <catDesc>vestment</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Art Themes</desc>
+         <category xml:id="AT1068AdamandEveeatfruit" corresp="https://betamasaheft.eu/authority-files/AT1068AdamandEveeatfruit/main">
+            <catDesc>Adam and Eve eat the Forbidden Fruit</catDesc>
+         </category>
+         <category xml:id="AT1001Agony" corresp="https://betamasaheft.eu/authority-files/AT1001Agony/main">
+            <catDesc>Agony in the garden</catDesc>
+         </category>
+         <category xml:id="AT1082Angel" corresp="https://betamasaheft.eu/authority-files/AT1082Angel/main">
+            <catDesc>Angel</catDesc>
+         </category>
+         <category xml:id="AT1002Annunciation" corresp="https://betamasaheft.eu/authority-files/AT1002Annunciation/main">
+            <catDesc>Annunciation</catDesc>
+         </category>
+         <category xml:id="AT1054AnnunciationZaccharia" corresp="https://betamasaheft.eu/authority-files/AT1054AnnunciationZaccharia/main">
+            <catDesc>Annunciation to Zacharias</catDesc>
+         </category>
+         <category xml:id="AT1046Apostle" corresp="https://betamasaheft.eu/authority-files/AT1046Apostle/main">
+            <catDesc>Apostle Portrait</catDesc>
+         </category>
+         <category xml:id="AT1047Apostles" corresp="https://betamasaheft.eu/authority-files/AT1047Apostles/main">
+            <catDesc>Apostles Portrait</catDesc>
+         </category>
+         <category xml:id="AT1003Arrest" corresp="https://betamasaheft.eu/authority-files/AT1003Arrest/main">
+            <catDesc>Arrest of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1033Ascension" corresp="https://betamasaheft.eu/authority-files/AT1033Ascension/main">
+            <catDesc>Ascension of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1037AscensionMary" corresp="https://betamasaheft.eu/authority-files/AT1037AscensionMary/main">
+            <catDesc>Assumption of Mary</catDesc>
+         </category>
+         <category xml:id="AT1038Baptism" corresp="https://betamasaheft.eu/authority-files/AT1038Baptism/main">
+            <catDesc>Baptism of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1004Bitter" corresp="https://betamasaheft.eu/authority-files/AT1004Bitter/main">
+            <catDesc>Bitter Water Ordeal</catDesc>
+         </category>
+         <category xml:id="AT1062CoronationMary" corresp="https://betamasaheft.eu/authority-files/AT1062CoronationMary/main">
+            <catDesc>Coronation of Mary</catDesc>
+         </category>
+         <category xml:id="AT1036MercyCovenant" corresp="https://betamasaheft.eu/authority-files/AT1036MercyCovenant/main">
+            <catDesc>Covenant of Mercy</catDesc>
+         </category>
+         <category xml:id="AT1005Crucifixion" corresp="https://betamasaheft.eu/authority-files/AT1005Crucifixion/main">
+            <catDesc>Crucifixion of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1071Cross" corresp="https://betamasaheft.eu/authority-files/AT1071Cross/main">
+            <catDesc>Cross</catDesc>
+         </category>
+         <category xml:id="AT1079DavidGoliath" corresp="https://betamasaheft.eu/authority-files/AT1079DavidGoliath/main">
+            <catDesc>David Beheads Goliath</catDesc>
+         </category>
+         <category xml:id="AT1066DavidHarp" corresp="https://betamasaheft.eu/authority-files/AT1066DavidHarp/main">
+            <catDesc>David Playing the Harp</catDesc>
+         </category>
+         <category xml:id="AT1006Denial" corresp="https://betamasaheft.eu/authority-files/AT1006Denial/main">
+            <catDesc>Denial of Peter</catDesc>
+         </category>
+         <category xml:id="AT1007Deposition" corresp="https://betamasaheft.eu/authority-files/AT1007Deposition/main">
+            <catDesc>Deposition from the Cross</catDesc>
+         </category>
+         <category xml:id="AT1008Descent" corresp="https://betamasaheft.eu/authority-files/AT1008Descent/main">
+            <catDesc>Descent into Hell</catDesc>
+         </category>
+         <category xml:id="AT1058DormitionMary" corresp="https://betamasaheft.eu/authority-files/AT1058DormitionMary/main">
+            <catDesc>Dormition of Mary</catDesc>
+         </category>
+         <category xml:id="AT1009Doubting" corresp="https://betamasaheft.eu/authority-files/AT1009Doubting/main">
+            <catDesc>Doubting of Thomas</catDesc>
+         </category>
+         <category xml:id="AT1010Entombment" corresp="https://betamasaheft.eu/authority-files/AT1010Entombment/main">
+            <catDesc>Entombment of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1011Entry" corresp="https://betamasaheft.eu/authority-files/AT1011Entry/main">
+            <catDesc>Entry into Jerusalem</catDesc>
+         </category>
+         <category xml:id="AT1012Equestrian" corresp="https://betamasaheft.eu/authority-files/AT1012Equestrian/main">
+            <catDesc>Equestrian Saint</catDesc>
+         </category>
+         <category xml:id="AT1013EvaPortrait" corresp="https://betamasaheft.eu/authority-files/AT1013EvaPortrait/main">
+            <catDesc>Evangelist Portrait</catDesc>
+         </category>
+         <category xml:id="AT1014Evangelists" corresp="https://betamasaheft.eu/authority-files/AT1014Evangelists/main">
+            <catDesc>Evangelists</catDesc>
+         </category>
+         <category xml:id="AT1015Flagellation" corresp="https://betamasaheft.eu/authority-files/AT1015Flagellation/main">
+            <catDesc>Flagellation of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1016Flight" corresp="https://betamasaheft.eu/authority-files/AT1016Flight/main">
+            <catDesc>Flight into Egypt</catDesc>
+         </category>
+         <category xml:id="AT1101GodtheFather" corresp="https://betamasaheft.eu/authority-files/AT1101GodtheFather/main">
+            <catDesc>God the Father</catDesc>
+         </category>
+         <category xml:id="AT1042HagiographicScene" corresp="https://betamasaheft.eu/authority-files/AT1042HagiographicScene/main">
+            <catDesc>Hagiographic Scene</catDesc>
+         </category>
+         <category xml:id="AT1051HistoricalPerson" corresp="https://betamasaheft.eu/authority-files/AT1051HistoricalPerson/main">
+            <catDesc>Historical Person Portrait</catDesc>
+         </category>
+         <category xml:id="AT1052HistoricalPersons" corresp="https://betamasaheft.eu/authority-files/AT1052HistoricalPersons/main">
+            <catDesc>Historical Persons Portrait</catDesc>
+         </category>
+         <category xml:id="AT1053HistoricalScene" corresp="https://betamasaheft.eu/authority-files/AT1053HistoricalScene/main">
+            <catDesc>Historical Scene</catDesc>
+         </category>
+         <category xml:id="AT1035HolyMan" corresp="https://betamasaheft.eu/authority-files/AT1035HolyMan/main">
+            <catDesc>Holy Man Portrait</catDesc>
+         </category>
+         <category xml:id="AT1041HolyMen" corresp="https://betamasaheft.eu/authority-files/AT1041HolyMen/main">
+            <catDesc>Holy Men Potrait</catDesc>
+         </category>
+         <category xml:id="AT1105HolyWoman" corresp="https://betamasaheft.eu/authority-files/AT1105HolyWoman/main">
+            <catDesc>Holy Woman</catDesc>
+         </category>
+         <category xml:id="AT1106HolyWomen" corresp="https://betamasaheft.eu/authority-files/AT1106HolyWomen/main">
+            <catDesc>Holy Women</catDesc>
+         </category>
+         <category xml:id="AT1017WomenAtTomb" corresp="https://betamasaheft.eu/authority-files/AT1017WomenAtTomb/main">
+            <catDesc>Holy Women at Tomb</catDesc>
+         </category>
+         <category xml:id="AT1018JBefPilate" corresp="https://betamasaheft.eu/authority-files/AT1018JBefPilate/main">
+            <catDesc>Jesus before Pilate</catDesc>
+         </category>
+         <category xml:id="AT1084JesusChrist" corresp="https://betamasaheft.eu/authority-files/AT1084JesusChrist/main">
+            <catDesc>Jesus Christ</catDesc>
+         </category>
+         <category xml:id="AT1070JesushealstheBlind" corresp="https://betamasaheft.eu/authority-files/AT1070JesushealstheBlind/main">
+            <catDesc>Jesus Heals the Blind</catDesc>
+         </category>
+         <category xml:id="AT1048Lamentation" corresp="https://betamasaheft.eu/authority-files/AT1048Lamentation/main">
+            <catDesc>Lamentation of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1057LastJudgement" corresp="https://betamasaheft.eu/authority-files/AT1057LastJudgement/main">
+            <catDesc>Last Judgment</catDesc>
+         </category>
+         <category xml:id="AT1067LastSupper" corresp="https://betamasaheft.eu/authority-files/AT1067LastSupper/main">
+            <catDesc>The Last Supper</catDesc>
+         </category>
+         <category xml:id="AT1019Cana" corresp="https://betamasaheft.eu/authority-files/AT1019Cana/main">
+            <catDesc>Marriage at Cana</catDesc>
+         </category>
+         <category xml:id="AT1061SaintMartyrdom" corresp="https://betamasaheft.eu/authority-files/AT1061SaintMartyrdom/main">
+            <catDesc>Martyrdom</catDesc>
+         </category>
+         <category xml:id="AT1063AngelFeedsMary" corresp="https://betamasaheft.eu/authority-files/AT1063AngelFeedsMary/main">
+            <catDesc>Mary fed by an Angel</catDesc>
+         </category>
+         
+         <category xml:id="AT1020Massacre" corresp="https://betamasaheft.eu/authority-files/AT1020Massacre/main">
+            <catDesc>Massacre of the Innocents</catDesc>
+         </category>
+         <category xml:id="AT1021MiraclesOfJesus" corresp="https://betamasaheft.eu/authority-files/AT1021MiraclesOfJesus/main">
+            <catDesc>Miracles of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1022MiraclesOfMary" corresp="https://betamasaheft.eu/authority-files/AT1022MiraclesOfMary/main">
+            <catDesc>Miracle of Mary: Unidentified miracle</catDesc>
+         </category>
+         <category xml:id="AT1023Mocking" corresp="https://betamasaheft.eu/authority-files/AT1023Mocking/main">
+            <catDesc>Mocking of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1024MosesLaw" corresp="https://betamasaheft.eu/authority-files/AT1024MosesLaw/main">
+            <catDesc>Moses Receiving Law</catDesc>
+         </category>
+         <category xml:id="AT1025NativityJesus" corresp="https://betamasaheft.eu/authority-files/AT1025NativityJesus/main">
+            <catDesc>Nativity of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1026NativityMary" corresp="https://betamasaheft.eu/authority-files/AT1026NativityMary/main">
+            <catDesc>Nativity of Mary</catDesc>
+         </category>
+         <category xml:id="AT1050ApparitionResur" corresp="https://betamasaheft.eu/authority-files/AT1050ApparitionResur/main">
+            <catDesc>Post-Resurrection Appearance of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1043PresentationMary" corresp="https://betamasaheft.eu/authority-files/AT1043PresentationMary/main">
+            <catDesc>Presentation of Mary</catDesc>
+         </category>
+         <category xml:id="AT1027PresentationJesus" corresp="https://betamasaheft.eu/authority-files/AT1027PresentationJesus/main">
+            <catDesc>Presentation of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1044Prophet" corresp="https://betamasaheft.eu/authority-files/AT1044Prophet/main">
+            <catDesc>Prophet Portrait</catDesc>
+         </category>
+         <category xml:id="AT1045Prophets" corresp="https://betamasaheft.eu/authority-files/AT1045Prophets/main">
+            <catDesc>Prophets Portraits</catDesc>
+         </category>
+         <category xml:id="AT1049Resurrection" corresp="https://betamasaheft.eu/authority-files/AT1049Resurrection/main">
+            <catDesc>Resurrection of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1065RoadtoCalvary" corresp="https://betamasaheft.eu/authority-files/AT1065RoadtoCalvary/main">
+            <catDesc>Road to Calvary</catDesc>
+         </category>
+         <category xml:id="AT1092SacrificeIsaac" corresp="https://betamasaheft.eu/authority-files/AT1092SacrificeIsaac/main">
+            <catDesc>The Sacrifice of Isaac</catDesc>
+         </category>
+         <category xml:id="AT1096SavioroftheWorld" corresp="https://betamasaheft.eu/authority-files/AT1096SavioroftheWorld/main">
+            <catDesc>Savior of the World (Jesus seated holding orb)</catDesc>
+         </category>
+         <category xml:id="AT1086StrikingHead" corresp="https://betamasaheft.eu/authority-files/AT1086StrikingHead/main">
+            <catDesc>The Striking of the Head, ኵርዓተ፡ ርእሱ፡</catDesc>
+         </category>
+         <category xml:id="AT1028HebrewsFurnace" corresp="https://betamasaheft.eu/authority-files/AT1028HebrewsFurnace/main">
+            <catDesc>Three Hebrews</catDesc>
+         </category>
+         <category xml:id="AT1093TakingRobeofJesus" corresp="https://betamasaheft.eu/authority-files/AT1093TakingRobeofJesus/main">
+            <catDesc>Taking off the Robe of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1034Tempietto" corresp="https://betamasaheft.eu/authority-files/AT1034Tempietto/main">
+            <catDesc>Tempietto</catDesc>
+         </category>
+         <category xml:id="AT1060TemptationJesus" corresp="https://betamasaheft.eu/authority-files/AT1060TemptationJesus/main">
+            <catDesc>Temptation of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1029Transfiguration" corresp="https://betamasaheft.eu/authority-files/AT1029Transfiguration/main">
+            <catDesc>Transfiguration of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1030Trinity" corresp="https://betamasaheft.eu/authority-files/AT1030Trinity/main">
+            <catDesc>The Trinity</catDesc>
+         </category>
+         <category xml:id="AT1031VirginAndChild" corresp="https://betamasaheft.eu/authority-files/AT1031VirginAndChild/main">
+            <catDesc>Virgin and Child</catDesc>
+         </category>
+         <category xml:id="AT1064Visitation" corresp="https://betamasaheft.eu/authority-files/AT1064Visitation/main">
+            <catDesc>Visitation</catDesc>
+         </category>
+         <category xml:id="AT1032Washing" corresp="https://betamasaheft.eu/authority-files/AT1032Washing/main">
+            <catDesc>Washing of the Feet</catDesc>
+         </category>
+         <category xml:id="AT1059WeighingOfSouls" corresp="https://betamasaheft.eu/authority-files/AT1059WeighingOfSouls/main">
+            <catDesc>Weighing of Souls</catDesc>
+         </category>
+         <category xml:id="AT1107Synaxis" corresp="https://betamasaheft.eu/authority-files/AT1107Synaxis/main">
+            <catDesc>Synaxis of the Twelve Apostles</catDesc>
+         </category>
+         <category xml:id="AT1108MMDaqseyos" corresp="https://betamasaheft.eu/authority-files/AT1108MMDaqseyos/main">
+            <catDesc>Miracle of Mary: Daqsǝyos</catDesc>
+         </category>
+         <category xml:id="AT1109MMWorker" corresp="https://betamasaheft.eu/authority-files/AT1109MMWorker/main">
+            <catDesc>Miracle of Mary: Mary speaks to a worker</catDesc>
+         </category>
+         <category xml:id="AT1110MMJew" corresp="https://betamasaheft.eu/authority-files/AT1110MMJew/main">
+            <catDesc>Miracle of Mary: The Jew of ʾAkmim</catDesc>
+         </category>
+         <category xml:id="AT1111MMDamianus" corresp="https://betamasaheft.eu/authority-files/AT1111MMDamianus/main">
+            <catDesc>Miracle of Mary: Dǝmyanos who wrote Mary's name in golden ink</catDesc>
+         </category>
+         <category xml:id="AT1112MMAbbas" corresp="https://betamasaheft.eu/authority-files/AT1112MMAbbas/main">
+            <catDesc>Miracle of Mary: ʾAbbās, bishop of Rome</catDesc>
+         </category>
+         <category xml:id="AT1113MMYeshaq" corresp="https://betamasaheft.eu/authority-files/AT1113MMYeshaq/main">
+            <catDesc>Miracle of Mary: The monk, Yǝsḥaq, who prayed for seven years that St Mary would appear to him</catDesc>
+         </category>
+         <category xml:id="AT1114MMMaryam" corresp="https://betamasaheft.eu/authority-files/AT1114MMMaryam/main">
+            <catDesc>Miracle of Mary: Māryām of Dafrā</catDesc>
+         </category>
+         <category xml:id="AT1115MMFrenchman" corresp="https://betamasaheft.eu/authority-files/AT1115MMFrenchman/main">
+            <catDesc>Miracle of Mary: The French artist who fell from the scaffolding while painting frescoes</catDesc>
+         </category>
+         <category xml:id="AT1116MMJerusalem" corresp="https://betamasaheft.eu/authority-files/AT1116MMJerusalem/main">
+            <catDesc>Miracle of Mary: Mary carries a sick man to Jerusalem</catDesc>
+         </category>
+         <category xml:id="AT1117MMZakaryas" corresp="https://betamasaheft.eu/authority-files/AT1117MMZakaryas/main">
+            <catDesc>Miracle of Mary: Zakāryās, who used to bring roses to the icon of St Mary</catDesc>
+         </category>
+         <category xml:id="AT1118MMYolyana" corresp="https://betamasaheft.eu/authority-files/AT1118MMYolyana/main">
+            <catDesc>Miracle of Mary: Yolyānā and Barbārā from Bethlehem</catDesc>
+         </category>
+         <category xml:id="AT1119MMArabs" corresp="https://betamasaheft.eu/authority-files/AT1119MMArabs/main">
+            <catDesc>Miracle of Mary: The three Arabs journeying to Rif and Salomon, the abbot of Qalamon</catDesc>
+         </category>
+         <category xml:id="AT1120MMSea" corresp="https://betamasaheft.eu/authority-files/AT1120MMSea/main">
+            <catDesc>Miracle of Mary: The church of ʿƎqonā, which was removed to the edge of the sea</catDesc>
+         </category>
+         <category xml:id="AT1121MMYohannes" corresp="https://betamasaheft.eu/authority-files/AT1121MMYohannes/main">
+            <catDesc>Miracle of Mary: The blind priest, Yoḥannǝs Bakansi</catDesc>
+         </category>
+         <category xml:id="AT1122MMGreek" corresp="https://betamasaheft.eu/authority-files/AT1122MMGreek/main">
+            <catDesc>Miracle of Mary: The rich man from Qʷalāsis who fought the Qʷǝz and whose eye was pierced by an arrow</catDesc>
+         </category>
+         <category xml:id="AT1123MMElsabet" corresp="https://betamasaheft.eu/authority-files/AT1123MMElsabet/main">
+            <catDesc>Miracle of Mary: Elizabeth, the blind daughter of Abraham and Gerā ʾAnǝśt of Badǝrmān</catDesc>
+         </category>
+         <category xml:id="AT1124MMWidow" corresp="https://betamasaheft.eu/authority-files/AT1124MMWidow/main">
+            <catDesc>Miracle of Mary: The widow who could not find husbands for her three daughters</catDesc>
+         </category>
+         <category xml:id="AT1125MMScribes" corresp="https://betamasaheft.eu/authority-files/AT1125MMScribes/main">
+            <catDesc>Miracle of Mary: The two brothers who copied the Miracles of Mary</catDesc>
+         </category>
+         <category xml:id="AT1126MMGiyorgis" corresp="https://betamasaheft.eu/authority-files/AT1126MMGiyorgis/main">
+            <catDesc>Miracle of Mary: Giyorgis Ḥaddis, who was delivered from prison</catDesc>
+         </category>
+         <category xml:id="AT1127MMQatir" corresp="https://betamasaheft.eu/authority-files/AT1127MMQatir/main">
+            <catDesc>Miracle of Mary: Kaṭir, the old priest at ʾƎlkǝsus</catDesc>
+         </category>
+         <category xml:id="AT1128MMDyers" corresp="https://betamasaheft.eu/authority-files/AT1128MMDyers/main">
+            <catDesc>Miracle of Mary: The two brothers Tāg and Nazib from Dalgā who were dyers</catDesc>
+         </category>
+         <category xml:id="AT1129MMFrank" corresp="https://betamasaheft.eu/authority-files/AT1129MMFrank/main">
+            <catDesc>Miracle of Mary: The stone-footed man from France</catDesc>
+         </category>
+         <category xml:id="AT1130MMMarqorewos" corresp="https://betamasaheft.eu/authority-files/AT1130MMMarqorewos/main">
+            <catDesc>Miracle of Mary: Bishop Mercurius, whom the patriarch wanted to remove because of leprosy</catDesc>
+         </category>
+         <category xml:id="AT1131MMWoman" corresp="https://betamasaheft.eu/authority-files/AT1131MMWoman/main">
+            <catDesc>Miracle of Mary: The woman with a broken foot from Hartarom</catDesc>
+         </category>
+         <category xml:id="AT1132MMSophia" corresp="https://betamasaheft.eu/authority-files/AT1132MMSophia/main">
+            <catDesc>Miracle of Mary: Sophia, abbess of Mount Carmel, who became pregnant</catDesc>
+         </category>
+         <category xml:id="AT1133MMBarok" corresp="https://betamasaheft.eu/authority-files/AT1133MMBarok/main">
+            <catDesc>Miracle of Mary: Bārok of Finǝqi whom his enemies could not kill until he had confessed himself to a priest</catDesc>
+         </category>
+         <category xml:id="AT1134MMAnestasyos" corresp="https://betamasaheft.eu/authority-files/AT1134MMAnestasyos/main">
+            <catDesc>Miracle of Mary: The deacon ʾAnǝsṭāsyos who recited the prayer tafaśśǝḥi and was healed by Mary</catDesc>
+         </category>
+         <category xml:id="AT1135MMSalusi" corresp="https://betamasaheft.eu/authority-files/AT1135MMSalusi/main">
+            <catDesc>Miracle of Mary: The monk of Dabra Qalǝmon who did not fast</catDesc>
+         </category>
+         <category xml:id="AT1136MMCannibal" corresp="https://betamasaheft.eu/authority-files/AT1136MMCannibal/main">
+            <catDesc>Miracle of Mary: The cannibal of Qǝmǝr</catDesc>
+         </category>
+         <category xml:id="AT1137MMThief" corresp="https://betamasaheft.eu/authority-files/AT1137MMThief/main">
+            <catDesc>Miracle of Mary: The son of a widow, who became a thief, is saved by Mary</catDesc>
+         </category>
+         <category xml:id="AT1138MMFlood" corresp="https://betamasaheft.eu/authority-files/AT1138MMFlood/main">
+            <catDesc>Miracle of Mary: The pregnant woman who was caught by the tide while going to the church of St Michael</catDesc>
+         </category>
+         <category xml:id="AT1139MMDog" corresp="https://betamasaheft.eu/authority-files/AT1139MMDog/main">
+            <catDesc>Miracle of Mary: Mary gives a thirsty dog water to drink from her shoe</catDesc>
+         </category>         
+         <category xml:id="AT1140AngelGoodThief" corresp="https://betamasaheft.eu/authority-files/AT1140AngelGoodThief/main">
+            <catDesc>The Angel and the Good Thief</catDesc>
+         </category>
+         <category xml:id="AT1141NursingMary" corresp="https://betamasaheft.eu/authority-files/AT1141NursingMary/main">
+            <catDesc>Nursing Mary</catDesc>
+         </category>
+         <category xml:id="AT1142Pentecost" corresp="https://betamasaheft.eu/authority-files/AT1142Pentecost/main">
+            <catDesc>Pentecost</catDesc>
+         </category>
+         <category xml:id="AT1143SecondComingJesus" corresp="https://betamasaheft.eu/authority-files/AT1143SecondComingJesus/main">
+            <catDesc>Second Coming of Jesus</catDesc>
+         </category>
+         <category xml:id="AT1144SealSol" corresp="https://betamasaheft.eu/authority-files/AT1144SealSol/main">
+            <catDesc>Seal of Solomon</catDesc>
+         </category>
+         <category xml:id="AT1145MMGarment" corresp="https://betamasaheft.eu/authority-files/AT1145MMGarment/main">
+            <catDesc>Miracle of Mary: Miracle of the poor monk to whom Mary gave a garment</catDesc>
+         </category>
+         <category xml:id="AT1146JoachimAnnaGrieving" corresp="https://betamasaheft.eu/authority-files/AT1145MMGarment/main">
+            <catDesc>Joachim and Anne grieving for not having a child</catDesc>
+         </category>
+         <category xml:id="AT1147BeheadingJohn" corresp="https://betamasaheft.eu/authority-files/AT1147BeheadingJohn/main">
+            <catDesc>Beheading of John the Baptist</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Place types</desc>
+         <category xml:id="tabiya" corresp="https://betamasaheft.eu/authority-files/tabiya/main">
+            <catDesc>ṭābiyā</catDesc>
+         </category>
+         <category xml:id="dabr" corresp="https://betamasaheft.eu/authority-files/dabr/main">
+            <catDesc>dabr</catDesc>
+         </category>
+         <category xml:id="gadam" corresp="https://betamasaheft.eu/authority-files/gadam/main">
+            <catDesc>gadām</catDesc>
+         </category>
+         <category xml:id="gatar" corresp="https://betamasaheft.eu/authority-files/gatar/main">
+            <catDesc>gaṭar</catDesc>
+         </category>
+         <category xml:id="warada" corresp="https://betamasaheft.eu/authority-files/warada/main">
+            <catDesc>waradā</catDesc>
+         </category>
+         <category xml:id="settlement" corresp="https://betamasaheft.eu/authority-files/settlement/main">
+            <catDesc>settlement</catDesc>
+         </category>
+         <category xml:id="archaeologicalSite" corresp="https://betamasaheft.eu/authority-files/archaeologicalSite/main">
+            <catDesc>archaeological site</catDesc>
+         </category>
+         <category xml:id="shrine" corresp="https://betamasaheft.eu/authority-files/shrine/main">
+            <catDesc>shrine</catDesc>
+         </category>
+         <category xml:id="town" corresp="https://betamasaheft.eu/authority-files/town/main">
+            <catDesc>town</catDesc>
+         </category>
+         <category xml:id="region" corresp="https://betamasaheft.eu/authority-files/region/main">
+            <catDesc>region</catDesc>
+         </category>
+         <category xml:id="RegionalState" corresp="https://betamasaheft.eu/authority-files/RegionalState/main">
+            <catDesc>regional state</catDesc>
+         </category>
+         <category xml:id="monastery" corresp="https://betamasaheft.eu/authority-files/monastery/main">
+            <catDesc>monastery</catDesc>
+         </category>
+         <category xml:id="church" corresp="https://betamasaheft.eu/authority-files/church/main">
+            <catDesc>church</catDesc>
+         </category>
+         <category xml:id="lake" corresp="https://betamasaheft.eu/authority-files/lake/main">
+            <catDesc>lake</catDesc>
+         </category>
+         <category xml:id="area" corresp="https://betamasaheft.eu/authority-files/area/main">
+            <catDesc>area</catDesc>
+         </category>
+         <category xml:id="river" corresp="https://betamasaheft.eu/authority-files/river/main">
+            <catDesc>river</catDesc>
+         </category>
+         <category xml:id="mountain" corresp="https://betamasaheft.eu/authority-files/mountain/main">
+            <catDesc>mountain</catDesc>
+         </category>
+         <category xml:id="mosque" corresp="https://betamasaheft.eu/authority-files/mosque/main">
+            <catDesc>mosque</catDesc>
+         </category>
+         <category xml:id="district" corresp="https://betamasaheft.eu/authority-files/district/main">
+            <catDesc>district</catDesc>
+         </category>
+         <category xml:id="valley" corresp="https://betamasaheft.eu/authority-files/valley/main">
+            <catDesc>valley</catDesc>
+         </category>
+         <category xml:id="state" corresp="https://betamasaheft.eu/authority-files/state/main">
+            <catDesc>state</catDesc>
+         </category>
+         <category xml:id="port" corresp="https://betamasaheft.eu/authority-files/port/main">
+            <catDesc>port</catDesc>
+         </category>
+         <category xml:id="religiousSite" corresp="https://betamasaheft.eu/authority-files/religiousSite/main">
+            <catDesc>religious Site</catDesc>
+         </category>
+         <category xml:id="zone" corresp="https://betamasaheft.eu/authority-files/zone/main">
+            <catDesc>zone</catDesc>
+         </category>
+         <category xml:id="country" corresp="https://betamasaheft.eu/authority-files/country/main">
+            <catDesc>country</catDesc>
+         </category>
+         <category xml:id="qushat" corresp="https://betamasaheft.eu/authority-files/qushat/main">
+            <catDesc>qušat</catDesc>
+         </category>
+         <category xml:id="pass" corresp="https://betamasaheft.eu/authority-files/pass/main">
+            <catDesc>pass</catDesc>
+         </category>
+         <category xml:id="island" corresp="https://betamasaheft.eu/authority-files/island/main">
+            <catDesc>island</catDesc>
+         </category>
+         <category xml:id="cataract" corresp="https://betamasaheft.eu/authority-files/cataract/main">
+            <catDesc>cataract</catDesc>
+         </category>
+         <category xml:id="kingdom" corresp="https://betamasaheft.eu/authority-files/kingdom/main">
+            <catDesc>kingdom</catDesc>
+         </category>
+         <category xml:id="spring" corresp="https://betamasaheft.eu/authority-files/spring/main">
+            <catDesc>spring</catDesc>
+         </category>
+         <category xml:id="plateau" corresp="https://betamasaheft.eu/authority-files/plateau/main">
+            <catDesc>plateau</catDesc>
+         </category>
+         <category xml:id="forest" corresp="https://betamasaheft.eu/authority-files/forest/main">
+            <catDesc>forest</catDesc>
+         </category>
+         <category xml:id="administrativeUnit" corresp="https://betamasaheft.eu/authority-files/administrativeUnit/main">
+            <catDesc>administrative unit</catDesc>
+         </category>
+         <category xml:id="emirate" corresp="https://betamasaheft.eu/authority-files/emirate/main">
+            <catDesc>emirate</catDesc>
+         </category>
+         <category xml:id="plain" corresp="https://betamasaheft.eu/authority-files/plain/main">
+            <catDesc>plain</catDesc>
+         </category>
+         <category xml:id="rockSite" corresp="https://betamasaheft.eu/authority-files/rockSite/main">
+            <catDesc>rock site</catDesc>
+         </category>
+         <category xml:id="volcano" corresp="https://betamasaheft.eu/authority-files/volcano/main">
+            <catDesc>volcano</catDesc>
+         </category>
+         <category xml:id="city" corresp="https://betamasaheft.eu/authority-files/city/main">
+            <catDesc>city</catDesc>
+         </category>
+         <category xml:id="falls" corresp="https://betamasaheft.eu/authority-files/falls/main">
+            <catDesc>falls</catDesc>
+         </category>
+         <category xml:id="amba" corresp="https://betamasaheft.eu/authority-files/amba/main">
+            <catDesc>ʾambā</catDesc>
+         </category>
+         <category xml:id="sultanate" corresp="https://betamasaheft.eu/authority-files/sultanate/main">
+            <catDesc>sultanate</catDesc>
+         </category>
+         <category xml:id="sea" corresp="https://betamasaheft.eu/authority-files/sea/main">
+            <catDesc>sea</catDesc>
+         </category>
+         <category xml:id="cape" corresp="https://betamasaheft.eu/authority-files/cape/main">
+            <catDesc>cape</catDesc>
+         </category>
+         <category xml:id="chapel" corresp="https://betamasaheft.eu/authority-files/chapel/main">
+            <catDesc>chapel</catDesc>
+         </category>
+         <category xml:id="zoba" corresp="https://betamasaheft.eu/authority-files/zoba/main">
+            <catDesc>zobā</catDesc>
+         </category>
+         <category xml:id="neuszoba" corresp="https://betamasaheft.eu/authority-files/neuszoba/main">
+            <catDesc>nǝʾus zobā</catDesc>
+         </category>
+         <category xml:id="wadi" corresp="https://betamasaheft.eu/authority-files/wadi/main">
+            <catDesc>wādī</catDesc>
+         </category>
+         <category xml:id="dam" corresp="https://betamasaheft.eu/authority-files/dam/main">
+            <catDesc>dam</catDesc>
+         </category>
+         <category xml:id="quarter" corresp="https://betamasaheft.eu/authority-files/quarter/main">
+            <catDesc>quarter</catDesc>
+         </category>
+         <category xml:id="well" corresp="https://betamasaheft.eu/authority-files/well/main">
+            <catDesc>well</catDesc>
+         </category>
+         <category xml:id="awragga" corresp="https://betamasaheft.eu/authority-files/awragga/main">
+            <catDesc>ʾawrāǧǧā</catDesc>
+         </category>
+         <category xml:id="site" corresp="https://betamasaheft.eu/authority-files/site/main">
+            <catDesc>site</catDesc>
+         </category>
+         <category xml:id="katama" corresp="https://betamasaheft.eu/authority-files/katama/main">
+            <catDesc>katamā</catDesc>
+         </category>
+         <category xml:id="oasis" corresp="https://betamasaheft.eu/authority-files/oasis/main">
+            <catDesc>oasis</catDesc>
+         </category>
+         <category xml:id="gorge" corresp="https://betamasaheft.eu/authority-files/gorge/main">
+            <catDesc>gorge</catDesc>
+         </category>
+         <category xml:id="strait" corresp="https://betamasaheft.eu/authority-files/strait/main">
+            <catDesc>strait</catDesc>
+         </category>
+         <category xml:id="station" corresp="https://betamasaheft.eu/authority-files/station/main">
+            <catDesc>station</catDesc>
+         </category>
+         <category xml:id="post" corresp="https://betamasaheft.eu/authority-files/post/main">
+            <catDesc>post</catDesc>
+         </category>
+         <category xml:id="market" corresp="https://betamasaheft.eu/authority-files/market/main">
+            <catDesc>market</catDesc>
+         </category>
+         <category xml:id="temple" corresp="https://betamasaheft.eu/authority-files/temple/main">
+            <catDesc>temple</catDesc>
+         </category>
+         <category xml:id="planet" corresp="https://betamasaheft.eu/authority-files/planet/main">
+            <catDesc>planet</catDesc>
+         </category>
+         <category xml:id="fort" corresp="https://betamasaheft.eu/authority-files/fort/main">
+            <catDesc>fort</catDesc>
+         </category>
+         <category xml:id="farm" corresp="https://betamasaheft.eu/authority-files/farm/main">
+            <catDesc>farm</catDesc>
+         </category>
+         <category xml:id="desert" corresp="https://betamasaheft.eu/authority-files/desert/main">
+            <catDesc>desert</catDesc>
+         </category>
+         <category xml:id="cave" corresp="https://betamasaheft.eu/authority-files/cave/main">
+            <catDesc>cave</catDesc>
+         </category>
+         <category xml:id="gulf" corresp="https://betamasaheft.eu/authority-files/gulf/main">
+            <catDesc>gulf</catDesc>
+         </category>
+         <category xml:id="qabale" corresp="https://betamasaheft.eu/authority-files/qabale/main">
+            <catDesc>qabale</catDesc>
+         </category>
+         <category xml:id="peninsula" corresp="https://betamasaheft.eu/authority-files/peninsula/main">
+            <catDesc>peninsula</catDesc>
+         </category>
+         <category xml:id="castle" corresp="https://betamasaheft.eu/authority-files/castle/main">
+            <catDesc>castle</catDesc>
+         </category>
+         <category xml:id="bay" corresp="https://betamasaheft.eu/authority-files/bay/main">
+            <catDesc>bay</catDesc>
+         </category>
+         <category xml:id="academicInstitution" corresp="https://betamasaheft.eu/authority-files/academicInstitution/main">
+            <catDesc>academic institution</catDesc>
+         </category>
+         <category xml:id="library" corresp="https://betamasaheft.eu/authority-files/library/main">
+            <catDesc>library</catDesc>
+         </category>
+         <category xml:id="museum" corresp="https://betamasaheft.eu/authority-files/museum/main">
+            <catDesc>museum</catDesc>
+         </category>
+         <category xml:id="province" corresp="https://betamasaheft.eu/authority-files/province/main">
+            <catDesc>province</catDesc>
+         </category>
+         <category xml:id="depression" corresp="https://betamasaheft.eu/authority-files/depression/main">
+            <catDesc>depression</catDesc>
+         </category>
+         <category xml:id="privateHouse" corresp="https://betamasaheft.eu/authority-files/privateHouse/main">
+            <catDesc>Private House</catDesc>
+         </category>
+         <category xml:id="ford" corresp="https://betamasaheft.eu/authority-files/ford/main">
+            <catDesc>ford</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Confessions</desc>
+         <category xml:id="Christianity" corresp="https://betamasaheft.eu/authority-files/Christianity/main">
+            <catDesc>Christianity</catDesc>
+            <category xml:id="Catholicism" corresp="https://betamasaheft.eu/authority-files/Catholicism/main">
+               <catDesc>Catholicism</catDesc>
+            </category>
+            <category xml:id="Protestantism" corresp="https://betamasaheft.eu/authority-files/Protestantism/main">
+               <catDesc>Protestantism</catDesc>
+            </category>
+            <category xml:id="Anglican" corresp="https://betamasaheft.eu/authority-files/Anglican/main">
+               <catDesc>Anglican</catDesc>
+            </category>
+            <category xml:id="Orthodox" corresp="https://betamasaheft.eu/authority-files/Orthodox/main">
+               <catDesc>Orthodox</catDesc>
+               <category xml:id="EOTC" corresp="https://betamasaheft.eu/authority-files/EOTC/main">
+                  <catDesc>EOTC</catDesc>
+               </category>
+               <category xml:id="Coptic" corresp="https://betamasaheft.eu/authority-files/Coptic/main">
+                  <catDesc>Coptic</catDesc>
+               </category>
+               <category xml:id="Syriac" corresp="https://betamasaheft.eu/authority-files/Syriac/main">
+                  <catDesc>Syriac</catDesc>
+               </category>
+               <category xml:id="Greek" corresp="https://betamasaheft.eu/authority-files/Greek/main">
+                  <catDesc>Greek</catDesc>
+               </category>
+               <category xml:id="Russian" corresp="https://betamasaheft.eu/authority-files/Russian/main">
+                  <catDesc>Russian</catDesc>
+               </category>
+               <category xml:id="Armenian" corresp="https://betamasaheft.eu/authority-files/Armenian/main">
+                  <catDesc>Armenian</catDesc>
+               </category>
+            </category>
+         </category>
+         <category xml:id="Islam" corresp="https://betamasaheft.eu/authority-files/Islam/main">
+            <catDesc>Islam</catDesc>
+            <category xml:id="Sunni" corresp="https://betamasaheft.eu/authority-files/Sunni/main">
+               <catDesc>Sunni</catDesc>
+            </category>
+            <category xml:id="Shia" corresp="https://betamasaheft.eu/authority-files/Shia/main">
+               <catDesc>Shia</catDesc>
+            </category>
+         </category>
+         <category xml:id="Judaism" corresp="https://betamasaheft.eu/authority-files/Judaism/main">
+            <catDesc>Judaism</catDesc>
+         </category>
+         <category xml:id="Traditional" corresp="https://betamasaheft.eu/authority-files/Traditional/main">
+            <catDesc>Traditional</catDesc>
+         </category>
+         <category xml:id="Aksumite" corresp="https://betamasaheft.eu/authority-files/Aksumite/main">
+            <catDesc>Aksumite</catDesc>
+         </category>
+         <category xml:id="Oromo" corresp="https://betamasaheft.eu/authority-files/Oromo/main">
+            <catDesc>Oromo</catDesc>
+         </category>
+         <category xml:id="Gurage" corresp="https://betamasaheft.eu/authority-files/Gurage/main">
+            <catDesc>Gurage</catDesc>
+         </category>
+         <category xml:id="notSpecified" corresp="https://betamasaheft.eu/authority-files/notSpecified/main">
+            <catDesc>not Specified</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Subjects</desc>
+         <category xml:id="AmharicLiterature" corresp="https://betamasaheft.eu/authority-files/AmharicLiterature/main">
+            <catDesc>Amharic Literature</catDesc>
+         </category>
+         <!--mycore-->
+         <category xml:id="Apocrypha" corresp="https://betamasaheft.eu/authority-files/Apocrypha/main">
+            <catDesc>Apocrypha</catDesc>
+         </category>
+         <category xml:id="Miracle" corresp="https://betamasaheft.eu/authority-files/Miracle/main">
+            <catDesc>Miracle</catDesc>
+         </category>
+         <category xml:id="NewTestament" corresp="https://betamasaheft.eu/authority-files/NewTestament/main">
+            <catDesc>New Testament</catDesc>
+         </category>
+         <category xml:id="OldTestament" corresp="https://betamasaheft.eu/authority-files/OldTestament/main">
+            <catDesc>Old Testament</catDesc>
+         </category>
+         <category xml:id="BetaEsraelLiterature" corresp="https://betamasaheft.eu/authority-files/BetaEsraelLiterature/main">
+            <catDesc>Beta Esrael Literature</catDesc>
+         </category>
+         <category xml:id="Bible" corresp="https://betamasaheft.eu/authority-files/Bible/main">
+            <catDesc>Bible</catDesc>
+         </category>
+         <category xml:id="Biography" corresp="https://betamasaheft.eu/authority-files/Biography/main">
+            <catDesc>Biography</catDesc>
+         </category>
+         <category xml:id="CanonLaw" corresp="https://betamasaheft.eu/authority-files/CanonLaw/main">
+            <catDesc>Canon Law</catDesc>
+         </category>
+         <category xml:id="Commentary" corresp="https://betamasaheft.eu/authority-files/Commentary/main">
+            <catDesc>Commentary</catDesc>
+         </category>
+         <category xml:id="ChristianLiterature" corresp="https://betamasaheft.eu/authority-files/ChristianLiterature/main">
+            <catDesc>Christian Literature</catDesc>
+         </category>
+         <category xml:id="Chronography" corresp="https://betamasaheft.eu/authority-files/Chronography/main">
+            <catDesc>Chronography</catDesc>
+         </category>
+         <category xml:id="Fiction" corresp="https://betamasaheft.eu/authority-files/Fiction/main">
+            <catDesc>Fiction</catDesc>
+         </category>
+         <category xml:id="Hagiography" corresp="https://betamasaheft.eu/authority-files/Hagiography/main">
+            <catDesc>Hagiography</catDesc>
+         </category>
+         <category xml:id="HistoryAndHistoriography" corresp="https://betamasaheft.eu/authority-files/HistoryAndHistoriography/main">
+            <catDesc>History and Historiography</catDesc>
+         </category>
+         <category xml:id="Chronicles" corresp="https://betamasaheft.eu/authority-files/Chronicles/main">
+            <catDesc>Chronicles</catDesc>
+         </category>
+         <category xml:id="generalRecord" corresp="https://betamasaheft.eu/authority-files/generalRecord/main">
+            <catDesc>General Record</catDesc>
+         </category>
+         <category xml:id="Homily" corresp="https://betamasaheft.eu/authority-files/Homily/main">
+            <catDesc>Homily</catDesc>
+         </category>
+         <category xml:id="IslamicLiterature" corresp="https://betamasaheft.eu/authority-files/IslamicLiterature/main">
+            <catDesc>Islamic Literature</catDesc>
+         </category>
+         <category xml:id="Koran" corresp="https://betamasaheft.eu/authority-files/Koran/main">
+            <catDesc>Koran</catDesc>
+         </category>
+         <category xml:id="LegalDocument" corresp="https://betamasaheft.eu/authority-files/LegalDocument/main">
+            <catDesc>Legal Document</catDesc>
+         </category>
+         <category xml:id="Liturgy" corresp="https://betamasaheft.eu/authority-files/Liturgy/main">
+            <catDesc>Liturgy</catDesc>
+         </category>
+         <category xml:id="Chants" corresp="https://betamasaheft.eu/authority-files/Chants/main">
+            <catDesc>Chants</catDesc>
+         </category>
+         <category xml:id="Lectionary" corresp="https://betamasaheft.eu/authority-files/Lectionary/main">
+            <catDesc>Lectionary</catDesc>
+         </category>
+         <category xml:id="Missal" corresp="https://betamasaheft.eu/authority-files/Missal/main">
+            <catDesc>Missal</catDesc>
+         </category>
+         <category xml:id="Rituals" corresp="https://betamasaheft.eu/authority-files/Rituals/main">
+            <catDesc>Rituals</catDesc>
+         </category>
+         <category xml:id="RitualsAndRites" corresp="https://betamasaheft.eu/authority-files/RitualsAndRites/main">
+            <catDesc>Rituals and Rites</catDesc>
+         </category>
+         <category xml:id="Study" corresp="https://betamasaheft.eu/authority-files/Study/main">
+            <catDesc>Study</catDesc>
+         </category>
+         <category xml:id="TigrinyaLiterature" corresp="https://betamasaheft.eu/authority-files/TigrinyaLiterature/main">
+            <catDesc>Tigrinya Literature</catDesc>
+         </category>
+         <category xml:id="Translation" corresp="https://betamasaheft.eu/authority-files/Translation/main">
+            <catDesc>Translation</catDesc>
+         </category>
+         <category xml:id="Vocabulary" corresp="https://betamasaheft.eu/authority-files/Vocabulary/main">
+            <catDesc>Vocabulary</catDesc>
+         </category>
+         <category xml:id="Magic" corresp="https://betamasaheft.eu/authority-files/Magic/main">
+            <catDesc>Magic</catDesc>
+         </category>
+         <category xml:id="Medicine" corresp="https://betamasaheft.eu/authority-files/Medicine/main">
+            <catDesc>Medicine</catDesc>
+         </category>
+         <category xml:id="Miscellanea" corresp="https://betamasaheft.eu/authority-files/Miscellanea/main">
+            <catDesc>Miscellanea</catDesc>
+         </category>
+         <category xml:id="MonasticLiterature" corresp="https://betamasaheft.eu/authority-files/MonasticLiterature/main">
+            <catDesc>Monastic Literature</catDesc>
+         </category>
+         <category xml:id="NaturalSciences" corresp="https://betamasaheft.eu/authority-files/NaturalSciences/main">
+            <catDesc>Natural Sciences</catDesc>
+         </category>
+         <category xml:id="Philosophy" corresp="https://betamasaheft.eu/authority-files/Philosophy/main">
+            <catDesc>Philosophy</catDesc>
+         </category>
+         <category xml:id="Poetry" corresp="https://betamasaheft.eu/authority-files/Poetry/main">
+            <catDesc>Poetry</catDesc>
+         </category>
+         <category xml:id="Prayers" corresp="https://betamasaheft.eu/authority-files/Prayers/main">
+            <catDesc>Prayers</catDesc>
+         </category>
+         <category xml:id="Qene" corresp="https://betamasaheft.eu/authority-files/Qene/main">
+            <catDesc>Qǝne</catDesc>
+         </category>
+         <category xml:id="Religion" corresp="https://betamasaheft.eu/authority-files/Religion/main">
+            <catDesc>Religion</catDesc>
+         </category>
+         <category xml:id="Theology" corresp="https://betamasaheft.eu/authority-files/Theology/main">
+            <catDesc>Theology</catDesc>
+         </category>
+         <category xml:id="ChristianContent" corresp="https://betamasaheft.eu/authority-files/ChristianContent/main">
+            <catDesc>Christian Content</catDesc>
+         </category>
+         <category xml:id="ApocalypticLiterature" corresp="https://betamasaheft.eu/authority-files/ApocalypticLiterature/main">
+            <catDesc>Apocalyptic Literature</catDesc>
+         </category>
+         <category xml:id="DidacticMaterial" corresp="https://betamasaheft.eu/authority-files/DidacticMaterial/main">
+            <catDesc>Didactic Material</catDesc>
+         </category>
+      </category>
+       <category>
+          <desc>IslHornAfr</desc>
+          <category xml:id="prose" corresp="https://betamasaheft.eu/authority-files/prose/main">
+             <catDesc>prose in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Jurisprudence" corresp="https://betamasaheft.eu/authority-files/Jurisprudence/main">
+             <catDesc>Jurisprudence in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Devotional" corresp="https://betamasaheft.eu/authority-files/Devotional/main">
+             <catDesc>Devotional in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Linguistics" corresp="https://betamasaheft.eu/authority-files/Linguistics/main">
+             <catDesc>Linguistics in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Ethics" corresp="https://betamasaheft.eu/authority-files/Ethics/main">
+             <catDesc>Ethics in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Belief" corresp="https://betamasaheft.eu/authority-files/Belief/main">
+             <catDesc>Belief in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Adab" corresp="https://betamasaheft.eu/authority-files/Adab/main">
+             <catDesc>Adab in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Documentary" corresp="https://betamasaheft.eu/authority-files/Documentary/main">
+             <catDesc>Documentary in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Fadail" corresp="https://betamasaheft.eu/authority-files/Fadail/main">
+             <catDesc>Fadail in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Fawaid_Masail" corresp="https://betamasaheft.eu/authority-files/Fawaid_Masail/main">
+             <catDesc>Fawaid_Masail in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Geography" corresp="https://betamasaheft.eu/authority-files/Geography/main">
+             <catDesc>Geography in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Hadit" corresp="https://betamasaheft.eu/authority-files/Hadit/main">
+             <catDesc>Hadit in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="History" corresp="https://betamasaheft.eu/authority-files/Hadit/main">
+             <catDesc>History in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Natural_Sciences" corresp="https://betamasaheft.eu/authority-files/Natural_Sciences/main">
+             <catDesc>Natural_Sciences in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Preaching" corresp="https://betamasaheft.eu/authority-files/Preaching/main">
+             <catDesc>Preaching in IslHornAfr</catDesc>
+          </category>
+          <category xml:id="Quran" corresp="https://betamasaheft.eu/authority-files/Quran/main">
+             <catDesc>Quran in IslHornAfr</catDesc>
+          </category>
+       </category>
+      <category>
+         <desc>rubrication</desc>
+         <category xml:id="beginnings" corresp="https://betamasaheft.eu/authority-files/beginnings/main">
+            <catDesc>Beginnings</catDesc>
+         </category>
+         <category xml:id="titles" corresp="https://betamasaheft.eu/authority-files/titles/main">
+            <catDesc>Titles</catDesc>
+         </category>
+         <category xml:id="runningTitles" corresp="https://betamasaheft.eu/authority-files/runningTitles/main">
+            <catDesc>Running Titles</catDesc>
+         </category>
+         <category xml:id="abbreviations" corresp="https://betamasaheft.eu/authority-files/abbreviations/main">
+            <catDesc>Abbreviations</catDesc>
+         </category>
+         <category xml:id="divineNames" corresp="https://betamasaheft.eu/authority-files/divineNames/main">
+            <catDesc>Divine Names</catDesc>
+         </category>
+         <category xml:id="donorsNames" corresp="https://betamasaheft.eu/authority-files/donorsNames/main">
+            <catDesc>Donors Names</catDesc>
+         </category>
+         <category xml:id="nameOfProtagonist" corresp="https://betamasaheft.eu/authority-files/nameOfProtagonist/main">
+            <catDesc>Name of the Protagonist</catDesc>
+         </category>
+         <category xml:id="elementsOfPunctuation" corresp="https://betamasaheft.eu/authority-files/elementsOfPunctuation/main">
+            <catDesc>Elements of Punctuation</catDesc>
+         </category>
+         <category xml:id="elementsOfDigits" corresp="https://betamasaheft.eu/authority-files/elementsOfDigits/main">
+            <catDesc>Elements of Digits</catDesc>
+         </category>
+         <category xml:id="otherNames" corresp="https://betamasaheft.eu/authority-files/otherNames/main">
+            <catDesc>Other Names</catDesc>
+         </category>
+         <category xml:id="otherWords" corresp="https://betamasaheft.eu/authority-files/otherWords/main">
+            <catDesc>Other Words</catDesc>
+         </category>
+      </category>
+      <category>
+         <desc>Feasts</desc>
+         <category xml:id="Christian" corresp="https://betamasaheft.eu/authority-files/Christian/main">
+            <catDesc>Christian</catDesc>
+            <category xml:id="AbrehawaAsbeha" corresp="https://betamasaheft.eu/authority-files/AbrehawaAsbeha/main">
+               <catDesc>ʾAbrǝhā wa-ʾAṣbǝḥā</catDesc>
+            </category>
+            <category xml:id="Advent" corresp="https://betamasaheft.eu/authority-files/Advent/main">
+               <catDesc>Advent</catDesc>
+            </category>
+            <category xml:id="Amanuel" corresp="https://betamasaheft.eu/authority-files/Amanuel/main">
+               <catDesc>ʾAmānuʾel</catDesc>
+            </category>
+            <category xml:id="Astamhero" corresp="https://betamasaheft.eu/authority-files/Astamhero/main">
+               <catDesc>ʾAstamḥǝro</catDesc>
+            </category>
+            <category xml:id="Astareeyo" corresp="https://betamasaheft.eu/authority-files/Astareeyo/main">
+               <catDesc>ʾAstarǝʾǝyo</catDesc>
+            </category>
+            <category xml:id="Astasreyo" corresp="https://betamasaheft.eu/authority-files/Astasreyo/main">
+               <catDesc>ʾAstasrǝyo</catDesc>
+            </category>
+            <category xml:id="Aynakwellu" corresp="https://betamasaheft.eu/authority-files/Aynakwellu/main">
+               <catDesc>ʿAyna kʷǝllu</catDesc>
+            </category>
+            <category xml:id="BaalaEgzi" corresp="https://betamasaheft.eu/authority-files/BaalaEgzi/main">
+               <catDesc>Baʿāla ʾƎgziʾ</catDesc>
+            </category>
+            <category xml:id="BaalaNegestu" corresp="https://betamasaheft.eu/authority-files/BaalaNegestu/main">
+               <catDesc>Baʿāla Nǝgǝśtu </catDesc>
+            </category>
+            <category xml:id="Baata" corresp="https://betamasaheft.eu/authority-files/Baata/main">
+               <catDesc>Baʿātā</catDesc>
+            </category>
+            <category xml:id="BaataGebs" corresp="https://betamasaheft.eu/authority-files/BaataGebs/main">
+               <catDesc>Baʿātā Gǝbṣ</catDesc>
+            </category>
+            <category xml:id="Baptism" corresp="https://betamasaheft.eu/authority-files/Baptism/main">
+               <catDesc>Baptism</catDesc>
+            </category>
+            <category xml:id="Barakaegziena" corresp="https://betamasaheft.eu/authority-files/Barakaegziena/main">
+               <catDesc>Bāraka ʾǝgziʾǝna</catDesc>
+            </category>
+            <category xml:id="Berhansaraqa" corresp="https://betamasaheft.eu/authority-files/Berhansaraqa/main">
+               <catDesc>Bǝrhān śaraqa</catDesc>
+            </category>
+            <category xml:id="BezuhanMaryam" corresp="https://betamasaheft.eu/authority-files/BezuhanMaryam/main">
+               <catDesc>Bǝzuḫān Māryām</catDesc>
+            </category>
+            <category xml:id="Berhan" corresp="https://betamasaheft.eu/authority-files/Berhan/main">
+               <catDesc>Bǝrhān</catDesc>
+            </category>
+            <category xml:id="CanaofGalilee" corresp="https://betamasaheft.eu/authority-files/CanaofGalilee/main">
+               <catDesc>Cana of Galilee</catDesc>
+            </category>
+            <category xml:id="ChristmasLedat" corresp="https://betamasaheft.eu/authority-files/ChristmasLedat/main">
+               <catDesc>Christmas Lǝdat</catDesc>
+            </category>
+            <category xml:id="CrucifixionSeqlat" corresp="https://betamasaheft.eu/authority-files/CrucifixionSeqlat/main">
+               <catDesc>Crucifixion Sǝqlat</catDesc>
+            </category>
+            <category xml:id="DabraMetmaq" corresp="https://betamasaheft.eu/authority-files/DabraMetmaq/main">
+               <catDesc>Dabra Mǝṭmāq</catDesc>
+            </category>
+            <category xml:id="DabraQwesqwam" corresp="https://betamasaheft.eu/authority-files/DabraQwesqwam/main">
+               <catDesc>Dabra Qʷǝsqʷām</catDesc>
+            </category>
+            <category xml:id="DabraSeyon" corresp="https://betamasaheft.eu/authority-files/DabraSeyon/main">
+               <catDesc>Dabra Ṣǝyon</catDesc>
+            </category>
+            <category xml:id="DabraTabor" corresp="https://betamasaheft.eu/authority-files/DabraTabor/main">
+               <catDesc>Dabra Tābor</catDesc>
+            </category>
+            <category xml:id="DabraZayt" corresp="https://betamasaheft.eu/authority-files/DabraZayt/main">
+               <catDesc>Dabra Zayt</catDesc>
+            </category>
+            <category xml:id="Daqseyos" corresp="https://betamasaheft.eu/authority-files/Daqseyos/main">
+               <catDesc>Daqsǝyos</catDesc>
+            </category>
+            <category xml:id="Easter" corresp="https://betamasaheft.eu/authority-files/Easter/main">
+               <catDesc>Easter</catDesc>
+            </category>
+            <category xml:id="Erafta" corresp="https://betamasaheft.eu/authority-files/Erafta/main">
+               <catDesc>ʿƎraftā</catDesc>
+            </category>
+            <category xml:id="Ergata" corresp="https://betamasaheft.eu/authority-files/Ergata/main">
+               <catDesc>ʿƎrgatā</catDesc>
+            </category>
+            <category xml:id="Felsata" corresp="https://betamasaheft.eu/authority-files/Felsata/main">
+               <catDesc>Fǝlsatā</catDesc>
+            </category>
+            <category xml:id="FlightintoEgypt" corresp="https://betamasaheft.eu/authority-files/FlightintoEgypt/main">
+               <catDesc>Flight into Egypt</catDesc>
+            </category>
+            <category xml:id="Ganna" corresp="https://betamasaheft.eu/authority-files/Ganna/main">
+               <catDesc>Gannā</catDesc>
+            </category>
+            <category xml:id="Gezrat" corresp="https://betamasaheft.eu/authority-files/Gezrat/main">
+               <catDesc>Gǝzrat</catDesc>
+            </category>
+            <category xml:id="Gubaeqana" corresp="https://betamasaheft.eu/authority-files/Gubaeqana/main">
+               <catDesc>Gubāʾe qānā</catDesc>
+            </category>
+            <category xml:id="Hanna" corresp="https://betamasaheft.eu/authority-files/Hanna/main">
+               <catDesc>Ḥānnā</catDesc>
+            </category>
+            <category xml:id="Lebbamedr" corresp="https://betamasaheft.eu/authority-files/Lebbamedr/main">
+               <catDesc>Lǝbba mǝdr</catDesc>
+            </category>
+            <category xml:id="Mabraq" corresp="https://betamasaheft.eu/authority-files/Mabraq/main">
+               <catDesc>Mabraq</catDesc>
+            </category>
+            <category xml:id="MadhaneAlam" corresp="https://betamasaheft.eu/authority-files/MadhaneAlam/main">
+               <catDesc>Madḫāne ʿĀlam</catDesc>
+            </category>
+            <category xml:id="Maedot" corresp="https://betamasaheft.eu/authority-files/Maedot/main">
+               <catDesc>Māʿǝdot</catDesc>
+            </category>
+            <category xml:id="Maerar" corresp="https://betamasaheft.eu/authority-files/Maerar/main">
+               <catDesc>Māʾǝrār</catDesc>
+            </category>
+            <category xml:id="MaryamSeyon" corresp="https://betamasaheft.eu/authority-files/MaryamSeyon/main">
+               <catDesc>Māryām Ṣǝyon</catDesc>
+            </category>
+            <category xml:id="Masqal" corresp="https://betamasaheft.eu/authority-files/Masqal/main">
+               <catDesc>Masqal</catDesc>
+            </category>
+            <category xml:id="NativityofMary" corresp="https://betamasaheft.eu/authority-files/NativityofMary/main">
+               <catDesc>Nativity of Mary</catDesc>
+            </category>
+            <category xml:id="CNewYear" corresp="https://betamasaheft.eu/authority-files/CNewYear/main">
+               <catDesc> New Year</catDesc>
+            </category>
+            <category xml:id="Nineveh" corresp="https://betamasaheft.eu/authority-files/Nineveh/main">
+               <catDesc>Nineveh</catDesc>
+            </category>
+            <category xml:id="PalmSunday" corresp="https://betamasaheft.eu/authority-files/PalmSunday/main">
+               <catDesc>Palm Sunday</catDesc>
+            </category>
+            <category xml:id="Pentecost" corresp="https://betamasaheft.eu/authority-files/Pentecost/main">
+               <catDesc>Pentecost</catDesc>
+            </category>
+            <category xml:id="Qedameseur" corresp="https://betamasaheft.eu/authority-files/Qedameseur/main">
+               <catDesc>Qǝdāme sǝʾur</catDesc>
+            </category>
+            <category xml:id="Qeddasebeta" corresp="https://betamasaheft.eu/authority-files/Qeddasebeta/main">
+               <catDesc>Qǝddāse beta</catDesc>
+            </category>
+            <category xml:id="Sawit" corresp="https://betamasaheft.eu/authority-files/Sawit/main">
+               <catDesc>Sawit</catDesc>
+            </category>
+            <category xml:id="Seddat" corresp="https://betamasaheft.eu/authority-files/Seddat/main">
+               <catDesc>Sǝddat</catDesc>
+            </category>
+            <category xml:id="Tadewos" corresp="https://betamasaheft.eu/authority-files/Tadewos/main">
+               <catDesc>Tādewos</catDesc>
+            </category>
+            <category xml:id="Tentasomaledat" corresp="https://betamasaheft.eu/authority-files/Tentasomaledat/main">
+               <catDesc>Ṭǝnta ṣoma lǝdat</catDesc>
+            </category>
+            <category xml:id="Tesbeet" corresp="https://betamasaheft.eu/authority-files/Tesbeet/main">
+               <catDesc>Tǝsbǝʾǝt</catDesc>
+            </category>
+            <category xml:id="Tomas" corresp="https://betamasaheft.eu/authority-files/Tomas/main">
+               <catDesc>Tomās</catDesc>
+            </category>
+         </category>
+         <category xml:id="Islamic" corresp="https://betamasaheft.eu/authority-files/Islamic/main">
+            <catDesc>Islamic</catDesc>
+            <category xml:id="Arafa" corresp="https://betamasaheft.eu/authority-files/Arafa/main">
+               <catDesc>Arafā</catDesc>
+            </category>
+            <category xml:id="Ashura" corresp="https://betamasaheft.eu/authority-files/Ashura/main">
+               <catDesc>ʿĀšūrāʾ</catDesc>
+            </category>
+            <category xml:id="Ayyamattashriq" corresp="https://betamasaheft.eu/authority-files/Ayyamattashriq/main">
+               <catDesc>ʾAyyām at-tašrīq</catDesc>
+            </category>
+            <category xml:id="Idaladha" corresp="https://betamasaheft.eu/authority-files/Idaladha/main">
+               <catDesc>ʿĪd al-aḍḥā</catDesc>
+            </category>
+            <category xml:id="Idalfitr" corresp="https://betamasaheft.eu/authority-files/Idalfitr/main">
+               <catDesc>ʿĪd al-fiṭr</catDesc>
+            </category>
+            <category xml:id="LaylatalBaraat" corresp="https://betamasaheft.eu/authority-files/LaylatalBaraat/main">
+               <catDesc>Laylatal-Baraʿat</catDesc>
+            </category>
+            <category xml:id="Laylatalqadr" corresp="https://betamasaheft.eu/authority-files/Laylatalqadr/main">
+               <catDesc>Laylat al-qadr</catDesc>
+            </category>
+            <category xml:id="Mawlid" corresp="https://betamasaheft.eu/authority-files/Mawlid/main">
+               <catDesc>Mawlid</catDesc>
+            </category>
+            <category xml:id="INewYear" corresp="https://betamasaheft.eu/authority-files/INewYear/main">
+               <catDesc>New Year</catDesc>
+            </category>
+            <category xml:id="Ramadan" corresp="https://betamasaheft.eu/authority-files/Ramadan/main">
+               <catDesc>Ramaḍān</catDesc>
+            </category>
+         </category>
+         <category xml:id="Jewish" corresp="https://betamasaheft.eu/authority-files/Jewish/main">
+            <catDesc>Jewish</catDesc>
+            <category xml:id="Hanukkah" corresp="https://betamasaheft.eu/authority-files/Hanukkah/main">
+               <catDesc>Hanukkah</catDesc>
+            </category>
+            <category xml:id="JNewYear" corresp="https://betamasaheft.eu/authority-files/JNewYear/main">
+               <catDesc>JNewYear</catDesc>
+            </category>
+            <category xml:id="Passover" corresp="https://betamasaheft.eu/authority-files/Passover/main">
+               <catDesc>Passover</catDesc>
+            </category>
+            <category xml:id="Purim" corresp="https://betamasaheft.eu/authority-files/Purim/main">
+               <catDesc>Purim</catDesc>
+            </category>
+            <category xml:id="Shavuot" corresp="https://betamasaheft.eu/authority-files/Shavuot/main">
+               <catDesc>Shavuot</catDesc>
+            </category>
+            <category xml:id="Tabernacles" corresp="https://betamasaheft.eu/authority-files/Tabernacles/main">
+               <catDesc>Tabernacles</catDesc>
+            </category>
+            <category xml:id="Yomkippur" corresp="https://betamasaheft.eu/authority-files/Yomkippur/main">
+               <catDesc>Yomkippur</catDesc>
+            </category>
+         </category>
+      </category>
+   </taxonomy>
+</classDecl><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion xmlns="" unit="image" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item></list></desc><assertion unit="column break" match="cb" use="cb"><desc><list><item>1ra</item><item>2ra</item><item>3ra</item></list></desc></assertion><assertion unit="line break" match="lb" use="lb"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item><item>25</item><item>26</item><item>27</item><item>28</item><item>29</item><item>30</item><item>31</item><item>32</item><item>33</item><item>34</item><item>35</item><item>36</item><item>37</item></list></desc></assertion><assertion unit="page break" match="pb" use="pb"><desc><list><item>1r</item><item>2r</item><item>3r</item><item>4r</item><item>5r</item></list></desc></assertion></assertion></assertion></source-url></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:particDesc>
+            <t:listPerson>
+               <t:person>
+               </t:person>
+            </t:listPerson>
+         </t:particDesc>
+         <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
+      <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change who="#PL" when="2018-01-18"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record from EMIP Collection Metadata.xsls</change>
+         <change who="#RL" when="2020-04-20"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected ǝ character</change>
+         <change who="#RL" when="2022-07-08"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Edited idno to include images</change>
+         <change who="#RL" when="2022-09-26"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added include code to add Transkribus transcription</change>
+         <change who="#RL" when="2024-08-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->formatted text and facsimile files</change>
+      </t:revisionDesc>
+   </teiHeader><facsimile xml:id="transkribusEMIPMS0480_TweedMagicScroll012">
+   <surface xml:id="facs_1">
+      <graphic url="EMIPMS0480_TweedMagicScroll012_001.jpg" width="4288px" height="2848px"/>
+      <zone ="487,160 508,3999 2029,4149 2017,160" rendition="TextRegion" xml:id="facs_1_r1">
+         <zone ="556,255 1712,256 1792,198 1970,233 1970,139 1550,183 979,121 787,184 556,171" rendition="Line" xml:id="facs_1_r1l1"/>
+         <zone ="515,362 768,386 928,336 1014,377 1189,336 1296,373 1692,327 1938,379 1939,232 515,252" rendition="Line" xml:id="facs_1_line_1658326701042_36"/>
+         <zone ="501,488 1018,424 1943,477 1975,364 835,358 500,406" rendition="Line" xml:id="facs_1_line_1658326748133_49"/>
+         <zone ="499,610 989,527 1169,567 1929,537 1927,469 1840,455 1707,489 1573,443 1293,504 1094,428 1025,473 696,460 497,525" rendition="Line" xml:id="facs_1_r1l9"/>
+         <zone ="510,679 1952,619 1949,531 1878,526 1671,574 507,587" rendition="Line" xml:id="facs_1_line_1658326789449_55"/>
+         <zone ="491,787 819,738 1015,777 1085,736 1449,784 1986,695 1789,705 1675,638 1251,682 1031,653 490,731" rendition="Line" xml:id="facs_1_r1l13"/>
+         <zone ="494,883 1201,843 1371,903 1457,855 1898,850 1956,831 1953,748 1386,800 1092,770 870,819 724,790 494,870" rendition="Line" xml:id="facs_1_r1l14"/>
+         <zone ="490,987 715,935 766,974 963,982 1027,936 1382,988 1459,944 1938,950 1937,852 1847,843 1350,902 863,908 782,859 702,909 490,892" rendition="Line" xml:id="facs_1_r1l16"/>
+         <zone ="496,1053 1199,1085 1300,1035 1587,1069 1778,1019 1846,1072 1914,1056 1913,957 1796,945 1695,984 1453,951 1361,1004 775,998 704,959 496,995" rendition="Line" xml:id="facs_1_r1l17"/>
+         <zone ="518,1186 861,1132 1261,1211 1597,1150 1959,1177 1959,1085 1625,1103 1561,1064 1129,1114 853,1065 517,1109" rendition="Line" xml:id="facs_1_r1l18"/>
+         <zone ="503,1318 872,1273 1139,1318 1235,1270 1425,1312 1516,1253 1611,1307 1712,1268 2001,1298 2023,1179 1326,1223 1016,1184 929,1252 502,1188" rendition="Line" xml:id="facs_1_r1l19"/>
+         <zone ="517,1402 1339,1415 1579,1370 1973,1427 1988,1290 1446,1340 839,1329 759,1278 517,1324" rendition="Line" xml:id="facs_1_r1l20"/>
+         <zone ="527,1509 1588,1533 1827,1487 1956,1546 1957,1400 1037,1462 996,1424 528,1438" rendition="Line" xml:id="facs_1_r1l21"/>
+         <zone ="542,1621 745,1577 919,1645 1141,1619 1307,1664 1747,1615 1861,1660 1939,1625 1940,1548 1660,1513 918,1583 755,1522 543,1533" rendition="Line" xml:id="facs_1_r1l22"/>
+         <zone ="524,1718 832,1741 922,1684 1252,1754 1384,1707 1507,1737 1744,1697 1881,1739 1952,1705 1952,1652 1720,1626 524,1633" rendition="Line" xml:id="facs_1_line_1658326901000_69"/>
+         <zone ="519,1802 719,1845 853,1793 1023,1843 1631,1802 1954,1888 1944,1705 1318,1761 521,1721" rendition="Line" xml:id="facs_1_r1l23"/>
+         <zone ="496,1971 666,1892 1022,1936 1218,1909 1313,1954 1385,1901 1495,1942 1669,1900 1881,1925 1882,1863 1807,1833 1741,1868 1332,1834 1190,1882 1092,1832 1048,1869 656,1839 499,1785" rendition="Line" xml:id="facs_1_r1l24"/>
+         <zone ="527,1997 1262,2051 1952,2035 1774,1941 1488,1939 1417,2004 1286,2020 1143,1927 1003,1967 529,1915" rendition="Line" xml:id="facs_1_line_1658326925965_78"/>
+         <zone ="502,2093 1126,2160 1949,2155 1952,2055 1698,2122 1588,2044 939,2020 872,2057 505,2009" rendition="Line" xml:id="facs_1_r1l29"/>
+         <zone ="506,2265 606,2215 812,2272 880,2237 1296,2282 1697,2227 1866,2259 1959,2183 1798,2139 1605,2192 1168,2145 1025,2181 508,2113" rendition="Line" xml:id="facs_1_r1l31"/>
+         <zone ="494,2367 1024,2332 1137,2379 1573,2387 1717,2337 1930,2391 2001,2368 2003,2259 1050,2310 865,2258 495,2267" rendition="Line" xml:id="facs_1_r1l32"/>
+         <zone ="497,2446 1226,2443 1288,2489 1528,2461 1600,2500 1703,2451 2009,2509 2012,2428 1918,2383 1762,2378 1712,2425 501,2354" rendition="Line" xml:id="facs_1_r1l33"/>
+         <zone ="472,2563 719,2500 919,2571 1524,2567 1667,2611 1827,2556 1943,2608 1965,2502 476,2451" rendition="Line" xml:id="facs_1_r1l34"/>
+         <zone ="497,2648 648,2614 1109,2708 1327,2677 1428,2720 1513,2682 1988,2726 1981,2594 1832,2647 1714,2594 1367,2630 747,2534 502,2556" rendition="Line" xml:id="facs_1_r1l35"/>
+         <zone ="510,2723 994,2799 1194,2762 1307,2823 1891,2801 1894,2739 1808,2697 1489,2757 1392,2707 1178,2741 514,2640" rendition="Line" xml:id="facs_1_r1l36"/>
+         <zone ="508,2825 848,2860 930,2912 1062,2868 1266,2924 1585,2926 1928,2913 1933,2827 1101,2835 512,2754" rendition="Line" xml:id="facs_1_r1l37"/>
+         <zone ="523,2952 584,2924 1188,3023 1544,2987 1702,3043 1946,3019 1951,2940 1498,2907 1333,2952 631,2838 527,2872" rendition="Line" xml:id="facs_1_line_1658326969652_91"/>
+         <zone ="520,3013 742,3075 993,3048 1166,3121 1669,3073 1762,3127 1980,3100 1955,3014 1700,3058 1434,3016 1320,3064 835,2960 523,2964" rendition="Line" xml:id="facs_1_r1l40"/>
+         <zone ="504,3119 868,3128 1009,3190 1178,3167 1518,3245 1959,3224 1964,3164 1809,3121 1045,3115 791,3054 683,3092 512,3013" rendition="Line" xml:id="facs_1_r1l41"/>
+         <zone ="510,3200 2017,3377 2031,3226 1966,3212 1695,3291 1596,3238 1534,3279 1456,3227 1186,3232 975,3172 770,3202 726,3149 518,3118" rendition="Line" xml:id="facs_1_r1l42"/>
+         <zone ="515,3326 792,3319 1032,3401 1488,3397 2017,3501 2001,3366 1433,3323 1316,3364 1217,3306 528,3220" rendition="Line" xml:id="facs_1_r1l44"/>
+         <zone ="502,3438 691,3412 968,3500 1513,3510 1981,3631 1991,3515 1595,3438 1144,3445 778,3331 516,3325" rendition="Line" xml:id="facs_1_line_1658327025860_100"/>
+         <zone ="487,3555 669,3509 1124,3627 1638,3646 1984,3737 1997,3631 1635,3551 502,3439" rendition="Line" xml:id="facs_1_line_1658327049100_108"/>
+         <zone ="499,3648 645,3594 743,3668 1115,3737 1991,3803 2001,3715 1702,3725 1374,3649 1259,3697 958,3590 511,3549" rendition="Line" xml:id="facs_1_r1l51"/>
+         <zone ="504,3738 1699,3882 1948,3873 1989,3804 1683,3770 1511,3810 1445,3757 1206,3762 1006,3694 514,3645" rendition="Line" xml:id="facs_1_r1l52"/>
+         <zone ="481,3840 752,3834 898,3911 1641,3953 1874,4021 1923,4020 1937,3895 1372,3865 1292,3902 1108,3809 811,3828 492,3740" rendition="Line" xml:id="facs_1_r1l53"/>
+         <zone ="507,3980 834,4029 935,3993 1042,4061 1311,4012 1405,4078 1832,4129 1917,4125 1930,4014 1777,4051 1718,4004 1639,4029 1095,3934 983,3967 865,3913 644,3911 523,3840" rendition="Line" xml:id="facs_1_r1l54"/>
+      </zone>
+   </surface>
+   <surface xml:id="facs_2">
+      <graphic url="EMIPMS0480_TweedMagicScroll012_002.jpg" width="4288px" height="2848px"/>
+      <zone ="522,653 495,2166 1982,2166 1991,878" rendition="TextRegion" xml:id="facs_2_r1">
+         <zone ="533,806 781,803 945,870 1149,851 1468,924 1661,904 1959,987 1973,879 1925,857 1683,869 796,760 552,669" rendition="Line" xml:id="facs_2_line_1659957885037_171"/>
+         <zone ="541,955 714,927 1127,990 1232,947 1279,1001 1509,1005 1842,1103 1962,1096 1974,989 1842,993 1647,916 1042,924 557,811" rendition="Line" xml:id="facs_2_r1l25"/>
+         <zone ="545,1044 1961,1178 1967,1107 1645,1043 553,955" rendition="Line" xml:id="facs_2_r1l26"/>
+         <zone ="546,1171 651,1134 822,1212 1381,1201 1959,1304 1975,1197 552,1095" rendition="Line" xml:id="facs_2_r1l27"/>
+         <zone ="511,1301 638,1254 915,1330 1080,1295 1916,1406 1984,1405 1992,1302 1233,1222 835,1236 521,1158" rendition="Line" xml:id="facs_2_r1l28"/>
+         <zone ="526,1409 1122,1407 1220,1447 1280,1410 1790,1504 1967,1495 1973,1407 1488,1335 871,1364 532,1314" rendition="Line" xml:id="facs_2_r1l29"/>
+         <zone ="542,1522 1232,1560 1467,1524 1851,1634 1940,1631 1946,1524 1216,1442 546,1434" rendition="Line" xml:id="facs_2_r1l30"/>
+         <zone ="550,1648 1592,1639 1982,1758 1988,1627 1901,1647 1495,1545 554,1572" rendition="Line" xml:id="facs_2_r1l31"/>
+         <zone ="538,1742 714,1787 803,1750 1536,1753 1942,1809 1945,1729 1844,1749 1640,1666 1521,1722 1441,1673 541,1662" rendition="Line" xml:id="facs_2_r1l32"/>
+         <zone ="539,1856 919,1883 1214,1836 1341,1885 1449,1831 1913,1931 1934,1817 1255,1802 1169,1762 540,1800" rendition="Line" xml:id="facs_2_r1l33"/>
+         <zone ="555,1982 682,2010 872,1967 1037,2017 1140,1956 1250,2000 1511,1969 1713,2030 1957,2002 1959,1929 641,1885 557,1918" rendition="Line" xml:id="facs_2_r1l34"/>
+         <zone ="534,2076 1045,2128 1189,2099 1239,2139 1587,2113 1588,2019 1490,1976 1343,1980 1302,2020 1164,1997 1086,2040 655,1990 535,2024" rendition="Line" xml:id="facs_2_r1l35"/>
+      </zone>
+   </surface>
+   <surface xml:id="facs_3">
+      <graphic url="EMIPMS0480_TweedMagicScroll012_003.jpg" width="4288px" height="2848px"/>
+      <zone ="1975,2177 547,2181 547,1660 1975,1656" rendition="TextRegion" xml:id="facs_3_region_1659958582471_238">
+         <zone ="630,1741 815,1773 971,1758 1120,1747 1232,1744 1378,1751 1491,1762 1581,1780 1659,1766 1726,1758 1837,1747 1913,1740 1922,1740 1922,1790 1915,1790 1841,1797 1732,1808 1666,1816 1580,1830 1484,1812 1375,1801 1232,1794 1122,1797 975,1808 813,1823 621,1790" rendition="Line" xml:id="facs_3_line_1659958608465_244"/>
+         <zone ="626,1850 775,1865 832,1865 1241,1872 1417,1883 1536,1887 1683,1880 1769,1883 1856,1883 1929,1883 1929,1933 1856,1933 1768,1933 1683,1930 1536,1937 1415,1933 1239,1922 832,1915 773,1915 622,1900" rendition="Line" xml:id="facs_3_line_1659958620890_249"/>
+         <zone ="580,2030 716,2037 714,2087 578,2080" rendition="Line" xml:id="facs_3_line_1659958628157_254"/>
+      </zone>
+   </surface>
+   <surface xml:id="facs_4">
+      <graphic url="EMIPMS0480_TweedMagicScroll012_004.jpg" width="2848px" height="4288px"/>
+   </surface>
+   <surface xml:id="facs_5">
+      <graphic url="EMIPMS0480_TweedMagicScroll012_005.jpg" width="2848px" height="4288px"/>
+   </surface>
+</facsimile><text xml:base="https://betamasaheft.eu/">
+   <body>
+      <div type="edition" xml:id="Transkribus" subtype="transkribus">
+         <div type="textpart" subtype="image" n="1">
+            <ab>
+               <pb facs="#facs_1" n="1r"/>
+               <cb facs="#facs_1_r1" n="a"/>
+               <lb facs="#facs_1_r1l1" n="1" break="no"/>ት፡ አህርው፡ ወይብ፡
+				<lb facs="#facs_1_line_1658326701042_36" n="2"/>ሎሙ፡ ሁሩ፡ ውስተ፡ 
+				<lb facs="#facs_1_line_1658326748133_49" n="3"/>አህርው፡ ወናሁ፡ ወሮ<lb facs="#facs_1_r1l9" n="4" break="no"/>ዱ፡ ወአብዱ፡ ኵሎሙ፡ 
+				<lb facs="#facs_1_line_1658326789449_55" n="5"/>መፍአየ፡ ሳ[ ]ህው፡ አም<lb facs="#facs_1_r1l13" n="6" break="no"/>ምድንጋፄ፡ ፀድፍ፡ ው<lb facs="#facs_1_r1l14" n="7" break="no"/>ስተ፡ ባህር፡ ወቦኡ፡
+				<lb facs="#facs_1_r1l16" n="8"/>ውስተ፡ ማይ፡ ወወሞ<lb facs="#facs_1_r1l17" n="9" break="no"/>ቱ፡ ወጐዩ፡ ምስለ፡ኖ<lb facs="#facs_1_r1l18" n="10" break="no"/>ሎት፡ እለይአዩ፡ በዝ<lb facs="#facs_1_r1l19" n="11" break="no"/>ቃልከ፡ ሰድህና፡ ወፈው<lb facs="#facs_1_r1l20" n="12" break="no"/>ስ፡ እምህማመ፡ ባርያ፡
+				<lb facs="#facs_1_r1l21" n="13"/>ወሌጌዎን፡ ለሳመት<lb facs="#facs_1_r1l22" n="14" break="no"/>ከ።  ጸሎተ፡ ድ<lb facs="#facs_1_line_1658326901000_69" n="15" break="no"/>ንጋፄ፡ ሰለም፡ ለተፈዎ<lb facs="#facs_1_r1l23" n="16" break="no"/>ኖትከ፡ ምስለ፡ መላእክ<lb facs="#facs_1_r1l24" n="17" break="no"/>ት፡ ህቡአ፡ አንዘያት<lb facs="#facs_1_line_1658326925965_78" n="18" break="no"/>ከሀው፡ ቅድመ፡ ወእ<lb facs="#facs_1_r1l29" n="19" break="no"/>ንዘይትዴሀር፡ ድህረ፡ 
+				<lb facs="#facs_1_r1l31" n="20"/>ሰደዴMarked for deletion አድሞሙ፡ ለአጋ<lb facs="#facs_1_r1l32" n="21" break="no"/>ንንት፡ ውአርአዮሙ<lb facs="#facs_1_r1l33" n="22" break="no"/>ሀሳሩ፡ ከመ፡ ይግበሩ፡ ኪ<lb facs="#facs_1_r1l34" n="23" break="no"/>ያየ፡ መህዳና፡ ስላም፡ ለ<lb facs="#facs_1_r1l35" n="24" break="no"/>ከ፡ ሰደዴ፡ እጋንንት፡ፋ<lb facs="#facs_1_r1l36" n="25" break="no"/>ኑኤል፡ ፩ እግዚአብሔ<lb facs="#facs_1_r1l37" n="26" break="no"/>ር፡ አጻዕርሁ፡ ለጋኔ<lb facs="#facs_1_line_1658326969652_91" n="27" break="no"/>ን፡ ዘዘዚአሁ፡ ሰላም፡ ለ<lb facs="#facs_1_r1l40" n="28" break="no"/>ከ፡ እምገጹ፡ ልዑል፡ ከ<lb facs="#facs_1_r1l41" n="29" break="no"/>መ፡ ያስተ፡ ዋድዩ፡ ስ<lb facs="#facs_1_r1l42" n="30" break="no"/>ብእ፡ ዘነብረ፡ ሀጐል፡ እ<lb facs="#facs_1_r1l44" n="31" break="no"/>ስም፡ ዕንተ፡ መለክ፡ ስህ<lb facs="#facs_1_line_1658327025860_100" n="32" break="no"/>ለ፡ ስላም፡ ለከ፡ ሰይጣና<lb facs="#facs_1_line_1658327049100_108" n="33" break="no"/>ት፡ ስድድ፡ እምባእበ<lb facs="#facs_1_r1l51" n="34" break="no"/>የ፡ እግዚአ፡ ፋኑኤል፡ ት<lb facs="#facs_1_r1l52" n="35" break="no"/>ጕህለተ፡ ፈጽአ፡ እስመ፡ 
+				<lb facs="#facs_1_r1l53" n="36"/>ብየ፡ ግብረ፡ ተስብዕ፡
+				<lb facs="#facs_1_r1l54" n="37"/>ሰለም፡ ለከ፡ ፋኑኤል፡
+			</ab>
+         </div>
+         <div type="textpart" subtype="image" n="2">
+            <ab>
+               <pb facs="#facs_2" n="2r"/>
+               <cb facs="#facs_2_r1" n="a"/>
+               <lb facs="#facs_2_line_1659957885037_171" n="1" break="no"/>ግብር፡ ትምርተ፡ ስና<lb facs="#facs_2_r1l25" n="2" break="no"/>የባእሌየ፡ በኩይናት<lb facs="#facs_2_r1l26" n="3" break="no"/>ዳሌም፡ ኢይርግዝ፡ ገበ<lb facs="#facs_2_r1l27" n="4" break="no"/>የ፡ ዘእንሀበ፡ በእንቲ<lb facs="#facs_2_r1l28" n="5" break="no"/>አየ፡ ሰለ፡ ለከ፡ ስይፍከ፡ 
+				<lb facs="#facs_2_r1l29" n="6"/>ምላህ፡ እግዚኦ፡ ዲበ፡ 
+				<lb facs="#facs_2_r1l30" n="7"/>ጸርየ፡ መስቴማ፡ በዱ<lb facs="#facs_2_r1l31" n="8" break="no"/>በት፡እዘዝ፡ ዘይፈጥር፡ 
+				<lb facs="#facs_2_r1l32" n="9"/>ሰmarked for deletionፃማ፡ እስመ፡ አንት፡
+				<lb facs="#facs_2_r1l33" n="10"/>መላከ፡ ፍማ፡ በዝቃ<lb facs="#facs_2_r1l34" n="11" break="no"/>ልከ፡ አድህና፡ ለአመ<lb facs="#facs_2_r1l35" n="12" break="no"/>ተከ፡ የልፍሽ</ab>
+         </div>
+         <div type="textpart" subtype="image" n="3">
+            <ab>
+               <pb facs="#facs_3" n="3r"/>
+               <cb facs="#facs_3_region_1659958582471_238" n="a"/>
+               <lb facs="#facs_3_line_1659958608465_244" n="1" break="no"/>{እደየሁ፡ ለአመት<lb facs="#facs_3_line_1659958620890_249" n="2" break="no"/>ከ፡ ወለተ አሀጋ<lb facs="#facs_3_line_1659958628157_254" n="3" break="no"/>ይ፡}</ab>
+         </div>
+         <div type="textpart" subtype="image" n="4">
+            <ab>
+               <pb facs="#facs_4" n="4r"/>
+            </ab>
+         </div>
+         <div type="textpart" subtype="image" n="5">
+            <ab>
+               <pb facs="#facs_5" n="5r"/>
+            </ab>
+         </div>
+      </div>
+   </body>
+</text></TEI>
