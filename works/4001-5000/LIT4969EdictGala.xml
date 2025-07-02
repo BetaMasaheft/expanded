@@ -39,8 +39,15 @@
                     under the penalty of death.
                 </p>
             </abstract>
-        <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
+           <textClass>
+              <keywords>
+                 <term key="LegalDocument" ana="#LegalDocument"/>
+              </keywords>
+           </textClass>
+           <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+           <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+              Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc>
+        </profileDesc>
         
         <encodingDesc>
             <p>A digital born TEI file</p>
@@ -2017,19 +2024,7 @@
       </category>
    </taxonomy>
 </classDecl><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion xmlns="" unit="paragraph" match="t:div" use="t:div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item></list></desc></assertion></assertion></source-url></encodingDesc>
-        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <t:creation/>
-            <t:abstract>
-                <t:p/>
-            </t:abstract>
-            <t:textClass>
-                <t:keywords>
-                    <t:term key="LegalDocument" ana="#LegalDocument"/>
-                </t:keywords>
-            </t:textClass>
-            <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
-        <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+        
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change who="#SG" when="2018-05-16"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
             <change who="#SG" when="2018-05-16"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->encoded the text
