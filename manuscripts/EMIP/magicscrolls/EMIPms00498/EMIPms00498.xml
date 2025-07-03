@@ -20,7 +20,7 @@
                                                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">28.8.2024 at 17:19:24</date><date type="lastModified">28.8.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMIPms00498/main</idno><idno type="URI">https://betamasaheft.eu/EMIPms00498</idno><idno type="filename">EMIPms00498.xml</idno><idno type="ID">EMIPms00498</idno></publicationStmt>
+         <date type="expanded">2.7.2025 at 12:34:24</date><date type="lastModified">28.8.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMIPms00498/main</idno><idno type="URI">https://betamasaheft.eu/EMIPms00498</idno><idno type="filename">EMIPms00498.xml</idno><idno type="ID">EMIPms00498</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -29,16 +29,16 @@
                   <idno facs="EMIP/Scrolls/MS0498/" n="12" corresp="https://betamasaheft.eu/api/iiif/EMIPms00498/manifest">Tweed MS 30</idno>
                </msIdentifier>
                <msContents>
-                  <summary> </summary>
+                  <summary/>
                   <msItem xml:id="ms_i1">
-                     <textLang mainLang="gez">Gǝ‘ǝz</textLang>
+                     <textLang mainLang="gez"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="Scroll">
                      <supportDesc>
                         <support>
-                           <watermark/>
+                           
                            <material key="parchment"/>
                         </support>
                         <extent>
@@ -71,1980 +71,18 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><classDecl xmlns:xi="http://www.w3.org/2001/XInclude">
-    <taxonomy xml:id="ethioauthlist">
-      <category>
-         <desc>Types of Inscriptions</desc>
-         <category xml:id="Royal" corresp="https://betamasaheft.eu/authority-files/Royal/main">
-            <catDesc>Royal inscription</catDesc>
-         </category>
-      </category>
-      <category>
-         <desc>Special Manuscripts</desc>
-         <category xml:id="GoldenGospel" corresp="https://betamasaheft.eu/authority-files/GoldenGospel/main">
-            <catDesc>Golden Gospel</catDesc>
-         </category>
-         <category xml:id="miniatureCollection" corresp="https://betamasaheft.eu/authority-files/miniatureCollection/main">
-            <catDesc>Miniature Collection</catDesc>
-         </category>
-      </category>
-      <category>
-         <desc>Objects of Veneration</desc>
-         <category xml:id="TrueCross" corresp="https://betamasaheft.eu/authority-files/TrueCross/main">
-            <catDesc>True Cross</catDesc>
-         </category>
-         <category xml:id="CovenantMercy" corresp="https://betamasaheft.eu/authority-files/CovenantMercy/main">
-            <catDesc>Kidāna Mǝḥrat</catDesc>
-         </category>
-      </category>
-      <category>
-         <desc>Binding Description</desc>
-         <category>
-            <desc>Turn-ins and Cover</desc>
-            <category xml:id="overCover" corresp="https://betamasaheft.eu/authority-files/overCover/main">
-               <catDesc>over-cover</catDesc>
-            </category>
-            <category xml:id="overlappingCornerFO" corresp="https://betamasaheft.eu/authority-files/overlappingCornerFO/main">
-               <catDesc>overlapping corner foredge over</catDesc>
-            </category>
-            <category xml:id="overlappingCornerHTO" corresp="https://betamasaheft.eu/authority-files/overlappingCornerHTO/main">
-               <catDesc>overlapping corner head/tail over</catDesc>
-            </category>
-            <category xml:id="tonguedCorner" corresp="https://betamasaheft.eu/authority-files/tonguedCorner/main">
-               <catDesc>tongued corner</catDesc>
-            </category>
-            <category xml:id="stitchedCorner" corresp="https://betamasaheft.eu/authority-files/stitchedCorner/main">
-               <catDesc>stitched corner</catDesc>
-            </category>
-            <category xml:id="mitredCorner" corresp="https://betamasaheft.eu/authority-files/mitredCorner/main">
-               <catDesc>mitred corner</catDesc>
-            </category>
-            <category xml:id="openMitredCorner" corresp="https://betamasaheft.eu/authority-files/openMitredCorner/main">
-               <catDesc>open mitred corner</catDesc>
-            </category>
-         </category>
-         <category>
-            <desc>Inlays</desc>
-            <category xml:id="inlay" corresp="https://betamasaheft.eu/authority-files/inlay/main">
-               <catDesc>inlay</catDesc>
-            </category>
-            <category xml:id="paperInlay" corresp="https://betamasaheft.eu/authority-files/paperInlay/main">
-               <catDesc>paper inlay</catDesc>
-            </category>
-            <category xml:id="parchmentInlay" corresp="https://betamasaheft.eu/authority-files/parchmentInlay/main">
-               <catDesc>parchment inlay</catDesc>
-            </category>
-            <category xml:id="textileInlay" corresp="https://betamasaheft.eu/authority-files/textileInlay/main">
-               <catDesc>textile inlay</catDesc>
-            </category>
-         </category>
-         <category>
-            <desc>Guards</desc>
-            <category xml:id="guard" corresp="https://betamasaheft.eu/authority-files/guard/main">
-               <catDesc>Guard</catDesc>
-            </category>
-            <category xml:id="centerfold" corresp="https://betamasaheft.eu/authority-files/centerfold/main">
-               <catDesc>Centerfold</catDesc>
-            </category>
-            <category xml:id="spinefold" corresp="https://betamasaheft.eu/authority-files/spinefold/main">
-               <catDesc>Spine fold</catDesc>
-            </category>
-            <category xml:id="sidestitches" corresp="https://betamasaheft.eu/authority-files/sidestitches/main">
-               <catDesc>Side stitches</catDesc>
-            </category>
-            <category xml:id="mainSewing" corresp="https://betamasaheft.eu/authority-files/mainSewing/main">
-               <catDesc>Main sewing</catDesc>
-            </category>
-         </category>
-         <category>
-            <desc>Bookmarks</desc>
-            <category xml:id="leafStringMark" corresp="https://betamasaheft.eu/authority-files/leafStringMark/main">
-               <catDesc>Leaf string marker</catDesc>
-            </category>
-            <category xml:id="leafTabMark" corresp="https://betamasaheft.eu/authority-files/leafTabMark/main">
-               <catDesc>Leaf tab marker</catDesc>
-            </category>
-         </category>
-         <category>
-            <desc>Endband Type</desc>
-            <category xml:id="slitBraid" corresp="https://betamasaheft.eu/authority-files/slitBraid/main">
-               <catDesc>Slit-braid</catDesc>
-            </category>
-            <category xml:id="linkStitch" corresp="https://betamasaheft.eu/authority-files/linkStitch/main">
-               <catDesc>Link-stitch</catDesc>
-            </category>
-         </category>
-         <category>
-            <desc>Board Lining</desc>
-            <category xml:id="textile" corresp="https://betamasaheft.eu/authority-files/textile/main">
-               <catDesc>Textile</catDesc>
-            </category>
-            <category xml:id="mirror" corresp="https://betamasaheft.eu/authority-files/mirror/main">
-               <catDesc>Mirror</catDesc>
-            </category>
-            <category xml:id="additionalLeatherPatch" corresp="https://betamasaheft.eu/authority-files/additionalLeatherPatch/main">
-               <catDesc>Additional leather patch</catDesc>
-            </category>
-         </category>
-         <category>
-            <desc>Wood Type</desc>
-            <category xml:id="cordiaAfricana" corresp="https://betamasaheft.eu/authority-files/cordiaAfricana/main">
-               <catDesc>Cordia africana</catDesc>
-            </category>
-            <category xml:id="oleaAfricana" corresp="https://betamasaheft.eu/authority-files/oleaAfricana/main">
-               <catDesc>Olea africana</catDesc>
-            </category>
-            <category xml:id="cedar" corresp="https://betamasaheft.eu/authority-files/cedar/main">
-               <catDesc>Cedar</catDesc>
-            </category>
-            <category xml:id="eucalyptus" corresp="https://betamasaheft.eu/authority-files/eucalyptus/main">
-               <catDesc>Eucalyptus</catDesc>
-            </category>
-            <category xml:id="juniper" corresp="https://betamasaheft.eu/authority-files/juniper/main">
-               <catDesc>Juniper</catDesc>
-            </category>
-            <category xml:id="hageniaAbyssinica" corresp="https://betamasaheft.eu/authority-files/hageniaAbyssinica/main">
-               <catDesc>Hagenia abyssinica</catDesc>
-            </category>
-            <category xml:id="acacia" corresp="https://betamasaheft.eu/authority-files/acacia/main">
-               <catDesc>Acacia</catDesc>
-            </category>
-            <category xml:id="ficus" corresp="https://betamasaheft.eu/authority-files/ficus/main">
-               <catDesc>Ficus</catDesc>
-            </category>
-            <category xml:id="crotonMacrostachyus" corresp="https://betamasaheft.eu/authority-files/crotonMacrostachyus/main">
-               <catDesc>Croton macrostachyus</catDesc>
-            </category>
-            <category xml:id="euphorbia" corresp="https://betamasaheft.eu/authority-files/euphorbia/main">
-               <catDesc>Euphorbia</catDesc>
-            </category>
-            <category xml:id="ekebergia" corresp="https://betamasaheft.eu/authority-files/ekebergia/main">
-               <catDesc>Ekebergia capensis</catDesc>
-            </category>
-            <category xml:id="podocarpus" corresp="https://betamasaheft.eu/authority-files/podocarpus/main">
-               <catDesc>Podocarpus gracilior</catDesc>
-            </category>
-            <category xml:id="plywood" corresp="https://betamasaheft.eu/authority-files/plywood/main">
-               <catDesc>Plywood</catDesc>
-            </category>
-         </category>
-         <category>
-            <desc>Sewing Pattern</desc>
-            <category xml:id="patternA" corresp="https://betamasaheft.eu/authority-files/patternA/main">
-               <catDesc>Pattern A</catDesc>
-            </category>
-            <category xml:id="patternA1" corresp="https://betamasaheft.eu/authority-files/patternA1/main">
-               <catDesc>Pattern A1</catDesc>
-            </category>
-            <category xml:id="patternA2" corresp="https://betamasaheft.eu/authority-files/patternA2/main">
-               <catDesc>Pattern A2</catDesc>
-            </category>
-            <category xml:id="patternA3" corresp="https://betamasaheft.eu/authority-files/patternA3/main">
-               <catDesc>Pattern A3</catDesc>
-            </category>
-            <category xml:id="patternA4" corresp="https://betamasaheft.eu/authority-files/patternA4/main">
-               <catDesc>Pattern A4</catDesc>
-            </category>
-            <category xml:id="patternA5" corresp="https://betamasaheft.eu/authority-files/patternA5/main">
-               <catDesc>Pattern A5</catDesc>
-            </category>
-            <category xml:id="patternA6" corresp="https://betamasaheft.eu/authority-files/patternA6/main">
-               <catDesc>Pattern A6</catDesc>
-            </category>
-            <category xml:id="patternA7" corresp="https://betamasaheft.eu/authority-files/patternA7/main">
-               <catDesc>Pattern A7</catDesc>
-            </category>
-            <category xml:id="patternB" corresp="https://betamasaheft.eu/authority-files/patternB/main">
-               <catDesc>Pattern B</catDesc>
-            </category>
-            <category xml:id="patternC" corresp="https://betamasaheft.eu/authority-files/patternC/main">
-               <catDesc>Pattern C</catDesc>
-            </category>
-            <category xml:id="patternC1" corresp="https://betamasaheft.eu/authority-files/patternC1/main">
-               <catDesc>Pattern C1</catDesc>
-            </category>
-         </category>
-         <category>
-            <desc>Decoration</desc>
-            <category xml:id="tooling" corresp="https://betamasaheft.eu/authority-files/tooling/main">
-               <catDesc>Blind tooling</catDesc>
-            </category>
-            <category xml:id="tripleStraightLine" corresp="https://betamasaheft.eu/authority-files/tripleStraightLine/main">
-               <catDesc>Triple straight line</catDesc>
-            </category>
-            <category xml:id="doubleStraightLine" corresp="https://betamasaheft.eu/authority-files/doubleStraightLine/main">
-               <catDesc>Double straight Line</catDesc>
-            </category>
-            <category xml:id="singleStraightLine" corresp="https://betamasaheft.eu/authority-files/singleStraightLine/main">
-               <catDesc>Single straight line</catDesc>
-            </category>
-            <category xml:id="crissCross" corresp="https://betamasaheft.eu/authority-files/crissCross/main">
-               <catDesc>Criss-cross</catDesc>
-            </category>
-            <category xml:id="doubleCircle" corresp="https://betamasaheft.eu/authority-files/doubleCircle/main">
-               <catDesc>Double circle</catDesc>
-            </category>
-            <category xml:id="singleCircle" corresp="https://betamasaheft.eu/authority-files/singleCircle/main">
-               <catDesc>Single circle</catDesc>
-            </category>
-            <category xml:id="crescent" corresp="https://betamasaheft.eu/authority-files/crescent/main">
-               <catDesc>Crescent</catDesc>
-            </category>
-            <category xml:id="XForm" corresp="https://betamasaheft.eu/authority-files/XForm/main">
-               <catDesc>X-Form</catDesc>
-            </category>
-            <category xml:id="palmShape" corresp="https://betamasaheft.eu/authority-files/palmShape/main">
-               <catDesc>Palm shape</catDesc>
-            </category>
-            <category xml:id="rosette" corresp="https://betamasaheft.eu/authority-files/rosette/main">
-               <catDesc>Rosette</catDesc>
-            </category>
-            <category xml:id="corniForm" corresp="https://betamasaheft.eu/authority-files/corniForm/main">
-               <catDesc>Corni-form</catDesc>
-            </category>
-            <category xml:id="grid" corresp="https://betamasaheft.eu/authority-files/grid/main">
-               <catDesc>Grid</catDesc>
-            </category>
-            <category xml:id="VForm" corresp="https://betamasaheft.eu/authority-files/VForm/main">
-               <catDesc>V-form</catDesc>
-            </category>
-            <category xml:id="wavyLine" corresp="https://betamasaheft.eu/authority-files/wavyLine/main">
-               <catDesc>Wavy line</catDesc>
-            </category>
-            <category xml:id="zigZag" corresp="https://betamasaheft.eu/authority-files/zigZag/main">
-               <catDesc>Zig-zag</catDesc>
-            </category>
-            <category xml:id="motherOfWater" corresp="https://betamasaheft.eu/authority-files/motherOfWater/main">
-               <catDesc>Mother of water</catDesc>
-            </category>
-            <category xml:id="straightStrapwork" corresp="https://betamasaheft.eu/authority-files/straightStrapwork/main">
-               <catDesc>Straight strapwork element</catDesc>
-            </category>
-            <category xml:id="curveStrapwork" corresp="https://betamasaheft.eu/authority-files/curveStrapwork/main">
-               <catDesc>Curve strapwork element</catDesc>
-            </category>
-         </category>
-         <category>
-            <desc>Thread Material</desc>
-            <category xml:id="animalThread" corresp="https://betamasaheft.eu/authority-files/animalThread/main">
-               <catDesc>Animal thread</catDesc>
-            </category>
-            <category xml:id="vegetalThread" corresp="https://betamasaheft.eu/authority-files/vegetalThread/main">
-               <catDesc>Vegetal thread</catDesc>
-            </category>
-            <category xml:id="syntheticThread" corresp="https://betamasaheft.eu/authority-files/syntheticThread/main">
-               <catDesc>Synthetic thread</catDesc>
-            </category>
-            <category xml:id="tannedSkin" corresp="https://betamasaheft.eu/authority-files/tannedSkin/main">
-               <catDesc>Tanned skin</catDesc>
-            </category>
-         </category>
-      </category>
-      <category>
-         <desc>Occupation</desc>
-         <category xml:id="ruler" corresp="https://betamasaheft.eu/authority-files/ruler/main">
-            <catDesc>Ruler</catDesc>
-         </category>
-         <category xml:id="military" corresp="https://betamasaheft.eu/authority-files/military/main">
-            <catDesc>Military</catDesc>
-         </category>
-         <category xml:id="academic" corresp="https://betamasaheft.eu/authority-files/academic/main">
-            <catDesc>Academic</catDesc>
-         </category>
-         <category xml:id="political" corresp="https://betamasaheft.eu/authority-files/political/main">
-            <catDesc>Political</catDesc>
-         </category>
-         <category xml:id="literary" corresp="https://betamasaheft.eu/authority-files/literary/main">
-            <catDesc>Literary</catDesc>
-         </category>
-         <category xml:id="ecclesiastic" corresp="https://betamasaheft.eu/authority-files/ecclesiastic/main">
-            <catDesc>Ecclesiastic</catDesc>
-         </category>
-         <category xml:id="medical" corresp="https://betamasaheft.eu/authority-files/medical/main">
-            <catDesc>Medical</catDesc>
-         </category>
-         <category xml:id="art" corresp="https://betamasaheft.eu/authority-files/art/main">
-            <catDesc>Art</catDesc>
-         </category>
-         <category xml:id="Other" corresp="https://betamasaheft.eu/authority-files/Other/main">
-            <catDesc>Other</catDesc>
-         </category>
-      </category>
-      <category>
-         <desc>Person Types</desc>
-         <category xml:id="saint" corresp="https://betamasaheft.eu/authority-files/saint/main">
-            <catDesc>Saint</catDesc>
-         </category>
-         <category xml:id="biblical" corresp="https://betamasaheft.eu/authority-files/biblical/main">
-            <catDesc>Biblical</catDesc>
-         </category>
-         <category xml:id="prophet" corresp="https://betamasaheft.eu/authority-files/prophet/main">
-            <catDesc>Prophet</catDesc>
-         </category>
-         <category xml:id="angel" corresp="https://betamasaheft.eu/authority-files/angel/main">
-            <catDesc>angel</catDesc>
-         </category>
-         <category xml:id="martyr" corresp="https://betamasaheft.eu/authority-files/martyr/main">
-            <catDesc>Martyr</catDesc>
-         </category>
-      </category>
-      <category>
-         <desc>Periods</desc>
-         <category xml:id="PreAks" corresp="https://betamasaheft.eu/authority-files/PreAks/main">
-            <catDesc>South-Arabian, Pre-Aksumite and Proto-Aksumite</catDesc>
-         </category>
-         <category xml:id="Eaks" corresp="https://betamasaheft.eu/authority-files/Eaks/main">
-            <catDesc>Early Aksumite</catDesc>
-         </category>
-         <category xml:id="Aks" corresp="https://betamasaheft.eu/authority-files/Aks/main">
-            <catDesc>Aksumite</catDesc>
-         </category>
-         <category xml:id="Paks1" corresp="https://betamasaheft.eu/authority-files/Paks1/main">
-            <catDesc>Postaksumite I</catDesc>
-         </category>
-         <category xml:id="Paks2" corresp="https://betamasaheft.eu/authority-files/Paks2/main">
-            <catDesc> Postaksumite II</catDesc>
-         </category>
-         <category xml:id="Gon" corresp="https://betamasaheft.eu/authority-files/Gon/main">
-            <catDesc>Gondarine</catDesc>
-         </category>
-         <category xml:id="ZaMa" corresp="https://betamasaheft.eu/authority-files/ZaMa/main">
-            <catDesc>Zamana Masāfǝnt</catDesc>
-         </category>
-         <category xml:id="MoPe" corresp="https://betamasaheft.eu/authority-files/MoPe/main">
-            <catDesc>Modern Period</catDesc>
-         </category>
-      </category>
-      <category>
-         <desc>Chant Modes</desc>
-         <category xml:id="ArarayMode" corresp="https://betamasaheft.eu/authority-files/ArarayMode/main">
-            <catDesc>ʾArārāy Mode</catDesc>
-         </category>
-         <category xml:id="EzelMode" corresp="https://betamasaheft.eu/authority-files/EzelMode/main">
-            <catDesc>ʿƎzǝl Mode</catDesc>
-         </category>
-         <category xml:id="GeezMode" corresp="https://betamasaheft.eu/authority-files/GeezMode/main">
-            <catDesc>Gǝʿǝz Mode</catDesc>
-         </category>
-      </category>
-       <category>
-          <desc>Qəne Types</desc>
-          <category xml:id="EtanaMogar" corresp="https://betamasaheft.eu/authority-files/EtanaMogar/main">
-             <catDesc>ʿƎṭāna mogar</catDesc>
-          </category>
-          <category xml:id="Mawaddes" corresp="https://betamasaheft.eu/authority-files/Mawaddes/main">
-             <catDesc>Mawaddǝs</catDesc>
-          </category>         
-          <category xml:id="KebrYeeti" corresp="https://betamasaheft.eu/authority-files/KebrYeeti/main">
-             <catDesc>Kǝbr yǝʾǝti</catDesc>
-          </category>
-          <category xml:id="Sellase" corresp="https://betamasaheft.eu/authority-files/Sellase/main">
-             <catDesc>Śǝllase</catDesc>
-          </category>
-          <category xml:id="Zayeeze" corresp="https://betamasaheft.eu/authority-files/Zayeeze/main">
-             <catDesc>Za-yǝʾǝze</catDesc>
-          </category>
-          <category xml:id="Kwellekomu" corresp="https://betamasaheft.eu/authority-files/Kwellekomu/main">
-             <catDesc>Kʷǝllǝkǝmu gǝʿǝz</catDesc>
-          </category>
-          <category xml:id="Wazema" corresp="https://betamasaheft.eu/authority-files/Wazema/main">
-             <catDesc>Wāzemā</catDesc>
-          </category>
-          <category xml:id="GubaeQana" corresp="https://betamasaheft.eu/authority-files/GubaeQana/main">
-             <catDesc>Gubāʿe Qānā</catDesc>
-          </category>       
-          <category xml:id="Mibazhu" corresp="https://betamasaheft.eu/authority-files/Mibazhu/main">
-             <catDesc>Mi-bazḫu</catDesc>
-          </category>
-          <category xml:id="Zaamlakiya" corresp="https://betamasaheft.eu/authority-files/Zaamlakiya/main">
-             <catDesc>Za-ʾamlākiya</catDesc>
-          </category>
-          <category xml:id="Sahleka" corresp="https://betamasaheft.eu/authority-files/Sahleka/main">
-             <catDesc>Śāhlǝka</catDesc>
-          </category>
-       </category>       
-       <category>
-          <desc>Magic and spells</desc>
-          <category>
-             <desc>Subtypes</desc>
-             <category xml:id="MagicDrawing" corresp="https://betamasaheft.eu/authority-files/MagicDrawing/main">
-                <catDesc>Magic drawing </catDesc>
-             </category>
-             <category xml:id="MagicSymbols" corresp="https://betamasaheft.eu/authority-files/MagicSymbols/main">
-                <catDesc>Magic symbols or letters</catDesc>
-             </category>
-          </category>
-          <category>
-             <desc>Subgenres</desc>
-             <category xml:id="Divination" corresp="https://betamasaheft.eu/authority-files/Divination/main">
-                <catDesc>Divination</catDesc>
-             </category>             
-          </category>
-          <category>
-             <desc>Diseases and demons</desc>
-             <category xml:id="Disease" corresp="https://betamasaheft.eu/authority-files/Disease/main">
-                <catDesc>Disease (generic)</catDesc>
-             </category>                
-             <category xml:id="DiseaseFever" corresp="https://betamasaheft.eu/authority-files/DiseaseFever/main">
-                <catDesc>Disease with fever</catDesc>
-             </category>
-             <category xml:id="DiseaseMental" corresp="https://betamasaheft.eu/authority-files/DiseaseMental/main">
-                <catDesc>Disease with mental symptoms</catDesc>
-             </category>
-             <category xml:id="DiseasePain" corresp="https://betamasaheft.eu/authority-files/DiseasePain/main">
-                <catDesc>Disease with pain/colic</catDesc>
-             </category>
-             <category xml:id="DiseaseWomen" corresp="https://betamasaheft.eu/authority-files/DiseaseWomen/main">
-                <catDesc>Disease in women</catDesc>
-             </category>                   
-             <category xml:id="EvilEye" corresp="https://betamasaheft.eu/authority-files/EvilEye/main">
-                <catDesc>Evil Eye</catDesc>
-             </category>
-             <category xml:id="EvilSpirit" corresp="https://betamasaheft.eu/authority-files/EvilSpirit/main">
-                <catDesc>Evil Spirit</catDesc>
-             </category>
-          </category>
-       </category>
-       
-      <category>
-         <desc>Additiones</desc>
-         <category xml:id="GuestText" corresp="https://betamasaheft.eu/authority-files/GuestText/main">
-            <catDesc>Guest Text</catDesc>
-         </category>
-         <category xml:id="AcquisitionNote" corresp="https://betamasaheft.eu/authority-files/AcquisitionNote/main">
-            <catDesc>Acquisition Note</catDesc>
-         </category>
-         <category xml:id="Comment" corresp="https://betamasaheft.eu/authority-files/Comment/main">
-            <catDesc>Comment</catDesc>
-         </category>
-         <category xml:id="Gloss" corresp="https://betamasaheft.eu/authority-files/Gloss/main">
-            <catDesc>Gloss</catDesc>
-         </category>
-         <category xml:id="Correction" corresp="https://betamasaheft.eu/authority-files/Correction/main">
-            <catDesc>Correction</catDesc>
-         </category>
-         <category xml:id="Letter" corresp="https://betamasaheft.eu/authority-files/Letter/main">
-            <catDesc>Letter</catDesc>
-         </category>
-         <category xml:id="Foundation" corresp="https://betamasaheft.eu/authority-files/Foundation/main">
-            <catDesc>Foundation</catDesc>
-         </category>
-         <category xml:id="Headband" corresp="https://betamasaheft.eu/authority-files/Headband/main">
-            <catDesc>Headband</catDesc>
-         </category>
-         <category xml:id="Tailband" corresp="https://betamasaheft.eu/authority-files/Tailband/main">
-            <catDesc>Tailband</catDesc>
-         </category>
-         <category xml:id="DonationNote" corresp="https://betamasaheft.eu/authority-files/DonationNote/main">
-            <catDesc>Donation Note</catDesc>
-         </category>
-         <category xml:id="OwnershipNote" corresp="https://betamasaheft.eu/authority-files/OwnershipNote/main">
-            <catDesc>Ownership Note</catDesc>
-         </category>
-         <category xml:id="PurchaseNote" corresp="https://betamasaheft.eu/authority-files/PurchaseNote/main">
-            <catDesc>Purchase Note</catDesc>
-         </category>
-         <category xml:id="ReceiptNote" corresp="https://betamasaheft.eu/authority-files/ReceiptNote/main">
-            <catDesc>Receipt Note</catDesc>
-         </category>
-         <category xml:id="Admonition" corresp="https://betamasaheft.eu/authority-files/Admonition/main">
-            <catDesc>Admonition</catDesc>
-         </category>
-         <category xml:id="DocumentaryText" corresp="https://betamasaheft.eu/authority-files/DocumentaryText/main">
-            <catDesc>Documentary Text</catDesc>
-         </category>
-         <category>
-            <desc>Land Ownership</desc>
-            <category>
-               <desc>Land Charters</desc>
-               <category xml:id="LandGrant" corresp="https://betamasaheft.eu/authority-files/LandGrant/main">
-                  <catDesc>Land Grant</catDesc>
-               </category>
-               <category xml:id="GweltDeed" corresp="https://betamasaheft.eu/authority-files/GweltDeed/main">
-                  <catDesc>Gwəlt Deed</catDesc>
-               </category>
-               <category xml:id="RestDeed" corresp="https://betamasaheft.eu/authority-files/RestDeed/main">
-                  <catDesc>Rəst Deed</catDesc>
-               </category>
-               <category xml:id="RestaGweltDeed" corresp="https://betamasaheft.eu/authority-files/RestaGweltDeed/main">
-                  <catDesc>Rəsta gwəlt Deed</catDesc>
-               </category>
-            </category>
-            <category xml:id="Rim" corresp="https://betamasaheft.eu/authority-files/Rim/main">
-               <catDesc>Rim</catDesc>
-            </category>
-            <category xml:id="siso" corresp="https://betamasaheft.eu/authority-files/siso/main">
-               <catDesc>Siso</catDesc>
-            </category>
-            <category xml:id="Tazkar" corresp="https://betamasaheft.eu/authority-files/Tazkar/main">
-               <catDesc>Tazkar</catDesc>
-            </category>
-            <category xml:id="Renovation" corresp="https://betamasaheft.eu/authority-files/Renovation/main">
-               <catDesc>Renovation</catDesc>
-            </category>
-            <category xml:id="Confirmation" corresp="https://betamasaheft.eu/authority-files/Confirmation/main">
-               <catDesc>Confirmation</catDesc>
-            </category>
-            <category xml:id="FoundationCharter" corresp="https://betamasaheft.eu/authority-files/FoundationCharter/main">
-               <catDesc>Foundation Charter</catDesc>
-            </category>
-            <category xml:id="unclearOwnershipDocument" corresp="https://betamasaheft.eu/authority-files/unclearOwnershipDocument/main">
-               <catDesc>Unclear Ownership</catDesc>
-            </category>
-         </category>
-         <category xml:id="Genealogy" corresp="https://betamasaheft.eu/authority-files/Genealogy/main">
-            <catDesc>Genealogy</catDesc>
-         </category>
-         <category xml:id="ScribalSignature" corresp="https://betamasaheft.eu/authority-files/ScribalSignature/main">
-            <catDesc>Scribal Signature</catDesc>
-         </category>
-         <category xml:id="Supplication" corresp="https://betamasaheft.eu/authority-files/Supplication/main">
-            <catDesc>Supplication</catDesc>
-         </category>
-         <category xml:id="Subscription" corresp="https://betamasaheft.eu/authority-files/Subscription/main">
-            <catDesc>Subscription</catDesc>
-         </category>
-         <category xml:id="Doxology" corresp="https://betamasaheft.eu/authority-files/Doxology/main">
-            <catDesc>Doxology</catDesc>
-         </category>
-         <category xml:id="Exhortation" corresp="https://betamasaheft.eu/authority-files/Exhortation/main">
-            <catDesc>Exhortation</catDesc>
-         </category>
-         <category xml:id="Invocation" corresp="https://betamasaheft.eu/authority-files/Invocation/main">
-            <catDesc>Invocation</catDesc>
-         </category>
-         <category xml:id="Inventory" corresp="https://betamasaheft.eu/authority-files/Inventory/main">
-            <catDesc>Inventory</catDesc>
-         </category>
-         <category xml:id="ScribalNoteCommencing" corresp="https://betamasaheft.eu/authority-files/ScribalNoteCommencing/main">
-            <catDesc>Scribal Note Commencing</catDesc>
-         </category>
-         <category xml:id="ScribalNoteOrdering" corresp="https://betamasaheft.eu/authority-files/ScribalNoteOrdering/main">
-            <catDesc>Scribal Note Ordering</catDesc>
-         </category>
-         <category xml:id="ScribalNoteCommissioning" corresp="https://betamasaheft.eu/authority-files/ScribalNoteCommissioning/main">
-            <catDesc>Scribal Note Commissioning</catDesc>
-         </category>
-         <category xml:id="ScribalNoteCompleting" corresp="https://betamasaheft.eu/authority-files/ScribalNoteCompleting/main">
-            <catDesc>Scribal Note Completing</catDesc>
-         </category>
-         <category xml:id="ScribalNoteAssigningLand" corresp="https://betamasaheft.eu/authority-files/ScribalNoteAssigningLand/main">
-            <catDesc>Scribal Note Assigning Land</catDesc>
-         </category>
-         <category xml:id="ScribalNoteBequeathing" corresp="https://betamasaheft.eu/authority-files/ScribalNoteBequeathing/main">
-            <catDesc>Scribal Note Bequeathing</catDesc>
-         </category>
-         <category xml:id="RecordReconciliation" corresp="https://betamasaheft.eu/authority-files/RecordReconciliation/main">
-            <catDesc>Record Reconciliation</catDesc>
-         </category>
-         <category xml:id="RecordLitigation" corresp="https://betamasaheft.eu/authority-files/RecordLitigation/main">
-            <catDesc>Record Litigation</catDesc>
-         </category>
-         <category xml:id="RecordTransaction" corresp="https://betamasaheft.eu/authority-files/RecordTransaction/main">
-            <catDesc>Record Transaction</catDesc>
-         </category>
-         <category xml:id="RecordDistribution" corresp="https://betamasaheft.eu/authority-files/RecordDistribution/main">
-            <catDesc>Record Distribution</catDesc>
-         </category>
-         <category xml:id="RecordGuarantors" corresp="https://betamasaheft.eu/authority-files/RecordGuarantors/main">
-            <catDesc>Record Guarantors</catDesc>
-         </category>
-         <category xml:id="Record" corresp="https://betamasaheft.eu/authority-files/Record/main">
-            <catDesc>Record</catDesc>
-         </category>
-         <category xml:id="ScribalSupplication" corresp="https://betamasaheft.eu/authority-files/ScribalSupplication/main">
-            <catDesc>Scribal Supplication</catDesc>
-         </category>
-         <category xml:id="Unclear" corresp="https://betamasaheft.eu/authority-files/Unclear/main">
-            <catDesc>Unclear</catDesc>
-         </category>
-         <category xml:id="GuarantorsList" corresp="https://betamasaheft.eu/authority-files/GuarantorsList/main">
-            <catDesc>Guarantors List</catDesc>
-         </category>
-         <category xml:id="CommemorativeNote" corresp="https://betamasaheft.eu/authority-files/CommemorativeNote/main">
-            <catDesc>Commemorative Note</catDesc>
-         </category>
-         <category xml:id="Condemnation" corresp="https://betamasaheft.eu/authority-files/Condemnation/main">
-            <catDesc>Condemnation</catDesc>
-         </category>
-         <category xml:id="ProtectivePrayer" corresp="https://betamasaheft.eu/authority-files/ProtectivePrayer/main">
-            <catDesc>Protective Prayer</catDesc>
-         </category>
-         <category xml:id="Poem" corresp="https://betamasaheft.eu/authority-files/Poem/main">
-            <catDesc>Poem</catDesc>
-         </category>
-         <category xml:id="PoemQene" corresp="https://betamasaheft.eu/authority-files/PoemQene/main">
-            <catDesc>Poem Qǝne</catDesc>
-         </category>
-         <category xml:id="PoemSalam" corresp="https://betamasaheft.eu/authority-files/PoemSalam/main">
-            <catDesc>Poem Salām</catDesc>
-         </category>
-         <category xml:id="PoemArke" corresp="https://betamasaheft.eu/authority-files/PoemArke/main">
-            <catDesc>Poem Arke</catDesc>
-         </category>
-         <category xml:id="StampExlibris" corresp="https://betamasaheft.eu/authority-files/StampExlibris/main">
-            <catDesc>Stamp Ex libris</catDesc>
-         </category>
-         <category xml:id="CalendaricNote" corresp="https://betamasaheft.eu/authority-files/CalendaricNote/main">
-            <catDesc>Calendaric Note</catDesc>
-         </category>
-         <category xml:id="Excerpt" corresp="https://betamasaheft.eu/authority-files/Excerpt/main">
-            <catDesc>Excerpt</catDesc>
-         </category>
-         <category xml:id="MagicFormula" corresp="https://betamasaheft.eu/authority-files/MagicFormula/main">
-            <catDesc>Magic Formula</catDesc>
-         </category>
-         <category xml:id="MagicText" corresp="https://betamasaheft.eu/authority-files/MagicText/main">
-            <catDesc>Magic Text</catDesc>
-         </category>
-         <category xml:id="Excommunication" corresp="https://betamasaheft.eu/authority-files/Excommunication/main">
-            <catDesc>Excommunication</catDesc>
-         </category>
-         <category xml:id="MalkeHymn" corresp="https://betamasaheft.eu/authority-files/MalkeHymn/main">
-            <catDesc>Malkǝʾ Hymn</catDesc>
-         </category>
-         <category xml:id="Directive" corresp="https://betamasaheft.eu/authority-files/Directive/main">
-            <catDesc>Directive</catDesc>
-         </category>
-         <category xml:id="Asmat" corresp="https://betamasaheft.eu/authority-files/Asmat/main">
-            <catDesc>ʾAsmāt</catDesc>
-         </category>
-         <category xml:id="CustomaryLaw" corresp="https://betamasaheft.eu/authority-files/CustomaryLaw/main">
-            <catDesc>CustomaryLaw</catDesc>
-         </category>
-         <category xml:id="Statutes" corresp="https://betamasaheft.eu/authority-files/Statutes/main">
-            <catDesc>Statutes</catDesc>
-         </category>
-         <category xml:id="MixedNote" corresp="https://betamasaheft.eu/authority-files/MixedNote/main">
-            <catDesc>Mixed Note</catDesc>
-         </category>
-         <category xml:id="findingAid" corresp="https://betamasaheft.eu/authority-files/findingAid/main">
-            <catDesc>Finding Aid</catDesc>
-         </category>
-      </category>
-      <category>
-         <desc>Art Keywords</desc>
-         <category xml:id="AksumiteStyle" corresp="https://betamasaheft.eu/authority-files/AksumiteStyle/main">
-            <catDesc>Aksumite Style</catDesc>
-         </category>
-         <category xml:id="FirstSolomonicStyle" corresp="https://betamasaheft.eu/authority-files/FirstSolomonicStyle/main">
-            <catDesc>First Solomonic Style</catDesc>
-         </category>
-         <category xml:id="SecondSolomonicStyle" corresp="https://betamasaheft.eu/authority-files/SecondSolomonicStyle/main">
-            <catDesc>Second Solomonic Style</catDesc>
-         </category>
-         <category xml:id="ThirdSolomonicStyle" corresp="https://betamasaheft.eu/authority-files/ThirdSolomonicStyle/main">
-            <catDesc>Third Solomonic Style</catDesc>
-         </category>
-         <category xml:id="FirstGondarineStyle" corresp="https://betamasaheft.eu/authority-files/FirstGondarineStyle/main">
-            <catDesc>First Gondarine Style</catDesc>
-         </category>
-         <category xml:id="GeometricStyle" corresp="https://betamasaheft.eu/authority-files/GeometricStyle/main">
-            <catDesc>Geometric Style</catDesc>
-         </category>
-         <category xml:id="SecondGondarineStyle" corresp="https://betamasaheft.eu/authority-files/SecondGondarineStyle/main">
-            <catDesc>Second Gondarine Style</catDesc>
-         </category>
-         <category xml:id="PostGondarineStyle" corresp="https://betamasaheft.eu/authority-files/PostGondarineStyle/main">
-            <catDesc>Zamana Masāfǝnt Style</catDesc>
-         </category>
-         <category xml:id="ModernStyle" corresp="https://betamasaheft.eu/authority-files/ModernStyle/main">
-            <catDesc>Modern Style</catDesc>
-         </category>
-         <category xml:id="ShortCycle" corresp="https://betamasaheft.eu/authority-files/ShortCycle/main">
-            <catDesc>Short Cycle</catDesc>
-         </category>
-         <category xml:id="LongCycle" corresp="https://betamasaheft.eu/authority-files/LongCycle/main">
-            <catDesc>Long Cycle</catDesc>
-         </category>
-         <category xml:id="attribute" corresp="https://betamasaheft.eu/authority-files/attribute/main">
-            <catDesc>attribute</catDesc>
-         </category>
-         <category xml:id="bearded" corresp="https://betamasaheft.eu/authority-files/bearded/main">
-            <catDesc>bearded</catDesc>
-         </category>
-         <category xml:id="beardless" corresp="https://betamasaheft.eu/authority-files/beardless/main">
-            <catDesc>beardless</catDesc>
-         </category>
-         <category xml:id="deadjesus" corresp="https://betamasaheft.eu/authority-files/deadjesus/main">
-            <catDesc>Dead Jesus</catDesc>
-         </category>
-         <category xml:id="demon" corresp="https://betamasaheft.eu/authority-files/demon/main">
-            <catDesc>demon</catDesc>
-         </category>
-         <category xml:id="donordepiction" corresp="https://betamasaheft.eu/authority-files/donordepiction/main">
-            <catDesc>donor depiction</catDesc>
-         </category>
-         <category xml:id="dragon" corresp="https://betamasaheft.eu/authority-files/dragon/main">
-            <catDesc>dragon</catDesc>
-         </category>
-         <category xml:id="emptycross" corresp="https://betamasaheft.eu/authority-files/emptycross/main">
-            <catDesc>Empty Cross</catDesc>
-         </category>
-         <category xml:id="livingjesus" corresp="https://betamasaheft.eu/authority-files/livingjesus/main">
-            <catDesc>Living Jesus</catDesc>
-         </category>
-         <category xml:id="interlace" corresp="https://betamasaheft.eu/authority-files/interlace/main">
-            <catDesc>interlace</catDesc>
-         </category>
-         <category xml:id="gesture" corresp="https://betamasaheft.eu/authority-files/gesture/main">
-            <catDesc>gesture</catDesc>
-         </category>
-         <category xml:id="gestureblessing" corresp="https://betamasaheft.eu/authority-files/gestureblessing/main">
-            <catDesc>gesture of blessing</catDesc>
-         </category>
-         <category xml:id="gesturecrossed" corresp="https://betamasaheft.eu/authority-files/gesturecrossed/main">
-            <catDesc>gesture of crossed arms</catDesc>
-         </category>
-         <category xml:id="gesturefoldedhands" corresp="https://betamasaheft.eu/authority-files/gesturefoldedhands/main">
-            <catDesc>gesture of folded hands</catDesc>
-         </category>
-         <category xml:id="gesturegrief" corresp="https://betamasaheft.eu/authority-files/gesturegrief/main">
-            <catDesc>gesture of grief</catDesc>
-         </category>
-         <category xml:id="gestureorans" corresp="https://betamasaheft.eu/authority-files/gestureorans/main">
-            <catDesc>orans</catDesc>
-         </category>
-         <category xml:id="gesturewitnessing" corresp="https://betamasaheft.eu/authority-files/gesturewitnessing/main">
-            <catDesc>gesture of witnessing</catDesc>
-         </category>
-         <category xml:id="halo" corresp="https://betamasaheft.eu/authority-files/halo/main">
-            <catDesc>halo</catDesc>
-         </category>
-         <category xml:id="handGod" corresp="https://betamasaheft.eu/authority-files/handGod/main">
-            <catDesc>Hand of God</catDesc>
-         </category>
-         <category xml:id="HolySpirit" corresp="https://betamasaheft.eu/authority-files/HolySpirit/main">
-            <catDesc>Holy Spirit</catDesc>
-         </category>
-         <category xml:id="mandorla" corresp="https://betamasaheft.eu/authority-files/mandorla/main">
-            <catDesc>mandorla</catDesc>
-         </category>
-         <category xml:id="saluspopuli" corresp="https://betamasaheft.eu/authority-files/saluspopuli/main">
-            <catDesc>Salus Populi Romani</catDesc>
-         </category>
-         <category xml:id="hodegetria" corresp="https://betamasaheft.eu/authority-files/hodegetria/main">
-            <catDesc>Hodegetria</catDesc>
-         </category>
-         <category xml:id="seated" corresp="https://betamasaheft.eu/authority-files/seated/main">
-            <catDesc>seated</catDesc>
-         </category>
-         <category xml:id="standing" corresp="https://betamasaheft.eu/authority-files/standing/main">
-            <catDesc>standing</catDesc>
-         </category>
-         <category xml:id="spinning" corresp="https://betamasaheft.eu/authority-files/spinning/main">
-            <catDesc>spinning</catDesc>
-         </category>
-         <category xml:id="sunandmoon" corresp="https://betamasaheft.eu/authority-files/sunandmoon/main">
-            <catDesc>Sun and Moon</catDesc>
-         </category>
-         <category xml:id="star" corresp="https://betamasaheft.eu/authority-files/star/main">
-            <catDesc>Star</catDesc>
-         </category>
-         <category xml:id="tetramorph" corresp="https://betamasaheft.eu/authority-files/tetramorph/main">
-            <catDesc>Tetramorph</catDesc>
-         </category>
-         <category xml:id="twothieves" corresp="https://betamasaheft.eu/authority-files/twothieves/main">
-            <catDesc>Two Thieves</catDesc>
-         </category>
-         <category xml:id="scabbard" corresp="https://betamasaheft.eu/authority-files/scabbard/main">
-            <catDesc>Scabbard</catDesc>
-         </category>
-         <category xml:id="protectiveCurtain" corresp="https://betamasaheft.eu/authority-files/protectiveCurtain/main">
-            <catDesc>Protective Curtain</catDesc>
-         </category>
-      </category>
-      <category>
-         <desc>Objects and Animals</desc>
-         <category xml:id="animal" corresp="https://betamasaheft.eu/authority-files/animal/main">
-            <catDesc>animal</catDesc>
-         </category>
-         <category xml:id="arch" corresp="https://betamasaheft.eu/authority-files/arch/main">
-            <catDesc>arch</catDesc>
-         </category>
-         <category xml:id="architecture" corresp="https://betamasaheft.eu/authority-files/architecture/main">
-            <catDesc>architecture</catDesc>
-         </category>
-         <category xml:id="bird" corresp="https://betamasaheft.eu/authority-files/bird/main">
-            <catDesc>bird</catDesc>
-         </category>
-         <category xml:id="canopy" corresp="https://betamasaheft.eu/authority-files/canopy/main">
-            <catDesc>canopy</catDesc>
-         </category>
-         <category xml:id="censer" corresp="https://betamasaheft.eu/authority-files/censer/main">
-            <catDesc>censer</catDesc>
-         </category>
-         <category xml:id="codex" corresp="https://betamasaheft.eu/authority-files/codex/main">
-            <catDesc>codex</catDesc>
-         </category>
-         <category xml:id="column" corresp="https://betamasaheft.eu/authority-files/column/main">
-            <catDesc>column</catDesc>
-         </category>
-         <category xml:id="cross" corresp="https://betamasaheft.eu/authority-files/cross/main">
-            <catDesc>cross</catDesc>
-         </category>
-         <category xml:id="crown" corresp="https://betamasaheft.eu/authority-files/crown/main">
-            <catDesc>crown</catDesc>
-         </category>
-         <category xml:id="curtain" corresp="https://betamasaheft.eu/authority-files/curtain/main">
-            <catDesc>curtain</catDesc>
-         </category>         
-         <category xml:id="eucharist" corresp="https://betamasaheft.eu/authority-files/eucharist/main">
-            <catDesc>eucharist</catDesc>
-         </category>
-         <category xml:id="globe" corresp="https://betamasaheft.eu/authority-files/globe/main">
-            <catDesc>globe</catDesc>
-         </category>
-         <category xml:id="maniple" corresp="https://betamasaheft.eu/authority-files/maniple/main">
-            <catDesc>maniple</catDesc>
-         </category>
-         <category xml:id="prayerstaff" corresp="https://betamasaheft.eu/authority-files/prayerstaff/main">
-            <catDesc>prayer staff</catDesc>
-         </category>
-         <category xml:id="rod" corresp="https://betamasaheft.eu/authority-files/rod/main">
-            <catDesc>rod</catDesc>
-         </category>
-         <category xml:id="scale" corresp="https://betamasaheft.eu/authority-files/scale/main">
-            <catDesc>scale</catDesc>
-         </category>
-         <category xml:id="scroll" corresp="https://betamasaheft.eu/authority-files/scroll/main">
-            <catDesc>scroll</catDesc>
-         </category>
-         <category xml:id="shield" corresp="https://betamasaheft.eu/authority-files/shield/main">
-            <catDesc>shield</catDesc>
-         </category>
-         <category xml:id="spear" corresp="https://betamasaheft.eu/authority-files/spear/main">
-            <catDesc>spear</catDesc>
-         </category>
-         <category xml:id="sponge" corresp="https://betamasaheft.eu/authority-files/sponge/main">
-            <catDesc>sponge</catDesc>
-         </category>
-         <category xml:id="sword" corresp="https://betamasaheft.eu/authority-files/sword/main">
-            <catDesc>sword</catDesc>
-         </category>
-         <category xml:id="vestment" corresp="https://betamasaheft.eu/authority-files/vestment/main">
-            <catDesc>vestment</catDesc>
-         </category>
-      </category>
-      <category>
-         <desc>Art Themes</desc>
-         <category xml:id="AT1068AdamandEveeatfruit" corresp="https://betamasaheft.eu/authority-files/AT1068AdamandEveeatfruit/main">
-            <catDesc>Adam and Eve eat the Forbidden Fruit</catDesc>
-         </category>
-         <category xml:id="AT1001Agony" corresp="https://betamasaheft.eu/authority-files/AT1001Agony/main">
-            <catDesc>Agony in the garden</catDesc>
-         </category>
-         <category xml:id="AT1082Angel" corresp="https://betamasaheft.eu/authority-files/AT1082Angel/main">
-            <catDesc>Angel</catDesc>
-         </category>
-         <category xml:id="AT1002Annunciation" corresp="https://betamasaheft.eu/authority-files/AT1002Annunciation/main">
-            <catDesc>Annunciation</catDesc>
-         </category>
-         <category xml:id="AT1054AnnunciationZaccharia" corresp="https://betamasaheft.eu/authority-files/AT1054AnnunciationZaccharia/main">
-            <catDesc>Annunciation to Zacharias</catDesc>
-         </category>
-         <category xml:id="AT1046Apostle" corresp="https://betamasaheft.eu/authority-files/AT1046Apostle/main">
-            <catDesc>Apostle Portrait</catDesc>
-         </category>
-         <category xml:id="AT1047Apostles" corresp="https://betamasaheft.eu/authority-files/AT1047Apostles/main">
-            <catDesc>Apostles Portrait</catDesc>
-         </category>
-         <category xml:id="AT1003Arrest" corresp="https://betamasaheft.eu/authority-files/AT1003Arrest/main">
-            <catDesc>Arrest of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1033Ascension" corresp="https://betamasaheft.eu/authority-files/AT1033Ascension/main">
-            <catDesc>Ascension of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1037AscensionMary" corresp="https://betamasaheft.eu/authority-files/AT1037AscensionMary/main">
-            <catDesc>Assumption of Mary</catDesc>
-         </category>
-         <category xml:id="AT1038Baptism" corresp="https://betamasaheft.eu/authority-files/AT1038Baptism/main">
-            <catDesc>Baptism of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1004Bitter" corresp="https://betamasaheft.eu/authority-files/AT1004Bitter/main">
-            <catDesc>Bitter Water Ordeal</catDesc>
-         </category>
-         <category xml:id="AT1062CoronationMary" corresp="https://betamasaheft.eu/authority-files/AT1062CoronationMary/main">
-            <catDesc>Coronation of Mary</catDesc>
-         </category>
-         <category xml:id="AT1036MercyCovenant" corresp="https://betamasaheft.eu/authority-files/AT1036MercyCovenant/main">
-            <catDesc>Covenant of Mercy</catDesc>
-         </category>
-         <category xml:id="AT1005Crucifixion" corresp="https://betamasaheft.eu/authority-files/AT1005Crucifixion/main">
-            <catDesc>Crucifixion of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1071Cross" corresp="https://betamasaheft.eu/authority-files/AT1071Cross/main">
-            <catDesc>Cross</catDesc>
-         </category>
-         <category xml:id="AT1079DavidGoliath" corresp="https://betamasaheft.eu/authority-files/AT1079DavidGoliath/main">
-            <catDesc>David Beheads Goliath</catDesc>
-         </category>
-         <category xml:id="AT1066DavidHarp" corresp="https://betamasaheft.eu/authority-files/AT1066DavidHarp/main">
-            <catDesc>David Playing the Harp</catDesc>
-         </category>
-         <category xml:id="AT1006Denial" corresp="https://betamasaheft.eu/authority-files/AT1006Denial/main">
-            <catDesc>Denial of Peter</catDesc>
-         </category>
-         <category xml:id="AT1007Deposition" corresp="https://betamasaheft.eu/authority-files/AT1007Deposition/main">
-            <catDesc>Deposition from the Cross</catDesc>
-         </category>
-         <category xml:id="AT1008Descent" corresp="https://betamasaheft.eu/authority-files/AT1008Descent/main">
-            <catDesc>Descent into Hell</catDesc>
-         </category>
-         <category xml:id="AT1058DormitionMary" corresp="https://betamasaheft.eu/authority-files/AT1058DormitionMary/main">
-            <catDesc>Dormition of Mary</catDesc>
-         </category>
-         <category xml:id="AT1009Doubting" corresp="https://betamasaheft.eu/authority-files/AT1009Doubting/main">
-            <catDesc>Doubting of Thomas</catDesc>
-         </category>
-         <category xml:id="AT1010Entombment" corresp="https://betamasaheft.eu/authority-files/AT1010Entombment/main">
-            <catDesc>Entombment of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1011Entry" corresp="https://betamasaheft.eu/authority-files/AT1011Entry/main">
-            <catDesc>Entry into Jerusalem</catDesc>
-         </category>
-         <category xml:id="AT1012Equestrian" corresp="https://betamasaheft.eu/authority-files/AT1012Equestrian/main">
-            <catDesc>Equestrian Saint</catDesc>
-         </category>
-         <category xml:id="AT1013EvaPortrait" corresp="https://betamasaheft.eu/authority-files/AT1013EvaPortrait/main">
-            <catDesc>Evangelist Portrait</catDesc>
-         </category>
-         <category xml:id="AT1014Evangelists" corresp="https://betamasaheft.eu/authority-files/AT1014Evangelists/main">
-            <catDesc>Evangelists</catDesc>
-         </category>
-         <category xml:id="AT1015Flagellation" corresp="https://betamasaheft.eu/authority-files/AT1015Flagellation/main">
-            <catDesc>Flagellation of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1016Flight" corresp="https://betamasaheft.eu/authority-files/AT1016Flight/main">
-            <catDesc>Flight into Egypt</catDesc>
-         </category>
-         <category xml:id="AT1101GodtheFather" corresp="https://betamasaheft.eu/authority-files/AT1101GodtheFather/main">
-            <catDesc>God the Father</catDesc>
-         </category>
-         <category xml:id="AT1042HagiographicScene" corresp="https://betamasaheft.eu/authority-files/AT1042HagiographicScene/main">
-            <catDesc>Hagiographic Scene</catDesc>
-         </category>
-         <category xml:id="AT1051HistoricalPerson" corresp="https://betamasaheft.eu/authority-files/AT1051HistoricalPerson/main">
-            <catDesc>Historical Person Portrait</catDesc>
-         </category>
-         <category xml:id="AT1052HistoricalPersons" corresp="https://betamasaheft.eu/authority-files/AT1052HistoricalPersons/main">
-            <catDesc>Historical Persons Portrait</catDesc>
-         </category>
-         <category xml:id="AT1053HistoricalScene" corresp="https://betamasaheft.eu/authority-files/AT1053HistoricalScene/main">
-            <catDesc>Historical Scene</catDesc>
-         </category>
-         <category xml:id="AT1035HolyMan" corresp="https://betamasaheft.eu/authority-files/AT1035HolyMan/main">
-            <catDesc>Holy Man Portrait</catDesc>
-         </category>
-         <category xml:id="AT1041HolyMen" corresp="https://betamasaheft.eu/authority-files/AT1041HolyMen/main">
-            <catDesc>Holy Men Potrait</catDesc>
-         </category>
-         <category xml:id="AT1105HolyWoman" corresp="https://betamasaheft.eu/authority-files/AT1105HolyWoman/main">
-            <catDesc>Holy Woman</catDesc>
-         </category>
-         <category xml:id="AT1106HolyWomen" corresp="https://betamasaheft.eu/authority-files/AT1106HolyWomen/main">
-            <catDesc>Holy Women</catDesc>
-         </category>
-         <category xml:id="AT1017WomenAtTomb" corresp="https://betamasaheft.eu/authority-files/AT1017WomenAtTomb/main">
-            <catDesc>Holy Women at Tomb</catDesc>
-         </category>
-         <category xml:id="AT1018JBefPilate" corresp="https://betamasaheft.eu/authority-files/AT1018JBefPilate/main">
-            <catDesc>Jesus before Pilate</catDesc>
-         </category>
-         <category xml:id="AT1084JesusChrist" corresp="https://betamasaheft.eu/authority-files/AT1084JesusChrist/main">
-            <catDesc>Jesus Christ</catDesc>
-         </category>
-         <category xml:id="AT1070JesushealstheBlind" corresp="https://betamasaheft.eu/authority-files/AT1070JesushealstheBlind/main">
-            <catDesc>Jesus Heals the Blind</catDesc>
-         </category>
-         <category xml:id="AT1048Lamentation" corresp="https://betamasaheft.eu/authority-files/AT1048Lamentation/main">
-            <catDesc>Lamentation of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1057LastJudgement" corresp="https://betamasaheft.eu/authority-files/AT1057LastJudgement/main">
-            <catDesc>Last Judgment</catDesc>
-         </category>
-         <category xml:id="AT1067LastSupper" corresp="https://betamasaheft.eu/authority-files/AT1067LastSupper/main">
-            <catDesc>The Last Supper</catDesc>
-         </category>
-         <category xml:id="AT1019Cana" corresp="https://betamasaheft.eu/authority-files/AT1019Cana/main">
-            <catDesc>Marriage at Cana</catDesc>
-         </category>
-         <category xml:id="AT1061SaintMartyrdom" corresp="https://betamasaheft.eu/authority-files/AT1061SaintMartyrdom/main">
-            <catDesc>Martyrdom</catDesc>
-         </category>
-         <category xml:id="AT1063AngelFeedsMary" corresp="https://betamasaheft.eu/authority-files/AT1063AngelFeedsMary/main">
-            <catDesc>Mary fed by an Angel</catDesc>
-         </category>
-         
-         <category xml:id="AT1020Massacre" corresp="https://betamasaheft.eu/authority-files/AT1020Massacre/main">
-            <catDesc>Massacre of the Innocents</catDesc>
-         </category>
-         <category xml:id="AT1021MiraclesOfJesus" corresp="https://betamasaheft.eu/authority-files/AT1021MiraclesOfJesus/main">
-            <catDesc>Miracles of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1022MiraclesOfMary" corresp="https://betamasaheft.eu/authority-files/AT1022MiraclesOfMary/main">
-            <catDesc>Miracle of Mary: Unidentified miracle</catDesc>
-         </category>
-         <category xml:id="AT1023Mocking" corresp="https://betamasaheft.eu/authority-files/AT1023Mocking/main">
-            <catDesc>Mocking of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1024MosesLaw" corresp="https://betamasaheft.eu/authority-files/AT1024MosesLaw/main">
-            <catDesc>Moses Receiving Law</catDesc>
-         </category>
-         <category xml:id="AT1025NativityJesus" corresp="https://betamasaheft.eu/authority-files/AT1025NativityJesus/main">
-            <catDesc>Nativity of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1026NativityMary" corresp="https://betamasaheft.eu/authority-files/AT1026NativityMary/main">
-            <catDesc>Nativity of Mary</catDesc>
-         </category>
-         <category xml:id="AT1050ApparitionResur" corresp="https://betamasaheft.eu/authority-files/AT1050ApparitionResur/main">
-            <catDesc>Post-Resurrection Appearance of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1043PresentationMary" corresp="https://betamasaheft.eu/authority-files/AT1043PresentationMary/main">
-            <catDesc>Presentation of Mary</catDesc>
-         </category>
-         <category xml:id="AT1027PresentationJesus" corresp="https://betamasaheft.eu/authority-files/AT1027PresentationJesus/main">
-            <catDesc>Presentation of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1044Prophet" corresp="https://betamasaheft.eu/authority-files/AT1044Prophet/main">
-            <catDesc>Prophet Portrait</catDesc>
-         </category>
-         <category xml:id="AT1045Prophets" corresp="https://betamasaheft.eu/authority-files/AT1045Prophets/main">
-            <catDesc>Prophets Portraits</catDesc>
-         </category>
-         <category xml:id="AT1049Resurrection" corresp="https://betamasaheft.eu/authority-files/AT1049Resurrection/main">
-            <catDesc>Resurrection of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1065RoadtoCalvary" corresp="https://betamasaheft.eu/authority-files/AT1065RoadtoCalvary/main">
-            <catDesc>Road to Calvary</catDesc>
-         </category>
-         <category xml:id="AT1092SacrificeIsaac" corresp="https://betamasaheft.eu/authority-files/AT1092SacrificeIsaac/main">
-            <catDesc>The Sacrifice of Isaac</catDesc>
-         </category>
-         <category xml:id="AT1096SavioroftheWorld" corresp="https://betamasaheft.eu/authority-files/AT1096SavioroftheWorld/main">
-            <catDesc>Savior of the World (Jesus seated holding orb)</catDesc>
-         </category>
-         <category xml:id="AT1086StrikingHead" corresp="https://betamasaheft.eu/authority-files/AT1086StrikingHead/main">
-            <catDesc>The Striking of the Head, ኵርዓተ፡ ርእሱ፡</catDesc>
-         </category>
-         <category xml:id="AT1028HebrewsFurnace" corresp="https://betamasaheft.eu/authority-files/AT1028HebrewsFurnace/main">
-            <catDesc>Three Hebrews</catDesc>
-         </category>
-         <category xml:id="AT1093TakingRobeofJesus" corresp="https://betamasaheft.eu/authority-files/AT1093TakingRobeofJesus/main">
-            <catDesc>Taking off the Robe of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1034Tempietto" corresp="https://betamasaheft.eu/authority-files/AT1034Tempietto/main">
-            <catDesc>Tempietto</catDesc>
-         </category>
-         <category xml:id="AT1060TemptationJesus" corresp="https://betamasaheft.eu/authority-files/AT1060TemptationJesus/main">
-            <catDesc>Temptation of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1029Transfiguration" corresp="https://betamasaheft.eu/authority-files/AT1029Transfiguration/main">
-            <catDesc>Transfiguration of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1030Trinity" corresp="https://betamasaheft.eu/authority-files/AT1030Trinity/main">
-            <catDesc>The Trinity</catDesc>
-         </category>
-         <category xml:id="AT1031VirginAndChild" corresp="https://betamasaheft.eu/authority-files/AT1031VirginAndChild/main">
-            <catDesc>Virgin and Child</catDesc>
-         </category>
-         <category xml:id="AT1064Visitation" corresp="https://betamasaheft.eu/authority-files/AT1064Visitation/main">
-            <catDesc>Visitation</catDesc>
-         </category>
-         <category xml:id="AT1032Washing" corresp="https://betamasaheft.eu/authority-files/AT1032Washing/main">
-            <catDesc>Washing of the Feet</catDesc>
-         </category>
-         <category xml:id="AT1059WeighingOfSouls" corresp="https://betamasaheft.eu/authority-files/AT1059WeighingOfSouls/main">
-            <catDesc>Weighing of Souls</catDesc>
-         </category>
-         <category xml:id="AT1107Synaxis" corresp="https://betamasaheft.eu/authority-files/AT1107Synaxis/main">
-            <catDesc>Synaxis of the Twelve Apostles</catDesc>
-         </category>
-         <category xml:id="AT1108MMDaqseyos" corresp="https://betamasaheft.eu/authority-files/AT1108MMDaqseyos/main">
-            <catDesc>Miracle of Mary: Daqsǝyos</catDesc>
-         </category>
-         <category xml:id="AT1109MMWorker" corresp="https://betamasaheft.eu/authority-files/AT1109MMWorker/main">
-            <catDesc>Miracle of Mary: Mary speaks to a worker</catDesc>
-         </category>
-         <category xml:id="AT1110MMJew" corresp="https://betamasaheft.eu/authority-files/AT1110MMJew/main">
-            <catDesc>Miracle of Mary: The Jew of ʾAkmim</catDesc>
-         </category>
-         <category xml:id="AT1111MMDamianus" corresp="https://betamasaheft.eu/authority-files/AT1111MMDamianus/main">
-            <catDesc>Miracle of Mary: Dǝmyanos who wrote Mary's name in golden ink</catDesc>
-         </category>
-         <category xml:id="AT1112MMAbbas" corresp="https://betamasaheft.eu/authority-files/AT1112MMAbbas/main">
-            <catDesc>Miracle of Mary: ʾAbbās, bishop of Rome</catDesc>
-         </category>
-         <category xml:id="AT1113MMYeshaq" corresp="https://betamasaheft.eu/authority-files/AT1113MMYeshaq/main">
-            <catDesc>Miracle of Mary: The monk, Yǝsḥaq, who prayed for seven years that St Mary would appear to him</catDesc>
-         </category>
-         <category xml:id="AT1114MMMaryam" corresp="https://betamasaheft.eu/authority-files/AT1114MMMaryam/main">
-            <catDesc>Miracle of Mary: Māryām of Dafrā</catDesc>
-         </category>
-         <category xml:id="AT1115MMFrenchman" corresp="https://betamasaheft.eu/authority-files/AT1115MMFrenchman/main">
-            <catDesc>Miracle of Mary: The French artist who fell from the scaffolding while painting frescoes</catDesc>
-         </category>
-         <category xml:id="AT1116MMJerusalem" corresp="https://betamasaheft.eu/authority-files/AT1116MMJerusalem/main">
-            <catDesc>Miracle of Mary: Mary carries a sick man to Jerusalem</catDesc>
-         </category>
-         <category xml:id="AT1117MMZakaryas" corresp="https://betamasaheft.eu/authority-files/AT1117MMZakaryas/main">
-            <catDesc>Miracle of Mary: Zakāryās, who used to bring roses to the icon of St Mary</catDesc>
-         </category>
-         <category xml:id="AT1118MMYolyana" corresp="https://betamasaheft.eu/authority-files/AT1118MMYolyana/main">
-            <catDesc>Miracle of Mary: Yolyānā and Barbārā from Bethlehem</catDesc>
-         </category>
-         <category xml:id="AT1119MMArabs" corresp="https://betamasaheft.eu/authority-files/AT1119MMArabs/main">
-            <catDesc>Miracle of Mary: The three Arabs journeying to Rif and Salomon, the abbot of Qalamon</catDesc>
-         </category>
-         <category xml:id="AT1120MMSea" corresp="https://betamasaheft.eu/authority-files/AT1120MMSea/main">
-            <catDesc>Miracle of Mary: The church of ʿƎqonā, which was removed to the edge of the sea</catDesc>
-         </category>
-         <category xml:id="AT1121MMYohannes" corresp="https://betamasaheft.eu/authority-files/AT1121MMYohannes/main">
-            <catDesc>Miracle of Mary: The blind priest, Yoḥannǝs Bakansi</catDesc>
-         </category>
-         <category xml:id="AT1122MMGreek" corresp="https://betamasaheft.eu/authority-files/AT1122MMGreek/main">
-            <catDesc>Miracle of Mary: The rich man from Qʷalāsis who fought the Qʷǝz and whose eye was pierced by an arrow</catDesc>
-         </category>
-         <category xml:id="AT1123MMElsabet" corresp="https://betamasaheft.eu/authority-files/AT1123MMElsabet/main">
-            <catDesc>Miracle of Mary: Elizabeth, the blind daughter of Abraham and Gerā ʾAnǝśt of Badǝrmān</catDesc>
-         </category>
-         <category xml:id="AT1124MMWidow" corresp="https://betamasaheft.eu/authority-files/AT1124MMWidow/main">
-            <catDesc>Miracle of Mary: The widow who could not find husbands for her three daughters</catDesc>
-         </category>
-         <category xml:id="AT1125MMScribes" corresp="https://betamasaheft.eu/authority-files/AT1125MMScribes/main">
-            <catDesc>Miracle of Mary: The two brothers who copied the Miracles of Mary</catDesc>
-         </category>
-         <category xml:id="AT1126MMGiyorgis" corresp="https://betamasaheft.eu/authority-files/AT1126MMGiyorgis/main">
-            <catDesc>Miracle of Mary: Giyorgis Ḥaddis, who was delivered from prison</catDesc>
-         </category>
-         <category xml:id="AT1127MMQatir" corresp="https://betamasaheft.eu/authority-files/AT1127MMQatir/main">
-            <catDesc>Miracle of Mary: Kaṭir, the old priest at ʾƎlkǝsus</catDesc>
-         </category>
-         <category xml:id="AT1128MMDyers" corresp="https://betamasaheft.eu/authority-files/AT1128MMDyers/main">
-            <catDesc>Miracle of Mary: The two brothers Tāg and Nazib from Dalgā who were dyers</catDesc>
-         </category>
-         <category xml:id="AT1129MMFrank" corresp="https://betamasaheft.eu/authority-files/AT1129MMFrank/main">
-            <catDesc>Miracle of Mary: The stone-footed man from France</catDesc>
-         </category>
-         <category xml:id="AT1130MMMarqorewos" corresp="https://betamasaheft.eu/authority-files/AT1130MMMarqorewos/main">
-            <catDesc>Miracle of Mary: Bishop Mercurius, whom the patriarch wanted to remove because of leprosy</catDesc>
-         </category>
-         <category xml:id="AT1131MMWoman" corresp="https://betamasaheft.eu/authority-files/AT1131MMWoman/main">
-            <catDesc>Miracle of Mary: The woman with a broken foot from Hartarom</catDesc>
-         </category>
-         <category xml:id="AT1132MMSophia" corresp="https://betamasaheft.eu/authority-files/AT1132MMSophia/main">
-            <catDesc>Miracle of Mary: Sophia, abbess of Mount Carmel, who became pregnant</catDesc>
-         </category>
-         <category xml:id="AT1133MMBarok" corresp="https://betamasaheft.eu/authority-files/AT1133MMBarok/main">
-            <catDesc>Miracle of Mary: Bārok of Finǝqi whom his enemies could not kill until he had confessed himself to a priest</catDesc>
-         </category>
-         <category xml:id="AT1134MMAnestasyos" corresp="https://betamasaheft.eu/authority-files/AT1134MMAnestasyos/main">
-            <catDesc>Miracle of Mary: The deacon ʾAnǝsṭāsyos who recited the prayer tafaśśǝḥi and was healed by Mary</catDesc>
-         </category>
-         <category xml:id="AT1135MMSalusi" corresp="https://betamasaheft.eu/authority-files/AT1135MMSalusi/main">
-            <catDesc>Miracle of Mary: The monk of Dabra Qalǝmon who did not fast</catDesc>
-         </category>
-         <category xml:id="AT1136MMCannibal" corresp="https://betamasaheft.eu/authority-files/AT1136MMCannibal/main">
-            <catDesc>Miracle of Mary: The cannibal of Qǝmǝr</catDesc>
-         </category>
-         <category xml:id="AT1137MMThief" corresp="https://betamasaheft.eu/authority-files/AT1137MMThief/main">
-            <catDesc>Miracle of Mary: The son of a widow, who became a thief, is saved by Mary</catDesc>
-         </category>
-         <category xml:id="AT1138MMFlood" corresp="https://betamasaheft.eu/authority-files/AT1138MMFlood/main">
-            <catDesc>Miracle of Mary: The pregnant woman who was caught by the tide while going to the church of St Michael</catDesc>
-         </category>
-         <category xml:id="AT1139MMDog" corresp="https://betamasaheft.eu/authority-files/AT1139MMDog/main">
-            <catDesc>Miracle of Mary: Mary gives a thirsty dog water to drink from her shoe</catDesc>
-         </category>         
-         <category xml:id="AT1140AngelGoodThief" corresp="https://betamasaheft.eu/authority-files/AT1140AngelGoodThief/main">
-            <catDesc>The Angel and the Good Thief</catDesc>
-         </category>
-         <category xml:id="AT1141NursingMary" corresp="https://betamasaheft.eu/authority-files/AT1141NursingMary/main">
-            <catDesc>Nursing Mary</catDesc>
-         </category>
-         <category xml:id="AT1142Pentecost" corresp="https://betamasaheft.eu/authority-files/AT1142Pentecost/main">
-            <catDesc>Pentecost</catDesc>
-         </category>
-         <category xml:id="AT1143SecondComingJesus" corresp="https://betamasaheft.eu/authority-files/AT1143SecondComingJesus/main">
-            <catDesc>Second Coming of Jesus</catDesc>
-         </category>
-         <category xml:id="AT1144SealSol" corresp="https://betamasaheft.eu/authority-files/AT1144SealSol/main">
-            <catDesc>Seal of Solomon</catDesc>
-         </category>
-         <category xml:id="AT1145MMGarment" corresp="https://betamasaheft.eu/authority-files/AT1145MMGarment/main">
-            <catDesc>Miracle of Mary: Miracle of the poor monk to whom Mary gave a garment</catDesc>
-         </category>
-         <category xml:id="AT1146JoachimAnnaGrieving" corresp="https://betamasaheft.eu/authority-files/AT1145MMGarment/main">
-            <catDesc>Joachim and Anne grieving for not having a child</catDesc>
-         </category>
-         <category xml:id="AT1147BeheadingJohn" corresp="https://betamasaheft.eu/authority-files/AT1147BeheadingJohn/main">
-            <catDesc>Beheading of John the Baptist</catDesc>
-         </category>
-      </category>
-      <category>
-         <desc>Place types</desc>
-         <category xml:id="tabiya" corresp="https://betamasaheft.eu/authority-files/tabiya/main">
-            <catDesc>ṭābiyā</catDesc>
-         </category>
-         <category xml:id="dabr" corresp="https://betamasaheft.eu/authority-files/dabr/main">
-            <catDesc>dabr</catDesc>
-         </category>
-         <category xml:id="gadam" corresp="https://betamasaheft.eu/authority-files/gadam/main">
-            <catDesc>gadām</catDesc>
-         </category>
-         <category xml:id="gatar" corresp="https://betamasaheft.eu/authority-files/gatar/main">
-            <catDesc>gaṭar</catDesc>
-         </category>
-         <category xml:id="warada" corresp="https://betamasaheft.eu/authority-files/warada/main">
-            <catDesc>waradā</catDesc>
-         </category>
-         <category xml:id="settlement" corresp="https://betamasaheft.eu/authority-files/settlement/main">
-            <catDesc>settlement</catDesc>
-         </category>
-         <category xml:id="archaeologicalSite" corresp="https://betamasaheft.eu/authority-files/archaeologicalSite/main">
-            <catDesc>archaeological site</catDesc>
-         </category>
-         <category xml:id="shrine" corresp="https://betamasaheft.eu/authority-files/shrine/main">
-            <catDesc>shrine</catDesc>
-         </category>
-         <category xml:id="town" corresp="https://betamasaheft.eu/authority-files/town/main">
-            <catDesc>town</catDesc>
-         </category>
-         <category xml:id="region" corresp="https://betamasaheft.eu/authority-files/region/main">
-            <catDesc>region</catDesc>
-         </category>
-         <category xml:id="RegionalState" corresp="https://betamasaheft.eu/authority-files/RegionalState/main">
-            <catDesc>regional state</catDesc>
-         </category>
-         <category xml:id="monastery" corresp="https://betamasaheft.eu/authority-files/monastery/main">
-            <catDesc>monastery</catDesc>
-         </category>
-         <category xml:id="church" corresp="https://betamasaheft.eu/authority-files/church/main">
-            <catDesc>church</catDesc>
-         </category>
-         <category xml:id="lake" corresp="https://betamasaheft.eu/authority-files/lake/main">
-            <catDesc>lake</catDesc>
-         </category>
-         <category xml:id="area" corresp="https://betamasaheft.eu/authority-files/area/main">
-            <catDesc>area</catDesc>
-         </category>
-         <category xml:id="river" corresp="https://betamasaheft.eu/authority-files/river/main">
-            <catDesc>river</catDesc>
-         </category>
-         <category xml:id="mountain" corresp="https://betamasaheft.eu/authority-files/mountain/main">
-            <catDesc>mountain</catDesc>
-         </category>
-         <category xml:id="mosque" corresp="https://betamasaheft.eu/authority-files/mosque/main">
-            <catDesc>mosque</catDesc>
-         </category>
-         <category xml:id="district" corresp="https://betamasaheft.eu/authority-files/district/main">
-            <catDesc>district</catDesc>
-         </category>
-         <category xml:id="valley" corresp="https://betamasaheft.eu/authority-files/valley/main">
-            <catDesc>valley</catDesc>
-         </category>
-         <category xml:id="state" corresp="https://betamasaheft.eu/authority-files/state/main">
-            <catDesc>state</catDesc>
-         </category>
-         <category xml:id="port" corresp="https://betamasaheft.eu/authority-files/port/main">
-            <catDesc>port</catDesc>
-         </category>
-         <category xml:id="religiousSite" corresp="https://betamasaheft.eu/authority-files/religiousSite/main">
-            <catDesc>religious Site</catDesc>
-         </category>
-         <category xml:id="zone" corresp="https://betamasaheft.eu/authority-files/zone/main">
-            <catDesc>zone</catDesc>
-         </category>
-         <category xml:id="country" corresp="https://betamasaheft.eu/authority-files/country/main">
-            <catDesc>country</catDesc>
-         </category>
-         <category xml:id="qushat" corresp="https://betamasaheft.eu/authority-files/qushat/main">
-            <catDesc>qušat</catDesc>
-         </category>
-         <category xml:id="pass" corresp="https://betamasaheft.eu/authority-files/pass/main">
-            <catDesc>pass</catDesc>
-         </category>
-         <category xml:id="island" corresp="https://betamasaheft.eu/authority-files/island/main">
-            <catDesc>island</catDesc>
-         </category>
-         <category xml:id="cataract" corresp="https://betamasaheft.eu/authority-files/cataract/main">
-            <catDesc>cataract</catDesc>
-         </category>
-         <category xml:id="kingdom" corresp="https://betamasaheft.eu/authority-files/kingdom/main">
-            <catDesc>kingdom</catDesc>
-         </category>
-         <category xml:id="spring" corresp="https://betamasaheft.eu/authority-files/spring/main">
-            <catDesc>spring</catDesc>
-         </category>
-         <category xml:id="plateau" corresp="https://betamasaheft.eu/authority-files/plateau/main">
-            <catDesc>plateau</catDesc>
-         </category>
-         <category xml:id="forest" corresp="https://betamasaheft.eu/authority-files/forest/main">
-            <catDesc>forest</catDesc>
-         </category>
-         <category xml:id="administrativeUnit" corresp="https://betamasaheft.eu/authority-files/administrativeUnit/main">
-            <catDesc>administrative unit</catDesc>
-         </category>
-         <category xml:id="emirate" corresp="https://betamasaheft.eu/authority-files/emirate/main">
-            <catDesc>emirate</catDesc>
-         </category>
-         <category xml:id="plain" corresp="https://betamasaheft.eu/authority-files/plain/main">
-            <catDesc>plain</catDesc>
-         </category>
-         <category xml:id="rockSite" corresp="https://betamasaheft.eu/authority-files/rockSite/main">
-            <catDesc>rock site</catDesc>
-         </category>
-         <category xml:id="volcano" corresp="https://betamasaheft.eu/authority-files/volcano/main">
-            <catDesc>volcano</catDesc>
-         </category>
-         <category xml:id="city" corresp="https://betamasaheft.eu/authority-files/city/main">
-            <catDesc>city</catDesc>
-         </category>
-         <category xml:id="falls" corresp="https://betamasaheft.eu/authority-files/falls/main">
-            <catDesc>falls</catDesc>
-         </category>
-         <category xml:id="amba" corresp="https://betamasaheft.eu/authority-files/amba/main">
-            <catDesc>ʾambā</catDesc>
-         </category>
-         <category xml:id="sultanate" corresp="https://betamasaheft.eu/authority-files/sultanate/main">
-            <catDesc>sultanate</catDesc>
-         </category>
-         <category xml:id="sea" corresp="https://betamasaheft.eu/authority-files/sea/main">
-            <catDesc>sea</catDesc>
-         </category>
-         <category xml:id="cape" corresp="https://betamasaheft.eu/authority-files/cape/main">
-            <catDesc>cape</catDesc>
-         </category>
-         <category xml:id="chapel" corresp="https://betamasaheft.eu/authority-files/chapel/main">
-            <catDesc>chapel</catDesc>
-         </category>
-         <category xml:id="zoba" corresp="https://betamasaheft.eu/authority-files/zoba/main">
-            <catDesc>zobā</catDesc>
-         </category>
-         <category xml:id="neuszoba" corresp="https://betamasaheft.eu/authority-files/neuszoba/main">
-            <catDesc>nǝʾus zobā</catDesc>
-         </category>
-         <category xml:id="wadi" corresp="https://betamasaheft.eu/authority-files/wadi/main">
-            <catDesc>wādī</catDesc>
-         </category>
-         <category xml:id="dam" corresp="https://betamasaheft.eu/authority-files/dam/main">
-            <catDesc>dam</catDesc>
-         </category>
-         <category xml:id="quarter" corresp="https://betamasaheft.eu/authority-files/quarter/main">
-            <catDesc>quarter</catDesc>
-         </category>
-         <category xml:id="well" corresp="https://betamasaheft.eu/authority-files/well/main">
-            <catDesc>well</catDesc>
-         </category>
-         <category xml:id="awragga" corresp="https://betamasaheft.eu/authority-files/awragga/main">
-            <catDesc>ʾawrāǧǧā</catDesc>
-         </category>
-         <category xml:id="site" corresp="https://betamasaheft.eu/authority-files/site/main">
-            <catDesc>site</catDesc>
-         </category>
-         <category xml:id="katama" corresp="https://betamasaheft.eu/authority-files/katama/main">
-            <catDesc>katamā</catDesc>
-         </category>
-         <category xml:id="oasis" corresp="https://betamasaheft.eu/authority-files/oasis/main">
-            <catDesc>oasis</catDesc>
-         </category>
-         <category xml:id="gorge" corresp="https://betamasaheft.eu/authority-files/gorge/main">
-            <catDesc>gorge</catDesc>
-         </category>
-         <category xml:id="strait" corresp="https://betamasaheft.eu/authority-files/strait/main">
-            <catDesc>strait</catDesc>
-         </category>
-         <category xml:id="station" corresp="https://betamasaheft.eu/authority-files/station/main">
-            <catDesc>station</catDesc>
-         </category>
-         <category xml:id="post" corresp="https://betamasaheft.eu/authority-files/post/main">
-            <catDesc>post</catDesc>
-         </category>
-         <category xml:id="market" corresp="https://betamasaheft.eu/authority-files/market/main">
-            <catDesc>market</catDesc>
-         </category>
-         <category xml:id="temple" corresp="https://betamasaheft.eu/authority-files/temple/main">
-            <catDesc>temple</catDesc>
-         </category>
-         <category xml:id="planet" corresp="https://betamasaheft.eu/authority-files/planet/main">
-            <catDesc>planet</catDesc>
-         </category>
-         <category xml:id="fort" corresp="https://betamasaheft.eu/authority-files/fort/main">
-            <catDesc>fort</catDesc>
-         </category>
-         <category xml:id="farm" corresp="https://betamasaheft.eu/authority-files/farm/main">
-            <catDesc>farm</catDesc>
-         </category>
-         <category xml:id="desert" corresp="https://betamasaheft.eu/authority-files/desert/main">
-            <catDesc>desert</catDesc>
-         </category>
-         <category xml:id="cave" corresp="https://betamasaheft.eu/authority-files/cave/main">
-            <catDesc>cave</catDesc>
-         </category>
-         <category xml:id="gulf" corresp="https://betamasaheft.eu/authority-files/gulf/main">
-            <catDesc>gulf</catDesc>
-         </category>
-         <category xml:id="qabale" corresp="https://betamasaheft.eu/authority-files/qabale/main">
-            <catDesc>qabale</catDesc>
-         </category>
-         <category xml:id="peninsula" corresp="https://betamasaheft.eu/authority-files/peninsula/main">
-            <catDesc>peninsula</catDesc>
-         </category>
-         <category xml:id="castle" corresp="https://betamasaheft.eu/authority-files/castle/main">
-            <catDesc>castle</catDesc>
-         </category>
-         <category xml:id="bay" corresp="https://betamasaheft.eu/authority-files/bay/main">
-            <catDesc>bay</catDesc>
-         </category>
-         <category xml:id="academicInstitution" corresp="https://betamasaheft.eu/authority-files/academicInstitution/main">
-            <catDesc>academic institution</catDesc>
-         </category>
-         <category xml:id="library" corresp="https://betamasaheft.eu/authority-files/library/main">
-            <catDesc>library</catDesc>
-         </category>
-         <category xml:id="museum" corresp="https://betamasaheft.eu/authority-files/museum/main">
-            <catDesc>museum</catDesc>
-         </category>
-         <category xml:id="province" corresp="https://betamasaheft.eu/authority-files/province/main">
-            <catDesc>province</catDesc>
-         </category>
-         <category xml:id="depression" corresp="https://betamasaheft.eu/authority-files/depression/main">
-            <catDesc>depression</catDesc>
-         </category>
-         <category xml:id="privateHouse" corresp="https://betamasaheft.eu/authority-files/privateHouse/main">
-            <catDesc>Private House</catDesc>
-         </category>
-         <category xml:id="ford" corresp="https://betamasaheft.eu/authority-files/ford/main">
-            <catDesc>ford</catDesc>
-         </category>
-      </category>
-      <category>
-         <desc>Confessions</desc>
-         <category xml:id="Christianity" corresp="https://betamasaheft.eu/authority-files/Christianity/main">
-            <catDesc>Christianity</catDesc>
-            <category xml:id="Catholicism" corresp="https://betamasaheft.eu/authority-files/Catholicism/main">
-               <catDesc>Catholicism</catDesc>
-            </category>
-            <category xml:id="Protestantism" corresp="https://betamasaheft.eu/authority-files/Protestantism/main">
-               <catDesc>Protestantism</catDesc>
-            </category>
-            <category xml:id="Anglican" corresp="https://betamasaheft.eu/authority-files/Anglican/main">
-               <catDesc>Anglican</catDesc>
-            </category>
-            <category xml:id="Orthodox" corresp="https://betamasaheft.eu/authority-files/Orthodox/main">
-               <catDesc>Orthodox</catDesc>
-               <category xml:id="EOTC" corresp="https://betamasaheft.eu/authority-files/EOTC/main">
-                  <catDesc>EOTC</catDesc>
-               </category>
-               <category xml:id="Coptic" corresp="https://betamasaheft.eu/authority-files/Coptic/main">
-                  <catDesc>Coptic</catDesc>
-               </category>
-               <category xml:id="Syriac" corresp="https://betamasaheft.eu/authority-files/Syriac/main">
-                  <catDesc>Syriac</catDesc>
-               </category>
-               <category xml:id="Greek" corresp="https://betamasaheft.eu/authority-files/Greek/main">
-                  <catDesc>Greek</catDesc>
-               </category>
-               <category xml:id="Russian" corresp="https://betamasaheft.eu/authority-files/Russian/main">
-                  <catDesc>Russian</catDesc>
-               </category>
-               <category xml:id="Armenian" corresp="https://betamasaheft.eu/authority-files/Armenian/main">
-                  <catDesc>Armenian</catDesc>
-               </category>
-            </category>
-         </category>
-         <category xml:id="Islam" corresp="https://betamasaheft.eu/authority-files/Islam/main">
-            <catDesc>Islam</catDesc>
-            <category xml:id="Sunni" corresp="https://betamasaheft.eu/authority-files/Sunni/main">
-               <catDesc>Sunni</catDesc>
-            </category>
-            <category xml:id="Shia" corresp="https://betamasaheft.eu/authority-files/Shia/main">
-               <catDesc>Shia</catDesc>
-            </category>
-         </category>
-         <category xml:id="Judaism" corresp="https://betamasaheft.eu/authority-files/Judaism/main">
-            <catDesc>Judaism</catDesc>
-         </category>
-         <category xml:id="Traditional" corresp="https://betamasaheft.eu/authority-files/Traditional/main">
-            <catDesc>Traditional</catDesc>
-         </category>
-         <category xml:id="Aksumite" corresp="https://betamasaheft.eu/authority-files/Aksumite/main">
-            <catDesc>Aksumite</catDesc>
-         </category>
-         <category xml:id="Oromo" corresp="https://betamasaheft.eu/authority-files/Oromo/main">
-            <catDesc>Oromo</catDesc>
-         </category>
-         <category xml:id="Gurage" corresp="https://betamasaheft.eu/authority-files/Gurage/main">
-            <catDesc>Gurage</catDesc>
-         </category>
-         <category xml:id="notSpecified" corresp="https://betamasaheft.eu/authority-files/notSpecified/main">
-            <catDesc>not Specified</catDesc>
-         </category>
-      </category>
-      <category>
-         <desc>Subjects</desc>
-         <category xml:id="AmharicLiterature" corresp="https://betamasaheft.eu/authority-files/AmharicLiterature/main">
-            <catDesc>Amharic Literature</catDesc>
-         </category>
-         <!--mycore-->
-         <category xml:id="Apocrypha" corresp="https://betamasaheft.eu/authority-files/Apocrypha/main">
-            <catDesc>Apocrypha</catDesc>
-         </category>
-         <category xml:id="Miracle" corresp="https://betamasaheft.eu/authority-files/Miracle/main">
-            <catDesc>Miracle</catDesc>
-         </category>
-         <category xml:id="NewTestament" corresp="https://betamasaheft.eu/authority-files/NewTestament/main">
-            <catDesc>New Testament</catDesc>
-         </category>
-         <category xml:id="OldTestament" corresp="https://betamasaheft.eu/authority-files/OldTestament/main">
-            <catDesc>Old Testament</catDesc>
-         </category>
-         <category xml:id="BetaEsraelLiterature" corresp="https://betamasaheft.eu/authority-files/BetaEsraelLiterature/main">
-            <catDesc>Beta Esrael Literature</catDesc>
-         </category>
-         <category xml:id="Bible" corresp="https://betamasaheft.eu/authority-files/Bible/main">
-            <catDesc>Bible</catDesc>
-         </category>
-         <category xml:id="Biography" corresp="https://betamasaheft.eu/authority-files/Biography/main">
-            <catDesc>Biography</catDesc>
-         </category>
-         <category xml:id="CanonLaw" corresp="https://betamasaheft.eu/authority-files/CanonLaw/main">
-            <catDesc>Canon Law</catDesc>
-         </category>
-         <category xml:id="Commentary" corresp="https://betamasaheft.eu/authority-files/Commentary/main">
-            <catDesc>Commentary</catDesc>
-         </category>
-         <category xml:id="ChristianLiterature" corresp="https://betamasaheft.eu/authority-files/ChristianLiterature/main">
-            <catDesc>Christian Literature</catDesc>
-         </category>
-         <category xml:id="Chronography" corresp="https://betamasaheft.eu/authority-files/Chronography/main">
-            <catDesc>Chronography</catDesc>
-         </category>
-         <category xml:id="Fiction" corresp="https://betamasaheft.eu/authority-files/Fiction/main">
-            <catDesc>Fiction</catDesc>
-         </category>
-         <category xml:id="Hagiography" corresp="https://betamasaheft.eu/authority-files/Hagiography/main">
-            <catDesc>Hagiography</catDesc>
-         </category>
-         <category xml:id="HistoryAndHistoriography" corresp="https://betamasaheft.eu/authority-files/HistoryAndHistoriography/main">
-            <catDesc>History and Historiography</catDesc>
-         </category>
-         <category xml:id="Chronicles" corresp="https://betamasaheft.eu/authority-files/Chronicles/main">
-            <catDesc>Chronicles</catDesc>
-         </category>
-         <category xml:id="generalRecord" corresp="https://betamasaheft.eu/authority-files/generalRecord/main">
-            <catDesc>General Record</catDesc>
-         </category>
-         <category xml:id="Homily" corresp="https://betamasaheft.eu/authority-files/Homily/main">
-            <catDesc>Homily</catDesc>
-         </category>
-         <category xml:id="IslamicLiterature" corresp="https://betamasaheft.eu/authority-files/IslamicLiterature/main">
-            <catDesc>Islamic Literature</catDesc>
-         </category>
-         <category xml:id="Koran" corresp="https://betamasaheft.eu/authority-files/Koran/main">
-            <catDesc>Koran</catDesc>
-         </category>
-         <category xml:id="LegalDocument" corresp="https://betamasaheft.eu/authority-files/LegalDocument/main">
-            <catDesc>Legal Document</catDesc>
-         </category>
-         <category xml:id="Liturgy" corresp="https://betamasaheft.eu/authority-files/Liturgy/main">
-            <catDesc>Liturgy</catDesc>
-         </category>
-         <category xml:id="Chants" corresp="https://betamasaheft.eu/authority-files/Chants/main">
-            <catDesc>Chants</catDesc>
-         </category>
-         <category xml:id="Lectionary" corresp="https://betamasaheft.eu/authority-files/Lectionary/main">
-            <catDesc>Lectionary</catDesc>
-         </category>
-         <category xml:id="Missal" corresp="https://betamasaheft.eu/authority-files/Missal/main">
-            <catDesc>Missal</catDesc>
-         </category>
-         <category xml:id="Rituals" corresp="https://betamasaheft.eu/authority-files/Rituals/main">
-            <catDesc>Rituals</catDesc>
-         </category>
-         <category xml:id="RitualsAndRites" corresp="https://betamasaheft.eu/authority-files/RitualsAndRites/main">
-            <catDesc>Rituals and Rites</catDesc>
-         </category>
-         <category xml:id="Study" corresp="https://betamasaheft.eu/authority-files/Study/main">
-            <catDesc>Study</catDesc>
-         </category>
-         <category xml:id="TigrinyaLiterature" corresp="https://betamasaheft.eu/authority-files/TigrinyaLiterature/main">
-            <catDesc>Tigrinya Literature</catDesc>
-         </category>
-         <category xml:id="Translation" corresp="https://betamasaheft.eu/authority-files/Translation/main">
-            <catDesc>Translation</catDesc>
-         </category>
-         <category xml:id="Vocabulary" corresp="https://betamasaheft.eu/authority-files/Vocabulary/main">
-            <catDesc>Vocabulary</catDesc>
-         </category>
-         <category xml:id="Magic" corresp="https://betamasaheft.eu/authority-files/Magic/main">
-            <catDesc>Magic</catDesc>
-         </category>
-         <category xml:id="Medicine" corresp="https://betamasaheft.eu/authority-files/Medicine/main">
-            <catDesc>Medicine</catDesc>
-         </category>
-         <category xml:id="Miscellanea" corresp="https://betamasaheft.eu/authority-files/Miscellanea/main">
-            <catDesc>Miscellanea</catDesc>
-         </category>
-         <category xml:id="MonasticLiterature" corresp="https://betamasaheft.eu/authority-files/MonasticLiterature/main">
-            <catDesc>Monastic Literature</catDesc>
-         </category>
-         <category xml:id="NaturalSciences" corresp="https://betamasaheft.eu/authority-files/NaturalSciences/main">
-            <catDesc>Natural Sciences</catDesc>
-         </category>
-         <category xml:id="Philosophy" corresp="https://betamasaheft.eu/authority-files/Philosophy/main">
-            <catDesc>Philosophy</catDesc>
-         </category>
-         <category xml:id="Poetry" corresp="https://betamasaheft.eu/authority-files/Poetry/main">
-            <catDesc>Poetry</catDesc>
-         </category>
-         <category xml:id="Prayers" corresp="https://betamasaheft.eu/authority-files/Prayers/main">
-            <catDesc>Prayers</catDesc>
-         </category>
-         <category xml:id="Qene" corresp="https://betamasaheft.eu/authority-files/Qene/main">
-            <catDesc>Qǝne</catDesc>
-         </category>
-         <category xml:id="Religion" corresp="https://betamasaheft.eu/authority-files/Religion/main">
-            <catDesc>Religion</catDesc>
-         </category>
-         <category xml:id="Theology" corresp="https://betamasaheft.eu/authority-files/Theology/main">
-            <catDesc>Theology</catDesc>
-         </category>
-         <category xml:id="ChristianContent" corresp="https://betamasaheft.eu/authority-files/ChristianContent/main">
-            <catDesc>Christian Content</catDesc>
-         </category>
-         <category xml:id="ApocalypticLiterature" corresp="https://betamasaheft.eu/authority-files/ApocalypticLiterature/main">
-            <catDesc>Apocalyptic Literature</catDesc>
-         </category>
-         <category xml:id="DidacticMaterial" corresp="https://betamasaheft.eu/authority-files/DidacticMaterial/main">
-            <catDesc>Didactic Material</catDesc>
-         </category>
-      </category>
-       <category>
-          <desc>IslHornAfr</desc>
-          <category xml:id="prose" corresp="https://betamasaheft.eu/authority-files/prose/main">
-             <catDesc>prose in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Jurisprudence" corresp="https://betamasaheft.eu/authority-files/Jurisprudence/main">
-             <catDesc>Jurisprudence in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Devotional" corresp="https://betamasaheft.eu/authority-files/Devotional/main">
-             <catDesc>Devotional in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Linguistics" corresp="https://betamasaheft.eu/authority-files/Linguistics/main">
-             <catDesc>Linguistics in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Ethics" corresp="https://betamasaheft.eu/authority-files/Ethics/main">
-             <catDesc>Ethics in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Belief" corresp="https://betamasaheft.eu/authority-files/Belief/main">
-             <catDesc>Belief in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Adab" corresp="https://betamasaheft.eu/authority-files/Adab/main">
-             <catDesc>Adab in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Documentary" corresp="https://betamasaheft.eu/authority-files/Documentary/main">
-             <catDesc>Documentary in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Fadail" corresp="https://betamasaheft.eu/authority-files/Fadail/main">
-             <catDesc>Fadail in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Fawaid_Masail" corresp="https://betamasaheft.eu/authority-files/Fawaid_Masail/main">
-             <catDesc>Fawaid_Masail in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Geography" corresp="https://betamasaheft.eu/authority-files/Geography/main">
-             <catDesc>Geography in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Hadit" corresp="https://betamasaheft.eu/authority-files/Hadit/main">
-             <catDesc>Hadit in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="History" corresp="https://betamasaheft.eu/authority-files/Hadit/main">
-             <catDesc>History in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Natural_Sciences" corresp="https://betamasaheft.eu/authority-files/Natural_Sciences/main">
-             <catDesc>Natural_Sciences in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Preaching" corresp="https://betamasaheft.eu/authority-files/Preaching/main">
-             <catDesc>Preaching in IslHornAfr</catDesc>
-          </category>
-          <category xml:id="Quran" corresp="https://betamasaheft.eu/authority-files/Quran/main">
-             <catDesc>Quran in IslHornAfr</catDesc>
-          </category>
-       </category>
-      <category>
-         <desc>rubrication</desc>
-         <category xml:id="beginnings" corresp="https://betamasaheft.eu/authority-files/beginnings/main">
-            <catDesc>Beginnings</catDesc>
-         </category>
-         <category xml:id="titles" corresp="https://betamasaheft.eu/authority-files/titles/main">
-            <catDesc>Titles</catDesc>
-         </category>
-         <category xml:id="runningTitles" corresp="https://betamasaheft.eu/authority-files/runningTitles/main">
-            <catDesc>Running Titles</catDesc>
-         </category>
-         <category xml:id="abbreviations" corresp="https://betamasaheft.eu/authority-files/abbreviations/main">
-            <catDesc>Abbreviations</catDesc>
-         </category>
-         <category xml:id="divineNames" corresp="https://betamasaheft.eu/authority-files/divineNames/main">
-            <catDesc>Divine Names</catDesc>
-         </category>
-         <category xml:id="donorsNames" corresp="https://betamasaheft.eu/authority-files/donorsNames/main">
-            <catDesc>Donors Names</catDesc>
-         </category>
-         <category xml:id="nameOfProtagonist" corresp="https://betamasaheft.eu/authority-files/nameOfProtagonist/main">
-            <catDesc>Name of the Protagonist</catDesc>
-         </category>
-         <category xml:id="elementsOfPunctuation" corresp="https://betamasaheft.eu/authority-files/elementsOfPunctuation/main">
-            <catDesc>Elements of Punctuation</catDesc>
-         </category>
-         <category xml:id="elementsOfDigits" corresp="https://betamasaheft.eu/authority-files/elementsOfDigits/main">
-            <catDesc>Elements of Digits</catDesc>
-         </category>
-         <category xml:id="otherNames" corresp="https://betamasaheft.eu/authority-files/otherNames/main">
-            <catDesc>Other Names</catDesc>
-         </category>
-         <category xml:id="otherWords" corresp="https://betamasaheft.eu/authority-files/otherWords/main">
-            <catDesc>Other Words</catDesc>
-         </category>
-      </category>
-      <category>
-         <desc>Feasts</desc>
-         <category xml:id="Christian" corresp="https://betamasaheft.eu/authority-files/Christian/main">
-            <catDesc>Christian</catDesc>
-            <category xml:id="AbrehawaAsbeha" corresp="https://betamasaheft.eu/authority-files/AbrehawaAsbeha/main">
-               <catDesc>ʾAbrǝhā wa-ʾAṣbǝḥā</catDesc>
-            </category>
-            <category xml:id="Advent" corresp="https://betamasaheft.eu/authority-files/Advent/main">
-               <catDesc>Advent</catDesc>
-            </category>
-            <category xml:id="Amanuel" corresp="https://betamasaheft.eu/authority-files/Amanuel/main">
-               <catDesc>ʾAmānuʾel</catDesc>
-            </category>
-            <category xml:id="Astamhero" corresp="https://betamasaheft.eu/authority-files/Astamhero/main">
-               <catDesc>ʾAstamḥǝro</catDesc>
-            </category>
-            <category xml:id="Astareeyo" corresp="https://betamasaheft.eu/authority-files/Astareeyo/main">
-               <catDesc>ʾAstarǝʾǝyo</catDesc>
-            </category>
-            <category xml:id="Astasreyo" corresp="https://betamasaheft.eu/authority-files/Astasreyo/main">
-               <catDesc>ʾAstasrǝyo</catDesc>
-            </category>
-            <category xml:id="Aynakwellu" corresp="https://betamasaheft.eu/authority-files/Aynakwellu/main">
-               <catDesc>ʿAyna kʷǝllu</catDesc>
-            </category>
-            <category xml:id="BaalaEgzi" corresp="https://betamasaheft.eu/authority-files/BaalaEgzi/main">
-               <catDesc>Baʿāla ʾƎgziʾ</catDesc>
-            </category>
-            <category xml:id="BaalaNegestu" corresp="https://betamasaheft.eu/authority-files/BaalaNegestu/main">
-               <catDesc>Baʿāla Nǝgǝśtu </catDesc>
-            </category>
-            <category xml:id="Baata" corresp="https://betamasaheft.eu/authority-files/Baata/main">
-               <catDesc>Baʿātā</catDesc>
-            </category>
-            <category xml:id="BaataGebs" corresp="https://betamasaheft.eu/authority-files/BaataGebs/main">
-               <catDesc>Baʿātā Gǝbṣ</catDesc>
-            </category>
-            <category xml:id="Baptism" corresp="https://betamasaheft.eu/authority-files/Baptism/main">
-               <catDesc>Baptism</catDesc>
-            </category>
-            <category xml:id="Barakaegziena" corresp="https://betamasaheft.eu/authority-files/Barakaegziena/main">
-               <catDesc>Bāraka ʾǝgziʾǝna</catDesc>
-            </category>
-            <category xml:id="Berhansaraqa" corresp="https://betamasaheft.eu/authority-files/Berhansaraqa/main">
-               <catDesc>Bǝrhān śaraqa</catDesc>
-            </category>
-            <category xml:id="BezuhanMaryam" corresp="https://betamasaheft.eu/authority-files/BezuhanMaryam/main">
-               <catDesc>Bǝzuḫān Māryām</catDesc>
-            </category>
-            <category xml:id="Berhan" corresp="https://betamasaheft.eu/authority-files/Berhan/main">
-               <catDesc>Bǝrhān</catDesc>
-            </category>
-            <category xml:id="CanaofGalilee" corresp="https://betamasaheft.eu/authority-files/CanaofGalilee/main">
-               <catDesc>Cana of Galilee</catDesc>
-            </category>
-            <category xml:id="ChristmasLedat" corresp="https://betamasaheft.eu/authority-files/ChristmasLedat/main">
-               <catDesc>Christmas Lǝdat</catDesc>
-            </category>
-            <category xml:id="CrucifixionSeqlat" corresp="https://betamasaheft.eu/authority-files/CrucifixionSeqlat/main">
-               <catDesc>Crucifixion Sǝqlat</catDesc>
-            </category>
-            <category xml:id="DabraMetmaq" corresp="https://betamasaheft.eu/authority-files/DabraMetmaq/main">
-               <catDesc>Dabra Mǝṭmāq</catDesc>
-            </category>
-            <category xml:id="DabraQwesqwam" corresp="https://betamasaheft.eu/authority-files/DabraQwesqwam/main">
-               <catDesc>Dabra Qʷǝsqʷām</catDesc>
-            </category>
-            <category xml:id="DabraSeyon" corresp="https://betamasaheft.eu/authority-files/DabraSeyon/main">
-               <catDesc>Dabra Ṣǝyon</catDesc>
-            </category>
-            <category xml:id="DabraTabor" corresp="https://betamasaheft.eu/authority-files/DabraTabor/main">
-               <catDesc>Dabra Tābor</catDesc>
-            </category>
-            <category xml:id="DabraZayt" corresp="https://betamasaheft.eu/authority-files/DabraZayt/main">
-               <catDesc>Dabra Zayt</catDesc>
-            </category>
-            <category xml:id="Daqseyos" corresp="https://betamasaheft.eu/authority-files/Daqseyos/main">
-               <catDesc>Daqsǝyos</catDesc>
-            </category>
-            <category xml:id="Easter" corresp="https://betamasaheft.eu/authority-files/Easter/main">
-               <catDesc>Easter</catDesc>
-            </category>
-            <category xml:id="Erafta" corresp="https://betamasaheft.eu/authority-files/Erafta/main">
-               <catDesc>ʿƎraftā</catDesc>
-            </category>
-            <category xml:id="Ergata" corresp="https://betamasaheft.eu/authority-files/Ergata/main">
-               <catDesc>ʿƎrgatā</catDesc>
-            </category>
-            <category xml:id="Felsata" corresp="https://betamasaheft.eu/authority-files/Felsata/main">
-               <catDesc>Fǝlsatā</catDesc>
-            </category>
-            <category xml:id="FlightintoEgypt" corresp="https://betamasaheft.eu/authority-files/FlightintoEgypt/main">
-               <catDesc>Flight into Egypt</catDesc>
-            </category>
-            <category xml:id="Ganna" corresp="https://betamasaheft.eu/authority-files/Ganna/main">
-               <catDesc>Gannā</catDesc>
-            </category>
-            <category xml:id="Gezrat" corresp="https://betamasaheft.eu/authority-files/Gezrat/main">
-               <catDesc>Gǝzrat</catDesc>
-            </category>
-            <category xml:id="Gubaeqana" corresp="https://betamasaheft.eu/authority-files/Gubaeqana/main">
-               <catDesc>Gubāʾe qānā</catDesc>
-            </category>
-            <category xml:id="Hanna" corresp="https://betamasaheft.eu/authority-files/Hanna/main">
-               <catDesc>Ḥānnā</catDesc>
-            </category>
-            <category xml:id="Lebbamedr" corresp="https://betamasaheft.eu/authority-files/Lebbamedr/main">
-               <catDesc>Lǝbba mǝdr</catDesc>
-            </category>
-            <category xml:id="Mabraq" corresp="https://betamasaheft.eu/authority-files/Mabraq/main">
-               <catDesc>Mabraq</catDesc>
-            </category>
-            <category xml:id="MadhaneAlam" corresp="https://betamasaheft.eu/authority-files/MadhaneAlam/main">
-               <catDesc>Madḫāne ʿĀlam</catDesc>
-            </category>
-            <category xml:id="Maedot" corresp="https://betamasaheft.eu/authority-files/Maedot/main">
-               <catDesc>Māʿǝdot</catDesc>
-            </category>
-            <category xml:id="Maerar" corresp="https://betamasaheft.eu/authority-files/Maerar/main">
-               <catDesc>Māʾǝrār</catDesc>
-            </category>
-            <category xml:id="MaryamSeyon" corresp="https://betamasaheft.eu/authority-files/MaryamSeyon/main">
-               <catDesc>Māryām Ṣǝyon</catDesc>
-            </category>
-            <category xml:id="Masqal" corresp="https://betamasaheft.eu/authority-files/Masqal/main">
-               <catDesc>Masqal</catDesc>
-            </category>
-            <category xml:id="NativityofMary" corresp="https://betamasaheft.eu/authority-files/NativityofMary/main">
-               <catDesc>Nativity of Mary</catDesc>
-            </category>
-            <category xml:id="CNewYear" corresp="https://betamasaheft.eu/authority-files/CNewYear/main">
-               <catDesc> New Year</catDesc>
-            </category>
-            <category xml:id="Nineveh" corresp="https://betamasaheft.eu/authority-files/Nineveh/main">
-               <catDesc>Nineveh</catDesc>
-            </category>
-            <category xml:id="PalmSunday" corresp="https://betamasaheft.eu/authority-files/PalmSunday/main">
-               <catDesc>Palm Sunday</catDesc>
-            </category>
-            <category xml:id="Pentecost" corresp="https://betamasaheft.eu/authority-files/Pentecost/main">
-               <catDesc>Pentecost</catDesc>
-            </category>
-            <category xml:id="Qedameseur" corresp="https://betamasaheft.eu/authority-files/Qedameseur/main">
-               <catDesc>Qǝdāme sǝʾur</catDesc>
-            </category>
-            <category xml:id="Qeddasebeta" corresp="https://betamasaheft.eu/authority-files/Qeddasebeta/main">
-               <catDesc>Qǝddāse beta</catDesc>
-            </category>
-            <category xml:id="Sawit" corresp="https://betamasaheft.eu/authority-files/Sawit/main">
-               <catDesc>Sawit</catDesc>
-            </category>
-            <category xml:id="Seddat" corresp="https://betamasaheft.eu/authority-files/Seddat/main">
-               <catDesc>Sǝddat</catDesc>
-            </category>
-            <category xml:id="Tadewos" corresp="https://betamasaheft.eu/authority-files/Tadewos/main">
-               <catDesc>Tādewos</catDesc>
-            </category>
-            <category xml:id="Tentasomaledat" corresp="https://betamasaheft.eu/authority-files/Tentasomaledat/main">
-               <catDesc>Ṭǝnta ṣoma lǝdat</catDesc>
-            </category>
-            <category xml:id="Tesbeet" corresp="https://betamasaheft.eu/authority-files/Tesbeet/main">
-               <catDesc>Tǝsbǝʾǝt</catDesc>
-            </category>
-            <category xml:id="Tomas" corresp="https://betamasaheft.eu/authority-files/Tomas/main">
-               <catDesc>Tomās</catDesc>
-            </category>
-         </category>
-         <category xml:id="Islamic" corresp="https://betamasaheft.eu/authority-files/Islamic/main">
-            <catDesc>Islamic</catDesc>
-            <category xml:id="Arafa" corresp="https://betamasaheft.eu/authority-files/Arafa/main">
-               <catDesc>Arafā</catDesc>
-            </category>
-            <category xml:id="Ashura" corresp="https://betamasaheft.eu/authority-files/Ashura/main">
-               <catDesc>ʿĀšūrāʾ</catDesc>
-            </category>
-            <category xml:id="Ayyamattashriq" corresp="https://betamasaheft.eu/authority-files/Ayyamattashriq/main">
-               <catDesc>ʾAyyām at-tašrīq</catDesc>
-            </category>
-            <category xml:id="Idaladha" corresp="https://betamasaheft.eu/authority-files/Idaladha/main">
-               <catDesc>ʿĪd al-aḍḥā</catDesc>
-            </category>
-            <category xml:id="Idalfitr" corresp="https://betamasaheft.eu/authority-files/Idalfitr/main">
-               <catDesc>ʿĪd al-fiṭr</catDesc>
-            </category>
-            <category xml:id="LaylatalBaraat" corresp="https://betamasaheft.eu/authority-files/LaylatalBaraat/main">
-               <catDesc>Laylatal-Baraʿat</catDesc>
-            </category>
-            <category xml:id="Laylatalqadr" corresp="https://betamasaheft.eu/authority-files/Laylatalqadr/main">
-               <catDesc>Laylat al-qadr</catDesc>
-            </category>
-            <category xml:id="Mawlid" corresp="https://betamasaheft.eu/authority-files/Mawlid/main">
-               <catDesc>Mawlid</catDesc>
-            </category>
-            <category xml:id="INewYear" corresp="https://betamasaheft.eu/authority-files/INewYear/main">
-               <catDesc>New Year</catDesc>
-            </category>
-            <category xml:id="Ramadan" corresp="https://betamasaheft.eu/authority-files/Ramadan/main">
-               <catDesc>Ramaḍān</catDesc>
-            </category>
-         </category>
-         <category xml:id="Jewish" corresp="https://betamasaheft.eu/authority-files/Jewish/main">
-            <catDesc>Jewish</catDesc>
-            <category xml:id="Hanukkah" corresp="https://betamasaheft.eu/authority-files/Hanukkah/main">
-               <catDesc>Hanukkah</catDesc>
-            </category>
-            <category xml:id="JNewYear" corresp="https://betamasaheft.eu/authority-files/JNewYear/main">
-               <catDesc>JNewYear</catDesc>
-            </category>
-            <category xml:id="Passover" corresp="https://betamasaheft.eu/authority-files/Passover/main">
-               <catDesc>Passover</catDesc>
-            </category>
-            <category xml:id="Purim" corresp="https://betamasaheft.eu/authority-files/Purim/main">
-               <catDesc>Purim</catDesc>
-            </category>
-            <category xml:id="Shavuot" corresp="https://betamasaheft.eu/authority-files/Shavuot/main">
-               <catDesc>Shavuot</catDesc>
-            </category>
-            <category xml:id="Tabernacles" corresp="https://betamasaheft.eu/authority-files/Tabernacles/main">
-               <catDesc>Tabernacles</catDesc>
-            </category>
-            <category xml:id="Yomkippur" corresp="https://betamasaheft.eu/authority-files/Yomkippur/main">
-               <catDesc>Yomkippur</catDesc>
-            </category>
-         </category>
-      </category>
-   </taxonomy>
-</classDecl><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion xmlns="" unit="image" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item></list></desc><assertion unit="column break" match="cb" use="cb"><desc><list><item>1ra</item><item>2ra</item><item>3ra</item><item>4ra</item><item>5ra</item><item>6ra</item><item>7ra</item><item>8ra</item><item>9ra</item></list></desc></assertion><assertion unit="line break" match="lb" use="lb"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item><item>25</item><item>26</item><item>27</item><item>28</item><item>29</item><item>30</item><item>31</item></list></desc></assertion><assertion unit="page break" match="pb" use="pb"><desc><list><item>1r</item><item>2r</item><item>3r</item><item>4r</item><item>5r</item><item>6r</item><item>7r</item><item>8r</item><item>9r</item></list></desc></assertion></assertion></assertion></source-url></encodingDesc>
-      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <t:particDesc>
-            <t:listPerson>
-               <t:person>
-               </t:person>
-            </t:listPerson>
-         </t:particDesc>
-         <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="image" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item></list></desc><citeStructure unit="column break" match="cb" use="cb"><desc><list><item>1ra</item><item>2ra</item><item>3ra</item><item>4ra</item><item>5ra</item><item>6ra</item><item>7ra</item><item>8ra</item><item>9ra</item></list></desc></citeStructure><citeStructure unit="line break" match="lb" use="lb"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item><item>25</item><item>26</item><item>27</item><item>28</item><item>29</item><item>30</item><item>31</item></list></desc></citeStructure><citeStructure unit="page break" match="pb" use="pb"><desc><list><item>1r</item><item>2r</item><item>3r</item><item>4r</item><item>5r</item><item>6r</item><item>7r</item><item>8r</item><item>9r</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
-      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
+      <revisionDesc>
          <change who="#PL" when="2018-01-18"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record from EMIP Collection Metadata.xsls</change>
          <change who="#RL" when="2020-04-20"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected ǝ character</change>
          <change who="#RL" when="2022-07-12"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Edited idno to include images</change>
@@ -2052,139 +90,139 @@
          <change who="#RL" when="2022-09-23"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected include code errors</change>
          <change who="#RL" when="2022-09-26"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Removed text body code lines</change>
          <change who="#RL" when="2024-08-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->formatted text and facsimile files</change>
-      </t:revisionDesc>
+      </revisionDesc>
    </teiHeader><facsimile xml:id="transkribusTweedMagicScroll030">
    <surface xml:id="facs_1">
       <graphic url="EMIPMS0498_TweedMagicScroll030_001.jpg" width="4288px" height="2848px"/>
    </surface>
    <surface xml:id="facs_2">
       <graphic url="EMIPMS0498_TweedMagicScroll030_002.jpg" width="4288px" height="2848px"/>
-      <zone ="527,1331 531,4181 1993,4177 1989,1327" rendition="TextRegion" xml:id="facs_2_r1">
-         <zone ="577,1450 923,1443 1057,1509 1588,1514 1709,1595 1960,1592 1970,1465 1754,1421 1394,1436 1220,1382 909,1424 583,1380" rendition="Line" xml:id="facs_2_line_1660379233731_51"/>
-         <zone ="577,1577 1310,1706 1448,1683 1514,1741 1865,1724 1954,1779 1969,1639 1735,1583 1391,1596 1190,1522 1003,1566 587,1480" rendition="Line" xml:id="facs_2_r1l2"/>
-         <zone ="586,1699 1932,1922 1951,1796 1680,1744 1589,1783 1391,1701 1099,1705 759,1587 605,1588" rendition="Line" xml:id="facs_2_line_1660379283419_55"/>
-         <zone ="591,1795 1713,2008 1765,1975 1934,2021 1946,1955 1674,1918 1542,1850 1280,1840 1232,1795 816,1782 604,1719" rendition="Line" xml:id="facs_2_r1l3"/>
-         <zone ="597,1932 802,1952 912,2020 1068,1990 1217,2073 1458,2044 1919,2140 1951,2011 1463,1995 1198,1899 1087,1951 1016,1894 822,1908 681,1828 610,1839" rendition="Line" xml:id="facs_2_r1l4"/>
-         <zone ="607,2046 932,2129 1078,2091 1227,2181 1295,2145 1798,2271 1952,2263 1965,2180 1858,2132 1642,2150 1272,2037 1205,2075 619,1973" rendition="Line" xml:id="facs_2_r1l5"/>
-         <zone ="599,2140 1249,2296 1942,2358 1890,2276 1800,2307 1563,2219 1443,2250 1402,2206 708,2104 615,2047" rendition="Line" xml:id="facs_2_r1l6"/>
-         <zone ="600,2246 979,2379 1439,2383 1632,2457 1909,2484 1919,2416 1812,2370 1229,2280 900,2277 612,2166" rendition="Line" xml:id="facs_2_r1l7"/>
-         <zone ="588,2412 722,2397 850,2484 970,2451 1078,2534 1317,2491 1515,2572 1948,2600 1940,2517 1304,2453 1167,2365 1102,2412 982,2406 608,2284" rendition="Line" xml:id="facs_2_line_1660379308382_69"/>
-         <zone ="579,2498 654,2545 814,2540 946,2631 1285,2620 1353,2665 1574,2666 1620,2715 1740,2690 1931,2785 1952,2656 1886,2630 1488,2597 1253,2516 1043,2544 592,2410" rendition="Line" xml:id="facs_2_r1l10"/>
-         <zone ="576,2657 665,2629 717,2683 1006,2762 1500,2770 1935,2870 1947,2791 1882,2765 958,2661 600,2506" rendition="Line" xml:id="facs_2_r1l11"/>
-         <zone ="559,2761 697,2756 1111,2899 1628,2914 1928,3003 1941,2919 1780,2862 1583,2861 1357,2790 1209,2823 573,2673" rendition="Line" xml:id="facs_2_r1l12"/>
-         <zone ="580,2968 712,2917 1069,2945 1147,3023 1330,3028 1431,3082 1590,3034 1942,3163 1966,3057 1709,2958 1351,2966 616,2780" rendition="Line" xml:id="facs_2_r1l13"/>
-         <zone ="576,3004 1231,3183 1372,3158 1507,3236 1599,3203 1651,3254 1738,3229 1906,3282 1899,3177 1562,3105 1314,3114 1160,3022 1014,3044 591,2928" rendition="Line" xml:id="facs_2_r1l14"/>
-         <zone ="551,3138 882,3257 1176,3282 1360,3370 1695,3376 1822,3444 1907,3423 1923,3351 993,3197 748,3069 676,3092 572,3042" rendition="Line" xml:id="facs_2_r1l15"/>
-         <zone ="551,3292 1355,3456 1840,3639 1902,3533 1661,3432 898,3287 584,3162" rendition="Line" xml:id="facs_2_line_1660379362731_79"/>
-         <zone ="673,3458 809,3528 1122,3559 1237,3597 1278,3655 1422,3630 1533,3706 1696,3687 1853,3732 1867,3674 1520,3537 1465,3559 1343,3503 1246,3533 1205,3482 1065,3489 830,3381 695,3366" rendition="Line" xml:id="facs_2_line_1660379410197_83"/>
-         <zone ="627,3570 750,3593 802,3660 1019,3638 1279,3772 1671,3800 1863,3888 1884,3799 1753,3745 1496,3739 1423,3677 1018,3603 650,3473" rendition="Line" xml:id="facs_2_line_1660379456714_94"/>
-         <zone ="526,3679 1215,3837 1285,3811 1387,3884 1607,3879 1816,3971 1887,3952 1865,3867 1505,3832 1463,3789 1157,3755 1111,3699 544,3595" rendition="Line" xml:id="facs_2_r1l20"/>
-         <zone ="548,3816 861,3842 958,3906 1095,3890 1500,4014 1659,3992 1798,4061 1865,4063 1887,3952 565,3730" rendition="Line" xml:id="facs_2_r1l21"/>
-         <zone ="549,3910 1054,4028 1181,4011 1391,4090 1465,4066 1709,4123 1759,4175 1835,4164 1852,4080 566,3824" rendition="Line" xml:id="facs_2_r1l22"/>
+      <zone education="527,1331 531,4181 1993,4177 1989,1327" rendition="TextRegion" xml:id="facs_2_r1">
+         <zone education="577,1450 923,1443 1057,1509 1588,1514 1709,1595 1960,1592 1970,1465 1754,1421 1394,1436 1220,1382 909,1424 583,1380" rendition="Line" xml:id="facs_2_line_1660379233731_51"/>
+         <zone education="577,1577 1310,1706 1448,1683 1514,1741 1865,1724 1954,1779 1969,1639 1735,1583 1391,1596 1190,1522 1003,1566 587,1480" rendition="Line" xml:id="facs_2_r1l2"/>
+         <zone education="586,1699 1932,1922 1951,1796 1680,1744 1589,1783 1391,1701 1099,1705 759,1587 605,1588" rendition="Line" xml:id="facs_2_line_1660379283419_55"/>
+         <zone education="591,1795 1713,2008 1765,1975 1934,2021 1946,1955 1674,1918 1542,1850 1280,1840 1232,1795 816,1782 604,1719" rendition="Line" xml:id="facs_2_r1l3"/>
+         <zone education="597,1932 802,1952 912,2020 1068,1990 1217,2073 1458,2044 1919,2140 1951,2011 1463,1995 1198,1899 1087,1951 1016,1894 822,1908 681,1828 610,1839" rendition="Line" xml:id="facs_2_r1l4"/>
+         <zone education="607,2046 932,2129 1078,2091 1227,2181 1295,2145 1798,2271 1952,2263 1965,2180 1858,2132 1642,2150 1272,2037 1205,2075 619,1973" rendition="Line" xml:id="facs_2_r1l5"/>
+         <zone education="599,2140 1249,2296 1942,2358 1890,2276 1800,2307 1563,2219 1443,2250 1402,2206 708,2104 615,2047" rendition="Line" xml:id="facs_2_r1l6"/>
+         <zone education="600,2246 979,2379 1439,2383 1632,2457 1909,2484 1919,2416 1812,2370 1229,2280 900,2277 612,2166" rendition="Line" xml:id="facs_2_r1l7"/>
+         <zone education="588,2412 722,2397 850,2484 970,2451 1078,2534 1317,2491 1515,2572 1948,2600 1940,2517 1304,2453 1167,2365 1102,2412 982,2406 608,2284" rendition="Line" xml:id="facs_2_line_1660379308382_69"/>
+         <zone education="579,2498 654,2545 814,2540 946,2631 1285,2620 1353,2665 1574,2666 1620,2715 1740,2690 1931,2785 1952,2656 1886,2630 1488,2597 1253,2516 1043,2544 592,2410" rendition="Line" xml:id="facs_2_r1l10"/>
+         <zone education="576,2657 665,2629 717,2683 1006,2762 1500,2770 1935,2870 1947,2791 1882,2765 958,2661 600,2506" rendition="Line" xml:id="facs_2_r1l11"/>
+         <zone education="559,2761 697,2756 1111,2899 1628,2914 1928,3003 1941,2919 1780,2862 1583,2861 1357,2790 1209,2823 573,2673" rendition="Line" xml:id="facs_2_r1l12"/>
+         <zone education="580,2968 712,2917 1069,2945 1147,3023 1330,3028 1431,3082 1590,3034 1942,3163 1966,3057 1709,2958 1351,2966 616,2780" rendition="Line" xml:id="facs_2_r1l13"/>
+         <zone education="576,3004 1231,3183 1372,3158 1507,3236 1599,3203 1651,3254 1738,3229 1906,3282 1899,3177 1562,3105 1314,3114 1160,3022 1014,3044 591,2928" rendition="Line" xml:id="facs_2_r1l14"/>
+         <zone education="551,3138 882,3257 1176,3282 1360,3370 1695,3376 1822,3444 1907,3423 1923,3351 993,3197 748,3069 676,3092 572,3042" rendition="Line" xml:id="facs_2_r1l15"/>
+         <zone education="551,3292 1355,3456 1840,3639 1902,3533 1661,3432 898,3287 584,3162" rendition="Line" xml:id="facs_2_line_1660379362731_79"/>
+         <zone education="673,3458 809,3528 1122,3559 1237,3597 1278,3655 1422,3630 1533,3706 1696,3687 1853,3732 1867,3674 1520,3537 1465,3559 1343,3503 1246,3533 1205,3482 1065,3489 830,3381 695,3366" rendition="Line" xml:id="facs_2_line_1660379410197_83"/>
+         <zone education="627,3570 750,3593 802,3660 1019,3638 1279,3772 1671,3800 1863,3888 1884,3799 1753,3745 1496,3739 1423,3677 1018,3603 650,3473" rendition="Line" xml:id="facs_2_line_1660379456714_94"/>
+         <zone education="526,3679 1215,3837 1285,3811 1387,3884 1607,3879 1816,3971 1887,3952 1865,3867 1505,3832 1463,3789 1157,3755 1111,3699 544,3595" rendition="Line" xml:id="facs_2_r1l20"/>
+         <zone education="548,3816 861,3842 958,3906 1095,3890 1500,4014 1659,3992 1798,4061 1865,4063 1887,3952 565,3730" rendition="Line" xml:id="facs_2_r1l21"/>
+         <zone education="549,3910 1054,4028 1181,4011 1391,4090 1465,4066 1709,4123 1759,4175 1835,4164 1852,4080 566,3824" rendition="Line" xml:id="facs_2_r1l22"/>
       </zone>
    </surface>
    <surface xml:id="facs_3">
       <graphic url="EMIPMS0498_TweedMagicScroll030_003.jpg" width="4288px" height="2848px"/>
-      <zone ="500,180 1841,180 1833,4218 492,4218" rendition="TextRegion" xml:id="facs_3_TextRegion_1660379534476_111">
-         <zone ="522,252 919,317 1008,275 1072,317 1416,303 1754,389 1819,362 1826,288 528,186" rendition="Line" xml:id="facs_3_r1l4"/>
-         <zone ="554,397 751,385 1046,450 1263,407 1422,464 1511,421 1680,498 1842,477 1847,390 1593,397 1357,323 1138,357 1054,308 857,329 561,274" rendition="Line" xml:id="facs_3_r1l5"/>
-         <zone ="564,508 717,565 1060,510 1128,578 1224,537 1355,548 1414,602 1482,567 1848,622 1829,534 1549,478 1500,507 1335,459 1248,499 1023,445 931,475 852,418 571,429" rendition="Line" xml:id="facs_3_r1l6"/>
-         <zone ="557,655 712,651 788,696 973,660 1113,702 1387,684 1669,769 1842,763 1847,688 1766,658 1071,574 862,615 565,548" rendition="Line" xml:id="facs_3_line_1660379567533_127"/>
-         <zone ="578,783 895,839 1021,799 1267,842 1335,809 1734,869 1827,937 1840,782 1516,784 1469,748 1326,779 1226,713 989,751 858,694 585,699" rendition="Line" xml:id="facs_3_r1l9"/>
-         <zone ="549,865 1080,967 1391,963 1605,1051 1702,1024 1813,1094 1833,952 1780,937 557,808" rendition="Line" xml:id="facs_3_r1l10"/>
-         <zone ="530,1032 659,1006 849,1067 1092,1064 1345,1153 1433,1126 1847,1215 1859,1141 1763,1097 1588,1106 1244,1009 1095,1024 995,961 742,954 555,880" rendition="Line" xml:id="facs_3_r1l11"/>
-         <zone ="573,1136 833,1153 894,1213 1799,1357 1799,1248 1036,1148 783,1062 696,1088 592,1022" rendition="Line" xml:id="facs_3_r1l12"/>
-         <zone ="548,1224 649,1228 738,1294 1176,1343 1350,1423 1846,1481 1859,1416 1808,1382 1326,1336 1277,1286 1212,1313 851,1192 562,1158" rendition="Line" xml:id="facs_3_r1l13"/>
-         <zone ="540,1348 650,1386 761,1354 1713,1581 1827,1573 1838,1514 551,1289" rendition="Line" xml:id="facs_3_r1l14"/>
-         <zone ="536,1488 1059,1524 1127,1569 1238,1552 1292,1600 1810,1676 1822,1591 1533,1520 1375,1545 1253,1487 1148,1505 1015,1442 852,1459 661,1399 545,1429" rendition="Line" xml:id="facs_3_r1l15"/>
-         <zone ="534,1598 734,1652 957,1618 1819,1787 1831,1709 1635,1646 550,1496" rendition="Line" xml:id="facs_3_r1l16"/>
-         <zone ="571,1744 795,1770 939,1731 1758,1924 1801,1824 1476,1768 1358,1703 1218,1727 1109,1667 701,1658 591,1605" rendition="Line" xml:id="facs_3_r1l17"/>
-         <zone ="596,1834 755,1824 880,1888 1073,1881 1158,1935 1219,1901 1776,2022 1791,1934 1454,1905 1310,1825 608,1762" rendition="Line" xml:id="facs_3_r1l18"/>
-         <zone ="547,1969 693,1993 782,1956 821,2001 1110,2010 1767,2145 1795,2041 1567,2039 1516,1985 1071,1948 835,1866 557,1900" rendition="Line" xml:id="facs_3_r1l19"/>
-         <zone ="553,2071 943,2114 1030,2086 1529,2220 1775,2232 1785,2165 1622,2152 1574,2108 1518,2141 1460,2084 566,1988" rendition="Line" xml:id="facs_3_r1l20"/>
-         <zone ="547,2177 638,2222 821,2233 892,2197 1018,2252 1565,2292 1765,2351 1775,2267 1696,2277 1641,2231 557,2096" rendition="Line" xml:id="facs_3_r1l21"/>
-         <zone ="546,2298 975,2360 1163,2319 1791,2472 1800,2395 1587,2326 555,2225" rendition="Line" xml:id="facs_3_r1l22"/>
-         <zone ="550,2462 644,2412 810,2417 883,2463 1255,2460 1447,2535 1611,2521 1728,2588 1741,2485 1645,2495 1604,2455 1233,2385 720,2336 636,2366 567,2315" rendition="Line" xml:id="facs_3_r1l23"/>
-         <zone ="519,2532 901,2582 1158,2565 1742,2717 1766,2606 1320,2502 527,2465" rendition="Line" xml:id="facs_3_r1l24"/>
-         <zone ="536,2653 671,2682 929,2654 1082,2718 1475,2743 1696,2830 1744,2725 1655,2680 1170,2660 1096,2605 817,2611 550,2552" rendition="Line" xml:id="facs_3_r1l25"/>
-         <zone ="557,2794 802,2776 838,2818 959,2799 1096,2869 1319,2858 1730,2930 1739,2866 1581,2808 1102,2778 1047,2737 954,2764 905,2719 814,2750 572,2691" rendition="Line" xml:id="facs_3_r1l26"/>
-         <zone ="511,2916 882,2896 960,2960 1052,2932 1091,2982 1428,3002 1624,3089 1647,2972 1456,2952 1386,2899 1079,2899 868,2814 527,2820" rendition="Line" xml:id="facs_3_r1l27"/>
-         <zone ="519,3018 697,3004 916,3081 1118,3074 1666,3219 1684,3107 1557,3057 1393,3078 1228,3002 1103,3023 860,2982 750,2914 642,2958 538,2904" rendition="Line" xml:id="facs_3_r1l28"/>
-         <zone ="503,3128 613,3193 712,3154 888,3213 1096,3218 1144,3259 1431,3266 1658,3340 1692,3260 1377,3166 1112,3162 1069,3111 939,3143 795,3057 694,3082 517,3041" rendition="Line" xml:id="facs_3_r1l29"/>
-         <zone ="505,3270 1215,3416 1671,3452 1658,3354 1158,3318 1064,3259 519,3185" rendition="Line" xml:id="facs_3_r1l30"/>
-         <zone ="507,3410 648,3400 780,3467 885,3446 967,3497 1063,3484 1345,3564 1386,3538 1592,3605 1653,3601 1669,3510 1195,3447 1068,3383 773,3377 531,3271" rendition="Line" xml:id="facs_3_r1l31"/>
-         <zone ="496,3518 1199,3608 1245,3675 1327,3644 1589,3725 1606,3634 1492,3591 1346,3622 1295,3572 1185,3578 1045,3495 826,3487 732,3439 649,3463 516,3416" rendition="Line" xml:id="facs_3_r1l32"/>
-         <zone ="499,3601 640,3685 821,3687 1000,3753 1058,3725 1234,3806 1515,3829 1624,3793 1423,3702 1120,3684 1048,3626 838,3619 784,3581 676,3606 512,3526" rendition="Line" xml:id="facs_3_line_1660379677940_175"/>
-         <zone ="455,3863 543,3861 585,3919 806,3910 853,3956 1050,3991 1096,4043 1469,4079 1501,4114 1549,4112 1574,4013 1337,3993 1131,3908 946,3912 864,3853 797,3865 481,3759" rendition="Line" xml:id="facs_3_line_1660379714706_180"/>
-         <zone ="543,4032 1008,4096 1116,4167 1198,4145 1297,4195 1434,4179 1585,4222 1585,4110 1237,4099 1048,4002 833,4022 742,3951 563,3929" rendition="Line" xml:id="facs_3_line_1660379741270_185"/>
+      <zone education="500,180 1841,180 1833,4218 492,4218" rendition="TextRegion" xml:id="facs_3_TextRegion_1660379534476_111">
+         <zone education="522,252 919,317 1008,275 1072,317 1416,303 1754,389 1819,362 1826,288 528,186" rendition="Line" xml:id="facs_3_r1l4"/>
+         <zone education="554,397 751,385 1046,450 1263,407 1422,464 1511,421 1680,498 1842,477 1847,390 1593,397 1357,323 1138,357 1054,308 857,329 561,274" rendition="Line" xml:id="facs_3_r1l5"/>
+         <zone education="564,508 717,565 1060,510 1128,578 1224,537 1355,548 1414,602 1482,567 1848,622 1829,534 1549,478 1500,507 1335,459 1248,499 1023,445 931,475 852,418 571,429" rendition="Line" xml:id="facs_3_r1l6"/>
+         <zone education="557,655 712,651 788,696 973,660 1113,702 1387,684 1669,769 1842,763 1847,688 1766,658 1071,574 862,615 565,548" rendition="Line" xml:id="facs_3_line_1660379567533_127"/>
+         <zone education="578,783 895,839 1021,799 1267,842 1335,809 1734,869 1827,937 1840,782 1516,784 1469,748 1326,779 1226,713 989,751 858,694 585,699" rendition="Line" xml:id="facs_3_r1l9"/>
+         <zone education="549,865 1080,967 1391,963 1605,1051 1702,1024 1813,1094 1833,952 1780,937 557,808" rendition="Line" xml:id="facs_3_r1l10"/>
+         <zone education="530,1032 659,1006 849,1067 1092,1064 1345,1153 1433,1126 1847,1215 1859,1141 1763,1097 1588,1106 1244,1009 1095,1024 995,961 742,954 555,880" rendition="Line" xml:id="facs_3_r1l11"/>
+         <zone education="573,1136 833,1153 894,1213 1799,1357 1799,1248 1036,1148 783,1062 696,1088 592,1022" rendition="Line" xml:id="facs_3_r1l12"/>
+         <zone education="548,1224 649,1228 738,1294 1176,1343 1350,1423 1846,1481 1859,1416 1808,1382 1326,1336 1277,1286 1212,1313 851,1192 562,1158" rendition="Line" xml:id="facs_3_r1l13"/>
+         <zone education="540,1348 650,1386 761,1354 1713,1581 1827,1573 1838,1514 551,1289" rendition="Line" xml:id="facs_3_r1l14"/>
+         <zone education="536,1488 1059,1524 1127,1569 1238,1552 1292,1600 1810,1676 1822,1591 1533,1520 1375,1545 1253,1487 1148,1505 1015,1442 852,1459 661,1399 545,1429" rendition="Line" xml:id="facs_3_r1l15"/>
+         <zone education="534,1598 734,1652 957,1618 1819,1787 1831,1709 1635,1646 550,1496" rendition="Line" xml:id="facs_3_r1l16"/>
+         <zone education="571,1744 795,1770 939,1731 1758,1924 1801,1824 1476,1768 1358,1703 1218,1727 1109,1667 701,1658 591,1605" rendition="Line" xml:id="facs_3_r1l17"/>
+         <zone education="596,1834 755,1824 880,1888 1073,1881 1158,1935 1219,1901 1776,2022 1791,1934 1454,1905 1310,1825 608,1762" rendition="Line" xml:id="facs_3_r1l18"/>
+         <zone education="547,1969 693,1993 782,1956 821,2001 1110,2010 1767,2145 1795,2041 1567,2039 1516,1985 1071,1948 835,1866 557,1900" rendition="Line" xml:id="facs_3_r1l19"/>
+         <zone education="553,2071 943,2114 1030,2086 1529,2220 1775,2232 1785,2165 1622,2152 1574,2108 1518,2141 1460,2084 566,1988" rendition="Line" xml:id="facs_3_r1l20"/>
+         <zone education="547,2177 638,2222 821,2233 892,2197 1018,2252 1565,2292 1765,2351 1775,2267 1696,2277 1641,2231 557,2096" rendition="Line" xml:id="facs_3_r1l21"/>
+         <zone education="546,2298 975,2360 1163,2319 1791,2472 1800,2395 1587,2326 555,2225" rendition="Line" xml:id="facs_3_r1l22"/>
+         <zone education="550,2462 644,2412 810,2417 883,2463 1255,2460 1447,2535 1611,2521 1728,2588 1741,2485 1645,2495 1604,2455 1233,2385 720,2336 636,2366 567,2315" rendition="Line" xml:id="facs_3_r1l23"/>
+         <zone education="519,2532 901,2582 1158,2565 1742,2717 1766,2606 1320,2502 527,2465" rendition="Line" xml:id="facs_3_r1l24"/>
+         <zone education="536,2653 671,2682 929,2654 1082,2718 1475,2743 1696,2830 1744,2725 1655,2680 1170,2660 1096,2605 817,2611 550,2552" rendition="Line" xml:id="facs_3_r1l25"/>
+         <zone education="557,2794 802,2776 838,2818 959,2799 1096,2869 1319,2858 1730,2930 1739,2866 1581,2808 1102,2778 1047,2737 954,2764 905,2719 814,2750 572,2691" rendition="Line" xml:id="facs_3_r1l26"/>
+         <zone education="511,2916 882,2896 960,2960 1052,2932 1091,2982 1428,3002 1624,3089 1647,2972 1456,2952 1386,2899 1079,2899 868,2814 527,2820" rendition="Line" xml:id="facs_3_r1l27"/>
+         <zone education="519,3018 697,3004 916,3081 1118,3074 1666,3219 1684,3107 1557,3057 1393,3078 1228,3002 1103,3023 860,2982 750,2914 642,2958 538,2904" rendition="Line" xml:id="facs_3_r1l28"/>
+         <zone education="503,3128 613,3193 712,3154 888,3213 1096,3218 1144,3259 1431,3266 1658,3340 1692,3260 1377,3166 1112,3162 1069,3111 939,3143 795,3057 694,3082 517,3041" rendition="Line" xml:id="facs_3_r1l29"/>
+         <zone education="505,3270 1215,3416 1671,3452 1658,3354 1158,3318 1064,3259 519,3185" rendition="Line" xml:id="facs_3_r1l30"/>
+         <zone education="507,3410 648,3400 780,3467 885,3446 967,3497 1063,3484 1345,3564 1386,3538 1592,3605 1653,3601 1669,3510 1195,3447 1068,3383 773,3377 531,3271" rendition="Line" xml:id="facs_3_r1l31"/>
+         <zone education="496,3518 1199,3608 1245,3675 1327,3644 1589,3725 1606,3634 1492,3591 1346,3622 1295,3572 1185,3578 1045,3495 826,3487 732,3439 649,3463 516,3416" rendition="Line" xml:id="facs_3_r1l32"/>
+         <zone education="499,3601 640,3685 821,3687 1000,3753 1058,3725 1234,3806 1515,3829 1624,3793 1423,3702 1120,3684 1048,3626 838,3619 784,3581 676,3606 512,3526" rendition="Line" xml:id="facs_3_line_1660379677940_175"/>
+         <zone education="455,3863 543,3861 585,3919 806,3910 853,3956 1050,3991 1096,4043 1469,4079 1501,4114 1549,4112 1574,4013 1337,3993 1131,3908 946,3912 864,3853 797,3865 481,3759" rendition="Line" xml:id="facs_3_line_1660379714706_180"/>
+         <zone education="543,4032 1008,4096 1116,4167 1198,4145 1297,4195 1434,4179 1585,4222 1585,4110 1237,4099 1048,4002 833,4022 742,3951 563,3929" rendition="Line" xml:id="facs_3_line_1660379741270_185"/>
       </zone>
    </surface>
    <surface xml:id="facs_4">
       <graphic url="EMIPMS0498_TweedMagicScroll030_004.jpg" width="4288px" height="2848px"/>
-      <zone ="463,195 407,3999 1653,4132 1709,328" rendition="TextRegion" xml:id="facs_4_r1">
-         <zone ="475,287 1474,411 1608,394 1614,330 1159,287 1115,314 713,215 628,257 485,179" rendition="Line" xml:id="facs_4_line_1660379851307_225"/>
-         <zone ="481,508 550,533 655,444 773,497 820,458 1011,459 1212,523 1289,489 1566,534 1656,525 1660,452 1279,434 1110,380 674,377 492,291" rendition="Line" xml:id="facs_4_r1l7"/>
-         <zone ="478,641 682,590 1025,606 1098,658 1364,616 1499,663 1608,642 1610,568 807,495 479,561" rendition="Line" xml:id="facs_4_r1l8"/>
-         <zone ="477,813 712,725 834,756 880,713 944,757 1059,719 1182,767 1632,769 1608,656 1410,701 1361,657 1069,673 968,636 776,669 598,627 479,675" rendition="Line" xml:id="facs_4_r1l9"/>
-         <zone ="487,907 642,854 1060,876 1146,832 1639,918 1655,780 892,788 787,747 487,794" rendition="Line" xml:id="facs_4_r1l10"/>
-         <zone ="490,1122 642,1001 707,1037 854,988 1050,1023 1299,969 1485,1003 1544,995 1540,909 1444,934 1300,882 1136,928 975,890 915,928 737,895 480,932" rendition="Line" xml:id="facs_4_r1l11"/>
-         <zone ="516,1211 783,1136 1015,1166 1126,1122 1579,1143 1611,1136 1608,1036 1497,1077 1250,1029 1163,1071 1107,1032 951,1064 905,1037 513,1119" rendition="Line" xml:id="facs_4_r1l12"/>
-         <zone ="523,1319 623,1272 690,1308 746,1257 990,1293 1292,1257 1563,1283 1665,1350 1661,1113 1508,1201 1224,1179 1068,1245 1005,1185 943,1210 861,1173 522,1242" rendition="Line" xml:id="facs_4_r1l13"/>
-         <zone ="536,1433 632,1394 841,1432 899,1389 1143,1430 1197,1393 1263,1439 1358,1397 1630,1462 1633,1354 1505,1327 1259,1310 1051,1359 994,1309 950,1347 846,1306 775,1349 734,1314 539,1330" rendition="Line" xml:id="facs_4_r1l14"/>
-         <zone ="524,1613 609,1564 888,1527 1153,1568 1280,1530 1590,1624 1618,1496 1292,1449 1250,1476 1104,1423 1041,1469 762,1430 527,1458" rendition="Line" xml:id="facs_4_r1l15"/>
-         <zone ="561,1751 685,1692 891,1667 1331,1697 1467,1662 1566,1729 1668,1692 1669,1654 1197,1565 1101,1601 926,1578 866,1607 721,1559 564,1590" rendition="Line" xml:id="facs_4_r1l16"/>
-         <zone ="560,1884 773,1821 1653,1861 1656,1764 1624,1751 1431,1777 1257,1725 1179,1767 1045,1728 890,1760 770,1710 565,1750" rendition="Line" xml:id="facs_4_r1l17"/>
-         <zone ="559,1953 1056,1946 1465,1992 1519,2042 1612,2003 1615,1926 1475,1922 1444,1889 1382,1914 1339,1874 980,1858 927,1885 737,1849 563,1880" rendition="Line" xml:id="facs_4_r1l18"/>
-         <zone ="558,2074 1098,2064 1201,2100 1268,2065 1652,2162 1658,2034 1410,2036 1329,1974 1272,2003 1195,1967 1125,2013 960,1975 561,2010" rendition="Line" xml:id="facs_4_r1l19"/>
-         <zone ="593,2221 714,2192 890,2229 1010,2183 1075,2211 1142,2187 1179,2225 1308,2209 1520,2272 1584,2267 1589,2151 1486,2141 1432,2175 1377,2137 1123,2114 972,2164 913,2118 597,2113" rendition="Line" xml:id="facs_4_r1l20"/>
-         <zone ="601,2325 759,2356 909,2294 965,2345 1084,2361 1146,2330 1332,2395 1473,2373 1511,2415 1622,2411 1626,2352 1585,2321 1497,2324 1424,2267 606,2262" rendition="Line" xml:id="facs_4_r1l21"/>
-         <zone ="550,2459 625,2497 694,2455 787,2466 859,2504 979,2454 1053,2486 1155,2463 1596,2551 1601,2464 1382,2396 1312,2420 1058,2388 1000,2423 898,2360 852,2396 758,2367 552,2424" rendition="Line" xml:id="facs_4_r1l22"/>
-         <zone ="552,2621 717,2575 1059,2637 1137,2598 1174,2641 1222,2616 1394,2698 1506,2676 1603,2737 1617,2610 1460,2559 999,2530 924,2481 822,2515 564,2509" rendition="Line" xml:id="facs_4_r1l23"/>
-         <zone ="544,2694 588,2733 803,2702 851,2737 914,2710 970,2765 1191,2751 1401,2826 1504,2815 1559,2858 1570,2781 1497,2770 1446,2703 1373,2718 1315,2674 1202,2697 1154,2648 1095,2682 1006,2630 942,2660 872,2615 784,2656 750,2619 555,2618" rendition="Line" xml:id="facs_4_r1l24"/>
-         <zone ="571,2843 800,2811 913,2879 1145,2871 1203,2911 1459,2921 1577,2976 1586,2898 1540,2852 1483,2871 1416,2819 1219,2791 1169,2831 1085,2787 973,2816 829,2765 705,2794 623,2712 584,2731" rendition="Line" xml:id="facs_4_r1l25"/>
-         <zone ="535,2955 863,3023 991,2990 1547,3101 1565,2979 1528,2962 1400,3009 1196,2915 821,2917 773,2874 697,2917 549,2866" rendition="Line" xml:id="facs_4_r1l26"/>
-         <zone ="532,3069 866,3149 954,3110 1027,3148 1102,3131 1198,3190 1339,3192 1566,3277 1580,3189 1536,3144 1401,3150 1346,3096 1264,3110 1214,3073 1156,3096 1064,3055 628,3033 545,2991" rendition="Line" xml:id="facs_4_r1l27"/>
-         <zone ="511,3230 983,3238 1126,3263 1177,3312 1297,3297 1418,3361 1491,3353 1588,3453 1612,3302 1548,3274 1437,3242 1381,3271 1090,3149 717,3165 535,3084" rendition="Line" xml:id="facs_4_r1l28"/>
-         <zone ="521,3322 644,3309 713,3370 782,3338 844,3381 1109,3378 1179,3437 1369,3452 1544,3530 1563,3425 1536,3405 1466,3423 1198,3319 1128,3346 540,3220" rendition="Line" xml:id="facs_4_r1l29"/>
-         <zone ="518,3406 573,3453 946,3490 1147,3573 1274,3554 1360,3627 1522,3637 1538,3559 1378,3487 1308,3518 1256,3463 1112,3465 938,3395 529,3349" rendition="Line" xml:id="facs_4_r1l30"/>
-         <zone ="492,3602 751,3591 1213,3701 1310,3687 1371,3759 1415,3749 1534,3834 1560,3704 1482,3647 1071,3593 945,3526 836,3548 705,3491 515,3487" rendition="Line" xml:id="facs_4_r1l31"/>
-         <zone ="472,3704 797,3759 959,3723 1033,3807 1113,3783 1182,3823 1257,3787 1312,3853 1480,3904 1517,3846 1190,3696 1100,3709 980,3650 750,3654 673,3618 606,3660 491,3601" rendition="Line" xml:id="facs_4_r1l32"/>
-         <zone ="462,3814 513,3842 624,3812 1031,3916 1115,3899 1504,4024 1523,3923 1353,3853 1131,3857 1000,3784 910,3813 858,3770 755,3807 615,3719 481,3714" rendition="Line" xml:id="facs_4_r1l34"/>
-         <zone ="461,3944 776,3952 925,4008 1195,4024 1519,4128 1510,4015 1248,3991 1156,3932 1104,3962 1055,3912 967,3953 781,3863 693,3887 634,3834 476,3853" rendition="Line" xml:id="facs_4_r1l35"/>
+      <zone education="463,195 407,3999 1653,4132 1709,328" rendition="TextRegion" xml:id="facs_4_r1">
+         <zone education="475,287 1474,411 1608,394 1614,330 1159,287 1115,314 713,215 628,257 485,179" rendition="Line" xml:id="facs_4_line_1660379851307_225"/>
+         <zone education="481,508 550,533 655,444 773,497 820,458 1011,459 1212,523 1289,489 1566,534 1656,525 1660,452 1279,434 1110,380 674,377 492,291" rendition="Line" xml:id="facs_4_r1l7"/>
+         <zone education="478,641 682,590 1025,606 1098,658 1364,616 1499,663 1608,642 1610,568 807,495 479,561" rendition="Line" xml:id="facs_4_r1l8"/>
+         <zone education="477,813 712,725 834,756 880,713 944,757 1059,719 1182,767 1632,769 1608,656 1410,701 1361,657 1069,673 968,636 776,669 598,627 479,675" rendition="Line" xml:id="facs_4_r1l9"/>
+         <zone education="487,907 642,854 1060,876 1146,832 1639,918 1655,780 892,788 787,747 487,794" rendition="Line" xml:id="facs_4_r1l10"/>
+         <zone education="490,1122 642,1001 707,1037 854,988 1050,1023 1299,969 1485,1003 1544,995 1540,909 1444,934 1300,882 1136,928 975,890 915,928 737,895 480,932" rendition="Line" xml:id="facs_4_r1l11"/>
+         <zone education="516,1211 783,1136 1015,1166 1126,1122 1579,1143 1611,1136 1608,1036 1497,1077 1250,1029 1163,1071 1107,1032 951,1064 905,1037 513,1119" rendition="Line" xml:id="facs_4_r1l12"/>
+         <zone education="523,1319 623,1272 690,1308 746,1257 990,1293 1292,1257 1563,1283 1665,1350 1661,1113 1508,1201 1224,1179 1068,1245 1005,1185 943,1210 861,1173 522,1242" rendition="Line" xml:id="facs_4_r1l13"/>
+         <zone education="536,1433 632,1394 841,1432 899,1389 1143,1430 1197,1393 1263,1439 1358,1397 1630,1462 1633,1354 1505,1327 1259,1310 1051,1359 994,1309 950,1347 846,1306 775,1349 734,1314 539,1330" rendition="Line" xml:id="facs_4_r1l14"/>
+         <zone education="524,1613 609,1564 888,1527 1153,1568 1280,1530 1590,1624 1618,1496 1292,1449 1250,1476 1104,1423 1041,1469 762,1430 527,1458" rendition="Line" xml:id="facs_4_r1l15"/>
+         <zone education="561,1751 685,1692 891,1667 1331,1697 1467,1662 1566,1729 1668,1692 1669,1654 1197,1565 1101,1601 926,1578 866,1607 721,1559 564,1590" rendition="Line" xml:id="facs_4_r1l16"/>
+         <zone education="560,1884 773,1821 1653,1861 1656,1764 1624,1751 1431,1777 1257,1725 1179,1767 1045,1728 890,1760 770,1710 565,1750" rendition="Line" xml:id="facs_4_r1l17"/>
+         <zone education="559,1953 1056,1946 1465,1992 1519,2042 1612,2003 1615,1926 1475,1922 1444,1889 1382,1914 1339,1874 980,1858 927,1885 737,1849 563,1880" rendition="Line" xml:id="facs_4_r1l18"/>
+         <zone education="558,2074 1098,2064 1201,2100 1268,2065 1652,2162 1658,2034 1410,2036 1329,1974 1272,2003 1195,1967 1125,2013 960,1975 561,2010" rendition="Line" xml:id="facs_4_r1l19"/>
+         <zone education="593,2221 714,2192 890,2229 1010,2183 1075,2211 1142,2187 1179,2225 1308,2209 1520,2272 1584,2267 1589,2151 1486,2141 1432,2175 1377,2137 1123,2114 972,2164 913,2118 597,2113" rendition="Line" xml:id="facs_4_r1l20"/>
+         <zone education="601,2325 759,2356 909,2294 965,2345 1084,2361 1146,2330 1332,2395 1473,2373 1511,2415 1622,2411 1626,2352 1585,2321 1497,2324 1424,2267 606,2262" rendition="Line" xml:id="facs_4_r1l21"/>
+         <zone education="550,2459 625,2497 694,2455 787,2466 859,2504 979,2454 1053,2486 1155,2463 1596,2551 1601,2464 1382,2396 1312,2420 1058,2388 1000,2423 898,2360 852,2396 758,2367 552,2424" rendition="Line" xml:id="facs_4_r1l22"/>
+         <zone education="552,2621 717,2575 1059,2637 1137,2598 1174,2641 1222,2616 1394,2698 1506,2676 1603,2737 1617,2610 1460,2559 999,2530 924,2481 822,2515 564,2509" rendition="Line" xml:id="facs_4_r1l23"/>
+         <zone education="544,2694 588,2733 803,2702 851,2737 914,2710 970,2765 1191,2751 1401,2826 1504,2815 1559,2858 1570,2781 1497,2770 1446,2703 1373,2718 1315,2674 1202,2697 1154,2648 1095,2682 1006,2630 942,2660 872,2615 784,2656 750,2619 555,2618" rendition="Line" xml:id="facs_4_r1l24"/>
+         <zone education="571,2843 800,2811 913,2879 1145,2871 1203,2911 1459,2921 1577,2976 1586,2898 1540,2852 1483,2871 1416,2819 1219,2791 1169,2831 1085,2787 973,2816 829,2765 705,2794 623,2712 584,2731" rendition="Line" xml:id="facs_4_r1l25"/>
+         <zone education="535,2955 863,3023 991,2990 1547,3101 1565,2979 1528,2962 1400,3009 1196,2915 821,2917 773,2874 697,2917 549,2866" rendition="Line" xml:id="facs_4_r1l26"/>
+         <zone education="532,3069 866,3149 954,3110 1027,3148 1102,3131 1198,3190 1339,3192 1566,3277 1580,3189 1536,3144 1401,3150 1346,3096 1264,3110 1214,3073 1156,3096 1064,3055 628,3033 545,2991" rendition="Line" xml:id="facs_4_r1l27"/>
+         <zone education="511,3230 983,3238 1126,3263 1177,3312 1297,3297 1418,3361 1491,3353 1588,3453 1612,3302 1548,3274 1437,3242 1381,3271 1090,3149 717,3165 535,3084" rendition="Line" xml:id="facs_4_r1l28"/>
+         <zone education="521,3322 644,3309 713,3370 782,3338 844,3381 1109,3378 1179,3437 1369,3452 1544,3530 1563,3425 1536,3405 1466,3423 1198,3319 1128,3346 540,3220" rendition="Line" xml:id="facs_4_r1l29"/>
+         <zone education="518,3406 573,3453 946,3490 1147,3573 1274,3554 1360,3627 1522,3637 1538,3559 1378,3487 1308,3518 1256,3463 1112,3465 938,3395 529,3349" rendition="Line" xml:id="facs_4_r1l30"/>
+         <zone education="492,3602 751,3591 1213,3701 1310,3687 1371,3759 1415,3749 1534,3834 1560,3704 1482,3647 1071,3593 945,3526 836,3548 705,3491 515,3487" rendition="Line" xml:id="facs_4_r1l31"/>
+         <zone education="472,3704 797,3759 959,3723 1033,3807 1113,3783 1182,3823 1257,3787 1312,3853 1480,3904 1517,3846 1190,3696 1100,3709 980,3650 750,3654 673,3618 606,3660 491,3601" rendition="Line" xml:id="facs_4_r1l32"/>
+         <zone education="462,3814 513,3842 624,3812 1031,3916 1115,3899 1504,4024 1523,3923 1353,3853 1131,3857 1000,3784 910,3813 858,3770 755,3807 615,3719 481,3714" rendition="Line" xml:id="facs_4_r1l34"/>
+         <zone education="461,3944 776,3952 925,4008 1195,4024 1519,4128 1510,4015 1248,3991 1156,3932 1104,3962 1055,3912 967,3953 781,3863 693,3887 634,3834 476,3853" rendition="Line" xml:id="facs_4_r1l35"/>
       </zone>
    </surface>
    <surface xml:id="facs_5">
       <graphic url="EMIPMS0498_TweedMagicScroll030_005.jpg" width="4288px" height="2848px"/>
-      <zone ="513,220 552,3646 1874,3744 1835,318" rendition="TextRegion" xml:id="facs_5_r1">
-         <zone ="616,322 788,383 1654,367 1647,271 1447,320 1323,279 1048,317 964,265 750,293 618,235" rendition="Line" xml:id="facs_5_r1l7"/>
-         <zone ="610,477 717,451 861,495 1012,440 1112,501 1710,495 1711,410 1606,368 893,413 612,367" rendition="Line" xml:id="facs_5_r1l8"/>
-         <zone ="607,589 799,570 1120,624 1296,575 1372,604 1496,573 1563,624 1717,598 1696,499 1081,495 918,549 840,489 722,514 609,482" rendition="Line" xml:id="facs_5_r1l9"/>
-         <zone ="636,721 897,703 1084,755 1454,715 1586,747 1713,712 1715,623 1451,653 1288,618 1091,669 638,613" rendition="Line" xml:id="facs_5_r1l10"/>
-         <zone ="607,847 820,877 937,839 1022,890 1103,867 1227,911 1356,850 1746,857 1747,773 1685,744 1517,787 1460,755 1246,783 952,730 716,782 608,741" rendition="Line" xml:id="facs_5_r1l11"/>
-         <zone ="588,1054 714,962 1031,1033 1158,1007 1317,1046 1428,1000 1584,1029 1734,1002 1738,906 1636,891 1576,930 1527,893 1438,968 1366,912 1067,880 955,919 596,829" rendition="Line" xml:id="facs_5_r1l12"/>
-         <zone ="543,1118 939,1117 1144,1180 1355,1147 1412,1187 1546,1124 1681,1161 1735,1131 1740,1037 1490,1077 1158,1007 1002,1060 879,1010 672,1005 546,1058" rendition="Line" xml:id="facs_5_r1l13"/>
-         <zone ="649,1249 789,1278 1164,1250 1381,1298 1480,1252 1767,1274 1790,1173 1633,1211 1435,1172 1323,1212 1272,1169 1182,1197 1045,1156 967,1189 650,1143" rendition="Line" xml:id="facs_5_r1l14"/>
-         <zone ="633,1338 895,1388 1111,1366 1232,1409 1794,1355 1760,1275 1352,1319 1035,1268 943,1302 863,1259 806,1298 635,1254" rendition="Line" xml:id="facs_5_r1l15"/>
-         <zone ="649,1457 1370,1470 1551,1509 1753,1490 1805,1434 1686,1408 1563,1441 1433,1384 1349,1419 1264,1390 986,1413 923,1371 784,1397 651,1366" rendition="Line" xml:id="facs_5_r1l16"/>
-         <zone ="733,1556 814,1585 972,1559 1070,1602 1124,1562 1807,1574 1806,1496 1738,1482 1012,1505 894,1461 732,1467" rendition="Line" xml:id="facs_5_line_1660380262084_294"/>
-         <zone ="734,1674 1759,1702 1812,1692 1814,1593 1384,1622 1302,1592 1232,1627 1195,1594 1129,1625 1051,1584 736,1574" rendition="Line" xml:id="facs_5_r1l19"/>
-         <zone ="766,1764 953,1808 1108,1804 1203,1759 1712,1838 1806,1803 1812,1724 1484,1742 1395,1687 1210,1726 1057,1668 950,1693 773,1662" rendition="Line" xml:id="facs_5_r1l20"/>
-         <zone ="658,1809 1337,1931 1846,1944 1855,1844 1642,1819 1537,1861 1287,1774 1123,1816 662,1768" rendition="Line" xml:id="facs_5_r1l21"/>
-         <zone ="686,1985 750,1967 834,2018 913,1982 1167,2069 1231,2017 1663,2035 1768,2081 1839,2054 1844,1966 1505,1983 1358,1924 1273,1955 1090,1907 888,1929 695,1833" rendition="Line" xml:id="facs_5_r1l22"/>
-         <zone ="665,2098 868,2070 1196,2131 1244,2179 1485,2157 1713,2208 1813,2201 1825,2097 1720,2110 1486,2046 1186,2081 1036,2005 678,1988" rendition="Line" xml:id="facs_5_r1l23"/>
-         <zone ="661,2158 1204,2263 1531,2253 1798,2337 1811,2235 1772,2219 1712,2247 1516,2178 1155,2182 1085,2123 909,2143 737,2077 668,2100" rendition="Line" xml:id="facs_5_r1l24"/>
-         <zone ="669,2277 935,2323 1066,2294 1388,2376 1542,2354 1790,2441 1825,2362 1313,2255 1152,2276 961,2213 680,2196" rendition="Line" xml:id="facs_5_r1l25"/>
-         <zone ="696,2375 853,2357 1358,2470 1409,2440 1473,2478 1552,2460 1725,2536 1853,2542 1861,2493 1445,2363 1243,2393 1136,2340 706,2304" rendition="Line" xml:id="facs_5_r1l26"/>
-         <zone ="705,2477 1224,2553 1387,2539 1775,2604 1862,2666 1880,2520 1675,2545 1437,2465 1181,2464 1073,2415 718,2381" rendition="Line" xml:id="facs_5_r1l27"/>
-         <zone ="672,2580 1124,2588 1249,2643 1843,2730 1854,2650 1817,2637 1742,2654 1287,2540 1198,2562 1043,2500 825,2528 689,2459" rendition="Line" xml:id="facs_5_r1l28"/>
-         <zone ="666,2663 837,2724 972,2695 1592,2816 1682,2790 1744,2856 1815,2850 1827,2757 1611,2710 1416,2724 1362,2671 954,2634 873,2589 673,2609" rendition="Line" xml:id="facs_5_r1l29"/>
-         <zone ="665,2808 1444,2877 1761,2978 1832,2969 1842,2896 1307,2809 1268,2769 1073,2794 983,2746 925,2785 834,2729 675,2733" rendition="Line" xml:id="facs_5_r1l30"/>
-         <zone ="660,2984 1090,2969 1186,3007 1319,2963 1462,3065 1640,3051 1772,3121 1782,3020 1694,3025 1566,2956 1510,2982 1270,2895 1088,2922 1020,2869 825,2905 672,2859" rendition="Line" xml:id="facs_5_r1l31"/>
-         <zone ="664,3100 1151,3097 1335,3175 1555,3145 1616,3216 1733,3252 1787,3251 1800,3151 1540,3079 1463,3100 1336,3029 1270,3056 1221,3019 674,3024" rendition="Line" xml:id="facs_5_r1l32"/>
-         <zone ="651,3232 739,3204 902,3264 1001,3232 1339,3327 1483,3291 1634,3378 1810,3383 1823,3302 1624,3240 1469,3258 1372,3205 1215,3209 1159,3155 1039,3180 861,3111 772,3144 670,3115" rendition="Line" xml:id="facs_5_r1l33"/>
-         <zone ="649,3280 784,3303 842,3360 1262,3378 1390,3450 1509,3440 1661,3510 1816,3484 1826,3425 1762,3400 1636,3409 1361,3319 1066,3268 983,3308 872,3253 657,3234" rendition="Line" xml:id="facs_5_r1l34"/>
-         <zone ="628,3456 1070,3465 1288,3502 1430,3576 1646,3565 1724,3637 1774,3639 1792,3539 1710,3556 1583,3489 1240,3415 1182,3442 1112,3381 877,3406 650,3331" rendition="Line" xml:id="facs_5_line_1660380404387_319"/>
-         <zone ="631,3583 804,3542 1099,3640 1514,3681 1740,3803 1772,3803 1805,3643 1690,3653 1580,3574 1218,3553 1173,3500 1044,3475 876,3500 657,3453" rendition="Line" xml:id="facs_5_r1l36"/>
+      <zone education="513,220 552,3646 1874,3744 1835,318" rendition="TextRegion" xml:id="facs_5_r1">
+         <zone education="616,322 788,383 1654,367 1647,271 1447,320 1323,279 1048,317 964,265 750,293 618,235" rendition="Line" xml:id="facs_5_r1l7"/>
+         <zone education="610,477 717,451 861,495 1012,440 1112,501 1710,495 1711,410 1606,368 893,413 612,367" rendition="Line" xml:id="facs_5_r1l8"/>
+         <zone education="607,589 799,570 1120,624 1296,575 1372,604 1496,573 1563,624 1717,598 1696,499 1081,495 918,549 840,489 722,514 609,482" rendition="Line" xml:id="facs_5_r1l9"/>
+         <zone education="636,721 897,703 1084,755 1454,715 1586,747 1713,712 1715,623 1451,653 1288,618 1091,669 638,613" rendition="Line" xml:id="facs_5_r1l10"/>
+         <zone education="607,847 820,877 937,839 1022,890 1103,867 1227,911 1356,850 1746,857 1747,773 1685,744 1517,787 1460,755 1246,783 952,730 716,782 608,741" rendition="Line" xml:id="facs_5_r1l11"/>
+         <zone education="588,1054 714,962 1031,1033 1158,1007 1317,1046 1428,1000 1584,1029 1734,1002 1738,906 1636,891 1576,930 1527,893 1438,968 1366,912 1067,880 955,919 596,829" rendition="Line" xml:id="facs_5_r1l12"/>
+         <zone education="543,1118 939,1117 1144,1180 1355,1147 1412,1187 1546,1124 1681,1161 1735,1131 1740,1037 1490,1077 1158,1007 1002,1060 879,1010 672,1005 546,1058" rendition="Line" xml:id="facs_5_r1l13"/>
+         <zone education="649,1249 789,1278 1164,1250 1381,1298 1480,1252 1767,1274 1790,1173 1633,1211 1435,1172 1323,1212 1272,1169 1182,1197 1045,1156 967,1189 650,1143" rendition="Line" xml:id="facs_5_r1l14"/>
+         <zone education="633,1338 895,1388 1111,1366 1232,1409 1794,1355 1760,1275 1352,1319 1035,1268 943,1302 863,1259 806,1298 635,1254" rendition="Line" xml:id="facs_5_r1l15"/>
+         <zone education="649,1457 1370,1470 1551,1509 1753,1490 1805,1434 1686,1408 1563,1441 1433,1384 1349,1419 1264,1390 986,1413 923,1371 784,1397 651,1366" rendition="Line" xml:id="facs_5_r1l16"/>
+         <zone education="733,1556 814,1585 972,1559 1070,1602 1124,1562 1807,1574 1806,1496 1738,1482 1012,1505 894,1461 732,1467" rendition="Line" xml:id="facs_5_line_1660380262084_294"/>
+         <zone education="734,1674 1759,1702 1812,1692 1814,1593 1384,1622 1302,1592 1232,1627 1195,1594 1129,1625 1051,1584 736,1574" rendition="Line" xml:id="facs_5_r1l19"/>
+         <zone education="766,1764 953,1808 1108,1804 1203,1759 1712,1838 1806,1803 1812,1724 1484,1742 1395,1687 1210,1726 1057,1668 950,1693 773,1662" rendition="Line" xml:id="facs_5_r1l20"/>
+         <zone education="658,1809 1337,1931 1846,1944 1855,1844 1642,1819 1537,1861 1287,1774 1123,1816 662,1768" rendition="Line" xml:id="facs_5_r1l21"/>
+         <zone education="686,1985 750,1967 834,2018 913,1982 1167,2069 1231,2017 1663,2035 1768,2081 1839,2054 1844,1966 1505,1983 1358,1924 1273,1955 1090,1907 888,1929 695,1833" rendition="Line" xml:id="facs_5_r1l22"/>
+         <zone education="665,2098 868,2070 1196,2131 1244,2179 1485,2157 1713,2208 1813,2201 1825,2097 1720,2110 1486,2046 1186,2081 1036,2005 678,1988" rendition="Line" xml:id="facs_5_r1l23"/>
+         <zone education="661,2158 1204,2263 1531,2253 1798,2337 1811,2235 1772,2219 1712,2247 1516,2178 1155,2182 1085,2123 909,2143 737,2077 668,2100" rendition="Line" xml:id="facs_5_r1l24"/>
+         <zone education="669,2277 935,2323 1066,2294 1388,2376 1542,2354 1790,2441 1825,2362 1313,2255 1152,2276 961,2213 680,2196" rendition="Line" xml:id="facs_5_r1l25"/>
+         <zone education="696,2375 853,2357 1358,2470 1409,2440 1473,2478 1552,2460 1725,2536 1853,2542 1861,2493 1445,2363 1243,2393 1136,2340 706,2304" rendition="Line" xml:id="facs_5_r1l26"/>
+         <zone education="705,2477 1224,2553 1387,2539 1775,2604 1862,2666 1880,2520 1675,2545 1437,2465 1181,2464 1073,2415 718,2381" rendition="Line" xml:id="facs_5_r1l27"/>
+         <zone education="672,2580 1124,2588 1249,2643 1843,2730 1854,2650 1817,2637 1742,2654 1287,2540 1198,2562 1043,2500 825,2528 689,2459" rendition="Line" xml:id="facs_5_r1l28"/>
+         <zone education="666,2663 837,2724 972,2695 1592,2816 1682,2790 1744,2856 1815,2850 1827,2757 1611,2710 1416,2724 1362,2671 954,2634 873,2589 673,2609" rendition="Line" xml:id="facs_5_r1l29"/>
+         <zone education="665,2808 1444,2877 1761,2978 1832,2969 1842,2896 1307,2809 1268,2769 1073,2794 983,2746 925,2785 834,2729 675,2733" rendition="Line" xml:id="facs_5_r1l30"/>
+         <zone education="660,2984 1090,2969 1186,3007 1319,2963 1462,3065 1640,3051 1772,3121 1782,3020 1694,3025 1566,2956 1510,2982 1270,2895 1088,2922 1020,2869 825,2905 672,2859" rendition="Line" xml:id="facs_5_r1l31"/>
+         <zone education="664,3100 1151,3097 1335,3175 1555,3145 1616,3216 1733,3252 1787,3251 1800,3151 1540,3079 1463,3100 1336,3029 1270,3056 1221,3019 674,3024" rendition="Line" xml:id="facs_5_r1l32"/>
+         <zone education="651,3232 739,3204 902,3264 1001,3232 1339,3327 1483,3291 1634,3378 1810,3383 1823,3302 1624,3240 1469,3258 1372,3205 1215,3209 1159,3155 1039,3180 861,3111 772,3144 670,3115" rendition="Line" xml:id="facs_5_r1l33"/>
+         <zone education="649,3280 784,3303 842,3360 1262,3378 1390,3450 1509,3440 1661,3510 1816,3484 1826,3425 1762,3400 1636,3409 1361,3319 1066,3268 983,3308 872,3253 657,3234" rendition="Line" xml:id="facs_5_r1l34"/>
+         <zone education="628,3456 1070,3465 1288,3502 1430,3576 1646,3565 1724,3637 1774,3639 1792,3539 1710,3556 1583,3489 1240,3415 1182,3442 1112,3381 877,3406 650,3331" rendition="Line" xml:id="facs_5_line_1660380404387_319"/>
+         <zone education="631,3583 804,3542 1099,3640 1514,3681 1740,3803 1772,3803 1805,3643 1690,3653 1580,3574 1218,3553 1173,3500 1044,3475 876,3500 657,3453" rendition="Line" xml:id="facs_5_r1l36"/>
       </zone>
    </surface>
    <surface xml:id="facs_6">
@@ -2192,54 +230,54 @@
    </surface>
    <surface xml:id="facs_7">
       <graphic url="EMIPMS0498_TweedMagicScroll030_007.jpg" width="4288px" height="2848px"/>
-      <zone ="617,680 1937,749 1937,4346 617,4277" rendition="TextRegion" xml:id="facs_7_TextRegion_1660380519251_355">
-         <zone ="692,823 968,835 1011,869 1145,834 1234,887 1753,843 1754,763 1691,735 1576,778 1470,743 969,781 814,720 693,764" rendition="Line" xml:id="facs_7_line_1660380566869_367"/>
-         <zone ="695,921 948,979 1151,972 1193,1006 1246,970 1335,1000 1741,976 1745,861 1711,855 1128,905 698,835" rendition="Line" xml:id="facs_7_r2l3"/>
-         <zone ="700,1055 1458,1118 1584,1057 1739,1065 1757,987 1595,966 1513,1012 1247,969 1041,1017 918,963 700,997" rendition="Line" xml:id="facs_7_r2l4"/>
-         <zone ="720,1160 949,1247 1027,1212 1125,1255 1354,1229 1479,1266 1551,1224 1776,1236 1781,1111 1428,1166 722,1092" rendition="Line" xml:id="facs_7_line_1660380604900_378"/>
-         <zone ="725,1330 815,1340 881,1302 971,1364 1018,1337 1238,1391 1780,1391 1788,1258 1453,1311 1403,1279 1026,1282 733,1198" rendition="Line" xml:id="facs_7_r2l8"/>
-         <zone ="725,1417 942,1479 1005,1454 1073,1500 1183,1476 1463,1526 1515,1491 1666,1529 1793,1519 1805,1370 1711,1413 1453,1403 1276,1451 1116,1385 1021,1404 731,1343" rendition="Line" xml:id="facs_7_r2l9"/>
-         <zone ="699,1592 1030,1553 1222,1632 1308,1600 1383,1645 1511,1620 1692,1656 1812,1605 1814,1571 1665,1573 1620,1531 1379,1566 1253,1498 924,1469 872,1498 716,1423" rendition="Line" xml:id="facs_7_r2l10"/>
-         <zone ="746,1672 872,1658 1030,1706 1104,1680 1235,1748 1326,1729 1487,1793 1555,1766 1623,1802 1689,1763 1835,1797 1843,1740 1793,1700 1511,1675 1422,1703 1389,1665 1310,1684 1045,1599 879,1615 760,1580" rendition="Line" xml:id="facs_7_r2l11"/>
-         <zone ="736,1770 1047,1844 1102,1823 1162,1865 1233,1838 1407,1911 1627,1895 1862,1980 1879,1860 1822,1823 1446,1827 1176,1753 1107,1775 1033,1714 746,1705" rendition="Line" xml:id="facs_7_r2l12"/>
-         <zone ="728,1883 1017,1929 1085,1981 1200,1961 1262,2005 1497,1981 1584,2036 1791,2035 1854,2082 1888,2079 1901,1994 1862,1957 1659,1967 1433,1906 1201,1920 963,1827 851,1856 743,1779" rendition="Line" xml:id="facs_7_r2l13"/>
-         <zone ="722,2015 818,2006 880,2063 972,2049 1064,2102 1542,2119 1716,2176 1841,2168 1853,2086 1232,2025 1133,1966 981,1993 736,1917" rendition="Line" xml:id="facs_7_r2l14"/>
-         <zone ="722,2100 933,2145 1009,2201 1844,2304 1855,2232 1771,2178 1718,2206 1562,2155 1175,2137 843,2079 735,2018" rendition="Line" xml:id="facs_7_r2l15"/>
-         <zone ="699,2271 914,2301 960,2345 1016,2322 1105,2362 1195,2344 1262,2395 1371,2367 1512,2405 1559,2393 1570,2324 890,2235 718,2148" rendition="Line" xml:id="facs_7_line_1660380658450_398"/>
-         <zone ="689,2928 819,2914 897,2969 994,2924 1064,2957 1141,2936 1244,2999 1297,2971 1382,3022 1563,3005 1828,3083 1844,2982 1783,2943 1160,2902 1027,2815 704,2841" rendition="Line" xml:id="facs_7_line_1660380666181_402"/>
-         <zone ="671,3082 957,3054 1002,3095 1161,3095 1381,3172 1656,3181 1760,3256 1802,3246 1826,3132 704,2921" rendition="Line" xml:id="facs_7_line_1660380688230_407"/>
-         <zone ="673,3159 835,3207 900,3186 1051,3261 1320,3246 1395,3321 1483,3298 1812,3407 1863,3301 1748,3263 1487,3269 1281,3161 1038,3152 792,3062 689,3079" rendition="Line" xml:id="facs_7_line_1660380704487_412"/>
-         <zone ="637,3385 806,3337 988,3360 1206,3431 1465,3427 1514,3474 1574,3454 1839,3547 1867,3440 1637,3401 1551,3331 1336,3367 1172,3300 904,3284 771,3164 673,3181" rendition="Line" xml:id="facs_7_r2l24"/>
-         <zone ="662,3469 1217,3540 1399,3607 1628,3612 1846,3681 1866,3573 1338,3516 1191,3454 1100,3493 1003,3414 779,3379 671,3418" rendition="Line" xml:id="facs_7_r2l25"/>
-         <zone ="653,3603 873,3616 1065,3693 1259,3659 1445,3702 1495,3763 1840,3818 1854,3732 1815,3688 1208,3637 1064,3551 670,3501" rendition="Line" xml:id="facs_7_line_1660380815051_423"/>
-         <zone ="659,3712 925,3812 1382,3853 1648,3931 1841,3919 1852,3854 1780,3797 1721,3828 1277,3795 1196,3718 1032,3757 967,3699 765,3676 675,3614" rendition="Line" xml:id="facs_7_line_1660380825769_428"/>
-         <zone ="692,3882 1004,3887 1433,3989 1641,3990 1717,4045 1773,4027 1781,3978 1415,3892 1291,3881 1238,3913 1066,3823 969,3864 869,3822 700,3831" rendition="Line" xml:id="facs_7_r2l31"/>
-         <zone ="742,3988 974,3990 1043,4037 1250,4050 1825,4200 1848,4098 1445,4055 1001,3926 757,3911" rendition="Line" xml:id="facs_7_line_1660381276624_492"/>
-         <zone ="755,4128 1013,4131 1409,4245 1517,4236 1543,4270 1646,4272 1760,4388 1789,4233 1737,4199 1660,4224 1428,4117 1342,4133 1155,4058 770,4044" rendition="Line" xml:id="facs_7_line_1660381285954_497"/>
-         <zone ="763,4235 805,4246 840,4226 862,4255 998,4241 1031,4277 1079,4288 1112,4271 1166,4321 1238,4287 1248,4231 1184,4219 1137,4231 1076,4176 1018,4203 932,4153 911,4166 835,4142 776,4162" rendition="Line" xml:id="facs_7_line_1660381302573_502"/>
+      <zone education="617,680 1937,749 1937,4346 617,4277" rendition="TextRegion" xml:id="facs_7_TextRegion_1660380519251_355">
+         <zone education="692,823 968,835 1011,869 1145,834 1234,887 1753,843 1754,763 1691,735 1576,778 1470,743 969,781 814,720 693,764" rendition="Line" xml:id="facs_7_line_1660380566869_367"/>
+         <zone education="695,921 948,979 1151,972 1193,1006 1246,970 1335,1000 1741,976 1745,861 1711,855 1128,905 698,835" rendition="Line" xml:id="facs_7_r2l3"/>
+         <zone education="700,1055 1458,1118 1584,1057 1739,1065 1757,987 1595,966 1513,1012 1247,969 1041,1017 918,963 700,997" rendition="Line" xml:id="facs_7_r2l4"/>
+         <zone education="720,1160 949,1247 1027,1212 1125,1255 1354,1229 1479,1266 1551,1224 1776,1236 1781,1111 1428,1166 722,1092" rendition="Line" xml:id="facs_7_line_1660380604900_378"/>
+         <zone education="725,1330 815,1340 881,1302 971,1364 1018,1337 1238,1391 1780,1391 1788,1258 1453,1311 1403,1279 1026,1282 733,1198" rendition="Line" xml:id="facs_7_r2l8"/>
+         <zone education="725,1417 942,1479 1005,1454 1073,1500 1183,1476 1463,1526 1515,1491 1666,1529 1793,1519 1805,1370 1711,1413 1453,1403 1276,1451 1116,1385 1021,1404 731,1343" rendition="Line" xml:id="facs_7_r2l9"/>
+         <zone education="699,1592 1030,1553 1222,1632 1308,1600 1383,1645 1511,1620 1692,1656 1812,1605 1814,1571 1665,1573 1620,1531 1379,1566 1253,1498 924,1469 872,1498 716,1423" rendition="Line" xml:id="facs_7_r2l10"/>
+         <zone education="746,1672 872,1658 1030,1706 1104,1680 1235,1748 1326,1729 1487,1793 1555,1766 1623,1802 1689,1763 1835,1797 1843,1740 1793,1700 1511,1675 1422,1703 1389,1665 1310,1684 1045,1599 879,1615 760,1580" rendition="Line" xml:id="facs_7_r2l11"/>
+         <zone education="736,1770 1047,1844 1102,1823 1162,1865 1233,1838 1407,1911 1627,1895 1862,1980 1879,1860 1822,1823 1446,1827 1176,1753 1107,1775 1033,1714 746,1705" rendition="Line" xml:id="facs_7_r2l12"/>
+         <zone education="728,1883 1017,1929 1085,1981 1200,1961 1262,2005 1497,1981 1584,2036 1791,2035 1854,2082 1888,2079 1901,1994 1862,1957 1659,1967 1433,1906 1201,1920 963,1827 851,1856 743,1779" rendition="Line" xml:id="facs_7_r2l13"/>
+         <zone education="722,2015 818,2006 880,2063 972,2049 1064,2102 1542,2119 1716,2176 1841,2168 1853,2086 1232,2025 1133,1966 981,1993 736,1917" rendition="Line" xml:id="facs_7_r2l14"/>
+         <zone education="722,2100 933,2145 1009,2201 1844,2304 1855,2232 1771,2178 1718,2206 1562,2155 1175,2137 843,2079 735,2018" rendition="Line" xml:id="facs_7_r2l15"/>
+         <zone education="699,2271 914,2301 960,2345 1016,2322 1105,2362 1195,2344 1262,2395 1371,2367 1512,2405 1559,2393 1570,2324 890,2235 718,2148" rendition="Line" xml:id="facs_7_line_1660380658450_398"/>
+         <zone education="689,2928 819,2914 897,2969 994,2924 1064,2957 1141,2936 1244,2999 1297,2971 1382,3022 1563,3005 1828,3083 1844,2982 1783,2943 1160,2902 1027,2815 704,2841" rendition="Line" xml:id="facs_7_line_1660380666181_402"/>
+         <zone education="671,3082 957,3054 1002,3095 1161,3095 1381,3172 1656,3181 1760,3256 1802,3246 1826,3132 704,2921" rendition="Line" xml:id="facs_7_line_1660380688230_407"/>
+         <zone education="673,3159 835,3207 900,3186 1051,3261 1320,3246 1395,3321 1483,3298 1812,3407 1863,3301 1748,3263 1487,3269 1281,3161 1038,3152 792,3062 689,3079" rendition="Line" xml:id="facs_7_line_1660380704487_412"/>
+         <zone education="637,3385 806,3337 988,3360 1206,3431 1465,3427 1514,3474 1574,3454 1839,3547 1867,3440 1637,3401 1551,3331 1336,3367 1172,3300 904,3284 771,3164 673,3181" rendition="Line" xml:id="facs_7_r2l24"/>
+         <zone education="662,3469 1217,3540 1399,3607 1628,3612 1846,3681 1866,3573 1338,3516 1191,3454 1100,3493 1003,3414 779,3379 671,3418" rendition="Line" xml:id="facs_7_r2l25"/>
+         <zone education="653,3603 873,3616 1065,3693 1259,3659 1445,3702 1495,3763 1840,3818 1854,3732 1815,3688 1208,3637 1064,3551 670,3501" rendition="Line" xml:id="facs_7_line_1660380815051_423"/>
+         <zone education="659,3712 925,3812 1382,3853 1648,3931 1841,3919 1852,3854 1780,3797 1721,3828 1277,3795 1196,3718 1032,3757 967,3699 765,3676 675,3614" rendition="Line" xml:id="facs_7_line_1660380825769_428"/>
+         <zone education="692,3882 1004,3887 1433,3989 1641,3990 1717,4045 1773,4027 1781,3978 1415,3892 1291,3881 1238,3913 1066,3823 969,3864 869,3822 700,3831" rendition="Line" xml:id="facs_7_r2l31"/>
+         <zone education="742,3988 974,3990 1043,4037 1250,4050 1825,4200 1848,4098 1445,4055 1001,3926 757,3911" rendition="Line" xml:id="facs_7_line_1660381276624_492"/>
+         <zone education="755,4128 1013,4131 1409,4245 1517,4236 1543,4270 1646,4272 1760,4388 1789,4233 1737,4199 1660,4224 1428,4117 1342,4133 1155,4058 770,4044" rendition="Line" xml:id="facs_7_line_1660381285954_497"/>
+         <zone education="763,4235 805,4246 840,4226 862,4255 998,4241 1031,4277 1079,4288 1112,4271 1166,4321 1238,4287 1248,4231 1184,4219 1137,4231 1076,4176 1018,4203 932,4153 911,4166 835,4142 776,4162" rendition="Line" xml:id="facs_7_line_1660381302573_502"/>
       </zone>
    </surface>
    <surface xml:id="facs_8">
       <graphic url="EMIPMS0498_TweedMagicScroll030_009.jpg" width="4288px" height="2848px"/>
-      <zone ="643,-13 1811,-95 1807,225 639,307" rendition="TextRegion" xml:id="facs_8_region_1660381351409_516">
-         <zone ="667,66 916,43 989,78 1050,42 1210,75 1264,38 1442,89 1626,53 1677,89 1703,-1 1337,26 721,12 668,-16" rendition="Line" xml:id="facs_8_line_1660381382011_520"/>
-         <zone ="692,194 900,146 1265,143 1407,179 1560,153 1775,210 1774,79 1700,113 1356,76 1256,101 1215,71 1137,108 1073,63 980,113 946,83 777,116 691,91" rendition="Line" xml:id="facs_8_line_1660381406614_525"/>
-         <zone ="691,280 773,293 1059,238 1145,280 1533,249 1591,235 1587,167 1079,163 1041,189 996,164 686,214" rendition="Line" xml:id="facs_8_line_1660381416544_530"/>
+      <zone education="643,-13 1811,-95 1807,225 639,307" rendition="TextRegion" xml:id="facs_8_region_1660381351409_516">
+         <zone education="667,66 916,43 989,78 1050,42 1210,75 1264,38 1442,89 1626,53 1677,89 1703,-1 1337,26 721,12 668,-16" rendition="Line" xml:id="facs_8_line_1660381382011_520"/>
+         <zone education="692,194 900,146 1265,143 1407,179 1560,153 1775,210 1774,79 1700,113 1356,76 1256,101 1215,71 1137,108 1073,63 980,113 946,83 777,116 691,91" rendition="Line" xml:id="facs_8_line_1660381406614_525"/>
+         <zone education="691,280 773,293 1059,238 1145,280 1533,249 1591,235 1587,167 1079,163 1041,189 996,164 686,214" rendition="Line" xml:id="facs_8_line_1660381416544_530"/>
       </zone>
    </surface>
    <surface xml:id="facs_9">
       <graphic url="EMIPMS0498_TweedMagicScroll030_010.jpg" width="4288px" height="2848px"/>
-      <zone ="723,1960 1928,1960 1928,3295 723,3295" rendition="TextRegion" xml:id="facs_9_TextRegion_1660381478557_543">
-         <zone ="731,2049 840,2071 945,2022 1028,2057 1090,2022 1250,2083 1315,2050 1388,2112 1931,2215 1946,2116 1814,2076 1736,2103 1576,2017 1316,2019 965,1950 742,1971" rendition="Line" xml:id="facs_9_r1l4"/>
-         <zone ="716,2172 1628,2270 1803,2342 1876,2328 1888,2245 1381,2154 1305,2176 1170,2106 972,2149 916,2107 726,2097" rendition="Line" xml:id="facs_9_r1l5"/>
-         <zone ="726,2319 1306,2356 1457,2401 1575,2383 1811,2479 1859,2468 1869,2396 1586,2355 1531,2301 1403,2272 1234,2288 738,2228" rendition="Line" xml:id="facs_9_r1l6"/>
-         <zone ="737,2449 1708,2552 1844,2679 1872,2479 1757,2504 1678,2463 980,2389 940,2353 748,2368" rendition="Line" xml:id="facs_9_r1l7"/>
-         <zone ="733,2558 1098,2630 1167,2600 1221,2640 1329,2631 1425,2685 1542,2672 1708,2733 1765,2721 1778,2633 1550,2622 1480,2571 1293,2581 1150,2518 1049,2551 1001,2517 741,2498" rendition="Line" xml:id="facs_9_r1l8"/>
-         <zone ="729,2720 908,2704 1492,2806 1573,2779 1624,2829 1712,2816 1843,2881 1831,2764 1536,2703 1063,2689 1000,2635 740,2635" rendition="Line" xml:id="facs_9_r1l9"/>
-         <zone ="756,2806 868,2870 999,2853 1117,2917 1376,2898 1598,2985 1791,2979 1805,2881 1575,2872 1374,2812 1146,2831 926,2745 765,2741" rendition="Line" xml:id="facs_9_r1l10"/>
-         <zone ="731,2952 841,2950 1036,3030 1470,3042 1644,3157 1773,3176 1797,3018 1671,2962 1557,3006 1458,2932 1108,2943 744,2863" rendition="Line" xml:id="facs_9_r1l11"/>
-         <zone ="705,3093 798,3063 853,3115 968,3113 1012,3148 1148,3133 1355,3196 1436,3170 1766,3260 1782,3194 1554,3107 1483,3132 1328,3061 1008,3048 725,2971" rendition="Line" xml:id="facs_9_r1l12"/>
-         <zone ="906,3260 944,3261 975,3241 1004,3274 1026,3280 1049,3271 1107,3270 1114,3162 1066,3174 1044,3189 1031,3179 998,3190 953,3165 912,3180" rendition="Line" xml:id="facs_9_r1l13"/>
+      <zone education="723,1960 1928,1960 1928,3295 723,3295" rendition="TextRegion" xml:id="facs_9_TextRegion_1660381478557_543">
+         <zone education="731,2049 840,2071 945,2022 1028,2057 1090,2022 1250,2083 1315,2050 1388,2112 1931,2215 1946,2116 1814,2076 1736,2103 1576,2017 1316,2019 965,1950 742,1971" rendition="Line" xml:id="facs_9_r1l4"/>
+         <zone education="716,2172 1628,2270 1803,2342 1876,2328 1888,2245 1381,2154 1305,2176 1170,2106 972,2149 916,2107 726,2097" rendition="Line" xml:id="facs_9_r1l5"/>
+         <zone education="726,2319 1306,2356 1457,2401 1575,2383 1811,2479 1859,2468 1869,2396 1586,2355 1531,2301 1403,2272 1234,2288 738,2228" rendition="Line" xml:id="facs_9_r1l6"/>
+         <zone education="737,2449 1708,2552 1844,2679 1872,2479 1757,2504 1678,2463 980,2389 940,2353 748,2368" rendition="Line" xml:id="facs_9_r1l7"/>
+         <zone education="733,2558 1098,2630 1167,2600 1221,2640 1329,2631 1425,2685 1542,2672 1708,2733 1765,2721 1778,2633 1550,2622 1480,2571 1293,2581 1150,2518 1049,2551 1001,2517 741,2498" rendition="Line" xml:id="facs_9_r1l8"/>
+         <zone education="729,2720 908,2704 1492,2806 1573,2779 1624,2829 1712,2816 1843,2881 1831,2764 1536,2703 1063,2689 1000,2635 740,2635" rendition="Line" xml:id="facs_9_r1l9"/>
+         <zone education="756,2806 868,2870 999,2853 1117,2917 1376,2898 1598,2985 1791,2979 1805,2881 1575,2872 1374,2812 1146,2831 926,2745 765,2741" rendition="Line" xml:id="facs_9_r1l10"/>
+         <zone education="731,2952 841,2950 1036,3030 1470,3042 1644,3157 1773,3176 1797,3018 1671,2962 1557,3006 1458,2932 1108,2943 744,2863" rendition="Line" xml:id="facs_9_r1l11"/>
+         <zone education="705,3093 798,3063 853,3115 968,3113 1012,3148 1148,3133 1355,3196 1436,3170 1766,3260 1782,3194 1554,3107 1483,3132 1328,3061 1008,3048 725,2971" rendition="Line" xml:id="facs_9_r1l12"/>
+         <zone education="906,3260 944,3261 975,3241 1004,3274 1026,3280 1049,3271 1107,3270 1114,3162 1066,3174 1044,3189 1031,3179 998,3190 953,3165 912,3180" rendition="Line" xml:id="facs_9_r1l13"/>
       </zone>
    </surface>
 </facsimile><text xml:base="https://betamasaheft.eu/">
