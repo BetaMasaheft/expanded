@@ -1,14 +1,14 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT7447AbrTarWA">
+<TEI type="work" xml:lang="en" xml:id="LIT7447AbrTarWA">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">Abridged Version of the Tārika Walda ʾAmid
           (Beta-recension)</title>
                 <title xml:lang="en" xml:id="t1">Abridged Version of the Tārika Walda ʾAmid (β-recension)</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="CH" corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH">Carsten Hoffmann</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB">
+            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB">
                     <resp>general editor</resp>
                     <name>Alessandro Bausi</name>
                 </respStmt>
@@ -26,7 +26,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">2.7.2025 at 03:05:45</date>
+            <date type="expanded">4.7.2025 at 12:48:25</date>
                 <date type="lastModified">14.5.2025</date>
                 <idno type="collection">works</idno>
                 <idno type="url">https://betamasaheft.eu/works/LIT7447AbrTarWA/main</idno>
@@ -79,14 +79,14 @@
                 <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/>
                 <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
             </listPrefixDef>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml">
-                <xi:fallback>
+            <include href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml">
+                <fallback>
                     <p>Definitions of prefixes used.</p>
-                </xi:fallback>
-            </xi:include>
+                </fallback>
+            </include>
             <refsDecl>
                 <citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim=".">
-                    <citeStructure xmlns="" unit="part" match="div" use="div">
+                    <citeStructure unit="part" match="div" use="div">
                         <desc>
                             <list>
                                 <item>Preface</item>
@@ -370,27 +370,27 @@
                         <title level="m">Palimpsests and Related Phenomena across Languages and Cultures</title>
                         <title level="s">Studies in Manuscript Cultures</title>
                         <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ted</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Erho</t:surname>
+                            <forename>Ted</forename>
+                            <surname>Erho</surname>
                         </author>
                         <editor>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Jost</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Gippert</t:surname>
+                            <forename>Jost</forename>
+                            <surname>Gippert</surname>
                         </editor>
                         <editor>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">José</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Maksimczuk</t:surname>
+                            <forename>José</forename>
+                            <surname>Maksimczuk</surname>
                         </editor>
                         <editor>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Hasmik</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Sargsyan</t:surname>
+                            <forename>Hasmik</forename>
+                            <surname>Sargsyan</surname>
                         </editor>
                         <pubPlace>Berlin–Boston, MA</pubPlace>
                         <publisher>De Gruyter</publisher>
                         <date>2025</date>
                         <series>
-                            <t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Studies in Manuscript Cultures</t:title>
-                            <t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">42</t:biblScope>
+                            <title level="s">Studies in Manuscript Cultures</title>
+                            <biblScope unit="volume">42</biblScope>
                         </series>
                         <biblScope unit="page">393-431</biblScope>
                         <biblScope unit="volume">42</biblScope>
@@ -403,8 +403,8 @@
                         <ptr target="bm:Hoffmann2021Amid"/>
                         <title level="m">Das geographische Traktat in der Weltgeschichte des Wäldä Amid: Text, Übersetzung und Kommentar</title>
                         <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Carsten</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Hoffmann</t:surname>
+                            <forename>Carsten</forename>
+                            <surname>Hoffmann</surname>
                         </author>
                         <pubPlace>Marburg</pubPlace>
                         <date>2023</date>
@@ -418,8 +418,8 @@
                         <ptr target="bm:Hoffmann2021Amid"/>
                         <title level="m">Das geographische Traktat in der Weltgeschichte des Wäldä Amid: Text, Übersetzung und Kommentar</title>
                         <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Carsten</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Hoffmann</t:surname>
+                            <forename>Carsten</forename>
+                            <surname>Hoffmann</surname>
                         </author>
                         <pubPlace>Marburg</pubPlace>
                         <date>2023</date>
@@ -436,8 +436,8 @@
                         <ptr target="bm:Hoffmann2021Amid"/>
                         <title level="m">Das geographische Traktat in der Weltgeschichte des Wäldä Amid: Text, Übersetzung und Kommentar</title>
                         <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Carsten</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Hoffmann</t:surname>
+                            <forename>Carsten</forename>
+                            <surname>Hoffmann</surname>
                         </author>
                         <pubPlace>Marburg</pubPlace>
                         <date>2023</date>
@@ -449,7 +449,7 @@
                 </listBibl>
             </div>
             <div type="edition">
-                <note>The following textparts and division is taken from <ref type="mss" corresp="https://betamasaheft.eu/PetermannIINachtrag24">PetermannIINachtrag24</ref>.</note> 
+                <note>The following textparts and division is taken from <ref type="mss" corresp="https://betamasaheft.eu/PetermannIINachtrag24">Berlin, Berlin State Library, Petermann II Nachtrag 24</ref>.</note> 
                 <div type="textpart" subtype="part" xml:id="Preface">
                     <label>Attribution to the author by the translator.</label>
                     <q xml:lang="gez">በስመ፡ እግዚአብሔ<add place="above">ር</add>፡ መስተ<sic>፡</sic> ሣህል፡ ንጽሕፍ፡ መጽሐፈ፡ ታሪክ፡ 
@@ -1060,12 +1060,12 @@
                     
                     <div type="textpart" subtype="part" xml:id="Faqitabkos">
                         <label>Pertinax</label>
-                        <note>Referred to as <foreign xml:lang="gez">Faqitabǝkos</foreign> in <ref type="mss" corresp="https://betamasaheft.eu/FSUor134">FSUor134</ref>.</note> 
+                        <note>Referred to as <foreign xml:lang="gez">Faqitabǝkos</foreign> in <ref type="mss" corresp="https://betamasaheft.eu/FSUor134">Frankfurt, Universitätsbibliothek Johann Christian Senckenberg, Frankfurt Ms. or. 134</ref>.</note> 
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Soryanos">
                         <label>Septimius Severus?</label>
-                        <note>Referred to as <foreign xml:lang="gez">Faqitabǝkos</foreign> in <ref type="mss" corresp="https://betamasaheft.eu/FSUor134">FSUor134</ref>.</note>
+                        <note>Referred to as <foreign xml:lang="gez">Faqitabǝkos</foreign> in <ref type="mss" corresp="https://betamasaheft.eu/FSUor134">Frankfurt, Universitätsbibliothek Johann Christian Senckenberg, Frankfurt Ms. or. 134</ref>.</note>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Antonyos2">
