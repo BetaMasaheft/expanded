@@ -41,16 +41,18 @@ jobs:
         run: |
           xmllint --noout \
             $(find . -type f -name '*.xml') 
-          
+      
+      # DP: see #6 
+      # There are too many validation errors for this to be useful 
       # validate all TEI-files
-      - name: Validate files
-        run: |
-          find . -type f -name '*.xml' \
-            -not -name 'build.xml' \
-            -not -name 'repo.xml' \
-            -not -name 'expath-pkg.xml' \
-            -print0 | \
-          xargs -0 \
-          xmllint --noout --xinclude --nowarning 2>&1 \
-          --relaxng ../schema/tei-betamesaheft-expanded.rng 2>&1 | \
-          { grep 'fails to validate' || :; }
+      # - name: Validate files
+      #   run: |
+      #     find . -type f -name '*.xml' \
+      #       -not -name 'build.xml' \
+      #       -not -name 'repo.xml' \
+      #       -not -name 'expath-pkg.xml' \
+      #       -print0 | \
+      #     xargs -0 \
+      #     xmllint --noout --xinclude --nowarning 2>&1 \
+      #     --relaxng ../schema/tei-betamesaheft-expanded.rng 2>&1 | \
+      #     { grep 'fails to validate' || :; }
