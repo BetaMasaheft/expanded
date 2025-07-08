@@ -44,7 +44,9 @@ jobs:
       - run: ant 
       # Install Package 
       - name: Install package and start exist instance
-        run: docker run -dit -p 8080:8080 -p 8443:8433 -v ${{ github.workspace }}/build:/exist/autodeploy --name exist duncdrum/existdb:${{ matrix.exist-version }}-slim
+        run: |
+          docker system prune -f  
+          docker run -dit -p 8080:8080 -p 8443:8433 -v ${{ github.workspace }}/build:/exist/autodeploy:ro --name exist duncdrum/existdb:${{ matrix.exist-version }}-slim
       - name: Wait for server to start
         timeout-minutes: 30 
         run: |
