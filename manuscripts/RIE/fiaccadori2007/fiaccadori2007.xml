@@ -3,9 +3,9 @@
             <titleStmt><title type="full">Māʾkalāy Tǝgrāy, ʾAksum Ṣǝyon, Fiaccadori 2007</title>
                 <title>Fiaccadori 2007</title>
                 <editor key="PL" corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL">Pietro Maria Liuzzo</editor>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            </titleStmt>
+            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>editor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <pubPlace>Hamburg</pubPlace>
@@ -16,7 +16,7 @@
                         </p>
                     </licence>
                 </availability>
-            <date type="expanded">2022-04-06T21:10:58.123+02:00</date><date type="lastModified">14.12.2018</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/fiaccadori2007</idno><idno type="URI">https://betamasaheft.eu/fiaccadori2007</idno><idno type="filename">fiaccadori2007.xml</idno><idno type="ID">fiaccadori2007</idno></publicationStmt>
+            <date type="expanded">2.7.2025 at 18:03:39</date><date type="lastModified">14.12.2018</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/fiaccadori2007/main</idno><idno type="URI">https://betamasaheft.eu/fiaccadori2007</idno><idno type="filename">fiaccadori2007.xml</idno><idno type="ID">fiaccadori2007</idno></publicationStmt>
             <sourceDesc>
                 <msDesc>
                     
@@ -64,7 +64,7 @@
                             <recordHist>
                                 <source>
                                     <listBibl type="catalogue">
-                                        <bibl corresp="http://zotero.org/groups/358366/items/GJBX9ABX"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Fiaccadori2007Iscrizione"/><title level="a">Nuova iscrizione Greca da Aksum</title><title level="j">Parola del Passato</title><author><forename>Gianfranco</forename><surname>Fiaccadori</surname></author><date>2007</date><biblScope unit="volume">62</biblScope><biblScope unit="page">70-76</biblScope><note type="tags"><note type="tag">bm:Fiaccadori2007Iscrizione</note></note><note type="tag">bm:Fiaccadori2007Iscrizione</note></bibl>
+                                        <bibl corresp="http://zotero.org/groups/358366/items/GJBX9ABX"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Fiaccadori2007Iscrizione"/><title level="a">Nuova iscrizione Greca da Aksum</title><title level="j">Parola del Passato</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Gianfranco</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Fiaccadori</t:surname></author><date>2007</date><biblScope unit="volume">62</biblScope><biblScope unit="page">70-76</biblScope></bibl>
                                         
                                     </listBibl>
                                 </source>
@@ -89,42 +89,42 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="#ethioauthlist">
-                    <term key="Other" ref="https://www.eagle-network.eu/voc/typeins/lod/92" ana="#Other"/>
-                    <term key="Aks" ana="#Aks"/>
-                </keywords>
-            </textClass>
-            <langUsage><language ident="grc">Greek</language></langUsage>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
+        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <t:textClass>
+                <t:keywords scheme="#ethioauthlist">
+                    <t:term key="Other" ref="https://www.eagle-network.eu/voc/typeins/lod/92" ana="#Other"/>
+                    <t:term key="Aks" ana="#Aks"/>
+                </t:keywords>
+            </t:textClass>
+            <t:langUsage><t:language ident="grc">Greek</t:language></t:langUsage>
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-        <revisionDesc>
-            <change who="#PL" when="2018-12-14">Pietro Maria Liuzzo: Created entry from Fiaccadori article</change>
-            </revisionDesc>
-    </teiHeader><text xml:base="https://betamasaheft.eu/">
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <change who="#PL" when="2018-12-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entry from Fiaccadori article</change>
+            </t:revisionDesc>
+    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         
-        <body>
-            <div type="edition" xml:lang="grc">
-                <ab>
-                    <lb n="1"/>
-               <g type="cross">+</g>
-                    <lb n="2"/> Ἐνθάδε
-                    <lb n="3"/> κεῖτε Κυρι<lb break="no" n="4"/>ακὸς ζήσ<lb break="no" n="5"/>ας <date type="age-at-death" dur="P10Y">ἤτῃ 
-                    <num value="10">ι</num> 
-                    <expan>
-                     <abbr>μ<lb break="no" n="6"/>
-                     </abbr>
-                     <supplied reason="lost">
-                        <abbr>ῆν</abbr>
-                        <ex>ας</ex>
-                     </supplied>
-                  </expan>
-               </date>
-               <gap reason="lost" extent="3" unit="character"/>
-            </ab>
-            </div>
-        </body>
+        <t:body>
+            <t:div type="edition" xml:lang="grc">
+                <t:ab>
+                    <t:lb n="1"/>
+               <t:g type="cross">+</t:g>
+                    <t:lb n="2"/> Ἐνθάδε
+                    <t:lb n="3"/> κεῖτε Κυρι<t:lb break="no" n="4"/>ακὸς ζήσ<t:lb break="no" n="5"/>ας <t:date type="age-at-death" dur="P10Y">ἤτῃ 
+                    <t:num value="10">ι</t:num> 
+                    <t:expan>
+                     <t:abbr>μ<t:lb break="no" n="6"/>
+                     </t:abbr>
+                     <t:supplied reason="lost">
+                        <t:abbr>ῆν</t:abbr>
+                        <t:ex>ας</t:ex>
+                     </t:supplied>
+                  </t:expan>
+               </t:date>
+               <t:gap reason="lost" extent="3" unit="character"/>
+            </t:ab>
+            </t:div>
+        </t:body>
         
-    </text></TEI>
+    </t:text></TEI>

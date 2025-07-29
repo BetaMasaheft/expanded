@@ -1,22 +1,12 @@
-<TEI type="work" xml:lang="en" xml:id="LIT7447AbrTarWA">
-    <teiHeader>
+<TEI type="work" xml:lang="en" xml:id="LIT7447AbrTarWA"><teiHeader>
         <fileDesc>
-            <titleStmt>
-                <title type="full">Abridged Version of the Tārika Walda ʾAmid
+            <titleStmt><title type="full">Abridged Version of the Tārika Walda ʾAmid
           (Beta-recension)</title>
                 <title xml:lang="en" xml:id="t1">Abridged Version of the Tārika Walda ʾAmid (β-recension)</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="CH" corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH">Carsten Hoffmann</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB">
-                    <resp>general editor</resp>
-                    <name>Alessandro Bausi</name>
-                </respStmt>
-                <respStmt xml:id="ed-CH" corresp="https://betamasaheft.eu/team.html#CH">
-                    <resp>editor</resp>
-                    <name>Carsten Hoffmann</name>
-                </respStmt>
-            </titleStmt>
+            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-CH" corresp="https://betamasaheft.eu/team.html#CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -26,22 +16,11 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">4.7.2025 at 12:48:25</date>
-                <date type="lastModified">14.5.2025</date>
-                <idno type="collection">works</idno>
-                <idno type="url">https://betamasaheft.eu/works/LIT7447AbrTarWA/main</idno>
-                <idno type="URI">https://betamasaheft.eu/LIT7447AbrTarWA</idno>
-                <idno type="filename">LIT7447AbrTarWA.xml</idno>
-                <idno type="ID">LIT7447AbrTarWA</idno>
-            </publicationStmt>
+            <date type="expanded">4.7.2025 at 12:48:25</date><date type="lastModified">14.5.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT7447AbrTarWA/main</idno><idno type="URI">https://betamasaheft.eu/LIT7447AbrTarWA</idno><idno type="filename">LIT7447AbrTarWA.xml</idno><idno type="ID">LIT7447AbrTarWA</idno></publicationStmt>
             <sourceDesc>
                 <listWit>
-                    <witness xml:id="D" corresp="https://betamasaheft.eu/PetermannIINachtrag24">
-                        <idno facs="https://content.staatsbibliothek-berlin.de/dc/799375187/manifest">Petermann II Nachtrag 24</idno>
-                    </witness>
-                    <witness corresp="https://betamasaheft.eu/EMML7109">
-                        <idno>MS EMML no. 7109</idno>
-                    </witness>
+                    <witness xml:id="D" corresp="https://betamasaheft.eu/PetermannIINachtrag24"><idno facs="https://content.staatsbibliothek-berlin.de/dc/799375187/manifest">Petermann II Nachtrag 24</idno></witness>
+                    <witness corresp="https://betamasaheft.eu/EMML7109"><idno>MS EMML no. 7109</idno></witness>
                 </listWit>
             </sourceDesc>
         </fileDesc>
@@ -54,251 +33,7 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p>
-            <listPrefixDef>
-                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
-                <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/>
-                <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/>
-                <prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/>
-                <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/>
-                <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/>
-                <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/>
-                <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/>
-                <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/>
-                <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/>
-                <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/>
-                <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/>
-                <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/>
-                <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/>
-                <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/>
-                <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/>
-                <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/>
-                <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/>
-                <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/>
-                <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
-            </listPrefixDef>
-            <include href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml">
-                <fallback>
-                    <p>Definitions of prefixes used.</p>
-                </fallback>
-            </include>
-            <refsDecl>
-                <citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim=".">
-                    <citeStructure unit="part" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Preface</item>
-                                <item>TentaFetrat</item>
-                                <item>preislamichistory</item>
-                            </list>
-                        </desc>
-                        <citeStructure unit="part" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>Adam</item>
-                                    <item>Set</item>
-                                    <item>Enos</item>
-                                    <item>Qaynan</item>
-                                    <item>Malalel</item>
-                                    <item>Yared</item>
-                                    <item>Henok2</item>
-                                    <item>Matusela</item>
-                                    <item>Lameh</item>
-                                    <item>Noh</item>
-                                    <item>Sem</item>
-                                    <item>Arpaksed</item>
-                                    <item>Qaynan2</item>
-                                    <item>Sala</item>
-                                    <item>Eber</item>
-                                    <item>Faleq</item>
-                                    <item>Ragew</item>
-                                    <item>Sargw</item>
-                                    <item>Nakor</item>
-                                    <item>Tara</item>
-                                    <item>Abreham</item>
-                                    <item>Yeshaq</item>
-                                    <item>Yaqob</item>
-                                    <item>Lewi</item>
-                                    <item>Qaat</item>
-                                    <item>Anbaran</item>
-                                    <item>Muse</item>
-                                    <item>Iyasu</item>
-                                    <item>Finhos</item>
-                                    <item>KusaSenaim</item>
-                                    <item>Gotonyal</item>
-                                    <item>Eglon</item>
-                                    <item>Ehud</item>
-                                    <item>Semeger</item>
-                                    <item>Jabin</item>
-                                    <item>Dibora</item>
-                                    <item>ZebahZalmunna</item>
-                                    <item>Gideon</item>
-                                    <item>Abimelech</item>
-                                    <item>Tola</item>
-                                    <item>Jair</item>
-                                    <item>Felestem1</item>
-                                    <item>Yeftah</item>
-                                    <item>Abisan</item>
-                                    <item>Elon</item>
-                                    <item>Abdon</item>
-                                    <item>Felestem2</item>
-                                    <item>Samson</item>
-                                    <item>Mika</item>
-                                    <item>Eli</item>
-                                    <item>Samuel</item>
-                                    <item>Saol</item>
-                                    <item>Dawit</item>
-                                    <item>Salomon</item>
-                                    <item>Robam</item>
-                                    <item>Abya</item>
-                                    <item>Asaf</item>
-                                    <item>Yosafet</item>
-                                    <item>Iyoram</item>
-                                    <item>Akazyas</item>
-                                    <item>Athaliah</item>
-                                    <item>Iyoas</item>
-                                    <item>Amesyas</item>
-                                    <item>Azaryas</item>
-                                    <item>Iyoatam</item>
-                                    <item>Akaz</item>
-                                    <item>Hezqeyas</item>
-                                    <item>Menase</item>
-                                    <item>Amon</item>
-                                    <item>Iyosyos</item>
-                                    <item>Yoakas</item>
-                                    <item>Elyaqem</item>
-                                    <item>Yoaqem</item>
-                                    <item>Menase2</item>
-                                    <item>Nabudanasor</item>
-                                    <item>Eweyalmarodeq</item>
-                                    <item>Beltasor</item>
-                                    <item>DariusCyrus</item>
-                                    <item>Cambyses</item>
-                                    <item>Daryos2</item>
-                                    <item>Samardyos</item>
-                                    <item>Ahsurs</item>
-                                    <item>Azdasir</item>
-                                    <item>AzdaserDagemay</item>
-                                    <item>Saerinos</item>
-                                    <item>Daryos3</item>
-                                    <item>Azdaser2</item>
-                                    <item>Azdasir3</item>
-                                    <item>Arses</item>
-                                    <item>Dara</item>
-                                    <item>Eskender</item>
-                                    <item>Batlimos</item>
-                                    <item>Batlimos2</item>
-                                    <item>Batlimos3</item>
-                                    <item>Batlimos4</item>
-                                    <item>Batlimos5</item>
-                                    <item>Batlimos6</item>
-                                    <item>Batlimos7</item>
-                                    <item>Batlimos8</item>
-                                    <item>Batlimos9</item>
-                                    <item>Batlimos10</item>
-                                    <item>Batlimos11</item>
-                                    <item>Batlimos12</item>
-                                    <item>Batlimos13</item>
-                                    <item>Kalaabetara</item>
-                                    <item>Awgustus</item>
-                                    <item>Tibaryos</item>
-                                    <item>Gabyos</item>
-                                    <item>Galyos</item>
-                                    <item>Fitalos</item>
-                                    <item>Asbasyanos</item>
-                                    <item>Titos</item>
-                                    <item>Dostyanos</item>
-                                    <item>Taodas</item>
-                                    <item>Anadyanos</item>
-                                    <item>Antonyos</item>
-                                    <item>Urelyanos</item>
-                                    <item>Qamudos</item>
-                                    <item>Faqitabkos</item>
-                                    <item>Soryanos</item>
-                                    <item>Antonyos2</item>
-                                    <item>Maqedonyos</item>
-                                    <item>Entonyos</item>
-                                    <item>Eskenderos</item>
-                                    <item>Maqsimos</item>
-                                    <item>Norinos</item>
-                                    <item>Gardeyanos</item>
-                                    <item>Filpos</item>
-                                    <item>Decius</item>
-                                    <item>Galyos2</item>
-                                    <item>Walaryanos</item>
-                                    <item>Galawdewos</item>
-                                    <item>Uralyanos</item>
-                                    <item>Tafsos</item>
-                                    <item>Abrofos</item>
-                                    <item>Aryos</item>
-                                    <item>Deyoqletyanos</item>
-                                    <item>Maksemyanos</item>
-                                    <item>Qwastantinos</item>
-                                    <item>Qwastantinos2</item>
-                                    <item>Yolyanos</item>
-                                    <item>Yokyanos</item>
-                                    <item>Walitos</item>
-                                    <item>Walyos</item>
-                                    <item>Garadyanos</item>
-                                    <item>Tewodosyos</item>
-                                    <item>Arqadyos</item>
-                                    <item>Tewodosyos2</item>
-                                    <item>Marqyan</item>
-                                    <item>Leyon</item>
-                                    <item>Leyon2</item>
-                                    <item>Zaynun</item>
-                                    <item>Anestas</item>
-                                    <item>Bestyanos</item>
-                                    <item>Yostinos</item>
-                                    <item>Yostos</item>
-                                    <item>Tibaryos2</item>
-                                    <item>Muriq</item>
-                                    <item>Foqa</item>
-                                    <item>Harqal</item>
-                                </list>
-                            </desc>
-                            <citeStructure unit="part" match="div" use="div">
-                                <desc>
-                                    <list>
-                                        <item>EberLife</item>
-                                        <item>Geogr</item>
-                                        <item>EberEnd</item>
-                                        <item>WifeMuse</item>
-                                        <item>Christ</item>
-                                        <item>SevenSleepers</item>
-                                        <item>Constance</item>
-                                    </list>
-                                </desc>
-                                <citeStructure unit="part" match="div" use="div">
-                                    <desc>
-                                        <list>
-                                            <item>Margins</item>
-                                            <item>Inhabitants</item>
-                                        </list>
-                                    </desc>
-                                    <citeStructure unit="part" match="div" use="div">
-                                        <desc>
-                                            <list>
-                                                <item>InhabitantsFirst</item>
-                                                <item>InhabitantsSecond</item>
-                                                <item>InhabitantsThird</item>
-                                                <item>InhabitantsFourth</item>
-                                                <item>InhabitantsFifth</item>
-                                                <item>InhabitantsSixth</item>
-                                                <item>InhabitantsSeventh</item>
-                                                <item>InhabitantsAbove</item>
-                                            </list>
-                                        </desc>
-                                    </citeStructure>
-                                </citeStructure>
-                            </citeStructure>
-                        </citeStructure>
-                    </citeStructure>
-                </citeStructure>
-            </refsDecl>
-        </encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><include href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><fallback><p>Definitions of prefixes used.</p></fallback></include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="part" match="div" use="div"><desc><list><item>Preface</item><item>TentaFetrat</item><item>preislamichistory</item></list></desc><citeStructure unit="part" match="div" use="div"><desc><list><item>Adam</item><item>Set</item><item>Enos</item><item>Qaynan</item><item>Malalel</item><item>Yared</item><item>Henok2</item><item>Matusela</item><item>Lameh</item><item>Noh</item><item>Sem</item><item>Arpaksed</item><item>Qaynan2</item><item>Sala</item><item>Eber</item><item>Faleq</item><item>Ragew</item><item>Sargw</item><item>Nakor</item><item>Tara</item><item>Abreham</item><item>Yeshaq</item><item>Yaqob</item><item>Lewi</item><item>Qaat</item><item>Anbaran</item><item>Muse</item><item>Iyasu</item><item>Finhos</item><item>KusaSenaim</item><item>Gotonyal</item><item>Eglon</item><item>Ehud</item><item>Semeger</item><item>Jabin</item><item>Dibora</item><item>ZebahZalmunna</item><item>Gideon</item><item>Abimelech</item><item>Tola</item><item>Jair</item><item>Felestem1</item><item>Yeftah</item><item>Abisan</item><item>Elon</item><item>Abdon</item><item>Felestem2</item><item>Samson</item><item>Mika</item><item>Eli</item><item>Samuel</item><item>Saol</item><item>Dawit</item><item>Salomon</item><item>Robam</item><item>Abya</item><item>Asaf</item><item>Yosafet</item><item>Iyoram</item><item>Akazyas</item><item>Athaliah</item><item>Iyoas</item><item>Amesyas</item><item>Azaryas</item><item>Iyoatam</item><item>Akaz</item><item>Hezqeyas</item><item>Menase</item><item>Amon</item><item>Iyosyos</item><item>Yoakas</item><item>Elyaqem</item><item>Yoaqem</item><item>Menase2</item><item>Nabudanasor</item><item>Eweyalmarodeq</item><item>Beltasor</item><item>DariusCyrus</item><item>Cambyses</item><item>Daryos2</item><item>Samardyos</item><item>Ahsurs</item><item>Azdasir</item><item>AzdaserDagemay</item><item>Saerinos</item><item>Daryos3</item><item>Azdaser2</item><item>Azdasir3</item><item>Arses</item><item>Dara</item><item>Eskender</item><item>Batlimos</item><item>Batlimos2</item><item>Batlimos3</item><item>Batlimos4</item><item>Batlimos5</item><item>Batlimos6</item><item>Batlimos7</item><item>Batlimos8</item><item>Batlimos9</item><item>Batlimos10</item><item>Batlimos11</item><item>Batlimos12</item><item>Batlimos13</item><item>Kalaabetara</item><item>Awgustus</item><item>Tibaryos</item><item>Gabyos</item><item>Galyos</item><item>Fitalos</item><item>Asbasyanos</item><item>Titos</item><item>Dostyanos</item><item>Taodas</item><item>Anadyanos</item><item>Antonyos</item><item>Urelyanos</item><item>Qamudos</item><item>Faqitabkos</item><item>Soryanos</item><item>Antonyos2</item><item>Maqedonyos</item><item>Entonyos</item><item>Eskenderos</item><item>Maqsimos</item><item>Norinos</item><item>Gardeyanos</item><item>Filpos</item><item>Decius</item><item>Galyos2</item><item>Walaryanos</item><item>Galawdewos</item><item>Uralyanos</item><item>Tafsos</item><item>Abrofos</item><item>Aryos</item><item>Deyoqletyanos</item><item>Maksemyanos</item><item>Qwastantinos</item><item>Qwastantinos2</item><item>Yolyanos</item><item>Yokyanos</item><item>Walitos</item><item>Walyos</item><item>Garadyanos</item><item>Tewodosyos</item><item>Arqadyos</item><item>Tewodosyos2</item><item>Marqyan</item><item>Leyon</item><item>Leyon2</item><item>Zaynun</item><item>Anestas</item><item>Bestyanos</item><item>Yostinos</item><item>Yostos</item><item>Tibaryos2</item><item>Muriq</item><item>Foqa</item><item>Harqal</item></list></desc><citeStructure unit="part" match="div" use="div"><desc><list><item>EberLife</item><item>Geogr</item><item>EberEnd</item><item>WifeMuse</item><item>Christ</item><item>SevenSleepers</item><item>Constance</item></list></desc><citeStructure unit="part" match="div" use="div"><desc><list><item>Margins</item><item>Inhabitants</item></list></desc><citeStructure unit="part" match="div" use="div"><desc><list><item>InhabitantsFirst</item><item>InhabitantsSecond</item><item>InhabitantsThird</item><item>InhabitantsFourth</item><item>InhabitantsFifth</item><item>InhabitantsSixth</item><item>InhabitantsSeventh</item><item>InhabitantsAbove</item></list></desc></citeStructure></citeStructure></citeStructure></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -316,136 +51,28 @@
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
-        <calendarDesc>
-                <calendar xml:id="world">
-                    <p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p>
-                </calendar>
-                <calendar xml:id="ethiopian">
-                    <p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p>
-                </calendar>
-                <calendar xml:id="grace">
-                    <p>ʿĀmata məḥrat (Era of Grace)</p>
-                </calendar>
-                <calendar xml:id="diocletian">
-                    <p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p>
-                </calendar>
-                <calendar xml:id="alexander">
-                    <p> Era of Alexander</p>
-                </calendar>
-                <calendar xml:id="evangelists">
-                    <p>Evangelists' years</p>
-                </calendar>
-                <calendar xml:id="islamic">
-                    <p>Hiǧrī (Islamic)</p>
-                </calendar>
-                <calendar xml:id="hijri">
-                    <p>Hiǧrī (Islamic) in IslHornAfr</p>
-                </calendar>
-                <calendar xml:id="julian">
-                    <p>Julian</p>
-                </calendar>
-            </calendarDesc>
-        </profileDesc>
+        <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
         <revisionDesc>
             <change who="#CH" when="2025-05-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
             <change who="#CH" when="2025-05-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrections after reviews by Dorothea Reule and Nafisa Valieva</change>
         </revisionDesc>
-    </teiHeader>
-    <standOff>
-        <listRelation>
+    </teiHeader><standOff><listRelation>
                     <relation name="saws:isShorterVersionOf" ref="http://purl.org/saws/ontology#isShorterVersionOf" active="https://betamasaheft.eu/LIT7447AbrTarWA" passive="https://betamasaheft.eu/LIT6936TarWaAmidBeta"/>
                     <relation name="saws:isDifferentTo" ref="http://purl.org/saws/ontology#isDifferentTo" active="https://betamasaheft.eu/LIT7447AbrTarWA" passive="https://betamasaheft.eu/LIT6935TarWaAmidAlpha"/>
-                </listRelation>
-    </standOff>
-    <text>
+                </listRelation></standOff><text>
         <body>
             <div type="bibliography">
                 
                 <listBibl type="secondary">
-                    <bibl corresp="http://zotero.org/groups/358366/items/IXFP733G">
-                        <seg type="bookSection"><!-- attributes from original bibl--></seg>
-                        <ptr target="bm:Erho2025Palimpsests"/>
-                        <title level="a">Ethiopic Palimpsests</title>
-                        <title level="m">Palimpsests and Related Phenomena across Languages and Cultures</title>
-                        <title level="s">Studies in Manuscript Cultures</title>
-                        <author>
-                            <forename>Ted</forename>
-                            <surname>Erho</surname>
-                        </author>
-                        <editor>
-                            <forename>Jost</forename>
-                            <surname>Gippert</surname>
-                        </editor>
-                        <editor>
-                            <forename>José</forename>
-                            <surname>Maksimczuk</surname>
-                        </editor>
-                        <editor>
-                            <forename>Hasmik</forename>
-                            <surname>Sargsyan</surname>
-                        </editor>
-                        <pubPlace>Berlin–Boston, MA</pubPlace>
-                        <publisher>De Gruyter</publisher>
-                        <date>2025</date>
-                        <series>
-                            <title level="s">Studies in Manuscript Cultures</title>
-                            <biblScope unit="volume">42</biblScope>
-                        </series>
-                        <biblScope unit="page">393-431</biblScope>
-                        <biblScope unit="volume">42</biblScope>
-                        <note type="url">https://doi.org/10.1515/9783111552170-015</note>
-                        <citedRange unit="page">410</citedRange>
-                        <citedRange unit="note">63</citedRange>
-                    </bibl>
-                    <bibl corresp="http://zotero.org/groups/358366/items/GXG3M9ES">
-                        <seg type="thesis"><!-- attributes from original bibl--></seg>
-                        <ptr target="bm:Hoffmann2021Amid"/>
-                        <title level="m">Das geographische Traktat in der Weltgeschichte des Wäldä Amid: Text, Übersetzung und Kommentar</title>
-                        <author>
-                            <forename>Carsten</forename>
-                            <surname>Hoffmann</surname>
-                        </author>
-                        <pubPlace>Marburg</pubPlace>
-                        <date>2023</date>
-                        <note type="url">https://archiv.ub.uni-marburg.de/ubfind/Record/urn:nbn:de:hebis:04-z2023-0080/View</note>
-                        <citedRange unit="page">66, 77-78</citedRange>
-                    </bibl>
+                    <bibl corresp="http://zotero.org/groups/358366/items/IXFP733G"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Erho2025Palimpsests"/><title level="a">Ethiopic Palimpsests</title><title level="m">Palimpsests and Related Phenomena across Languages and Cultures</title><title level="s">Studies in Manuscript Cultures</title><author><forename>Ted</forename><surname>Erho</surname></author><editor><forename>Jost</forename><surname>Gippert</surname></editor><editor><forename>José</forename><surname>Maksimczuk</surname></editor><editor><forename>Hasmik</forename><surname>Sargsyan</surname></editor><pubPlace>Berlin–Boston, MA</pubPlace><publisher>De Gruyter</publisher><date>2025</date><series><title level="s">Studies in Manuscript Cultures</title><biblScope unit="volume">42</biblScope></series><biblScope unit="page">393-431</biblScope><biblScope unit="volume">42</biblScope><note type="url">https://doi.org/10.1515/9783111552170-015</note><citedRange unit="page">410</citedRange><citedRange unit="note">63</citedRange></bibl>
+                    <bibl corresp="http://zotero.org/groups/358366/items/GXG3M9ES"><seg type="thesis"><!-- attributes from original bibl--></seg><ptr target="bm:Hoffmann2021Amid"/><title level="m">Das geographische Traktat in der Weltgeschichte des Wäldä Amid: Text, Übersetzung und Kommentar</title><author><forename>Carsten</forename><surname>Hoffmann</surname></author><pubPlace>Marburg</pubPlace><date>2023</date><note type="url">https://archiv.ub.uni-marburg.de/ubfind/Record/urn:nbn:de:hebis:04-z2023-0080/View</note><citedRange unit="page">66, 77-78</citedRange></bibl>
                 </listBibl>
                 <listBibl type="editions">
-                    <bibl corresp="http://zotero.org/groups/358366/items/GXG3M9ES">
-                        <seg corresp="#D" type="thesis"><!-- attributes from original bibl--></seg>
-                        <ptr target="bm:Hoffmann2021Amid"/>
-                        <title level="m">Das geographische Traktat in der Weltgeschichte des Wäldä Amid: Text, Übersetzung und Kommentar</title>
-                        <author>
-                            <forename>Carsten</forename>
-                            <surname>Hoffmann</surname>
-                        </author>
-                        <pubPlace>Marburg</pubPlace>
-                        <date>2023</date>
-                        <note type="url">https://archiv.ub.uni-marburg.de/ubfind/Record/urn:nbn:de:hebis:04-z2023-0080/View</note>
-                        <citedRange unit="page">104-207</citedRange>
-                        <note type="about">about   witness  <ref target="https://betamasaheft.eu/LIT7447AbrTarWA#D">Petermann II Nachtrag 24</ref>
-                        </note>
-                        <note>Edition of the geographical treatise in the story of Eber (15th generation).</note>
-                    </bibl>
+                    <bibl corresp="http://zotero.org/groups/358366/items/GXG3M9ES"><seg corresp="#D" type="thesis"><!-- attributes from original bibl--></seg><ptr target="bm:Hoffmann2021Amid"/><title level="m">Das geographische Traktat in der Weltgeschichte des Wäldä Amid: Text, Übersetzung und Kommentar</title><author><forename>Carsten</forename><surname>Hoffmann</surname></author><pubPlace>Marburg</pubPlace><date>2023</date><note type="url">https://archiv.ub.uni-marburg.de/ubfind/Record/urn:nbn:de:hebis:04-z2023-0080/View</note><citedRange unit="page">104-207</citedRange><note type="about">about   witness  <ref target="https://betamasaheft.eu/LIT7447AbrTarWA#D">Petermann II Nachtrag 24</ref></note><note>Edition of the geographical treatise in the story of Eber (15th generation).</note></bibl>
                 </listBibl>
                 <listBibl type="translation">
-                    <bibl corresp="http://zotero.org/groups/358366/items/GXG3M9ES">
-                        <seg corresp="#D" type="thesis"><!-- attributes from original bibl--></seg>
-                        <ptr target="bm:Hoffmann2021Amid"/>
-                        <title level="m">Das geographische Traktat in der Weltgeschichte des Wäldä Amid: Text, Übersetzung und Kommentar</title>
-                        <author>
-                            <forename>Carsten</forename>
-                            <surname>Hoffmann</surname>
-                        </author>
-                        <pubPlace>Marburg</pubPlace>
-                        <date>2023</date>
-                        <note type="url">https://archiv.ub.uni-marburg.de/ubfind/Record/urn:nbn:de:hebis:04-z2023-0080/View</note>
-                        <note type="about">about   witness  <ref target="https://betamasaheft.eu/LIT7447AbrTarWA#D">Petermann II Nachtrag 24</ref>
-                        </note>
-                        <note>Translation of the geographical treatise (15th generation), translated to German.</note>
-                    </bibl>
+                    <bibl corresp="http://zotero.org/groups/358366/items/GXG3M9ES"><seg corresp="#D" type="thesis"><!-- attributes from original bibl--></seg><ptr target="bm:Hoffmann2021Amid"/><title level="m">Das geographische Traktat in der Weltgeschichte des Wäldä Amid: Text, Übersetzung und Kommentar</title><author><forename>Carsten</forename><surname>Hoffmann</surname></author><pubPlace>Marburg</pubPlace><date>2023</date><note type="url">https://archiv.ub.uni-marburg.de/ubfind/Record/urn:nbn:de:hebis:04-z2023-0080/View</note><note type="about">about   witness  <ref target="https://betamasaheft.eu/LIT7447AbrTarWA#D">Petermann II Nachtrag 24</ref></note><note>Translation of the geographical treatise (15th generation), translated to German.</note></bibl>
                 </listBibl>
             </div>
             <div type="edition">
@@ -453,8 +80,7 @@
                 <div type="textpart" subtype="part" xml:id="Preface">
                     <label>Attribution to the author by the translator.</label>
                     <q xml:lang="gez">በስመ፡ እግዚአብሔ<add place="above">ር</add>፡ መስተ<sic>፡</sic> ሣህል፡ ንጽሕፍ፡ መጽሐፈ፡ ታሪክ፡ 
-                        ዘአስተጋብ<supplied reason="undefined">አ፡</supplied> <persName ref="https://betamasaheft.eu/PRS4711Giyorgis">ጊዮርጊስ፡ ወልደ፡ አሚድ፡</persName>
-                    </q>
+                        ዘአስተጋብ<supplied reason="undefined">አ፡</supplied> <persName ref="https://betamasaheft.eu/PRS4711Giyorgis">ጊዮርጊስ፡ ወልደ፡ አሚድ፡</persName></q>
                 </div>
                 <div type="textpart" subtype="part" xml:id="TentaFetrat">
                     <label>Summary on the creation</label>
@@ -468,137 +94,83 @@
                     <div type="textpart" subtype="part" xml:id="Adam">
                         <label>1st Generation - Adam</label>
                         <q xml:lang="gez">ወወለዶ፡ አዳም፡ ቃያልሃ፡ ወአቤልሃ፡<gap reason="ellipsis"/> ወሞተ፡ አዳም፡ በ፱፻ ወ፴፡ 
-                            <add place="overstrike">ሊተሃ፡ ዓመ</add>
-                            <add place="above">ት፡</add> በመዋዕሊሁ።</q>
+                            <add place="overstrike">ሊተሃ፡ ዓመ</add><add place="above">ት፡</add> በመዋዕሊሁ።</q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Set">
                         <label>2nd Generation - Seth</label>
-                        <q>
-                            <choice resp="CH">
-                                <sic>ሒ</sic>
-                                <corr>ሴ</corr>
-                            </choice>ት፡ 
-                            <choice resp="CH">
-                                <sic>ሐ</sic>
-                                <corr>ሕ</corr>
-                            </choice>ይወ፡ ፪፻ወ፭ ዓ፡ ወወለዶ፡ ለሄኖስ። <gap reason="ellipsis"/>
-                        </q>
+                        <q><choice resp="CH"><sic>ሒ</sic><corr>ሴ</corr></choice>ት፡ 
+                            <choice resp="CH"><sic>ሐ</sic><corr>ሕ</corr></choice>ይወ፡ ፪፻ወ፭ ዓ፡ ወወለዶ፡ ለሄኖስ። <gap reason="ellipsis"/></q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Enos">
                         <label>3rd Generation - Enosh</label>
-                        <q>ሂ<add place="above">አ</add>ኖ፡ መገቦሙ፡ ለሕዝቡ፡ ወኮበ፡ ኮኖ፡ <sic>፻፱፻፡</sic> ወወለዶ፡ ለቃይናን፡ <gap reason="ellipsis"/>
-                        </q>
+                        <q>ሂ<add place="above">አ</add>ኖ፡ መገቦሙ፡ ለሕዝቡ፡ ወኮበ፡ ኮኖ፡ <sic>፻፱፻፡</sic> ወወለዶ፡ ለቃይናን፡ <gap reason="ellipsis"/></q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Qaynan">
                         <label>4th Generation - Kenan</label>
-                        <q>፬። ቃይናን፡ <choice resp="CH">
-                                <sic>ሐ</sic>
-                                <corr>ሕ</corr>
-                            </choice>ይወ፡ ፻ወ፸፡ ዓ፡ ወወለዶ፡ ለመላልኢል፡ <gap reason="ellipsis"/>
-                        </q>
+                        <q>፬። ቃይናን፡ <choice resp="CH"><sic>ሐ</sic><corr>ሕ</corr></choice>ይወ፡ ፻ወ፸፡ ዓ፡ ወወለዶ፡ ለመላልኢል፡ <gap reason="ellipsis"/></q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Malalel">
                         <label>5th Generation - Mahalalel</label>
-                        <q>መላልኤል፡፷፭፻ <choice resp="CH">
-                                <sic>ሐ</sic>
-                                <corr>ሕ</corr>
-                            </choice>ይወ፡ ፻ወ፷ወ፭፡ ዓ፡ ወወለዶ፡ ለያሬድ። <gap reason="ellipsis"/>
-                        </q>
+                        <q>መላልኤል፡፷፭፻ <choice resp="CH"><sic>ሐ</sic><corr>ሕ</corr></choice>ይወ፡ ፻ወ፷ወ፭፡ ዓ፡ ወወለዶ፡ ለያሬድ። <gap reason="ellipsis"/></q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Yared">
                         <label>6th Generation - Jared</label>
-                        <q>ያሬድ፡ ፯ <choice resp="CH">
-                                <sic>ሐ</sic>
-                                <corr>ሕ</corr>
-                            </choice>ይወ። ፻፷ወ፭። ዓመ፡ <add place="above">ወ</add>ወለዶ፡ 
-                            ለሂኖስ። <gap reason="ellipsis"/>
-                        </q>
+                        <q>ያሬድ፡ ፯ <choice resp="CH"><sic>ሐ</sic><corr>ሕ</corr></choice>ይወ። ፻፷ወ፭። ዓመ፡ <add place="above">ወ</add>ወለዶ፡ 
+                            ለሂኖስ። <gap reason="ellipsis"/></q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Henok2">
                         <label>7th Generation - Enoch</label>
-                        <q>ሂኖክ ፯ መገቦሙ፡ ለሕዝቡ፡ ወባም፻፷፭ ዓ። <gap reason="ellipsis"/>
-                        </q>
+                        <q>ሂኖክ ፯ መገቦሙ፡ ለሕዝቡ፡ ወባም፻፷፭ ዓ። <gap reason="ellipsis"/></q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Matusela">
                         <label>8th Generation - Methuselah</label>
-                        <q>ማቱሳላ<add place="above">፰</add> <choice resp="CH">
-                                <sic>ሐ</sic>
-                                <corr>ሕ</corr>
-                            </choice>ይወ፡ ፻፹ወ፪ ዓ፡ ወወልዶ፡ ለላሚኅ።
-                            <gap reason="ellipsis"/>
-                        </q>
+                        <q>ማቱሳላ<add place="above">፰</add> <choice resp="CH"><sic>ሐ</sic><corr>ሕ</corr></choice>ይወ፡ ፻፹ወ፪ ዓ፡ ወወልዶ፡ ለላሚኅ።
+                            <gap reason="ellipsis"/></q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Lameh">
                         <label>9th Generation - Lamech</label>
-                        <q>ባሚህ፱ <choice resp="CH">
-                                <sic>ሐ</sic>
-                                <corr>ሕ</corr>
-                            </choice>ይወ፡ ፻፹ወ፪ ዓ፡ ወወልዶ። ወወልዶ፡ ለኖኅ፡ <gap reason="ellipsis"/>
-                        </q>
+                        <q>ባሚህ፱ <choice resp="CH"><sic>ሐ</sic><corr>ሕ</corr></choice>ይወ፡ ፻፹ወ፪ ዓ፡ ወወልዶ። ወወልዶ፡ ለኖኅ፡ <gap reason="ellipsis"/></q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Noh">
                         <label>10th Generation - Noah</label>
-                        <q>ኖኅ <choice resp="CH">
-                                <sic>ሐ</sic>
-                                <corr>ሕ</corr>
-                            </choice>ይወ፡ ፬፻፴፬ ዓ፡ ወወለዶ፡ ለሲም፡ <gap reason="ellipsis"/>
-                        </q>
+                        <q>ኖኅ <choice resp="CH"><sic>ሐ</sic><corr>ሕ</corr></choice>ይወ፡ ፬፻፴፬ ዓ፡ ወወለዶ፡ ለሲም፡ <gap reason="ellipsis"/></q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Sem">
                         <label>11th Generation - Shem</label>
-                        <q>ሴም፲፬ <choice resp="CH">
-                                <sic>ሐ</sic>
-                                <corr>ሕ</corr>
-                            </choice> እምድኅረ፡ አይኅ፡ ፪፻፡ ዓ <add place="above">
-                            ወ</add>ወልዶ፡ ለአርፋክስድ፡ <gap reason="ellipsis"/>
-                        </q>
+                        <q>ሴም፲፬ <choice resp="CH"><sic>ሐ</sic><corr>ሕ</corr></choice> እምድኅረ፡ አይኅ፡ ፪፻፡ ዓ <add place="above">
+                            ወ</add>ወልዶ፡ ለአርፋክስድ፡ <gap reason="ellipsis"/></q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Arpaksed">
                         <label>12th Generation - Arpachshad</label>
-                        <q>አርፉክስድ፲ወ፻ <choice resp="CH">
-                                <sic>ሐ</sic>
-                                <corr>ሕ</corr>
-                            </choice> ፻ወ፴ወ፭ዓ። ወወለዶ፡ ለቃይናን። <gap reason="ellipsis"/>
-                        </q>
+                        <q>አርፉክስድ፲ወ፻ <choice resp="CH"><sic>ሐ</sic><corr>ሕ</corr></choice> ፻ወ፴ወ፭ዓ። ወወለዶ፡ ለቃይናን። <gap reason="ellipsis"/></q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Qaynan2">
                         <label>13th Generation - Kenan the second</label>
-                        <q>ቃይናን፡ ሕይወ፡ ፻ወ፴ዓ፡ ወወለዶ፡ ለሳላ፡ <gap reason="ellipsis"/>
-                        </q>
+                        <q>ቃይናን፡ ሕይወ፡ ፻ወ፴ዓ፡ ወወለዶ፡ ለሳላ፡ <gap reason="ellipsis"/></q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Sala">
                         <label>14th Generation - Shelah</label>
-                        <q>
-                            <choice resp="CH">
-                                <sic>ሐ</sic>
-                                <corr>ሕ</corr>
-                            </choice>ይወ፡ ፻፴ዓ፡ ወወለዶ፡ ለኢዮቦር፡ <gap reason="ellipsis"/>
-                        </q>
+                        <q><choice resp="CH"><sic>ሐ</sic><corr>ሕ</corr></choice>ይወ፡ ፻፴ዓ፡ ወወለዶ፡ ለኢዮቦር፡ <gap reason="ellipsis"/></q>
                     </div>
                     
                     <div type="textpart" subtype="part" xml:id="Eber">
                         <label>15th Generation - Eber</label>
                         <div type="textpart" subtype="part" xml:id="EberLife">
                             <label>Life and language of Eber</label>
-                            <q>
-                                <choice resp="CH">
-                                    <sic>ሐ</sic>
-                                    <corr>ሕ</corr>
-                                </choice>፻ወ፴፬ዓ። ወወለዶ፡ ለፋሊቅ። <gap reason="ellipsis"/>
-                            </q>
+                            <q><choice resp="CH"><sic>ሐ</sic><corr>ሕ</corr></choice>፻ወ፴፬ዓ። ወወለዶ፡ ለፋሊቅ። <gap reason="ellipsis"/></q>
                         </div>
                         <div type="textpart" subtype="part" xml:id="Geogr">
                             <label>Geographical Treatise</label>
@@ -1237,5 +809,4 @@
                 </div> 
             </div>
         </body>
-    </text>
-</TEI>
+    </text></TEI>

@@ -1,21 +1,11 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT7545MedPres">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT7545MedPres"><teiHeader>
         <fileDesc>
-            <titleStmt>
-                <title type="full">Medical prescriptions in Amharic</title>
+            <titleStmt><title type="full">Medical prescriptions in Amharic</title>
                 <title xml:lang="en" xml:id="t1">Medical prescriptions in Amharic</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="CH" corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH">Carsten Hoffmann</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB">
-                    <resp>general editor</resp>
-                    <name>Alessandro Bausi</name>
-                </respStmt>
-                <respStmt xml:id="ed-CH" corresp="https://betamasaheft.eu/team.html#CH">
-                    <resp>editor</resp>
-                    <name>Carsten Hoffmann</name>
-                </respStmt>
-            </titleStmt>
+            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-CH" corresp="https://betamasaheft.eu/team.html#CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -25,14 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">2.7.2025 at 03:05:45</date>
-                <date type="lastModified">25.6.2025</date>
-                <idno type="collection">works</idno>
-                <idno type="url">https://betamasaheft.eu/works/LIT7545MedPres/main</idno>
-                <idno type="URI">https://betamasaheft.eu/LIT7545MedPres</idno>
-                <idno type="filename">LIT7545MedPres.xml</idno>
-                <idno type="ID">LIT7545MedPres</idno>
-            </publicationStmt>
+            <date type="expanded">4.7.2025 at 12:01:35</date><date type="lastModified">25.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT7545MedPres/main</idno><idno type="URI">https://betamasaheft.eu/LIT7545MedPres</idno><idno type="filename">LIT7545MedPres.xml</idno><idno type="ID">LIT7545MedPres</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -46,75 +29,13 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p>
-            <listPrefixDef>
-                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
-                <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/>
-                <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/>
-                <prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/>
-                <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/>
-                <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/>
-                <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/>
-                <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/>
-                <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/>
-                <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/>
-                <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/>
-                <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/>
-                <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/>
-                <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/>
-                <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/>
-                <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/>
-                <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/>
-                <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/>
-                <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/>
-                <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
-            </listPrefixDef>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml">
-                <xi:fallback>
-                    <p>Definitions of prefixes used.</p>
-                </xi:fallback>
-            </xi:include>
-            <refsDecl>
-                <citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim=".">
-                    <citeStructure unit="textsubunit" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Terenter</item>
-                                <item>Animals</item>
-                                <item>Abreq</item>
-                                <item>Qitten</item>
-                                <item>Madyat</item>
-                                <item>Gurguho</item>
-                                <item>Cow</item>
-                                <item>AnyDisease</item>
-                                <item>Demon</item>
-                                <item>Andarabi</item>
-                                <item>Wasfat</item>
-                                <item>Tshenqur</item>
-                                <item>Snake</item>
-                                <item>Shadows</item>
-                                <item>Qusl</item>
-                            </list>
-                        </desc>
-                        <citeStructure unit="incipit" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>incipit</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                    </citeStructure>
-                </citeStructure>
-            </refsDecl>
-        </encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="textsubunit" match="div" use="div"><desc><list><item>Terenter</item><item>Animals</item><item>Abreq</item><item>Qitten</item><item>Madyat</item><item>Gurguho</item><item>Cow</item><item>AnyDisease</item><item>Demon</item><item>Andarabi</item><item>Wasfat</item><item>Tshenqur</item><item>Snake</item><item>Shadows</item><item>Qusl</item></list></desc><citeStructure unit="incipit" match="div" use="div"><desc><list><item>incipit</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
                 <p>Medical prescriptions against various diseases of a similar type as <ref type="work" corresp="https://betamasaheft.eu/LIT7543Prescripti">Medico-magic prescriptions in Amharic</ref>, 
                     <ref type="work" corresp="https://betamasaheft.eu/LIT7544Prescr">Medical prescriptions in Amharic</ref> and <ref type="work" corresp="https://betamasaheft.eu/LIT7546MedPrescr">Medical prescriptions in Amharic and Gǝʿǝz</ref>, which are attested in the 
-                    same manuscript <ref type="mss" corresp="https://betamasaheft.eu/BLorient12034">BLorient12034</ref>).</p>
+                    same manuscript <ref type="mss" corresp="https://betamasaheft.eu/BLorient12034">London, British Library, BL Oriental 12034</ref>).</p>
             </abstract>
             <textClass>
                 <keywords>
@@ -128,96 +49,28 @@
                 <language ident="en">English</language>
                 <language ident="am">Amharic</language>
             </langUsage>
-        <calendarDesc>
-                <calendar xml:id="world">
-                    <p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p>
-                </calendar>
-                <calendar xml:id="ethiopian">
-                    <p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p>
-                </calendar>
-                <calendar xml:id="grace">
-                    <p>ʿĀmata məḥrat (Era of Grace)</p>
-                </calendar>
-                <calendar xml:id="diocletian">
-                    <p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p>
-                </calendar>
-                <calendar xml:id="alexander">
-                    <p> Era of Alexander</p>
-                </calendar>
-                <calendar xml:id="evangelists">
-                    <p>Evangelists' years</p>
-                </calendar>
-                <calendar xml:id="islamic">
-                    <p>Hiǧrī (Islamic)</p>
-                </calendar>
-                <calendar xml:id="hijri">
-                    <p>Hiǧrī (Islamic) in IslHornAfr</p>
-                </calendar>
-                <calendar xml:id="julian">
-                    <p>Julian</p>
-                </calendar>
-            </calendarDesc>
-        </profileDesc>
+        <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
         <revisionDesc>
             <change who="#CH" when="2025-06-23"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
             <change who="#CH" when="2025-06-25"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrections after reviews by Magdalena Krzyżanowska and Nafisa Valieva</change>
         </revisionDesc>
-    </teiHeader>
-    <standOff>
-        <listRelation>
-                    <relation name="dc:relation" ref="http://purl.org/dc/terms/relation" active="https://betamasaheft.eu/LIT7545MedPres" passive="https://betamasaheft.eu/LIT7543Prescripti">
-                <desc>Possibly from the same
-                        collection as <ref type="work" corresp="https://betamasaheft.eu/LIT7543Prescripti">Medico-magic prescriptions in Amharic</ref>.</desc>
-            </relation>
-                    <relation name="dc:relation" ref="http://purl.org/dc/terms/relation" active="https://betamasaheft.eu/LIT7545MedPres" passive="https://betamasaheft.eu/LIT7546MedPrescr">
-                <desc>Possibly from the same
-                        collection as <ref type="work" corresp="https://betamasaheft.eu/LIT7546MedPrescr">Medical prescriptions in Amharic and Gǝʿǝz</ref>.</desc>
-            </relation>
-                    <relation name="dc:relation" ref="http://purl.org/dc/terms/relation" active="https://betamasaheft.eu/LIT7545MedPres" passive="https://betamasaheft.eu/LIT7544Prescr">
-                <desc>Possibly from the same
-                        collection as <ref type="work" corresp="https://betamasaheft.eu/LIT7544Prescr">Medical prescriptions in Amharic</ref>.</desc>
-            </relation>
-                </listRelation>
-    </standOff>
-    <text>
+    </teiHeader><standOff><listRelation>
+                    <relation name="dc:relation" ref="http://purl.org/dc/terms/relation" active="https://betamasaheft.eu/LIT7545MedPres" passive="https://betamasaheft.eu/LIT7543Prescripti"><desc>Possibly from the same
+                        collection as <ref type="work" corresp="https://betamasaheft.eu/LIT7543Prescripti">Medico-magic prescriptions in Amharic</ref>.</desc></relation>
+                    <relation name="dc:relation" ref="http://purl.org/dc/terms/relation" active="https://betamasaheft.eu/LIT7545MedPres" passive="https://betamasaheft.eu/LIT7546MedPrescr"><desc>Possibly from the same
+                        collection as <ref type="work" corresp="https://betamasaheft.eu/LIT7546MedPrescr">Medical prescriptions in Amharic and Gǝʿǝz</ref>.</desc></relation>
+                    <relation name="dc:relation" ref="http://purl.org/dc/terms/relation" active="https://betamasaheft.eu/LIT7545MedPres" passive="https://betamasaheft.eu/LIT7544Prescr"><desc>Possibly from the same
+                        collection as <ref type="work" corresp="https://betamasaheft.eu/LIT7544Prescr">Medical prescriptions in Amharic</ref>.</desc></relation>
+                </listRelation></standOff><text>
         <body>
             <div type="edition" xml:lang="am">
-                <note>The following subdivision and incipits are taken from <ref type="mss" corresp="https://betamasaheft.eu/BLorient12034">BLorient12034</ref>, quoted according to the
-                    catalogue description in <bibl corresp="http://zotero.org/groups/358366/items/RSEA4WPK">
-                        <seg type="book"><!-- attributes from original bibl--></seg>
-                        <ptr target="bm:Strelcyn1978BritishLibrary"/>
-                        <title level="m">Catalogue of Ethiopian Manuscripts in the British Library Acquired Since the Year 1877</title>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname>
-                        </author>
-                        <pubPlace>London</pubPlace>
-                        <publisher>British Museum</publisher>
-                        <date>1978</date>
-                        <citedRange unit="page">150</citedRange>
-                    </bibl>.</note>
+                <note>The following subdivision and incipits are taken from <ref type="mss" corresp="https://betamasaheft.eu/BLorient12034">London, British Library, BL Oriental 12034</ref>, quoted according to the
+                    catalogue description in <bibl corresp="http://zotero.org/groups/358366/items/RSEA4WPK"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1978BritishLibrary"/><title level="m">Catalogue of Ethiopian Manuscripts in the British Library acquired since the Year 1877</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>London</pubPlace><publisher>British Museum</publisher><date>1978</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">British Museum</note><note type="tag">bm:Strelcyn1978BritishLibrary</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">British Museum</note><note type="tag">bm:Strelcyn1978BritishLibrary</note><citedRange unit="page">150</citedRange></bibl>.</note>
                 <div type="textpart" subtype="textsubunit" xml:id="Terenter">
                     <label>Against tǝrǝntǝr (?)</label>
                     <note>Possibly related to the disease indicated as <foreign xml:lang="am">tǝrrǝtǝr</foreign> in 
-                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J">
-                            <seg type="book"><!-- attributes from original bibl--></seg>
-                            <ptr target="bm:Strelcyn1968Medecine"/>
-                            <title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title>
-                            <title level="s">Prace Orientalistyczne</title>
-                            <author>
-                                <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename>
-                                <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname>
-                            </author>
-                            <pubPlace>Warszawa</pubPlace>
-                            <publisher>Państwowe Wydawnictwo Naukowe</publisher>
-                            <date>1968</date>
-                            <series>
-                                <t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title>
-                            </series>
-                            <biblScope unit="volume">XIV</biblScope>
-                            <citedRange unit="page">381</citedRange>
-                        </bibl>.</note>
+                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1968Medecine"/><title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title><title level="s">Prace Orientalistyczne</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname></author><pubPlace>Warszawa</pubPlace><publisher>Państwowe Wydawnictwo Naukowe</publisher><date>1968</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title></series><biblScope unit="volume">XIV</biblScope><citedRange unit="page">381</citedRange></bibl>.</note>
                     <div type="textpart" subtype="incipit">
                         <ab>&gt;የትርንትር፡</ab>
                     </div>
@@ -231,24 +84,7 @@
                 <div type="textpart" subtype="textsubunit" xml:id="Abreq">
                     <label>Against ʾabrǝq</label>
                     <note>Prescription against <foreign xml:lang="am">አብርቅ፡</foreign> (contagious disease affecting livestock or horses), cf. 
-                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J">
-                            <seg type="book"><!-- attributes from original bibl--></seg>
-                            <ptr target="bm:Strelcyn1968Medecine"/>
-                            <title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title>
-                            <title level="s">Prace Orientalistyczne</title>
-                            <author>
-                                <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename>
-                                <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname>
-                            </author>
-                            <pubPlace>Warszawa</pubPlace>
-                            <publisher>Państwowe Wydawnictwo Naukowe</publisher>
-                            <date>1968</date>
-                            <series>
-                                <t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title>
-                            </series>
-                            <biblScope unit="volume">XIV</biblScope>
-                            <citedRange unit="page">369</citedRange>
-                        </bibl>.</note>
+                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1968Medecine"/><title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title><title level="s">Prace Orientalistyczne</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname></author><pubPlace>Warszawa</pubPlace><publisher>Państwowe Wydawnictwo Naukowe</publisher><date>1968</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title></series><biblScope unit="volume">XIV</biblScope><citedRange unit="page">369</citedRange></bibl>.</note>
                     <div type="textpart" subtype="incipit">
                         <ab>ለአብርቅ፡</ab>
                     </div>
@@ -256,24 +92,7 @@
                 <div type="textpart" subtype="textsubunit" xml:id="Qitten">
                     <label>Against syphilis (qiṭṭǝñ)</label>
                     <note>Against <foreign xml:lang="am">ቂጥኝ፡</foreign> (syphilis, venereal disease), cf. 
-                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J">
-                            <seg type="book"><!-- attributes from original bibl--></seg>
-                            <ptr target="bm:Strelcyn1968Medecine"/>
-                            <title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title>
-                            <title level="s">Prace Orientalistyczne</title>
-                            <author>
-                                <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename>
-                                <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname>
-                            </author>
-                            <pubPlace>Warszawa</pubPlace>
-                            <publisher>Państwowe Wydawnictwo Naukowe</publisher>
-                            <date>1968</date>
-                            <series>
-                                <t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title>
-                            </series>
-                            <biblScope unit="volume">XIV</biblScope>
-                            <citedRange unit="page">515</citedRange>
-                        </bibl>.</note>
+                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1968Medecine"/><title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title><title level="s">Prace Orientalistyczne</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname></author><pubPlace>Warszawa</pubPlace><publisher>Państwowe Wydawnictwo Naukowe</publisher><date>1968</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title></series><biblScope unit="volume">XIV</biblScope><citedRange unit="page">515</citedRange></bibl>.</note>
                     <div type="textpart" subtype="incipit">
                         <ab>የቂጥኝ፡</ab>
                     </div>
@@ -281,24 +100,7 @@
                 <div type="textpart" subtype="textsubunit" xml:id="Madyat">
                     <label>Against madyāt</label>
                     <note>Prescription against <foreign xml:lang="am">ማድያት፡</foreign> (a skin disease), cf. 
-                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J">
-                            <seg type="book"><!-- attributes from original bibl--></seg>
-                            <ptr target="bm:Strelcyn1968Medecine"/>
-                            <title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title>
-                            <title level="s">Prace Orientalistyczne</title>
-                            <author>
-                                <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename>
-                                <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname>
-                            </author>
-                            <pubPlace>Warszawa</pubPlace>
-                            <publisher>Państwowe Wydawnictwo Naukowe</publisher>
-                            <date>1968</date>
-                            <series>
-                                <t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title>
-                            </series>
-                            <biblScope unit="volume">XIV</biblScope>
-                            <citedRange unit="page">203</citedRange>
-                        </bibl>.</note>
+                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1968Medecine"/><title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title><title level="s">Prace Orientalistyczne</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname></author><pubPlace>Warszawa</pubPlace><publisher>Państwowe Wydawnictwo Naukowe</publisher><date>1968</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title></series><biblScope unit="volume">XIV</biblScope><citedRange unit="page">203</citedRange></bibl>.</note>
                     <div type="textpart" subtype="incipit">
                         <ab>ዘማድያት፡</ab>
                     </div>
@@ -332,24 +134,7 @@
                     <label>Against ʾAndarabbi</label>
                     <note>Prescription against <foreign xml:lang="am">አንደረቢ፡</foreign> (maleficent or evil force which popular belief credits
                         with being able to hurl objects through the air or to put sand, excrement, etc. in people's food), cf. 
-                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J">
-                            <seg type="book"><!-- attributes from original bibl--></seg>
-                            <ptr target="bm:Strelcyn1968Medecine"/>
-                            <title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title>
-                            <title level="s">Prace Orientalistyczne</title>
-                            <author>
-                                <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename>
-                                <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname>
-                            </author>
-                            <pubPlace>Warszawa</pubPlace>
-                            <publisher>Państwowe Wydawnictwo Naukowe</publisher>
-                            <date>1968</date>
-                            <series>
-                                <t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title>
-                            </series>
-                            <biblScope unit="volume">XIV</biblScope>
-                            <citedRange unit="page">779</citedRange>
-                        </bibl>.</note>
+                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1968Medecine"/><title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title><title level="s">Prace Orientalistyczne</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname></author><pubPlace>Warszawa</pubPlace><publisher>Państwowe Wydawnictwo Naukowe</publisher><date>1968</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title></series><biblScope unit="volume">XIV</biblScope><citedRange unit="page">779</citedRange></bibl>.</note>
                     <div type="textpart" subtype="incipit">
                         <ab>አንደረቢ፡</ab>
                     </div>
@@ -358,24 +143,7 @@
                     <label>Against wasfāt</label>
                     <note>Prescription against <foreign xml:lang="am">ወስፋት፡</foreign> (intestinal worm), possibly related to
                         <foreign xml:lang="am">ወስፌ፡</foreign> / <foreign xml:lang="am">መስፌ፡</foreign> in 
-                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J">
-                            <seg type="book"><!-- attributes from original bibl--></seg>
-                            <ptr target="bm:Strelcyn1968Medecine"/>
-                            <title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title>
-                            <title level="s">Prace Orientalistyczne</title>
-                            <author>
-                                <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename>
-                                <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname>
-                            </author>
-                            <pubPlace>Warszawa</pubPlace>
-                            <publisher>Państwowe Wydawnictwo Naukowe</publisher>
-                            <date>1968</date>
-                            <series>
-                                <t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title>
-                            </series>
-                            <biblScope unit="volume">XIV</biblScope>
-                            <citedRange unit="page">387, 405</citedRange>
-                        </bibl>.</note>
+                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1968Medecine"/><title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title><title level="s">Prace Orientalistyczne</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname></author><pubPlace>Warszawa</pubPlace><publisher>Państwowe Wydawnictwo Naukowe</publisher><date>1968</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title></series><biblScope unit="volume">XIV</biblScope><citedRange unit="page">387, 405</citedRange></bibl>.</note>
                     <div type="textpart" subtype="incipit">
                         <ab>ወስፋት፡</ab>
                     </div>
@@ -383,24 +151,7 @@
                 <div type="textpart" subtype="textsubunit" xml:id="Tshenqur">
                     <label>Against č̣̣ǝnqur</label>
                     <note>Prescription against <foreign xml:lang="am">ጭንቁር፡</foreign> (yaws, cancer, chancre or gangrenous wound), cf.
-                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J">
-                            <seg type="book"><!-- attributes from original bibl--></seg>
-                            <ptr target="bm:Strelcyn1968Medecine"/>
-                            <title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title>
-                            <title level="s">Prace Orientalistyczne</title>
-                            <author>
-                                <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename>
-                                <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname>
-                            </author>
-                            <pubPlace>Warszawa</pubPlace>
-                            <publisher>Państwowe Wydawnictwo Naukowe</publisher>
-                            <date>1968</date>
-                            <series>
-                                <t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title>
-                            </series>
-                            <biblScope unit="volume">XIV</biblScope>
-                            <citedRange unit="page">481, 483</citedRange>
-                        </bibl>.</note>
+                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1968Medecine"/><title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title><title level="s">Prace Orientalistyczne</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname></author><pubPlace>Warszawa</pubPlace><publisher>Państwowe Wydawnictwo Naukowe</publisher><date>1968</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title></series><biblScope unit="volume">XIV</biblScope><citedRange unit="page">481, 483</citedRange></bibl>.</note>
                     <div type="textpart" subtype="incipit">
                         <ab>ጭንቁር፡</ab>
                     </div>
@@ -420,24 +171,7 @@
                 <div type="textpart" subtype="textsubunit" xml:id="Qusl">
                     <label>About leprosy (qʷǝsla śǝgā)</label>
                     <note>Prescription to cure <foreign xml:lang="am">ቍስለ፡ ሥጋ፡</foreign> (leprosy), cf.
-                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J">
-                            <seg type="book"><!-- attributes from original bibl--></seg>
-                            <ptr target="bm:Strelcyn1968Medecine"/>
-                            <title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title>
-                            <title level="s">Prace Orientalistyczne</title>
-                            <author>
-                                <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename>
-                                <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname>
-                            </author>
-                            <pubPlace>Warszawa</pubPlace>
-                            <publisher>Państwowe Wydawnictwo Naukowe</publisher>
-                            <date>1968</date>
-                            <series>
-                                <t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title>
-                            </series>
-                            <biblScope unit="volume">XIV</biblScope>
-                            <citedRange unit="page">111</citedRange>
-                        </bibl>.</note>
+                        <bibl corresp="http://zotero.org/groups/358366/items/7T7W7L3J"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1968Medecine"/><title level="m">Médecine et plantes d’Éthiopie. Les traités médicaux éthiopiens. Medycyna i zioła etiopskie. Etiopskie traktaty medyczne</title><title level="s">Prace Orientalistyczne</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname></author><pubPlace>Warszawa</pubPlace><publisher>Państwowe Wydawnictwo Naukowe</publisher><date>1968</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Prace Orientalistyczne</t:title></series><biblScope unit="volume">XIV</biblScope><citedRange unit="page">111</citedRange></bibl>.</note>
                     <div type="textpart" subtype="incipit">
                         <ab>ቍስለ፡ ሥጋ፡</ab>
                     </div>
@@ -447,5 +181,4 @@
                 
             </div>
         </body>
-    </text>
-</TEI>
+    </text></TEI>

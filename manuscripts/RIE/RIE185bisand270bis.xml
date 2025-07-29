@@ -4,9 +4,9 @@
             <title>RIÉ 185bis and 270bis</title>
             
             <editor key="AS" corresp="https://betamasaheft.eu/team.html#AS" xml:id="AS">Angela Salerno</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-AS" corresp="https://betamasaheft.eu/team.html#AS"><resp>editor</resp><name>Angela Salerno</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-AS" corresp="https://betamasaheft.eu/team.html#AS"><resp>editor</resp><name>Angela Salerno</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
@@ -18,7 +18,7 @@
                </licence>
             </availability>
             <date>2017-11-27</date>
-         <date type="expanded">2.7.2025 at 16:17:47</date><date type="lastModified">1.6.2021</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/RIE185bisand270bis/main</idno><idno type="URI">https://betamasaheft.eu/RIE185bisand270bis</idno><idno type="filename">RIE185bisand270bis.xml</idno><idno type="ID">RIE185bisand270bis</idno></publicationStmt>
+         <date type="expanded">2.7.2025 at 18:03:39</date><date type="lastModified">1.6.2021</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/RIE185bisand270bis/main</idno><idno type="URI">https://betamasaheft.eu/RIE185bisand270bis</idno><idno type="filename">RIE185bisand270bis.xml</idno><idno type="ID">RIE185bisand270bis</idno></publicationStmt>
          <sourceDesc>
             <msDesc>
 
@@ -96,7 +96,7 @@
                      <recordHist>
                         <source>
                            <listBibl type="catalogue">
-                              <bibl corresp="http://zotero.org/groups/358366/items/VUIEAENC"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:RIE1"/><title level="m">Recueil des inscriptions de l’Éthiopie des périodes pré-axoumite et axoumite, Introduction de Fr. Anfray, &lt;hi rend="italics"&gt;I:&lt;/hi&gt; Les documents</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Étienne</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bernand</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Abraham Johannes</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Drewes</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Roger</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Schneider</t:surname></author><pubPlace>Paris</pubPlace><publisher>Diffusion de Boccard</publisher><date>1991</date><note type="url">https://archive.org/details/recueildesinscri0000bern_c7z9/mode/2up</note><citedRange unit="page">246-250</citedRange><citedRange unit="page">367-370</citedRange></bibl>
+                              <bibl corresp="http://zotero.org/groups/358366/items/VUIEAENC"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:RIE1"/><title level="m">Recueil des inscriptions de l’Éthiopie des périodes pré-axoumite et axoumite, Introduction de Fr. Anfray, &lt;hi rend="italics"&gt;I:&lt;/hi&gt; Les documents</title><author><forename>Étienne</forename><surname>Bernand</surname></author><author><forename>Abraham Johannes</forename><surname>Drewes</surname></author><author><forename>Roger</forename><surname>Schneider</surname></author><pubPlace>Paris</pubPlace><publisher>Diffusion de Boccard</publisher><date>1991</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">bm:RIE1</note><note type="tag">RIE</note></note><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">bm:RIE1</note><note type="tag">RIE</note><citedRange unit="page">246-250</citedRange><citedRange unit="page">367-370</citedRange></bibl>
                               
                            </listBibl>
                         </source>
@@ -121,203 +121,203 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="div" match="div" use="div"><desc><list><item>5</item></list></desc><citeStructure unit="line break" match="lb" use="lb"><desc><list><item>44</item></list></desc></citeStructure></citeStructure><citeStructure unit="face" match="div" use="div"><desc><list><item>A</item><item>B</item><item>BI</item><item>C</item></list></desc><citeStructure unit="div" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item></list></desc><citeStructure unit="line break" match="lb" use="lb"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item><item>25</item><item>26</item><item>27</item><item>28</item><item>29</item><item>30</item><item>31</item><item>32</item><item>33</item><item>34</item><item>35</item><item>36</item><item>37</item><item>38</item><item>39</item><item>40</item><item>41</item><item>42</item><item>43</item></list></desc></citeStructure></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="face" match="t:div" use="t:div"><desc><list><item>A</item><item>B</item><item>BI</item><item>C</item></list></desc><citeStructure unit="t:div" match="t:div" use="t:div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item></list></desc><citeStructure unit="t:lb" match="t:lb" use="t:lb"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item><item>25</item><item>26</item><item>27</item><item>28</item><item>29</item><item>30</item><item>31</item><item>32</item><item>33</item><item>34</item><item>35</item><item>36</item><item>37</item><item>38</item><item>39</item><item>40</item><item>41</item><item>42</item><item>43</item></list></desc></citeStructure></citeStructure></citeStructure><citeStructure xmlns="" unit="t:div" match="t:div" use="t:div"><desc><list><item>5</item></list></desc><citeStructure unit="t:lb" match="t:lb" use="t:lb"><desc><list><item>44</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:particDesc>
+            <t:listPerson>
 
 
-               <person role="other"/>
-            </listPerson>
-         </particDesc>
-         <textClass>
-            <keywords scheme="#ethioauthlist">
-               <term key="LegalDocument" ana="#LegalDocument"/>
+               <t:person role="other"/>
+            </t:listPerson>
+         </t:particDesc>
+         <t:textClass>
+            <t:keywords scheme="#ethioauthlist">
+               <t:term key="LegalDocument" ana="#LegalDocument"/>
 
-            </keywords>
-         </textClass>
-         <langUsage><language ident="gez">Gǝʿǝz</language><language ident="grc">Greek</language><language ident="en">english</language></langUsage>
+            </t:keywords>
+         </t:textClass>
+         <t:langUsage><t:language ident="gez">Gǝʿǝz</t:language><t:language ident="grc">Greek</t:language><t:language ident="en">english</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#PL" when="2017-11-27"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created and encoded catalogue entry</change>
          <change who="#AB" when="2017-11-27"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->provided text, transcriptions, apparatus for encoding</change>
          <change who="#AS" when="2021-05-07"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added bibliography</change>
          <change who="#AS" when="2021-06-01"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added Greek, Gez-sabaic and Gǝʿǝz texts and translation</change>
 
-      </revisionDesc>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                                  <relation name="saws:isDirectCopyOf" ref="http://purl.org/saws/ontology#isDirectCopyOf" active="https://betamasaheft.eu/RIE185bisand270bis" passive="https://betamasaheft.eu/RIE185and270">
                                     <desc>There are two sets of the so-called ‘pseudo-trilingual’ royal inscriptions, RIÉ nos 185 and 270, which correspond to two sets of three parallel texts each, respectively in Ethiopic in South Arabian script (RIÉ nos 185 I and 185bis I), in Ethiopic in Ethiopic non-vocalized script (RIÉ nos 185 II and 185bis II), and in Greek language and script (RIÉ nos 270 and 270bis)</desc>
                                  </relation>
-                              </listRelation></standOff><text xml:lang="gez" xml:base="https://betamasaheft.eu/">
+                              </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:lang="gez" xml:base="https://betamasaheft.eu/">
 
-      <body>
-         <div type="edition">
-            <div type="textpart" subtype="face" xml:id="A">
+      <t:body>
+         <t:div type="edition">
+            <t:div type="textpart" subtype="face" xml:id="A">
 
-               <div type="textpart" n="1" xml:id="RIE270bis" xml:lang="grc" corresp="https://betamasaheft.eu/LIT4851greekRoyal">
-                  <ab>
-                    <lb n="1"/> Ἀειζανᾶς βασιλεὺς Ἀξωμιτῶν καὶ Ὁμηριτῶν
-                    <lb n="2"/> καὶ τοῦ Ῥαειδᾶν καὶ Αἰθιόπων καὶ Σαβαειτῶν
-                    <lb n="3"/> καὶ τοῦ Σιλεῆ καὶ τοῦ Τιαμῶ καὶ Βουγαειτῶν <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
-                    <lb n="4"/> τοῦ Κάσου, βασιλεὺς βασιλέων, υἱὸς θεοῦ ἀνική<lb break="no" n="5"/>του Ἄρεως ἀτακτησάντων κατὰ καιρὸν τοῦ
-                    <lb n="6"/> ἔθνους τῶν Βουγαειτῶν ἀπεστίλαμεν τοὺς
-                    <lb n="7"/> ἡμετέρους ἀδελφοὺς Σαζανᾶν <expan><abbr>κ</abbr><ex>αὶ</ex></expan> τὸν Ἀδιφᾶν
-                    <lb n="8"/> τούτους πολεμῆσαι καὶ παραδεδωκότων αὐ<lb break="no" n="9"/>τῶν ὑποτάξαντες αὐτοὺς ἤγαγον πρὸς ἡμᾶς
-                    <lb n="10"/> μετὰ καὶ τοῦ ὄχλου αὐτῶν ὅλου καὶ τῶν θρεμμά<lb break="no" n="11"/>των, βοῶν γριβ καὶ προβάτων ςσκδ καὶ νω<lb break="no" n="12"/>τοφόρων χοζˊ, θρέψαντες αὐτοὺς βόεσίν τε
-                    <lb n="13"/> καὶ ἐπισιτισμῷ <expan><abbr>ἀννών</abbr><ex>ης</ex></expan> <expan><abbr>οἶν</abbr><ex>ῳ</ex></expan>
-                    τε <expan><abbr>κ</abbr><ex>αὶ</ex></expan> ὑδρομέλιτι,
-                    <lb n="14"/> ζύτῳ <expan><abbr>κ</abbr><ex>αὶ</ex></expan> ὑδρεύμασιν είς χορτασίαν ἐπὶ μῆνας
-                    <lb n="15"/> τέσσαρας οἵτιναις ἦσαν τὸν ἀριθμόν δυ <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
-                    <lb n="16"/> ἀννωνευόμενοι καθ'ἑκάστην ἡμέραν ἄρτους
-                    <lb n="17"/> σιτίνους <expan><abbr>μυ</abbr><ex>ριάδας</ex></expan> β β, ἄχρεις αὐτοὺς μετοικίσωμεν˙
-                    <lb n="18"/> τούτους οὖν ἐνεχθέντας πρὸς ἡμᾶς, δωρησά<lb break="no" n="19"/>μενοι αὐτοῖς πάντα τὰ ἐπιτήδια καὶ ἀμφιάσαν<lb break="no" n="20"/>τες, μετοικίσαντες αὐτοὺς κατεστήσαμεν ἴς τι<lb break="no" n="21"/>να τόπον τῆς ἡμετέρας χώρας καλούμενον
-                    <lb n="22"/> Μάτλια καὶ ἐκελεύσαμεν αὐτοὺς πάλιν ἀννω<lb break="no" n="23"/>νεύεσθαι ἐπὶ τοῖς ἐκῐσε τόποις, παρασχόμενοι
-                    <lb n="24"/> ἑκάστῳ βασιλίσκῳ αὐτῶν βόας δρϟ ἤ
-                    <lb n="25"/> ὡς γύνεσθαι τοῖς ἕξασιν βασιλίσκοις βόας
-                    <expan><abbr>μυ</abbr><ex>ριάδας</ex></expan> β́ ερμ́ ̇
-                    <lb n="26"/> υπὲρ δὲ εὐχαριστίας τοῦ μαι γεννήσαντος
-                    <lb n="27"/> ἀνικήτου Ἄρεως ἀνεθήκαμεν αὐτῳ ἀνδρι<lb break="no" n="28"/>άντα χρὺσαιον ἕνα <expan><abbr>κ</abbr><ex>αὶ</ex></expan> ἀργύραιον ἔνα <expan><abbr>κ</abbr><ex>αὶ</ex></expan> χαλκαίους
-                    <lb n="29"/> τρὶς καὶ ἀνέθηκα ταύτην τὴν στήλην καὶ παρε<lb break="no" n="30"/>θέμην αὐτὴν τῷ οὐρανῷ καὶ τῇ γῇ καὶ τῷ μαι
-                    <lb n="31"/> γεννήσαντι ἀνικήτῳ Ἀρέει˙ ἔι τις οὖν τοῦτον
-                    <lb n="32"/> ἀδικῆσαι βουληθῇ, ἐξολεθρεύσῃ αὐτὸν ὁ θὲ<supplied reason="lost">ὸς</supplied>
-                    <lb n="33"/> τοῦ αὐρανοῦ καὶ τῆς γῆς ἐκρίζων καὶ μὴ ὑπάρ<lb break="no" n="34"/><supplied reason="lost">χ</supplied>ῃ αὐτοῦ ὄνομα ἐν γῇ ζώντων˙ καὶ <expan><abbr>εὐχαρι</abbr><ex>σ</ex></expan><lb break="no" n="35"/>τήσαντες ἀνεθήκαμεν ἐπ' ἀγαθῷ˙ <g ref="palm"/>
-                    <lb n="36"/> εὐθὺς ἀνεθήκαμεν δὲ τῷ ἀνικήτῳ
-                    <lb n="37"/> Ἀρέει <foreign xml:lang="gez">CΟΥʿΑΤΕ</foreign> καὶ <foreign xml:lang="gez">ΒΕΔΙΕ</foreign>.
+               <t:div type="textpart" n="1" xml:id="RIE270bis" xml:lang="grc" corresp="https://betamasaheft.eu/LIT4851greekRoyal">
+                  <t:ab>
+                    <t:lb n="1"/> Ἀειζανᾶς βασιλεὺς Ἀξωμιτῶν καὶ Ὁμηριτῶν
+                    <t:lb n="2"/> καὶ τοῦ Ῥαειδᾶν καὶ Αἰθιόπων καὶ Σαβαειτῶν
+                    <t:lb n="3"/> καὶ τοῦ Σιλεῆ καὶ τοῦ Τιαμῶ καὶ Βουγαειτῶν <t:expan><t:abbr>κ</t:abbr><t:ex>αὶ</t:ex></t:expan>
+                    <t:lb n="4"/> τοῦ Κάσου, βασιλεὺς βασιλέων, υἱὸς θεοῦ ἀνική<t:lb break="no" n="5"/>του Ἄρεως ἀτακτησάντων κατὰ καιρὸν τοῦ
+                    <t:lb n="6"/> ἔθνους τῶν Βουγαειτῶν ἀπεστίλαμεν τοὺς
+                    <t:lb n="7"/> ἡμετέρους ἀδελφοὺς Σαζανᾶν <t:expan><t:abbr>κ</t:abbr><t:ex>αὶ</t:ex></t:expan> τὸν Ἀδιφᾶν
+                    <t:lb n="8"/> τούτους πολεμῆσαι καὶ παραδεδωκότων αὐ<t:lb break="no" n="9"/>τῶν ὑποτάξαντες αὐτοὺς ἤγαγον πρὸς ἡμᾶς
+                    <t:lb n="10"/> μετὰ καὶ τοῦ ὄχλου αὐτῶν ὅλου καὶ τῶν θρεμμά<t:lb break="no" n="11"/>των, βοῶν γριβ καὶ προβάτων ςσκδ καὶ νω<t:lb break="no" n="12"/>τοφόρων χοζˊ, θρέψαντες αὐτοὺς βόεσίν τε
+                    <t:lb n="13"/> καὶ ἐπισιτισμῷ <t:expan><t:abbr>ἀννών</t:abbr><t:ex>ης</t:ex></t:expan> <t:expan><t:abbr>οἶν</t:abbr><t:ex>ῳ</t:ex></t:expan>
+                    τε <t:expan><t:abbr>κ</t:abbr><t:ex>αὶ</t:ex></t:expan> ὑδρομέλιτι,
+                    <t:lb n="14"/> ζύτῳ <t:expan><t:abbr>κ</t:abbr><t:ex>αὶ</t:ex></t:expan> ὑδρεύμασιν είς χορτασίαν ἐπὶ μῆνας
+                    <t:lb n="15"/> τέσσαρας οἵτιναις ἦσαν τὸν ἀριθμόν δυ <t:expan><t:abbr>κ</t:abbr><t:ex>αὶ</t:ex></t:expan>
+                    <t:lb n="16"/> ἀννωνευόμενοι καθ'ἑκάστην ἡμέραν ἄρτους
+                    <t:lb n="17"/> σιτίνους <t:expan><t:abbr>μυ</t:abbr><t:ex>ριάδας</t:ex></t:expan> β β, ἄχρεις αὐτοὺς μετοικίσωμεν˙
+                    <t:lb n="18"/> τούτους οὖν ἐνεχθέντας πρὸς ἡμᾶς, δωρησά<t:lb break="no" n="19"/>μενοι αὐτοῖς πάντα τὰ ἐπιτήδια καὶ ἀμφιάσαν<t:lb break="no" n="20"/>τες, μετοικίσαντες αὐτοὺς κατεστήσαμεν ἴς τι<t:lb break="no" n="21"/>να τόπον τῆς ἡμετέρας χώρας καλούμενον
+                    <t:lb n="22"/> Μάτλια καὶ ἐκελεύσαμεν αὐτοὺς πάλιν ἀννω<t:lb break="no" n="23"/>νεύεσθαι ἐπὶ τοῖς ἐκῐσε τόποις, παρασχόμενοι
+                    <t:lb n="24"/> ἑκάστῳ βασιλίσκῳ αὐτῶν βόας δρϟ ἤ
+                    <t:lb n="25"/> ὡς γύνεσθαι τοῖς ἕξασιν βασιλίσκοις βόας
+                    <t:expan><t:abbr>μυ</t:abbr><t:ex>ριάδας</t:ex></t:expan> β́ ερμ́ ̇
+                    <t:lb n="26"/> υπὲρ δὲ εὐχαριστίας τοῦ μαι γεννήσαντος
+                    <t:lb n="27"/> ἀνικήτου Ἄρεως ἀνεθήκαμεν αὐτῳ ἀνδρι<t:lb break="no" n="28"/>άντα χρὺσαιον ἕνα <t:expan><t:abbr>κ</t:abbr><t:ex>αὶ</t:ex></t:expan> ἀργύραιον ἔνα <t:expan><t:abbr>κ</t:abbr><t:ex>αὶ</t:ex></t:expan> χαλκαίους
+                    <t:lb n="29"/> τρὶς καὶ ἀνέθηκα ταύτην τὴν στήλην καὶ παρε<t:lb break="no" n="30"/>θέμην αὐτὴν τῷ οὐρανῷ καὶ τῇ γῇ καὶ τῷ μαι
+                    <t:lb n="31"/> γεννήσαντι ἀνικήτῳ Ἀρέει˙ ἔι τις οὖν τοῦτον
+                    <t:lb n="32"/> ἀδικῆσαι βουληθῇ, ἐξολεθρεύσῃ αὐτὸν ὁ θὲ<t:supplied reason="lost">ὸς</t:supplied>
+                    <t:lb n="33"/> τοῦ αὐρανοῦ καὶ τῆς γῆς ἐκρίζων καὶ μὴ ὑπάρ<t:lb break="no" n="34"/><t:supplied reason="lost">χ</t:supplied>ῃ αὐτοῦ ὄνομα ἐν γῇ ζώντων˙ καὶ <t:expan><t:abbr>εὐχαρι</t:abbr><t:ex>σ</t:ex></t:expan><t:lb break="no" n="35"/>τήσαντες ἀνεθήκαμεν ἐπ' ἀγαθῷ˙ <t:g ref="palm"/>
+                    <t:lb n="36"/> εὐθὺς ἀνεθήκαμεν δὲ τῷ ἀνικήτῳ
+                    <t:lb n="37"/> Ἀρέει <t:foreign xml:lang="gez">CΟΥʿΑΤΕ</t:foreign> καὶ <t:foreign xml:lang="gez">ΒΕΔΙΕ</t:foreign>.
                     
-                    </ab>
-               </div>
-               </div>
+                    </t:ab>
+               </t:div>
+               </t:div>
 
-            <div type="textpart" subtype="face" xml:id="B">
-               <div type="textpart" n="2" xml:id="RIE185bisI" xml:lang="gez-sabaic" corresp="https://betamasaheft.eu/LIT4850pseudotrilingual">
-                  <head>C</head>
-                  <ab>
-                    <lb n="1"/> ̊˓yḏn mlk ʼkswm wḥmrm wrydnm w
-                    <lb n="2"/> slhnm wsbʼm wḥbs̆tm wṣymm wṣrd
-                    <lb n="3"/> m wkswm wbgm mlk mlkn bn mḥrmm ḏ
-                    <lb n="4"/> ʼytmwʼm lḍrm zʼḍrrmm ḥzb bg fnwn ʼ
-                    <lb n="5"/> ẖ̊wyn s̆ʿznh wḥdfhm yḍbʼwmm wbṣḥm b
-                    <lb n="6"/> ḥrm dḥr̊m lm ṯdṯtw ngs̆t mṯl ʼ̣hzbhm wg
-                    <lb n="7"/> <supplied reason="lost">n</supplied>ym ʼflṯwm ʼbḥrm mṯl dqyqm wʼnṯtm wʼ
-                    <lb n="8"/> ḥḏbhm wʼnsshm ʼnḏ ẖlq sb'm ḏz sdṯtw
-                    <lb n="9"/> ngs̆t <num><gap reason="lost" extent="unknown"/></num> wlhmwm <num><gap reason="lost" extent="unknown"/></num>
-                    <supplied reason="lost">w</supplied>
-                    <lb n="10"/> bgʿwm <num><gap reason="lost" extent="unknown"/></num> wʼnṯsʿwd <num><gap reason="lost" extent="unknown"/></num>
-                    wʼz <damage>y</damage>
-                    <lb n="11"/> syṯywm ʼmʼmr ʼwḍʼm ʼbḥrm llʿltm <supplied reason="lost"><milestone unit="worddivider"/></supplied>
-                    <lb n="12"/> ẖbst ʿlṯ <num><gap reason="lost" extent="unknown"/></num> ws̆g ḏyʼklm ʼnz
-                    <lb n="13"/> yttywm s̆w wwyn ṣgbtm ʼrbʿt <supplied reason="lost"><milestone unit="worddivider"/></supplied>
-                    <lb n="14"/> ʼw<supplied reason="lost">r</supplied>ẖm wbṣyḥmm ʼkswmm mnglnm ʼ
-                    <lb n="15"/> lbṯnhmm bsdḥmm ṯbʼmm wʼsrgwnh
-                    <lb n="16"/> mm ngs̆tm wfnwnhmm yn̊brm bḥr mḍ <supplied reason="lost">d</supplied>
-                    <lb n="17"/> wl bḥrnm wknn yṯys̊ywm bhym wft
-                    <lb n="18"/> tnhmm llngs̆ lhm <num><gap reason="lost" extent="unknown"/></num> ykwn lṯds
-                    <lb n="19"/> t ngs̆t <num><gap reason="lost" extent="unknown"/></num> wʼbʼnm lmḥrmnm lz
-                    <lb n="20"/> wldnm ʼkttm mṯl ḏwrq l wḏbr̊ <supplied reason="lost">w</supplied>
-                    <lb n="21"/> r l wḏṣryq s̆lst wʼṣḥfn z<supplied reason="lost">ṣ</supplied>
-                    <lb n="22"/> ḥft ws̆mnm wʼmḥḍnm lʿṯtrm wl<supplied reason="lost">b</supplied>
-                    <lb n="23"/> ḥrm wlmḥrm lzwldnm ʼmky bw ḏʼ
-                    <lb n="24"/> <supplied reason="lost">m</supplied>sn lzʼbn ṣllw wnkt lykwnm w
-                    <lb n="25"/> <supplied reason="lost">z</supplied>mdwm wwl̊dwm ʼbḥyr lys̆ʼ wʼm<supplied reason="lost">s̆</supplied>
-                    <lb n="26"/> <supplied reason="lost">w</supplied>m lytbtk wbkm s̆mnhm lḏʼbn
-                    <lb n="27"/> lydl̊wn wlhgry lzlfwm
-                    </ab>
+            <t:div type="textpart" subtype="face" xml:id="B">
+               <t:div type="textpart" n="2" xml:id="RIE185bisI" xml:lang="gez-sabaic" corresp="https://betamasaheft.eu/LIT4850pseudotrilingual">
+                  <t:head>C</t:head>
+                  <t:ab>
+                    <t:lb n="1"/> ̊˓yḏn mlk ʼkswm wḥmrm wrydnm w
+                    <t:lb n="2"/> slhnm wsbʼm wḥbs̆tm wṣymm wṣrd
+                    <t:lb n="3"/> m wkswm wbgm mlk mlkn bn mḥrmm ḏ
+                    <t:lb n="4"/> ʼytmwʼm lḍrm zʼḍrrmm ḥzb bg fnwn ʼ
+                    <t:lb n="5"/> ẖ̊wyn s̆ʿznh wḥdfhm yḍbʼwmm wbṣḥm b
+                    <t:lb n="6"/> ḥrm dḥr̊m lm ṯdṯtw ngs̆t mṯl ʼ̣hzbhm wg
+                    <t:lb n="7"/> <t:supplied reason="lost">n</t:supplied>ym ʼflṯwm ʼbḥrm mṯl dqyqm wʼnṯtm wʼ
+                    <t:lb n="8"/> ḥḏbhm wʼnsshm ʼnḏ ẖlq sb'm ḏz sdṯtw
+                    <t:lb n="9"/> ngs̆t <t:num><t:gap reason="lost" extent="unknown"/></t:num> wlhmwm <t:num><t:gap reason="lost" extent="unknown"/></t:num>
+                    <t:supplied reason="lost">w</t:supplied>
+                    <t:lb n="10"/> bgʿwm <t:num><t:gap reason="lost" extent="unknown"/></t:num> wʼnṯsʿwd <t:num><t:gap reason="lost" extent="unknown"/></t:num>
+                    wʼz <t:damage>y</t:damage>
+                    <t:lb n="11"/> syṯywm ʼmʼmr ʼwḍʼm ʼbḥrm llʿltm <t:supplied reason="lost"><t:milestone unit="worddivider"/></t:supplied>
+                    <t:lb n="12"/> ẖbst ʿlṯ <t:num><t:gap reason="lost" extent="unknown"/></t:num> ws̆g ḏyʼklm ʼnz
+                    <t:lb n="13"/> yttywm s̆w wwyn ṣgbtm ʼrbʿt <t:supplied reason="lost"><t:milestone unit="worddivider"/></t:supplied>
+                    <t:lb n="14"/> ʼw<t:supplied reason="lost">r</t:supplied>ẖm wbṣyḥmm ʼkswmm mnglnm ʼ
+                    <t:lb n="15"/> lbṯnhmm bsdḥmm ṯbʼmm wʼsrgwnh
+                    <t:lb n="16"/> mm ngs̆tm wfnwnhmm yn̊brm bḥr mḍ <t:supplied reason="lost">d</t:supplied>
+                    <t:lb n="17"/> wl bḥrnm wknn yṯys̊ywm bhym wft
+                    <t:lb n="18"/> tnhmm llngs̆ lhm <t:num><t:gap reason="lost" extent="unknown"/></t:num> ykwn lṯds
+                    <t:lb n="19"/> t ngs̆t <t:num><t:gap reason="lost" extent="unknown"/></t:num> wʼbʼnm lmḥrmnm lz
+                    <t:lb n="20"/> wldnm ʼkttm mṯl ḏwrq l wḏbr̊ <t:supplied reason="lost">w</t:supplied>
+                    <t:lb n="21"/> r l wḏṣryq s̆lst wʼṣḥfn z<t:supplied reason="lost">ṣ</t:supplied>
+                    <t:lb n="22"/> ḥft ws̆mnm wʼmḥḍnm lʿṯtrm wl<t:supplied reason="lost">b</t:supplied>
+                    <t:lb n="23"/> ḥrm wlmḥrm lzwldnm ʼmky bw ḏʼ
+                    <t:lb n="24"/> <t:supplied reason="lost">m</t:supplied>sn lzʼbn ṣllw wnkt lykwnm w
+                    <t:lb n="25"/> <t:supplied reason="lost">z</t:supplied>mdwm wwl̊dwm ʼbḥyr lys̆ʼ wʼm<t:supplied reason="lost">s̆</t:supplied>
+                    <t:lb n="26"/> <t:supplied reason="lost">w</t:supplied>m lytbtk wbkm s̆mnhm lḏʼbn
+                    <t:lb n="27"/> lydl̊wn wlhgry lzlfwm
+                    </t:ab>
 
-               </div>
-               </div>
+               </t:div>
+               </t:div>
 
-              <div type="textpart" subtype="face" xml:id="BI">
-               <div type="textpart" n="3" xml:id="RIE185bisII1" xml:lang="gez" corresp="https://betamasaheft.eu/LIT4850pseudotrilingual">
-                  <head>D part 1</head>
-                  <ab>
-                    <lb n="1"/> ʿzn ngś ʼksm wḥmr wrd w
-                    <lb n="2"/> ks wsbʼ wslḥn wṣrd wḥb
-                    <lb n="3"/> śt wbg ngś ngśt wld lm
-                    <lb n="4"/> ḥrm zʼytmwʼ lḍr ʼḍrrm ḥ
-                    <lb n="5"/> zb bg wfnwn ʼẖwn śʿznh w
-                    <lb n="6"/> ḥdfh yḍbʼwm wbṣḥm bḥr g
-                    <lb n="7"/> <supplied reason="lost">n</supplied>y lm sdst ngśt msl ʼḥzb
-                    <lb n="8"/> hm wgnym ʾflswm ʾbḥrm
-                    <lb n="9"/> msl dqqm wʼḥzbhm wʼns
-                    <lb n="10"/> shm ẖlq sbʼm zsdst ng
-                    <lb n="11"/> śt 4400 <space extent="unknown"/>
-                    <lb n="12"/> ̊3012 <space extent="unknown"/> wbgʿm ̊522̊4 <space extent="unknown"/>
-                    <lb n="13"/> wʼnss ʿwdm ̊677 <space extent="unknown"/> wss
-                    <lb n="14"/> ywm ʼmʼm ʼwḍʼwm ʼmbḥr
-                    <lb n="15"/> m ll ʿlt ẖbst ʿls 20020
-                    <lb n="16"/> <space extent="unknown"/> wśg ṣgbt ʼz ystywm
-                    </ab>
-               </div>
-               </div>
-
-
-            <div type="textpart" subtype="face" xml:id="C">
-               <div type="textpart" n="4" xml:id="RIE185bisII2" xml:lang="gez" corresp="https://betamasaheft.eu/LIT4850pseudotrilingual">
-                  <head>D part 2</head>
-                  <ab>
-                    <lb n="1"/> s̆w wwy
-                    <lb n="2"/> n ṣgbt
-                    <lb n="3"/> ʼwrẖ ʼr
-                    <lb n="4"/> bʿt wb
-                    <lb n="5"/> ṣḥm ʼks
-                    <lb n="6"/> m mngln
-                    <lb n="7"/> ʼlbsnhm
-                    <lb n="8"/> bsfḥ s
-                    <lb n="9"/> bʼm wʼ
-                    <lb n="10"/> srgwn n
-                    <lb n="11"/> gśtm w
-                    <lb n="12"/> fnwnhm
-                    <lb n="13"/> ybr bḥ
-                    <lb n="14"/> r mḍ dwl
-                    <lb n="15"/> bḥrn wknn
-                    <lb n="16"/> yssywm b
-                    <lb n="17"/> hy wfttn
-                    <lb n="18"/> hm llʼḥd
-                    <lb n="19"/> ngś ʼḥ<supplied reason="omitted">d</supplied>
-                    <lb n="20"/> 4190 <space extent="unknown"/>
-                    <lb n="21"/> <space extent="unknown"/> kn̊ lsd
-                    <lb n="22"/> st ngśt
-                    <lb n="23"/> 25140
-                    <lb n="24"/> <space extent="unknown"/> wʼb
-                    <lb n="25"/> ʼn ʼktt l
-                    <lb n="26"/> mḥrm zwl
-                    <lb n="27"/> dn msl zw
-                    <lb n="28"/> rq ʼḥd l
-                    <lb n="29"/> wzbrr ʼḥ
-                    <lb n="30"/> d l wzṣrq
-                    <lb n="31"/> ślst 3 w
-                    <lb n="32"/> ṣḥfk zṣḥ
-                    <lb n="33"/> ft wśmk
-                    <lb n="34"/> wʼmḥḍnk
-                    <lb n="35"/> lʿstr wb
-                    <lb n="36"/> ḫr wlmḥrm
-                    <lb n="37"/> zwldn wl
-                    <lb n="38"/> ʼmb zʼmsn
-                    <lb n="39"/> lzʼbn ṣll w
-                    <lb n="40"/> nkt lykn wz
-                    <lb n="41"/> md wwld
-                    <lb n="42"/> ʼbḥr lyśʼ <milestone unit="face" n="A"/> wʼmśw lybtk wbkm śmnh lydlwn
-                    <lb n="43"/> ln wlhgrn lzl<supplied reason="omitted">f</supplied>
+              <t:div type="textpart" subtype="face" xml:id="BI">
+               <t:div type="textpart" n="3" xml:id="RIE185bisII1" xml:lang="gez" corresp="https://betamasaheft.eu/LIT4850pseudotrilingual">
+                  <t:head>D part 1</t:head>
+                  <t:ab>
+                    <t:lb n="1"/> ʿzn ngś ʼksm wḥmr wrd w
+                    <t:lb n="2"/> ks wsbʼ wslḥn wṣrd wḥb
+                    <t:lb n="3"/> śt wbg ngś ngśt wld lm
+                    <t:lb n="4"/> ḥrm zʼytmwʼ lḍr ʼḍrrm ḥ
+                    <t:lb n="5"/> zb bg wfnwn ʼẖwn śʿznh w
+                    <t:lb n="6"/> ḥdfh yḍbʼwm wbṣḥm bḥr g
+                    <t:lb n="7"/> <t:supplied reason="lost">n</t:supplied>y lm sdst ngśt msl ʼḥzb
+                    <t:lb n="8"/> hm wgnym ʾflswm ʾbḥrm
+                    <t:lb n="9"/> msl dqqm wʼḥzbhm wʼns
+                    <t:lb n="10"/> shm ẖlq sbʼm zsdst ng
+                    <t:lb n="11"/> śt 4400 <t:space extent="unknown"/>
+                    <t:lb n="12"/> ̊3012 <t:space extent="unknown"/> wbgʿm ̊522̊4 <t:space extent="unknown"/>
+                    <t:lb n="13"/> wʼnss ʿwdm ̊677 <t:space extent="unknown"/> wss
+                    <t:lb n="14"/> ywm ʼmʼm ʼwḍʼwm ʼmbḥr
+                    <t:lb n="15"/> m ll ʿlt ẖbst ʿls 20020
+                    <t:lb n="16"/> <t:space extent="unknown"/> wśg ṣgbt ʼz ystywm
+                    </t:ab>
+               </t:div>
+               </t:div>
 
 
-                    </ab>
-               </div>
-            </div>
+            <t:div type="textpart" subtype="face" xml:id="C">
+               <t:div type="textpart" n="4" xml:id="RIE185bisII2" xml:lang="gez" corresp="https://betamasaheft.eu/LIT4850pseudotrilingual">
+                  <t:head>D part 2</t:head>
+                  <t:ab>
+                    <t:lb n="1"/> s̆w wwy
+                    <t:lb n="2"/> n ṣgbt
+                    <t:lb n="3"/> ʼwrẖ ʼr
+                    <t:lb n="4"/> bʿt wb
+                    <t:lb n="5"/> ṣḥm ʼks
+                    <t:lb n="6"/> m mngln
+                    <t:lb n="7"/> ʼlbsnhm
+                    <t:lb n="8"/> bsfḥ s
+                    <t:lb n="9"/> bʼm wʼ
+                    <t:lb n="10"/> srgwn n
+                    <t:lb n="11"/> gśtm w
+                    <t:lb n="12"/> fnwnhm
+                    <t:lb n="13"/> ybr bḥ
+                    <t:lb n="14"/> r mḍ dwl
+                    <t:lb n="15"/> bḥrn wknn
+                    <t:lb n="16"/> yssywm b
+                    <t:lb n="17"/> hy wfttn
+                    <t:lb n="18"/> hm llʼḥd
+                    <t:lb n="19"/> ngś ʼḥ<t:supplied reason="omitted">d</t:supplied>
+                    <t:lb n="20"/> 4190 <t:space extent="unknown"/>
+                    <t:lb n="21"/> <t:space extent="unknown"/> kn̊ lsd
+                    <t:lb n="22"/> st ngśt
+                    <t:lb n="23"/> 25140
+                    <t:lb n="24"/> <t:space extent="unknown"/> wʼb
+                    <t:lb n="25"/> ʼn ʼktt l
+                    <t:lb n="26"/> mḥrm zwl
+                    <t:lb n="27"/> dn msl zw
+                    <t:lb n="28"/> rq ʼḥd l
+                    <t:lb n="29"/> wzbrr ʼḥ
+                    <t:lb n="30"/> d l wzṣrq
+                    <t:lb n="31"/> ślst 3 w
+                    <t:lb n="32"/> ṣḥfk zṣḥ
+                    <t:lb n="33"/> ft wśmk
+                    <t:lb n="34"/> wʼmḥḍnk
+                    <t:lb n="35"/> lʿstr wb
+                    <t:lb n="36"/> ḫr wlmḥrm
+                    <t:lb n="37"/> zwldn wl
+                    <t:lb n="38"/> ʼmb zʼmsn
+                    <t:lb n="39"/> lzʼbn ṣll w
+                    <t:lb n="40"/> nkt lykn wz
+                    <t:lb n="41"/> md wwld
+                    <t:lb n="42"/> ʼbḥr lyśʼ <t:milestone unit="face" n="A"/> wʼmśw lybtk wbkm śmnh lydlwn
+                    <t:lb n="43"/> ln wlhgrn lzl<t:supplied reason="omitted">f</t:supplied>
 
-            <div type="textpart" n="5" xml:id="RIE185bisII3" xml:lang="gez" corresp="https://betamasaheft.eu/LIT4850pseudotrilingual">
-               <head>D part 3</head>
-               <ab>
-                 <lb n="44"/> wʼbʼn lmḥrm swt wbdḥ
-                 </ab>
-            </div>
-       </div>
 
-<div type="translation" xml:lang="fr">
-  <div type="textpart" corresp="https://betamasaheft.eu/RIE270bis">
+                    </t:ab>
+               </t:div>
+            </t:div>
 
-<ab>
+            <t:div type="textpart" n="5" xml:id="RIE185bisII3" xml:lang="gez" corresp="https://betamasaheft.eu/LIT4850pseudotrilingual">
+               <t:head>D part 3</t:head>
+               <t:ab>
+                 <t:lb n="44"/> wʼbʼn lmḥrm swt wbdḥ
+                 </t:ab>
+            </t:div>
+       </t:div>
+
+<t:div type="translation" xml:lang="fr">
+  <t:div type="textpart" corresp="https://betamasaheft.eu/RIE270bis">
+
+<t:ab>
 (Nous) Aeizanas, roi des Axômites, des Homérites et de Raeidan, des Éthiopiens,
 des Sabaeitai et de Siléè, de Tiamô, des Bougaeitai et de Kasou, roi des
 rois, fils de l'invincible dieu Arès, alors que s'était révoltée en une occasion la
@@ -340,18 +340,18 @@ m'a engendré. Si donc quelqu'un veut offenser ce dernier, que le détruise le d
 du ciel et de la terre, radicalement, et que son nom ne subsiste plus sur la terre
 des vivants. Et en action de grâce nous avons fait la consécration pour le bien.
 Aussitôt nous avons consacré d'autre part à l'invincible Arès un SWT et un BDH.
-</ab>
-</div>
-</div>
+</t:ab>
+</t:div>
+</t:div>
 
-         <div type="bibliography">
-           <listBibl type="secondary">
-             <bibl xml:id="rie1" corresp="http://zotero.org/groups/358366/items/VUIEAENC"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:RIE1"/><title level="m">Recueil des inscriptions de l’Éthiopie des périodes pré-axoumite et axoumite, Introduction de Fr. Anfray, &lt;hi rend="italics"&gt;I:&lt;/hi&gt; Les documents</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Étienne</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bernand</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Abraham Johannes</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Drewes</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Roger</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Schneider</t:surname></author><pubPlace>Paris</pubPlace><publisher>Diffusion de Boccard</publisher><date>1991</date><note type="url">https://archive.org/details/recueildesinscri0000bern_c7z9/mode/2up</note><citedRange unit="page">246—250</citedRange><citedRange unit="page">367—370</citedRange></bibl>
-            <bibl corresp="http://zotero.org/groups/358366/items/U5ZREH8J"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:RIE2"/><title level="m">Recueil des inscriptions de l’Éthiopie des périodes pré-axoumite et axoumite, Introduction de Fr. Anfray&lt;hi rend="italics"&gt;, II:&lt;/hi&gt; Les planches</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Étienne</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bernand</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Abraham Johannes</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Drewes</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Roger</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Schneider</t:surname></author><pubPlace>Paris</pubPlace><publisher>Diffusion de Boccard</publisher><date>1991</date><note type="url">https://archive.org/details/recueildesinscri0000bern_p0u7/page/n5/mode/2up</note><citedRange unit="plate">102—108</citedRange><citedRange unit="plate">180</citedRange></bibl>
-           <bibl corresp="http://zotero.org/groups/358366/items/ZFXPU9WT"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:BernandRIEIIIA"/><title level="m">Recueil des inscriptions de l’Éthiopie des périodes pré-axoumite et axoumite&lt;hi rend="italics"&gt;, III A:&lt;/hi&gt; Traductions et commentaires: Les inscriptions grecques</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Étienne</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bernand</t:surname></author><pubPlace>Paris</pubPlace><publisher>Diffusion de Boccard</publisher><date>2000</date><note type="url">https://aibl.fr/collections/recueil-des-inscriptions-de-lethiopie-des-periodes-pre-axoumite-et-axoumite-t-iii-traductions-et-commentaires/</note><citedRange unit="page">12–15</citedRange></bibl>
-             <bibl corresp="http://zotero.org/groups/358366/items/YCAQ7MDX"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:RIE3B"/><title level="m">Recueil des inscriptions de l’Éthiopie des périodes pré-axoumite et axoumite&lt;hi rend="italics"&gt;, IIIB:&lt;/hi&gt; Traductions et commentaires: Les inscriptions sémitiques&lt;hi rend="italics"&gt;, Texte révisé et adapté par Manfred Kropp&lt;/hi&gt;</title><title level="s">Aethiopistische Forschungen</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Abraham Johannes</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Drewes</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Abraham Johannes</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Drewes</t:surname></editor><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Manfred</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Kropp</t:surname></editor><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Harry</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Stroomer</t:surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2019</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Aethiopistische Forschungen</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">85</t:biblScope></series><biblScope unit="volume">85</biblScope><citedRange unit="page">205–207</citedRange></bibl></listBibl>
-         </div>
+         <t:div type="bibliography">
+           <t:listBibl type="secondary">
+             <t:bibl xml:id="rie1" corresp="http://zotero.org/groups/358366/items/VUIEAENC"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:RIE1"/><title level="m">Recueil des inscriptions de l’Éthiopie des périodes pré-axoumite et axoumite, Introduction de Fr. Anfray, &lt;hi rend="italics"&gt;I:&lt;/hi&gt; Les documents</title><author><forename>Étienne</forename><surname>Bernand</surname></author><author><forename>Abraham Johannes</forename><surname>Drewes</surname></author><author><forename>Roger</forename><surname>Schneider</surname></author><pubPlace>Paris</pubPlace><publisher>Diffusion de Boccard</publisher><date>1991</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">bm:RIE1</note><note type="tag">RIE</note></note><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">bm:RIE1</note><note type="tag">RIE</note><t:citedRange unit="page">246—250</t:citedRange><t:citedRange unit="page">367—370</t:citedRange></t:bibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/U5ZREH8J"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:RIE2"/><title level="m">Recueil des inscriptions de l’Éthiopie des périodes pré-axoumite et axoumite. Introduction de Fr. Anfray&lt;hi rend="italics"&gt;, II:&lt;/hi&gt; Les planches</title><author><forename>Étienne</forename><surname>Bernand</surname></author><author><forename>Abraham Johannes</forename><surname>Drewes</surname></author><author><forename>Roger</forename><surname>Schneider</surname></author><pubPlace>Paris</pubPlace><publisher>Diffusion de Boccard</publisher><date>1991</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">RIE</note><note type="tag">bm:RIE2</note></note><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">RIE</note><note type="tag">bm:RIE2</note><t:citedRange unit="plate">102—108</t:citedRange><t:citedRange unit="plate">180</t:citedRange></t:bibl>
+           <t:bibl corresp="http://zotero.org/groups/358366/items/ZFXPU9WT"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:BernandRIEIIIA"/><title level="m">Recueil des inscriptions de l’Éthiopie des périodes pré-axoumite et axoumite&lt;hi rend="italics"&gt;, III:&lt;/hi&gt; Traductions et commentaires&lt;hi rend="italics"&gt;, A:&lt;/hi&gt; Les inscriptions grecques</title><author><forename>Étienne</forename><surname>Bernand</surname></author><author><forename>Étienne</forename><surname>Bernand</surname></author><pubPlace>Paris</pubPlace><publisher>Diffusion de Boccard</publisher><date>2000</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">bm:BernandRIEIIIA</note><note type="tag">RIE</note></note><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">bm:BernandRIEIIIA</note><note type="tag">RIE</note><t:citedRange unit="page">12–15</t:citedRange></t:bibl>
+             <t:bibl corresp="http://zotero.org/groups/358366/items/YCAQ7MDX"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:RIE3B"/><title level="m">Recueil des inscriptions de l’Éthiopie des périodes pré-axoumite et axoumite&lt;hi rend="italics"&gt;, IIIB:&lt;/hi&gt; Traductions et commentaires: Les inscriptions sémitiques&lt;hi rend="italics"&gt;, Texte révisé et adapté par Manfred Kropp&lt;/hi&gt;</title><title level="s">Aethiopistische Forschungen</title><author><t:forename>Abraham Johannes</t:forename><t:surname>Drewes</t:surname></author><editor><t:forename>Abraham Johannes</t:forename><t:surname>Drewes</t:surname></editor><editor><t:forename>Manfred</t:forename><t:surname>Kropp</t:surname></editor><editor><t:forename>Harry</t:forename><t:surname>Stroomer</t:surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2019</date><series><t:title level="s">Aethiopistische Forschungen</t:title><t:biblScope unit="volume">85</t:biblScope></series><biblScope unit="volume">85</biblScope><t:citedRange unit="page">205–207</t:citedRange></t:bibl></t:listBibl>
+         </t:div>
 
-      </body>
+      </t:body>
 
-   </text></TEI>
+   </t:text></TEI>

@@ -1,8 +1,6 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT5064HEpA">
-    <teiHeader xml:base="https://betamasaheft.eu/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT5064HEpA"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
-            <titleStmt>
-                <title type="full">History of the Episcopate of Alexandria</title>
+            <titleStmt><title type="full">History of the Episcopate of Alexandria</title>
                 <title xml:lang="en" corresp="#t1">History of the Episcopate of Alexandria</title>
                 <title xml:lang="la" xml:id="t1">Historia Episcopatus Alexandriae</title>
                 <title type="short">HEpA</title>
@@ -11,19 +9,7 @@
              
                 <editor key="PL" corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL">Pietro Maria Liuzzo</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB">
-                    <resp>general editor</resp>
-                    <name>Alessandro Bausi</name>
-                </respStmt>
-                <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB">
-                    <resp>editor</resp>
-                    <name>Alessandro Bausi</name>
-                </respStmt>
-                <respStmt xml:id="ed-PL" corresp="https://betamasaheft.eu/team.html#PL">
-                    <resp>editor</resp>
-                    <name>Pietro Maria Liuzzo</name>
-                </respStmt>
-            </titleStmt>
+            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>editor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
@@ -33,19 +19,10 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">2.7.2025 at 20:07:09</date>
-                <date type="lastModified">27.9.2018</date>
-                <idno type="collection">works</idno>
-                <idno type="url">https://betamasaheft.eu/works/LIT5064HEpA/main</idno>
-                <idno type="URI">https://betamasaheft.eu/LIT5064HEpA</idno>
-                <idno type="filename">LIT5064HEpA.xml</idno>
-                <idno type="ID">LIT5064HEpA</idno>
-            </publicationStmt>
+            <date type="expanded">2.7.2025 at 20:07:09</date><date type="lastModified">27.9.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5064HEpA/main</idno><idno type="URI">https://betamasaheft.eu/LIT5064HEpA</idno><idno type="filename">LIT5064HEpA.xml</idno><idno type="ID">LIT5064HEpA</idno></publicationStmt>
             <sourceDesc>
                 <listWit>
-                    <witness xml:id="Σ" corresp="https://betamasaheft.eu/ESum039">
-                        <idno>UM-039</idno>
-                    </witness>
+                    <witness xml:id="Σ" corresp="https://betamasaheft.eu/ESum039"><idno>UM-039</idno></witness>
                     <witness type="external" xml:id="V" corresp="MS Verona, Biblioteca Capitolare, Codex LX (58).">MS Verona, Biblioteca Capitolare, Codex LX (58).</witness>
                 </listWit>
             </sourceDesc>
@@ -63,88 +40,10 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p>
-            <listPrefixDef>
-                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
-                <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/>
-                <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/>
-                <prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/>
-                <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/>
-                <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/>
-                <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/>
-                <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/>
-                <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/>
-                <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/>
-                <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/>
-                <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/>
-                <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/>
-                <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/>
-                <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/>
-                <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/>
-                <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/>
-                <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/>
-                <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/>
-                <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
-            </listPrefixDef>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml">
-                <xi:fallback>
-                    <p>Definitions of prefixes used.</p>
-                </xi:fallback>
-            </xi:include>
-            <refsDecl>
-                <citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim=".">
-                    <citeStructure unit="chapter" match="t:div" use="t:div">
-                        <desc>
-                            <list>
-                                <item>30</item>
-                                <item>31</item>
-                                <item>32</item>
-                                <item>33</item>
-                                <item>34</item>
-                            </list>
-                        </desc>
-                        <citeStructure unit="t:pb" match="t:pb" use="t:pb">
-                            <desc>
-                                <list>
-                                    <item>8vb</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                    </citeStructure>
-                </citeStructure>
-            </refsDecl>
-        </encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="chapter" match="t:div" use="t:div"><desc><list><item>30</item><item>31</item><item>32</item><item>33</item><item>34</item></list></desc><citeStructure unit="t:pb" match="t:pb" use="t:pb"><desc><list><item>8vb</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <t:creation notBefore="0450" notAfter="0550">Probably arranged after the middle of the fifth century and 
-                probably no later than the end of that century or the first half of the sixth century (<t:bibl corresp="http://zotero.org/groups/358366/items/73NH4QWK">
-                    <seg type="journalArticle"><!-- attributes from original bibl--></seg>
-                    <ptr target="bm:HEpA"/>
-                    <title level="a">The &lt;hi rend="italics"&gt;History of the Episcopate of Alexandria&lt;/hi&gt; (&lt;hi rend="italics"&gt;HEpA&lt;/hi&gt;): &lt;hi rend="italics"&gt;Editio minor&lt;/hi&gt; of the fragments preserved in the &lt;hi rend="italics"&gt;Aksumite Collection&lt;/hi&gt; and in the &lt;hi rend="italics"&gt;Codex Veronensis&lt;/hi&gt; LX (58)</title>
-                    <title level="j">Adamantius</title>
-                    <author>
-                        <forename>Alessandro</forename>
-                        <surname>Bausi</surname>
-                    </author>
-                    <author>
-                        <forename>Alberto</forename>
-                        <surname>Camplani</surname>
-                    </author>
-                    <date>2016</date>
-                    <biblScope unit="volume">22</biblScope>
-                    <biblScope unit="page">249-302</biblScope>
-                    <note type="url">https://www.academia.edu/33507697/The_History_of_the_Episcopate_of_Alexandria_HEpA_Editio_minor_of_the_fragments_preserved_in_the_Aksumite_Collection_and_in_the_Codex_Veronensis_LX_58_</note>
-                    <note type="tags">
-                        <note type="tag">AdW</note>
-                        <note type="tag">TraCES</note>
-                        <note type="tag">bm:HEpA</note>
-                    </note>
-                    <note type="tag">AdW</note>
-                    <note type="tag">TraCES</note>
-                    <note type="tag">bm:HEpA</note>
-                    <t:citedRange unit="page">250</t:citedRange>
-                </t:bibl>)</t:creation>
+                probably no later than the end of that century or the first half of the sixth century (<t:bibl corresp="http://zotero.org/groups/358366/items/73NH4QWK"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:HEpA"/><title level="a">The &lt;hi rend="italics"&gt;History of the Episcopate of Alexandria&lt;/hi&gt; (&lt;hi rend="italics"&gt;HEpA&lt;/hi&gt;): &lt;hi rend="italics"&gt;Editio minor&lt;/hi&gt; of the fragments preserved in the &lt;hi rend="italics"&gt;Aksumite Collection&lt;/hi&gt; and in the &lt;hi rend="italics"&gt;Codex Veronensis&lt;/hi&gt; LX (58)</title><title level="j">Adamantius</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><author><forename>Alberto</forename><surname>Camplani</surname></author><date>2016</date><biblScope unit="volume">22</biblScope><biblScope unit="page">249-302</biblScope><note type="url">https://www.academia.edu/33507697/The_History_of_the_Episcopate_of_Alexandria_HEpA_Editio_minor_of_the_fragments_preserved_in_the_Aksumite_Collection_and_in_the_Codex_Veronensis_LX_58_</note><note type="tags"><note type="tag">AdW</note><note type="tag">TraCES</note><note type="tag">bm:HEpA</note></note><note type="tag">AdW</note><note type="tag">TraCES</note><note type="tag">bm:HEpA</note><t:citedRange unit="page">250</t:citedRange></t:bibl>)</t:creation>
             <t:abstract>
                 <t:p/>
             </t:abstract>
@@ -154,75 +53,17 @@
                     <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
                 </t:keywords>
             </t:textClass>
-            <t:langUsage>
-                <t:language ident="en">English</t:language>
-                <t:language ident="gez">Gǝʿǝz</t:language>
-            </t:langUsage>
-        <calendarDesc>
-                <calendar xml:id="world">
-                    <p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p>
-                </calendar>
-                <calendar xml:id="ethiopian">
-                    <p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p>
-                </calendar>
-                <calendar xml:id="grace">
-                    <p>ʿĀmata məḥrat (Era of Grace)</p>
-                </calendar>
-                <calendar xml:id="diocletian">
-                    <p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p>
-                </calendar>
-                <calendar xml:id="alexander">
-                    <p> Era of Alexander</p>
-                </calendar>
-                <calendar xml:id="evangelists">
-                    <p>Evangelists' years</p>
-                </calendar>
-                <calendar xml:id="islamic">
-                    <p>Hiǧrī (Islamic)</p>
-                </calendar>
-                <calendar xml:id="hijri">
-                    <p>Hiǧrī (Islamic) in IslHornAfr</p>
-                </calendar>
-                <calendar xml:id="julian">
-                    <p>Julian</p>
-                </calendar>
-            </calendarDesc>
-        </t:profileDesc>
+            <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+        <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change who="#PL" when="2018-09-27"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
         </t:revisionDesc>
-    </teiHeader>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>
             <t:div type="bibliography">
                 <t:listBibl type="editions">
-                    <t:bibl corresp="http://zotero.org/groups/358366/items/73NH4QWK">
-                        <seg type="journalArticle"><!-- attributes from original bibl--></seg>
-                        <ptr target="bm:HEpA"/>
-                        <title level="a">The &lt;hi rend="italics"&gt;History of the Episcopate of Alexandria&lt;/hi&gt; (&lt;hi rend="italics"&gt;HEpA&lt;/hi&gt;): &lt;hi rend="italics"&gt;Editio minor&lt;/hi&gt; of the fragments preserved in the &lt;hi rend="italics"&gt;Aksumite Collection&lt;/hi&gt; and in the &lt;hi rend="italics"&gt;Codex Veronensis&lt;/hi&gt; LX (58)</title>
-                        <title level="j">Adamantius</title>
-                        <author>
-                            <forename>Alessandro</forename>
-                            <surname>Bausi</surname>
-                        </author>
-                        <author>
-                            <forename>Alberto</forename>
-                            <surname>Camplani</surname>
-                        </author>
-                        <date>2016</date>
-                        <biblScope unit="volume">22</biblScope>
-                        <biblScope unit="page">249-302</biblScope>
-                        <note type="url">https://www.academia.edu/33507697/The_History_of_the_Episcopate_of_Alexandria_HEpA_Editio_minor_of_the_fragments_preserved_in_the_Aksumite_Collection_and_in_the_Codex_Veronensis_LX_58_</note>
-                        <note type="tags">
-                            <note type="tag">AdW</note>
-                            <note type="tag">TraCES</note>
-                            <note type="tag">bm:HEpA</note>
-                        </note>
-                        <note type="tag">AdW</note>
-                        <note type="tag">TraCES</note>
-                        <note type="tag">bm:HEpA</note>
-                    </t:bibl>
+                    <t:bibl corresp="http://zotero.org/groups/358366/items/73NH4QWK"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:HEpA"/><title level="a">The &lt;hi rend="italics"&gt;History of the Episcopate of Alexandria&lt;/hi&gt; (&lt;hi rend="italics"&gt;HEpA&lt;/hi&gt;): &lt;hi rend="italics"&gt;Editio minor&lt;/hi&gt; of the fragments preserved in the &lt;hi rend="italics"&gt;Aksumite Collection&lt;/hi&gt; and in the &lt;hi rend="italics"&gt;Codex Veronensis&lt;/hi&gt; LX (58)</title><title level="j">Adamantius</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><author><forename>Alberto</forename><surname>Camplani</surname></author><date>2016</date><biblScope unit="volume">22</biblScope><biblScope unit="page">249-302</biblScope><note type="url">https://www.academia.edu/33507697/The_History_of_the_Episcopate_of_Alexandria_HEpA_Editio_minor_of_the_fragments_preserved_in_the_Aksumite_Collection_and_in_the_Codex_Veronensis_LX_58_</note><note type="tags"><note type="tag">AdW</note><note type="tag">TraCES</note><note type="tag">bm:HEpA</note></note><note type="tag">AdW</note><note type="tag">TraCES</note><note type="tag">bm:HEpA</note></t:bibl>
                
                 </t:listBibl>
             </t:div>
@@ -390,5 +231,4 @@
                 </t:div>
             </t:div>
             </t:body>
-    </t:text>
-</TEI>
+    </t:text></TEI>
