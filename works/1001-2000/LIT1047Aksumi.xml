@@ -1,22 +1,12 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT1047Aksumi">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT1047Aksumi"><teiHeader>
          <fileDesc>
-            <titleStmt>
-                <title type="full">Sinodos of Qǝfrǝyā</title>
+            <titleStmt><title type="full">Sinodos of Qǝfrǝyā</title>
                <title xml:lang="en" xml:id="t1">Sinodos of Qǝfrǝyā</title>
                <title xml:lang="en" xml:id="t2">Aksumite Collection</title>
                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
                <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
                <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB">
-                    <resp>general editor</resp>
-                    <name>Alessandro Bausi</name>
-                </respStmt>
-                <respStmt xml:id="ed-ES" corresp="https://betamasaheft.eu/team.html#ES">
-                    <resp>editor</resp>
-                    <name>Eugenia Sokolinski</name>
-                </respStmt>
-            </titleStmt>
+            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
             <publicationStmt>
                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -26,14 +16,7 @@
                   <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                      licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                </availability>
-            <date type="expanded">2.7.2025 at 03:05:45</date>
-                <date type="lastModified">19.11.2020</date>
-                <idno type="collection">works</idno>
-                <idno type="url">https://betamasaheft.eu/works/LIT1047Aksumi/main</idno>
-                <idno type="URI">https://betamasaheft.eu/LIT1047Aksumi</idno>
-                <idno type="filename">LIT1047Aksumi.xml</idno>
-                <idno type="ID">LIT1047Aksumi</idno>
-            </publicationStmt>
+            <date type="expanded">2.7.2025 at 03:05:45</date><date type="lastModified">19.11.2020</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1047Aksumi/main</idno><idno type="URI">https://betamasaheft.eu/LIT1047Aksumi</idno><idno type="filename">LIT1047Aksumi.xml</idno><idno type="ID">LIT1047Aksumi</idno></publicationStmt>
             <sourceDesc>
                <p/>
             </sourceDesc>
@@ -47,301 +30,7 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p>
-            <listPrefixDef>
-                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
-                <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/>
-                <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/>
-                <prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/>
-                <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/>
-                <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/>
-                <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/>
-                <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/>
-                <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/>
-                <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/>
-                <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/>
-                <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/>
-                <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/>
-                <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/>
-                <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/>
-                <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/>
-                <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/>
-                <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/>
-                <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/>
-                <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
-            </listPrefixDef>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml">
-                <xi:fallback>
-                    <p>Definitions of prefixes used.</p>
-                </xi:fallback>
-            </xi:include>
-            <refsDecl>
-                <citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim=".">
-                    <citeStructure unit="Ecclesiastical canons" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>1</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Sylloge of Timotheus Aelurus" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Sylloge</item>
-                            </list>
-                        </desc>
-                        <citeStructure unit="Treatises of Gregory of Nazianzus" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>35</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Epistle to the Alexandrinians" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>31</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Refutation of the council of Chalcedon" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>34</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Epistle to the Constantinopolitans" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>32</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Twelve chapters of Cyril of Alexandria" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>33</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                    </citeStructure>
-                    <citeStructure unit="On the Only Judge" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>17</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="List of Apostles and disciples" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>7</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Canons of the council of Constantinople" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>29</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Council and the names of the fathers of Serdica" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>18</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Apostolic Tradition" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>4</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Epistle of Constantine to the Alexandrinians" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>14</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Baptismal ritual" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>9</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Epistle 70 of Cyprian of Carthage" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>3</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Antiochene Collection" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>AntColl</item>
-                            </list>
-                        </desc>
-                        <citeStructure unit="Canons of the council of Gangra" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>24</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Council of Gangra" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>23</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Canons of the council of Neocaesarea" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>20</item>
-                                    <item>22</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Council of Antioch" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>25</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Council and canons of Laodicea" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>27</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Canons of the council of Antioch" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>26</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Canons of the council of Ancyra" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>21</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                    </citeStructure>
-                    <citeStructure unit="Euchologion" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>10</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Canons of the Council of Nicaea" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>13</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Canons of the council of Serdica" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>19</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="History of the Episcopate of Alexandria" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>2</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Canons of the council of Chalcedon" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>28</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Epistle of Athanasius to Epictetus" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>16</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Canonical answers of Peter of Alexandria" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>36</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Council of Ephesus" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>30</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="81 Apostolic canons" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>11</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Parallel section to Apostolic Constitutions VIII" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>5</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Names of the months" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>8</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="On the charisms" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>6</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Council and the names of the fathers of Nicaea" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>12</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Epistle of Constantine on Arius" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>15</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                </citeStructure>
-            </refsDecl>
-        </encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="Ecclesiastical canons" match="div" use="div"><desc><list><item>1</item></list></desc></citeStructure><citeStructure unit="Sylloge of Timotheus Aelurus" match="div" use="div"><desc><list><item>Sylloge</item></list></desc><citeStructure unit="Treatises of Gregory of Nazianzus" match="div" use="div"><desc><list><item>35</item></list></desc></citeStructure><citeStructure unit="Epistle to the Alexandrinians" match="div" use="div"><desc><list><item>31</item></list></desc></citeStructure><citeStructure unit="Refutation of the council of Chalcedon" match="div" use="div"><desc><list><item>34</item></list></desc></citeStructure><citeStructure unit="Epistle to the Constantinopolitans" match="div" use="div"><desc><list><item>32</item></list></desc></citeStructure><citeStructure unit="Twelve chapters of Cyril of Alexandria" match="div" use="div"><desc><list><item>33</item></list></desc></citeStructure></citeStructure><citeStructure unit="On the Only Judge" match="div" use="div"><desc><list><item>17</item></list></desc></citeStructure><citeStructure unit="List of Apostles and disciples" match="div" use="div"><desc><list><item>7</item></list></desc></citeStructure><citeStructure unit="Canons of the council of Constantinople" match="div" use="div"><desc><list><item>29</item></list></desc></citeStructure><citeStructure unit="Council and the names of the fathers of Serdica" match="div" use="div"><desc><list><item>18</item></list></desc></citeStructure><citeStructure unit="Apostolic Tradition" match="div" use="div"><desc><list><item>4</item></list></desc></citeStructure><citeStructure unit="Epistle of Constantine to the Alexandrinians" match="div" use="div"><desc><list><item>14</item></list></desc></citeStructure><citeStructure unit="Baptismal ritual" match="div" use="div"><desc><list><item>9</item></list></desc></citeStructure><citeStructure unit="Epistle 70 of Cyprian of Carthage" match="div" use="div"><desc><list><item>3</item></list></desc></citeStructure><citeStructure unit="Antiochene Collection" match="div" use="div"><desc><list><item>AntColl</item></list></desc><citeStructure unit="Canons of the council of Gangra" match="div" use="div"><desc><list><item>24</item></list></desc></citeStructure><citeStructure unit="Council of Gangra" match="div" use="div"><desc><list><item>23</item></list></desc></citeStructure><citeStructure unit="Canons of the council of Neocaesarea" match="div" use="div"><desc><list><item>20</item><item>22</item></list></desc></citeStructure><citeStructure unit="Council of Antioch" match="div" use="div"><desc><list><item>25</item></list></desc></citeStructure><citeStructure unit="Council and canons of Laodicea" match="div" use="div"><desc><list><item>27</item></list></desc></citeStructure><citeStructure unit="Canons of the council of Antioch" match="div" use="div"><desc><list><item>26</item></list></desc></citeStructure><citeStructure unit="Canons of the council of Ancyra" match="div" use="div"><desc><list><item>21</item></list></desc></citeStructure></citeStructure><citeStructure unit="Euchologion" match="div" use="div"><desc><list><item>10</item></list></desc></citeStructure><citeStructure unit="Canons of the Council of Nicaea" match="div" use="div"><desc><list><item>13</item></list></desc></citeStructure><citeStructure unit="Canons of the council of Serdica" match="div" use="div"><desc><list><item>19</item></list></desc></citeStructure><citeStructure unit="History of the Episcopate of Alexandria" match="div" use="div"><desc><list><item>2</item></list></desc></citeStructure><citeStructure unit="Canons of the council of Chalcedon" match="div" use="div"><desc><list><item>28</item></list></desc></citeStructure><citeStructure unit="Epistle of Athanasius to Epictetus" match="div" use="div"><desc><list><item>16</item></list></desc></citeStructure><citeStructure unit="Canonical answers of Peter of Alexandria" match="div" use="div"><desc><list><item>36</item></list></desc></citeStructure><citeStructure unit="Council of Ephesus" match="div" use="div"><desc><list><item>30</item></list></desc></citeStructure><citeStructure unit="81 Apostolic canons" match="div" use="div"><desc><list><item>11</item></list></desc></citeStructure><citeStructure unit="Parallel section to Apostolic Constitutions VIII" match="div" use="div"><desc><list><item>5</item></list></desc></citeStructure><citeStructure unit="Names of the months" match="div" use="div"><desc><list><item>8</item></list></desc></citeStructure><citeStructure unit="On the charisms" match="div" use="div"><desc><list><item>6</item></list></desc></citeStructure><citeStructure unit="Council and the names of the fathers of Nicaea" match="div" use="div"><desc><list><item>12</item></list></desc></citeStructure><citeStructure unit="Epistle of Constantine on Arius" match="div" use="div"><desc><list><item>15</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
          <profileDesc>
             <creation/>
             <abstract>
@@ -363,242 +52,70 @@
                <language ident="en">English</language>
                <language ident="gez">Gǝʿǝz</language>
             </langUsage>
-         <calendarDesc>
-                <calendar xml:id="world">
-                    <p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p>
-                </calendar>
-                <calendar xml:id="ethiopian">
-                    <p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p>
-                </calendar>
-                <calendar xml:id="grace">
-                    <p>ʿĀmata məḥrat (Era of Grace)</p>
-                </calendar>
-                <calendar xml:id="diocletian">
-                    <p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p>
-                </calendar>
-                <calendar xml:id="alexander">
-                    <p> Era of Alexander</p>
-                </calendar>
-                <calendar xml:id="evangelists">
-                    <p>Evangelists' years</p>
-                </calendar>
-                <calendar xml:id="islamic">
-                    <p>Hiǧrī (Islamic)</p>
-                </calendar>
-                <calendar xml:id="hijri">
-                    <p>Hiǧrī (Islamic) in IslHornAfr</p>
-                </calendar>
-                <calendar xml:id="julian">
-                    <p>Julian</p>
-                </calendar>
-            </calendarDesc>
-        </profileDesc>
+         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
          <revisionDesc>
             <change who="#ES" when="2020-11-19"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
          </revisionDesc>
-      </teiHeader>
-    <standOff>
-        <listRelation>
+      </teiHeader><standOff><listRelation>
                <relation name="saws:isDifferentTo" ref="http://purl.org/saws/ontology#isDifferentTo" active="https://betamasaheft.eu/LIT6238AksColl" passive="https://betamasaheft.eu/LIT2317Senodo"/>
-            </listRelation>
-    </standOff>
-    <text>
+            </listRelation></standOff><text>
          <body>
             <div type="edition">
-               <div type="textpart" n="1" xml:id="EcclCan" corresp="https://betamasaheft.eu/LIT6239EcclCanQ">
-                    <label>Ecclesiastical canons</label>
-                </div> 
-               <div type="textpart" n="2" xml:id="HEpA" corresp="https://betamasaheft.eu/LIT5064HEpA">
-                    <label>History of the Episcopate of Alexandria</label>
-                </div>
-               <div type="textpart" n="3" xml:id="Ep70" corresp="https://betamasaheft.eu/LIT1348Epistl">
-                    <label>Epistle 70 of Cyprian of Carthage</label>
-                </div>
-               <div type="textpart" n="4" xml:id="ApTrad" corresp="https://betamasaheft.eu/LIT6240EcclCanQ">
-                    <label>Apostolic Tradition</label>
-                </div>
-               <div type="textpart" n="5" xml:id="ApConst" corresp="https://betamasaheft.eu/LIT1355Epitom">
-                    <label>Parallel section to Apostolic Constitutions VIII</label>
-                </div>
-               <div type="textpart" n="6" xml:id="Charisms" corresp="https://betamasaheft.eu/LIT2114OntheC">
-                    <label>On the charisms</label>
-                </div>
-               <div type="textpart" n="7" xml:id="ListAp" corresp="https://betamasaheft.eu/LIT6241EpAlQ">
-                    <label>List of Apostles and disciples</label>
-                </div>
-               <div type="textpart" n="8" xml:id="NameMonths" corresp="https://betamasaheft.eu/LIT6251Months">
-                    <label>Names of the months</label>
-                </div>
-               <div type="textpart" n="9" xml:id="BaptismRite" corresp="https://betamasaheft.eu/LIT6254Baptism">
-                    <label>Baptismal ritual</label>
-                </div>
-               <div type="textpart" n="10" xml:id="Euchologion" corresp="https://betamasaheft.eu/LIT6255Euchologion">
-                    <label>Euchologion</label>
-                </div>
-               <div type="textpart" n="11" xml:id="ApCanons" corresp="https://betamasaheft.eu/LIT2675AC81">
-                    <label>81 Apostolic canons</label>
-                </div>
-               <div type="textpart" n="12" xml:id="Nicaea" corresp="https://betamasaheft.eu/LIT6256Nicaea">
-                    <label>Council and the names of the fathers of Nicaea</label>
-                </div>
-               <div type="textpart" n="13" xml:id="CanonsNicaea" corresp="https://betamasaheft.eu/LIT6257Nicaea">
-                    <label>Canons of the Council of Nicaea</label>
-                </div>
-               <div type="textpart" n="14" xml:id="LetterConstantine1" corresp="https://betamasaheft.eu/LIT6258Alexandrinians">
-                    <label>Epistle of <persName ref="https://betamasaheft.eu/PRS3175Constant">Constantine</persName> to the Alexandrinians</label>
-                </div>
-               <div type="textpart" n="15" xml:id="LetterConstantine2" corresp="https://betamasaheft.eu/LIT6259Arius">
-                    <label>Epistle of <persName ref="https://betamasaheft.eu/PRS3175Constant">Constantine</persName> on <persName ref="https://betamasaheft.eu/PRS2033AriusA">Arius</persName>
-                    </label>
-                </div>
-               <div type="textpart" n="16" xml:id="LetterAthanasius" corresp="https://betamasaheft.eu/LIT1780Letter">
-                    <label>Epistle of Athanasius to Epictetus</label>
-                </div>
-               <div type="textpart" n="17" xml:id="Judge" corresp="https://betamasaheft.eu/LIT6260Judge">
-                    <label>On the Only Judge</label>
-                </div>
-               <div type="textpart" n="18" xml:id="Serdica" corresp="https://betamasaheft.eu/LIT6249Serdica">
-                    <label>Council and the names of the fathers of Serdica</label>
-                </div> 
-               <div type="textpart" n="19" xml:id="CanonsSerdica" corresp="https://betamasaheft.eu/LIT6250Serdica">
-                    <label>Canons of the council of Serdica</label>
-                </div>
+               <div type="textpart" n="1" xml:id="EcclCan" corresp="https://betamasaheft.eu/LIT6239EcclCanQ"><label>Ecclesiastical canons</label></div> 
+               <div type="textpart" n="2" xml:id="HEpA" corresp="https://betamasaheft.eu/LIT5064HEpA"><label>History of the Episcopate of Alexandria</label></div>
+               <div type="textpart" n="3" xml:id="Ep70" corresp="https://betamasaheft.eu/LIT1348Epistl"><label>Epistle 70 of Cyprian of Carthage</label></div>
+               <div type="textpart" n="4" xml:id="ApTrad" corresp="https://betamasaheft.eu/LIT6240EcclCanQ"><label>Apostolic Tradition</label></div>
+               <div type="textpart" n="5" xml:id="ApConst" corresp="https://betamasaheft.eu/LIT1355Epitom"><label>Parallel section to Apostolic Constitutions VIII</label></div>
+               <div type="textpart" n="6" xml:id="Charisms" corresp="https://betamasaheft.eu/LIT2114OntheC"><label>On the charisms</label></div>
+               <div type="textpart" n="7" xml:id="ListAp" corresp="https://betamasaheft.eu/LIT6241EpAlQ"><label>List of Apostles and disciples</label></div>
+               <div type="textpart" n="8" xml:id="NameMonths" corresp="https://betamasaheft.eu/LIT6251Months"><label>Names of the months</label></div>
+               <div type="textpart" n="9" xml:id="BaptismRite" corresp="https://betamasaheft.eu/LIT6254Baptism"><label>Baptismal ritual</label></div>
+               <div type="textpart" n="10" xml:id="Euchologion" corresp="https://betamasaheft.eu/LIT6255Euchologion"><label>Euchologion</label></div>
+               <div type="textpart" n="11" xml:id="ApCanons" corresp="https://betamasaheft.eu/LIT2675AC81"><label>81 Apostolic canons</label></div>
+               <div type="textpart" n="12" xml:id="Nicaea" corresp="https://betamasaheft.eu/LIT6256Nicaea"><label>Council and the names of the fathers of Nicaea</label></div>
+               <div type="textpart" n="13" xml:id="CanonsNicaea" corresp="https://betamasaheft.eu/LIT6257Nicaea"><label>Canons of the Council of Nicaea</label></div>
+               <div type="textpart" n="14" xml:id="LetterConstantine1" corresp="https://betamasaheft.eu/LIT6258Alexandrinians"><label>Epistle of <persName ref="https://betamasaheft.eu/PRS3175Constant">Constantine</persName> to the Alexandrinians</label></div>
+               <div type="textpart" n="15" xml:id="LetterConstantine2" corresp="https://betamasaheft.eu/LIT6259Arius"><label>Epistle of <persName ref="https://betamasaheft.eu/PRS3175Constant">Constantine</persName> on <persName ref="https://betamasaheft.eu/PRS2033AriusA">Arius</persName></label></div>
+               <div type="textpart" n="16" xml:id="LetterAthanasius" corresp="https://betamasaheft.eu/LIT1780Letter"><label>Epistle of Athanasius to Epictetus</label></div>
+               <div type="textpart" n="17" xml:id="Judge" corresp="https://betamasaheft.eu/LIT6260Judge"><label>On the Only Judge</label></div>
+               <div type="textpart" n="18" xml:id="Serdica" corresp="https://betamasaheft.eu/LIT6249Serdica"><label>Council and the names of the fathers of Serdica</label></div> 
+               <div type="textpart" n="19" xml:id="CanonsSerdica" corresp="https://betamasaheft.eu/LIT6250Serdica"><label>Canons of the council of Serdica</label></div>
                
-               <div type="textpart" xml:id="AntColl" corresp="https://betamasaheft.eu/LIT6238AksColl">
-                    <label>Antiochene Collection</label>
-                  <div type="textpart" n="20" xml:id="CanonsNeocesarea1" corresp="https://betamasaheft.eu/LIT6242Neocesarea#Canons1">
-                        <label>Canons of the council of Neocaesarea</label>
-                    </div>
-                  <div type="textpart" n="21" xml:id="CanonsAncyra" corresp="https://betamasaheft.eu/LIT6243Ancyra">
-                        <label>Canons of the council of Ancyra</label>
-                    </div>
-                  <div type="textpart" n="22" xml:id="CanonsNeocesarea2" corresp="https://betamasaheft.eu/LIT6242Neocesarea#Canons2">
-                        <label>Canons of the council of Neocaesarea</label>
-                    </div>
-                  <div type="textpart" n="23" xml:id="Gangra" corresp="https://betamasaheft.eu/LIT6244Gangra">
-                        <label>Council of Gangra</label>
-                    </div>
-                  <div type="textpart" n="24" xml:id="CanonsGangra" corresp="https://betamasaheft.eu/LIT6245Gangra">
-                        <label>Canons of the council of Gangra</label>
-                    </div>
-                  <div type="textpart" n="25" xml:id="Antioch" corresp="https://betamasaheft.eu/LIT6246Antioch">
-                        <label>Council of Antioch</label>
-                    </div>
-                  <div type="textpart" n="26" xml:id="CanonsAntioch" corresp="https://betamasaheft.eu/LIT6247Antioch">
-                        <label>Canons of the council of Antioch</label>
-                    </div>
-                  <div type="textpart" n="27" xml:id="Laodicea" corresp="https://betamasaheft.eu/LIT6248Laodicea">
-                        <label>Council and canons of Laodicea</label>
-                    </div>
+               <div type="textpart" xml:id="AntColl" corresp="https://betamasaheft.eu/LIT6238AksColl"><label>Antiochene Collection</label>
+                  <div type="textpart" n="20" xml:id="CanonsNeocesarea1" corresp="https://betamasaheft.eu/LIT6242Neocesarea#Canons1"><label>Canons of the council of Neocaesarea</label></div>
+                  <div type="textpart" n="21" xml:id="CanonsAncyra" corresp="https://betamasaheft.eu/LIT6243Ancyra"><label>Canons of the council of Ancyra</label></div>
+                  <div type="textpart" n="22" xml:id="CanonsNeocesarea2" corresp="https://betamasaheft.eu/LIT6242Neocesarea#Canons2"><label>Canons of the council of Neocaesarea</label></div>
+                  <div type="textpart" n="23" xml:id="Gangra" corresp="https://betamasaheft.eu/LIT6244Gangra"><label>Council of Gangra</label></div>
+                  <div type="textpart" n="24" xml:id="CanonsGangra" corresp="https://betamasaheft.eu/LIT6245Gangra"><label>Canons of the council of Gangra</label></div>
+                  <div type="textpart" n="25" xml:id="Antioch" corresp="https://betamasaheft.eu/LIT6246Antioch"><label>Council of Antioch</label></div>
+                  <div type="textpart" n="26" xml:id="CanonsAntioch" corresp="https://betamasaheft.eu/LIT6247Antioch"><label>Canons of the council of Antioch</label></div>
+                  <div type="textpart" n="27" xml:id="Laodicea" corresp="https://betamasaheft.eu/LIT6248Laodicea"><label>Council and canons of Laodicea</label></div>
                </div>
                
-               <div type="textpart" n="28" xml:id="Chalcedon" corresp="https://betamasaheft.eu/LIT6261Chalcedon">
-                    <label>Canons of the council of Chalcedon</label>
-                </div>
-               <div type="textpart" n="29" xml:id="Constantinople" corresp="https://betamasaheft.eu/LIT6262Constantinople">
-                    <label>Canons of the council of Constantinople</label>
-                </div>
-               <div type="textpart" n="30" xml:id="Ephesus" corresp="https://betamasaheft.eu/LIT6263Ephesus">
-                    <label>Council of Ephesus</label>
-                </div>
-               <div type="textpart" xml:id="Sylloge" corresp="https://betamasaheft.eu/LIT2372Syllog">
-                    <label>Sylloge of Timotheus Aelurus</label>
-                  <div type="textpart" n="31" xml:id="Timotheus1" corresp="https://betamasaheft.eu/LIT1785Letter">
-                        <label>Epistle to the Alexandrinians</label>
-                    </div>
-                  <div type="textpart" n="32" xml:id="Timotheus2" corresp="https://betamasaheft.eu/LIT1786Letter">
-                        <label>Epistle to the Constantinopolitans</label>
-                    </div>
-                  <div type="textpart" n="33" xml:id="Timotheus3" corresp="https://betamasaheft.eu/LIT6252TimothyCyril">
-                        <label>Twelve chapters of Cyril of Alexandria</label>
-                    </div>
-                  <div type="textpart" n="34" xml:id="Timotheus4" corresp="https://betamasaheft.eu/LIT2220Refuta">
-                        <label>Refutation of the council of Chalcedon</label>
-                    </div>
-                  <div type="textpart" n="35" xml:id="Timotheus5" corresp="https://betamasaheft.eu/LIT6253TimothyGregory">
-                        <label>Treatises of Gregory of Nazianzus</label>
-                    </div>
+               <div type="textpart" n="28" xml:id="Chalcedon" corresp="https://betamasaheft.eu/LIT6261Chalcedon"><label>Canons of the council of Chalcedon</label></div>
+               <div type="textpart" n="29" xml:id="Constantinople" corresp="https://betamasaheft.eu/LIT6262Constantinople"><label>Canons of the council of Constantinople</label></div>
+               <div type="textpart" n="30" xml:id="Ephesus" corresp="https://betamasaheft.eu/LIT6263Ephesus"><label>Council of Ephesus</label></div>
+               <div type="textpart" xml:id="Sylloge" corresp="https://betamasaheft.eu/LIT2372Syllog"><label>Sylloge of Timotheus Aelurus</label>
+                  <div type="textpart" n="31" xml:id="Timotheus1" corresp="https://betamasaheft.eu/LIT1785Letter"><label>Epistle to the Alexandrinians</label></div>
+                  <div type="textpart" n="32" xml:id="Timotheus2" corresp="https://betamasaheft.eu/LIT1786Letter"><label>Epistle to the Constantinopolitans</label></div>
+                  <div type="textpart" n="33" xml:id="Timotheus3" corresp="https://betamasaheft.eu/LIT6252TimothyCyril"><label>Twelve chapters of Cyril of Alexandria</label></div>
+                  <div type="textpart" n="34" xml:id="Timotheus4" corresp="https://betamasaheft.eu/LIT2220Refuta"><label>Refutation of the council of Chalcedon</label></div>
+                  <div type="textpart" n="35" xml:id="Timotheus5" corresp="https://betamasaheft.eu/LIT6253TimothyGregory"><label>Treatises of Gregory of Nazianzus</label></div>
                </div>
-               <div type="textpart" n="36" xml:id="Peter" corresp="https://betamasaheft.eu/LIT2693CanR">
-                    <label>Canonical answers of Peter of Alexandria</label>
-                </div>
+               <div type="textpart" n="36" xml:id="Peter" corresp="https://betamasaheft.eu/LIT2693CanR"><label>Canonical answers of Peter of Alexandria</label></div>
                
                
             </div>
             <div type="bibliography">
                <listBibl type="secondary">
-                  <bibl corresp="http://zotero.org/groups/358366/items/73NH4QWK">
-                        <seg type="journalArticle"><!-- attributes from original bibl--></seg>
-                        <ptr target="bm:HEpA"/>
-                        <title level="a">The &lt;hi rend="italics"&gt;History of the Episcopate of Alexandria&lt;/hi&gt; (&lt;hi rend="italics"&gt;HEpA&lt;/hi&gt;): &lt;hi rend="italics"&gt;Editio minor&lt;/hi&gt; of the fragments preserved in the &lt;hi rend="italics"&gt;Aksumite Collection&lt;/hi&gt; and in the &lt;hi rend="italics"&gt;Codex Veronensis&lt;/hi&gt; LX (58)</title>
-                        <title level="j">Adamantius</title>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Alessandro</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bausi</t:surname>
-                        </author>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Alberto</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Camplani</t:surname>
-                        </author>
-                        <date>2016</date>
-                        <biblScope unit="volume">22</biblScope>
-                        <biblScope unit="page">249-302</biblScope>
-                        <note type="url">https://www.academia.edu/33507697/The_History_of_the_Episcopate_of_Alexandria_HEpA_Editio_minor_of_the_fragments_preserved_in_the_Aksumite_Collection_and_in_the_Codex_Veronensis_LX_58_</note>
-                    </bibl>
+                  <bibl corresp="http://zotero.org/groups/358366/items/73NH4QWK"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:HEpA"/><title level="a">The &lt;hi rend="italics"&gt;History of the Episcopate of Alexandria&lt;/hi&gt; (&lt;hi rend="italics"&gt;HEpA&lt;/hi&gt;): &lt;hi rend="italics"&gt;Editio minor&lt;/hi&gt; of the fragments preserved in the &lt;hi rend="italics"&gt;Aksumite Collection&lt;/hi&gt; and in the &lt;hi rend="italics"&gt;Codex Veronensis&lt;/hi&gt; LX (58)</title><title level="j">Adamantius</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Alessandro</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bausi</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Alberto</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Camplani</t:surname></author><date>2016</date><biblScope unit="volume">22</biblScope><biblScope unit="page">249-302</biblScope><note type="url">https://www.academia.edu/33507697/The_History_of_the_Episcopate_of_Alexandria_HEpA_Editio_minor_of_the_fragments_preserved_in_the_Aksumite_Collection_and_in_the_Codex_Veronensis_LX_58_</note></bibl>
                </listBibl>
                <listBibl type="secondary">
-                  <bibl corresp="http://zotero.org/groups/358366/items/Y9QKSQJS">
-                        <seg type="journalArticle"><!-- attributes from original bibl--></seg>
-                        <ptr target="bm:BausiEtAl2020Senodos"/>
-                        <title level="a">The Aksumite Collection or Codex Σ (Sinodos of Qǝfrǝyā, ms C3-IV-71/C3-IV-73, Ethio-SPaRe UM-039): Codicological and Palaeographical Observations. With a Note on Material Analysis of Inks</title>
-                        <title level="j">Comparative Oriental Manuscript Studies Bulletin</title>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Alessandro</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bausi</t:surname>
-                        </author>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Antonella</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Brita</t:surname>
-                        </author>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Marco</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Di Bella</t:surname>
-                        </author>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Denis</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Nosnitsin</t:surname>
-                        </author>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Nikolas</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Sarris</t:surname>
-                        </author>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ira</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Rabin</t:surname>
-                        </author>
-                        <date>2020</date>
-                        <biblScope unit="volume">6</biblScope>
-                        <biblScope unit="issue">2</biblScope>
-                        <biblScope unit="page">127-171</biblScope>
-                    </bibl>
-                  <bibl corresp="http://zotero.org/groups/358366/items/ZYWJCYTU">
-                        <seg type="journalArticle"><!-- attributes from original bibl--></seg>
-                        <ptr target="bm:Bausi2006CollezioneA"/>
-                        <title level="a">La &lt;hi rend="italics"&gt;Collezione aksumita&lt;/hi&gt; canonico-liturgica</title>
-                        <title level="j">Adamantius</title>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Alessandro</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bausi</t:surname>
-                        </author>
-                        <date>2006</date>
-                        <biblScope unit="volume">12 (= A. Camplani, ed., &lt;i&gt; Il patriarcato di Alessandria nella tarda antichità&lt;/i&gt; (Brescia: Morcelliana, 2006))</biblScope>
-                        <biblScope unit="page">43-70</biblScope>
-                        <note type="url">https://www.academia.edu/1151390/La_Collezione_aksumita_canonico-liturgica</note>
-                    </bibl>
+                  <bibl corresp="http://zotero.org/groups/358366/items/Y9QKSQJS"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:BausiEtAl2020Senodos"/><title level="a">The Aksumite Collection or Codex Σ (Sinodos of Qǝfrǝyā, ms C3-IV-71/C3-IV-73, Ethio-SPaRe UM-039): Codicological and Palaeographical Observations. With a Note on Material Analysis of Inks</title><title level="j">Comparative Oriental Manuscript Studies Bulletin</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Alessandro</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bausi</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Antonella</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Brita</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Marco</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Di Bella</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Denis</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Nosnitsin</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Nikolas</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Sarris</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ira</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Rabin</t:surname></author><date>2020</date><biblScope unit="volume">6</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">127-171</biblScope></bibl>
+                  <bibl corresp="http://zotero.org/groups/358366/items/ZYWJCYTU"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2006CollezioneA"/><title level="a">La &lt;hi rend="italics"&gt;Collezione aksumita&lt;/hi&gt; canonico-liturgica</title><title level="j">Adamantius</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Alessandro</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bausi</t:surname></author><date>2006</date><biblScope unit="volume">12 (= A. Camplani, ed., &lt;i&gt; Il patriarcato di Alessandria nella tarda antichità&lt;/i&gt; (Brescia: Morcelliana, 2006))</biblScope><biblScope unit="page">43-70</biblScope><note type="url">https://www.academia.edu/1151390/La_Collezione_aksumita_canonico-liturgica</note></bibl>
                </listBibl>
             </div>
             
          </body>
-      </text>
-</TEI>
+      </text></TEI>

@@ -1,37 +1,11 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT5188MashafaMadbal">
-    <teiHeader xml:base="https://betamasaheft.eu/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT5195Worksofcreation"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
-            <titleStmt>
-                <title type="full">Maṣḥafa madbal</title>
-                <title xml:lang="gez" xml:id="t1">መጽሐፈ፡ መድበል፡</title>
-                <title xml:lang="gez" corresp="#t1" type="normalized">Maṣḥafa madbal</title>
-
-                <title xml:lang="gez" xml:id="t2">ጉባዔ፡ ምሥጢራተ፡ ዘመናት፡</title>
-                <title xml:lang="gez" corresp="#t2" type="normalized">Gubāʿe mǝśṭirāta zamanāt</title>
-                <title xml:lang="en" corresp="#t2">Collection of the mysteries of the times</title>
-                <title xml:lang="gez" xml:id="t3">ምሥጢረ፡ ዘመን፡</title>
-                <title xml:lang="gez" corresp="#t3" type="normalized">Mǝśṭira zaman</title>
-                <title xml:lang="en" corresp="#t3">The mystery of time</title>
+            <titleStmt><title type="full">Works of Creation and the Fall of Man</title>
+                <title xml:lang="gez" xml:id="t1">Works of Creation and the Fall of Man</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
-
+                <editor key="SG" corresp="https://betamasaheft.eu/team.html#SG" xml:id="SG">Solomon Gebreyes</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB">
-                    <resp>general editor</resp>
-                    <name>Alessandro Bausi</name>
-                </respStmt>
-                <respStmt xml:id="SG" corresp="https://betamasaheft.eu/team.html#SG">
-                    <resp>contributor</resp>
-                    <name>Solomon Gebreyes</name>
-                </respStmt>
-                <respStmt xml:id="DE" corresp="https://betamasaheft.eu/team.html#DE">
-                    <resp>contributor</resp>
-                    <name>Daria Elagina</name>
-                </respStmt>
-                <respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES">
-                    <resp>contributor</resp>
-                    <name>Eugenia Sokolinski</name>
-                </respStmt>
-            </titleStmt>
+            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
@@ -41,14 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">2.7.2025 at 03:05:45</date>
-                <date type="lastModified">10.1.2025</date>
-                <idno type="collection">works</idno>
-                <idno type="url">https://betamasaheft.eu/works/LIT5188MashafaMadbal/main</idno>
-                <idno type="URI">https://betamasaheft.eu/LIT5188MashafaMadbal</idno>
-                <idno type="filename">LIT5188MashafaMadbal.xml</idno>
-                <idno type="ID">LIT5188MashafaMadbal</idno>
-            </publicationStmt>
+            <date type="expanded">8.4.2025 at 00:14:49</date><date type="lastModified">27.2.2019</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5195Worksofcreation/main</idno><idno type="URI">https://betamasaheft.eu/LIT5195Worksofcreation</idno><idno type="filename">LIT5195Worksofcreation.xml</idno><idno type="ID">LIT5195Worksofcreation</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -65,269 +32,26 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p>
-            <listPrefixDef>
-                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
-                <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/>
-                <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/>
-                <prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/>
-                <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/>
-                <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/>
-                <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/>
-                <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/>
-                <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/>
-                <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/>
-                <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/>
-                <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/>
-                <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/>
-                <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/>
-                <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/>
-                <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/>
-                <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/>
-                <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/>
-                <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/>
-                <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
-            </listPrefixDef>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml">
-                <xi:fallback>
-                    <p>Definitions of prefixes used.</p>
-                </xi:fallback>
-            </xi:include>
-            <refsDecl>
-                <citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim=".">
-                    <citeStructure unit="div" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>malke</item>
-                            </list>
-                        </desc>
-                        <citeStructure unit="lg" match="lg" use="lg">
-                            <desc>
-                                <list>
-                                    <item>1</item>
-                                    <item>2</item>
-                                    <item>99</item>
-                                </list>
-                            </desc>
-                            <citeStructure unit="l" match="l" use="l">
-                                <desc>
-                                    <list>
-                                        <item>1</item>
-                                        <item>2</item>
-                                        <item>3</item>
-                                        <item>4</item>
-                                        <item>5</item>
-                                    </list>
-                                </desc>
-                            </citeStructure>
-                        </citeStructure>
-                    </citeStructure>
-                    <citeStructure unit="part" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>PartI</item>
-                                <item>PartII</item>
-                            </list>
-                        </desc>
-                        <citeStructure unit="chapter" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>OT</item>
-                                    <item>HistoryOfMary</item>
-                                    <item>Verses</item>
-                                    <item>FourGospels</item>
-                                    <item>Testament</item>
-                                    <item>DoctrinaArcanorum</item>
-                                    <item>Draught</item>
-                                    <item>Ascension</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="introduction" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>IntroductionI</item>
-                                    <item>IntroductionII</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                    </citeStructure>
-                </citeStructure>
-            </refsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation/>
-            <abstract>
-                <p>The work is a versified retelling of the <ref type="work" corresp="https://betamasaheft.eu/LIT3530OldTes">Old Testament</ref>, the Little Gospel (<ref type="work" corresp="https://betamasaheft.eu/LIT2051Nagara">Nagara Māryām</ref>), and the <ref type="work" corresp="https://betamasaheft.eu/LIT2072NewTes">New Testament</ref> preserved in two lavishly illustrated volumes donated by ʾIyāsu II to the church of Dabra Bǝrhān Śǝllāse. It begins with a prose incipit: “በስመ፡ … ንዌጥን፡ በረድኤተ፡ እግዚአብሔር፡ ወንጽሕፍ፡ መጽሐፈ፡ መድበል፡ ዘበትርጓሜሁ፡ ጉባኤ፡ ምሥጢራተ፡ ዘመናት፡ ዘገብረ፡ እግዚአብሔር፡ በበ፡ ጊዜሁ፡ ቅድመ፡ በዘመነ፡ ብሉይ፡ እስከ፡ ይመጽእ፡ ዘመነ፡ ሐዲስ፡.” The first volume covers the Old Testament and Little Gospel and the second covers the New Testament.</p>
-                
-            </abstract>
-            <textClass>
-                <keywords>
-                    <term key="Chronography" ana="#Chronography"/>
-                    <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                </keywords>
-            </textClass>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
-            </langUsage>
-        <calendarDesc>
-                <calendar xml:id="world">
-                    <p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p>
-                </calendar>
-                <calendar xml:id="ethiopian">
-                    <p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p>
-                </calendar>
-                <calendar xml:id="grace">
-                    <p>ʿĀmata məḥrat (Era of Grace)</p>
-                </calendar>
-                <calendar xml:id="diocletian">
-                    <p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p>
-                </calendar>
-                <calendar xml:id="alexander">
-                    <p> Era of Alexander</p>
-                </calendar>
-                <calendar xml:id="evangelists">
-                    <p>Evangelists' years</p>
-                </calendar>
-                <calendar xml:id="islamic">
-                    <p>Hiǧrī (Islamic)</p>
-                </calendar>
-                <calendar xml:id="hijri">
-                    <p>Hiǧrī (Islamic) in IslHornAfr</p>
-                </calendar>
-                <calendar xml:id="julian">
-                    <p>Julian</p>
-                </calendar>
-            </calendarDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change who="#SG" when="2019-02-12"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
-            <change who="#DE" when="2020-10-20"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added textparts and relations.</change>
-            <change who="#DE" when="2020-11-12"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected relations and added
-              relations descriptions.</change>
-            <change who="#ES" when="2025-01-10"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added text from A. Dickinson's database</change>
-        </revisionDesc>
-    </teiHeader>
-    <standOff>
-        <listRelation>
-              <relation name="skos:exactMatch" ref="http://www.w3.org/2004/02/skos/core#exactMatch" active="https://betamasaheft.eu/LIT5188MashafaMadbal" passive="https://w3id.org/malke/5188/"/>
-            <relation name="saws:hasUsed" ref="http://purl.org/saws/ontology#hasUsed" active="https://betamasaheft.eu/LIT5188MashafaMadbal#PartI" passive="https://betamasaheft.eu/LIT3530OldTes">
-                <desc>Mǝśṭira zaman bǝluy contains a paraphrase
-            of the Old Testament and its Apocrypha in verses.</desc>
-            </relation>
-            <relation name="saws:hasUsed" ref="http://purl.org/saws/ontology#hasUsed" active="https://betamasaheft.eu/LIT5188MashafaMadbal#PartII" passive="https://betamasaheft.eu/LIT2072NewTes">
-                <desc>Mǝśṭira zaman ḥaddis contains a paraphrase
-              of the New Testament and its Apocrypha in verses.</desc>
-            </relation>
-              <relation name="saws:hasUsed" ref="http://purl.org/saws/ontology#hasUsed" active="https://betamasaheft.eu/LIT5188MashafaMadbal#OT" passive="https://betamasaheft.eu/LIT3530OldTes"/>
-            <relation name="saws:hasUsed" ref="http://purl.org/saws/ontology#hasUsed" active="https://betamasaheft.eu/LIT5188MashafaMadbal#FourGospels" passive="https://betamasaheft.eu/LIT1560Gospel"/>
-            <relation name="saws:hasUsed" ref="http://purl.org/saws/ontology#hasUsed" active="https://betamasaheft.eu/LIT5188MashafaMadbal#Testament" passive="https://betamasaheft.eu/LIT1938Mashaf"/>
-            <relation name="saws:hasUsed" ref="http://purl.org/saws/ontology#hasUsed" active="https://betamasaheft.eu/LIT5188MashafaMadbal#DoctrinaArcanorum" passive="https://betamasaheft.eu/LIT2444Temher"/>
-            <relation name="saws:hasUsed" ref="http://purl.org/saws/ontology#hasUsed" active="https://betamasaheft.eu/LIT5188MashafaMadbal#Draught" passive="https://betamasaheft.eu/LIT1560Gospel"/>
-            <relation name="saws:hasUsed" ref="http://purl.org/saws/ontology#hasUsed" active="https://betamasaheft.eu/LIT5188MashafaMadbal#HistoryOfMary" passive="https://betamasaheft.eu/LIT2051Nagara"/>
-          </listRelation>
-    </standOff>
-    <text xml:base="https://betamasaheft.eu/">
-        <body>
-            <listBibl type="editions">                
-                <bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV">
-                    <seg type="webpage"><!-- attributes from original bibl--></seg>
-                    <ptr target="bm:MgWebsite"/>
-                    <title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title>
-                    <author>
-                        <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Augustine</t:forename>
-                        <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Dickinson</t:surname>
-                    </author>
-                    <date>2020</date>
-                    <note type="accessed">2024-09-24</note>
-                    <note type="url">https://malkeagubae.com/</note>
-                </bibl>
-            </listBibl>
-          
-            <div type="edition">
-
-                <div type="textpart" subtype="part" xml:lang="gez" xml:id="PartI">
-                    <label xml:lang="gez">Mǝśṭira zaman bǝluy</label>
-                    <div type="textpart" subtype="introduction" xml:lang="gez" xml:id="IntroductionI">
-                        <label xml:lang="en">Introduction to the first part</label>
-                    </div>
-                    <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="OT">
-                      <label xml:lang="en">The Old Testament and its Apocrypha in verses</label>
-                    </div>
-                    <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="HistoryOfMary">
-                      <label xml:lang="gez">Nagara Māryām</label>
-                    </div>
-                </div>
-
-                <div type="textpart" subtype="part" xml:lang="gez" xml:id="PartII">
-                  <label xml:lang="gez">Mǝśṭira zaman ḥaddis</label>
-                  <div type="textpart" subtype="introduction" xml:lang="gez" xml:id="IntroductionII">
-                    <label xml:lang="en">Introduction to the second part</label>
-                  </div>
-                  <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Verses">
-                    <label xml:lang="en">Verses addressed to the Holy Trinity</label>
-                  </div>
-                  <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="FourGospels">
-                    <label xml:lang="en">The four Gospels in verses</label>
-                  </div>
-                  <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Testament">
-                    <label xml:lang="en">
-                            <foreign xml:lang="gez">Maṣḥafa kidān</foreign>in verses</label>
-                  </div>
-                  <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="DoctrinaArcanorum">
-                    <label xml:lang="en">
-                            <foreign xml:lang="gez">Tǝmhǝrta ḫǝbuʾāt</foreign>in verses</label>
-                  </div>
-                  <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Draught">
-                    <label xml:lang="en">Miraculous Draught of Fishes</label>
-                  </div>
-                  <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Ascension">
-                    <label xml:lang="en">Ascension</label>
-                  </div>
-                </div>
-
-
-            </div>
-            
-            <div type="edition" xml:lang="gez">
-                <note>From <bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV">
-                        <seg type="webpage"><!-- attributes from original bibl--></seg>
-                        <ptr target="bm:MgWebsite"/>
-                        <title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Augustine</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Dickinson</t:surname>
-                        </author>
-                        <date>2020</date>
-                        <note type="accessed">2024-09-24</note>
-                        <note type="url">https://malkeagubae.com/</note>
-                    </bibl>
-                </note>
-                <div type="textpart" xml:id="malke">
-                    <lg type="stanza" n="1">
-                        <l n="1">ሰላም፡ እብል፡ ለተዋሕዶ፡ ቅድስት፡ ሥላሴ፨</l>
-                        <l n="2">ቀዊምየ፡ ቅድመ፡ ሥላሴ፨</l>
-                        <l n="3">እንበለ፡ ናፍቆ፡ ኣአምን፡ ህላዌ፡ ሥላሴ፨</l>
-                        <l n="4">ግጻዌሆሙ፡ ሥላሴ፡ ወአካሎሙ፡ ሥላሴ፨</l>
-                        <l n="5">ወቅዳሴሆሙ፡ ከማሁ፡ ሥላሴ፨</l>
-                    </lg>
-                    <lg type="stanza" n="2">
-                        <l n="1">ለዘአኀዝኩ፡ ወወጠንኩ፡ እንዘ፡ አስተናሥእ፡ ቃለ፨</l>
-                        <l n="2">ጽሒፈ፡ አሐዱ፡ ጸሎት፡ እንተ፡ ይሰመይ፡ መድበለ፨</l>
-                        <l n="3">አዘቅተ፡ ኂሩት፡ ሥላሴ፡ ትፈለፍሉ፡ ሣህለ፨</l>
-                        <l n="4">አዕርጉኒ፡ ለገብርክሙ፡ ሰማየ፡ አእምሮ፡ ልዑለ፨</l>
-                        <l n="5">ወጸሐፉ፡ በልብየ፡ ዘጥበብ፡ ፊደለ፨</l>
-                    </lg>
-                    <lg type="stanza" n="99">
-                        <l n="1"/>
-                    </lg>
-                </div>
-            </div>
-            
-        </body>
-    </text>
-</TEI>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <t:creation/>
+            <t:abstract>
+                <t:p/>
+            </t:abstract>
+            <t:textClass>
+                <t:keywords>
+                    <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+                </t:keywords>
+            </t:textClass>
+            <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+        <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <t:change who="#SG" when="2019-02-27"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</t:change>
+        </t:revisionDesc>
+    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+        <t:body>
+            <t:div type="bibliography"/>
+         
+        </t:body>
+    </t:text></TEI>

@@ -1,8 +1,6 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT3948MashafaKrS">
-    <teiHeader xml:base="https://betamasaheft.eu/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT3948MashafaKrS"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
-         <titleStmt>
-                <title type="full">Maṣḥafa krǝstǝnnā</title>
+         <titleStmt><title type="full">Maṣḥafa krǝstǝnnā</title>
             <title xml:lang="gez" xml:id="t1">መጽሐፈ፡ ክርስትና፡</title>
             <title xml:lang="gez" corresp="#t1" type="normalized">Maṣḥafa krǝstǝnnā</title>
             <title xml:lang="en" corresp="#t1">Book of Christening</title>
@@ -16,15 +14,7 @@
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
             <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB">
-                    <resp>general editor</resp>
-                    <name>Alessandro Bausi</name>
-                </respStmt>
-                <respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR">
-                    <resp>editor</resp>
-                    <name>Dorothea Reule</name>
-                </respStmt>
-            </titleStmt>
+         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -36,22 +26,13 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">2.7.2025 at 03:05:45</date>
-                <date type="lastModified">1.9.2016</date>
-                <idno type="collection">works</idno>
-                <idno type="url">https://betamasaheft.eu/works/LIT3948MashafaKrS/main</idno>
-                <idno type="URI">https://betamasaheft.eu/LIT3948MashafaKrS</idno>
-                <idno type="filename">LIT3948MashafaKrS.xml</idno>
-                <idno type="ID">LIT3948MashafaKrS</idno>
-            </publicationStmt>
+         <date type="expanded">2.7.2025 at 03:05:45</date><date type="lastModified">1.9.2016</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3948MashafaKrS/main</idno><idno type="URI">https://betamasaheft.eu/LIT3948MashafaKrS</idno><idno type="filename">LIT3948MashafaKrS.xml</idno><idno type="ID">LIT3948MashafaKrS</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
          <sourceDesc> 
             <listWit>        
-               <witness corresp="https://betamasaheft.eu/BSBaeth33">
-                        <idno>BSB Cod.aeth. 33</idno>
-                    </witness>
+               <witness corresp="https://betamasaheft.eu/BSBaeth33"><idno>BSB Cod.aeth. 33</idno></witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -66,117 +47,9 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p>
-            <listPrefixDef>
-                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
-                <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/>
-                <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/>
-                <prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/>
-                <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/>
-                <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/>
-                <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/>
-                <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/>
-                <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/>
-                <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/>
-                <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/>
-                <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/>
-                <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/>
-                <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/>
-                <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/>
-                <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/>
-                <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/>
-                <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/>
-                <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/>
-                <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
-            </listPrefixDef>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml">
-                <xi:fallback>
-                    <p>Definitions of prefixes used.</p>
-                </xi:fallback>
-            </xi:include>
-            <refsDecl>
-                <citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim=".">
-                    <citeStructure unit="chapter" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>BaptismRite</item>
-                                <item>Confirm</item>
-                                <item>Communion</item>
-                            </list>
-                        </desc>
-                        <citeStructure unit="chapter" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>Introduction</item>
-                                    <item>FirstPrayer</item>
-                                    <item>SecondPrayer</item>
-                                    <item>FirstPrayerOil</item>
-                                    <item>SecondPrayerOil</item>
-                                    <item>FirstAnointing</item>
-                                    <item>PrayerAfterAnointing</item>
-                                    <item>Prayer</item>
-                                    <item>PrayerNames</item>
-                                    <item>PrayerFeet</item>
-                                    <item>PrayerFeetKnees</item>
-                                    <item>FurtherPrayer</item>
-                                    <item>SecondPrayerFeet</item>
-                                    <item>ThirdPrayerFeet</item>
-                                    <item>OtherPrayer</item>
-                                    <item>ChangingClothes</item>
-                                    <item>Confession</item>
-                                    <item>OurFather</item>
-                                    <item>Ps68</item>
-                                    <item>Ps113</item>
-                                    <item>Titus</item>
-                                    <item>FirstJohn</item>
-                                    <item>Acts8</item>
-                                    <item>Ps31</item>
-                                    <item>John3</item>
-                                    <item>ForPeace</item>
-                                    <item>ForBishop</item>
-                                    <item>ForCongregation</item>
-                                    <item>ForThoseWhoGaveTheirNames</item>
-                                    <item>OnYourServants</item>
-                                    <item>GodOfProphets</item>
-                                    <item>ForPeace2</item>
-                                    <item>ForBishop2</item>
-                                    <item>ForCongregation2</item>
-                                    <item>Confession2</item>
-                                    <item>OurFather2</item>
-                                    <item>PrayerImpositionHands</item>
-                                    <item>Crossing</item>
-                                    <item>PrayerInBaptiserium</item>
-                                    <item>Ps150</item>
-                                    <item>PrayerBaptism</item>
-                                    <item>PrayerAbsolutionWater</item>
-                                    <item>PrayerBeforeChrism</item>
-                                    <item>PrayerThroughHolySpirit</item>
-                                    <item>AnointingFrontEyes</item>
-                                    <item>AnointingEarsNose</item>
-                                    <item>AnointingBreastHeart</item>
-                                    <item>AnointingKneesArmsMembersBack</item>
-                                    <item>PrayerBlessing</item>
-                                    <item>DressingCrowning</item>
-                                    <item>PrayerCrown</item>
-                                    <item>PrayerAfterCrowning</item>
-                                    <item>PrayerImposition</item>
-                                    <item>Eucharist</item>
-                                    <item>PrayerAfterEucharist</item>
-                                    <item>PrayerWisdom</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                    </citeStructure>
-                </citeStructure>
-            </refsDecl>
-        </encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="chapter" match="div" use="div"><desc><list><item>BaptismRite</item><item>Confirm</item><item>Communion</item></list></desc><citeStructure unit="chapter" match="div" use="div"><desc><list><item>Introduction</item><item>FirstPrayer</item><item>SecondPrayer</item><item>FirstPrayerOil</item><item>SecondPrayerOil</item><item>FirstAnointing</item><item>PrayerAfterAnointing</item><item>Prayer</item><item>PrayerNames</item><item>PrayerFeet</item><item>PrayerFeetKnees</item><item>FurtherPrayer</item><item>SecondPrayerFeet</item><item>ThirdPrayerFeet</item><item>OtherPrayer</item><item>ChangingClothes</item><item>Confession</item><item>OurFather</item><item>Ps68</item><item>Ps113</item><item>Titus</item><item>FirstJohn</item><item>Acts8</item><item>Ps31</item><item>John3</item><item>ForPeace</item><item>ForBishop</item><item>ForCongregation</item><item>ForThoseWhoGaveTheirNames</item><item>OnYourServants</item><item>GodOfProphets</item><item>ForPeace2</item><item>ForBishop2</item><item>ForCongregation2</item><item>Confession2</item><item>OurFather2</item><item>PrayerImpositionHands</item><item>Crossing</item><item>PrayerInBaptiserium</item><item>Ps150</item><item>PrayerBaptism</item><item>PrayerAbsolutionWater</item><item>PrayerBeforeChrism</item><item>PrayerThroughHolySpirit</item><item>AnointingFrontEyes</item><item>AnointingEarsNose</item><item>AnointingBreastHeart</item><item>AnointingKneesArmsMembersBack</item><item>PrayerBlessing</item><item>DressingCrowning</item><item>PrayerCrown</item><item>PrayerAfterCrowning</item><item>PrayerImposition</item><item>Eucharist</item><item>PrayerAfterEucharist</item><item>PrayerWisdom</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
       <profileDesc>
-         <langUsage>
-                <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
-            </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
          <textClass>
             <keywords>
                <term key="ChristianLiterature" ana="#ChristianLiterature"/>
@@ -195,117 +68,25 @@
                however, the Psalms <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps61"> 61</ref> and <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps113">113, 20-end</ref> are absent from the Latin translations.
                The ṣawātǝw prayers are less elaborated than in the Latin translations, here there are only the prayers "pro pace", "pro pontifice", "pro congregatione" and "pro Catechumenis".</p>
             <p>
-               <bibl corresp="http://zotero.org/groups/358366/items/AA97MRPD">
-                        <seg type="journalArticle"><!-- attributes from original bibl--></seg>
-                        <ptr target="bm:Trumpp1878Taufbuch"/>
-                        <title level="a">Das Taufbuch der Aethiopischen Kirche</title>
-                        <title level="j">Abhandlungen der philosophisch-philologischen Classe der Königlichen Bayerischen Akademie der Wissenschaften</title>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ernst</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Trumpp</t:surname>
-                        </author>
-                        <editor>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ernst</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Trumpp</t:surname>
-                        </editor>
-                        <date>1878</date>
-                        <biblScope unit="volume">14, III</biblScope>
-                        <biblScope unit="page">147-183</biblScope>
-                        <note type="url">http://nbn-resolving.de/urn:nbn:de:bvb:824-dtl-0000084063</note>
-                    </bibl>
+               <bibl corresp="http://zotero.org/groups/358366/items/AA97MRPD"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Trumpp1878Taufbuch"/><title level="a">Das Taufbuch der Aethiopischen Kirche</title><title level="j">Abhandlungen der philosophisch-philologischen Classe der Königlichen Bayerischen Akademie der Wissenschaften</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ernst</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Trumpp</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ernst</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Trumpp</t:surname></editor><date>1878</date><biblScope unit="volume">14, III</biblScope><biblScope unit="page">147-183</biblScope><note type="url">http://nbn-resolving.de/urn:nbn:de:bvb:824-dtl-0000084063</note></bibl>
             </p>
          </abstract> 
-      <calendarDesc>
-                <calendar xml:id="world">
-                    <p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p>
-                </calendar>
-                <calendar xml:id="ethiopian">
-                    <p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p>
-                </calendar>
-                <calendar xml:id="grace">
-                    <p>ʿĀmata məḥrat (Era of Grace)</p>
-                </calendar>
-                <calendar xml:id="diocletian">
-                    <p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p>
-                </calendar>
-                <calendar xml:id="alexander">
-                    <p> Era of Alexander</p>
-                </calendar>
-                <calendar xml:id="evangelists">
-                    <p>Evangelists' years</p>
-                </calendar>
-                <calendar xml:id="islamic">
-                    <p>Hiǧrī (Islamic)</p>
-                </calendar>
-                <calendar xml:id="hijri">
-                    <p>Hiǧrī (Islamic) in IslHornAfr</p>
-                </calendar>
-                <calendar xml:id="julian">
-                    <p>Julian</p>
-                </calendar>
-            </calendarDesc>
-        </profileDesc>
+      <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
       <revisionDesc>
          <change who="#DR" when="2016-09-01"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
       </revisionDesc>
-   </teiHeader>
-    <standOff>
-        <listRelation>
+   </teiHeader><standOff><listRelation>
                <relation name="saws:isVersionInAnotherLanguageOf" ref="http://purl.org/saws/ontology#isVersionInAnotherLanguageOf" active="https://betamasaheft.eu/LIT3948MashafaKrS" passive="https://betamasaheft.eu/LIT1940Mashaf#t1coptic"/>
                <relation name="saws:isShorterVersionOf" ref="http://purl.org/saws/ontology#isShorterVersionOf" active="https://betamasaheft.eu/LIT3948MashafaKrS" passive="https://betamasaheft.eu/LIT1940Mashaf"/>
-            </listRelation>
-    </standOff>
-    <text xml:base="https://betamasaheft.eu/">
+            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
       <body>
          <div type="bibliography">
             <listBibl type="editions" corresp="BSBaeth33">
-               <bibl corresp="http://zotero.org/groups/358366/items/AA97MRPD">
-                        <seg type="journalArticle"><!-- attributes from original bibl--></seg>
-                        <ptr target="bm:Trumpp1878Taufbuch"/>
-                        <title level="a">Das Taufbuch der Aethiopischen Kirche</title>
-                        <title level="j">Abhandlungen der philosophisch-philologischen Classe der Königlichen Bayerischen Akademie der Wissenschaften</title>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ernst</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Trumpp</t:surname>
-                        </author>
-                        <editor>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ernst</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Trumpp</t:surname>
-                        </editor>
-                        <date>1878</date>
-                        <biblScope unit="volume">14, III</biblScope>
-                        <biblScope unit="page">147-183</biblScope>
-                        <note type="url">http://nbn-resolving.de/urn:nbn:de:bvb:824-dtl-0000084063</note>
-                    </bibl>
+               <bibl corresp="http://zotero.org/groups/358366/items/AA97MRPD"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Trumpp1878Taufbuch"/><title level="a">Das Taufbuch der Aethiopischen Kirche</title><title level="j">Abhandlungen der philosophisch-philologischen Classe der Königlichen Bayerischen Akademie der Wissenschaften</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ernst</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Trumpp</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ernst</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Trumpp</t:surname></editor><date>1878</date><biblScope unit="volume">14, III</biblScope><biblScope unit="page">147-183</biblScope><note type="url">http://nbn-resolving.de/urn:nbn:de:bvb:824-dtl-0000084063</note></bibl>
             </listBibl>
             <listBibl type="secondary">
-               <bibl corresp="http://zotero.org/groups/358366/items/3MK2M8BW">
-                        <seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg>
-                        <ptr target="bm:FritschEtAl2007EAEKrestenna"/>
-                        <title level="a">Krǝstǝnna: Mäṣḥafä krǝstǝnna</title>
-                        <title type="short">EAe</title>
-                        <title level="m">Encyclopaedia Aethiopica</title>
-                        <author>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Emmanuel</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Fritsch</t:surname>
-                        </author>
-                        <author>
-                            <t:name xmlns:t="http://www.tei-c.org/ns/1.0">Habtemichael Kidane</t:name>
-                        </author>
-                        <author>
-                            <t:name xmlns:t="http://www.tei-c.org/ns/1.0">Tedros Abraha</t:name>
-                        </author>
-                        <editor>
-                            <t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Siegbert</t:forename>
-                            <t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Uhlig</t:surname>
-                        </editor>
-                        <pubPlace>Wiesbaden</pubPlace>
-                        <publisher>Harrassowitz Verlag</publisher>
-                        <date>2007</date>
-                        <biblScope unit="volume">III</biblScope>
-                        <biblScope unit="page">439a-441a</biblScope>
-                    </bibl>
+               <bibl corresp="http://zotero.org/groups/358366/items/3MK2M8BW"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:FritschEtAl2007EAEKrestenna"/><title level="a">Krǝstǝnna: Mäṣḥafä krǝstǝnna</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Emmanuel</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Fritsch</t:surname></author><author><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Habtemichael Kidane</t:name></author><author><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Tedros Abraha</t:name></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Siegbert</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Uhlig</t:surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">439a-441a</biblScope></bibl>
             </listBibl>
             
          </div>
@@ -604,5 +385,4 @@
             </div>
          </div>
       </body>
-   </text>
-</TEI>
+   </text></TEI>

@@ -1,36 +1,14 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT5656Malheq">
-    <teiHeader xml:base="https://betamasaheft.eu/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT5656Malheq"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
-            <titleStmt>
-                <title type="full">Malḥǝq</title>
+            <titleStmt><title type="full">Malḥǝq</title>
                 <title xml:lang="gez" xml:id="t1">መልሕቅ፡</title>
                 <title corresp="#t1" xml:lang="gez" type="normalized">Malḥǝq</title>
                 <title corresp="#t1" xml:lang="en">Anchor</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
                 <editor key="RL" corresp="https://betamasaheft.eu/team.html#RL" xml:id="RL">Ralph Lee</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB">
-                    <resp>general editor</resp>
-                    <name>Alessandro Bausi</name>
-                </respStmt>
-                <respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN">
-                    <resp>editor</resp>
-                    <name>Denis Nosnitsin</name>
-                </respStmt>
-                <respStmt xml:id="ed-RL" corresp="https://betamasaheft.eu/team.html#RL">
-                    <resp>editor</resp>
-                    <name>Ralph Lee</name>
-                </respStmt>
-                <respStmt xml:id="DE" corresp="https://betamasaheft.eu/team.html#DE">
-                    <resp>contributor</resp>
-                    <name>Daria Elagina</name>
-                </respStmt>
-                <respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES">
-                    <resp>contributor</resp>
-                    <name>Eugenia Sokolinski</name>
-                </respStmt>
-            </titleStmt>
+            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt xml:id="ed-RL" corresp="https://betamasaheft.eu/team.html#RL"><resp>editor</resp><name>Ralph Lee</name></respStmt><respStmt xml:id="DE" corresp="https://betamasaheft.eu/team.html#DE"><resp>contributor</resp><name>Daria Elagina</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
@@ -40,19 +18,10 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">2.7.2025 at 03:05:45</date>
-                <date type="lastModified">7.1.2022</date>
-                <idno type="collection">works</idno>
-                <idno type="url">https://betamasaheft.eu/works/LIT5656Malheq/main</idno>
-                <idno type="URI">https://betamasaheft.eu/LIT5656Malheq</idno>
-                <idno type="filename">LIT5656Malheq.xml</idno>
-                <idno type="ID">LIT5656Malheq</idno>
-            </publicationStmt>
+            <date type="expanded">22.7.2025 at 13:38:03</date><date type="lastModified">7.1.2022</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5656Malheq/main</idno><idno type="URI">https://betamasaheft.eu/LIT5656Malheq</idno><idno type="filename">LIT5656Malheq.xml</idno><idno type="ID">LIT5656Malheq</idno></publicationStmt>
             <sourceDesc>
               <listWit>
-                <witness xml:id="L" corresp="https://betamasaheft.eu/IVorlov33">
-                        <idno>IV Orlov 33</idno>
-                    </witness>
+                <witness xml:id="L" corresp="https://betamasaheft.eu/IVorlov33"><idno>IV Orlov 33</idno></witness>
                 </listWit>
             </sourceDesc>
         </fileDesc>
@@ -68,670 +37,7 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p>
-            <listPrefixDef>
-                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
-                <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/>
-                <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/>
-                <prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/>
-                <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/>
-                <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/>
-                <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/>
-                <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/>
-                <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/>
-                <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/>
-                <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/>
-                <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/>
-                <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/>
-                <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/>
-                <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/>
-                <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/>
-                <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/>
-                <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/>
-                <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/>
-                <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
-            </listPrefixDef>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml">
-                <xi:fallback>
-                    <p>Definitions of prefixes used.</p>
-                </xi:fallback>
-            </xi:include>
-            <refsDecl>
-                <citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim=".">
-                    <citeStructure unit="Chants for the Sunday after Easter" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>EasterSunday</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Colophon of the work" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>ColophonWork</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for St Michael the Archangel&#xA;                      &#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Michael</item>
-                                <item>Michael2</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for St Mercury&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Mercury</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Angels" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Angels</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for ምስባክ፡ ዘጽዮን᎓&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>MesbakZaSeyon</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Halleluyatic table" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>HalleluyaTable</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Feast of the Cross and for St Helen" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>CrossHelen</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the feast of the Sheperd,&#xA;                    ኖላዊ᎓&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Nolawi</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Jacob and John the Apostles" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>JacobJohn</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Hymn to ʾabbā Libānos,&#xA;                  John the Evangelist&#xA;                  and the time after the feast" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>LibanosJohn</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for St Mary the Mother of God" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>MotherGod</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Palm Sunday" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Palm</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the feast of the Presentation of Our Lord" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Presentation</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the feast of the Light,&#xA;                        ብርሃን᎓&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>BerhanChants</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Annucniation" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Annunciation</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Blessed Ones" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Blessed</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Saturday after the Ascension" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Ascension</item>
-                                <item>SaturdayAscension</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Mid-Pentacost, ዘረክብ፡&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>ZaRakeb</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Feast of the Cross" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>CrossRitual</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Penitencial service" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>PenitencialService</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for St Gabriel the Archangel" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Gabriel</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Ṗanṭalewon&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Pantalewon</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for ዋዜማ፡ ዘአስተምህሮ᎓ ዘሰንበት፡&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>wazemaZaAstamhero</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants to the Heavenly Priests" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>HeavenlyElders</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for St George the Martyr&#xA;                      &#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>George</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Hymn for the Saturday and the winter" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>SaturdayWinter</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the time after Christmas" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>AfterChristmas</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Prophet Elisha&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Elijah</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Renovation of the Temple" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>RenovationTemple</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Table of melodic variations for the Hallelujah አንቀጸ፡ ሃሌታ፡" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Haleta</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Elizabeth" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Elizabeth</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Good Friday" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>GoodFriday</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Hymn to St Menās&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Menas</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Prophets" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Prophets</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Matthew the Apostle" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>MatthewApostle</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for &#xA;                      Prophet Zechariah&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Zechariah</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for ʾabbā Yoḥanni" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Yohanni</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for 318 Fathers of Nicaea " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>FathersNicaea</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Apostles" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Apostles</item>
-                                <item>Apostles2</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Righteous" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Righteous</item>
-                                <item>Righteous2</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Pentecost" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Pent</item>
-                            </list>
-                        </desc>
-                        <citeStructure unit="Chants for the gathering of the Apostles at the&#xA;                      funeral of St Mary,&#xA;                        ምስካብ፡ ዘጉባዕ᎓&#xA;                     " match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>GatheringApostles</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for &#xA;                     " match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>MaryamMagdalawit</item>
-                                    <item>Abraham</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for the Transfiguration of Christ on Mount Tabor" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>Transfiguration</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for ʾabbā Salāma&#xA;                     " match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>Salama</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for St Andrew" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>Andrew</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants to St Cyriacus&#xA;                        and Julitta Julitta&#xA;                        " match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>CyriacusJulitta</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for the 12 Apostles" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>Apostles3</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for &#xA;                          the Holy Spirit&#xA;                     " match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>HolySpirit</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Сhants for the feast of Beheading of&#xA;                        John the Baptist&#xA;                     " match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>BeheadingJohn</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for the Dormition of St Mary" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>Dormition</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for Damian&#xA;                         and Cosmas&#xA;                     " match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>DamianCosmas</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for the gathering of the firstborn,&#xA;                        ዘማኅበር፡&#xA;                     " match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>Firstborn</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for the feast of St Raphael&#xA;                     " match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>Raphael</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for the Virgins" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>Virgins</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for St Michael the Archangel&#xA;                        &#xA;                     " match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>Michael3</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for &#xA;                          John the Baptist&#xA;                     " match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>JohnBaptist2</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for the Sabbath" match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>Sabbath</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for Bǝsoy&#xA;                     " match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>Besoy</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                        <citeStructure unit="Chants for the Apostles &#xA;                        Peter and Paul&#xA;                     " match="div" use="div">
-                            <desc>
-                                <list>
-                                    <item>PeterPaul3</item>
-                                </list>
-                            </desc>
-                        </citeStructure>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Period of the Fruits,&#xA;                        ዋዜማ፡ ዘፍሬ፡&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>WazemaFere</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Christmas Eve&#xA;                        ዘጌና፡&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>ChristmasEve</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for John the Baptist&#xA;                      " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>JohnBaptist</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Cross and St Mary" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>CrossMary</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for St Stephan" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Stephan</item>
-                                <item>Stephan2</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the feast of the Birth of St Mary" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>BirthOfMary</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chant for the feast of the Flight to Egypt" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>FlightEgypt</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for St Peter of Alexandria&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>PeterAlexandria</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Mount of Olives&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>MountOlives</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the martyrs" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Martyrs</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Eustathius Placidus" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>EustathiusPlacidus</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for ምስባክ፡ ዘስባካት᎓,&#xA;                    the beginning of the Nativity fast" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>MesbakZaSabakat</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Christmas" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Christmas</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Saturdays of the Flowers period&#xA;                        (ዋዜማ፡ ዘሰናብት፡ ዘጽጌ᎓)" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>WazemaZaSanabet</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for circumcision of Christ" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Circumcision</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Peter and Paul" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>PeterPaul2</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Epiphany" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Epiphany</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the feast of Cana in Galilee" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>CanaInGalilee</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Three Youths in the Furnace&#xA;                      &#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>ThreeYouth</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Easter and Holy Week" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>EasterHolyWeek</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the kings&#xA;                        (ዘነገሥት፡)" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Kings</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the martyrs of &#xA;                      Naǧrān&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Nagran</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for St Stephan and the time after Christmas" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>StephanAfterChristmas</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Qʷǝsqʷām (ዋዜማ፡ ዘቍስቋም፡)" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Qwesqwam</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Martyrs" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Martyrs2</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Peter and Paul&#xA;                      &#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>PeterPaul</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for the Bridegroom&#xA;                        ዋዜማ፡ ዘመርዓዊ፡&#xA;                  " match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>Marawi</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                    <citeStructure unit="Chants for Moundy Thursday" match="div" use="div">
-                        <desc>
-                            <list>
-                                <item>EasterThursday</item>
-                            </list>
-                        </desc>
-                    </citeStructure>
-                </citeStructure>
-            </refsDecl>
-        </encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="Chants for the Sunday after Easter" match="div" use="div"><desc><list><item>EasterSunday</item></list></desc></citeStructure><citeStructure unit="Colophon of the work" match="div" use="div"><desc><list><item>ColophonWork</item></list></desc></citeStructure><citeStructure unit="Chants for St Michael the Archangel&#xA;                      &#xA;                  " match="div" use="div"><desc><list><item>Michael</item><item>Michael2</item></list></desc></citeStructure><citeStructure unit="Chants for St Mercury&#xA;                  " match="div" use="div"><desc><list><item>Mercury</item></list></desc></citeStructure><citeStructure unit="Chants for the Angels" match="div" use="div"><desc><list><item>Angels</item></list></desc></citeStructure><citeStructure unit="Halleluyatic table" match="div" use="div"><desc><list><item>HalleluyaTable</item></list></desc></citeStructure><citeStructure unit="Chants for the Feast of the Cross and for St Helen" match="div" use="div"><desc><list><item>CrossHelen</item></list></desc></citeStructure><citeStructure unit="Chants for Jacob and John the Apostles" match="div" use="div"><desc><list><item>JacobJohn</item></list></desc></citeStructure><citeStructure unit="Hymn to ʾabbā Libānos,&#xA;                  John the Evangelist&#xA;                  and the time after the feast" match="div" use="div"><desc><list><item>LibanosJohn</item></list></desc></citeStructure><citeStructure unit="Chants for St Mary the Mother of God" match="div" use="div"><desc><list><item>MotherGod</item></list></desc></citeStructure><citeStructure unit="Chants for ዋዜማ፡ ዘአስተምህሮ፡ ዘሰንበት፡&#xA;                  " match="div" use="div"><desc><list><item>wazemaZaAstamhero</item></list></desc></citeStructure><citeStructure unit="Chants for the Palm Sunday" match="div" use="div"><desc><list><item>Palm</item></list></desc></citeStructure><citeStructure unit="Chants for the feast of the Presentation of Our Lord" match="div" use="div"><desc><list><item>Presentation</item></list></desc></citeStructure><citeStructure unit="Chants for ምስባክ፡ ዘጽዮን፡&#xA;                  " match="div" use="div"><desc><list><item>MesbakZaSeyon</item></list></desc></citeStructure><citeStructure unit="Chants for the Annucniation" match="div" use="div"><desc><list><item>Annunciation</item></list></desc></citeStructure><citeStructure unit="Chants for the Blessed Ones" match="div" use="div"><desc><list><item>Blessed</item></list></desc></citeStructure><citeStructure unit="Chants for the Saturday after the Ascension" match="div" use="div"><desc><list><item>Ascension</item><item>SaturdayAscension</item></list></desc></citeStructure><citeStructure unit="Chants for Mid-Pentacost, ዘረክብ፡&#xA;                  " match="div" use="div"><desc><list><item>ZaRakeb</item></list></desc></citeStructure><citeStructure unit="Chants for the Feast of the Cross" match="div" use="div"><desc><list><item>CrossRitual</item></list></desc></citeStructure><citeStructure unit="Penitencial service" match="div" use="div"><desc><list><item>PenitencialService</item></list></desc></citeStructure><citeStructure unit="Chants for St Gabriel the Archangel" match="div" use="div"><desc><list><item>Gabriel</item></list></desc></citeStructure><citeStructure unit="Chants for Ṗanṭalewon&#xA;                  " match="div" use="div"><desc><list><item>Pantalewon</item></list></desc></citeStructure><citeStructure unit="Chants to the Heavenly Priests" match="div" use="div"><desc><list><item>HeavenlyElders</item></list></desc></citeStructure><citeStructure unit="Chants for St George the Martyr&#xA;                      &#xA;                  " match="div" use="div"><desc><list><item>George</item></list></desc></citeStructure><citeStructure unit="Hymn for the Saturday and the winter" match="div" use="div"><desc><list><item>SaturdayWinter</item></list></desc></citeStructure><citeStructure unit="Chants for the time after Christmas" match="div" use="div"><desc><list><item>AfterChristmas</item></list></desc></citeStructure><citeStructure unit="Chants for Prophet Elisha&#xA;                  " match="div" use="div"><desc><list><item>Elijah</item></list></desc></citeStructure><citeStructure unit="Chants for the Renovation of the Temple" match="div" use="div"><desc><list><item>RenovationTemple</item></list></desc></citeStructure><citeStructure unit="Table of melodic variations for the Hallelujah አንቀጸ፡ ሃሌታ፡" match="div" use="div"><desc><list><item>Haleta</item></list></desc></citeStructure><citeStructure unit="Chants for Elizabeth" match="div" use="div"><desc><list><item>Elizabeth</item></list></desc></citeStructure><citeStructure unit="Chants for Good Friday" match="div" use="div"><desc><list><item>GoodFriday</item></list></desc></citeStructure><citeStructure unit="Hymn to St Menās&#xA;                  " match="div" use="div"><desc><list><item>Menas</item></list></desc></citeStructure><citeStructure unit="Chants for the Prophets" match="div" use="div"><desc><list><item>Prophets</item></list></desc></citeStructure><citeStructure unit="Chants for Matthew the Apostle" match="div" use="div"><desc><list><item>MatthewApostle</item></list></desc></citeStructure><citeStructure unit="Chants for &#xA;                      Prophet Zechariah&#xA;                  " match="div" use="div"><desc><list><item>Zechariah</item></list></desc></citeStructure><citeStructure unit="Chants for ʾabbā Yoḥanni" match="div" use="div"><desc><list><item>Yohanni</item></list></desc></citeStructure><citeStructure unit="Chants for the feast of the Sheperd,&#xA;                    ኖላዊ፡&#xA;                  " match="div" use="div"><desc><list><item>Nolawi</item></list></desc></citeStructure><citeStructure unit="Chants for 318 Fathers of Nicaea " match="div" use="div"><desc><list><item>FathersNicaea</item></list></desc></citeStructure><citeStructure unit="Chants for the Apostles" match="div" use="div"><desc><list><item>Apostles</item><item>Apostles2</item></list></desc></citeStructure><citeStructure unit="Chants for the Righteous" match="div" use="div"><desc><list><item>Righteous</item><item>Righteous2</item></list></desc></citeStructure><citeStructure unit="Chants for Pentecost" match="div" use="div"><desc><list><item>Pent</item></list></desc><citeStructure unit="Chants for &#xA;                     " match="div" use="div"><desc><list><item>MaryamMagdalawit</item><item>Abraham</item></list></desc></citeStructure><citeStructure unit="Chants for the Transfiguration of Christ on Mount Tabor" match="div" use="div"><desc><list><item>Transfiguration</item></list></desc></citeStructure><citeStructure unit="Chants for ʾabbā Salāma&#xA;                     " match="div" use="div"><desc><list><item>Salama</item></list></desc></citeStructure><citeStructure unit="Chants for the gathering of the Apostles at the&#xA;                      funeral of St Mary,&#xA;                        ምስካብ፡ ዘጉባዕ፡&#xA;                     " match="div" use="div"><desc><list><item>GatheringApostles</item></list></desc></citeStructure><citeStructure unit="Chants for St Andrew" match="div" use="div"><desc><list><item>Andrew</item></list></desc></citeStructure><citeStructure unit="Chants to St Cyriacus&#xA;                        and Julitta Julitta&#xA;                        " match="div" use="div"><desc><list><item>CyriacusJulitta</item></list></desc></citeStructure><citeStructure unit="Chants for the 12 Apostles" match="div" use="div"><desc><list><item>Apostles3</item></list></desc></citeStructure><citeStructure unit="Chants for &#xA;                          the Holy Spirit&#xA;                     " match="div" use="div"><desc><list><item>HolySpirit</item></list></desc></citeStructure><citeStructure unit="Сhants for the feast of Beheading of&#xA;                        John the Baptist&#xA;                     " match="div" use="div"><desc><list><item>BeheadingJohn</item></list></desc></citeStructure><citeStructure unit="Chants for the Dormition of St Mary" match="div" use="div"><desc><list><item>Dormition</item></list></desc></citeStructure><citeStructure unit="Chants for Damian&#xA;                         and Cosmas&#xA;                     " match="div" use="div"><desc><list><item>DamianCosmas</item></list></desc></citeStructure><citeStructure unit="Chants for the gathering of the firstborn,&#xA;                        ዘማኅበር፡&#xA;                     " match="div" use="div"><desc><list><item>Firstborn</item></list></desc></citeStructure><citeStructure unit="Chants for the feast of St Raphael&#xA;                     " match="div" use="div"><desc><list><item>Raphael</item></list></desc></citeStructure><citeStructure unit="Chants for the Virgins" match="div" use="div"><desc><list><item>Virgins</item></list></desc></citeStructure><citeStructure unit="Chants for St Michael the Archangel&#xA;                        &#xA;                     " match="div" use="div"><desc><list><item>Michael3</item></list></desc></citeStructure><citeStructure unit="Chants for &#xA;                          John the Baptist&#xA;                     " match="div" use="div"><desc><list><item>JohnBaptist2</item></list></desc></citeStructure><citeStructure unit="Chants for the Sabbath" match="div" use="div"><desc><list><item>Sabbath</item></list></desc></citeStructure><citeStructure unit="Chants for Bǝsoy&#xA;                     " match="div" use="div"><desc><list><item>Besoy</item></list></desc></citeStructure><citeStructure unit="Chants for the Apostles &#xA;                        Peter and Paul&#xA;                     " match="div" use="div"><desc><list><item>PeterPaul3</item></list></desc></citeStructure></citeStructure><citeStructure unit="Chants for the Period of the Fruits,&#xA;                        ዋዜማ፡ ዘፍሬ፡&#xA;                  " match="div" use="div"><desc><list><item>WazemaFere</item></list></desc></citeStructure><citeStructure unit="Chants for the Christmas Eve&#xA;                        ዘጌና፡&#xA;                  " match="div" use="div"><desc><list><item>ChristmasEve</item></list></desc></citeStructure><citeStructure unit="Chants for John the Baptist&#xA;                      " match="div" use="div"><desc><list><item>JohnBaptist</item></list></desc></citeStructure><citeStructure unit="Chants for the Cross and St Mary" match="div" use="div"><desc><list><item>CrossMary</item></list></desc></citeStructure><citeStructure unit="Chants for St Stephan" match="div" use="div"><desc><list><item>Stephan</item><item>Stephan2</item></list></desc></citeStructure><citeStructure unit="Chants for the feast of the Birth of St Mary" match="div" use="div"><desc><list><item>BirthOfMary</item></list></desc></citeStructure><citeStructure unit="Chant for the feast of the Flight to Egypt" match="div" use="div"><desc><list><item>FlightEgypt</item></list></desc></citeStructure><citeStructure unit="Chants for Saturdays of the Flowers period&#xA;                        (ዋዜማ፡ ዘሰናብት፡ ዘጽጌ፡)" match="div" use="div"><desc><list><item>WazemaZaSanabet</item></list></desc></citeStructure><citeStructure unit="Chants for St Peter of Alexandria&#xA;                  " match="div" use="div"><desc><list><item>PeterAlexandria</item></list></desc></citeStructure><citeStructure unit="Chants for the Mount of Olives&#xA;                  " match="div" use="div"><desc><list><item>MountOlives</item></list></desc></citeStructure><citeStructure unit="Chants for the martyrs" match="div" use="div"><desc><list><item>Martyrs</item></list></desc></citeStructure><citeStructure unit="Chants for Eustathius Placidus" match="div" use="div"><desc><list><item>EustathiusPlacidus</item></list></desc></citeStructure><citeStructure unit="Chants for Christmas" match="div" use="div"><desc><list><item>Christmas</item></list></desc></citeStructure><citeStructure unit="Chants for circumcision of Christ" match="div" use="div"><desc><list><item>Circumcision</item></list></desc></citeStructure><citeStructure unit="Chants for Peter and Paul" match="div" use="div"><desc><list><item>PeterPaul2</item></list></desc></citeStructure><citeStructure unit="Chants for the Epiphany" match="div" use="div"><desc><list><item>Epiphany</item></list></desc></citeStructure><citeStructure unit="Chants for the feast of Cana in Galilee" match="div" use="div"><desc><list><item>CanaInGalilee</item></list></desc></citeStructure><citeStructure unit="Chants for Three Youths in the Furnace&#xA;                      &#xA;                  " match="div" use="div"><desc><list><item>ThreeYouth</item></list></desc></citeStructure><citeStructure unit="Chants for Easter and Holy Week" match="div" use="div"><desc><list><item>EasterHolyWeek</item></list></desc></citeStructure><citeStructure unit="Chants for the kings&#xA;                        (ዘነገሥት፡)" match="div" use="div"><desc><list><item>Kings</item></list></desc></citeStructure><citeStructure unit="Chants for the martyrs of &#xA;                      Naǧrān&#xA;                  " match="div" use="div"><desc><list><item>Nagran</item></list></desc></citeStructure><citeStructure unit="Chants for St Stephan and the time after Christmas" match="div" use="div"><desc><list><item>StephanAfterChristmas</item></list></desc></citeStructure><citeStructure unit="Chants for Qʷǝsqʷām (ዋዜማ፡ ዘቍስቋም፡)" match="div" use="div"><desc><list><item>Qwesqwam</item></list></desc></citeStructure><citeStructure unit="Chants for ምስባክ፡ ዘስባካት፡,&#xA;                    the beginning of the Nativity fast" match="div" use="div"><desc><list><item>MesbakZaSabakat</item></list></desc></citeStructure><citeStructure unit="Chants for the feast of the Light,&#xA;                        ብርሃን፡&#xA;                  " match="div" use="div"><desc><list><item>BerhanChants</item></list></desc></citeStructure><citeStructure unit="Chants for the Martyrs" match="div" use="div"><desc><list><item>Martyrs2</item></list></desc></citeStructure><citeStructure unit="Chants for Peter and Paul&#xA;                      &#xA;                  " match="div" use="div"><desc><list><item>PeterPaul</item></list></desc></citeStructure><citeStructure unit="Chants for the Bridegroom&#xA;                        ዋዜማ፡ ዘመርዓዊ፡&#xA;                  " match="div" use="div"><desc><list><item>Marawi</item></list></desc></citeStructure><citeStructure unit="Chants for Moundy Thursday" match="div" use="div"><desc><list><item>EasterThursday</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
         <profileDesc>
             <creation> Not before <date>1563</date>, not after <date>1597</date>.
             </creation>
@@ -749,53 +55,17 @@
                     <term key="Rituals" ana="#Rituals"/>
                 </keywords>
             </textClass>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
-            </langUsage>
-        <calendarDesc>
-                <calendar xml:id="world">
-                    <p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p>
-                </calendar>
-                <calendar xml:id="ethiopian">
-                    <p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p>
-                </calendar>
-                <calendar xml:id="grace">
-                    <p>ʿĀmata məḥrat (Era of Grace)</p>
-                </calendar>
-                <calendar xml:id="diocletian">
-                    <p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p>
-                </calendar>
-                <calendar xml:id="alexander">
-                    <p> Era of Alexander</p>
-                </calendar>
-                <calendar xml:id="evangelists">
-                    <p>Evangelists' years</p>
-                </calendar>
-                <calendar xml:id="islamic">
-                    <p>Hiǧrī (Islamic)</p>
-                </calendar>
-                <calendar xml:id="hijri">
-                    <p>Hiǧrī (Islamic) in IslHornAfr</p>
-                </calendar>
-                <calendar xml:id="julian">
-                    <p>Julian</p>
-                </calendar>
-            </calendarDesc>
-        </profileDesc>
+            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+        <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
         <revisionDesc>
             <change who="#DN" when="2019-04-25"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
             <change who="#DE" when="2020-03-12"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected transliteration.</change>
            <change who="#ES" when="2022-01-07"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->corrected textpart IDs</change>
         </revisionDesc>
-    </teiHeader>
-    <standOff>
-        <listRelation>
+    </teiHeader><standOff><listRelation>
                     <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT5656Malheq" passive="https://betamasaheft.eu/IVorlov33"/>
-                </listRelation>
-    </standOff>
-    <text xml:base="https://betamasaheft.eu/">
+                </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
         <body>
             <div type="bibliography">
                 
@@ -806,19 +76,19 @@
 
                      <div type="textpart" xml:id="ColophonWork">
                         <label>Colophon of the work</label>
-                        <ab>በስመ᎓ እግዚአብሔር᎓ ዘይሤልስ᎓ በአካላት᎓ ወይትወሐድ᎓ በመለኮት᎓ ተጽሕፈ᎓
-                          ዝንቱ᎓ መዝገብ᎓ ዓቢይ᎓ ዘስሙ᎓ መልሕቅ᎓ ወአስተጋብእዎ᎓ <persName ref="https://betamasaheft.eu/PRS12652Gera">አባ᎓ ጌራ᎓</persName>
-                          ወ<persName ref="https://betamasaheft.eu/PRS12654HablaSellase">ሐብለ᎓ ስላሴ᎓</persName>
-                          እምብዙኅ᎓ ድጌ᎓ ወምክንያተ᎓ ጽሕፈቱሰ᎓ ኮነ᎓ በትእዛዘ᎓ <persName ref="https://betamasaheft.eu/PRS8550sardaDe">
-                          ንጉሥነ᎓ ሰርፀ᎓ ድንግል᎓</persName>
-                          እስመ᎓ ቀንዓ᎓ ቅንዓተ᎓ መንፈሳዊተ᎓ ሶበ᎓ ርእየ᎓ ከመ᎓ ጠፍአ᎓ ትምሕርተ᎓ መዝሙር᎓
-                          ዘሠርዕዎ᎓ አበዊሁ᎓ ኦርቶዶክስውያን᎓ በአስተሐቅሮቶሙ᎓ ለሰብእ᎓
-                          ቆራዕያን᎓ ዘአስተማሰልዎ᎓ ለማኅሌተ᎓ መዝሙር᎓ በተውኔት᎓ ወበዘፈን᎓
-                          ተምዓ᎓ ንጉሥ᎓ መፍቅሬ᎓ ትምሕርት᎓ ወይቤ᎓ ዘሠርፁ᎓ ኢንንሥት። ወቦ᎓ ዘጸሐፈ᎓
-                          በኅፁር᎓ በእንተ᎓ ሐኬት᎓ በዝኒ᎓ ኢሠምረ᎓ ከመ᎓ ኢይቤልዎ᎓ ኮነ᎓ ኅፁረ᎓ ትምሕርተ᎓
-                          ያሬድ᎓ በመዋዕሊሁ᎓ ወአዘዘ᎓ ከመ᎓ ይጽሐፉ᎓ ወይትምሐሩ᎓ በከመ᎓ ኮነ᎓ ቀዳሚ᎓
-                          ወአሠነየ᎓ ለእለ᎓ ይሜሕሩ᎓ ወለእለ᎓ ይትመሐሩ᎓ እግዚአብሔር᎓ ያሠኒ᎓ ሕይወተ᎓
-                          ነፍሱ᎓ በመንግሥተ᎓ ሰማያት᎓ ለዓለመ᎓ ዓለም᎓ አሜን።
+                        <ab>በስመ፡ እግዚአብሔር፡ ዘይሤልስ፡ በአካላት፡ ወይትወሐድ፡ በመለኮት፡ ተጽሕፈ፡
+                          ዝንቱ፡ መዝገብ፡ ዓቢይ፡ ዘስሙ፡ መልሕቅ፡ ወአስተጋብእዎ፡ <persName ref="https://betamasaheft.eu/PRS12652Gera">አባ፡ ጌራ፡</persName>
+                          ወ<persName ref="https://betamasaheft.eu/PRS12654HablaSellase">ሐብለ፡ ስላሴ፡</persName>
+                          እምብዙኅ፡ ድጌ፡ ወምክንያተ፡ ጽሕፈቱሰ፡ ኮነ፡ በትእዛዘ፡ <persName ref="https://betamasaheft.eu/PRS8550sardaDe">
+                          ንጉሥነ፡ ሰርፀ፡ ድንግል፡</persName>
+                          እስመ፡ ቀንዓ፡ ቅንዓተ፡ መንፈሳዊተ፡ ሶበ፡ ርእየ፡ ከመ፡ ጠፍአ፡ ትምሕርተ፡ መዝሙር፡
+                          ዘሠርዕዎ፡ አበዊሁ፡ ኦርቶዶክስውያን፡ በአስተሐቅሮቶሙ፡ ለሰብእ፡
+                          ቆራዕያን፡ ዘአስተማሰልዎ፡ ለማኅሌተ፡ መዝሙር፡ በተውኔት፡ ወበዘፈን፡
+                          ተምዓ፡ ንጉሥ፡ መፍቅሬ፡ ትምሕርት፡ ወይቤ፡ ዘሠርፁ፡ ኢንንሥት። ወቦ፡ ዘጸሐፈ፡
+                          በኅፁር፡ በእንተ፡ ሐኬት፡ በዝኒ፡ ኢሠምረ፡ ከመ፡ ኢይቤልዎ፡ ኮነ፡ ኅፁረ፡ ትምሕርተ፡
+                          ያሬድ፡ በመዋዕሊሁ፡ ወአዘዘ፡ ከመ፡ ይጽሐፉ፡ ወይትምሐሩ፡ በከመ፡ ኮነ፡ ቀዳሚ፡
+                          ወአሠነየ፡ ለእለ፡ ይሜሕሩ፡ ወለእለ፡ ይትመሐሩ፡ እግዚአብሔር፡ ያሠኒ፡ ሕይወተ፡
+                          ነፍሱ፡ በመንግሥተ፡ ሰማያት፡ ለዓለመ፡ ዓለም፡ አሜን።
                         </ab>
                      </div>
 
@@ -886,7 +156,7 @@
 
                    <div type="textpart" xml:id="WazemaZaSanabet">
                       <label>Chants for Saturdays of the Flowers period
-                        (<foreign xml:lang="gez">ዋዜማ፡ ዘሰናብት፡ ዘጽጌ᎓</foreign>)</label>
+                        (<foreign xml:lang="gez">ዋዜማ፡ ዘሰናብት፡ ዘጽጌ፡</foreign>)</label>
                    </div>
 
                    <div type="textpart" xml:id="MatthewApostle">
@@ -930,7 +200,7 @@
                    </div>
 
                    <div type="textpart" xml:id="MesbakZaSeyon">
-                      <label>Chants for <foreign xml:lang="gez">ምስባክ፡ ዘጽዮን᎓</foreign>
+                      <label>Chants for <foreign xml:lang="gez">ምስባክ፡ ዘጽዮን፡</foreign>
                   </label>
                    </div>
 
@@ -965,7 +235,7 @@
                    </div>
 
                    <div type="textpart" xml:id="wazemaZaAstamhero">
-                      <label>Chants for <foreign xml:lang="gez">ዋዜማ፡ ዘአስተምህሮ᎓ ዘሰንበት፡</foreign>
+                      <label>Chants for <foreign xml:lang="gez">ዋዜማ፡ ዘአስተምህሮ፡ ዘሰንበት፡</foreign>
                   </label>
                    </div>
 
@@ -983,7 +253,7 @@
                   </label>
                    </div>
                    <div type="textpart" xml:id="MesbakZaSabakat">
-                      <label>Chants for <foreign xml:lang="gez">ምስባክ፡ ዘስባካት᎓</foreign>,
+                      <label>Chants for <foreign xml:lang="gez">ምስባክ፡ ዘስባካት፡</foreign>,
                     the beginning of the Nativity fast</label>
                    </div>
                    <div type="textpart" xml:id="Annunciation">
@@ -991,12 +261,12 @@
                    </div>
                    <div type="textpart" xml:id="BerhanChants">
                       <label>Chants for the feast of the Light,
-                        <foreign xml:lang="gez">ብርሃን᎓</foreign>
+                        <foreign xml:lang="gez">ብርሃን፡</foreign>
                   </label>
                    </div>
                    <div type="textpart" xml:id="Nolawi">
                       <label>Chants for the feast of the Sheperd,
-                    <foreign xml:lang="gez">ኖላዊ᎓</foreign>
+                    <foreign xml:lang="gez">ኖላዊ፡</foreign>
                   </label>
                    </div>
                    <div type="textpart" xml:id="Marawi">
@@ -1174,7 +444,7 @@
                    <div type="textpart" xml:id="GatheringApostles">
                       <label>Chants for the gathering of the Apostles at the
                       funeral of St Mary,<foreign xml:lang="gez">
-                        ምስካብ፡ ዘጉባዕ᎓</foreign>
+                        ምስካብ፡ ዘጉባዕ፡</foreign>
                      </label>
                    </div>
 
@@ -1212,11 +482,9 @@
                    </div>
 
                 <div type="textpart" xml:id="Haleta">
-                  <label>Table of melodic variations for the Hallelujah <foreign xml:lang="gez">አንቀጸ፡ ሃሌታ፡</foreign>
-                    </label>
+                  <label>Table of melodic variations for the Hallelujah <foreign xml:lang="gez">አንቀጸ፡ ሃሌታ፡</foreign></label>
                 </div>
             </div>
 
         </body>
-    </text>
-</TEI>
+    </text></TEI>
