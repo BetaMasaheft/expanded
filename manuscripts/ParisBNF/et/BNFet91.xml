@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="BNFet91"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Paris, Bibliothèque nationale de France, BnF Éthiopien 91</title>
             <title>Nicene Creed, Prayer by Philoxenus of Mabbug, Wǝddāse ʾAmlāk</title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,7 +15,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is licensed
             under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">17.12.2024 at 11:49:45</date><date type="lastModified">14.9.2016</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFet91/main</idno><idno type="URI">https://betamasaheft.eu/BNFet91</idno><idno type="filename">BNFet91.xml</idno><idno type="ID">BNFet91</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 03:09:51</date><date type="lastModified">14.9.2016</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFet91/main</idno><idno type="URI">https://betamasaheft.eu/BNFet91</idno><idno type="filename">BNFet91.xml</idno><idno type="ID">BNFet91</idno></publicationStmt>
       
          <sourceDesc>
             <msDesc xml:id="ms">
@@ -49,7 +50,7 @@
                   </msItem>
             
                   <msItem xml:id="ms_i2">
-                     <locus from="2r">Fols 2r and following</locus>
+                     <locus from="2r"/>
                      <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT3990Prayer">እሴብሐከ፡ ኦእግዚእየ፡ ኢየሱስ፡
                 ክርስቶስ፡ ምስለ፡ አቡከ፡ ኄር፡ ወመንፈስ፡ ቅዱስ፡ በስብሐተ፡ ማር፡ <persName ref="https://betamasaheft.eu/PRS7853Philoxen">ፈለስኪኖስ፡</persName> ጳጳስ፡ ዘሀገረ፡ መንቡዠ፡
               ዘይጼልዩ፡ ቦቱ፡ ኵሉ፡ ሰብእ፡ ምእመናን፡ በእንተ፡ መድኀኒተ፡ ነፍሶሙ።</title>
@@ -62,45 +63,40 @@
                      <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT2505Weddas">በስመ፡ <gap reason="omitted" extent="unknown" resp="PRS10747Zotenbe"/> 
               ንወጥን፡ በረድኤተ፡ እግዚአብሔር፡ ወሠናይ፡ ሥንዓሁ፡ በጽሒፈ፡ ጸሎታት፡ እንተ፡ ሰብዓቱ፡ ዕለታት፡ በሰላመ፡ እግዚአብሔር፡ አሜን።</title>
                      <textLang mainLang="gez"/>
-                     <note>This manuscript's text agrees nearly always with <ref type="mss" corresp="https://betamasaheft.eu/BNFet89#ms_i1"><span xmlns="" class="w3-tag w3-red">No item: BNFet89#ms_i1</span></ref>.</note>
+                     <note>This manuscript's text agrees nearly always with <ref type="mss" corresp="https://betamasaheft.eu/BNFet89#ms_i1">Paris, Bibliothèque nationale de France, BnF Éthiopien 89: Wǝddāse ʾAmlāk (in ms_i1)</ref>.</note>
           
                      <msItem xml:id="ms_i3.1">
-                        <title type="complete" ref="https://betamasaheft.eu/LIT2505Weddas#Monday">Wǝddāse
-                                                  ʾAmlāk, No item: chapter: Monday</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT2505Weddas#Monday">Wǝddāse ʾAmlāk: Monday</title>
                      </msItem>
             
                      <msItem xml:id="ms_i3.2">
-                        <locus from="19v">Fols 19v and following</locus>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT2505Weddas#Tuesday">Wǝddāse
-                                                  ʾAmlāk, No item: chapter: Tuesday</title>
+                        <locus from="19v"/>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT2505Weddas#Tuesday">Wǝddāse ʾAmlāk: Tuesday</title>
                      </msItem>
             
                      <msItem xml:id="ms_i3.3">
-                        <locus from="43r">Fols 43r and following</locus>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT2505Weddas#Wednesday">Wǝddāse
-                                                  ʾAmlāk, No item: chapter: Wednesday</title>
+                        <locus from="43r"/>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT2505Weddas#Wednesday">Wǝddāse ʾAmlāk: Wednesday</title>
                      </msItem>
             
                      <msItem xml:id="ms_i3.4">
-                        <locus from="63v">Fols 63v and following</locus>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT2505Weddas#Thursday">Wǝddāse
-                                                  ʾAmlāk, No item: chapter: Thursday</title>
+                        <locus from="63v"/>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT2505Weddas#Thursday">Wǝddāse ʾAmlāk: Thursday</title>
                      </msItem>
             
                      <msItem xml:id="ms_i3.5">
-                        <locus from="89r">Fols 89r and following</locus>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT2505Weddas#Friday">Wǝddāse
-                                                  ʾAmlāk, No item: chapter: Friday</title>
+                        <locus from="89r"/>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT2505Weddas#Friday">Wǝddāse ʾAmlāk: Friday</title>
                      </msItem>
             
                      <msItem xml:id="ms_i3.6">
-                        <locus from="109r">Fols 109r and following</locus>
+                        <locus from="109r"/>
                         <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT2505Weddas#Saturday">ጸሎት፡ ወስእለት፡ ሳድሲት፡ እንተ፡
               ዘዕለተ፡ ቀዳሚት፡ ሰንበት፡ ዘአስተጋብእዋ፡ እምውዳስያት፡ እንተ፡ ዘቅብጢ፡ ወካልኣኒሆሙ።</title>
                      </msItem>
             
                      <msItem xml:id="ms_i3.7">
-                        <locus from="123v">Fols 123v and following</locus>
+                        <locus from="123v"/>
                         <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT2505Weddas#Sunday">ጸሎት፡ ወስእለት፡ ሳብዓይ፡
               እንተ፡ ዘዕለተ፡ እሁድ፡ ዘአስተጋብእዋ፡ እምብዙኅ፡ ስእለታት፡</title>
                      </msItem>
@@ -136,17 +132,17 @@
             
                   <decoDesc>
                      <decoNote type="miniature" xml:id="d1">
-                        <locus target="#4v">Fol. 4v</locus>
+                        <locus target="#4v"/>
                         <desc>Drawing in ink and pencil.</desc>
                      </decoNote>
               
                      <decoNote type="miniature" xml:id="d2">
-                        <locus target="#88v">Fol. 88v</locus>
+                        <locus target="#88v"/>
                         <desc>Drawing in ink and pencil.</desc>
                      </decoNote>
               
                      <decoNote type="miniature" xml:id="d3">
-                        <locus target="#140v">Fol. 140v</locus>
+                        <locus target="#140v"/>
                         <desc>Drawing in ink and pencil.</desc>
                      </decoNote>
                   </decoDesc>
@@ -195,7 +191,7 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:textClass>
             <t:keywords>
