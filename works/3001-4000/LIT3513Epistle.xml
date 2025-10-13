@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT3513Epistle"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Epistle of Jude</title>
@@ -5,9 +6,9 @@
             <title xml:id="t2" xml:lang="gez">መልእክተ፡ ይሁዳ፡ እኁሁ፡ ለያዕቆብ፡</title>
             <title corresp="#t2" xml:lang="gez" type="normalized">Malʾǝkta Yǝhudā ǝḫuhu la-Yāʿǝqob</title>
             <title type="short">Judae</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -18,7 +19,7 @@
                                     Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
-         <date type="expanded">11.6.2025 at 09:01:13</date><date type="lastModified">10.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3513Epistle/main</idno><idno type="URI">https://betamasaheft.eu/LIT3513Epistle</idno><idno type="filename">LIT3513Epistle.xml</idno><idno type="ID">LIT3513Epistle</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 23:22:30</date><date type="lastModified">10.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3513Epistle/main</idno><idno type="URI">https://betamasaheft.eu/LIT3513Epistle</idno><idno type="filename">LIT3513Epistle.xml</idno><idno type="ID">LIT3513Epistle</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -35,89 +36,89 @@
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
                         the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
-         <textClass>
-            <keywords>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="NewTestament" ana="#NewTestament"/>
-               <term key="Bible" ana="#Bible"/>
-               <term key="Translation" ana="#Translation"/>
-            </keywords>
-         </textClass>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="NewTestament" ana="#NewTestament"/>
+               <t:term key="Bible" ana="#Bible"/>
+               <t:term key="Translation" ana="#Translation"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#PL" when="2016-07-26"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record from Ethio authority google spreadsheet</change>
          <change who="#MV" when="2017-03-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
          <change who="#ES" when="2025-06-10"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
-      </revisionDesc>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT3513Epistle" passive="https://betamasaheft.eu/LIT3506CatholicEpis"/>
-            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="bibliography">
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
             
-            <listBibl type="editions">
-               <bibl corresp="http://zotero.org/groups/358366/items/JQ8WXBQV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Uhlig1993Katholischen"/><title level="m">Novum Testamentum Aethiopice: Die katholischen Briefe</title><title level="s">Aethiopistische Forschungen</title><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Josef</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Hofmann</t:surname></editor><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Siegbert</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Uhlig</t:surname></editor><pubPlace>Stuttgart</pubPlace><publisher>Franz Steiner</publisher><date>1993</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Aethiopistische Forschungen</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">29</t:biblScope></series><biblScope unit="volume">29</biblScope></bibl>
-            </listBibl>
-         </div>
-         <div type="edition" xml:lang="gez">
-            <ab>
-               <l>በእንተ፡ ሃይማኖት፡ ዘለቅዱሳን</l>
-               <l n="1">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=1"/>እምይሁዳ፡ ገብረ፡ እግዚአብሔር፡ ወኢየሱስ፡ ክርስቶስ፡ እኁሁ፡ ለያዕቆብ። ለእለ፡ ያፈቅርዎ፡ ለእግዚአብሔር፡ አብ፡ ስሙያን፡ ወጽዉዓን፡ በኢየሱስ፡ ክርስቶስ።</l>
-               <l n="2">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=2"/>ሰላም፡ ለክሙ፡ ወተፋቅሮ፡ ወሣህል፡ ይብዛኅ፡ ማእከሌክሙ።</l>
-               <l n="3">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=3"/>አኀዊነ፡ በኵሉ፡ አስተፋጠንኩ፡ ከመ፡ እጽሐፍ፡ ለክሙ፡ በእንተ፡ ሕይወተ፡ ኵልነ። እስመ፡ ጥቀ፡ እጽሕፍ፡ ለክሙ፡ ጽሑቀ። ወአስተበቊዐክሙ፡ ከመ፡ ትትቀነይዋ፡ ለእንተ፡ ተውህበት፡ ለቅዱሳን፡ ሃይማኖት።</l>
-               <l n="4">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=4"/>እስመ፡ ተደመሩ፡ ብክሙ፡ ሰብእ፡ ረሲዓን፡ እለ፡ ጽሑፋን፡ ቀዲሙ፡ ለዝንቱ፡ ደይን። እለ፡ ያፈልስዋ፡ ለጸጋ፡ እግዚአብሔር፡ ውስተ፡ ዝሙቶሙ። ወይክሕድዎ፡ ለዘውእቱ፡ ባሕቲቱ፡ ንጉሥ፡ እግዚእነ፡ ኢየሱስ፡ ክርስቶስ።</l>
-               <l>በእንተ፡ አዘክሮተ፡ ቀዳማይ</l>
-               <l n="5">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=5"/>ወተአምሩ፡ ምዕረሰ፡ ከመ፡ ኢየሱስ፡ አድኀነ፡ ሕዝቦ፡ እምድረ፡ ግብጽ። ወበዳግምሰ፡ ለእለ፡ ኢአምኑ፡ አጥፍኦሙ።</l>
-               <l n="6">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=6"/>ወለመላእክቲሁኒ፡ እለ፡ ኢዐቀቡ፡ ፍጥረቶሙ፡ ወኀደግዋ፡ ለሥርዐቶሙ፡ ውስተ፡ ደይን። አንበሮሙ፡ ወተዐሰሩ፡ ለዕለት፡ ዐባይ፡ በዘለሊሆሙ፡ አቅነዩ፡ ርእሶሙ።</l>
-               <l n="7">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=7"/>ወከማሁ፡ ሰዶምኒ፡ ወገሞራ፡ ወአህጉርኒ፡ እለ፡ ምስሌሆን፡ ወበአርአያሆን፡ ዘመዋ። ወተለዋሆን፡ በፍትወተ፡ ዝሙት። ሤሞሙ፡ ውስተ፡ ደይን፡ ዘለዓለም፡ ወተመጠዋ፡ ኵነኔሆን።</l>
-               <l n="8">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=8"/>ወከማሁ፡ እሉኒ፡ እለ፡ በሕልሞሙ፡ ያጌምኑ፡ ሥጋሆሙ። ወይክሕድዎ፡ ለእግዚኦሙ፡ ወይፀርፉ፡ ላዕለ፡ ስብሐቲሁ።</l>
-               <l>በእንተ፡ ተግሣጽ፡ ወምክር፡ ለኃጥኣን</l>
-               <l n="9">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=9"/>ወሚካኤልኒ፡ ሊቀ፡ መላእክት፡ አመ፡ ይትባሀሎ፡ ለሰይጣን፡ በእንተ፡ ሥጋሁ፡ ለሙሴ። ኢተኀበለ፡ ቃለ፡ ፅርፈት፡ ይንብብ፡ አላ፡ ይቤሎ፡ ይሒስከ፡ እግዚአብሔር።</l>
-               <l n="10">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=10"/>ወእሉሰ፡ እለ፡ ይፀርፉ፡ እሙንቱ፡ ይኤብሱ፡ በዘኢየአምሩ። ወኅሊናተሰ፡ ዘሥጋ፡ የአምሩ፡ ከመ፡ እንስሳ፡ ወባቲ፡ ይሤረዉ።</l>
-               <l n="11">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=11"/>አሌ፡ ሎሙ፡ እስመ፡ በፍኖተ፡ ቃየል፡ ሖሩ። ወበዐስበ፡ ጌጋዩ፡ ለበለዓም፡ ውዕዩ፡ ወበካሕዱ፡ ለቆሬ፡ ወእለ፡ ምስሌሁ፡ ተሀጕሉ።</l>
-               <l n="12">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=12"/>እሉ፡ እሙንቱ፡ እለ፡ በፍቅር፡ አፍቀሩክሙ፡ ከመ፡ ያስሕቱክሙ፡ ተባዕያን፡ ለኀጢአቶሙ። ወየሐውሩ፡ በፍትወተ፡ ልቦሙ፡ ወዘእንበለ፡ ፍርሀት፡ ይሬእዩ፡ ርእሶሙ። ወከመ፡ ደመና፡ እሙንቱ፡ እንተ፡ አልባቲ፡ ዝናም፡ እንተ፡ ትትሀወክ፡ እምነፋስ። ወከመ፡ ዕፀዋትኒ፡ ይቡሳት፡ እለ፡ አልቦን፡ ፍሬ፡ እለ፡ ካዕበ፡ ሞታ፡ ወተሠረዋ።</l>
-               <l n="13">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=13"/>ወከመ፡ ሞገዳተ፡ ባሕር፡ እሙንቱ፡ እቡዳት፡ እለ፡ ያፈልሕዋ፡ ለኀሳሮሙ። ወከመ፡ ከዋክብት፡ ጽልሙታን፡ እለ፡ ለፍጻሜ፡ ጽልመቶሙ፡ ደይን፡ ይጸንሖሙ፡ ለዓለመ፡ ዓለም።</l>
-               <l n="14">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=14"/>በከመ፡ ተነበየ፡ ሄኖክ፡ በእንቲኣሆሙ፡ ዘውእቱ፡ ሳብዕ፡ እምአዳም፡ ወይቤ። ናሁ፡ ይመጽእ፡ እግዚአብሔር፡ በአእላፊሁ፡ ቅዱሳን፡ መላእክት፡ ከመ፡ ይግበር፡ ኵነኔ።</l>
-               <l n="15">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=15"/>ወይፈድዮ፡ ለኵሉ፡ በከመ፡ ምግባሩ። ወይዛለፎሙ፡ ለኵሎሙ፡ ኃጥኣን፡ በእንተ፡ ኵሉ፡ ግብረ፡ ኀጣውኢሆሙ፡ ዘአበሱ። ወበእንተ፡ ኵሉ፡ ዘነበቡ፡ ላዕሌሁ፡ ዘኢይከውን፡ ቃለ፡ ኃጥኣን፡ ወጽልሕዋን።</l>
-               <l n="16">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=16"/>እሉ፡ እሙንቱ፡ እለ፡ ያንጐረጕሩ፡ እስመ፡ ቅቡጻን፡ ተስፋሆሙ፡ እለ፡ የሐውሩ፡ በፍትወተ፡ ልቦሙ። ወአፉሆሙኒ፡ ይነብብ፡ ትዕቢተ፡ ወያስተብዕሉ፡ ወያደልዉ፡ ለገጽ። ወዝ፡ ኵሉ፡ ዘይገብሩ፡ ከመ፡ ይርብሖሙ።</l>
-               <l n="17">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=17"/>ወአንትሙሰ፡ አኀዊነ፡ ተዘከሩ። ቃለ፡ ዘነገሩክሙ፡ ቀዲሙ፡ ሐዋርያቲሁ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ወዘይቤሉክሙ።</l>
-               <l n="18">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=18"/>ከመ፡ በደኃሪ፡ መዋዕል፡ ይመጽኡ፡ መስሕታን። እለ፡ ይሜህሩ፡ በፍትወተ፡ ልቦሙ፡ ወያስሕቱ፡ በኀጣውኢሆሙ።</l>
-               <l n="19">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=19"/>እሉ፡ እሙንቱ፡ እለ፡ ይስሕቡ፡ በጌጋዮሙ። ወያስሕቱ፡ በፍትወተ፡ ነፍሶሙ፡ ወመንፈስ፡ ቅዱስ፡ አልቦሙ።</l>
-               <l n="20">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=20"/>ወአንትሙሰ፡ አኀዊነ፡ ሕንጹ፡ ርእሰክሙ፡ በሃይማኖት፡ ቅድስት፡ ወበመንፈስ፡ ቅዱስ፡ ጸልዩ።</l>
-               <l n="21">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=21"/>ወበፍቅሩ፡ ለእግዚአብሔር፡ ተዐቀቡ። ወተሰፈውዋ፡ ለምሕረቱ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ እንተ፡ ሕይወት፡ ዘለዓለመ፡ ዓለም።</l>
-               <l n="22">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=22"/>እስመ፡ ቦ፡ ለዘትዘልፍዎ፡ በእንተ፡ ኀጢአቱ፡ ወቦ፡ ለዘትምሕርዎ።</l>
-               <l n="23">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=23"/>ወቦ፡ ለዘታድኅንዎ፡ እምውስተ፡ እሳት፡ ወትባልሕዎ። ወቦ፡ ዘይድኅን፡ ፈሪሆ፡ ወነሲሖ። ወቦ፡ እለ፡ ጸሊኦሙ፡ ዘቀዲሙ፡ ጌጋዮሙ፡ ኀደጉ፡ ዐራዘ፡ ጥልቀተ፡ ዝሙቶሙ።</l>
-               <l n="24">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=24"/>ወይክል፡ እግዚአብሔር፡ መድኀኒነ፡ ዐቂቦተክሙ፡ ዘእንበለ፡ ጌጋይ። ወአቅሞተክሙ፡ ቅድመ፡ ስብሐቲሁ፡ ንጹሓኒክሙ፡ በትፍሥሕት።</l>
-               <l n="25">
-                  <ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=25"/>በእደዊሁ፡ ለእግዚእነ፡ ወመድኀኒነ፡ ኢየሱስ፡ ክርስቶስ። ዘሎቱ፡ ስብሐት፡ ወዕበይ፡ ወኀይል፡ ወሥልጣን፡ እምቅድመ፡ ኵሉ፡ ፍጥረተ፡ ዓለም፡ ይእዜኒ፡ ወዘልፈኒ። ወለኵሉ፡ ዓለማት፡ ዘይመጽእ፡ አሜን።</l>
-            </ab>
-         </div>
-      </body>
-   </text></TEI>
+            <t:listBibl type="editions">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/JQ8WXBQV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Uhlig1993Katholischen"/><title level="m">Novum Testamentum Aethiopice: Die katholischen Briefe</title><title level="s">Aethiopistische Forschungen</title><editor><t:forename>Josef</t:forename><t:surname>Hofmann</t:surname></editor><editor><t:forename>Siegbert</t:forename><t:surname>Uhlig</t:surname></editor><pubPlace>Stuttgart</pubPlace><publisher>Franz Steiner</publisher><date>1993</date><series><t:title level="s">Aethiopistische Forschungen</t:title><t:biblScope unit="volume">29</t:biblScope></series><biblScope unit="volume">29</biblScope></t:bibl>
+            </t:listBibl>
+         </t:div>
+         <t:div type="edition" xml:lang="gez">
+            <t:ab>
+               <t:l>በእንተ፡ ሃይማኖት፡ ዘለቅዱሳን</t:l>
+               <t:l n="1">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=1"/>እምይሁዳ፡ ገብረ፡ እግዚአብሔር፡ ወኢየሱስ፡ ክርስቶስ፡ እኁሁ፡ ለያዕቆብ። ለእለ፡ ያፈቅርዎ፡ ለእግዚአብሔር፡ አብ፡ ስሙያን፡ ወጽዉዓን፡ በኢየሱስ፡ ክርስቶስ።</t:l>
+               <t:l n="2">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=2"/>ሰላም፡ ለክሙ፡ ወተፋቅሮ፡ ወሣህል፡ ይብዛኅ፡ ማእከሌክሙ።</t:l>
+               <t:l n="3">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=3"/>አኀዊነ፡ በኵሉ፡ አስተፋጠንኩ፡ ከመ፡ እጽሐፍ፡ ለክሙ፡ በእንተ፡ ሕይወተ፡ ኵልነ። እስመ፡ ጥቀ፡ እጽሕፍ፡ ለክሙ፡ ጽሑቀ። ወአስተበቊዐክሙ፡ ከመ፡ ትትቀነይዋ፡ ለእንተ፡ ተውህበት፡ ለቅዱሳን፡ ሃይማኖት።</t:l>
+               <t:l n="4">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=4"/>እስመ፡ ተደመሩ፡ ብክሙ፡ ሰብእ፡ ረሲዓን፡ እለ፡ ጽሑፋን፡ ቀዲሙ፡ ለዝንቱ፡ ደይን። እለ፡ ያፈልስዋ፡ ለጸጋ፡ እግዚአብሔር፡ ውስተ፡ ዝሙቶሙ። ወይክሕድዎ፡ ለዘውእቱ፡ ባሕቲቱ፡ ንጉሥ፡ እግዚእነ፡ ኢየሱስ፡ ክርስቶስ።</t:l>
+               <t:l>በእንተ፡ አዘክሮተ፡ ቀዳማይ</t:l>
+               <t:l n="5">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=5"/>ወተአምሩ፡ ምዕረሰ፡ ከመ፡ ኢየሱስ፡ አድኀነ፡ ሕዝቦ፡ እምድረ፡ ግብጽ። ወበዳግምሰ፡ ለእለ፡ ኢአምኑ፡ አጥፍኦሙ።</t:l>
+               <t:l n="6">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=6"/>ወለመላእክቲሁኒ፡ እለ፡ ኢዐቀቡ፡ ፍጥረቶሙ፡ ወኀደግዋ፡ ለሥርዐቶሙ፡ ውስተ፡ ደይን። አንበሮሙ፡ ወተዐሰሩ፡ ለዕለት፡ ዐባይ፡ በዘለሊሆሙ፡ አቅነዩ፡ ርእሶሙ።</t:l>
+               <t:l n="7">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=7"/>ወከማሁ፡ ሰዶምኒ፡ ወገሞራ፡ ወአህጉርኒ፡ እለ፡ ምስሌሆን፡ ወበአርአያሆን፡ ዘመዋ። ወተለዋሆን፡ በፍትወተ፡ ዝሙት። ሤሞሙ፡ ውስተ፡ ደይን፡ ዘለዓለም፡ ወተመጠዋ፡ ኵነኔሆን።</t:l>
+               <t:l n="8">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=8"/>ወከማሁ፡ እሉኒ፡ እለ፡ በሕልሞሙ፡ ያጌምኑ፡ ሥጋሆሙ። ወይክሕድዎ፡ ለእግዚኦሙ፡ ወይፀርፉ፡ ላዕለ፡ ስብሐቲሁ።</t:l>
+               <t:l>በእንተ፡ ተግሣጽ፡ ወምክር፡ ለኃጥኣን</t:l>
+               <t:l n="9">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=9"/>ወሚካኤልኒ፡ ሊቀ፡ መላእክት፡ አመ፡ ይትባሀሎ፡ ለሰይጣን፡ በእንተ፡ ሥጋሁ፡ ለሙሴ። ኢተኀበለ፡ ቃለ፡ ፅርፈት፡ ይንብብ፡ አላ፡ ይቤሎ፡ ይሒስከ፡ እግዚአብሔር።</t:l>
+               <t:l n="10">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=10"/>ወእሉሰ፡ እለ፡ ይፀርፉ፡ እሙንቱ፡ ይኤብሱ፡ በዘኢየአምሩ። ወኅሊናተሰ፡ ዘሥጋ፡ የአምሩ፡ ከመ፡ እንስሳ፡ ወባቲ፡ ይሤረዉ።</t:l>
+               <t:l n="11">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=11"/>አሌ፡ ሎሙ፡ እስመ፡ በፍኖተ፡ ቃየል፡ ሖሩ። ወበዐስበ፡ ጌጋዩ፡ ለበለዓም፡ ውዕዩ፡ ወበካሕዱ፡ ለቆሬ፡ ወእለ፡ ምስሌሁ፡ ተሀጕሉ።</t:l>
+               <t:l n="12">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=12"/>እሉ፡ እሙንቱ፡ እለ፡ በፍቅር፡ አፍቀሩክሙ፡ ከመ፡ ያስሕቱክሙ፡ ተባዕያን፡ ለኀጢአቶሙ። ወየሐውሩ፡ በፍትወተ፡ ልቦሙ፡ ወዘእንበለ፡ ፍርሀት፡ ይሬእዩ፡ ርእሶሙ። ወከመ፡ ደመና፡ እሙንቱ፡ እንተ፡ አልባቲ፡ ዝናም፡ እንተ፡ ትትሀወክ፡ እምነፋስ። ወከመ፡ ዕፀዋትኒ፡ ይቡሳት፡ እለ፡ አልቦን፡ ፍሬ፡ እለ፡ ካዕበ፡ ሞታ፡ ወተሠረዋ።</t:l>
+               <t:l n="13">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=13"/>ወከመ፡ ሞገዳተ፡ ባሕር፡ እሙንቱ፡ እቡዳት፡ እለ፡ ያፈልሕዋ፡ ለኀሳሮሙ። ወከመ፡ ከዋክብት፡ ጽልሙታን፡ እለ፡ ለፍጻሜ፡ ጽልመቶሙ፡ ደይን፡ ይጸንሖሙ፡ ለዓለመ፡ ዓለም።</t:l>
+               <t:l n="14">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=14"/>በከመ፡ ተነበየ፡ ሄኖክ፡ በእንቲኣሆሙ፡ ዘውእቱ፡ ሳብዕ፡ እምአዳም፡ ወይቤ። ናሁ፡ ይመጽእ፡ እግዚአብሔር፡ በአእላፊሁ፡ ቅዱሳን፡ መላእክት፡ ከመ፡ ይግበር፡ ኵነኔ።</t:l>
+               <t:l n="15">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=15"/>ወይፈድዮ፡ ለኵሉ፡ በከመ፡ ምግባሩ። ወይዛለፎሙ፡ ለኵሎሙ፡ ኃጥኣን፡ በእንተ፡ ኵሉ፡ ግብረ፡ ኀጣውኢሆሙ፡ ዘአበሱ። ወበእንተ፡ ኵሉ፡ ዘነበቡ፡ ላዕሌሁ፡ ዘኢይከውን፡ ቃለ፡ ኃጥኣን፡ ወጽልሕዋን።</t:l>
+               <t:l n="16">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=16"/>እሉ፡ እሙንቱ፡ እለ፡ ያንጐረጕሩ፡ እስመ፡ ቅቡጻን፡ ተስፋሆሙ፡ እለ፡ የሐውሩ፡ በፍትወተ፡ ልቦሙ። ወአፉሆሙኒ፡ ይነብብ፡ ትዕቢተ፡ ወያስተብዕሉ፡ ወያደልዉ፡ ለገጽ። ወዝ፡ ኵሉ፡ ዘይገብሩ፡ ከመ፡ ይርብሖሙ።</t:l>
+               <t:l n="17">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=17"/>ወአንትሙሰ፡ አኀዊነ፡ ተዘከሩ። ቃለ፡ ዘነገሩክሙ፡ ቀዲሙ፡ ሐዋርያቲሁ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ወዘይቤሉክሙ።</t:l>
+               <t:l n="18">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=18"/>ከመ፡ በደኃሪ፡ መዋዕል፡ ይመጽኡ፡ መስሕታን። እለ፡ ይሜህሩ፡ በፍትወተ፡ ልቦሙ፡ ወያስሕቱ፡ በኀጣውኢሆሙ።</t:l>
+               <t:l n="19">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=19"/>እሉ፡ እሙንቱ፡ እለ፡ ይስሕቡ፡ በጌጋዮሙ። ወያስሕቱ፡ በፍትወተ፡ ነፍሶሙ፡ ወመንፈስ፡ ቅዱስ፡ አልቦሙ።</t:l>
+               <t:l n="20">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=20"/>ወአንትሙሰ፡ አኀዊነ፡ ሕንጹ፡ ርእሰክሙ፡ በሃይማኖት፡ ቅድስት፡ ወበመንፈስ፡ ቅዱስ፡ ጸልዩ።</t:l>
+               <t:l n="21">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=21"/>ወበፍቅሩ፡ ለእግዚአብሔር፡ ተዐቀቡ። ወተሰፈውዋ፡ ለምሕረቱ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ እንተ፡ ሕይወት፡ ዘለዓለመ፡ ዓለም።</t:l>
+               <t:l n="22">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=22"/>እስመ፡ ቦ፡ ለዘትዘልፍዎ፡ በእንተ፡ ኀጢአቱ፡ ወቦ፡ ለዘትምሕርዎ።</t:l>
+               <t:l n="23">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=23"/>ወቦ፡ ለዘታድኅንዎ፡ እምውስተ፡ እሳት፡ ወትባልሕዎ። ወቦ፡ ዘይድኅን፡ ፈሪሆ፡ ወነሲሖ። ወቦ፡ እለ፡ ጸሊኦሙ፡ ዘቀዲሙ፡ ጌጋዮሙ፡ ኀደጉ፡ ዐራዘ፡ ጥልቀተ፡ ዝሙቶሙ።</t:l>
+               <t:l n="24">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=24"/>ወይክል፡ እግዚአብሔር፡ መድኀኒነ፡ ዐቂቦተክሙ፡ ዘእንበለ፡ ጌጋይ። ወአቅሞተክሙ፡ ቅድመ፡ ስብሐቲሁ፡ ንጹሓኒክሙ፡ በትፍሥሕት።</t:l>
+               <t:l n="25">
+                  <t:ref target="http://classic.net.bible.org/verse.php?book=Jud&amp;chapter=1&amp;verse=25"/>በእደዊሁ፡ ለእግዚእነ፡ ወመድኀኒነ፡ ኢየሱስ፡ ክርስቶስ። ዘሎቱ፡ ስብሐት፡ ወዕበይ፡ ወኀይል፡ ወሥልጣን፡ እምቅድመ፡ ኵሉ፡ ፍጥረተ፡ ዓለም፡ ይእዜኒ፡ ወዘልፈኒ። ወለኵሉ፡ ዓለማት፡ ዘይመጽእ፡ አሜን።</t:l>
+            </t:ab>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

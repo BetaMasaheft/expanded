@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT4969EdictGala"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt><title type="full">Edict of King Galāwdewos</title>
                 <title xml:lang="gez" xml:id="t1">Edict of King Galāwdewos</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="SG" corresp="https://betamasaheft.eu/team.html#SG" xml:id="SG">Solomon Gebreyes</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt></titleStmt>
+            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt></titleStmt>
             <editionStmt>
                 <p>Digital text based on <bibl corresp="http://zotero.org/groups/358366/items/9NSDW5G8"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Habtamu2016Edict"/><title level="a">The Edict of King Gälawdéwos Against the Illegal Slave Trade in Christians: Ethiopia, 1548</title><title level="j">The Medieval Globe</title><author><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Habtamu Mengistie Tegegne</t:name></author><date>2016</date><biblScope unit="volume">2</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">73-114</biblScope><note type="url">https://scholarworks.wmich.edu/tmg/vol2/iss2/5/</note></bibl>.</p>
             </editionStmt>
@@ -20,7 +21,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">2.7.2025 at 14:52:41</date><date type="lastModified">16.5.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT4969EdictGala/main</idno><idno type="URI">https://betamasaheft.eu/LIT4969EdictGala</idno><idno type="filename">LIT4969EdictGala.xml</idno><idno type="ID">LIT4969EdictGala</idno></publicationStmt>
+            <date type="expanded">10.10.2025 at 23:22:39</date><date type="lastModified">16.5.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT4969EdictGala/main</idno><idno type="URI">https://betamasaheft.eu/LIT4969EdictGala</idno><idno type="filename">LIT4969EdictGala.xml</idno><idno type="ID">LIT4969EdictGala</idno></publicationStmt>
             <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -32,7 +33,7 @@
             <creation when="1548"> it was written at <placeName ref="https://betamasaheft.eu/LOC6847Agraro">ʾAgrāro</placeName>, which was then the royal seat of King 
                 <persName ref="https://betamasaheft.eu/PRS4428Galawdew">Galāwdewos</persName>.
             </creation>
-            <langUsage><language ident="gez">Gǝʿǝz</language></langUsage>
+            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0"><language ident="gez">Gǝʿǝz</language></t:langUsage>
             <abstract>
                 <p>
                     It is a royal edict banning the trafficking of Christians and their sale to Arab owners
@@ -44,7 +45,7 @@
                     <term key="LegalDocument" ana="#LegalDocument"/>
                 </keywords>
             </textClass>
-            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0"><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></t:langUsage>
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
         
@@ -60,87 +61,87 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="paragraph" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="paragraph" match="t:div" use="t:div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
         
-        <revisionDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change who="#SG" when="2018-05-16"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
             <change who="#SG" when="2018-05-16"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->encoded the text
             </change>
-        </revisionDesc>
+        </t:revisionDesc>
     </teiHeader><standOff><listRelation>
                     <relation name="saws:isAttributedToAuthor" ref="http://purl.org/saws/ontology#isAttributedToAuthor" active="https://betamasaheft.eu/LIT4969EdictGala" passive="https://betamasaheft.eu/PRS4428Galawdew">
                         
                     </relation>
-                </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-        <body>
-            <div type="bibliography">
-                <listBibl type="editions">
-                    <bibl corresp="http://zotero.org/groups/358366/items/9NSDW5G8"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Habtamu2016Edict"/><title level="a">The Edict of King Gälawdéwos Against the Illegal Slave Trade in Christians: Ethiopia, 1548</title><title level="j">The Medieval Globe</title><author><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Habtamu Mengistie Tegegne</t:name></author><date>2016</date><biblScope unit="volume">2</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">73-114</biblScope><note type="url">https://scholarworks.wmich.edu/tmg/vol2/iss2/5/</note></bibl>
+                </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+        <t:body>
+            <t:div type="bibliography">
+                <t:listBibl type="editions">
+                    <t:bibl corresp="http://zotero.org/groups/358366/items/9NSDW5G8"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Habtamu2016Edict"/><title level="a">The Edict of King Gälawdéwos Against the Illegal Slave Trade in Christians: Ethiopia, 1548</title><title level="j">The Medieval Globe</title><author><t:name>Habtamu Mengistie Tegegne</t:name></author><date>2016</date><biblScope unit="volume">2</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">73-114</biblScope><note type="url">https://scholarworks.wmich.edu/tmg/vol2/iss2/5/</note></t:bibl>
                     
-                </listBibl>
-            </div>
-            <div type="edition" xml:lang="gez"> 
+                </t:listBibl>
+            </t:div>
+            <t:div type="edition" xml:lang="gez"> 
                 
-                <div type="textpart" subtype="paragraph" n="1">
-                    <ab>በስመ፡ ሥሉስ፡ ቅዱስ፡ ዘይሴባሕ፡ ስሙ፡ ወይትሌዐል፡ ዝክሩ፡ ወውእቱ፡ ረዳእየ፡ ወቦቱ፡ እትዌከል፡ ወበረድኤቱ፡ አሰምከ፡ ወበኃይሉ፡ 
-                        እትፌሣሕ፡ ሎቱ፡ ኃይል፡ ወስብሓት፡ ወሎቱ፡ ክብር፡ ወዕዘዝ፡ በኵሉ፡ ዓለማት፡ ለዓለመ፡ ዓለም፡ አሜን።</ab>
-                </div>
-                <div type="textpart" subtype="paragraph" n="2">
-                    <ab>አነ፡ <persName ref="https://betamasaheft.eu/PRS4428Galawdew">
-                     <roleName type="title">ንጉሥ፡</roleName> ገላውዴዎስ፡</persName>
-                        ወልደ፡ <persName ref="https://betamasaheft.eu/PRS6229LebnaDe"> 
-                     <roleName type="title">ንጉሥ፡</roleName> ወናግ፡ ሰገድ።</persName> አዘዝኩ፡ 
+                <t:div type="textpart" subtype="paragraph" n="1">
+                    <t:ab>በስመ፡ ሥሉስ፡ ቅዱስ፡ ዘይሴባሕ፡ ስሙ፡ ወይትሌዐል፡ ዝክሩ፡ ወውእቱ፡ ረዳእየ፡ ወቦቱ፡ እትዌከል፡ ወበረድኤቱ፡ አሰምከ፡ ወበኃይሉ፡ 
+                        እትፌሣሕ፡ ሎቱ፡ ኃይል፡ ወስብሓት፡ ወሎቱ፡ ክብር፡ ወዕዘዝ፡ በኵሉ፡ ዓለማት፡ ለዓለመ፡ ዓለም፡ አሜን።</t:ab>
+                </t:div>
+                <t:div type="textpart" subtype="paragraph" n="2">
+                    <t:ab>አነ፡ <t:persName ref="https://betamasaheft.eu/PRS4428Galawdew">
+                     <t:roleName type="title">ንጉሥ፡</t:roleName> ገላውዴዎስ፡</t:persName>
+                        ወልደ፡ <t:persName ref="https://betamasaheft.eu/PRS6229LebnaDe"> 
+                     <t:roleName type="title">ንጉሥ፡</t:roleName> ወናግ፡ ሰገድ።</t:persName> አዘዝኩ፡ 
                         እምይእዜ፡ ከመ፡ ኢይረድ፡ ነጋዲ፡ ኢእስላም፡ 
-                        ወኢክርስቲያን፡ ኀበ፡ ባሕረ፡ ወኀበ፡ <placeName ref="https://betamasaheft.eu/LOC1095Adal">ዓዳል፡</placeName> አው፡ ኀበ፡ ኵሉ፡ መከን። 
+                        ወኢክርስቲያን፡ ኀበ፡ ባሕረ፡ ወኀበ፡ <t:placeName ref="https://betamasaheft.eu/LOC1095Adal">ዓዳል፡</t:placeName> አው፡ ኀበ፡ ኵሉ፡ መከን። 
                         ዘየሐውሩ፡ ውስቴታ፡ ነጋድያን።
                         ዘእንበለ፡ ይብጸሕ፡ ኀበ፡ ዴዴየ፡ ወያምጽእ፡ ኵሎ፡ አግብርተ፡ ዘውስቴቱ፡ ተባዕተ፡ ወአንስተ፡ ኀቤየ፡ ወዘእንበለ፡ 
-                        ይጽሐፍ፡ ሎቱ፡ ክታበ፡ ኍልቆሙ፡ ለአግብርቲሁ፡ ከመ፡ ያርኢ፡ ለመኳንንት፡ ወለመሳፍንት፡ ወለስዩማን፡ ሀገር፡ ዘውስተ፡ ፍኖት።</ab>
-                </div>
-                <div type="textpart" subtype="paragraph" n="3">
-                    <ab>ወኵሉ፡ ዘተረከበ፡ ምስሌሁ፡ ምንትኒ፡ ዘይተርፍ፡ እምኍልቍ፡ ዘተጽሕፈ፡ ይንሥኡ፡ እምኔሁ። ወኵሉ፡ ዘተረክበ፡ ምስሌሁ፡ 
+                        ይጽሐፍ፡ ሎቱ፡ ክታበ፡ ኍልቆሙ፡ ለአግብርቲሁ፡ ከመ፡ ያርኢ፡ ለመኳንንት፡ ወለመሳፍንት፡ ወለስዩማን፡ ሀገር፡ ዘውስተ፡ ፍኖት።</t:ab>
+                </t:div>
+                <t:div type="textpart" subtype="paragraph" n="3">
+                    <t:ab>ወኵሉ፡ ዘተረከበ፡ ምስሌሁ፡ ምንትኒ፡ ዘይተርፍ፡ እምኍልቍ፡ ዘተጽሕፈ፡ ይንሥኡ፡ እምኔሁ። ወኵሉ፡ ዘተረክበ፡ ምስሌሁ፡ 
                         ገብር፡ ክርስቲያናዊ፡ ወእመ፡ ኮነ፡ ውእቱ፡ እምደቂቀ፡ ዓረብ፡ ይንሥኡ፡  ኵሎ፡ ንዋዮ፡ ወይፈንው፡ ኀቤየ። 
                         ወዘሤጦ፡ ለገብር፡ ክርስቲያናዊ፡ በውስተ፡ ምስያጥ፡ ይቅትልዎ። ወእመሰ፡ ኮነ፡ ነጋዲ፡ ዘሤጦ፡ ለክርስቲያናዊ።
-                        እመሂ፡ እስላም፡ ወእመሂ፡ ክርስቲያን፡ እምሰብአ፡ ሀገረ፡ <placeName ref="https://betamasaheft.eu/LOC3010Ethiop">ኢትዮጵያ፡</placeName> ይቀትል፡ ዘሤጦ።</ab>
-                </div>
-                <div type="textpart" subtype="paragraph" n="4">
-                    <ab>ወለተሳየጦሂ፡ እምደቂቀ፡ ዐረብ፡ እንዘ፡ የአምር፡ ከመ፡ ውእቱ፡ ክርስቲያናዊ፡ ይንሥእዎ፡  
-                        ኵሎ፡ ንዋዮ። ኵሉ፡ <roleName type="office">አዛዢ።</roleName> 
-                        አው፡ <roleName type="office">ፈታሕት፡</roleName> አው፡ <roleName type="office">መኮንን፡</roleName> አው፡ 
-                        <roleName type="office">ስዩመ፡</roleName> ሀገረ፡ ዘኢይፈትሕ፡ በዘ፡ አዘዝነ፡ ቦቱ፡
+                        እመሂ፡ እስላም፡ ወእመሂ፡ ክርስቲያን፡ እምሰብአ፡ ሀገረ፡ <t:placeName ref="https://betamasaheft.eu/LOC3010Ethiop">ኢትዮጵያ፡</t:placeName> ይቀትል፡ ዘሤጦ።</t:ab>
+                </t:div>
+                <t:div type="textpart" subtype="paragraph" n="4">
+                    <t:ab>ወለተሳየጦሂ፡ እምደቂቀ፡ ዐረብ፡ እንዘ፡ የአምር፡ ከመ፡ ውእቱ፡ ክርስቲያናዊ፡ ይንሥእዎ፡  
+                        ኵሎ፡ ንዋዮ። ኵሉ፡ <t:roleName type="office">አዛዢ።</t:roleName> 
+                        አው፡ <t:roleName type="office">ፈታሕት፡</t:roleName> አው፡ <t:roleName type="office">መኮንን፡</t:roleName> አው፡ 
+                        <t:roleName type="office">ስዩመ፡</t:roleName> ሀገረ፡ ዘኢይፈትሕ፡ በዘ፡ አዘዝነ፡ ቦቱ፡
                         ይትቀተል፡ ዘእንበለ፡ ምሕረት፡ ወይትበርበር፡ ኵሉ፡ ንዋዩ፡ ወይኩን፡ ውጉዘ፡ በአፈ፡ 
-                        አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ወበአፈ፡ ኵሎሙ፡ አበው፡ ዘተወክፈቶሙ፡ ቤተ ክርስቲያን። </ab>
-                </div>
-                <div type="textpart" subtype="paragraph" n="5">
-                    <ab>ወአነ፡ <persName ref="https://betamasaheft.eu/PRS4428Galawdew">
-                     <roleName type="title">ንጉሥ፡</roleName> ገላውዴዎስ፡</persName> 
+                        አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ወበአፈ፡ ኵሎሙ፡ አበው፡ ዘተወክፈቶሙ፡ ቤተ ክርስቲያን። </t:ab>
+                </t:div>
+                <t:div type="textpart" subtype="paragraph" n="5">
+                    <t:ab>ወአነ፡ <t:persName ref="https://betamasaheft.eu/PRS4428Galawdew">
+                     <t:roleName type="title">ንጉሥ፡</t:roleName> ገላውዴዎስ፡</t:persName> 
                         ፈታሕኩ፡ ፍትሐ፡ ወአጽናዕኩ፡ ዘንተ፡ ክታበ።  ወትኩን፡ ዛቲ፡ ሕገ፡ ወሥርዓት፡ ጽንዕተ፡ በምድረ፡ 
-                        <placeName ref="https://betamasaheft.eu/LOC3010Ethiop">ኢትዮጵያ፡</placeName> እስከ፡ ለዓለመ፡ ዓለም። ወኵሉ፡ ዘተዐደዋ፡ እምነገሥታት፡ እምድኅሬየ፡ አው፡ እምፈታሕት፡ ይኩን፡ ታሕተ፡ ግዘት፡ 
+                        <t:placeName ref="https://betamasaheft.eu/LOC3010Ethiop">ኢትዮጵያ፡</t:placeName> እስከ፡ ለዓለመ፡ ዓለም። ወኵሉ፡ ዘተዐደዋ፡ እምነገሥታት፡ እምድኅሬየ፡ አው፡ እምፈታሕት፡ ይኩን፡ ታሕተ፡ ግዘት፡ 
                         ወኢይኩን፡ ሎቱ፡ ኅድገተ፡ ኢበሞቱ፡ ወኢበሕይወቱ። ወኵሉ፡ ዘይደመስስ፡ ዘንተ፡ መጽሐፈ፡ አው፡ ዘያደርዖ፡ እምድረ፡ 
-                        <placeName ref="https://betamasaheft.eu/LOC3010Ethiop">ኢትዮጵያ፡</placeName> እግዚአብሔር፡ ይደምስስ፡ ስሞ፡
+                        <t:placeName ref="https://betamasaheft.eu/LOC3010Ethiop">ኢትዮጵያ፡</t:placeName> እግዚአብሔር፡ ይደምስስ፡ ስሞ፡
                         እመጽሐፈ፡ ሕይወት፡ ወይኩን፡ መክፈልቱ፡ ምስለ፡ ሐና፡ 
                         ወቀያፋ፡ ወይሁዳ፡ አስቆሮታዊ። ወሴሞን፡ መሠሪ። ወትፍታሕ፡ ምድር፡ አፉሃ፡ ወትሐጦ፡ በአምሳለ፡ ዳታን፡ ወአቤሮን።
-                        ወዝንቱ፡ ብርዐ፡ እዴየ፡ ትኩን፡ ስምዐ፡ ላዕሌየ።</ab>
-                </div>
-                <div type="textpart" subtype="paragraph" n="6">
-                    <ab>ወተጽሕፈት፡ ዛቲ፡ ክታብ፡ በ<date calendar="ethiopian" when="1548">ዓመተ፡ ሰማዕታት፡ ፲፻ወ፪፻፷ወ፬።</date> ወአመ፡ ፲ወ፰፡ ለወርኃ፡ የካቲት፡ ቡሩክ፡ በ፯ዓመት፡ ወበ፯፡ 
-                        ወርኅ፡ እምአመ፡ አንገሠኒ፡ <persName ref="https://betamasaheft.eu/PRS3697egziabe">እግዚአብሔር።</persName> ስብሐት፡ ለእግዚአብሔር፡ በሰማያት፡ ወሰላም፡ በምድር፡ ሥምረቱ፡ ለሰብእ፡ ለዓለመ፡ ዓለም፡ አሜን።</ab>
-                </div>
-                <div type="textpart" subtype="paragraph" n="7">
-                    <ab>ወእመቦ፡ ዘተሣየጠ፡ ገብረ፡ እም<placeName ref="https://betamasaheft.eu/LOC2488Damot">ዳሞት፡</placeName> አው፡ እም<placeName ref="https://betamasaheft.eu/LOC3260Gamo">ገሞ፡</placeName> 
+                        ወዝንቱ፡ ብርዐ፡ እዴየ፡ ትኩን፡ ስምዐ፡ ላዕሌየ።</t:ab>
+                </t:div>
+                <t:div type="textpart" subtype="paragraph" n="6">
+                    <t:ab>ወተጽሕፈት፡ ዛቲ፡ ክታብ፡ በ<t:date calendar="ethiopian" when="1548">ዓመተ፡ ሰማዕታት፡ ፲፻ወ፪፻፷ወ፬።</t:date> ወአመ፡ ፲ወ፰፡ ለወርኃ፡ የካቲት፡ ቡሩክ፡ በ፯ዓመት፡ ወበ፯፡ 
+                        ወርኅ፡ እምአመ፡ አንገሠኒ፡ <t:persName ref="https://betamasaheft.eu/PRS3697egziabe">እግዚአብሔር።</t:persName> ስብሐት፡ ለእግዚአብሔር፡ በሰማያት፡ ወሰላም፡ በምድር፡ ሥምረቱ፡ ለሰብእ፡ ለዓለመ፡ ዓለም፡ አሜን።</t:ab>
+                </t:div>
+                <t:div type="textpart" subtype="paragraph" n="7">
+                    <t:ab>ወእመቦ፡ ዘተሣየጠ፡ ገብረ፡ እም<t:placeName ref="https://betamasaheft.eu/LOC2488Damot">ዳሞት፡</t:placeName> አው፡ እም<t:placeName ref="https://betamasaheft.eu/LOC3260Gamo">ገሞ፡</t:placeName> 
                         ይጽሐፍ፡ ስመ፡ ብእሲ፡ ዘሤጠ፡ ሎቱ። 
                         ወይጽሐፍ፡ ካዕበ፡ ኍልቆሙ፡ ለአግብርቲሁ፡ ወኆልቈ፡ ንዋይ፡ ዘወሀበ፡ ወያርኢ፡ ለመኳንንት፡ 
                         ወለመሳፍንት፡ ወለሥዩማነ፡ ሀገር፡ ዘውስተ፡ ፍኖት። ወለእመ፡ ኮነ፡ ነገሩ፡ እሙነ፡ ሐቲቶሙ፡ ይፈንውዎ።
-                        ወእመሰ፡ ሞተ፡ ገብር፡ ዘተሣየጦ፡ ውእቱ፡ ብእሲ፡ እም<placeName ref="https://betamasaheft.eu/LOC2488Damot">ዳሞት፡</placeName> ወ<placeName ref="https://betamasaheft.eu/LOC3260Gamo">ገሞ፡</placeName> 
+                        ወእመሰ፡ ሞተ፡ ገብር፡ ዘተሣየጦ፡ ውእቱ፡ ብእሲ፡ እም<t:placeName ref="https://betamasaheft.eu/LOC2488Damot">ዳሞት፡</t:placeName> ወ<t:placeName ref="https://betamasaheft.eu/LOC3260Gamo">ገሞ፡</t:placeName> 
                         ወአምጽአ፡ ከልአ፡ ገብረ፡ ክርስትያናዌ፡
                         ከመ፡ ይምላእ፡ ሎቱ፡ በኆልቍ። ወእመ፡ ተዐውቀ፡ ወተጠየቀ፡ ቦቱ፡ ዝንቱ፡ ነገር፡ ይንሥእዎ፡ ኵሎ፡ ንዋዮ። 
                         ወኪያሁሰ፡ አሢሮሙ፡ ያምጽእዎ፡ ኀቤየ።
-                        ወሶበሰ፡ ይጽሐፍ፡ ይበል፡ ከመዝ፡ ኆላቋ፡ አግብርት፡ ዘተሣየጥኩ፡ እም<placeName ref="https://betamasaheft.eu/LOC2488Damot">ዳሞት፡</placeName> የአከል ዘንተ። 
-                        ወዘተሣየጥኩ፡ እም<placeName ref="https://betamasaheft.eu/LOC3260Gamo">ገሞ፡</placeName> የአክል፡ ዘንተ።
-                        ወይፍልጥ፡ ኵሎ፡ በበስመ፡ ብሔሩ።</ab>
-                </div>
+                        ወሶበሰ፡ ይጽሐፍ፡ ይበል፡ ከመዝ፡ ኆላቋ፡ አግብርት፡ ዘተሣየጥኩ፡ እም<t:placeName ref="https://betamasaheft.eu/LOC2488Damot">ዳሞት፡</t:placeName> የአከል ዘንተ። 
+                        ወዘተሣየጥኩ፡ እም<t:placeName ref="https://betamasaheft.eu/LOC3260Gamo">ገሞ፡</t:placeName> የአክል፡ ዘንተ።
+                        ወይፍልጥ፡ ኵሎ፡ በበስመ፡ ብሔሩ።</t:ab>
+                </t:div>
                
-                      </div>
+                      </t:div>
                
    
-        </body>
-    </text></TEI>
+        </t:body>
+    </t:text></TEI>
