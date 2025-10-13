@@ -1,11 +1,12 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS14406NewayaM"><teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS13107GabraKr"><teiHeader>
         <fileDesc>
-            <titleStmt><title type="full">Nǝwāya Māryām</title>
-                <title>Nǝwāya Māryām</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <titleStmt><title type="full">Gabra Krǝstos</title>
+                <title>Gabra Krǝstos</title> 
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -15,7 +16,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">17.4.2025 at 09:57:16</date><date type="lastModified">12.4.2024</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS14406NewayaM/main</idno><idno type="URI">https://betamasaheft.eu/PRS14406NewayaM</idno><idno type="filename">PRS14406NewayaM.xml</idno><idno type="ID">PRS14406NewayaM</idno></publicationStmt>
+            <date type="expanded">10.10.2025 at 03:29:51</date><date type="lastModified">24.7.2020</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS13107GabraKr/main</idno><idno type="URI">https://betamasaheft.eu/PRS13107GabraKr</idno><idno type="filename">PRS13107GabraKr.xml</idno><idno type="ID">PRS13107GabraKr</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -42,17 +43,17 @@
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
         <revisionDesc>
-            <change who="#DR" when="2024-04-12"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change who="#DR" when="2020-07-24"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
         </revisionDesc>
     </teiHeader><standOff><listRelation>
-                    <relation name="saws:hasOwned" ref="http://purl.org/saws/ontology#hasOwned" active="https://betamasaheft.eu/PRS14406NewayaM" passive="https://betamasaheft.eu/BAVet153"/>
+                    <relation name="saws:isCopierOf" ref="http://purl.org/saws/ontology#isCopierOf" active="https://betamasaheft.eu/PRS13107GabraKr" passive="https://betamasaheft.eu/BDLaethb5"/>
                 </listRelation></standOff><text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ንዋየ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Nǝwāya Māryām</persName>
-                    <floruit when="1924"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ክርስቶስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Krǝstos</persName>
+                    <floruit notBefore="1711" notAfter="1716"/>
                 </person>
                 
             </listPerson>
