@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="BDLaethf16"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Oxford, Bodleian Library, Bodleian Aeth. f. 16</title>
             <title>Prayers by Philoxenos of Mabbug and liturgical prayers</title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
-            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,7 +15,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">2.12.2024 at 15:45:04</date><date type="lastModified">2.12.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLaethf16/main</idno><idno type="URI">https://betamasaheft.eu/BDLaethf16</idno><idno type="filename">BDLaethf16.xml</idno><idno type="ID">BDLaethf16</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 00:58:04</date><date type="lastModified">2.12.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLaethf16/main</idno><idno type="URI">https://betamasaheft.eu/BDLaethf16</idno><idno type="filename">BDLaethf16.xml</idno><idno type="ID">BDLaethf16</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                   <msIdentifier>
@@ -30,102 +31,84 @@
                   <summary/>
                   
                   <msItem xml:id="ms_i1">
-                     <locus from="3r">Fols 3r and following</locus>
+                     <locus from="3r"/>
                      <title type="incomplete">Miscellaneous prayers</title>
                      <textLang mainLang="gez"/>
                      <note>Incomplete at the beginning.</note>
                   </msItem>
                   
                   <msItem xml:id="ms_i2">
-                     <locus from="44v" to="56v">Fols 44v–56v</locus>
+                     <locus from="44v" to="56v"/>
                      <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT2444Temher">ትምህርተ፡ ኅቡዓት፡</title>
                      <textLang mainLang="gez"/>
                   </msItem>
                   
                      <msItem xml:id="ms_i3">
-                        <locus from="57r">Fols 57r and following</locus>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer">Prayer by Philoxenus
-                                                  of Mabbug</title>
+                        <locus from="57r"/>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer">Prayer by Philoxenus of Mabbug</title>
                         <textLang mainLang="gez"/>
                    
                   
                      <msItem xml:id="ms_i3.1">
-                        <locus from="57r">Fols 57r and following</locus>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer#Monday">Prayer by
-                                                  Philoxenus of Mabbug, No item: chapter:
-                                                  Monday</title>
+                        <locus from="57r"/>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer#Monday">Prayer by Philoxenus of Mabbug: chapter: Monday</title>
                         <textLang mainLang="gez"/>
                      </msItem>
                   
                         <msItem xml:id="ms_i3.2">
-                        <locus from="58v">Fols 58v and following</locus>
-                           <title type="incomplete" ref="https://betamasaheft.eu/LIT3990Prayer#Tuesday">Prayer by
-                                                  Philoxenus of Mabbug, No item: chapter:
-                                                  Tuesday</title>
+                        <locus from="58v"/>
+                           <title type="incomplete" ref="https://betamasaheft.eu/LIT3990Prayer#Tuesday">Prayer by Philoxenus of Mabbug: chapter: Tuesday</title>
                         <textLang mainLang="gez"/>
-                           <note>Between <locus target="#58">fols. 58, </locus> and <locus target="#59">59</locus> something is missing,
+                           <note>Between <locus target="#58"/> and <locus target="#59"/> something is missing,
                            since these two folios are not consecutive in contents.</note>
                      </msItem>
                   
                         <msItem xml:id="ms_i3.3">
-                        <locus from="60r">Fols 60r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer#Wednesday">Prayer by
-                                                  Philoxenus of Mabbug, No item: chapter:
-                                                  Wednesday</title>
+                        <locus from="60r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer#Wednesday">Prayer by Philoxenus of Mabbug: chapter: Wednesday</title>
                         <textLang mainLang="gez"/>
                      </msItem>
                   
                         <msItem xml:id="ms_i3.4">
-                        <locus from="62v">Fols 62v and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer#Thursday">Prayer by
-                                                  Philoxenus of Mabbug, No item: chapter:
-                                                  Thursday</title>
+                        <locus from="62v"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer#Thursday">Prayer by Philoxenus of Mabbug: chapter: Thursday</title>
                         <textLang mainLang="gez"/>
                      </msItem>
                   
                         <msItem xml:id="ms_i3.5">
-                        <locus from="65v">Fols 65v and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer#Friday">Prayer by
-                                                  Philoxenus of Mabbug, No item: chapter:
-                                                  Friday</title>
+                        <locus from="65v"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer#Friday">Prayer by Philoxenus of Mabbug: chapter: Friday</title>
                         <textLang mainLang="gez"/>
                      </msItem>
                         
                         <msItem xml:id="ms_i3.6">
-                           <locus from="69r">Fols 69r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer#Saturday">Prayer by
-                                                  Philoxenus of Mabbug, No item: chapter:
-                                                  Saturday</title>
+                           <locus from="69r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer#Saturday">Prayer by Philoxenus of Mabbug: chapter: Saturday</title>
                            <textLang mainLang="gez"/>
                         </msItem>
                   
                         <msItem xml:id="ms_i3.7">
-                        <locus from="72v">Fols 72v and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer#Sunday">Prayer by
-                                                  Philoxenus of Mabbug, No item: chapter:
-                                                  Sunday</title>
+                        <locus from="72v"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT3990Prayer#Sunday">Prayer by Philoxenus of Mabbug: chapter: Sunday</title>
                         <textLang mainLang="gez"/>
                      </msItem>
                      </msItem>
                   
                   <msItem xml:id="ms_i4">
-                     <locus from="77r" to="78v">Fols 77r–78v</locus>
-                     <title type="complete" ref="https://betamasaheft.eu/LIT1191Baenta">Baʾǝnta
-                                                  śǝllāseka</title>
+                     <locus from="77r" to="78v"/>
+                     <title type="complete" ref="https://betamasaheft.eu/LIT1191Baenta">Baʾǝnta śǝllāseka</title>
                      <textLang mainLang="gez"/> 
                   </msItem>
                   
                   <msItem xml:id="ms_i5">
-                     <locus from="78v" to="84r">Fols 78v–84r</locus>
-                     <title type="complete" ref="https://betamasaheft.eu/LIT2082Otawar">ʾO
-                                                  za-waradka...</title>
+                     <locus from="78v" to="84r"/>
+                     <title type="complete" ref="https://betamasaheft.eu/LIT2082Otawar">ʾO za-waradka...</title>
                      <textLang mainLang="gez"/>
                   </msItem>
                   
                   <msItem xml:id="ms_i6">
-                     <locus from="84r">Fols 84r and following</locus>
-                     <title type="incomplete" ref="https://betamasaheft.eu/LIT4515Hymn">Hymn to Jesus
-                                                  Christ</title> 
+                     <locus from="84r"/>
+                     <title type="incomplete" ref="https://betamasaheft.eu/LIT4515Hymn">Hymn to Jesus Christ</title> 
                      
                      <textLang mainLang="gez"/>
                      <incipit xml:lang="gez">ጸሎት፡ ወስእለት፡ ወአስተብቍዖት፡ ዘትበቍዕ፡ ለመድኃኒተ፡ ሥጋ፡ ወነፍስ፡ 
@@ -143,7 +126,7 @@
                         <extent>
                            <measure unit="leaf">90</measure> 
                            <measure unit="leaf" type="blank">2</measure>
-                           <locus target="#89 #90">Fols. 89, 90</locus>
+                           <locus target="#89 #90"/>
                            <dimensions type="outer" unit="in">
                               <height>5</height>
                               <width>3.5</width>
@@ -172,12 +155,12 @@
                   <additions>
                      <list>
                         <item xml:id="e1">
-                           <locus from="1" to="2">Fols 1–2</locus>
+                           <locus from="1" to="2"/>
                            <desc>Scribbles.</desc> 
                            <q xml:lang="gez"/>
                         </item>
                         <item xml:id="e2">
-                           <locus target="#88">Fol. 88</locus>
+                           <locus target="#88"/>
                            <desc>Scribbles.</desc> 
                            <q xml:lang="gez"/>
                         </item>
@@ -217,7 +200,7 @@
                                  <bibl corresp="http://zotero.org/groups/358366/items/MRGDEBVC"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Ullendorff1951Catalogue"/><title level="m">Catalogue of Ethiopian Manuscripts in the Bodleian Library</title><title level="s">Catalogi Codd. Mss. Bibliothecae Bodleianae</title><author><forename>Edward</forename><surname>Ullendorff</surname></author><pubPlace>Oxford</pubPlace><publisher>Clarendon Press</publisher><date>1951</date><series><title level="s">Catalogi Codd. Mss. Bibliothecae Bodleianae</title><biblScope unit="volume">7</biblScope></series><biblScope unit="volume">II</biblScope><biblScope unit="volume">7</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Ullendorff1951Catalogue</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Ullendorff1951Catalogue</note><citedRange unit="page">15a</citedRange></bibl>
                               </listBibl>
                               <listBibl type="secondary">
-                                 <bibl corresp="http://zotero.org/groups/358366/items/VDBJW6DR"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Hammerschmidt1960Texte"/><title level="m">Äthiopische liturgische Texte der Bodleian Library in Oxford</title><title level="s">Deutsche Akademie der Wissenschaften zu Berlin, Institut für Orientforschung, Veröffentlichung</title><author><forename>Ernst</forename><surname>Hammerschmidt</surname></author><pubPlace>Berlin</pubPlace><publisher>Akademie-Verlag</publisher><date>1960</date><series><title level="s">Deutsche Akademie der Wissenschaften zu Berlin, Institut für Orientforschung, Veröffentlichung</title><biblScope unit="volume">38</biblScope></series><biblScope unit="volume">38</biblScope><note type="tags"><note type="tag">bm:Hammerschmidt1960Texte</note></note><note type="tag">bm:Hammerschmidt1960Texte</note></bibl>
+                                 <bibl corresp="http://zotero.org/groups/358366/items/VDBJW6DR"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Hammerschmidt1960Texte"/><title level="m">Äthiopische liturgische Texte der Bodleian Library in Oxford</title><title level="s">Deutsche Akademie der Wissenschaften zu Berlin, Institut für Orientforschung, Veröffentlichung</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ernst</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Hammerschmidt</t:surname></author><pubPlace>Berlin</pubPlace><publisher>Akademie-Verlag</publisher><date>1960</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Deutsche Akademie der Wissenschaften zu Berlin, Institut für Orientforschung, Veröffentlichung</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">38</t:biblScope></series><biblScope unit="volume">38</biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -241,30 +224,30 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-      <profileDesc>
-         <textClass>
-            <keywords scheme="#ethioauthlist">
-               <term key="Poetry" ana="#Poetry"/>
-               <term key="Prayers" ana="#Prayers"/>
-               <term key="Magic" ana="#Magic"/>
-               <term key="Liturgy" ana="#Liturgy"/>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="Gon" cert="low" ana="#Gon"/>
-               <term key="ZaMa" cert="low" ana="#ZaMa"/>
-            </keywords>
-         </textClass>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:textClass>
+            <t:keywords scheme="#ethioauthlist">
+               <t:term key="Poetry" ana="#Poetry"/>
+               <t:term key="Prayers" ana="#Prayers"/>
+               <t:term key="Magic" ana="#Magic"/>
+               <t:term key="Liturgy" ana="#Liturgy"/>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Gon" cert="low" ana="#Gon"/>
+               <t:term key="ZaMa" cert="low" ana="#ZaMa"/>
+            </t:keywords>
+         </t:textClass>
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#DR" when="2017-02-20"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
          <change who="#DR" when="2017-06-19"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Changes</change>
          <change who="#DR" when="2017-03-23"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords, bibliography and textparts</change>
             <change who="#DR" when="2024-12-02"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated folio range according to bm:Hammerschmidt1960Texte</change>
-      </revisionDesc>
-   </teiHeader><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <ab/>
-      </body>
-   </text></TEI>
+      </t:revisionDesc>
+   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:ab/>
+      </t:body>
+   </t:text></TEI>

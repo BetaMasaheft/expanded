@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="BDLbruce79"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Oxford, Bodleian Library, Bodleian Bruce 79</title>
             <title>Gospel of Luke, Gospel of John</title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
-            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,7 +15,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">10.10.2022 at 18:43:18</date><date type="lastModified">27.6.2017</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLbruce79/main</idno><idno type="URI">https://betamasaheft.eu/BDLbruce79</idno><idno type="filename">BDLbruce79.xml</idno><idno type="ID">BDLbruce79</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 00:58:04</date><date type="lastModified">27.6.2017</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLbruce79/main</idno><idno type="URI">https://betamasaheft.eu/BDLbruce79</idno><idno type="filename">BDLbruce79.xml</idno><idno type="ID">BDLbruce79</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                   <msIdentifier>
@@ -36,28 +37,28 @@
                   
                   
                   <msItem xml:id="ms_i1">
-                     <locus from="1" to="75">Fols 1–75</locus>
+                     <locus from="1" to="75"/>
                      <title type="incomplete" ref="https://betamasaheft.eu/LIT1560Gospel">Four Gospels</title>
                      <textLang mainLang="gez"/> 
                      
                      <msItem xml:id="ms_i1.1">
-                        <locus from="1" to="44">Fols 1–44</locus>
+                        <locus from="1" to="44"/>
                         <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT2713Luke">ወንጌል፡ ዘሉቃስ፡</title>
                         <textLang mainLang="gez"/> 
-                        <note>The prologue differs from <ref type="mss" corresp="https://betamasaheft.eu/BDLbruce77#ms_i1.1"><span xmlns="" class="w3-tag w3-red">No item: BDLbruce77#ms_i1.1</span></ref> and the edition
-                           <bibl corresp="http://zotero.org/groups/358366/items/CJRDF5NJ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Platt1830novum"/><title level="m">Novum testamentum domini nostri et servatoris Jesu Christi aethiopice</title><editor><forename>Thomas Pell</forename><surname>Platt</surname></editor><pubPlace>Londini</pubPlace><publisher>Impressit Ricardus Watts</publisher><date>1830</date><note type="url">https://archive.org/details/novumtestamentu00platgoog</note><note type="tags"><note type="tag">Manuscripts</note><note type="tag">New Testament</note><note type="tag">bm:Platt1830novum</note></note><note type="tag">Manuscripts</note><note type="tag">New Testament</note><note type="tag">bm:Platt1830novum</note></bibl>, see <ref target="#LukePrologue"/>.</note>
+                        <note>The prologue differs from <ref type="mss" corresp="https://betamasaheft.eu/BDLbruce77#ms_i1.1">Oxford, Bodleian Library, Bodleian Bruce 77: Bǝsrāta Luqās (in ms_i1.1)</ref> and the edition
+                           <bibl corresp="http://zotero.org/groups/358366/items/CJRDF5NJ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Platt1830novum"/><title level="m">Novum testamentum domini nostri et servatoris Jesu Christi aethiopice</title><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Thomas Pell</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Platt</t:surname></editor><pubPlace>Londini</pubPlace><publisher>Impressit Ricardus Watts</publisher><date>1830</date><note type="url">https://archive.org/details/novumtestamentu00platgoog</note></bibl>, see <ref target="#LukePrologue"/>.</note>
                         <note>The text is obscured by many glosses.</note>
                      </msItem>
                         
                         <msItem xml:id="ms_i1.2">
-                           <locus target="#44">Fol. 44</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1693John#Stichometry">Gospel of John, Stichometry to the Gospel of  John</title>
+                           <locus target="#44"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1693John#Stichometry">Gospel of John: Stichometry to the Gospel of John</title>
                            <textLang mainLang="gez"/> 
                            <note>The table of the 19 chapters, into which the Gospel of John is divided, is attached to <ref target="#ms_i1.1"/>.</note>
                         </msItem>
                         
                         <msItem xml:id="ms_i1.3">
-                           <locus from="45" to="75">Fols 45–75</locus>
+                           <locus from="45" to="75"/>
                            <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT2715John">ወንጌል፡ ዘዮሐንስ፡</title>
                            <textLang mainLang="gez"/> 
                            <note>The text seems to be more correct that <ref target="#ms_i1.1"/> and the Gospels contained 
@@ -86,7 +87,7 @@
                   
                   <handDesc>
                      <handNote xml:id="h1" script="Ethiopic">
-                        <seg type="script">Same hand as <ref type="hand" corresp="https://betamasaheft.eu/BDLbruce78#h1"><span xmlns="" class="w3-tag w3-red">No item: BDLbruce78#h1</span></ref>.</seg>
+                        <seg type="script">Same hand as <ref type="hand" corresp="https://betamasaheft.eu/BDLbruce78#h1">Oxford, Bodleian Library, Bodleian Bruce 78: handNote h1</ref>.</seg>
                      </handNote>
                   </handDesc>
                   
@@ -146,7 +147,7 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>LukePrologue</item></list></desc></assertion></assertion></source-url></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="chapter" match="t:div" use="t:div"><desc><list><item>LukePrologue</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:textClass>
             <t:keywords scheme="#ethioauthlist">

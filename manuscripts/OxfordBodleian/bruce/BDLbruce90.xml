@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="BDLbruce90"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Oxford, Bodleian Library, Bodleian Bruce 90</title>
             <title>Chronicles</title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
-            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <editionStmt>
             <p>Digitized by the Ethiopic Manuscript Imaging Project directed
                by Steve Delamarter.</p>
@@ -18,7 +19,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">10.10.2022 at 18:43:18</date><date type="lastModified">4.5.2022</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLbruce90/main</idno><idno type="URI">https://betamasaheft.eu/BDLbruce90</idno><idno type="filename">BDLbruce90.xml</idno><idno type="ID">BDLbruce90</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 00:58:04</date><date type="lastModified">4.5.2022</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLbruce90/main</idno><idno type="URI">https://betamasaheft.eu/BDLbruce90</idno><idno type="filename">BDLbruce90.xml</idno><idno type="ID">BDLbruce90</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                   <msIdentifier>
@@ -35,7 +36,7 @@
                      <altIdentifier>
                         <repository ref="https://betamasaheft.eu/INS0447EMIP">Ethiopic Manuscript Imaging Project</repository>
                         <collection>EMIP</collection>
-                        <idno facs="EMIP/Codices/3188/" corresp="https://betamasaheft.eu/api/iiif/BDLbruce90/manifest">EMIP 3188</idno>
+                        <idno facs="EMIP/Codices/3188/" corresp="https://betamasaheft.eu/api/iiif/BDLbruce90/manifest?alt=alt">EMIP 3188</idno>
                      </altIdentifier>
                   </msIdentifier>
                
@@ -43,27 +44,27 @@
                   <summary/>
                   
                   <msItem xml:id="ms_i1">
-                     <locus from="1ra" to="110rb" corresp="#fol1">Fols 1ra–110rb, </locus>
-                     <locus from="1ra" to="109rb" corresp="#fol2">1ra–109rb</locus>
+                     <locus from="1ra" to="110rb" corresp="#fol1"/>
+                     <locus from="1ra" to="109rb" corresp="#fol2"/>
                      <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT3950ChronIyasu">በስመ፡ <gap reason="omitted" resp="PRS3562Dillmann" extent="unknown"/>
                         ንዌጥን፡ ጽሒፈ፡ ዜናሁ፡ ለ<persName ref="https://betamasaheft.eu/PRS5616IyasuI">
-                           <roleName type="title">ንጉሠ፡ ነገሥት፡ </roleName> አድያም፡ ሰገድ፡</persName> ወበጸጋ፡ 
+                           <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">ንጉሠ፡ ነገሥት፡ </t:roleName> አድያም፡ ሰገድ፡</persName> ወበጸጋ፡ 
                         እግዚአብሔር፡ ዘተሰምየ፡ በስመ፡ መስፍን፡
                      ኢያሱ፡ ወልደ፡ ነዌ፡</title>
                      <textLang mainLang="gez"/> 
-                     <note>The chronicle ends with an Appendix on <locus from="108" to="110">fols 108–110</locus> entitled <foreign xml:lang="gez">ውስተ፡ ደሰያት፡</foreign>.</note>
+                     <note>The chronicle ends with an Appendix on <locus from="108" to="110"/> entitled <foreign xml:lang="gez">ውስተ፡ ደሰያት፡</foreign>.</note>
                   </msItem>
                   
                   <msItem xml:id="ms_i2">
-                     <locus from="111ra" to="112vc" corresp="#fol1">Fols 111ra–112vc, </locus> 
-                     <locus from="110ra" to="111vc" corresp="#fol1">110ra–111vc</locus> 
+                     <locus from="111ra" to="112vc" corresp="#fol1"/> 
+                     <locus from="110ra" to="111vc" corresp="#fol1"/> 
                      <title type="complete" ref="https://betamasaheft.eu/LIT4638Chronicle">Chronicle of Takla Hāymānot</title>
                      <textLang mainLang="gez"/> 
                   </msItem>
                   
                   <msItem xml:id="ms_i3">
-                     <locus from="112vc" to="114va" corresp="#fol1">Fols 112vc–114va, </locus>
-                     <locus from="111vc" to="113va" corresp="#fol1">111vc–113va</locus>
+                     <locus from="112vc" to="114va" corresp="#fol1"/>
+                     <locus from="111vc" to="113va" corresp="#fol1"/>
                      <title type="complete" ref="https://betamasaheft.eu/LIT4636Chronicle">Chronicle of Tewoflos</title>
                      <textLang mainLang="gez"/> 
                      <incipit xml:lang="gez">ወነግሠ፡ <persName ref="https://betamasaheft.eu/PRS9449Tewoflos">ቴዎፍሎስ፡</persName> ወስመ፡ መንግሥቱ፡
@@ -72,20 +73,20 @@
                   </msItem>
                   
                   <msItem xml:id="ms_i4">
-                     <locus from="114va" to="115vb" corresp="#fol1">Fols 114va–115vb, </locus>
-                     <locus from="113va" to="114vb" corresp="#fol1">113va–114vb</locus>
+                     <locus from="114va" to="115vb" corresp="#fol1"/>
+                     <locus from="113va" to="114vb" corresp="#fol1"/>
                      <title type="complete" ref="https://betamasaheft.eu/LIT4637Chronicle">Chronicle of Yosṭos</title>
                      <textLang mainLang="gez"/> 
                      <incipit xml:lang="gez">ወነግሠ፡ ዮስጦስ፡ በኀይል፡ እንዘ፡ ኢይደልዎ፡ መንግሥት፡</incipit>
                   </msItem>
                   
                   <msItem xml:id="ms_i5">
-                     <locus from="115vb" to="119rc" corresp="#fol1">Fols 115vb–119rc, </locus>
-                     <locus from="115vb" to="118rc" corresp="#fol1">115vb–118rc</locus>
+                     <locus from="115vb" to="119rc" corresp="#fol1"/>
+                     <locus from="115vb" to="118rc" corresp="#fol1"/>
                      <title type="complete" ref="https://betamasaheft.eu/LIT4639Chronicle">Chronicle of Dāwit</title>
                      <textLang mainLang="gez"/> 
                      <incipit xml:lang="gez">ወነግሠ፡ ዳዊት፡ ወልደ፡ <persName ref="https://betamasaheft.eu/PRS5616IyasuI">
-                           <roleName type="title">ንጉሥ፡ </roleName> አድያም፡ ሰገድ፡</persName> ወአሜሃ፡ ዕድሜሁ፡ ለዳዊት፡
+                           <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">ንጉሥ፡ </t:roleName> አድያም፡ ሰገድ፡</persName> ወአሜሃ፡ ዕድሜሁ፡ ለዳዊት፡
                      ፳ወ፩ ዓመት፡ ወተሰምየ፡ ስመ፡ መንግሥቱ፡ አድባር፡ ሰገድ፡</incipit>
                   </msItem>
                   
@@ -111,120 +112,120 @@
                               <height>294</height>
                               <width>274</width>
                            </dimensions>
-                           <note corresp="#leafdim">Data on leaves dimensions taken from <locus target="#22r">fol. 22r</locus>.</note>
+                           <note corresp="#leafdim">Data on leaves dimensions taken from <locus target="#22r"/>.</note>
                         </extent>
                          <foliation>
                             <list>
                                <item xml:id="fol1">
                                   The foliation referred to in   <bibl corresp="http://zotero.org/groups/358366/items/NMHJ56PR"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Dillmann1848Catalogus"/><title level="m">Catalogus codicum manuscriptorum Bibliothecae Bodleianae Oxoniensis, Pars VII: Codices Aethiopici</title><author><forename>Christian Friedrich August</forename><surname>Dillmann</surname></author><pubPlace>Oxonii</pubPlace><publisher>E Typographeo Academico</publisher><date>1848</date><note type="url">https://archive.org/details/CatalogiCodicumManuscriptorumBibliothP7</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">Cataloguing</note><note type="tag">bm:Dillmann1848Catalogus</note></note><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">Cataloguing</note><note type="tag">bm:Dillmann1848Catalogus</note><citedRange unit="page">81ab</citedRange></bibl> begins with the first folio containing text. The leaf skipped in <ref target="#fol2"/> is counted here
-                                  as <locus target="#88" corresp="#fol1">fol. 88</locus>. 
+                                  as <locus target="#88" corresp="#fol1"/>. 
                                </item>
                                <item xml:id="fol2">
-                                  The manuscript is foliated in pencil in the upper right corner, from <locus target="#1" corresp="#fol2">fols. 1, </locus>
-                                  to <locus target="#122" corresp="#fol2">122, </locus>. The three blank guard leaves at the 
-                                  beginning are not foliated. One leaf has been skipped between <locus target="#87" corresp="#fol2">87, </locus> and 
-                                  <locus target="#88" corresp="#fol2">88</locus>, which has been counted in <ref target="#fol1"/>.  
+                                  The manuscript is foliated in pencil in the upper right corner, from <locus target="#1" corresp="#fol2"/>
+                                  to <locus target="#122" corresp="#fol2"/>. The three blank guard leaves at the 
+                                  beginning are not foliated. One leaf has been skipped between <locus target="#87" corresp="#fol2"/> and 
+                                  <locus target="#88" corresp="#fol2"/>, which has been counted in <ref target="#fol1"/>.  
                                </item>
                             </list>
                          </foliation>
                         <collation>
                            <signatures>
-                              A smudge of black ink in the upper left corner of <locus target="#7r">fols. 7r, </locus>;
-                              traces of a European numeral, cut off, in the upper left corner of <locus target="#13r">13r, </locus>;
-                              traces of a European numeral, cut off, in the upper left corner of <locus target="#19r">19r, </locus>;
-                              traces of a European numeral, cut off, in the upper left corner of <locus target="#31r">31r, </locus>;
-                              traces of a European numeral, possibly 9, cut off, in the upper left corner of <locus target="#43r">43r, </locus>;
-                              a smudge of black ink in the upper left corner of <locus target="#49r">49r, </locus>;
-                              a smudge of black ink in the upper right corner of <locus target="#60v">60v, </locus>;
-                             very small traces of a European numeral, cut off, in the upper left corner of <locus target="#67r">67r, </locus>;
-                              a smudge of black ink in the upper right corner of <locus target="#72v">72v, </locus>;
-                              very small traces of a European numeral, cut off, in the upper left corner of <locus target="#79r">79r, </locus>;
-                              very small traces of a European numeral, cut off, in the upper left corner of <locus target="#90r">90r, </locus>;
-                              a smudge of black ink in the upper left corner of <locus target="#96r">96r, </locus>;
-                              traces of a European numeral, cut off, in the upper left corner of <locus target="#102r">102r, </locus>;
-                              a smudge of black ink in the upper right corner of <locus target="#107v">107v</locus>;
+                              A smudge of black ink in the upper left corner of <locus target="#7r"/>;
+                              traces of a European numeral, cut off, in the upper left corner of <locus target="#13r"/>;
+                              traces of a European numeral, cut off, in the upper left corner of <locus target="#19r"/>;
+                              traces of a European numeral, cut off, in the upper left corner of <locus target="#31r"/>;
+                              traces of a European numeral, possibly 9, cut off, in the upper left corner of <locus target="#43r"/>;
+                              a smudge of black ink in the upper left corner of <locus target="#49r"/>;
+                              a smudge of black ink in the upper right corner of <locus target="#60v"/>;
+                             very small traces of a European numeral, cut off, in the upper left corner of <locus target="#67r"/>;
+                              a smudge of black ink in the upper right corner of <locus target="#72v"/>;
+                              very small traces of a European numeral, cut off, in the upper left corner of <locus target="#79r"/>;
+                              very small traces of a European numeral, cut off, in the upper left corner of <locus target="#90r"/>;
+                              a smudge of black ink in the upper left corner of <locus target="#96r"/>;
+                              traces of a European numeral, cut off, in the upper left corner of <locus target="#102r"/>;
+                              a smudge of black ink in the upper right corner of <locus target="#107v"/>;
                            </signatures>
                            <list>
                               <item xml:id="q1" n="A">
                                  <dim unit="leaf">3</dim>
-                                 <locus from="ir" to="iiiv" corresp="#fol2">Fols ir–iiiv</locus>
+                                 <locus from="ir" to="iiiv" corresp="#fol2"/>
                                  3, stub before 1
                               </item>
                               <item xml:id="q2" n="1">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="1r" to="6v" corresp="#fol2">Fols 1r–6v</locus>
+                                 <locus from="1r" to="6v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q3" n="2">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="7r" to="12v" corresp="#fol2">Fols 7r–12v</locus>
+                                 <locus from="7r" to="12v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q4" n="3">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="13r" to="18v" corresp="#fol2">Fols 13r–18v</locus>
+                                 <locus from="13r" to="18v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q5" n="4">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="19r" to="24v" corresp="#fol2">Fols 19r–24v</locus>
+                                 <locus from="19r" to="24v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q6" n="5">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="25r" to="30v" corresp="#fol2">Fols 25r–30v</locus>
+                                 <locus from="25r" to="30v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q7" n="6">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="31r" to="36v" corresp="#fol2">Fols 31r–36v</locus>
+                                 <locus from="31r" to="36v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q8" n="7">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="37r" to="42v" corresp="#fol2">Fols 37r–42v</locus>
+                                 <locus from="37r" to="42v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q9" n="8">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="43r" to="48v" corresp="#fol2">Fols 43r–48v</locus>
+                                 <locus from="43r" to="48v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q10" n="9">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="49r" to="54v" corresp="#fol2">Fols 49r–54v</locus>
+                                 <locus from="49r" to="54v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q11" n="10">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="55r" to="60v" corresp="#fol2">Fols 55r–60v</locus>
+                                 <locus from="55r" to="60v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q12" n="11">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="61r" to="66v" corresp="#fol2">Fols 61r–66v</locus>
+                                 <locus from="61r" to="66v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q13" n="12">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="67r" to="72v" corresp="#fol2">Fols 67r–72v</locus>
+                                 <locus from="67r" to="72v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q14" n="13">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="73r" to="78v" corresp="#fol2">Fols 73r–78v</locus>
+                                 <locus from="73r" to="78v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q15" n="14">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="79r" to="84v" corresp="#fol2">Fols 79r–84v</locus>
+                                 <locus from="79r" to="84v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q16" n="15">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="85r" to="89v" corresp="#fol2">Fols 85r–89v</locus>
+                                 <locus from="85r" to="89v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q17" n="16">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="90r" to="95v" corresp="#fol2">Fols 90r–95v</locus>
+                                 <locus from="90r" to="95v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q18" n="17">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="96r" to="101v" corresp="#fol2">Fols 96r–101v</locus>
+                                 <locus from="96r" to="101v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q19" n="18">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="102r" to="107v" corresp="#fol2">Fols 102r–107v</locus>
+                                 <locus from="102r" to="107v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q20" n="19">
                                  <dim unit="leaf">15</dim>
-                                 <locus from="108r" to="122v" corresp="#fol2">Fols 108r–122v</locus>
+                                 <locus from="108r" to="122v" corresp="#fol2"/>
                                  11, stub after 4
                               </item>
                            </list>
@@ -234,7 +235,7 @@
                      </supportDesc>
                      <layoutDesc>
                      <layout columns="3" writtenLines="25">
-                        <note corresp="#margin #textarea">Data on text area and margin dimensions taken from <locus target="#22r">fol. 22r</locus>.</note>
+                        <note corresp="#margin #textarea">Data on text area and margin dimensions taken from <locus target="#22r"/>.</note>
                         <dimensions unit="mm" xml:id="textarea"> 
                            <height>218</height>
                            <width>220</width>
@@ -253,15 +254,15 @@
                   
                   <handDesc>
                      <handNote xml:id="h1" script="Ethiopic">
-                        <locus from="1ra" to="60vc" corresp="#fol2">Fols 1ra–60vc</locus>
+                        <locus from="1ra" to="60vc" corresp="#fol2"/>
                      </handNote>
                      
                      <handNote xml:id="h2" script="Ethiopic">
-                        <locus from="61ra" to="107vc" corresp="#fol2">Fols 61ra–107vc</locus>
+                        <locus from="61ra" to="107vc" corresp="#fol2"/>
                      </handNote>
                      
                      <handNote xml:id="h3" script="Ethiopic">
-                        <locus from="107ra" to="118rc" corresp="#fol2">Fols 107ra–118rc</locus>
+                        <locus from="107ra" to="118rc" corresp="#fol2"/>
                      </handNote>
                   </handDesc>
                   
@@ -274,24 +275,24 @@
                      </item>
                         
                         <item xml:id="e2">
-                           <locus target="#1r" corresp="#fol2">Fol. 1r</locus>
+                           <locus target="#1r" corresp="#fol2"/>
                            <desc>English note in pencil in the upper margin.</desc>
                            <q xml:lang="en">Adiam Segued or Jasous the First.</q>
                         </item>
                         
                         <item xml:id="e3">
-                           <locus target="#1r">Fol. 1r</locus>
+                           <locus target="#1r"/>
                            <desc>Occasionial English interlinear translations of single Gǝʿǝz word.</desc>
                         </item>
                         
                         <item xml:id="e4">
-                           <locus target="#1">Fol. 1</locus>
+                           <locus target="#1"/>
                            <desc>Occasionial English additions by a European hand in pencil or black ink: section numbers, names of persons or events mentioned
                            in the text.</desc>
                         </item>
                         
                         <item xml:id="e5">
-                           <locus target="#110r" corresp="#fol2">Fol. 110r</locus>
+                           <locus target="#110r" corresp="#fol2"/>
                            <desc>English note in pencil in the upper margin.</desc>
                            <q xml:lang="en">Tecla Haimanout.</q>
                         </item>
@@ -336,7 +337,7 @@
                                  <bibl corresp="http://zotero.org/groups/358366/items/NMHJ56PR"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Dillmann1848Catalogus"/><title level="m">Catalogus codicum manuscriptorum Bibliothecae Bodleianae Oxoniensis, Pars VII: Codices Aethiopici</title><author><forename>Christian Friedrich August</forename><surname>Dillmann</surname></author><pubPlace>Oxonii</pubPlace><publisher>E Typographeo Academico</publisher><date>1848</date><note type="url">https://archive.org/details/CatalogiCodicumManuscriptorumBibliothP7</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">Cataloguing</note><note type="tag">bm:Dillmann1848Catalogus</note></note><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">Cataloguing</note><note type="tag">bm:Dillmann1848Catalogus</note><citedRange unit="page">81ab</citedRange></bibl>
                               </listBibl>
                               <listBibl type="secondary">
-                                 <bibl corresp="http://zotero.org/groups/358366/items/WFZXDU5E"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Wion2009LibAks"/><title level="a">Le Liber Aksumae selon le manuscrit Bodleian Bruce 93 : le plus ancien témoin d'un projet historiographique sans cesse réactivé</title><title level="j">Oriens Christianus</title><author><forename>Anais</forename><surname>Wion</surname></author><date>2009</date><biblScope unit="volume">93</biblScope><biblScope unit="page">135-171</biblScope><note type="url">http://www.academia.edu/3022230/Le_Liber_Aksumae_selon_le_manuscrit_Bodleian_Bruce_93_le_plus_ancien_t%C3%A9moin_dun_projet_historiographique_sans_cesse_r%C3%A9activ%C3%A9</note><note type="tags"><note type="tag">bm:Wion2009LibAks</note></note><note type="tag">bm:Wion2009LibAks</note><citedRange unit="page">139</citedRange></bibl>
+                                 <bibl corresp="http://zotero.org/groups/358366/items/WFZXDU5E"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Wion2009LibAks"/><title level="a">Le Liber Aksumae selon le manuscrit Bodleian Bruce 93 : le plus ancien témoin d'un projet historiographique sans cesse réactivé</title><title level="j">Oriens Christianus</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Anais</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Wion</t:surname></author><date>2009</date><biblScope unit="volume">93</biblScope><biblScope unit="page">135-171</biblScope><note type="url">http://www.academia.edu/3022230/Le_Liber_Aksumae_selon_le_manuscrit_Bodleian_Bruce_93_le_plus_ancien_t%C3%A9moin_dun_projet_historiographique_sans_cesse_r%C3%A9activ%C3%A9</note><citedRange unit="page">139</citedRange></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -359,7 +360,7 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="t:div" match="t:div" use="t:div"><desc><list><item>Year20</item></list></desc></assertion></assertion></source-url></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="t:div" match="t:div" use="t:div"><desc><list><item>Year20</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:textClass>
             <t:keywords scheme="#ethioauthlist">
