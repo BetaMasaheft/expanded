@@ -1,12 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT1652Homily"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Homily on the Glory of Our Lady Mary</title>
             <title xml:id="t1">Homily on the Glory of Our Lady Mary</title>
             <author ref="PRS5720JohnChr"/>
             
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="MKr" corresp="https://betamasaheft.eu/team.html#MKr"><resp>contributor</resp><name>Marcin Krawczuk</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="MKr" corresp="https://betamasaheft.eu/team.html#MKr"><resp>contributor</resp><name>Marcin Krawczuk</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -18,7 +19,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">28.1.2025 at 17:03:19</date><date type="lastModified">28.1.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1652Homily/main</idno><idno type="URI">https://betamasaheft.eu/LIT1652Homily</idno><idno type="filename">LIT1652Homily.xml</idno><idno type="ID">LIT1652Homily</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 22:54:52</date><date type="lastModified">28.1.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1652Homily/main</idno><idno type="URI">https://betamasaheft.eu/LIT1652Homily</idno><idno type="filename">LIT1652Homily.xml</idno><idno type="ID">LIT1652Homily</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -35,49 +36,49 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="incipit" match="div" use="div"><desc><list><item>incipit</item></list></desc></assertion></assertion></source-url></encodingDesc>
-      <profileDesc>
-         <textClass>
-            <keywords>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="Homily" ana="#Homily"/>
-               <term key="Translation" ana="#Translation"/>
-            </keywords>
-         </textClass>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="incipit" match="t:div" use="t:div"><desc><list><item>incipit</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Homily" ana="#Homily"/>
+               <t:term key="Translation" ana="#Translation"/>
+            </t:keywords>
+         </t:textClass>
          
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="en">Gǝʿǝz</language>
-         </langUsage>
+         <t:langUsage>
+            <t:language ident="en">English</t:language>
+            <t:language ident="en">Gǝʿǝz</t:language>
+         </t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
          <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
          <change who="#MKr" when="2025-01-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords, incipit, bibliography, relation</change>
-      </revisionDesc>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT1652Homily" passive="https://betamasaheft.eu/PRS6819Mary"/>
                <relation name="saws:isAttributedToAuthor" ref="http://purl.org/saws/ontology#isAttributedToAuthor" active="https://betamasaheft.eu/LIT1652Homily" passive="https://betamasaheft.eu/PRS5720JohnChr"/>
-            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="bibliography">
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
             
             
-            <listBibl type="secondary">
-               <bibl corresp="http://zotero.org/groups/358366/items/NUQP2H9H"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Proverbio1998Recensione"/><title level="m">La recensione etiopica dell’omelia pseudocrisostomica &lt;hi rend="italics"&gt;de ficu exarata&lt;/hi&gt; ed il suo &lt;hi rend="italics"&gt;tréfonds&lt;/hi&gt; orientale</title><title level="s">Aethiopistische Forschungen</title><author><forename>Delio Vania</forename><surname>Proverbio</surname></author><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>1998</date><series><title level="s">Aethiopistische Forschungen</title><biblScope unit="volume">50</biblScope></series><biblScope unit="volume">50</biblScope><note type="url">https://books.google.de/books?id=7WLRNFtaT_4C&amp;printsec=frontcover&amp;hl=de&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</note><note type="tags"><note type="tag">bm:Proverbio1998Recensione</note></note><note type="tag">bm:Proverbio1998Recensione</note><citedRange unit="page">78</citedRange></bibl>
-            </listBibl>
+            <t:listBibl type="secondary">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/NUQP2H9H"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Proverbio1998Recensione"/><title level="m">La recensione etiopica dell’omelia pseudocrisostomica &lt;hi rend="italics"&gt;de ficu exarata&lt;/hi&gt; ed il suo &lt;hi rend="italics"&gt;tréfonds&lt;/hi&gt; orientale</title><title level="s">Aethiopistische Forschungen</title><author><t:forename>Delio Vania</t:forename><t:surname>Proverbio</t:surname></author><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>1998</date><series><t:title level="s">Aethiopistische Forschungen</t:title><t:biblScope unit="volume">50</t:biblScope></series><biblScope unit="volume">50</biblScope><note type="url">https://books.google.de/books?id=7WLRNFtaT_4C&amp;printsec=frontcover&amp;hl=de&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</note><t:citedRange unit="page">78</t:citedRange></t:bibl>
+            </t:listBibl>
             
-         </div>
+         </t:div>
          
          
-         <div xml:lang="gez" type="edition">
-            <note>The incipit is taken from <ref type="mss" corresp="https://betamasaheft.eu/EMML1195">ʾAddis ʾAbabā, Qǝddǝst Śǝllāse, EMML 1195</ref>.</note>
-            <div type="textpart" subtype="incipit">
-               <ab xml:lang="gez">ይቤ፡ እፈቅድ፡ እትናገር፡ በእንተ፡ ክብራ፡ ለወላዲተ፡ መድኃኒነ፡ በድፍረት፡ በከመ፡ ይደሉ፡ በከመ፡ ክሂሎትየ፡ ወአንሰ፡ እፈርህ፡ እስመ፡ አልብየ፡ ልሳነ፡ ዘይደልዎ፡ ይትናገር፡ ለውእቱ፡ ዘዓቢይ፡ ወክቡር፡</ab>
-            </div>
+         <t:div xml:lang="gez" type="edition">
+            <t:note>The incipit is taken from <t:ref type="mss" corresp="https://betamasaheft.eu/EMML1195">ʾAddis ʾAbabā, Holy Trinity Cathedral, EMML 1195</t:ref>.</t:note>
+            <t:div type="textpart" subtype="incipit">
+               <t:ab xml:lang="gez">ይቤ፡ እፈቅድ፡ እትናገር፡ በእንተ፡ ክብራ፡ ለወላዲተ፡ መድኃኒነ፡ በድፍረት፡ በከመ፡ ይደሉ፡ በከመ፡ ክሂሎትየ፡ ወአንሰ፡ እፈርህ፡ እስመ፡ አልብየ፡ ልሳነ፡ ዘይደልዎ፡ ይትናገር፡ ለውእቱ፡ ዘዓቢይ፡ ወክቡር፡</t:ab>
+            </t:div>
             
-         </div>
-      </body>
-   </text></TEI>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

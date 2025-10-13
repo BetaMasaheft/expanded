@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT1799Lifeof"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Acts of John the Baptist</title>
             <title xml:id="t1">Acts of John the Baptist</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>contributor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>contributor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -16,7 +17,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">6.3.2025 at 15:28:15</date><date type="lastModified">5.11.2020</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1799Lifeof/main</idno><idno type="URI">https://betamasaheft.eu/LIT1799Lifeof</idno><idno type="filename">LIT1799Lifeof.xml</idno><idno type="ID">LIT1799Lifeof</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 22:54:52</date><date type="lastModified">5.11.2020</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1799Lifeof/main</idno><idno type="URI">https://betamasaheft.eu/LIT1799Lifeof</idno><idno type="filename">LIT1799Lifeof.xml</idno><idno type="ID">LIT1799Lifeof</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -33,67 +34,67 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="explicit" match="div" use="div"><desc><list><item>explicit</item></list></desc><assertion unit="page break" match="pb" use="pb"><desc><list><item>77vb</item><item>78ra</item></list></desc></assertion></assertion><assertion unit="incipit" match="div" use="div"><desc><list><item>incipit</item></list></desc><assertion unit="page break" match="pb" use="pb"><desc><list><item>4ra</item></list></desc></assertion></assertion></assertion></source-url></encodingDesc>
-      <profileDesc>
-        <abstract>
-            <p>A text in part composed of homilies, divided into readings
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="explicit" match="t:div" use="t:div"><desc><list><item>explicit</item></list></desc><citeStructure unit="t:pb" match="t:pb" use="t:pb"><desc><list><item>77vb</item><item>78ra</item></list></desc></citeStructure></citeStructure><citeStructure xmlns="" unit="incipit" match="t:div" use="t:div"><desc><list><item>incipit</item></list></desc><citeStructure unit="t:pb" match="t:pb" use="t:pb"><desc><list><item>4ra</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+        <t:abstract>
+            <t:p>A text in part composed of homilies, divided into readings
                for each month of the year,
                describing the life and death of John the Baptist.
                  It seems to be a rare composition, and it
                   is different from a work of a similar structure
-                 contained in <ref type="mss" corresp="https://betamasaheft.eu/ESehpp007">Gulo Maḵadā, ʾƎndā Ḥawāryāt Ṗeṭros wa-Ṗāwlos, EHPP-007</ref>, and another one
+                 contained in <t:ref type="mss" corresp="https://betamasaheft.eu/ESehpp007">Gulo Maḵadā, ʾƎndā Ḥawāryāt Ṗeṭros wa-Ṗāwlos, EHPP-007</t:ref>, and another one
                  in the edition
-                 <bibl corresp="http://zotero.org/groups/358366/items/VNQUDS5T"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Tarraqan2003GadlaYohannes"/><title level="m">ገድለ ዮሐንስ መጥምቅ በግእዝና በአማርኛ &lt;hi rend="italics"&gt;(&lt;/hi&gt;Gadla Yoḥannǝs Maṭmǝq bagǝʾǝzǝnnā baʾamārǝññā).&lt;hi rend="italics"&gt;, ‘The Acts of John the Baptist, in Gǝʾǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Makwannǝn Ambarbar Śǝgate, &lt;i&gt;Malʿaka bǝrhānāt&lt;/i&gt;</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>n.pub.</publisher><date>2003</date></bibl>.</p>
-        </abstract>
-         <langUsage><language ident="en">English</language></langUsage>
-         <langUsage><language ident="gez">Gǝʿǝz</language></langUsage>
+                 <t:bibl corresp="http://zotero.org/groups/358366/items/VNQUDS5T"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Tarraqan2003GadlaYohannes"/><title level="m">ገድለ ዮሐንስ መጥምቅ በግእዝና በአማርኛ &lt;hi rend="italics"&gt;(&lt;/hi&gt;Gadla Yoḥannǝs Maṭmǝq bagǝʾǝzǝnnā baʾamārǝññā).&lt;hi rend="italics"&gt;, ‘The Acts of John the Baptist, in Gǝʾǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name>Makwannǝn Ambarbar Śǝgate, &lt;i&gt;Malʿaka bǝrhānāt&lt;/i&gt;</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>n.pub.</publisher><date>2003</date></t:bibl>.</t:p>
+        </t:abstract>
+         <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
+         <t:langUsage><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
 
-      <revisionDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
          <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
          <change who="#DN" when="2020-11-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Revised</change>
-      </revisionDesc>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                  <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT1799Lifeof" passive="https://betamasaheft.eu/PRS5741Johnthe"/>
                <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT1799Lifeof" passive="https://betamasaheft.eu/ESmy023"/>
                <relation name="saws:isDifferentTo" ref="http://purl.org/saws/ontology#isDifferentTo" active="https://betamasaheft.eu/LIT1799Lifeof" passive="https://betamasaheft.eu/LIT5768ActsJohnBaptist"/>
-             </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-     <body>
-         <div type="edition">
-             <div type="textpart" subtype="incipit" xml:lang="gez">
-                 <note>The following incipit is taken from
-                       <ref type="mss" corresp="https://betamasaheft.eu/ESmy023">Gulo Maḵadā, Dabra Māʿṣo Qǝddus Yoḥannǝs, MY-023</ref>.</note>
-                 <ab>
-                   <pb n="4ra"/>
+             </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+     <t:body>
+         <t:div type="edition">
+             <t:div type="textpart" subtype="incipit" xml:lang="gez">
+                 <t:note>The following incipit is taken from
+                       <t:ref type="mss" corresp="https://betamasaheft.eu/ESmy023">Gulo Maḵadā, Dabra Māʿṣo Qǝddus Yoḥannǝs, MY-023</t:ref>.</t:note>
+                 <t:ab>
+                   <t:pb n="4ra"/>
                    በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቀዱስ፡ ፩አምላክ፡ ንዌጥን፡ በርድኤተ፡ እግዚአብሔር፡
                    ጸሒፈ፡ ዜናሁ፡ ወመንክራቲሁ፡ ለቅዱስ፡ ዮሐንስ፡ መጥምቅ፡ ዘከመ፡ እፎ፡ ኮነ፡ ሕይወቱ፨
                    ወከመ፡ ኮነ፡ ምትረተ፡ ርእሱ፡ በመዋዕለ፡ ሄሮድስ፡ ርጉም፡ ወዓማፂ፨ ወናሁ፡ ይቤ፡ ከመዝ፡ ዮሐንስ፡ አፈ፡
                    በትረ፡ ያርክ፡ ሊቀ፡ ጳጳሳት፡ ዘሃገረ፡ ቅስጥንጥያ፨ ወሶበ፡ ኮነ፡ ስደቱ፡ ውስተ፡ አብራክይስ፡ አመ፡ ተስእሎ፡
                    ፩አይሁዳዊ፡ ኬልቀደናዊ፡ ወውእቱ፡ ዘኮነ፡ ምእመነ፡ በእግዚእነ፡
-                 </ab>
-             </div>
-             <div type="textpart" subtype="explicit" xml:lang="gez">
-                 <note>The following explicit is taken
-                   from <ref type="mss" corresp="https://betamasaheft.eu/ESmy023">Gulo Maḵadā, Dabra Māʿṣo Qǝddus Yoḥannǝs, MY-023</ref>.</note>
-                 <ab>
-                   <pb n="77vb"/>
-                   ወሶበ፡ ኮኖ፡ ፵ወ፯<supplied reason="omitted" resp="DN">፡</supplied>
+                 </t:ab>
+             </t:div>
+             <t:div type="textpart" subtype="explicit" xml:lang="gez">
+                 <t:note>The following explicit is taken
+                   from <t:ref type="mss" corresp="https://betamasaheft.eu/ESmy023">Gulo Maḵadā, Dabra Māʿṣo Qǝddus Yoḥannǝs, MY-023</t:ref>.</t:note>
+                 <t:ab>
+                   <t:pb n="77vb"/>
+                   ወሶበ፡ ኮኖ፡ ፵ወ፯<t:supplied reason="omitted" resp="DN">፡</t:supplied>
                    ዓመተ፡ አዕረፈ፡ አመ፡ ፪ለመስከረም፡ ወነፍሱሂ፡ እምድኅረ፡ ነበረት፡ ርእሱ፡
-                    ፲ወ፪<supplied reason="omitted" resp="DN">፡</supplied> ዓመተ፡ አዕረፈት፡ አመ፡ ፲ወ፭
-                    <supplied reason="omitted" resp="DN">፡</supplied> ለሚያዝያ፡
+                    ፲ወ፪<t:supplied reason="omitted" resp="DN">፡</t:supplied> ዓመተ፡ አዕረፈት፡ አመ፡ ፲ወ፭
+                    <t:supplied reason="omitted" resp="DN">፡</t:supplied> ለሚያዝያ፡
                    ወከመዝ፡ ፈጸመ፡ ሠናየ፡ ሑረቱ፡ ብፁዕ፡ ወቅዱስ፡ ዮሐንስ፡ መጥምቅ፡ ወአውገዙ፡ መምሕራነ፡
-                   ቤተ፡ ክርስቲያን፡ ከመ፡ <pb n="78ra"/>
+                   ቤተ፡ ክርስቲያን፡ ከመ፡ <t:pb n="78ra"/>
                     ምግባራተ፡ ሥጋ፡ ወኢምንተኒ፡ በዕለተ፡ በዓሉ፡ ለቅዱስ፡
                     ዮሐንስ፡ መጥመቅ፨ ጸሎቱ፡ ወበረከቱ፡ የሃሉ፡ ምስለ፡ አግብሪሁ፡ አቡነ፡ ኪዳነ፡
                     ወልድ፡ ወለተ፡ ግብርኤል፡ ለዓ፡ ዓለ፡ አ።
-                 </ab>
-                 </div>
-         </div>
-         <div type="bibliography">
+                 </t:ab>
+                 </t:div>
+         </t:div>
+         <t:div type="bibliography">
              
-         </div>
-      </body>
-   </text></TEI>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT1544Gebrah"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Gǝbra Ḥǝmāmāt</title>
@@ -6,10 +7,10 @@
             <title xml:lang="en" corresp="#t1">Lectionary of the Holy Week</title>
             <title xml:lang="gez" xml:id="t2">መጽሐፈ፡ ግብረ፡ ሕማማት፡</title>
             <title xml:lang="gez" corresp="#t2" type="normalized">Maṣḥafa Gǝbra Ḥǝmāmāt</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <editor key="MV" corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV">Massimo Villa</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>editor</resp><name>Massimo Villa</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt><respStmt xml:id="CH" corresp="https://betamasaheft.eu/team.html#CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>editor</resp><name>Massimo Villa</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt><respStmt xml:id="CH" corresp="https://betamasaheft.eu/team.html#CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt><respStmt xml:id="MKr" corresp="https://betamasaheft.eu/team.html#MKr"><resp>contributor</resp><name>Marcin Krawczuk</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -21,7 +22,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">25.11.2024 at 19:06:56</date><date type="lastModified">8.5.2024</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1544Gebrah/main</idno><idno type="URI">https://betamasaheft.eu/LIT1544Gebrah</idno><idno type="filename">LIT1544Gebrah.xml</idno><idno type="ID">LIT1544Gebrah</idno></publicationStmt>
+         <date type="expanded">11.10.2025 at 00:10:40</date><date type="lastModified">28.8.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1544Gebrah/main</idno><idno type="URI">https://betamasaheft.eu/LIT1544Gebrah</idno><idno type="filename">LIT1544Gebrah.xml</idno><idno type="ID">LIT1544Gebrah</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -38,351 +39,363 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>Introduction</item><item>EvePalmSunday</item><item>PalmSundayGH</item><item>Monday</item><item>Tuesday</item><item>Wednesday</item><item>Thursday</item><item>Friday</item></list></desc><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>HomilyEvePalmSun</item><item>PalmSundayMor</item><item>PalmSundayProc</item><item>PalmSundayMass</item><item>PalmSundayElev</item><item>MondayNight</item><item>MondayDay</item><item>TuesdayNight</item><item>TuesdayDay</item><item>WednesdayNight</item><item>WednesdayDay</item><item>ThursdayNight</item><item>ThursdayDay</item><item>FridayNight</item><item>Saturday</item><item>Sunday</item><item>Directives</item><item>PrayerMidnight</item></list></desc><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>MondayNightFirst</item><item>MondayNightThird</item><item>MondayNightSixth</item><item>MondayNightElev</item><item>MondayDayDawn</item><item>MondayDayFirst</item><item>MondayDayThird</item><item>MondayDayNinth</item><item>MondayDayElev</item><item>TuesdayNightFirst</item><item>TuesdayNightThird</item><item>TuesdayNightSixth</item><item>TuesdayNightNinth</item><item>TuesdayNightElev</item><item>TuesdayDayFirst</item><item>ThuesdayDayThird</item><item>TuesdayDaySixth</item><item>TuesdayDayNinth</item><item>TuesdayDayElev</item><item>WedNightFirst</item><item>WedNightThird</item><item>WedNightSixth</item><item>WedNightNinth</item><item>WedNightElev</item><item>WedDayFirst</item><item>WedDayThird</item><item>WedDaySixth</item><item>WedDayNinth</item><item>WedDayElev</item><item>ThursNightFirst</item><item>ThursNightThird</item><item>ThursNightSixth</item><item>ThursNightNinth</item><item>ThursNightElev</item><item>ThursDayFirst</item><item>ThursDayThird</item><item>ThursDaySixth</item><item>ThursDayNinth</item><item>FeetThur</item><item>MassThur</item><item>ThursDayElev</item><item>FriNightFirst</item><item>FriNightThird</item><item>FridaySixthNight</item><item>FridayDay</item><item>SaturdayNight</item><item>Laha</item><item>Mysteries</item></list></desc><assertion unit="Song of Songs" match="t:div" use="t:div"><desc><list><item>Song</item></list></desc></assertion><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>AbbaSinodaMoMor</item><item>JohnMonday</item><item>JohnFig</item><item>MondayNinth</item><item>AbbaSinodaMoEve</item><item>AbbaSinodaTu</item><item>AnonAdmonTu</item><item>JohnChrWed</item><item>SawirosWed</item><item>JohnChrThurMor</item><item>JohnChrThurNine</item><item>FridayJC</item><item>FriNightNinth</item><item>FriNightElev</item><item>Cock</item><item>FridayMorning</item><item>FridayThird</item><item>FridaySixth</item><item>FridayNinth</item><item>FridayEleventh</item><item>FriDayTwelth</item><item>Mass</item><item>SaturdayDay</item><item>Evening</item></list></desc><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>AthanFrThird</item><item>JohnChrFrSixth</item><item>AthanFrEleventh</item><item>SatDayFirst</item><item>SatDaySixth</item></list></desc><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>Revelation</item></list></desc></assertion></assertion><assertion unit="Homily by Jacob of Serug on Abraham" match="t:div" use="t:div"><desc><list><item>Abraham</item></list></desc></assertion></assertion><assertion unit="Petitions in the Passion Week" match="t:div" use="t:div"><desc><list><item>Selatat</item></list></desc></assertion><assertion unit="Homily and Teaching of the Apostles &#xA;                     regarding the Passion, Crucifixion and Resurrection of Our Lord" match="t:div" use="t:div"><desc><list><item>Teaching</item></list></desc></assertion></assertion></assertion></assertion></assertion></source-url></encodingDesc>
-      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
-         <t:textClass>
-            <t:keywords>
-               <t:term key="Liturgy" ana="#Liturgy"/>                  
-               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
-            </t:keywords>
-         </t:textClass>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="chapter" match="div" use="div"><desc><list><item>Introduction</item><item>EvePalmSunday</item><item>PalmSundayGH</item><item>Monday</item><item>Tuesday</item><item>Wednesday</item><item>Thursday</item><item>Friday</item></list></desc><citeStructure unit="chapter" match="div" use="div"><desc><list><item>HomilyEvePalmSun</item><item>PalmSundayMor</item><item>PalmSundayProc</item><item>PalmSundayMass</item><item>PalmSundayElev</item><item>MondayNight</item><item>MondayDay</item><item>TuesdayNight</item><item>TuesdayDay</item><item>WednesdayNight</item><item>WednesdayDay</item><item>ThursdayNight</item><item>ThursdayDay</item><item>FridayNight</item><item>Saturday</item><item>Sunday</item><item>Directives</item><item>PrayerMidnight</item></list></desc><citeStructure unit="chapter" match="div" use="div"><desc><list><item>MondayNightFirst</item><item>MondayNightThird</item><item>MondayNightSixth</item><item>MondayNightElev</item><item>MondayDayDawn</item><item>MondayDayFirst</item><item>MondayDayThird</item><item>MondayDayNinth</item><item>MondayDayElev</item><item>TuesdayNightFirst</item><item>TuesdayNightThird</item><item>TuesdayNightSixth</item><item>TuesdayNightNinth</item><item>TuesdayNightElev</item><item>TuesdayDayFirst</item><item>ThuesdayDayThird</item><item>TuesdayDaySixth</item><item>TuesdayDayNinth</item><item>TuesdayDayElev</item><item>WedNightFirst</item><item>WedNightThird</item><item>WedNightSixth</item><item>WedNightNinth</item><item>WedNightElev</item><item>WedDayFirst</item><item>WedDayThird</item><item>WedDaySixth</item><item>WedDayNinth</item><item>WedDayElev</item><item>ThursNightFirst</item><item>ThursNightThird</item><item>ThursNightSixth</item><item>ThursNightNinth</item><item>ThursNightElev</item><item>ThursDayFirst</item><item>ThursDayThird</item><item>ThursDaySixth</item><item>ThursDayNinth</item><item>FeetThur</item><item>MassThur</item><item>ThursDayElev</item><item>FriNightFirst</item><item>FriNightThird</item><item>FridaySixthNight</item><item>FridayDay</item><item>SaturdayNight</item><item>Laha</item><item>Mysteries</item></list></desc><citeStructure unit="Song of Songs" match="div" use="div"><desc><list><item>Song</item></list></desc></citeStructure><citeStructure unit="chapter" match="div" use="div"><desc><list><item>AbbaSinodaMoMor</item><item>JohnMonday</item><item>JohnFig</item><item>MondayNinth</item><item>AbbaSinodaMoEve</item><item>AbbaSinodaTu</item><item>AnonAdmonTu</item><item>JohnChrWed</item><item>SawirosWed</item><item>JohnChrThurMor</item><item>JohnChrThurNine</item><item>FridayJC</item><item>FriNightNinth</item><item>FriNightElev</item><item>Cock</item><item>FridayMorning</item><item>FridayThird</item><item>FridaySixth</item><item>FridayNinth</item><item>FridayEleventh</item><item>FriDayTwelth</item><item>Mass</item><item>SaturdayDay</item><item>Evening</item></list></desc><citeStructure unit="chapter" match="div" use="div"><desc><list><item>AthanFrThird</item><item>JohnChrFrSixth</item><item>AthanFrEleventh</item><item>SatDayFirst</item><item>SatDaySixth</item></list></desc><citeStructure unit="chapter" match="div" use="div"><desc><list><item>Revelation</item></list></desc></citeStructure></citeStructure><citeStructure unit="Homily by Jacob of Serug on Abraham" match="div" use="div"><desc><list><item>Abraham</item></list></desc></citeStructure></citeStructure><citeStructure unit="Petitions in the Passion Week" match="div" use="div"><desc><list><item>Selatat</item></list></desc></citeStructure><citeStructure unit="Homily and Teaching of the Apostles &#xA;                     regarding the Passion, Crucifixion and Resurrection of Our Lord" match="div" use="div"><desc><list><item>Teaching</item></list></desc></citeStructure></citeStructure></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <profileDesc>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <abstract><p>Gǝbra Ḥǝmāmāt is the most important Ethiopian service book for the Holy Week.  It is divided into parts for each day and consists of  Biblical readings, commentaries of Biblical passages, 
+         homilies, ascetical and dogmatic texts.  The translation was based on Copto-Arabic original but some indigenous material was also added.</p></abstract>
+         <textClass>
+            <keywords>
+               <term key="Liturgy" ana="#Liturgy"/>                  
+               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <term key="Translation" ana="#Translation"/>
+            </keywords>
+         </textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
-      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
+      <revisionDesc>
          <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google spreadsheet </change>
          <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
          <change who="#MV" when="2016-09-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added div textparts</change>
          <change who="#DR" when="2017-03-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords and t2</change>
          <change who="#ES" when="2018-04-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added more div textparts</change>
          <change who="#CH" when="2024-05-08"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added more div textparts</change>
-      </t:revisionDesc>
-   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
-      <t:body>
-         <t:div type="edition">
-            <t:div type="textpart" subtype="chapter" xml:id="Introduction">
-               <t:label>Introduction</t:label>
-            </t:div>
-            <t:div type="textpart" subtype="chapter" xml:id="EvePalmSunday">
-               <t:label>Eve of Palm Sunday</t:label>
-               <t:div type="textpart" subtype="chapter" xml:id="HomilyEvePalmSun">
-                  <t:label>Homily by John Chrysostom for Palm Sunday Eve</t:label>
-               </t:div>
-            </t:div>
-            <t:div type="textpart" subtype="chapter" xml:id="PalmSundayGH">
-               <t:label>Palm Sunday</t:label>
-               <t:div type="textpart" subtype="chapter" xml:id="PalmSundayMor">
-                  <t:label>Readings for Palm Sunday morning i.e. first day hour of Palm Sunday</t:label>
-               </t:div>
-               <t:div type="textpart" subtype="chapter" xml:id="PalmSundayProc">
-                  <t:label>Readings for the procession on Palm Sunday morning</t:label>
-               </t:div>
-               <t:div type="textpart" subtype="chapter" xml:id="PalmSundayMass">
-                  <t:label>Readings  for the Mass of Palm Sunday</t:label>
-               </t:div>
-               <t:div type="textpart" subtype="chapter" xml:id="PalmSundayElev">
-                  <t:label>Readings for the 11th day hour on Palm Sunday</t:label>
-               </t:div>
-            </t:div>
-            <t:div type="textpart" subtype="chapter" xml:id="Monday">
-               <t:label>Monday</t:label>
-               <t:div type="textpart" subtype="chapter" xml:id="MondayNight">
-                  <t:label>Monday Night Hours</t:label>
-                  <t:div type="textpart" subtype="chapter" xml:id="MondayNightFirst">
-                     <t:label>Readings for the first night hour on Monday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="MondayNightThird">
-                     <t:label>Readings for the third night hour on Monday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="MondayNightSixth">
-                     <t:label>Readings for the sixth night hour on Monday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="MondayNightElev">
-                     <t:label>Readings for the eleventh night hour on Monday</t:label>
-                  </t:div>
-               </t:div>
-               <t:div type="textpart" subtype="chapter" xml:id="MondayDay">
-                  <t:label>Monday Day Hours</t:label>
-                  <t:div type="textpart" subtype="chapter" xml:id="MondayDayDawn" corresp="https://betamasaheft.eu/LIT1546Genesi">
-                     <t:label>Readings for dawn: Genesis 1:1 to 2:3</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="MondayDayFirst">
-                     <t:label>Readings for the first day hour on Monday</t:label>
-                     <t:div type="textpart" subtype="chapter" xml:id="AbbaSinodaMoMor">
-                        <t:label>Admonition by Abba Sinoda for Monday morning</t:label>
-                     </t:div>
-                     <t:div type="textpart" subtype="chapter" xml:id="JohnMonday">
-                        <t:label>Homily by John Chrysostom for Monday morning</t:label>
-                     </t:div>
-                     <t:div type="textpart" subtype="chapter" xml:id="JohnFig" corresp="https://betamasaheft.eu/LIT2122OntheF">
-                        <t:label>Homily by John Chrysostom on the fig tree for Monday morning</t:label>
-                     </t:div>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="MondayDayThird">
-                     <t:label>Readings for the third day hour</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="MondayDayNinth">
-                     <t:label>Readings for the ninth day hour</t:label>
-                     <t:div type="textpart" subtype="chapter" xml:id="MondayNinth">
-                        <t:label>Homily for the ninth hour of Monday morning (anonymous)</t:label>
-                     </t:div>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="MondayDayElev">
-                     <t:label>Readings for the eleventh day hour</t:label>
-                     <t:div type="textpart" subtype="chapter" xml:id="AbbaSinodaMoEve">
-                        <t:label>Admoninition by ʾAbbā Sinodā for the eleventh hour of Monday evening</t:label>
-                     </t:div>
-                  </t:div>      
-               </t:div>
-            </t:div>
-            <t:div type="textpart" subtype="chapter" xml:id="Tuesday">
-               <t:label>Tuesday</t:label>               
-               <t:div type="textpart" subtype="chapter" xml:id="TuesdayNight">
-                  <t:label>Tuesday Night Hours</t:label>
-                  <t:div type="textpart" subtype="chapter" xml:id="TuesdayNightFirst">
-                     <t:label>Readings for the first night hour on Tuesday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="TuesdayNightThird">
-                     <t:label>Readings for the third night hour on Tuesday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="TuesdayNightSixth">
-                     <t:label>Readings for the sixth night hour on Tuesday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="TuesdayNightNinth">
-                     <t:label>Readings for the ninth night hour on Tuesday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="TuesdayNightElev">
-                     <t:label>Readings for the eleventh night hour on Tuesday</t:label>
-                  </t:div>
-               </t:div>
-               <t:div type="textpart" subtype="chapter" xml:id="TuesdayDay">
-                  <t:label>Tuesday Day Hours</t:label>
-                  <t:div type="textpart" subtype="chapter" xml:id="TuesdayDayFirst">
-                     <t:label>Readings for the morning (i.e. the first day hour) on Tuesday</t:label>
-                     <t:div type="textpart" subtype="chapter" xml:id="AbbaSinodaTu">
-                        <t:label>Admonition by Abba Sinoda for Tuesday morning</t:label>
-                     </t:div>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="ThuesdayDayThird">
-                     <t:label>Readings for the third day hour on Tuesday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="TuesdayDaySixth">
-                     <t:label>Readings for the sixth day hour on Tuesday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="TuesdayDayNinth">
-                     <t:label>Readings für the ninth day hour on Tuesday</t:label>
-                     <t:div type="textpart" subtype="chapter" xml:id="AnonAdmonTu">
-                        <t:label>Anonymous Admonition for the ninth day hour on Tuesday</t:label>
-                     </t:div>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="TuesdayDayElev">
-                     <t:label>Readings for the eleventh day hour on Tuesday</t:label>
-                  </t:div>
-               </t:div>           
-            </t:div>
-            <t:div type="textpart" subtype="chapter" xml:id="Wednesday">
-               <t:label>Wednesday</t:label>
-               <t:div type="textpart" subtype="chapter" xml:id="WednesdayNight">
-                  <t:label>Wednesday Night Hours</t:label>
-                  <t:div type="textpart" subtype="chapter" xml:id="WedNightFirst">
-                     <t:label>Readings for the first night hour on Wednesday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="WedNightThird">
-                     <t:label>Readings for the third night hour on Wednesday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="WedNightSixth">
-                     <t:label>Readings for the sixth night hour on Wednesday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="WedNightNinth">
-                     <t:label>Readings for the ninth night hour on Wednesday</t:label>
-                     <t:div type="textpart" subtype="chapter" xml:id="JohnChrWed">
-                        <t:label>Admonition by John Chrysostom for the ninth day hour on Wednesday</t:label>
-                     </t:div>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="WedNightElev">
-                     <t:label>Readings for the eleventh night hour on Wednesday</t:label>
-                     <t:div type="textpart" subtype="chapter" xml:id="SawirosWed">
-                        <t:label>Admonition by Severianus of Gabala for the eleventh day hour on Wednesday</t:label>
-                     </t:div>
-                  </t:div>
-               </t:div>
-               <t:div type="textpart" subtype="chapter" xml:id="WednesdayDay">
-                  <t:label>Wednesday Day Hours</t:label>
-                  <t:div type="textpart" subtype="chapter" xml:id="WedDayFirst">
-                     <t:label>Readings for the morning (i.e. for the first day hour) on Wednesday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="WedDayThird">
-                     <t:label>Readings for the third day hour on Wednesday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="WedDaySixth">
-                     <t:label>Readings for the sixth day hour on Wednesday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="WedDayNinth">
-                     <t:label>Readings for the ninth day hour on Wednesday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="WedDayElev">
-                     <t:label>Readings for the eleventh day hour</t:label>
-                  </t:div>
-               </t:div>    
-            </t:div>
+         <change who="#MKr" when="2025-08-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added bibliography</change>
+      </revisionDesc>
+   </teiHeader><text xml:base="https://betamasaheft.eu/">
+      <body>
+         <div type="edition">
+            <div type="textpart" subtype="chapter" xml:id="Introduction">
+               <label>Introduction</label>
+            </div>
+            <div type="textpart" subtype="chapter" xml:id="EvePalmSunday">
+               <label>Eve of Palm Sunday</label>
+               <div type="textpart" subtype="chapter" xml:id="HomilyEvePalmSun" corresp="https://betamasaheft.eu/LIT3839Agains">
+                  <label>Homily by John Chrysostom for Palm Sunday Eve</label>
+               </div>
+            </div>
+            <div type="textpart" subtype="chapter" xml:id="PalmSundayGH">
+               <label>Palm Sunday</label>
+               <div type="textpart" subtype="chapter" xml:id="PalmSundayMor">
+                  <label>Readings for Palm Sunday morning i.e. first day hour of Palm Sunday</label>
+               </div>
+               <div type="textpart" subtype="chapter" xml:id="PalmSundayProc">
+                  <label>Readings for the procession on Palm Sunday morning</label>
+               </div>
+               <div type="textpart" subtype="chapter" xml:id="PalmSundayMass">
+                  <label>Readings  for the Mass of Palm Sunday</label>
+               </div>
+               <div type="textpart" subtype="chapter" xml:id="PalmSundayElev">
+                  <label>Readings for the 11th day hour on Palm Sunday</label>
+               </div>
+            </div>
+            <div type="textpart" subtype="chapter" xml:id="Monday">
+               <label>Monday</label>
+               <div type="textpart" subtype="chapter" xml:id="MondayNight">
+                  <label>Monday Night Hours</label>
+                  <div type="textpart" subtype="chapter" xml:id="MondayNightFirst">
+                     <label>Readings for the first night hour on Monday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="MondayNightThird">
+                     <label>Readings for the third night hour on Monday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="MondayNightSixth">
+                     <label>Readings for the sixth night hour on Monday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="MondayNightElev">
+                     <label>Readings for the eleventh night hour on Monday</label>
+                  </div>
+               </div>
+               <div type="textpart" subtype="chapter" xml:id="MondayDay">
+                  <label>Monday Day Hours</label>
+                  <div type="textpart" subtype="chapter" xml:id="MondayDayDawn" corresp="https://betamasaheft.eu/LIT1546Genesi">
+                     <label>Readings for dawn: Genesis 1:1 to 2:3</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="MondayDayFirst">
+                     <label>Readings for the first day hour on Monday</label>
+                     <div type="textpart" subtype="chapter" xml:id="AbbaSinodaMoMor">
+                        <label>Admonition by Abba Sinoda for Monday morning</label>
+                     </div>
+                     <div type="textpart" subtype="chapter" xml:id="JohnMonday">
+                        <label>Homily by John Chrysostom for Monday morning</label>
+                     </div>
+                     <div type="textpart" subtype="chapter" xml:id="JohnFig" corresp="https://betamasaheft.eu/LIT2122OntheF">
+                        <label>Homily by John Chrysostom on the fig tree for Monday morning</label>
+                     </div>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="MondayDayThird">
+                     <label>Readings for the third day hour</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="MondayDayNinth">
+                     <label>Readings for the ninth day hour</label>
+                     <div type="textpart" subtype="chapter" xml:id="MondayNinth">
+                        <label>Homily for the ninth hour of Monday morning (anonymous)</label>
+                     </div>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="MondayDayElev">
+                     <label>Readings for the eleventh day hour</label>
+                     <div type="textpart" subtype="chapter" xml:id="AbbaSinodaMoEve">
+                        <label>Admoninition by ʾAbbā Sinodā for the eleventh hour of Monday evening</label>
+                     </div>
+                  </div>      
+               </div>
+            </div>
+            <div type="textpart" subtype="chapter" xml:id="Tuesday">
+               <label>Tuesday</label>               
+               <div type="textpart" subtype="chapter" xml:id="TuesdayNight">
+                  <label>Tuesday Night Hours</label>
+                  <div type="textpart" subtype="chapter" xml:id="TuesdayNightFirst">
+                     <label>Readings for the first night hour on Tuesday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="TuesdayNightThird">
+                     <label>Readings for the third night hour on Tuesday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="TuesdayNightSixth">
+                     <label>Readings for the sixth night hour on Tuesday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="TuesdayNightNinth">
+                     <label>Readings for the ninth night hour on Tuesday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="TuesdayNightElev">
+                     <label>Readings for the eleventh night hour on Tuesday</label>
+                  </div>
+               </div>
+               <div type="textpart" subtype="chapter" xml:id="TuesdayDay">
+                  <label>Tuesday Day Hours</label>
+                  <div type="textpart" subtype="chapter" xml:id="TuesdayDayFirst">
+                     <label>Readings for the morning (i.e. the first day hour) on Tuesday</label>
+                     <div type="textpart" subtype="chapter" xml:id="AbbaSinodaTu">
+                        <label>Admonition by Abba Sinoda for Tuesday morning</label>
+                     </div>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="ThuesdayDayThird">
+                     <label>Readings for the third day hour on Tuesday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="TuesdayDaySixth">
+                     <label>Readings for the sixth day hour on Tuesday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="TuesdayDayNinth">
+                     <label>Readings für the ninth day hour on Tuesday</label>
+                     <div type="textpart" subtype="chapter" xml:id="AnonAdmonTu">
+                        <label>Anonymous Admonition for the ninth day hour on Tuesday</label>
+                     </div>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="TuesdayDayElev">
+                     <label>Readings for the eleventh day hour on Tuesday</label>
+                  </div>
+               </div>           
+            </div>
+            <div type="textpart" subtype="chapter" xml:id="Wednesday">
+               <label>Wednesday</label>
+               <div type="textpart" subtype="chapter" xml:id="WednesdayNight">
+                  <label>Wednesday Night Hours</label>
+                  <div type="textpart" subtype="chapter" xml:id="WedNightFirst">
+                     <label>Readings for the first night hour on Wednesday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="WedNightThird">
+                     <label>Readings for the third night hour on Wednesday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="WedNightSixth">
+                     <label>Readings for the sixth night hour on Wednesday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="WedNightNinth">
+                     <label>Readings for the ninth night hour on Wednesday</label>
+                     <div type="textpart" subtype="chapter" xml:id="JohnChrWed">
+                        <label>Admonition by John Chrysostom for the ninth day hour on Wednesday</label>
+                     </div>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="WedNightElev">
+                     <label>Readings for the eleventh night hour on Wednesday</label>
+                     <div type="textpart" subtype="chapter" xml:id="SawirosWed">
+                        <label>Admonition by Severianus of Gabala for the eleventh day hour on Wednesday</label>
+                     </div>
+                  </div>
+               </div>
+               <div type="textpart" subtype="chapter" xml:id="WednesdayDay">
+                  <label>Wednesday Day Hours</label>
+                  <div type="textpart" subtype="chapter" xml:id="WedDayFirst">
+                     <label>Readings for the morning (i.e. for the first day hour) on Wednesday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="WedDayThird">
+                     <label>Readings for the third day hour on Wednesday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="WedDaySixth">
+                     <label>Readings for the sixth day hour on Wednesday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="WedDayNinth">
+                     <label>Readings for the ninth day hour on Wednesday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="WedDayElev">
+                     <label>Readings for the eleventh day hour</label>
+                  </div>
+               </div>    
+            </div>
                
-            <t:div type="textpart" subtype="chapter" xml:id="Thursday">
-               <t:label>Thursday</t:label>
-               <t:div type="textpart" subtype="chapter" xml:id="ThursdayNight">
-                  <t:label>Thursday Night Hours</t:label>
-                  <t:div type="textpart" subtype="chapter" xml:id="ThursNightFirst">
-                     <t:label>Readings for the first night hour on Thursday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="ThursNightThird">
-                     <t:label>Readings for the third night hour on Thursday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="ThursNightSixth">
-                     <t:label>Readings for the sixth night hour on Thursday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="ThursNightNinth">
-                     <t:label>Readings for the ninth night hour on Thursday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="ThursNightElev">
-                     <t:label>Readings for the eleventh night hour on Thursday</t:label>
-                  </t:div>
-               </t:div>
-               <t:div type="textpart" subtype="chapter" xml:id="ThursdayDay">
-                  <t:label>Thursday Day Hours</t:label>
-                  <t:div type="textpart" subtype="chapter" xml:id="ThursDayFirst">
-                     <t:label>Readings for the first day hour on Thursday</t:label>
-                     <t:div type="textpart" subtype="chapter" xml:id="JohnChrThurMor">
-                        <t:label>Admonition by John Chrysostom for Thursday morning</t:label>
-                     </t:div>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="ThursDayThird">
-                     <t:label>Readings for the third day hour on Thursday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="ThursDaySixth">
-                     <t:label>Readings for the sixth day hour on Thursday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="ThursDayNinth">
-                     <t:label>Readings for the ninth day hour on Thursday</t:label>
-                     <t:div type="textpart" subtype="chapter" xml:id="JohnChrThurNine">
-                        <t:label>Admonition by John Chrysostom for the ninth day hour on Thursday</t:label>
-                     </t:div>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="FeetThur">
-                     <t:label>Readings for the Washing of the feet on Thursday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="MassThur">
-                     <t:label>Readings for the Mass on Thursday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="ThursDayElev">
-                     <t:label>Readings for the eleventh day hour</t:label>
-                  </t:div>
-               </t:div>    
-            </t:div>
-            <t:div type="textpart" subtype="chapter" xml:id="Friday">
-               <t:label>Friday</t:label>
-              <t:div type="textpart" subtype="chapter" xml:id="FridayNight"> 
-                  <t:label>Friday Night Hours</t:label>
-                 <t:div type="textpart" subtype="chapter" xml:id="FriNightFirst">
-                    <t:label>Readings for the first night hour on Friday</t:label>
-                 </t:div>
-                 <t:div type="textpart" subtype="chapter" xml:id="FriNightThird">
-                    <t:label>Readings for the third night hour on Friday</t:label>
-                 </t:div>
-                 <t:div type="textpart" subtype="chapter" xml:id="FridaySixthNight">
-                     <t:label>Readings for the sixth night hour on Friday</t:label>
-                     <t:div type="textpart" subtype="chapter" xml:id="FridayJC" corresp="https://betamasaheft.eu/LIT2142OntheS">
-                        <t:label>Homily by John Chrysostom on Christ when He says “If it be Possible, Let this Cup Pass from Me” on Friday</t:label>
-                     </t:div>
-                 <t:div type="textpart" subtype="chapter" xml:id="FriNightNinth">
-                    <t:label>Readings for the ninth night hour on Friday</t:label>
-                 </t:div>
-                 <t:div type="textpart" subtype="chapter" xml:id="FriNightElev">
-                    <t:label>Readings for the eleventh night hour on Friday</t:label>
-                 </t:div>
-                 <t:div type="textpart" subtype="chapter" xml:id="Cock" corresp="https://betamasaheft.eu/LIT1922Mashaf">
-                     <t:label>Maṣḥafa dorho</t:label>
-                  </t:div>
-              </t:div>
+            <div type="textpart" subtype="chapter" xml:id="Thursday">
+               <label>Thursday</label>
+               <div type="textpart" subtype="chapter" xml:id="ThursdayNight">
+                  <label>Thursday Night Hours</label>
+                  <div type="textpart" subtype="chapter" xml:id="ThursNightFirst">
+                     <label>Readings for the first night hour on Thursday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="ThursNightThird">
+                     <label>Readings for the third night hour on Thursday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="ThursNightSixth">
+                     <label>Readings for the sixth night hour on Thursday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="ThursNightNinth">
+                     <label>Readings for the ninth night hour on Thursday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="ThursNightElev">
+                     <label>Readings for the eleventh night hour on Thursday</label>
+                  </div>
+               </div>
+               <div type="textpart" subtype="chapter" xml:id="ThursdayDay">
+                  <label>Thursday Day Hours</label>
+                  <div type="textpart" subtype="chapter" xml:id="ThursDayFirst">
+                     <label>Readings for the first day hour on Thursday</label>
+                     <div type="textpart" subtype="chapter" xml:id="JohnChrThurMor">
+                        <label>Admonition by John Chrysostom for Thursday morning</label>
+                     </div>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="ThursDayThird">
+                     <label>Readings for the third day hour on Thursday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="ThursDaySixth">
+                     <label>Readings for the sixth day hour on Thursday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="ThursDayNinth">
+                     <label>Readings for the ninth day hour on Thursday</label>
+                     <div type="textpart" subtype="chapter" xml:id="JohnChrThurNine">
+                        <label>Admonition by John Chrysostom for the ninth day hour on Thursday</label>
+                     </div>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="FeetThur">
+                     <label>Readings for the Washing of the feet on Thursday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="MassThur">
+                     <label>Readings for the Mass on Thursday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="ThursDayElev">
+                     <label>Readings for the eleventh day hour</label>
+                  </div>
+               </div>    
+            </div>
+            <div type="textpart" subtype="chapter" xml:id="Friday">
+               <label>Friday</label>
+              <div type="textpart" subtype="chapter" xml:id="FridayNight"> 
+                  <label>Friday Night Hours</label>
+                 <div type="textpart" subtype="chapter" xml:id="FriNightFirst">
+                    <label>Readings for the first night hour on Friday</label>
+                 </div>
+                 <div type="textpart" subtype="chapter" xml:id="FriNightThird">
+                    <label>Readings for the third night hour on Friday</label>
+                 </div>
+                 <div type="textpart" subtype="chapter" xml:id="FridaySixthNight">
+                     <label>Readings for the sixth night hour on Friday</label>
+                     <div type="textpart" subtype="chapter" xml:id="FridayJC" corresp="https://betamasaheft.eu/LIT2142OntheS">
+                        <label>Homily by John Chrysostom on Christ when He says “If it be Possible, Let this Cup Pass from Me” on Friday</label>
+                     </div>
+                 <div type="textpart" subtype="chapter" xml:id="FriNightNinth">
+                    <label>Readings for the ninth night hour on Friday</label>
+                 </div>
+                 <div type="textpart" subtype="chapter" xml:id="FriNightElev">
+                    <label>Readings for the eleventh night hour on Friday</label>
+                 </div>
+                 <div type="textpart" subtype="chapter" xml:id="Cock" corresp="https://betamasaheft.eu/LIT1922Mashaf">
+                     <label>Maṣḥafa dorho</label>
+                  </div>
+              </div>
                
-               <t:div type="textpart" subtype="chapter" xml:id="FridayDay">
-                  <t:label>Friday Day Hours</t:label>  
-                  <t:div type="textpart" xml:id="Song" corresp="https://betamasaheft.eu/LIT2362Songof">
-                     <t:label>Song of Songs</t:label>
-                  </t:div>
-                  <t:div type="textpart" xml:id="Teaching" corresp="https://betamasaheft.eu/LIT5807HomilyApostles"><t:label>Homily and Teaching of the Apostles 
-                     regarding the Passion, Crucifixion and Resurrection of Our Lord</t:label></t:div>
-                  <t:div type="textpart" xml:id="Selatat" corresp="https://betamasaheft.eu/LIT5808Selatat"><t:label>Petitions in the Passion Week</t:label></t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="FridayMorning">
-                     <t:label>Readings for Friday morning (i.e. the first day hour)</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="FridayThird">
-                     <t:label>Readings for the third day hour on Friday</t:label>
-                     <t:div type="textpart" xml:id="Abraham" corresp="https://betamasaheft.eu/LIT1180Baenta">
-                        <t:label>Homily by Jacob of Serug on Abraham</t:label>
-                     </t:div>
-                     <t:div type="textpart" subtype="chapter" xml:id="AthanFrThird">
-                        <t:label>Homily by Athanasius of Alexandria</t:label>
-                     </t:div>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="FridaySixth">
-                     <t:label>Readings for the sixth day hour on Friday</t:label>
-                     <t:div type="textpart" subtype="chapter" xml:id="JohnChrFrSixth">
-                        <t:label>Admonition by John Chrysostom for the sixth day hour on Friday</t:label>
-                     </t:div>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="FridayNinth">
-                     <t:label>Readings for the ninth day hour on Friday</t:label>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="FridayEleventh">
-                     <t:label>Readings for the eleventh day hour on Friday</t:label>
-                     <t:div type="textpart" subtype="chapter" xml:id="AthanFrEleventh">
-                        <t:label>Admonition by Athanasius for the eleventh day hour on Friday</t:label>
-                     </t:div>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="FriDayTwelth">
-                     <t:label>Readings for the twelth day hour on Friday</t:label>
-                  </t:div>
-               </t:div>
-            </t:div>
+               <div type="textpart" subtype="chapter" xml:id="FridayDay">
+                  <label>Friday Day Hours</label>  
+                  <div type="textpart" xml:id="Song" corresp="https://betamasaheft.eu/LIT2362Songof">
+                     <label>Song of Songs</label>
+                  </div>
+                  <div type="textpart" xml:id="Teaching" corresp="https://betamasaheft.eu/LIT5807HomilyApostles"><label>Homily and Teaching of the Apostles 
+                     regarding the Passion, Crucifixion and Resurrection of Our Lord</label></div>
+                  <div type="textpart" xml:id="Selatat" corresp="https://betamasaheft.eu/LIT5808Selatat"><label>Petitions in the Passion Week</label></div>
+                  <div type="textpart" subtype="chapter" xml:id="FridayMorning">
+                     <label>Readings for Friday morning (i.e. the first day hour)</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="FridayThird">
+                     <label>Readings for the third day hour on Friday</label>
+                     <div type="textpart" xml:id="Abraham" corresp="https://betamasaheft.eu/LIT1180Baenta">
+                        <label>Homily by Jacob of Serug on Abraham</label>
+                     </div>
+                     <div type="textpart" subtype="chapter" xml:id="AthanFrThird">
+                        <label>Homily by Athanasius of Alexandria</label>
+                     </div>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="FridaySixth">
+                     <label>Readings for the sixth day hour on Friday</label>
+                     <div type="textpart" subtype="chapter" xml:id="JohnChrFrSixth">
+                        <label>Admonition by John Chrysostom for the sixth day hour on Friday</label>
+                     </div>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="FridayNinth">
+                     <label>Readings for the ninth day hour on Friday</label>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="FridayEleventh">
+                     <label>Readings for the eleventh day hour on Friday</label>
+                     <div type="textpart" subtype="chapter" xml:id="AthanFrEleventh">
+                        <label>Admonition by Athanasius for the eleventh day hour on Friday</label>
+                     </div>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="FriDayTwelth">
+                     <label>Readings for the twelth day hour on Friday</label>
+                  </div>
+               </div>
+            </div>
             
-            <t:div type="textpart" subtype="chapter" xml:id="Saturday">
-               <t:label>Saturday</t:label>
-               <t:div type="textpart" subtype="chapter" xml:id="SaturdayNight">
-                  <t:label>Saturday Night Hours</t:label>
+            <div type="textpart" subtype="chapter" xml:id="Saturday">
+               <label>Saturday</label>
+               <div type="textpart" subtype="chapter" xml:id="SaturdayNight">
+                  <label>Saturday Night Hours</label>
                   
-                  <t:div type="textpart" subtype="chapter" xml:id="Mass">
-                     <t:label>Mass</t:label>
-                     <t:ab>በሰንበተ፡ አይሁድ፡ በጊዜ፡ ቅዳሴ፡ ቍርባን፡</t:ab>
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="SaturdayDay">
-                     <t:label>Readings for Saturday Day</t:label>
-                     <t:div type="textpart" subtype="chapter" xml:id="SatDayFirst">
-                        <t:label>Readings for Saturday morning (i.e. the first day hour)</t:label>
-                     </t:div>
-                     <t:div type="textpart" subtype="chapter" xml:id="SatDaySixth">
-                        <t:label>Readings for the sixth day hour on Saturday</t:label>
-                        <t:div type="textpart" subtype="chapter" xml:id="Revelation" corresp="https://betamasaheft.eu/LIT3179Revela"/>
-                     </t:div> 
-                  </t:div>
-                  <t:div type="textpart" subtype="chapter" xml:id="Evening">
-                     <t:label>Readings for Saturday evening</t:label>
-                  </t:div>
-               </t:div>
+                  <div type="textpart" subtype="chapter" xml:id="Mass">
+                     <label>Mass</label>
+                     <ab>በሰንበተ፡ አይሁድ፡ በጊዜ፡ ቅዳሴ፡ ቍርባን፡</ab>
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="SaturdayDay">
+                     <label>Readings for Saturday Day</label>
+                     <div type="textpart" subtype="chapter" xml:id="SatDayFirst">
+                        <label>Readings for Saturday morning (i.e. the first day hour)</label>
+                     </div>
+                     <div type="textpart" subtype="chapter" xml:id="SatDaySixth">
+                        <label>Readings for the sixth day hour on Saturday</label>
+                        <div type="textpart" subtype="chapter" xml:id="Revelation" corresp="https://betamasaheft.eu/LIT3179Revela"/>
+                     </div> 
+                  </div>
+                  <div type="textpart" subtype="chapter" xml:id="Evening">
+                     <label>Readings for Saturday evening</label>
+                  </div>
+               </div>
 
-            </t:div>
-               <t:div type="textpart" subtype="chapter" xml:id="Sunday">
-               <t:label>Sunday</t:label>
-                  <t:div type="textpart" subtype="chapter" xml:id="Laha" corresp="https://betamasaheft.eu/LIT1750LahaMa"/>
-                  <t:div type="textpart" subtype="chapter" xml:id="Mysteries" corresp="https://betamasaheft.eu/LIT2444Temher"/>
+            </div>
+               <div type="textpart" subtype="chapter" xml:id="Sunday">
+               <label>Sunday</label>
+                  <div type="textpart" subtype="chapter" xml:id="Laha" corresp="https://betamasaheft.eu/LIT1750LahaMa"/>
+                  <div type="textpart" subtype="chapter" xml:id="Mysteries" corresp="https://betamasaheft.eu/LIT2444Temher"/>
 
-               </t:div>
+               </div>
             
-            <t:div type="textpart" subtype="chapter" xml:id="Directives">
-               <t:label>Directives for the Rite of the Passion Week</t:label>
-            </t:div>
-            <t:div type="textpart" subtype="chapter" xml:id="PrayerMidnight">
-               <t:label>Prayer for midnight during Passion Week</t:label>
-            </t:div>
-            </t:div>
-         </t:div>
-      </t:body>
-   </t:text></TEI>
+            <div type="textpart" subtype="chapter" xml:id="Directives">
+               <label>Directives for the Rite of the Passion Week</label>
+            </div>
+            <div type="textpart" subtype="chapter" xml:id="PrayerMidnight">
+               <label>Prayer for midnight during Passion Week</label>
+            </div>
+            </div>
+         </div>
+         
+         <div type="bibliography">
+            <listBibl type="secondary">
+               <bibl corresp="http://zotero.org/groups/358366/items/P2TVJUIM"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Zanetti2005Gebra"/><title level="a">Gǝbrä Ḥǝmamat</title><title level="m">Encyclopaedia Aethiopica</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ugo</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Zanetti</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Siegbert</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Uhlig</t:surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">725-728</biblScope></bibl>
+               <bibl corresp="http://zotero.org/groups/358366/items/99F6G5E3"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Habtemichael1997Celebrazione"/><title level="m">La celebrazione della Settimana Santa nella Chiesa Etiopica</title><title level="s">Hebdomadae Sanctae Celebratio. Conspectus historicus comparativus</title><author><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Habtemichael Kidane</t:name></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Antonius Georgius</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Kollaparampil</t:surname></editor><pubPlace>Roma</pubPlace><publisher>Bibliotheca “Ephemerides Liturgicae”</publisher><date>1997</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Hebdomadae Sanctae Celebratio. Conspectus historicus comparativus</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">Subsidia 93</t:biblScope></series><biblScope unit="volume">Subsidia 93</biblScope></bibl>
+            </listBibl> 
+         </div> 
+         
+      </body>
+   </text></TEI>

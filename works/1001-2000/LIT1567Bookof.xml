@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT1567Bookof"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Book of Habakkuk</title>
             <title xml:id="t1">Book of Habakkuk</title>
             <title type="short">Hab.</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -17,7 +18,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">5.6.2025 at 14:13:01</date><date type="lastModified">5.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1567Bookof/main</idno><idno type="URI">https://betamasaheft.eu/LIT1567Bookof</idno><idno type="filename">LIT1567Bookof.xml</idno><idno type="ID">LIT1567Bookof</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 22:54:52</date><date type="lastModified">5.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1567Bookof/main</idno><idno type="URI">https://betamasaheft.eu/LIT1567Bookof</idno><idno type="filename">LIT1567Bookof.xml</idno><idno type="ID">LIT1567Bookof</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -25,7 +26,7 @@
             <listWit>
                <witness corresp="https://betamasaheft.eu/BLorient501"><idno>BL Oriental 501</idno></witness>
                <witness corresp="https://betamasaheft.eu/BLadd16189#ms_i6.8"><idno>BL Additional 16189</idno></witness>
-               <witness corresp="https://betamasaheft.eu/BLadd24991"/>
+               <witness corresp="https://betamasaheft.eu/BLadd24991"><idno>BL Additional 24991</idno></witness>
                <witness corresp="https://betamasaheft.eu/BNFabb35"><idno facs="https://gallica.bnf.fr/ark:/12148/btv1b52506059h">BnF Éthiopien d'Abbadie 35</idno></witness>
                <witness corresp="https://betamasaheft.eu/BNFabb55"><idno facs="https://gallica.bnf.fr/ark:/12148/btv1b525112698">BnF Éthiopien d'Abbadie 55</idno></witness>
                <witness corresp="https://betamasaheft.eu/BerOr986"/>
@@ -43,165 +44,165 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="chapter" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item></list></desc><citeStructure unit="l" match="l" use="l"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
-         <textClass>
-            <keywords>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="Bible" ana="#Bible"/>
-               <term key="OldTestament" ana="#OldTestament"/>
-            </keywords>
-         </textClass>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="chapter" match="t:div" use="t:div"><desc><list><item>1</item><item>2</item><item>3</item></list></desc><citeStructure unit="t:l" match="t:l" use="t:l"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage>
+            <t:language ident="en">English</t:language>
+            <t:language ident="gez">Gǝʿǝz</t:language>
+         </t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Bible" ana="#Bible"/>
+               <t:term key="OldTestament" ana="#OldTestament"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
          <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
          <change who="#ES" when="2017-02-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added relation keywords</change>
          <change who="#ES" when="2025-06-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
-      </revisionDesc>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
             <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT1567Bookof" passive="https://betamasaheft.eu/LIT1315Dodeka"/>
-         </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
+         </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
          
-         <listBibl type="editions">
-            <bibl corresp="http://zotero.org/groups/358366/items/R28K3HG9"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Loefgren1930Jonanah"/><title level="m">Das äthiopische Dodekapropheton. Jona, Nahum, Habakuk, Zephanja, Haggai, Sacharja und Maleachi. Unter Zugrundelegung des Oxforder MS. Huntington 625 nach mehreren Handschriften</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Oscar</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Löfgren</t:surname></author><pubPlace>Uppsala</pubPlace><publisher>Almqvist &amp; Wiksells Boktryckeri</publisher><date>1930</date><citedRange unit="page">23-32</citedRange></bibl>
-         </listBibl>
-         <div type="edition" xml:lang="gez">
-            <note>Text of the EOTC printed Bible</note>
-            <div type="textpart" subtype="chapter" n="1" xml:id="chapter1">
-               <label>Chapter 1</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=1"/>ተረፈ፡ ዘርእየ፡ ዕንባቆም፡ ነቢይ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=2"/>እስከ፡ ማእዜኑ፡ እዚኦ፡ እኬልሕ፡ ወኢትሰምዕ፡ አአወዩ፡ እኬልሕ፡ ወኢትሰምዕ፡ አእወዩ፡ ኀቤከ፡ ተገፊእየ፡ ወኢታድኀን።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=3"/>አምንት፡ አርአይከኒ፡ ስራሐ፡ ወሕማመ፡ ከመ፡ አርአይ፡ ኀሳር፡ ወሕርትምና፡ ብቅድሜየ፡ ኮነ፡ ፍትሕ፡ ወመኮንንኒ፡ ይትሐለይ፡ ሕልያነ።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=4"/>በእንተ፡ ዝንቱ፡ ዐለዉ፡ ህግ፡ ወኢይወ፡ ፅአ፡ ፍትሐ፡ ጽድቅ፡ እስመ፡ ይትዔገሎ፡ ኃጥእ፡ ለጻድቅ፡ በእንተ፡ ዝንቱ፡ ይወፅእ፡ ፍትሕ፡ ግፍቱዑ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=5"/>ርእዩኬ፡ እለ፡ ታስተሐቅሩ፡ ወነጽሩ፡ ወአንክሩ፡ መንክረ፡ ወትማስኑ፡ እስመ፡ ግብ፡ እገብር፡ አነ፡ በመዋዕሊክሙ፡ ዘኢተአምኑ፡ እመ፡ ነገሩክሙ።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=6"/>ወናሁ፡ እፌኑ፡ ላዕሌክሙ፡ አነ፡ ፋርስሃ፡ ህዝበ፡ መሪራነ፡ ዋራዋድነ፡ እለ፡ የሐውሩ፡ በስፍሐ፡ ምድር፡ ከመ፡ ይረሰሱ፡ አብያተ፡ ዘኢኮነ፡ ዚአሆሙ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=7"/>ግሩም፡ ራእዩ፡ እምውስቴቶሙ፡ ይከውን፡ ፍትሑ፡ ወተረፋሂ፡ እምኔሁ፡ ይወፅእ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=8"/>ወይሰሩ፡ ከመ፡ ነምር፡ አፍራሲሆሙ፡ ወይበድሩ፡ እምተኲላተ፡ ዐረብ። ወይሩ፡ ከመ፡ ንስር፡ ዘይጐጒዕ፡ ለበሊዕ፡ ወይበጽሑ፡ እምርኁቅ፡ አፍራሲኖሙ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=9"/>ወይበጽሖሙ፡ ጥፍአት፡ ለኃጥኦን፡ እለ፡ ይትቃወሙ፡ ፍጽመ፡ ቅድመ፡ ገጾሙ፡ ወያስተጋብአኡ፡ ፄዋሆሙ፡ ከመ፡ ኖፃ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=10"/>ወውእቱሰ፡ ይንስ፡ ሎሙ፡ ወይፍግዕ፡ ላዕሆሙ፡ ወኃይላን፡ ተውኔቱ፡ ወይሣለቅ፡ ላዕለ፡ ኲሉ፡ አጽዋኒሆሙ፡ ወይደፍኖሙ፡ በመሬት፡ ወይእኀዞሙ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=11"/>ወእምዝ፡ ይመይጥ፡ መንፈሶ፡ ወየኀልፍ፡ ወያመስጥ፡ ለዛ፡ ኃይሉ፡ ለአምላኪየ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=12"/>አኮኑ፡ እንተ፡ ቀደምከ፡ እግዚኦ፡ አምላኪየ፡ ቅዱስ፡ ወኢንመውት፡ እግዚኦ፡ ለኲኔ፡ ሠራዕከሁ፡ ወተጠረኒ፡ ከመ፡ እዛለፍ፡ በተግሣጹ።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=13"/>በዐይን፡ ንጹሕ፡ ኢይኔጽር፡ ውስተ፡ እይ፡ ወሕማም፡ ወጻዕር፡ ለምንት፡ ታረምም፡ እንዘ፡ ትሬእዩሙ፡ ለእለ፡ ያስተአክዩ፡ ወይውሕጦ፡ ኃጥእ፡ ለጻድቅ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=14"/>ወትሬስዩሙ፡ ለሰብእ፡ ከመ፡ ዓሣተ፡ ባሕር፡ ወከመ፡ አርዌ፡ ዘአልቦ፡ መኮንነ።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=15"/>በመስገርቱ፡ አውፅአ፡ ያኃልቆ፡ ወሰሐቦ፡ በመርበብቱ፡ ወስተጋብኦ፡ በመስገርቱ፡ በእንተ፡ ዝንቱ፡ ይትፌስህ፡ ወይትኀሠይ፡ ልቡ።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=16"/>በእንተ፡ ዝንቱ፡ ይሠውዕ፡ ለመስገርቱ፡ ወየዐጥን፡ ለመርበብቱ፡ ወኀሩይ፡ ሲሳዩ።</l>
-                  <l n="17">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=17"/>በእንተ፡ ዝንቱ፡ ይረብብ፡ መስገርቶ፡ ወዘልፈ፡ ይቀትሎሙ፡ ለአሕዛብ፡ ወኢይምሕኮሙ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="2" xml:id="chapter2">
-               <label>Chapter 2</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=1"/>ወእቀውም፡ ውስተ፡ ምእቃብየ፡ ወአዐርግ፡ ዲበ፡ ኮኲሕ፡ ወአጾዕ፡ አአምሮ፡ ዘይነብበነኒ፡ በእግዚአብሔር፡ አወስኦ፡ ለዘይዛለፈኒ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=2"/>ወአውስአኒ፡ እግዚአብሔር፡ ወይቤለኒ፡ ጸሀፍ፡ ነገረ፡ ራዕይ፡ ውስተ፡ ሰሌዳ፡ ከመ፡ ያፍጥን፡ ዘያነብብ።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=3"/>እስመ፡ ዓዲሁ፡ ራእይ፡ በበዕድሜሁ፡ ወይሠርቅ፡ በማዕዶቱ፡ ወአኮ፡ ለከንቱ፡ ወአመኒ፡ በማዕዶቱ፡ ወአኮ፡ ለከንቱ። ወአመኒ፡ ጎንደየ፡ ጽንሖ፡ እስመ፡ ይመጽእ፡ ወይበጽሕ፡ ወኢይጎነዲ።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=4"/>ወእመሰ፡ ተመይጠ፡ ኢትሠምር፡ ቦቱ፡ ነፍስየ፡ ጻድቅሰ፡ በአሚን፡ የሐዩ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=5"/>ወብእሲ፡ ነባቢ፡ ወመስተሐቅር፡ ኢየኀልፍ፡ ኢበምንትኒ፡ በከመ፡ አርሐበ፡ ኢበምንትኒ፡ በከመ፡ አርሐበ፡ ነፍሶ፡ ሲኦል፡ ወኢይጸግብ፡ ከመ፡ ሞት፡ ወያሰተጋብእ፡ ኀቤሁ፡ ኲሎሙ፡ አሕዛብ።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=6"/>ዘንተ፡ ኲሎ፡ ይሜስሉ፡ ላዕሌሁ፡ ወይትናገሩ፡ ምሳሌሁ፡ ወይብሉ፡ አሌሎቱ፡ ለዘያስተጋብ፡ ዘኢኮነ፡ ዘዘአሀሁ፡ እስከ፡ ምንትኑ፡ ከብድ፡ ሎቱ፡ ጋለ፡ ዓቢየ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=7"/>እስመ፡ ግብተ፡ ይትነሳእ፡ ወይነስኮ፡ ወይተግሁ፡ መመክርቲከ፡ ወትከውኖሙ፡ እንተ፡ ሕብልያ፡ ወየሐበልዩከ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=8"/>እስመ፡ አንተ፡ ሐብለይከ፡ ብዙኃነ፡ አሕዛበ፡ ወየሐበልዩከ፡ ኰሎሙ፡ አለ፡ ተርፈ፡ ሕዝብ፡ በእንተ፡ ደመ፡ ሰብእ፡ ወዓመፃ፡ አህጉር፡ ወበሐውርት፡ ወዘኲሎሙ፡ እለ፡ ይነብር፡ ውስቴታ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=9"/>አሌሎ፡ ለዜትዔገል፡ ትዕግልተ፡ እኩየ፡ ለቤቱ፡ ከመ፡ ስርር፡ ውስተ፡ አርም፡ እጎሊሁ፡ ከመ፡ ይፃእ፡ እምእደ፡ እኪያን።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=10"/>ወመከርከ፡ ኃሳረ፡ ለቤትከ፡ ወተዐደውከ፡ ብዙኀ፡ አሕዛበ፡ ወዐመፀት፡ ነፍስከ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=11"/>እስመ፡ እብንኒ፡ ትግዕር፡ እምውስተ፡ አረፍት፡ ወሦክ፡ ያወስእ፡ እምዕፅ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=12"/>አሌሎ፡ ለዘየሐንጽ፡ አህጉረ፡ በደም፡ ወያጸንዕ፡ አህጉረ፡ በዓመፃ።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=13"/>ኢኮነኬ፡ ዝንቱ፡ እምኀበ፡ እግዚአብሔር፡ ዘኰሎ፡ ይመልክ፡ ወኀልቁቁ፡ በዙኃን፡ አህዛብ፡ በእሳት፡ ወተመንደቡ፡ በዙኃን፡ ህዝብ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=14"/>እስመ፡ መልአ፡ ኲሉ፡ ዓለመ፡ አእምሮ፡ ስብሐተ፡ እግዚአብሔር፡ ወይደፍኖሙ፡ ከመ፡ ማይ፡ ብዙኀ።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=15"/>ጦቤሎ፡ ለዜሰትዩ፡ ሌቢጹ፡ በዘይመውት፡ ወያሰክሮ፡ በዘየኀስር፡ ከመ፡ ይነጽር፡ ውስተ፡ በአታተ፡ ምሕራሞሙ።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=16"/>ስቴ፡ ኃሳረ፡ ለክብርከ፡ ወርዌ፡ ወአንተሂ፡ ልብ፡ ረዓድ፡ ዋእንቀለቅል፡ እስመ፡ ዐገተከ፡ ጽዋዐ፡ የማኑ፡ ለእዚአብሔር፡ ወታገብእ፡ ኃሳረ፡ ላዕለ፡ ክብርክ።</l>
-                  <l n="17">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=17"/>እስመ፡ ርኲሰ፡ ሊባኖስ፡ ይደፍንከ፡ ወሕርትማነ፡ ወአርዌ፡ ገዳም፡ ያደንግፀከ፡ በእንተ፡ ከመ፡ ሰብእ፡ ወኃጢአተ፡ ብሔር፡ ወአህገር፡ ወኲሎሙ፡ እለ፡ ይነብር፡ ውስቴታ።</l>
-                  <l n="18">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=18"/>ምንተ፡ ይበቊዕ፡ ገልፎ፡ መገለፋ፡ ወሰብኩ፡ ወገብሩ፡ ሐሰተምትሐተ፡ ዔን፡ ወይትአመኖ፡ ለገባሪሁ፡ በዘለ፡ ለሊሁ፡ ብረ፡ ከመ፡ ይግበር፡ ጣዖት፡ በሀመ።</l>
-                  <l n="19">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=19"/>አሌሎ፡ ለዘይቤሎ፡ ላዕፅ፡ ንቃህ፡ ወተንስእ፡ ወይቤሎ፡ ለእብን፡ ተለዐል፡ ወውርቅ፡ ወበብረር፡ ወአልቦ፡ ነፍሰ።</l>
-                  <l n="20">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=20"/>ወእግዚአብሔርሰ፡ ውስተ፡ ጽርሐ፡ መቅደሱ፡ ወትፈርሆለ፡ ኲላ፡ ምድር፡ እምቅድመ፡ ገጹ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="3" xml:id="chapter3">
-               <label>Chapter 3</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=1"/>እግዚኦ፡ ሰማዕኩ፡ ድምጸከከ፡ ወፈራህኩ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=2"/>ርኢኩ፡ ግብከ፡ ወአንከርኩ፡ በማእከለ፡ ክልኤ፡ ለእንስሳ፡ ርኢኩከ፡ ሶበ፡ ይቀርብ፡ ዐመቲሁ፡ አአምረከ፡ ወሶበሰ፡ ይበጽሕ፡ ጊዜሁ፡ እሌብወከ፡ ወሶበ፡ ትደነግጽ፡ ነፍስየ፡ እመንሱት፡ ተዘከረኒ፡ በምሕረት።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=3"/>እግዚአብሔርሰ፡ እምቴማን፡ ይመጽእ፡ ወቅዱስ፡ እምደብረ፡ ፋራን፡ ወእምአህገረ፡ ይሁዳ፡ ከደነ፡ ሰማያተ፡ ስኑ፡ ወመልአ፡ ምድረ፡ ስብሐቲሁ።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=4"/>ወፀዳሉኒ፡ ከመ፡ ብርሃን፡ ውእቱ፡ አቅርንት፡ ውስተ፡ እደዊሁ፡ ወረሰየ፡ ፍቁረ፡ በጽንዐ፡ ኃይሉ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=5"/>ወየሐውር፡ ቃለ፡ ቅድመ፡ ገጹ፡ ወይወፅእ፡ ውስተ፡ ገዳም፡ እምድኅረ፡ እገሪሁ።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=6"/>ወሶበ፡ ቀውም፡ ታደለቀልቅ፡ ምድር፡ ወሶበ፡ ይኔጽር፡ ይትመሰዉ፡ አህዛብ። ወይትቀጠቀዉ፡ አድባር፡ በኃይሉ፡ ወይትመሰዉ፡ አውግር፡ ዘእምዓለም፡ ወፍኖቶሂ፡ ርኢኩ፡ ዝምዓለም።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=7"/>ወደምገፁ፡ አዕጻዳት፡ ኢትዮጵያ፡ ወማህደረ፡ ምድር፡ ምድያም፡ ይደነግፃ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=8"/>ኢትትመዐዕ፡ ላዕለ፡ አፍላግ፡ እግዚኦ፡ ወኢይኩን፡ መዐትከ፡ ላእለ፡ እፍላግ፡ ወኢመቅሠፍትከ፡ ዲበ፡ አፍራሲከ፡ ወአፍራሲከኒ፡ መድኃኒት፡ ውእቱ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=9"/>ወተርከ፡ ወወሰቀ፡ ቃስተከ፡ ዲበ፡ አብትር፡ ይቤ፡ እግዚአብሔር፡ ወይሠጥቅ፡ ምድረ፡ አፍላለግ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=10"/>ይሬእዩከ፡ ወይፄዐሩ፡ አሕዛብ፡ ዋይዘሮማይ፡ በውስተ፡ ፍኖት፡ ወወሀበት፡ ቀላይ፡ ቃለ፡ ወአልዐለት፡ ግርማሃ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=11"/>ተንስኡ፡ ፀሐይ፡ ወወርኀ፡ ወቆሙ፡ በስርዓትከ፡ በመብረቀ፡ አኅፃከ፡ የሐውሩ፡ ወበብርሃነ፡ መብረቀ፡ ወልታከ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=12"/>በመዐትከ፡ ውሕደት፡ ምድር፡ ወታወረዶሙ፡ ለአሕዛብ፡ በመዐትከ።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=13"/>ወፃእከ፡ ታድኀኖሙ፡ ለሕዝብ፡ ከመ፡ ታድኀኖሙ፡ ለቅቡኦኒከ፡ ወወደይከ፡ ውስተ፡ አርእስቲሆሙ፡ ለኃጥኦን፡ ሞተ። ወንሳእከ፡ ማእሰረከ፡ እስከ፡ ክሳዶሙ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=14"/>ወመተር፡ አርእስተ፡ ኃያላን፡ በድንጋፄ፡ ወያደለቀልቁ፡ ባቲ፡ ወያርኃው፡ ልጓማቲሆሙ፡ ከመ፡ ዜበልዕ፡ ነዳ፡ በጽምሚት።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=15"/>ወተጽዕን፡ አፍራሲከ፡ በውስተ፡ ባሕር፡ ወየሀውኩ፡ ማየ፡ ብዙኀ።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=16"/>ተዐቀብኩ፡ ወደንገፀኒ፡ ከርስየ፡ እምቃለ፡ ጸሎተ፡ ክናፍርየ፡ ወቦአ፡ ረዓድ፡ ውስተ፡ አዕጽምትየ፡ ወበመትሕት፡ አንቀልቀለ፡ ኃይልየ፡ ወአዐርፍ፡ በዕለተ፡ ምንዳቤየ፡ ከመ፡ እዕርግ፡ ውስተ፡ ሕዝብ፡ ዘፈለስ።</l>
-                  <l n="17">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=17"/>እስመ፡ በለስኒ፡ ኢትፈሪ፡ ወአልቦ፡ ቀምሐ፡ ውስተ፡ ዐጸደ፡ ወይን፡ ወሐሰወት፡ ግብራ፡ ዘይት፡ ወራውህኒ፡ ኢይፈሪ፡ እክለ። ወተሐጒሉ፡ አባግዕ፡ አመብልዕ፡ አመብልዕ፡ ወአልህምትኒ፡ ኢይትረከቡ፡ በውስተ፡ ጎል።</l>
-                  <l n="18">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=18"/>ወንሰ፡ ብግዚአብሔር፡ እትፌሣሕ፡ ወእትኀሠይ፡ በአምላኪየ፡ ወመድኃንየ።</l>
-                  <l n="19">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=19"/>እግዚአብሔር፡ አምላኪየ፡ ወኃይየ፡ ዘያቀውሞን፡ ለእገርየ፡ ለዝሎፋ፡ ወያዐርገኒ፡ ውስተ፡ መልዕልት፡ ካማ፡ እማእ፡ እማኃልይሁ።</l>
-               </ab>
-            </div>
-         </div>
-      </body>
-   </text></TEI>
+         <t:listBibl type="editions">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/R28K3HG9"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Loefgren1930Jonanah"/><title level="m">Das äthiopische Dodekapropheton. Jona, Nahum, Habakuk, Zephanja, Haggai, Sacharja und Maleachi. Unter Zugrundelegung des Oxforder MS. Huntington 625 nach mehreren Handschriften</title><author><t:forename>Oscar</t:forename><t:surname>Löfgren</t:surname></author><pubPlace>Uppsala</pubPlace><publisher>Almqvist &amp; Wiksells Boktryckeri</publisher><date>1930</date><t:citedRange unit="page">23-32</t:citedRange></t:bibl>
+         </t:listBibl>
+         <t:div type="edition" xml:lang="gez">
+            <t:note>Text of the EOTC printed Bible</t:note>
+            <t:div type="textpart" subtype="chapter" n="1" xml:id="chapter1">
+               <t:label>Chapter 1</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=1"/>ተረፈ፡ ዘርእየ፡ ዕንባቆም፡ ነቢይ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=2"/>እስከ፡ ማእዜኑ፡ እዚኦ፡ እኬልሕ፡ ወኢትሰምዕ፡ አአወዩ፡ እኬልሕ፡ ወኢትሰምዕ፡ አእወዩ፡ ኀቤከ፡ ተገፊእየ፡ ወኢታድኀን።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=3"/>አምንት፡ አርአይከኒ፡ ስራሐ፡ ወሕማመ፡ ከመ፡ አርአይ፡ ኀሳር፡ ወሕርትምና፡ ብቅድሜየ፡ ኮነ፡ ፍትሕ፡ ወመኮንንኒ፡ ይትሐለይ፡ ሕልያነ።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=4"/>በእንተ፡ ዝንቱ፡ ዐለዉ፡ ህግ፡ ወኢይወ፡ ፅአ፡ ፍትሐ፡ ጽድቅ፡ እስመ፡ ይትዔገሎ፡ ኃጥእ፡ ለጻድቅ፡ በእንተ፡ ዝንቱ፡ ይወፅእ፡ ፍትሕ፡ ግፍቱዑ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=5"/>ርእዩኬ፡ እለ፡ ታስተሐቅሩ፡ ወነጽሩ፡ ወአንክሩ፡ መንክረ፡ ወትማስኑ፡ እስመ፡ ግብ፡ እገብር፡ አነ፡ በመዋዕሊክሙ፡ ዘኢተአምኑ፡ እመ፡ ነገሩክሙ።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=6"/>ወናሁ፡ እፌኑ፡ ላዕሌክሙ፡ አነ፡ ፋርስሃ፡ ህዝበ፡ መሪራነ፡ ዋራዋድነ፡ እለ፡ የሐውሩ፡ በስፍሐ፡ ምድር፡ ከመ፡ ይረሰሱ፡ አብያተ፡ ዘኢኮነ፡ ዚአሆሙ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=7"/>ግሩም፡ ራእዩ፡ እምውስቴቶሙ፡ ይከውን፡ ፍትሑ፡ ወተረፋሂ፡ እምኔሁ፡ ይወፅእ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=8"/>ወይሰሩ፡ ከመ፡ ነምር፡ አፍራሲሆሙ፡ ወይበድሩ፡ እምተኲላተ፡ ዐረብ። ወይሩ፡ ከመ፡ ንስር፡ ዘይጐጒዕ፡ ለበሊዕ፡ ወይበጽሑ፡ እምርኁቅ፡ አፍራሲኖሙ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=9"/>ወይበጽሖሙ፡ ጥፍአት፡ ለኃጥኦን፡ እለ፡ ይትቃወሙ፡ ፍጽመ፡ ቅድመ፡ ገጾሙ፡ ወያስተጋብአኡ፡ ፄዋሆሙ፡ ከመ፡ ኖፃ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=10"/>ወውእቱሰ፡ ይንስ፡ ሎሙ፡ ወይፍግዕ፡ ላዕሆሙ፡ ወኃይላን፡ ተውኔቱ፡ ወይሣለቅ፡ ላዕለ፡ ኲሉ፡ አጽዋኒሆሙ፡ ወይደፍኖሙ፡ በመሬት፡ ወይእኀዞሙ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=11"/>ወእምዝ፡ ይመይጥ፡ መንፈሶ፡ ወየኀልፍ፡ ወያመስጥ፡ ለዛ፡ ኃይሉ፡ ለአምላኪየ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=12"/>አኮኑ፡ እንተ፡ ቀደምከ፡ እግዚኦ፡ አምላኪየ፡ ቅዱስ፡ ወኢንመውት፡ እግዚኦ፡ ለኲኔ፡ ሠራዕከሁ፡ ወተጠረኒ፡ ከመ፡ እዛለፍ፡ በተግሣጹ።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=13"/>በዐይን፡ ንጹሕ፡ ኢይኔጽር፡ ውስተ፡ እይ፡ ወሕማም፡ ወጻዕር፡ ለምንት፡ ታረምም፡ እንዘ፡ ትሬእዩሙ፡ ለእለ፡ ያስተአክዩ፡ ወይውሕጦ፡ ኃጥእ፡ ለጻድቅ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=14"/>ወትሬስዩሙ፡ ለሰብእ፡ ከመ፡ ዓሣተ፡ ባሕር፡ ወከመ፡ አርዌ፡ ዘአልቦ፡ መኮንነ።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=15"/>በመስገርቱ፡ አውፅአ፡ ያኃልቆ፡ ወሰሐቦ፡ በመርበብቱ፡ ወስተጋብኦ፡ በመስገርቱ፡ በእንተ፡ ዝንቱ፡ ይትፌስህ፡ ወይትኀሠይ፡ ልቡ።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=16"/>በእንተ፡ ዝንቱ፡ ይሠውዕ፡ ለመስገርቱ፡ ወየዐጥን፡ ለመርበብቱ፡ ወኀሩይ፡ ሲሳዩ።</t:l>
+                  <t:l n="17">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=1&amp;verse=17"/>በእንተ፡ ዝንቱ፡ ይረብብ፡ መስገርቶ፡ ወዘልፈ፡ ይቀትሎሙ፡ ለአሕዛብ፡ ወኢይምሕኮሙ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="2" xml:id="chapter2">
+               <t:label>Chapter 2</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=1"/>ወእቀውም፡ ውስተ፡ ምእቃብየ፡ ወአዐርግ፡ ዲበ፡ ኮኲሕ፡ ወአጾዕ፡ አአምሮ፡ ዘይነብበነኒ፡ በእግዚአብሔር፡ አወስኦ፡ ለዘይዛለፈኒ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=2"/>ወአውስአኒ፡ እግዚአብሔር፡ ወይቤለኒ፡ ጸሀፍ፡ ነገረ፡ ራዕይ፡ ውስተ፡ ሰሌዳ፡ ከመ፡ ያፍጥን፡ ዘያነብብ።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=3"/>እስመ፡ ዓዲሁ፡ ራእይ፡ በበዕድሜሁ፡ ወይሠርቅ፡ በማዕዶቱ፡ ወአኮ፡ ለከንቱ፡ ወአመኒ፡ በማዕዶቱ፡ ወአኮ፡ ለከንቱ። ወአመኒ፡ ጎንደየ፡ ጽንሖ፡ እስመ፡ ይመጽእ፡ ወይበጽሕ፡ ወኢይጎነዲ።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=4"/>ወእመሰ፡ ተመይጠ፡ ኢትሠምር፡ ቦቱ፡ ነፍስየ፡ ጻድቅሰ፡ በአሚን፡ የሐዩ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=5"/>ወብእሲ፡ ነባቢ፡ ወመስተሐቅር፡ ኢየኀልፍ፡ ኢበምንትኒ፡ በከመ፡ አርሐበ፡ ኢበምንትኒ፡ በከመ፡ አርሐበ፡ ነፍሶ፡ ሲኦል፡ ወኢይጸግብ፡ ከመ፡ ሞት፡ ወያሰተጋብእ፡ ኀቤሁ፡ ኲሎሙ፡ አሕዛብ።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=6"/>ዘንተ፡ ኲሎ፡ ይሜስሉ፡ ላዕሌሁ፡ ወይትናገሩ፡ ምሳሌሁ፡ ወይብሉ፡ አሌሎቱ፡ ለዘያስተጋብ፡ ዘኢኮነ፡ ዘዘአሀሁ፡ እስከ፡ ምንትኑ፡ ከብድ፡ ሎቱ፡ ጋለ፡ ዓቢየ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=7"/>እስመ፡ ግብተ፡ ይትነሳእ፡ ወይነስኮ፡ ወይተግሁ፡ መመክርቲከ፡ ወትከውኖሙ፡ እንተ፡ ሕብልያ፡ ወየሐበልዩከ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=8"/>እስመ፡ አንተ፡ ሐብለይከ፡ ብዙኃነ፡ አሕዛበ፡ ወየሐበልዩከ፡ ኰሎሙ፡ አለ፡ ተርፈ፡ ሕዝብ፡ በእንተ፡ ደመ፡ ሰብእ፡ ወዓመፃ፡ አህጉር፡ ወበሐውርት፡ ወዘኲሎሙ፡ እለ፡ ይነብር፡ ውስቴታ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=9"/>አሌሎ፡ ለዜትዔገል፡ ትዕግልተ፡ እኩየ፡ ለቤቱ፡ ከመ፡ ስርር፡ ውስተ፡ አርም፡ እጎሊሁ፡ ከመ፡ ይፃእ፡ እምእደ፡ እኪያን።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=10"/>ወመከርከ፡ ኃሳረ፡ ለቤትከ፡ ወተዐደውከ፡ ብዙኀ፡ አሕዛበ፡ ወዐመፀት፡ ነፍስከ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=11"/>እስመ፡ እብንኒ፡ ትግዕር፡ እምውስተ፡ አረፍት፡ ወሦክ፡ ያወስእ፡ እምዕፅ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=12"/>አሌሎ፡ ለዘየሐንጽ፡ አህጉረ፡ በደም፡ ወያጸንዕ፡ አህጉረ፡ በዓመፃ።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=13"/>ኢኮነኬ፡ ዝንቱ፡ እምኀበ፡ እግዚአብሔር፡ ዘኰሎ፡ ይመልክ፡ ወኀልቁቁ፡ በዙኃን፡ አህዛብ፡ በእሳት፡ ወተመንደቡ፡ በዙኃን፡ ህዝብ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=14"/>እስመ፡ መልአ፡ ኲሉ፡ ዓለመ፡ አእምሮ፡ ስብሐተ፡ እግዚአብሔር፡ ወይደፍኖሙ፡ ከመ፡ ማይ፡ ብዙኀ።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=15"/>ጦቤሎ፡ ለዜሰትዩ፡ ሌቢጹ፡ በዘይመውት፡ ወያሰክሮ፡ በዘየኀስር፡ ከመ፡ ይነጽር፡ ውስተ፡ በአታተ፡ ምሕራሞሙ።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=16"/>ስቴ፡ ኃሳረ፡ ለክብርከ፡ ወርዌ፡ ወአንተሂ፡ ልብ፡ ረዓድ፡ ዋእንቀለቅል፡ እስመ፡ ዐገተከ፡ ጽዋዐ፡ የማኑ፡ ለእዚአብሔር፡ ወታገብእ፡ ኃሳረ፡ ላዕለ፡ ክብርክ።</t:l>
+                  <t:l n="17">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=17"/>እስመ፡ ርኲሰ፡ ሊባኖስ፡ ይደፍንከ፡ ወሕርትማነ፡ ወአርዌ፡ ገዳም፡ ያደንግፀከ፡ በእንተ፡ ከመ፡ ሰብእ፡ ወኃጢአተ፡ ብሔር፡ ወአህገር፡ ወኲሎሙ፡ እለ፡ ይነብር፡ ውስቴታ።</t:l>
+                  <t:l n="18">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=18"/>ምንተ፡ ይበቊዕ፡ ገልፎ፡ መገለፋ፡ ወሰብኩ፡ ወገብሩ፡ ሐሰተምትሐተ፡ ዔን፡ ወይትአመኖ፡ ለገባሪሁ፡ በዘለ፡ ለሊሁ፡ ብረ፡ ከመ፡ ይግበር፡ ጣዖት፡ በሀመ።</t:l>
+                  <t:l n="19">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=19"/>አሌሎ፡ ለዘይቤሎ፡ ላዕፅ፡ ንቃህ፡ ወተንስእ፡ ወይቤሎ፡ ለእብን፡ ተለዐል፡ ወውርቅ፡ ወበብረር፡ ወአልቦ፡ ነፍሰ።</t:l>
+                  <t:l n="20">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=2&amp;verse=20"/>ወእግዚአብሔርሰ፡ ውስተ፡ ጽርሐ፡ መቅደሱ፡ ወትፈርሆለ፡ ኲላ፡ ምድር፡ እምቅድመ፡ ገጹ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="3" xml:id="chapter3">
+               <t:label>Chapter 3</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=1"/>እግዚኦ፡ ሰማዕኩ፡ ድምጸከከ፡ ወፈራህኩ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=2"/>ርኢኩ፡ ግብከ፡ ወአንከርኩ፡ በማእከለ፡ ክልኤ፡ ለእንስሳ፡ ርኢኩከ፡ ሶበ፡ ይቀርብ፡ ዐመቲሁ፡ አአምረከ፡ ወሶበሰ፡ ይበጽሕ፡ ጊዜሁ፡ እሌብወከ፡ ወሶበ፡ ትደነግጽ፡ ነፍስየ፡ እመንሱት፡ ተዘከረኒ፡ በምሕረት።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=3"/>እግዚአብሔርሰ፡ እምቴማን፡ ይመጽእ፡ ወቅዱስ፡ እምደብረ፡ ፋራን፡ ወእምአህገረ፡ ይሁዳ፡ ከደነ፡ ሰማያተ፡ ስኑ፡ ወመልአ፡ ምድረ፡ ስብሐቲሁ።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=4"/>ወፀዳሉኒ፡ ከመ፡ ብርሃን፡ ውእቱ፡ አቅርንት፡ ውስተ፡ እደዊሁ፡ ወረሰየ፡ ፍቁረ፡ በጽንዐ፡ ኃይሉ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=5"/>ወየሐውር፡ ቃለ፡ ቅድመ፡ ገጹ፡ ወይወፅእ፡ ውስተ፡ ገዳም፡ እምድኅረ፡ እገሪሁ።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=6"/>ወሶበ፡ ቀውም፡ ታደለቀልቅ፡ ምድር፡ ወሶበ፡ ይኔጽር፡ ይትመሰዉ፡ አህዛብ። ወይትቀጠቀዉ፡ አድባር፡ በኃይሉ፡ ወይትመሰዉ፡ አውግር፡ ዘእምዓለም፡ ወፍኖቶሂ፡ ርኢኩ፡ ዝምዓለም።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=7"/>ወደምገፁ፡ አዕጻዳት፡ ኢትዮጵያ፡ ወማህደረ፡ ምድር፡ ምድያም፡ ይደነግፃ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=8"/>ኢትትመዐዕ፡ ላዕለ፡ አፍላግ፡ እግዚኦ፡ ወኢይኩን፡ መዐትከ፡ ላእለ፡ እፍላግ፡ ወኢመቅሠፍትከ፡ ዲበ፡ አፍራሲከ፡ ወአፍራሲከኒ፡ መድኃኒት፡ ውእቱ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=9"/>ወተርከ፡ ወወሰቀ፡ ቃስተከ፡ ዲበ፡ አብትር፡ ይቤ፡ እግዚአብሔር፡ ወይሠጥቅ፡ ምድረ፡ አፍላለግ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=10"/>ይሬእዩከ፡ ወይፄዐሩ፡ አሕዛብ፡ ዋይዘሮማይ፡ በውስተ፡ ፍኖት፡ ወወሀበት፡ ቀላይ፡ ቃለ፡ ወአልዐለት፡ ግርማሃ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=11"/>ተንስኡ፡ ፀሐይ፡ ወወርኀ፡ ወቆሙ፡ በስርዓትከ፡ በመብረቀ፡ አኅፃከ፡ የሐውሩ፡ ወበብርሃነ፡ መብረቀ፡ ወልታከ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=12"/>በመዐትከ፡ ውሕደት፡ ምድር፡ ወታወረዶሙ፡ ለአሕዛብ፡ በመዐትከ።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=13"/>ወፃእከ፡ ታድኀኖሙ፡ ለሕዝብ፡ ከመ፡ ታድኀኖሙ፡ ለቅቡኦኒከ፡ ወወደይከ፡ ውስተ፡ አርእስቲሆሙ፡ ለኃጥኦን፡ ሞተ። ወንሳእከ፡ ማእሰረከ፡ እስከ፡ ክሳዶሙ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=14"/>ወመተር፡ አርእስተ፡ ኃያላን፡ በድንጋፄ፡ ወያደለቀልቁ፡ ባቲ፡ ወያርኃው፡ ልጓማቲሆሙ፡ ከመ፡ ዜበልዕ፡ ነዳ፡ በጽምሚት።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=15"/>ወተጽዕን፡ አፍራሲከ፡ በውስተ፡ ባሕር፡ ወየሀውኩ፡ ማየ፡ ብዙኀ።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=16"/>ተዐቀብኩ፡ ወደንገፀኒ፡ ከርስየ፡ እምቃለ፡ ጸሎተ፡ ክናፍርየ፡ ወቦአ፡ ረዓድ፡ ውስተ፡ አዕጽምትየ፡ ወበመትሕት፡ አንቀልቀለ፡ ኃይልየ፡ ወአዐርፍ፡ በዕለተ፡ ምንዳቤየ፡ ከመ፡ እዕርግ፡ ውስተ፡ ሕዝብ፡ ዘፈለስ።</t:l>
+                  <t:l n="17">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=17"/>እስመ፡ በለስኒ፡ ኢትፈሪ፡ ወአልቦ፡ ቀምሐ፡ ውስተ፡ ዐጸደ፡ ወይን፡ ወሐሰወት፡ ግብራ፡ ዘይት፡ ወራውህኒ፡ ኢይፈሪ፡ እክለ። ወተሐጒሉ፡ አባግዕ፡ አመብልዕ፡ አመብልዕ፡ ወአልህምትኒ፡ ኢይትረከቡ፡ በውስተ፡ ጎል።</t:l>
+                  <t:l n="18">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=18"/>ወንሰ፡ ብግዚአብሔር፡ እትፌሣሕ፡ ወእትኀሠይ፡ በአምላኪየ፡ ወመድኃንየ።</t:l>
+                  <t:l n="19">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Hab&amp;chapter=3&amp;verse=19"/>እግዚአብሔር፡ አምላኪየ፡ ወኃይየ፡ ዘያቀውሞን፡ ለእገርየ፡ ለዝሎፋ፡ ወያዐርገኒ፡ ውስተ፡ መልዕልት፡ ካማ፡ እማእ፡ እማኃልይሁ።</t:l>
+               </t:ab>
+            </t:div>
+         </t:div>
+      </t:body>
+   </t:text></TEI>
