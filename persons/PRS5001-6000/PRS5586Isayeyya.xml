@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS5586Isayeyya"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">ʾIsāyǝyyās</title>
             <title>ʾIsāyǝyyās</title>
             <editor key="SG" corresp="https://betamasaheft.eu/team.html#SG" xml:id="SG">Solomon Gebreyes</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <author/>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -16,7 +17,7 @@
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
-         <date type="expanded">28.2.2025 at 11:18:41</date><date type="lastModified">6.10.2016</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS5586Isayeyya/main</idno><idno type="URI">https://betamasaheft.eu/PRS5586Isayeyya</idno><idno type="filename">PRS5586Isayeyya.xml</idno><idno type="ID">PRS5586Isayeyya</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 03:29:51</date><date type="lastModified">6.10.2016</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS5586Isayeyya/main</idno><idno type="URI">https://betamasaheft.eu/PRS5586Isayeyya</idno><idno type="filename">PRS5586Isayeyya.xml</idno><idno type="ID">PRS5586Isayeyya</idno></publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
@@ -34,59 +35,59 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#PL" when="2016-04-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->batch updated according to requirements and issues.</change>
          <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
                                                   google spreadsheet </change>
          <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: person</change>
          <change who="#SG" when="2016-10-06"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Complete record</change>
-      </revisionDesc>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                   
                   <relation name="snap:AllianceWith" ref="http://data.snapdrgn.net/ontology/snap#AllianceWith" active="https://betamasaheft.eu/PRS5586Isayeyya" passive="https://betamasaheft.eu/PRS9192TaklaNa"/>
                   <relation name="betmas:ordainedBy" ref="betmas:ordainedBy" active="https://betamasaheft.eu/PRS5586Isayeyya" passive="https://betamasaheft.eu/PRS6774Marqos"/>
                   <relation name="ecrm:P129i_is_subject_of" ref="http://erlangen-crm.org/current/P129i_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/subject_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/PRS5586Isayeyya" passive="https://betamasaheft.eu/LIT1465GadlaI"/>
                   
-               </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPerson>
-            <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="monastic">ኢሳይያስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾIsāyǝyyās</persName>
-                  <persName>
-                  <roleName type="title">ʾabbā</roleName>
-               </persName>
-                  <nationality type="Ethiopia"/>
-                  <faith type="EOTC"/>
-                  <occupation type="ecclesiastic">abbot</occupation>
-               <birth when="1485"> He was born at <placeName ref="https://betamasaheft.eu/LOC1236Agama">ʿAgama</placeName> in <date>1485</date>. </birth>
-                  <residence>
-                  <placeName ref="https://betamasaheft.eu/INS0005Gund">Gunda Gunde</placeName>
-               </residence>
-               <floruit when="1555">He was  the sixth abbot of the monastery of <placeName ref="https://betamasaheft.eu/INS0005Gund">Gunda Gunde</placeName>
-                  and became an abbot  in <date>1555</date> succeeding ʾabbā 
-                  <persName ref="https://betamasaheft.eu/PRS9192TaklaNa">Takla Nabiyāt</persName>. 
+               </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPerson>
+            <t:person sex="1">
+               <t:persName xml:lang="gez" xml:id="n1" type="monastic">ኢሳይያስ፡</t:persName>
+               <t:persName xml:lang="gez" corresp="#n1" type="normalized">ʾIsāyǝyyās</t:persName>
+                  <t:persName>
+                  <t:roleName type="title">ʾabbā</t:roleName>
+               </t:persName>
+                  <t:nationality type="Ethiopia"/>
+                  <t:faith type="EOTC"/>
+                  <t:occupation type="ecclesiastic">abbot</t:occupation>
+               <t:birth when="1485"> He was born at <t:placeName ref="https://betamasaheft.eu/LOC1236Agama">ʿAgama</t:placeName> in <t:date>1485</t:date>. </t:birth>
+                  <t:residence>
+                  <t:placeName ref="https://betamasaheft.eu/INS0005Gund">Gunda Gunde</t:placeName>
+               </t:residence>
+               <t:floruit when="1555">He was  the sixth abbot of the monastery of <t:placeName ref="https://betamasaheft.eu/INS0005Gund">Gunda Gunde</t:placeName>
+                  and became an abbot  in <t:date>1555</t:date> succeeding ʾabbā 
+                  <t:persName ref="https://betamasaheft.eu/PRS9192TaklaNa">Takla Nabiyāt</t:persName>. 
                   He was a relative of  
-                  <persName ref="https://betamasaheft.eu/PRS3894estifano">
-                     <roleName type="title">ʾabbā </roleName> ʾƎsṭifānos</persName>, the first leader of <persName ref="https://betamasaheft.eu/PRS11211Stephanites">Stephanites</persName>.
-                  He took the monastic habit at the age of 15 from the hands of <persName ref="https://betamasaheft.eu/PRS4322GabraMa">Gabra Maśiḥ</persName>. He was represented in the community as an interpreter of the Scriptures.
-                  </floruit>
-                  <death> He died in <date>1572</date>
-               </death>
-               </person>  
+                  <t:persName ref="https://betamasaheft.eu/PRS3894estifano">
+                     <t:roleName type="title">ʾabbā </t:roleName> ʾƎsṭifānos</t:persName>, the first leader of <t:persName ref="https://betamasaheft.eu/PRS11211Stephanites">Stephanites</t:persName>.
+                  He took the monastic habit at the age of 15 from the hands of <t:persName ref="https://betamasaheft.eu/PRS4322GabraMa">Gabra Maśiḥ</t:persName>. He was represented in the community as an interpreter of the Scriptures.
+                  </t:floruit>
+                  <t:death> He died in <t:date>1572</t:date>
+               </t:death>
+               </t:person>  
                
-         </listPerson>
-         <listBibl type="secondary">
-            <bibl corresp="http://zotero.org/groups/358366/items/WXU8F9A3"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Ferenc1976Isaie"/><title level="a">Les Actes d'Isaïe de Gunda-Gundé</title><title level="j">Annales d’Éthiopie</title><author><forename>Aleksander</forename><surname>Ferenc</surname></author><date>1976</date><biblScope unit="volume">10</biblScope><biblScope unit="page">243-294</biblScope><note type="url">/web/revues/home/prescript/article/ethio_0066-2127_1976_num_10_1_1173</note><note type="tags"><note type="tag">bm:Ferenc1976Isaie</note></note><note type="tag">bm:Ferenc1976Isaie</note></bibl>
-         </listBibl>
-         <listBibl type="secondary">
-            <bibl corresp="http://zotero.org/groups/358366/items/PAVZX2ZP"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:BeylotBausi2007Isayeyyas"/><title level="a">Isayǝyyas</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Robert</forename><surname>Beylot</surname></author><author><forename>Alessandro</forename><surname>Bausi</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">196b-197a</biblScope><note type="tags"><note type="tag">bm:BeylotBausi2007Isayeyyas</note></note><note type="tag">bm:BeylotBausi2007Isayeyyas</note></bibl>
-            <bibl corresp="http://zotero.org/groups/358366/items/E929T49W"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kaplan1984Monastic"/><title level="m">The monastic holy man and the christianization of early Solomonic Ethiopia</title><title level="s">Studien zur Kulturkunde</title><author><forename>Steven</forename><surname>Kaplan</surname></author><pubPlace>Wiesbaden</pubPlace><publisher>Steiner</publisher><date>1984</date><series><title level="s">Studien zur Kulturkunde</title><biblScope unit="volume">73</biblScope></series><biblScope unit="volume">73</biblScope><note type="tags"><note type="tag">bm:Kaplan1984Monastic</note></note><note type="tag">bm:Kaplan1984Monastic</note><citedRange unit="page">42 </citedRange></bibl>
-         </listBibl>
-      </body>
-   </text></TEI>
+         </t:listPerson>
+         <t:listBibl type="secondary">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/WXU8F9A3"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Ferenc1976Isaie"/><title level="a">Les Actes d'Isaïe de Gunda-Gundé</title><title level="j">Annales d’Éthiopie</title><author><forename>Aleksander</forename><surname>Ferenc</surname></author><date>1976</date><biblScope unit="volume">10</biblScope><biblScope unit="page">243-294</biblScope><note type="url">/web/revues/home/prescript/article/ethio_0066-2127_1976_num_10_1_1173</note><note type="tags"><note type="tag">bm:Ferenc1976Isaie</note></note><note type="tag">bm:Ferenc1976Isaie</note></t:bibl>
+         </t:listBibl>
+         <t:listBibl type="secondary">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/PAVZX2ZP"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:BeylotBausi2007Isayeyyas"/><title level="a">Isayǝyyas</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Robert</forename><surname>Beylot</surname></author><author><forename>Alessandro</forename><surname>Bausi</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">196b-197a</biblScope><note type="tags"><note type="tag">bm:BeylotBausi2007Isayeyyas</note></note><note type="tag">bm:BeylotBausi2007Isayeyyas</note></t:bibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/E929T49W"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kaplan1984Monastic"/><title level="m">The monastic holy man and the christianization of early Solomonic Ethiopia</title><title level="s">Studien zur Kulturkunde</title><author><forename>Steven</forename><surname>Kaplan</surname></author><pubPlace>Wiesbaden</pubPlace><publisher>Steiner</publisher><date>1984</date><series><title level="s">Studien zur Kulturkunde</title><biblScope unit="volume">73</biblScope></series><biblScope unit="volume">73</biblScope><note type="tags"><note type="tag">bm:Kaplan1984Monastic</note></note><note type="tag">bm:Kaplan1984Monastic</note><t:citedRange unit="page">42 </t:citedRange></t:bibl>
+         </t:listBibl>
+      </t:body>
+   </t:text></TEI>
