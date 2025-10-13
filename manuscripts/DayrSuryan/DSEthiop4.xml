@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="DSEthiop4"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Egypt, Dayr as-Suryān, DS Ethiop. 4</title>
@@ -5,9 +6,9 @@
             <title xml:lang="ar">سفر لمزامير</title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
             <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
-            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         </titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -17,7 +18,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">2022-01-05T13:36:28.446+01:00</date><date type="lastModified">15.12.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DSEthiop4</idno><idno type="URI">https://betamasaheft.eu/DSEthiop4</idno><idno type="filename">DSEthiop4.xml</idno><idno type="ID">DSEthiop4</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 00:20:18</date><date type="lastModified">15.12.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DSEthiop4/main</idno><idno type="URI">https://betamasaheft.eu/DSEthiop4</idno><idno type="filename">DSEthiop4.xml</idno><idno type="ID">DSEthiop4</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -53,12 +54,12 @@
                   <summary/>
 
                   <msItem xml:id="ms_i1">
-                     <locus from="1r" to="193ra">Fols 1r–193ra</locus>
-                     <title type="complete" ref="https://betamasaheft.eu/LIT2701Dawit">Ethiopic Psalter</title>
+                     <locus from="1r" to="193ra"/>
+                     <title type="complete" ref="https://betamasaheft.eu/LIT2701Dawit">Psalter</title>
                      <textLang mainLang="gez"/>
 
                      <msItem xml:id="ms_i1.1">
-                        <locus target="#1r">Fol. 1r</locus>
+                        <locus target="#1r"/>
                         <title type="complete" ref="https://betamasaheft.eu/LIT5884IntroHymnPs">Mazmura Dāwit tǝmassǝl gannata</title>
                         <textLang mainLang="gez"/>
                         <incipit xml:lang="gez"><pb n="1r"/><lb/><hi rend="rubric">መዝሙረ፡ ዳዊትሰ፡ ትመስል፡ ገነተ።</hi>
@@ -71,10 +72,10 @@
                      </msItem>
 
                      <msItem xml:id="ms_i1.2">
-                        <locus from="1r" to="148v">Fols 1r–148v</locus>
+                        <locus from="1r" to="148v"/>
                         <title type="complete" ref="https://betamasaheft.eu/LIT2000Mazmur">Mazmura Dāwit</title>
                         <textLang mainLang="gez"/>
-                        <incipit xml:lang="gez"><locus target="#1r">Fol. 1r</locus><hi rend="rubric">፩</hi>
+                        <incipit xml:lang="gez"><locus target="#1r"/><hi rend="rubric">፩</hi>
                            <lb/><hi rend="rubric">ተግሣጽ፡ ለኵሉ።
                              <lb/>ፍካሬ፡ ዘጻድቃን፡ ወዘኃጥኣን።</hi>
                            <lb/>መዝሙር፡ ዘ<hi rend="rubric">ዳዊት።
@@ -83,7 +84,7 @@
                            <lb/>ወዘኢነበረ፡ ውስተ፡ መንበረ፡ መስተሳልቃን፨
                         </incipit>
                         <explicit xml:lang="gez">
-                           <locus target="#148v">Fol. 148v</locus>
+                           <locus target="#148v"/>
                            አኃውየሰ፡ ሠናያን፡ ወልሒቃን<hi rend="rubric">፨</hi>
                            <lb/>ወኢሠምረ፡ ቦሙ፡ እግዚአብሔር<hi rend="rubric">፨</hi>
                            <lb/>ወወፃስኩ፡ ለትእኅዞቱ፡ ለሕዝብ፡ ነኪር<hi rend="rubric">፨</hi>
@@ -94,15 +95,15 @@
                      </msItem>
 
                      <msItem xml:id="ms_i1.3">
-                        <locus from="149r" to="164r">Fols 149r–164r</locus>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale">Maḥālǝya nabiyāt</title>
+                        <locus from="149r" to="164r"/>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale">Book of Odes</title>
                         <textLang mainLang="gez"/>
                         <incipit xml:lang="gez"><hi rend="rubric">መኃልየ፡ ነቢያት፡ ወጸሎቱ፡ ለሙሴ፡ ንሴብሖ፡ ለእግዚአብሔር፡ ስ</hi>
                            <lb/>ፈረስ፡ ወመስተፅዕነ፡ ወረወ፡ ውስተ፡ ባሕር<hi rend="rubric">፨</hi>
                         </incipit>
 
                         <msItem xml:id="ms_i1.3.1">
-                           <locus from="149r" to="150r">Fols 149r–150r</locus>
+                           <locus from="149r" to="150r"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT2277salotu">The Prayer of Moses</title>
                            <incipit xml:lang="gez"><hi rend="rubric">ንሴብሖ፡ ለእግዚአብሔር፡ ስ</hi>
                               <lb/>ፈረስ፡ ወመስተፅዕነ፡ ወረወ፡ ውስተ፡ ባሕር<hi rend="rubric">፨</hi>
@@ -110,76 +111,75 @@
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.2">
-                           <locus from="150r" to="152r">Fols 150r–152r</locus>
+                           <locus from="150r" to="152r"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT2278salota">Second Prayer of Moses</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.3">
-                           <locus from="152r" to="154r">Fols 152r–154r</locus>
+                           <locus from="152r" to="154r"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT2703salota">The Third Prayer of Moses</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.4">
-                           <locus from="154r" to="155r">Fols 154r–155r</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2257salota">The Prayer of Hannah, mother of Samuel the
-                    Prophet</title>
+                           <locus from="154r" to="155r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2257salota">The Prayer of Hannah, mother of Samuel the Prophet</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.5">
-                           <locus from="155r" to="155v">Fols 155r–155v</locus>
+                           <locus from="155r" to="155v"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT2258salota">The Prayer of Hezekiah, King of Judah</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.6">
-                           <locus from="155v" to="157r">Fols 155v–157r</locus>
+                           <locus from="155v" to="157r"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT2265salota">The Prayer of Manasseh</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.7">
-                           <locus from="157r" to="157v">Fols 157r–157v</locus>
+                           <locus from="157r" to="157v"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT2274salota">The Prayer of Jonah</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.8">
-                           <locus from="157v" to="158v">Fols 157v–158v</locus>
+                           <locus from="157v" to="158v"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT2250salota">Ṣalota Dānǝʾel nabiy sǝbḥat za-ʾǝm-ʾAzāryā</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.9">
-                           <locus from="158v" to="159t">Fols 158v–159t</locus>
+                           <locus from="158v" to="159t"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT2271salota">Ṣalota śalastu daqiq</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.10">
-                           <locus from="159r" to="160r">Fols 159r–160r</locus>
+                           <locus from="159r" to="160r"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT1566hababa">Third Song of the Three Youths in the Furnace</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.11">
-                           <locus from="160r" to="161v">Fols 160r–161v</locus>
+                           <locus from="160r" to="161v"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT2251salota">Ṣalota ʿƎnbāqom nabiyy</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.12">
-                           <locus from="161v" to="163r">Fols 161v–163r</locus>
+                           <locus from="161v" to="163r"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT2259salota">Song of Isaiah</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.13">
-                           <locus target="#163r">Fol. 163r</locus>
+                           <locus target="#163r"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT1827Magnif">Magnificat</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.14">
-                           <locus from="163r" to="164r">Fols 163r–164r</locus>
+                           <locus from="163r" to="164r"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT2275salota">Song of Zachariah</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.3.15">
-                           <locus target="#164r">Fol. 164r</locus>
+                           <locus target="#164r"/>
                            <title type="complete" ref="https://betamasaheft.eu/LIT2272salota">Now you dismiss</title>
                            <explicit xml:lang="gez">
-                              <locus target="#164r">Fol. 164r</locus>
+                              <locus target="#164r"/>
                               <lb/> ዘአስተዳሎከ፡ ቅድመ፡ ኵሉ፡ ሕዝብከ<hi rend="rubric">፨</hi>
                               <lb/>ስመ፡ ትክሥት፡ ብርሃነ፡ ለአሕዛብ<hi rend="rubric">፨</hi>
                               <lb/>ወክብረ፡ ለሕዝ<del rend="expunctuated">ነ</del>ብከ፡ እስራኤል<hi rend="rubric">፨</hi>
@@ -188,9 +188,9 @@
                      </msItem>
 
                      <msItem xml:id="ms_i1.4">
-                        <locus from="164r" to="172r">Fols 164r–172r</locus>
+                        <locus from="164r" to="172r"/>
                         <title type="complete" ref="https://betamasaheft.eu/LIT2362Songof">Song of Songs</title>
-                        <incipit xml:lang="gez"><locus target="#164r">Fol. 164r</locus><lb/> <hi rend="rubric">መኃልየ፡ መኃልይ፡ ዝውእቱ፡ ዘሰሎሞን።
+                        <incipit xml:lang="gez"><locus target="#164r"/><lb/> <hi rend="rubric">መኃልየ፡ መኃልይ፡ ዝውእቱ፡ ዘሰሎሞን።
                              <lb/>፩ ይስዕመኒ፡ በስዕመተ፡ አፉሁ።</hi>
                            <lb/> አዳም፡ አጥባትኪ፡ እምወይን<hi rend="rubric">፨</hi>
                            <lb/>ወመዓዙ<supplied resp="DR" reason="omitted">፡</supplied> ዕፍረትኪ፡ እምኵሉ፡ አፈው<hi rend="rubric">፨</hi>
@@ -198,15 +198,15 @@
                      </msItem>
 
                      <msItem xml:id="ms_i1.5">
-                        <locus from="173ra" to="186vb">Fols 173ra–186vb</locus>
+                        <locus from="173ra" to="186vb"/>
                         <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas">Wǝddāse Māryām</title>
                         <incipit xml:lang="gez"><pb n="173ra"/><hi rend="rubric">ውዳሴሃ፡ ለእግዝእትነ፡ ማርያም፡ ድንግ</hi>ል፡ ወላዲተ፡ አምላክ፡ <sic resp="DR">ዘይ፡ ነበብ፡</sic> በዕ፡ ሰኑይ፡
                            <hi rend="rubric">ፈቀደ፡ እግዚእ፡ ያግዕዞ፡ ለአዳም፡ ኅዙነ፡ ወ</hi>ትኩዘ፡ ልብ፡
                         </incipit>
 
                         <msItem xml:id="ms_i1.5.1">
-                           <locus from="173ra" to="174ra">Fols 173ra–174ra</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Monday">Wǝddāse Māryām for Monday</title>
+                           <locus from="173ra" to="174ra"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Monday">Wǝddāse Māryām: chapter: Monday</title>
                            <incipit xml:lang="gez">
                               <pb n="173ra"/>
                               <hi rend="rubric">ውዳሴሃ፡ ለእግዝእትነ፡ ማርያም፡ ድንግ</hi>ል፡ ወላዲተ፡ አምላክ፡ <sic resp="DR">ዘይ፡ነበብ፡</sic> በዕ፡ ሰኑይ፡
@@ -215,36 +215,36 @@
                         </msItem>
 
                         <msItem xml:id="ms_i1.5.2">
-                           <locus from="174ra" to="176rb">Fols 174ra–176rb</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Tuesday">Wǝddāse Māryām for Tuesday</title>
+                           <locus from="174ra" to="176rb"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Tuesday">Wǝddāse Māryām: chapter: Tuesday</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.5.3">
-                           <locus from="176va" to="178vb">Fols 176va–178vb</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Wednesday">Wǝddāse Māryām for Wednesday</title>
+                           <locus from="176va" to="178vb"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Wednesday">Wǝddāse Māryām: chapter: Wednesday</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.5.4">
-                           <locus from="178vb" to="182ra">Fols 178vb–182ra</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Thursday">Wǝddāse Māryām for Thursday</title>
+                           <locus from="178vb" to="182ra"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Thursday">Wǝddāse Māryām: chapter: Thursday</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.5.5">
-                           <locus from="182ra" to="183vb">Fols 182ra–183vb</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Friday">Wǝddāse Māryām for Friday</title>
+                           <locus from="182ra" to="183vb"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Friday">Wǝddāse Māryām: chapter: Friday</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.5.6">
-                           <locus from="183vb" to="185ra">Fols 183vb–185ra</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Saturday">Wǝddāse Māryām for Saturday</title>
+                           <locus from="183vb" to="185ra"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Saturday">Wǝddāse Māryām: chapter: Saturday</title>
                         </msItem>
 
                         <msItem xml:id="ms_i1.5.7">
-                           <locus from="185ra" to="186vb">Fols 185ra–186vb</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Sunday">Wǝddāse Māryām, Hymn to Our Lady Mary</title>
+                           <locus from="185ra" to="186vb"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Sunday">Wǝddāse Māryām: chapter: Sunday</title>
                         </msItem>
                         <explicit xml:lang="gez">
-                           <locus from="186va" to="186vb">Fols 186va–186vb</locus>
+                           <locus from="186va" to="186vb"/>
                            አንቲ፡ በአማን፡ ምክሐ፡ ዘመድነ፡ ወሰአሊት፡ <cb n="b"/> ሕይወተ፡ ወነፍሳቲነ፡ ሰአሊ፡ ለነ፡ ኀበ፡ እ<hi rend="ligature">ግዚ</hi>እነ፡
                            ወመድኃኒነ፡ ኢየሱስ፡ ክርስቶስ፡ ያጽንዓነ፡ በርትዕት፡ ሃይማኖት፡ ውስተ፡ አማነ፡ ዚአሁ፡ ይጸግወነ፡ ሣህሎ፡ ወምሕረቶ፡
                            ይሥረይ፡ ኃጢአተነ፡ በብዝኃ፡ ምሕረቱ፡ ሰአሊ፡ ለነ፡ ቅድስት<hi rend="rubric">፨</hi>
@@ -252,15 +252,15 @@
                      </msItem>
 
                      <msItem xml:id="ms_i1.6">
-                        <locus from="186vb" to="193ra">Fols 186vb–193ra</locus>
+                        <locus from="186vb" to="193ra"/>
                         <title type="complete" ref="https://betamasaheft.eu/LIT1113Anqasa">ʾAnqaṣa bǝrhān</title>
-                        <incipit xml:lang="gez"><locus target="#186vb">Fol. 186vb</locus><hi rend="rubric">ውዳሴ፡ ወግናይ፡ እሙ፡ ለአዶናይ፡ ቅድስት፡</hi> ወብፅዕት፡ ስብሕት፡ ወቡርክት፡ ክብርት፡ ወልዕልት፡
+                        <incipit xml:lang="gez"><locus target="#186vb"/><hi rend="rubric">ውዳሴ፡ ወግናይ፡ እሙ፡ ለአዶናይ፡ ቅድስት፡</hi> ወብፅዕት፡ ስብሕት፡ ወቡርክት፡ ክብርት፡ ወልዕልት፡
 
                            አንቀጸ፡ ብርሃን፡ መዓርገ፡ ሕይወት፡
                         </incipit>
 
                         <explicit xml:lang="gez">
-                           <locus from="192vb" to="193ra">Fols 192vb–193ra</locus>
+                           <locus from="192vb" to="193ra"/>
                            ሰአሊ፡ ለነ፡ ኀበ፡ እግዚእነ፡ ወመድኃኒነ፡ ኢየሱስ፡ ክርስቶስ፡ ያጽንዓነ፡ በርትዕት፡ ሃይ<pb n="193r"/><cb n="a"/>ማኖት፡
                            ውስተ፡ አሚነ፡ ዚአሁ፡ ወዘአቡሁ፡ ወዘቅዱስ፡ መንፈሱ፡ ይፀግወነ፡ ሣህሎ፡ ወምሕረቶ፡ ይሥረይ፡ ኃጢአተነ፡ በብዝኃ፡ ምሕረቱ፡ ስብሐት፡
                            ለኪ፡ ኦወላዲተ፡ እግዚአ፡ ኵሉ፡ አኰቴት፡ ወክብር፡ ለአብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ይእዜኒ፡ ወዘልፈኒ፡ ወለዓለመ፡ ዓለም፡ አሜን፡ ወልድኪ፡
@@ -297,17 +297,17 @@
                         <foliation>
                            <list>
                               <item xml:id="fol1" resp="DN DR">
-                                <locus from="ir" to="194v">Fols ir–194v</locus>
+                                <locus from="ir" to="194v"/>
                                  Foliation in pencil in the middle bottom margin of the recto. This foliation is used as
                                  reference in this description.
                               </item>
 
                               <item xml:id="fol2">
-                                 <locus from="1r" to="196v">Fols 1r–196v</locus>
+                                 <locus from="1r" to="196v"/>
                                  Foliation with Eastern Arabic numerals in pencil in the lower right corner of
                                  the recto,
-                                 from <foreign xml:lang="ar">١</foreign> on <locus target="#ir">ir</locus> to
-                                 <foreign xml:lang="ar">١٩٦</foreign> on <locus target="#194v">194v</locus>.
+                                 from <foreign xml:lang="ar">١</foreign> on <locus target="#ir"/> to
+                                 <foreign xml:lang="ar">١٩٦</foreign> on <locus target="#194v"/>.
                               </item>
                            </list>
                         </foliation>
@@ -316,80 +316,80 @@
                            <list>
                               <item xml:id="q1" n="A">
                                  <dim unit="leaf">2</dim>
-                                 <locus from="ir" to="iiv">Fols ir–iiv</locus>
+                                 <locus from="ir" to="iiv"/>
                                  1, stub before 2
                                  2, stub before 1
                               </item>
                               <item xml:id="q2" n="1">
                                  <dim unit="leaf">12</dim>
-                                 <locus from="1r" to="12v">Fols 1r–12v</locus>
+                                 <locus from="1r" to="12v"/>
                               </item>
                               <item xml:id="q3" n="2">
                                  <dim unit="leaf">14</dim>
-                                 <locus from="13r" to="26v">Fols 13r–26v</locus>
+                                 <locus from="13r" to="26v"/>
                               </item>
                               <item xml:id="q4" n="3">
                                  <dim unit="leaf">12</dim>
-                                 <locus from="27r" to="38v">Fols 27r–38v</locus>
+                                 <locus from="27r" to="38v"/>
                               </item>
                               <item xml:id="q5" n="4">
                                  <dim unit="leaf">12</dim>
-                                 <locus from="39r" to="50v">Fols 39r–50v</locus>
+                                 <locus from="39r" to="50v"/>
                               </item>
                               <item xml:id="q6" n="5">
                                  <dim unit="leaf">12</dim>
-                                 <locus from="51r" to="62v">Fols 51r–62v</locus>
+                                 <locus from="51r" to="62v"/>
                               </item>
                               <item xml:id="q7" n="6">
                                  <dim unit="leaf">12</dim>
-                                 <locus from="63r" to="74v">Fols 63r–74v</locus>
+                                 <locus from="63r" to="74v"/>
                               </item>
                               <item xml:id="q8" n="7">
                                  <dim unit="leaf">12</dim>
-                                 <locus from="75r" to="86v">Fols 75r–86v</locus>
+                                 <locus from="75r" to="86v"/>
                               </item>
                               <item xml:id="q9" n="8">
                                  <dim unit="leaf">12</dim>
-                                 <locus from="87r" to="98v">Fols 87r–98v</locus>
+                                 <locus from="87r" to="98v"/>
                               </item>
                               <item xml:id="q10" n="9">
                                  <dim unit="leaf">12</dim>
-                                 <locus from="99r" to="110v">Fols 99r–110v</locus>
+                                 <locus from="99r" to="110v"/>
                               </item>
                               <item xml:id="q11" n="10">
                                  <dim unit="leaf">12</dim>
-                                 <locus from="111r" to="122v">Fols 111r–122v</locus>
+                                 <locus from="111r" to="122v"/>
                               </item>
                               <item xml:id="q12" n="11">
                                  <dim unit="leaf">10</dim>
-                                 <locus from="123r" to="132v">Fols 123r–132v</locus>
+                                 <locus from="123r" to="132v"/>
                                   3, stub before 9
                                   8, stub before 4
                               </item>
                               <item xml:id="q13" n="12">
                                  <dim unit="leaf">12</dim>
-                                 <locus from="133r" to="144v">Fols 133r–144v</locus>
+                                 <locus from="133r" to="144v"/>
                               </item>
                               <item xml:id="q14" n="13">
                                  <dim unit="leaf">11</dim>
-                                 <locus from="145r" to="155v">Fols 145r–155v</locus>
+                                 <locus from="145r" to="155v"/>
                                  7, stub before 5
                               </item>
                               <item xml:id="q15" n="14">
                                  <dim unit="leaf">10</dim>
-                                 <locus from="156r" to="165v">Fols 156r–165v</locus>
+                                 <locus from="156r" to="165v"/>
                               </item>
                               <item xml:id="q16" n="15">
                                  <dim unit="leaf">10</dim>
-                                 <locus from="166r" to="175v">Fols 166r–175v</locus>
+                                 <locus from="166r" to="175v"/>
                               </item>
                               <item xml:id="q17" n="16">
                                  <dim unit="leaf">10</dim>
-                                 <locus from="176r" to="185v">Fols 176r–185v</locus>
+                                 <locus from="176r" to="185v"/>
                               </item>
                               <item xml:id="q18" n="17">
                                  <dim unit="leaf">9</dim>
-                                 <locus from="186r" to="194v">Fols 186r–194v</locus>
+                                 <locus from="186r" to="194v"/>
                                  2, stub before 9
                               </item>
                            </list>
@@ -397,16 +397,16 @@
 
                         <condition key="good">
                            The manuscript shows slight traces of use, the lower part of most leaves is slightly stained by dirt.
-                           <locus target="#116">Fols. 116, </locus> and <locus target="#117">117</locus> have been cut at the bottom.
+                           <locus target="#116"/> and <locus target="#117"/> have been cut at the bottom.
                         </condition>
                      </supportDesc>
 
                      <layoutDesc>
 
                         <layout columns="1" writtenLines="19">
-                          <locus from="1r" to="172v">Fols 1r–172v</locus>
+                          <locus from="1r" to="172v"/>
                            <note corresp="#textarea #margin">Data on text area and margin dimensions
-                              taken from <locus target="#46r">fol. 46r</locus>.</note>
+                              taken from <locus target="#46r"/>.</note>
                            <dimensions unit="mm">
                               <height>97</height>
                               <width>89</width>
@@ -422,9 +422,9 @@
                         </layout>
 
                         <layout columns="2" writtenLines="26">
-                           <locus from="173ra" to="193ra">Fols 173ra–193ra</locus>
+                           <locus from="173ra" to="193ra"/>
                            <note corresp="#textarea #margin">Data on text area and margin
-                              dimensions taken from <locus target="#186r">fol. 186r</locus>.</note>
+                              dimensions taken from <locus target="#186r"/>.</note>
                            <dimensions unit="mm" xml:id="textarea">
                               <height>102</height>
                               <width>81</width>
@@ -455,19 +455,19 @@
                   <decoDesc>
 
                      <decoNote type="band" xml:id="d1">
-                        <locus target="#1r #10r #19v #29v #42r #51r #58v #69v #82v #92r #99r #114v #130r #134r #141v #149r #173r #176v #179r #183r">Fols. 1r, 10r, 19v, 29v, 42r, 51r, 58v, 69v, 82v, 92r, 99r, 114v, 130r, 134r, 141v, 149r, 173r, 176v, 179r, 183r</locus>
+                        <locus target="#1r #10r #19v #29v #42r #51r #58v #69v #82v #92r #99r #114v #130r #134r #141v #149r #173r #176v #179r #183r"/>
                         <desc>Unfinished ornamental bands with crosses, interlaces, geometric and floral motifs and lateral pendants.</desc>
                      </decoNote>
 
                      <decoNote type="drawing" xml:id="d2">
-                        <locus target="#ir #iiiv">Fols. ir, iiiv</locus>
+                        <locus target="#ir #iiiv"/>
                         <desc>Drawings of two
                            <term key="cross" ana="#cross">crosses</term> on each of the folia.
                         </desc>
                      </decoNote>
 
                      <decoNote xml:id="d3" type="printedImage">
-                        <locus target="#172v">Fols. 172v, </locus>
+                        <locus target="#172v"/>
                         <locus target="#172v" xml:lang="ar">ورقة ١٧٢ ظ</locus>
                         <desc>A European printed devotional image is glued on the folium,
                           depicting St Mary with Child, with a quote
@@ -496,13 +496,13 @@
                   <additions>
                      <list>
                         <item xml:id="a1">
-                           <locus target="#ir">Fol. ir</locus>
+                           <locus target="#ir"/>
                            <desc type="OwnershipNote">Arabic note describing the content of the
                               manuscript and stating that it was donated by <persName ref="https://betamasaheft.eu/PRS11944GabraM">Gabra Māryām</persName> to <placeName ref="https://betamasaheft.eu/INS0478DS">Dayr as-Suryān</placeName> in
                                  <date>1951</date>.</desc>
                            <q xml:lang="ar">كتاب يحوي ال ١٥٠ مزمورا + صلوات سليمان السبعة + طلبات
                               العذرى باللغة الجئز <lb/> هدية من <persName ref="https://betamasaheft.eu/PRS11944GabraM">
-                                 <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">القمص</t:roleName> عبد مريم الحبشي
+                                 <roleName type="title">القمص</roleName> عبد مريم الحبشي
                                  السرياني</persName>
                               <date> الأحد الثالث من كيهك ١٦٦٨ ٢٢ ديسمبر ١٩٥١</date> <lb/> وقف
                                  <placeName ref="https://betamasaheft.eu/INS0478DS">دير السريان</placeName>
@@ -510,11 +510,11 @@
                         </item>
 
                         <item xml:id="a2">
-                           <locus from="iv" to="iiv">Fols iv–iiv</locus>
+                           <locus from="iv" to="iiv"/>
                            <desc type="MagicFormula">
                                Prayer with <hi rendition="simple:italic">ʾasmāt</hi> and some Amharic words,
                               mentioning <persName ref="https://betamasaheft.eu/PRS11942HaylaG">Hayla Gabrǝʾel</persName>. The larger part of the text on
-                              <locus target="#iv">fol. iv</locus> is erased. Written in a crude hand with many mistakes, poorly readable.
+                              <locus target="#iv"/> is erased. Written in a crude hand with many mistakes, poorly readable.
                            </desc>
                            <q xml:lang="gez"><seg part="I">በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ፩አም <del rend="effaced"/>
                               <pb n="iir"/>ተዋደድ፡ ፍቀሩ፡ ምስለ፡ ኵሎ<add place="below">ሙ</add>፡ ክርስቲያን፡ አብይ፡ ወንዑስ፡ ልሂቅ፡
@@ -523,38 +523,38 @@
                         </item>
 
                         <item xml:id="a3">
-                           <locus target="#1r">Fol. 1r</locus>
+                           <locus target="#1r"/>
                            <desc type="DonationNote">Recent donation note in Ethiopic and Arabic, written in a crude hand,
                               stating that the manuscript was donated to <placeName ref="https://betamasaheft.eu/INS0478DS">Dayr as-Suryān</placeName>
                               by <persName ref="https://betamasaheft.eu/PRS11944GabraM">Gabra Māryām</persName> of <placeName ref="https://betamasaheft.eu/LOC4431Mahbar">Māḫbara Śǝllāse</placeName> in
                               <date>1944 <hi rendition="simple:smallcaps">EC</hi> (=1951/1952 <hi rendition="simple:smallcaps">CE</hi>)</date> .
                            </desc>
-                           <q xml:lang="gez">ዝዳዊት፡ ዘ<persName ref="https://betamasaheft.eu/PRS11944GabraM"><t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">አባ፡</t:roleName> ገብረማርያም</persName>
+                           <q xml:lang="gez">ዝዳዊት፡ ዘ<persName ref="https://betamasaheft.eu/PRS11944GabraM"><roleName type="title">አባ፡</roleName> ገብረማርያም</persName>
 
                               <foreign xml:lang="ar">   وقف <placeName ref="https://betamasaheft.eu/INS0478DS"> دير السريان</placeName> من <persName ref="https://betamasaheft.eu/PRS11944GabraM">
-                                 <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title"> القمص</t:roleName> عبد
+                                 <roleName type="title"> القمص</roleName> عبد
                                  مريم الحبشي</persName></foreign>
 
                                 <placeName ref="https://betamasaheft.eu/LOC4431Mahbar">ዘማኅበረ፡ ሥላሴ፡ </placeName> ዘወሐቦ፡
                                  ለ<placeName ref="https://betamasaheft.eu/INS0478DS">ደብረ፡ ሶርያን፡</placeName> አስቍጢስ፡ <persName ref="https://betamasaheft.eu/PRS11944GabraM">
-                                 <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">አባ፡</t:roleName> ገብረ፡
+                                 <roleName type="title">አባ፡</roleName> ገብረ፡
                                  ማርያም፡</persName>
                               <date calendar="ethiopian" when-custom="1944" notBefore="1951" notAfter="1952">፲፱፵፬ዓ፡</date>
                            </q>
                         </item>
 
                         <item xml:id="a4">
-                           <locus target="#79r">Fol. 79r</locus>
+                           <locus target="#79r"/>
                            <desc type="OwnershipNote">Arabic note stating that the manuscript belongs to
                               <persName ref="https://betamasaheft.eu/PRS11943GabraS">ʿAbd aṯ-Ṯālūṯ</persName>. Written in very large characters.</desc>
                            <q xml:lang="ar">يخص هذا الكتاب <persName ref="https://betamasaheft.eu/PRS11943GabraS">
-                                 <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">القمص</t:roleName> عبد الثالوث</persName>
+                                 <roleName type="title">القمص</roleName> عبد الثالوث</persName>
                            </q>
                            <q xml:lang="en">This book belongs to the head priest ʿAbd aṯ-Ṯālūṯ.</q>
                         </item>
 
                         <item xml:id="a5">
-                           <locus target="#141r">Fol. 141r</locus>
+                           <locus target="#141r"/>
                            <desc type="OwnershipNote">Note in Arabic and Ethiopic containing only the name of
                               <persName ref="https://betamasaheft.eu/PRS11943GabraS">ʿAbd aṯ-Ṯālūṯ</persName>, respectively Gabra Śǝllāse,
                               with the names of the monasteries of <placeName ref="https://betamasaheft.eu/INS0480DB">Baramūs</placeName> in the Arabic and
@@ -563,7 +563,7 @@
                            <q xml:lang="ar">
                               <hi rend="rubric">
                                  <persName ref="https://betamasaheft.eu/PRS11943GabraS">
-                                    <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">القمص </t:roleName>عبد الثالوث الحبشي
+                                    <roleName type="title">القمص </roleName>عبد الثالوث الحبشي
                                  </persName><placeName ref="https://betamasaheft.eu/INS0480DB">بالبرموس</placeName></hi>
                            </q>
                            <q xml:lang="gez">
@@ -573,14 +573,14 @@
                         </item>
 
                         <item xml:id="a6">
-                           <locus target="#141v">Fol. 141v</locus>
+                           <locus target="#141v"/>
                            <desc type="Comment">Note in Arabic stating that the manuscript is made of gazelle leather.</desc>
                            <q xml:lang="ar">هذا الكتاب مصنوع من جلد الغزال</q>
                            <q xml:lang="en">This book is made of gazelle leather.</q>
                         </item>
 
                         <item xml:id="a7">
-                           <locus target="#142v">Fol. 142v</locus>
+                           <locus target="#142v"/>
                            <desc type="Correction">The omitted verse, Ps. 142:12, is added in the upper margin,
                               its place in the text is marked by a <hi rendition="simple:italic">tamallas</hi>-sign (tie-mark). </desc>
 
@@ -588,7 +588,7 @@
                        </item>
 
                         <item xml:id="a8">
-                           <locus target="#155r">Fol. 155r</locus>
+                           <locus target="#155r"/>
                            <desc type="Correction">The omitted verse, Isa. 38:12, is added in the upper margin, in pencil and in ink, in two different hands;
 
                               the place in the text is marked by a <hi rendition="simple:italic">tamallas</hi>-sign (tie-mark). Correction in the same hand as <ref target="#a5">Additional note 5</ref>.</desc>
@@ -597,14 +597,14 @@
                         </item>
 
                         <item xml:id="a9">
-                           <locus target="#157r">Fol. 157r</locus>
+                           <locus target="#157r"/>
                            <desc type="Correction">The omitted verse from <ref target="#ms_i1.5.2">Text I-5 (‘Praise of Mary’), for Tuesday</ref> is added in the upper margin, the place is marked by two
                            <hi rendition="simple:italic">tamallas</hi>-signs (tie-marks). </desc>
                            <q xml:lang="gez">ያስተርኢ፡ ኂሩትከ፡ በላዕሌየ፡</q>
                         </item>
 
                         <item xml:id="a10">
-                           <locus target="#172v">Fol. 172v</locus>
+                           <locus target="#172v"/>
                            <desc type="Supplication">Supplication note for <persName ref="https://betamasaheft.eu/PRS11943GabraS">Gabra Śǝllāse</persName>.</desc>
                            <q xml:lang="gez">ተማሕፀንኩ፡ አነ፡ ገብርኪ፡ <persName ref="https://betamasaheft.eu/PRS11943GabraS">ገብረ፡
                                  ሥላሴ፡</persName>
@@ -614,7 +614,7 @@
                         </item>
 
                         <item xml:id="a11">
-                           <locus target="#172v #173r #174r #176v #179r #182r #184r #185v #186v #194v">Fols. 172v, 173r, 174r, 176v, 179r, 182r, 184r, 185v, 186v, 194v</locus>
+                           <locus target="#172v #173r #174r #176v #179r #182r #184r #185v #186v #194v"/>
                            <desc type="Unclear">Short notes consisting mainly of the name of <persName ref="https://betamasaheft.eu/PRS11942HaylaG">(Hayla) Gabrǝʾel</persName>,
                               written in an unskilled hand, with many errors.
                            </desc>
@@ -622,20 +622,20 @@
                         </item>
 
                         <item xml:id="a12">
-                           <locus target="#186v">Fol. 186v</locus>
+                           <locus target="#186v"/>
                            <desc type="Unclear">Written in a crude hand in the upper margin.</desc>
                            <q xml:lang="gez">አንቀጸ፡ ብርሃን፡</q>
                         </item>
 
                         <item xml:id="a13">
-                           <locus target="#193r">Fol. 193r</locus>
+                           <locus target="#193r"/>
                            <desc type="Unclear">Note in the hand of <persName ref="https://betamasaheft.eu/PRS11942HaylaG">Hayla Gabrǝʾel</persName>.
                            </desc>
                            <q xml:lang="gez">ለገብርከ፡</q>
                         </item>
 
                         <item xml:id="a14">
-                           <locus target="#193v">Fol. 193v</locus>
+                           <locus target="#193v"/>
                            <desc type="Supplication">Supplication to <persName ref="https://betamasaheft.eu/PRS6819Mary">St Mary</persName> and <persName ref="https://betamasaheft.eu/PRS8925Solomon">Solomon</persName>,
                              written in the
                               hand of <persName ref="https://betamasaheft.eu/PRS11942HaylaG">Hayla Gabrǝʾel</persName>.
@@ -646,36 +646,36 @@
 
 
                         <item xml:id="e1">
-                           <locus target="#ir #2r #12r #57r #74r #91v #135v #139v">Fols. ir, 2r, 12r, 57r, 74r, 91v, 135v, 139v</locus>
+                           <locus target="#ir #2r #12r #57r #74r #91v #135v #139v"/>
                            <desc>Stamp of <placeName ref="https://betamasaheft.eu/INS0478DS">Dayr as-Suryān</placeName>.</desc>
                            <q xml:lang="ar"/>
                         </item>
 
                         <item xml:id="e2">
-                           <locus target="#58r">Fol. 58r</locus>
+                           <locus target="#58r"/>
                            <desc>Erased note.</desc>
                         </item>
 
                         <item xml:id="e3">
-                           <locus target="#98r">Fol. 98r</locus>
+                           <locus target="#98r"/>
                            <desc>Erased note.</desc>
                         </item>
 
                         <item xml:id="e4">
-                           <locus target="#ir">Fol. ir</locus>
+                           <locus target="#ir"/>
                            <desc>Arabic shelfmark.</desc>
                            <q xml:lang="ar">مسلسل ١٠١٨٦</q>
                         </item>
 
                         <item xml:id="e5">
-                           <locus target="#ir">Fol. ir</locus>
+                           <locus target="#ir"/>
                            <desc>Arabic shelfmark.</desc>
                            <q xml:lang="ar">١٥ أ ٢</q>
                         </item>
 
 
                         <item xml:id="e6">
-                           <locus target="#ir">Fol. ir</locus>
+                           <locus target="#ir"/>
                            <desc>Arabic title and shelfmark.</desc>
                            <q xml:lang="ar">المزامير</q>
                            <q xml:lang="ar">مسلسل ١٦ عام </q>
@@ -736,9 +736,9 @@
                         These Guidelines detail the TEI format ruled by 
                         the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
                         The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/BetMas/modules/expand.xqm">Xquery transformation</ref> 
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:textClass>
             <t:keywords>
@@ -759,11 +759,11 @@
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#DN" when="2018-02-26">Denis Nosnitsin: Recorded manuscript</change>
-         <change who="#DR" when="2018-03-01">Dorothea Reule: Created catalogue entry</change>
-         <change who="#DR" when="2020-04-09">Dorothea Reule: Continued description</change>
-         <change who="#DR" when="2020-12-15">Dorothea Reule: Continued description and revision</change>
-         <change who="#DN" when="2020-12-15">Denis Nosnitsin: Continued description and revision</change>
+         <change who="#DN" when="2018-02-26"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Recorded manuscript</change>
+         <change who="#DR" when="2018-03-01"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
+         <change who="#DR" when="2020-04-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description</change>
+         <change who="#DR" when="2020-12-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description and revision</change>
+         <change who="#DN" when="2020-12-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description and revision</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
