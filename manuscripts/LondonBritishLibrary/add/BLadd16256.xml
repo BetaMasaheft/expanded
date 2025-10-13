@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="BLadd16256"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt><title type="full">London, British Library, BL Additional 16256</title>
                 <title>Dǝrsāna Mikāʾel</title>
                 <editor key="MV" corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV">Massimo Villa</editor>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>editor</resp><name>Massimo Villa</name></respStmt></titleStmt>
+            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>editor</resp><name>Massimo Villa</name></respStmt><respStmt xml:id="CH" corresp="https://betamasaheft.eu/team.html#CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
@@ -17,7 +18,7 @@
                </licence>
             </availability>
             <date>2016-09-06T10:20:27.671+02:00</date>
-         <date type="expanded">17.4.2025 at 20:03:46</date><date type="lastModified">6.9.2016</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BLadd16256/main</idno><idno type="URI">https://betamasaheft.eu/BLadd16256</idno><idno type="filename">BLadd16256.xml</idno><idno type="ID">BLadd16256</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 00:50:15</date><date type="lastModified">30.7.2025</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BLadd16256/main</idno><idno type="URI">https://betamasaheft.eu/BLadd16256</idno><idno type="filename">BLadd16256.xml</idno><idno type="ID">BLadd16256</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     
@@ -41,7 +42,7 @@
                             <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT1295Dersan">ድርሳነ፡ ሚካኤል፡ ሊቀ፡ መላእክት፡</title>
                             <colophon xml:lang="gez" xml:id="coloph1">
                                 <locus target="#1"/>
-                                <note>The colophon states that the manuscript was written in Tāḫśāś <date calendar="ethiopian">1833 CE</date>, in <placeName ref="https://betamasaheft.eu/LOC1465Ankoba">Ankobär</placeName>, during the reign of 
+                                <note>The colophon states that the manuscript was written in Tāḫśāś <date calendar="ethiopian">1833 CE</date>, in <placeName ref="https://betamasaheft.eu/LOC1465Ankoba">ʾAnkobar</placeName>, during the reign of 
                                     king <persName ref="https://betamasaheft.eu/PRS8346sahlase">Śāhla Śǝllāse</persName>
                         </note>
                             </colophon>
@@ -156,7 +157,7 @@
                             <note>According to <ref target="#coloph1"/>, the manuscript was written in <date calendar="ethiopian">Tāḫśāś 1833 CE</date> 
                                 (i.e., <date>AD 1840</date>).</note>
                         </origin>
-                        <provenance>Copied for <persName ref="https://betamasaheft.eu/PRS6064Krapf">Johann Ludwig Krapf</persName> in <placeName ref="https://betamasaheft.eu/LOC1465Ankoba">Ankobär</placeName>.</provenance>
+                        <provenance>Copied for <persName ref="https://betamasaheft.eu/PRS6064Krapf">Johann Ludwig Krapf</persName> in <placeName ref="https://betamasaheft.eu/LOC1464Ankoba">ʾAnkobar</placeName>.</provenance>
                     </history>
                     <additional>
                         <adminInfo>
@@ -212,6 +213,7 @@
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change who="#MV" when="2016-09-06"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
+            <change who="#CH" when="2025-07-30"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated LOC1464Ankoba</change>
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>

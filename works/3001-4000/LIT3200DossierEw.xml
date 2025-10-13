@@ -1,12 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT3200DossierEw"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Hagiographic Dossier of St ʾEwosṭātewos</title>
 
             <title xml:lang="en" xml:id="t1">Hagiographic Dossier of St ʾEwosṭātewos</title>
 
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="AD" corresp="https://betamasaheft.eu/team.html#AD"><resp>contributor</resp><name>Augustine Dickinson</name></respStmt><respStmt xml:id="NV" corresp="https://betamasaheft.eu/team.html#NV"><resp>contributor</resp><name>Nafisa Valieva</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="AD" corresp="https://betamasaheft.eu/team.html#AD"><resp>contributor</resp><name>Augustine Dickinson</name></respStmt><respStmt xml:id="NV" corresp="https://betamasaheft.eu/team.html#NV"><resp>contributor</resp><name>Nafisa Valieva</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -18,7 +19,7 @@
                   </p>
                </licence>
             </availability>
-         <date type="expanded">9.4.2025 at 10:29:08</date><date type="lastModified">2.12.2024</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3200DossierEw/main</idno><idno type="URI">https://betamasaheft.eu/LIT3200DossierEw</idno><idno type="filename">LIT3200DossierEw.xml</idno><idno type="ID">LIT3200DossierEw</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 23:22:30</date><date type="lastModified">2.12.2024</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3200DossierEw/main</idno><idno type="URI">https://betamasaheft.eu/LIT3200DossierEw</idno><idno type="filename">LIT3200DossierEw.xml</idno><idno type="ID">LIT3200DossierEw</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
 
@@ -36,67 +37,67 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-      <profileDesc>
-         <abstract>
-            <ab>The collection consists of the Life (in one of several recensions), Miracles (in a varying
-               number), and Hymns in honour of St ʾEwosṭātewos</ab>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:abstract>
+            <t:ab>The collection consists of the Life (in one of several recensions), Miracles (in a varying
+               number), and Hymns in honour of St ʾEwosṭātewos</t:ab>
 
-         </abstract>
-         <langUsage>
-            <language ident="en">English</language>
-         </langUsage>
-         <textClass>
-            <keywords>
-               <term key="Hagiography" ana="#Hagiography"/>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-            </keywords>
-         </textClass>
+         </t:abstract>
+         <t:langUsage>
+            <t:language ident="en">English</t:language>
+         </t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="Hagiography" ana="#Hagiography"/>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#ES" when="2020-04-07"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED record</change>
          <change who="#AD" when="2020-10-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added relation to the collection of hymns for his
             miracles (LIT6201Hymn).</change>
          <change who="#NV" when="2024-12-02"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Deleted bibliography on editions and translations, added
             reference to Adankpo-Labadie´s book.</change>
 
-      </revisionDesc>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3200DossierEw" passive="https://betamasaheft.eu/LIT1438GadlaE">
-                  <desc>The dossier contains the Gadl (Acts)</desc>
+                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">The dossier contains the Gadl (Acts)</t:desc>
                </relation>
                <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3200DossierEw" passive="https://betamasaheft.eu/LIT4315Miracles">
-                  <desc>The dossier may contain the Taʾammǝra ʾEwosṭātewos (Miracles)</desc>
+                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">The dossier may contain the Taʾammǝra ʾEwosṭātewos (Miracles)</t:desc>
                </relation>
 
                <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3200DossierEw" passive="https://betamasaheft.eu/LIT4316Salam">
-                  <desc>The dossier may contain the Malkǝʾa ʾEwosṭātewos (Hymn)</desc>
+                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">The dossier may contain the Malkǝʾa ʾEwosṭātewos (Hymn)</t:desc>
                </relation>
                <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3200DossierEw" passive="https://betamasaheft.eu/LIT2779RepCh63">
-                  <desc>The dossier may contain the Malkǝʾa to ʾEwosṭātewos (Hymn)</desc>
+                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">The dossier may contain the Malkǝʾa to ʾEwosṭātewos (Hymn)</t:desc>
                </relation>
                <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3200DossierEw" passive="https://betamasaheft.eu/LIT2780RepCh64">
-                  <desc>The dossier may contain the Malkǝʾa to ʾEwosṭātewos (Hymn)</desc>
+                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">The dossier may contain the Malkǝʾa to ʾEwosṭātewos (Hymn)</t:desc>
                </relation>
                <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3200DossierEw" passive="https://betamasaheft.eu/LIT6201Hymn">
-                  <desc>The dossier may contain a collection of hymns for the Miracles of
-                     ʾEwosṭātewos</desc>
+                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">The dossier may contain a collection of hymns for the Miracles of
+                     ʾEwosṭātewos</t:desc>
                </relation>
 
                <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT3200DossierEw" passive="https://betamasaheft.eu/PRS3934Ewostate"/>
-            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="bibliography">
-            <listBibl type="secondary">
-               <bibl corresp="http://zotero.org/groups/358366/items/29NW28M7"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1912Studi"/><title level="a">Studi su popolazioni dell'Etiopia, II. La seconda migrazione Agau dell'Eritrea (Zaguà e Adchemé Melgà)</title><title level="j">Rivista degli Studi Orientali</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><date>1912</date><biblScope unit="volume">4</biblScope><biblScope unit="issue">3</biblScope><biblScope unit="page">559-651</biblScope><note type="url">https://www.jstor.org/stable/41923002</note><note type="tags"><note type="tag">bm:ContiRossini1912Studi</note></note><note type="tag">bm:ContiRossini1912Studi</note><citedRange unit="page">633 n. 1</citedRange></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/KKZGMGER"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Lusini1993Monachesimo"/><title level="m">Studi sul monachesimo eustaziano (secoli XIV-XV)</title><title level="s">Studi Africanistici</title><author><forename>Gianfrancesco</forename><surname>Lusini</surname></author><pubPlace>Napoli</pubPlace><publisher>Istituto Universitario Orientale</publisher><date>1993</date><series><title level="s">Studi Africanistici</title><biblScope unit="volume">Serie Etiopica, 3</biblScope></series><biblScope unit="volume">Serie Etiopica, 3</biblScope><note type="tags"><note type="tag">bm:Lusini1993Monachesimo</note></note><note type="tag">bm:Lusini1993Monachesimo</note></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/F258ZQFF"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Lusini1996Ewostatewos"/><title level="a">Sulla tradizione manoscritta degli «Atti» di ʾĒwosṭātēwos (&lt;hi rend="italics"&gt;BHO&lt;/hi&gt; 295 = KRZ 49)</title><title level="j">Quaderni Utinensi</title><author><forename>Gianfrancesco</forename><surname>Lusini</surname></author><date>1990</date><biblScope unit="volume">8</biblScope><biblScope unit="issue">15–16</biblScope><biblScope unit="page">353–365</biblScope><note type="tags"><note type="tag">Hagiography</note><note type="tag">Aksum</note><note type="tag">bm:Lusini1996Ewostatewos</note><note type="tag">ʾEwosṭātewos</note></note><note type="tag">Hagiography</note><note type="tag">Aksum</note><note type="tag">bm:Lusini1996Ewostatewos</note><note type="tag">ʾEwosṭātewos</note></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/59UI43AG"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Fiaccadori2005Ewostatewos"/><title level="a">Ewosṭatewos</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Gianfranco</forename><surname>Fiaccadori</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">469a-472b</biblScope><note type="tags"><note type="tag">bm:Fiaccadori2005Ewostatewos</note></note><note type="tag">bm:Fiaccadori2005Ewostatewos</note><citedRange unit="page">469a-472b</citedRange></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/Y66CT4GJ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Adankpo2023Ewostatewos"/><title level="m">Moines, saints et hérétiques dans l’Éthiopie médiévale. Les disciples d’Ēwosṭātēwos et l’invention d’un mouvement monastique hétérodoxe (XIVe-milieu du XVe siècle)</title><title level="s">Bibliothèque des Écoles Françaises d'Athènes et de Rome</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Olivia</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Adankpo-Labadie</t:surname></author><pubPlace>Rome</pubPlace><publisher>École Française de Rome</publisher><date>2023</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Bibliothèque des Écoles Françaises d'Athènes et de Rome</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">407</t:biblScope></series><biblScope unit="volume">407</biblScope></bibl>
-            </listBibl>
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
+            <t:listBibl type="secondary">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/29NW28M7"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1912Studi"/><title level="a">Studi su popolazioni dell'Etiopia, II. La seconda migrazione Agau dell'Eritrea (Zaguà e Adchemé Melgà)</title><title level="j">Rivista degli Studi Orientali</title><author><t:forename>Carlo</t:forename><t:surname>Conti Rossini</t:surname></author><date>1912</date><biblScope unit="volume">4</biblScope><biblScope unit="issue">3</biblScope><biblScope unit="page">559-651</biblScope><note type="url">https://www.jstor.org/stable/41923002</note><t:citedRange unit="page">633 n. 1</t:citedRange></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/KKZGMGER"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Lusini1993Monachesimo"/><title level="m">Studi sul monachesimo eustaziano (secoli XIV–XV)</title><title level="s">Studi Africanistici</title><author><t:forename>Gianfrancesco</t:forename><t:surname>Lusini</t:surname></author><pubPlace>Napoli</pubPlace><publisher>Istituto Universitario Orientale</publisher><date>1993</date><series><t:title level="s">Studi Africanistici</t:title><t:biblScope unit="volume">Serie Etiopica, 3</t:biblScope></series><biblScope unit="volume">Serie Etiopica, 3</biblScope></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/F258ZQFF"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Lusini1996Ewostatewos"/><title level="a">Sulla tradizione manoscritta degli «Atti» di ʾĒwosṭātēwos (&lt;hi rend="italics"&gt;BHO&lt;/hi&gt; 295 = KRZ 49)</title><title level="j">Quaderni Utinensi</title><author><t:forename>Gianfrancesco</t:forename><t:surname>Lusini</t:surname></author><date>1990</date><biblScope unit="volume">8</biblScope><biblScope unit="issue">15–16</biblScope><biblScope unit="page">353–365</biblScope></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/59UI43AG"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Fiaccadori2005Ewostatewos"/><title level="a">Ewosṭatewos</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Gianfranco</forename><surname>Fiaccadori</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">469a-472b</biblScope><note type="tags"><note type="tag">bm:Fiaccadori2005Ewostatewos</note></note><note type="tag">bm:Fiaccadori2005Ewostatewos</note><t:citedRange unit="page">469a-472b</t:citedRange></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/Y66CT4GJ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Adankpo2023Ewostatewos"/><title level="m">Moines, saints et hérétiques dans l’Éthiopie médiévale. Les disciples d’Ēwosṭātēwos et l’invention d’un mouvement monastique hétérodoxe (XIVe-milieu du XVe siècle)</title><title level="s">Bibliothèque des Écoles Françaises d'Athènes et de Rome</title><author><t:forename>Olivia</t:forename><t:surname>Adankpo-Labadie</t:surname></author><pubPlace>Rome</pubPlace><publisher>École Française de Rome</publisher><date>2023</date><series><t:title level="s">Bibliothèque des Écoles Françaises d'Athènes et de Rome</t:title><t:biblScope unit="volume">407</t:biblScope></series><biblScope unit="volume">407</biblScope></t:bibl>
+            </t:listBibl>
             
-         </div>
+         </t:div>
 
-      </body>
-   </text></TEI>
+      </t:body>
+   </t:text></TEI>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="DSEthiop6"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Egypt, Dayr as-Suryān, DS Ethiop. 6</title>
@@ -5,9 +6,9 @@
             <title xml:lang="ar">إنجيل يوحنا</title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
             <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
-            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         </titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -16,7 +17,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">2022-01-05T13:36:28.446+01:00</date><date type="lastModified">15.12.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DSEthiop6</idno><idno type="URI">https://betamasaheft.eu/DSEthiop6</idno><idno type="filename">DSEthiop6.xml</idno><idno type="ID">DSEthiop6</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 00:20:18</date><date type="lastModified">15.12.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DSEthiop6/main</idno><idno type="URI">https://betamasaheft.eu/DSEthiop6</idno><idno type="filename">DSEthiop6.xml</idno><idno type="ID">DSEthiop6</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                   <msIdentifier>
@@ -46,8 +47,8 @@
                   <summary/>
 
                   <msItem xml:id="ms_i1">
-                        <locus from="9r" to="99rb">Fols 9r–99rb</locus>
-                     <title type="complete" ref="https://betamasaheft.eu/LIT2715John">Bǝsrāta Yoḥannǝs</title>
+                        <locus from="9r" to="99rb"/>
+                     <title type="complete" ref="https://betamasaheft.eu/LIT2715John">Gospel of John</title>
                         <textLang mainLang="gez"/>
 
                      <incipit xml:lang="gez" type="inscriptio">
@@ -72,7 +73,7 @@
                         ኮነ፡
                      </incipit>
                      <explicit type="supplication" xml:lang="gez">
-                        <locus from="99ra" to="99rb">Fols 99ra–99rb</locus>
+                        <locus from="99ra" to="99rb"/>
                         ጥቀ፡ መጻሕፍቲሁ፡ ዘተጽሕፈ፡ አሜን፨ <hi rend="rubric">መልአ፡ ስብከተ፡</hi> ዮሐንስ፡
                         ወልደ፡ <hi rend="rubric">ዘብዴዎስ፡ ሐዋ</hi>ርያ፨ ፩እም፲ወ፪ሐዋርያት፨ እንተ፡ ጸሐፎ፡ በልሳነ፡ ዮናኒ፨ለሰብአ፡ ሃገሩ፡ ኤፌሶን፨ እምድኅረ፡ ዕርገቱ፡
                         ለእ<hi rend="ligature">ግዝ</hi>እነ፡ ኢየሱስ፡ <hi rend="rubric">ክርስቶስ፡</hi>
@@ -82,7 +83,7 @@
                         </persName>
                      </explicit>
                      <note>No daily readings are marked except for Monday
-                       (<locus target="#9r">fol. 9r</locus>, the indications <foreign xml:lang="gez">ዘሠኑይ</foreign>
+                       (<locus target="#9r"/>, the indications <foreign xml:lang="gez">ዘሠኑይ</foreign>
                        written in the main <ref target="#h1">Hand 1</ref> and repeated
                        in a recent secondary hand).</note>
                   </msItem>
@@ -116,7 +117,7 @@
 
 
                        <layout columns="1" writtenLines="18">
-                         <locus target="#9r">Fol. 9r</locus>
+                         <locus target="#9r"/>
                           <note corresp="#textarea #margin">The layout for the first four written lines of
                             the heading of <ref target="#ms_i1">Text I (Gospel of John)</ref>.                         </note>
 
@@ -124,10 +125,10 @@
                         
        
                         <layout columns="2" writtenLines="18">
-                           <locus from="9r" to="99r">Fols 9r–99r</locus>
+                           <locus from="9r" to="99r"/>
 
 
-                           <note corresp="#textarea #margin">Data on text area and margin dimensions taken from <locus target="#10r">fol. 10r</locus>.</note>
+                           <note corresp="#textarea #margin">Data on text area and margin dimensions taken from <locus target="#10r"/>.</note>
                            <dimensions unit="mm" xml:id="textarea">
                               <height>122</height>
                               <width>90</width>
@@ -154,13 +155,13 @@
                   <decoDesc>
 
                      <decoNote type="band" xml:id="d1">
-                        <locus target="#9r">Fol. 9r</locus>
+                        <locus target="#9r"/>
                         <desc>Ornamental band in black and red, anthropomorphic motif (face)
                         in the middle, zoomorphic and geometric motifs, crosses.</desc>
                      </decoNote>
 
                      <decoNote type="band" xml:id="d2">
-                        <locus target="#98vb">Fol. 98vb</locus>
+                        <locus target="#98vb"/>
                         <desc>Text divider made of three black-and-red crosses,
                           red dotted lines.</desc>
                      </decoNote>
@@ -169,19 +170,19 @@
                   <additions>
                      <list>
                         <item xml:id="a1">
-                           <locus target="#ir">Fol. ir</locus>
+                           <locus target="#ir"/>
                            <desc type="Condemnation">Ownership note in Arabic, dated to <date when="1948">1948</date> and signed by the priest
                               <persName ref="https://betamasaheft.eu/PRS11906Arsaniyus">ʾArsāniyūs</persName>, stating that this manuscript
                               belongs to <placeName ref="https://betamasaheft.eu/INS0478DS">Dayr as-Suryān</placeName> and condemning those who would take it away.</desc>
                            <q xml:lang="ar">وقف <placeName ref="https://betamasaheft.eu/INS0478DS">دير السريان</placeName>
                               يكون محروم كل من يخرجه من وقفيته <persName ref="https://betamasaheft.eu/PRS11906Arsaniyus">
-                                 <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">القمص</t:roleName> ارسنيوس</persName>
+                                 <roleName type="title">القمص</roleName> ارسنيوس</persName>
                               <date when="1948-07-14">١٤/٧/١٩٤٨</date>
                            </q>
                         </item>
 
                         <item xml:id="a2">
-                           <locus target="#6v">Fol. 6v</locus>
+                           <locus target="#6v"/>
                            <desc type="Unclear">Pencil note in awkward Arabic stating that the manuscript belongs to
                               ʿAbd Maryam from <placeName ref="https://betamasaheft.eu/INS0478DS">Dayr as-Suryān</placeName>.</desc>
                            <q xml:lang="ar">هذا الكتاب تعلق الراهب <persName role="owner" ref="https://betamasaheft.eu/PRS11958WaldaM">عبد مريم</persName> احد رهبان<placeName ref="https://betamasaheft.eu/INS0478DS"> دير السيده
@@ -192,14 +193,14 @@
                        </item>
 
                         <item xml:id="a3">
-                           <locus target="#99v">Fol. 99v</locus>
+                           <locus target="#99v"/>
                            <desc type="OwnershipNote">Note in Arabic mentioning the Coptic Orthodox Patriarchate of Egypt.</desc>
                            <q xml:lang="ar">بطريكخانة الاقباط الارثودكس بمصر المحروسة
 بطريكخانة الاقباط الارثودكس بمصر المحروسة </q>
                         </item>
 
                         <item xml:id="a4">
-                           <locus target="#99v">Fol. 99v</locus>
+                           <locus target="#99v"/>
                            <desc type="OwnershipNote">Note in Arabic mentioning the name of
                              <persName ref="https://betamasaheft.eu/PRS11940GabraK">ʿAbd al-Masīḥ al-Ḥabašī</persName> with a question mark, written
                              below <ref target="#a3">Additional note 3</ref>.
@@ -211,7 +212,7 @@
                         </item>
 
                         <item xml:id="a5">
-                           <locus target="#110v">Fol. 110v</locus>
+                           <locus target="#110v"/>
                            <desc type="Supplication">Short supplication in Tigrinya. The number 43 at the beginning
                              may refer to the year
                              1943 <hi rendition="simple:smallcaps">EC</hi> (= 1950/1951 <hi rendition="simple:smallcaps">CE</hi>).</desc>
@@ -221,54 +222,54 @@
                         </item>
 
                         <item xml:id="e1">
-                           <locus target="#ir">Fol. ir</locus>
+                           <locus target="#ir"/>
                            <desc>Arabic title.</desc>
                            <q xml:lang="ar">انجيل يوحنا بالجئز</q>
                         </item>
 
                         <item xml:id="e2">
-                           <locus target="#ir">Fol. ir</locus>
+                           <locus target="#ir"/>
                            <desc>Arabic shelfmark.</desc>
                            <q xml:lang="ar">مخطوط ٢٣ ب طقوس</q>
                         </item>
 
                         <item xml:id="e3">
-                           <locus target="#1v">Fol. 1v</locus>
+                           <locus target="#1v"/>
                            <desc>Possibly a legend for an image that was not drawn,
                              or a pen trial.</desc>
                            <q xml:lang="gez">ዛቲ። ሥዕለ፡ ማርያም፡ ዘ<persName ref="https://betamasaheft.eu/PRS11958WaldaM">
-                              <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">አባ፡</t:roleName> ወልደ፡ ማርያም፡</persName>
+                              <roleName type="title">አባ፡</roleName> ወልደ፡ ማርያም፡</persName>
                            </q>
                            <q xml:lang="en">This image of Mary is
-                              by <persName ref="https://betamasaheft.eu/PRS11958WaldaM"><t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title"><hi rendition="simple:italic">ʾAbbā</hi></t:roleName> Walda Māryām</persName>.</q>
+                              by <persName ref="https://betamasaheft.eu/PRS11958WaldaM"><roleName type="title"><hi rendition="simple:italic">ʾAbbā</hi></roleName> Walda Māryām</persName>.</q>
                         </item>
 
                         <item xml:id="e4">
-                           <locus target="#2r">Fol. 2r</locus>
+                           <locus target="#2r"/>
                            <desc>Pen trial in pencil.</desc>
                            <q xml:lang="gez">ፈፈቴን፡ ብርዕ፡ በ</q>
                         </item>
 
                         <item xml:id="e5">
-                           <locus target="#2r">Fol. 2r</locus>
+                           <locus target="#2r"/>
                            <desc>Pen trial.</desc>
                            <q xml:lang="gez">ፈፈቲነ፡ ብርዕ፡ በእለተ፡ ሐሙስ፡</q>
                         </item>
 
                         <item xml:id="e6">
-                           <locus target="#9r">Fol. 9r</locus>
+                           <locus target="#9r"/>
                            <desc>Arabic shelfmark.</desc>
                            <q xml:lang="ar">مسلسل ٧١٧</q>
                         </item>
 
                         <item xml:id="e7">
-                           <locus target="#9r">Fol. 9r</locus>
+                           <locus target="#9r"/>
                            <desc>Arabic shelfmark.</desc>
                            <q xml:lang="ar">٢٣ ب طقوس</q>
                         </item>
 
                         <item xml:id="e8">
-                           <locus target="#9r">Fol. 9r</locus>
+                           <locus target="#9r"/>
                            <desc>Day of the week for the daily
                               reading indicated in the upper margin.
                               The same is written in pencil in the outer corner.</desc>
@@ -278,39 +279,39 @@
                         </item>
 
                         <item xml:id="e9">
-                           <locus target="#9r">Fol. 9r</locus>
+                           <locus target="#9r"/>
                            <desc>Ethiopic numeral in the upper inner corner,
                              possibly the only quire mark.</desc>
                            <q xml:lang="gez">፩</q>
                         </item>
 
                         <item xml:id="e10">
-                           <locus target="#1v #9r">Fols. 1v, 9r</locus>
+                           <locus target="#1v #9r"/>
                            <desc>Stamps of <placeName ref="https://betamasaheft.eu/INS0478DS">Dayr as-Suryān</placeName> throughout.</desc>
                            <q xml:lang="ar"/>
                         </item>
 
                         <item xml:id="e11">
-                           <locus target="#99v">Fol. 99v</locus>
+                           <locus target="#99v"/>
                            <desc type="Unclear">Two names of the countries written below <ref target="#a3">Additional note 3</ref>,
                            Turkey and Egypt.</desc>
                            <q xml:lang="gez">በትርከና ግብጽ</q>
                         </item>
 
                         <item xml:id="e12">
-                           <locus target="#120r">Fol. 120r</locus>
+                           <locus target="#120r"/>
                            <desc>Note in pencil.</desc>
                            <q xml:lang="gez">ካራ፡ ላይሶን፡</q>
                         </item>
 
                         <item xml:id="e13">
-                           <locus target="#120r">Fol. 120r</locus>
+                           <locus target="#120r"/>
                            <desc>Note in pencil.</desc>
                            <q xml:lang="gez">ኪዳን፡ ዘነግህ፡</q>
                         </item>
 
                         <item xml:id="e14">
-                           <locus target="#120v">Fol. 120v</locus>
+                           <locus target="#120v"/>
                            <desc>Notes in pencil.</desc>
                            <q xml:lang="gez">ሰሰሰ ሃይማኖተ እስ ከ</q>
                         </item>
@@ -365,9 +366,9 @@
                         These Guidelines detail the TEI format ruled by 
                         the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
                         The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/BetMas/modules/expand.xqm">Xquery transformation</ref> 
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
 
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
         <t:particDesc>
@@ -399,11 +400,11 @@
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
 
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#DN" when="2018-02-26">Denis Nosnitsin: Recorded manuscript</change>
-         <change who="#DR" when="2018-03-01">Dorothea Reule: Created catalogue entry</change>
-         <change who="#DR" when="2020-04-16">Dorothea Reule: Continued description, incorporated suggestions by Denis Nosnitsin</change>
-         <change who="#DR" when="2020-12-15">Dorothea Reule: Continued description and revision</change>
-         <change who="#DN" when="2020-12-15">Denis Nosnitsin: Continued description and revision</change>
+         <change who="#DN" when="2018-02-26"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Recorded manuscript</change>
+         <change who="#DR" when="2018-03-01"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
+         <change who="#DR" when="2020-04-16"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description, incorporated suggestions by Denis Nosnitsin</change>
+         <change who="#DR" when="2020-12-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description and revision</change>
+         <change who="#DN" when="2020-12-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description and revision</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>

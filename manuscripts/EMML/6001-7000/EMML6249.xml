@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="EMML6249"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
-         <titleStmt><title type="full">Collegeville, Hill Museum and Manuscript Library, MS EMML no. 6249</title>
+         <titleStmt><title type="full">Addis ʿAläm, ʾAddis ʿĀlam Māryām, MS EMML no. 6249</title>
             <title xml:id="t1">EMML 6249</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
          <editionStmt>
             <p>The initial version of this file was created from data kindly
                                 provided by Hill Museum &amp; Manuscript Library.</p>
@@ -19,24 +20,31 @@
                                 multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p>This XML file is licensed under the Creative Commons
-                                        Attribution-ShareAlike 4.0. </p>
+                  This XML file is licensed under the Creative Commons
+                                        Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
-            <date>2017-11-30+01:00</date>
-         <date type="expanded">20.8.2024 at 15:45:22</date><date type="lastModified">30.11.2017</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMML6249/main</idno><idno type="URI">https://betamasaheft.eu/EMML6249</idno><idno type="filename">EMML6249.xml</idno><idno type="ID">EMML6249</idno></publicationStmt>
+            
+         <date type="expanded">10.10.2025 at 01:46:22</date><date type="lastModified">30.11.2017</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMML6249/main</idno><idno type="URI">https://betamasaheft.eu/EMML6249</idno><idno type="filename">EMML6249.xml</idno><idno type="ID">EMML6249</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository ref="https://betamasaheft.eu/INS0004HMML">Hill Museum and Manuscript Library</repository>
-                  <collection>Addis Alam Māryām, Addis Alem</collection>
-                  <idno>MS EMML no. 6249</idno>
+                  <repository ref="https://betamasaheft.eu/INS0529AAC">ʾAddis ʿĀlam Māryām</repository>                  
+                  <idno facs="EMIP/Codices/1117/" n="189" corresp="https://betamasaheft.eu/api/iiif/EMML6249/manifest">MS EMML no. 6249</idno>
                   <altIdentifier>
-                     <idno>NA</idno>
+                     <repository ref="https://betamasaheft.eu/INS0004HMML">Hill Museum and Manuscript Library</repository>
+                     <idno>EMML 6249</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Addis Alem 75</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <repository ref="https://betamasaheft.eu/INS0447EMIP">Ethiopic Manuscript Imaging Project</repository>
+                     <idno>EMIP 1117</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary>Lectionary for Passion Week, Gǝbrä Ḥǝmamat, ግብረ፡ ሕማማት፡</summary>
                </msContents>
                <physDesc>
                   <objectDesc form="Codex">
@@ -45,11 +53,13 @@
                            <material key="parchment"/>
                         </support>
                         <extent>
-                           <measure unit="leaf"> 181+i</measure>
-                           <dimensions>
-                              <dim>34.5 x 27 cm</dim>
+                           <measure unit="leaf">iv + 178</measure>
+                           <dimensions type="outer" unit="mm">
+                              <height>345</height>
+                              <width>270</width>
+                              <depth/>
                            </dimensions>
-                        </extent>
+                        </extent>                        
                         <foliation/>
                         <condition key="good"/>
                      </supportDesc>
@@ -86,7 +96,7 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
@@ -95,10 +105,11 @@
          <change who="#PL" when="2017-11-30"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created minimal record with link from data sent from Daniel Gullo, HMML
                             project.</change>
       </t:revisionDesc>
-   </teiHeader><t:facsimile xmlns:t="http://www.tei-c.org/ns/1.0">
+   </teiHeader><standOff><listRelation><relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/EMML6249" passive="https://betamasaheft.eu/EMIP01117"/></listRelation></standOff><t:facsimile xmlns:t="http://www.tei-c.org/ns/1.0">
       <t:graphic url="https://w3id.org/vhmml/readingRoom/view/208053"/>
    </t:facsimile><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
+         
          <t:ab/>
       </t:body>
    </t:text></TEI>

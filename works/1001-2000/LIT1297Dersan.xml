@@ -1,13 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT1297Dersan"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
-         <titleStmt><title type="full">Dǝrsāna
-                                                  Rufāʾel</title>
+         <titleStmt><title type="full">Dǝrsāna Rufāʾel</title>
             <title xml:lang="gez" xml:id="t1">ድርሳነ፡ ሩፋኤል፡</title>
             <title xml:lang="gez" type="normalized" corresp="#t1">Dǝrsāna Rufāʾel</title>
             <title xml:lang="en" corresp="#t1">Homiletic dossier in honour of the Archangel Raphael</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="MKr" corresp="https://betamasaheft.eu/team.html#MKr"><resp>contributor</resp><name>Marcin Krawczuk</name></respStmt><respStmt xml:id="MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="MKr" corresp="https://betamasaheft.eu/team.html#MKr"><resp>contributor</resp><name>Marcin Krawczuk</name></respStmt><respStmt xml:id="MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -19,7 +19,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">6.1.2025 at 10:58:53</date><date type="lastModified">20.12.2024</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1297Dersan/main</idno><idno type="URI">https://betamasaheft.eu/LIT1297Dersan</idno><idno type="filename">LIT1297Dersan.xml</idno><idno type="ID">LIT1297Dersan</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 22:54:52</date><date type="lastModified">20.12.2024</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1297Dersan/main</idno><idno type="URI">https://betamasaheft.eu/LIT1297Dersan</idno><idno type="filename">LIT1297Dersan.xml</idno><idno type="ID">LIT1297Dersan</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -36,140 +36,138 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="chapter" match="div" use="div"><desc><list><item>LIT7214HomilyJCRuf</item><item>Miracles</item><item>LIT2387Taamme</item><item>LIT7161MRWomb</item><item>LIT7162MRTheophilus</item><item>LIT7163MRKidnapping</item><item>LIT7164MRWhale</item><item>LIT7165MRThief</item><item>LIT7166MRDeacon</item><item>LIT7167MRHealing</item><item>LIT7168MRWidow</item><item>LIT7169MRChurch</item><item>LIT7215HistoryRuf</item><item>LIT7216HistoryJCRuf</item><item>LIT6633SalRufMastafessehe</item></list></desc><assertion unit="chapter" match="div" use="div"><desc><list><item>MiracleImage</item><item>MiracleSeaMonster</item><item>MiracleConstantine</item><item>MiracleTobias</item></list></desc></assertion></assertion></assertion></source-url></encodingDesc>
-      <profileDesc>
-         <langUsage>
-           <language ident="en">English</language>
-           <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
-         <abstract>
-            <p>
-               This record identifies a collection of texts for the feast of the archangel Raphael, to be read on the 3rd of <foreign xml:lang="gez">Ṗāgʷǝmen</foreign>.
-               It consists of a <ref type="work" corresp="https://betamasaheft.eu/LIT7214HomilyJCRuf">homily by John Chrysostom</ref>, two collections of miracles 
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="chapter" match="t:div" use="t:div"><desc><list><item>LIT7214HomilyJCRuf</item><item>Miracles</item><item>LIT2387Taamme</item><item>LIT7161MRWomb</item><item>LIT7162MRTheophilus</item><item>LIT7163MRKidnapping</item><item>LIT7164MRWhale</item><item>LIT7165MRThief</item><item>LIT7166MRDeacon</item><item>LIT7167MRHealing</item><item>LIT7168MRWidow</item><item>LIT7169MRChurch</item><item>LIT7215HistoryRuf</item><item>LIT7216HistoryJCRuf</item><item>LIT6633SalRufMastafessehe</item></list></desc><citeStructure unit="chapter" match="t:div" use="t:div"><desc><list><item>MiracleImage</item><item>MiracleSeaMonster</item><item>MiracleConstantine</item><item>MiracleTobias</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage>
+           <t:language ident="en">English</t:language>
+           <t:language ident="gez">Gǝʿǝz</t:language>
+         </t:langUsage>
+         <t:abstract>
+            <t:p>
+               This record identifies a collection of texts for the feast of the archangel Raphael, to be read on the 3rd of <t:foreign xml:lang="gez">Ṗāgʷǝmen</t:foreign>.
+               It consists of a <t:ref type="work" corresp="https://betamasaheft.eu/LIT7214HomilyJCRuf">homily by John Chrysostom</t:ref>, two collections of miracles 
                (the unity of the two collections is still to be investigated), two additional texts
-               (respectively entitled <ref type="work" corresp="https://betamasaheft.eu/LIT7215HistoryRuf">History of the consecration of the church of Raphael on an island near Alexandria</ref> 
-               and <ref type="work" corresp="https://betamasaheft.eu/LIT7216HistoryJCRuf">History of how John Chrysostom visited the church of Raphael on an island</ref>) and a 
-               <foreign xml:lang="gez">salām</foreign>-hymn entitled <ref type="work" corresp="https://betamasaheft.eu/LIT6633SalRufMastafessehe">Salutation to Raphael, who is called 'the Rejoicer'</ref>.
-            </p>
-         </abstract>
+               (respectively entitled <t:ref type="work" corresp="https://betamasaheft.eu/LIT7215HistoryRuf">History of the consecration of the church of Raphael on an island near Alexandria</t:ref> 
+               and <t:ref type="work" corresp="https://betamasaheft.eu/LIT7216HistoryJCRuf">History of how John Chrysostom visited the church of Raphael on an island</t:ref>) and a 
+               <t:foreign xml:lang="gez">salām</t:foreign>-hymn entitled <t:ref type="work" corresp="https://betamasaheft.eu/LIT6633SalRufMastafessehe">Salutation to Raphael, who is called 'the Rejoicer'</t:ref>.
+            </t:p>
+         </t:abstract>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
          <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
          <change who="#MKr" when="2020-12-04"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated transliteration, added summary, relations and bibliography, textparts.</change>
          <change who="#MKr" when="2022-11-30"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added reference to work records</change>
          <change who="#MV" when="2024-12-20"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Abstract, revised textparts</change>
-      </revisionDesc>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>            
                <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT1297Dersan" passive="https://betamasaheft.eu/PRS8083Raphael"/>
-            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="bibliography">
-            <listBibl type="secondary">
-               <bibl corresp="http://zotero.org/groups/358366/items/KRCWARVB"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Lusini2005EAEDersanaRufael"/><title level="a">Dǝrsanä Rufaʾel</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Gianfrancesco</forename><surname>Lusini</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">141a</biblScope><note type="tags"><note type="tag">bm:Lusini2005EAEDersanaRufael</note></note><note type="tag">bm:Lusini2005EAEDersanaRufael</note></bibl>
-            </listBibl>
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
+            <t:listBibl type="secondary">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/KRCWARVB"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Lusini2005EAEDersanaRufael"/><title level="a">Dǝrsanä Rufaʾel</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Gianfrancesco</forename><surname>Lusini</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">141a</biblScope><note type="tags"><note type="tag">bm:Lusini2005EAEDersanaRufael</note></note><note type="tag">bm:Lusini2005EAEDersanaRufael</note></t:bibl>
+            </t:listBibl>
             
-            <div type="edition">       
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7214HomilyJCRuf">
-                  <label>Homily by John Chrysostom on the archangel Raphael</label>
-               </div>
+            <t:div type="edition">       
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7214HomilyJCRuf">
+                  <t:label>Homily by John Chrysostom on the archangel Raphael</t:label>
+               </t:div>
                
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Miracles">
-                  <label>First collection of miracles of the archangel Raphael</label>
-                  <div type="textpart" subtype="chapter" xml:id="MiracleImage">
-                     <label>On creating a large image of Raphael</label>
-                     <note>
-                        The following incipit is taken from <ref type="mss" corresp="https://betamasaheft.eu/BAVet130">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 130</ref> according to <bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><forename>Sylvain</forename><surname>Grébaut</surname></author><author><forename>Eugène</forename><surname>Tisserant</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:GrebTiss1935Codices</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:GrebTiss1935Codices</note><citedRange unit="page">522</citedRange></bibl>.
-                     </note>
-                     <ab>
-                        በእንተ፡ ተአምራቲሁ፡ ወመንክራቲሁ። <supplied reason="omitted">ለ</supplied>ዘከሠተ፡ ኅቡአቲሁ፡ በትንብልናሁ፡ ለሊቀ፡ መላእክት፡ ሩፋኤል፡ 
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Miracles">
+                  <t:label>First collection of miracles of the archangel Raphael</t:label>
+                  <t:div type="textpart" subtype="chapter" xml:id="MiracleImage">
+                     <t:label>On creating a large image of Raphael</t:label>
+                     <t:note>
+                        The following incipit is taken from <t:ref type="mss" corresp="https://betamasaheft.eu/BAVet130">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 130</t:ref> according to <t:bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><t:forename>Sylvain</t:forename><t:surname>Grébaut</t:surname></author><author><t:forename>Eugène</t:forename><t:surname>Tisserant</t:surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><t:citedRange unit="page">522</t:citedRange></t:bibl>.
+                     </t:note>
+                     <t:ab>
+                        በእንተ፡ ተአምራቲሁ፡ ወመንክራቲሁ። <t:supplied reason="omitted">ለ</t:supplied>ዘከሠተ፡ ኅቡአቲሁ፡ በትንብልናሁ፡ ለሊቀ፡ መላእክት፡ ሩፋኤል፡ 
                         ወኮነ፡ ዓቢይ፡ ፍሥሓ፡ ወአዘዘ፡ ንጉሥ፡ ያጸርይዎ፡ ለውእቱ፡ ወርቅ፡ በእሳት፡ እስከ፡ ይትነጠፍ፡ እምርስሕቱ። ወበጊዜሃ፡ ገብሩ፡ ሥዕለ፡ ዓቢየ፡ ዘወርቅ። ንጡፍ፡ 
-                        በዓምሳለ፡ ሊቀ፡ መላእክት፡ ሩፋኤል<supplied reason="omitted">፡</supplied>
-                     </ab>
-                  </div>
-                  <div type="textpart" subtype="chapter" xml:id="MiracleSeaMonster">
-                     <label>Miracle of the keeper of a church, who was carried away by a sea monster</label>
-                     <note>This miracle is different from <ref type="work" corresp="https://betamasaheft.eu/LIT7164MRWhale">Dǝrsāna
-                                                  Rufāʾel element div with id LIT7164MRWhale</ref>, where a king is swallowed by a sea monster.
-                        The following incipit is taken from <ref type="mss" corresp="https://betamasaheft.eu/BAVet130">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 130</ref> according to <bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><forename>Sylvain</forename><surname>Grébaut</surname></author><author><forename>Eugène</forename><surname>Tisserant</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:GrebTiss1935Codices</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:GrebTiss1935Codices</note><citedRange unit="page">522</citedRange></bibl>.
-                     </note>
-                     <ab>
-                        <choice><sic>አጠይቀክሙ፡</sic><corr resp="PRS4805Grebaut PRS9530Tisseran">አጤይቀክሙ፡</corr></choice> ኦአኃውየ፡ ዕፁበ፡ ወመንክረ፡ 
-                        ካልዓ፡ ዘገብረ፡ ተአምረ፡ ሊቀ፡ መላእክት፡ ጸሎቱ፡ <gap reason="ellipsis" resp="PRS4805Grebaut PRS9530Tisseran"/> ስምዑ፡ እንግርክሙ፡ ኦጉባኤ፡ ማኅበራ፡ ለቤተ፡ ክርስቲያን፡
-                        ቅድስት፨ ሀሎ፡ ፩ዓቃቤ፡ ቤተ፡ ክርስቲያን፡ ወበአሐቲ፡ ዕለት፡ ቦአ፡ ከመ፡ ያብርህ፡ ማኅቶተ፡ ቅድመ፡ <sic>ሥዕል፡</sic> ክቡር፡ ሩፋኤል<supplied reason="omitted">፡</supplied>
-                     </ab>
-                  </div>
-                  <div type="textpart" subtype="chapter" xml:id="MiracleConstantine">
-                     <label>On how Raphael appeared to emperor Constantine</label>
-                     <note>
-                        The following incipit is taken from <ref type="mss" corresp="https://betamasaheft.eu/BAVet130">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 130</ref> according to <bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><forename>Sylvain</forename><surname>Grébaut</surname></author><author><forename>Eugène</forename><surname>Tisserant</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:GrebTiss1935Codices</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:GrebTiss1935Codices</note><citedRange unit="page">523</citedRange></bibl>.
-                     </note>
-                     <ab>
+                        በዓምሳለ፡ ሊቀ፡ መላእክት፡ ሩፋኤል<t:supplied reason="omitted">፡</t:supplied>
+                     </t:ab>
+                  </t:div>
+                  <t:div type="textpart" subtype="chapter" xml:id="MiracleSeaMonster">
+                     <t:label>Miracle of the keeper of a church, who was carried away by a sea monster</t:label>
+                     <t:note>This miracle is different from <t:ref type="work" corresp="https://betamasaheft.eu/LIT7164MRWhale">Dǝrsāna Rufāʾel element t:div with id LIT7164MRWhale</t:ref>, where a king is swallowed by a sea monster.
+                        The following incipit is taken from <t:ref type="mss" corresp="https://betamasaheft.eu/BAVet130">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 130</t:ref> according to <t:bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><t:forename>Sylvain</t:forename><t:surname>Grébaut</t:surname></author><author><t:forename>Eugène</t:forename><t:surname>Tisserant</t:surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><t:citedRange unit="page">522</t:citedRange></t:bibl>.
+                     </t:note>
+                     <t:ab>
+                        <t:choice><t:sic>አጠይቀክሙ፡</t:sic><t:corr resp="PRS4805Grebaut PRS9530Tisseran">አጤይቀክሙ፡</t:corr></t:choice> ኦአኃውየ፡ ዕፁበ፡ ወመንክረ፡ 
+                        ካልዓ፡ ዘገብረ፡ ተአምረ፡ ሊቀ፡ መላእክት፡ ጸሎቱ፡ <t:gap reason="ellipsis" resp="PRS4805Grebaut PRS9530Tisseran"/> ስምዑ፡ እንግርክሙ፡ ኦጉባኤ፡ ማኅበራ፡ ለቤተ፡ ክርስቲያን፡
+                        ቅድስት፨ ሀሎ፡ ፩ዓቃቤ፡ ቤተ፡ ክርስቲያን፡ ወበአሐቲ፡ ዕለት፡ ቦአ፡ ከመ፡ ያብርህ፡ ማኅቶተ፡ ቅድመ፡ <t:sic>ሥዕል፡</t:sic> ክቡር፡ ሩፋኤል<t:supplied reason="omitted">፡</t:supplied>
+                     </t:ab>
+                  </t:div>
+                  <t:div type="textpart" subtype="chapter" xml:id="MiracleConstantine">
+                     <t:label>On how Raphael appeared to emperor Constantine</t:label>
+                     <t:note>
+                        The following incipit is taken from <t:ref type="mss" corresp="https://betamasaheft.eu/BAVet130">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 130</t:ref> according to <t:bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><t:forename>Sylvain</t:forename><t:surname>Grébaut</t:surname></author><author><t:forename>Eugène</t:forename><t:surname>Tisserant</t:surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><t:citedRange unit="page">523</t:citedRange></t:bibl>.
+                     </t:note>
+                     <t:ab>
                         ናሁ፡ ንጽሕፍ፡ ለክሙ፡ ኦአኃውየ፡ ፍቁራን፡ ኃይለ፡ ዘገብረ፡ ቅዱስ፡ ሊቀ፡ መላእክት፡ ሩፋኤል፡ አመ፡ ተፈነወ፡ ውስተ፡ ቤተ፡ ቈስጠንጢኖስ፡
-                        ንጉሥ፡ ዘተመስሎ፡ ለአብርሃም፡ በሠዊዓ፡ ወልዱ፡ ወምንተ፡ ገብረ፡ ዝንቱ፡ መልአክ፡ ሩፋኤል፡ ወሶበ፡ ረከቦ፡ <supplied reason="omitted">ለ</supplied>ንዑሠ፡ 
+                        ንጉሥ፡ ዘተመስሎ፡ ለአብርሃም፡ በሠዊዓ፡ ወልዱ፡ ወምንተ፡ ገብረ፡ ዝንቱ፡ መልአክ፡ ሩፋኤል፡ ወሶበ፡ ረከቦ፡ <t:supplied reason="omitted">ለ</t:supplied>ንዑሠ፡ 
                         መዋዕል፡ ወልዱ፡ ለቈስጠንጢኖስ፡
-                     </ab>
-                  </div>
-                  <div type="textpart" subtype="chapter" xml:id="MiracleTobias">
-                     <label>Miracle of Tobias</label>
-                     <note>
-                        The following incipit is taken from <ref type="mss" corresp="https://betamasaheft.eu/BAVet130">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 130</ref> according to <bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><forename>Sylvain</forename><surname>Grébaut</surname></author><author><forename>Eugène</forename><surname>Tisserant</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:GrebTiss1935Codices</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:GrebTiss1935Codices</note><citedRange unit="page">523</citedRange></bibl>.
-                     </note>
-                     <ab>
-                        ሣልስኒ፡ ተአምሪሁ፡ ለዝንቱ<supplied reason="omitted">፡</supplied> መልአክ፡ ነበረ፡ ፩ብእሲ፡ በዘመነ፡ አበዊነ፡ ቀደምት። 
-                        <choice><sic>ዘልሙ</sic><corr resp="PRS4805Grebaut PRS9530Tisseran">ዘስሙ፡</corr></choice> ጦቢት፡ ወስመ፡ ወልዱ፡ ጦብያ። ወሠናይ፡ ውእቱ፡ 
-                        ብእሲሁ፡ ወያፈቅሮ፡ ለእግዚአብሔር፨ <gap reason="ellipsis" resp="PRS4805Grebaut PRS9530Tisseran"/> ወበእንተ፡ ዝንቱ፡ ተጽሕፈ፡ ምስለ፡ ዜና፡ 
+                     </t:ab>
+                  </t:div>
+                  <t:div type="textpart" subtype="chapter" xml:id="MiracleTobias">
+                     <t:label>Miracle of Tobias</t:label>
+                     <t:note>
+                        The following incipit is taken from <t:ref type="mss" corresp="https://betamasaheft.eu/BAVet130">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 130</t:ref> according to <t:bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><t:forename>Sylvain</t:forename><t:surname>Grébaut</t:surname></author><author><t:forename>Eugène</t:forename><t:surname>Tisserant</t:surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><t:citedRange unit="page">523</t:citedRange></t:bibl>.
+                     </t:note>
+                     <t:ab>
+                        ሣልስኒ፡ ተአምሪሁ፡ ለዝንቱ<t:supplied reason="omitted">፡</t:supplied> መልአክ፡ ነበረ፡ ፩ብእሲ፡ በዘመነ፡ አበዊነ፡ ቀደምት። 
+                        <t:choice><t:sic>ዘልሙ</t:sic><t:corr resp="PRS4805Grebaut PRS9530Tisseran">ዘስሙ፡</t:corr></t:choice> ጦቢት፡ ወስመ፡ ወልዱ፡ ጦብያ። ወሠናይ፡ ውእቱ፡ 
+                        ብእሲሁ፡ ወያፈቅሮ፡ ለእግዚአብሔር፨ <t:gap reason="ellipsis" resp="PRS4805Grebaut PRS9530Tisseran"/> ወበእንተ፡ ዝንቱ፡ ተጽሕፈ፡ ምስለ፡ ዜና፡ 
                         መልአክ፡ ሩፋኤል፡ መጽሐፈ፡ ነገሩ፡ ለጦቢት፡ ወልደ፡ ጦብያ፤ ወልደ፡ ገባል፡ ዘእምነ፡ አሳሔል፤ ዘእምነገደ፡ ንፍታሌም፤ 
-                     </ab>
-                  </div>
-               </div>
+                     </t:ab>
+                  </t:div>
+               </t:div>
                
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT2387Taamme">
-                  <label>Second collection of miracles of the archangel Raphael</label>
-                  <note>This collection also has an independent circulation (see <ref type="mss" corresp="https://betamasaheft.eu/ANLcr3">Rome, Biblioteca dell’Accademia Nazionale dei Lincei, Conti Rossini 3</ref>).</note>
-               </div>
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7161MRWomb">
-                  <label>Miracle of the power of St Raphael to loosen the womb</label>
-               </div>
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7162MRTheophilus">
-                  <label>Miracle of the Patriarch Theophilus who remained buried for three days</label>
-               </div>
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7163MRKidnapping">
-                  <label>Miracle of the boy kidnapped by an elephant</label>
-               </div>
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7164MRWhale">
-                  <label>Miracle of the king swallowed by a whale</label>
-               </div>
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7165MRThief">
-                  <label>Miracle of the thief who broke into a church that contained treasures</label>
-               </div>
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7166MRDeacon">
-                  <label>Miracle of the deacon thrown into the sea</label>
-               </div>
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7167MRHealing">
-                  <label>Miracle of the healing powers of St Raphael</label>
-               </div>
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7168MRWidow">
-                  <label>Miracle of the poor widow</label>
-               </div>
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7169MRChurch">
-                  <label>Miracle of the construction of the church of Raphael in Amḥarā</label>
-                  <note>This miracle is different from <ref type="work" corresp="https://betamasaheft.eu/LIT7215HistoryRuf">Dǝrsāna
-                                                  Rufāʾel element div with id LIT7215HistoryRuf</ref>.</note>
-               </div> 
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT2387Taamme">
+                  <t:label>Second collection of miracles of the archangel Raphael</t:label>
+                  <t:note>This collection also has an independent circulation (see <t:ref type="mss" corresp="https://betamasaheft.eu/ANLcr3">Rome, Biblioteca dell’Accademia Nazionale dei Lincei, Conti Rossini 3</t:ref>).</t:note>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7161MRWomb">
+                  <t:label>Miracle of the power of St Raphael to loosen the womb</t:label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7162MRTheophilus">
+                  <t:label>Miracle of the Patriarch Theophilus who remained buried for three days</t:label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7163MRKidnapping">
+                  <t:label>Miracle of the boy kidnapped by an elephant</t:label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7164MRWhale">
+                  <t:label>Miracle of the king swallowed by a whale</t:label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7165MRThief">
+                  <t:label>Miracle of the thief who broke into a church that contained treasures</t:label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7166MRDeacon">
+                  <t:label>Miracle of the deacon thrown into the sea</t:label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7167MRHealing">
+                  <t:label>Miracle of the healing powers of St Raphael</t:label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7168MRWidow">
+                  <t:label>Miracle of the poor widow</t:label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7169MRChurch">
+                  <t:label>Miracle of the construction of the church of Raphael in Amḥarā</t:label>
+                  <t:note>This miracle is different from <t:ref type="work" corresp="https://betamasaheft.eu/LIT7215HistoryRuf">Dǝrsāna Rufāʾel element t:div with id LIT7215HistoryRuf</t:ref>.</t:note>
+               </t:div> 
                
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7215HistoryRuf">
-                  <label>History of the consecration of the church of Raphael on an island near Alexandria</label>
-               </div>
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7216HistoryJCRuf">
-                  <label>History of how John Chrysostom visited the church of Raphael on an island</label>
-               </div>
-               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT6633SalRufMastafessehe">
-                  <label>Salām-hymn to the archangel Raphael</label>
-               </div>
-            </div>
-         </div>
-      </body>
-   </text></TEI>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7215HistoryRuf">
+                  <t:label>History of the consecration of the church of Raphael on an island near Alexandria</t:label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT7216HistoryJCRuf">
+                  <t:label>History of how John Chrysostom visited the church of Raphael on an island</t:label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="LIT6633SalRufMastafessehe">
+                  <t:label>Salām-hymn to the archangel Raphael</t:label>
+               </t:div>
+            </t:div>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

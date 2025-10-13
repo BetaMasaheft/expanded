@@ -1,15 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT7236PPSalamPhanuel"><teiHeader>
         <fileDesc>
-            <titleStmt><title type="full">Salām to Phanuel as a prayer against Bāryā, Legewon,
-          and Magāññā</title>
+            <titleStmt><title type="full">Salām to Phanuel as a prayer against Bāryā, Legewon, and Magāññā</title>
                 <title xml:lang="en" xml:id="t1">Salām to Phanuel as a prayer against Bāryā, Legewon, and Magāññā</title>
                 <title xml:lang="gez" xml:id="t2">ሰላም፡ ለከ፡ ፋኑኤል፡ ግበር፡ ትእምርተ፡</title>
                 <title xml:lang="gez" corresp="#t2" type="normalized">Salām laka Fānuʾel gǝbar tǝʾǝmǝrta</title>
                 <title xml:lang="en" corresp="#t2">Salām to you, Phanuel, work a miracle</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="CH" corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH">Carsten Hoffmann</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-CH" corresp="https://betamasaheft.eu/team.html#CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
+            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-CH" corresp="https://betamasaheft.eu/team.html#CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -19,7 +19,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">26.6.2025 at 08:07:51</date><date type="lastModified">14.1.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT7236PPSalamPhanuel/main</idno><idno type="URI">https://betamasaheft.eu/LIT7236PPSalamPhanuel</idno><idno type="filename">LIT7236PPSalamPhanuel.xml</idno><idno type="ID">LIT7236PPSalamPhanuel</idno></publicationStmt>
+            <date type="expanded">10.10.2025 at 23:40:41</date><date type="lastModified">16.9.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT7236PPSalamPhanuel/main</idno><idno type="URI">https://betamasaheft.eu/LIT7236PPSalamPhanuel</idno><idno type="filename">LIT7236PPSalamPhanuel.xml</idno><idno type="ID">LIT7236PPSalamPhanuel</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -44,6 +44,7 @@
                 <keywords>
                     <term key="Magic" ana="#Magic"/>
                     <term key="Prayers" ana="#Prayers"/>
+                    <term key="Poetry" ana="#Poetry"/>
                 </keywords>
             </textClass>
             <langUsage>
@@ -55,6 +56,7 @@
         <revisionDesc>
             <change who="#CH" when="2025-01-11"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
             <change who="#CH" when="2025-01-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrections after reviews by Dorothea Reule and Nafisa Valieva</change>
+            <change who="#CH" when="2025-09-16"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keyword Poetry</change>
         </revisionDesc>
     </teiHeader><standOff><listRelation>
                     <relation name="dcterms:isPartOf" ref="http://purl.org/dc/terms/isPartOf" active="https://betamasaheft.eu/LIT7236PPSalamPhanuel" passive="https://betamasaheft.eu/LIT2765RepCh49"><desc>Partly based on the 
@@ -65,8 +67,8 @@
                 
             </div>
             <div type="edition" subtype="incipit" xml:lang="gez">
-                <note>This incipit is taken from <ref type="mss" corresp="https://betamasaheft.eu/BLorient4943">BLorient4943</ref> based on the catalogue description in 
-                    <bibl corresp="http://zotero.org/groups/358366/items/RSEA4WPK"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1978BritishLibrary"/><title level="m">Catalogue of Ethiopian Manuscripts in the British Library Acquired Since the Year 1877</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname></author><pubPlace>London</pubPlace><publisher>British Museum</publisher><date>1978</date><citedRange unit="page">129</citedRange></bibl>.</note>
+                <note>This incipit is taken from <ref type="mss" corresp="https://betamasaheft.eu/BLorient4943">London, British Library, BL Oriental 4943</ref> based on the catalogue description in 
+                    <bibl corresp="http://zotero.org/groups/358366/items/RSEA4WPK"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1978BritishLibrary"/><title level="m">Catalogue of Ethiopian Manuscripts in the British Library acquired since the Year 1877</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>London</pubPlace><publisher>British Museum</publisher><date>1978</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">British Museum</note><note type="tag">bm:Strelcyn1978BritishLibrary</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">British Museum</note><note type="tag">bm:Strelcyn1978BritishLibrary</note><citedRange unit="page">129</citedRange></bibl>.</note>
                 <ab>ሰላም፡ ለከ፡ ፋኑኤል፡ ግበር፡ ትእምርተ፡ ሰላም፡ ምስሌየ፡ በኵናት፡ ጸሊም፡ አርግዝ፡ ገቦየ፡ ዘአንሀበ፡ በእንቲአየ፡ ሰላም፡ ለከ፡ ሰይፈከ፡ ምላህ፡ ዲበ፡ ፀርየ፡</ab>
             </div>
         </body>

@@ -1,12 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS1522Ahmadb"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">ʾAḥmad</title>
             <title>ʾAḥmad b. ʾIbrāhīm al-Ġāzī</title>
             <editor key="SG" corresp="https://betamasaheft.eu/team.html#SG" xml:id="SG">Solomon Gebreyes</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             
             <author/>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -17,7 +18,7 @@
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
-         <date type="expanded">19.7.2022 at 11:41:39</date><date type="lastModified">27.7.2017</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS1522Ahmadb/main</idno><idno type="URI">https://betamasaheft.eu/PRS1522Ahmadb</idno><idno type="filename">PRS1522Ahmadb.xml</idno><idno type="ID">PRS1522Ahmadb</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 03:29:51</date><date type="lastModified">27.7.2017</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS1522Ahmadb/main</idno><idno type="URI">https://betamasaheft.eu/PRS1522Ahmadb</idno><idno type="filename">PRS1522Ahmadb.xml</idno><idno type="ID">PRS1522Ahmadb</idno></publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
@@ -35,63 +36,63 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#PL" when="2016-04-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->batch updated according to requirements and issues.</change>
          <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
                                                   google spreadsheet </change>
          <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: person</change>
          <change who="#DR" when="2016-09-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->type added to occupation</change>
          <change who="#SG" when="2017-07-27"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Complete record</change>
-      </revisionDesc>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                   
                   <relation name="snap:FatherOf" ref="http://data.snapdrgn.net/ontology/snap#FatherOf" active="https://betamasaheft.eu/PRS1500Ahmad" passive="https://betamasaheft.eu/PRS7506Nasraddi"/>
                   <relation name="snap:EnmityFor" ref="http://data.snapdrgn.net/ontology/snap#EnmityFor" active="https://betamasaheft.eu/PRS1500Ahmad" passive="https://betamasaheft.eu/PRS6229LebnaDe"/>
                   <relation name="snap:EnmityFor" ref="http://data.snapdrgn.net/ontology/snap#EnmityFor" active="https://betamasaheft.eu/PRS1500Ahmad" passive="https://betamasaheft.eu/PRS4428Galawdew"/>
                   <relation name="ecrm:P129i_is_subject_of" ref="http://erlangen-crm.org/current/P129i_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/subject_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/PRS1500Ahmad" passive="https://betamasaheft.eu/LIT1404Futuha"/>
-               </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPerson>
-            <person sex="1">
+               </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPerson>
+            <t:person sex="1">
           
                   
-                  <persName xml:lang="gez" xml:id="n1" type="birth">አሕመድ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAḥmad</persName>
-                  <persName xml:lang="gez" xml:id="n2" type="nick">ግራኝ፡</persName>
-                  <persName xml:lang="gez" corresp="#n2" type="normalized">Grāñ</persName> 
-               <persName type="alt">Axmed Gurrey</persName>
-                  <persName>
-                  <roleName type="title">ʾimām</roleName>
-               </persName>
+                  <t:persName xml:lang="gez" xml:id="n1" type="birth">አሕመድ፡</t:persName>
+                  <t:persName xml:lang="gez" corresp="#n1" type="normalized">ʾAḥmad</t:persName>
+                  <t:persName xml:lang="gez" xml:id="n2" type="nick">ግራኝ፡</t:persName>
+                  <t:persName xml:lang="gez" corresp="#n2" type="normalized">Grāñ</t:persName> 
+               <t:persName type="alt">Axmed Gurrey</t:persName>
+                  <t:persName>
+                  <t:roleName type="title">ʾimām</t:roleName>
+               </t:persName>
                   
-                  <occupation type="ruler">leader</occupation>
-               <nationality type="Adal"/>
+                  <t:occupation type="ruler">leader</t:occupation>
+               <t:nationality type="Adal"/>
               
-                  <faith type="Islam"/>
-                  <birth when="1506">He was born at a place called <placeName ref="https://betamasaheft.eu/LOC3905Hubat">Hubāt</placeName>
-               </birth>
+                  <t:faith type="Islam"/>
+                  <t:birth when="1506">He was born at a place called <t:placeName ref="https://betamasaheft.eu/LOC3905Hubat">Hubāt</t:placeName>
+               </t:birth>
                   
                   
-                  <floruit notBefore="1527" notAfter="1543">He overrun the Christian Kingdom starting from 
-                     <date>1527</date> to <date>1543</date>.
-                     He became victorious against the Christian King <persName ref="https://betamasaheft.eu/PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>
-                  </floruit>
-                  <death when="1543" evidence="internal">He was killed by the forces of King 
-                     <persName ref="https://betamasaheft.eu/PRS4428Galawdew">Galāwdewos</persName> on <date> 22 February 1543</date>.
-               </death>
-               </person>
+                  <t:floruit notBefore="1527" notAfter="1543">He overrun the Christian Kingdom starting from 
+                     <t:date>1527</t:date> to <t:date>1543</t:date>.
+                     He became victorious against the Christian King <t:persName ref="https://betamasaheft.eu/PRS6229LebnaDe">Lǝbna Dǝngǝl</t:persName>
+                  </t:floruit>
+                  <t:death when="1543" evidence="internal">He was killed by the forces of King 
+                     <t:persName ref="https://betamasaheft.eu/PRS4428Galawdew">Galāwdewos</t:persName> on <t:date> 22 February 1543</t:date>.
+               </t:death>
+               </t:person>
                
-         </listPerson>
-         <listBibl type="editions">
-            <bibl corresp="http://zotero.org/groups/358366/items/X8PBF2AH"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Basset1882Chronicle"/><title level="m">Études sur l’histoire d’Éthiopie</title><title level="s">Extrait du Journal Asiatique</title><author><forename>René</forename><surname>Basset</surname></author><editor><forename>René</forename><surname>Basset</surname></editor><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1882</date><series><title level="s">Extrait du Journal Asiatique</title></series><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k104740t</note><note type="tags"><note type="tag">bm:Basset1882Chronicle</note></note><note type="tag">bm:Basset1882Chronicle</note></bibl>
-         </listBibl>
-         <listBibl type="secondary">
-            <bibl corresp="http://zotero.org/groups/358366/items/ZFHEXIQS"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Muth2003Ahmad"/><title level="a">Aḥmad b. Ibrāhīm al-Ġāzī</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Franz-Christoph</forename><surname>Muth</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">155a-158a</biblScope><note type="tags"><note type="tag">bm:Muth2003Ahmad</note></note><note type="tag">bm:Muth2003Ahmad</note></bibl> 
-         </listBibl>
-      </body>
-   </text></TEI>
+         </t:listPerson>
+         <t:listBibl type="secondary">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/X8PBF2AH"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Basset1882Chronicle"/><title level="m">Études sur l’histoire d’Éthiopie</title><title level="s">Extrait du Journal Asiatique</title><author><forename>René</forename><surname>Basset</surname></author><editor><forename>René</forename><surname>Basset</surname></editor><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1882</date><series><title level="s">Extrait du Journal Asiatique</title></series><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k104740t</note><note type="tags"><note type="tag">bm:Basset1882Chronicle</note></note><note type="tag">bm:Basset1882Chronicle</note></t:bibl>
+         </t:listBibl>
+         <t:listBibl type="secondary">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/ZFHEXIQS"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Muth2003Ahmad"/><title level="a">Aḥmad b. Ibrāhīm al-Ġāzī</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Franz-Christoph</forename><surname>Muth</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">155a-158a</biblScope><note type="tags"><note type="tag">bm:Muth2003Ahmad</note></note><note type="tag">bm:Muth2003Ahmad</note></t:bibl> 
+         </t:listBibl>
+      </t:body>
+   </t:text></TEI>

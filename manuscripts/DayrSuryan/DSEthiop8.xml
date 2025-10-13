@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="DSEthiop8"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Egypt, Dayr as-Suryān, DS Ethiop. 8</title>
@@ -5,9 +6,9 @@
             <title xml:lang="ar">أنافورا لقرياقوس البهنساوي، صلوات طقسية، ترنيمة مَلكِأ لجَبرة منفس قدوس</title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
             <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
-            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         </titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -17,7 +18,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">2022-01-05T13:36:28.446+01:00</date><date type="lastModified">15.12.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DSEthiop8</idno><idno type="URI">https://betamasaheft.eu/DSEthiop8</idno><idno type="filename">DSEthiop8.xml</idno><idno type="ID">DSEthiop8</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 00:20:18</date><date type="lastModified">15.12.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DSEthiop8/main</idno><idno type="URI">https://betamasaheft.eu/DSEthiop8</idno><idno type="filename">DSEthiop8.xml</idno><idno type="ID">DSEthiop8</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -47,19 +48,18 @@
                   <summary/>
 
                   <msItem xml:id="ms_i1">
-                     <locus from="2r" to="40r">Fols 2r–40r</locus>
-                     <title type="complete" ref="https://betamasaheft.eu/LIT1099Anapho">ʾAkkʷateta qʷǝrbān za-qǝddus Hǝryāqos za-hagara
-                    Bǝhnǝsā</title>
+                     <locus from="2r" to="40r"/>
+                     <title type="complete" ref="https://betamasaheft.eu/LIT1099Anapho">ʾAkkʷateta qʷǝrbān za-qǝddus Hǝryāqos za-hagara Bǝhnǝsā</title>
 
                      <textLang mainLang="gez"/>
                      <incipit xml:lang="gez" type="inscriptio">
                            <hi rend="rubric">አኰቴተ፡ ቁርባን፡ ዘእግእትነ፨
                           ማርያም፨ ወላዲተ፨ አምላክ፡ ዘ</hi>ደረ<add place="above">ሰ</add>፨ ላቲ፡ አባ፡ ሕርያቆስ፡ ሊቀ፡ ጳጳሳት፡ ዘሀገረ፡ ብህንሳ፡
                      </incipit>
-                     <note>On <locus target="#13v">fol. 13v</locus>, the words <foreign xml:lang="gez">ተላህዮ፡ ዘልሕቂ፡ ከመ፡ አዋልደ፡ ዕብራውያን፡ እለ፡ ያገዝፋ፡ ክሳዶን፡</foreign>,
+                     <note>On <locus target="#13v"/>, the words <foreign xml:lang="gez">ተላህዮ፡ ዘልሕቂ፡ ከመ፡ አዋልደ፡ ዕብራውያን፡ እለ፡ ያገዝፋ፡ ክሳዶን፡</foreign>,
 
-part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1962Qeddase"/><title level="m">&lt;hi rend="italics"&gt;መጽሐፈ፡ ቅዳሴ። በግዕዝና፡ በአማርኛ። (&lt;/hi&gt;Maṣḥafa qǝddāse. Ba-gǝʿzǝnnā ba-ʾamārǝññā&lt;hi rend="italics"&gt;, ‘Book of the Missal. In Gǝʿǝz and Amharic’)&lt;/hi&gt;</title><editor><name>Anon.</name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā māttamiyā bet</publisher><date>1969</date><note type="tags"><note type="tag">bm:1962Qeddase</note></note><note type="tag">bm:1962Qeddase</note><citedRange unit="chapter"><hi rendition="simple:italic">Qǝddāse Māryām</hi></citedRange><citedRange unit="paragraph">39</citedRange></bibl> and included
-                        in the text on <locus target="#13r">13r</locus>, are written above on the page
+part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1962Qeddase"/><title level="m">&lt;hi rend="italics"&gt;መጽሐፈ፡ ቅዳሴ። በግዕዝና፡ በአማርኛ። (&lt;/hi&gt;Maṣḥafa qǝddāse. Bagǝʿǝzǝnnā baʾamārǝññā&lt;hi rend="italics"&gt;, ‘Book of the Missal. In Gǝʿǝz and Amharic’)&lt;/hi&gt;</title><editor><t:name xmlns:t="http://www.tei-c.org/ns/1.0">[Tasfā Gabra Śǝllāse]</t:name></editor><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā māttamiyā bet</publisher><date>1969</date><citedRange unit="chapter"><hi rendition="simple:italic">Qǝddāse Māryām</hi></citedRange><citedRange unit="paragraph">39</citedRange></bibl> and included
+                        in the text on <locus target="#13r"/>, are written above on the page
 
                         and between black lines.</note>
 
@@ -83,33 +83,43 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                         <hi rend="rubric">ወምስለ፨</hi> ወምፍቁሩ፨ በመንፈስ፨ ኄር፨ ወምዕመን፨ ለዓመ፨ ዓለም፨
                         አ<hi rend="rubric">ሜን</hi><hi rend="rubric">፨</hi> <hi rend="rubric">ለይኩን</hi><hi rend="rubric">፨</hi>
                         <hi rend="rubric">ለይኩ</hi><hi rend="rubric">፨</hi> </explicit>
-                     <note> Half of <locus target="#31r">fols. 31r, </locus> and all of <locus target="#31v">31v</locus> are left blank. </note>
+                     <note> Half of <locus target="#31r"/> and all of <locus target="#31v"/> are left blank. </note>
                   </msItem>
 
                   <msItem xml:id="ms_i2">
-                     <locus from="40r" to="41v">Fols 40r–41v</locus>
+                     <locus from="40r" to="41v"/>
                      <title type="complete" ref="https://betamasaheft.eu/LIT3064RepCh344">ʾƎsebbǝḥ ṣaggāki ʾo-mǝlʾǝta ṣaggā</title>
                      <textLang mainLang="gez"/>
                      <incipit xml:lang="gez">እሴብሕ፡ ጸጋኪ፡ ኦምልዕተ፡ ጸጋ፡ ወእትጋነይ፡ ለኪ፨ ኦምልዕተ፡ ውዳሴ፡ ተዘከርኩ፡
                         በልሌሊት፡ ንጽሐ፡ ድንግልናኪ፡</incipit>
 
 
-                     
+                     <explicit xml:lang="gez">
+                        <locus from="41r" to="41v"/>
+                        አሥግ<add place="above">ርኒ</add>
+                        <hi rend="rubric">።</hi> በሐብለ፡ ወንጌሉ፡ ለበኵርኪ፡ እስመ፡ ናሁ፡
+                        ዕጽብ<subst>
+                           <del rend="erasure">ጥ</del>
+                           <add place="above">ት</add>
+                        </subst>፡ ውስተ፡ ባህረ፡ ኃጢአት፡ አውጽእኒ፡
+                        እምስርመ፡ አበሳ፡ ወጌጋይ፡ ወአስጥምኒ፡ ውስተ፡ ቀላየ፡ ምሕረቱ፡ ለበኵር<pb n="41v"/>ኪ፡ ሚጢ፡ ላህየ፡ ወአስተፍስሕኒ፡ ስጥጤ፡ ሰቅየ፡ ወሀሴተ፡
+                        አቅንትኒ፡ አእትቲ፡ ፂዓተ፡ ኃጣውእየ፡ በመዓዛ፡
+                     </explicit>
                   </msItem>
 
 
                   <msItem xml:id="ms_i3">
-                     <locus from="41v" to="44r">Fols 41v–44r</locus>
+                     <locus from="41v" to="44r"/>
                      <title type="complete" ref="https://betamasaheft.eu/LIT1398Fethat">Fǝtḥat za-wald</title>
                      <textLang mainLang="gez"/>
                      <incipit xml:lang="gez">
-                        <locus from="41v" to="42r">Fols 41v–42r</locus>
+                        <locus from="41v" to="42r"/>
                         <hi rend="rubric"><sic resp="DR">ፍትሕት፡</sic> ዘወልድ፡ እግዚእ፡ ኢየሱስ፡ ክርስቶስ፡ ወልድ፡ ዋህድ፡</hi>
                         ቃለ፡ እግዚአብሔር፡ አብ፡ ዘበትከ፡ እምኔነ፡ ኩሎ፡ ማዕሰረ፡ ሰይጣን፡ ኃጣዊነ፡ በሕማማቲከ፡ ማሕየዊት፡ ወመድኃኒት፡ ዘ<pb n="42r"/>ነፋህከ፡ ላእለ፡ ገጸ፡ አርዳኢሁ፡
                         ቅዱሳን፡ ወላዕካኒከ፡ ንጹሃን፡ ወትቤሎሙ፡ ንሥኡ፡ መንፈስ፡ ቅዱስ፡ ለእለ፡ ኃደግሙ፡ ኃጢአት፡ ይትኅድግ፡ ሎሙ፡
                      </incipit>
                      <explicit xml:lang="gez">
-                        <locus from="43r" to="44r">Fols 43r–44r</locus>
+                        <locus from="43r" to="44r"/>
                         ኦ ኄር፡ ወእግዚአ፡ ኵሉ፡ ወመፍቀሬ፡ እጐለ፡ <pb n="43v"/> እመሕያው፡ ጸግወነ፡ ሥርየተ፡ ኃጣውኢነ፡ ባረከነ፡ ወቀድሰነ፡ አንጽሐነ፡ ወህጸበነ፡ ወአምዕዘነ፡ ወረስየነ፡
                         <del rend="expunctuated">ሐ</del> ፍቱሐነ፡ ወግዑዛነ፡ ወለኩሉ፡ ሕዝብከ፡ ፍትሖሙ፡
                         ወምላዕ፡ ላዕሌነ፡ ፈሪሆተ፡ ስምከ፡ ወአቀመነ፡ ሀበ፡ ገቢረ፡ ፈቃድከ፡ እስመ፡ አንተ፡ እግዚአብሔር፡ አምላክነ፡ ወመድኃኒነ፡ ኢየሱስ፡ ክርስቶስ፡ <pb n="44r"/>
@@ -119,14 +129,13 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                   </msItem>
 
                   <msItem xml:id="ms_i4">
-                     <locus from="44r" to="45v">Fols 44r–45v, </locus>
-                     <locus target="#48r">48r</locus>
-                     <title type="complete" ref="https://betamasaheft.eu/LIT1960Mashaf#SerataQeddaseAbsolution">Maṣḥafa qǝddāse, Liturgy of
-                    Catechumen: General absolution</title>
+                     <locus from="44r" to="45v"/>
+                     <locus target="#48r"/>
+                     <title type="complete" ref="https://betamasaheft.eu/LIT1960Mashaf#SerataQeddaseAbsolution">Maṣḥafa qǝddāse: Liturgy of Catechumen: General absolution</title>
                      <textLang mainLang="gez"/>
 
                      <incipit xml:lang="gez">
-                        <locus from="44r" to="44v">Fols 44r–44v</locus>
+                        <locus from="44r" to="44v"/>
                         ወእለ<hi rend="rubric">።</hi>
                          ተልዕኩ<hi rend="rubric">።</hi> በዛቲ<hi rend="rubric">።</hi> ዕለት<hi rend="rubric">።</hi>
                         ቀሲስ<hi rend="rubric">።</hi> ወዲያቆን<hi rend="rubric">።</hi> ወካህናት<hi rend="rubric">።</hi> ላዕለ፡ ልዑካን<hi rend="rubric">።</hi>
@@ -135,14 +144,14 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                      </incipit>
 
                      <explicit xml:lang="gez">
-                        <locus target="#45v">Fol. 45v</locus>
+                        <locus target="#45v"/>
                         ፍቱሐነ፡ ወግ<add place="above">ዑ</add>ዛነ፡ ወእምአፉሃ፡ <hi rend="rubric">ለእግዝእትነ፡ ማርያም፡ ወላዲተ፡ አምላክ፡ መንፈሳዊት።</hi>
                         ሐዳስ፡ ምእ<gap reason="illegible"/>ም፡ እስመ። ብሩክ፡ ወምሉዕ፡ <del rend="erasure"/> ሥብሐተ፡ ሥምከ። ኦሥሉሥ። አብ፡ ወወልድ፡ ወመንፈሥ፡
                         ቅዱሥ፡ ይእዜኒ። ወዘልፈኒ። ወለአለመ፡ ዓለም። <hi rend="rubric">አሜን።</hi>
                      </explicit>
 
                      <explicit type="supplication" xml:lang="gez">
-                        <locus target="#48r">Fol. 48r</locus>
+                        <locus target="#48r"/>
                         <hi rend="rubric"> ኦእግዚእየ፡ ኢየሱስ። ክርስቶስ፨ ዕቀበኒ፡</hi> እመክረ፨ ሥጋ፨ ወነፍስ፡ ለገብርከ፨
                         ገብርከ፡ <persName ref="https://betamasaheft.eu/PRS11944GabraM">ረ፨ ማርያም፨</persName>
                         <hi rend="rubric">አሜን፡ ስብሀት፡ ለኪ፡ ማርም፡ በኁ</hi>
@@ -150,7 +159,7 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                   </msItem>
 
                   <msItem xml:id="ms_i5">
-                     <locus from="46r" to="46v">Fols 46r–46v</locus>
+                     <locus from="46r" to="46v"/>
                      <title type="incomplete" ref="https://betamasaheft.eu/LIT5893Prayer">Taśāhālka ʾǝgziʾo mǝdraka</title>
                      <textLang mainLang="gez"/>
 
@@ -159,14 +168,14 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                      </note>
 
                      <incipit xml:lang="gez">
-                        <locus target="#46r">Fol. 46r</locus>
+                        <locus target="#46r"/>
                         <hi rend="rubric">ተሣሃልከ፡ እግዚኦ፡ ምድረከ፡ ሃሌ፡ ሉያ፡ ስማዕ፡</hi> ጸሎተነ፡ ወስእለተነ፡ ወስራይ፡ ኩሎ፡
                         ኃጢአተነ፡ ስማዕ፡ ጸሎተነ፡ ወስዕለተነ፡ ዘሰማዕኮ፡ ጸሎት፡ ወስዕለት፡ ለዕዝራ፡ ተወከፍ፡ ምህላነ፡ ሰላመከ፡ ሀበነ፡
                         እማእ<add place="above">ከ</add>ሌነ፡ ኢትርኃቅ፡ ወሚጥ፡ መዓተከ፡ እምኔነ፡ ሃሌ፡ ሉያ፡
                      </incipit>
 
                      <explicit xml:lang="gez">
-                        <locus target="#46v">Fol. 46v</locus>
+                        <locus target="#46v"/>
                         <hi rend="rubric">አርእየነ፡ እግዚኦ፡
                            ሣህለከ። ሃሌ፡ ሉያ፡ ሰላመ፡ አብ፡ ሰላመ፡ ወልድ፡ ወሰላመ፡</hi> መንፈስ፡ ቅዱስ፡ የሃሉ፡ ማእከሌክሙ፡ ኣሐው፡ በል፡
                         <hi rend="rubric">ሰላመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡</hi> ቅዱስ፡ ወፍቅራ፡
@@ -176,12 +185,12 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
 
 
                   <msItem xml:id="ms_i6">
-                     <locus from="48r" to="52v">Fols 48r–52v</locus>
+                     <locus from="48r" to="52v"/>
                      <title type="incomplete" ref="https://betamasaheft.eu/LIT5068MalkeaGabraManfas">Malkǝʾa Gabra Manfas Qǝddus</title>
                      <textLang mainLang="gez"/>
                      <note>Incomplete at the end.</note>
                      <incipit xml:lang="gez">
-                        <locus from="48r" to="48v">Fols 48r–48v</locus>
+                        <locus from="48r" to="48v"/>
                         ሰላም፡ ለዝክረ፡ ስምከ ከመ፡ ጸሃይ፡ ምውቅ፡ ዘያበርህ፡ ወትረ፡ እስከነ፡ ምእራብ፡
                         ወሰርቅ፡ ገብረ፡ መንፈስ፡ ቅዱስ፡ ስጋከ፡ ዘተሰርገወ፡ በሰቅ፡ <pb n="48v"/>
                      ክድንኒ፡ ሞገሰ፡ ስምከ፡ ከመ፡ ልብሰ፡ ሜላት፡ ስውቅ፡ በብኄረ፡ መርቄ፡ ሰይለ፡ ለነዳይ፡ ዕሩቅ፡
@@ -196,9 +205,9 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                   </msItem>
 
                   <msItem xml:id="ms_i7">
-                     <locus from="53r" to="61r">Fols 53r–61r</locus>
-                     <title type="complete" ref="https://betamasaheft.eu/LIT4960Taabbeyo">Saʾali lana Māryām saʾali lana Māryām ḫaba waldǝki
-                    ḫer madhane ʿālam</title>
+                     <locus from="53r" to="61r"/>
+                     <title type="complete" ref="https://betamasaheft.eu/LIT4960Taabbeyo">Saʾali lana Māryām saʾali lana Māryām ḫaba waldǝki ḫer
+          madhane ʿālam</title>
                      <textLang mainLang="gez"/>
                      <incipit xml:lang="gez">
                         <hi rend="rubric">ሰአሊ፡ ለነ፡ ማርያም፡</hi> ተዓብዮ፡ ነፍስየ፡
@@ -208,7 +217,7 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                         ተጋብኡ፡</incipit>
 
                      <explicit xml:lang="gez">
-                        <locus from="60v" to="61r">Fols 60v–61r</locus>
+                        <locus from="60v" to="61r"/>
                         <hi rend="rubric">ሰአሊ፡ ለነ፡ ማርያም፡ ተዓብዮ፡</hi> ነፍስየ፡ ለእግዚአብሔር፡ ፫ጊ፡
                         በል፡ <hi rend="rubric">ሰአ፡ ለነ፡ ማርያም፡</hi> አስምኢ፡ ለኃይልኪ ለኃይድምየ፡ ለፀርነ፡ ዘልፈ፡ ዘየዓቅጾ፡
                         እስመ፡ አብዝኃ፡ ትውክልተ፡ ወዓምፆ። <hi rend="rubric">ሰአ፡ ለነ፡ ንዒ፡</hi> ንዒ፡ <hi rend="rubric">ንዒ፡ ማርያም፡</hi> ዘትነብሪ፡ በአርያም፡
@@ -216,7 +225,7 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                         ኦእግዝእትየ፡ </explicit>
 
                      <explicit type="supplication" xml:lang="gez">
-                        <locus target="#61r">Fol. 61r</locus>
+                        <locus target="#61r"/>
                         <hi rend="rubric">ማርያም፡ ድንግልወላዲተ፡</hi> መለኮት፡ ጸሎትኪ፡ <add place="above">ወስእለትኪ፡</add> ይቀበኒ፡ እመከረ፡ ሥጋ፡ ወነፍስ፡ ለኃጥእ፡ <del rend="expunctuated">ገብርኪ፡</del> ገብርኪ፡ <persName ref="https://betamasaheft.eu/PRS11944GabraM">ገብረ፡ <hi rend="rubric">ማርያም፡</hi>
                         </persName> ወምስለ፡ ፍቁሩ፨ በመንፈስ፡ ኄር፡ ለወምዕመን፡ ለዓለመ፡ ዓለም፡ <hi rend="rubric">አሜን፨</hi>
                      </explicit>
@@ -231,7 +240,7 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
 
                         <support>
                            <watermark>Watermarks ‘Hess &amp; Co’ and a floral pattern
-                                 visible on <locus target="#32 #35 #36 #39 #40 #43">fols. 32, 35, 36, 39, 40, 43</locus>.
+                                 visible on <locus target="#32 #35 #36 #39 #40 #43"/>.
                            </watermark>
 
                            <material key="paper">
@@ -239,51 +248,51 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                            </material>
 
                            <material key="paper" xml:id="m1">
-                              <locus from="i" to="2">Fols i–2, </locus>
-                              <locus from="17" to="31">17–31</locus>
+                              <locus from="i" to="2"/>
+                              <locus from="17" to="31"/>
                               <note>Thickish, whitish paper.</note>
                            </material>
 
                            <material key="paper" xml:id="m2">
-                              <locus from="3" to="6">Fols 3–6, </locus>
-                              <locus from="13" to="16">13–16</locus>
+                              <locus from="3" to="6"/>
+                              <locus from="13" to="16"/>
                               <note>Creme coloured, thinner paper.</note>
                            </material>
 
                            <material key="paper" xml:id="m3">
-                              <locus from="7" to="12">Fols 7–12</locus>
+                              <locus from="7" to="12"/>
                               <note>Thickish, whitish paper.</note>
                            </material>
 
                            <material key="paper" xml:id="m5">
-                              <locus from="32" to="49">Fols 32–49, </locus>
-                              <locus from="51" to="52">51–52, </locus>
-                              <locus from="60" to="61">60–61</locus>
+                              <locus from="32" to="49"/>
+                              <locus from="51" to="52"/>
+                              <locus from="60" to="61"/>
                              <note>Finer, light brownish paper.</note>
                            </material>
 
                            <material key="paper" xml:id="m6">
-                              <locus target="#50">Fol. 50</locus>
+                              <locus target="#50"/>
                               <note>Thinner, light brownish paper.</note>
                            </material>
 
                            <material key="paper" xml:id="m7">
-                              <locus from="53" to="59">Fols 53–59</locus>
+                              <locus from="53" to="59"/>
                               <note>Thinner, light brownish paper.</note>
                            </material>
 
                            <material key="paper" xml:id="m8">
-                              <locus target="#62">Fol. 62</locus>
+                              <locus target="#62"/>
                               <note>Thinner, light brownish paper.</note>
                            </material>
 
                            <material key="paper" xml:id="m9">
-                              <locus target="#63">Fol. 63</locus>
+                              <locus target="#63"/>
                               <note>Thicker, cream coloured paper.</note>
                            </material>
 
                            <material key="paper" xml:id="m10">
-                              <locus from="63" to="iii">Fols 63–iii</locus>
+                              <locus from="63" to="iii"/>
                               <note>Thicker, cream coloured paper.</note>
                            </material>
                         </support>
@@ -292,7 +301,7 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                            <measure unit="leaf">i+64+ii-iii</measure>
                            <measure unit="leaf" xml:lang="ar">١ + ٦٤ + ٢-٣ ورقة</measure>
                            <measure unit="leaf" type="blank"/>
-                           <locus target="#ir #11r #11v #31v #47r #47v #61v #62r #62v #63r #iir #iiv #iiir">Fols. ir, 11r, 11v, 31v, 47r, 47v, 61v, 62r, 62v, 63r, iir, iiv, iiir</locus>
+                           <locus target="#ir #11r #11v #31v #47r #47v #61v #62r #62v #63r #iir #iiv #iiir"/>
                            <dimensions type="outer" unit="mm">
                               <height>137</height>
                               <width>95</width>
@@ -304,57 +313,57 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                               <depth>١٤</depth>
                            </dimensions>
                         </extent>
-                        <foliation resp="DR DN">Foliation in pencil in the centre of the bottom margin. Between <locus target="#55">fols. 55, </locus>
-                        and <locus target="#56">56, </locus>, one folium has been skipped and been foliated subsequently with <locus target="#55a">55a</locus>.</foliation>
+                        <foliation resp="DR DN">Foliation in pencil in the centre of the bottom margin. Between <locus target="#55"/>
+                        and <locus target="#56"/>, one folium has been skipped and been foliated subsequently with <locus target="#55a"/>.</foliation>
 
                         <collation>
                            <list>
                               <item xml:id="q1" n="A">
                                  <dim unit="leaf">1</dim>
-                                 <locus from="1" to="1">Fols 1–1</locus>
+                                 <locus from="1" to="1"/>
                                  1, no stub
 
                                  <note>
-                                    <locus target="#i">Fols. i, </locus> constitutes a
+                                    <locus target="#i"/> constitutes a
                                     bifolium with the leaf now glued to the inner board.
-                                  <locus target="#1">1</locus> is loose.</note>
+                                  <locus target="#1"/> is loose.</note>
                               </item>
                               <item xml:id="q2" n="1">
                                  <dim unit="leaf">16</dim>
-                                 <locus from="2r" to="17v">Fols 2r–17v</locus>
+                                 <locus from="2r" to="17v"/>
                               </item>
                               <item xml:id="q3" n="2">
                                  <dim unit="leaf">14</dim>
-                                 <locus from="18r" to="31v">Fols 18r–31v</locus>
+                                 <locus from="18r" to="31v"/>
                               </item>
                               <item xml:id="q4" n="3">
                                  <dim unit="leaf">12</dim>
-                                 <locus from="32r" to="43v">Fols 32r–43v</locus>
+                                 <locus from="32r" to="43v"/>
                               </item>
                               <item xml:id="q5" n="4">
                                  <dim unit="leaf">6</dim>
-                                 <locus from="44r" to="49v">Fols 44r–49v</locus>
+                                 <locus from="44r" to="49v"/>
 
                                  <note>
-                                    <locus from="46" to="47">Fols 46–47, </locus> is a loose bifolium
-                                    placed between <locus target="#45">45, </locus>
-                                 and <locus target="#48">48</locus>.</note>
+                                    <locus from="46" to="47"/> is a loose bifolium
+                                    placed between <locus target="#45"/>
+                                 and <locus target="#48"/>.</note>
                               </item>
                               <item xml:id="q6" n="5">
                                  <dim unit="leaf">12</dim>
-                                 <locus from="50r" to="61v">Fols 50r–61v</locus>
+                                 <locus from="50r" to="61v"/>
                                  <note>
-                                    <locus target="#50">Fols. 50, </locus> is a single folium
-                                    glued on <locus target="#51">51</locus>.</note>
+                                    <locus target="#50"/> is a single folium
+                                    glued on <locus target="#51"/>.</note>
                               </item>
                               <item xml:id="q7" n="6">
                                  <dim unit="leaf">4</dim>
-                                 <locus from="62r" to="iiiv">Fols 62r–iiiv</locus>
+                                 <locus from="62r" to="iiiv"/>
                                  1, no stub
                                  2, no stub
                                  <note>
-                                    <locus target="#ii">Fols. ii, </locus> and <locus target="#iii">iii, </locus> constitute a bifolium, <locus target="#62">62, </locus>
-                                    and <locus target="#63">63</locus> two single leaves before it. One of these  possibly constituted originally a bifolium with the leaf glued to
+                                    <locus target="#ii"/> and <locus target="#iii"/> constitute a bifolium, <locus target="#62"/>
+                                    and <locus target="#63"/> two single leaves before it. One of these  possibly constituted originally a bifolium with the leaf glued to
                                     the inner board.</note>
                               </item>
                               <note>Different types of paper were used for the manuscript.</note>
@@ -364,9 +373,9 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
 
                      <layoutDesc>
                         <layout columns="1" writtenLines="11">
-                           <locus from="2r" to="61r">Fols 2r–61r</locus>
+                           <locus from="2r" to="61r"/>
                            <note corresp="#textarea #margin">Data on text area and margin dimensions
-                              taken from <locus target="#18r">fol. 18r</locus>.The text area is irregular.</note>
+                              taken from <locus target="#18r"/>.The text area is irregular.</note>
                            <dimensions unit="mm" xml:id="textarea">
                               <height>98</height>
                               <width>55</width>
@@ -379,7 +388,7 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                            </dimensions>
                            <ab type="ruling">Two  <hi rendition="simple:italic">misṭāras</hi> (rulers) were used for ruling; one for all
                              text folia, and another one, of slightly different shape, only for
-                             <locus from="46" to="47">fols 46–47</locus>.
+                             <locus from="46" to="47"/>.
                            </ab>
                         </layout>
                      </layoutDesc>
@@ -387,15 +396,15 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
 
                   <handDesc>
                     <handNote xml:id="h1" script="Ethiopic">
-                      <locus from="2r" to="13r">Fols 2r–13r, </locus>
-                      <locus from="15r" to="20r">15r–20r, </locus>
-                      <locus from="21r" to="22v">21r–22v, </locus>
-                      <locus from="24r" to="26r">24r–26r, </locus>
-                      <locus from="28r" to="30v">28r–30v, </locus>
-                      <locus from="32r" to="32v">32r–32v, </locus>
-                      <locus from="35r" to="36v">35r–36v, </locus>
-                      <locus from="37r" to="52v">37r–52v, </locus>
-                      <locus target="#61r">61r</locus>
+                      <locus from="2r" to="13r"/>
+                      <locus from="15r" to="20r"/>
+                      <locus from="21r" to="22v"/>
+                      <locus from="24r" to="26r"/>
+                      <locus from="28r" to="30v"/>
+                      <locus from="32r" to="32v"/>
+                      <locus from="35r" to="36v"/>
+                      <locus from="37r" to="52v"/>
+                      <locus target="#61r"/>
                       <seg type="script">Nineteenth-century script.</seg>
 
                        <list type="abbreviations">
@@ -407,7 +416,7 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                       <seg type="ink">Black, red.</seg>
 
                        <seg type="rubrication">Incipits,
-                      <foreign xml:lang="gez">ማርያም</foreign>, rarely parts of numerals (<locus target="#20v">fol. 20v</locus>),
+                      <foreign xml:lang="gez">ማርያም</foreign>, rarely parts of numerals (<locus target="#20v"/>),
                       <foreign xml:lang="gez">ኢየሱስ፡ ክርስቶስ፡</foreign>, the name of the owner
                       <foreign xml:lang="gez">ገብረ፡ ማርያም፡</foreign>, <foreign xml:lang="gez">ይበ፡ ዲያ፡</foreign>,
                       <foreign xml:lang="gez">ይበ፡ ካህ፡</foreign>, <foreign xml:lang="gez">ሰአሊ፡ ለነ፡</foreign>/
@@ -417,21 +426,21 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
 
                       <desc>Irregular, crude; by a poorly trained hand. The handwriting shows some variations in the hues of the inks,
                         the appearance of the script (e.g. slant and thickness of the strokes) and quality of the execution
-                        (diminishing after <hi rendition="simple:italic">ca</hi> <locus target="#45">fol. 45</locus>).
+                        (diminishing after <hi rendition="simple:italic">ca</hi> <locus target="#45"/>).
                       </desc>
 
                     </handNote>
 
                      <handNote xml:id="h2" script="Ethiopic">
-                        <locus target="#2r">Fols. 2r, </locus>
-                        <locus from="13r" to="14v">13r–14v, </locus>
-                        <locus from="20r" to="20v">20r–20v, </locus>
-                        <locus from="22v" to="23v">22v–23v, </locus>
-                        <locus from="26r" to="27v">26r–27v, </locus>
-                        <locus target="#31r">31r, </locus>
-                        <locus from="33r" to="34v">33r–34v, </locus>
-                        <locus target="#36v">36v, </locus>
-                        <locus from="53r" to="61r">53r–61r</locus>
+                        <locus target="#2r"/>
+                        <locus from="13r" to="14v"/>
+                        <locus from="20r" to="20v"/>
+                        <locus from="22v" to="23v"/>
+                        <locus from="26r" to="27v"/>
+                        <locus target="#31r"/>
+                        <locus from="33r" to="34v"/>
+                        <locus target="#36v"/>
+                        <locus from="53r" to="61r"/>
 
                         <seg type="script">Nineteenth-century script.</seg>
 
@@ -448,13 +457,13 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                         <foreign xml:lang="gez">ይበ፡ ካ፡</foreign>,
                         <foreign xml:lang="gez">ይበ፡ ሕ፡</foreign>, <foreign xml:lang="gez">አሜን</foreign>,
                         <foreign xml:lang="gez">ሰላም፡</foreign> and ገብረ፡ መንፈስ፡ ቅዱስ፡ in the salām.
-                        The rubrication is carried out in red ink until <locus target="#17r">fols. 17r, </locus>, on
-                        <locus from="18r" to="18v">fols 18r–18v, </locus> in violet ink, <locus from="19r" to="48r">fols 19r–48r, </locus> in red ink,
-                        <locus from="48r" to="52v">fols 48r–52v, </locus> in violet ink, on <locus target="#61r">fol. 61r</locus> in red ink.</seg>
+                        The rubrication is carried out in red ink until <locus target="#17r"/>, on
+                        <locus from="18r" to="18v"/> in violet ink, <locus from="19r" to="48r"/> in red ink,
+                        <locus from="48r" to="52v"/> in violet ink, on <locus target="#61r"/> in red ink.</seg>
                         <date notBefore="1800" notAfter="1899">19th century.</date>
                         <desc>Somewhat irregular, hasty; by a skilled scribe.
                           <ref target="#h1">Hand 1</ref> and <ref target="#h2">Hand 2</ref> alternate throughout the manuscript,
-                          occasionally on the same page (<locus target="#2r #13r">fols. 2r, 13r</locus>, etc.), without discontinuities
+                          occasionally on the same page (<locus target="#2r #13r"/>, etc.), without discontinuities
                           in the content.
                                        </desc>
 
@@ -465,7 +474,7 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                   <decoDesc>
 
                      <decoNote xml:id="d1">
-                        <locus target="#1v">Fols. 1v, </locus>
+                        <locus target="#1v"/>
                         <locus target="#1v" xml:lang="ar">ورقة ١ ظ</locus>
                         <desc>Printed devotional image of European origin showing
                           eight Czech saints (around St Mary with Child in the centre), glued onto the page.</desc>
@@ -475,12 +484,12 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                      </decoNote>
 
                      <decoNote type="band" xml:id="d2">
-                        <locus target="#2r">Fol. 2r</locus>
+                        <locus target="#2r"/>
                         <desc>Crude ornamental band in black and red.</desc>
                      </decoNote>
 
                      <decoNote type="ornamentation" xml:id="d3">
-                        <locus target="#61r">Fol. 61r</locus>
+                        <locus target="#61r"/>
                         <desc>Crude black-and-red dotted text divider at the end of the last text.</desc>
                      </decoNote>
                   </decoDesc>
@@ -494,14 +503,14 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                        </item>
 
                         <item xml:id="a2">
-                           <locus target="#ir">Fol. ir</locus>
+                           <locus target="#ir"/>
                            <desc type="OwnershipNote">Arabic ownership note in pencil
                              stating that the manuscript belongs to
                               <placeName ref="https://betamasaheft.eu/INS0478DS">Dayr as-Suryān</placeName>, dated <date>1948</date> and signed by
                               the priest <persName ref="https://betamasaheft.eu/PRS11906Arsaniyus">ʾArsāniyūs</persName>.</desc>
                            <q xml:lang="ar">وقف<placeName ref="https://betamasaheft.eu/INS0478DS"> دير السرين</placeName>
                               يكون محروم كل من يخرجه عن وقفيته <persName ref="https://betamasaheft.eu/PRS11906Arsaniyus">
-                                 <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">القمص</t:roleName> ارسانيوس</persName>
+                                 <roleName type="title">القمص</roleName> ارسانيوس</persName>
                               <date when="1948-04-14">١٩٤٨/٤/١٤</date>
                            </q>
                         </item>
@@ -509,73 +518,73 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
 
 
                         <item xml:id="e1">
-                           <locus target="#ir">Fol. ir</locus>
+                           <locus target="#ir"/>
                            <desc>Arabic title.</desc>
                            <q xml:lang="ar">قداس مريم بالجئز</q>
                         </item>
 
                         <item xml:id="e2">
-                           <locus target="#ir">Fol. ir</locus>
+                           <locus target="#ir"/>
                            <desc>Arabic shelfmark.</desc>
                            <q xml:lang="ar">مسلسل ٧١٨ </q>
                         </item>
 
                         <item xml:id="e3">
-                           <locus target="#ir">Fol. ir</locus>
+                           <locus target="#ir"/>
                            <desc>Arabic shelfmark.</desc>
                            <q xml:lang="ar">٥٠٩ ب طقوس </q>
                         </item>
 
                         <item xml:id="e4">
-                           <locus target="#ir #iv #2v #6v #19r #43v #61v #63v">Fols. ir, iv, 2v, 6v, 19r, 43v, 61v, 63v</locus>
+                           <locus target="#ir #iv #2v #6v #19r #43v #61v #63v"/>
                            <desc>Stamp of <placeName ref="https://betamasaheft.eu/INS0478DS">Dayr as-Suryān</placeName>.</desc>
                            <q xml:lang="ar"/>
                         </item>
 
                         <item xml:id="e5">
-                           <locus target="#31v">Fol. 31v</locus>
+                           <locus target="#31v"/>
                            <desc type="Unclear"/>
                            <q xml:lang="gez">ወአባኢሁ</q>
                         </item>
 
                         <item xml:id="e6">
-                           <locus target="#iiir">Fol. iiir</locus>
+                           <locus target="#iiir"/>
                            <desc type="Unclear"/>
                            <q xml:lang="gez">ከሲትከሲት፡</q>
                         </item>
 
                         <item xml:id="e7">
-                           <locus target="#61v">Fol. 61v</locus>
+                           <locus target="#61v"/>
                            <desc>Arabic title.</desc>
                            <q xml:lang="ar">قداس مريم بالجئز</q>
                         </item>
 
                         <item xml:id="e8" corresp="#h1">
-                           <locus target="#2r #7r #7v #8r #9r #10r #12r #15v #16v #17r #18v #24r #29v #31r #32r #36r #36v #37v #39v                               #41r #42r #42v #44v #45v #46r #51v #52r #53v #61r">Fols. 2r, 7r, 7v, 8r, 9r, 10r, 12r, 15v, 16v, 17r, 18v, 24r, 29v, 31r, 32r, 36r, 36v, 37v, 39v,, ,, ,, ,, ,, ,, ,, ,, ,, ,, ,, ,, ,, ,, ,, , 41r, 42r, 42v, 44v, 45v, 46r, 51v, 52r, 53v, 61r</locus>
+                           <locus target="#2r #7r #7v #8r #9r #10r #12r #15v #16v #17r #18v #24r #29v #31r #32r #36r #36v #37v #39v                               #41r #42r #42v #44v #45v #46r #51v #52r #53v #61r"/>
                            <desc>Characters omitted by the scribe are added above in the same hand.</desc>
                         </item>
 
                         <item xml:id="e9" corresp="#h2">
-                           <locus target="#13r #13v">Fols. 13r, 13v</locus>
+                           <locus target="#13r #13v"/>
                            <desc>Characters omitted by the scribe are added above in the same hand.</desc>
                         </item>
 
                         <item xml:id="e10" corresp="#h1">
-                           <locus target="#14v">Fol. 14v</locus>
+                           <locus target="#14v"/>
                            <desc>A word omitted by <ref target="#h2">Hand 2</ref> has been added by <ref target="#h1">Hand 1</ref>
                            above the line.</desc>
                            <q xml:lang="gez">መጽአ፡ <pb n="14v"/>ሀቤኪ፡ <add place="above" corresp="#h1">ቃል፡</add> እንዘ፡ ኢይትፈለጥ፡</q>
                         </item>
 
                         <item xml:id="e11" corresp="#h1">
-                           <locus target="#23v">Fol. 23v</locus>
+                           <locus target="#23v"/>
                            <desc>A word omitted by <ref target="#h2">Hand 2</ref> has been added by <ref target="#h1">Hand 1</ref>
                               above the line.</desc>
                            <q xml:lang="gez">ወይፈርህ፡ እምነደ፡ <add place="above" corresp="#h1">እሳት፡</add> ወኢይበጽሖ፡ </q>
                         </item>
 
                         <item xml:id="e12" corresp="#h1">
-                           <locus target="#26v">Fol. 26v</locus>
+                           <locus target="#26v"/>
                            <desc>
                               <ref target="#h1">Hand 1</ref> has added a character in the margin next to an erased character
                               within text written by <ref target="#h2">Hand 2</ref>.</desc>
@@ -585,7 +594,7 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                         </item>
 
                         <item xml:id="e13" corresp="#h1">
-                           <locus target="#33v">Fol. 33v</locus>
+                           <locus target="#33v"/>
                            <desc>
                               <ref target="#h1">Hand 1</ref> has added a word above the line
                               within text written by <ref target="#h2">Hand 2</ref>.</desc>
@@ -593,26 +602,26 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                         </item>
 
                         <item xml:id="e14" corresp="#h1">
-                           <locus target="#34v">Fol. 34v</locus>
+                           <locus target="#34v"/>
                            <desc>Omitted words are added above the line.</desc>
                         </item>
 
                         <item xml:id="e15">
-                           <locus target="#35v">Fol. 35v</locus>
+                           <locus target="#35v"/>
                            <desc>A character has been added above the line
                               within text written by <ref target="#h2">Hand 2</ref>, the hand is not identifiable.</desc>
                            <q xml:lang="gez">ርእይዎ፡ ነቢያት፡ ለእግዚአብሔር፡ ወተ<add place="above">ና</add>ጸሩ፡ ገጸ፡ በገጽ፡</q>
                         </item>
 
                         <item xml:id="e16" corresp="#h1">
-                           <locus target="#55r">Fol. 55r</locus>
+                           <locus target="#55r"/>
                            <desc>A word has been added by <ref target="#h1">Hand 1</ref>
                               above the line, within text written by <ref target="#h2">Hand 2</ref>.</desc>
                            <q xml:lang="gez">በኵቴቱ፡</q>
                         </item>
 
                         <item xml:id="e17" corresp="#h2">
-                           <locus target="#55ar">Fol. 55ar</locus>
+                           <locus target="#55ar"/>
                            <desc>Omitted words have been added by the same hand above the line.</desc>
                            <q xml:lang="gez">
                               <hi rend="rubric">ሰአ፡ ለነ፡</hi> ተሣሃልኒ፡ ድንግል፡
@@ -622,7 +631,7 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                         </item>
 
                         <item xml:id="e18" corresp="#h2">
-                           <locus target="#57r">Fol. 57r</locus>
+                           <locus target="#57r"/>
                            <desc>Words have been expunctuated with dashes and the correct text
                            has been added above the line by the same hand.</desc>
                            <q xml:lang="gez">ሰአ፡ ለነ፡ ንዑ፡ ንስግድ፡ <del rend="expunctuated">ቅድመ፡ ስላሤ፡</del>
@@ -630,7 +639,7 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                         </item>
 
                         <item xml:id="e19" corresp="#h2">
-                           <locus target="#69v">Fol. 69v</locus>
+                           <locus target="#69v"/>
                            <desc>An omitted word has been added in red above the line by the same hand.</desc>
                            <q xml:lang="gez">ወረድነ፡ <add place="above">
                                  <hi rend="rubric">ታህተ፡</hi>
@@ -638,38 +647,38 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
                         </item>
 
                         <item xml:id="e20">
-                           <locus target="#25r">Fol. 25r</locus>
+                           <locus target="#25r"/>
                            <desc><foreign xml:lang="gez">ኦኅት፡</foreign> is marked as incorrect by a line above and below it.</desc>
                            <q xml:lang="gez">ወመድኃኒተ፡ ኦኅት፡ እንተ፡ እምኔኪ፡</q>
                         </item>
 
                         <item xml:id="e21">
-                          <locus target="#30v">Fol. 30v</locus>
+                          <locus target="#30v"/>
                            <desc>The single characters of <foreign xml:lang="gez">ኦባግዕ፡</foreign> are expunctuated with dashes.</desc>
                            <q xml:lang="gez">ለእለ፡ ይስሐዎ፡ ኦባግዕ፡ ወያጸንን፡</q>
                         </item>
 
                         <item xml:id="e22" corresp="#h1">
-                           <locus target="#6r #11r #25r #30v #36v #40r #48r #48v #49r #51v #61r">Fols. 6r, 11r, 25r, 30v, 36v, 40r, 48r, 48v, 49r, 51v, 61r</locus>
+                           <locus target="#6r #11r #25r #30v #36v #40r #48r #48v #49r #51v #61r"/>
                            <desc>Characters are expunctuated with dashes.</desc>
                            <q xml:lang="gez"/>
                         </item>
 
                         <item xml:id="e23" corresp="#h1">
-                           <locus target="#43v #44r #44v #45r #45v">Fols. 43v, 44r, 44v, 45r, 45v</locus>
+                           <locus target="#43v #44r #44v #45r #45v"/>
                            <desc>Characters were expunctuated with dashes and deleted.</desc>
                            <q xml:lang="gez"/>
                         </item>
 
                         <item xml:id="e24" corresp="#h2">
-                           <locus target="#13r #14v #20v #26v #33r #33v #53r #54v #55ar #57r #58r #59r #59v #60v">Fols. 13r, 14v, 20v, 26v, 33r, 33v, 53r, 54v, 55ar, 57r, 58r, 59r, 59v, 60v</locus>
+                           <locus target="#13r #14v #20v #26v #33r #33v #53r #54v #55ar #57r #58r #59r #59v #60v"/>
                            <desc>Characters are expunctuated with dashes.</desc>
                            <q xml:lang="gez"/>
                         </item>
 
                         <item xml:id="e25">
-                           <desc>Strip of orange textile put between <locus target="#9v">fols. 9v, </locus>
-                           and <locus target="#10r">10r</locus>.</desc>
+                           <desc>Strip of orange textile put between <locus target="#9v"/>
+                           and <locus target="#10r"/>.</desc>
                         </item>
                      </list>
                   </additions>
@@ -697,10 +706,10 @@ part of <bibl corresp="http://zotero.org/groups/358366/items/GYMLI3WV"><seg type
 
 The Coptic patriarch <persName ref="https://betamasaheft.eu/PRS3258CyrilIV">Cyril IV (in tenure <date>1854–1861</date>)</persName> and
                        the Ethiopian metropolitan <persName ref="https://betamasaheft.eu/PRS8388SalamaI">
-                          <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title"><hi rendition="simple:italic">ʾAbbā</hi></t:roleName> Salāmā (in tenure <date>1841–1867</date>)</persName> are mentioned in a supplication
-                       on <locus target="#6r">fol. 6r</locus>. The name of
+                          <roleName type="title"><hi rendition="simple:italic">ʾAbbā</hi></roleName> Salāmā (in tenure <date>1841–1867</date>)</persName> are mentioned in a supplication
+                       on <locus target="#6r"/>. The name of
                        <persName ref="https://betamasaheft.eu/PRS11944GabraM">Gabra Māryām</persName>, probably the commissioner, is mentioned
-                       in the supplications (e.g. <locus target="#2r">Fols. 2r, </locus> and <locus target="#6v">fol. 6v</locus>). The manuscript
+                       in the supplications (e.g. <locus target="#2r"/> and <locus target="#6v"/>). The manuscript
                        was copied by two scribes who wrote short portions of the text in turns.
 
                    </origin>
@@ -721,9 +730,9 @@ The Coptic patriarch <persName ref="https://betamasaheft.eu/PRS3258CyrilIV">Cyri
                         These Guidelines detail the TEI format ruled by 
                         the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
                         The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/BetMas/modules/expand.xqm">Xquery transformation</ref> 
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="t:div" match="t:div" use="t:div"><desc><list><item>Prayer</item></list></desc><assertion unit="t:pb" match="t:pb" use="t:pb"><desc><list><item>46r</item><item>46v</item></list></desc></assertion></assertion></assertion></source-url></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="t:div" match="t:div" use="t:div"><desc><list><item>Prayer</item></list></desc><citeStructure unit="t:pb" match="t:pb" use="t:pb"><desc><list><item>46r</item><item>46v</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:textClass>
             <t:keywords>
@@ -749,12 +758,12 @@ The Coptic patriarch <persName ref="https://betamasaheft.eu/PRS3258CyrilIV">Cyri
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#DN" when="2018-02-26">Denis Nosnitsin: Recorded manuscript</change>
-         <change who="#DR" when="2018-03-02">Dorothea Reule: Created catalogue entry</change>
-         <change who="#DR" when="2019-02-06">Dorothea Reule: Updated description upon consultation of the manuscript</change>
-         <change who="#DR" when="2020-04-21">Dorothea Reule: Continued description.</change>
-         <change who="#DR" when="2020-12-15">Dorothea Reule: Continued description and revision</change>
-         <change who="#DN" when="2020-12-15">Denis Nosnitsin: Continued description and revision</change>
+         <change who="#DN" when="2018-02-26"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Recorded manuscript</change>
+         <change who="#DR" when="2018-03-02"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
+         <change who="#DR" when="2019-02-06"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated description upon consultation of the manuscript</change>
+         <change who="#DR" when="2020-04-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description.</change>
+         <change who="#DR" when="2020-12-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description and revision</change>
+         <change who="#DN" when="2020-12-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description and revision</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>

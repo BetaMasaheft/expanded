@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="BLorient6466"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">London, British Library, BL Oriental 6466</title>
                 <title>Psalter</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="CH" corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH">Carsten Hoffmann</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-CH" corresp="https://betamasaheft.eu/team.html#CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
+            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-CH" corresp="https://betamasaheft.eu/team.html#CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -15,7 +16,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">6.6.2025 at 18:07:13</date><date type="lastModified">25.3.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BLorient6466/main</idno><idno type="URI">https://betamasaheft.eu/BLorient6466</idno><idno type="filename">BLorient6466.xml</idno><idno type="ID">BLorient6466</idno></publicationStmt>
+            <date type="expanded">10.10.2025 at 00:50:15</date><date type="lastModified">25.3.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BLorient6466/main</idno><idno type="URI">https://betamasaheft.eu/BLorient6466</idno><idno type="filename">BLorient6466.xml</idno><idno type="ID">BLorient6466</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -46,7 +47,7 @@
                                 <decoNote xml:id="b3" type="Boards"><material key="wood"/>Wooden boards repaired in the  
                                     <placeName ref="https://betamasaheft.eu/INS00001BL">British Museum</placeName>.</decoNote>
                                 <decoNote xml:id="b4" type="SlipCase"><material key="leather"/>Preserved in a leather case.</decoNote>
-                                <decoNote xml:id="b5" type="Other"><t:term xmlns:t="http://www.tei-c.org/ns/1.0" key="leafStringMark" ana="#leafStringMark">small pieces of violet, green, and yellow yarn</t:term>
+                                <decoNote xml:id="b5" type="Other"><term key="leafStringMark" ana="#leafStringMark">small pieces of violet, green, and yellow yarn</term>
                                 </decoNote>
                             </binding>
                         </bindingDesc>
@@ -79,14 +80,14 @@
                             <msItem xml:id="p1_i1">
                                 <locus target="#i"/>
                                 <title type="incomplete" ref="https://betamasaheft.eu/LIT2765RepCh49">Malkǝʾ-hymn (Salām) to Phanuel</title>
-                                <t:note xmlns:t="http://www.tei-c.org/ns/1.0">Written on the verso of the front flyleaf. Text edited in 
-                                    <bibl corresp="http://zotero.org/groups/358366/items/VD2T5WH4"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Worrell1914Zauberwesen"/><title level="a">Studien zum abessinischen Zauberwesen</title><title level="j">Zeitschrift für Assyriologie und verwandte Gebiete</title><author><t:forename>William Hoyt</t:forename><t:surname>Worrell</t:surname></author><date>1914_1915</date><biblScope unit="volume">29</biblScope><biblScope unit="page">85-141</biblScope><note type="url">http://menadoc.bibliothek.uni-halle.de/dmg/periodical/titleinfo/118379</note></bibl>.</t:note>
+                                <note>Written on the verso of the front flyleaf. Text edited in 
+                                    <bibl corresp="http://zotero.org/groups/358366/items/VD2T5WH4"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Worrell1914Zauberwesen"/><title level="a">Studien zum abessinischen Zauberwesen</title><title level="j">Zeitschrift für Assyriologie und verwandte Gebiete</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">William Hoyt</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Worrell</t:surname></author><date>1914_1915</date><biblScope unit="volume">29</biblScope><biblScope unit="page">85-141</biblScope><note type="url">http://menadoc.bibliothek.uni-halle.de/dmg/periodical/titleinfo/118379</note></bibl>.</note>
                                 <incipit xml:lang="gez">ሰላም፡ ለከ፡ ሰዳዴ፡ አጋንንት፡ ፋኑኤል፡ እምገጸ፡ ፈጣሪ፡ ልዑል፡</incipit>
                             </msItem>
                             <msItem xml:id="p1_i2">
                                 <locus target="#i"/>
                                 <title type="incomplete">Magic prayer</title>
-                                <t:note xmlns:t="http://www.tei-c.org/ns/1.0">Written on the verso. Only the beginning is recorded.</t:note>
+                                <note>Written on the verso. Only the beginning is recorded.</note>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -119,8 +120,8 @@
                                 <locus target="#1r"/>                                
                                 <title type="incomplete" ref="https://betamasaheft.eu/LIT6944MagicPrayer">Magic Prayer against snake venom, measles, smallpox, and
           manṭaṭa</title>
-                                <incipit xml:lang="gez">በስመ፡ አብ፡ በል። ሕብዘ፡ አርዌ፡ ምድር፡ በሊህ፡ እግርኪ፡ ታሕተ፡ ከናፍርኪ፡ <t:gap xmlns:t="http://www.tei-c.org/ns/1.0" reason="ellipsis"/> ኢትሕምም፡ 
-                                    አባለ፡ ሥጋሃ፡ <t:gap xmlns:t="http://www.tei-c.org/ns/1.0" reason="ellipsis"/> እምፈንፃፃ፡ ወኩፍኝ፡ ወእመንጣጣ፡ </incipit>
+                                <incipit xml:lang="gez">በስመ፡ አብ፡ በል። ሕብዘ፡ አርዌ፡ ምድር፡ በሊህ፡ እግርኪ፡ ታሕተ፡ ከናፍርኪ፡ <gap reason="ellipsis"/> ኢትሕምም፡ 
+                                    አባለ፡ ሥጋሃ፡ <gap reason="ellipsis"/> እምፈንፃፃ፡ ወኩፍኝ፡ ወእመንጣጣ፡ </incipit>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -158,8 +159,8 @@
                             <msItem xml:id="p3_i1.1">
                                 <locus from="2r" to="145v"/>
                                 <title ref="https://betamasaheft.eu/LIT2000Mazmur">Mazmura Dāwit</title>
-                                <t:note xmlns:t="http://www.tei-c.org/ns/1.0">The chapter titles are the new ones, but slightly different from those given by 
-                                    <bibl corresp="http://zotero.org/groups/358366/items/XSUCGVSF"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Schneider1970LesTitres"/><title level="a">Les titres des psaumes en éthiopien</title><title level="m">Mélanges Marcel Cohen: Etudes de linguistique, éthnographie et sciences connexes offertes par ses amis et ses élèves à l'occasion de son 80ème anniversaire</title><author><t:forename>Roger</t:forename><t:surname>Schneider</t:surname></author><pubPlace>Berlin-Munich-Boston</pubPlace><publisher>De Gruyter Mouton</publisher><date>1970</date><biblScope unit="page">424-428</biblScope><note type="accessed">2024-12-10</note><note type="url">https://doi.org/10.1515/9783110878936-054</note></bibl>.</t:note>
+                                <note>The chapter titles are the new ones, but slightly different from those given by 
+                                    <bibl corresp="http://zotero.org/groups/358366/items/XSUCGVSF"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Schneider1970LesTitres"/><title level="a">Les titres des psaumes en éthiopien</title><title level="m">Mélanges Marcel Cohen: Etudes de linguistique, éthnographie et sciences connexes offertes par ses amis et ses élèves à l'occasion de son 80ème anniversaire</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Roger</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Schneider</t:surname></author><pubPlace>Berlin-Munich-Boston</pubPlace><publisher>De Gruyter Mouton</publisher><date>1970</date><biblScope unit="page">424-428</biblScope><note type="accessed">2024-12-10</note><note type="url">https://doi.org/10.1515/9783110878936-054</note></bibl>.</note>
                             </msItem>
                             <msItem xml:id="p3_i1.2">
                                 <locus from="146r" to="169v"/>
@@ -233,8 +234,8 @@
                                 <msItem xml:id="p3_i1.2.2">
                                     <locus from="161r" to="169v"/>
                                     <title ref="https://betamasaheft.eu/LIT2362Songof">Song of Songs</title>
-                                    <t:note xmlns:t="http://www.tei-c.org/ns/1.0">The text is divided into five sections, all but the first of which are preceded by the following doxology: 
-                                        <q xml:lang="gez">ስብሐት፡ ለአብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ። </q>.</t:note>
+                                    <note>The text is divided into five sections, all but the first of which are preceded by the following doxology: 
+                                        <q xml:lang="gez">ስብሐት፡ ለአብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ። </q>.</note>
                                     <msItem xml:id="p3_i1.2.2.1">
                                         <locus from="161r"/>
                                         <title>First section</title>
@@ -260,7 +261,7 @@
                             <msItem xml:id="p3_i1.3">
                                 <locus from="170ra" to="181va"/>
                                 <title ref="https://betamasaheft.eu/LIT2509Weddas">Wǝddāse Māryām</title>
-                                <t:note xmlns:t="http://www.tei-c.org/ns/1.0">Arranged by the days of the week, with Monday's lesson first.</t:note>
+                                <note>Arranged by the days of the week, with Monday's lesson first.</note>
                             </msItem>
                             <msItem xml:id="p3_i1.4">
                                 <locus from="181va" to="186v"/>
@@ -322,7 +323,7 @@
                             <msItem xml:id="p4_i1">
                                 <locus from="ii" to="iii"/>
                                 <title ref="https://betamasaheft.eu/LIT2248salota">Ṣalota ʾakkʷatet za-Bāsǝlyos</title>
-                                <t:note xmlns:t="http://www.tei-c.org/ns/1.0">Written on the verso of the first end flyleaf and on the recto and verso of the second end flyleaf.</t:note>
+                                <note>Written on the verso of the first end flyleaf and on the recto and verso of the second end flyleaf.</note>
                                 <incipit xml:lang="gez">ነአኵቶ፡ ለገባሬ፡ ሠናያት፡ በላዕሌነ፡ ለእግዚአብሔር፡ መሐሪ፡ አቡሁ፡ ለእግዚእነ፡ ወአምላክነ፡ ወመድኃኒነ፡ ኢያሱስ፡ ክርስቶስ፡</incipit>
                             </msItem>
                         </msContents>
@@ -339,7 +340,7 @@
                                             <height>214</height>
                                             <width>98</width>
                                         </dimensions>
-                                        <t:note xmlns:t="http://www.tei-c.org/ns/1.0">width 80-98</t:note>
+                                        <note>width 80-98</note>
                                     </extent>
                                     <foliation>not numbered</foliation>
                                 </supportDesc>
@@ -350,7 +351,7 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <t:p xmlns:t="http://www.tei-c.org/ns/1.0">A digital born TEI file</t:p>
+            <p>A digital born TEI file</p>
         <p>Encoded according 
                         to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
                         These Guidelines detail the TEI format ruled by 
@@ -359,30 +360,30 @@
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
                         the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+        <profileDesc>
             <creation/>
-            <t:abstract>
-                <t:p/>
-            </t:abstract>
+            <abstract>
+                <p/>
+            </abstract>
             <textClass>
-                <t:keywords>
-                    <t:term key="Bible" ana="#Bible"/>
-                    <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                    <t:term key="NewTestament" ana="#NewTestament"/>
-                </t:keywords>
+                <keywords>
+                    <term key="Bible" ana="#Bible"/>
+                    <term key="ChristianLiterature" ana="#ChristianLiterature"/>
+                    <term key="NewTestament" ana="#NewTestament"/>
+                </keywords>
             </textClass>
-            <t:langUsage>
-                <t:language ident="en">English</t:language>
-                <t:language ident="gez">Gǝʿǝz</t:language>
-            </t:langUsage>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
-        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
+        <revisionDesc>
             <change who="#CH" when="2024-02-08"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
             <change who="#CH" when="2024-03-25"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrections after reviews by Eugenia Sokolinski and Dorothea Reule</change>
-        </t:revisionDesc>
+        </revisionDesc>
     </teiHeader><text>
-        <t:body xmlns:t="http://www.tei-c.org/ns/1.0">
+        <body>
             <div type="bibliography"/>
-        </t:body>
+        </body>
     </text></TEI>

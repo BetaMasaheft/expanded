@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS6864Mastawat"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Mastāwat</title>
             <title>Mastāwat</title>
             <editor key="SG" corresp="https://betamasaheft.eu/team.html#SG" xml:id="SG">Solomon Gebreyes</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <author/>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -16,7 +17,7 @@
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
-         <date type="expanded">19.7.2022 at 11:41:30</date><date type="lastModified">23.11.2016</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS6864Mastawat/main</idno><idno type="URI">https://betamasaheft.eu/PRS6864Mastawat</idno><idno type="filename">PRS6864Mastawat.xml</idno><idno type="ID">PRS6864Mastawat</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 03:29:51</date><date type="lastModified">23.11.2016</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS6864Mastawat/main</idno><idno type="URI">https://betamasaheft.eu/PRS6864Mastawat</idno><idno type="filename">PRS6864Mastawat.xml</idno><idno type="ID">PRS6864Mastawat</idno></publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
@@ -34,18 +35,18 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#PL" when="2016-04-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->batch updated according to requirements and issues.</change>
          <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
                                                   google spreadsheet </change>
          <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: person</change>
          <change who="#SG" when="2016-11-23"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->complete record</change>
-      </revisionDesc>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                   <relation name="snap:AllianceWith" ref="http://data.snapdrgn.net/ontology/snap#AllianceWith" active="https://betamasaheft.eu/PRS6864Mastawat" passive="https://betamasaheft.eu/PRS7484Napier"/>
                   <relation name="betmas:wifeOf" ref="betmas:wifeOf" active="https://betamasaheft.eu/PRS6864Mastawat" passive="https://betamasaheft.eu/PRS6293LibanAm"/>
@@ -54,55 +55,55 @@
                   <relation name="snap:EnmityFor" ref="http://data.snapdrgn.net/ontology/snap#EnmityFor" active="https://betamasaheft.eu/PRS6864Mastawat" passive="https://betamasaheft.eu/PRS10062Warqitu"/>
                   <relation name="snap:EnmityFor" ref="http://data.snapdrgn.net/ontology/snap#EnmityFor" active="https://betamasaheft.eu/PRS6864Mastawat" passive="https://betamasaheft.eu/PRS9143TaklaGi"/>
                   
-               </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPerson>
+               </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPerson>
            
-               <person sex="2">
+               <t:person sex="2">
                   
-                  <persName xml:lang="gez" xml:id="n1" type="birth">መስታወት፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Mastāwat</persName>
-                  <persName xml:lang="gez" xml:id="n2" type="alt">መስታየት</persName>
-                  <persName xml:lang="gez" corresp="#n2" type="normalized">Mastāyat</persName>
-                  <persName>
-                  <roleName type="title">Wayzaro</roleName>
-               </persName>
-                  <nationality type="Ethiopia"/>
-                  <faith type="Islam"/>
-                  <occupation type="political">ruler</occupation>
-                  <birth when="1830"/>
+                  <t:persName xml:lang="gez" xml:id="n1" type="birth">መስታወት፡</t:persName>
+                  <t:persName xml:lang="gez" corresp="#n1" type="normalized">Mastāwat</t:persName>
+                  <t:persName xml:lang="gez" xml:id="n2" type="alt">መስታየት</t:persName>
+                  <t:persName xml:lang="gez" corresp="#n2" type="normalized">Mastāyat</t:persName>
+                  <t:persName>
+                  <t:roleName type="title">Wayzaro</t:roleName>
+               </t:persName>
+                  <t:nationality type="Ethiopia"/>
+                  <t:faith type="Islam"/>
+                  <t:occupation type="political">ruler</t:occupation>
+                  <t:birth when="1830"/>
                   
-                  <floruit notBefore="1857" notAfter="1885">She is represented as the 
-                     queen of <placeName ref="https://betamasaheft.eu/LOC6185Wallo">Wallo</placeName> in the <date>1860s</date>, 
+                  <t:floruit notBefore="1857" notAfter="1885">She is represented as the 
+                     queen of <t:placeName ref="https://betamasaheft.eu/LOC6185Wallo">Wallo</t:placeName> in the <t:date>1860s</t:date>, 
                      a status which does not reflect the reality of her power at that time. 
                      Following  the death of her husband
-                     <persName ref="https://betamasaheft.eu/PRS6293LibanAm">Liban ʾAmade Liban</persName> in <date>1857</date>, 
+                     <t:persName ref="https://betamasaheft.eu/PRS6293LibanAm">Liban ʾAmade Liban</t:persName> in <t:date>1857</t:date>, 
                      in the course of revolt against  
-                     <persName ref="https://betamasaheft.eu/PRS9430Tewodros">Tewodros II</persName>, 
-                     she acted as a regent for her young son <persName ref="https://betamasaheft.eu/PRS1788AmadeLi">ʾAmade Liban</persName>. 
+                     <t:persName ref="https://betamasaheft.eu/PRS9430Tewodros">Tewodros II</t:persName>, 
+                     she acted as a regent for her young son <t:persName ref="https://betamasaheft.eu/PRS1788AmadeLi">ʾAmade Liban</t:persName>. 
                      She continued to fight 
-                     <persName ref="https://betamasaheft.eu/PRS9430Tewodros">Tewodros II</persName> and captured <placeName ref="https://betamasaheft.eu/LOC4547Maqdal">Maqdalā</placeName> 
-                     and sided with the <persName ref="https://betamasaheft.eu/PRS7484Napier">Napier</persName> expedition against <persName ref="https://betamasaheft.eu/PRS9430Tewodros">Tewodros II</persName>.
-                     <persName ref="https://betamasaheft.eu/PRS6864Mastawat">Mastāwat</persName> was described as a fierce warrior and a charismatic leader.
-                     <persName ref="https://betamasaheft.eu/PRS6864Mastawat">Mastāwāt</persName> did not convert to  Christianity, 
-                     unlike her son <persName ref="https://betamasaheft.eu/PRS1788AmadeLi">ʾAmade Liban</persName> who was obliged to do so at 
-                     <placeName ref="https://betamasaheft.eu/LOC1980BoruMe">Boru Medā</placeName>, receiving the name Ḫāyla Māryām. But she remained loyal to 
-                     <persName ref="https://betamasaheft.eu/PRS7006Menilek">Mǝnilǝk II</persName> even after the death of her son <persName ref="https://betamasaheft.eu/PRS1788AmadeLi">ʾAmade Liban</persName>.</floruit>
+                     <t:persName ref="https://betamasaheft.eu/PRS9430Tewodros">Tewodros II</t:persName> and captured <t:placeName ref="https://betamasaheft.eu/LOC4547Maqdal">Maqdalā</t:placeName> 
+                     and sided with the <t:persName ref="https://betamasaheft.eu/PRS7484Napier">Napier</t:persName> expedition against <t:persName ref="https://betamasaheft.eu/PRS9430Tewodros">Tewodros II</t:persName>.
+                     <t:persName ref="https://betamasaheft.eu/PRS6864Mastawat">Mastāwat</t:persName> was described as a fierce warrior and a charismatic leader.
+                     <t:persName ref="https://betamasaheft.eu/PRS6864Mastawat">Mastāwāt</t:persName> did not convert to  Christianity, 
+                     unlike her son <t:persName ref="https://betamasaheft.eu/PRS1788AmadeLi">ʾAmade Liban</t:persName> who was obliged to do so at 
+                     <t:placeName ref="https://betamasaheft.eu/LOC1980BoruMe">Boru Medā</t:placeName>, receiving the name Ḫāyla Māryām. But she remained loyal to 
+                     <t:persName ref="https://betamasaheft.eu/PRS7006Menilek">Mǝnilǝk II</t:persName> even after the death of her son <t:persName ref="https://betamasaheft.eu/PRS1788AmadeLi">ʾAmade Liban</t:persName>.</t:floruit>
                   
-                  <death when="1885"/>
-               </person>
+                  <t:death when="1885"/>
+               </t:person>
                
-         </listPerson>
+         </t:listPerson>
          
          
-         <listBibl type="secondary">
+         <t:listBibl type="secondary">
             
             
-            <bibl corresp="http://zotero.org/groups/358366/items/4IP7ERK3"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Ficquet2007Mastawat"/><title level="a">Mästawät</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Éloi</forename><surname>Ficquet</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">858a-b</biblScope><note type="tags"><note type="tag">bm:Ficquet2007Mastawat</note></note><note type="tag">bm:Ficquet2007Mastawat</note></bibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/4IP7ERK3"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Ficquet2007Mastawat"/><title level="a">Mästawät</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Éloi</forename><surname>Ficquet</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">858a-b</biblScope><note type="tags"><note type="tag">bm:Ficquet2007Mastawat</note></note><note type="tag">bm:Ficquet2007Mastawat</note></t:bibl>
             
-            <bibl corresp="http://zotero.org/groups/358366/items/GB2NHP5Z"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Blanc1868Narrative"/><title level="m">A Narrative of Captivity in Abyssinia</title><author><forename>Henry</forename><surname>Blanc</surname></author><pubPlace>London</pubPlace><publisher>Smith, Elder</publisher><date>1868</date><note type="url">https://archive.org/details/anarrativecapti00blangoog</note><note type="tags"><note type="tag">Military</note><note type="tag">Napier</note><note type="tag">bm:Blanc1868Narrative</note></note><note type="tag">Military</note><note type="tag">Napier</note><note type="tag">bm:Blanc1868Narrative</note></bibl>
+            <t:bibl><ptr target="bm:Blanc1868Narrative"/></t:bibl>
             
             
-         </listBibl>
-      </body>
-   </text></TEI>
+         </t:listBibl>
+      </t:body>
+   </t:text></TEI>

@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="ins" xml:lang="en" xml:id="INS0272DAMA"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Darabā Madḫāne ʿĀlam</title>
             <title>Darabā Madḫāne ʿĀlam</title>
             <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -17,7 +18,7 @@
                                     Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">2.7.2025 at 01:29:29</date><date type="lastModified">28.4.2016</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0272DAMA/main</idno><idno type="URI">https://betamasaheft.eu/INS0272DAMA</idno><idno type="filename">INS0272DAMA.xml</idno><idno type="ID">INS0272DAMA</idno></publicationStmt>
+         <date type="expanded">9.10.2025 at 23:00:22</date><date type="lastModified">28.4.2016</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0272DAMA/main</idno><idno type="URI">https://betamasaheft.eu/INS0272DAMA</idno><idno type="filename">INS0272DAMA.xml</idno><idno type="ID">INS0272DAMA</idno></publicationStmt>
          <sourceDesc>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
@@ -34,51 +35,51 @@
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
                         the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#DN" when="2013-01-19"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created</change>
          <change who="#DN" when="2014-12-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->last edited</change>
          <change who="#PL" when="2016-04-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->transformed from mycore to TEI
                             P5</change>
-      </revisionDesc>
-   </teiHeader><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPlace>
-            <place type="church gatar" subtype="institution">
-               <placeName>Darabā Madḫāne ʿĀlam</placeName>
-               <placeName type="alt">Madḫāne ʿĀlam Darabā</placeName>
-               <country ref="https://betamasaheft.eu/LOC3010Ethiop">ʾItyoṗyā</country>
-               <region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</region>
+      </t:revisionDesc>
+   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPlace>
+            <t:place type="church gatar" subtype="institution">
+               <t:placeName>Darabā Madḫāne ʿĀlam</t:placeName>
+               <t:placeName type="alt">Madḫāne ʿĀlam Darabā</t:placeName>
+               <t:country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:country>
+               <t:region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</t:region>
                
-               <settlement type="province" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</settlement>
-               <settlement type="warada" from="2012-11-09" to="2012-11-10" ref="https://betamasaheft.eu/LOC4047Kelett">Kǝlǝtta ʾAwlāʿlo</settlement>
-               <settlement type="tabiya" from="2012-11-09" to="2012-11-10" ref="https://betamasaheft.eu/LOC7248Gamad">Gamād</settlement>
-               <settlement from="2012-11-09" to="2012-11-10" type="qushat" ref="https://betamasaheft.eu/LOC7249Daraba">Darabā</settlement>
+               <t:settlement type="province" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</t:settlement>
+               <t:settlement type="warada" from="2012-11-09" to="2012-11-10" ref="https://betamasaheft.eu/LOC4047Kelett">Kǝlǝtta ʾAwlāʿlo</t:settlement>
+               <t:settlement type="tabiya" from="2012-11-09" to="2012-11-10" ref="https://betamasaheft.eu/LOC7248Gamad">Gamād</t:settlement>
+               <t:settlement from="2012-11-09" to="2012-11-10" type="qushat" ref="https://betamasaheft.eu/LOC7249Daraba">Darabā</t:settlement>
                
                
-               <location>
-                  <geo>13.871497 39.545778</geo>
-                  <height unit="m">2326.69</height>
-               </location>
-               <note>
-                  <date type="foundation" notBefore="1800" notAfter="1900">1800-1900</date>
-                  <desc type="foundation">Founded by däğğazmač Kasa ʾArʾaya, a son of ʾArʾaya Śǝllase Dǝmṣu (d. 1889).</desc>
-                  <ab type="history">Gaṭar. Located very close to <placeName ref="https://betamasaheft.eu/INS0252SDMM">Ṣaḥǝlo Marya (SDMM)</placeName>.
-</ab>
-                  <ab type="description">
-                     <figure>
-                        <graphic url="Sites/DAMA.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
-                        </graphic>
-                     </figure>4 Mss. photographed: <ref type="mss" corresp="https://betamasaheft.eu/ESdama001">DAMA-001</ref> “Absolution of the Son”; <ref type="mss" corresp="https://betamasaheft.eu/ESdama002">DAMA-002</ref> “Four Gospels”; <ref type="mss" corresp="https://betamasaheft.eu/ESdama003">DAMA-003</ref> “Sänbätä Krǝstiyan”; <ref type="mss" corresp="https://betamasaheft.eu/ESdama004">DAMA-004</ref> “Psalter”.</ab>
+               <t:location>
+                  <t:geo>13.871497 39.545778</t:geo>
+                  <t:height unit="m">2326.69</t:height>
+               </t:location>
+               <t:note>
+                  <t:date type="foundation" notBefore="1800" notAfter="1900">1800-1900</t:date>
+                  <t:desc type="foundation">Founded by däğğazmač Kasa ʾArʾaya, a son of ʾArʾaya Śǝllase Dǝmṣu (d. 1889).</t:desc>
+                  <t:ab type="history">Gaṭar. Located very close to <t:placeName ref="https://betamasaheft.eu/INS0252SDMM">Ṣaḥǝlo Marya (SDMM)</t:placeName>.
+</t:ab>
+                  <t:ab type="description">
+                     <t:figure>
+                        <t:graphic url="Sites/DAMA.tif">
+                           <t:desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</t:desc>
+                        </t:graphic>
+                     </t:figure>4 Mss. photographed: <t:ref type="mss" corresp="https://betamasaheft.eu/ESdama001">DAMA-001</t:ref> “Absolution of the Son”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESdama002">DAMA-002</t:ref> “Four Gospels”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESdama003">DAMA-003</t:ref> “Sänbätä Krǝstiyan”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESdama004">DAMA-004</t:ref> “Psalter”.</t:ab>
            
-                  <ab type="tabot">
-                     <measure quantity="2"/>Tābots of <persName type="tabot" ref="https://betamasaheft.eu/PRS5684JesusCh#n3MadhaneAlam">Madḫāne ʿĀlam</persName>, <persName type="tabot" ref="https://betamasaheft.eu/PRS6819Mary">Mary</persName>.</ab>
-               </note>
-            </place>
-         </listPlace>
-      </body>
-   </text></TEI>
+                  <t:ab type="tabot">
+                     <t:measure quantity="2"/>Tābots of <t:persName type="tabot" ref="https://betamasaheft.eu/PRS5684JesusCh#n3MadhaneAlam">Madḫāne ʿĀlam</t:persName>, <t:persName type="tabot" ref="https://betamasaheft.eu/PRS6819Mary">Mary</t:persName>.</t:ab>
+               </t:note>
+            </t:place>
+         </t:listPlace>
+      </t:body>
+   </t:text></TEI>

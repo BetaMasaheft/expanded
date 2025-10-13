@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT4988MalkeaAkalaKrestos"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt><title type="full">Malkǝʿa ʾabuna ʾAkāla Krǝstos</title>
                 <title xml:lang="gez" xml:id="t1">መልክዐ፡ አቡነ፡ አካለ፡ ክርስቶስ፡</title>
                 <title xml:lang="gez" corresp="#t1" type="normalized">Malkǝʿa ʾabuna ʾAkāla Krǝstos</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
-                <editor key="ES" role="metadata" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
+                <editor key="ES" role="metadata" corresp="https://betamasaheft.eu/team.html#ES" xml:id="me-ES">Eugenia Sokolinski</editor>
                 
                 <respStmt>
                     <resp>Text encoded  by</resp>
@@ -15,7 +16,7 @@
                     <persName ref="#WD">No item: WD</persName>
                 </respStmt>
                 <funder>Akademie der Wissenschaften in Hamburg; European Research Council</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="met-ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>metadata</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
             <editionStmt>
                 <p>The text was also annotated by the TraCES project on the basis of <bibl corresp="http://zotero.org/groups/358366/items/5AHM7JJF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Getatchew2017AK"/><title level="m">‘Life’ and ‘Miracles’ of &lt;hi rend="italics"&gt;Abunä&lt;/hi&gt; Akalä Krǝstos</title><title level="s">Supplement to Aethiopica</title><author><name>Getatchew Haile</name></author><editor><name>Getatchew Haile</name></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz</publisher><date>2017</date><series><title level="s">Supplement to Aethiopica</title><biblScope unit="volume">6</biblScope></series><biblScope unit="volume">6</biblScope><note type="url">https://www.harrassowitz-verlag.de/%E2%80%98Life%E2%80%99_and_%E2%80%98Miracles%E2%80%99of_Abun%C3%A4_Akal%C3%A4_Kr%C9%99stos/titel_1884.ahtml</note><note type="tags"><note type="tag">TraCES</note><note type="tag">bm:Getatchew2017AK</note></note><note type="tag">TraCES</note><note type="tag">bm:Getatchew2017AK</note></bibl>. The corrections and modifications are described in <bibl corresp="http://zotero.org/groups/358366/items/UBZ2FGGQ"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Dickhut2018Akala"/><title level="a">Review of Getatchew Haile, "‘Life’ and ‘Miracles’ of Abunä Akalä Krǝstos"</title><title level="j">Aethiopica</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Wolfgang</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Dickhut</t:surname></author><date>forthcoming</date></bibl>
             </p>
@@ -30,7 +31,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">1.7.2025 at 12:55:05</date><date type="lastModified">10.1.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT4988MalkeaAkalaKrestos/main</idno><idno type="URI">https://betamasaheft.eu/LIT4988MalkeaAkalaKrestos</idno><idno type="filename">LIT4988MalkeaAkalaKrestos.xml</idno><idno type="ID">LIT4988MalkeaAkalaKrestos</idno></publicationStmt>
+            <date type="expanded">10.10.2025 at 23:22:39</date><date type="lastModified">10.1.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT4988MalkeaAkalaKrestos/main</idno><idno type="URI">https://betamasaheft.eu/LIT4988MalkeaAkalaKrestos</idno><idno type="filename">LIT4988MalkeaAkalaKrestos.xml</idno><idno type="ID">LIT4988MalkeaAkalaKrestos</idno></publicationStmt>
             <sourceDesc>
                 <listWit>                    
                         <witness corresp="https://betamasaheft.eu/EMML7589"><idno>MS EMML no. 7589</idno></witness>                    
@@ -49,130 +50,130 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="div" match="div" use="div"><desc><list><item>malke</item><item>tarafa-malke</item></list></desc><citeStructure unit="lg" match="lg" use="lg"><desc><list><item>1</item><item>2</item><item>3</item><item>39</item><item>40</item><item>41</item><item>42</item><item>43</item><item>44</item><item>45</item><item>6</item><item>7</item></list></desc><citeStructure unit="l" match="l" use="l"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item></list></desc></citeStructure></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
-        <profileDesc>
-            <creation notBefore="1600" notAfter="1700"/>
-            <abstract>
-                <p>The "Image" of <persName ref="https://betamasaheft.eu/PRS12143AkalaKr">ʾabbā ʾAkāla Krǝstos</persName>, a 17th century Gondarine prince who entered monastic life and in time became a great ascetic. The text is attributed to a monk of Mǝdra Sayko named ʾIsāyǝyyās, being dictated to a certain Zakkāryas. Its composition is described in the second miracle attributed to ʾAkāla Krǝstos.</p>
-            </abstract>
-            <textClass>
-                <keywords>
-                    <term key="Hagiography" ana="#Hagiography"/>
-                    <term key="Poetry" ana="#Poetry"/>
-                </keywords>
-            </textClass>
-            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="t:div" match="t:div" use="t:div"><desc><list><item>malke</item><item>tarafa-malke</item></list></desc><citeStructure unit="t:lg" match="t:lg" use="t:lg"><desc><list><item>1</item><item>2</item><item>3</item><item>39</item><item>40</item><item>41</item><item>42</item><item>43</item><item>44</item><item>45</item><item>6</item><item>7</item></list></desc><citeStructure unit="t:l" match="t:l" use="t:l"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item></list></desc></citeStructure></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
+        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <t:creation notBefore="1600" notAfter="1700"/>
+            <t:abstract>
+                <t:p>The "Image" of <t:persName ref="https://betamasaheft.eu/PRS12143AkalaKr">ʾabbā ʾAkāla Krǝstos</t:persName>, a 17th century Gondarine prince who entered monastic life and in time became a great ascetic. The text is attributed to a monk of Mǝdra Sayko named ʾIsāyǝyyās, being dictated to a certain Zakkāryas. Its composition is described in the second miracle attributed to ʾAkāla Krǝstos.</t:p>
+            </t:abstract>
+            <t:textClass>
+                <t:keywords>
+                    <t:term key="Hagiography" ana="#Hagiography"/>
+                    <t:term key="Poetry" ana="#Poetry"/>
+                </t:keywords>
+            </t:textClass>
+            <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-        <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change who="#ES" when="2018-06-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
             <change who="#ES" when="2025-01-10"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added text from A. Dickinson's database</change>
-        </revisionDesc>
+        </t:revisionDesc>
     </teiHeader><standOff><listRelation>            
                     <relation name="saws:isAttributedToAuthor" ref="http://purl.org/saws/ontology#isAttributedToAuthor" active="https://betamasaheft.eu/LIT4988MalkeaAkalaKrestos" passive="https://betamasaheft.eu/PRS12142Isayeyyas"/>
                     <relation name="skos:exactMatch" ref="http://www.w3.org/2004/02/skos/core#exactMatch" active="https://betamasaheft.eu/LIT4988MalkeaAkalaKrestos" passive="https://w3id.org/malke/4988/"/>
                     <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT4988MalkeaAkalaKrestos" passive="https://betamasaheft.eu/PRS12143AkalaKr"/>
-                </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-        <body>            
-            <div type="bibliography">
+                </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+        <t:body>            
+            <t:div type="bibliography">
                 
-                <listBibl type="editions">
-                    <bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV"><seg type="webpage"><!-- attributes from original bibl--></seg><ptr target="bm:MgWebsite"/><title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Augustine</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Dickinson</t:surname></author><date>2020</date><note type="accessed">2024-09-24</note><note type="url">https://malkeagubae.com/</note></bibl>
-                    <bibl corresp="http://zotero.org/groups/358366/items/5AHM7JJF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Getatchew2017AK"/><title level="m">‘Life’ and ‘Miracles’ of &lt;hi rend="italics"&gt;Abunä&lt;/hi&gt; Akalä Krǝstos</title><title level="s">Supplement to Aethiopica</title><author><name>Getatchew Haile</name></author><editor><name>Getatchew Haile</name></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz</publisher><date>2017</date><series><title level="s">Supplement to Aethiopica</title><biblScope unit="volume">6</biblScope></series><biblScope unit="volume">6</biblScope><note type="url">https://www.harrassowitz-verlag.de/%E2%80%98Life%E2%80%99_and_%E2%80%98Miracles%E2%80%99of_Abun%C3%A4_Akal%C3%A4_Kr%C9%99stos/titel_1884.ahtml</note><note type="tags"><note type="tag">TraCES</note><note type="tag">bm:Getatchew2017AK</note></note><note type="tag">TraCES</note><note type="tag">bm:Getatchew2017AK</note></bibl>
-                </listBibl></div>
-            <div type="edition" xml:lang="gez">
-                <div type="textpart" xml:id="malke">
-                    <lg type="stanza" n="1">
-                        <l n="1">ነገሥተ፡ አርያም፡ አብ፡ ወወልዱ፡ ዘአኀዝክሙ፡ ዓለመ፨</l>
-                        <l n="2">እንዘ፡ ትኵንኑ፡ ጽድቀ፡ ወታበዝተ፡ ሰላመ፨</l>
-                        <l n="3">ለአካለ፡ ክርስቶስ፡ እጽሕፍ፡ መጽሐፈ፡ ዜናሁ፡ ፍጹመ፨</l>
-                        <l n="4">አብሁኒ፡ እንሳእ፡ በጸዊረ፡ ሕይወትክሙ፡ ማሕተመ፨</l>
-                        <l n="5">ዘያበርህ፡ ግልአ፡ ልብየ፡ ዘብዙኀ፡ ጸልመ፨</l>
-                    </lg>
-                    <lg type="stanza" n="2">
-                        <l n="1">ሰላም፡ ለዝክረ፡ ስምከ፡ ዘተጸውዐ፡ እምኵሉ፨</l>
-                        <l n="2">እስመ፡ በጽድቁ፡ ተዐውቀ፡ ወተጠየቀ፡ በግሉ፨</l>
-                        <l n="3">አቡነ፡ ክቡር፡ አካለ፡ ክርስቶስ፡ ዘላዕሉ፨</l>
-                        <l n="4">ባርከነ፡ አንተ፡ በቃልከ፡ እንዘ፡ እዴከ፡ ታተሉ፨</l>
-                        <l n="5">ዘምስሌከ፡ መንፈስ፡ ቅዱስ፡ ምስሌነ፡ የሀሉ፨</l>
-                    </lg>
-                    <lg type="stanza" n="3">
-                        <l n="1">ሰላም፡ ለሥዕርተ፡ ርእስከ፡ ዘተኈለቁ፡ ወተሐለዩ፨</l>
-                        <l n="2">ውስተ፡ ኅሊናሁ፡ ለክርስቶስ፡ ዘኢይትኄለይ፡ ዕበዩ፨</l>
-                        <l n="3">አካለ፡ ክርስቶስ፡ ተሣሀል፡ ሶበ፡ ኀቤከ፡ ጸለዩ፨</l>
-                        <l n="4">እምሀገር፡ ሰብአ፡ ፍቅርከ፡ ዘእክለ፡ ሕማም፡ ሲሳዩ፨</l>
-                        <l n="5">ወእምደቂቅከ፡ ዘበዝኀ፡ ብካዩ፨</l>
-                    </lg>
-                    <lg type="stanza" n="39">
-                        <l n="1">ሰላም፡ ለግንዘተ፡ ሥጋከ፡ ወለመቃብሪከ፡ ዛቲ፨</l>
-                        <l n="2">ዘበውስቴታ፡ ተደፍነ፡ ወርቀ፡ ሥጋከ፡ መዋቲ፨</l>
-                        <l n="3">አካለ፡ ኢየኡስ፡ ክርስቶስ፡ ንጉሠ፡ ኅሊና፡ ሐታቲ፨</l>
-                        <l n="4">ተጸይሐ፡ በምኔትከ፡ መካልየ፡ ድርሳን፡ ክልኤቲ፨</l>
-                        <l n="5">ዘበምድር፡ ክብርት፡ ወቅድስት፡ ይእቲ፨</l>
-                    </lg>
-                    <lg type="stanza" n="40">
-                        <l n="1">በአክናፈ፡ ጸጋ፡ ሐውጾትከ፡ ጉባኤ፡ ዛቲ፡ ዐጸድ፨</l>
-                        <l n="2">ሰርከ፡ ሰርከ፡ ይኩንከ፡ ልማድ፨</l>
-                        <l n="3">አካለ፡ ክርስቶስ፡ ነገረ፡ ወኀዘነ፡ ልብ፡ ክቡድ፨</l>
-                        <l n="4">እስመ፡ ቦ፡ እምውሉድከ፡ ዘይነግረከ፡ ወልድ፨</l>
-                        <l n="5">ዘባዕድ፡ ኢይሰምዖ፡ ወቅሩብ፡ ዘመድ፨</l>
-                    </lg>
-                    <lg type="stanza" n="41">
-                        <l n="1">መሐልየ፡ ድርሳን፡ ስድሰ፡ ሱባዔያተ፡ ዘምስለ፡ ዋሕድ፡ ተዐለዱ፨</l>
-                        <l n="2">ህየንተ፡ አርባሕኩ፡ ለከ፡ ለለ፡ አሐዱ፡ አሐዱ፨</l>
-                        <l n="3">አካለ፡ ክርስቶስ፡ ዕብራዊ፡ ዘእምዕብራውያን፡ ሙላዱ፨</l>
-                        <l n="4">ባርከኒ፡ እንሣእ፡ በረከተከ፡ እስመ፡ ለወላዲ፡ ፈቃዱ፨</l>
-                        <l n="5">በረከተ፡ በቡራኬ፡ ይንሣእ፡ ወልዱ፨</l>
-                    </lg>
-                    <lg type="stanza" n="42">
-                        <l n="1">አመ፡ ውስተ፡ ፈለግ፡ ጸለየ፡ ቅድመ፡ ሥዕላ፡ ጸሎተ፨</l>
-                        <l n="2">አካለ፡ ክርስቶስ፡ ትምርሖ፡ ፍኖተ፡ ነፍሱ፡ ርትዕተ፨</l>
-                        <l n="3">ማርያም፡ ድንግል፡ አሜሃ፡ አስተርአየቶ፡ ክሡተ፨</l>
-                        <l n="4">ወወሀበቶ፡ በፈቃዳ፡ ዛተ፡ ምኔተ፨</l>
-                        <l n="5">ዘይገብር፡ ባቲ፡ ዐበይተ፡ ኀይላተ፨</l>
-                    </lg>
-                    <lg type="stanza" n="43">
-                        <l n="1">ተክለ፡ ሃይማኖት፡ እምብዝኀ፡ ቀዊም፡ ዘተቈልቈለ፡ ፀሓይ፡ አጽሙ፨</l>
-                        <l n="2">ሰማየ፡ ተሰብሮ፡ ምዕራቦ፡ ለክርስቶስ፡ በእንተ፡ ስሙ፨</l>
-                        <l n="3">ወአካለ፡ ክርስቶስ፡ በኀጺን፡ አባላቲሁ፡ ዘሐሙ፨</l>
-                        <l n="4">እንዘ፡ አብ፡ ወወልድ፡ በመንግሥተ፡ ሰማይ፡ ነዮሙ፨</l>
-                        <l n="5">ምስብዒተ፡ እምፀሓይ፡ ይበርህ፡ ገጾሙ፨</l>
-                    </lg>
-                    <lg type="stanza" n="44">
-                        <l n="1">ሰላም፡ ለውሉድከ፡ እለ፡ ውስተ፡ ዛቲ፡ ዐጸድ፨</l>
-                        <l n="2">ጊዜ፡ መከራሆሙ፡ ብዙኅ፡ ወኀዘኖሙ፡ ክቡድ፨</l>
-                        <l n="3">ኢተኀዝን፡ አንተ፡ አካለ፡ ክርስቶስ፡ ዋሕድ፨</l>
-                        <l n="4">እስመ፡ ጥቀ፡ አብ፡ ወላዲ፡ በእንተ፡ ብዙኃን፡ ውሉድ፨</l>
-                        <l n="5">የኀዝን፡ ለአሐዱ፡ አሐዱ፡ ለዘመድ፨</l>
-                    </lg>
-                    <lg type="stanza" n="45">
-                        <l n="1">አካለ፡ ክርስቶስ፡ ነዓ፡ ኀቤየ፡ እምገነትከ፨</l>
-                        <l n="2">ወእመ፡ አኮ፡ እምውሉድከ፡ እለ፡ ሀለዉ፡ ምስሌከ፨</l>
-                        <l n="3">በደመና፡ ብርሃን፡ ወሬዛ፡ አእምሮ፡ ወልድከ፨</l>
-                        <l n="4">ይምጻእ፡ ይርአይ፡ ሕማምየ፡ በከመ፡ ርእየ፡ ይንግርከ፨</l>
-                        <l n="5">ወኵሎ፡ ነገረ፡ ከመ፡ ያምጽእ፡ ለከ፨</l>
-                    </lg>
-                </div>
-                <div type="textpart" xml:id="tarafa-malke">
-                    <lg type="stanza" n="1">
-                        <l n="1">ሰላም፡ ለከ፡ ሀገረ፡ ሕይወት፡ ዘትትዋረስ፡ በቀለመ፡ ሕይወት፡ ቀለሙ፨</l>
-                        <l n="2">ጸሐፈከ፡ ወልድ፡ ቅድመ፡ ዓለሙ፨</l>
-                        <l n="3">አካለ፡ ክርስቶስ፡ ጸዋሬ፡ ስሙ፨</l>
-                    </lg>
-                    <lg type="stanza" n="6">
-                        <l n="1">ሰላም፡ ለከ፡ ኖትያ፡ ማዕምር፡ አካለ፡ ኢየሱስ፡ ክርስቶስ፨</l>
-                        <l n="2">ተራወጸ፡ ለከ፡ በትዕግሥት፡ ተርሴስ፨</l>
-                        <l n="3">ንጽሕናከ፡ ሐመረ፡ ነፍስ፨</l>
-                    </lg>
-                    <lg type="stanza" n="7">
-                        <l n="1">ሰላም፡ ለከ፡ አካለ፡ ክርስቶስ፡ ለከ፡ እስመ፡ በዘምሮ፡ ተቀንየ፨</l>
-                        <l n="2">ርቱዕ፡ ገብር፡ ልሳንየ፨</l>
-                        <l n="3">እንዘ፡ እምውስጠ፡ ልብ፡ ትብለኒ፡ ወልድየ፡ ወልድየ፨</l>
-                        <l n="4">እምዐስብከ፡ ሀበኒ፡ ዐስብየ፨</l>
-                    </lg>
-                </div>
-            </div>
+                <t:listBibl type="editions">
+                    <t:bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV"><seg type="webpage"><!-- attributes from original bibl--></seg><ptr target="bm:MgWebsite"/><title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title><author><t:forename>Augustine</t:forename><t:surname>Dickinson</t:surname></author><date>2020</date><note type="accessed">2024-09-24</note><note type="url">https://malkeagubae.com/</note></t:bibl>
+                    <t:bibl corresp="http://zotero.org/groups/358366/items/5AHM7JJF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Getatchew2017AK"/><title level="m">‘Life’ and ‘Miracles’ of &lt;hi rend="italics"&gt;Abunä&lt;/hi&gt; Akalä Krǝstos</title><title level="s">Supplement to Aethiopica</title><author><name>Getatchew Haile</name></author><editor><name>Getatchew Haile</name></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz</publisher><date>2017</date><series><title level="s">Supplement to Aethiopica</title><biblScope unit="volume">6</biblScope></series><biblScope unit="volume">6</biblScope><note type="url">https://www.harrassowitz-verlag.de/%E2%80%98Life%E2%80%99_and_%E2%80%98Miracles%E2%80%99of_Abun%C3%A4_Akal%C3%A4_Kr%C9%99stos/titel_1884.ahtml</note><note type="tags"><note type="tag">TraCES</note><note type="tag">bm:Getatchew2017AK</note></note><note type="tag">TraCES</note><note type="tag">bm:Getatchew2017AK</note></t:bibl>
+                </t:listBibl></t:div>
+            <t:div type="edition" xml:lang="gez">
+                <t:div type="textpart" xml:id="malke">
+                    <t:lg type="stanza" n="1">
+                        <t:l n="1">ነገሥተ፡ አርያም፡ አብ፡ ወወልዱ፡ ዘአኀዝክሙ፡ ዓለመ፨</t:l>
+                        <t:l n="2">እንዘ፡ ትኵንኑ፡ ጽድቀ፡ ወታበዝተ፡ ሰላመ፨</t:l>
+                        <t:l n="3">ለአካለ፡ ክርስቶስ፡ እጽሕፍ፡ መጽሐፈ፡ ዜናሁ፡ ፍጹመ፨</t:l>
+                        <t:l n="4">አብሁኒ፡ እንሳእ፡ በጸዊረ፡ ሕይወትክሙ፡ ማሕተመ፨</t:l>
+                        <t:l n="5">ዘያበርህ፡ ግልአ፡ ልብየ፡ ዘብዙኀ፡ ጸልመ፨</t:l>
+                    </t:lg>
+                    <t:lg type="stanza" n="2">
+                        <t:l n="1">ሰላም፡ ለዝክረ፡ ስምከ፡ ዘተጸውዐ፡ እምኵሉ፨</t:l>
+                        <t:l n="2">እስመ፡ በጽድቁ፡ ተዐውቀ፡ ወተጠየቀ፡ በግሉ፨</t:l>
+                        <t:l n="3">አቡነ፡ ክቡር፡ አካለ፡ ክርስቶስ፡ ዘላዕሉ፨</t:l>
+                        <t:l n="4">ባርከነ፡ አንተ፡ በቃልከ፡ እንዘ፡ እዴከ፡ ታተሉ፨</t:l>
+                        <t:l n="5">ዘምስሌከ፡ መንፈስ፡ ቅዱስ፡ ምስሌነ፡ የሀሉ፨</t:l>
+                    </t:lg>
+                    <t:lg type="stanza" n="3">
+                        <t:l n="1">ሰላም፡ ለሥዕርተ፡ ርእስከ፡ ዘተኈለቁ፡ ወተሐለዩ፨</t:l>
+                        <t:l n="2">ውስተ፡ ኅሊናሁ፡ ለክርስቶስ፡ ዘኢይትኄለይ፡ ዕበዩ፨</t:l>
+                        <t:l n="3">አካለ፡ ክርስቶስ፡ ተሣሀል፡ ሶበ፡ ኀቤከ፡ ጸለዩ፨</t:l>
+                        <t:l n="4">እምሀገር፡ ሰብአ፡ ፍቅርከ፡ ዘእክለ፡ ሕማም፡ ሲሳዩ፨</t:l>
+                        <t:l n="5">ወእምደቂቅከ፡ ዘበዝኀ፡ ብካዩ፨</t:l>
+                    </t:lg>
+                    <t:lg type="stanza" n="39">
+                        <t:l n="1">ሰላም፡ ለግንዘተ፡ ሥጋከ፡ ወለመቃብሪከ፡ ዛቲ፨</t:l>
+                        <t:l n="2">ዘበውስቴታ፡ ተደፍነ፡ ወርቀ፡ ሥጋከ፡ መዋቲ፨</t:l>
+                        <t:l n="3">አካለ፡ ኢየኡስ፡ ክርስቶስ፡ ንጉሠ፡ ኅሊና፡ ሐታቲ፨</t:l>
+                        <t:l n="4">ተጸይሐ፡ በምኔትከ፡ መካልየ፡ ድርሳን፡ ክልኤቲ፨</t:l>
+                        <t:l n="5">ዘበምድር፡ ክብርት፡ ወቅድስት፡ ይእቲ፨</t:l>
+                    </t:lg>
+                    <t:lg type="stanza" n="40">
+                        <t:l n="1">በአክናፈ፡ ጸጋ፡ ሐውጾትከ፡ ጉባኤ፡ ዛቲ፡ ዐጸድ፨</t:l>
+                        <t:l n="2">ሰርከ፡ ሰርከ፡ ይኩንከ፡ ልማድ፨</t:l>
+                        <t:l n="3">አካለ፡ ክርስቶስ፡ ነገረ፡ ወኀዘነ፡ ልብ፡ ክቡድ፨</t:l>
+                        <t:l n="4">እስመ፡ ቦ፡ እምውሉድከ፡ ዘይነግረከ፡ ወልድ፨</t:l>
+                        <t:l n="5">ዘባዕድ፡ ኢይሰምዖ፡ ወቅሩብ፡ ዘመድ፨</t:l>
+                    </t:lg>
+                    <t:lg type="stanza" n="41">
+                        <t:l n="1">መሐልየ፡ ድርሳን፡ ስድሰ፡ ሱባዔያተ፡ ዘምስለ፡ ዋሕድ፡ ተዐለዱ፨</t:l>
+                        <t:l n="2">ህየንተ፡ አርባሕኩ፡ ለከ፡ ለለ፡ አሐዱ፡ አሐዱ፨</t:l>
+                        <t:l n="3">አካለ፡ ክርስቶስ፡ ዕብራዊ፡ ዘእምዕብራውያን፡ ሙላዱ፨</t:l>
+                        <t:l n="4">ባርከኒ፡ እንሣእ፡ በረከተከ፡ እስመ፡ ለወላዲ፡ ፈቃዱ፨</t:l>
+                        <t:l n="5">በረከተ፡ በቡራኬ፡ ይንሣእ፡ ወልዱ፨</t:l>
+                    </t:lg>
+                    <t:lg type="stanza" n="42">
+                        <t:l n="1">አመ፡ ውስተ፡ ፈለግ፡ ጸለየ፡ ቅድመ፡ ሥዕላ፡ ጸሎተ፨</t:l>
+                        <t:l n="2">አካለ፡ ክርስቶስ፡ ትምርሖ፡ ፍኖተ፡ ነፍሱ፡ ርትዕተ፨</t:l>
+                        <t:l n="3">ማርያም፡ ድንግል፡ አሜሃ፡ አስተርአየቶ፡ ክሡተ፨</t:l>
+                        <t:l n="4">ወወሀበቶ፡ በፈቃዳ፡ ዛተ፡ ምኔተ፨</t:l>
+                        <t:l n="5">ዘይገብር፡ ባቲ፡ ዐበይተ፡ ኀይላተ፨</t:l>
+                    </t:lg>
+                    <t:lg type="stanza" n="43">
+                        <t:l n="1">ተክለ፡ ሃይማኖት፡ እምብዝኀ፡ ቀዊም፡ ዘተቈልቈለ፡ ፀሓይ፡ አጽሙ፨</t:l>
+                        <t:l n="2">ሰማየ፡ ተሰብሮ፡ ምዕራቦ፡ ለክርስቶስ፡ በእንተ፡ ስሙ፨</t:l>
+                        <t:l n="3">ወአካለ፡ ክርስቶስ፡ በኀጺን፡ አባላቲሁ፡ ዘሐሙ፨</t:l>
+                        <t:l n="4">እንዘ፡ አብ፡ ወወልድ፡ በመንግሥተ፡ ሰማይ፡ ነዮሙ፨</t:l>
+                        <t:l n="5">ምስብዒተ፡ እምፀሓይ፡ ይበርህ፡ ገጾሙ፨</t:l>
+                    </t:lg>
+                    <t:lg type="stanza" n="44">
+                        <t:l n="1">ሰላም፡ ለውሉድከ፡ እለ፡ ውስተ፡ ዛቲ፡ ዐጸድ፨</t:l>
+                        <t:l n="2">ጊዜ፡ መከራሆሙ፡ ብዙኅ፡ ወኀዘኖሙ፡ ክቡድ፨</t:l>
+                        <t:l n="3">ኢተኀዝን፡ አንተ፡ አካለ፡ ክርስቶስ፡ ዋሕድ፨</t:l>
+                        <t:l n="4">እስመ፡ ጥቀ፡ አብ፡ ወላዲ፡ በእንተ፡ ብዙኃን፡ ውሉድ፨</t:l>
+                        <t:l n="5">የኀዝን፡ ለአሐዱ፡ አሐዱ፡ ለዘመድ፨</t:l>
+                    </t:lg>
+                    <t:lg type="stanza" n="45">
+                        <t:l n="1">አካለ፡ ክርስቶስ፡ ነዓ፡ ኀቤየ፡ እምገነትከ፨</t:l>
+                        <t:l n="2">ወእመ፡ አኮ፡ እምውሉድከ፡ እለ፡ ሀለዉ፡ ምስሌከ፨</t:l>
+                        <t:l n="3">በደመና፡ ብርሃን፡ ወሬዛ፡ አእምሮ፡ ወልድከ፨</t:l>
+                        <t:l n="4">ይምጻእ፡ ይርአይ፡ ሕማምየ፡ በከመ፡ ርእየ፡ ይንግርከ፨</t:l>
+                        <t:l n="5">ወኵሎ፡ ነገረ፡ ከመ፡ ያምጽእ፡ ለከ፨</t:l>
+                    </t:lg>
+                </t:div>
+                <t:div type="textpart" xml:id="tarafa-malke">
+                    <t:lg type="stanza" n="1">
+                        <t:l n="1">ሰላም፡ ለከ፡ ሀገረ፡ ሕይወት፡ ዘትትዋረስ፡ በቀለመ፡ ሕይወት፡ ቀለሙ፨</t:l>
+                        <t:l n="2">ጸሐፈከ፡ ወልድ፡ ቅድመ፡ ዓለሙ፨</t:l>
+                        <t:l n="3">አካለ፡ ክርስቶስ፡ ጸዋሬ፡ ስሙ፨</t:l>
+                    </t:lg>
+                    <t:lg type="stanza" n="6">
+                        <t:l n="1">ሰላም፡ ለከ፡ ኖትያ፡ ማዕምር፡ አካለ፡ ኢየሱስ፡ ክርስቶስ፨</t:l>
+                        <t:l n="2">ተራወጸ፡ ለከ፡ በትዕግሥት፡ ተርሴስ፨</t:l>
+                        <t:l n="3">ንጽሕናከ፡ ሐመረ፡ ነፍስ፨</t:l>
+                    </t:lg>
+                    <t:lg type="stanza" n="7">
+                        <t:l n="1">ሰላም፡ ለከ፡ አካለ፡ ክርስቶስ፡ ለከ፡ እስመ፡ በዘምሮ፡ ተቀንየ፨</t:l>
+                        <t:l n="2">ርቱዕ፡ ገብር፡ ልሳንየ፨</t:l>
+                        <t:l n="3">እንዘ፡ እምውስጠ፡ ልብ፡ ትብለኒ፡ ወልድየ፡ ወልድየ፨</t:l>
+                        <t:l n="4">እምዐስብከ፡ ሀበኒ፡ ዐስብየ፨</t:l>
+                    </t:lg>
+                </t:div>
+            </t:div>
             
          
-        </body>
-    </text></TEI>
+        </t:body>
+    </t:text></TEI>

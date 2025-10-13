@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="BNFet157"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Paris, Bibliothèque nationale de France, BnF Éthiopien 157</title>
@@ -7,9 +8,9 @@
           <foreign xml:lang="gez">Fǝkkāre ʾIyasus</foreign>, <foreign xml:lang="gez">Maṣḥafa Mār Yǝsḥāq</foreign>
             </title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -18,7 +19,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is licensed
             under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">4.6.2025 at 18:31:05</date><date type="lastModified">28.3.2017</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFet157/main</idno><idno type="URI">https://betamasaheft.eu/BNFet157</idno><idno type="filename">BNFet157.xml</idno><idno type="ID">BNFet157</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 03:09:51</date><date type="lastModified">28.3.2017</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFet157/main</idno><idno type="URI">https://betamasaheft.eu/BNFet157</idno><idno type="filename">BNFet157.xml</idno><idno type="ID">BNFet157</idno></publicationStmt>
 
          <sourceDesc>
             <msDesc xml:id="ms">
@@ -400,7 +401,7 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="t:div" match="t:div" use="t:div"><desc><list><item>SentencePlato</item><item>SentenceTranslator</item><item>Question62</item><item>Answer68</item></list></desc><citeStructure unit="t:cb" match="t:cb" use="t:cb"><desc><list><item>a</item><item>b</item></list></desc></citeStructure><citeStructure unit="t:pb" match="t:pb" use="t:pb"><desc><list><item>6r</item><item>14r</item><item>26r</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="t:div" match="t:div" use="t:div"><desc><list><item>SentencePlato</item><item>SentenceTranslator</item><item>Question62</item><item>Answer68</item></list></desc><citeStructure unit="t:cb" match="t:cb" use="t:cb"><desc><list><item>a</item><item>b</item></list></desc></citeStructure><citeStructure unit="t:pb" match="t:pb" use="t:pb"><desc><list><item>6r</item><item>14r</item><item>26r</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:textClass>
             <t:keywords>
@@ -427,7 +428,7 @@
             <t:div type="textpart" xml:lang="gez" xml:id="SentencePlato" corresp="https://betamasaheft.eu/BNFet157#ms_i3">
                <t:note xml:lang="en">Cp.  <t:ref type="mss" corresp="https://betamasaheft.eu/BNFet159#SentencePlato">Paris, Bibliothèque nationale de France, BnF Éthiopien 159: No item: , could not check for ms_i1.2</t:ref>.</t:note>
                <t:ab>
-                  <t:pb n="6r"/><cb n="a"/>
+                  <t:pb n="6r"/><t:cb n="a"/>
          ይቤልዎ፡ ለአፍላጦን፡ ለምንትኑ፡ ኢያስተጋባእከ፡ ጥበበ፡ ወንዋየ፤ ይቤ፡ ለእዘዘ፡ ፍጻሜ።
        </t:ab>
             </t:div>
@@ -435,7 +436,7 @@
             <t:div type="textpart" xml:lang="gez" xml:id="SentenceTranslator" corresp="https://betamasaheft.eu/BNFet157#ms_i3">
                <t:note xml:lang="en">A sentence added by the Arabic translator.</t:note>
                <t:ab>
-                  <t:pb n="14r"/><cb n="a"/>
+                  <t:pb n="14r"/><t:cb n="a"/>
          ይቤ፡ አውጻኢሃ፡ ለዛቲ፡ መጽሐፍ፡ ፬፡ ግብር፡ ይዌስኩ፡ ልቡና፤ ዘውእቶሙ፡ መብልዕ፡ ሠናይ፤ ወጼና፡ ምዑዝ፤ ወነጽሮ፡ መልክዕ፡ ሠናይ፤
          ወተናግሮ፡ ምስለ፡ ጠቢብ፡ ወማእምር፤ ወ፬ሂ፡ ግብር፡ ያማስኑ፡ አእምሮተ፤ ዘውእቶሙ፡ መብልዕ፡ ሕሱም፤ ወነጽሮ፡ መልክዕ፡ ሕሱም፤
          ወተናግሮ፡ ምስለ፡ አብድ፤ ወአጼንዎ፡ ጼና፡ ፍጉገ።
@@ -445,8 +446,8 @@
             <t:div type="textpart" xml:lang="gez" xml:id="Question62" corresp="https://betamasaheft.eu/BNFet157#ms_i4">
                <t:note xml:lang="en">The Gǝʿǝz varies from the Greek version.</t:note>
                <t:ab>
-         ይቤ፡ <hi rend="rubric">አንት</hi>፤ እፎ፡ ርእየ፡ ሙሴ፡ አፃብዒሁ፡ ለእግዚእ፡ ልዑል፡ እምቅድመ፡ ይሠገው፡ ወይትመሰል፡ ከመ፡ ሰብእ።
-         አውሥአ፡ <hi rend="rubric">አትና</hi>፡ ወይቤ፤ ዘርእየ፡ ሙሴ፡ እዴሁ፡ ለእግዚአብሔር፡ አርአያ፡ ለትስብእቱ፤ ወሶበ፡ ርእየ፡ ሙሴ፡ ጸሐፈ፡ እንዘ፡ ይብል፡
+         ይቤ፡ <t:hi rend="rubric">አንት</t:hi>፤ እፎ፡ ርእየ፡ ሙሴ፡ አፃብዒሁ፡ ለእግዚእ፡ ልዑል፡ እምቅድመ፡ ይሠገው፡ ወይትመሰል፡ ከመ፡ ሰብእ።
+         አውሥአ፡ <t:hi rend="rubric">አትና</t:hi>፡ ወይቤ፤ ዘርእየ፡ ሙሴ፡ እዴሁ፡ ለእግዚአብሔር፡ አርአያ፡ ለትስብእቱ፤ ወሶበ፡ ርእየ፡ ሙሴ፡ ጸሐፈ፡ እንዘ፡ ይብል፡
          <t:gap reason="omitted" extent="unknown" resp="PRS10747Zotenbe"/>
                </t:ab>
             </t:div>
@@ -454,7 +455,7 @@
             <t:div type="textpart" xml:lang="gez" xml:id="Answer68" corresp="https://betamasaheft.eu/BNFet157#ms_i4">
                <t:note xml:lang="en">The Gǝʿǝz is more complete than the Greek version.</t:note>
                <t:ab>
-                  <t:pb n="26r"/><cb n="b"/>
+                  <t:pb n="26r"/><t:cb n="b"/>
                   <t:gap reason="omitted" extent="unknown" resp="PRS10747Zotenbe"/>
          አልቦ፡ እስመ፡ ቅድስት፡ ጥምቀት፡ አንጽሐቶሙ፡
        </t:ab>

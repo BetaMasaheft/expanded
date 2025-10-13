@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="ins" xml:lang="en" xml:id="INS0065AMQ"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">ʿĀddigrāt Dabra Mankǝrāt Qǝddus Qirqos</title>
             <title>ʿĀddigrāt Dabra Mankǝrāt Qǝddus Qirqos</title>
             <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -17,7 +18,7 @@
                                     Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">2.7.2025 at 01:29:29</date><date type="lastModified">9.5.2016</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0065AMQ/main</idno><idno type="URI">https://betamasaheft.eu/INS0065AMQ</idno><idno type="filename">INS0065AMQ.xml</idno><idno type="ID">INS0065AMQ</idno></publicationStmt>
+         <date type="expanded">9.10.2025 at 23:00:22</date><date type="lastModified">9.5.2016</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0065AMQ/main</idno><idno type="URI">https://betamasaheft.eu/INS0065AMQ</idno><idno type="filename">INS0065AMQ.xml</idno><idno type="ID">INS0065AMQ</idno></publicationStmt>
          <sourceDesc>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
@@ -34,69 +35,69 @@
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
                         the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#DN" when="2010-06-04"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created</change>
          <change who="#DN" when="2015-03-04"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->last edited</change>
          <change who="#PL" when="2016-04-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->transformed from mycore to TEI
                             P5</change>
          <change who="#ES" when="2016-05-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->names updated/completed</change>
-      </revisionDesc>
-   </teiHeader><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPlace>
+      </t:revisionDesc>
+   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPlace>
 
-            <place type="church dabr" subtype="institution">
-               <placeName xml:id="n1" xml:lang="gez">ዓዲግራት፡ ደብረ፡ መንክራት፡ ቅዱስ፡ ቂርቆስ፡</placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀddigrāt Dabra Mankǝrāt Qǝddus Qirqos</placeName>
-               <placeName type="alt" xml:id="n2">ዓዲግራት፡ ቂርቆስ፡</placeName>
-               <placeName type="alt" corresp="#n2">ʿĀddigrāt Qirqos</placeName>
-               <placeName type="alt" xml:id="n3">ዓዲግራት፡ ቸርቆስ፡</placeName>
-               <placeName type="alt" corresp="#n3">ʿĀddigrāt Čarqos</placeName>
-               <placeName type="alt" xml:id="n4">ዓዲግራት፡ ቼርቆስ፡</placeName>
-               <placeName type="alt" corresp="#n4">ʿĀddigrāt Čerqos</placeName>            
+            <t:place type="church dabr" subtype="institution">
+               <t:placeName xml:id="n1" xml:lang="gez">ዓዲግራት፡ ደብረ፡ መንክራት፡ ቅዱስ፡ ቂርቆስ፡</t:placeName>
+               <t:placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀddigrāt Dabra Mankǝrāt Qǝddus Qirqos</t:placeName>
+               <t:placeName type="alt" xml:id="n2">ዓዲግራት፡ ቂርቆስ፡</t:placeName>
+               <t:placeName type="alt" corresp="#n2">ʿĀddigrāt Qirqos</t:placeName>
+               <t:placeName type="alt" xml:id="n3">ዓዲግራት፡ ቸርቆስ፡</t:placeName>
+               <t:placeName type="alt" corresp="#n3">ʿĀddigrāt Čarqos</t:placeName>
+               <t:placeName type="alt" xml:id="n4">ዓዲግራት፡ ቼርቆስ፡</t:placeName>
+               <t:placeName type="alt" corresp="#n4">ʿĀddigrāt Čerqos</t:placeName>            
                
-               <country ref="https://betamasaheft.eu/LOC3010Ethiop">ʾItyoṗyā</country>
-               <region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</region>
-               <settlement type="town" ref="https://betamasaheft.eu/LOC1212Addigr">ʿAddigrat</settlement> 
+               <t:country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:country>
+               <t:region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</t:region>
+               <t:settlement type="town" ref="https://betamasaheft.eu/LOC1212Addigr">ʿAddigrat</t:settlement> 
                
-               <settlement when="2010-05-19"> 
-                  <placeName type="qabale">qabale 1</placeName>
-               </settlement>
+               <t:settlement when="2010-05-19"> 
+                  <t:placeName type="qabale">qabale 1</t:placeName>
+               </t:settlement>
 
-               <location>
-                  <geo>14.273281 39.462697</geo>
-                  <height unit="m">2460.0</height>
-               </location>
-               <note>
-                  <date type="foundation" notBefore="1800" notAfter="1831">1800-1831</date>
-                  <desc type="foundation">
-                     <persName ref="https://betamasaheft.eu/PRS8265Sabagadi">Dağğāzmač Sabāgādis</persName> (b. 1780/85, d. 1831).</desc>
-                  <ab type="history">Dabr. The main historical church of <placeName type="town" ref="https://betamasaheft.eu/LOC1212Addigr">ʿĀddigrāt</placeName>. 
-</ab>
-                  <ab type="description">
-                     <figure>
-                        <graphic url="Sites/AMQ.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
-                        </graphic>
-                     </figure>
-                     23 Mss. photographed: <ref type="mss" corresp="https://betamasaheft.eu/ESamq001">AMQ-001</ref> "Four Gospels"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq002">AMQ-002</ref> "Miracles of Mary"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq003">AMQ-003</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq004">AMQ-004</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq005">AMQ-005</ref> "Miracles of Jesus"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq006">AMQ-006</ref> "Book of Ziq- and Mǝʿraf-Hymns"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq007">AMQ-007</ref> "Vita of Cyriacus and Julitta"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq008">AMQ-008</ref> "The Faith of the Fathers"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq009">AMQ-009</ref> "Miracles of Mary; Miracles of Cyriacus; Miracles of Mänfäs Qǝddus"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq010">AMQ-010</ref> "Missal"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq011">AMQ-011</ref> "Synaxarion (March)"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq012">AMQ-012</ref> "Vita of Cyriacus"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq013">AMQ-013</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq014">AMQ-014</ref> "Miracles of Mary"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq015">AMQ-015</ref> "Miracles of Jesus"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq016">AMQ-016</ref> " Missal"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq017">AMQ-017</ref> "Collection of Hymns"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq018">AMQ-018</ref> "Vitae of Gäbrä Mänfäs Qǝddus, ʾArägawi, Gäbrä Krǝstos"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq019">AMQ-019</ref> "Homily of St. Michael"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq020">AMQ-020</ref> "Homily of Jesus"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq021">AMQ-021</ref> "Homily of St. Michael"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq022">AMQ-022</ref> "Four Gospels"; <ref type="mss" corresp="https://betamasaheft.eu/ESamq023">AMQ-023</ref> "Synaxarion (September)"</ab>
+               <t:location>
+                  <t:geo>14.273281 39.462697</t:geo>
+                  <t:height unit="m">2460.0</t:height>
+               </t:location>
+               <t:note>
+                  <t:date type="foundation" notBefore="1800" notAfter="1831">1800-1831</t:date>
+                  <t:desc type="foundation">
+                     <t:persName ref="https://betamasaheft.eu/PRS8265Sabagadi">Dağğāzmač Sabāgādis</t:persName> (b. 1780/85, d. 1831).</t:desc>
+                  <t:ab type="history">Dabr. The main historical church of <t:placeName type="town" ref="https://betamasaheft.eu/LOC1212Addigr">ʿĀddigrāt</t:placeName>. 
+</t:ab>
+                  <t:ab type="description">
+                     <t:figure>
+                        <t:graphic url="Sites/AMQ.tif">
+                           <t:desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</t:desc>
+                        </t:graphic>
+                     </t:figure>
+                     23 Mss. photographed: <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq001">AMQ-001</t:ref> "Four Gospels"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq002">AMQ-002</t:ref> "Miracles of Mary"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq003">AMQ-003</t:ref> "The Rite of the Holy Week"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq004">AMQ-004</t:ref> "The Book of the Funeral Rite"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq005">AMQ-005</t:ref> "Miracles of Jesus"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq006">AMQ-006</t:ref> "Book of Ziq- and Mǝʿraf-Hymns"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq007">AMQ-007</t:ref> "Vita of Cyriacus and Julitta"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq008">AMQ-008</t:ref> "The Faith of the Fathers"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq009">AMQ-009</t:ref> "Miracles of Mary; Miracles of Cyriacus; Miracles of Mänfäs Qǝddus"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq010">AMQ-010</t:ref> "Missal"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq011">AMQ-011</t:ref> "Synaxarion (March)"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq012">AMQ-012</t:ref> "Vita of Cyriacus"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq013">AMQ-013</t:ref> "Vita of Täklä Haymanot"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq014">AMQ-014</t:ref> "Miracles of Mary"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq015">AMQ-015</t:ref> "Miracles of Jesus"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq016">AMQ-016</t:ref> " Missal"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq017">AMQ-017</t:ref> "Collection of Hymns"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq018">AMQ-018</t:ref> "Vitae of Gäbrä Mänfäs Qǝddus, ʾArägawi, Gäbrä Krǝstos"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq019">AMQ-019</t:ref> "Homily of St. Michael"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq020">AMQ-020</t:ref> "Homily of Jesus"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq021">AMQ-021</t:ref> "Homily of St. Michael"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq022">AMQ-022</t:ref> "Four Gospels"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESamq023">AMQ-023</t:ref> "Synaxarion (September)"</t:ab>
        
-                  <ab type="tabot">
-                     <measure quantity="4"/> Tābots (4): 
+                  <t:ab type="tabot">
+                     <t:measure quantity="4"/> Tābots (4): 
                      
                      
-                     <persName ref="https://betamasaheft.eu/PRS3249Cyriacus">Qirqos</persName>, <persName ref="https://betamasaheft.eu/PRS9684Uriel">Urael</persName>, <persName ref="https://betamasaheft.eu/PRS6819Mary">Mary</persName>, <persName ref="https://betamasaheft.eu/PRS5684JesusCh#n3MadhaneAlam">Madḫāne ʿĀlam</persName>
+                     <t:persName ref="https://betamasaheft.eu/PRS3249Cyriacus">Qirqos</t:persName>, <t:persName ref="https://betamasaheft.eu/PRS9684Uriel">Urael</t:persName>, <t:persName ref="https://betamasaheft.eu/PRS6819Mary">Mary</t:persName>, <t:persName ref="https://betamasaheft.eu/PRS5684JesusCh#n3MadhaneAlam">Madḫāne ʿĀlam</t:persName>
                      
                      
                      
-                  </ab>
-               </note>
+                  </t:ab>
+               </t:note>
 
-            </place>
-         </listPlace>
-      </body>
-   </text></TEI>
+            </t:place>
+         </t:listPlace>
+      </t:body>
+   </t:text></TEI>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="EMIP02311"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Portland, Ethiopic Manuscript Imaging Project, Weiner Codex 297</title>
@@ -20,7 +21,7 @@
                                                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">9.12.2024 at 13:20:31</date><date type="lastModified">20.1.2021</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMIP02311/main</idno><idno type="URI">https://betamasaheft.eu/EMIP02311</idno><idno type="filename">EMIP02311.xml</idno><idno type="ID">EMIP02311</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 00:40:08</date><date type="lastModified">20.1.2021</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMIP02311/main</idno><idno type="URI">https://betamasaheft.eu/EMIP02311</idno><idno type="filename">EMIP02311.xml</idno><idno type="ID">EMIP02311</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -31,9 +32,8 @@
                <msContents>
                   <summary/>
                 <msItem xml:id="ms_i1">
-                  <locus from="1r" to="25v" facs="001">Fols 1r–25v</locus>
-                  <title type="complete" ref="https://betamasaheft.eu/LIT1869Malkea">Malkǝʾa wǝddāse
-                                                  Māryām</title>
+                  <locus from="1r" to="25v" facs="001"/>
+                  <title type="complete" ref="https://betamasaheft.eu/LIT1869Malkea">Malkǝʾa wǝddāse Māryām</title>
                   <textLang mainLang="gez">Gǝ'ǝz</textLang>
                   <incipit xml:lang="gez">ፈቀደ፡ እግዚእ፡ ለአዳም፡ ያግዕዞ፡</incipit>
                 </msItem>
@@ -58,17 +58,17 @@
                           <list>
                             <item xml:id="q1" n="1">
                               <dim unit="leaf">10</dim>
-                              <locus from="1" to="10" facs="001">Fols 1–10</locus>
+                              <locus from="1" to="10" facs="001"/>
                               Quire 1
                             </item>
                             <item xml:id="q2" n="2">
                               <dim unit="leaf">10</dim>
-                              <locus from="11" to="20" facs="011">Fols 11–20</locus>
+                              <locus from="11" to="20" facs="011"/>
                               Quire 2
                             </item>
                             <item xml:id="q3" n="3">
                               <dim unit="leaf">6</dim>
-                              <locus from="21" to="26" facs="021">Fols 21–26</locus>
+                              <locus from="21" to="26" facs="021"/>
                               Quire 3
                             </item>
                           </list>
@@ -98,20 +98,20 @@
                   <list>
                     <item xml:id="e1">
                     <desc>
-                    <locus target="#1r" facs="001">Fol. 1r</locus>
+                    <locus target="#1r" facs="001"/>
                      is largely illegible because of wear due to the lack of a front cover
                     </desc>
                     </item>
                     <item xml:id="a1">
                     <desc type="OwnershipNote">
-                    <locus target="#25v" facs="026">Fol. 25v</locus>
+                    <locus target="#25v" facs="026"/>
                     mentions the name of the owner Wäldä Yoḥännǝs (<foreign xml:lang="gez">ወልደ፡ ዮሐንስ፡</foreign>)
                     </desc>
                     </item>
                     <item xml:id="e2">
                     <desc>
-                      words of text are written interlinearly (<locus target="#3v #11r" facs="004 011">folss. 3v, 11r, </locus>);
-                      text has been removed (<locus target="#13r" facs="013">13r</locus>)
+                      words of text are written interlinearly (<locus target="#3v #11r" facs="004 011"/>);
+                      text has been removed (<locus target="#13r" facs="013"/>)
                     </desc>
                     </item>
                   </list>
@@ -144,7 +144,7 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –

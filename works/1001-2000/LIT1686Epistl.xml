@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT1686Epistl"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Epistle of Jeremiah</title>
@@ -21,7 +22,7 @@
                 Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
-         <date type="expanded">19.7.2025 at 14:10:19</date><date type="lastModified">4.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1686Epistl/main</idno><idno type="URI">https://betamasaheft.eu/LIT1686Epistl</idno><idno type="filename">LIT1686Epistl.xml</idno><idno type="ID">LIT1686Epistl</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 22:54:52</date><date type="lastModified">4.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1686Epistl/main</idno><idno type="URI">https://betamasaheft.eu/LIT1686Epistl</idno><idno type="filename">LIT1686Epistl.xml</idno><idno type="ID">LIT1686Epistl</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -39,23 +40,23 @@
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
                         the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="gez">Gǝʿǝz</language>
-            <language ident="am">Amharic</language>
-         </langUsage>
-         <textClass>
-            <keywords scheme="#ethioauthlist">
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="Bible" ana="#Bible"/>
-               <term key="OldTestament" ana="#OldTestament"/>
-               <term key="Apocrypha" ana="#Apocrypha"/>
-            </keywords>
-         </textClass>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage>
+            <t:language ident="en">English</t:language>
+            <t:language ident="gez">Gǝʿǝz</t:language>
+            <t:language ident="am">Amharic</t:language>
+         </t:langUsage>
+         <t:textClass>
+            <t:keywords scheme="#ethioauthlist">
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Bible" ana="#Bible"/>
+               <t:term key="OldTestament" ana="#OldTestament"/>
+               <t:term key="Apocrypha" ana="#Apocrypha"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
          <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
@@ -63,62 +64,62 @@
          <change who="#DR" when="2020-04-07"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added titles and keyword</change>
          <change who="#DR" when="2023-05-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated bibliography.</change>
          <change who="#ES" when="2025-06-04"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
-      </revisionDesc>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
             <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT1686Epistl" passive="https://betamasaheft.eu/LIT2035Jerem"/>
-         </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
+         </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
          
-         <listBibl type="editions">
-            <bibl corresp="http://zotero.org/groups/358366/items/HHQD9K6H"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Bachmann1893Lesestuecke"/><title level="m">Aethiopische Lesestücke. Inedita Aethiopica für den Gebrauch in Universitäts-Vorlesungen</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Johannes</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bachmann</t:surname></author><pubPlace>Leipzig</pubPlace><publisher>J.C. Hinrichs’sche Buchhandlung</publisher><date>1893</date><note type="url">http://digitale-sammlungen.ulb.uni-bonn.de/content/structure/329377</note><citedRange unit="page">8-10</citedRange></bibl>
-         </listBibl>         
-         <div type="edition" xml:lang="gez" xml:id="edEOTC">
-            <note>This text is taken from the modern standard Ethiopian printed Bible</note>
-            <ab>
-               <l n="0">አርአያ፡ መጽሐፍ፡ ዘኤርምያስ፡ ዘፈነወ፡ ኀበ፡ እለ፡ ፄወዎሙ፡ ባቢሎን፡ ንጉሠ፡ ባቢሎን፡ ይንግርዎሙ፡ ዘአዘዘ፡ እግዚአብሔር።</l>
-               <l n="1">በእንተ፡ ኀጢአትክሙ፡ ዘአበስክሙ፡ ለእግዚአብሔር፡ ወሰደክሙ፡ ባቢሎን፡ ፂዉዋነ፡ ናቡከደነፆር፡ ንጉሠ፡ ባቢሎን፡ ትነብሩ፡ ህየ፡ ብዙኀ፡ መዋዕለ፡ እስከ፡ ሳብዕ፡ ትውልድ።</l>
-               <l n="2">ወእምዝ፡ አውፅአክሙ፡ በሰላም።</l>
-               <l n="3">ዑቁ፡ እንከ፡ ኢትኩኑ፡ ከማሆሙ።</l>
-               <l n="4">እመ፡ ርኢክሙ፡ አሕዛበ፡ በቅድሜሆሙ፡ ወበድኅሬሆሙ፡ ይሰግዱ፡ ሎሙ።</l>
-               <l n="5">እመ፡ ቦሙ፡ ልሳነ፡ ዘገብሮ፡ ጸራቢ፡ ውእቱሂ፡ ዘወርቅ፡ ወዘብሩር፡ ሐሰት፡ እሙንቱ፡ ወኢይክሉ፡ ተናግሮ።</l>
-               <l n="6">ወከመ፡ ለድንግል፡ መፍቀሪተ፡ ሥርጋዌ፡ ከማሁ፡ ነሢኦሙ፡ ወርቀ።</l>
-               <l n="7">ገብሩ፡ ሎሙ፡ ቀጸላ፡ ዘወርቀ፡ ወዘብሩር።</l>
-               <l n="8">ወያሠርግውዎሙ፡ ከመ፡ ሰብእ።</l>
-               <l n="9">ወለርእሶሙ፡ ኢያኀድጉ፡ ዛኅሎሙ።</l>
-               <l n="10">ወይከድንዎሙ፡ ሜላተ፡ ወይመዘምዝዎሙ፡ እምጸበለ፡ ቤት።</l>
-               <l n="11">ወይእኅዙ፡ በትረ፡ ከመ፡ ሰብእ፡ ወለዘገፍዖሙኒ፡ ኢይትቤቀልዎ።</l>
-               <l n="12">ወቦ፡ ውስተ፡ እዴሁ፡ ጕድብ፡ ወኢያድኅን፡ ርእሶ፡ እምሰረቅት።</l>
-               <l n="13">ከመ፡ ንዋይ፡ ዘይትቀጠቀጥ፡ ወኢይበቊዕ፡ ከማሁ፡ አማልክቲሆሙ።</l>
-               <l n="14">ወይቄንውዎሙ፡ ውስተ፡ ቤት፡ ወይመልእ፡ ውስተ፡ አዕይንቲሆሙ፡ ጸበል፡ እምእግረ፡ ሰብእ፡ ዘይበውእ።</l>
-               <l n="15">ወዐቅብዎሙ፡ ገነውቶ፡ በመዓጹት፡ ወበመናስግት፡ ከመ፡ ኢይስርቅዎሙ።</l>
-               <l n="16">መኀትወ፡ ያኅትዉ፡ ሎሙ፡ ወአልቦ፡ ዘይሬእዩ።</l>
-               <l n="17">ወእንዘ፡ ይበልዑ፡ ኪያሙ፡ ወልብሶሙ፡ እሙንቱሰ፡ ኢየአምሩ።</l>
-               <l n="18">ወይጸልም፡ ገጾሙ፡ እምጢስ፡ ዘያጠይሱ፡ ውስተ፡ ቤት።</l>
-               <l n="19">ወይነብሩ፡ ውስተ፡ አርእስቲሆሙ፡ ጽግነት፡ ወአዕዋፍ፡ ወድመት።</l>
-               <l n="20">ወበዝንቱ፡ ተአምሩ፡ ከመ፡ ኢኮኑ፡ አማልክተ፡ ኢትፍርህዎሙኬ፡ እንኬ።</l>
-               <l n="21">እስመ፡ ወርቅ፡ እመ፡ አንበርዎ፡ ወኢኀብረትዎ፡ ኢይበርህ፡ ወሶበሂ፡ ይሰበኩ፡ ኢየአምሩ።</l>
-               <l n="22">ወአልቦሙ፡ መንፈስ።</l>
-               <l n="23">ወይጸውርዎሙ፡ ዲበ፡ መትከፍት፡ ከመ፡ ይትዐወቅ፡ ኀሣሮሙ።</l>
-               <l n="24">ወእመሂ፡ ወድቁ፡ ዲበ፡ ምድር፡ ኢይትነሥኡ፡ ለሊሆሙ፡ ወእመሂ፡ አንሥእዎሙ፡ ኢይቀውሙ፡ ለሊሆሙ፡ ከመ፡ ምዉት፡ ያቀርቡ፡ መብልዐ፡ ወመሥዋዕተ።</l>
-               <l n="25">ገነውቶሙኒ፡ ያተሐቅርዎሙ።</l>
-               <l n="26">በዝኬ፡ አእምሩ፡ ከመ፡ ኢኮኑ፡ አማልክተ፡ ወኢትፍርህዎሙ።</l>
-               <l n="27">ይጸርሑ፡ እንዘ፡ የዐወይዉ፡ በላዕለ፡ አማልክቲሆሙ፡ በከመ፡ በድራረ፡ ምዉት።</l>
-               <l n="28">ወለእመ፡ ቦ፡ ዘአሕሠመ፡ ሎሙ፡ አው፡ ዘአሠነየ፡ ሎሙ፡ ኢይትፈደይዎ፡ ኢያነግሡ፡ ወኢይሥዕሩ።</l>
-               <l n="29">ኢያብዕሉ፡ ወኢያነድዩ።</l>
-               <l n="30">ኢይባልሑ፡ ሰብአ፡ እሞት፡ ወኢያድኅንዎ፡ ለድኩም፡ እምእደ፡ ዘይትዔገሎ።</l>
-               <l n="31">ወእመሂ፡ መጽኦሙ፡ ጸባኢት፡ ወመንሱት፡ የኀሥሡ፡ ገነውቶሙ፡ ኀበ፡ ይትኀብኡ፡ ምስሌሆሙ።</l>
-               <l n="32">እፎ፡ እንከ፡ አማልክት፡ እሙንቱ፡ ዘርእሶሙ፡ ኢያድኅኑ፡ እምቀትል፡ ወእመንሱት።</l>
-               <l n="33">ይትዐወቁ፡ ለኵሎሙ፡ አሕዛብ፡ ወነገሥት፡ ከመ፡ ኢኮኑ፡ አማልክተ፡ ወከመ፡ ግብረ፡ እደ፡ ዕጓለ፡ እመሕያው፡ እሙንቱ፡ ወአልቦሙ፡ ግብረ፡ አምላክ።</l>
-               <l n="34">ወእመሂ፡ ውዕየ፡ ቤተ፡ አማልክት፡ ገነውቶሙ፡ ይጕዩ፡ ወያድኅኑ፡ ነፍሶሙ።</l>
-               <l n="35">ወእፎ፡ እንከ፡ አማልክት፡ እሙንቱ።</l>
-               <l n="36">ኢያድኅኑ፡ ርእሶሙ፡ እምሰረቅት፡ ወኢ፡ እምተአጋልያን።</l>
-               <l n="37">አማልክተ፡ ከንቱ።</l>
-               <l n="38">እንስሳ፡ ይኄይስዎሙ።</l>
-               <l n="39">ዘይክሉ፡ ጐይየ።</l>
-               <l n="40">ከመ፡ በድን፡ ዘውስተ፡ ጽልመት።</l>
-               <l n="41">ከማሁ፡ አማልክቲሆሙ።</l>
-               <l n="42">ይኄይስ፡ ብእሲ፡ ጻድቅ፡ ዘአልቦ፡ ጣዖት፡ ወርኅቀ፡ እምጽዕለት።</l>
-            </ab>
-         </div>
-      </body>
-   </text></TEI>
+         <t:listBibl type="editions">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/HHQD9K6H"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Bachmann1893Lesestuecke"/><title level="m">Aethiopische Lesestücke. Inedita Aethiopica für den Gebrauch in Universitäts-Vorlesungen</title><author><t:forename>Johannes</t:forename><t:surname>Bachmann</t:surname></author><pubPlace>Leipzig</pubPlace><publisher>J.C. Hinrichs’sche Buchhandlung</publisher><date>1893</date><note type="url">http://digitale-sammlungen.ulb.uni-bonn.de/content/structure/329377</note><t:citedRange unit="page">8-10</t:citedRange></t:bibl>
+         </t:listBibl>         
+         <t:div type="edition" xml:lang="gez" xml:id="edEOTC">
+            <t:note>This text is taken from the modern standard Ethiopian printed Bible</t:note>
+            <t:ab>
+               <t:l n="0">አርአያ፡ መጽሐፍ፡ ዘኤርምያስ፡ ዘፈነወ፡ ኀበ፡ እለ፡ ፄወዎሙ፡ ባቢሎን፡ ንጉሠ፡ ባቢሎን፡ ይንግርዎሙ፡ ዘአዘዘ፡ እግዚአብሔር።</t:l>
+               <t:l n="1">በእንተ፡ ኀጢአትክሙ፡ ዘአበስክሙ፡ ለእግዚአብሔር፡ ወሰደክሙ፡ ባቢሎን፡ ፂዉዋነ፡ ናቡከደነፆር፡ ንጉሠ፡ ባቢሎን፡ ትነብሩ፡ ህየ፡ ብዙኀ፡ መዋዕለ፡ እስከ፡ ሳብዕ፡ ትውልድ።</t:l>
+               <t:l n="2">ወእምዝ፡ አውፅአክሙ፡ በሰላም።</t:l>
+               <t:l n="3">ዑቁ፡ እንከ፡ ኢትኩኑ፡ ከማሆሙ።</t:l>
+               <t:l n="4">እመ፡ ርኢክሙ፡ አሕዛበ፡ በቅድሜሆሙ፡ ወበድኅሬሆሙ፡ ይሰግዱ፡ ሎሙ።</t:l>
+               <t:l n="5">እመ፡ ቦሙ፡ ልሳነ፡ ዘገብሮ፡ ጸራቢ፡ ውእቱሂ፡ ዘወርቅ፡ ወዘብሩር፡ ሐሰት፡ እሙንቱ፡ ወኢይክሉ፡ ተናግሮ።</t:l>
+               <t:l n="6">ወከመ፡ ለድንግል፡ መፍቀሪተ፡ ሥርጋዌ፡ ከማሁ፡ ነሢኦሙ፡ ወርቀ።</t:l>
+               <t:l n="7">ገብሩ፡ ሎሙ፡ ቀጸላ፡ ዘወርቀ፡ ወዘብሩር።</t:l>
+               <t:l n="8">ወያሠርግውዎሙ፡ ከመ፡ ሰብእ።</t:l>
+               <t:l n="9">ወለርእሶሙ፡ ኢያኀድጉ፡ ዛኅሎሙ።</t:l>
+               <t:l n="10">ወይከድንዎሙ፡ ሜላተ፡ ወይመዘምዝዎሙ፡ እምጸበለ፡ ቤት።</t:l>
+               <t:l n="11">ወይእኅዙ፡ በትረ፡ ከመ፡ ሰብእ፡ ወለዘገፍዖሙኒ፡ ኢይትቤቀልዎ።</t:l>
+               <t:l n="12">ወቦ፡ ውስተ፡ እዴሁ፡ ጕድብ፡ ወኢያድኅን፡ ርእሶ፡ እምሰረቅት።</t:l>
+               <t:l n="13">ከመ፡ ንዋይ፡ ዘይትቀጠቀጥ፡ ወኢይበቊዕ፡ ከማሁ፡ አማልክቲሆሙ።</t:l>
+               <t:l n="14">ወይቄንውዎሙ፡ ውስተ፡ ቤት፡ ወይመልእ፡ ውስተ፡ አዕይንቲሆሙ፡ ጸበል፡ እምእግረ፡ ሰብእ፡ ዘይበውእ።</t:l>
+               <t:l n="15">ወዐቅብዎሙ፡ ገነውቶ፡ በመዓጹት፡ ወበመናስግት፡ ከመ፡ ኢይስርቅዎሙ።</t:l>
+               <t:l n="16">መኀትወ፡ ያኅትዉ፡ ሎሙ፡ ወአልቦ፡ ዘይሬእዩ።</t:l>
+               <t:l n="17">ወእንዘ፡ ይበልዑ፡ ኪያሙ፡ ወልብሶሙ፡ እሙንቱሰ፡ ኢየአምሩ።</t:l>
+               <t:l n="18">ወይጸልም፡ ገጾሙ፡ እምጢስ፡ ዘያጠይሱ፡ ውስተ፡ ቤት።</t:l>
+               <t:l n="19">ወይነብሩ፡ ውስተ፡ አርእስቲሆሙ፡ ጽግነት፡ ወአዕዋፍ፡ ወድመት።</t:l>
+               <t:l n="20">ወበዝንቱ፡ ተአምሩ፡ ከመ፡ ኢኮኑ፡ አማልክተ፡ ኢትፍርህዎሙኬ፡ እንኬ።</t:l>
+               <t:l n="21">እስመ፡ ወርቅ፡ እመ፡ አንበርዎ፡ ወኢኀብረትዎ፡ ኢይበርህ፡ ወሶበሂ፡ ይሰበኩ፡ ኢየአምሩ።</t:l>
+               <t:l n="22">ወአልቦሙ፡ መንፈስ።</t:l>
+               <t:l n="23">ወይጸውርዎሙ፡ ዲበ፡ መትከፍት፡ ከመ፡ ይትዐወቅ፡ ኀሣሮሙ።</t:l>
+               <t:l n="24">ወእመሂ፡ ወድቁ፡ ዲበ፡ ምድር፡ ኢይትነሥኡ፡ ለሊሆሙ፡ ወእመሂ፡ አንሥእዎሙ፡ ኢይቀውሙ፡ ለሊሆሙ፡ ከመ፡ ምዉት፡ ያቀርቡ፡ መብልዐ፡ ወመሥዋዕተ።</t:l>
+               <t:l n="25">ገነውቶሙኒ፡ ያተሐቅርዎሙ።</t:l>
+               <t:l n="26">በዝኬ፡ አእምሩ፡ ከመ፡ ኢኮኑ፡ አማልክተ፡ ወኢትፍርህዎሙ።</t:l>
+               <t:l n="27">ይጸርሑ፡ እንዘ፡ የዐወይዉ፡ በላዕለ፡ አማልክቲሆሙ፡ በከመ፡ በድራረ፡ ምዉት።</t:l>
+               <t:l n="28">ወለእመ፡ ቦ፡ ዘአሕሠመ፡ ሎሙ፡ አው፡ ዘአሠነየ፡ ሎሙ፡ ኢይትፈደይዎ፡ ኢያነግሡ፡ ወኢይሥዕሩ።</t:l>
+               <t:l n="29">ኢያብዕሉ፡ ወኢያነድዩ።</t:l>
+               <t:l n="30">ኢይባልሑ፡ ሰብአ፡ እሞት፡ ወኢያድኅንዎ፡ ለድኩም፡ እምእደ፡ ዘይትዔገሎ።</t:l>
+               <t:l n="31">ወእመሂ፡ መጽኦሙ፡ ጸባኢት፡ ወመንሱት፡ የኀሥሡ፡ ገነውቶሙ፡ ኀበ፡ ይትኀብኡ፡ ምስሌሆሙ።</t:l>
+               <t:l n="32">እፎ፡ እንከ፡ አማልክት፡ እሙንቱ፡ ዘርእሶሙ፡ ኢያድኅኑ፡ እምቀትል፡ ወእመንሱት።</t:l>
+               <t:l n="33">ይትዐወቁ፡ ለኵሎሙ፡ አሕዛብ፡ ወነገሥት፡ ከመ፡ ኢኮኑ፡ አማልክተ፡ ወከመ፡ ግብረ፡ እደ፡ ዕጓለ፡ እመሕያው፡ እሙንቱ፡ ወአልቦሙ፡ ግብረ፡ አምላክ።</t:l>
+               <t:l n="34">ወእመሂ፡ ውዕየ፡ ቤተ፡ አማልክት፡ ገነውቶሙ፡ ይጕዩ፡ ወያድኅኑ፡ ነፍሶሙ።</t:l>
+               <t:l n="35">ወእፎ፡ እንከ፡ አማልክት፡ እሙንቱ።</t:l>
+               <t:l n="36">ኢያድኅኑ፡ ርእሶሙ፡ እምሰረቅት፡ ወኢ፡ እምተአጋልያን።</t:l>
+               <t:l n="37">አማልክተ፡ ከንቱ።</t:l>
+               <t:l n="38">እንስሳ፡ ይኄይስዎሙ።</t:l>
+               <t:l n="39">ዘይክሉ፡ ጐይየ።</t:l>
+               <t:l n="40">ከመ፡ በድን፡ ዘውስተ፡ ጽልመት።</t:l>
+               <t:l n="41">ከማሁ፡ አማልክቲሆሙ።</t:l>
+               <t:l n="42">ይኄይስ፡ ብእሲ፡ ጻድቅ፡ ዘአልቦ፡ ጣዖት፡ ወርኅቀ፡ እምጽዕለት።</t:l>
+            </t:ab>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

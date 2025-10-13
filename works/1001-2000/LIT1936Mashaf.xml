@@ -1,6 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT1936Mashaf"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
-         <titleStmt><title type="full">Mäṣḥafä ḥǝmamatihu wäzena sǝqlätu wäqǝtlätu läʾǝgziʾǝna</title>
+         <titleStmt><title type="full">Maṣḥafa ḥǝmāmātihu wa-zenā sǝqlatu wa-qǝtlatu
+          la-ʾƎgziʾǝna</title>
             <title xml:lang="gez" xml:id="t1">መጽሐፈ፡ ሕማማቲሁ፡ ወዜና፡ ስቅለቱ፡ ወቅትለቱ፡ ለእግዚእነ፡</title>
             <title xml:lang="gez" type="normalized" corresp="#t1">Maṣḥafa ḥǝmāmātihu wa-zenā sǝqlatu wa-qǝtlatu la-ʾƎgziʾǝna</title>
             <title xml:lang="en" corresp="#t1">Book of Suffering and Narration of the Crucifixion and Killing of our Lord</title>
@@ -11,10 +13,10 @@
             <title xml:lang="gez" xml:id="t3">ተዝካረ፡ መድኅን፡</title>
             <title xml:lang="gez" type="normalized" corresp="#t3">Tazkāra Madḫǝn</title>
             <title xml:lang="en" corresp="#t3">Commemoration of the Saviour</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
 
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="MKr" corresp="https://betamasaheft.eu/team.html#MKr"><resp>contributor</resp><name>Marcin Krawczuk</name></respStmt><respStmt xml:id="MK" corresp="https://betamasaheft.eu/team.html#MK"><resp>contributor</resp><name>Magdalena Krzyzanowska</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="MKr" corresp="https://betamasaheft.eu/team.html#MKr"><resp>contributor</resp><name>Marcin Krawczuk</name></respStmt><respStmt xml:id="MK" corresp="https://betamasaheft.eu/team.html#MK"><resp>contributor</resp><name>Magdalena Krzyzanowska</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -26,7 +28,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">30.1.2025 at 11:51:49</date><date type="lastModified">4.12.2024</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1936Mashaf/main</idno><idno type="URI">https://betamasaheft.eu/LIT1936Mashaf</idno><idno type="filename">LIT1936Mashaf.xml</idno><idno type="ID">LIT1936Mashaf</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 22:54:52</date><date type="lastModified">4.12.2024</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1936Mashaf/main</idno><idno type="URI">https://betamasaheft.eu/LIT1936Mashaf</idno><idno type="filename">LIT1936Mashaf.xml</idno><idno type="ID">LIT1936Mashaf</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -49,73 +51,73 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="chapter" match="div" use="div"><desc><list><item>Introduction</item><item>Maggabit</item><item>Zena</item><item>Tuesday</item><item>Wednesday</item><item>Thursday</item><item>Friday</item><item>Saturday</item><item>Zenasaqoqaweki</item></list></desc></assertion></assertion></source-url></encodingDesc>
-      <profileDesc>
-         <langUsage>
-           <language ident="en">English</language>
-           <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
-         <abstract>
-<p>A collection of homilies on the Passion and Crucifixion for the 27th of each month. Its creation is associated with <ref type="pers" corresp="https://betamasaheft.eu/PRS6418Mabaas">Mabāʾa Ṣǝyon</ref>.</p>
-         </abstract>
-         <textClass>
-            <keywords>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="Homily" ana="#Homily"/>
-            </keywords>
-         </textClass>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="chapter" match="t:div" use="t:div"><desc><list><item>Introduction</item><item>Maggabit</item><item>Zena</item><item>Tuesday</item><item>Wednesday</item><item>Thursday</item><item>Friday</item><item>Saturday</item><item>Zenasaqoqaweki</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage>
+           <t:language ident="en">English</t:language>
+           <t:language ident="gez">Gǝʿǝz</t:language>
+         </t:langUsage>
+         <t:abstract>
+<t:p>A collection of homilies on the Passion and Crucifixion for the 27th of each month. Its creation is associated with <t:ref type="pers" corresp="https://betamasaheft.eu/PRS6418Mabaas">Mabāʾa Ṣǝyon</t:ref>.</t:p>
+         </t:abstract>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Homily" ana="#Homily"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <t:change xmlns:t="http://www.tei-c.org/ns/1.0" who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
-            spreadsheet </t:change>
-         <t:change xmlns:t="http://www.tei-c.org/ns/1.0" who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</t:change>
-         <t:change xmlns:t="http://www.tei-c.org/ns/1.0" who="#MKr" when="2023-06-16"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added bibliography, abstract, keywords updated titles</t:change>
-         <t:change xmlns:t="http://www.tei-c.org/ns/1.0" who="#MK" when="2024-12-04"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added sections of the work</t:change>
-      </revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
+            spreadsheet </change>
+         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change who="#MKr" when="2023-06-16"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added bibliography, abstract, keywords updated titles</change>
+         <change who="#MK" when="2024-12-04"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added sections of the work</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                     <relation name="saws:isAttributedToAuthor" ref="http://purl.org/saws/ontology#isAttributedToAuthor" active="https://betamasaheft.eu/LIT1936Mashaf" passive="https://betamasaheft.eu/PRS6418Mabaas"/>
-                </listRelation></standOff><text>
-        <body>   
-           <div type="edition">
-              <note>The following division into daily readings is based on <ref type="mss" corresp="https://betamasaheft.eu/ESdd009">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy, Dabra Dāmmo ʾAbuna ʾAragāwi, DD-009</ref>. A different division into monthly readings seems to be more common, see <ref type="mss" corresp="https://betamasaheft.eu/ESgms011">Gāntā ʾAfašum, Siʿet Qǝddǝst Māryām, GMS-011</ref>.</note>
-              <div type="textpart" subtype="chapter" xml:id="Introduction">
-                 <label>Introduction</label>
-              </div>
-              <div type="textpart" subtype="chapter" xml:id="Maggabit">
-                 <label>Homily for the month of Maggābit</label>
-              </div>
-              <div type="textpart" subtype="chapter" xml:id="Zena">
-                 <label>Zenā sǝqlatu la-ʾǝgziʾǝna ʾIyasus Krǝstos ‘Story of the Crucifixion of Our Lord Jesus Christ’</label>
-              </div>
-              <div type="textpart" subtype="chapter" xml:id="Tuesday">
-                 <label>Homily for Tuesday</label>
-              </div>
-              <div type="textpart" subtype="chapter" xml:id="Wednesday">
-                 <label>Homily for Wednesday</label>
-              </div>
-              <div type="textpart" subtype="chapter" xml:id="Thursday">
-                 <label>Homily for Thursday</label>
-              </div>
-              <div type="textpart" subtype="chapter" xml:id="Friday">
-                 <label>Homily for Friday</label>
-              </div>
-              <div type="textpart" subtype="chapter" xml:id="Saturday">
-                 <label>Homily for Saturday</label>
-              </div>
-              <div type="textpart" subtype="chapter" xml:id="Zenasaqoqaweki">
-                 <label>Zenā saqoqāwǝki dǝngǝl la-za-ʾǝzennu nǝstita... ‘The story of your lamentation, Virgin, about which I tell a little...’</label>
-              </div>
-           </div>
-            <div type="bibliography">
-              <listBibl type="secondary">
-                  <bibl corresp="http://zotero.org/groups/358366/items/UUFSWNIB"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:EMML5"/><title level="m">A Catalogue of Ethiopian Manuscripts Microfilmed for the Ethiopian Manuscript Microfilm Library, Addis Ababa, and for the Hill Monastic Manuscript Library, Collegeville, V: Project Numbers 1501–2000</title><author><name>Getatchew Haile</name></author><author><forename>William F.</forename><surname>Macomber</surname></author><pubPlace>Collegeville, MN</pubPlace><publisher>Hill Monastic Manuscript Library, St. John's Abbey and University</publisher><date>1981</date><note type="url">https://archive.org/details/EMMLCatalog05</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">EMML</note><note type="tag">bm:EMML5</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">EMML</note><note type="tag">bm:EMML5</note><citedRange unit="page">248–250</citedRange></bibl>
-              </listBibl>
+                </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+        <t:body>   
+           <t:div type="edition">
+              <t:note>The following division into daily readings is based on <t:ref type="mss" corresp="https://betamasaheft.eu/ESdd009">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy, Dabra Dāmmo ʾAbuna ʾAragāwi, DD-009</t:ref>. A different division into monthly readings seems to be more common, see <t:ref type="mss" corresp="https://betamasaheft.eu/ESgms011">Gāntā ʾAfašum, Siʿet Qǝddǝst Māryām, GMS-011</t:ref>.</t:note>
+              <t:div type="textpart" subtype="chapter" xml:id="Introduction">
+                 <t:label>Introduction</t:label>
+              </t:div>
+              <t:div type="textpart" subtype="chapter" xml:id="Maggabit">
+                 <t:label>Homily for the month of Maggābit</t:label>
+              </t:div>
+              <t:div type="textpart" subtype="chapter" xml:id="Zena">
+                 <t:label>Zenā sǝqlatu la-ʾǝgziʾǝna ʾIyasus Krǝstos ‘Story of the Crucifixion of Our Lord Jesus Christ’</t:label>
+              </t:div>
+              <t:div type="textpart" subtype="chapter" xml:id="Tuesday">
+                 <t:label>Homily for Tuesday</t:label>
+              </t:div>
+              <t:div type="textpart" subtype="chapter" xml:id="Wednesday">
+                 <t:label>Homily for Wednesday</t:label>
+              </t:div>
+              <t:div type="textpart" subtype="chapter" xml:id="Thursday">
+                 <t:label>Homily for Thursday</t:label>
+              </t:div>
+              <t:div type="textpart" subtype="chapter" xml:id="Friday">
+                 <t:label>Homily for Friday</t:label>
+              </t:div>
+              <t:div type="textpart" subtype="chapter" xml:id="Saturday">
+                 <t:label>Homily for Saturday</t:label>
+              </t:div>
+              <t:div type="textpart" subtype="chapter" xml:id="Zenasaqoqaweki">
+                 <t:label>Zenā saqoqāwǝki dǝngǝl la-za-ʾǝzennu nǝstita... ‘The story of your lamentation, Virgin, about which I tell a little...’</t:label>
+              </t:div>
+           </t:div>
+            <t:div type="bibliography">
+              <t:listBibl type="secondary">
+                  <t:bibl corresp="http://zotero.org/groups/358366/items/UUFSWNIB"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:EMML5"/><title level="m">A Catalogue of Ethiopian Manuscripts Microfilmed for the Ethiopian Manuscript Microfilm Library, Addis Ababa, and for the Hill Monastic Manuscript Library, Collegeville, V: Project Numbers 1501–2000</title><author><name>Getatchew Haile</name></author><author><forename>William F.</forename><surname>Macomber</surname></author><pubPlace>Collegeville, MN</pubPlace><publisher>Hill Monastic Manuscript Library, St. John's Abbey and University</publisher><date>1981</date><note type="url">https://archive.org/details/EMMLCatalog05</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">EMML</note><note type="tag">bm:EMML5</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">EMML</note><note type="tag">bm:EMML5</note><t:citedRange unit="page">248–250</t:citedRange></t:bibl>
+              </t:listBibl>
                 
-            </div>
-        </body>
-    </text><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <ab/>
-      </body>
-   </text></TEI>
+            </t:div>
+        </t:body>
+    </t:text><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:ab/>
+      </t:body>
+   </t:text></TEI>

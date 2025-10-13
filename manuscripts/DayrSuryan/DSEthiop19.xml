@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="DSEthiop19"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Egypt, Dayr as-Suryān, DS Ethiop. 19</title>
@@ -5,9 +6,9 @@
             <title xml:lang="ar">أرغانون مريم </title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
             <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
-            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         </titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -16,7 +17,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">2022-01-05T13:36:28.446+01:00</date><date type="lastModified">15.12.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DSEthiop19</idno><idno type="URI">https://betamasaheft.eu/DSEthiop19</idno><idno type="filename">DSEthiop19.xml</idno><idno type="ID">DSEthiop19</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 00:20:18</date><date type="lastModified">15.12.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DSEthiop19/main</idno><idno type="URI">https://betamasaheft.eu/DSEthiop19</idno><idno type="filename">DSEthiop19.xml</idno><idno type="ID">DSEthiop19</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                   <msIdentifier>
@@ -40,24 +41,24 @@
                   <summary/>
 
                   <msItem xml:id="ms_i1">
-                        <locus from="1r" to="104v">Fols 1r–104v</locus>
+                        <locus from="1r" to="104v"/>
                      <title type="incomplete" ref="https://betamasaheft.eu/LIT1146Argano">ʾArgānona wǝddāse</title>
                         <textLang mainLang="gez"/>
                      <note>Portions of the work for Tuesday and Wednesday corresponding to
-                        <bibl corresp="http://zotero.org/groups/358366/items/PX3XTJDP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Leander1922Arganona"/><title level="m">ʾArgānōna U̯eddāsē, nach Handschriften in Uppsala, Berlin, Tübingen und Frankfurt a. M. herausgegeben</title><title level="s">Göteborgs Högskolas Årsskrift</title><author><forename>Pontus</forename><surname>Leander</surname></author><editor><forename>Pontus</forename><surname>Leander</surname></editor><pubPlace>Leipzig</pubPlace><publisher>W. Drugulin</publisher><date>1922</date><series><title level="s">Göteborgs Högskolas Årsskrift</title><biblScope unit="volume">28/3</biblScope></series><biblScope unit="volume">28/3</biblScope><note type="tags"><note type="tag">bm:Leander1922Arganona</note></note><note type="tag">bm:Leander1922Arganona</note><citedRange unit="page">34-103</citedRange></bibl>.
+                        <bibl corresp="http://zotero.org/groups/358366/items/PX3XTJDP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Leander1922Arganona"/><title level="m">ʾArgānōna U̯eddāsē, nach Handschriften in Uppsala, Berlin, Tübingen und Frankfurt a. M. herausgegeben</title><title level="s">Göteborgs Högskolas Årsskrift</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Pontus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Leander</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Pontus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Leander</t:surname></editor><pubPlace>Leipzig</pubPlace><publisher>W. Drugulin</publisher><date>1922</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Göteborgs Högskolas Årsskrift</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">28/3</t:biblScope></series><biblScope unit="volume">28/3</biblScope><citedRange unit="page">34-103</citedRange></bibl>.
 
                      </note>
 
                      <msItem xml:id="ms_i1.1">
-                        <locus from="1r" to="51r">Fols 1r–51r</locus>
-                        <title type="incomplete" ref="https://betamasaheft.eu/LIT1146Argano#Tuesday">ʾArgānona Māryām, Tuesday</title>
+                        <locus from="1r" to="51r"/>
+                        <title type="incomplete" ref="https://betamasaheft.eu/LIT1146Argano#Tuesday">ʾArgānona wǝddāse: for Tuesday</title>
                         <textLang mainLang="gez"/>
-                        <note>The leaves <locus from="6" to="9">fols 6–9, </locus> are in disorder,
-                           the correct sequence would be <locus target="#6 #8 #7 #9">6, 8, 7, 9</locus>.
+                        <note>The leaves <locus from="6" to="9"/> are in disorder,
+                           the correct sequence would be <locus target="#6 #8 #7 #9"/>.
                         The first few lines of the portion for Tuesday are missing,
-                        the beginning corresponds to <bibl corresp="http://zotero.org/groups/358366/items/PX3XTJDP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Leander1922Arganona"/><title level="m">ʾArgānōna U̯eddāsē, nach Handschriften in Uppsala, Berlin, Tübingen und Frankfurt a. M. herausgegeben</title><title level="s">Göteborgs Högskolas Årsskrift</title><author><forename>Pontus</forename><surname>Leander</surname></author><editor><forename>Pontus</forename><surname>Leander</surname></editor><pubPlace>Leipzig</pubPlace><publisher>W. Drugulin</publisher><date>1922</date><series><title level="s">Göteborgs Högskolas Årsskrift</title><biblScope unit="volume">28/3</biblScope></series><biblScope unit="volume">28/3</biblScope><note type="tags"><note type="tag">bm:Leander1922Arganona</note></note><note type="tag">bm:Leander1922Arganona</note><citedRange unit="page">34</citedRange></bibl>.</note>
+                        the beginning corresponds to <bibl corresp="http://zotero.org/groups/358366/items/PX3XTJDP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Leander1922Arganona"/><title level="m">ʾArgānōna U̯eddāsē, nach Handschriften in Uppsala, Berlin, Tübingen und Frankfurt a. M. herausgegeben</title><title level="s">Göteborgs Högskolas Årsskrift</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Pontus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Leander</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Pontus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Leander</t:surname></editor><pubPlace>Leipzig</pubPlace><publisher>W. Drugulin</publisher><date>1922</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Göteborgs Högskolas Årsskrift</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">28/3</t:biblScope></series><biblScope unit="volume">28/3</biblScope><citedRange unit="page">34</citedRange></bibl>.</note>
                         <incipit xml:lang="gez">
-                           <locus target="#1r">Fol. 1r</locus>
+                           <locus target="#1r"/>
                            ፍኖት፡ ይቁም፡ ቅድመ፡ ገጹ፡ <add place="margin">
                               <del rend="expunctuated">ገጹ፡ ለ</del>
                            </add> ለወልድኪ፡ <hi rend="rubric">ከመ፡</hi> ይኩን፡
@@ -74,7 +75,7 @@
                         </incipit>
 
                         <explicit xml:lang="gez">
-                           <locus from="50v" to="51r">Fols 50v–51r</locus>
+                           <locus from="50v" to="51r"/>
                            እስከ. አመ<hi rend="rubric">፥</hi>
                            <hi rend="rubric">፨</hi> እኔሰሕ፡ ወአቀርብ፡  ሎቱ፡ ፍሬ፡ ንስሐ<hi rend="rubric">፨</hi>
                            ዘያ<del rend="expunctuated">ሥ</del>ሠምር፡ ለኂሩተ፡
@@ -87,8 +88,7 @@
                            ወኢትኅድግኒ፡  ለዝላፉ<supplied reason="omitted" resp="DR">፡</supplied> ኢበዝዓለም፡
                            ወኢ<del rend="effaced">ዘ</del>በዘይመጽእ<hi rend="rubric">፨</hi> አለም፡
                            ለገብርኪ<hi rend="rubric">፥</hi>
-                           <persName ref="https://betamasaheft.eu/PRS13417GabraM">Gabra
-               Māryām<hi rend="rubric">ገብረማርያም</hi></persName>
+                           <persName ref="https://betamasaheft.eu/PRS13417GabraM">Gabra Māryām<hi rend="rubric">ገብረማርያም</hi></persName>
                            <hi rend="rubric">፨</hi>
                            <hi rend="rubric">፨</hi>
                            <hi rend="rubric">፨</hi>
@@ -99,11 +99,11 @@
 
 
                      <msItem xml:id="ms_i1.2">
-                        <locus from="51r" to="78v">Fols 51r–78v</locus>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1146Argano#Wednesday">ʾArgānona Māryām, Wednesday</title>
+                        <locus from="51r" to="78v"/>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1146Argano#Wednesday">ʾArgānona wǝddāse: for Wednesday</title>
                         <textLang mainLang="gez"/>
                         <incipit xml:lang="gez">
-                           <locus from="51r" to="51v">Fols 51r–51v</locus>
+                           <locus from="51r" to="51v"/>
                            <hi rend="rubric">ዘረቡዕ</hi>
                            <hi rend="rubric">፨</hi> አቀድም፡ አእኵቶቶ፡ ለእግዚአብሔር፡ በእንተ፡ እግዚእነ<hi rend="rubric">፨</hi>
                            ኢየሱስ፡ ክርስቶስ<supplied reason="omitted" resp="DR">፡</supplied> ወበእንቲአኪ<hi rend="rubric">፨</hi> እስመ<supplied reason="omitted" resp="DR">፡</supplied>
@@ -114,7 +114,7 @@
                            <sic>ያስተበ<add place="inline">ፅ</add>ፁኒ፡</sic> ኵሉ፡ ትውልድ<hi rend="rubric">፨</hi>
                         </incipit>
                         <explicit xml:lang="gez">
-                           <locus from="77v" to="78v">Fols 77v–78v</locus>
+                           <locus from="77v" to="78v"/>
                            ንዐ<hi rend="rubric">፥</hi> እዴክሙ<hi rend="rubric">፡</hi> እንተ<hi rend="rubric">፡</hi> ታጣውቆ<hi rend="rubric">፡</hi>
                            ወእምገጸ<hi rend="rubric">፡</hi> ግርማክሙ<hi rend="rubric">፨</hi> ጸላኢ<hi rend="rubric">፡</hi> ይንፍጽ<hi rend="rubric">፡</hi>
                            ወመስተቃርን<hi rend="rubric">፨</hi> ይጕየይ<hi rend="rubric">፡</hi> ዕቡይ<hi rend="rubric">፡</hi> ይትነጸሕ<hi rend="rubric">፨</hi>
@@ -133,8 +133,7 @@
                            ወዘይጼወን<supplied resp="DR" reason="omitted">፡</supplied> በጸሎተ<supplied resp="DR" reason="omitted">፡</supplied> እሙ<supplied resp="DR" reason="omitted">፡</supplied>
                            ድንግል<hi rend="rubric">፡</hi> ንጽሕት<hi rend="rubric">፡</hi> ሠናየ<hi rend="rubric">፡</hi> የዓል<hi rend="rubric">፡</hi> ወሠናየ<hi rend="rubric">፡</hi>
                            የሀሉ<supplied resp="DR" reason="omitted">፡</supplied> ምስለ<hi rend="rubric">፡</hi> ገብርኪ<supplied resp="DR" reason="omitted">፡</supplied>
-                           <persName ref="https://betamasaheft.eu/PRS13417GabraM">Gabra
-               Māryām<hi rend="rubric">ገብረማርያም</hi></persName>
+                           <persName ref="https://betamasaheft.eu/PRS13417GabraM">Gabra Māryām<hi rend="rubric">ገብረማርያም</hi></persName>
                            <supplied resp="DR" reason="omitted">፡</supplied> እስከ<supplied resp="DR" reason="omitted">፡</supplied> <sic resp="DR">ለዓለም</sic>
                            <supplied resp="DR" reason="omitted">፡</supplied>
                            ዓለም<supplied resp="DR" reason="omitted">፡</supplied> አሜን<hi rend="rubric">፨</hi>
@@ -144,14 +143,14 @@
                      </msItem>
 
                      <msItem xml:id="ms_i1.3">
-                        <locus from="78v" to="104v">Fols 78v–104v</locus>
-                        <title type="incomplete" ref="https://betamasaheft.eu/LIT1146Argano#Thursday">ʾArgānona Māryām, Thursday</title>
+                        <locus from="78v" to="104v"/>
+                        <title type="incomplete" ref="https://betamasaheft.eu/LIT1146Argano#Thursday">ʾArgānona wǝddāse: for Thursday</title>
                         <note>The text ends with <foreign xml:lang="gez">ወበልብሰ፡ ቅዱሳት<hi rend="rubric">፨</hi>
                            ተሰርገወ<hi rend="rubric">፨</hi> ወአልባሰ፡ ወርቅ፡ ዘግቡር፡ በአዕናቍ፡ ተሞጥ<supplied resp="DN" reason="undefined">ሐ</supplied></foreign>, corresponding to
-                           <bibl corresp="http://zotero.org/groups/358366/items/PX3XTJDP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Leander1922Arganona"/><title level="m">ʾArgānōna U̯eddāsē, nach Handschriften in Uppsala, Berlin, Tübingen und Frankfurt a. M. herausgegeben</title><title level="s">Göteborgs Högskolas Årsskrift</title><author><forename>Pontus</forename><surname>Leander</surname></author><editor><forename>Pontus</forename><surname>Leander</surname></editor><pubPlace>Leipzig</pubPlace><publisher>W. Drugulin</publisher><date>1922</date><series><title level="s">Göteborgs Högskolas Årsskrift</title><biblScope unit="volume">28/3</biblScope></series><biblScope unit="volume">28/3</biblScope><note type="tags"><note type="tag">bm:Leander1922Arganona</note></note><note type="tag">bm:Leander1922Arganona</note><citedRange unit="page">103</citedRange></bibl>.
+                           <bibl corresp="http://zotero.org/groups/358366/items/PX3XTJDP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Leander1922Arganona"/><title level="m">ʾArgānōna U̯eddāsē, nach Handschriften in Uppsala, Berlin, Tübingen und Frankfurt a. M. herausgegeben</title><title level="s">Göteborgs Högskolas Årsskrift</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Pontus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Leander</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Pontus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Leander</t:surname></editor><pubPlace>Leipzig</pubPlace><publisher>W. Drugulin</publisher><date>1922</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Göteborgs Högskolas Årsskrift</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">28/3</t:biblScope></series><biblScope unit="volume">28/3</biblScope><citedRange unit="page">103</citedRange></bibl>.
                         </note>
                         <incipit xml:lang="gez">
-                           <locus from="78v" to="79r">Fols 78v–79r</locus>
+                           <locus from="78v" to="79r"/>
                            <hi rend="rubric">ወአንቲሂ፡ ካዕበ፡</hi> ኦእግዝእትየ፡ ቅድስት፡ ድንግል<hi rend="rubric">፡</hi>
                            <hi rend="rubric">ማርያም</hi><hi rend="rubric">፡</hi>
                            ዘበዕ<add place="above">ብ</add>ራይስጢ<hi rend="rubric">፡</hi> ማሪሃም<hi rend="rubric">፡</hi> እሙ<supplied resp="DR" reason="omitted">፡</supplied>
@@ -169,7 +168,7 @@
                            መዓዛ<hi rend="rubric">፡</hi> ጽንሐሕ<hi rend="rubric">፡</hi> ዘሱራፌል<supplied resp="DR" reason="omitted">፡</supplied>
                         </incipit>
                         <explicit xml:lang="gez">
-                           <locus target="#104v">Fol. 104v</locus>
+                           <locus target="#104v"/>
                            ወወልድኪሰ፡ መብዝዓተ<hi rend="rubric">፨</hi> ሕዝብ፡ ፄወወ<hi rend="rubric">፨</hi> መንገሌሁ<hi rend="rubric">፨</hi> ወከፈሎሙ፡
                            ሕይወተ፡ ዘለዓለም<hi rend="rubric">፨</hi>
                            አሮን፡ ዐቢይ፡ ሊቀ፡ ካህናት፡ <hi rend="rubric">ወሠዋዒ፡</hi> ዘእግዚአብሔር፡ ተውህበ፡ ሀብተ፡ ለአምላኩ፡ ወመክፈልተ፡ ኮነ፡ ለፈጣሪሁ፡ ወፍሉጥ፡ ክብሩ፡ እምአኃዊሁ፡ ሌዋውያን<hi rend="rubric">፨</hi>
@@ -193,7 +192,7 @@
                            <measure unit="leaf">108</measure>
                            <measure unit="leaf" xml:lang="ar">١٠٨ ورقة</measure>
                            <measure unit="leaf" type="blank">1</measure>
-                           <locus target="#7v">Fol. 7v</locus>
+                           <locus target="#7v"/>
                            <dimensions type="outer" unit="mm">
                              <height>175</height>
                               <width>125</width>
@@ -211,7 +210,7 @@
                            <list>
                               <item xml:id="fol1">
                                  <desc>The first folium of each bifolium is numbered in red or black with Western Arabic numerals on the bottom right margin,
-                                    <locus target="#101">fols. 101, </locus> and <locus target="#103">103</locus> are numbered in red and black respectively
+                                    <locus target="#101"/> and <locus target="#103"/> are numbered in red and black respectively
                                     on the upper right margin. </desc>
                               </item>
 
@@ -231,9 +230,9 @@
 
                      <layoutDesc>
                         <layout columns="1" writtenLines="15">
-                           <locus from="1r" to="54v">Fols 1r–54v, </locus>
-                           <locus from="75r" to="92v">75r–92v</locus>
-                           <note corresp="#margin #textarea">Data on text area margin dimensions taken from <locus target="#1r">fol. 1r</locus>.
+                           <locus from="1r" to="54v"/>
+                           <locus from="75r" to="92v"/>
+                           <note corresp="#margin #textarea">Data on text area margin dimensions taken from <locus target="#1r"/>.
                               The text area is delimited by a crude frame.</note>
                            <dimensions unit="mm" xml:id="textarea">
                               <height>135</height>
@@ -249,9 +248,9 @@
                         </layout>
 
                         <layout columns="1" writtenLines="13">
-                           <locus from="55r" to="74v">Fols 55r–74v, </locus>
-                           <locus from="93r" to="104v">93r–104v</locus>
-                           <note corresp="#margin2 #textarea2">Data on text area margin dimensions taken from <locus target="#55r">fol. 55r</locus>.
+                           <locus from="55r" to="74v"/>
+                           <locus from="93r" to="104v"/>
+                           <note corresp="#margin2 #textarea2">Data on text area margin dimensions taken from <locus target="#55r"/>.
                               This layout corresponds to
                            the one of <ref type="mss" corresp="https://betamasaheft.eu/DSEthiop18">Egypt, Dayr as-Suryān, DS Ethiop. 18</ref>.</note>
                            <dimensions unit="mm" xml:id="textarea2">
@@ -296,17 +295,17 @@
 
                   <decoDesc>
                      <decoNote type="band" xml:id="d1">
-                        <locus target="#12v">Fol. 12v</locus>
+                        <locus target="#12v"/>
                         <desc>Crude ornamental band.</desc>
                      </decoNote>
 
                      <decoNote type="band" xml:id="d2">
-                        <locus target="#24v">Fol. 24v</locus>
+                        <locus target="#24v"/>
                         <desc>Crude ornamentation on the upper part of the folium in red and blue.</desc>
                      </decoNote>
 
                      <decoNote type="band" xml:id="d3">
-                        <locus target="#78v">Fol. 78v</locus>
+                        <locus target="#78v"/>
                         <desc>Crude ornamental band in black, red, yellow and green.</desc>
                      </decoNote>
                   </decoDesc>
@@ -315,7 +314,7 @@
                   <additions>
                      <list>
                         <item xml:id="e1">
-                           <locus target="#24v">Fol. 24v</locus>
+                           <locus target="#24v"/>
                            <desc>The name of the weekday has been added above the line. It does not seem to correspond to the structure of the text.</desc>
                             <q xml:lang="gez">
                               <hi rend="rubric">ዕለተ<supplied reason="omitted" resp="DR">፡</supplied> ሰኑይ፡</hi>
@@ -323,7 +322,7 @@
                         </item>
 
                         <item xml:id="e2">
-                           <locus target="#51r">Fol. 51r</locus>
+                           <locus target="#51r"/>
                            <desc>The name of the weekday is included within the body of the text and marked by red and black dots above and below.</desc>
                            <q xml:lang="gez">
                               <hi rend="rubric">ዘረቡዕ፨</hi>
@@ -331,14 +330,14 @@
                         </item>
 
                         <item xml:id="e3">
-                           <locus target="#78v">Fol. 78v</locus>
+                           <locus target="#78v"/>
                            <desc>The name of the weekday is included within the body of the text and marked by red and black dots above and below.</desc>
                            <q xml:lang="gez">ዕለተ፡ ሐሙስ<supplied reason="omitted" resp="DR">፡</supplied>
                            </q>
                         </item>
 
                         <item xml:id="e4">
-                           <locus target="#9v">Fol. 9v</locus>
+                           <locus target="#9v"/>
                            <desc>At the upper left border of the text area, a band consisting of black and red dots on <hi rendition="simple:italic">ca</hi> half of the length of
                            the text area.</desc>
                            <q xml:lang="gez">ዕለተ፡ ሐሙስ<supplied reason="omitted" resp="DR">፡</supplied>
@@ -346,25 +345,25 @@
                         </item>
 
                         <item xml:id="e5">
-                           <locus target="#61r">Fol. 61r</locus>
+                           <locus target="#61r"/>
                            <desc>Arabic title in pencil in the top margin.</desc>
                            <q xml:lang="ar">صلوات (عن العذراء(</q>
                         </item>
 
                         <item xml:id="e6">
-                           <locus target="#61r">Fol. 61r</locus>
+                           <locus target="#61r"/>
                            <desc>Added in left corner of the top margin.</desc>
                            <q xml:lang="ar">١</q>
                         </item>
 
                         <item xml:id="e7">
-                           <locus target="#2r #3v #9r #13r">Fols. 2r, 3v, 9r, 13r</locus>
+                           <locus target="#2r #3v #9r #13r"/>
                            <desc>Omitted characters have been added above the line, for example in the places stated above.</desc>
                            <q xml:lang="gez"/>
                         </item>
 
                         <item xml:id="e8">
-                           <locus target="#2r #14v #16v #18v">Fols. 2r, 14v, 16v, 18v</locus>
+                           <locus target="#2r #14v #16v #18v"/>
                            <desc>Mistaken characters are expunctuated in red or black, for example in the places stated above.</desc>
                            <q xml:lang="gez"/>
                         </item>
@@ -407,9 +406,9 @@
                         These Guidelines detail the TEI format ruled by 
                         the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
                         The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/BetMas/modules/expand.xqm">Xquery transformation</ref> 
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:textClass>
             <t:keywords>
@@ -422,13 +421,13 @@
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#DN" when="2018-02-28">Denis Nosnitsin: Recorded manuscript</change>
-         <change who="#DR" when="2018-04-04">Dorothea Reule: Created catalogue entry</change>
-         <change who="#DR" when="2018-06-22">Dorothea Reule: Added text</change>
-         <change who="#DR" when="2019-02-11">Dorothea Reule: Updated description upon consultation of the manuscript</change>
-         <change who="#DR" when="2020-05-04">Dorothea Reule: Continued description</change>
-         <change who="#DR" when="2020-12-15">Dorothea Reule: Continued description and revision</change>
-         <change who="#DN" when="2020-12-15">Denis Nosnitsin: Continued description and revision</change>
+         <change who="#DN" when="2018-02-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Recorded manuscript</change>
+         <change who="#DR" when="2018-04-04"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
+         <change who="#DR" when="2018-06-22"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added text</change>
+         <change who="#DR" when="2019-02-11"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated description upon consultation of the manuscript</change>
+         <change who="#DR" when="2020-05-04"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description</change>
+         <change who="#DR" when="2020-12-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description and revision</change>
+         <change who="#DN" when="2020-12-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description and revision</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>

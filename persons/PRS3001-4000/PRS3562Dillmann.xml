@@ -1,29 +1,12 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS3562Dillmann">
-    <teiHeader xml:base="https://betamasaheft.eu/">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS3562Dillmann"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
-         <titleStmt>
-                <title type="full"> Christian Friedrich August Dillmann</title>
+         <titleStmt><title type="full">No item: PRS3562Dillmann</title>
             <title>Dillmann</title>
             <editor key="SG" corresp="https://betamasaheft.eu/team.html#SG" xml:id="SG">Solomon Gebreyes</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <author/>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB">
-                    <resp>general editor</resp>
-                    <name>Alessandro Bausi</name>
-                </respStmt>
-                <respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG">
-                    <resp>editor</resp>
-                    <name>Solomon Gebreyes</name>
-                </respStmt>
-                <respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL">
-                    <resp>contributor</resp>
-                    <name>Pietro Maria Liuzzo</name>
-                </respStmt>
-                <respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES">
-                    <resp>contributor</resp>
-                    <name>Eugenia Sokolinski</name>
-                </respStmt>
-            </titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -34,14 +17,7 @@
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
-         <date type="expanded">14.2.2025 at 17:21:14</date>
-                <date type="lastModified">26.7.2017</date>
-                <idno type="collection">persons</idno>
-                <idno type="url">https://betamasaheft.eu/persons/PRS3562Dillman/main</idno>
-                <idno type="URI">https://betamasaheft.eu/PRS3562Dillman</idno>
-                <idno type="filename">PRS3562Dillman.xml</idno>
-                <idno type="ID">PRS3562Dillman</idno>
-            </publicationStmt>
+         <date type="expanded">10.10.2025 at 03:29:51</date><date type="lastModified">26.7.2017</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS3562Dillmann/main</idno><idno type="URI">https://betamasaheft.eu/PRS3562Dillmann</idno><idno type="filename">PRS3562Dillmann.xml</idno><idno type="ID">PRS3562Dillmann</idno></publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
@@ -59,75 +35,11 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p>
-            <listPrefixDef>
-                <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/>
-                <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/>
-                <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/>
-                <prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/>
-                <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/>
-                <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/>
-                <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/>
-                <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/>
-                <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/>
-                <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/>
-                <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-                <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/>
-                <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/>
-                <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/>
-                <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/>
-                <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/>
-                <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/>
-                <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/>
-                <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/>
-                <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/>
-                <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
-            </listPrefixDef>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml">
-                <xi:fallback>
-                    <p>Definitions of prefixes used.</p>
-                </xi:fallback>
-            </xi:include>
-            <source-url>
-                <assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/>
-            </source-url>
-        </encodingDesc>
-      <profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-      <calendarDesc>
-                <calendar xml:id="world">
-                    <p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p>
-                </calendar>
-                <calendar xml:id="ethiopian">
-                    <p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p>
-                </calendar>
-                <calendar xml:id="grace">
-                    <p>ʿĀmata məḥrat (Era of Grace)</p>
-                </calendar>
-                <calendar xml:id="diocletian">
-                    <p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p>
-                </calendar>
-                <calendar xml:id="alexander">
-                    <p> Era of Alexander</p>
-                </calendar>
-                <calendar xml:id="evangelists">
-                    <p>Evangelists' years</p>
-                </calendar>
-                <calendar xml:id="islamic">
-                    <p>Hiǧrī (Islamic)</p>
-                </calendar>
-                <calendar xml:id="hijri">
-                    <p>Hiǧrī (Islamic) in IslHornAfr</p>
-                </calendar>
-                <calendar xml:id="julian">
-                    <p>Julian</p>
-                </calendar>
-            </calendarDesc>
-        </profileDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
+      <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#PL" when="2016-04-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->batch updated according to requirements and issues.</change>
          <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
@@ -136,13 +48,9 @@
          <change who="#SG" when="2017-04-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->complete record </change>
          <change who="#SG" when="2017-07-26"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->correction to relation </change>
       </t:revisionDesc>
-   </teiHeader>
-    <standOff>
-        <listRelation>
+   </teiHeader><standOff><listRelation>
                <relation name="snap:ProfessionalRelationship" ref="http://data.snapdrgn.net/ontology/snap#ProfessionalRelationship" active="https://betamasaheft.eu/PRS3562Dillmann" passive="https://betamasaheft.eu/PRS6324Littmann"/>
-            </listRelation>
-    </standOff>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
          <t:listPerson>
             <t:person sex="1" sameAs="wd:Q75216">
@@ -166,158 +74,16 @@
          
          
                <t:listBibl type="secondary">
-                  <t:bibl corresp="http://zotero.org/groups/358366/items/E5TRKWRH">
-                    <seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg>
-                    <ptr target="bm:Kleiner2005Dillmann"/>
-                    <title level="a">Dillmann, Christian Friedrich August</title>
-                    <title type="short">EAe</title>
-                    <title level="m">Encyclopaedia Aethiopica</title>
-                    <author>
-                        <forename>Michael</forename>
-                        <surname>Kleiner</surname>
-                    </author>
-                    <editor>
-                        <forename>Siegbert</forename>
-                        <surname>Uhlig</surname>
-                    </editor>
-                    <pubPlace>Wiesbaden</pubPlace>
-                    <publisher>Harrassowitz Verlag</publisher>
-                    <date>2005</date>
-                    <biblScope unit="volume">II</biblScope>
-                    <biblScope unit="page">160a-161b</biblScope>
-                    <note type="tags">
-                        <note type="tag">bm:Kleiner2005Dillmann</note>
-                    </note>
-                    <note type="tag">bm:Kleiner2005Dillmann</note>
-                </t:bibl>   
+                  <t:bibl corresp="http://zotero.org/groups/358366/items/E5TRKWRH"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Kleiner2005Dillmann"/><title level="a">Dillmann, Christian Friedrich August</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Michael</forename><surname>Kleiner</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">160a-161b</biblScope><note type="tags"><note type="tag">bm:Kleiner2005Dillmann</note></note><note type="tag">bm:Kleiner2005Dillmann</note></t:bibl>   
                   
-                  <t:bibl corresp="http://zotero.org/groups/358366/items/SU9JGBIJ">
-                    <seg type="bookSection"><!-- attributes from original bibl--></seg>
-                    <ptr target="bm:BausiSokolinski2016Traces"/>
-                    <title level="a">The TraCES project and Gǝʿǝz studies</title>
-                    <title level="m">150 Years after Dillmann’s Lexicon: Perspectives and Challenges of Gǝʿǝz Studies</title>
-                    <title level="s">Supplement to Aethiopica</title>
-                    <author>
-                        <forename>Eugenia</forename>
-                        <surname>Sokolinski</surname>
-                    </author>
-                    <editor>
-                        <forename>Alessandro</forename>
-                        <surname>Bausi</surname>
-                    </editor>
-                    <editor>
-                        <forename>Eugenia</forename>
-                        <surname>Sokolinski</surname>
-                    </editor>
-                    <pubPlace>Wiesbaden</pubPlace>
-                    <publisher>Harrassowitz Verlag</publisher>
-                    <date>2016</date>
-                    <series>
-                        <title level="s">Supplement to Aethiopica</title>
-                        <biblScope unit="volume">5</biblScope>
-                    </series>
-                    <biblScope unit="page">13-16</biblScope>
-                    <biblScope unit="volume">5</biblScope>
-                    <note type="tags">
-                        <note type="tag">TraCES</note>
-                        <note type="tag">bm:BausiSokolinski2016Traces</note>
-                    </note>
-                    <note type="tag">TraCES</note>
-                    <note type="tag">bm:BausiSokolinski2016Traces</note>
-                </t:bibl>
-                  <t:bibl corresp="http://zotero.org/groups/358366/items/7ZZZFCDK">
-                    <seg type="book"><!-- attributes from original bibl--></seg>
-                    <ptr target="bm:Dillmann1865Lexicon"/>
-                    <title level="m">Lexicon linguae aethiopicae, Cum indice latino. Adiectum est vocabularium tigre dialecti septentrionalis compilatum a W. Munziger</title>
-                    <author>
-                        <forename>Christian Friedrich August</forename>
-                        <surname>Dillmann</surname>
-                    </author>
-                    <pubPlace>Lipsiae</pubPlace>
-                    <publisher>T. O. Weigel</publisher>
-                    <date>1865</date>
-                    <note type="url">https://archive.org/details/lexiconlinguaeae00dilluoft</note>
-                    <note type="tags">
-                        <note type="tag">Ethiopic</note>
-                        <note type="tag">Dictionaries</note>
-                        <note type="tag">bm:Dillmann1865Lexicon</note>
-                        <note type="tag">Lexicon</note>
-                        <note type="tag">Comparative dictionary</note>
-                    </note>
-                    <note type="tag">Ethiopic</note>
-                    <note type="tag">Dictionaries</note>
-                    <note type="tag">bm:Dillmann1865Lexicon</note>
-                    <note type="tag">Lexicon</note>
-                    <note type="tag">Comparative dictionary</note>
-                </t:bibl>
-                  <t:bibl corresp="http://zotero.org/groups/358366/items/2WJZG9ZU">
-                    <seg type="bookSection"><!-- attributes from original bibl--></seg>
-                    <ptr target="bm:Dillmann1850Jubilaeen"/>
-                    <title level="a">Das Buch der Jubiläen oder die kleine Genesis</title>
-                    <title level="m">Jahrbücher der biblischen Wissenschaft</title>
-                    <author>
-                        <forename>August</forename>
-                        <surname>Dillmann</surname>
-                    </author>
-                    <pubPlace>Göttingen</pubPlace>
-                    <publisher>In der Dieterichschen Buchhandlung</publisher>
-                    <date>1850</date>
-                    <biblScope unit="volume">II: 1849</biblScope>
-                    <biblScope unit="page">230-256</biblScope>
-                    <note type="url">https://books.google.de/books?id=S34bAQAAIAAJ&amp;printsec=frontcover&amp;hl=fr&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</note>
-                    <note type="tags">
-                        <note type="tag">Jubilees</note>
-                        <note type="tag">bm:Dillmann1850Jubilaeen</note>
-                    </note>
-                    <note type="tag">Jubilees</note>
-                    <note type="tag">bm:Dillmann1850Jubilaeen</note>
-                </t:bibl>
+                  <t:bibl corresp="http://zotero.org/groups/358366/items/SU9JGBIJ"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:BausiSokolinski2016Traces"/><title level="a">The TraCES project and Gǝʿǝz studies</title><title level="m">150 Years after Dillmann’s Lexicon: Perspectives and Challenges of Gǝʿǝz Studies</title><title level="s">Supplement to Aethiopica</title><author><forename>Eugenia</forename><surname>Sokolinski</surname></author><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><editor><forename>Eugenia</forename><surname>Sokolinski</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2016</date><series><title level="s">Supplement to Aethiopica</title><biblScope unit="volume">5</biblScope></series><biblScope unit="page">13-16</biblScope><biblScope unit="volume">5</biblScope><note type="tags"><note type="tag">TraCES</note><note type="tag">bm:BausiSokolinski2016Traces</note></note><note type="tag">TraCES</note><note type="tag">bm:BausiSokolinski2016Traces</note></t:bibl>
+                  <t:bibl corresp="http://zotero.org/groups/358366/items/7ZZZFCDK"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Dillmann1865Lexicon"/><title level="m">Lexicon linguae aethiopicae: cum indice latino. Adiectum est vocabularium tigre dialecti septentrionalis compilatum a W. Munziger</title><author><t:forename>Christian Friedrich August</t:forename><t:surname>Dillmann</t:surname></author><pubPlace>Lipsiae</pubPlace><publisher>T. O. Weigel</publisher><date>1865</date><note type="url">https://archive.org/details/lexiconlinguaeae00dilluoft/page/n5/mode/2up</note></t:bibl>
+                  <t:bibl corresp="http://zotero.org/groups/358366/items/2WJZG9ZU"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Dillmann1850Jubilaeen"/><title level="a">Das Buch der Jubiläen oder die kleine Genesis</title><title level="m">Jahrbücher der biblischen Wissenschaft</title><author><t:forename>August</t:forename><t:surname>Dillmann</t:surname></author><pubPlace>Göttingen</pubPlace><publisher>In der Dieterichschen Buchhandlung</publisher><date>1850</date><biblScope unit="volume">II: 1849</biblScope><biblScope unit="page">230-256</biblScope><note type="url">https://books.google.de/books?id=S34bAQAAIAAJ&amp;printsec=frontcover&amp;hl=fr&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</note></t:bibl>
                   
-                  <t:bibl corresp="http://zotero.org/groups/358366/items/7ZFXVB97">
-                    <seg type="book"><!-- attributes from original bibl--></seg>
-                    <ptr target="bm:Dillmann1884Amda"/>
-                    <title level="m">Die Kriegsthaten des Königs ʿAmda-Ṣion gegen di Muslim</title>
-                    <title level="s">Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften zu Berlin</title>
-                    <author>
-                        <forename>August</forename>
-                        <surname>Dillmann</surname>
-                    </author>
-                    <pubPlace>Berlin</pubPlace>
-                    <publisher>Reichsdruckerei</publisher>
-                    <date>1884</date>
-                    <series>
-                        <title level="s">Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften zu Berlin</title>
-                        <biblScope unit="volume">XVIII. Sitzung der philosophisch-historischen Klasse vom 6. November 1884</biblScope>
-                    </series>
-                    <biblScope unit="volume">XVIII. Sitzung der philosophisch-historischen Klasse vom 6. November 1884</biblScope>
-                    <note type="url">https://www.europeana.eu/portal/en/record/9200143/BibliographicResource_2000069463365.html</note>
-                    <note type="tags">
-                        <note type="tag">bm:Dillmann1884Amda</note>
-                    </note>
-                    <note type="tag">bm:Dillmann1884Amda</note>
-                </t:bibl>
-                  <t:bibl corresp="http://zotero.org/groups/358366/items/RM3CUPK4">
-                    <seg type="book"><!-- attributes from original bibl--></seg>
-                    <ptr target="bm:Dillmann1859Kufale"/>
-                    <title level="m">መጽሐፈ፡ ኩፋሌ፡ (Maṣḥafa kufāle) sive Liber Jubilaeorum qui idem a Graecis &lt;hi rend="italics"&gt;η λεπτη γενεσις&lt;/hi&gt; inscribitur : versione Graeca deperdita nunc nonnisi in Geez lingua conservatus nuper ex Abyssini in Europam allatus</title>
-                    <author>
-                        <forename>August</forename>
-                        <surname>Dillmann</surname>
-                    </author>
-                    <pubPlace>Kiliae–Londini</pubPlace>
-                    <publisher>apud C. G. I. van Maack–apud Williams et Norgate</publisher>
-                    <date>1859</date>
-                    <note type="url">https://archive.org/details/liberjubilaeorum00dilluoft</note>
-                    <note type="tags">
-                        <note type="tag">bm:Dillmann1859Kufale</note>
-                        <note type="tag">Jubilees</note>
-                    </note>
-                    <note type="tag">bm:Dillmann1859Kufale</note>
-                    <note type="tag">Jubilees</note>
-                </t:bibl>
+                  <t:bibl corresp="http://zotero.org/groups/358366/items/7ZFXVB97"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Dillmann1884Amda"/><title level="m">Die Kriegsthaten des Königs ʿAmda-Ṣion gegen di Muslim</title><title level="s">Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften zu Berlin</title><author><t:forename>August</t:forename><t:surname>Dillmann</t:surname></author><pubPlace>Berlin</pubPlace><publisher>Reichsdruckerei</publisher><date>1884</date><series><t:title level="s">Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften zu Berlin</t:title><t:biblScope unit="volume">XVIII. Sitzung der philosophisch-historischen Klasse vom 6. November 1884</t:biblScope></series><biblScope unit="volume">XVIII. Sitzung der philosophisch-historischen Klasse vom 6. November 1884</biblScope><note type="url">https://www.europeana.eu/portal/en/record/9200143/BibliographicResource_2000069463365.html</note></t:bibl>
+                  <t:bibl corresp="http://zotero.org/groups/358366/items/RM3CUPK4"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Dillmann1859Kufale"/><title level="m">መጽሐፈ፡ ኩፋሌ፡ (Maṣḥafa kufāle) sive Liber Jubilaeorum qui idem a Graecis &lt;hi rend="italics"&gt;η λεπτη γενεσις&lt;/hi&gt; inscribitur: versione Graeca deperdita nunc nonnisi in Geez lingua conservatus nuper ex Abyssini in Europam allatus</title><author><t:forename>August</t:forename><t:surname>Dillmann</t:surname></author><pubPlace>Kiliae–Londini</pubPlace><publisher>apud C. G. I. van Maack–apud Williams et Norgate</publisher><date>1859</date><note type="url">https://archive.org/details/liberjubilaeorum00dilluoft</note></t:bibl>
                   
                </t:listBibl>
                
       </t:body>
-   </t:text>
-</TEI>
+   </t:text></TEI>

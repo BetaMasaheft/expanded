@@ -1,12 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT6833Salam"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Salām lakkǝmu ṣādǝqān wa-samāʿt...</title>
                 <title xml:lang="gez" xml:id="t1">ሰላም፡ ለክሙ፡ ጻድቃን፡ ወሰማዕት፡</title>
-                 <title xml:lang="gez" corresp="#t1" type="normalized">Salām lakkǝmu ṣādǝqān wa-samāʿt...</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                 <title xml:lang="gez" corresp="#t1" type="normalized">Salām lakǝmu ṣādǝqān wa-samāʿt...</title>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="CH" corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH">Carsten Hoffmann</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-CH" corresp="https://betamasaheft.eu/team.html#CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
+            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-CH" corresp="https://betamasaheft.eu/team.html#CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -16,7 +17,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">30.6.2025 at 12:52:46</date><date type="lastModified">2.6.2023</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6833Salam/main</idno><idno type="URI">https://betamasaheft.eu/LIT6833Salam</idno><idno type="filename">LIT6833Salam.xml</idno><idno type="ID">LIT6833Salam</idno></publicationStmt>
+            <date type="expanded">10.10.2025 at 23:40:26</date><date type="lastModified">16.9.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6833Salam/main</idno><idno type="URI">https://betamasaheft.eu/LIT6833Salam</idno><idno type="filename">LIT6833Salam.xml</idno><idno type="ID">LIT6833Salam</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -52,6 +53,7 @@
         <revisionDesc>
             <change who="#CH" when="2023-06-01"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
             <change who="#CH" when="2023-06-02"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrections after review by  Dorothea Reule</change>
+            <change who="#CH" when="2025-09-16"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated transcription lakǝmu</change>
         </revisionDesc>
     </teiHeader><standOff><listRelation>
                     <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT6833Salam" passive="https://betamasaheft.eu/BMLacq680"/>
@@ -62,7 +64,7 @@
                 
             </div>
             <div type="edition" xml:lang="gez">
-                <note>The following text is taken from <ref type="mss" corresp="https://betamasaheft.eu/BMLacq680#ms_i4">No item: BMLacq680, could not check for ms_i4</ref>.</note>
+                <note>The following text is taken from <ref type="mss" corresp="https://betamasaheft.eu/BMLacq680#ms_i4">Florence, Biblioteca Medicea Laurenziana, BML Acq. e doni 680: Salām lakkǝmu ṣādǝqān wa-samāʿt... (in ms_i4)</ref>.</note>
                 <ab>ሰላም፡ ለክሙ፡ ጻድቃን፡ ወሰማዕት። እለ፡ አዕረፍክሙ፡ በዛቲ፡ ዕለት። መዋዕያነ፡ ዓለም፡ አንትሙ፡
                     በብዙኅ፡ ትዕግሥት። ሰአሉ፡ ቅድመ፡ ፈጣሪ፡ በኵሉ፡ ሰዓት። እንበለ፡ ንስሐ፡ ኪያነ፡ ኢይንሣእ፡ ሞት። ለዘጸሐሮ፡ በክርታስ። ወለዘአጽሐፎ፡
                     እንዘ፡ ይደርስ። ለዘአንበቦ፡ ወለዘተርጐሞ፡ በልሳን፡ ሐዲስ። ወለዘሰምዓ፡ ቃሎ፡ በዕዝነ፡ መንፈስ።</ab>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS14936Seckendorff"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Gustav von Seckendorff</title>
@@ -15,7 +16,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">22.7.2025 at 12:29:53</date><date type="lastModified">1.7.2025</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS14936Seckendorff/main</idno><idno type="URI">https://betamasaheft.eu/PRS14936Seckendorff</idno><idno type="filename">PRS14936Seckendorff.xml</idno><idno type="ID">PRS14936Seckendorff</idno></publicationStmt>
+            <date type="expanded">10.10.2025 at 03:29:51</date><date type="lastModified">27.7.2025</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS14936Seckendorff/main</idno><idno type="URI">https://betamasaheft.eu/PRS14936Seckendorff</idno><idno type="filename">PRS14936Seckendorff.xml</idno><idno type="ID">PRS14936Seckendorff</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -43,7 +44,8 @@
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
         <revisionDesc>
             <change who="#CH" when="2025-07-01"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
-            
+            <change who="#CH" when="2025-07-03"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrections after reviews of Nafisa Valieva and Magdalena Krzyżanowska</change>
+            <change who="#CH" when="2025-07-27"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrections after review of Dorothea Reule</change>
         </revisionDesc>
     </teiHeader><standOff><listRelation>
                     <relation name="saws:hasOwned" ref="http://purl.org/saws/ontology#hasOwned" active="https://betamasaheft.eu/PRS14936Seckendorff" passive="https://betamasaheft.eu/PetermannIINachtrag42"/>
@@ -52,8 +54,8 @@
             <listPerson>
                 <person sex="1">
                     <persName><forename>Gustav</forename> <surname>von Seckendorff</surname></persName>
-                    <persName xml:lang="de"><roleName type="title">Freiherr</roleName></persName>
-                    <persName xml:lang="de"><roleName type="title">Graf</roleName></persName>
+                    <persName xml:lang="de"><t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">Freiherr</t:roleName></persName>
+                    <persName xml:lang="de"><t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">Graf</t:roleName></persName>
                     <occupation type="military">Lieutenant (Leutnant) im Königlichen Garde-Füsilier-Regiment</occupation>
                     <nationality type="Germany"/>
                     <floruit notBefore="1800" notAfter="1899">19th century</floruit>
@@ -61,7 +63,7 @@
                 
             </listPerson>
             <listBibl type="secondary">
-                <bibl corresp="http://zotero.org/groups/358366/items/8LQUJ3BU"><seg type="blogPost"><!-- attributes from original bibl--></seg><ptr target="bm:Adelskartei1998Füsiliere"/><title level="m">Offiziere des Garde-Füsilier-Regiments 1826-1918 in Adelskartei.de</title><title type="short">Adelkartei.de</title><date/><note type="accessed">0205-07-01</note><note type="url">http://www.adelskartei.de/203.htm</note></bibl>
+                <bibl corresp="http://zotero.org/groups/358366/items/8LQUJ3BU"><seg type="blogPost"><!-- attributes from original bibl--></seg><ptr target="bm:Adelskartei1998Fuesiliere"/><title level="m">Offiziere des Garde-Füsilier-Regiments 1826-1918 in Adelskartei.de</title><title type="short">Adelkartei.de</title><date/><note type="accessed">0205-07-01</note><note type="url">http://www.adelskartei.de/203.htm</note></bibl>
             </listBibl>
         </body>
     </text></TEI>

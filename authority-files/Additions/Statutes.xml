@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="auth" xml:id="Statutes"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt><title type="full">Statutes</title>
@@ -14,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">22.7.2025 at 13:39:29</date><date type="lastModified">30.7.2018</date><idno type="collection">authority-files</idno><idno type="url">https://betamasaheft.eu/authority-files/Statutes/main</idno><idno type="URI">https://betamasaheft.eu/Statutes</idno><idno type="filename">Statutes.xml</idno><idno type="ID">Statutes</idno></publicationStmt>
+            <date type="expanded">10.10.2025 at 00:04:11</date><date type="lastModified">30.7.2018</date><idno type="collection">authority-files</idno><idno type="url">https://betamasaheft.eu/authority-files/Statutes/main</idno><idno type="URI">https://betamasaheft.eu/Statutes</idno><idno type="filename">Statutes.xml</idno><idno type="ID">Statutes</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -31,38 +32,38 @@
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
                         the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-        <profileDesc>
-            <abstract>
-                <p>
+        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <t:abstract>
+                <t:p>
                     Regulations, statutes, constitutions of the churches; monastic rules. They have various shapes and are in many cases hardly understandable. 
-                </p>
-                <p>Examples are:
-                <list>
-                    <item>
-                     <p>
-                        <ref type="mss" corresp="https://betamasaheft.eu/ESdmd003">ESdmd003</ref>, f. 48va, 146r;</p>
-                  </item>
-                    <item>
-                     <p>
-                        <ref type="mss" corresp="https://betamasaheft.eu/ESdd015">ESdd015</ref>, f. 3r: <foreign xml:lang="gez">ዳሞ፡ ሥርዓት፡<gap reason="omitted"/>;</foreign>
-                     </p>
-                  </item>
-                    <item>
-                     <p>
-                        <ref type="mss" corresp="https://betamasaheft.eu/ESgbi001">ESgbi001</ref>, f. 5v, regulation established by the community concerning the office of <foreign xml:lang="gez">gabaz</foreign>: <foreign xml:lang="gez">በስመ፡ አብ፡ ወወልደ፡ ወመንፈስ፡ ቅዱስ፡ ፩አምላክ፡ ገዳመ፡ ኢየሱስ፡ ፪ገበዝ፡ ነበሩ፡ ኋላ፡ ማሕበር፡ መክረው፡ በአመት፡ አንድ፡ ገበዝ፡ ይሁንልነ፡ ብሎው፡ ለመምህር፡ ነገሩት፡ መምሕርም፡ ይሁንላሸሁ፡ ነገር፡ ግን፡ በ{ግ}ድ፡ አይደለም፡ በእዳ፡ ይሁንልነ፡ በለው፡ ነውጂ፡ ኢግድየሕ፡ ህግ፡ ይሁንልነ፡ ብለው፡ ትፉጻጽ፡ መውታል፡ ለገብዝ፡ መጠውፍያ፡ ሰጣጡ፡ ሶእር፡ ተመርየት፡ ጨቃበ፡ ቤተ፡ ክርስቲያን፡ የተገኜ፡ ተዘቢብ፡ ተአጠ{ን}፡ {ደሞ} ተግምኛ፡ በቀር፡ ከአስር፡ አንድ፡ ይብላ፡ ከአር፡ ቤታ፡ ከአስር፡ አንድ፡ ይብላ፡ ጉርድም፡ ተጻነማድጋ፡ ይብላ፡ ብለው፡ መምሕር፡ ማህበር፡ ሃገጉ፡ ለማሕበር፡ ፈጸምነ፡ ያግባ፡ ገብዝ፡ ለዚሕ፡ ሁሉ፡ ህግ፡ ምስክር፡ የተደረጉት፡ ቄስ፡ ወልደ፡ ስላሴ፡ አቶ፡ ወልደ፡ አቶ፡ ተስፋይ፡ ፫ምስክር፡ ያደረጉት፡ ማሕበር፡ ይነን፡ ሕግ፡ ያፈረሰ፡ ውጉዝ፡ ይሁን፡ በስልጣነ፡ ሃዋርያት።</foreign>
-                     </p>
-                  </item>
-                </list>
-            </p>
-            </abstract>
+                </t:p>
+                <t:p>Examples are:
+                <t:list>
+                    <t:item>
+                     <t:p>
+                        <t:ref type="mss" corresp="https://betamasaheft.eu/ESdmd003">Gāntā ʾAfašum, Dǝblā Yoḥannǝs Maṭmǝq, DMD-003</t:ref>, f. 48va, 146r;</t:p>
+                  </t:item>
+                    <t:item>
+                     <t:p>
+                        <t:ref type="mss" corresp="https://betamasaheft.eu/ESdd015">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy, Dabra Dāmmo ʾAbuna ʾAragāwi, DD-015</t:ref>, f. 3r: <t:foreign xml:lang="gez">ዳሞ፡ ሥርዓት፡<t:gap reason="omitted"/>;</t:foreign>
+                     </t:p>
+                  </t:item>
+                    <t:item>
+                     <t:p>
+                        <t:ref type="mss" corresp="https://betamasaheft.eu/ESgbi001">Gāntā ʾAfašum, Gʷāḥgot ʾIyasus, GBI-001</t:ref>, f. 5v, regulation established by the community concerning the office of <t:foreign xml:lang="gez">gabaz</t:foreign>: <t:foreign xml:lang="gez">በስመ፡ አብ፡ ወወልደ፡ ወመንፈስ፡ ቅዱስ፡ ፩አምላክ፡ ገዳመ፡ ኢየሱስ፡ ፪ገበዝ፡ ነበሩ፡ ኋላ፡ ማሕበር፡ መክረው፡ በአመት፡ አንድ፡ ገበዝ፡ ይሁንልነ፡ ብሎው፡ ለመምህር፡ ነገሩት፡ መምሕርም፡ ይሁንላሸሁ፡ ነገር፡ ግን፡ በ{ግ}ድ፡ አይደለም፡ በእዳ፡ ይሁንልነ፡ በለው፡ ነውጂ፡ ኢግድየሕ፡ ህግ፡ ይሁንልነ፡ ብለው፡ ትፉጻጽ፡ መውታል፡ ለገብዝ፡ መጠውፍያ፡ ሰጣጡ፡ ሶእር፡ ተመርየት፡ ጨቃበ፡ ቤተ፡ ክርስቲያን፡ የተገኜ፡ ተዘቢብ፡ ተአጠ{ን}፡ {ደሞ} ተግምኛ፡ በቀር፡ ከአስር፡ አንድ፡ ይብላ፡ ከአር፡ ቤታ፡ ከአስር፡ አንድ፡ ይብላ፡ ጉርድም፡ ተጻነማድጋ፡ ይብላ፡ ብለው፡ መምሕር፡ ማህበር፡ ሃገጉ፡ ለማሕበር፡ ፈጸምነ፡ ያግባ፡ ገብዝ፡ ለዚሕ፡ ሁሉ፡ ህግ፡ ምስክር፡ የተደረጉት፡ ቄስ፡ ወልደ፡ ስላሴ፡ አቶ፡ ወልደ፡ አቶ፡ ተስፋይ፡ ፫ምስክር፡ ያደረጉት፡ ማሕበር፡ ይነን፡ ሕግ፡ ያፈረሰ፡ ውጉዝ፡ ይሁን፡ በስልጣነ፡ ሃዋርያት።</t:foreign>
+                     </t:p>
+                  </t:item>
+                </t:list>
+            </t:p>
+            </t:abstract>
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-        <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change who="#DR" when="2018-07-30"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added definition</change>
             <change who="#DR" when="2018-07-30"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
-        </revisionDesc>
-    </teiHeader><text xml:base="https://betamasaheft.eu/">
-        <body>
-            <p/>
-        </body>
-    </text></TEI>
+        </t:revisionDesc>
+    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+        <t:body>
+            <t:p/>
+        </t:body>
+    </t:text></TEI>

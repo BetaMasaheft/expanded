@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC4545Maqala"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
-         <titleStmt><title type="full">Maala</title>
-            <title>Maala</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+         <titleStmt><title type="full">Maq̲ala</title>
+            <title>Maq̲ala</title>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <editor key="FP" corresp="https://betamasaheft.eu/team.html#FP" xml:id="FP">Francesca Panini</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-FP" corresp="https://betamasaheft.eu/team.html#FP"><resp>editor</resp><name>Francesca Panini</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
                Zentrum für Äthiopistik</authority>
@@ -19,7 +20,7 @@
             </availability>
 
             <date>2016-03-21</date>
-         <date type="expanded">2022-01-05T15:14:57.706+01:00</date><date type="lastModified">28.7.2017</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC4545Maqala</idno><idno type="URI">https://betamasaheft.eu/LOC4545Maqala</idno><idno type="filename">LOC4545Maqala.xml</idno><idno type="ID">LOC4545Maqala</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 22:33:12</date><date type="lastModified">28.7.2017</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC4545Maqala/main</idno><idno type="URI">https://betamasaheft.eu/LOC4545Maqala</idno><idno type="filename">LOC4545Maqala.xml</idno><idno type="ID">LOC4545Maqala</idno></publicationStmt>
          <sourceDesc>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
@@ -33,28 +34,28 @@
                         These Guidelines detail the TEI format ruled by 
                         the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
                         The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/BetMas/modules/expand.xqm">Xquery transformation</ref> 
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:langUsage><t:language ident="en">English</t:language><t:language ident="ti">Tigrinya</t:language><t:language ident="am">Amharic</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#FP" when="2017-07-28">Francesca Panini: added info</change>
-         <change who="#PL" when="2016-04-28">Pietro Maria Liuzzo: harmonized typology based on Eugenia indication in Issue
+         <change who="#FP" when="2017-07-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added info</change>
+         <change who="#PL" when="2016-04-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->harmonized typology based on Eugenia indication in Issue
             48.</change>
-         <change who="#PL" when="2016-03-21">Pietro Maria Liuzzo:  Created file from google spreadsheet </change>
-         <change who="#ES" when="2016-02-09">Eugenia Sokolinski: CREATED: place</change>
+         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google spreadsheet </change>
+         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: place</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="dc:relation" ref="http://purl.org/dc/terms/relation" active="https://betamasaheft.eu/LOC4545Maqala" passive="https://betamasaheft.eu/LOC2922EndaMa">
-                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">Maala probably evolved from a 13th-century hamlet called Ǝndā
+                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">Maq̲ala probably evolved from a 13th-century hamlet called ʾƎndā
                      Masqal.</t:desc>
                </relation>
                <relation name="dc:relation" ref="http://purl.org/dc/terms/relation" active="https://betamasaheft.eu/LOC4545Maqala" passive="https://betamasaheft.eu/LOC2908EndaMa">
-                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">Maala probably evolved from a 13th-century hamlet called Ǝndā Masqal, later
-                     Ǝndā Madḫane ʿAlam.</t:desc>
+                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">Maq̲ala probably evolved from a 13th-century hamlet called ʾƎndā Masqal, later
+                     ʾƎndā Madḫane ʿAlam.</t:desc>
                </relation>
             </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
@@ -62,7 +63,7 @@
             <t:place type="town" sameAs="wd:Q332319">
                <t:placeName xml:id="n1" xml:lang="ti">መቐለ፡</t:placeName>
                <t:placeName corresp="#n1" xml:lang="en">Makallé</t:placeName>
-               <t:placeName corresp="#n1" xml:lang="ti" type="normalized">Maala</t:placeName>
+               <t:placeName corresp="#n1" xml:lang="ti" type="normalized">Maq̲ala</t:placeName>
                <t:placeName xml:id="n2" xml:lang="am" type="alt">መቀሌ፡</t:placeName>
                <t:placeName corresp="#n2" xml:lang="am" type="normalized">Maqalle</t:placeName>
                <t:state type="existence" ref="ZaMa"/>
@@ -80,18 +81,18 @@
                <t:note>
                   <t:date type="foundation" notBefore="1800" notAfter="1850" precision="low">early
                      19th century</t:date>
-                  <t:ab type="history">Maala probably evolved from a <t:date notBefore="1200" notAfter="1299">13th</t:date>-century hamlet called <t:placeName ref="https://betamasaheft.eu/LOC2922EndaMa">Ǝndā Masqal</t:placeName> (later <t:placeName ref="https://betamasaheft.eu/LOC2908EndaMa">Ǝndā Madḫane ʿAlam</t:placeName>). It became a town by the
-                        <t:date notBefore="1800" notAfter="1850">early 19th</t:date> century. Maala
+                  <t:ab type="history">Maq̲ala probably evolved from a <t:date notBefore="1200" notAfter="1299">13th</t:date>-century hamlet called <t:placeName ref="https://betamasaheft.eu/LOC2922EndaMa">ʾƎndā Masqal</t:placeName> (later <t:placeName ref="https://betamasaheft.eu/LOC2908EndaMa">ʾƎndā Madḫane ʿAlam</t:placeName>). It became a town by the
+                     <t:date notBefore="1800" notAfter="1850">early 19th</t:date> century. Maq̲ala
                      grew into a regional centre under <t:persName ref="https://betamasaheft.eu/PRS10378Yohanne">Yoḥannǝs
                         IV</t:persName> who chose it for strategic reasons, both commercial (it was
                      located along important trade routes) and political (it was located on the
-                     route to Šawā). Maala became an important market town and, in the <t:date notBefore="1880" notAfter="1889">1880s</t:date>, the emperor's capital city.
+                     route to Šawā). Maq̲ala became an important market town and, in the <t:date notBefore="1880" notAfter="1889">1880s</t:date>, the emperor's capital city.
                      However, with the succession of <t:persName ref="https://betamasaheft.eu/PRS7006Menilek">Mǝnilǝk
                         II</t:persName>, the political and commercial balance shifted to southern
                         <t:placeName ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:placeName> in favour of <t:placeName ref="https://betamasaheft.eu/LOC5597Sawa">Šawā</t:placeName> and <t:placeName ref="https://betamasaheft.eu/LOC1216AddisA">ʾAddis
-                        ʾAbabā</t:placeName>. In <t:date when="1895">1895</t:date>, Maala was occupied
+                           ʾAbabā</t:placeName>. In <t:date when="1895">1895</t:date>, Maq̲ala was occupied
                      by the Italians and became part of the Colonia Eritrea, but <t:persName ref="https://betamasaheft.eu/PRS7006Menilek">Mǝnilǝk</t:persName> reconquered it in <t:date>January
-                        1896</t:date>. Maala urbanized progressively during the <t:date notBefore="1900" notAfter="1999">20th</t:date> century and three particularly
+                        1896</t:date>. Maq̲ala urbanized progressively during the <t:date notBefore="1900" notAfter="1999">20th</t:date> century and three particularly
                      important moments can be identified. Under <t:roleName type="title">daǧǧāzmāč</t:roleName>
                      <t:persName ref="https://betamasaheft.eu/PRS1285AbrehaA">ʾAbrǝha ʾArʾayā Dǝmṣu</t:persName>, new buildings
                      were built, a new Saturday Market was established and various occupational
@@ -101,7 +102,7 @@
                      <t:date>September-October 1943</t:date>, the third wave of urbanization took place between <t:date when="1942">1942</t:date>
                      and <t:date when="1974">1974</t:date>, including the development of infrastructure, services, commercial
                      activities and administration. The <t:date notBefore="1974" notAfter="1991">1974-1991</t:date> war seriously hindered the
-                     urbanization process but, after <t:date when="1991">1991</t:date>, it has resumed at a great pace. Maala
+                     urbanization process but, after <t:date when="1991">1991</t:date>, it has resumed at a great pace. Maq̲ala
                      is today the capital of <t:placeName ref="https://betamasaheft.eu/LOC5932Tegray">Tǝgrāy National Regional
                         State</t:placeName>. </t:ab>
                </t:note>

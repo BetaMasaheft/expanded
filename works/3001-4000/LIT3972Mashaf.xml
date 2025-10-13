@@ -1,13 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT3972Mashaf"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Maṣḥafa lǝdatu la-ʾabuna Takla Hāymānot</title>
             <title xml:lang="gez" xml:id="t1">መጽሐፈ፡ ልደቱ፡ ለአቡነ፡ ተክለ፡ ሃይማኖት፡</title>
             <title xml:lang="gez" corresp="#t1" type="normalized">Maṣḥafa lǝdatu la-ʾabuna Takla Hāymānot</title>
             <title xml:lang="en" corresp="#t1">Book of the Genealogy of ʾabuna Takla Hāymānot</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <editor key="MV" corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV">Massimo Villa</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>contributor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>editor</resp><name>Massimo Villa</name></respStmt><respStmt xml:id="DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>contributor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -19,7 +20,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">2022-03-22T10:42:33.515+01:00</date><date type="lastModified">20.3.2022</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3972Mashaf</idno><idno type="URI">https://betamasaheft.eu/LIT3972Mashaf</idno><idno type="filename">LIT3972Mashaf.xml</idno><idno type="ID">LIT3972Mashaf</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 23:22:30</date><date type="lastModified">20.3.2022</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3972Mashaf/main</idno><idno type="URI">https://betamasaheft.eu/LIT3972Mashaf</idno><idno type="filename">LIT3972Mashaf.xml</idno><idno type="ID">LIT3972Mashaf</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -36,28 +37,28 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="div" match="div" use="div"><desc><list><item>tei:div[1]</item></list></desc></assertion><assertion unit="explicit" match="div" use="div"><desc><list><item>explicit</item></list></desc></assertion><assertion unit="incipit" match="div" use="div"><desc><list><item>incipit</item></list></desc></assertion></assertion></source-url></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
-         <creation/>
-         <abstract>
-             <p>The genealogy showing the ancestry of <persName ref="https://betamasaheft.eu/PRS9162TaklaHa">St Takla Hāymānot</persName> from <persName ref="https://betamasaheft.eu/PRS1385Adam">Adam</persName>;
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure xmlns="" unit="t:div" match="t:div" use="t:div"><desc><list><item>tei:t:div[1]</item></list></desc></citeStructure><citeStructure xmlns="" unit="explicit" match="t:div" use="t:div"><desc><list><item>explicit</item></list></desc></citeStructure><citeStructure xmlns="" unit="incipit" match="t:div" use="t:div"><desc><list><item>incipit</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+         <t:creation/>
+         <t:abstract>
+             <t:p>The genealogy showing the ancestry of <t:persName ref="https://betamasaheft.eu/PRS9162TaklaHa">St Takla Hāymānot</t:persName> from <t:persName ref="https://betamasaheft.eu/PRS1385Adam">Adam</t:persName>;
              it may be included into the beginning of
-             <ref type="work" corresp="https://betamasaheft.eu/LIT3973GadlaT">the Vita of Takla Hāymānot</ref> or folllow it.</p>
-         </abstract>
-         <textClass>
+             <t:ref type="work" corresp="https://betamasaheft.eu/LIT3973GadlaT">the Vita of Takla Hāymānot</t:ref> or folllow it.</t:p>
+         </t:abstract>
+         <t:textClass>
 
-            <keywords scheme="#ethioauthlist">
-               <term key="Hagiography" ana="#Hagiography"/>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-            </keywords>
-         </textClass>
+            <t:keywords scheme="#ethioauthlist">
+               <t:term key="Hagiography" ana="#Hagiography"/>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#MV" when="2016-09-06">Massimo Villa: CREATED: text record</change>
-             <change who="#DN" when="2022-03-20">Denis Nosnitsin: revised TEI record</change>
-      </revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change who="#MV" when="2016-09-06"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+             <change who="#DN" when="2022-03-20"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->revised TEI record</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT3972Mashaf" passive="https://betamasaheft.eu/PRS9162TaklaHa"/>
                <relation name="dcterms:isPartOf" ref="http://purl.org/dc/terms/isPartOf" active="https://betamasaheft.eu/LIT3972Mashaf" passive="https://betamasaheft.eu/LIT1008DossierTH"/>
@@ -66,27 +67,27 @@
                     <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT3972Mashaf" passive="https://betamasaheft.eu/ESath002"/>
                       <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT3972Mashaf" passive="https://betamasaheft.eu/BLorient725"/>
                       <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT3972Mashaf" passive="https://betamasaheft.eu/BNFet138"/>
-            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-        <div type="edition" xml:lang="gez">
-          <note>The text below follows the manuscript <ref type="mss" corresp="https://betamasaheft.eu/BLorient725">London, British Library, BL Oriental 725</ref>.</note>
-           <div type="textpart" subtype="incipit" xml:lang="gez">
-               <ab>
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+        <t:div type="edition" xml:lang="gez">
+          <t:note>The text below follows the manuscript <t:ref type="mss" corresp="https://betamasaheft.eu/BLorient725">London, British Library, BL Oriental 725</t:ref>.</t:note>
+           <t:div type="textpart" subtype="incipit" xml:lang="gez">
+               <t:ab>
                  መጽሐፈ፡ ልደቱ፡ ለአቡነ፡ ቅዱስ፡ ተክለ፡ ሃይማኖት፡ ወልደ፡ እግዚአብሔር፡ በጸጋ፡ ወልደ፡ አዳም፡
                   በሥጋ፤ አዳም፡ ወለዶ፡ ለሴት፡ ወሴት፡ ወለዶ፡ ለሄኖስ፨ ወሄኖስ፡ ወለዶ፡ ለቃይናን፨ ወቃይናን፡ ወለዶ፡ ለመላልኤል፡
                     ወመላልኤል፡ ለያሮድ፨ ወያሮድ፡ ወለዶ፡ ለሄኖክ፨ ወሄኖክ፡ ወለዶ፡ ለማቱሳላ፨ ወማቱሳላ፡ ወለዶ፡ ለሳሜህ፨ ላሜህ፡ ወለዶ፡ ለኖኅ፨
                     ወኖኅ፡ ወለዶ፡ ለሴም፨
-               </ab>
-            </div>
+               </t:ab>
+            </t:div>
 
-           <div type="textpart" subtype="explicit" xml:lang="gez">
-               <ab>
+           <t:div type="textpart" subtype="explicit" xml:lang="gez">
+               <t:ab>
                  ወንሕነሂ፡ መላህቅተ፡ ሕዝብ፡ ጸዋዒነ፡ ኃደግነ፨ ወከመዝ፡ ተረክበ፡ በመጻሕፍተ፡ አበዊነ፨
-               </ab>
-            </div>
-         <div type="bibliography">
+               </t:ab>
+            </t:div>
+         <t:div type="bibliography">
             
-         </div>
-         </div>
-      </body>
-   </text></TEI>
+         </t:div>
+         </t:div>
+      </t:body>
+   </t:text></TEI>
