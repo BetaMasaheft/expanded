@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS7000MenasM"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Menās</title>
             <title>Menās</title>
             <editor key="SG" corresp="https://betamasaheft.eu/team.html#SG" xml:id="SG">Solomon Gebreyes</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <author/>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -16,7 +17,7 @@
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
-         <date type="expanded">19.7.2022 at 11:41:30</date><date type="lastModified">27.3.2019</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS7000MenasM/main</idno><idno type="URI">https://betamasaheft.eu/PRS7000MenasM</idno><idno type="filename">PRS7000MenasM.xml</idno><idno type="ID">PRS7000MenasM</idno></publicationStmt>
+         <date type="expanded">10.10.2025 at 03:29:51</date><date type="lastModified">27.3.2019</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS7000MenasM/main</idno><idno type="URI">https://betamasaheft.eu/PRS7000MenasM</idno><idno type="filename">PRS7000MenasM.xml</idno><idno type="ID">PRS7000MenasM</idno></publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
@@ -34,64 +35,64 @@
                         The present TEI file is enriched with an 
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
-         <textClass>
-            <keywords>
-               <term key="saint" ana="#saint"/>
-            </keywords>
-         </textClass>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="saint" ana="#saint"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#PL" when="2016-04-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->batch updated according to requirements and issues.</change>
          <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
                                                   google spreadsheet </change>
          <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: person</change>
          <change who="#SG" when="2016-11-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Complete record</change>
          <change who="#PL" when="2019-03-27"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
-      </revisionDesc>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
               
                   <relation name="snap:EnmityFor" ref="http://data.snapdrgn.net/ontology/snap#EnmityFor" active="https://betamasaheft.eu/PRS7000MenasM" passive="https://betamasaheft.eu/PRS3581Diocleti"/>
                <relation name="ecrm:P129i_is_subject_of" ref="http://erlangen-crm.org/current/P129i_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/subject_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/PRS7000MenasM" passive="https://betamasaheft.eu/LIT1616Homily"/>
                   
-               </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPerson>
-            <person sex="1">
+               </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPerson>
+            <t:person sex="1">
               
               
               
-               <persName xml:lang="gez" xml:id="n1" type="birth">ሜናስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Menās</persName>
-               <persName xml:lang="gez" xml:id="n2" type="alt">ሚናስ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Minās</persName>
+               <t:persName xml:lang="gez" xml:id="n1" type="birth">ሜናስ፡</t:persName>
+               <t:persName xml:lang="gez" corresp="#n1" type="normalized">Menās</t:persName>
+               <t:persName xml:lang="gez" xml:id="n2" type="alt">ሚናስ፡</t:persName>
+               <t:persName xml:lang="gez" corresp="#n2" type="normalized">Minās</t:persName>
               
-                  <persName>
-                  <roleName type="title">ʾabbā </roleName>
-               </persName>
-               <nationality type="Egypt"/>
-               <faith type="Coptic"/>
-                  <birth/>
-                  <residence/>
+                  <t:persName>
+                  <t:roleName type="title">ʾabbā </t:roleName>
+               </t:persName>
+               <t:nationality type="Egypt"/>
+               <t:faith type="Coptic"/>
+                  <t:birth/>
+                  <t:residence/>
                   
-                     <floruit>He was  a saint  and martyr venerated in the <placeName ref="https://betamasaheft.eu/LOC2056Byzant">Byzantine empire </placeName> and all over the Christian Orient, especially in 
-                        <placeName ref="https://betamasaheft.eu/LOC2804Egypt">Egypt</placeName>. He was supposedly martyred during the <persName ref="https://betamasaheft.eu/PRS3581Diocleti">Diocletian</persName>
-                        persecution of Christians  in <placeName ref="https://betamasaheft.eu/LOC4151Kotyai">Kotyaion</placeName>. <persName ref="https://betamasaheft.eu/PRS7000MenasM">Minās</persName> seems to have been a popular saint in 
-                        <placeName ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</placeName> to which both his frequent representations in art as well as the name of <date>16th century</date> 
+                     <t:floruit>He was  a saint  and martyr venerated in the <t:placeName ref="https://betamasaheft.eu/LOC2056Byzant">Byzantine empire </t:placeName> and all over the Christian Orient, especially in 
+                        <t:placeName ref="https://betamasaheft.eu/LOC2804Egypt">Egypt</t:placeName>. He was supposedly martyred during the <t:persName ref="https://betamasaheft.eu/PRS3581Diocleti">Diocletian</t:persName>
+                        persecution of Christians  in <t:placeName ref="https://betamasaheft.eu/LOC4151Kotyai">Kotyaion</t:placeName>. <t:persName ref="https://betamasaheft.eu/PRS7000MenasM">Minās</t:persName> seems to have been a popular saint in 
+                        <t:placeName ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:placeName> to which both his frequent representations in art as well as the name of <t:date>16th century</t:date> 
                
-                        <persName ref="https://betamasaheft.eu/PRS7102Minas">   
-                     <roleName type="title">ʾaṣe</roleName>Minās</persName>, named after him, testify.
-                     </floruit>
-                  <death/>
-               </person>
+                        <t:persName ref="https://betamasaheft.eu/PRS7102Minas">   
+                     <t:roleName type="title">ʾaṣe</t:roleName>Minās</t:persName>, named after him, testify.
+                     </t:floruit>
+                  <t:death/>
+               </t:person>
                
-         </listPerson>
-         <listBibl type="secondary">
-            <bibl corresp="http://zotero.org/groups/358366/items/3W4RZM5Y"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2002ActaPhileae"/><title level="m">La versione etiopica degli &lt;hi rend="italics"&gt;Acta Phileae&lt;/hi&gt; nel &lt;hi rend="italics"&gt;Gadla samāʿtāt&lt;/hi&gt;</title><title level="s">Supplemento agli Annali</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><pubPlace>Napoli</pubPlace><publisher>Istituto Universitario Orientale</publisher><date>2002</date><series><title level="s">Supplemento agli Annali</title><biblScope unit="volume">60–61 (2000–2001), 92</biblScope></series><biblScope unit="volume">60–61 (2000–2001), 92</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Philology</note><note type="tag">bm:Bausi2002ActaPhileae</note></note><note type="tag">Ethiopic</note><note type="tag">Philology</note><note type="tag">bm:Bausi2002ActaPhileae</note></bibl>
-            <bibl corresp="http://zotero.org/groups/358366/items/3Q8NFHPC"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Witakowski2007EAEMenas"/><title level="a">Menas</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Witold</forename><surname>Witakowski</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">918a-919a</biblScope><note type="tags"><note type="tag">bm:Witakowski2007EAEMenas</note></note><note type="tag">bm:Witakowski2007EAEMenas</note></bibl>
-         </listBibl>
-      </body>
-   </text></TEI>
+         </t:listPerson>
+         <t:listBibl type="secondary">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/3W4RZM5Y"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2002ActaPhileae"/><title level="m">La versione etiopica degli &lt;hi rend="italics"&gt;Acta Phileae&lt;/hi&gt; nel &lt;hi rend="italics"&gt;Gadla samāʿtāt&lt;/hi&gt;</title><title level="s">Supplemento agli Annali</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><pubPlace>Napoli</pubPlace><publisher>Istituto Universitario Orientale</publisher><date>2002</date><series><title level="s">Supplemento agli Annali</title><biblScope unit="volume">60–61 (2000–2001), 92</biblScope></series><biblScope unit="volume">60–61 (2000–2001), 92</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Philology</note><note type="tag">bm:Bausi2002ActaPhileae</note></note><note type="tag">Ethiopic</note><note type="tag">Philology</note><note type="tag">bm:Bausi2002ActaPhileae</note></t:bibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/3Q8NFHPC"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Witakowski2007EAEMenas"/><title level="a">Menas</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Witold</forename><surname>Witakowski</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">918a-919a</biblScope><note type="tags"><note type="tag">bm:Witakowski2007EAEMenas</note></note><note type="tag">bm:Witakowski2007EAEMenas</note></t:bibl>
+         </t:listBibl>
+      </t:body>
+   </t:text></TEI>
