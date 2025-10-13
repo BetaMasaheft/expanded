@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="ins" xml:lang="en" xml:id="INS0115GMG"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Ganāḥti Qǝddǝst Māryām</title>
             <title>Ganāḥti Qǝddǝst Māryām</title>
             <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -17,7 +18,7 @@
                                     Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">2.7.2025 at 01:29:29</date><date type="lastModified">15.3.2019</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0115GMG/main</idno><idno type="URI">https://betamasaheft.eu/INS0115GMG</idno><idno type="filename">INS0115GMG.xml</idno><idno type="ID">INS0115GMG</idno></publicationStmt>
+         <date type="expanded">9.10.2025 at 23:00:22</date><date type="lastModified">15.3.2019</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0115GMG/main</idno><idno type="URI">https://betamasaheft.eu/INS0115GMG</idno><idno type="filename">INS0115GMG.xml</idno><idno type="ID">INS0115GMG</idno></publicationStmt>
          <sourceDesc>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
@@ -34,61 +35,61 @@
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
                         the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#DN" when="2011-04-24"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created</change>
          <change who="#DN" when="2014-12-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->last edited</change>
          <change who="#PL" when="2016-04-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->transformed from mycore to TEI
                             P5</change>
          <change who="#ES" when="2019-03-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated location name tabot</change>
-      </revisionDesc>
-   </teiHeader><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPlace>
-            <place type="church dabr" subtype="institution">
+      </t:revisionDesc>
+   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPlace>
+            <t:place type="church dabr" subtype="institution">
                
-               <placeName xml:lang="gez" xml:id="n1">ገናሕቲ፡ ቅድስት፡ ማርያም፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1" type="normalized">Ganāḥti Qǝddǝst Māryām</placeName>
-               <placeName xml:lang="gez" xml:id="n2" type="alt">ገናሕቲ፡ ደብረ፡ ገነት፡ ቅድስት፡ ማርያም፡</placeName>
-               <placeName xml:lang="gez" corresp="#n2" type="normalized">Ganāḥti Dabra Gannat Qǝddǝst Māryām</placeName>
+               <t:placeName xml:lang="gez" xml:id="n1">ገናሕቲ፡ ቅድስት፡ ማርያም፡</t:placeName>
+               <t:placeName xml:lang="gez" corresp="#n1" type="normalized">Ganāḥti Qǝddǝst Māryām</t:placeName>
+               <t:placeName xml:lang="gez" xml:id="n2" type="alt">ገናሕቲ፡ ደብረ፡ ገነት፡ ቅድስት፡ ማርያም፡</t:placeName>
+               <t:placeName xml:lang="gez" corresp="#n2" type="normalized">Ganāḥti Dabra Gannat Qǝddǝst Māryām</t:placeName>
                
                
-               <country ref="https://betamasaheft.eu/LOC3010Ethiop">ʾItyoṗyā</country>
-               <region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</region>
+               <t:country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:country>
+               <t:region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</t:region>
                
-               <settlement type="province" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</settlement>
-               <settlement from="2010-11-27" to="2010-11-27" type="warada" ref="https://betamasaheft.eu/LOC3293GantaA">Gāntā ʾAfašum</settlement>
-               <settlement type="tabiya" when="2011-11-27" ref="https://betamasaheft.eu/LOC7169Gwala">Gwālʿa Ganāḥti</settlement>
-               <settlement type="qushat" when="2011-11-27" ref="https://betamasaheft.eu/LOC7170Ganahti">Ganāḥti</settlement>
+               <t:settlement type="province" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</t:settlement>
+               <t:settlement from="2010-11-27" to="2010-11-27" type="warada" ref="https://betamasaheft.eu/LOC3293GantaA">Gāntā ʾAfašum</t:settlement>
+               <t:settlement type="tabiya" when="2011-11-27" ref="https://betamasaheft.eu/LOC7169Gwala">Gwālʿa Ganāḥti</t:settlement>
+               <t:settlement type="qushat" when="2011-11-27" ref="https://betamasaheft.eu/LOC7170Ganahti">Ganāḥti</t:settlement>
                               
                
-               <location>
-                  <geo>14.297683 39.496767</geo>
-                  <height unit="m">2.543</height>
-               </location>
-               <note>
-                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">Local tradition claims the foundation in the time of <persName ref="https://betamasaheft.eu/PRS8261Saaldob">King Saʿāldobā</persName>, the year 430. Local tradition refers to medieval rulers Kǝndšǝh, ʾAkḥadom and Katāy who is said to be the ancestor of dağğāzmāč Sabāgādis (1780-1831, born reportedly in Ganāḥti).</desc>
-                  <ab type="history">Dabr. An (ʾAksumite?) stown pillar stands in the church compound.
-</ab>
-                  <ab type="description">
-                     <figure>
-                        <graphic url="Sites/GMG.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
-                        </graphic>
-                     </figure>
-                     21 Mss., objects photographed: <ref type="mss" corresp="https://betamasaheft.eu/ESgmg001">GMG-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg002">GMG-002</ref> "Four Gospels"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg003">GMG-003</ref> "Four Gospels"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg004">GMG-004</ref> "Miracles of Mary"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg005">GMG-005</ref> "The Faith of the Fathers"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg006">GMG-006</ref> "Lectionary"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg007">GMG-007</ref> "Psalter"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg008">GMG-008</ref> "Vita of St. George"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg009">GMG-009</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg010">GMG-010</ref> "Missal"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg011">GMG-011</ref> "Miracles of Mary"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg012">GMG-012</ref> "Story of the Trinity"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg013">GMG-013</ref> "Homily of Jesus"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg014">GMG-014</ref> "Vita of Libanos"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg015">GMG-015</ref> "Collection of Hymns"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg016">GMG-016</ref> "Miracles of Jesus"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg017">GMG-017</ref> "Vita of ʾArägawi"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg018">GMG-018</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg019">GMG-019</ref> "Prayer of Mary"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg020">GMG-020</ref> "Synoptic Lectionary for the Year"; <ref type="mss" corresp="https://betamasaheft.eu/ESgmg021">GMG-021</ref> "Prayer of Incense"</ab>
+               <t:location>
+                  <t:geo>14.297683 39.496767</t:geo>
+                  <t:height unit="m">2.543</t:height>
+               </t:location>
+               <t:note>
+                  <t:date type="foundation" notBefore="1400" notAfter="1500">1400-1500</t:date>
+                  <t:desc type="foundation">Local tradition claims the foundation in the time of <t:persName ref="https://betamasaheft.eu/PRS8261Saaldob">King Saʿāldobā</t:persName>, the year 430. Local tradition refers to medieval rulers Kǝndšǝh, ʾAkḥadom and Katāy who is said to be the ancestor of dağğāzmāč Sabāgādis (1780-1831, born reportedly in Ganāḥti).</t:desc>
+                  <t:ab type="history">Dabr. An (ʾAksumite?) stown pillar stands in the church compound.
+</t:ab>
+                  <t:ab type="description">
+                     <t:figure>
+                        <t:graphic url="Sites/GMG.tif">
+                           <t:desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</t:desc>
+                        </t:graphic>
+                     </t:figure>
+                     21 Mss., objects photographed: <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg001">GMG-001</t:ref> "The Rite of the Holy Week"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg002">GMG-002</t:ref> "Four Gospels"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg003">GMG-003</t:ref> "Four Gospels"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg004">GMG-004</t:ref> "Miracles of Mary"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg005">GMG-005</t:ref> "The Faith of the Fathers"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg006">GMG-006</t:ref> "Lectionary"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg007">GMG-007</t:ref> "Psalter"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg008">GMG-008</t:ref> "Vita of St. George"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg009">GMG-009</t:ref> "Vita of Gäbrä Mänfäs Qǝddus"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg010">GMG-010</t:ref> "Missal"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg011">GMG-011</t:ref> "Miracles of Mary"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg012">GMG-012</t:ref> "Story of the Trinity"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg013">GMG-013</t:ref> "Homily of Jesus"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg014">GMG-014</t:ref> "Vita of Libanos"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg015">GMG-015</t:ref> "Collection of Hymns"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg016">GMG-016</t:ref> "Miracles of Jesus"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg017">GMG-017</t:ref> "Vita of ʾArägawi"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg018">GMG-018</t:ref> "The Book of the Funeral Rite"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg019">GMG-019</t:ref> "Prayer of Mary"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg020">GMG-020</t:ref> "Synoptic Lectionary for the Year"; <t:ref type="mss" corresp="https://betamasaheft.eu/ESgmg021">GMG-021</t:ref> "Prayer of Incense"</t:ab>
          
-                  <ab type="tabot">
-                     <measure quantity="8"/>Tābots of <persName type="tabot" ref="https://betamasaheft.eu/PRS6819Mary">Mary</persName>, <persName type="tabot" ref="https://betamasaheft.eu/PRS10775Trinity">Trinity</persName>, 
-                     <persName type="tabot" ref="https://betamasaheft.eu/PRS5684JesusCh#n3MadhaneAlam">Madḫāne ʿĀlam</persName>, 
-                     <persName type="tabot" ref="https://betamasaheft.eu/PRS4306GabraMa">Gabra Manfas Qǝddus</persName>, <persName type="tabot" ref="https://betamasaheft.eu/PRS4585Georgeo">George</persName>, 
-                     two of <persName type="tabot" ref="https://betamasaheft.eu/PRS6298Libanos">Libānos</persName> (marble), <persName type="tabot" ref="https://betamasaheft.eu/PRS4377Gabriel">Gabriel</persName>.</ab>
-               </note>
-            </place>
-         </listPlace>
-      </body>
-   </text></TEI>
+                  <t:ab type="tabot">
+                     <t:measure quantity="8"/>Tābots of <t:persName type="tabot" ref="https://betamasaheft.eu/PRS6819Mary">Mary</t:persName>, <t:persName type="tabot" ref="https://betamasaheft.eu/PRS10775Trinity">Trinity</t:persName>, 
+                     <t:persName type="tabot" ref="https://betamasaheft.eu/PRS5684JesusCh#n3MadhaneAlam">Madḫāne ʿĀlam</t:persName>, 
+                     <t:persName type="tabot" ref="https://betamasaheft.eu/PRS4306GabraMa">Gabra Manfas Qǝddus</t:persName>, <t:persName type="tabot" ref="https://betamasaheft.eu/PRS4585Georgeo">George</t:persName>, 
+                     two of <t:persName type="tabot" ref="https://betamasaheft.eu/PRS6298Libanos">Libānos</t:persName> (marble), <t:persName type="tabot" ref="https://betamasaheft.eu/PRS4377Gabriel">Gabriel</t:persName>.</t:ab>
+               </t:note>
+            </t:place>
+         </t:listPlace>
+      </t:body>
+   </t:text></TEI>

@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="ins" xml:lang="en" xml:id="INS0221QDGM"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Qaqamā Dabra Gannat Qǝddǝst Māryām</title>
             <title>Qäqäma Däbrä Gännät Qǝddǝst Maryam </title>
             <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -17,7 +18,7 @@
                                     Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">2.7.2025 at 01:29:29</date><date type="lastModified">19.3.2019</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0221QDGM/main</idno><idno type="URI">https://betamasaheft.eu/INS0221QDGM</idno><idno type="filename">INS0221QDGM.xml</idno><idno type="ID">INS0221QDGM</idno></publicationStmt>
+         <date type="expanded">9.10.2025 at 23:00:22</date><date type="lastModified">19.3.2019</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0221QDGM/main</idno><idno type="URI">https://betamasaheft.eu/INS0221QDGM</idno><idno type="filename">INS0221QDGM.xml</idno><idno type="ID">INS0221QDGM</idno></publicationStmt>
          <sourceDesc>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
@@ -34,51 +35,51 @@
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
                         the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#DN" when="2012-06-29"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created</change>
          <change who="#DN" when="2014-12-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->last edited</change>
          <change who="#PL" when="2016-04-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->transformed from mycore to TEI
                             P5</change>
          <change who="#ES" when="2019-03-19"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->adjusted spelling location tabots</change>
-      </revisionDesc>
-   </teiHeader><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPlace>
-            <place type="church monastery gadam" subtype="institution">
-               <placeName>Qaqamā Dabra Gannat Qǝddǝst Māryām </placeName>
-               <placeName type="alt">Qaqamā Māryām</placeName>
-               <country ref="https://betamasaheft.eu/LOC3010Ethiop">ʾItyoṗyā</country>
-               <region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</region>
-               <settlement from="2012-06-01" to="2012-06-01" type="warada" ref="https://betamasaheft.eu/LOC6965DagaTamben">Dagʿa Tamben</settlement>
-               <settlement from="2012-06-01" to="2012-06-01" type="tabiya" ref="https://betamasaheft.eu/LOC7229Mizan">Mizān</settlement>
-               <settlement from="2012-06-01" to="2012-06-01" type="qushat" ref="https://betamasaheft.eu/LOC7230Qaqama">Qaqamā</settlement>
+      </t:revisionDesc>
+   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPlace>
+            <t:place type="church monastery gadam" subtype="institution">
+               <t:placeName>Qaqamā Dabra Gannat Qǝddǝst Māryām </t:placeName>
+               <t:placeName type="alt">Qaqamā Māryām</t:placeName>
+               <t:country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:country>
+               <t:region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</t:region>
+               <t:settlement from="2012-06-01" to="2012-06-01" type="warada" ref="https://betamasaheft.eu/LOC6965DagaTamben">Dagʿa Tamben</t:settlement>
+               <t:settlement from="2012-06-01" to="2012-06-01" type="tabiya" ref="https://betamasaheft.eu/LOC7229Mizan">Mizān</t:settlement>
+               <t:settlement from="2012-06-01" to="2012-06-01" type="qushat" ref="https://betamasaheft.eu/LOC7230Qaqama">Qaqamā</t:settlement>
                
-               <location>
-                  <geo>13.5664 39.0586</geo>
-                  <height unit="m">2122.0</height>
-               </location>
-               <note>
-                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">The old church is said to have been founded by King Zarʾā Yāʿqob (r. <date>1438-1468</date>); the monastic community was established by <persName ref="https://betamasaheft.eu/PRS10378Yohanne">King Yoḥannǝs IV</persName> (r. <date>1872-1889</date>). The religious site might have existed in the Aksumite time.</desc>
-                  <ab type="history">Gadām. The monastic community consists of at least 15 monks. 
-</ab>
-                  <ab type="description">
-                     <figure>
-                        <graphic url="Sites/QDGM.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
-                        </graphic>
-                     </figure>13 Mss. photographed: <ref type="mss" corresp="https://betamasaheft.eu/ESqdgm001">QDGM-001</ref> ʺThe Four Gospelsʺ; <ref type="mss" corresp="https://betamasaheft.eu/ESqdgm002">QDGM-002</ref> ʺPraise of Godʺ; <ref type="mss" corresp="https://betamasaheft.eu/ESqdgm003">QDGM-003</ref> ʺOctateuchʺ; <ref type="mss" corresp="https://betamasaheft.eu/ESqdgm004">QDGM-004</ref> ʺPsalterʺ; <ref type="mss" corresp="https://betamasaheft.eu/ESqdgm005">QDGM-005</ref> ʺPraise of Godʺ; <ref type="mss" corresp="https://betamasaheft.eu/ESqdgm006">QDGM-006</ref> ʺThe Harp of Praiseʺ; <ref type="mss" corresp="https://betamasaheft.eu/ESqdgm007">QDGM-007</ref> ʺFour Gospelsʺ; <ref type="mss" corresp="https://betamasaheft.eu/ESqdgm008">QDGM-008</ref> ʺThe Book of the Spirtual Elderʺ; <ref type="mss" corresp="https://betamasaheft.eu/ESqdgm009">QDGM-009</ref> ʺCommentary to the Pauline Epistlesʺ; <ref type="mss" corresp="https://betamasaheft.eu/ESqdgm010">QDGM-010</ref> ʺThe History of the Apostlesʺ; <ref type="mss" corresp="https://betamasaheft.eu/ESqdgm011">QDGM-011</ref> ʺPsalterʺ; <ref type="mss" corresp="https://betamasaheft.eu/ESqdgm012">QDGM-012</ref> ʺVita of ʾArägawiʺ; <ref type="mss" corresp="https://betamasaheft.eu/ESqdgm013">QDGM-013</ref> ʺVita of Kirosʺ. The collection includes more than 120 Mss.</ab>
+               <t:location>
+                  <t:geo>13.5664 39.0586</t:geo>
+                  <t:height unit="m">2122.0</t:height>
+               </t:location>
+               <t:note>
+                  <t:date type="foundation" notBefore="1400" notAfter="1500">1400-1500</t:date>
+                  <t:desc type="foundation">The old church is said to have been founded by King Zarʾā Yāʿqob (r. <t:date>1438-1468</t:date>); the monastic community was established by <t:persName ref="https://betamasaheft.eu/PRS10378Yohanne">King Yoḥannǝs IV</t:persName> (r. <t:date>1872-1889</t:date>). The religious site might have existed in the Aksumite time.</t:desc>
+                  <t:ab type="history">Gadām. The monastic community consists of at least 15 monks. 
+</t:ab>
+                  <t:ab type="description">
+                     <t:figure>
+                        <t:graphic url="Sites/QDGM.tif">
+                           <t:desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</t:desc>
+                        </t:graphic>
+                     </t:figure>13 Mss. photographed: <t:ref type="mss" corresp="https://betamasaheft.eu/ESqdgm001">QDGM-001</t:ref> ʺThe Four Gospelsʺ; <t:ref type="mss" corresp="https://betamasaheft.eu/ESqdgm002">QDGM-002</t:ref> ʺPraise of Godʺ; <t:ref type="mss" corresp="https://betamasaheft.eu/ESqdgm003">QDGM-003</t:ref> ʺOctateuchʺ; <t:ref type="mss" corresp="https://betamasaheft.eu/ESqdgm004">QDGM-004</t:ref> ʺPsalterʺ; <t:ref type="mss" corresp="https://betamasaheft.eu/ESqdgm005">QDGM-005</t:ref> ʺPraise of Godʺ; <t:ref type="mss" corresp="https://betamasaheft.eu/ESqdgm006">QDGM-006</t:ref> ʺThe Harp of Praiseʺ; <t:ref type="mss" corresp="https://betamasaheft.eu/ESqdgm007">QDGM-007</t:ref> ʺFour Gospelsʺ; <t:ref type="mss" corresp="https://betamasaheft.eu/ESqdgm008">QDGM-008</t:ref> ʺThe Book of the Spirtual Elderʺ; <t:ref type="mss" corresp="https://betamasaheft.eu/ESqdgm009">QDGM-009</t:ref> ʺCommentary to the Pauline Epistlesʺ; <t:ref type="mss" corresp="https://betamasaheft.eu/ESqdgm010">QDGM-010</t:ref> ʺThe History of the Apostlesʺ; <t:ref type="mss" corresp="https://betamasaheft.eu/ESqdgm011">QDGM-011</t:ref> ʺPsalterʺ; <t:ref type="mss" corresp="https://betamasaheft.eu/ESqdgm012">QDGM-012</t:ref> ʺVita of ʾArägawiʺ; <t:ref type="mss" corresp="https://betamasaheft.eu/ESqdgm013">QDGM-013</t:ref> ʺVita of Kirosʺ. The collection includes more than 120 Mss.</t:ab>
                 
-                  <ab type="tabot">
-                     <measure quantity="7"/>Tābots of <persName type="tabot" ref="https://betamasaheft.eu/PRS6819Mary">Mary</persName>, <persName type="tabot" ref="https://betamasaheft.eu/PRS5684JesusCh#n3MadhaneAlam">Madḫāne ʿĀlam</persName>, <persName type="tabot" ref="https://betamasaheft.eu/PRS4585Georgeo">George</persName>, 
-                     <persName type="tabot" ref="https://betamasaheft.eu/PRS10581Zamika">ʾAragāwi</persName>, <persName type="tabot" ref="https://betamasaheft.eu/PRS10775Trinity">Trinity</persName>, <ref type="authFile" corresp="https://betamasaheft.eu/CovenantMercy">Kidāna Mǝḥrat</ref>, 
-                     probably <persName type="tabot" ref="https://betamasaheft.eu/PRS9162TaklaHa">Takla Haymanot</persName>.</ab>
-               </note>
-            </place>
-         </listPlace>
-      </body>
-   </text></TEI>
+                  <t:ab type="tabot">
+                     <t:measure quantity="7"/>Tābots of <t:persName type="tabot" ref="https://betamasaheft.eu/PRS6819Mary">Mary</t:persName>, <t:persName type="tabot" ref="https://betamasaheft.eu/PRS5684JesusCh#n3MadhaneAlam">Madḫāne ʿĀlam</t:persName>, <t:persName type="tabot" ref="https://betamasaheft.eu/PRS4585Georgeo">George</t:persName>, 
+                     <t:persName type="tabot" ref="https://betamasaheft.eu/PRS10581Zamika">ʾAragāwi</t:persName>, <t:persName type="tabot" ref="https://betamasaheft.eu/PRS10775Trinity">Trinity</t:persName>, <t:ref type="authFile" corresp="https://betamasaheft.eu/CovenantMercy">Kidāna Mǝḥrat</t:ref>, 
+                     probably <t:persName type="tabot" ref="https://betamasaheft.eu/PRS9162TaklaHa">Takla Haymanot</t:persName>.</t:ab>
+               </t:note>
+            </t:place>
+         </t:listPlace>
+      </t:body>
+   </t:text></TEI>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="ins" xml:lang="en" xml:id="INS0603AMA"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Qač̣ane Madḫāne ʿĀlam</title>
@@ -16,7 +17,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is licensed under the Creative Commons
                                         Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">17.7.2025 at 13:44:58</date><date type="lastModified">30.1.2019</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0603AMA/main</idno><idno type="URI">https://betamasaheft.eu/INS0603AMA</idno><idno type="filename">INS0603AMA.xml</idno><idno type="ID">INS0603AMA</idno></publicationStmt>
+         <date type="expanded">9.10.2025 at 23:00:22</date><date type="lastModified">30.1.2019</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0603AMA/main</idno><idno type="URI">https://betamasaheft.eu/INS0603AMA</idno><idno type="filename">INS0603AMA.xml</idno><idno type="ID">INS0603AMA</idno></publicationStmt>
          <sourceDesc>
             <p/>
          </sourceDesc>
@@ -34,88 +35,88 @@
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
                         the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-      <profileDesc>
-         <creation/>
-         <abstract>
-            <p/>
-         </abstract>
-         <langUsage><language ident="en">English</language></langUsage>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:creation/>
+         <t:abstract>
+            <t:p/>
+         </t:abstract>
+         <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#SDe" when="2018-12-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->provided list of institutions in
                                 excel format</change>
          <change who="#ES" when="2019-01-11"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Aligned list to existing records in
                                 spreadsheet</change>
          <change who="#PL" when="2019-01-30"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML file from excel
                                 spreadsheet</change>
-      </revisionDesc>
-   </teiHeader><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPlace>
-            <place subtype="institution" type="church">
-               <placeName xml:id="n1" xml:lang="gez">ቀጨኔ፡ መድኃኔ፡ ዓለም፡</placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">Qač̣ane Madḫāne ʿĀlam</placeName>
-               <placeName xml:id="n2" xml:lang="gez">ደብረ፡ ሰላም፡</placeName>
-               <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Salām</placeName>
-               <placeName xml:id="n3" xml:lang="gez">ደብረ፡ ሰላም፡ ሚካኤል፡</placeName>
-               <placeName corresp="#n3" xml:lang="gez" type="normalized">Dabra Salām Mikā'el</placeName>
-               <country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</country>
-               <region ref="https://betamasaheft.eu/LOC5597Sawa">Šawā</region>
-               <settlement ref="https://betamasaheft.eu/LOC1216AddisA">ʾAddis ʾAbabā</settlement>
-               <settlement ref="https://betamasaheft.eu/LOC3635Gullal">Gullalle</settlement>
+      </t:revisionDesc>
+   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPlace>
+            <t:place subtype="institution" type="church">
+               <t:placeName xml:id="n1" xml:lang="gez">ቀጨኔ፡ መድኃኔ፡ ዓለም፡</t:placeName>
+               <t:placeName corresp="#n1" xml:lang="gez" type="normalized">Qač̣ane Madḫāne ʿĀlam</t:placeName>
+               <t:placeName xml:id="n2" xml:lang="gez">ደብረ፡ ሰላም፡</t:placeName>
+               <t:placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Salām</t:placeName>
+               <t:placeName xml:id="n3" xml:lang="gez">ደብረ፡ ሰላም፡ ሚካኤል፡</t:placeName>
+               <t:placeName corresp="#n3" xml:lang="gez" type="normalized">Dabra Salām Mikā'el</t:placeName>
+               <t:country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:country>
+               <t:region ref="https://betamasaheft.eu/LOC5597Sawa">Šawā</t:region>
+               <t:settlement ref="https://betamasaheft.eu/LOC1216AddisA">ʾAddis ʾAbabā</t:settlement>
+               <t:settlement ref="https://betamasaheft.eu/LOC3635Gullal">Gullalle</t:settlement>
                
-               <location>
-                  <geo>9.057892 38.727624</geo>
-               </location>
-               <desc facs="Sites/INS0603AMA/" n="23">Images</desc>
-               <note>
-                  <desc type="foundation">A famous church in Addis Ababa which was established in <date when="1920">1913 EC</date>. According to a source in the parish, Lǝğ Iyyāsu laid the corner stone of the present church and construction work commenced in <date when="1910">1903 EC</date>. Part of the funds for the completion of the building was granted by the Emperor Ḫāyla Śǝllāse I, when still Regent and Crown Prince. For various reasons, however, it was delayed for several years and was only completed in 1913 EC and the ark was placed in the new church on the 27th Tǝqǝmt. The church walls were painted by ʾAgaññahu ʾƎngǝda (+1944 EC). The gabaz, the lay head, was Fitāwrāri Hābta-Giyorgis and was succeeded by his grand son Sawʾalla Dagafu</desc>
-                  <ab type="description" subtype="school">According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, the following levels  of traditional education were avaialable: 
-                     <table>
-                        <row role="label">
-                           <cell role="label">School</cell>
-                           <cell role="label">Instructor</cell>
-                           <cell role="label">Students</cell>
-                        </row>     
-                        <row>
-                           <cell><ref type="authFile" corresp="https://betamasaheft.eu/NebabBet">Nǝbab bet</ref></cell>
-                           <cell>Yeneta Gabra Hǝywat Munǝyye</cell>
-                           <cell>50</cell>
-                        </row>
-                        <row>
-                           <cell><ref type="authFile" corresp="https://betamasaheft.eu/QeddaseBet">Qǝddase bet</ref></cell>
-                           <cell>Mamhǝr Muse Boggāla </cell>
-                           <cell>7</cell>
-                        </row>
-                        <row>
-                           <cell><ref type="authFile" corresp="https://betamasaheft.eu/ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
-                           <cell>Liqa Māʾǝmmǝran Dāwit Asaffā</cell>
-                           <cell>10</cell>
-                        </row>                        
+               <t:location>
+                  <t:geo>9.057892 38.727624</t:geo>
+               </t:location>
+               <t:desc facs="Sites/INS0603AMA/" n="23">Images</t:desc>
+               <t:note>
+                  <t:desc type="foundation">A famous church in Addis Ababa which was established in <t:date when="1920">1913 EC</t:date>. According to a source in the parish, Lǝğ Iyyāsu laid the corner stone of the present church and construction work commenced in <t:date when="1910">1903 EC</t:date>. Part of the funds for the completion of the building was granted by the Emperor Ḫāyla Śǝllāse I, when still Regent and Crown Prince. For various reasons, however, it was delayed for several years and was only completed in 1913 EC and the ark was placed in the new church on the 27th Tǝqǝmt. The church walls were painted by ʾAgaññahu ʾƎngǝda (+1944 EC). The gabaz, the lay head, was Fitāwrāri Hābta-Giyorgis and was succeeded by his grand son Sawʾalla Dagafu</t:desc>
+                  <t:ab type="description" subtype="school">According to the information obtained in <t:date notBefore="2020" notAfter="2024">2020-2024</t:date> by the <t:ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</t:ref>, the following levels  of traditional education were avaialable: 
+                     <t:table>
+                        <t:row role="label">
+                           <t:cell role="label">School</t:cell>
+                           <t:cell role="label">Instructor</t:cell>
+                           <t:cell role="label">Students</t:cell>
+                        </t:row>     
+                        <t:row>
+                           <t:cell><t:ref type="authFile" corresp="https://betamasaheft.eu/NebabBet">Nǝbab bet</t:ref></t:cell>
+                           <t:cell>Yeneta Gabra Hǝywat Munǝyye (see <t:ref target="https://doi.org/10.25592/uhhfdm.17917">Nǝbāb bet in 2024</t:ref>)</t:cell>
+                           <t:cell>50</t:cell>
+                        </t:row>
+                        <t:row>
+                           <t:cell><t:ref type="authFile" corresp="https://betamasaheft.eu/QeddaseBet">Qǝddase bet</t:ref></t:cell>
+                           <t:cell>Mamhǝr Muse Boggāla </t:cell>
+                           <t:cell>7</t:cell>
+                        </t:row>
+                        <t:row>
+                           <t:cell><t:ref type="authFile" corresp="https://betamasaheft.eu/ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</t:ref></t:cell>
+                           <t:cell>Liqa Māʾǝmmǝran Dāwit Asaffā</t:cell>
+                           <t:cell>10</t:cell>
+                        </t:row>                        
                                                         
-                        <row>
-                           <cell><ref type="authFile" corresp="https://betamasaheft.eu/ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
-                           <cell>Mamhǝr  Mangaşā Geṭu  </cell>
-                           <cell>25</cell>
-                        </row>
+                        <t:row>
+                           <t:cell><t:ref type="authFile" corresp="https://betamasaheft.eu/ZemaBet#Deggwa">Zemā bet: Dǝggʷā</t:ref></t:cell>
+                           <t:cell>Mamhǝr  Mangaşā Geṭu  </t:cell>
+                           <t:cell>25</t:cell>
+                        </t:row>
                         
-                        <row>
-                           <cell><ref type="authFile" corresp="https://betamasaheft.eu/QeneBet">Qǝne bet</ref></cell>
-                           <cell>Maggābe Mǝsṭir <persName ref="https://betamasaheft.eu/PRS14979Qasala">Qaṣalā Fantǝtte</persName> (b. 1958)</cell>
-                           <cell>20</cell>
-                        </row>
+                        <t:row>
+                           <t:cell><t:ref type="authFile" corresp="https://betamasaheft.eu/QeneBet">Qǝne bet</t:ref></t:cell>
+                           <t:cell>Maggābe Mǝsṭir <t:persName ref="https://betamasaheft.eu/PRS14979Qasala">Qaṣalā Fantǝtte</t:persName> (b. 1958; see <t:ref target="https://doi.org/10.25592/uhhfdm.17727">Interview with Maggābe Mǝsṭir Qaṣalā</t:ref>)</t:cell>
+                           <t:cell>20</t:cell>
+                        </t:row>
                         
-                        <row>
-                           <cell><ref type="authFile" corresp="https://betamasaheft.eu/MashafBet">Old Testament Commentary</ref></cell>
-                           <cell>Maggābe Bǝluy Lāʾǝka Māryām Hayla Māryām  </cell>
-                           <cell>n.d.</cell>
-                        </row>
-                     </table>
-                     <ref target="https://doi.org/10.25592/uhhfdm.17727">Interview with Maggābe Mǝsṭir Qaṣalā on 07.08.2023</ref></ab>
-                  <ab type="tabot"><persName type="tabot" ref="https://betamasaheft.eu/PRS5684JesusCh#n3MadhaneAlam">Madḫāne ʿĀlam</persName>, <persName type="tabot" ref="https://betamasaheft.eu/PRS7049Michael">Michael</persName></ab>
-               </note>
-            </place>
-         </listPlace>
-      </body>
-   </text></TEI>
+                        <t:row>
+                           <t:cell><t:ref type="authFile" corresp="https://betamasaheft.eu/MashafBet">Old Testament Commentary</t:ref></t:cell>
+                           <t:cell>Maggābe Bǝluy Lāʾǝka Māryām Hayla Māryām  </t:cell>
+                           <t:cell>n.d.</t:cell>
+                        </t:row>
+                     </t:table>
+                     </t:ab>
+                  <t:ab type="tabot"><t:persName type="tabot" ref="https://betamasaheft.eu/PRS5684JesusCh#n3MadhaneAlam">Madḫāne ʿĀlam</t:persName>, <t:persName type="tabot" ref="https://betamasaheft.eu/PRS7049Michael">Michael</t:persName></t:ab>
+               </t:note>
+            </t:place>
+         </t:listPlace>
+      </t:body>
+   </t:text></TEI>

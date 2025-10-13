@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="ins" xml:lang="en" xml:id="INS0341DL"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Dabra Libānos</title>
@@ -16,7 +17,7 @@
                         under the Creative Commons Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">17.7.2025 at 13:44:58</date><date type="lastModified">8.9.2017</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0341DL/main</idno><idno type="URI">https://betamasaheft.eu/INS0341DL</idno><idno type="filename">INS0341DL.xml</idno><idno type="ID">INS0341DL</idno></publicationStmt>
+         <date type="expanded">9.10.2025 at 23:00:22</date><date type="lastModified">8.9.2017</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0341DL/main</idno><idno type="URI">https://betamasaheft.eu/INS0341DL</idno><idno type="filename">INS0341DL.xml</idno><idno type="ID">INS0341DL</idno></publicationStmt>
          <sourceDesc>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
@@ -34,127 +35,130 @@
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
                         the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change who="#PL" when="2016-04-27"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
                                                   google spreadsheet </change>
          <change who="#SG" when="2016-10-25"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: institution</change>
          <change who="#SG" when="2017-09-08"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Complete record</change>
          <change who="#DR" when="2016-12-01"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->transcription corrected</change>
-      </revisionDesc>
+      </t:revisionDesc>
 
-   </teiHeader><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPlace>
-            <place type="monastery" subtype="institution" sameAs="wd:Q2511832">
-               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ሊባኖስ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Libānos</placeName>
-               <placeName xml:lang="gez" xml:id="n2" type="alt">ዓስቦ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n2" type="normalized">ʿAsbo</placeName>
-               <t:state xmlns:t="http://www.tei-c.org/ns/1.0" type="existence" ref="Paks2"/>
-               <country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</country>
-               <region ref="https://betamasaheft.eu/LOC5597Sawa">Šawā</region>
-               <desc facs="Sites/INS0341DL/" n="31">Images</desc>
+   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPlace>
+            <t:place type="monastery" subtype="institution" sameAs="wd:Q2511832">
+               <t:placeName xml:lang="gez" xml:id="n1">ደብረ፡ ሊባኖስ፡</t:placeName>
+               <t:placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Libānos</t:placeName>
+               <t:placeName xml:lang="gez" xml:id="n2" type="alt">ዓስቦ፡</t:placeName>
+               <t:placeName xml:lang="gez" corresp="#n2" type="normalized">ʿAsbo</t:placeName>
+               <t:state type="existence" ref="Paks2"/>
+               <t:country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:country>
+               <t:region ref="https://betamasaheft.eu/LOC5597Sawa">Šawā</t:region>
+               <t:location>
+                  <t:geo>9.71189 38.847343</t:geo>
+               </t:location>
+               <t:desc facs="Sites/INS0341DL/" n="31">Images</t:desc>
                
                
-               <note>
-                  <date type="foundation" when="1284">According to the tradition it was founded by 
-                     <persName ref="https://betamasaheft.eu/PRS9162TaklaHa">Takla Hāymānot</persName>.</date>
+               <t:note>
+                  <t:date type="foundation" when="1284">According to the tradition it was founded by 
+                     <t:persName ref="https://betamasaheft.eu/PRS9162TaklaHa">Takla Hāymānot</t:persName>.</t:date>
 
-                  <ab type="history">Dabra Libānos, originally known as Dabra ʿAsbo and renamed by
+                  <t:ab type="history">Dabra Libānos, originally known as Dabra ʿAsbo and renamed by
                      
-                     <persName ref="https://betamasaheft.eu/PRS10626ZaraY">Zarʾa Yāʿqob</persName> is a monastery located in
-                     <placeName ref="https://betamasaheft.eu/LOC5597Sawa">Šawā</placeName> in the gorge near the river <placeName ref="https://betamasaheft.eu/LOC6469ZegaWa">Zega Wädäb</placeName>. This southern location has to be emphasized:
-                     the community was established between the kingdom of <placeName ref="https://betamasaheft.eu/LOC2488Damot">Dāmot</placeName> and the Muslim sultanate of
-                     <placeName ref="https://betamasaheft.eu/LOC5597Sawa">Šawā</placeName> under the authority of <placeName ref="https://betamasaheft.eu/LOC3921Ifat">ʾIfāt</placeName>. According to the
-                     hagiography of <persName ref="https://betamasaheft.eu/PRS1955Anorewos">ʾAnorewos</persName>, one of the first disciples of
+                     <t:persName ref="https://betamasaheft.eu/PRS10626ZaraY">Zarʾa Yāʿqob</t:persName> is a monastery located in
+                     <t:placeName ref="https://betamasaheft.eu/LOC5597Sawa">Šawā</t:placeName> in the gorge near the river <t:placeName ref="https://betamasaheft.eu/LOC6469ZegaWa">Zega Wädäb</t:placeName>. This southern location has to be emphasized:
+                     the community was established between the kingdom of <t:placeName ref="https://betamasaheft.eu/LOC2488Damot">Dāmot</t:placeName> and the Muslim sultanate of
+                     <t:placeName ref="https://betamasaheft.eu/LOC5597Sawa">Šawā</t:placeName> under the authority of <t:placeName ref="https://betamasaheft.eu/LOC3921Ifat">ʾIfāt</t:placeName>. According to the
+                     hagiography of <t:persName ref="https://betamasaheft.eu/PRS1955Anorewos">ʾAnorewos</t:persName>, one of the first disciples of
                      
-                     <persName ref="https://betamasaheft.eu/PRS9162TaklaHa">Takla Hāymānot</persName>, the daily life was
-                     under the jurisdiction of the <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">maggābi</t:roleName>. It is known that the monastery enjoyed land donations at least since the half  of 15th century during
+                     <t:persName ref="https://betamasaheft.eu/PRS9162TaklaHa">Takla Hāymānot</t:persName>, the daily life was
+                     under the jurisdiction of the <t:roleName type="title">maggābi</t:roleName>. It is known that the monastery enjoyed land donations at least since the half  of 15th century during
                      the reign of 
-                     <persName ref="https://betamasaheft.eu/PRS10626ZaraY">Zarʾa Yāʿqob</persName>. The monastery of Dabra Libānos
-                     suffered great destruction during the war of <persName ref="https://betamasaheft.eu/PRS1522Ahmadb">ʾAḥmad</persName> in <date when="1532">1532</date>.
+                     <t:persName ref="https://betamasaheft.eu/PRS10626ZaraY">Zarʾa Yāʿqob</t:persName>. The monastery of Dabra Libānos
+                     suffered great destruction during the war of <t:persName ref="https://betamasaheft.eu/PRS1522Ahmadb">ʾAḥmad</t:persName> in <t:date when="1532">1532</t:date>.
                      However, it revived soon under 
-                     <persName ref="https://betamasaheft.eu/PRS4428Galawdew">Galāwdewos</persName>
-                     and his successor <persName ref="https://betamasaheft.eu/PRS8550sardaDe">Śarḍa Dǝngǝl</persName> during which attempts were made to elevate the monastery to
+                     <t:persName ref="https://betamasaheft.eu/PRS4428Galawdew">Galāwdewos</t:persName>
+                     and his successor <t:persName ref="https://betamasaheft.eu/PRS8550sardaDe">Śarḍa Dǝngǝl</t:persName> during which attempts were made to elevate the monastery to
                      the position of religious centre of the monarchy. But the situation deteriorated due to the massive expansion of the
-                     <persName ref="https://betamasaheft.eu/ETH1973Oromo">Oromo</persName> and increasing isolation of  Dabra Libānos from the rest of the Empire.
-                  </ab>
-                  <ab type="description" subtype="school">All levels of the ecclesiastical education are offered, even though some of them are not active. 
-                     According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, the following levels  of traditional education were avaialable: 
-                     <table>
-                        <row role="label">
-                           <cell role="label">School</cell>
-                           <cell role="label">Instructor</cell>
-                           <cell role="label">Students</cell>
-                        </row>                                
-                        <row>
-                           <cell><ref type="authFile" corresp="https://betamasaheft.eu/NebabBet">Nǝbāb bet</ref></cell>
-                           <cell>Mamhǝr Walda Iyyāsus, 
+                     <t:persName ref="https://betamasaheft.eu/ETH1973Oromo">Oromo</t:persName> and increasing isolation of  Dabra Libānos from the rest of the Empire.
+                  </t:ab>
+                  <t:ab type="description" subtype="school">All levels of the ecclesiastical education are offered, even though some of them are not active. 
+                     According to the information obtained in <t:date notBefore="2020" notAfter="2024">2020-2024</t:date> by the <t:ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</t:ref>, the following levels  of traditional education were avaialable: 
+                     <t:table>
+                        <t:row role="label">
+                           <t:cell role="label">School</t:cell>
+                           <t:cell role="label">Instructor</t:cell>
+                           <t:cell role="label">Students</t:cell>
+                        </t:row>                                
+                        <t:row>
+                           <t:cell><t:ref type="authFile" corresp="https://betamasaheft.eu/NebabBet">Nǝbāb bet</t:ref></t:cell>
+                           <t:cell>Mamhǝr Walda Iyyāsus, 
                               Mamhǝr Lǝʿul, 
                               Mamhǝr Tasfā,
                               Mamhǝr Walda Madḫǝn
-                           </cell>
-                           <cell>n.d.</cell>
-                        </row>
-                        <row>
-                           <cell><ref type="authFile" corresp="https://betamasaheft.eu/QeddaseBet">Qǝddāse bet</ref></cell>
-                           <cell>Mamhǝr Yamāna Bǝrhān (Retired as of 2024),
+                           </t:cell>
+                           <t:cell>n.d.</t:cell>
+                        </t:row>
+                        <t:row>
+                           <t:cell><t:ref type="authFile" corresp="https://betamasaheft.eu/QeddaseBet">Qǝddāse bet</t:ref></t:cell>
+                           <t:cell>Mamhǝr Yamāna Bǝrhān (Retired as of 2024),
                               Mamhǝr Ḥǝzqʾel
-                           </cell>
-                           <cell>n.d.</cell>
-                        </row>
-                        <row>
-                           <cell><ref type="authFile" corresp="https://betamasaheft.eu/ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
-                           <cell>Mamhǝr Wadāğ </cell>
-                           <cell>n.d.</cell>
-                        </row>
-                        <row>
-                           <cell><ref type="authFile" corresp="https://betamasaheft.eu/ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
-                           <cell>Mamhǝr Batra Māryam (Retired as of 2024),
+                           </t:cell>
+                           <t:cell>n.d.</t:cell>
+                        </t:row>
+                        <t:row>
+                           <t:cell><t:ref type="authFile" corresp="https://betamasaheft.eu/ZemaBet#Deggwa">Zemā bet: Dǝggʷā</t:ref></t:cell>
+                           <t:cell>Mamhǝr Wadāğ </t:cell>
+                           <t:cell>n.d.</t:cell>
+                        </t:row>
+                        <t:row>
+                           <t:cell><t:ref type="authFile" corresp="https://betamasaheft.eu/ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</t:ref></t:cell>
+                           <t:cell>Mamhǝr Batra Māryam (Retired as of 2024),
                               Mamhǝr Sǝmur
-                           </cell>
-                           <cell>more than 200</cell>
-                        </row>
-                        <row>
-                           <cell><ref type="authFile" corresp="https://betamasaheft.eu/QeneBet">Qǝne bet</ref></cell>
-                           <cell>Mamhǝr Kǝnfa Mikaʾel,
+                           </t:cell>
+                           <t:cell>more than 200</t:cell>
+                        </t:row>
+                        <t:row>
+                           <t:cell><t:ref type="authFile" corresp="https://betamasaheft.eu/QeneBet">Qǝne bet</t:ref></t:cell>
+                           <t:cell>Mamhǝr Kǝnfa Mikaʾel,
                               Mamhǝr Ḥāwaz
-                           </cell>
-                           <cell>n.d.</cell>
-                        </row>
-                        <row>
-                           <cell><ref type="authFile" corresp="https://betamasaheft.eu/MashafBet#OldT">Maṣḥāf bet: Old Testament ʾAndǝmtā</ref></cell>
-                           <cell>Maggābi bǝluy Bǝrhāna Masqal
-                           </cell>
-                           <cell>n.d.</cell>
-                        </row>
-                        <row>
-                           <cell><ref type="authFile" corresp="https://betamasaheft.eu/MashafBet#NewT">Maṣḥāf bet: New Testament ʾAndǝmtā</ref></cell>
-                           <cell>Maggābi haddis Walda Takla Hāymānot
-                           </cell>
-                           <cell>n.d.</cell>
-                        </row>
-                     </table>
-                  </ab>
-               </note>
-            </place>
-         </listPlace>
-            <listBibl type="secondary">
-               <bibl corresp="http://zotero.org/groups/358366/items/37QRHXEK"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Turaev1906ZenaDabralibanos"/><title level="m">ዜና፡ ደብረ፡ ሊባኖስ. Povestvovanie o Dabra-Libanosskom monastyre (‘Zena Däbrä Libanos. The History of Däbrä Libanos Monastrery’)</title><title level="s">Pamjatniki ėfiopskoj pis'mennosti</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Boris Aleksandrovič</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Turaev</t:surname></author><pubPlace>St. Petersburg</pubPlace><publisher>Tip. Imp. Akad. Nauk</publisher><date>1906</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Pamjatniki ėfiopskoj pis'mennosti</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">4</t:biblScope></series><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">4</t:biblScope></bibl>
+                           </t:cell>
+                           <t:cell>n.d.</t:cell>
+                        </t:row>
+                        <t:row>
+                           <t:cell><t:ref type="authFile" corresp="https://betamasaheft.eu/MashafBet#OldT">Maṣḥāf bet: Old Testament ʾAndǝmtā</t:ref></t:cell>
+                           <t:cell>Maggābi bǝluy Bǝrhāna Masqal
+                           </t:cell>
+                           <t:cell>n.d.</t:cell>
+                        </t:row>
+                        <t:row>
+                           <t:cell><t:ref type="authFile" corresp="https://betamasaheft.eu/MashafBet#NewT">Maṣḥāf bet: New Testament ʾAndǝmtā</t:ref></t:cell>
+                           <t:cell>Maggābi haddis Walda Takla Hāymānot
+                           </t:cell>
+                           <t:cell>n.d.</t:cell>
+                        </t:row>
+                     </t:table>
+                  </t:ab>
+               </t:note>
+            </t:place>
+         </t:listPlace>
+            <t:listBibl type="secondary">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/37QRHXEK"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Turaev1906ZenaDabralibanos"/><title level="m">ዜና፡ ደብረ፡ ሊባኖስ. Povestvovanie o Dabra-Libanosskom monastyre (‘Zena Däbrä Libanos. The History of Däbrä Libanos Monastrery’)</title><title level="s">Pamjatniki ėfiopskoj pis'mennosti</title><author><t:forename>Boris Aleksandrovič</t:forename><t:surname>Turaev</t:surname></author><pubPlace>St. Petersburg</pubPlace><publisher>Tip. Imp. Akad. Nauk</publisher><date>1906</date><series><t:title level="s">Pamjatniki ėfiopskoj pis'mennosti</t:title><t:biblScope unit="volume">4</t:biblScope></series><biblScope unit="volume">4</biblScope></t:bibl>
                
-               <bibl corresp="http://zotero.org/groups/358366/items/KGEG85ZI"><seg type="thesis"><!-- attributes from original bibl--></seg><ptr target="bm:Solomon2016Galawdewos"/><title level="m">Chronicle of King Gälawdewos (1540-1559): Critical Edition and Annotated Translation</title><author><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Solomon Gebreyes Beyene</t:name></author><pubPlace>Hamburg</pubPlace><date>2016</date><note type="url">http://ediss.sub.uni-hamburg.de/volltexte/2016/8117/pdf/Dissertation.pdf</note><note type="thesisType">Dissertation</note></bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/KGEG85ZI"><seg type="thesis"><!-- attributes from original bibl--></seg><ptr target="bm:Solomon2016Galawdewos"/><title level="m">Chronicle of King Gälawdewos (1540-1559): Critical Edition and Annotated Translation</title><author><name>Solomon Gebreyes Beyene</name></author><pubPlace>Hamburg</pubPlace><date>2016</date><note type="url">http://ediss.sub.uni-hamburg.de/volltexte/2016/8117/pdf/Dissertation.pdf</note><note type="thesisType">PhD Dissertation</note><note type="tags"><note type="tag">Historiography</note><note type="tag">AdW</note><note type="tag">Galawdewos</note><note type="tag">Chronicle</note><note type="tag">bm:Solomon2016Galawdewos</note></note><note type="tag">Historiography</note><note type="tag">AdW</note><note type="tag">Galawdewos</note><note type="tag">Chronicle</note><note type="tag">bm:Solomon2016Galawdewos</note></t:bibl>
                
-               <bibl corresp="http://zotero.org/groups/358366/items/VZ2GVIW6"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Conzelman1895Galawdewos"/><title level="m">Chronique de Galâwdêwos (Claudius), roi d’Éthiopie, texte éthiopien, traduit, annoté et précédé d'une introduction historique</title><title level="s">Bibliothèque de l’École pratique des hautes études, Sciences philologiques et historiques</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">William E.</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Conzelman</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">William E.</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Conzelman</t:surname></editor><pubPlace>Paris</pubPlace><publisher>Librairie Émile Bouillon, Éditeur</publisher><date>1895</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Bibliothèque de l’École pratique des hautes études, Sciences philologiques et historiques</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">104</t:biblScope></series><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">104</t:biblScope><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k33073h/</note></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/UM5ZBIH7"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Derat2005DabraLibanos"/><title level="a">Däbrä  Libanos</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Marie-Laure</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Derat</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Siegbert</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Uhlig</t:surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">II</t:biblScope><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="page">25b-28a</t:biblScope></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/7KIUXB46"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Nosnitsin2010TaklaHaymanot"/><title level="a">Täklä Haymanot</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Denis</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Nosnitsin</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Siegbert</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Uhlig</t:surname></editor><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Alessandro</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bausi</t:surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">IV</t:biblScope><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="page">831a-834b</t:biblScope></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/SQJB6X7A"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Solomon2015Galawdewos"/><title level="a">The Chronicle of Emperor Gälawdewos (1540-1559): a source on Ethiopia’s mediaeval historical geography</title><title level="m">Essays in Ethiopian Manuscript Studies: Proceedings of the International Conference &lt;hi rend="italics"&gt;Manuscripts and Texts, Languages and Contexts: the Transmission of Knowledge in the Horn of Africa&lt;/hi&gt;, Hamburg, 17–19 July 2014</title><title level="s">Supplement to Aethiopica</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Sophia</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Solomon Gebreyes Beyene</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Alessandro</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bausi</t:surname></editor><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Alessandro</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Gori</t:surname></editor><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Denis</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Nosnitsin</t:surname></editor><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Eugenia</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Sokolinski</t:surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2015</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Supplement to Aethiopica</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">4</t:biblScope></series><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="page">109-118</t:biblScope><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">4</t:biblScope><note type="url">https://www.harrassowitz-verlag.de/pdfjs/web/viewer.html?file=/ddo/artikel/65124/978-3-447-10430-2_Inhaltsverzeichnis.pdf#pagemode=thumbs</note><citedRange unit="page">109-118</citedRange></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/BFW7SZGD"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Huntingford1987Historicalgeo"/><title level="m">The Historical Geography of Ethiopia: From the First Century &lt;hi rend="smallcaps"&gt;ad&lt;/hi&gt; to 1704&lt;hi rend="italics"&gt;, Ethiopic spellings revised by D. Appleyard&lt;/hi&gt;</title><title level="s">Fontes Historiae Africanae</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">George Wynn Brereton</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Huntingford</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Richard</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Pankhurst</t:surname></editor><pubPlace>Oxford–New York, NY</pubPlace><publisher>The Oxford University Press</publisher><date>1989</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Fontes Historiae Africanae</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">Series Varia, 4</t:biblScope></series><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">Series Varia, 4</t:biblScope><citedRange unit="page">7, 69, 76, 80, 83, 108, 116, 117, 120, 128, 152-4, 156, 224, 249</citedRange></bibl>
-            </listBibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/VZ2GVIW6"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Conzelman1895Galawdewos"/><title level="m">Chronique de Galâwdêwos (Claudius) roi d’Éthiopie</title><title level="s">Bibliothèque de l’École pratique des hautes études, Sciences philologiques et historiques</title><editor><forename>William El.</forename><surname>Conzelman</surname></editor><pubPlace>Paris</pubPlace><publisher>Librairie Émile Bouillon, Éditeur</publisher><date>1895</date><series><title level="s">Bibliothèque de l’École pratique des hautes études, Sciences philologiques et historiques</title><biblScope unit="volume">104</biblScope></series><biblScope unit="volume">104</biblScope><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k33073h/</note><note type="tags"><note type="tag">Historiography</note><note type="tag">Galawdewos</note><note type="tag">bm:Conzelman1895Galawdewos</note><note type="tag">Chronicle</note></note><note type="tag">Historiography</note><note type="tag">Galawdewos</note><note type="tag">bm:Conzelman1895Galawdewos</note><note type="tag">Chronicle</note></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/UM5ZBIH7"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Derat2005DabraLibanos"/><title level="a">Däbrä  Libanos</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Marie-Laure</forename><surname>Derat</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">25b-28a</biblScope><note type="tags"><note type="tag">bm:Derat2005DabraLibanos</note></note><note type="tag">bm:Derat2005DabraLibanos</note></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/7KIUXB46"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Nosnitsin2010TaklaHaymanot"/><title level="a">Täklä Haymanot</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Denis</forename><surname>Nosnitsin</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">831a-834b</biblScope><note type="tags"><note type="tag">bm:Nosnitsin2010TaklaHaymanot</note></note><note type="tag">bm:Nosnitsin2010TaklaHaymanot</note></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/SQJB6X7A"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Solomon2015Galawdewos"/><title level="a">The Chronicle of Emperor Gälawdewos (1540-1559): a source on Ethiopia’s mediaeval historical geography</title><title level="m">Essays in Ethiopian Manuscript Studies: Proceedings of the International Conference &lt;hi rend="italics"&gt;Manuscripts and Texts, Languages and Contexts: the Transmission of Knowledge in the Horn of Africa&lt;/hi&gt;, Hamburg, 17–19 July 2014</title><title level="s">Supplement to Aethiopica</title><author><t:forename>Sophia</t:forename><t:surname>Solomon Gebreyes Beyene</t:surname></author><editor><t:forename>Alessandro</t:forename><t:surname>Bausi</t:surname></editor><editor><t:forename>Alessandro</t:forename><t:surname>Gori</t:surname></editor><editor><t:forename>Denis</t:forename><t:surname>Nosnitsin</t:surname></editor><editor><t:forename>Eugenia</t:forename><t:surname>Sokolinski</t:surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2015</date><series><t:title level="s">Supplement to Aethiopica</t:title><t:biblScope unit="volume">4</t:biblScope></series><biblScope unit="page">109-118</biblScope><biblScope unit="volume">4</biblScope><note type="url">https://www.harrassowitz-verlag.de/pdfjs/web/viewer.html?file=/ddo/artikel/65124/978-3-447-10430-2_Inhaltsverzeichnis.pdf#pagemode=thumbs</note><t:citedRange unit="page">109-118</t:citedRange></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/BFW7SZGD"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Huntingford1987Historicalgeo"/><title level="m">The Historical Geography of Ethiopia: From the First Century &lt;hi rend="smallcaps"&gt;ad&lt;/hi&gt; to 1704&lt;hi rend="italics"&gt;, Ethiopic spellings revised by D. Appleyard&lt;/hi&gt;</title><title level="s">Fontes Historiae Africanae</title><author><t:forename>George Wynn Brereton</t:forename><t:surname>Huntingford</t:surname></author><editor><t:forename>Richard</t:forename><t:surname>Pankhurst</t:surname></editor><pubPlace>Oxford–New York, NY</pubPlace><publisher>The Oxford University Press</publisher><date>1989</date><series><t:title level="s">Fontes Historiae Africanae</t:title><t:biblScope unit="volume">Series Varia, 4</t:biblScope></series><biblScope unit="volume">Series Varia, 4</biblScope><t:citedRange unit="page">7, 69, 76, 80, 83, 108, 116, 117, 120, 128, 152-4, 156, 224, 249</t:citedRange></t:bibl>
+            </t:listBibl>
          
-      </body>
-   </text></TEI>
+      </t:body>
+   </t:text></TEI>
