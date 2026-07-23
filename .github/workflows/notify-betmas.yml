@@ -1,0 +1,21 @@
+name: Notify BetMas
+
+# Tells BetMas's data-base-image build that expanded's main branch moved,
+# so it can pick up the new snapshot. BetMas/build-data.yml already listens
+# for this (repository_dispatch: types: [expanded-updated]) - this is the
+# sending side, which never existed.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch expanded-updated to BetMas
+        env:
+          GH_TOKEN: ${{ secrets.DEPLOY_PAT }}
+        run: |
+          gh api repos/BetaMasaheft/BetMas/dispatches \
+            -f event_type=expanded-updated
