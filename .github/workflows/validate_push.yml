@@ -15,13 +15,13 @@ jobs:
     steps:
       # checkout code
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           path: project
 
-      # checkout schema as xmllint can't https 
+      # checkout schema as xmllint can't https
       - name: Checkout schema repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: BetaMasaheft/Schema
           path: schema
@@ -35,15 +35,15 @@ jobs:
       - name: Install Test Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install libxml2-utils
+          sudo apt-get install -y libxml2-utils
 
       - name: Ensure all XML files are well formed
         run: |
           xmllint --noout \
-            $(find . -type f -name '*.xml') 
-      
-      # DP: see #6 
-      # There are too many validation errors for this to be useful 
+            $(find . -type f -name '*.xml')
+
+      # DP: see #6
+      # There are too many validation errors for this to be useful
       # validate all TEI-files
       # - name: Validate files
       #   run: |
@@ -56,3 +56,10 @@ jobs:
       #     xmllint --noout --xinclude --nowarning 2>&1 \
       #     --relaxng ../schema/tei-betamesaheft-expanded.rng 2>&1 | \
       #     { grep 'fails to validate' || :; }
+
+      - name: Build Expath Package
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: 8
+      - run: ant

@@ -1,0 +1,73 @@
+name: Install smoke
+
+# Not BetaMasaheft/.github's install-smoke.yml (unlike every sibling data
+# repo): that workflow installs via `xst package install` over REST/
+# XML-RPC, both capped at an unconfigurable ~300s client timeout in
+# undici - too short for this repo's 186MB/57k-file xar, which takes
+# several minutes to deploy server-side. No registry deps to resolve
+# either, so xst buys nothing here. Installs instead via a boot-time
+# /exist/autodeploy mount - "Server has started" only logs once
+# AutoDeploymentTrigger has fully finished, so it's a reliable completion
+# signal on its own.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Install bats and xmllint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y bats libxml2-utils
+
+      - name: Resolve package URI
+        id: pkg
+        run: |
+          uri=$(xmllint --xpath 'string(/*[local-name()="package"]/@name)' expath-pkg.xml)
+          echo "Resolved package URI: $uri"
+          echo "uri=$uri" >> "$GITHUB_OUTPUT"
+
+      - name: Install Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: "8"
+
+      - run: ant
+
+      - name: Start eXist with the xar mounted into autodeploy
+        # GHA runner disk is slower than local for 57k+ small files -
+        # generous headroom on this package's deploy time.
+        timeout-minutes: 40
+        run: |
+          docker run -dit -p 8080:8080 --name exist --rm \
+            --health-interval=2s --health-timeout=5s --health-start-period=8s --health-retries=3 \
+            -v "$(pwd)/build:/exist/autodeploy:ro" \
+            duncdrum/existdb:release-slim
+          until docker logs exist 2>&1 | grep -q "Server has started"; do
+            echo "Still waiting for autodeploy to finish..."
+            sleep 5
+          done
+          sleep 15
+
+      - name: Checkout shared test suite
+        uses: actions/checkout@v7
+        with:
+          repository: BetaMasaheft/.github
+          path: .shared-ci
+
+      - name: Run smoke test
+        env:
+          PACKAGE_URI: ${{ steps.pkg.outputs.uri }}
+        run: bats --tap .shared-ci/test/install-smoke.bats
+
+      - name: Show logs on failure
+        if: failure()
+        run: docker logs exist
