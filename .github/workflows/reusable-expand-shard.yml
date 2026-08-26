@@ -83,6 +83,10 @@ jobs:
             --data-urlencode "collection=${col}")
           echo "${out}"
           case "${out}" in
+            expanded\ 0\ *)
+              echo "::error::makeExpand processed 0 files for ${col}"
+              exit 1
+              ;;
             expanded\ *) ;;
             *)
               echo "::error::makeExpand unexpected output for ${col}"
@@ -121,6 +125,10 @@ jobs:
           count=$(find "${dest}" -type f -name '*.xml' | wc -l | tr -d ' ')
           echo "${rel} ${count}" > "${artifact_root}/.shard-manifest"
           echo "Exported ${rel} (${count} xml files)"
+          if [ "${count}" -eq 0 ]; then
+            echo "::error::Exported 0 xml files for ${rel}; refusing empty shard (would wipe git tree on assemble)."
+            exit 1
+          fi
 
       - name: Set artifact name
         env:

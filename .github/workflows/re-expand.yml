@@ -25,6 +25,7 @@ on:
       push_to_main:
         description: >
           If true and assemble differs from checkout, commit and push to main.
+          Only allowed when dispatching from main (not a feature branch).
           Default false until a full matrix is trusted.
         required: false
         type: boolean
@@ -113,8 +114,20 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      - name: Guard push_to_main requires main
+        if: inputs.push_to_main == true
+        run: |
+          set -euo pipefail
+          if [ "${{ github.ref }}" != "refs/heads/main" ]; then
+            echo "::error::push_to_main only allowed when dispatching from main (got ${{ github.ref }})."
+            exit 1
+          fi
+
       - name: Checkout expanded
         uses: actions/checkout@v7
+        with:
+          # When pushing, assemble onto main tip — never commit on a feature-branch HEAD.
+          ref: ${{ inputs.push_to_main == true && 'main' || github.sha }}
 
       - name: Download shard manifest
         uses: actions/download-artifact@v4
@@ -147,16 +160,22 @@ jobs:
               missing=1
               continue
             fi
+            count=$(find "${src}" -type f -name '*.xml' | wc -l | tr -d ' ')
+            if [ "${count}" -eq 0 ]; then
+              echo "::error::Shard ${rel} has 0 xml files; refusing rsync --delete wipe"
+              missing=1
+              continue
+            fi
             mkdir -p "${rel}"
             rsync -a --delete "${src}/" "${rel}/"
-            echo "merged ${rel}"
+            echo "merged ${rel} (${count} xml)"
           done < manifest/shards.txt
 
           find . -name '__contents__.xml' -delete 2>/dev/null || true
           find . -name '.shard-manifest' -delete 2>/dev/null || true
 
           if [ "${missing}" -ne 0 ]; then
-            echo "::error::One or more shard artifacts missing"
+            echo "::error::One or more shard artifacts missing or empty"
             exit 1
           fi
 
@@ -177,7 +196,7 @@ jobs:
           fi
 
       - name: Commit and push re-expansion diff
-        if: steps.diff.outputs.changed == 'true' && inputs.push_to_main
+        if: steps.diff.outputs.changed == 'true' && inputs.push_to_main == true
         run: |
           git config user.name "betmas-bot"
           git config user.email "betmas-bot@users.noreply.github.com"
@@ -188,6 +207,6 @@ jobs:
           git push origin HEAD:main
 
       - name: Skip push (changed but push_to_main=false)
-        if: steps.diff.outputs.changed == 'true' && !inputs.push_to_main
+        if: steps.diff.outputs.changed == 'true' && inputs.push_to_main != true
         run: |
           echo "::notice::Corpus differs after assemble, but push_to_main is false."
