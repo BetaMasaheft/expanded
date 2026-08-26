@@ -8,7 +8,7 @@ name: Install smoke
 # either, so xst buys nothing here. Installs instead via a boot-time
 # /exist/autodeploy mount - "Server has started" only logs once
 # AutoDeploymentTrigger has fully finished, so it's a reliable completion
-# signal on its own.
+# signal on its own. (PR checks: autodeploy install-smoke suite.)
 
 on:
   push:
