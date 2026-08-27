@@ -83,8 +83,7 @@ jobs:
     needs: plan
     strategy:
       fail-fast: false
-      # Literal int — workflow_dispatch number inputs as max-parallel expressions
-      # have been observed to drop the whole reusable matrix job.
+      # Literal int — expression max-parallel with reusable matrix was dropping the job.
       max-parallel: 6
       matrix:
         collection: ${{ fromJSON(needs.plan.outputs.shards) }}
