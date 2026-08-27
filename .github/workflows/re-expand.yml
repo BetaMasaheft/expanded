@@ -31,7 +31,9 @@ on:
         type: boolean
         default: false
       max_parallel:
-        description: Max concurrent shard jobs (GHCR / runner load)
+        description: >
+          Reserved (currently fixed at 6 in the expand job). Kept for future
+          wiring once expression-based max-parallel is proven with reusable matrix.
         required: false
         type: number
         default: 6
@@ -81,14 +83,15 @@ jobs:
     needs: plan
     strategy:
       fail-fast: false
-      max-parallel: ${{ inputs.max_parallel }}
+      # Literal int — workflow_dispatch number inputs as max-parallel expressions
+      # have been observed to drop the whole reusable matrix job.
+      max-parallel: 6
       matrix:
         collection: ${{ fromJSON(needs.plan.outputs.shards) }}
     uses: ./.github/workflows/reusable-expand-shard.yml
     with:
       collection: ${{ matrix.collection }}
-    secrets:
-      BOT_CONTAINER_PAT: ${{ secrets.BOT_CONTAINER_PAT }}
+    secrets: inherit
 
   assemble:
     needs: [plan, expand]
