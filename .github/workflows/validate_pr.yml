@@ -36,7 +36,8 @@ jobs:
             ${{ github.sha }} \
             -- ':./**/*.xml' ':!*/transkribus*.xml' ':!*/facsimile*.xml' \
             ':!./**/edition.xml' ':!./**/msDesc.xml' ':!./**/*text.xml' \
-            ':!./**/taxonomy.xml' ':*.xml' ':!build.xml' ':!expath-pkg.xml' ':!repo.xml' | xargs)"     
+            ':!./**/taxonomy.xml' ':*.xml' ':!build.xml' ':!expath-pkg.xml' \
+            ':!repo.xml' ':!test/fixtures/**' | xargs)"
           } >> "$GITHUB_OUTPUT"
       # If no xml files were modified ...
       - name: No source files changed
@@ -62,8 +63,8 @@ jobs:
             $FILES \
             2>&1 | \
             { grep -vE 'RNG|validates' || :; }
-      # ensure branch contains only well-formed xml files 
+      # ensure branch contains only well-formed xml files
       - name: Ensure all XML files are well formed
         run: |
           xmllint --noout \
-            $(find . -type f -name '*.xml') 
+            $(find . -type f -name '*.xml')

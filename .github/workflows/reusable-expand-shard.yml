@@ -43,6 +43,15 @@ jobs:
       - name: Restart docker
         run: sudo service docker restart
 
+      # maximize-build-space may clear the workspace; checkout scripts after it.
+      # Sparse: only scripts/ci (full expanded tree is multi-GB and not needed here).
+      - name: Checkout expanded (scripts)
+        uses: actions/checkout@v7
+        with:
+          sparse-checkout: |
+            scripts/ci
+          sparse-checkout-cone-mode: true
+
       - name: Log in to GitHub Container Registry
         uses: docker/login-action@v4
         with:
@@ -82,17 +91,10 @@ jobs:
             "http://localhost:8080/exist/rest/db/apps/BetMasWeb/modules/makeExpand.xql" \
             --data-urlencode "collection=${col}")
           echo "${out}"
-          case "${out}" in
-            expanded\ 0\ *)
-              echo "::error::makeExpand processed 0 files for ${col}"
-              exit 1
-              ;;
-            expanded\ *) ;;
-            *)
-              echo "::error::makeExpand unexpected output for ${col}"
-              exit 1
-              ;;
-          esac
+          if ! bash scripts/ci/check-makeExpand-output.sh "${out}"; then
+            echo "::error::makeExpand refused or unexpected output for ${col}"
+            exit 1
+          fi
 
       - name: Export shard to artifact tree
         env:
@@ -109,24 +111,11 @@ jobs:
           mkdir -p "${export_root}" "${artifact_root}"
 
           npx --yes @existdb/xst@^4 get "/db/apps/expanded/${rel}" "${export_root}"
-          leaf="${rel##*/}"
-          src="${export_root}/${leaf}"
-          if [ ! -d "${src}" ]; then
-            echo "::error::xst get did not produce ${src}"
-            exit 1
-          fi
-
-          dest="${artifact_root}/${rel}"
-          mkdir -p "$(dirname "${dest}")"
-          mkdir -p "${dest}"
-          rsync -a "${src}/" "${dest}/"
-          find "${artifact_root}" -name '__contents__.xml' -delete 2>/dev/null || true
-
-          count=$(find "${dest}" -type f -name '*.xml' | wc -l | tr -d ' ')
-          echo "${rel} ${count}" > "${artifact_root}/.shard-manifest"
-          echo "Exported ${rel} (${count} xml files)"
-          if [ "${count}" -eq 0 ]; then
-            echo "::error::Exported 0 xml files for ${rel}; refusing empty shard (would wipe git tree on assemble)."
+          if ! bash scripts/ci/stage-shard-export.sh \
+            --rel "${rel}" \
+            --export-root "${export_root}" \
+            --artifact-root "${artifact_root}"; then
+            echo "::error::Failed to stage export for ${rel}"
             exit 1
           fi
 
@@ -138,7 +127,7 @@ jobs:
           echo "ARTIFACT_NAME=shard-${safe}" >> "${GITHUB_ENV}"
 
       - name: Upload shard artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ env.ARTIFACT_NAME }}
           path: shard-out/

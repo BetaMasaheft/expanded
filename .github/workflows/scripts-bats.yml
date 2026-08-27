@@ -1,0 +1,30 @@
+name: Scripts bats
+
+on:
+  pull_request:
+  push:
+    paths:
+      - "scripts/**"
+      - "test/**"
+      - ".github/workflows/scripts-bats.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  bats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Install bats and shellcheck
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y bats shellcheck
+
+      - name: Shellcheck ci scripts
+        run: shellcheck scripts/ci/*.sh
+
+      - name: Run script tests
+        run: bats test
