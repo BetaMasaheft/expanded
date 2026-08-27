@@ -1,0 +1,212 @@
+name: Scheduled Re-expansion
+
+# Matrix expand + assemble. See expanded#11.
+#
+# workflow_dispatch ONLY. Each shard boots ghcr.io/betamasaheft/betamasaheft
+# (app image: BetMasWeb + BetMasData + EthioStudies), expands one L1 path,
+# uploads an artifact. Assemble merges into this repo; push_to_main gates
+# notify-betmas. Image contents are asserted in BetMas bats (app-image-expand).
+#
+# Pilot: collection=corpora, push_to_main=false.
+# Full run: leave collection empty (~205 L1 shards).
+#
+# App image is private: BOT_CONTAINER_PAT for GHCR.
+
+on:
+  workflow_dispatch:
+    inputs:
+      collection:
+        description: >
+          Optional single relative path under BetMasData (e.g. works/1-1000).
+          Leave empty to expand every discovered L1 slice (full matrix).
+        required: false
+        type: string
+        default: ""
+      push_to_main:
+        description: >
+          If true and assemble differs from checkout, commit and push to main.
+          Only allowed when dispatching from main (not a feature branch).
+          Default false until a full matrix is trusted.
+        required: false
+        type: boolean
+        default: false
+      max_parallel:
+        description: Max concurrent shard jobs (GHCR / runner load)
+        required: false
+        type: number
+        default: 6
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      shards: ${{ steps.list.outputs.shards }}
+      shard_count: ${{ steps.list.outputs.count }}
+    steps:
+      - name: Checkout expanded
+        uses: actions/checkout@v7
+
+      - name: Discover shards
+        id: list
+        env:
+          COLLECTION_FILTER: ${{ inputs.collection }}
+        run: |
+          set -euo pipefail
+          discover_slices() {
+            local root
+            for root in works persons places institutions narratives studies authority-files manuscripts; do
+              if [ -d "${root}" ]; then
+                find "${root}" -mindepth 1 -maxdepth 1 -type d | sort
+              fi
+            done
+            if [ -d corpora ]; then
+              echo corpora
+            fi
+          }
+
+          if [ -n "${COLLECTION_FILTER}" ]; then
+            mapfile -t slices <<< "${COLLECTION_FILTER}"
+          else
+            mapfile -t slices < <(discover_slices)
+          fi
+
+          if [ "${#slices[@]}" -eq 0 ]; then
+            echo "::error::No shards to expand"
+            exit 1
+          fi
+
+          json=$(printf '%s\n' "${slices[@]}" | jq -R . | jq -s -c .)
+          echo "shards=${json}" >> "${GITHUB_OUTPUT}"
+          echo "count=${#slices[@]}" >> "${GITHUB_OUTPUT}"
+          printf '%s\n' "${slices[@]}" > shards.txt
+          echo "Planned ${#slices[@]} shard(s):"
+          cat shards.txt
+
+      - name: Upload shard manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: shards-manifest
+          path: shards.txt
+          retention-days: 5
+
+  expand:
+    needs: plan
+    strategy:
+      fail-fast: false
+      max-parallel: ${{ inputs.max_parallel }}
+      matrix:
+        collection: ${{ fromJSON(needs.plan.outputs.shards) }}
+    uses: ./.github/workflows/reusable-expand-shard.yml
+    with:
+      collection: ${{ matrix.collection }}
+    secrets:
+      BOT_CONTAINER_PAT: ${{ secrets.BOT_CONTAINER_PAT }}
+
+  assemble:
+    needs: [plan, expand]
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Guard push_to_main requires main
+        if: inputs.push_to_main == true
+        run: |
+          set -euo pipefail
+          if [ "${{ github.ref }}" != "refs/heads/main" ]; then
+            echo "::error::push_to_main only allowed when dispatching from main (got ${{ github.ref }})."
+            exit 1
+          fi
+
+      - name: Checkout expanded
+        uses: actions/checkout@v7
+        with:
+          # When pushing, assemble onto main tip — never commit on a feature-branch HEAD.
+          ref: ${{ inputs.push_to_main == true && 'main' || github.sha }}
+
+      - name: Download shard manifest
+        uses: actions/download-artifact@v4
+        with:
+          name: shards-manifest
+          path: manifest
+
+      - name: Download all shard artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: shard-*
+          path: shards-in
+          merge-multiple: true
+
+      - name: Merge shards into working tree
+        run: |
+          set -euo pipefail
+          if [ ! -f manifest/shards.txt ]; then
+            echo "::error::Missing shards.txt manifest"
+            exit 1
+          fi
+
+          missing=0
+          while IFS= read -r rel || [ -n "${rel}" ]; do
+            [ -z "${rel}" ] && continue
+            rel="${rel#./}"
+            src="shards-in/${rel}"
+            if [ ! -d "${src}" ]; then
+              echo "::error::Missing artifact tree for ${rel} (expected ${src})"
+              missing=1
+              continue
+            fi
+            count=$(find "${src}" -type f -name '*.xml' | wc -l | tr -d ' ')
+            if [ "${count}" -eq 0 ]; then
+              echo "::error::Shard ${rel} has 0 xml files; refusing rsync --delete wipe"
+              missing=1
+              continue
+            fi
+            mkdir -p "${rel}"
+            rsync -a --delete "${src}/" "${rel}/"
+            echo "merged ${rel} (${count} xml)"
+          done < manifest/shards.txt
+
+          find . -name '__contents__.xml' -delete 2>/dev/null || true
+          find . -name '.shard-manifest' -delete 2>/dev/null || true
+
+          if [ "${missing}" -ne 0 ]; then
+            echo "::error::One or more shard artifacts missing or empty"
+            exit 1
+          fi
+
+      - name: Diff assembled snapshot
+        id: diff
+        run: |
+          if git status --porcelain --untracked-files=normal \
+            -- works persons places institutions narratives studies \
+               authority-files manuscripts corpora \
+            | grep -q .; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git status --short -- \
+              works persons places institutions narratives studies \
+              authority-files manuscripts corpora | head -100
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No corpus diff - nothing to commit."
+          fi
+
+      - name: Commit and push re-expansion diff
+        if: steps.diff.outputs.changed == 'true' && inputs.push_to_main == true
+        run: |
+          git config user.name "betmas-bot"
+          git config user.email "betmas-bot@users.noreply.github.com"
+          git add -- \
+            works persons places institutions narratives studies \
+            authority-files manuscripts corpora
+          git commit -m "chore(expand): matrix re-expansion snapshot"
+          git push origin HEAD:main
+
+      - name: Skip push (changed but push_to_main=false)
+        if: steps.diff.outputs.changed == 'true' && inputs.push_to_main != true
+        run: |
+          echo "::notice::Corpus differs after assemble, but push_to_main is false."

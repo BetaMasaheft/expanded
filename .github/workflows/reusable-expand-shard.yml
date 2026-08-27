@@ -1,0 +1,150 @@
+name: Reusable expand shard
+
+# Called by re-expand.yml (matrix). One BetMasData/expanded rel path per run.
+# Boots the published app image (BetMasWeb + BetMasData + EthioStudies),
+# runs makeExpand, xst get → artifact. See expanded#11.
+
+on:
+  workflow_call:
+    inputs:
+      collection:
+        description: Relative path under BetMasData (e.g. works/1-1000)
+        required: true
+        type: string
+    secrets:
+      BOT_CONTAINER_PAT:
+        required: true
+
+permissions:
+  contents: read
+
+env:
+  # App image: BetMasWeb + BetMasData + EthioStudies (docker-build from BetMasWeb main).
+  BETMAS_IMAGE: ghcr.io/betamasaheft/betamasaheft:release-expanded
+
+jobs:
+  expand-shard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      # App image is ~11GB+ layered; default runner disk is too tight.
+      - name: Maximize build space
+        uses: easimon/maximize-build-space@master
+        with:
+          build-mount-path: /var/lib/docker/
+          remove-dotnet: "true"
+          remove-android: "true"
+          remove-haskell: "true"
+          remove-codeql: "true"
+          remove-docker-images: "true"
+          root-reserve-mb: 4096
+          temp-reserve-mb: 1024
+
+      - name: Restart docker
+        run: sudo service docker restart
+
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: betmas-bot
+          password: ${{ secrets.BOT_CONTAINER_PAT }}
+
+      - name: Pull app image
+        run: docker pull "${BETMAS_IMAGE}"
+
+      - name: Boot throwaway container
+        run: |
+          docker run -d --name betmas-expand-shard -p 8080:8080 "${BETMAS_IMAGE}"
+
+      - name: Wait for eXist to start
+        timeout-minutes: 5
+        run: |
+          until docker logs betmas-expand-shard 2>&1 | grep -q "Server has started"; do
+            echo "Still waiting..."
+            sleep 2
+          done
+          # Bounded settle — same idea as BetMasWeb exist.yml after boot.
+          sleep 15
+
+      - name: Expand collection
+        env:
+          EXISTDB_SERVER: http://localhost:8080
+          EXISTDB_USER: admin
+          EXISTDB_PASS: ""
+          REL: ${{ inputs.collection }}
+        run: |
+          set -euo pipefail
+          rel="${REL#./}"
+          col="/db/apps/BetMasData/${rel}"
+          echo "Expanding ${col}"
+          out=$(curl -fsS -u admin: --get --max-time 0 \
+            "http://localhost:8080/exist/rest/db/apps/BetMasWeb/modules/makeExpand.xql" \
+            --data-urlencode "collection=${col}")
+          echo "${out}"
+          case "${out}" in
+            expanded\ 0\ *)
+              echo "::error::makeExpand processed 0 files for ${col}"
+              exit 1
+              ;;
+            expanded\ *) ;;
+            *)
+              echo "::error::makeExpand unexpected output for ${col}"
+              exit 1
+              ;;
+          esac
+
+      - name: Export shard to artifact tree
+        env:
+          EXISTDB_SERVER: http://localhost:8080
+          EXISTDB_USER: admin
+          EXISTDB_PASS: ""
+          REL: ${{ inputs.collection }}
+        run: |
+          set -euo pipefail
+          rel="${REL#./}"
+          export_root="${RUNNER_TEMP}/expanded-export"
+          artifact_root="${GITHUB_WORKSPACE}/shard-out"
+          rm -rf "${export_root}" "${artifact_root}"
+          mkdir -p "${export_root}" "${artifact_root}"
+
+          npx --yes @existdb/xst@^4 get "/db/apps/expanded/${rel}" "${export_root}"
+          leaf="${rel##*/}"
+          src="${export_root}/${leaf}"
+          if [ ! -d "${src}" ]; then
+            echo "::error::xst get did not produce ${src}"
+            exit 1
+          fi
+
+          dest="${artifact_root}/${rel}"
+          mkdir -p "$(dirname "${dest}")"
+          mkdir -p "${dest}"
+          rsync -a "${src}/" "${dest}/"
+          find "${artifact_root}" -name '__contents__.xml' -delete 2>/dev/null || true
+
+          count=$(find "${dest}" -type f -name '*.xml' | wc -l | tr -d ' ')
+          echo "${rel} ${count}" > "${artifact_root}/.shard-manifest"
+          echo "Exported ${rel} (${count} xml files)"
+          if [ "${count}" -eq 0 ]; then
+            echo "::error::Exported 0 xml files for ${rel}; refusing empty shard (would wipe git tree on assemble)."
+            exit 1
+          fi
+
+      - name: Set artifact name
+        env:
+          REL: ${{ inputs.collection }}
+        run: |
+          safe=$(echo "${REL#./}" | tr '/' '-')
+          echo "ARTIFACT_NAME=shard-${safe}" >> "${GITHUB_ENV}"
+
+      - name: Upload shard artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: shard-out/
+          if-no-files-found: error
+          retention-days: 5
+
+      - name: Tear down throwaway container
+        if: always()
+        run: docker rm -f betmas-expand-shard || true
