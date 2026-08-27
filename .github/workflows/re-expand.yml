@@ -130,13 +130,13 @@ jobs:
           ref: ${{ inputs.push_to_main == true && 'main' || github.sha }}
 
       - name: Download shard manifest
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: shards-manifest
           path: manifest
 
       - name: Download all shard artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           pattern: shard-*
           path: shards-in
