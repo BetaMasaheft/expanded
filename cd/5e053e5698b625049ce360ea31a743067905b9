@@ -1,0 +1,37 @@
+test/02-assemble-shards.bats
+  s_1544e160683453::t_5d9c50cc35b4ac 38-62
+scripts/ci/assemble-shards.sh
+  s_1544e160683453::t_42706101417e58 3,13-16,21-24,29-32,53,57,70-86
+test/01-discover-shards.bats
+  s_1544e160683453::t_b6efafbcc5aa60 23-35
+test/04-stage-shard-export.bats
+  s_1544e160683453::t_143eb25c7fc9b6 25-36
+.github/workflows/reusable-expand-shard.yml
+  s_1544e160683453::t_a0ef777d785a47 47,50-53
+scripts/ci/discover-shards.sh
+  s_1544e160683453::t_4a3af6b9597581 14-17,22-25
+.github/workflows/scripts-bats.yml
+  s_1544e160683453::t_a5fe6961a343ae 21,24-27
+scripts/ci/check-makeExpand-output.sh
+  s_1544e160683453::t_7143d9fefd6624 11-17
+test/03-check-makeExpand.bats
+  s_1544e160683453::t_37d30ca1d4fd25 15-24
+scripts/ci/stage-shard-export.sh
+  s_1544e160683453::t_7619a9db8c235e 12-15,20-23,28-31,55-61,66,68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "cd5e053e5698b625049ce360ea31a743067905b9",
+  "prompts": {},
+  "sessions": {
+    "s_1544e160683453": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "9068b082-e053-4108-a625-480faaadd278",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
