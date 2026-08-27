@@ -8,16 +8,10 @@ else
   out=$(cat)
 fi
 
-case "${out}" in
-  expanded\ 0\ *)
-    echo "makeExpand processed 0 files: ${out}" >&2
-    exit 1
-    ;;
-  expanded\ *)
-    exit 0
-    ;;
-  *)
-    echo "makeExpand unexpected output: ${out}" >&2
-    exit 1
-    ;;
-esac
+# Require a positive integer count (no leading zeros). Optional trailing text.
+if printf '%s' "${out}" | grep -Eq '^expanded ([1-9][0-9]*)( |$)'; then
+  exit 0
+fi
+
+echo "makeExpand unexpected or zero output: ${out}" >&2
+exit 1

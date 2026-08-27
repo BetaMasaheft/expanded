@@ -22,6 +22,18 @@ FIX="${BATS_TEST_DIRNAME}/fixtures/stage"
     --export-root "${FIX}/export-empty" \
     --artifact-root "$art"
   [ "$status" -ne 0 ]
+  [ ! -d "${art}/corpora" ]
+  [ ! -f "${art}/.shard-manifest" ]
+}
+
+@test "strips leading ./ on rel" {
+  art="${BATS_TEST_TMPDIR}/dot-out"
+  run bash "$SCRIPT" \
+    --rel ./corpora \
+    --export-root "${FIX}/export" \
+    --artifact-root "$art"
+  [ "$status" -eq 0 ]
+  [ -f "${art}/corpora/doc.xml" ]
 }
 
 @test "refuses missing leaf" {

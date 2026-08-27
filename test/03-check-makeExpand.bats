@@ -12,6 +12,16 @@ SCRIPT="${BATS_TEST_DIRNAME}/../scripts/ci/check-makeExpand-output.sh"
   [ "$status" -ne 0 ]
 }
 
+@test "rejects bare expanded 0" {
+  run bash "$SCRIPT" "expanded 0"
+  [ "$status" -ne 0 ]
+}
+
+@test "rejects expanded 00" {
+  run bash "$SCRIPT" "expanded 00 file(s) under /db/apps/expanded/corpora"
+  [ "$status" -ne 0 ]
+}
+
 @test "rejects garbage" {
   run bash "$SCRIPT" "ok"
   [ "$status" -ne 0 ]

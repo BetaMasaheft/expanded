@@ -11,10 +11,18 @@ filter="${COLLECTION_FILTER:-}"
 while [ "$#" -gt 0 ]; do
   case "$1" in
     --root)
+      if [ "$#" -lt 2 ]; then
+        echo "Missing value for --root" >&2
+        exit 2
+      fi
       root=$2
       shift 2
       ;;
     --out)
+      if [ "$#" -lt 2 ]; then
+        echo "Missing value for --out" >&2
+        exit 2
+      fi
       out_file=$2
       shift 2
       ;;

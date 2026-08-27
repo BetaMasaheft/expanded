@@ -20,6 +20,19 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
   [ "$output" = "corpora" ]
 }
 
+@test "filter strips leading ./" {
+  run bash "$SCRIPT" --root "$FIX" --out "${BATS_TEST_TMPDIR}/dot.txt" ./corpora
+  [ "$status" -eq 0 ]
+  [ "$output" = "corpora" ]
+}
+
+@test "COLLECTION_FILTER env selects path" {
+  run env COLLECTION_FILTER=works/1-1000 bash "$SCRIPT" \
+    --root "$FIX" --out "${BATS_TEST_TMPDIR}/env.txt"
+  [ "$status" -eq 0 ]
+  [ "$output" = "works/1-1000" ]
+}
+
 @test "empty tree fails" {
   run bash "$SCRIPT" --root "$EMPTY" --out "${BATS_TEST_TMPDIR}/none.txt"
   [ "$status" -ne 0 ]

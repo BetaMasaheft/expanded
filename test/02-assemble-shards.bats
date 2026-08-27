@@ -35,3 +35,28 @@ setup() {
     --repo-root "$REPO"
   [ "$status" -ne 0 ]
 }
+
+@test "refuses empty manifest" {
+  : > "${BATS_TEST_TMPDIR}/empty-manifest.txt"
+  run bash "$SCRIPT" \
+    --manifest "${BATS_TEST_TMPDIR}/empty-manifest.txt" \
+    --shards-in "${FIX}/shards-in" \
+    --repo-root "$REPO"
+  [ "$status" -ne 0 ]
+  [ -f "${REPO}/corpora/old.xml" ]
+}
+
+@test "validates all shards before any rsync" {
+  # Good corpora + empty sibling: must not merge corpora before failing.
+  printf '%s\n' 'corpora' 'empty' > "${BATS_TEST_TMPDIR}/mixed.txt"
+  shards="${BATS_TEST_TMPDIR}/shards-mixed"
+  mkdir -p "${shards}/corpora" "${shards}/empty"
+  cp -a "${FIX}/shards-in/corpora/." "${shards}/corpora/"
+  run bash "$SCRIPT" \
+    --manifest "${BATS_TEST_TMPDIR}/mixed.txt" \
+    --shards-in "$shards" \
+    --repo-root "$REPO"
+  [ "$status" -ne 0 ]
+  [ -f "${REPO}/corpora/old.xml" ]
+  [ ! -f "${REPO}/corpora/new.xml" ]
+}

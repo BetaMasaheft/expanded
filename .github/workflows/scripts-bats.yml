@@ -18,10 +18,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
-      - name: Install bats
+      - name: Install bats and shellcheck
         run: |
           sudo apt-get update
-          sudo apt-get install -y bats
+          sudo apt-get install -y bats shellcheck
+
+      - name: Shellcheck ci scripts
+        run: shellcheck scripts/ci/*.sh
 
       - name: Run script tests
         run: bats test
