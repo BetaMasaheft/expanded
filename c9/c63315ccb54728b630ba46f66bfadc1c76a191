@@ -1,0 +1,27 @@
+.github/workflows/re-expand.yml
+  s_1544e160683453::t_6df2485cd99007 6-8,10-12,14,22,26-35,46,50,73,76,84,98
+scripts/ci/discover-shards.sh
+  s_1544e160683453::t_6d5e98b5889326 2-10,17,37-44,65-77,79,83-87,96-108,115-126
+scripts/ci/assemble-shards.sh
+  s_1544e160683453::t_49e13eefcab51d 89-95
+test/01-discover-shards.bats
+  s_1544e160683453::t_20a5afe5d08968 40-57
+test/02-assemble-shards.bats
+  s_1544e160683453::t_3e4cfa21ce5044 63-84
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "c9c63315ccb54728b630ba46f66bfadc1c76a191",
+  "prompts": {},
+  "sessions": {
+    "s_1544e160683453": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "9068b082-e053-4108-a625-480faaadd278",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
