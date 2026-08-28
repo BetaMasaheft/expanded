@@ -372,11 +372,19 @@
 
             <create qname="t:roleName" type="xs:string"/>
 
-            <create qname="t:height" type="xs:string"/>
+            <!--
+                Numeric, not xs:string - height/width/depth carry a comma-decimal
+                minority in real data, normalized to a dot-decimal by
+                expand:tei2fulltei before this index ever sees them
+                (BetMasWeb modules/expand.xqm). Values that still don't cast
+                are silently excluded from range queries, same effect as the
+                app-side guard they replace, without needing it at query time.
+            -->
+            <create qname="t:height" type="xs:double"/>
 
-            <create qname="t:depth" type="xs:string"/>
+            <create qname="t:depth" type="xs:double"/>
 
-            <create qname="t:width" type="xs:string"/>
+            <create qname="t:width" type="xs:double"/>
 
             <create qname="t:dimension">
                 <field name="dimensionstext" type="xs:string"/>
@@ -384,11 +392,36 @@
                 <field name="dimensionunit" match="@unit" type="xs:string"/>
             </create>
 
+            <!--
+                Covers both margins and intercolumn (distinguished by @type,
+                not by element name). dimtext numeric for the same reason as
+                height/width/depth above - expand:tei2fulltei also collapses
+                recorded min-max ranges ("18-19") to their midpoint here.
+            -->
             <create qname="t:dim">
-                <field name="dimtext" type="xs:string"/>
+                <field name="dimtext" type="xs:double"/>
                 <field name="dimtype" match="@type" type="xs:string"/>
                 <field name="dimunit" match="@unit" type="xs:string"/>
             </create>
+
+            <!--
+                Materialized by expand:tei2fulltei - count(t:msPart), a
+                previously-unstored, unindexed value. Element, not an
+                attribute: attribute values don't auto-promote for numeric
+                comparison the way element text does, which would force a
+                query-time cast and defeat this index the same way the
+                app-side guard it replaces does today.
+            -->
+            <create qname="t:msPartsCount" type="xs:integer"/>
+
+            <!--
+                Same value as t:layout/@writtenLines, comma/range-normalized
+                by expand:tei2fulltei, duplicated as an element for the same
+                reason as t:msPartsCount above - see @writtenLines' own field
+                further down for the original (now also normalized, but
+                still an attribute) value.
+            -->
+            <create qname="t:writtenLinesNorm" type="xs:double"/>
 
             <create qname="t:measure">
                 <field name="measuretext" type="xs:string"/>
@@ -529,6 +562,12 @@
                 <field name="bibltype" match="@type" type="xs:string"/>
             </create>
 
+            <!--
+                @writtenLines is comma/range-normalized by expand:tei2fulltei
+                too, but stays xs:string and an attribute - t:writtenLinesNorm
+                above (an element, not this attribute) is the one to use for
+                numeric range queries, see its own comment.
+            -->
             <create qname="t:layout">
                 <field name="writtenLines" match="@writtenLines" type="xs:string"/>
             </create>
