@@ -37,3 +37,21 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
   run bash "$SCRIPT" --root "$EMPTY" --out "${BATS_TEST_TMPDIR}/none.txt"
   [ "$status" -ne 0 ]
 }
+
+@test "l1 skips sourceless IHA shards" {
+  FIX_IHA="${BATS_TEST_DIRNAME}/fixtures/discover-iha"
+  run bash "$SCRIPT" --root "$FIX_IHA" --mode l1 --out "${BATS_TEST_TMPDIR}/iha.txt"
+  [ "$status" -eq 0 ]
+  [[ "$output" == *"works/1-1000"* ]]
+  [[ "$output" != *"works/IHA"* ]]
+  [[ "$output" == *"authority-files/IHA"* ]]
+}
+
+@test "matrix mode emits corpus roots" {
+  run bash "$SCRIPT" --root "$FIX" --mode matrix --out "${BATS_TEST_TMPDIR}/matrix.txt"
+  [ "$status" -eq 0 ]
+  [[ "$output" == *"works"* ]]
+  [[ "$output" == *"persons"* ]]
+  [[ "$output" == *"corpora"* ]]
+  [[ "$output" != *"works/1-1000"* ]]
+}

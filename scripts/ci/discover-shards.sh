@@ -1,12 +1,20 @@
 #!/usr/bin/env bash
-# Discover L1 expand shards under an expanded (or fixture) tree.
-# Optional filter: COLLECTION_FILTER or first non-option arg.
+# Discover expand shards (BetMasData-relative paths) from an expanded git tree.
+#
+# Modes (--mode / DISCOVER_MODE):
+#   l1     — one shard per L1 dir under each corpus (~205); skips IHA subtrees
+#            with no BetMasData source (works/IHA, persons/IHA, …).
+#   matrix — corpus-level shards for re-expand (~9 jobs); IHA pre-expanded trees
+#            are preserved on assemble when absent from export (see assemble-shards).
+#
+# Optional filter: COLLECTION_FILTER or first non-option arg (explicit pilot path).
 # Bash 3.2+ compatible (no mapfile).
 set -euo pipefail
 
 root=.
 out_file=""
 filter="${COLLECTION_FILTER:-}"
+mode="${DISCOVER_MODE:-l1}"
 
 while [ "$#" -gt 0 ]; do
   case "$1" in
@@ -24,6 +32,14 @@ while [ "$#" -gt 0 ]; do
         exit 2
       fi
       out_file=$2
+      shift 2
+      ;;
+    --mode)
+      if [ "$#" -lt 2 ]; then
+        echo "Missing value for --mode" >&2
+        exit 2
+      fi
+      mode=$2
       shift 2
       ;;
     --)
@@ -46,14 +62,43 @@ if [ -z "${out_file}" ]; then
   out_file="${root}/shards.txt"
 fi
 
-discover_slices() {
+# BetMasData has no source for these; expanded git still has pre-expanded IHA trees.
+is_skipped_ih_shard() {
+  case "$1" in
+    works/IHA | persons/IHA | places/IHA | institutions/IHA | manuscripts/IHA)
+      return 0
+      ;;
+    *)
+      return 1
+      ;;
+  esac
+}
+
+discover_l1() {
+  local r=$1
+  local name rel
+  for name in works persons places institutions narratives studies authority-files manuscripts; do
+    if [ -d "${r}/${name}" ]; then
+      find "${r}/${name}" -mindepth 1 -maxdepth 1 -type d | sort | while IFS= read -r p; do
+        rel="${p#"${r}"/}"
+        if is_skipped_ih_shard "${rel}"; then
+          continue
+        fi
+        echo "${rel}"
+      done
+    fi
+  done
+  if [ -d "${r}/corpora" ]; then
+    echo corpora
+  fi
+}
+
+discover_matrix() {
   local r=$1
   local name
   for name in works persons places institutions narratives studies authority-files manuscripts; do
     if [ -d "${r}/${name}" ]; then
-      find "${r}/${name}" -mindepth 1 -maxdepth 1 -type d | sort | while IFS= read -r p; do
-        echo "${p#"${r}"/}"
-      done
+      echo "${name}"
     fi
   done
   if [ -d "${r}/corpora" ]; then
@@ -67,7 +112,18 @@ trap 'rm -f "${tmp}"' EXIT
 if [ -n "${filter}" ]; then
   printf '%s\n' "${filter#./}" > "${tmp}"
 else
-  discover_slices "${root}" > "${tmp}"
+  case "${mode}" in
+    l1)
+      discover_l1 "${root}" > "${tmp}"
+      ;;
+    matrix)
+      discover_matrix "${root}" > "${tmp}"
+      ;;
+    *)
+      echo "Unknown mode: ${mode} (expected l1 or matrix)" >&2
+      exit 2
+      ;;
+  esac
 fi
 
 if [ ! -s "${tmp}" ]; then

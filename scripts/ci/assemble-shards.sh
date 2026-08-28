@@ -86,7 +86,13 @@ while IFS= read -r rel || [ -n "${rel}" ]; do
   count=$(find "${src}" -type f -name '*.xml' | wc -l | tr -d ' ')
   dest="${repo_root}/${rel}"
   mkdir -p "${dest}"
-  rsync -a --delete "${src}/" "${dest}/"
+  rsync_args=(-a --delete)
+  # Pre-expanded IHA subtrees live only under /db/apps/expanded, not BetMasData.
+  # Corpus-level re-expand exports omit them; preserve existing git trees.
+  if [ ! -d "${src}/IHA" ]; then
+    rsync_args+=(--exclude='IHA/')
+  fi
+  rsync "${rsync_args[@]}" "${src}/" "${dest}/"
   echo "merged ${rel} (${count} xml)"
 done < "${manifest}"
 
