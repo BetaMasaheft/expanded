@@ -12,6 +12,8 @@ name: Scheduled Re-expansion
 # Legacy l1 mode: ~199 shards (127 manuscripts L1, skips sourceless IHA).
 #
 # Pre-expanded IHA trees (no BetMasData source) are preserved on assemble.
+# Expanded-git orphans (e.g. */IHA, authority-files/new) are skipped in l1
+# discover and preserved when absent from corpus exports.
 
 on:
   workflow_dispatch:

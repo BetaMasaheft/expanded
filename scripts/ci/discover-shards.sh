@@ -2,10 +2,10 @@
 # Discover expand shards (BetMasData-relative paths) from an expanded git tree.
 #
 # Modes (--mode / DISCOVER_MODE):
-#   l1     — one shard per L1 dir under each corpus (~205); skips IHA subtrees
-#            with no BetMasData source (works/IHA, persons/IHA, …).
-#   matrix — corpus-level shards for re-expand (~9 jobs); IHA pre-expanded trees
-#            are preserved on assemble when absent from export (see assemble-shards).
+#   l1     — one shard per L1 dir under each corpus (~205); skips orphan subtrees
+#            with no BetMasData source (*/IHA, authority-files/new, …).
+#   matrix — corpus-level shards for re-expand (~9 jobs); expanded-git orphans
+#            absent from export are preserved on assemble (see assemble-shards).
 #
 # Optional filter: COLLECTION_FILTER or first non-option arg (explicit pilot path).
 # Bash 3.2+ compatible (no mapfile).
@@ -62,10 +62,15 @@ if [ -z "${out_file}" ]; then
   out_file="${root}/shards.txt"
 fi
 
-# BetMasData has no source for these; expanded git still has pre-expanded IHA trees.
-is_skipped_ih_shard() {
+# BetMasData has no source for these L1 paths; expanded git may still hold trees
+# (pre-expanded IHA, or stale expanded-only dirs). assemble preserves any dest
+# child absent from the export; discover skips them so expand jobs do not fail.
+is_skipped_orphan_shard() {
   case "$1" in
     works/IHA | persons/IHA | places/IHA | institutions/IHA | manuscripts/IHA)
+      return 0
+      ;;
+    authority-files/new)
       return 0
       ;;
     *)
@@ -81,7 +86,7 @@ discover_l1() {
     if [ -d "${r}/${name}" ]; then
       find "${r}/${name}" -mindepth 1 -maxdepth 1 -type d | sort | while IFS= read -r p; do
         rel="${p#"${r}"/}"
-        if is_skipped_ih_shard "${rel}"; then
+        if is_skipped_orphan_shard "${rel}"; then
           continue
         fi
         echo "${rel}"
