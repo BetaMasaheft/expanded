@@ -43,7 +43,7 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
   run bash "$SCRIPT" --root "$FIX_IHA" --mode l1 --out "${BATS_TEST_TMPDIR}/iha.txt"
   [ "$status" -eq 0 ]
   [[ "$output" == *"works/1-1000"* ]]
-  [[ "$output" != *"works/IHA"* ]]
+  [[ "$output" == *"works/IHA"* ]]
   [[ "$output" != *"authority-files/new"* ]]
   [[ "$output" == *"authority-files/IHA"* ]]
 }

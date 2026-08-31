@@ -9,11 +9,11 @@ name: Scheduled Re-expansion
 #
 # Pilot: collection=corpora or works/1-1000, push_to_main=false.
 # Full run: leave collection empty, shard_mode=matrix (~9 corpus shards).
-# Legacy l1 mode: ~199 shards (127 manuscripts L1, skips sourceless IHA).
+# Legacy l1 mode: ~199 shards (127 manuscripts L1); skips authority-files/new only.
 #
-# Pre-expanded IHA trees (no BetMasData source) are preserved on assemble.
-# Expanded-git orphans (e.g. */IHA, authority-files/new) are skipped in l1
-# discover and preserved when absent from corpus exports.
+# Expanded-git orphans (e.g. authority-files/new) are skipped in l1 discover
+# and preserved on assemble when absent from corpus exports. IHA corpora are
+# re-expanded from BetMasData in the base image.
 
 on:
   workflow_dispatch:
@@ -27,7 +27,7 @@ on:
         default: ""
       shard_mode:
         description: >
-          l1 = one job per expanded-git L1 dir (~199, skips sourceless IHA).
+          l1 = one job per expanded-git L1 dir (~199, skips authority-files/new).
           matrix = one job per BetMasData corpus root (~9).
         required: false
         type: choice

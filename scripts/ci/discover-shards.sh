@@ -3,7 +3,7 @@
 #
 # Modes (--mode / DISCOVER_MODE):
 #   l1     — one shard per L1 dir under each corpus (~205); skips orphan subtrees
-#            with no BetMasData source (*/IHA, authority-files/new, …).
+#            with no BetMasData source (authority-files/new, …).
 #   matrix — corpus-level shards for re-expand (~9 jobs); expanded-git orphans
 #            absent from export are preserved on assemble (see assemble-shards).
 #
@@ -63,13 +63,11 @@ if [ -z "${out_file}" ]; then
 fi
 
 # BetMasData has no source for these L1 paths; expanded git may still hold trees
-# (pre-expanded IHA, or stale expanded-only dirs). assemble preserves any dest
-# child absent from the export; discover skips them so expand jobs do not fail.
+# (stale expanded-only dirs). assemble preserves any dest child absent from the
+# export; discover skips them so expand jobs do not fail.
+# IHA corpora are in the base image and are re-expanded like other shards.
 is_skipped_orphan_shard() {
   case "$1" in
-    works/IHA | persons/IHA | places/IHA | institutions/IHA | manuscripts/IHA)
-      return 0
-      ;;
     authority-files/new)
       return 0
       ;;

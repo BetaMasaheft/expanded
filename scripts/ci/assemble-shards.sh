@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Merge shard artifacts into the expanded repo working tree (rsync --delete).
 # Subdirectories present in the repo but absent from the export are preserved
-# (expanded-git orphans with no BetMasData source, e.g. */IHA, authority-files/new).
+# (expanded-git orphans with no BetMasData source, e.g. authority-files/new).
 # Validates every shard first so a later failure cannot leave a half-merged tree.
 set -euo pipefail
 
