@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # Merge shard artifacts into the expanded repo working tree (rsync --delete).
+# Subdirectories present in the repo but absent from the export are preserved
+# (expanded-git orphans with no BetMasData source, e.g. authority-files/new).
 # Validates every shard first so a later failure cannot leave a half-merged tree.
 set -euo pipefail
 
@@ -86,7 +88,18 @@ while IFS= read -r rel || [ -n "${rel}" ]; do
   count=$(find "${src}" -type f -name '*.xml' | wc -l | tr -d ' ')
   dest="${repo_root}/${rel}"
   mkdir -p "${dest}"
-  rsync -a --delete "${src}/" "${dest}/"
+  rsync_args=(-a --delete)
+  if [ -d "${dest}" ]; then
+    for orphan in "${dest}"/*/; do
+      [ -d "${orphan}" ] || continue
+      name=$(basename "${orphan}")
+      if [ ! -e "${src}/${name}" ]; then
+        rsync_args+=(--exclude="${name}/")
+        echo "preserve orphan ${rel}/${name} (absent from export)" >&2
+      fi
+    done
+  fi
+  rsync "${rsync_args[@]}" "${src}/" "${dest}/"
   echo "merged ${rel} (${count} xml)"
 done < "${manifest}"
 

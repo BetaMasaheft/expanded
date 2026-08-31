@@ -60,3 +60,48 @@ setup() {
   [ -f "${REPO}/corpora/old.xml" ]
   [ ! -f "${REPO}/corpora/new.xml" ]
 }
+
+@test "corpus merge preserves git orphans absent from export" {
+  REPO="${BATS_TEST_TMPDIR}/repo-iha"
+  mkdir -p "${REPO}/works/IHA/works" "${REPO}/works/1-1000/works"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="keep"/> ' \
+    > "${REPO}/works/IHA/works/LIT0001IHA.xml"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="old"/> ' \
+    > "${REPO}/works/1-1000/works/old.xml"
+  shards="${BATS_TEST_TMPDIR}/shards-works"
+  mkdir -p "${shards}/works/1-1000/works"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="new"/> ' \
+    > "${shards}/works/1-1000/works/new.xml"
+  printf '%s\n' 'works' > "${BATS_TEST_TMPDIR}/works-corpus.txt"
+  run bash "$SCRIPT" \
+    --manifest "${BATS_TEST_TMPDIR}/works-corpus.txt" \
+    --shards-in "$shards" \
+    --repo-root "$REPO"
+  [ "$status" -eq 0 ]
+  [ -f "${REPO}/works/IHA/works/LIT0001IHA.xml" ]
+  [ -f "${REPO}/works/1-1000/works/new.xml" ]
+  [ ! -f "${REPO}/works/1-1000/works/old.xml" ]
+}
+
+@test "corpus merge preserves authority-files/new orphan" {
+  REPO="${BATS_TEST_TMPDIR}/repo-auth-new"
+  mkdir -p "${REPO}/authority-files/new/authority-files" \
+    "${REPO}/authority-files/ArtThemes/authority-files"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="orphan"/> ' \
+    > "${REPO}/authority-files/new/authority-files/orphan.xml"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="old"/> ' \
+    > "${REPO}/authority-files/ArtThemes/authority-files/old.xml"
+  shards="${BATS_TEST_TMPDIR}/shards-auth"
+  mkdir -p "${shards}/authority-files/ArtThemes/authority-files"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fresh"/> ' \
+    > "${shards}/authority-files/ArtThemes/authority-files/fresh.xml"
+  printf '%s\n' 'authority-files' > "${BATS_TEST_TMPDIR}/auth-corpus.txt"
+  run bash "$SCRIPT" \
+    --manifest "${BATS_TEST_TMPDIR}/auth-corpus.txt" \
+    --shards-in "$shards" \
+    --repo-root "$REPO"
+  [ "$status" -eq 0 ]
+  [ -f "${REPO}/authority-files/new/authority-files/orphan.xml" ]
+  [ -f "${REPO}/authority-files/ArtThemes/authority-files/fresh.xml" ]
+  [ ! -f "${REPO}/authority-files/ArtThemes/authority-files/old.xml" ]
+}

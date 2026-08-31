@@ -3,14 +3,17 @@ name: Scheduled Re-expansion
 # Matrix expand + assemble. See expanded#11.
 #
 # workflow_dispatch ONLY. Each shard boots ghcr.io/betamasaheft/betamasaheft
-# (app image: BetMasWeb + BetMasData + EthioStudies), expands one L1 path,
-# uploads an artifact. Assemble merges into this repo; push_to_main gates
-# notify-betmas. Image contents are asserted in BetMas bats (app-image-expand).
+# (app image: BetMasWeb + BetMasData + EthioStudies), expands one BetMasData
+# collection path, uploads an artifact. Assemble merges into this repo;
+# push_to_main gates notify-betmas. Image contents are asserted in BetMas bats.
 #
-# Pilot: collection=corpora, push_to_main=false.
-# Full run: leave collection empty (~205 L1 shards).
+# Pilot: collection=corpora or works/1-1000, push_to_main=false.
+# Full run: leave collection empty, shard_mode=matrix (~9 corpus shards).
+# Legacy l1 mode: ~199 shards (127 manuscripts L1); skips authority-files/new only.
 #
-# App image is private: BOT_CONTAINER_PAT for GHCR.
+# Expanded-git orphans (e.g. authority-files/new) are skipped in l1 discover
+# and preserved on assemble when absent from corpus exports. IHA corpora are
+# re-expanded from BetMasData in the base image.
 
 on:
   workflow_dispatch:
@@ -18,10 +21,20 @@ on:
       collection:
         description: >
           Optional single relative path under BetMasData (e.g. works/1-1000).
-          Leave empty to expand every discovered L1 slice (full matrix).
+          Leave empty for full matrix (uses shard_mode).
         required: false
         type: string
         default: ""
+      shard_mode:
+        description: >
+          l1 = one job per expanded-git L1 dir (~199, skips authority-files/new).
+          matrix = one job per BetMasData corpus root (~9).
+        required: false
+        type: choice
+        options:
+          - matrix
+          - l1
+        default: matrix
       push_to_main:
         description: >
           If true and assemble differs from checkout, commit and push to main.
@@ -32,11 +45,11 @@ on:
         default: false
       max_parallel:
         description: >
-          Reserved (currently fixed at 6 in the expand job). Kept for future
+          Reserved (currently fixed at 8 in the expand job). Kept for future
           wiring once expression-based max-parallel is proven with reusable matrix.
         required: false
         type: number
-        default: 6
+        default: 8
 
 concurrency:
   group: ${{ github.workflow }}
@@ -59,9 +72,10 @@ jobs:
         id: list
         env:
           COLLECTION_FILTER: ${{ inputs.collection }}
+          DISCOVER_MODE: ${{ inputs.shard_mode }}
         run: |
           set -euo pipefail
-          if ! bash scripts/ci/discover-shards.sh --out shards.txt; then
+          if ! bash scripts/ci/discover-shards.sh --mode "${DISCOVER_MODE}" --out shards.txt; then
             echo "::error::No shards to expand"
             exit 1
           fi
@@ -69,7 +83,7 @@ jobs:
           json=$(printf '%s\n' "${slices[@]}" | jq -R . | jq -s -c .)
           echo "shards=${json}" >> "${GITHUB_OUTPUT}"
           echo "count=${#slices[@]}" >> "${GITHUB_OUTPUT}"
-          echo "Planned ${#slices[@]} shard(s):"
+          echo "Planned ${#slices[@]} shard(s) (mode=${DISCOVER_MODE}):"
           cat shards.txt
 
       - name: Upload shard manifest
@@ -83,8 +97,7 @@ jobs:
     needs: plan
     strategy:
       fail-fast: false
-      # Literal int — expression max-parallel with reusable matrix was dropping the job.
-      max-parallel: 6
+      max-parallel: 8
       matrix:
         collection: ${{ fromJSON(needs.plan.outputs.shards) }}
     uses: ./.github/workflows/reusable-expand-shard.yml
@@ -109,7 +122,6 @@ jobs:
       - name: Checkout expanded
         uses: actions/checkout@v7
         with:
-          # When pushing, assemble onto main tip — never commit on a feature-branch HEAD.
           ref: ${{ inputs.push_to_main == true && 'main' || github.sha }}
 
       - name: Download shard manifest
