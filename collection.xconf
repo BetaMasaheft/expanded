@@ -372,11 +372,34 @@
 
             <create qname="t:roleName" type="xs:string"/>
 
-            <create qname="t:height" type="xs:string"/>
+            <!--
+                Cataloguer axis text stays xs:string (display / legacy).
+                Numeric range filters use @quantity / @atLeast / @atMost on
+                expand-derived siblings (dimensions[@subtype='computed']),
+                minted by BetMasWeb expand-normalize-dimensions
+                (Schema #45 / BetMasWeb#112). Nodes without those attrs are
+                silently excluded from the typed fields at index time.
+            -->
+            <create qname="t:height">
+                <field name="heighttext" type="xs:string"/>
+                <field name="heightQuantity" match="@quantity" type="xs:double"/>
+                <field name="heightAtLeast" match="@atLeast" type="xs:double"/>
+                <field name="heightAtMost" match="@atMost" type="xs:double"/>
+            </create>
 
-            <create qname="t:depth" type="xs:string"/>
+            <create qname="t:depth">
+                <field name="depthtext" type="xs:string"/>
+                <field name="depthQuantity" match="@quantity" type="xs:double"/>
+                <field name="depthAtLeast" match="@atLeast" type="xs:double"/>
+                <field name="depthAtMost" match="@atMost" type="xs:double"/>
+            </create>
 
-            <create qname="t:width" type="xs:string"/>
+            <create qname="t:width">
+                <field name="widthtext" type="xs:string"/>
+                <field name="widthQuantity" match="@quantity" type="xs:double"/>
+                <field name="widthAtLeast" match="@atLeast" type="xs:double"/>
+                <field name="widthAtMost" match="@atMost" type="xs:double"/>
+            </create>
 
             <create qname="t:dimension">
                 <field name="dimensionstext" type="xs:string"/>
@@ -384,10 +407,28 @@
                 <field name="dimensionunit" match="@unit" type="xs:string"/>
             </create>
 
+            <!--
+                Margins / intercolumn (distinguished by @type). dimtext stays
+                string for cataloguer; @quantity on computed dim siblings is
+                the range-filter target.
+            -->
             <create qname="t:dim">
                 <field name="dimtext" type="xs:string"/>
                 <field name="dimtype" match="@type" type="xs:string"/>
                 <field name="dimunit" match="@unit" type="xs:string"/>
+                <field name="dimQuantity" match="@quantity" type="xs:double"/>
+                <field name="dimAtLeast" match="@atLeast" type="xs:double"/>
+                <field name="dimAtMost" match="@atMost" type="xs:double"/>
+            </create>
+
+            <!--
+                Optional discriminator for [@subtype='computed'] queries.
+                Cataloguer dimensions typically omit @subtype.
+            -->
+            <create qname="t:dimensions">
+                <field name="dimensionsSubtype" match="@subtype" type="xs:string"/>
+                <field name="dimensionsType" match="@type" type="xs:string"/>
+                <field name="dimensionsUnit" match="@unit" type="xs:string"/>
             </create>
 
             <create qname="t:measure">
@@ -529,8 +570,18 @@
                 <field name="bibltype" match="@type" type="xs:string"/>
             </create>
 
+            <!--
+                Cataloguer @writtenLines often holds packed pairs ("17 18").
+                Expand emits a clean integer on layout[@subtype='computed']/@writtenLines
+                (BetMasWeb#112). Attribute values may still need an element
+                materialization for uncast range queries — open on BetMasWeb#113.
+                Keep xs:string until that decision; do not retype this field to
+                xs:integer yet (would silently drop all cataloguer pairs).
+            -->
             <create qname="t:layout">
                 <field name="writtenLines" match="@writtenLines" type="xs:string"/>
+                <field name="layoutSubtype" match="@subtype" type="xs:string"/>
+                <field name="layoutColumns" match="@columns" type="xs:integer"/>
             </create>
 
             <create qname="t:collection">
