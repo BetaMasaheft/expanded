@@ -1,15 +1,17 @@
 name: Scheduled Re-expansion
 
-# Matrix expand + assemble. See expanded#11.
+# Hybrid expand + assemble. See expanded#11, expanded#25.
 #
 # workflow_dispatch ONLY. Each shard boots ghcr.io/betamasaheft/betamasaheft
 # (app image: BetMasWeb + BetMasData + EthioStudies), expands one BetMasData
 # collection path, uploads an artifact. Assemble merges into this repo;
 # push_to_main gates notify-betmas. Image contents are asserted in BetMas bats.
 #
-# Pilot: collection=corpora or works/1-1000, push_to_main=false.
-# Full run: leave collection empty, shard_mode=matrix (~9 corpus shards).
-# Legacy l1 mode: ~199 shards (127 manuscripts L1); skips authority-files/new only.
+# Pilot: collection=corpora or manuscripts/EMML, push_to_main=false.
+# Full run: leave collection empty, shard_mode=hybrid (~160 jobs).
+# matrix mode (~9 corpus shards) times out on works/persons/manuscripts.
+# l1 mode (~204 jobs) is uniform L1 everywhere; hybrid keeps matrix grain for
+# corpora that already finish in minutes.
 #
 # Expanded-git orphans (e.g. authority-files/new) are skipped in l1 discover
 # and preserved on assemble when absent from corpus exports. IHA corpora are
@@ -21,32 +23,39 @@ on:
       collection:
         description: >
           Optional single relative path under BetMasData (e.g. works/1-1000).
-          Leave empty for full matrix (uses shard_mode).
+          Leave empty for full run (uses shard_mode).
         required: false
         type: string
         default: ""
       shard_mode:
         description: >
-          l1 = one job per expanded-git L1 dir (~199, skips authority-files/new).
-          matrix = one job per BetMasData corpus root (~9).
+          hybrid = L1 for works/persons/manuscripts + matrix for rest (~160).
+          l1 = one job per expanded-git L1 dir (~204, skips authority-files/new).
+          matrix = one job per BetMasData corpus root (~9; 3 timeout at 240min).
         required: false
         type: choice
         options:
-          - matrix
+          - hybrid
           - l1
-        default: matrix
+          - matrix
+        default: hybrid
       push_to_main:
         description: >
           If true and assemble differs from checkout, commit and push to main.
           Only allowed when dispatching from main (not a feature branch).
-          Default false until a full matrix is trusted.
+          Blocked when allow_partial_assemble is true or any expand shard failed.
+        required: false
+        type: boolean
+        default: false
+      allow_partial_assemble:
+        description: >
+          Merge available shard artifacts even if some expand jobs failed.
+          For dry-runs only; push_to_main is always blocked when this is true.
         required: false
         type: boolean
         default: false
       max_parallel:
-        description: >
-          Reserved (currently fixed at 8 in the expand job). Kept for future
-          wiring once expression-based max-parallel is proven with reusable matrix.
+        description: Max concurrent expand shard jobs (matrix strategy).
         required: false
         type: number
         default: 8
@@ -97,7 +106,7 @@ jobs:
     needs: plan
     strategy:
       fail-fast: false
-      max-parallel: 8
+      max-parallel: ${{ fromJSON(inputs.max_parallel) }}
       matrix:
         collection: ${{ fromJSON(needs.plan.outputs.shards) }}
     uses: ./.github/workflows/reusable-expand-shard.yml
@@ -107,6 +116,7 @@ jobs:
 
   assemble:
     needs: [plan, expand]
+    if: ${{ !cancelled() && needs.plan.result == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -118,6 +128,24 @@ jobs:
             echo "::error::push_to_main only allowed when dispatching from main (got ${{ github.ref }})."
             exit 1
           fi
+
+      - name: Guard push_to_main vs partial assemble
+        if: inputs.push_to_main == true && inputs.allow_partial_assemble == true
+        run: |
+          echo "::error::push_to_main cannot be used with allow_partial_assemble."
+          exit 1
+
+      - name: Require full expand success for push
+        if: inputs.push_to_main == true && needs.expand.result != 'success'
+        run: |
+          echo "::error::One or more expand shards failed; fix or re-run before push_to_main."
+          exit 1
+
+      - name: Require full expand success for strict assemble
+        if: inputs.allow_partial_assemble != true && needs.expand.result != 'success'
+        run: |
+          echo "::error::One or more expand shards failed. Re-run failed shards or set allow_partial_assemble for dry-run merge."
+          exit 1
 
       - name: Checkout expanded
         uses: actions/checkout@v7
@@ -138,13 +166,20 @@ jobs:
           merge-multiple: true
 
       - name: Merge shards into working tree
+        env:
+          ALLOW_PARTIAL: ${{ inputs.allow_partial_assemble }}
         run: |
           set -euo pipefail
-          if ! bash scripts/ci/assemble-shards.sh \
-            --manifest manifest/shards.txt \
-            --shards-in shards-in \
-            --repo-root .; then
-            echo "::error::One or more shard artifacts missing or empty"
+          args=(
+            --manifest manifest/shards.txt
+            --shards-in shards-in
+            --repo-root .
+          )
+          if [ "${ALLOW_PARTIAL}" = "true" ]; then
+            args+=(--allow-partial)
+          fi
+          if ! bash scripts/ci/assemble-shards.sh "${args[@]}"; then
+            echo "::error::Assemble failed"
             exit 1
           fi
 
@@ -172,7 +207,7 @@ jobs:
           git add -- \
             works persons places institutions narratives studies \
             authority-files manuscripts corpora
-          git commit -m "chore(expand): matrix re-expansion snapshot"
+          git commit -m "chore(expand): re-expansion snapshot (${{ inputs.shard_mode }})"
           git push origin HEAD:main
 
       - name: Skip push (changed but push_to_main=false)

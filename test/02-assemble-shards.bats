@@ -105,3 +105,18 @@ setup() {
   [ -f "${REPO}/authority-files/ArtThemes/authority-files/fresh.xml" ]
   [ ! -f "${REPO}/authority-files/ArtThemes/authority-files/old.xml" ]
 }
+
+@test "allow-partial merges present shards and skips missing" {
+  printf '%s\n' 'corpora' 'missing' > "${BATS_TEST_TMPDIR}/partial.txt"
+  shards="${BATS_TEST_TMPDIR}/shards-partial"
+  mkdir -p "${shards}/corpora"
+  cp -a "${FIX}/shards-in/corpora/." "${shards}/corpora/"
+  run bash "$SCRIPT" \
+    --manifest "${BATS_TEST_TMPDIR}/partial.txt" \
+    --shards-in "$shards" \
+    --repo-root "$REPO" \
+    --allow-partial
+  [ "$status" -eq 0 ]
+  [ -f "${REPO}/corpora/new.xml" ]
+  [ ! -f "${REPO}/corpora/old.xml" ]
+}

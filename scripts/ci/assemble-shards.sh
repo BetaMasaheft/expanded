@@ -8,6 +8,7 @@ set -euo pipefail
 manifest=""
 shards_in=""
 repo_root=""
+allow_partial=0
 
 while [ "$#" -gt 0 ]; do
   case "$1" in
@@ -35,6 +36,10 @@ while [ "$#" -gt 0 ]; do
       repo_root=$2
       shift 2
       ;;
+    --allow-partial)
+      allow_partial=1
+      shift
+      ;;
     *)
       echo "Unknown argument: $1" >&2
       exit 2
@@ -54,6 +59,7 @@ fi
 
 shard_lines=0
 missing=0
+present=0
 while IFS= read -r rel || [ -n "${rel}" ]; do
   [ -z "${rel}" ] && continue
   shard_lines=$((shard_lines + 1))
@@ -68,7 +74,9 @@ while IFS= read -r rel || [ -n "${rel}" ]; do
   if [ "${count}" -eq 0 ]; then
     echo "Shard ${rel} has 0 xml files; refusing rsync --delete wipe" >&2
     missing=1
+    continue
   fi
+  present=$((present + 1))
 done < "${manifest}"
 
 if [ "${shard_lines}" -eq 0 ]; then
@@ -77,7 +85,16 @@ if [ "${shard_lines}" -eq 0 ]; then
 fi
 
 if [ "${missing}" -ne 0 ]; then
-  echo "One or more shard artifacts missing or empty" >&2
+  if [ "${allow_partial}" -eq 1 ]; then
+    echo "Partial assemble: ${present}/${shard_lines} shard(s) present; merging available only" >&2
+  else
+    echo "One or more shard artifacts missing or empty" >&2
+    exit 1
+  fi
+fi
+
+if [ "${present}" -eq 0 ]; then
+  echo "No shard artifacts to merge" >&2
   exit 1
 fi
 
@@ -85,7 +102,13 @@ while IFS= read -r rel || [ -n "${rel}" ]; do
   [ -z "${rel}" ] && continue
   rel="${rel#./}"
   src="${shards_in}/${rel}"
+  if [ ! -d "${src}" ]; then
+    continue
+  fi
   count=$(find "${src}" -type f -name '*.xml' | wc -l | tr -d ' ')
+  if [ "${count}" -eq 0 ]; then
+    continue
+  fi
   dest="${repo_root}/${rel}"
   mkdir -p "${dest}"
   rsync_args=(-a --delete)
