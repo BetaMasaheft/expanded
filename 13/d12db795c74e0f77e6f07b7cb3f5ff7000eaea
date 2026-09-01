@@ -1,0 +1,32 @@
+scripts/ci/discover-shards.sh
+  s_bfac4543151ff7::t_694ed91bd7d0b6 82-97,100,102-115,117
+  s_bfac4543151ff7::t_6a15eed82ef118 5-6
+  s_bfac4543151ff7::t_1b787902bad898 145-147,155
+test/02-assemble-shards.bats
+  s_bfac4543151ff7::t_4d2fb612273cba 108-122
+test/01-discover-shards.bats
+  s_bfac4543151ff7::t_1864cebaf4e679 59-66,70
+  s_bfac4543151ff7::t_036ddb95a77042 67-69
+scripts/ci/assemble-shards.sh
+  s_bfac4543151ff7::t_8c9c00521bedce 39-42
+  s_bfac4543151ff7::t_bf1457bdf285e9 11
+  s_bfac4543151ff7::t_8a1fd7e7030407 62,77,79,88-97,105-107,109-111
+.github/workflows/re-expand.yml
+  s_bfac4543151ff7::t_95d476bcbb50ee 3,10-14,26,32-34,38,40-41,46,50,52-58,109,119,132-149,169-170,173-182,210
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "13d12db795c74e0f77e6f07b7cb3f5ff7000eaea",
+  "prompts": {},
+  "sessions": {
+    "s_bfac4543151ff7": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "86f79926-bf74-4660-badb-9dd045efa2ca",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
