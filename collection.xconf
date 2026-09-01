@@ -572,16 +572,21 @@
 
             <!--
                 Cataloguer @writtenLines often holds packed pairs ("17 18").
-                Expand emits a clean integer on layout[@subtype='computed']/@writtenLines
-                (BetMasWeb#112). Attribute values may still need an element
-                materialization for uncast range queries — open on BetMasWeb#113.
-                Keep xs:string until that decision; do not retype this field to
-                xs:integer yet (would silently drop all cataloguer pairs).
+                Expand emits a clean integer on layout[@subtype='computed']/writtenLines/@quantity
+                (BetMasWeb#112). Cataloguer @writtenLines stays xs:string on t:layout.
             -->
             <create qname="t:layout">
                 <field name="writtenLines" match="@writtenLines" type="xs:string"/>
                 <field name="layoutSubtype" match="@subtype" type="xs:string"/>
                 <field name="layoutColumns" match="@columns" type="xs:integer"/>
+            </create>
+
+            <create qname="t:writtenLines">
+                <field name="writtenLinesQty" match="@quantity" type="xs:double"/>
+            </create>
+
+            <create qname="t:msPartsCount">
+                <field name="msPartsCountQty" match="@quantity" type="xs:integer"/>
             </create>
 
             <create qname="t:collection">
