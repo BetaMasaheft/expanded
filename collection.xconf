@@ -34,13 +34,13 @@
                 <facet dimension="form" if="@type='mss'" expression="t:teiHeader//t:objectDesc/@form"/>
                 <facet dimension="material" if="@type='mss'" expression="t:teiHeader//t:support/t:material/@key"/>
                 <facet dimension="bindingMaterial" if="@type='mss'" expression="t:teiHeader//t:binding//t:material/@key"/>
-                <facet dimension="height" if="@type='mss'" expression="t:teiHeader//t:extent/t:dimensions/t:height"/>
-                <facet dimension="width" if="@type='mss'" expression="t:teiHeader//t:extent/t:dimensions/t:width"/>
-                <facet dimension="depth" if="@type='mss'" expression="t:teiHeader//t:extent/t:dimensions/t:depth"/>
+                <facet dimension="height" if="@type='mss'" expression="t:teiHeader//t:dimensions[@subtype='computed'][@type='outer']/t:height/@quantity"/>
+                <facet dimension="width" if="@type='mss'" expression="t:teiHeader//t:dimensions[@subtype='computed'][@type='outer']/t:width/@quantity"/>
+                <facet dimension="depth" if="@type='mss'" expression="t:teiHeader//t:dimensions[@subtype='computed'][@type='outer']/t:depth/@quantity"/>
                 <facet dimension="scribe" if="@type='mss'" expression="t:teiHeader//t:persName[@role='scribe']"/>
                 <facet dimension="donor" if="@type='mss'" expression="t:teiHeader//t:persName[@role='donor']"/>
                 <facet dimension="msItemsCount" if="@type='mss'" expression="count(t:teiHeader//t:msItem)"/>
-                <facet dimension="msPartsCount" if="@type='mss'" expression="count(t:teiHeader//t:msPart)"/>
+                <facet dimension="msPartsCount" if="@type='mss'" expression="t:teiHeader//t:msPartsCount/@quantity"/>
                 <facet dimension="handsCount" if="@type='mss'" expression="count(t:teiHeader//t:handNote)"/>
                 <facet dimension="sealCount" if="@type='mss'" expression="count(t:teiHeader//t:seal)"/>
                 <facet dimension="QuireCount" if="@type='mss'" expression="count(t:teiHeader//t:collation//t:item[@n])"/>
@@ -68,8 +68,8 @@
 
                 <!-- countColophons, supplications, binding features, decoration features,  -->
                 <facet dimension="images" if="@type='mss'" expression="if(t:teiHeader//t:msIdentifier/t:idno[@facs][@n]) then 'yes' else 'no'"/>
-                <facet dimension="writtenLines" if="@type='mss'" expression="t:teiHeader//t:layout/@writtenLines"/>
-                <facet dimension="columns" if="@type='mss'" expression="t:teiHeader//t:layout/@columns"/>
+                <facet dimension="writtenLines" if="@type='mss'" expression="t:teiHeader//t:layout[@subtype='computed']/t:writtenLines/@quantity"/>
+                <facet dimension="columns" if="@type='mss'" expression="t:teiHeader//t:layout[@subtype='computed']/@columns"/>
                 <facet dimension="thereistranscription" if="@type='mss'" expression="if(t:text//t:div[@type='edition']//t:div/t:ab) then 'some text present' else 'only metadata'"/>
                 <!--works-->
                 <facet dimension="authors" if="@type='work'" expression="t:text//t:relation[@name='dcterms:creator' or @name='saws:isAttributedToAuthor']/@passive"/>
