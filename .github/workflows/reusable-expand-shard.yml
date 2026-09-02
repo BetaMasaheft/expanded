@@ -76,6 +76,13 @@ jobs:
           # Bounded settle — same idea as BetMasWeb exist.yml after boot.
           sleep 15
 
+      - name: Set shard labels
+        env:
+          REL: ${{ inputs.collection }}
+        run: |
+          safe=$(echo "${REL#./}" | tr '/' '-')
+          echo "ARTIFACT_NAME=shard-${safe}" >> "${GITHUB_ENV}"
+
       - name: Expand collection
         env:
           EXISTDB_SERVER: http://localhost:8080
@@ -119,13 +126,6 @@ jobs:
             exit 1
           fi
 
-      - name: Set artifact name
-        env:
-          REL: ${{ inputs.collection }}
-        run: |
-          safe=$(echo "${REL#./}" | tr '/' '-')
-          echo "ARTIFACT_NAME=shard-${safe}" >> "${GITHUB_ENV}"
-
       - name: Upload shard artifact
         uses: actions/upload-artifact@v7
         with:
@@ -133,6 +133,20 @@ jobs:
           path: shard-out/
           if-no-files-found: error
           retention-days: 5
+
+      - name: Capture container logs on failure
+        if: failure()
+        run: |
+          echo "Capturing container stdout/stderr..."
+          docker logs betmas-expand-shard > exist.log 2>&1 || true
+
+      - name: Upload logs artifact
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: exist-failed-log-${{ env.ARTIFACT_NAME }}
+          path: exist.log
+          retention-days: 14
 
       - name: Tear down throwaway container
         if: always()
