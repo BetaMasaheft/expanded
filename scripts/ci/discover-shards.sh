@@ -2,6 +2,8 @@
 # Discover expand shards (BetMasData-relative paths) from an expanded git tree.
 #
 # Modes (--mode / DISCOVER_MODE):
+#   hybrid — L1 for works/persons/manuscripts (~154 jobs) + matrix for the rest
+#            (~6 jobs); recommended for full re-expand (~160 total).
 #   l1     — one shard per L1 dir under each corpus (~205); skips orphan subtrees
 #            with no BetMasData source (authority-files/new, …).
 #   matrix — corpus-level shards for re-expand (~9 jobs); expanded-git orphans
@@ -77,18 +79,42 @@ is_skipped_orphan_shard() {
   esac
 }
 
+discover_l1_corpus() {
+  local r=$1
+  local corpus=$2
+  local p rel
+  if [ ! -d "${r}/${corpus}" ]; then
+    return 0
+  fi
+  find "${r}/${corpus}" -mindepth 1 -maxdepth 1 -type d | sort | while IFS= read -r p; do
+    rel="${p#"${r}"/}"
+    if is_skipped_orphan_shard "${rel}"; then
+      continue
+    fi
+    echo "${rel}"
+  done
+}
+
 discover_l1() {
   local r=$1
-  local name rel
+  local name
   for name in works persons places institutions narratives studies authority-files manuscripts; do
+    discover_l1_corpus "${r}" "${name}"
+  done
+  if [ -d "${r}/corpora" ]; then
+    echo corpora
+  fi
+}
+
+discover_hybrid() {
+  local r=$1
+  local name
+  for name in works persons manuscripts; do
+    discover_l1_corpus "${r}" "${name}"
+  done
+  for name in places institutions narratives studies authority-files; do
     if [ -d "${r}/${name}" ]; then
-      find "${r}/${name}" -mindepth 1 -maxdepth 1 -type d | sort | while IFS= read -r p; do
-        rel="${p#"${r}"/}"
-        if is_skipped_orphan_shard "${rel}"; then
-          continue
-        fi
-        echo "${rel}"
-      done
+      echo "${name}"
     fi
   done
   if [ -d "${r}/corpora" ]; then
@@ -116,6 +142,9 @@ if [ -n "${filter}" ]; then
   printf '%s\n' "${filter#./}" > "${tmp}"
 else
   case "${mode}" in
+    hybrid)
+      discover_hybrid "${root}" > "${tmp}"
+      ;;
     l1)
       discover_l1 "${root}" > "${tmp}"
       ;;
@@ -123,7 +152,7 @@ else
       discover_matrix "${root}" > "${tmp}"
       ;;
     *)
-      echo "Unknown mode: ${mode} (expected l1 or matrix)" >&2
+      echo "Unknown mode: ${mode} (expected hybrid, l1, or matrix)" >&2
       exit 2
       ;;
   esac
