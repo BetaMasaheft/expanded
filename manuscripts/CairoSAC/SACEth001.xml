@@ -1,12 +1,12 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="SACEth001"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
-            <titleStmt><t:title xmlns:t="http://www.tei-c.org/ns/1.0" type="full">Cairo, Société d’Archéologie Copte, Éthiopien 001</t:title>
+            <titleStmt><title type="full">Cairo, Société d’Archéologie Copte, Éthiopien 001</title>
                
-                <t:title xmlns:t="http://www.tei-c.org/ns/1.0">Dǝrsāna Giyorgis, Gadla Giyorgis</t:title>
+                <title>Dǝrsāna Giyorgis, Gadla Giyorgis</title>
                 <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Alessandro Bausi</t:name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Dorothea Reule</t:name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
             <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
@@ -18,7 +18,7 @@
                </licence>
             </availability>
                 
-         <t:date xmlns:t="http://www.tei-c.org/ns/1.0" type="expanded">17.12.2024 at 16:38:28</t:date><t:date xmlns:t="http://www.tei-c.org/ns/1.0" type="lastModified">19.3.2024</t:date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/SACEth001/main</idno><idno type="URI">https://betamasaheft.eu/SACEth001</idno><idno type="filename">SACEth001.xml</idno><idno type="ID">SACEth001</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 08:18:36</date><date type="lastModified">19.3.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/SACEth001/main</idno><idno type="URI">https://betamasaheft.eu/SACEth001</idno><idno type="filename">SACEth001.xml</idno><idno type="ID">SACEth001</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     
@@ -44,35 +44,35 @@
             
         </fileDesc>
         <encodingDesc>
-            <t:p xmlns:t="http://www.tei-c.org/ns/1.0">A digital-born TEI file</t:p>
+            <p>A digital-born TEI file</p>
             
                 
             
-        <t:p xmlns:t="http://www.tei-c.org/ns/1.0">Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</t:p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><t:p xmlns:t="http://www.tei-c.org/ns/1.0">Definitions of prefixes used.</t:p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+        <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <t:textClass>
-                <keywords>
+                <t:keywords>
                     <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                </keywords>
+                </t:keywords>
             </t:textClass>
             <t:abstract>
                 <t:p>This record is being edited for a catalogue and will be available after publication.</t:p>
             </t:abstract>
             <t:langUsage><t:language ident="gez">Gǝʿǝz</t:language> <t:language ident="en">English</t:language></t:langUsage>
-        <calendarDesc><calendar xml:id="world"><t:p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</t:p></calendar><calendar xml:id="ethiopian"><t:p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</t:p></calendar><calendar xml:id="grace"><t:p>ʿĀmata məḥrat (Era of Grace)</t:p></calendar><calendar xml:id="diocletian"><t:p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</t:p></calendar><calendar xml:id="alexander"><t:p> Era of Alexander</t:p></calendar><calendar xml:id="evangelists"><t:p>Evangelists' years</t:p></calendar><calendar xml:id="islamic"><t:p>Hiǧrī (Islamic)</t:p></calendar><calendar xml:id="hijri"><t:p>Hiǧrī (Islamic) in IslHornAfr</t:p></calendar><calendar xml:id="julian"><t:p>Julian</t:p></calendar></calendarDesc></t:profileDesc>
-        <revisionDesc>
-            <t:change xmlns:t="http://www.tei-c.org/ns/1.0" who="#DR" when="2024-03-19"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</t:change>
-        </revisionDesc>
-    </teiHeader><text xml:base="https://betamasaheft.eu/">
-        <body>
-            <ab/>
-        </body>
-    </text></TEI>
+        <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <change when="2024-03-19" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+        </t:revisionDesc>
+    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+        <t:body>
+            <t:ab/>
+        </t:body>
+    </t:text></TEI>

@@ -2,11 +2,11 @@
         <fileDesc>
             <titleStmt><title type="full">Portland, Ethiopic Manuscript Imaging Project, Weiner Codex 448</title>
                 <title>Weiner Codex 448</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="RL" corresp="https://betamasaheft.eu/team.html#RL" xml:id="RL">Ralph Lee</editor>
                 <editor key="JS" corresp="https://betamasaheft.eu/team.html#JS" xml:id="JS">Jonah Sandford</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-RL" corresp="https://betamasaheft.eu/team.html#RL"><resp>editor</resp><name>Ralph Lee</name></respStmt><respStmt xml:id="ed-JS" corresp="https://betamasaheft.eu/team.html#JS"><resp>editor</resp><name>Jonah Sandford</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#RL" xml:id="ed-RL"><resp>editor</resp><name>Ralph Lee</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#JS" xml:id="ed-JS"><resp>editor</resp><name>Jonah Sandford</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
@@ -16,7 +16,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">9.12.2024 at 13:20:31</date><date type="lastModified">23.6.2021</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMIP02736/main</idno><idno type="URI">https://betamasaheft.eu/EMIP02736</idno><idno type="filename">EMIP02736.xml</idno><idno type="ID">EMIP02736</idno></publicationStmt>
+            <date type="expanded">3.9.2026 at 08:34:16</date><date type="lastModified">23.6.2021</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMIP02736/main</idno><idno type="URI">https://betamasaheft.eu/EMIP02736</idno><idno type="filename">EMIP02736.xml</idno><idno type="ID">EMIP02736</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -44,15 +44,15 @@
                                         <height>288</height>
                                         <width>219</width>
                                         <depth>70</depth>
-                                    </dimensions>
+                                    </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="288" unit="mm"/><width quantity="219" unit="mm"/><depth quantity="70" unit="mm"/></dimensions>
                                 </extent>
                                 <collation>
                                   <note>Quire descriptions: quires 1–2, 7, and 9 balanced; quires 3–6, 8, 10–12, and 14 adjusted balanced; protection quire and quire 13 unbalanced.</note>
                                   <list>
                                     <item xml:id="q1" n="a">
                                       <dim unit="leaf">3</dim>
-                                      <locus from="i" to="iii" facs="001">Fols i–iii</locus>
-                                      <note>Folium stubs appears before <locus target="#i" facs="001">fols. i, </locus>, between <locus target="#i #ii" facs="002">i, ii, </locus>, and between <locus target="#ii #iii" facs="003">ii, iii</locus>.</note>
+                                      <locus from="i" to="iii" facs="001"/>
+                                      <note>Folium stubs appears before <locus target="#i" facs="001"/>, between <locus target="#i #ii" facs="002"/>, and between <locus target="#ii #iii" facs="003"/>.</note>
                                       Protection Quire:
                                       1, stub after 2
                                       2, stub after 1
@@ -60,20 +60,20 @@
                                     </item>
                                     <item xml:id="q2" n="1">
                                       <dim unit="leaf">8</dim>
-                                      <locus from="1" to="8" facs="004">Fols 1–8</locus>
+                                      <locus from="1" to="8" facs="004"/>
                                       Quire 1
                                     </item>
                                     <item xml:id="q3" n="2">
                                       <num value="2">፪</num>
                                       <dim unit="leaf">8</dim>
-                                      <locus from="9" to="16" facs="012">Fols 9–16</locus>
+                                      <locus from="9" to="16" facs="012"/>
                                       Quire 2
                                     </item>
                                     <item xml:id="q4" n="3">
                                       <num value="3">፫</num>
                                       <dim unit="leaf">8</dim>
-                                      <locus from="17" to="24" facs="020">Fols 17–24</locus>
-                                      <note>Folium stubs appear between <locus target="#18 #19" facs="022">folss. 18, 19, </locus> and between <locus target="#21 #22" facs="025">21, 22</locus>.</note>
+                                      <locus from="17" to="24" facs="020"/>
+                                      <note>Folium stubs appear between <locus target="#18 #19" facs="022"/> and between <locus target="#21 #22" facs="025"/>.</note>
                                       Quire 3:
                                       3, stub after 5
                                       5, stub after 3
@@ -81,7 +81,7 @@
                                     <item xml:id="q5" n="4">
                                       <num value="4">፬</num>
                                       <dim unit="leaf">8</dim>
-                                      <locus from="25" to="32" facs="028">Fols 25–32</locus>
+                                      <locus from="25" to="32" facs="028"/>
                                       Quire 4:
                                       3, stub after 6
                                       6, stub after 3
@@ -89,8 +89,8 @@
                                     <item xml:id="q6" n="5">
                                       <num value="5">፭</num>
                                       <dim unit="leaf">6</dim>
-                                      <locus from="33" to="38" facs="036">Fols 33–38</locus>
-                                      <note>Folium stubs appear between <locus target="#33 #34" facs="037">folss. 33, 34, </locus> and between <locus target="#36 #37" facs="040">36, 37</locus>.</note>
+                                      <locus from="33" to="38" facs="036"/>
+                                      <note>Folium stubs appear between <locus target="#33 #34" facs="037"/> and between <locus target="#36 #37" facs="040"/>.</note>
                                       Quire 5:
                                       2, stub after 4
                                       5, stub after 1
@@ -98,8 +98,8 @@
                                     <item xml:id="q7" n="6">
                                       <num value="6">፮</num>
                                       <dim unit="leaf">8</dim>
-                                      <locus from="39" to="46" facs="042">Fols 39–46</locus>
-                                      <note>Folium stubs appear between <locus target="#41 #42" facs="045">folss. 41, 42, </locus> and between <locus target="#44 #45" facs="048">44, 45</locus>.</note>
+                                      <locus from="39" to="46" facs="042"/>
+                                      <note>Folium stubs appear between <locus target="#41 #42" facs="045"/> and between <locus target="#44 #45" facs="048"/>.</note>
                                       Quire 6:
                                       3, stub after 6
                                       6, stub after 3
@@ -107,14 +107,14 @@
                                     <item xml:id="q8" n="7">
                                       <num value="7">፯</num>
                                       <dim unit="leaf">8</dim>
-                                      <locus from="47" to="54" facs="050">Fols 47–54</locus>
+                                      <locus from="47" to="54" facs="050"/>
                                       Quire 7
                                     </item>
                                     <item xml:id="q9" n="8">
                                       <num value="8">፰</num>
                                       <dim unit="leaf">8</dim>
-                                      <locus from="55" to="62" facs="058">Fols 55–62</locus>
-                                      <note>Folium stubs appear between <locus target="#56 #57" facs="060">folss. 56, 57, </locus> and between <locus target="#59 #60" facs="063">59, 60</locus>.</note>
+                                      <locus from="55" to="62" facs="058"/>
+                                      <note>Folium stubs appear between <locus target="#56 #57" facs="060"/> and between <locus target="#59 #60" facs="063"/>.</note>
                                       Quire 8:
                                       3, stub after 5
                                       6, stub after 2
@@ -122,14 +122,14 @@
                                     <item xml:id="q10" n="9">
                                       <num value="9">፱</num>
                                       <dim unit="leaf">8</dim>
-                                      <locus from="63" to="70" facs="066">Fols 63–70</locus>
+                                      <locus from="63" to="70" facs="066"/>
                                       Quire 9
                                     </item>
                                     <item xml:id="q11" n="10">
                                       <num value="10">፲</num>
                                       <dim unit="leaf">8</dim>
-                                      <locus from="71" to="78" facs="074">Fols 71–78</locus>
-                                      <note>Folium stubs appear between <locus target="#73 #74" facs="077">folss. 73, 74, </locus> and between <locus target="#76 #77" facs="080">76, 77</locus>.</note>
+                                      <locus from="71" to="78" facs="074"/>
+                                      <note>Folium stubs appear between <locus target="#73 #74" facs="077"/> and between <locus target="#76 #77" facs="080"/>.</note>
                                       Quire 10:
                                       3, stub after 6
                                       6, stub after 3
@@ -137,8 +137,8 @@
                                     <item xml:id="q12" n="11">
                                       <num value="11">፲፩</num>
                                       <dim unit="leaf">8</dim>
-                                      <locus from="79" to="86" facs="082">Fols 79–86</locus>
-                                      <note>Folium stubs appear between <locus target="#80 #81" facs="084">folss. 80, 81, </locus> and between <locus target="#83 #84" facs="087">83, 84</locus>.</note>
+                                      <locus from="79" to="86" facs="082"/>
+                                      <note>Folium stubs appear between <locus target="#80 #81" facs="084"/> and between <locus target="#83 #84" facs="087"/>.</note>
                                       Quire 11:
                                       3, stub after 5
                                       6, stub after 2
@@ -146,8 +146,8 @@
                                     <item xml:id="q13" n="12">
                                       <num value="12">፲፪</num>
                                       <dim unit="leaf">8</dim>
-                                      <locus from="87" to="94" facs="090">Fols 87–94</locus>
-                                      <note>Folium stubs appear between <locus target="#88 #89" facs="092">folss. 88, 89, </locus> and between <locus target="#91 #92" facs="095">91, 92</locus>.</note>
+                                      <locus from="87" to="94" facs="090"/>
+                                      <note>Folium stubs appear between <locus target="#88 #89" facs="092"/> and between <locus target="#91 #92" facs="095"/>.</note>
                                       Quire 12:
                                       3, stub after 5
                                       6, stub after 2
@@ -155,16 +155,16 @@
                                     <item xml:id="q14" n="13">
                                       <num value="13">፲፫</num>
                                       <dim unit="leaf">5</dim>
-                                      <locus from="95" to="99" facs="098">Fols 95–99</locus>
-                                      <note>A folium stub appears between <locus target="#98 #99" facs="102">fols. 98, 99</locus>.</note>
+                                      <locus from="95" to="99" facs="098"/>
+                                      <note>A folium stub appears between <locus target="#98 #99" facs="102"/>.</note>
                                       Quire 13:
                                       2, stub after 4
                                     </item>
                                     <item xml:id="q15" n="14">
                                       <num value="14">፲፬</num>
                                       <dim unit="leaf">6</dim>
-                                      <locus from="100" to="105" facs="103">Fols 100–105</locus>
-                                      <note>Folium stubs appear between <locus target="#99 #100" facs="103">folss. 99, 100, </locus> and between <locus target="#103 #104" facs="107">103, 104</locus>.</note>
+                                      <locus from="100" to="105" facs="103"/>
+                                      <note>Folium stubs appear between <locus target="#99 #100" facs="103"/> and between <locus target="#103 #104" facs="107"/>.</note>
                                       Quire 14:
                                       2, stub after 4
                                       6, stub before 1
@@ -179,9 +179,9 @@
                                         <dim type="bottom">50–53</dim>
                                         <dim type="right">26–30</dim>
                                         <dim type="left">12–15</dim>
-                                    </dimensions>
+                                    </dimensions><dimensions subtype="computed" unit="mm" type="margin"><dim type="top" quantity="27.5" unit="mm" atLeast="25" atMost="30"/><dim type="bottom" quantity="51.5" unit="mm" atLeast="50" atMost="53"/><dim type="right" quantity="28" unit="mm" atLeast="26" atMost="30"/><dim type="left" quantity="13.5" unit="mm" atLeast="12" atMost="15"/></dimensions>
                                 </layout>
-                                <layout writtenLines="24 31" columns="2"/>
+                                <layout writtenLines="24 31" columns="2"/><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="31"/></layout>
                             </layoutDesc>
                         </objectDesc>
                         <bindingDesc>
@@ -208,14 +208,14 @@
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+        <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -228,8 +228,8 @@
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
         <revisionDesc>
-            <change who="#RL" when="2021-05-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
-            <change who="#JS" when="2021-06-23"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added quire maps.</change>
+            <change when="2021-05-28" who="#RL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2021-06-23" who="#JS"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added quire maps.</change>
         </revisionDesc>
     </teiHeader><text>
         <body>

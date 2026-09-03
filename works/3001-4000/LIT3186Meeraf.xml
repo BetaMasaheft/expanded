@@ -4,10 +4,10 @@
             <title xml:lang="gez" xml:id="t1">ምዕራፍ፡</title>
             <title xml:lang="gez" corresp="#t1" type="normalized">Mǝʿrāf</title>
             <title xml:lang="en" corresp="#t1">Common of the Office</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <editor key="RL" corresp="https://betamasaheft.eu/team.html#RL" xml:id="RL">Ralph Lee</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-RL" corresp="https://betamasaheft.eu/team.html#RL"><resp>editor</resp><name>Ralph Lee</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#RL" xml:id="ed-RL"><resp>editor</resp><name>Ralph Lee</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -19,7 +19,7 @@
                                     Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">2.7.2025 at 03:05:45</date><date type="lastModified">3.4.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3186Meeraf/main</idno><idno type="URI">https://betamasaheft.eu/LIT3186Meeraf</idno><idno type="filename">LIT3186Meeraf.xml</idno><idno type="ID">LIT3186Meeraf</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:20:43</date><date type="lastModified">30.6.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3186Meeraf/main</idno><idno type="URI">https://betamasaheft.eu/LIT3186Meeraf</idno><idno type="filename">LIT3186Meeraf.xml</idno><idno type="ID">LIT3186Meeraf</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -38,351 +38,352 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="Chants for the office of Lent ዘመዋዕለ፡ አጽዋም፡" match="div" use="div"><desc><list><item>Lent</item></list></desc><citeStructure unit="Chants for the fifth week of Lent (of Mount of Olives)" match="div" use="div"><desc><list><item>FifthWeekLent</item></list></desc><citeStructure unit="Chant for the fifth Friday of Lent" match="div" use="div"><desc><list><item>FifthWeekFr</item></list></desc></citeStructure><citeStructure unit="Chant for the fifth Tuesday of Lent" match="div" use="div"><desc><list><item>FifthWeekTu</item></list></desc></citeStructure><citeStructure unit="Chant for the fifth Thursday of Lent" match="div" use="div"><desc><list><item>FifthWeekTh</item></list></desc></citeStructure><citeStructure unit="Chant for the fifth Wednseday of Lent" match="div" use="div"><desc><list><item>FifthWeekWe</item></list></desc></citeStructure><citeStructure unit="Chant for the fifth Monday of Lent" match="div" use="div"><desc><list><item>FifthWeekMo</item></list></desc></citeStructure></citeStructure><citeStructure unit="Chants for the first week of Lent (of Moses)" match="div" use="div"><desc><list><item>FirstWeekLent</item></list></desc><citeStructure unit="Chant for the first Thursday of Lent" match="div" use="div"><desc><list><item>FirstWeekTh</item></list></desc></citeStructure><citeStructure unit="Chant for the first Monday of Lent" match="div" use="div"><desc><list><item>FirstWeekMo</item></list></desc></citeStructure><citeStructure unit="Chant for the first Friday of Lent" match="div" use="div"><desc><list><item>FirstWeekFr</item></list></desc></citeStructure><citeStructure unit="Chant for the first Wednseday of Lent" match="div" use="div"><desc><list><item>FirstWeekWe</item></list></desc></citeStructure><citeStructure unit="Chant for the first Saturday of Lent" match="div" use="div"><desc><list><item>FirstWeekSa</item></list></desc></citeStructure><citeStructure unit="Chant for the first Tuesday of Lent" match="div" use="div"><desc><list><item>FirstWeekTu</item></list></desc></citeStructure></citeStructure><citeStructure unit="Chants for the sixth week of Lent (of the Good Servant)" match="div" use="div"><desc><list><item>SixthWeekLent</item></list></desc><citeStructure unit="Chant for the sixth Monday of Lent" match="div" use="div"><desc><list><item>SixthWeekMo</item></list></desc></citeStructure></citeStructure><citeStructure unit="Chants for the fourth week of Lent (of the Paralytic)" match="div" use="div"><desc><list><item>FourthWeekLent</item></list></desc><citeStructure unit="Chant for the fourth Tuesday of Lent" match="div" use="div"><desc><list><item>FourthWeekTu</item></list></desc></citeStructure><citeStructure unit="Chant for the fourth Monday of Lent" match="div" use="div"><desc><list><item>FourthWeekMo</item></list></desc></citeStructure><citeStructure unit="Chant for the fourth Friday of Lent" match="div" use="div"><desc><list><item>FourthWeekFr</item></list></desc></citeStructure><citeStructure unit="Chant for the fourth Thursday of Lent" match="div" use="div"><desc><list><item>FourthWeekTh</item></list></desc></citeStructure><citeStructure unit="Chant for the fourth Wednseday of Lent" match="div" use="div"><desc><list><item>FourthWeekWe</item></list></desc></citeStructure></citeStructure><citeStructure unit="Chants for the second week of Lent (of the Holy [Day])" match="div" use="div"><desc><list><item>SecondWeekLent</item></list></desc><citeStructure unit="Chant for the second Friday of Lent" match="div" use="div"><desc><list><item>SecondWeekFr</item></list></desc></citeStructure><citeStructure unit="Chant for the second Wednseday of Lent" match="div" use="div"><desc><list><item>SecondWeekWe</item></list></desc></citeStructure><citeStructure unit="Chant for the second Monday of Lent" match="div" use="div"><desc><list><item>SecondWeekMo</item></list></desc></citeStructure><citeStructure unit="Chant for the second Thursday of Lent" match="div" use="div"><desc><list><item>SecondWeekTh</item></list></desc></citeStructure><citeStructure unit="Chant for the second Tuesday of Lent" match="div" use="div"><desc><list><item>SecondWeekTu</item></list></desc></citeStructure></citeStructure><citeStructure unit="Chants for the seventh week of Lent (of Nicodemus)" match="div" use="div"><desc><list><item>SeventhWeekLent</item></list></desc><citeStructure unit="Chant for the seventh Monday of Lent" match="div" use="div"><desc><list><item>SeventhWeekMo</item></list></desc></citeStructure></citeStructure><citeStructure unit="Chants for the third week of Lent (of the Temple)" match="div" use="div"><desc><list><item>ThirdWeekLent</item></list></desc><citeStructure unit="Chant for the third Monday of Lent" match="div" use="div"><desc><list><item>ThirdWeekMo</item></list></desc></citeStructure><citeStructure unit="Chant for the third Friday of Lent" match="div" use="div"><desc><list><item>ThirdWeekFr</item></list></desc></citeStructure><citeStructure unit="Chant for the third Wednseday of Lent" match="div" use="div"><desc><list><item>ThirdWeekWe</item></list></desc></citeStructure><citeStructure unit="Chant for the third Tuesday of Lent" match="div" use="div"><desc><list><item>ThirdWeekTu</item></list></desc></citeStructure><citeStructure unit="Chant for the third Thursday of Lent" match="div" use="div"><desc><list><item>ThirdWeekTh</item></list></desc></citeStructure></citeStructure></citeStructure><citeStructure unit="Chants for the office of Sundays መወድስ፡&#xA;               " match="div" use="div"><desc><list><item>MawaddesS</item></list></desc></citeStructure><citeStructure unit="&#xA;                  ዘዘወትር፡ ዕዝል፡ መስተብቍዕ፡&#xA;               " match="div" use="div"><desc><list><item>Mastabeqwe</item></list></desc></citeStructure><citeStructure unit="Chants for the office of Rogationምዕራፍ፡ ዘአርእስት፡ ምህል፡ በምሉእ፡ ወበጐደሎ።&#xA;               " match="div" use="div"><desc><list><item>Mehella</item></list></desc><citeStructure unit="Chants of Rogation for the sixth hour" match="div" use="div"><desc><list><item>MehellaSixth</item></list></desc></citeStructure><citeStructure unit="Chants of Rogation for the ninth hour" match="div" use="div"><desc><list><item>MehellaNinth</item></list></desc></citeStructure><citeStructure unit="Chants of Rogation for the third hour" match="div" use="div"><desc><list><item>MehellaThird</item></list></desc></citeStructure></citeStructure><citeStructure unit="Chants for the office of the Morning Praise ስብሐተ፡ ነግህ፡&#xA;               " match="div" use="div"><desc><list><item>Sebhat</item></list></desc></citeStructure><citeStructure unit="Table of melodic variations for the Hallelujah አንቀጸ፡ ሃሌታ፡" match="div" use="div"><desc><list><item>Haleta</item></list></desc></citeStructure><citeStructure unit="Chants of the Revelation of ʾaryām ክሥተት፡ ዘአርያም፡&#xA;               " match="div" use="div"><desc><list><item>Kestat</item></list></desc></citeStructure><citeStructure unit="Chants for the office for the vigils and for selected holy days (ዋዜማ፡ ዘሰናበት፡ ወዘበዓላት።)" match="div" use="div"><desc><list><item>Feasts</item></list></desc><citeStructure unit="Hymn for the Holy Sunday (ዘቅድስት፡), i.e. the second of Lent" match="div" use="div"><desc><list><item>HolySunday</item></list></desc></citeStructure><citeStructure unit="Hymn for the preaching (ዘስብከት፡), for the first Sunday of Advent" match="div" use="div"><desc><list><item>Preach</item></list></desc></citeStructure><citeStructure unit="Hymn for the Beginning of the Fast (ዘቀበላ፡ [ጾም፡])" match="div" use="div"><desc><list><item>Fast</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Righteous" match="div" use="div"><desc><list><item>Righteous2</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Women (ዘአንስት፡)" match="div" use="div"><desc><list><item>Women</item></list></desc></citeStructure><citeStructure unit="Hymn for the Palm Sunday (ዘሆሳዕና፡)" match="div" use="div"><desc><list><item>Palm</item></list></desc></citeStructure><citeStructure unit="Hymn for Christmas (ዘልደት፡)" match="div" use="div"><desc><list><item>Christmas</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of Baptism (ዘጥምቀት፡)" match="div" use="div"><desc><list><item>BaptismHymn</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Martyrs (ዘሰማዕት፡)" match="div" use="div"><desc><list><item>Martyrs</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Birth of Mary (ዘልደታ [ለማርያም]፡)" match="div" use="div"><desc><list><item>BirthOfMary</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of winter (ዘክረምት፡)" match="div" use="div"><desc><list><item>Winter</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the firstborn " match="div" use="div"><desc><list><item>Firstborn</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Transfiguration on Mount Tabor (ዘደብረ፡ ታቦር፡)" match="div" use="div"><desc><list><item>Transfiguration</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of St Cyriacus (ዘቂርቆስ፡)" match="div" use="div"><desc><list><item>Cyriacus</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Righteous (ዘጻድቃን፡)" match="div" use="div"><desc><list><item>Righteous1</item></list></desc></citeStructure><citeStructure unit="Hymn for the vigil of the feast of John the Baptist" match="div" use="div"><desc><list><item>JohnTheBaptistVigil</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Virgins (ዘማርያም፡ ወደናግል፡)" match="div" use="div"><desc><list><item>Virgins</item></list></desc></citeStructure><citeStructure unit="Hymn for the vigil of Christmas (ጌና፡)" match="div" use="div"><desc><list><item>Christmas2</item></list></desc></citeStructure><citeStructure unit="Hymn for the sabbaths and the common feasts (ዘሰንበት፡)" match="div" use="div"><desc><list><item>Sabbath</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of St Michael and the Angels (ዘመላእክት፡ ወዘሚካኤል፡)" match="div" use="div"><desc><list><item>Angels</item></list></desc></citeStructure><citeStructure unit="Hymn for the Sunday of the Mount of Olives (ዘደብረ፡ ዘይት፡), i.e. the fifth of Lent" match="div" use="div"><desc><list><item>MountOfOlives</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of Resurrection (ዘትንሣኤ፡)" match="div" use="div"><desc><list><item>Resurrection</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the congregation on Mount Tabor (ዘማኅበር፡)" match="div" use="div"><desc><list><item>Congregation</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Cross (ዘመስቀል፡)" match="div" use="div"><desc><list><item>Cross</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of ʾAbbā Salāmā (ዘአባ፡ ሰላማ፡)" match="div" use="div"><desc><list><item>AbbaSalama</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Flowers (ዘጽጌ፡)" match="div" use="div"><desc><list><item>Flowers</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Apostles (ዘሐዋርያት፡)" match="div" use="div"><desc><list><item>Apostles</item></list></desc></citeStructure><citeStructure unit="Hymn for the Sunday of the Good Servant and Nicodemus (ዘገብር፡ ኄር፡ ወዘኒቆዲሞስ፡), i.e. the sixth and seventh Sundays of Lent" match="div" use="div"><desc><list><item>GoodServantNicodemus</item></list></desc></citeStructure><citeStructure unit="Hymn for the Sunday of the Temple (ዘምኵራብ፡), i.e. the third of Lent" match="div" use="div"><desc><list><item>Temple</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Death of Mary (ዘፍልሰታ፡ [ለማርያም፡])" match="div" use="div"><desc><list><item>DeathOfMary</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Light (ዘብርሃን፡)" match="div" use="div"><desc><list><item>Light</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Paraclete (ዘጰራቅሊጦስ፡)" match="div" use="div"><desc><list><item>Paraclete</item></list></desc></citeStructure><citeStructure unit="Hymn for the Ascension Day (ዘዕርገት፡)" match="div" use="div"><desc><list><item>AscensionDay</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of John the Baptist (ዘዮሐንስ፡)" match="div" use="div"><desc><list><item>JohnTheBaptist</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Heavenly Priests (ዘካህናት፡)" match="div" use="div"><desc><list><item>HeavenlyPriests</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Four Beasts (ዘ፬እንስሳ፡)" match="div" use="div"><desc><list><item>FourBeasts</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Fruits (ዘፍሬ፡)" match="div" use="div"><desc><list><item>Fruits</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of the Shepherd (ዘኖላዊ፡)" match="div" use="div"><desc><list><item>Shepherd</item></list></desc></citeStructure><citeStructure unit="Hymn for the feast of Abreham (ዘአብርሃም፡)" match="div" use="div"><desc><list><item>Abraham</item></list></desc></citeStructure><citeStructure unit="Hymn for the Sunday of the Paralytic (ዘመፃጕዕ፡), i.e. the fourth of Lent" match="div" use="div"><desc><list><item>Paralytic</item></list></desc></citeStructure></citeStructure><citeStructure unit="Chants for the office for the vigils of the weekdays (ዋዜማ፡ ዘዘወትር።)" match="div" use="div"><desc><list><item>Weekdays</item></list></desc><citeStructure unit="Chants for Wednesday evening (ዘረቡዕ፡)" match="div" use="div"><desc><list><item>Wednesday</item></list></desc></citeStructure><citeStructure unit="Chants for Tuesday evening (ዘሠሉስ፡)" match="div" use="div"><desc><list><item>Tuesday</item></list></desc></citeStructure><citeStructure unit="Chants for Sunday evening" match="div" use="div"><desc><list><item>Sunday</item></list></desc></citeStructure><citeStructure unit="Chants for Saturday evening (ዘቀዳሚት፡ ሰንበት፡)" match="div" use="div"><desc><list><item>SaturdayE</item></list></desc></citeStructure><citeStructure unit="Chants for Friday evening (ዘዐርብ፡)" match="div" use="div"><desc><list><item>Friday</item></list></desc></citeStructure><citeStructure unit="Chants for Thursday evening (ዘኀኑስ፡)" match="div" use="div"><desc><list><item>Thursday</item></list></desc></citeStructure><citeStructure unit="Chants for Saturday morning (ዘቀዳሚት፡ ሰንበት፡)" match="div" use="div"><desc><list><item>SaturdayM</item></list></desc></citeStructure><citeStructure unit="Chants for Monday evening (ዘሰኑይ፡)" match="div" use="div"><desc><list><item>Monday</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
-         <textClass>
-            <keywords scheme="#ethioauthlist">
-               <term key="Chants" ana="#Chants"/>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-            </keywords>
-         </textClass>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="Chants for the office of Rogation ምዕራፍ፡ ዘአርእስት፡ ምህል፡ በምሉእ፡ ወበጐደሎ።&#xA;               " use="@xml:id"><citeStructure match="t:div" unit="Chants of Rogation for the sixth hour" use="@xml:id"><desc><list><item>MehellaSixth</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants of Rogation for the ninth hour" use="@xml:id"><desc><list><item>MehellaNinth</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants of Rogation for the third hour" use="@xml:id"><desc><list><item>MehellaThird</item></list></desc></citeStructure><desc><list><item>Mehella</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for the office of Lent ዘመዋዕለ፡ አጽዋም፡" use="@xml:id"><citeStructure match="t:div" unit="Chants for the fifth week of Lent (of Mount of Olives)" use="@xml:id"><citeStructure match="t:div" unit="Chant for the fifth Wednesday of Lent" use="@xml:id"><desc><list><item>FifthWeekWe</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the fifth Friday of Lent" use="@xml:id"><desc><list><item>FifthWeekFr</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the fifth Tuesday of Lent" use="@xml:id"><desc><list><item>FifthWeekTu</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the fifth Thursday of Lent" use="@xml:id"><desc><list><item>FifthWeekTh</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the fifth Monday of Lent" use="@xml:id"><desc><list><item>FifthWeekMo</item></list></desc></citeStructure><desc><list><item>FifthWeekLent</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for the first week of Lent (of Moses)" use="@xml:id"><citeStructure match="t:div" unit="Chant for the first Thursday of Lent" use="@xml:id"><desc><list><item>FirstWeekTh</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the first Wednesday of Lent" use="@xml:id"><desc><list><item>FirstWeekWe</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the first Monday of Lent" use="@xml:id"><desc><list><item>FirstWeekMo</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the first Friday of Lent" use="@xml:id"><desc><list><item>FirstWeekFr</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the first Saturday of Lent" use="@xml:id"><desc><list><item>FirstWeekSa</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the first Tuesday of Lent" use="@xml:id"><desc><list><item>FirstWeekTu</item></list></desc></citeStructure><desc><list><item>FirstWeekLent</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for the sixth week of Lent (of the Good Servant)" use="@xml:id"><citeStructure match="t:div" unit="Chant for the sixth Monday of Lent" use="@xml:id"><desc><list><item>SixthWeekMo</item></list></desc></citeStructure><desc><list><item>SixthWeekLent</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for the fourth week of Lent (of the Paralytic)" use="@xml:id"><citeStructure match="t:div" unit="Chant for the fourth Tuesday of Lent" use="@xml:id"><desc><list><item>FourthWeekTu</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the fourth Monday of Lent" use="@xml:id"><desc><list><item>FourthWeekMo</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the fourth Friday of Lent" use="@xml:id"><desc><list><item>FourthWeekFr</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the fourth Thursday of Lent" use="@xml:id"><desc><list><item>FourthWeekTh</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the fourth Wednesday of Lent" use="@xml:id"><desc><list><item>FourthWeekWe</item></list></desc></citeStructure><desc><list><item>FourthWeekLent</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for the second week of Lent (of the Holy [Day])" use="@xml:id"><citeStructure match="t:div" unit="Chant for the second Friday of Lent" use="@xml:id"><desc><list><item>SecondWeekFr</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the second Monday of Lent" use="@xml:id"><desc><list><item>SecondWeekMo</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the second Wednesday of Lent" use="@xml:id"><desc><list><item>SecondWeekWe</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the second Thursday of Lent" use="@xml:id"><desc><list><item>SecondWeekTh</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the second Tuesday of Lent" use="@xml:id"><desc><list><item>SecondWeekTu</item></list></desc></citeStructure><desc><list><item>SecondWeekLent</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for the seventh week of Lent (of Nicodemus)" use="@xml:id"><citeStructure match="t:div" unit="Chant for the seventh Monday of Lent" use="@xml:id"><desc><list><item>SeventhWeekMo</item></list></desc></citeStructure><desc><list><item>SeventhWeekLent</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for the third week of Lent (of the Temple)" use="@xml:id"><citeStructure match="t:div" unit="Chant for the third Monday of Lent" use="@xml:id"><desc><list><item>ThirdWeekMo</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the third Wednesday of Lent" use="@xml:id"><desc><list><item>ThirdWeekWe</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the third Friday of Lent" use="@xml:id"><desc><list><item>ThirdWeekFr</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the third Tuesday of Lent" use="@xml:id"><desc><list><item>ThirdWeekTu</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chant for the third Thursday of Lent" use="@xml:id"><desc><list><item>ThirdWeekTh</item></list></desc></citeStructure><desc><list><item>ThirdWeekLent</item></list></desc></citeStructure><desc><list><item>Lent</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for the office of Sundays መወድስ፡&#xA;               " use="@xml:id"><desc><list><item>MawaddesS</item></list></desc></citeStructure><citeStructure match="t:div" unit="&#xA;                  ዘዘወትር፡ ዕዝል፡ መስተብቍዕ፡&#xA;               " use="@xml:id"><desc><list><item>Mastabeqwe</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for the office of the Morning Praise ስብሐተ፡ ነግህ፡&#xA;               " use="@xml:id"><desc><list><item>Sebhat</item></list></desc></citeStructure><citeStructure match="t:div" unit="Table of melodic variations for the Hallelujah አንቀጸ፡ ሃሌታ፡" use="@xml:id"><desc><list><item>Haleta</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants of the Revelation of ʾaryām ክሥተት፡ ዘአርያም፡&#xA;               " use="@xml:id"><desc><list><item>Kestat</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for the office for the vigils and for selected holy days (ዋዜማ፡ ዘሰናበት፡ ወዘበዓላት።)" use="@xml:id"><citeStructure match="t:div" unit="Hymn for the Holy Sunday (ዘቅድስት፡), i.e. the second of Lent" use="@xml:id"><desc><list><item>HolySunday</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the preaching (ዘስብከት፡), for the first Sunday of Advent" use="@xml:id"><desc><list><item>Preach</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the Beginning of the Fast (ዘቀበላ፡ [ጾም፡])" use="@xml:id"><desc><list><item>Fast</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Righteous" use="@xml:id"><desc><list><item>Righteous2</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Women (ዘአንስት፡)" use="@xml:id"><desc><list><item>Women</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the Palm Sunday (ዘሆሳዕና፡)" use="@xml:id"><desc><list><item>Palm</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for Christmas (ዘልደት፡)" use="@xml:id"><desc><list><item>Christmas</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of Baptism (ዘጥምቀት፡)" use="@xml:id"><desc><list><item>BaptismHymn</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Martyrs (ዘሰማዕት፡)" use="@xml:id"><desc><list><item>Martyrs</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Birth of Mary (ዘልደታ [ለማርያም]፡)" use="@xml:id"><desc><list><item>BirthOfMary</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of winter (ዘክረምት፡)" use="@xml:id"><desc><list><item>Winter</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the firstborn " use="@xml:id"><desc><list><item>Firstborn</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Transfiguration on Mount Tabor (ዘደብረ፡ ታቦር፡)" use="@xml:id"><desc><list><item>Transfiguration</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of St Cyriacus (ዘቂርቆስ፡)" use="@xml:id"><desc><list><item>Cyriacus</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Righteous (ዘጻድቃን፡)" use="@xml:id"><desc><list><item>Righteous1</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the vigil of the feast of John the Baptist" use="@xml:id"><desc><list><item>JohnTheBaptistVigil</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Virgins (ዘማርያም፡ ወደናግል፡)" use="@xml:id"><desc><list><item>Virgins</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the vigil of Christmas (ጌና፡)" use="@xml:id"><desc><list><item>Christmas2</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the sabbaths and the common feasts (ዘሰንበት፡)" use="@xml:id"><desc><list><item>Sabbath</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of St Michael and the Angels (ዘመላእክት፡ ወዘሚካኤል፡)" use="@xml:id"><desc><list><item>Angels</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the Sunday of the Mount of Olives (ዘደብረ፡ ዘይት፡), i.e. the fifth of Lent" use="@xml:id"><desc><list><item>MountOfOlives</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of Resurrection (ዘትንሣኤ፡)" use="@xml:id"><desc><list><item>Resurrection</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the congregation on Mount Tabor (ዘማኅበር፡)" use="@xml:id"><desc><list><item>Congregation</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Cross (ዘመስቀል፡)" use="@xml:id"><desc><list><item>Cross</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of ʾAbbā Salāmā (ዘአባ፡ ሰላማ፡)" use="@xml:id"><desc><list><item>AbbaSalama</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Flowers (ዘጽጌ፡)" use="@xml:id"><desc><list><item>Flowers</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Apostles (ዘሐዋርያት፡)" use="@xml:id"><desc><list><item>Apostles</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the Sunday of the Good Servant and Nicodemus (ዘገብር፡ ኄር፡ ወዘኒቆዲሞስ፡), i.e. the sixth and seventh Sundays of Lent" use="@xml:id"><desc><list><item>GoodServantNicodemus</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the Sunday of the Temple (ዘምኵራብ፡), i.e. the third of Lent" use="@xml:id"><desc><list><item>Temple</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Death of Mary (ዘፍልሰታ፡ [ለማርያም፡])" use="@xml:id"><desc><list><item>DeathOfMary</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Light (ዘብርሃን፡)" use="@xml:id"><desc><list><item>Light</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Paraclete (ዘጰራቅሊጦስ፡)" use="@xml:id"><desc><list><item>Paraclete</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the Ascension Day (ዘዕርገት፡)" use="@xml:id"><desc><list><item>AscensionDay</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of John the Baptist (ዘዮሐንስ፡)" use="@xml:id"><desc><list><item>JohnTheBaptist</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Heavenly Priests (ዘካህናት፡)" use="@xml:id"><desc><list><item>HeavenlyPriests</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Four Beasts (ዘ፬እንስሳ፡)" use="@xml:id"><desc><list><item>FourBeasts</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Fruits (ዘፍሬ፡)" use="@xml:id"><desc><list><item>Fruits</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of the Shepherd (ዘኖላዊ፡)" use="@xml:id"><desc><list><item>Shepherd</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the feast of Abreham (ዘአብርሃም፡)" use="@xml:id"><desc><list><item>Abraham</item></list></desc></citeStructure><citeStructure match="t:div" unit="Hymn for the Sunday of the Paralytic (ዘመፃጕዕ፡), i.e. the fourth of Lent" use="@xml:id"><desc><list><item>Paralytic</item></list></desc></citeStructure><desc><list><item>Feasts</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for the office for the vigils of the weekdays (ዋዜማ፡ ዘዘወትር።)" use="@xml:id"><citeStructure match="t:div" unit="Chants for Wednesday evening (ዘረቡዕ፡)" use="@xml:id"><desc><list><item>Wednesday</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for Tuesday evening (ዘሠሉስ፡)" use="@xml:id"><desc><list><item>Tuesday</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for Sunday evening" use="@xml:id"><desc><list><item>Sunday</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for Saturday evening (ዘቀዳሚት፡ ሰንበት፡)" use="@xml:id"><desc><list><item>SaturdayE</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for Friday evening (ዘዐርብ፡)" use="@xml:id"><desc><list><item>Friday</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for Thursday evening (ዘኀኑስ፡)" use="@xml:id"><desc><list><item>Thursday</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for Saturday morning (ዘቀዳሚት፡ ሰንበት፡)" use="@xml:id"><desc><list><item>SaturdayM</item></list></desc></citeStructure><citeStructure match="t:div" unit="Chants for Monday evening (ዘሰኑይ፡)" use="@xml:id"><desc><list><item>Monday</item></list></desc></citeStructure><desc><list><item>Weekdays</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+         <t:textClass>
+            <t:keywords scheme="#ethioauthlist">
+               <t:term key="Chants" ana="#Chants"/>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-07-26"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record from Ethio authority google spreadsheet</change>
-         <change who="#MV" when="2017-04-03"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords and incipit</change>
-      </revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-07-26" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record from Ethio authority google spreadsheet</change>
+         <change when="2017-04-03" who="#MV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords and incipit</change>
+         <change when="2026-06-30" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected relations</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="saws:isAttributedToAuthor" ref="http://purl.org/saws/ontology#isAttributedToAuthor" active="https://betamasaheft.eu/LIT3186Meeraf" passive="https://betamasaheft.eu/PRS10245Yared">
-                  <desc>The work is traditionally attributed to <persName ref="https://betamasaheft.eu/PRS10245Yared">Yāred māḫletāwi</persName>
-                  </desc>
+                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">The work is traditionally attributed to <t:persName ref="https://betamasaheft.eu/PRS10245Yared">Yāred māḫletāwi</t:persName>
+                  </t:desc>
                </relation>
             
-            <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_http://erlangen-crm.org/current/may_http://erlangen-crm.org/current/form_http://erlangen-crm.org/current/part_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/LIT2444Temher" passive="https://betamasaheft.eu/LIT3186Meeraf"/>
-            <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_http://erlangen-crm.org/current/may_http://erlangen-crm.org/current/form_http://erlangen-crm.org/current/part_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/LIT1113Anqasa" passive="https://betamasaheft.eu/LIT3186Meeraf"/>
-            <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_http://erlangen-crm.org/current/may_http://erlangen-crm.org/current/form_http://erlangen-crm.org/current/part_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/LIT2301Sebhat" passive="https://betamasaheft.eu/LIT3186Meeraf"/>
-            <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_http://erlangen-crm.org/current/may_http://erlangen-crm.org/current/form_http://erlangen-crm.org/current/part_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/LIT2509Weddas" passive="https://betamasaheft.eu/LIT3186Meeraf"/>
-            <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_http://erlangen-crm.org/current/may_http://erlangen-crm.org/current/form_http://erlangen-crm.org/current/part_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/LIT3188Liton" passive="https://betamasaheft.eu/LIT3186Meeraf"/>
-            <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_http://erlangen-crm.org/current/may_http://erlangen-crm.org/current/form_http://erlangen-crm.org/current/part_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/LIT5646Mastagabe" passive="https://betamasaheft.eu/LIT3186Meeraf"/>
-            <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_http://erlangen-crm.org/current/may_http://erlangen-crm.org/current/form_http://erlangen-crm.org/current/part_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/LIT2605Zayena" passive="https://betamasaheft.eu/LIT3186Meeraf"/>
-            <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_http://erlangen-crm.org/current/may_http://erlangen-crm.org/current/form_http://erlangen-crm.org/current/part_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/LIT1714Kestat" passive="https://betamasaheft.eu/LIT3186Meeraf"/>
-         </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="bibliography">
-            <listBibl type="editions">
-               <bibl corresp="http://zotero.org/groups/358366/items/UJRPQJ7A"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Velat1966MeerafText"/><title level="m">Meʿerāf: Commun de l'office divin éthiopien pour toute l'année, Texte éthiopien avec variantes</title><title level="s">Patrologia Orientalis</title><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Bernard</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Velat</t:surname></editor><pubPlace>Paris</pubPlace><publisher>Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, éditeurs</publisher><date>1966</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Patrologia Orientalis</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">33/1–2</t:biblScope></series><biblScope unit="volume">33/1–2</biblScope></bibl>
-            </listBibl>
-            <listBibl type="translation">
-               <bibl corresp="http://zotero.org/groups/358366/items/SGQDN676"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Velat1966MeerafTrad"/><title level="m">Études sur le Meʿerāf: Commun de l’office divin éthiopien, Introduction, traduction française, commentaire liturgique et musical</title><title level="s">Patrologia Orientalis</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Bernard</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Velat</t:surname></author><pubPlace>Paris</pubPlace><publisher>Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, éditeurs</publisher><date>1966</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Patrologia Orientalis</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">33</t:biblScope></series><biblScope unit="volume">33</biblScope></bibl>
-            </listBibl>
-            <listBibl type="secondary">
-               <bibl corresp="http://zotero.org/groups/358366/items/SAN8RZZ4"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Getatchew2007EAEMeeraf"/><title level="a">Mǝʿǝraf</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Getatchew Haile</t:name></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Siegbert</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Uhlig</t:surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">910a-911a</biblScope></bibl>
-            </listBibl>
+            <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3186Meeraf" passive="https://betamasaheft.eu/LIT2444Temher"/>
+            <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3186Meeraf" passive="https://betamasaheft.eu/LIT1113Anqasa"/>
+            <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3186Meeraf" passive="https://betamasaheft.eu/LIT2301Sebhat"/>
+            <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3186Meeraf" passive="https://betamasaheft.eu/LIT2509Weddas"/>
+            <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3186Meeraf" passive="https://betamasaheft.eu/LIT3188Liton"/>
+            <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3186Meeraf" passive="https://betamasaheft.eu/LIT5646Mastagabe"/>
+            <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3186Meeraf" passive="https://betamasaheft.eu/LIT2605Zayena"/>
+            <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT3186Meeraf" passive="https://betamasaheft.eu/LIT1714Kestat"/>
+         </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
+            <t:listBibl type="editions">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/UJRPQJ7A"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Velat1966MeerafText"/><title level="m">Meʿerāf: Commun de l'office divin éthiopien pour toute l'année, Texte éthiopien avec variantes</title><title level="s">Patrologia Orientalis</title><editor><forename>Bernard</forename><surname>Velat</surname></editor><pubPlace>Paris</pubPlace><publisher>Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, éditeurs</publisher><date>1966</date><series><title level="s">Patrologia Orientalis</title><biblScope unit="volume">33/1–2</biblScope></series><biblScope unit="volume">33/1–2</biblScope><note type="tags"><note type="tag">Chants</note><note type="tag">bm:Velat1966MeerafText</note></note><note type="tag">Chants</note><note type="tag">bm:Velat1966MeerafText</note></t:bibl>
+            </t:listBibl>
+            <t:listBibl type="translation">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/SGQDN676"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Velat1966MeerafTrad"/><title level="m">Études sur le Meʿerāf: Commun de l’office divin éthiopien, Introduction, traduction française, commentaire liturgique et musical</title><title level="s">Patrologia Orientalis</title><author><forename>Bernard</forename><surname>Velat</surname></author><pubPlace>Paris</pubPlace><publisher>Firmin-Didot et C&lt;sup&gt;ie&lt;/sup&gt;, éditeurs</publisher><date>1966</date><series><title level="s">Patrologia Orientalis</title><biblScope unit="volume">33</biblScope></series><biblScope unit="volume">33</biblScope><note type="tags"><note type="tag">Chants</note><note type="tag">bm:Velat1966MeerafTrad</note></note><note type="tag">Chants</note><note type="tag">bm:Velat1966MeerafTrad</note></t:bibl>
+            </t:listBibl>
+            <t:listBibl type="secondary">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/SAN8RZZ4"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Getatchew2007EAEMeeraf"/><title level="a">Mǝʿǝraf</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><name>Getatchew Haile</name></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">910a-911a</biblScope><note type="tags"><note type="tag">bm:Getatchew2007EAEMeeraf</note></note><note type="tag">bm:Getatchew2007EAEMeeraf</note></t:bibl>
+            </t:listBibl>
             
-         </div>
-         <div type="edition">
-            <div type="textpart" xml:id="Feasts">
-               <label>Chants for the office for the vigils and for selected holy days (<foreign xml:lang="gez">ዋዜማ፡ ዘሰናበት፡ ወዘበዓላት።</foreign>)</label>
-               <div type="textpart" xml:id="JohnTheBaptistVigil">
-                  <label>Hymn for the vigil of the feast of John the Baptist</label>
-               </div>
-               <div type="textpart" xml:id="JohnTheBaptist">
-                  <label>Hymn for the feast of John the Baptist (<foreign xml:lang="gez">ዘዮሐንስ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Fruits">
-                  <label>Hymn for the feast of the Fruits (<foreign xml:lang="gez">ዘፍሬ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Cross">
-                  <label>Hymn for the feast of the Cross (<foreign xml:lang="gez">ዘመስቀል፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Flowers">
-                  <label>Hymn for the feast of the Flowers (<foreign xml:lang="gez">ዘጽጌ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="FourBeasts">
-                  <label>Hymn for the feast of the Four Beasts (<foreign xml:lang="gez">ዘ፬እንስሳ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Angels">
-                  <label>Hymn for the feast of St Michael and the Angels (<foreign xml:lang="gez">ዘመላእክት፡ ወዘሚካኤል፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="HeavenlyPriests">
-                  <label>Hymn for the feast of the Heavenly Priests (<foreign xml:lang="gez">ዘካህናት፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Righteous1">
-                  <label>Hymn for the feast of the Righteous (<foreign xml:lang="gez">ዘጻድቃን፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Martyrs">
-                  <label>Hymn for the feast of the Martyrs (<foreign xml:lang="gez">ዘሰማዕት፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Preach">
-                  <label>Hymn for the preaching (<foreign xml:lang="gez">ዘስብከት፡</foreign>), for the first Sunday of Advent</label>
-               </div>
-               <div type="textpart" xml:id="Light">
-                  <label>Hymn for the feast of the Light (<foreign xml:lang="gez">ዘብርሃን፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Shepherd">
-                  <label>Hymn for the feast of the Shepherd (<foreign xml:lang="gez">ዘኖላዊ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Christmas">
-                  <label>Hymn for Christmas (<foreign xml:lang="gez">ዘልደት፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="BaptismHymn">
-                  <label>Hymn for the feast of Baptism (<foreign xml:lang="gez">ዘጥምቀት፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Fast">
-                  <label>Hymn for the Beginning of the Fast (<foreign xml:lang="gez">ዘቀበላ፡ [ጾም፡]</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="HolySunday">
-                  <label>Hymn for the Holy Sunday (<foreign xml:lang="gez">ዘቅድስት፡</foreign>), i.e. the second of Lent</label>
-               </div>
-               <div type="textpart" xml:id="Temple">
-                  <label>Hymn for the Sunday of the Temple (<foreign xml:lang="gez">ዘምኵራብ፡</foreign>), i.e. the third of Lent</label>
-               </div>
-               <div type="textpart" xml:id="Paralytic">
-                  <label>Hymn for the Sunday of the Paralytic (<foreign xml:lang="gez">ዘመፃጕዕ፡</foreign>), i.e. the fourth of Lent</label>
-               </div>
-               <div type="textpart" xml:id="MountOfOlives">
-                  <label>Hymn for the Sunday of the Mount of Olives (<foreign xml:lang="gez">ዘደብረ፡ ዘይት፡</foreign>), i.e. the fifth of Lent</label>
-               </div>
-               <div type="textpart" xml:id="GoodServantNicodemus">
-                  <label>Hymn for the Sunday of the Good Servant and Nicodemus (<foreign xml:lang="gez">ዘገብር፡ ኄር፡ ወዘኒቆዲሞስ፡</foreign>), i.e. the sixth and seventh Sundays of Lent</label>
-               </div>
-               <div type="textpart" xml:id="Palm">
-                  <label>Hymn for the Palm Sunday (<foreign xml:lang="gez">ዘሆሳዕና፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Resurrection">
-                  <label>Hymn for the feast of Resurrection (<foreign xml:lang="gez">ዘትንሣኤ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="BirthOfMary">
-                  <label>Hymn for the feast of the Birth of Mary (<foreign xml:lang="gez">ዘልደታ [ለማርያም]፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="AscensionDay">
-                  <label>Hymn for the Ascension Day (<foreign xml:lang="gez">ዘዕርገት፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Paraclete">
-                  <label>Hymn for the feast of the Paraclete (<foreign xml:lang="gez">ዘጰራቅሊጦስ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Apostles">
-                  <label>Hymn for the feast of the Apostles (<foreign xml:lang="gez">ዘሐዋርያት፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Winter">
-                  <label>Hymn for the feast of winter (<foreign xml:lang="gez">ዘክረምት፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Cyriacus">
-                  <label>Hymn for the feast of St Cyriacus (<foreign xml:lang="gez">ዘቂርቆስ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="AbbaSalama">
-                  <label>Hymn for the feast of ʾAbbā Salāmā (<foreign xml:lang="gez">ዘአባ፡ ሰላማ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Women">
-                  <label>Hymn for the feast of the Women (<foreign xml:lang="gez">ዘአንስት፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Congregation">
-                  <label>Hymn for the feast of the congregation on Mount Tabor (<foreign xml:lang="gez">ዘማኅበር፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Firstborn">
-                  <label>Hymn for the feast of the firstborn </label>
-               </div>
-               <div type="textpart" xml:id="Transfiguration">
-                  <label>Hymn for the feast of the Transfiguration on Mount Tabor (<foreign xml:lang="gez">ዘደብረ፡ ታቦር፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="DeathOfMary">
-                  <label>Hymn for the feast of the Death of Mary (<foreign xml:lang="gez">ዘፍልሰታ፡ [ለማርያም፡]</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Virgins">
-                  <label>Hymn for the feast of the Virgins (<foreign xml:lang="gez">ዘማርያም፡ ወደናግል፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Abraham">
-                  <label>Hymn for the feast of Abreham (<foreign xml:lang="gez">ዘአብርሃም፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Sabbath">
-                  <label>Hymn for the sabbaths and the common feasts (<foreign xml:lang="gez">ዘሰንበት፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Christmas2">
-                  <label>Hymn for the vigil of Christmas (<foreign xml:lang="gez">ጌና፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Righteous2">
-                  <label>Hymn for the feast of the Righteous</label>
-               </div>
-            </div>
-            <div type="textpart" xml:id="Weekdays">
-               <label>Chants for the office for the vigils of the weekdays (<foreign xml:lang="gez">ዋዜማ፡ ዘዘወትር።</foreign>)</label>
-               <div type="textpart" xml:id="Monday">
-                  <label>Chants for Monday evening (<foreign xml:lang="gez">ዘሰኑይ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Tuesday">
-                  <label>Chants for Tuesday evening (<foreign xml:lang="gez">ዘሠሉስ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Wednesday">
-                  <label>Chants for Wednesday evening (<foreign xml:lang="gez">ዘረቡዕ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Thursday">
-                  <label>Chants for Thursday evening (<foreign xml:lang="gez">ዘኀኑስ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Friday">
-                  <label>Chants for Friday evening (<foreign xml:lang="gez">ዘዐርብ፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="SaturdayM">
-                  <label>Chants for Saturday morning (<foreign xml:lang="gez">ዘቀዳሚት፡ ሰንበት፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="SaturdayE">
-                  <label>Chants for Saturday evening (<foreign xml:lang="gez">ዘቀዳሚት፡ ሰንበት፡</foreign>)</label>
-               </div>
-               <div type="textpart" xml:id="Sunday">
-                  <label>Chants for Sunday evening</label>
-               </div>
-            </div>
+         </t:div>
+         <t:div type="edition" xml:id="div2LIT3186Meeraf">
+            <t:div type="textpart" xml:id="Feasts">
+               <t:label>Chants for the office for the vigils and for selected holy days (<t:foreign xml:lang="gez">ዋዜማ፡ ዘሰናበት፡ ወዘበዓላት።</t:foreign>)</t:label>
+               <t:div type="textpart" xml:id="JohnTheBaptistVigil">
+                  <t:label>Hymn for the vigil of the feast of John the Baptist</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="JohnTheBaptist">
+                  <t:label>Hymn for the feast of John the Baptist (<t:foreign xml:lang="gez">ዘዮሐንስ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Fruits">
+                  <t:label>Hymn for the feast of the Fruits (<t:foreign xml:lang="gez">ዘፍሬ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Cross">
+                  <t:label>Hymn for the feast of the Cross (<t:foreign xml:lang="gez">ዘመስቀል፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Flowers">
+                  <t:label>Hymn for the feast of the Flowers (<t:foreign xml:lang="gez">ዘጽጌ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="FourBeasts">
+                  <t:label>Hymn for the feast of the Four Beasts (<t:foreign xml:lang="gez">ዘ፬እንስሳ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Angels">
+                  <t:label>Hymn for the feast of St Michael and the Angels (<t:foreign xml:lang="gez">ዘመላእክት፡ ወዘሚካኤል፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="HeavenlyPriests">
+                  <t:label>Hymn for the feast of the Heavenly Priests (<t:foreign xml:lang="gez">ዘካህናት፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Righteous1">
+                  <t:label>Hymn for the feast of the Righteous (<t:foreign xml:lang="gez">ዘጻድቃን፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Martyrs">
+                  <t:label>Hymn for the feast of the Martyrs (<t:foreign xml:lang="gez">ዘሰማዕት፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Preach">
+                  <t:label>Hymn for the preaching (<t:foreign xml:lang="gez">ዘስብከት፡</t:foreign>), for the first Sunday of Advent</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Light">
+                  <t:label>Hymn for the feast of the Light (<t:foreign xml:lang="gez">ዘብርሃን፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Shepherd">
+                  <t:label>Hymn for the feast of the Shepherd (<t:foreign xml:lang="gez">ዘኖላዊ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Christmas">
+                  <t:label>Hymn for Christmas (<t:foreign xml:lang="gez">ዘልደት፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="BaptismHymn">
+                  <t:label>Hymn for the feast of Baptism (<t:foreign xml:lang="gez">ዘጥምቀት፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Fast">
+                  <t:label>Hymn for the Beginning of the Fast (<t:foreign xml:lang="gez">ዘቀበላ፡ [ጾም፡]</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="HolySunday">
+                  <t:label>Hymn for the Holy Sunday (<t:foreign xml:lang="gez">ዘቅድስት፡</t:foreign>), i.e. the second of Lent</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Temple">
+                  <t:label>Hymn for the Sunday of the Temple (<t:foreign xml:lang="gez">ዘምኵራብ፡</t:foreign>), i.e. the third of Lent</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Paralytic">
+                  <t:label>Hymn for the Sunday of the Paralytic (<t:foreign xml:lang="gez">ዘመፃጕዕ፡</t:foreign>), i.e. the fourth of Lent</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="MountOfOlives">
+                  <t:label>Hymn for the Sunday of the Mount of Olives (<t:foreign xml:lang="gez">ዘደብረ፡ ዘይት፡</t:foreign>), i.e. the fifth of Lent</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="GoodServantNicodemus">
+                  <t:label>Hymn for the Sunday of the Good Servant and Nicodemus (<t:foreign xml:lang="gez">ዘገብር፡ ኄር፡ ወዘኒቆዲሞስ፡</t:foreign>), i.e. the sixth and seventh Sundays of Lent</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Palm">
+                  <t:label>Hymn for the Palm Sunday (<t:foreign xml:lang="gez">ዘሆሳዕና፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Resurrection">
+                  <t:label>Hymn for the feast of Resurrection (<t:foreign xml:lang="gez">ዘትንሣኤ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="BirthOfMary">
+                  <t:label>Hymn for the feast of the Birth of Mary (<t:foreign xml:lang="gez">ዘልደታ [ለማርያም]፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="AscensionDay">
+                  <t:label>Hymn for the Ascension Day (<t:foreign xml:lang="gez">ዘዕርገት፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Paraclete">
+                  <t:label>Hymn for the feast of the Paraclete (<t:foreign xml:lang="gez">ዘጰራቅሊጦስ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Apostles">
+                  <t:label>Hymn for the feast of the Apostles (<t:foreign xml:lang="gez">ዘሐዋርያት፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Winter">
+                  <t:label>Hymn for the feast of winter (<t:foreign xml:lang="gez">ዘክረምት፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Cyriacus">
+                  <t:label>Hymn for the feast of St Cyriacus (<t:foreign xml:lang="gez">ዘቂርቆስ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="AbbaSalama">
+                  <t:label>Hymn for the feast of ʾAbbā Salāmā (<t:foreign xml:lang="gez">ዘአባ፡ ሰላማ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Women">
+                  <t:label>Hymn for the feast of the Women (<t:foreign xml:lang="gez">ዘአንስት፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Congregation">
+                  <t:label>Hymn for the feast of the congregation on Mount Tabor (<t:foreign xml:lang="gez">ዘማኅበር፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Firstborn">
+                  <t:label>Hymn for the feast of the firstborn </t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Transfiguration">
+                  <t:label>Hymn for the feast of the Transfiguration on Mount Tabor (<t:foreign xml:lang="gez">ዘደብረ፡ ታቦር፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="DeathOfMary">
+                  <t:label>Hymn for the feast of the Death of Mary (<t:foreign xml:lang="gez">ዘፍልሰታ፡ [ለማርያም፡]</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Virgins">
+                  <t:label>Hymn for the feast of the Virgins (<t:foreign xml:lang="gez">ዘማርያም፡ ወደናግል፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Abraham">
+                  <t:label>Hymn for the feast of Abreham (<t:foreign xml:lang="gez">ዘአብርሃም፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Sabbath">
+                  <t:label>Hymn for the sabbaths and the common feasts (<t:foreign xml:lang="gez">ዘሰንበት፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Christmas2">
+                  <t:label>Hymn for the vigil of Christmas (<t:foreign xml:lang="gez">ጌና፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Righteous2">
+                  <t:label>Hymn for the feast of the Righteous</t:label>
+               </t:div>
+            </t:div>
+            <t:div type="textpart" xml:id="Weekdays">
+               <t:label>Chants for the office for the vigils of the weekdays (<t:foreign xml:lang="gez">ዋዜማ፡ ዘዘወትር።</t:foreign>)</t:label>
+               <t:div type="textpart" xml:id="Monday">
+                  <t:label>Chants for Monday evening (<t:foreign xml:lang="gez">ዘሰኑይ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Tuesday">
+                  <t:label>Chants for Tuesday evening (<t:foreign xml:lang="gez">ዘሠሉስ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Wednesday">
+                  <t:label>Chants for Wednesday evening (<t:foreign xml:lang="gez">ዘረቡዕ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Thursday">
+                  <t:label>Chants for Thursday evening (<t:foreign xml:lang="gez">ዘኀኑስ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Friday">
+                  <t:label>Chants for Friday evening (<t:foreign xml:lang="gez">ዘዐርብ፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="SaturdayM">
+                  <t:label>Chants for Saturday morning (<t:foreign xml:lang="gez">ዘቀዳሚት፡ ሰንበት፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="SaturdayE">
+                  <t:label>Chants for Saturday evening (<t:foreign xml:lang="gez">ዘቀዳሚት፡ ሰንበት፡</t:foreign>)</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="Sunday">
+                  <t:label>Chants for Sunday evening</t:label>
+               </t:div>
+            </t:div>
 
-            <div type="textpart" xml:id="Mastabeqwe">
-               <label>
-                  <foreign xml:lang="gez">ዘዘወትር፡ ዕዝል፡ መስተብቍዕ፡</foreign>
-               </label>
-            </div>
-            <div type="textpart" xml:id="MawaddesS" corresp="https://betamasaheft.eu/LIT1989mawadd">
-               <label>Chants for the office of Sundays <foreign xml:lang="gez">መወድስ፡</foreign>
-               </label>
-            </div>
-            <div type="textpart" xml:id="Kestat" corresp="https://betamasaheft.eu/LIT1714Kestat">
-               <label>Chants of the Revelation of ʾaryām <foreign xml:lang="gez">ክሥተት፡ ዘአርያም፡</foreign>
-               </label>
-            </div>
-            <div type="textpart" xml:id="Sebhat" corresp="https://betamasaheft.eu/LIT2301Sebhat">
-               <label>Chants for the office of the Morning Praise <foreign xml:lang="gez">ስብሐተ፡ ነግህ፡</foreign>
-               </label>
-            </div>
+            <t:div type="textpart" xml:id="Mastabeqwe">
+               <t:label>
+                  <t:foreign xml:lang="gez">ዘዘወትር፡ ዕዝል፡ መስተብቍዕ፡</t:foreign>
+               </t:label>
+            </t:div>
+            <t:div type="textpart" xml:id="MawaddesS" corresp="https://betamasaheft.eu/LIT1989mawadd">
+               <t:label>Chants for the office of Sundays <t:foreign xml:lang="gez">መወድስ፡</t:foreign>
+               </t:label>
+            </t:div>
+            <t:div type="textpart" xml:id="Kestat" corresp="https://betamasaheft.eu/LIT1714Kestat">
+               <t:label>Chants of the Revelation of ʾaryām <t:foreign xml:lang="gez">ክሥተት፡ ዘአርያም፡</t:foreign>
+               </t:label>
+            </t:div>
+            <t:div type="textpart" xml:id="Sebhat" corresp="https://betamasaheft.eu/LIT2301Sebhat">
+               <t:label>Chants for the office of the Morning Praise <t:foreign xml:lang="gez">ስብሐተ፡ ነግህ፡</t:foreign>
+               </t:label>
+            </t:div>
 
-            <div type="textpart" xml:id="Lent">
-               <label>Chants for the office of Lent <foreign xml:lang="gez">ዘመዋዕለ፡ አጽዋም፡</foreign></label>
-               <div type="textpart" xml:id="FirstWeekLent">
-                  <label>Chants for the first week of Lent (of Moses)</label>
-                  <div type="textpart" xml:id="FirstWeekMo">
-                     <label>Chant for the first Monday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="FirstWeekTu">
-                     <label>Chant for the first Tuesday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="FirstWeekWe">
-                     <label>Chant for the first Wednseday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="FirstWeekTh">
-                     <label>Chant for the first Thursday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="FirstWeekFr">
-                     <label>Chant for the first Friday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="FirstWeekSa">
-                     <label>Chant for the first Saturday of Lent</label>
-                  </div>
-               </div>
-               <div type="textpart" xml:id="SecondWeekLent">
-                  <label>Chants for the second week of Lent (of the Holy [Day])</label>
-                  <div type="textpart" xml:id="SecondWeekMo">
-                     <label>Chant for the second Monday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="SecondWeekTu">
-                     <label>Chant for the second Tuesday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="SecondWeekWe">
-                     <label>Chant for the second Wednseday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="SecondWeekTh">
-                     <label>Chant for the second Thursday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="SecondWeekFr">
-                     <label>Chant for the second Friday of Lent</label>
-                  </div>
-               </div>
-               <div type="textpart" xml:id="ThirdWeekLent">
-                  <label>Chants for the third week of Lent (of the Temple)</label>
-                  <div type="textpart" xml:id="ThirdWeekMo">
-                     <label>Chant for the third Monday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="ThirdWeekTu">
-                     <label>Chant for the third Tuesday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="ThirdWeekWe">
-                     <label>Chant for the third Wednseday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="ThirdWeekTh">
-                     <label>Chant for the third Thursday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="ThirdWeekFr">
-                     <label>Chant for the third Friday of Lent</label>
-                  </div>
-               </div>
-               <div type="textpart" xml:id="FourthWeekLent">
-                  <label>Chants for the fourth week of Lent (of the Paralytic)</label>
-                  <div type="textpart" xml:id="FourthWeekMo">
-                     <label>Chant for the fourth Monday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="FourthWeekTu">
-                     <label>Chant for the fourth Tuesday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="FourthWeekWe">
-                     <label>Chant for the fourth Wednseday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="FourthWeekTh">
-                     <label>Chant for the fourth Thursday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="FourthWeekFr">
-                     <label>Chant for the fourth Friday of Lent</label>
-                  </div>
-               </div>
-               <div type="textpart" xml:id="FifthWeekLent">
-                  <label>Chants for the fifth week of Lent (of Mount of Olives)</label>
-                  <div type="textpart" xml:id="FifthWeekMo">
-                     <label>Chant for the fifth Monday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="FifthWeekTu">
-                     <label>Chant for the fifth Tuesday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="FifthWeekWe">
-                     <label>Chant for the fifth Wednseday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="FifthWeekTh">
-                     <label>Chant for the fifth Thursday of Lent</label>
-                  </div>
-                  <div type="textpart" xml:id="FifthWeekFr">
-                     <label>Chant for the fifth Friday of Lent</label>
-                  </div>
-               </div>
-               <div type="textpart" xml:id="SixthWeekLent">
-                  <label>Chants for the sixth week of Lent (of the Good Servant)</label>
-                  <div type="textpart" xml:id="SixthWeekMo">
-                     <label>Chant for the sixth Monday of Lent</label>
-                  </div>
-               </div>
-               <div type="textpart" xml:id="SeventhWeekLent">
-                  <label>Chants for the seventh week of Lent (of Nicodemus)</label>
-                  <div type="textpart" xml:id="SeventhWeekMo">
-                     <label>Chant for the seventh Monday of Lent</label>
-                  </div>
-               </div>
-            </div>
-            <div type="textpart" xml:id="Mehella">
-               <label>Chants for the office of Rogation<foreign xml:lang="gez">ምዕራፍ፡ ዘአርእስት፡ ምህል፡ በምሉእ፡ ወበጐደሎ።</foreign>
-               </label>
-               <div type="textpart" xml:id="MehellaThird">
-                  <label>Chants of Rogation for the third hour</label>
-               </div>
-               <div type="textpart" xml:id="MehellaSixth">
-                  <label>Chants of Rogation for the sixth hour</label>
-               </div>
-               <div type="textpart" xml:id="MehellaNinth">
-                  <label>Chants of Rogation for the ninth hour</label>
-               </div>
-            </div>
-            <div type="textpart" xml:id="Haleta">
-              <label>Table of melodic variations for the Hallelujah <foreign xml:lang="gez">አንቀጸ፡ ሃሌታ፡</foreign></label>
-            </div>
-         </div>
+            <t:div type="textpart" xml:id="Lent">
+               <t:label>Chants for the office of Lent <t:foreign xml:lang="gez">ዘመዋዕለ፡ አጽዋም፡</t:foreign></t:label>
+               <t:div type="textpart" xml:id="FirstWeekLent">
+                  <t:label>Chants for the first week of Lent (of Moses)</t:label>
+                  <t:div type="textpart" xml:id="FirstWeekMo">
+                     <t:label>Chant for the first Monday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="FirstWeekTu">
+                     <t:label>Chant for the first Tuesday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="FirstWeekWe">
+                     <t:label>Chant for the first Wednesday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="FirstWeekTh">
+                     <t:label>Chant for the first Thursday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="FirstWeekFr">
+                     <t:label>Chant for the first Friday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="FirstWeekSa">
+                     <t:label>Chant for the first Saturday of Lent</t:label>
+                  </t:div>
+               </t:div>
+               <t:div type="textpart" xml:id="SecondWeekLent">
+                  <t:label>Chants for the second week of Lent (of the Holy [Day])</t:label>
+                  <t:div type="textpart" xml:id="SecondWeekMo">
+                     <t:label>Chant for the second Monday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="SecondWeekTu">
+                     <t:label>Chant for the second Tuesday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="SecondWeekWe">
+                     <t:label>Chant for the second Wednesday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="SecondWeekTh">
+                     <t:label>Chant for the second Thursday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="SecondWeekFr">
+                     <t:label>Chant for the second Friday of Lent</t:label>
+                  </t:div>
+               </t:div>
+               <t:div type="textpart" xml:id="ThirdWeekLent">
+                  <t:label>Chants for the third week of Lent (of the Temple)</t:label>
+                  <t:div type="textpart" xml:id="ThirdWeekMo">
+                     <t:label>Chant for the third Monday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="ThirdWeekTu">
+                     <t:label>Chant for the third Tuesday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="ThirdWeekWe">
+                     <t:label>Chant for the third Wednesday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="ThirdWeekTh">
+                     <t:label>Chant for the third Thursday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="ThirdWeekFr">
+                     <t:label>Chant for the third Friday of Lent</t:label>
+                  </t:div>
+               </t:div>
+               <t:div type="textpart" xml:id="FourthWeekLent">
+                  <t:label>Chants for the fourth week of Lent (of the Paralytic)</t:label>
+                  <t:div type="textpart" xml:id="FourthWeekMo">
+                     <t:label>Chant for the fourth Monday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="FourthWeekTu">
+                     <t:label>Chant for the fourth Tuesday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="FourthWeekWe">
+                     <t:label>Chant for the fourth Wednesday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="FourthWeekTh">
+                     <t:label>Chant for the fourth Thursday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="FourthWeekFr">
+                     <t:label>Chant for the fourth Friday of Lent</t:label>
+                  </t:div>
+               </t:div>
+               <t:div type="textpart" xml:id="FifthWeekLent">
+                  <t:label>Chants for the fifth week of Lent (of Mount of Olives)</t:label>
+                  <t:div type="textpart" xml:id="FifthWeekMo">
+                     <t:label>Chant for the fifth Monday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="FifthWeekTu">
+                     <t:label>Chant for the fifth Tuesday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="FifthWeekWe">
+                     <t:label>Chant for the fifth Wednesday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="FifthWeekTh">
+                     <t:label>Chant for the fifth Thursday of Lent</t:label>
+                  </t:div>
+                  <t:div type="textpart" xml:id="FifthWeekFr">
+                     <t:label>Chant for the fifth Friday of Lent</t:label>
+                  </t:div>
+               </t:div>
+               <t:div type="textpart" xml:id="SixthWeekLent">
+                  <t:label>Chants for the sixth week of Lent (of the Good Servant)</t:label>
+                  <t:div type="textpart" xml:id="SixthWeekMo">
+                     <t:label>Chant for the sixth Monday of Lent</t:label>
+                  </t:div>
+               </t:div>
+               <t:div type="textpart" xml:id="SeventhWeekLent">
+                  <t:label>Chants for the seventh week of Lent (of Nicodemus)</t:label>
+                  <t:div type="textpart" xml:id="SeventhWeekMo">
+                     <t:label>Chant for the seventh Monday of Lent</t:label>
+                  </t:div>
+               </t:div>
+            </t:div>
+            <t:div type="textpart" xml:id="Mehella">
+               <t:label>Chants for the office of Rogation <t:foreign xml:lang="gez">ምዕራፍ፡ ዘአርእስት፡ ምህል፡ በምሉእ፡ ወበጐደሎ።</t:foreign>
+               </t:label>
+               <t:div type="textpart" xml:id="MehellaThird">
+                  <t:label>Chants of Rogation for the third hour</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="MehellaSixth">
+                  <t:label>Chants of Rogation for the sixth hour</t:label>
+               </t:div>
+               <t:div type="textpart" xml:id="MehellaNinth">
+                  <t:label>Chants of Rogation for the ninth hour</t:label>
+               </t:div>
+            </t:div>
+            <t:div type="textpart" xml:id="Haleta">
+              <t:label>Table of melodic variations for the Hallelujah <t:foreign xml:lang="gez">አንቀጸ፡ ሃሌታ፡</t:foreign></t:label>
+            </t:div>
+         </t:div>
          
-      </body>
-   </text></TEI>
+      </t:body>
+   </t:text></TEI>

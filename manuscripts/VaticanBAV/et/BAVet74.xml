@@ -3,9 +3,9 @@
          <titleStmt><title type="full">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 74</title>
             <title>Maṣḥafa gǝnzat</title>
             <editor key="MV" corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV">Massimo Villa</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>editor</resp><name>Massimo Villa</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="ed-MV"><resp>editor</resp><name>Massimo Villa</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
@@ -17,7 +17,7 @@
                </licence>
             </availability>
             <date>2017-04-06T12:30:37.552+02:00</date>
-         <date type="expanded">12.5.2025 at 13:57:19</date><date type="lastModified">6.4.2017</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BAVet74/main</idno><idno type="URI">https://betamasaheft.eu/BAVet74</idno><idno type="filename">BAVet74.xml</idno><idno type="ID">BAVet74</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 10:24:07</date><date type="lastModified">6.4.2017</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BAVet74/main</idno><idno type="URI">https://betamasaheft.eu/BAVet74</idno><idno type="filename">BAVet74.xml</idno><idno type="ID">BAVet74</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
 
@@ -152,7 +152,8 @@
                      </msItem>
                      <msItem xml:id="ms_i1.6">
                         <locus from="18r" to="19v"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Mary">Maṣḥafa gǝnzat (general record), Prayer of Our Lady Mary over all dead</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Mary">Maṣḥafa gǝnzat (general record): Prayer of Our Lady Mary over
+        all dead</title>
                         <incipit xml:lang="gez">
                            በስመ፡ አብ፡ <gap reason="omitted" extent="unknown" resp="bm:GrebTiss1935Codices"/> ጸሎተ፡ ልብስ፡ ዘይትገነዝ፡ ቦቱ፡ ጸሎተ፡ እግዝእትነ፡ ማርያም፡
                            ወላዲተ፡ አምላክ፡ መድኅን፡ ወሕይወት፨ ወላዲተ፡ ክርስቶስ፡ ወላዲተ፡ አማኑኤል፡ ወላዲተ፡ የማነ፡ አብ፡ ወላዲተ፡ ጽድቅ፡  <gap reason="omitted" extent="unknown" resp="bm:GrebTiss1935Codices"/>
@@ -176,7 +177,9 @@
                      </msItem>
                      <msItem xml:id="ms_i1.7">
                         <locus from="19v" to="36"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#FuneralProcession">Maṣḥafa gǝnzat (general record), Funeral procession (readings for the stations) (ዓቢይ፡ ፍትሐት፡ መጽሐፈ፡ ግንዘት፡ በእንተ፡ እለ፡ ኖሙ፡ ካህናት፡ ወዲያቆናት፡ እድ፡ ወአንስት።)</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#FuneralProcession">Maṣḥafa gǝnzat (general record): Funeral
+        procession (readings for the stations) (ዓቢይ፡ ፍትሐት፡ መጽሐፈ፡ ግንዘት፡ በእንተ፡ እለ፡ ኖሙ፡ ካህናት፡ ወዲያቆናት፡
+        እድ፡ ወአንስት።)</title>
                         <incipit xml:lang="gez">በስመ፡ አብ፡ <gap reason="omitted" extent="unknown" resp="bm:GrebTiss1935Codices"/> ዓቢይ፡ ፍትሐት፡
                         መጽሐፈ፡ ግንዘት፡ በእንተ፡ እለ፡ ኖሙ፡ ካህናት፡ ወዲያቆናት፡ እድ፡ ወአንስት። ወትብል፡ ዘዳዊት፡ ለለምዕራፉ፡ በበ፫፡ አርእየነ፡ እግዚኦ፡ ሣህለከ፡ ወሀበነ፡ አምላክነ፡
                            
@@ -192,43 +195,50 @@
                         <note/>
                         <msItem xml:id="ms_i1.7.1">
                            <locus from="25r" to="26v"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#FirstStation">Maṣḥafa gǝnzat (general record), Funeral procession: readings and prayers for the 1st station</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#FirstStation">Maṣḥafa gǝnzat (general record): Funeral procession:
+        readings and prayers for the 1st station</title>
                            <note/>
                         </msItem>
                         <msItem xml:id="ms_i1.7.2">
                            <locus from="26v" to="27v"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#SecondStation">Maṣḥafa gǝnzat (general record), Funeral procession: readings and prayers for the 2nd station</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#SecondStation">Maṣḥafa gǝnzat (general record): Funeral procession:
+        readings and prayers for the 2nd station</title>
                            <note/>
                         </msItem>
                         <msItem xml:id="ms_i1.7.3">
                            <locus from="27v" to="29r"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#ThirdStation">Maṣḥafa gǝnzat (general record), Funeral procession: readings and prayers for the 3rd station</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#ThirdStation">Maṣḥafa gǝnzat (general record): Funeral procession:
+        readings and prayers for the 3rd station</title>
                            <note/>
                         </msItem>
                         <msItem xml:id="ms_i1.7.4">
                            <locus from="29r" to="31v"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#FourthStation">Maṣḥafa gǝnzat (general record), Funeral procession: readings and prayers for the 4th station</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#FourthStation">Maṣḥafa gǝnzat (general record): Funeral procession:
+        readings and prayers for the 4th station</title>
                            <note/>
                         </msItem>
                         <msItem xml:id="ms_i1.7.5">
                            <locus from="31v" to="33r"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#FifthStation">Maṣḥafa gǝnzat (general record), Funeral procession: readings and prayers for the 5th station</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#FifthStation">Maṣḥafa gǝnzat (general record): Funeral procession:
+        readings and prayers for the 5th station</title>
                            <note/>
                         </msItem>
                         <msItem xml:id="ms_i1.7.6">
                            <locus from="33r" to="34v"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#SixthStation">Maṣḥafa gǝnzat (general record), Funeral procession: readings and prayers for the 6th station</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#SixthStation">Maṣḥafa gǝnzat (general record): Funeral procession:
+        readings and prayers for the 6th station</title>
                            <note/>
                         </msItem>
                         <msItem xml:id="ms_i1.7.7">
                            <locus from="34v" to="36r"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#SeventhStation">Maṣḥafa gǝnzat (general record), Funeral procession: readings and prayers for the 7th station</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#SeventhStation">Maṣḥafa gǝnzat (general record): Funeral
+        procession: readings and prayers for the 7th station</title>
                            <note/>
                         </msItem>
                      </msItem>
                      <msItem xml:id="ms_i1.8">
                         <locus from="36" to="40"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Priest">Maṣḥafa gǝnzat (general record),  Priest</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Priest">Maṣḥafa gǝnzat (general record):  Priest</title>
                         <incipit xml:lang="gez">
                            በስመ፡ አብ፡ <gap reason="omitted" extent="unknown" resp="bm:GrebTiss1935Codices"/> ግንዘት፡ ዘካህናት፡ ወትብል፡ እግዚአ፡ መሐረነ፤ ወጸሎተ፡
                            አኰቴት፡ 
@@ -238,20 +248,22 @@
                         </incipit>
                         <note>The text also includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3524Epistle">Epistle to the Hebrews</ref> 4:14-5:6; <ref type="work" corresp="https://betamasaheft.eu/LIT3507Epistle">First Epistle of Peter</ref> 2:5-6;
                            <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 20:15; an antiphon (<foreign xml:lang="gez">kǝśtat</foreign>) for the priests;
-                           <ref type="work" corresp="https://betamasaheft.eu/LIT1558Matthew">Wangel za-Mātewos</ref> 25:14-30; the prayer after the gospel and the prayer of the penance.</note>
+                           <ref type="work" corresp="https://betamasaheft.eu/LIT1558Matthew">Gospel of Matthew (Collection)</ref> 25:14-30; the prayer after the gospel and the prayer of the penance.</note>
                      </msItem>
                      <msItem xml:id="ms_i1.9">
                         <locus from="40" to="42v"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Deacons">Maṣḥafa gǝnzat (general record), Readings and prayers over deceased deacons</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Deacons">Maṣḥafa gǝnzat (general record): Readings and prayers over
+        deceased deacons</title>
                         <note>The text also includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3516Epistle">First Epistle to the Corinthians</ref> 15:23-39; <ref type="work" corresp="https://betamasaheft.eu/LIT3507Epistle">First Epistle of Peter</ref> 3:15 - 4:11;
                            <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 7:55 - 8:2; an antiphon (<foreign xml:lang="gez">kǝśtat</foreign>) for the deacons;
-                           <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John</ref> 12:20-26; the prayer after the gospel and the prayer of the penance.</note>
+                           <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John (Collection)</ref> 12:20-26; the prayer after the gospel and the prayer of the penance.</note>
                      </msItem>
                      <msItem xml:id="ms_i1.10">
                         <locus from="42v" to="46"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Monks">Maṣḥafa gǝnzat (general record), Readings and prayers over deceased monks</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Monks">Maṣḥafa gǝnzat (general record): Readings and prayers over
+        deceased monks</title>
                         <note>The text also includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3515Epistle">Epistle to the Romans</ref> 8:2-9; <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 7:55-8:2; antiphons
-                           (<foreign xml:lang="gez">kǝśtat</foreign>) for the monks and the righteous; <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John</ref> 11:1-45; the prayer after the gospel.
+                           (<foreign xml:lang="gez">kǝśtat</foreign>) for the monks and the righteous; <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John (Collection)</ref> 11:1-45; the prayer after the gospel.
                         </note>
                         <explicit type="subscriptio" xml:lang="gez">
                            <locus target="#45v"/>
@@ -270,14 +282,16 @@
                      </msItem>
                      <msItem xml:id="ms_i1.11">
                         <locus from="46" to="48"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Men">Maṣḥafa gǝnzat (general record), Readings and prayers over deceased adult and young men</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Men">Maṣḥafa gǝnzat (general record): Readings and prayers over
+        deceased adult and young men</title>
                         <note>The text also includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3516Epistle">First Epistle to the Corinthians</ref> 15:1-23; <ref type="work" corresp="https://betamasaheft.eu/LIT3508Epistle">Second Epistle of Peter</ref> 3:1-16; <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref>
-                           7:2-17; <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John</ref> (<q xml:lang="gez">ወአውሥአ፡ በል፡ ርኁቀ፡ መዓት፡ በል፡ ወኵሉ፡ ድርሳናት፡ በል፡</q>).
+                           7:2-17; <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John (Collection)</ref> (<q xml:lang="gez">ወአውሥአ፡ በል፡ ርኁቀ፡ መዓት፡ በል፡ ወኵሉ፡ ድርሳናት፡ በል፡</q>).
                         </note>
                      </msItem>
                      <msItem xml:id="ms_i1.12">
                         <locus from="48" to="49v"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Children">Maṣḥafa gǝnzat (general record), Readings and prayers over deceased children</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Children">Maṣḥafa gǝnzat (general record): Readings and prayers
+        over deceased children</title>
                         <note>The text also includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3522Epistle">First Epistle to the Thessalonians</ref> 4:13-18; <ref type="work" corresp="https://betamasaheft.eu/LIT3509Epistle">First Epistle of John</ref> 5:13-18;
                            <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 20:7-12; an antiphon (<foreign xml:lang="gez">kǝśtat</foreign>) for the children; <ref type="work" corresp="https://betamasaheft.eu/LIT1812GospelLuke">Wangel za-Luqās</ref>
                            7:11-16; the prayer after the gospel.
@@ -285,7 +299,8 @@
                      </msItem>
                      <msItem xml:id="ms_i1.13">
                         <locus from="49v" to="51"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Nuns">Maṣḥafa gǝnzat (general record), Readings and prayers over deceased nuns</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Nuns">Maṣḥafa gǝnzat (general record): Readings and prayers over
+        deceased nuns</title>
                         <note>The text also includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3525Epistle">First Epistle to Timothy</ref> 5:5-10; <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 9:36-42;
                            an antiphon (<foreign xml:lang="gez">kǝśtat</foreign>) for the nuns; <ref type="work" corresp="https://betamasaheft.eu/LIT1812GospelLuke">Wangel za-Luqās</ref> 10, 38-42; the prayer after the gospel.
                            The text concludes with the following admonition:
@@ -301,27 +316,30 @@
                      </msItem>
                      <msItem xml:id="ms_i1.14">
                         <locus from="51v" to="54v"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Women">Maṣḥafa gǝnzat (general record), Readings and prayers over deceased adult women</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Women">Maṣḥafa gǝnzat (general record): Readings and prayers over
+        deceased adult women</title>
                         <note>
                            The text also includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3516Epistle">First Epistle to the Corinthians</ref> 15:39-49; <ref type="work" corresp="https://betamasaheft.eu/LIT3507Epistle">First Epistle of Peter</ref> 3:1-7;
-                           <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 9:36-42; <ref type="work" corresp="https://betamasaheft.eu/LIT1558Matthew">Wangel za-Mātewos</ref> 26:6-13; the prayer after the gospel.
+                           <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 9:36-42; <ref type="work" corresp="https://betamasaheft.eu/LIT1558Matthew">Gospel of Matthew (Collection)</ref> 26:6-13; the prayer after the gospel.
                            The text is followed by a blessing to the women on <locus target="#54r"/>: <q xml:lang="gez">ቡራኬ፡ ዘአንስት፡ ንስእለከ፡ አበ፡ ልዑላን፡ መሐራ፡ እግዚኦ፡ ለአመትከ፡ እገሊት፡ ወደምራ፡
                            ምስለ፡ ማርያም፡ እምከ፡ ፀሐየ፡ ጽድቅ፡ ወማህደረ፡ መለኮት፨ ንስእለከ፡ እግዚኦ፡ አበ፡ ልዑላን፡ መሐራ፡ ለዓመትከ፡ እገሊት፡ በእንተ፡ ማርያም፡ ወላዲትከ፡ እንተ፡ ፆረተከ፡ በከርሣ፡ ወአግመረተከ፨</q>.</note>
                      </msItem>
                      <msItem xml:id="ms_i1.15">
                         <locus from="54v" to="55r"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#WomenLabour">Maṣḥafa gǝnzat (general record), Readings and prayers over deceased women in labour</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#WomenLabour">Maṣḥafa gǝnzat (general record): Readings and prayers
+        over deceased women in labour</title>
                         <note>
                            The text also includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT1672Isaiah">Book of Isaiah</ref> 26:9-19; <ref type="work" corresp="https://betamasaheft.eu/LIT3515Epistle">Epistle to the Romans</ref> 5:1-9; <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref>
-                           9:36-42; <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John</ref> 16:20-23.
+                           9:36-42; <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John (Collection)</ref> 16:20-23.
                         </note>
                      </msItem>
                      <msItem xml:id="ms_i1.16">
                         <locus from="55r" to="56v"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#YoungGirls">Maṣḥafa gǝnzat (general record), Readings and prayers over deceased young girls</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#YoungGirls">Maṣḥafa gǝnzat (general record): Readings and prayers
+        over deceased young girls</title>
                         <note>
                            The text also includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3516Epistle">First Epistle to the Corinthians</ref> 15:50-57; <ref type="work" corresp="https://betamasaheft.eu/LIT3509Epistle">First Epistle of John</ref> 3:11-18; <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref>
-                           9:36-42; <ref type="work" corresp="https://betamasaheft.eu/LIT1558Matthew">Wangel za-Mātewos</ref> 9:18-26.
+                           9:36-42; <ref type="work" corresp="https://betamasaheft.eu/LIT1558Matthew">Gospel of Matthew (Collection)</ref> 9:18-26.
                         </note>
                      </msItem>
                      <msItem xml:id="ms_i1.17">
@@ -503,7 +521,7 @@
                             ወለነፍሰ፡ ገብሩ፡ ዘመንፈስ፡ ቅዱስ፡ ውስተ፡ መካነ፡ ተድላ፡ ያንብሮ፡ እግዚአብሔር፡ ለዓለመ፡ ዓለም፤
                         </explicit>
                         <note>The name of the patron of the book <persName ref="https://betamasaheft.eu/PRS11542ZaManfasQ">Zamanfas Qǝddus</persName> is mentioned in
-                           the supplication formula at the end of the text. The text is followed by <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps118"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps118</span></ref> vv. 169-176, with the directive
+                           the supplication formula at the end of the text. The text is followed by <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps118">Psalms of David: Psalmus 118</ref> vv. 169-176, with the directive
                         <q xml:lang="gez">ወእምዝ፡ ትብል፡ ታው፡</q>.</note>
                      </msItem>
                      <msItem xml:id="ms_i1.21">
@@ -511,7 +529,7 @@
                         <title type="complete">Readings for the Mass</title>
                         <note>
                            The text includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3515Epistle">Epistle to the Romans</ref> 6:8-16; <ref type="work" corresp="https://betamasaheft.eu/LIT3507Epistle">First Epistle of Peter</ref> 1:22-25; <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref>
-                           2:29-33; <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John</ref> 6:35-40 (with the directive <q xml:lang="gez">በጊዜ፡ ቍርባን፡</q>).
+                           2:29-33; <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John (Collection)</ref> 6:35-40 (with the directive <q xml:lang="gez">በጊዜ፡ ቍርባን፡</q>).
                            After the gospel reading it is written: <q xml:lang="gez">ወእምድኅረ፡ ተመጥዎ፡ ቍርባን፡ ትወስድ፡ በድነ፡ ኀበ፡ መቃብር፡ እንዘ፡ ትብል፡ ታው፡ በዜማ፡</q>
                         </note>
                      </msItem>
@@ -553,48 +571,58 @@
                      </msItem>
                      <msItem xml:id="ms_i1.23">
                         <locus from="74r" to="75r"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Third">Maṣḥafa gǝnzat (general record), Reading for the 3rd day after burial</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Third">Maṣḥafa gǝnzat (general record): Reading for the 3rd day
+        after burial</title>
                         <note>The text includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3521Epistle">Epistle to the Colossians</ref> 3:1-9;  <ref type="work" corresp="https://betamasaheft.eu/LIT3507Epistle">First Epistle of Peter</ref> 1:19-21;
-                           <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 2:22-24; <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John</ref> 11:38-45.</note>
+                           <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 2:22-24; <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John (Collection)</ref> 11:38-45.</note>
                      </msItem>
                      <msItem xml:id="ms_i1.24">
                         <locus from="75r" to="76v"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Seventh">Maṣḥafa gǝnzat (general record), Reading for the 7th day after burial</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Seventh">Maṣḥafa gǝnzat (general record): Reading for the 7th day
+        after burial</title>
                         <note>The text includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3515Epistle">Epistle to the Romans</ref> 6:3-8;  <ref type="work" corresp="https://betamasaheft.eu/LIT3508Epistle">Second Epistle of Peter</ref> 3:8-12;
                            <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 23:1-11; <ref type="work" corresp="https://betamasaheft.eu/LIT1812GospelLuke">Wangel za-Luqās</ref> 20:27-37.</note>
                      </msItem>
                      <msItem xml:id="ms_i1.25">
                         <locus from="76v" to="77v"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Twelfth">Maṣḥafa gǝnzat (general record), Reading for the 12th day after burial</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Twelfth">Maṣḥafa gǝnzat (general record): Reading for the 12th day
+        after burial</title>
                         <note>The text includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3517Epistle">Second Epistle to the Corinthians</ref> 1:8-14;  <ref type="work" corresp="https://betamasaheft.eu/LIT3513Epistle">Epistle of Jude</ref> 14-19;
-                           <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 5:29-32; <ref type="work" corresp="https://betamasaheft.eu/LIT1882MarkGo">Wangel za-Mārqos</ref> 13:32-37.</note>
+                           <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 5:29-32; <ref type="work" corresp="https://betamasaheft.eu/LIT1882MarkGo">Gospel of Mark (Collection)</ref> 13:32-37.</note>
                      </msItem>
                      <msItem xml:id="ms_i1.26">
                         <locus from="77v" to="78"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Thirtieth">Maṣḥafa gǝnzat (general record), Reading for the 30th day after burial</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Thirtieth">Maṣḥafa gǝnzat (general record): Reading for the 30th
+        day after burial</title>
                         <note>The text includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3526Epistle">Second Epistle to Timothy</ref> 2:8-15;  <ref type="work" corresp="https://betamasaheft.eu/LIT3507Epistle">First Epistle of Peter</ref> 1:21-2:4;
-                           <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 10:40-46; <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John</ref> 6:37-59.</note>
+                           <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 10:40-46; <ref type="work" corresp="https://betamasaheft.eu/LIT1693John">Gospel of John (Collection)</ref> 6:37-59.</note>
                      </msItem>
                      <msItem xml:id="ms_i1.27">
                         <locus from="79" to="81"/>
                         <note>The text includes excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT3521Epistle">Epistle to the Colossians</ref> 1:12-22;  <ref type="work" corresp="https://betamasaheft.eu/LIT3507Epistle">First Epistle of Peter</ref> 1:3-9;
                            <ref type="work" corresp="https://betamasaheft.eu/LIT1019Actsof">Gǝbra ḥawāryāt</ref> 17:14-21; <ref type="work" corresp="https://betamasaheft.eu/LIT1812GospelLuke">Wangel za-Luqās</ref> 14:7-15.</note>
                         <msItem xml:id="ms_i1.27.1">
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Fourtieth">Maṣḥafa gǝnzat (general record), Reading for the 40th day after burial</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Fourtieth">Maṣḥafa gǝnzat (general record): Reading for the 40th
+        day after burial</title>
                         </msItem>
                         <msItem xml:id="ms_i1.27.2">
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Sixtieth">Maṣḥafa gǝnzat (general record), Reading for the 60th day after burial</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Sixtieth">Maṣḥafa gǝnzat (general record): Reading for the 60th day
+        after burial</title>
                         </msItem>
                         <msItem xml:id="ms_i1.27.3">
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#SixthMonth">Maṣḥafa gǝnzat (general record), Reading for the 6th month after burial</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#SixthMonth">Maṣḥafa gǝnzat (general record): Reading for the 6th
+        month after burial</title>
                         </msItem>
                         <msItem xml:id="ms_i1.27.4">
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Anniversary">Maṣḥafa gǝnzat (general record), Reading for the anniversary of the burial</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Anniversary">Maṣḥafa gǝnzat (general record): Reading for the
+        anniversary of the burial</title>
                         </msItem>
                      </msItem>
                      <msItem xml:id="ms_i1.28">
                         <locus from="81r" to="83v"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Peace">Maṣḥafa gǝnzat (general record), Prayer pronounced after the Gospel for those who died in the peace of God (ጸሎት፡ ድኅረ፡ ወንጌል፡ ዘይትነበብ፡ ላዕለ፡ ኵሎሙ፡ ሙታን፡ በሰላመ፡ እግዚአብሔር፡)</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Peace">Maṣḥafa gǝnzat (general record): Prayer pronounced after the
+        Gospel for those who died in the peace of God (ጸሎት፡ ድኅረ፡ ወንጌል፡ ዘይትነበብ፡ ላዕለ፡ ኵሎሙ፡ ሙታን፡ በሰላመ፡
+        እግዚአብሔር፡)</title>
                         <incipit xml:lang="gez">
                            በስመ፡ አብ፡ <gap reason="omitted" extent="unknown" resp="bm:GrebTiss1935Codices"/> ጸሎት፡ ድኅረ፡ ወንጌል፡ ዘይትነበብ፡ ላዕለ፡ ኵሎሙ፡ ሙታን፡
                            በሰላመ፡ እግዚአብሔር፡ አሜን፨ ረስየነ፡ ድልዋነ፡ ንክሥት፡ አፉነ፡ ከመ፡ ንሰብሕከ፡ በልብ፡ ንጹሕ፡ ወበልሳን፡ ዘኢያረምም፡ በእንተ፡ ነፍሰ፡ ገብርከ፡ ዘመንፈስ፡ ቅዱስ፡ እንዘ፡ ንብል፡ ስብሐት፡
@@ -608,7 +636,8 @@
                      </msItem>
                      <msItem xml:id="ms_i1.29">
                         <locus from="83v" to="84v"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Mamheran">Maṣḥafa gǝnzat (general record), Prayer pronounced by the mamhǝrān</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1931Mashaf#Mamheran">Maṣḥafa gǝnzat (general record): Prayer pronounced by the
+        mamhǝrān</title>
                         <incipit xml:lang="gez">
                            ጸሎት፡ ዘይብልዎ፡ 
                               <sic>መማህራን፡</sic>
@@ -722,14 +751,14 @@
                            እስመ፡ አልቦ፡ ኄር፡ ወጻድቅ፤ ወንጹሕ፡ ዘይትረከብ፡ ዘእንበሌከ፡ እግዚኦ፡ አድኅኖ፡ ለገብርከ፡ ዘመንፈስ፡ ቅዱስ። ለዓለመ፡ ዓለም፡ አሜን፨
                         </explicit>
                         <note>The name of the patron of the book <persName role="patron" ref="https://betamasaheft.eu/PRS11542ZaManfasQ">Zamanfas Qǝddus</persName> is mentioned in
-                           the supplication formula at the end of the text. The text is followed by an excerpt from <ref type="work" corresp="https://betamasaheft.eu/LIT1558Matthew">Wangel za-Mātewos</ref> 25:1-13.</note>
+                           the supplication formula at the end of the text. The text is followed by an excerpt from <ref type="work" corresp="https://betamasaheft.eu/LIT1558Matthew">Gospel of Matthew (Collection)</ref> 25:1-13.</note>
                      </msItem>
                      <msItem xml:id="ms_i1.36">
                         <locus from="93r" to="104"/>
                         <title type="complete">ጸሎተ፡ ዕጣን፡ ዘያነብቦ፡ ቀሲስ፡ ጊዜ፡ በዊኦቱ፡ ቤተ፡ መቅደስ፡ ወይብል፡ ቀዊሞ፡ አፍአ፡ እመንጦላዕት።</title>
                         <msItem xml:id="ms_i1.36.1">
                            <locus target="#93r"/>
-                           <title>Excerpt from <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps118"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps118</span></ref> 1-24.</title>
+                           <title>Excerpt from <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps118">Psalms of David: Psalmus 118</ref> 1-24.</title>
                         </msItem>
                         <msItem xml:id="ms_i1.36.2">
                            <locus from="93r" to="94v"/>
@@ -752,24 +781,24 @@
                         </msItem>
                         <msItem xml:id="ms_i1.36.4">
                            <locus from="95r" to="100v"/>
-                           <title>Excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps50"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps50</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps4"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps4</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps6"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps6</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps8"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps8</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps31"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps31</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps24"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps24</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps53"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps53</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps60"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps60</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps63"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps63</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps65"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps65</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps85"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps85</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps101"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps101</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps120"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps120</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps129"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps129</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps130"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps130</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps140"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps140</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps5"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps5</span></ref>
-                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps19"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps19</span></ref>, <ref type="work" corresp="https://betamasaheft.eu/LIT2265salota">The Prayer of Manasseh</ref>, <ref type="work" corresp="https://betamasaheft.eu/LIT1812GospelLuke">Wangel za-Luqās</ref> 1, 45-55.</title>
+                           <title>Excerpts from <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps50">Psalms of David: Psalmus 50</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps4">Psalms of David: Psalmus 4</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps6">Psalms of David: Psalmus 6</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps8">Psalms of David: Psalmus 8</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps31">Psalms of David: Psalmus 31</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps24">Psalms of David: Psalmus 24</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps53">Psalms of David: Psalmus 53</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps60">Psalms of David: Psalmus 60</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps63">Psalms of David: Psalmus 63</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps65">Psalms of David: Psalmus 65</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps85">Psalms of David: Psalmus 85</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps101">Psalms of David: Psalmus 101</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps120">Psalms of David: Psalmus 120</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps129">Psalms of David: Psalmus 129</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps130">Psalms of David: Psalmus 130</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps140">Psalms of David: Psalmus 140</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps5">Psalms of David: Psalmus 5</ref>
+                              <ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps19">Psalms of David: Psalmus 19</ref>, <ref type="work" corresp="https://betamasaheft.eu/LIT2265salota">The Prayer of Manasseh</ref>, <ref type="work" corresp="https://betamasaheft.eu/LIT1812GospelLuke">Wangel za-Luqās</ref> 1, 45-55.</title>
                         </msItem>
                         <msItem xml:id="ms_i1.36.5">
                            <locus from="100v" to="102v"/>
@@ -867,7 +896,7 @@
                         <msItem xml:id="ms_i1.37.1">
                            <locus from="104r" to="105r"/>
                            <title type="complete">Prayer for Sunday night (ዘእኁድ፡)</title>
-                           <note>The incipit is the same as <ref type="item" corresp="https://betamasaheft.eu/BAVet15#p1_i12"><span xmlns="" class="w3-tag w3-red">No item: BAVet15#p1_i12</span></ref> and <ref type="item" corresp="https://betamasaheft.eu/BAVet17#ms_i1"><span xmlns="" class="w3-tag w3-red">No item: BAVet17#ms_i1</span></ref>.</note>
+                           <note>The incipit is the same as <ref type="item" corresp="https://betamasaheft.eu/BAVet15#p1_i12">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 15: </ref> and <ref type="item" corresp="https://betamasaheft.eu/BAVet17#ms_i1">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 17: </ref>.</note>
                            <explicit xml:lang="gez">
                               ዘተወልደ፡ እማርያም፡ እምቅድስት፡ ድንግል፡ ዘእንበለ፡ ድካም፡ ወትምድር፡ ሐም፤ ወተሰቅለ፡ ወሞተ፡ በመዋዕለ፡ ጲላጦስ፡ ጴንጤናዊ፨ ወተንሥአ፨ በእለተ፡ ሰንበተ፡ ክርስቲያን፡ ቅድስት፡
                            </explicit>
@@ -878,7 +907,7 @@
                            <incipit xml:lang="gez">
                               ዘ፫<supplied reason="explanation">ሰዓ</supplied>ት፡ ተዘከር፡ እግዚኦ፡ ዘናበውዕ፡ ለከ፡ በዛቲ፡ ዕለት፡ መሥዋዕተ፡ ወቍርባነ፡ ወአኰቴተ፤
                            </incipit>
-                           <note>The explicit is the same as <ref type="item" corresp="https://betamasaheft.eu/BAVet17#ms_i1"><span xmlns="" class="w3-tag w3-red">No item: BAVet17#ms_i1</span></ref>.</note>
+                           <note>The explicit is the same as <ref type="item" corresp="https://betamasaheft.eu/BAVet17#ms_i1">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 17: </ref>.</note>
                         </msItem>
                         <msItem xml:id="ms_i1.37.3">
                            <locus target="#106r"/>
@@ -1045,7 +1074,7 @@
                            <dimensions type="outer" unit="mm">
                               <height>320</height>
                               <width>240</width>
-                           </dimensions>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="320" unit="mm"/><width quantity="240" unit="mm"/></dimensions>
                         </extent>
                         <foliation>
                         </foliation>
@@ -1135,7 +1164,7 @@
                         </supportDesc>
                      <layoutDesc>
                         <layout writtenLines="27">
-                        </layout>
+                        </layout><layout subtype="computed" type="catalogue"><writtenLines quantity="27"/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -1268,7 +1297,7 @@
                      <recordHist>
                         <source>
                            <listBibl type="catalogue">
-                              <bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Sylvain</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Grébaut</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Eugène</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Tisserant</t:surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><citedRange unit="page">261-283</citedRange></bibl>
+                              <bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><forename>Sylvain</forename><surname>Grébaut</surname></author><author><forename>Eugène</forename><surname>Tisserant</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note><citedRange unit="page">261-283</citedRange></bibl>
                            </listBibl>
                         </source>
                      </recordHist>
@@ -1284,14 +1313,14 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:particDesc>
             <t:listPerson>
@@ -1318,7 +1347,7 @@
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#MV" when="2017-04-06"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
+         <change when="2017-04-06" who="#MV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
       </t:revisionDesc>
   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
 

@@ -3,9 +3,9 @@
          <titleStmt><title type="full">Zenā Mārqos</title>
             <title>Zenā Mārqos</title>
             <editor key="SG" corresp="https://betamasaheft.eu/team.html#SG" xml:id="SG">Solomon Gebreyes</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <author/>
-         <respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#SG" xml:id="ed-SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -16,7 +16,7 @@
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
-         <date type="expanded">2022-02-08T21:56:43.177+01:00</date><date type="lastModified">27.3.2019</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS10708ZenaMa</idno><idno type="URI">https://betamasaheft.eu/PRS10708ZenaMa</idno><idno type="filename">PRS10708ZenaMa.xml</idno><idno type="ID">PRS10708ZenaMa</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:49:22</date><date type="lastModified">27.3.2019</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS10708ZenaMa/main</idno><idno type="URI">https://betamasaheft.eu/PRS10708ZenaMa</idno><idno type="filename">PRS10708ZenaMa.xml</idno><idno type="ID">PRS10708ZenaMa</idno></publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
@@ -27,63 +27,63 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
-         <textClass>
-            <keywords>
-               <term key="saint" ana="#saint"/>
-            </keywords>
-         </textClass>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="saint" ana="#saint"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-04-28">Pietro Maria Liuzzo: batch updated according to requirements and issues.</change>
-         <change who="#PL" when="2016-03-21">Pietro Maria Liuzzo:  Created file from
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-04-28" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->batch updated according to requirements and issues.</change>
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
                                                   google spreadsheet </change>
-         <change who="#ES" when="2016-02-09">Eugenia Sokolinski: CREATED: person</change>
-         <change who="#SG" when="2016-09-23">Solomon Gebreyes: Complete record</change>
-         <change who="#SG" when="2017-02-14">Solomon Gebreyes: various corrcetions</change>
-         <change who="#PL" when="2019-03-27">Pietro Maria Liuzzo: removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
-      </revisionDesc>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: person</change>
+         <change when="2016-09-23" who="#SG"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Complete record</change>
+         <change when="2017-02-14" who="#SG"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->various corrcetions</change>
+         <change when="2019-03-27" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="betmas:ordainedBy" ref="betmas:ordainedBy" active="https://betamasaheft.eu/PRS10708ZenaMa" passive="https://betamasaheft.eu/PRS8032Qerellos"/>
                <relation name="snap:AllianceWith" ref="http://data.snapdrgn.net/ontology/snap#AllianceWith" active="https://betamasaheft.eu/PRS10708ZenaMa" passive="https://betamasaheft.eu/PRS8491Samuel"/>
                <relation name="snap:AllianceWith" ref="http://data.snapdrgn.net/ontology/snap#AllianceWith" active="https://betamasaheft.eu/PRS10708ZenaMa" passive="https://betamasaheft.eu/PRS3934Ewostate"/>
                <relation name="ecrm:P129i_is_subject_of" ref="http://erlangen-crm.org/current/P129i_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/subject_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/PRS10708ZenaMa" passive="https://betamasaheft.eu/LIT1530GadlaZ"/>
-            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPerson>
-            <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birth">ዜና፡ ማርቆስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Zenā Mārqos</persName>
-               <persName>
-                  <roleName type="title">ʾabbā</roleName>
-               </persName>
-               <nationality type="Ethiopia"/>
-               <faith type="EOTC"/>
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPerson>
+            <t:person sex="1">
+               <t:persName xml:lang="gez" xml:id="n1" type="birth">ዜና፡ ማርቆስ፡</t:persName>
+               <t:persName xml:lang="gez" corresp="#n1" type="normalized">Zenā Mārqos</t:persName>
+               <t:persName>
+                  <t:roleName type="title">ʾabbā</t:roleName>
+               </t:persName>
+               <t:nationality type="Ethiopia"/>
+               <t:faith type="EOTC"/>
                
-               <birth>He was born in <placeName ref="https://betamasaheft.eu/LOC4865Morat">Morāt</placeName>
-               </birth>
-               <floruit notBefore="1300" notAfter="1400">He was a 14th century Ethiopian saintly monk and a founder of the monastery of <placeName ref="https://betamasaheft.eu/LOC2249DabraB">Dabra Bǝśrāt</placeName>. 
-                  He is said to have subsequently evangelized <placeName ref="https://betamasaheft.eu/LOC1095Adal">ʾAdāl</placeName>, <placeName ref="https://betamasaheft.eu/LOC3549Gojjam">Goǧǧām</placeName>
-                  and other pagan areas of the 14th century. He visited the churches of <placeName ref="https://betamasaheft.eu/LOC1311AksumS">ʾAksum Ṣǝyon</placeName> and 
-                  <placeName ref="https://betamasaheft.eu/LOC4243Laliba">Lālibalā</placeName>.
-               </floruit>
-            </person>  
+               <t:birth>He was born in <t:placeName ref="https://betamasaheft.eu/LOC4865Morat">Morāt</t:placeName>
+               </t:birth>
+               <t:floruit notBefore="1300" notAfter="1400">He was a 14th century Ethiopian saintly monk and a founder of the monastery of <t:placeName ref="https://betamasaheft.eu/LOC2249DabraB">Dabra Bǝśrāt</t:placeName>. 
+                  He is said to have subsequently evangelized <t:placeName ref="https://betamasaheft.eu/LOC1095Adal">ʾAdāl</t:placeName>, <t:placeName ref="https://betamasaheft.eu/LOC3549Gojjam">Goǧǧām</t:placeName>
+                  and other pagan areas of the 14th century. He visited the churches of <t:placeName ref="https://betamasaheft.eu/LOC1311AksumS">ʾAksum Ṣǝyon</t:placeName> and 
+                  <t:placeName ref="https://betamasaheft.eu/LOC4243Laliba">Lālibalā</t:placeName>.
+               </t:floruit>
+            </t:person>  
             
-         </listPerson>
-         <listBibl type="secondary">
-            <bibl corresp="http://zotero.org/groups/358366/items/JE9IF9TS"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Cerulli1962ZenaMarqos"/><title level="a">Gli atti di Zēnā Mārqos, monaco etiope del sec. XIV</title><title level="m">Collectanea Vaticana Anselmi M. Card. Albareda a Bibliotheca Apostolica edita</title><title level="s">Studi e Testi</title><author><forename>Enrico</forename><surname>Cerulli</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>Biblioteca Apostolica Vaticana</publisher><date>1962</date><series><title level="s">Studi e Testi</title><biblScope unit="volume">219</biblScope></series><biblScope unit="page">191-212</biblScope><biblScope unit="volume">219</biblScope><note type="tags"><note type="tag">Hagiography, Ethiopian</note><note type="tag">bm:Cerulli1962ZenaMarqos</note></note><note type="tag">Hagiography, Ethiopian</note><note type="tag">bm:Cerulli1962ZenaMarqos</note></bibl>
-            <bibl corresp="http://zotero.org/groups/358366/items/E929T49W"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kaplan1984Monastic"/><title level="m">The monastic holy man and the christianization of early Solomonic Ethiopia</title><title level="s">Studien zur Kulturkunde</title><author><forename>Steven</forename><surname>Kaplan</surname></author><pubPlace>Wiesbaden</pubPlace><publisher>Steiner</publisher><date>1984</date><series><title level="s">Studien zur Kulturkunde</title><biblScope unit="volume">73</biblScope></series><biblScope unit="volume">73</biblScope><note type="tags"><note type="tag">bm:Kaplan1984Monastic</note></note><note type="tag">bm:Kaplan1984Monastic</note><citedRange unit="page">47, 92, 130, 92</citedRange></bibl>
-            <bibl corresp="http://zotero.org/groups/358366/items/ENRGBB5X"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Raineri2014ZenaMarqos"/><title level="a">Zena Marqos</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Osvaldo</forename><surname>Raineri</surname></author><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2014</date><biblScope unit="volume">V</biblScope><biblScope unit="page">178a-179a</biblScope><note type="tags"><note type="tag">bm:Raineri2014ZenaMarqos</note></note><note type="tag">bm:Raineri2014ZenaMarqos</note></bibl>
-         </listBibl>
-      </body>
-   </text></TEI>
+         </t:listPerson>
+         <t:listBibl type="secondary">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/JE9IF9TS"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Cerulli1962ZenaMarqos"/><title level="a">Gli atti di Zēnā Mārqos, monaco etiope del sec. XIV</title><title level="m">Collectanea Vaticana Anselmi M. Card. Albareda a Bibliotheca Apostolica edita</title><title level="s">Studi e Testi</title><author><forename>Enrico</forename><surname>Cerulli</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>Biblioteca Apostolica Vaticana</publisher><date>1962</date><series><title level="s">Studi e Testi</title><biblScope unit="volume">219</biblScope></series><biblScope unit="page">191-212</biblScope><biblScope unit="volume">219</biblScope><note type="tags"><note type="tag">Hagiography, Ethiopian</note><note type="tag">bm:Cerulli1962ZenaMarqos</note></note><note type="tag">Hagiography, Ethiopian</note><note type="tag">bm:Cerulli1962ZenaMarqos</note></t:bibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/E929T49W"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kaplan1984Monastic"/><title level="m">The Monastic Holy Man and the Christianization of Early Solomonic Ethiopia</title><title level="s">Studien zur Kulturkunde</title><author><forename>Steven</forename><surname>Kaplan</surname></author><pubPlace>Wiesbaden</pubPlace><publisher>Franz Steiner Verlag</publisher><date>1984</date><series><title level="s">Studien zur Kulturkunde</title><biblScope unit="volume">73</biblScope></series><biblScope unit="volume">73</biblScope><note type="url">https://archive.org/details/monasticholymanc0000kapl/page/n5/mode/2up</note><note type="tags"><note type="tag">bm:Kaplan1984Monastic</note></note><note type="tag">bm:Kaplan1984Monastic</note><t:citedRange unit="page">47, 92, 130, 92</t:citedRange></t:bibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/ENRGBB5X"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Raineri2014ZenaMarqos"/><title level="a">Zena Marqos</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Osvaldo</forename><surname>Raineri</surname></author><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2014</date><biblScope unit="volume">V</biblScope><biblScope unit="page">178a-179a</biblScope><note type="tags"><note type="tag">bm:Raineri2014ZenaMarqos</note></note><note type="tag">bm:Raineri2014ZenaMarqos</note></t:bibl>
+         </t:listBibl>
+      </t:body>
+   </t:text></TEI>

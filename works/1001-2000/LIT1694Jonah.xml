@@ -3,21 +3,24 @@
          <titleStmt><title type="full">Book of Jonah</title>
             <title xml:id="t1">Book of Jonah</title>
             <title type="short">Jon.</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <editionStmt>            
+            <p>The text provided in this record has been digitized from modern Vulgata printed editions and converted to XML by the Bm team. For the version digitized from a critical edition visit also <ref target="https://www.tau.ac.il/~hacohen/Biblia.html">https://www.tau.ac.il/~hacohen/Biblia.html</ref>.</p>
+         </editionStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p>
+                 
                 This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </p>
+                Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
-         <date type="expanded">5.6.2025 at 14:13:01</date><date type="lastModified">5.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1694Jonah/main</idno><idno type="URI">https://betamasaheft.eu/LIT1694Jonah</idno><idno type="filename">LIT1694Jonah.xml</idno><idno type="ID">LIT1694Jonah</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:15:44</date><date type="lastModified">5.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1694Jonah/main</idno><idno type="URI">https://betamasaheft.eu/LIT1694Jonah</idno><idno type="filename">LIT1694Jonah.xml</idno><idno type="ID">LIT1694Jonah</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -25,7 +28,7 @@
             <listWit>
                <witness corresp="https://betamasaheft.eu/BLorient501"><idno>BL Oriental 501</idno></witness>
                <witness corresp="https://betamasaheft.eu/BLadd16189#ms_i6.6"><idno>BL Additional 16189</idno></witness>
-               <witness corresp="https://betamasaheft.eu/BLadd24991"/>
+               <witness corresp="https://betamasaheft.eu/BLadd24991"><idno>BL Additional 24991</idno></witness>
                <witness corresp="https://betamasaheft.eu/BNabb35"/>
                <witness corresp="https://betamasaheft.eu/BNabb55"/>
                <witness corresp="https://betamasaheft.eu/BerOr986"/>
@@ -36,163 +39,163 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="chapter" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item></list></desc><citeStructure unit="l" match="l" use="l"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
-         <textClass>
-            <keywords>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="Bible" ana="#Bible"/>
-               <term key="OldTestament" ana="#OldTestament"/>
-            </keywords>
-         </textClass>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="chapter" use="@n"><citeStructure match="t:l" unit="t:l" use="@n"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item></list></desc></citeStructure><desc><list><item>1</item><item>2</item><item>3</item><item>4</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage>
+            <t:language ident="en">English</t:language>
+            <t:language ident="gez">Gǝʿǝz</t:language>
+         </t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Bible" ana="#Bible"/>
+               <t:term key="OldTestament" ana="#OldTestament"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
-         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
-         <change who="#ES" when="2017-02-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added relation keywords</change>
-         <change who="#ES" when="2025-06-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
-      </revisionDesc>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change when="2017-02-14" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added relation keywords</change>
+         <change when="2025-06-05" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
             <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT1694Jonah" passive="https://betamasaheft.eu/LIT1315Dodeka"/>
-         </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
+         </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
          
-         <div type="bibliography">
-            <listBibl type="editions">
-               <bibl corresp="http://zotero.org/groups/358366/items/R28K3HG9"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Loefgren1930Jonanah"/><title level="m">Das äthiopische Dodekapropheton. Jona, Nahum, Habakuk, Zephanja, Haggai, Sacharja und Maleachi. Unter Zugrundelegung des Oxforder MS. Huntington 625 nach mehreren Handschriften</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Oscar</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Löfgren</t:surname></author><pubPlace>Uppsala</pubPlace><publisher>Almqvist &amp; Wiksells Boktryckeri</publisher><date>1930</date><citedRange unit="page">3-9</citedRange></bibl>
-            </listBibl>
-         </div>
-         <div type="edition" xml:lang="gez">
-            <note>Text of the EOTC printed Bible</note>
-            <div type="textpart" subtype="chapter" n="1" xml:id="chapter1">
-               <label>Chapter 1</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=1"/>ወኮነ፡ ቃለ፡ እግዚአብሔር፡ ኀበ፡ ዩናስ፡ ወልደ፡ አማቴ፡ ወይቤሎ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=2"/>ተንስእ፡ ወሖር፡ ኀበ፡ ነነዌ፡ ሀገር፡ ዓባይ፡ ወስብክ፡ ሎሙ፡ እስመ፡ ዐርገ፡ ገዓረ፡ እከዩሙ፡ ኀቤየ።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=3"/>ወሖረ፡ ዩናስ፡ ወተኀጥአ፡ ብሔር፡ ተርሴስ፡ እምገጸ፡ እግዚአብሄር፡ ወወረደ፡ ሀገር፡ ኢዩጴ፡ ወረከበ፡ ሐመረ፡ ዜነግድ፡ ብሔር፡ ተርስስ፡ ዋታዓሳ፡ ሐመረ፡ ርገ፡ ውስቴቱ፡ ይነግድ፡ መስሌሆሙ፡ ተርሴስ፡ እምገጸ፡ እግዚአብሔር።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=4"/>ወአምጽአ፡ እግዚአብሔር፡ ነፋሰ፡ ዓቢየ፡ ውስተ፡ ባሕር፡ ወዐብየ፡ ማዕበለ፡ ባሕር፡ ወተመነደበ፡ ሐመሮሙ፡ ከመ፡ ይሰበር።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=5"/>ወፈርሁ፡ ኖትያ፡ ወአውየዉ፡ ኮሎሙ፡ ኀበ፡ አማልክቲሆሙ፡ ወአስተዋፅኡ፡ ወገደፈውስተ፡ ባሕር፡ ንሙ፡ ከመ፡ ይቅልል፡ ሐመሮሙ፡ ወወረደ፡ ዮናስ፡ ውስተ፡ ከርሠ፡ ሐመር፡ ወኖመ፡ ወንኀረ።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=6"/>ወወረደ፡ ኀቤሁ፡ ዘይሔድፍ፡ ወይቤሎ፡ ምንት፡ ያነውመከ፡ ተንስእ፡ ወጸውዕ፡ አምላከ፡ ከመ፡ ያድኀነነ፡ ጦፋዚአብሔር፡ ወኢነሙት።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=7"/>ወተበሃሎ፡ በበይናቲሆሙ፡ ንዑ፡ ንትዐፀዉ፡ ወወረደ፡ ፅፃ፡ ላዕለ፡ ዮናስ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=8"/>ወይቤልዎ፡ ንግረነ፡ በበይነ፡ ሙኑ፡ ረከበተነ፡ ዛቲ፡ እኪት፡ ወምንት፡ ተግባርከ፡ ወእምአይቴ፡ መጻእከ፡ ወአይቴ፡ ተሐውር፡ ወአይቴ፡ ብሔርክ፡ ወምንት፡ ሕዝብከ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=9"/>ወይቤሎሙ፡ ገብረ፡ እግዚአብሔር፡ አምላከ፡ ሰማይ፡ ዝገብረ፡ ባሕረ፡ ወየብስ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=10"/>ወፈርሁ፡ እሙንቱ፡ ዕደው፡ ዓቢየ፡ ፍርሃተ፡ ወይቤልዎ፡ ምን፡ ገበርክ፡ ወአእመርዎ፡ እንቱ፡ ዕደው፡ ከመ፡ እምገጸ፡ እግዚአብሔር፡ ተኀጥአ፡ እስመ፡ ነገሮሙ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=11"/>ወይቤልዎ፡ ምነተ፡ እንከ፡ ንረሲከ፡ ወይኀድገነ፡ ባሕር፡ ስመ፡ ይትሀወክ፡ ባሕር፡ ወይትነሣእ፡ መዕበል፡ ዓቢይ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=12"/>ወይቤሎሙ፡ ዮናስ፡ ንሥኡኒ፡ ወውርዉኒ፡ ውስተ፡ ባሕር፡ ወየኀድገክሙ፡ ባሕ፡ እነ፡ አአምር፡ ከመ፡ በእንቲአየ፡ መጽአክሙ፡ ዝንቱ፡ ማዕበል፡ ዐቢይ።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=13"/>ወተባአሱ፡ ይትመየጡ፡ መንገለ፡ ምድር፡ እሙንቱ፡ ዕደው፡ ወስእኑ፡ እስመ፡ ትትሀወክ፡ ባሕር፡ ወትትነሣእ፡ ላዕሌሆሙ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=14"/>ወአውየዉ፡ ኰሎሙ፡ ኀቡረ፡ ኀበ፡ እግዚአብሔር፡ ወይቤሉ፡ ሐሰ፡ ለከ፡ እግዚኦ፡ ኢታጥፍአነ፡ በበይነ፡ ነፍሱ፡ ለዝንቱ፡ ብእሲ፡ ኢትረሲ፡ ላዕሌነ፡ ከመ፡ ጻድቅ፡ እስመ፡ አንተ፡ እግዚኦ፡ ዘከመ፡ ፈቀድከ፡ ገበርከ።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=15"/>ወነስእዎ፡ ሌነስ፡ ወወረውዎ፡ ውስተ፡ ባሕረ፡ ወአርመመት፡ ባሕር።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=16"/>ወፈርህዎ፡ ለእግዚአብሔር፡ እሙንቱ፡ ዕደው፡ ዓቢየ፡ ፍርሃተ፡ ወሦዑ፡ እግዝአብሔር፡ መስዋዕተ፡ ወበፅዑ፡ ብፅዓተ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="2" xml:id="chapter2">
-               <label>Chapter 2</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=1"/>ወአዘዘ፡ እግዚአብሔር፡ ዓንበሬ፡ ዓቢየ፡ የሐቶ፡ ለዮናስ፡ ወነበረ፡ ዮናስ፡ ውስተ፡ ከርሠ፡ ዐንበሪ፡ ሠሉሰ፡ ዕለተ፡ ወሠሉሰ፡ ሌሊተ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=2"/>ወጸለየ፡ ዮናስ፡ በውስተ፡ ከርሰ፡ ዐንበሪ፡ ኀበ፡ እግዚአብሔር፡ አምላኩ።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=3"/>ወይቤ፡ አውየውኩ፡ በምንዳቤየ፡ ኀበ፡ እግዚአብሔር፡ አምላኪየ፡ ወሰምዐኒ፡ በውስተ፡ ከርሠ፡ ለሲኦል፡ ጽራኀየ፡ ወሰምዐኒ፡ ቃልየ።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=4"/>ወወሮከኒ፡ ውስተ፡ ልበ፡ ቀላየ፡ ባሕር፡ ወዐጉኒ፡ አፍላግ፡ ወመጽአ፡ ኲሎ፡ ማዕበልከ፡ ወሞገድከ፡ እንተ፡ ላዕሌየ፡ ኀለፈ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=5"/>አንሰ፡ እቤ፡ ገደፍከኒኑ፡ እንጋ፡ እምቅድመ፡ አዕይንቲከ፡ እደግምኑ፡ ርእየ፡ ቤተ፡ መቅደስከ።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=6"/>ውኀዘ፡ ማይ፡ እስከ፡ ነፍስየ፡ ወዐገተኒ፡ ቀላይ፡ በታሕቱ፡ ወተሠጥመ፡ ርአስየ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=7"/>ውስተ፡ ንቅዓታተ፡ ደብር፡ ዋዋራድ፡ ውስተ፡ ምድር፡ እንተ፡ ዕጽው፡ መናስግቲሃ፡ እምፍጥረተ፡ ዓለም፡ ትዕርግ፡ ሕይወትየ፡ ዘእንበለ፡ ሙስና፡ ኀቤከ፡ እግዚኦ፡ አምላኪየ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=8"/>ሶበ፡ ኀልቀት፡ ነፍስየ፡ ትዝክርክዎ፡ ለእግዚአብሔር፡ ትብጻሕ፡ ጸሎትየ፡ ቅድሜከ፡ ጽርሐ፡ መቅደስከ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=9"/>እለሰ፡ ዐቀቡ፡ ከንቶ፡ ወሐሰተ፡ ገደፋ፡ ሣህሎሙ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=10"/>አንሰ፡ ምስለ፡ ቃለ፡ ስብሐት፡ ወተጋኝ፡ እሠውዕ፡ ለከ፡ መጠነ፡ ጸለይኩ፡ በሕይወትየ፡ አዐስዮ፡ ለእግዚአብሔር።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=11"/>ወአዘዞ፡ እግዚአብሔር፡ ለውእቱ፡ ዓንበሪ፡ ወአውፅኦ፡ ሌናስ፡ ውስተ፡ ምድር።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="3" xml:id="chapter3">
-               <label>Chapter 3</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=1"/>ወኮነ፡ ቃለ፡ እግዚአብሔር፤ዳመ፡ ኀበ፡ ነስ፡ ወይቤሎ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=2"/>ተንስእ፡ ወሖር፡ ነነዌ፡ ሀገር፡ ዓባይ፡ ወስብክ፡ ሎሙ፡ በከመ፡ ቀዳሚ፡ ስብከት፡ ዘእቤለከ፡ አነ።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=3"/>ወተንስአ፡ ነስ፡ ወሖረ፡ ነነዌ፡ በከመ፡ ይቤሎ፡ እግዚአብሔር፡ ወነነዌሰ፡ ሀገር፡ ዓባይ፡ እቲ፡ ለእግዚአብሔር፡ መጠነ፡ ምሕዋረ፡ ሠሉስ፡ ወዋዕል፡ ለአጋር።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=4"/>ወአልጺቆ፡ ይባዕ፡ ለሀገረ፡ ሰበከ፡ እምሕዋረ፡ ዕለት፡ ወይቤ፡ እስከ፡ ሠሉስ፡ ወዋዕል፡ ትትገፈታዕ፡ ነነዌ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=5"/>ወተአመኑ፡ ሰብአ፡ ነነዌ፡ በቃለ፡ እግዚአብሔር፡ ወሰበኩ፡ ጾመ፡ ወለብሱ፡ ሠቀ፡ ንኡሶሙ፡ ወዐቢዩሙ።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=6"/>ወሰምዐ፡ ንጉሠ፡ ነነዌ፡ ወተንስአ፡ እምነ፡ መንበሩ፡ ወእተተ፡ አልባሲሁ፡ ወለብሰ፡ ሠቀ፡ ወነበረ፡ ውስተ፡ ሐመድ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=7"/>ወሰበከ፡ ንጉስ፡ ለነነዌ፡ ለንኦሶሙ፡ ወለዐበይቶሙ፡ ወይቤ፡ ሰብእ፡ ወእንስሳ፡ ወአልህምት፡ ወአባግዕ፡ ኢይብልኡ፡ ወኢምንንተኒ፡ ወኢይትረዐዩ፡ ማየ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=8"/>ወለብሱ፡ ሠቀ፡ ሰብእ፡ ወእንስሳ፡ ወእውየው፡ ኀበ፡ እግዚአብሔር፡ ኀቡረ፡ ወኀደጉ፡ ኲሎ፡ እከየ፡ ምግባሮሙ፡ ወዓመፃ፡ ዘውስተ፡ እዴሆሙ፡ ወይቤሉ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=9"/>መኑ፡ የአምር፡ እመ፡ ይኔስሕ፡ እግዚብሔር፡ ወይመይጥ፡ መቅሠፍተ፡ መዐቱ፡ ወኢንሙት፡ እንከ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=10"/>ወርእየ፡ እግዚአብሔር፡ ምግባሮሙ፡ ከመ፡ ነስሑ፡ እምንኖቶሙ፡ እኩይ፡ ወእግዚአብሔርኒ፡ ነስሐ፡ እምነ፡ ዘነበበ፡ እኩየ። ከመ፡ ይግበር፡ ላዕሌሆሙ፡ ወኢገብረ፡ እኩየ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="4" xml:id="chapter4">
-               <label>Chapter 4</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=1"/>ወተከዘ፡ ዮናስ፡ ዓቢየ፡ ትካዘ፡ ወኀዘነ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=2"/>ወጸለየ፡ ኀበ፡ እግዚብሔር፡ ወይቤ፡ እግዚኦ፡ አኮኑ፡ ከመዝ፡ እቤ፡ በብሔርየ፡ በእንተ፡ ዝንተ፡ ተኀጣእኩ፡ ቴርሴስ፡ እስመ፡ አአምር፡ ከመ፡ መሐሪ፡ አንተ፡ ዋማስተሣህል፡ ርኁቀ፡ መዐት፡ ወብዙኀ፡ ምሕረት፡ ወትኔስሕ፡ በእንተ፡ እኪት።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=3"/>ወይአዜኒ፡ እገዚኦ፡ ንስኦ፡ ለነፍስየ፡ እምኔየ፡ እስመ፡ ይኄይሰኒ፡ ሚት፡ እምሐይው።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=4"/>ወይቤሎ፡ እግዚአብሔር፡ ለዮነስ፡ ጥቀኑ፡ ትቴክዝ፡ አንተ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=5"/>ወእምዝ፡ ወጽአ፡ ዮናስ፡ እምሀገር፡ ዋናባራ፡ አንቀጸ፡ ሀገር፡ ዋጋብረ፡ ሎቱ፡ ልገተ፡ ዋናባራ፡ ታሕተ፡ ጽላሎታ፡ እስከ፡ ይሬኢ፡ ዘይከውን፡ ሀገር።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=6"/>ወአዘዘ፡ እግዚአብሔር፡ ሐምሐመ፡ ወበቆለ፡ ወጸለሎ፡ መልዕልተ፡ ርእሱ፡ ለዮነስ፡ ከመ፡ ይጸልሎ፡ እምሕማሙ። ወተፈስሐ፡ ዮናስ፡ ዓቢየ፡ ፍስሐ፡ በእንተ፡ ሐምሐም።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=7"/>ወአዘዘ፡ እግዚአብሔር፡ በሳኒታ፡ ዕፄ፡ ወቀተሎ፡ ለዝ፡ ሐምሐም፡ ወየብሰ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=8"/>ወሠሪቆ፡ ፀሐይ፡ አዘዘ፡ እግዚአብሔር፡ ነፋሰ፡ ሐሩር፡ ዘያውዒ፡ ወአሕመሞ፡ ፀሐይ፡ ርእሶ፡ ለዮናስ፡ ወዐነንበዘ፡ ወተቆጥዐ፡ ነፍሱ፡ ወይቤ፡ ይኄይሰኒ፡ መዊት፡ እምሐይው።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=9"/>ወይቤሎ፡ እግዚአብሔር፡ ለዮናስ፡ ጥቀኑ፡ ተከዝከ፡ በእንተ፡ ሐምሐም፡ ይቤ፡ ጥቀ፡ ተከዝ፡ እሰከ፡ ለሞት።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=10"/>ወይቤሎ፡ እግዚአብሔር፡ አንተሰ፡ ትምሕክ፡ ሐምሐመ፡ ዘኢፃመውከ፡ ወኢሰቀይከ፡ ዘሌሊተ፡ ወቆለት፡ ወሌሊተ፡ ሞተት።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=11"/>ወአንሰ፡ ኢይምሕካኑ፡ ለነነዌ፡ ሀገር፡ ዓባይ፡ ዘሀለዉ፡ ወስቴታ፡ ሰብእ፡ ፋድፋደ፡ አምዐሠርቱ፡ ክልኤቱ፡ እልፍ፡ እለ፡ ኢፈለጡ፡ ፀጋሞሙ፡ ወየማኖሙ፡ ወእንስሳ፡ ቡዙኀ።</l>
-               </ab>
-            </div>
-         </div>
-      </body>
-   </text></TEI>
+         <t:div type="bibliography">
+            <t:listBibl type="editions">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/R28K3HG9"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Loefgren1930Jonanah"/><title level="m">Das äthiopische Dodekapropheton. Jona, Nahum, Habakuk, Zephanja, Haggai, Sacharja und Maleachi. Unter Zugrundelegung des Oxforder MS. Huntington 625 nach mehreren Handschriften</title><author><forename>Oscar</forename><surname>Löfgren</surname></author><pubPlace>Uppsala</pubPlace><publisher>Almqvist &amp; Wiksells Boktryckeri</publisher><date>1930</date><note type="tags"><note type="tag">BLorient501</note><note type="tag">Bible</note><note type="tag">Minor Prophets</note><note type="tag">Old Testament</note><note type="tag">bm:Loefgren1930Jonanah</note></note><note type="tag">BLorient501</note><note type="tag">Bible</note><note type="tag">Minor Prophets</note><note type="tag">Old Testament</note><note type="tag">bm:Loefgren1930Jonanah</note><t:citedRange unit="page">3-9</t:citedRange></t:bibl>
+            </t:listBibl>
+         </t:div>
+         <t:div type="edition" xml:lang="gez" xml:id="div2LIT1694Jonah">
+            <t:note>Text of the EOTC printed Bible</t:note>
+            <t:div type="textpart" subtype="chapter" n="1" xml:id="chapter1">
+               <t:label>Chapter 1</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=1"/>ወኮነ፡ ቃለ፡ እግዚአብሔር፡ ኀበ፡ ዩናስ፡ ወልደ፡ አማቴ፡ ወይቤሎ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=2"/>ተንስእ፡ ወሖር፡ ኀበ፡ ነነዌ፡ ሀገር፡ ዓባይ፡ ወስብክ፡ ሎሙ፡ እስመ፡ ዐርገ፡ ገዓረ፡ እከዩሙ፡ ኀቤየ።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=3"/>ወሖረ፡ ዩናስ፡ ወተኀጥአ፡ ብሔር፡ ተርሴስ፡ እምገጸ፡ እግዚአብሄር፡ ወወረደ፡ ሀገር፡ ኢዩጴ፡ ወረከበ፡ ሐመረ፡ ዜነግድ፡ ብሔር፡ ተርስስ፡ ዋታዓሳ፡ ሐመረ፡ ርገ፡ ውስቴቱ፡ ይነግድ፡ መስሌሆሙ፡ ተርሴስ፡ እምገጸ፡ እግዚአብሔር።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=4"/>ወአምጽአ፡ እግዚአብሔር፡ ነፋሰ፡ ዓቢየ፡ ውስተ፡ ባሕር፡ ወዐብየ፡ ማዕበለ፡ ባሕር፡ ወተመነደበ፡ ሐመሮሙ፡ ከመ፡ ይሰበር።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=5"/>ወፈርሁ፡ ኖትያ፡ ወአውየዉ፡ ኮሎሙ፡ ኀበ፡ አማልክቲሆሙ፡ ወአስተዋፅኡ፡ ወገደፈውስተ፡ ባሕር፡ ንሙ፡ ከመ፡ ይቅልል፡ ሐመሮሙ፡ ወወረደ፡ ዮናስ፡ ውስተ፡ ከርሠ፡ ሐመር፡ ወኖመ፡ ወንኀረ።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=6"/>ወወረደ፡ ኀቤሁ፡ ዘይሔድፍ፡ ወይቤሎ፡ ምንት፡ ያነውመከ፡ ተንስእ፡ ወጸውዕ፡ አምላከ፡ ከመ፡ ያድኀነነ፡ ጦፋዚአብሔር፡ ወኢነሙት።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=7"/>ወተበሃሎ፡ በበይናቲሆሙ፡ ንዑ፡ ንትዐፀዉ፡ ወወረደ፡ ፅፃ፡ ላዕለ፡ ዮናስ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=8"/>ወይቤልዎ፡ ንግረነ፡ በበይነ፡ ሙኑ፡ ረከበተነ፡ ዛቲ፡ እኪት፡ ወምንት፡ ተግባርከ፡ ወእምአይቴ፡ መጻእከ፡ ወአይቴ፡ ተሐውር፡ ወአይቴ፡ ብሔርክ፡ ወምንት፡ ሕዝብከ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=9"/>ወይቤሎሙ፡ ገብረ፡ እግዚአብሔር፡ አምላከ፡ ሰማይ፡ ዝገብረ፡ ባሕረ፡ ወየብስ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=10"/>ወፈርሁ፡ እሙንቱ፡ ዕደው፡ ዓቢየ፡ ፍርሃተ፡ ወይቤልዎ፡ ምን፡ ገበርክ፡ ወአእመርዎ፡ እንቱ፡ ዕደው፡ ከመ፡ እምገጸ፡ እግዚአብሔር፡ ተኀጥአ፡ እስመ፡ ነገሮሙ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=11"/>ወይቤልዎ፡ ምነተ፡ እንከ፡ ንረሲከ፡ ወይኀድገነ፡ ባሕር፡ ስመ፡ ይትሀወክ፡ ባሕር፡ ወይትነሣእ፡ መዕበል፡ ዓቢይ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=12"/>ወይቤሎሙ፡ ዮናስ፡ ንሥኡኒ፡ ወውርዉኒ፡ ውስተ፡ ባሕር፡ ወየኀድገክሙ፡ ባሕ፡ እነ፡ አአምር፡ ከመ፡ በእንቲአየ፡ መጽአክሙ፡ ዝንቱ፡ ማዕበል፡ ዐቢይ።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=13"/>ወተባአሱ፡ ይትመየጡ፡ መንገለ፡ ምድር፡ እሙንቱ፡ ዕደው፡ ወስእኑ፡ እስመ፡ ትትሀወክ፡ ባሕር፡ ወትትነሣእ፡ ላዕሌሆሙ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=14"/>ወአውየዉ፡ ኰሎሙ፡ ኀቡረ፡ ኀበ፡ እግዚአብሔር፡ ወይቤሉ፡ ሐሰ፡ ለከ፡ እግዚኦ፡ ኢታጥፍአነ፡ በበይነ፡ ነፍሱ፡ ለዝንቱ፡ ብእሲ፡ ኢትረሲ፡ ላዕሌነ፡ ከመ፡ ጻድቅ፡ እስመ፡ አንተ፡ እግዚኦ፡ ዘከመ፡ ፈቀድከ፡ ገበርከ።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=15"/>ወነስእዎ፡ ሌነስ፡ ወወረውዎ፡ ውስተ፡ ባሕረ፡ ወአርመመት፡ ባሕር።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=1&amp;verse=16"/>ወፈርህዎ፡ ለእግዚአብሔር፡ እሙንቱ፡ ዕደው፡ ዓቢየ፡ ፍርሃተ፡ ወሦዑ፡ እግዝአብሔር፡ መስዋዕተ፡ ወበፅዑ፡ ብፅዓተ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="2" xml:id="chapter2">
+               <t:label>Chapter 2</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=1"/>ወአዘዘ፡ እግዚአብሔር፡ ዓንበሬ፡ ዓቢየ፡ የሐቶ፡ ለዮናስ፡ ወነበረ፡ ዮናስ፡ ውስተ፡ ከርሠ፡ ዐንበሪ፡ ሠሉሰ፡ ዕለተ፡ ወሠሉሰ፡ ሌሊተ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=2"/>ወጸለየ፡ ዮናስ፡ በውስተ፡ ከርሰ፡ ዐንበሪ፡ ኀበ፡ እግዚአብሔር፡ አምላኩ።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=3"/>ወይቤ፡ አውየውኩ፡ በምንዳቤየ፡ ኀበ፡ እግዚአብሔር፡ አምላኪየ፡ ወሰምዐኒ፡ በውስተ፡ ከርሠ፡ ለሲኦል፡ ጽራኀየ፡ ወሰምዐኒ፡ ቃልየ።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=4"/>ወወሮከኒ፡ ውስተ፡ ልበ፡ ቀላየ፡ ባሕር፡ ወዐጉኒ፡ አፍላግ፡ ወመጽአ፡ ኲሎ፡ ማዕበልከ፡ ወሞገድከ፡ እንተ፡ ላዕሌየ፡ ኀለፈ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=5"/>አንሰ፡ እቤ፡ ገደፍከኒኑ፡ እንጋ፡ እምቅድመ፡ አዕይንቲከ፡ እደግምኑ፡ ርእየ፡ ቤተ፡ መቅደስከ።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=6"/>ውኀዘ፡ ማይ፡ እስከ፡ ነፍስየ፡ ወዐገተኒ፡ ቀላይ፡ በታሕቱ፡ ወተሠጥመ፡ ርአስየ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=7"/>ውስተ፡ ንቅዓታተ፡ ደብር፡ ዋዋራድ፡ ውስተ፡ ምድር፡ እንተ፡ ዕጽው፡ መናስግቲሃ፡ እምፍጥረተ፡ ዓለም፡ ትዕርግ፡ ሕይወትየ፡ ዘእንበለ፡ ሙስና፡ ኀቤከ፡ እግዚኦ፡ አምላኪየ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=8"/>ሶበ፡ ኀልቀት፡ ነፍስየ፡ ትዝክርክዎ፡ ለእግዚአብሔር፡ ትብጻሕ፡ ጸሎትየ፡ ቅድሜከ፡ ጽርሐ፡ መቅደስከ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=9"/>እለሰ፡ ዐቀቡ፡ ከንቶ፡ ወሐሰተ፡ ገደፋ፡ ሣህሎሙ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=10"/>አንሰ፡ ምስለ፡ ቃለ፡ ስብሐት፡ ወተጋኝ፡ እሠውዕ፡ ለከ፡ መጠነ፡ ጸለይኩ፡ በሕይወትየ፡ አዐስዮ፡ ለእግዚአብሔር።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=2&amp;verse=11"/>ወአዘዞ፡ እግዚአብሔር፡ ለውእቱ፡ ዓንበሪ፡ ወአውፅኦ፡ ሌናስ፡ ውስተ፡ ምድር።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="3" xml:id="chapter3">
+               <t:label>Chapter 3</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=1"/>ወኮነ፡ ቃለ፡ እግዚአብሔር፤ዳመ፡ ኀበ፡ ነስ፡ ወይቤሎ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=2"/>ተንስእ፡ ወሖር፡ ነነዌ፡ ሀገር፡ ዓባይ፡ ወስብክ፡ ሎሙ፡ በከመ፡ ቀዳሚ፡ ስብከት፡ ዘእቤለከ፡ አነ።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=3"/>ወተንስአ፡ ነስ፡ ወሖረ፡ ነነዌ፡ በከመ፡ ይቤሎ፡ እግዚአብሔር፡ ወነነዌሰ፡ ሀገር፡ ዓባይ፡ እቲ፡ ለእግዚአብሔር፡ መጠነ፡ ምሕዋረ፡ ሠሉስ፡ ወዋዕል፡ ለአጋር።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=4"/>ወአልጺቆ፡ ይባዕ፡ ለሀገረ፡ ሰበከ፡ እምሕዋረ፡ ዕለት፡ ወይቤ፡ እስከ፡ ሠሉስ፡ ወዋዕል፡ ትትገፈታዕ፡ ነነዌ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=5"/>ወተአመኑ፡ ሰብአ፡ ነነዌ፡ በቃለ፡ እግዚአብሔር፡ ወሰበኩ፡ ጾመ፡ ወለብሱ፡ ሠቀ፡ ንኡሶሙ፡ ወዐቢዩሙ።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=6"/>ወሰምዐ፡ ንጉሠ፡ ነነዌ፡ ወተንስአ፡ እምነ፡ መንበሩ፡ ወእተተ፡ አልባሲሁ፡ ወለብሰ፡ ሠቀ፡ ወነበረ፡ ውስተ፡ ሐመድ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=7"/>ወሰበከ፡ ንጉስ፡ ለነነዌ፡ ለንኦሶሙ፡ ወለዐበይቶሙ፡ ወይቤ፡ ሰብእ፡ ወእንስሳ፡ ወአልህምት፡ ወአባግዕ፡ ኢይብልኡ፡ ወኢምንንተኒ፡ ወኢይትረዐዩ፡ ማየ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=8"/>ወለብሱ፡ ሠቀ፡ ሰብእ፡ ወእንስሳ፡ ወእውየው፡ ኀበ፡ እግዚአብሔር፡ ኀቡረ፡ ወኀደጉ፡ ኲሎ፡ እከየ፡ ምግባሮሙ፡ ወዓመፃ፡ ዘውስተ፡ እዴሆሙ፡ ወይቤሉ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=9"/>መኑ፡ የአምር፡ እመ፡ ይኔስሕ፡ እግዚብሔር፡ ወይመይጥ፡ መቅሠፍተ፡ መዐቱ፡ ወኢንሙት፡ እንከ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=3&amp;verse=10"/>ወርእየ፡ እግዚአብሔር፡ ምግባሮሙ፡ ከመ፡ ነስሑ፡ እምንኖቶሙ፡ እኩይ፡ ወእግዚአብሔርኒ፡ ነስሐ፡ እምነ፡ ዘነበበ፡ እኩየ። ከመ፡ ይግበር፡ ላዕሌሆሙ፡ ወኢገብረ፡ እኩየ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="4" xml:id="chapter4">
+               <t:label>Chapter 4</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=1"/>ወተከዘ፡ ዮናስ፡ ዓቢየ፡ ትካዘ፡ ወኀዘነ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=2"/>ወጸለየ፡ ኀበ፡ እግዚብሔር፡ ወይቤ፡ እግዚኦ፡ አኮኑ፡ ከመዝ፡ እቤ፡ በብሔርየ፡ በእንተ፡ ዝንተ፡ ተኀጣእኩ፡ ቴርሴስ፡ እስመ፡ አአምር፡ ከመ፡ መሐሪ፡ አንተ፡ ዋማስተሣህል፡ ርኁቀ፡ መዐት፡ ወብዙኀ፡ ምሕረት፡ ወትኔስሕ፡ በእንተ፡ እኪት።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=3"/>ወይአዜኒ፡ እገዚኦ፡ ንስኦ፡ ለነፍስየ፡ እምኔየ፡ እስመ፡ ይኄይሰኒ፡ ሚት፡ እምሐይው።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=4"/>ወይቤሎ፡ እግዚአብሔር፡ ለዮነስ፡ ጥቀኑ፡ ትቴክዝ፡ አንተ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=5"/>ወእምዝ፡ ወጽአ፡ ዮናስ፡ እምሀገር፡ ዋናባራ፡ አንቀጸ፡ ሀገር፡ ዋጋብረ፡ ሎቱ፡ ልገተ፡ ዋናባራ፡ ታሕተ፡ ጽላሎታ፡ እስከ፡ ይሬኢ፡ ዘይከውን፡ ሀገር።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=6"/>ወአዘዘ፡ እግዚአብሔር፡ ሐምሐመ፡ ወበቆለ፡ ወጸለሎ፡ መልዕልተ፡ ርእሱ፡ ለዮነስ፡ ከመ፡ ይጸልሎ፡ እምሕማሙ። ወተፈስሐ፡ ዮናስ፡ ዓቢየ፡ ፍስሐ፡ በእንተ፡ ሐምሐም።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=7"/>ወአዘዘ፡ እግዚአብሔር፡ በሳኒታ፡ ዕፄ፡ ወቀተሎ፡ ለዝ፡ ሐምሐም፡ ወየብሰ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=8"/>ወሠሪቆ፡ ፀሐይ፡ አዘዘ፡ እግዚአብሔር፡ ነፋሰ፡ ሐሩር፡ ዘያውዒ፡ ወአሕመሞ፡ ፀሐይ፡ ርእሶ፡ ለዮናስ፡ ወዐነንበዘ፡ ወተቆጥዐ፡ ነፍሱ፡ ወይቤ፡ ይኄይሰኒ፡ መዊት፡ እምሐይው።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=9"/>ወይቤሎ፡ እግዚአብሔር፡ ለዮናስ፡ ጥቀኑ፡ ተከዝከ፡ በእንተ፡ ሐምሐም፡ ይቤ፡ ጥቀ፡ ተከዝ፡ እሰከ፡ ለሞት።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=10"/>ወይቤሎ፡ እግዚአብሔር፡ አንተሰ፡ ትምሕክ፡ ሐምሐመ፡ ዘኢፃመውከ፡ ወኢሰቀይከ፡ ዘሌሊተ፡ ወቆለት፡ ወሌሊተ፡ ሞተት።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Jon&amp;chapter=4&amp;verse=11"/>ወአንሰ፡ ኢይምሕካኑ፡ ለነነዌ፡ ሀገር፡ ዓባይ፡ ዘሀለዉ፡ ወስቴታ፡ ሰብእ፡ ፋድፋደ፡ አምዐሠርቱ፡ ክልኤቱ፡ እልፍ፡ እለ፡ ኢፈለጡ፡ ፀጋሞሙ፡ ወየማኖሙ፡ ወእንስሳ፡ ቡዙኀ።</t:l>
+               </t:ab>
+            </t:div>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

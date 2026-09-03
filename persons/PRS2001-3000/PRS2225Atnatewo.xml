@@ -3,9 +3,9 @@
          <titleStmt><title type="full">ʾAtnātewos</title>
             <title>ʾAtnātewos</title>
             <editor key="SG" corresp="https://betamasaheft.eu/team.html#SG" xml:id="SG">Solomon Gebreyes</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <author/>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#SG" xml:id="ed-SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -16,7 +16,7 @@
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
-         <date type="expanded">25.8.2022 at 13:44:26</date><date type="lastModified">23.2.2017</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS2225Atnatewo/main</idno><idno type="URI">https://betamasaheft.eu/PRS2225Atnatewo</idno><idno type="filename">PRS2225Atnatewo.xml</idno><idno type="ID">PRS2225Atnatewo</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 07:10:20</date><date type="lastModified">23.2.2017</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS2225Atnatewo/main</idno><idno type="URI">https://betamasaheft.eu/PRS2225Atnatewo</idno><idno type="filename">PRS2225Atnatewo.xml</idno><idno type="ID">PRS2225Atnatewo</idno></publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
@@ -27,81 +27,81 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-04-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->batch updated according to requirements and issues.</change>
-         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-04-28" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->batch updated according to requirements and issues.</change>
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
                                                   google spreadsheet </change>
-         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: person</change>
-         <change who="#SG" when="2016-09-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Complete record</change>
-         <change who="#SG" when="2017-02-23"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Correction</change>
-      </revisionDesc>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: person</change>
+         <change when="2016-09-15" who="#SG"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Complete record</change>
+         <change when="2017-02-23" who="#SG"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Correction</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="snap:AllianceWith" ref="http://data.snapdrgn.net/ontology/snap#AllianceWith" active="https://betamasaheft.eu/PRS2225Atnatewo" passive="https://betamasaheft.eu/PRS10378Yohanne"/>
                <relation name="betmas:ordainedBy" ref="betmas:ordainedBy" active="https://betamasaheft.eu/PRS2225Atnatewo" passive="https://betamasaheft.eu/PRS3500Demetriu"/>
                <relation name="betmas:hasOrdained" ref="betmas:hasOrdained" active="https://betamasaheft.eu/PRS2225Atnatewo" passive="https://betamasaheft.eu/PRS10378Yohanne"/>
                
                <relation name="snap:AllianceWith" ref="http://data.snapdrgn.net/ontology/snap#AllianceWith" active="https://betamasaheft.eu/PRS2225Atnatewo" passive="https://betamasaheft.eu/PRS7006Menilek"/>
-            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPerson>
-            <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birth">አትናቴዎስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAtnātewos</persName>
-               <persName>
-                  <roleName type="title">ʾabuna</roleName>
-               </persName>
-               <occupation type="ecclesiastic">metropolitan</occupation>
-               <nationality type="Egypt"/>
-               <faith type="Coptic"/>
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPerson>
+            <t:person sex="1">
+               <t:persName xml:lang="gez" xml:id="n1" type="birth">አትናቴዎስ፡</t:persName>
+               <t:persName xml:lang="gez" corresp="#n1" type="normalized">ʾAtnātewos</t:persName>
+               <t:persName>
+                  <t:roleName type="title">ʾabuna</t:roleName>
+               </t:persName>
+               <t:occupation type="ecclesiastic">metropolitan</t:occupation>
+               <t:nationality type="Egypt"/>
+               <t:faith type="Coptic"/>
              
-               <residence>
-                  <placeName ref="https://betamasaheft.eu/LOC3577Gondar">Gondar</placeName> 
-               </residence>
+               <t:residence>
+                  <t:placeName ref="https://betamasaheft.eu/LOC3577Gondar">Gondar</t:placeName> 
+               </t:residence>
                
-               <floruit notBefore="1867" notAfter="1876">He was the metropolitan of 
-                  Ethiopian Orthodox Church who was consecrated by <persName ref="https://betamasaheft.eu/PRS3500Demetriu">Demetrius II of Alexandria</persName> 
-                  in <date>1867</date>.
-                  He was the immediate successor of ʾabuna <persName ref="https://betamasaheft.eu/PRS8388SalamaI">Salāmā III</persName>.
+               <t:floruit notBefore="1867" notAfter="1876">He was the metropolitan of 
+                  Ethiopian Orthodox Church who was consecrated by <t:persName ref="https://betamasaheft.eu/PRS3500Demetriu">Demetrius II of Alexandria</t:persName> 
+                  in <t:date>1867</t:date>.
+                  He was the immediate successor of ʾabuna <t:persName ref="https://betamasaheft.eu/PRS8388SalamaI">Salāmā III</t:persName>.
                   He was consecrated through the official request of 
                    
-                  <persName ref="https://betamasaheft.eu/PRS10378Yohanne">
-                     <roleName type="title">ʾaṣe</roleName> 
-                     Yoḥannǝs IV</persName> whom he consecrated as King of Kings of Ethiopia in <date>1872 </date> at 
-                  <placeName ref="https://betamasaheft.eu/LOC1311AksumS">ʾAksum Ṣǝyon</placeName>.
+                  <t:persName ref="https://betamasaheft.eu/PRS10378Yohanne">
+                     <t:roleName type="title">ʾaṣe</t:roleName> 
+                     Yoḥannǝs IV</t:persName> whom he consecrated as King of Kings of Ethiopia in <t:date>1872 </t:date> at 
+                  <t:placeName ref="https://betamasaheft.eu/LOC1311AksumS">ʾAksum Ṣǝyon</t:placeName>.
                   Following the conflict between 
-                  <persName ref="https://betamasaheft.eu/PRS10378Yohanne">
-                     <roleName type="title">ʾaṣe</roleName> 
-                     Yoḥannǝs IV</persName>
+                  <t:persName ref="https://betamasaheft.eu/PRS10378Yohanne">
+                     <t:roleName type="title">ʾaṣe</t:roleName> 
+                     Yoḥannǝs IV</t:persName>
                   and Egyptian, he leaned towards his land. 
                   This situation created a hostile relation between the two and later he formed an alliance with the strong rival of 
                   
-                  <persName ref="https://betamasaheft.eu/PRS10378Yohanne"> 
-                     <roleName type="title">ʾaṣe</roleName> Yoḥannǝs IV
-                  </persName> King <persName ref="https://betamasaheft.eu/PRS7006Menilek">Mǝnilǝk II</persName>.
+                  <t:persName ref="https://betamasaheft.eu/PRS10378Yohanne"> 
+                     <t:roleName type="title">ʾaṣe</t:roleName> Yoḥannǝs IV
+                  </t:persName> King <t:persName ref="https://betamasaheft.eu/PRS7006Menilek">Mǝnilǝk II</t:persName>.
                   
-               </floruit>
-               <death when="1876"> He died on <date>1876</date> and was buried at 
-                  <placeName ref="https://betamasaheft.eu/LOC1264Adwa">ʿĀdwā</placeName>.</death>
-            </person>
+               </t:floruit>
+               <t:death when="1876"> He died on <t:date>1876</t:date> and was buried at 
+                  <t:placeName ref="https://betamasaheft.eu/LOC1264Adwa">ʿAdwā</t:placeName>.</t:death>
+            </t:person>
             
-         </listPerson>
-         <listBibl type="secondary">
-            <bibl corresp="http://zotero.org/groups/358366/items/Z8MRSTJZ"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Rubenson2003Atnatewos"/><title level="a">Atnatewos</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Sven</forename><surname>Rubenson</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">393b-394a</biblScope><note type="tags"><note type="tag">bm:Rubenson2003Atnatewos</note></note><note type="tag">bm:Rubenson2003Atnatewos</note></bibl>
+         </t:listPerson>
+         <t:listBibl type="secondary">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/Z8MRSTJZ"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Rubenson2003Atnatewos"/><title level="a">Atnatewos</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Sven</forename><surname>Rubenson</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">393b-394a</biblScope><note type="tags"><note type="tag">bm:Rubenson2003Atnatewos</note></note><note type="tag">bm:Rubenson2003Atnatewos</note></t:bibl>
             
-            <bibl corresp="http://zotero.org/groups/358366/items/UDTX2EJU"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Tedeschi1991EthiopianPre"/><title level="a">Ethiopian Prelates</title><title type="short">The Coptic Encyclopedia</title><title level="m">The Coptic Encyclopedia</title><author><forename>Salvatore</forename><surname>Tedeschi</surname></author><editor><forename>Aziz S.</forename><surname>Atiya</surname></editor><pubPlace>New York</pubPlace><publisher>Macmillan Publishing Company</publisher><date>1991</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">1008b-1009a</biblScope><note type="tags"><note type="tag">bm:Tedeschi1991EthiopianPre</note></note><note type="tag">bm:Tedeschi1991EthiopianPre</note><citedRange unit="page">1036b-1037b</citedRange></bibl> 
-         </listBibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/UDTX2EJU"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Tedeschi1991EthiopianPre"/><title level="a">Ethiopian Prelates</title><title type="short">The Coptic Encyclopedia</title><title level="m">The Coptic Encyclopedia</title><author><forename>Salvatore</forename><surname>Tedeschi</surname></author><editor><forename>Aziz S.</forename><surname>Atiya</surname></editor><pubPlace>New York</pubPlace><publisher>Macmillan Publishing Company</publisher><date>1991</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">1008b-1009a</biblScope><note type="tags"><note type="tag">bm:Tedeschi1991EthiopianPre</note></note><note type="tag">bm:Tedeschi1991EthiopianPre</note><t:citedRange unit="page">1036b-1037b</t:citedRange></t:bibl> 
+         </t:listBibl>
          
-      </body>
-   </text></TEI>
+      </t:body>
+   </t:text></TEI>

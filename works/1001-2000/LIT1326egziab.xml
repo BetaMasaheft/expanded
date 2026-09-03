@@ -1,12 +1,11 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT1326egziab"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
-         <titleStmt><title type="full">ʾƎgziʾabǝḥer nagśa
-                                                  za-ʿĀrke</title>
+         <titleStmt><title type="full">ʾƎgziʾabǝḥer nagśa za-ʿĀrke</title>
             <title xml:lang="gez" xml:id="t1">እግዚአብሔር፡ ነግሠ፡ ዘዓርኬ፡</title>
             <title xml:lang="gez" corresp="#t1" type="normalized">ʾƎgziʾabǝḥer nagśa za-ʿĀrke</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -18,7 +17,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">25.11.2024 at 19:06:56</date><date type="lastModified">21.3.2022</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1326egziab/main</idno><idno type="URI">https://betamasaheft.eu/LIT1326egziab</idno><idno type="filename">LIT1326egziab.xml</idno><idno type="ID">LIT1326egziab</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:15:44</date><date type="lastModified">21.3.2022</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1326egziab/main</idno><idno type="URI">https://betamasaheft.eu/LIT1326egziab</idno><idno type="filename">LIT1326egziab.xml</idno><idno type="ID">LIT1326egziab</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -28,8 +27,9 @@
                <witness type="external" corresp="EMML1542"/>
                <witness type="external" corresp="EMML2081"/>
                <witness type="external" corresp="EMML2090"/>
-               <witness corresp="https://betamasaheft.eu/BNFabb113"/>
-               <witness corresp="https://betamasaheft.eu/BNFabb211"/>
+               <witness corresp="https://betamasaheft.eu/BNFabb113"><idno>BnF Éthiopien d'Abbadie 113</idno></witness>
+               <witness corresp="https://betamasaheft.eu/BNFabb211"><idno facs="https://gallica.bnf.fr/ark:/12148/btv1b10087426k">BnF Éthiopien
+                            d'Abbadie 211</idno></witness>
                <witness corresp="https://betamasaheft.eu/BLorient569"><idno>BL Oriental 569</idno></witness>
                <witness corresp="https://betamasaheft.eu/BLorient542"><idno>BL Oriental 542</idno></witness>
             </listWit>
@@ -39,17 +39,16 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="chapter" match="t:div" use="t:div"><desc><list><item>Introduction</item><item>HedarFirstPart</item><item>Tahsas</item><item>Terr</item><item>Yakkatit</item><item>Maggabit</item><item>Miyazya</item><item>Genbot</item><item>Sane</item><item>Hamle</item><item>Nahase</item><item>Pagwemen</item><item>Maskaram</item><item>Teqemt</item><item>HedarSecondPart</item></list></desc></assertion></assertion></source-url></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="chapter" use="@subtype"><desc><list><item>Introduction</item><item>HedarFirstPart</item><item>Tahsas</item><item>Terr</item><item>Yakkatit</item><item>Maggabit</item><item>Miyazya</item><item>Genbot</item><item>Sane</item><item>Hamle</item><item>Nahase</item><item>Pagwemen</item><item>Maskaram</item><item>Teqemt</item><item>HedarSecondPart</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <t:abstract><t:p>A type of ʾƎgziʾabǝḥer nagśa collection which then developed into <t:ref type="work" corresp="https://betamasaheft.eu/LIT2001Mazmur">Mazmura fǝśśuḥān
-                                                  wa-ṣalota tǝkkuzān</t:ref>.</t:p></t:abstract>
+         <t:abstract><t:p>A type of ʾƎgziʾabǝḥer nagśa collection which then developed into <t:ref type="work" corresp="https://betamasaheft.eu/LIT2001Mazmur">Mazmura fǝśśuḥān wa-ṣalota tǝkkuzān</t:ref>.</t:p></t:abstract>
          <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
          <t:textClass>
             <t:keywords>
@@ -61,13 +60,13 @@
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
-         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
-         <change who="#DR" when="2016-10-19"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Information added</change>
-         <change who="#DR" when="2017-02-20"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Keywords added</change>
-         <change who="#DR" when="2020-03-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected relation</change>
-         <change who="#DR" when="2022-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added abstract and relations</change>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change when="2016-10-19" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Information added</change>
+         <change when="2017-02-20" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Keywords added</change>
+         <change when="2020-03-05" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected relation</change>
+         <change when="2022-03-21" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added abstract and relations</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="saws:isAttributedToAuthor" ref="http://purl.org/saws/ontology#isAttributedToAuthor" active="https://betamasaheft.eu/LIT1326egziab" passive="https://betamasaheft.eu/PRS2036Arkasel"/>
@@ -93,14 +92,14 @@
             </t:listBibl>
             
             <t:listBibl type="secondary">
-               <t:bibl corresp="http://zotero.org/groups/358366/items/N6HPGQK3"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1976Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens de l’Accademia Nazionale dei Lincei: Fonds Conti Rossini et Fonds Caetani 209, 375, 376, 377, 378</title><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>Roma</pubPlace><publisher>Accademia Nazionale dei Lincei</publisher><date>1976</date><series><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><biblScope unit="volume">9</biblScope></series><biblScope unit="volume">9</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Strelcyn1976Catalogue</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Strelcyn1976Catalogue</note><t:citedRange unit="page">124-125</t:citedRange></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/N6HPGQK3"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1976Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens de l’Accademia Nazionale dei Lincei: Fonds Conti Rossini et Fonds Caetani 209, 375, 376, 377, 378</title><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>Roma</pubPlace><publisher>Accademia Nazionale dei Lincei</publisher><date>1976</date><series><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><biblScope unit="volume">9</biblScope></series><biblScope unit="volume">9</biblScope><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:IHABook182</note><note type="tag">bm:Strelcyn1976Catalogue</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:IHABook182</note><note type="tag">bm:Strelcyn1976Catalogue</note><t:citedRange unit="page">124-125</t:citedRange></t:bibl>
             </t:listBibl>            
             
             
             
          </t:div>
          
-         <t:div type="edition">
+         <t:div type="edition" xml:id="div2LIT1326egziab">
             <t:note>The following division into texparts is based on <t:ref type="mss" corresp="https://betamasaheft.eu/BLorient569">London, British Library, BL Oriental 569</t:ref>.</t:note>
             <t:div type="textpart" xml:id="Introduction" subtype="chapter" xml:lang="gez">
                <t:label>Introduction</t:label>

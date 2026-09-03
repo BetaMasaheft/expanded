@@ -7,9 +7,9 @@
             <title xml:lang="gez" xml:id="t2">ድርሳን፡ ዘገብርኤል፡ ሊቀ፡ መላእክት፡</title>
             <title xml:lang="gez" corresp="#t2" type="normalized">Dǝrsān za-Gabrǝʾel liqa
                malāʾǝkt</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -20,7 +20,7 @@
                   </p>
                </licence>
             </availability>
-         <date type="expanded">1.7.2025 at 12:49:44</date><date type="lastModified">23.5.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1284Dersan/main</idno><idno type="URI">https://betamasaheft.eu/LIT1284Dersan</idno><idno type="filename">LIT1284Dersan.xml</idno><idno type="ID">LIT1284Dersan</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:15:44</date><date type="lastModified">10.2.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1284Dersan/main</idno><idno type="URI">https://betamasaheft.eu/LIT1284Dersan</idno><idno type="filename">LIT1284Dersan.xml</idno><idno type="ID">LIT1284Dersan</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -30,109 +30,289 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="chapter" match="div" use="div"><desc><list><item>Maskaram</item><item>Teqemt</item><item>Hedar</item><item>Tahsas</item><item>Terr</item><item>Yakkatit</item><item>Maggabit</item><item>Miyazya</item><item>Genbot</item><item>Sane</item><item>Hamle</item><item>Nahase</item><item>Monday</item><item>Tuesday</item><item>Wednesday</item><item>Thursday</item><item>Friday</item><item>Saturday</item><item>Sunday</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
-         <textClass>
-            <keywords>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="Homily" ana="#Homily"/>
-            </keywords>
-         </textClass>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="chapter" use="@subtype"><citeStructure match="t:div" unit="chapter" use="@subtype"><desc><list><item>TahsasDana</item><item>MiracleSnake</item><item>MiracleLabourer</item><item>CommemorativeTahsas</item><item>SalamTahsas</item><item>ConsecrationDana</item><item>Annunciation</item><item>HomilyZechariah</item><item>MiracleBuilding</item><item>AppearanceEvagrius</item><item>SalamTerr</item><item>HomilyIncarnation</item><item>MiraclePreeminence</item><item>DeathPaphnutius</item><item>SalamYakkatit</item><item>HomilyAthanasius</item><item>AppearanceVirginMary</item><item>SalamMaggabit</item><item>HomilyAbrasit</item><item>MiracleKing</item><item>AppearancePetrosBsoy</item><item>SalamPetrosBsoy</item><item>HomilyMaryEve</item><item>MiracleSatan</item><item>AppearanceBsoy</item><item>SalamBsoy</item><item>HomilyLabourerSatan</item><item>MiracleTwoHornedSnake</item><item>AppearanceTewodros</item><item>SalamSane</item><item>HomilyBlessing</item><item>MiracleParalytic</item><item>AppearanceDaniel</item><item>SalamHamle</item><item>HomilyBaradyos</item><item>MiracleBaradyos</item><item>DeathBsoy</item><item>SalamConsecration</item><item>HomilyFalasforos</item><item>MiracleFalasforos</item><item>AppearanceZechariah</item><item>SalamJohnBaptist</item><item>HomilyAwtrabyos</item><item>HealingBlind</item><item>AppearanceSarapamon1</item><item>SalamSarapamon1</item><item>HomilyVirginMary</item><item>MiracleAwer</item><item>AppearanceSarapamon2</item><item>SalamSarapamon2</item></list></desc></citeStructure><desc><list><item>Tahsas</item><item>Terr</item><item>Yakkatit</item><item>Maggabit</item><item>Miyazya</item><item>Genbot</item><item>Sane</item><item>Hamle</item><item>Nahase</item><item>Maskaram</item><item>Teqemt</item><item>Hedar</item><item>Monday</item><item>Tuesday</item><item>Wednesday</item><item>Thursday</item><item>Friday</item><item>Saturday</item><item>Sunday</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Homily" ana="#Homily"/>
+               <t:term key="Miracle" ana="#Miracle"/>
+               <t:term key="Hagiography" ana="#Hagiography"/>
+               <t:term key="Poetry" ana="#Poetry"/>
+            </t:keywords>
+         </t:textClass>
+         <t:abstract>
+            <t:p><t:foreign xml:lang="gez">Dǝrsāna Gabrǝʾel</t:foreign> is a collection of 12 monthly readings in honour of <t:persName ref="https://betamasaheft.eu/PRS4377Gabriel">Gabriel</t:persName>, beginning with the
+               month of <t:foreign xml:lang="gez">Tāḫśāś</t:foreign> (cf. <t:bibl corresp="http://zotero.org/groups/358366/items/KBEJNK4A"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Samuel2005EAEDersanaGabreel"/><title level="a">Dǝrsanä Gäbrǝʾel</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><name>Samuel Yalew</name></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">137b-138a</biblScope><note type="tags"><note type="tag">bm:Samuel2005EAEDersanaGabreel</note></note><note type="tag">bm:Samuel2005EAEDersanaGabreel</note></t:bibl>). Each section usually includes at least one homily, one miracle, one
+               commemorative note concerning the apparition of the Archangel to a biblical or a saintly figure, and a <t:foreign xml:lang="gez">salām</t:foreign>-hymn to
+               <t:persName ref="https://betamasaheft.eu/PRS4377Gabriel">Gabriel</t:persName> or to other saints or another rhyming strophe in honour of Gabriel, and may also be preceded by a rhyming preamble.
+               In some manuscripts, like <t:ref type="mss" corresp="https://betamasaheft.eu/BAVet82">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 82</t:ref>, the <t:foreign xml:lang="gez">Dǝrsāna Gabrǝʾel</t:foreign> is divided into 7 readings, one for each
+               weekday, and the miracles are grouped separately.
+            </t:p>
+         </t:abstract>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google spreadsheet </change>
-         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
-         <change who="#MV" when="2017-05-23"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added textparts and keywords</change>
-      </revisionDesc>
-   </teiHeader><standOff><listRelation><relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT1284Dersan" passive="https://betamasaheft.eu/PRS4377Gabriel"/>
-                  <relation name="saws:isAttributedToAuthor" ref="http://purl.org/saws/ontology#isAttributedToAuthor" active="https://betamasaheft.eu/LIT1284Dersan#Thursday" passive="https://betamasaheft.eu/PRS11658Archelaus"/>
-               </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="bibliography">
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google spreadsheet </change>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change when="2017-05-23" who="#MV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added textparts and keywords</change>
+         <change when="2025-10-15" who="#MV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added textparts and abstract</change>
+         <change when="2026-01-14" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added textparts from bm:Makweriya1976DersanaGabriel; 
+            deleted texts from edition which are recorded elsewhere, updated abstract</change>
+         <change when="2026-02-10" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updates after review of Massimo Villa</change>
+      </t:revisionDesc>
+   </teiHeader><standOff><listRelation>
+               <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT1284Dersan" passive="https://betamasaheft.eu/PRS4377Gabriel"/>
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
             
-            <listBibl type="secondary">
-               <bibl corresp="http://zotero.org/groups/358366/items/KBEJNK4A"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Samuel2005EAEDersanaGabreel"/><title level="a">Dǝrsanä Gäbrǝʾel</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><name>Samuel Yalew</name></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">137b-138a</biblScope><note type="tags"><note type="tag">bm:Samuel2005EAEDersanaGabreel</note></note><note type="tag">bm:Samuel2005EAEDersanaGabreel</note></bibl>
-            </listBibl>
-         </div>
-         <div type="edition">
-            <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Maskaram">
-               <label>
-                  <foreign xml:lang="gez">Maskaram</foreign>
-               </label>
-            </div>
-            <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Teqemt">
-               <label>
-                  <foreign xml:lang="gez">Ṭǝqǝmt</foreign>
-               </label>
-            </div>
-            <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Hedar">
-               <label>
-                  <foreign xml:lang="gez">Ḫǝdār</foreign>
-               </label>
-            </div>
-            <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Tahsas">
-               <label>
-                  <foreign xml:lang="gez">Tāḫśāś</foreign>
-               </label>
-            </div>
-            <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Terr">
-               <label>
-                  <foreign xml:lang="gez">Ṭǝrr</foreign>
-               </label>
-            </div>
-            <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Yakkatit">
-               <label>
-                  <foreign xml:lang="gez">Yakkātit</foreign>
-               </label>
-            </div>
-            <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Maggabit">
-               <label>
-                  <foreign xml:lang="gez">Maggābit</foreign>
-               </label>
-            </div>
-            <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Miyazya">
-               <label>
-                  <foreign xml:lang="gez">Miyāzyā</foreign>
-               </label>
-            </div>
-            <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Genbot">
-               <label>
-                  <foreign xml:lang="gez">Gǝnbot</foreign>
-               </label>
-            </div>
-            <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Sane">
-               <label>
-                  <foreign xml:lang="gez">Sane</foreign>
-               </label>
-            </div>
-            <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Hamle">
-               <label>
-                  <foreign xml:lang="gez">Ḥamle</foreign>
-               </label>
-            </div>
-            <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Nahase">
-               <label>
-                  <foreign xml:lang="gez">Naḥase</foreign>
-               </label>
-            </div>
-            <div type="textpart" subtype="chapter" xml:id="Monday"/>
-            <div type="textpart" subtype="chapter" xml:id="Tuesday" corresp="https://betamasaheft.eu/LIT3956Homily"/>
-            <div type="textpart" subtype="chapter" xml:id="Wednesday"/>
-            <div type="textpart" subtype="chapter" xml:id="Thursday" corresp="https://betamasaheft.eu/LIT3955Homily">
+            <t:listBibl type="secondary">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/KBEJNK4A"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Samuel2005EAEDersanaGabreel"/><title level="a">Dǝrsanä Gäbrǝʾel</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><name>Samuel Yalew</name></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">137b-138a</biblScope><note type="tags"><note type="tag">bm:Samuel2005EAEDersanaGabreel</note></note><note type="tag">bm:Samuel2005EAEDersanaGabreel</note></t:bibl>
+            </t:listBibl>
+         </t:div>
+            
+        <t:div type="edition" xml:lang="gez" xml:id="div2LIT1284Dersan">
+           <t:note>The following subdivision is based on <t:ref type="mss" corresp="https://betamasaheft.eu/BAVet149">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 149</t:ref>, in which textparts follow a monthly 
+              arrangement.</t:note>
+           <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Tahsas">
+              <t:label xml:lang="en">Reading for the 19th of Tāḫśāś</t:label>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="TahsasDana" corresp="https://betamasaheft.eu/LIT3955Homily">
+                  <t:label xml:lang="en">Introduction concerning the building of the church of St Gabriel in Dana by Archelaus</t:label> 
+               </t:div>       
+           
+              <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="MiracleSnake" corresp="https://betamasaheft.eu/LIT4654MiracleGa">
+                 <t:label xml:lang="en">Miracle of the man who was bitten by a snake</t:label></t:div>
+              <t:note>Included to both the monthly readings of Tāḫśāś and of Maggābit in <t:ref type="mss" corresp="https://betamasaheft.eu/BAVet149">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 149</t:ref>.</t:note>
+              
+              <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="MiracleLabourer" corresp="https://betamasaheft.eu/LIT4655MiracleGa">
+                  <t:label xml:lang="en">Miracle of the labourer whose foot was injured by a stone</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="CommemorativeTahsas">
+                  <t:label xml:lang="en">Commemorative note about the three youths in the furnace.</t:label>
+                  <t:note>According to <t:bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><forename>Sylvain</forename><surname>Grébaut</surname></author><author><forename>Eugène</forename><surname>Tisserant</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note><t:citedRange unit="page">575</t:citedRange></t:bibl>, the commemorative note is 
+                     identical to <t:ref type="work" corresp="https://betamasaheft.eu/LIT1295Dersan#CommemorativeTahsas">Dǝrsāna Mikāʾel: Commemorative notice about
+        the three youths in the furnace</t:ref>, but the Archangel who intervenes is Gabriel instead of Michael.</t:note>
+               </t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="SalamTahsas" corresp="https://betamasaheft.eu/LIT6822SalamLakaAqabi">
+                  <t:label xml:lang="en">Salām-hymn to you, keeper</t:label>
+                  <t:note>According to <t:bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><forename>Sylvain</forename><surname>Grébaut</surname></author><author><forename>Eugène</forename><surname>Tisserant</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note><t:citedRange unit="page">575</t:citedRange></t:bibl>, 
+                     the <t:foreign xml:lang="gez">salām</t:foreign> is identical to <t:ref type="work" corresp="https://betamasaheft.eu/LIT1295Dersan#SalamTahsas">Dǝrsāna Mikāʾel: Salām to you Saints</t:ref>, but it is dedicated to the Archangel
+                     Gabriel instead of Michael.</t:note>
+               </t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="ConsecrationDana" corresp="https://betamasaheft.eu/LIT7717Consecra">
+                  <t:label xml:lang="en">On the consecration of the church of St Gabriel in Dana</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Annunciation" corresp="https://betamasaheft.eu/LIT4035SenkessarDL#Tahs19Gabriel">
+                  <t:label xml:lang="en">On the institution of the feast of the Annunciation</t:label>
+                  <t:note>According to <t:bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><forename>Sylvain</forename><surname>Grébaut</surname></author><author><forename>Eugène</forename><surname>Tisserant</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note><t:citedRange unit="page">575</t:citedRange></t:bibl>, 
+                     the note corresponds to <t:ref type="work" corresp="https://betamasaheft.eu/LIT4035SenkessarDL#Tahs19Gabriel">Sǝnkǝsār (Second revision, Dabra Libānos
+        recension): Commemoration of Gabriel</t:ref>.</t:note>                  
+               </t:div>
+           </t:div>
+           
+           <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Terr">
+              <t:label>Reading for the 19th of Ṭǝrr</t:label>
+              <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="HomilyZechariah" corresp="https://betamasaheft.eu/LIT7718HomilyGab">
+                 <t:label xml:lang="en">Homily on the annunciation of the Archangel Gabriel to Zechariah, father of John the Baptist.</t:label></t:div>
+              <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="MiracleBuilding" corresp="https://betamasaheft.eu/LIT4656MiracleGa">
+                 <t:label xml:lang="en">Miracle of the building of the columns of the altar dedicated to St Gabriel</t:label></t:div>
+            
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="AppearanceEvagrius">
+                  <t:label xml:lang="en">Commemorative note on St Gabriel’s appearance to Evagrius</t:label></t:div>                  
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="SalamTerr" corresp="https://betamasaheft.eu/LIT7719SalamGa"> 
+                  <t:label xml:lang="en">Salām-hymn</t:label></t:div>
+           </t:div>
+            
+            
+           <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Yakkatit">
+              <t:label>Reading for the 19th of Yakkātit</t:label>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="HomilyIncarnation" corresp="https://betamasaheft.eu/LIT7720HomilyGab"> 
+                  
+                  <t:label xml:lang="en">Homily on the Incarnation</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="MiraclePreeminence" corresp="https://betamasaheft.eu/LIT7721MGPreeminence">
+                  <t:label xml:lang="en">Miracle on the preeminence of St Gabriel</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="DeathPaphnutius">
+                  <t:label xml:lang="en">Commemorative note on the death of St Paphnutius and the appearance of the Archangel Gabriel.</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="SalamYakkatit" corresp="https://betamasaheft.eu/LIT7722SalamPaph">
+                  <t:label xml:lang="en">Salām-hymn in honour of Paphnutius</t:label></t:div>
+           </t:div>
+           
+           
+           <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Maggabit">
+              <t:label>Reading for the 19th of Maggābit</t:label>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="HomilyAthanasius" corresp="https://betamasaheft.eu/LIT7723HomilyAthGab">
+                  <t:label xml:lang="en">Homily by Athanasius of Alexandria on St Gabriel at the time of Jesus Christ’s death</t:label></t:div>
+           
+
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="AppearanceVirginMary">
+                  <t:label xml:lang="en">Commemorative note on St Gabriel's appearance to the Virgin Mary</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="SalamMaggabit" corresp="https://betamasaheft.eu/LIT7724SalamGab">
+                  <t:label xml:lang="en">Salām-hymn</t:label></t:div>
+           </t:div>
+            
+           <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Miyazya">
+              <t:label>Reading for the 19th of Miyāzyā</t:label>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="HomilyAbrasit" corresp="https://betamasaheft.eu/LIT7725HomilyEpiph">
+                  <t:label xml:lang="en">Homily by Epiphanius, bishop of Cyprus, on King ʾAbrāsit and his son ʾAwǝr</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="MiracleKing" corresp="https://betamasaheft.eu/LIT7197MGKing">
+                  <t:label xml:lang="en">On the apparition of St Gabriel to a king who did not want to build the church</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="AppearancePetrosBsoy">
+                  <t:label xml:lang="en">Commemorative note on St Gabriel’s appearance to ʾAbbā Ṗeṭros and ʾAbbā Bǝsoy</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="SalamPetrosBsoy" corresp="https://betamasaheft.eu/LIT7726SalamPetrosBsoy"> 
+                  <t:label xml:lang="en">Salām-hymn to ʾAbbā Ṗeṭros and ʾAbbā Bǝsoy</t:label></t:div>
+           </t:div>
+           
+           <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Genbot">
+              <t:label>Reading for the 19th of Gǝnbot</t:label>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="HomilyMaryEve" corresp="https://betamasaheft.eu/LIT7727HomilyJCMaryEve"> 
+                  <t:label xml:lang="en">Homily by John Chrysostom on Mary and Eve and the building of the church</t:label></t:div>
+              
+              <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="MiracleSatan" corresp="https://betamasaheft.eu/LIT7204MGSatan">
+                 <t:label xml:lang="en">Miracle concerning how Satan tried to interfere with the building of the church</t:label></t:div>
                
-            </div>
-            <div type="textpart" subtype="chapter" xml:id="Friday"/>
-            <div type="textpart" subtype="chapter" xml:id="Saturday"/>
-            <div type="textpart" subtype="chapter" xml:id="Sunday" corresp="https://betamasaheft.eu/LIT7199MGFalasforos"/>
-         </div>
-      </body>
-   </text></TEI>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="AppearanceBsoy">
+                  <t:label xml:lang="en">Commemorative note on St Gabriel’s appearance to ʾAbbā Bǝsoy</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="SalamBsoy" corresp="https://betamasaheft.eu/LIT7728SalamBsoy">  
+                  <t:label xml:lang="en">Salām-hymn to ʾAbbā Bǝsoy</t:label></t:div>
+           </t:div>
+           
+           <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Sane">
+           <t:label>Reading for the 19th of Sane</t:label>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="HomilyLabourerSatan" corresp="https://betamasaheft.eu/LIT7205MGWorker"> 
+                  <t:label xml:lang="en">Homily on the labourer whom Satan stoned</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="MiracleTwoHornedSnake" corresp="https://betamasaheft.eu/LIT7730MGTwohorned">
+                  <t:label xml:lang="en">Miracle of the two-horned serpent that bit a man</t:label></t:div>
+           
+           <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="AppearanceTewodros">
+              <t:label xml:lang="en">Commemorative note on St Gabriel’s appearance to St Tewodros, who received a white horse from him</t:label></t:div>
+              
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="SalamSane" corresp="https://betamasaheft.eu/LIT7731SalamGaMi">
+                  <t:label xml:lang="en">Salām-hymn to Gabriel and Michael</t:label></t:div>
+           </t:div>
+            
+           <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Hamle">
+              <t:label>Reading for the 19th of Ḥamle</t:label>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="HomilyBlessing" corresp="https://betamasaheft.eu/LIT7207MGBlessing">
+                  <t:label xml:lang="en">Homily on the labourer blessed for the construction of a church</t:label></t:div>        
+               
+              <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="MiracleParalytic" corresp="https://betamasaheft.eu/LIT7200MGParalytic">
+                 <t:label xml:lang="en">Miracle of the healing of a paralytic and leprous man</t:label></t:div>
+               
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="AppearanceDaniel">
+                  <t:label xml:lang="en">Commemorative note on St Gabriel’s appearance to the prophet Daniel</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="SalamHamle" corresp="https://betamasaheft.eu/LIT7732SalamGa">
+                  <t:label xml:lang="en">Salām-hymn</t:label></t:div>
+           </t:div>
+            
+           <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Nahase">
+              <t:label>Reading for the 19th of Naḥase</t:label>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="HomilyBaradyos" corresp="https://betamasaheft.eu/LIT7208MGBaradyos">
+                  <t:label xml:lang="en">Homily on Barādyos, who asked a rich man for money</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="MiracleBaradyos" corresp="https://betamasaheft.eu/LIT7733MGBaradyos"> 
+                  <t:label xml:lang="en">Miracle on Barādyos i.e., continuation of the homily on Barādyos</t:label></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="DeathBsoy">
+                  <t:label xml:lang="en">On the death of ʾAbbā Bǝsoy in the monastery of St Macarius</t:label></t:div>
+              
+              <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="SalamConsecration" corresp="https://betamasaheft.eu/LIT7734SalamConsec">
+                 <t:label xml:lang="en">Salām-hymn in honour of the consecration of the church of the Archangel Gabriel</t:label></t:div>
+           </t:div>
+           
+              <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Maskaram">
+                 <t:label>Reading for the 19th of Maskaram</t:label>
+           
+                 <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="HomilyFalasforos" corresp="https://betamasaheft.eu/LIT7199MGFalasforos">
+                    <t:label xml:lang="en">Homily (Miracle) concerning the merchant Falāsforos</t:label>
+                    <t:note>Miracle concerning the merchant Falāsforos, which takes place of a homily read for Maskaram in 
+                       <t:ref type="mss" corresp="https://betamasaheft.eu/BAVet149">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 149</t:ref>.</t:note></t:div>
+           
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="MiracleFalasforos" corresp="https://betamasaheft.eu/LIT7201MGFalasfaros2">
+                  <t:label xml:lang="en">Miracle on Falāsforos i.e., continuation of the homily on Falāsforos</t:label></t:div>
+            
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="AppearanceZechariah">
+                  <t:label xml:lang="en">Commemorative note on St Gabriel’s appearance to Zechariah</t:label></t:div>
+            
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="SalamJohnBaptist" corresp="https://betamasaheft.eu/LIT7735SalamJohn">
+                  <t:label xml:lang="en">Salām-hymn in honour of John the Baptist</t:label></t:div>
+              </t:div>
+            
+           <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Teqemt">
+              <t:label>Reading for the 19th of Ṭǝqǝmt</t:label>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="HomilyAwtrabyos" corresp="https://betamasaheft.eu/LIT7209MGAwtrabyos">
+                  <t:label xml:lang="en">Homily on ʾAwṭrābiyos and his wife Qisārya</t:label></t:div>
+            
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="HealingBlind" corresp="https://betamasaheft.eu/LIT7202MGStatue">
+                  <t:label xml:lang="en">Healing of the blind who was born before the image of St Gabriel</t:label></t:div>
+            
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="AppearanceSarapamon1">
+                  <t:label xml:lang="en">Commemorative note on St Gabriel’s appearance to St Sarabāmon</t:label></t:div>
+            
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="SalamSarapamon1" corresp="https://betamasaheft.eu/LIT7736SalamSarab"> 
+                  <t:label xml:lang="en">Salām-hymn in honour of St Sarabāmon</t:label></t:div>
+           </t:div>
+
+           <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Hedar">
+              <t:label>Reading for the 19th of Ḫǝdār</t:label>
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="HomilyVirginMary" corresp="https://betamasaheft.eu/LIT7737HomilyInc"> 
+                  <t:label xml:lang="en">Homily on the dialogue between Gabriel and the Virgin Mary on the Incarnation</t:label></t:div>
+            
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="MiracleAwer" corresp="https://betamasaheft.eu/LIT7210MGAwer">
+                  <t:label xml:lang="en">Miracle of the bishop ʾAbbā ʾAwǝr</t:label></t:div>
+            
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="AppearanceSarapamon2">
+                  <t:label xml:lang="en">Commemorative note on St Gabriel’s appearance to the father of St Sarabāmon</t:label></t:div>
+            
+               <t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="SalamSarapamon2" corresp="https://betamasaheft.eu/LIT7739SalamSarab">
+                  <t:label xml:lang="en">Salām-hymn in honour of St Sarabāmon</t:label></t:div>
+        </t:div>
+        </t:div>
+         
+         <t:div type="edition" xml:lang="gez" xml:id="div3LIT1284Dersan">
+            <t:note>The following text is based on <t:ref type="mss" corresp="https://betamasaheft.eu/BAVet82">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 82</t:ref>, in which textparts follow a weekly arrangement.</t:note>
+            <t:div type="textpart" subtype="chapter" xml:id="Monday" corresp="https://betamasaheft.eu/LIT7718HomilyGab"/> 
+                         
+            <t:div type="textpart" subtype="chapter" xml:id="Tuesday" corresp="https://betamasaheft.eu/LIT3956Homily">
+               <t:label xml:lang="en">Homily by ʾAbāwre Bishop of <t:placeName ref="https://betamasaheft.eu/LOC3066Fayyum">Fayyum</t:placeName> on the glorious angel Gabriel.</t:label></t:div>
+            
+            <t:div type="textpart" subtype="chapter" xml:id="Wednesday" corresp="https://betamasaheft.eu/LIT7740HomilyGab#First">               
+               <t:label>Anonymous homily to be read on Wednesday.</t:label></t:div>
+            
+            <t:div type="textpart" subtype="chapter" xml:id="Thursday" corresp="https://betamasaheft.eu/LIT3955Homily">
+               <t:label xml:lang="en">Homily concerning the building of the church of St Gabriel in Dana by Archelaus.</t:label></t:div>
+            
+            <t:div type="textpart" subtype="chapter" xml:id="Friday" corresp="https://betamasaheft.eu/LIT7740HomilyGab#Second"> 
+               <t:note>Continuation of the anonymous homily of Wednesday, to be read on Friday.</t:note></t:div>
+            
+            <t:div type="textpart" subtype="chapter" xml:id="Saturday" corresp="https://betamasaheft.eu/LIT7208MGBaradyos">
+               <t:label xml:lang="en">Homily on Barādyos, who asked a rich man for money.</t:label></t:div>
+            
+            <t:div type="textpart" subtype="chapter" xml:id="Sunday" corresp="https://betamasaheft.eu/LIT7199MGFalasforos">
+               <t:label xml:lang="en">Homily on the merchant Falāsforos.</t:label></t:div>
+         </t:div>
+
+      </t:body>
+   </t:text></TEI>

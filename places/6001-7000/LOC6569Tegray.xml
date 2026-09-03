@@ -2,10 +2,10 @@
         <fileDesc>
             <titleStmt><title type="full">Tǝgrāy</title>
                 <title>Tǝgrāy (historical "province")</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="FP" corresp="https://betamasaheft.eu/team.html#FP" xml:id="FP">Francesca Panini</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-FP" corresp="https://betamasaheft.eu/team.html#FP"><resp>editor</resp><name>Francesca Panini</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#FP" xml:id="ed-FP"><resp>editor</resp><name>Francesca Panini</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -16,7 +16,7 @@
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
 
-            <date type="expanded">19.2.2024 at 09:23:24</date><date type="lastModified">14.7.2017</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC6569Tegray/main</idno><idno type="URI">https://betamasaheft.eu/LOC6569Tegray</idno><idno type="filename">LOC6569Tegray.xml</idno><idno type="ID">LOC6569Tegray</idno></publicationStmt>
+            <date type="expanded">3.9.2026 at 10:36:20</date><date type="lastModified">14.7.2017</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC6569Tegray/main</idno><idno type="URI">https://betamasaheft.eu/LOC6569Tegray</idno><idno type="filename">LOC6569Tegray.xml</idno><idno type="ID">LOC6569Tegray</idno></publicationStmt>
             <sourceDesc>
                 <p>A TEI file created from original data</p>
             </sourceDesc>
@@ -25,110 +25,110 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-        <profileDesc>
-            <langUsage><language ident="en">English</language><language ident="am">Amharic</language><language ident="ti">Tigrinya</language></langUsage>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <t:langUsage><t:language ident="en">English</t:language><t:language ident="am">Amharic</t:language><t:language ident="ti">Tigrinya</t:language></t:langUsage>
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-        <revisionDesc>
-            <change who="#FP" when="2017-07-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added info </change>
-            <change who="#FP" when="2017-04-13"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added info</change>
-            <change who="#FP" when="2016-10-18"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: place</change>
-        </revisionDesc>
-    </teiHeader><text xml:base="https://betamasaheft.eu/">
-        <body>
-            <listPlace>
-                <place type="area province">
-                    <placeName xml:id="n1" xml:lang="ti">ትግራይ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Tǝgrāy</placeName>
-                    <placeName xml:id="n2" xml:lang="am" type="alt">ትግሬ፡</placeName>
-                    <placeName corresp="#n2" xml:lang="am" type="normalized">Tǝgre</placeName>
-                    <placeName xml:id="n3" xml:lang="ti" type="alt">ተከዜ፡ ምላሽ፡</placeName>
-                    <placeName corresp="#n3" xml:lang="ti" type="normalized">Takkaze
-                        Mǝllaš</placeName>
-                    <placeName corresp="#n3" xml:lang="en">beyond the Takkaze
-               </placeName>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <change when="2017-07-14" who="#FP"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added info </change>
+            <change when="2017-04-13" who="#FP"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added info</change>
+            <change when="2016-10-18" who="#FP"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: place</change>
+        </t:revisionDesc>
+    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+        <t:body>
+            <t:listPlace>
+                <t:place type="area province">
+                    <t:placeName xml:id="n1" xml:lang="ti">ትግራይ፡</t:placeName>
+                    <t:placeName corresp="#n1" xml:lang="ti" type="normalized">Tǝgrāy</t:placeName>
+                    <t:placeName xml:id="n2" xml:lang="am" type="alt">ትግሬ፡</t:placeName>
+                    <t:placeName corresp="#n2" xml:lang="am" type="normalized">Tǝgre</t:placeName>
+                    <t:placeName xml:id="n3" xml:lang="ti" type="alt">ተከዜ፡ ምላሽ፡</t:placeName>
+                    <t:placeName corresp="#n3" xml:lang="ti" type="normalized">Takkaze
+                        Mǝllaš</t:placeName>
+                    <t:placeName corresp="#n3" xml:lang="en">beyond the Takkaze
+               </t:placeName>
                     
-                    <state type="existence" notAfter="1991"/>
+                    <t:state type="existence" notAfter="1991"/>
 
-                    <country ref="https://betamasaheft.eu/LOC3010Ethiop">ኢትዮጵያ</country>
+                    <t:country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:country>
                    
                        
                     
-                    <listBibl type="secondary">
-                        <bibl corresp="http://zotero.org/groups/358366/items/994UHF4J"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Smidt2010EnAeTegray"/><title level="a">Tǝgray</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Wolbert</forename><surname>Smidt</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">888a-895a</biblScope><note type="tags"><note type="tag">bm:Smidt2010EnAeTegray</note></note><note type="tag">bm:Smidt2010EnAeTegray</note></bibl>
-                        <bibl xml:id="Cosma" corresp="http://zotero.org/groups/358366/items/AXNTI7EC"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:WolskaConusCosma"/><title level="m">Cosmas Indicopleustès. Topographie Chrétienne&lt;hi rend="italics"&gt;, I:  &lt;/hi&gt;Livres I–IV</title><title level="s">Sources chrétiennes</title><editor><forename>Wanda</forename><surname>Wolska-Conus</surname></editor><pubPlace>Paris</pubPlace><publisher>Cerf</publisher><date>1968</date><series><title level="s">Sources chrétiennes</title><biblScope unit="volume">141</biblScope></series><biblScope unit="volume">141</biblScope><note type="tags"><note type="tag">bm:WolskaConusCosma</note></note><note type="tag">bm:WolskaConusCosma</note></bibl>
-                        <bibl corresp="http://zotero.org/groups/358366/items/DTJ8PV75"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:MantelNiecko2003EnAeAdministrative"/><title level="a">Administrative division</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Joanna</forename><surname>Mantel-Niećko</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">97b-103a</biblScope><note type="tags"><note type="tag">bm:MantelNiecko2003EnAeAdministrative</note></note><note type="tag">bm:MantelNiecko2003EnAeAdministrative</note></bibl>
-                    </listBibl>
+                    <t:listBibl type="secondary">
+                        <t:bibl corresp="http://zotero.org/groups/358366/items/994UHF4J"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Smidt2010EnAeTegray"/><title level="a">Tǝgray</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Wolbert</forename><surname>Smidt</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">888a-895a</biblScope><note type="tags"><note type="tag">bm:Smidt2010EnAeTegray</note></note><note type="tag">bm:Smidt2010EnAeTegray</note></t:bibl>
+                        <t:bibl xml:id="Cosma" corresp="http://zotero.org/groups/358366/items/AXNTI7EC"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:WolskaConusCosma"/><title level="m">Cosmas Indicopleustès. Topographie Chrétienne&lt;hi rend="italics"&gt;, I:  &lt;/hi&gt;Livres I–IV</title><title level="s">Sources chrétiennes</title><editor><forename>Wanda</forename><surname>Wolska-Conus</surname></editor><pubPlace>Paris</pubPlace><publisher>Cerf</publisher><date>1968</date><series><title level="s">Sources chrétiennes</title><biblScope unit="volume">141</biblScope></series><biblScope unit="volume">141</biblScope><note type="tags"><note type="tag">bm:WolskaConusCosma</note></note><note type="tag">bm:WolskaConusCosma</note></t:bibl>
+                        <t:bibl corresp="http://zotero.org/groups/358366/items/DTJ8PV75"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:MantelNiecko2003EnAeAdministrative"/><title level="a">Administrative division</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Joanna</forename><surname>Mantel-Niećko</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">97b-103a</biblScope><note type="tags"><note type="tag">bm:MantelNiecko2003EnAeAdministrative</note></note><note type="tag">bm:MantelNiecko2003EnAeAdministrative</note></t:bibl>
+                    </t:listBibl>
 
-                    <note>
-                        <ab type="description">A historical province in the Ethiopian-Eritrean highlands, to the south of the river <placeName ref="https://betamasaheft.eu/LOC5864Takkaz">Takkaze</placeName> (hence sometimes referred to as Takkaze
-                            Mǝllaš).</ab>
-                        <ab type="history">The origins of Tǝgrāy and its population are ancient and
+                    <t:note>
+                        <t:ab type="description">A historical province in the Ethiopian-Eritrean highlands, to the south of the river <t:placeName ref="https://betamasaheft.eu/LOC5864Takkaz">Takkaze</t:placeName> (hence sometimes referred to as Takkaze
+                            Mǝllaš).</t:ab>
+                        <t:ab type="history">The origins of Tǝgrāy and its population are ancient and
                             complex, with Cushitic, Semitic, South Arabian and Sabaic elements and
                             interactions. Pre-Aksumite inscriptions show that the area of historical
                             Tǝgrāy was marked by a Sabaic-influenced kingdom, which had merged with
                             a local culture. In later Aksumite times migration again linked both
                             sides of the Red Sea, with Aksumite settlements also on the Arabian
-                            side. A variant of the term Tǝgrāy first appears in a <date notBefore="0900" notAfter="0999">10th-century</date> gloss to
-                                <persName ref="https://betamasaheft.eu/PRS3204CosmasI">Cosmas Indicopleustes</persName>,
+                            side. A variant of the term Tǝgrāy first appears in a <t:date notBefore="0900" notAfter="0999">10th-century</t:date> gloss to
+                                <t:persName ref="https://betamasaheft.eu/PRS3204CosmasI">Cosmas Indicopleustes</t:persName>,
                             although its origin and meaning are unclear. Probably three main phases
                             in the development of the toponym "Tǝgrāy" (toponym probably of ethnic
                             origin) can be identified. 1) HISTORICAL TƎGRĀY: Historical Tǝgrāy was
-                            the most important northern province of <placeName ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</placeName> due to its symbolic, economic and strategic
-                            power. It encompassed <placeName ref="https://betamasaheft.eu/LOC1264Adwa">ʿAdwā</placeName>,
-                                <placeName ref="https://betamasaheft.eu/LOC1310Aksum">ʾAksum</placeName> and <placeName ref="https://betamasaheft.eu/LOC6384Yeha">Yǝḥa</placeName>, but it also extended and
+                            the most important northern province of <t:placeName ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:placeName> due to its symbolic, economic and strategic
+                            power. It encompassed <t:placeName ref="https://betamasaheft.eu/LOC1264Adwa">ʿAdwā</t:placeName>,
+                                <t:placeName ref="https://betamasaheft.eu/LOC1310Aksum">ʾAksum</t:placeName> and <t:placeName ref="https://betamasaheft.eu/LOC6384Yeha">Yǝḥa</t:placeName>, but it also extended and
                             controlled adjacent territories, periodically including other areas
                             beyond its central core. Territories that were often and for long
-                            periods of time subject to Tǝgrāy's control include <placeName ref="https://betamasaheft.eu/LOC3826Hawzen">Ḥawzen</placeName> and <placeName ref="https://betamasaheft.eu/LOC2973Enticc">Ǝnṭiḉḉo</placeName> and sometimes also
-                                <placeName ref="https://betamasaheft.eu/LOC5749Sire">Šire</placeName> and <placeName ref="https://betamasaheft.eu/LOC5882Tamben">Tamben</placeName>. Tǝgrāy was densely populated
+                            periods of time subject to Tǝgrāy's control include <t:placeName ref="https://betamasaheft.eu/LOC3826Hawzen">Ḥawzen</t:placeName> and <t:placeName ref="https://betamasaheft.eu/LOC2973Enticc">Ǝnṭiḉḉo</t:placeName> and sometimes also
+                                <t:placeName ref="https://betamasaheft.eu/LOC5749Sire">Šire</t:placeName> and <t:placeName ref="https://betamasaheft.eu/LOC5882Tamben">Tamben</t:placeName>. Tǝgrāy was densely populated
                             since ancient times and the source of migration movements towards
                             other areas. The capital of historical Tǝgrāy changed over time:
-                                <placeName ref="https://betamasaheft.eu/LOC3826Hawzen">Ḥawzen</placeName> was capital for
-                            periods of time in both the <date notBefore="1600" notAfter="1699">17th</date> and the <date notBefore="1800" notAfter="1899">19th
-                                century</date>; <placeName ref="https://betamasaheft.eu/LOC1264Adwa">ʿAdwā</placeName>
-                            became capital in the <date notBefore="1700" notAfter="1799">18th
-                                century</date> and competed for this role with <placeName ref="https://betamasaheft.eu/LOC4545Maqala">Maqala</placeName> in the last decades of this
+                                <t:placeName ref="https://betamasaheft.eu/LOC3826Hawzen">Ḥawzen</t:placeName> was capital for
+                            periods of time in both the <t:date notBefore="1600" notAfter="1699">17th</t:date> and the <t:date notBefore="1800" notAfter="1899">19th
+                                century</t:date>; <t:placeName ref="https://betamasaheft.eu/LOC1264Adwa">ʿAdwā</t:placeName>
+                            became capital in the <t:date notBefore="1700" notAfter="1799">18th
+                                century</t:date> and competed for this role with <t:placeName ref="https://betamasaheft.eu/LOC4545Maqala">Maqala</t:placeName> in the last decades of this
                             century. Tǝgrāy owed part of its importance to the sacred town of
-                                <placeName ref="https://betamasaheft.eu/LOC1310Aksum">ʾAksum</placeName> that was part of
+                                <t:placeName ref="https://betamasaheft.eu/LOC1310Aksum">ʾAksum</t:placeName> that was part of
                             its territory, although enjoyed its own self-government. During the
                             Zamana masāfǝnt, Tǝgrāy was one of the most important self-governed
-                            provinces. 2) TƎGRĀY PROVINCE: <persName ref="https://betamasaheft.eu/PRS10378Yohanne">Yoḥannǝs
-                                IV</persName> (<date when="1871">1871</date>-<date when="1889">1889</date>) and his successors unified historical Tǝgrāy and other
+                            provinces. 2) TƎGRĀY PROVINCE: <t:persName ref="https://betamasaheft.eu/PRS10378Yohanne">Yoḥannǝs
+                                IV</t:persName> (<t:date when="1871">1871</t:date>-<t:date when="1889">1889</t:date>) and his successors unified historical Tǝgrāy and other
                             northern territories, so that in the 20th century, historical Tǝgrāy
                             became a province of its own within a larger administrative province
-                            also called Tǝgrāy/Tǝgre. After <persName ref="https://betamasaheft.eu/PRS10378Yohanne">Yoḥannǝs
-                                IV</persName>, Tǝgrāy lost importance and was subject to outside
+                            also called Tǝgrāy/Tǝgre. After <t:persName ref="https://betamasaheft.eu/PRS10378Yohanne">Yoḥannǝs
+                                IV</t:persName>, Tǝgrāy lost importance and was subject to outside
                             pressure and challenges. Much of Tǝgrāy was briefly occupied by the
-                            Italians in the foremath of the <date when="1896">1896</date> Battle of
-                                <placeName ref="https://betamasaheft.eu/LOC1264Adwa">ʿAdwā</placeName> and it was one of the
-                            major battle grounds during the Italian War (<date when="1935">1935</date>–<date when="1936">1936</date>). During the Italian
+                            Italians in the foremath of the <t:date when="1896">1896</t:date> Battle of
+                                <t:placeName ref="https://betamasaheft.eu/LOC1264Adwa">ʿAdwā</t:placeName> and it was one of the
+                            major battle grounds during the Italian War (<t:date when="1935">1935</t:date>–<t:date when="1936">1936</t:date>). During the Italian
                             occupation, Tǝgrāy was incorporated into the Eritrean Colony and after
-                                <date when="1941">1941</date> was again reunited with <placeName ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</placeName>, although it was
+                                <t:date when="1941">1941</t:date> was again reunited with <t:placeName ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:placeName>, although it was
                             increasingly marginalized and victim of centralization, political
                             suppression, forced resettlement and famines. In 1946, Tǝgre became one
-                            of 12 ṭaqlāy gǝzāts with capital <placeName ref="https://betamasaheft.eu/LOC4545Maqala">Maqala</placeName> and the governors of this province maintained
+                            of 12 ṭaqlāy gǝzāts with capital <t:placeName ref="https://betamasaheft.eu/LOC4545Maqala">Maqala</t:placeName> and the governors of this province maintained
                             strong political ties with their provinces also in the late 1960s. After
                             the Revolution of 1974, Tǝgre changed name to Tǝgrāy and
                             administratively became a kǝfla hāgar. With the promulgation of the 1987
                             Constitution, Tǝgrāy became one of five "autonomous regions" (yarās gaz
                             ʾakkābābi) Tǝgrāy was the cradle of resistance movements that took power
-                            in <date when="1991">1991</date>. 3) TƎGRĀY KƎLLƎL: Tǝgrāy went through
-                            several administrative changes through its history, until in <date when="1991">1991</date> it changed its administrative status
-                            becoming one of <placeName ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</placeName>'s
+                            in <t:date when="1991">1991</t:date>. 3) TƎGRĀY KƎLLƎL: Tǝgrāy went through
+                            several administrative changes through its history, until in <t:date when="1991">1991</t:date> it changed its administrative status
+                            becoming one of <t:placeName ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:placeName>'s
                             kǝllǝl and came to incorporate territories that had previously not been
                             part of the historical province (as well as losing others). See
-                                <placeName ref="https://betamasaheft.eu/LOC5932Tegray">Tǝgrāy National Regional
-                                State</placeName>.</ab>
-                    </note>
-                </place>
-            </listPlace>
-        </body>
-    </text></TEI>
+                                <t:placeName ref="https://betamasaheft.eu/LOC5932Tegray">Tǝgrāy National Regional
+                                State</t:placeName>.</t:ab>
+                    </t:note>
+                </t:place>
+            </t:listPlace>
+        </t:body>
+    </t:text></TEI>

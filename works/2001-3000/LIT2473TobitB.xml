@@ -3,9 +3,12 @@
          <titleStmt><title type="full">Tobit, Book of</title>
             <title xml:id="t1">Tobit, Book of</title>
             <title type="short">Tob.</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <editionStmt>            
+            <p>The text provided in this record has been digitized from modern Vulgata printed editions and converted to XML by the Bm team. For the version digitized from a critical edition visit also <ref target="https://www.tau.ac.il/~hacohen/Biblia.html">https://www.tau.ac.il/~hacohen/Biblia.html</ref>.</p>
+         </editionStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -17,7 +20,7 @@
                 Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
-         <date type="expanded">5.6.2025 at 14:39:32</date><date type="lastModified">5.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2473TobitB/main</idno><idno type="URI">https://betamasaheft.eu/LIT2473TobitB</idno><idno type="filename">LIT2473TobitB.xml</idno><idno type="ID">LIT2473TobitB</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:15:18</date><date type="lastModified">5.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2473TobitB/main</idno><idno type="URI">https://betamasaheft.eu/LIT2473TobitB</idno><idno type="filename">LIT2473TobitB.xml</idno><idno type="ID">LIT2473TobitB</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -27,356 +30,356 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="chapter" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item></list></desc><citeStructure unit="l" match="l" use="l"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
-         <textClass>
-            <keywords>
-               <term key="Bible" ana="#Bible"/>
-               <term key="OldTestament" ana="#OldTestament"/>
-               <term key="Apocrypha" ana="#Apocrypha"/>
-            </keywords>
-         </textClass>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="chapter" use="@n"><citeStructure match="t:l" unit="t:l" use="@n"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item></list></desc></citeStructure><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage>
+            <t:language ident="en">English</t:language>
+            <t:language ident="gez">Gǝʿǝz</t:language>
+         </t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="Bible" ana="#Bible"/>
+               <t:term key="OldTestament" ana="#OldTestament"/>
+               <t:term key="Apocrypha" ana="#Apocrypha"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
-         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
-         <change who="#DR" when="2017-12-08"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added bibliography and keywords</change>
-         <change who="#ES" when="2025-06-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
-      </revisionDesc>
-   </teiHeader><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="bibliography">
-            <listBibl type="editions">
-               <bibl corresp="http://zotero.org/groups/358366/items/GE34C4XW"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Dillmann1894VetTest"/><title level="m">Biblia Veteris Testamenti Aethiopica: in quinque tomos distributa, ad librorum manuscriptorum fidem edidit et apparatu critico instruxit,&lt;hi rend="italics"&gt; V: &lt;/hi&gt;Libri Apocryphi, Baruch, Epistola Jeremiae, Tobith, Judith, Ecclesiasticus, Sapientia, Esdrae Apocalypsis, Esdrae Graecus</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Christian Friedrich August</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Dillmann</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Christian Friedrich August</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Dillmann</t:surname></editor><pubPlace>Berolini</pubPlace><publisher>Prostat apud A. Asher et Socios</publisher><date>1894</date><note type="url">http://digitale-sammlungen.ulb.uni-bonn.de/content/titleinfo/69640</note><citedRange unit="page">11-27</citedRange></bibl>
-            </listBibl>
-         </div>
-         <div type="edition" xml:lang="gez">
-            <note>Text of the EOTC printed Bible</note>
-            <div type="textpart" subtype="chapter" n="1" xml:id="chapter1">
-               <label>Chapter 1</label>
-               <ab>
-                  <l n="1">መጽሐፍ፡ ነገሩ፡ ለጦብያ፡ ወልደ፡ ጦቢት፡ ወልደ፡ ገባኤል፡ ዘእምነ፡ አሳሔል፡ ዘእምነገደ፡ ንፍታሌም።</l>
-                  <l n="2">ዘተፄወወ፡ በመዋዕለ፡ አኔሜሴር፡ ንጉሠ፡ ፋርስ፡ ዘእምታቢስ፡ እንተ፡ እምየማና፡ ለቃዴስ፡ ዘእንተ፡ ንፍታሌም፡ ዘገሊላ፡ እንተ፡ መልዕልተ፡ አሴር።</l>
-                  <l n="3">አነ፡ ጦቢት፡ በፍኖተ፡ ጽድቅ፡ ሖርኩ፡ ወበርትዕ፡ ሐየውኩ፡ በኵሉ፡ መዋዕለ፡ ሕይወትየ፡ ወምጽዋትየኒ፡ ብዙኃ፡ ገበርኩ፡ ለአኃውየ፡ ወለሕዝብየኒ፡ እለ፡ ሖሩ፡ ምስሌየ፡ ብሔረ፡ ፋርስ፡ ውስተ፡ ነነዌ።</l>
-                  <l n="4">ወእንዘ፡ ሀሎኩ፡ ምስለ፡ ደቂቀ፡ እስራኤል፡ በብሔርየ፡ እንዘ፡ ንዑስ፡ አነ፡ ወኵሉ፡ ሕዝበ፡ ንፍታሌም፡ ወአቡየ፡ ክህዱ፡ እምነ፡ ኢየሩሳሌም፡ እንተ፡ ኃረይዋ፡ እምነ፡ ኵሉ፡ እስራኤል፡ ከመ፡ ይሡዑ፡ ውስቴታ፡ ኵሉ፡ እስራኤል፡ ወተቀደሰ፡ ጽርሐ፡ መቅደሱ፡ ለልዑል፡ ወተሐንፀ፡ ሎሙ፡ ለትውልድ፡ ዘለዓለም።</l>
-                  <l n="5">ወኵሉ፡ ሕዝብ፡ እለ፡ ክህዱ፡ ሦዑ፡ ለበዓል፡ ወለደማሊ፡ ወቤተ፡ ንፍታሌምኒ፡ ወቤተ፡ አቡየ፡ ኀብሩ፡ ምስሌሆሙ።</l>
-                  <l n="6">ወአነ፡ ባሕቲትየ፡ መብዝኅቶ፡ አሐውር፡ ኢየሩሳሌም፡ አመ፡ በዓላት፡ በከመ፡ ጽሑፍ፡ ለኵሉ፡ እስራኤል፡ ውስተ፡ ትእዛዝ፡ ዘለዓለም፡ እምነ፡ ቀዳሚት፡ ዘቀረጽኩ፡ እወስድ፡ ሎሙ፡ ለካህናት፡ ለደቂቀ፡ አሮን፡ ኀበ፡ ምሥዋዕ፡ ኵሎ፡ እክለ።</l>
-                  <l n="7">ወቀዳሜ፡ ኵሉ፡ ዓሥራት፡ እሁቦሙ፡ ለደቂቀ፡ አሮን፡ እለ፡ ይፀመዱ፡ ኢየሩሳሌም፡ ወዘዳግመ፡ ዓሥራተ፡ እዔሥር፡ ወአስተዋጽእ፡ ምጽዋተ፡ ወአሐውር፡ ኢየሩሳሌም፡ በበዓመት።</l>
-                  <l n="8">ወሣልስተ፡ እሁብ፡ ለነዳያን፡ በከመ፡ አዘዘት፡ ዲቦራ፡ እሙ፡ ለአቡየ፡ እስመ፡ ዕጓለ፡ ማውታ፡ ኀደጉኒ፡ አቡየ፡ ወእምየ።</l>
-                  <l n="9">ወአመ፡ ኮንኩ፡ ብእሴ፡ ነሣእኩ፡ ሊተ፡ ብእሲተ፡ እምነ፡ አዝማድየ፡ ወወለድኩ፡ እምኔሃ፡ ጦብያሃ።</l>
-                  <l n="10">ወአመ፡ ተፄወዉ፡ ነነዌ፡ ኵሎሙ፡ አኃውየ፡ ወአዝማድየ፡ በልዑ፡ እምነ፡ እክለ፡ አሕዛብ።</l>
-                  <l n="11">ወአንሰ፡ ዓቀብኩ፡ ነፍስየ፡ ከመ፡ ኢይብላዕ።</l>
-                  <l n="12">እስመ፡ እዜክሮ፡ ለእግዚአብሔር፡ በኵሉ፡ ልብየ።</l>
-                  <l n="13">ወወሀበኒ፡ እግዚአብሔር፡ ገጸ፡ ወሞገሰ፡ በቅድመ፡ አኔሜሴር፡ ወሤመኒ፡ መጋቢሁ።</l>
-                  <l n="14">ወሖርኩ፡ ምድያም፡ ወአዕቀብክዎ፡ ለገባኤል፡ በብሔረ፡ ራጊስ፡ ዘምድያም፡ ዐሠርተ፡ መካልየ፡ ብሩር።</l>
-                  <l n="15">ወአመ፡ ሞተ፡ አኔሜሴር፡ ነግሠ፡ ህየንቴሁ፡ ሰናክሬም፡ ዘእኩይ፡ ምግባሩ፡ ወሠዐረኒ፡ ወኢክህልኩ፡ ሐዊረ፡ ምድያም።</l>
-                  <l n="16">ወበመዋዕ፡ አኔሜሴር፡ ብዙኃ፡ ምጽዋተ፡ ገበርኩ፡ ለአኃውየ።</l>
-                  <l n="17">ወእክልየኒ፡ ወሀብኩ፡ ለርኁባን፡ ወልብስየኒ፡ ለዕሩቃን፡ ወእመቦ፡ ዘርኢኩ፡ እምሕዝብየ፡ ምውተ፡ ግዱፈ፡ ኀበ፡ ዓረፍት፡ በነነዌ፡ እቀብሮ።</l>
-                  <l n="18">እመቦ፡ ዘቀተለ፡ ሰናክሬም፡ ንጉሠ፡ አመ፡ አተወ፡ እምይሁዳ፡ እንዘ፡ ይጐይይ፡ ወአነ፡ ቀበርክዎሙ፡ ጽሚተ፡ እስመ፡ ብዙኃነ፡ ቀተለ፡ በመዓቱ፡ ወኃሠሠ፡ ንጉሥ፡ አብድንቲሆሙ፡ ወኢረከቦሙ።</l>
-                  <l n="19">ወሖረ፡ አሐዱ፡ እምሰብአ፡ ነነዌ፡ ኀበ፡ ንጉሥ፡ ወአስተዋደየኒ፡ ከመ፡ አነ፡ ቀበርክዎሙ፡ ወተኀባዕኩ፡ ሶበ፡ አእመርኩ፡ ከመ፡ ይፈቅዱ፡ ይቅትሉኒ፡ ወፈሪህየ፡ ተግኅሥኩ።</l>
-                  <l n="20">ወሶበ፡ ኃጥኡኒ፡ በርበሩ፡ ኵሎ፡ ንዋይየ፡ ወአልቦ፡ ዘአትረፉ፡ ሊተ፡ ዘእንበለ፡ ሐና፡ ብእሲትየ፡ ወጦብያ፡ ወልድየ።</l>
-                  <l n="21">ወኢወፃእኩ፡ ሃምሳ፡ ወሐምስተ፡ መዋዕለ፡ እስከ፡ አመ፡ ቀተልዎ፡ ክልኤሆሙ፡ ደቂቁ፡ ወጐዩ፡ ውስተ፡ አራራት፡ ወነግሠ፡ አስራዶን፡ ወልዱ፡ ህየንቴሁ፡ ወሤሞ፡ ለአካኪሮን፡ ወልደ፡ አሳሔል፡ ወልደ፡ እኁየ፡ ላዕለ፡ ኵሉ፡ ቤተ፡ አቡሁ፡ ወላዕለ፡ ኵሉ፡ ሥርዓቶሙ።</l>
-                  <l n="22">ወሰአሎ፡ በእንቲአየ፡ አካኪሮን፡ ወአዕተወኒ፡ ውስተ፡ ነነዌ፡ ወአካኪሮን፡ ዘላዕሌሁ፡ ማኅተም፡ ወፃዕፃዕ፡ ቤቱ፡ ወሤመ፡ ዳግመ፡ አክሮንድስሃ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="2" xml:id="chapter2">
-               <label>Chapter 2</label>
-               <ab>
-                  <l n="1">ወሶበ፡ አተውኩ፡ ቤትየ፡ አግብኡ፡ ሊተ፡ ሐናሃ፡ ብእሲትየ፡ በዕለተ፡ በዓለ፡ ጰንጠቈስጤ፡ ቅድስት፡ ሳብዕ፡ ሰንበት፡ ገብሩ፡ ላዕሌየ፡ ሠናየ፡ ወረፈቁ፡ እብላዕ።</l>
-                  <l n="2">ወርእኪ፡ ከመ፡ መስየ፡ በሕቁ፡ ወእቤሎ፡ ለወልድየ፡ ሑር፡ አምጽእ፡ ዘረከብከ፡ እምአኃዊነ፡ ቢጸ፡ ነዳያን፡ እስመ፡ ተዘከርክዎ፡ ለእግዚአብሔር፡ እጸንሐከ፡ እስከ፡ ትገብእ።</l>
-                  <l n="3">ወሶበ፡ ገብአ፡ ወይቤለኒ፡ አባ፡ ረከብኩ፡ አሐደ፡ እምሕዝብ፡ ወግዱፍ፡ በድኑ፡ ውስተ፡ ምሥያጥ።</l>
-                  <l n="4">ወአነሂ፡ ተንሣእኩ፡ ዘእንበለ፡ እጥዓም፡ እክለ፡ ወአባዕክዎ፡ ውስተ፡ አሐዱ፡ ቤት፡ እስከ፡ የዓርብ፡ ፀሐይ።</l>
-                  <l n="5">ወገባዕኩ፡ ውስተ፡ ቤትየ፡ ወተሐፀብኩ፡ ወበላዕኩ፡ እክልየ፡ በኃዘን።</l>
-                  <l n="6">ወተዘከርኩ፡ ዘይቤ፡ አሞጽ፡ ይትመየጥ፡ በዓላቲክሙ፡ ውስተ፡ ብካይ።</l>
-                  <l n="7">ወእምዝ፡ በከይኩ፡ ወሶበ፡ ዓርበ፡ ፀሐይ፡ ሖርኩ፡ ወከረይኩ፡ ወቀበርክዎ።</l>
-                  <l n="8">ወሰሐቁ፡ ላዕሌየ፡ ሰብአ፡ ብሔር፡ ወይቤሉ፡ ኢይፈርህኑ፡ ዝንቱ፡ ኢይቅትልዎ፡ በእንተ፡ ዝንቱ፡ ግብር፡ እስመ፡ ይቀብሮሙ፡ ለእለ፡ ቀተለ፡ ንጉሥ።</l>
-                  <l n="9">ወበይእቲ፡ ሌሊት፡ ቤትኩ፡ ስኩብየ፡ ውስተ፡ ዓረፍተ፡ ዓፀድ፡ ወክሡት፡ ገጽየ።</l>
-                  <l n="10">ወኢያእመርኩ፡ ከመ፡ ቦቱ፡ አዕዋፍ፡ ውስተ፡ ዓረፍት፡ ወእንዘ፡ ክሡት፡ ገጽየ፡ አኵስሓ፡ እልክቱ፡ አዕዋፍ፡ ውዑየ፡ ውስተ፡ አዕይንትየ፡ ወሖርኩ፡ ኀበ፡ ዓቀብተ፡ ሥራይ፡ ወአልቦ፡ ዘበቊዓኒ፡ ወአካኪሮስ፡ ይሴስየኒ፡ እስከ፡ አመ፡ ሖርኩ፡ ኤልማድያ፡ ባሕቲትየ።</l>
-                  <l n="11">ወሐናሰ፡ ትፀመድ፡ ቤተ፡ አንስት።</l>
-                  <l n="12">ወለአከት፡ ኀበ፡ አጋዕዝቲሃ፡ ወወሀባሃ፡ እማንቱሂ፡ መሐስዓ፡ ወአምጽአት፡ ኀቤየ።</l>
-                  <l n="13">ወሶበ፡ መጽአት፡ ኀቤየ፡ አኀዘት፡ ትጽራኅ፡ ወእቤላ፡ እምአይቴ፡ ዛቲ፡ መሐስዕ፡ ወለእመ፡ ስረቂዮ፡ አግብኢዮ፡ ለባዕሉ፡ እስመ፡ ኢኮነ፡ ጽድቀ፡ በሊዕ፡ ዘስርቅ።</l>
-                  <l n="14">ወትቤለኒ፡ ጸግውኒያ፡ ህየንተ፡ አስብየ፡ ወኢአመንክዋ፡ ወእቤላ፡ አግብኢ፡ ለባዕሉ፡ ወብዙኃ፡ ተገአዝኩ፡ ምስሌሃ፡ ወአውሥአት፡ ወትቤለኒ፡ አይቴ፡ ውእቱ፡ ምጽዋትከ፡ ወጽድቅከ፡ ናሁ፡ ኵሉ፡ ተአውቀ፡ ዘላዕሌከ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="3" xml:id="chapter3">
-               <label>Chapter 3</label>
-               <ab>
-                  <l n="1">ወተከዝኩ፡ በሕማየ፡ ወጸለይኩ፡ ወበከይኩ።</l>
-                  <l n="2">ወእቤ፡ ጻድቅ፡ አንተ፡ እግዚኦ፡ ወኵሉ፡ ፍናዊከ፡ በምሕረት፡ ወበፍትሕ፡ በርትዕ፡ ወበጽድቅ፡ ትኴንን፡ ዓለመ።</l>
-                  <l n="3">ተዘከረኒ፡ ወነጽረኒ፡ ወኢትትበቀለኒ፡ በኃጢአትየ።</l>
-                  <l n="4">ወበኃጢአተ፡ አበውየ፡ እለ፡ አበሱ፡ ለከ፡ ወኢሰምዑ፡ ትእዛዘከ፡ ወረሰይከኒ፡ ለተበርብሮ፡ ወለተሄውዎ፡ ወለተቀትሎ፡ ወኮነ፡ ትዕይርተ፡ ውስተ፡ ኵሉ፡ ዓለም፡ ወአሕዛብ፡ እለ፡ እምውስቴቶሙ፡ ተዘርውነ፡ ኵለሄ።</l>
-                  <l n="5">ወይእዜኒ፡ ርቱዕ፡ ውእቱ፡ ኵነኔከ፡ ዘበጽድቅ፡ ወግበር፡ ሊተ፡ በዘይሠረይ፡ ኃጢአትየ፡ ወዘአበውየ፡ እስመ፡ ኢገበርነ፡ ትእዛዝከ፡ ወኢሖርነ፡ በጽድቅ፡ ቅድሜከ።</l>
-                  <l n="6">ወይእዜኒ፡ ዘይዔድመከ፡ ግበር፡ ምስሌየ፡ በቅድሜከ፡ ወአዝዝ፡ ዘይትሜጦ፡ መንፈስየ፡ ከመ፡ እሠዓር፡ ወእኩን፡ መሬተ፡ እስመ፡ ይኄይሰኒ፡ ትዕይርተ፡ በሐሰት፡ ወበዝኀ፡ ኃዘን፡ ላዕሌየ፡ ወአዝዝ፡ እሠዐር፡ እምሕማምየ፡ ውስተ፡ መካን፡ ዘለዓለም፡ ወኢትሚጥ፡ ገጸከ፡ እምኔየ።</l>
-                  <l n="7">ወበይእቲ፡ ዕለት፡ ረከባ፡ ለወለተ፡ ራጉኤል፡ ሣራ፡ እምነ፡ መጣኒ፡ ዘሜዶን፡ ወተአየራሃ፡ አዕማተ፡ አቡሃ።</l>
-                  <l n="8">እስመ፡ አስተዋሰብዋ፡ ለሰብዓቱ፡ ዕደው፡ ወቀተሎሙ፡ ጋኔን፡ እኩይ፡ አስማንድዮስ፡ ዘእንበለ፡ ይቅረብዋ፡ እንተ፡ ብእሲ፡ ወብእሲት፡ ወይቤላሃ፡ ኢተአምሪኑ፡ እንዘ፡ ይትሐነቁ፡ ዓምታትኪ፡ ወናሁ፡ ሰብዓቱ፡ አውሰቡኪ፡ ወአሐዱ፡ እምኔሆሙ፡ ኢተለወኪ።</l>
-                  <l n="9">ወምንተት፡ እንከ፡ ተቀሠፍነ፡ በእንቲአሆሙ፡ እስመ፡ ሞቱ፡ ሑሪ፡ ምስሌሆሙ፡ ወኢንርአይ፡ ወልደ፡ ወወለተ፡ እምኔኪ፡ ለዓለም።</l>
-                  <l n="10">ወሶበ፡ ሰምዐት፡ ዘንተ፡ ተከዘት፡ ጥቀ፡ ወትቤ፡ አሐቲ፡ አነ፡ ለአቡየ፡ ወእመ፡ ገበርኩ፡ ዘንተ፡ ከመዝ፡ ትዕይርተ፡ እከውኖ፡ ወአወርድ፡ ርስዓኒሁ፡ በፃዕር፡ ውስተ፡ መቃብር።</l>
-                  <l n="11">ወጸለየት፡ በውስተ፡ ቤታ፡ ወትቤ፡ ቡሩክ፡ አንተ፡ እግዚኦ፡ አምላኪየ፡ ወይትባረክ፡ ስምከ፡ ቅዱስ፡ ወቡሩክ፡ ስምከ፡ በኵሉ፡ ዓለም፡ ወክቡር፡ ኵሉ፡ ግብርከ፡ ለዓለም።</l>
-                  <l n="12">ወይእዜኒ፡ እግዚኦ፡ አዕይንትየ፡ ወገጽየ፡ ለከ፡ መጠውኩ።</l>
-                  <l n="13">ወእብለከ፡ ሠዓረኒ፡ እምነ፡ ምድር፡ ከመ፡ ኢይስማዕ፡ ትዕይርተ።</l>
-                  <l n="14">ለሊከ፡ እግዚኦ፡ ተአምር፡ ከመ፡ ንጽሕት፡ አነ፡ እምኵሉ፡ ኃጢአት፡ ዘምስለ፡ ብእሲ።</l>
-                  <l n="15">ወኢያገመንኩ፡ ስምየ፡ ወስመ፡ አቡየ፡ በብሔር፡ ዘተፄወውኩ፡ ወአሐቲ፡ አነ፡ ለአቡየ፡ ወአልብየ፡ እኍ፡ ወአልብየ፡ ዘቅሩብ፡ ወእትዓቀብ፡ ለብእሲ፡ እስመ፡ ሰብዓቱ፡ ሞቱኒ፡ ለምንተ፡ እንከ፡ አሐዩ፡ ወለእመኒ፡ ኢፈቀድከ፡ ትቅትለኒ፡ ነጽር፡ ላዕሌየ፡ ወአስተምሕረኒ፡ ወአዝዝ፡ ከመ፡ ኢይስማዕ፡ ትዕይርተ፡ እንከ።</l>
-                  <l n="16">ወተሰምዓ፡ ጸሎቶሙ፡ ለክልኤሆሙ፡ በቅድመ፡ ስብሐተ፡ ዕበዩ፡ ለእግዚአብሔር።</l>
-                  <l n="17">ወፈነዎ፡ ለሩፋኤል፡ ከመ፡ ይፈውሶሙ፡ ለክልኤሆሙ፡ ወለጦቢትኒ፡ ከመ፡ ያሰስል፡ ጢሰ፡ ዓይኑ፡ ወለሣራኒ፡ ወለተ፡ ራጉኤል፡ ከመ፡ የሀባ፡ ለጦብያ፡ ወልደ፡ ጦቢት፡ ትኰኖ፡ ብእሲቶ፡ ወከመ፡ ይሥዓሮ፡ ለአስማንድዮስ፡ ጋኔን፡ እኵይ፡ እስመ፡ ጦብያ፡ ይወርሳ፡ ወበእማንቱ፡ መዋዕል፡ ተመይጠ፡ ጦቢት፡ ወዐተወ፡ ቤቶ፡ ወሣራኒ፡ ወለተ፡ ራጉኤል፡ ወረደት፡ እምነ፡ ጽርሐ፡ ላዕላይ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="4" xml:id="chapter4">
-               <label>Chapter 4</label>
-               <ab>
-                  <l n="1">ወበይእቲ፡ ዕለተ፡ ተዘከረ፡ ጦቢት፡ በእንተ፡ ብሩር፡ ዘአማኅፀነ፡ ኀበ፡ ገባኤል፡ በራጊስ፡ ዘሜዶን።</l>
-                  <l n="2">ወሐለየ፡ ወይቤ፡ ናሁ፡ ሰአልኩ፡ ከመ፡ እሙት፡ ወለምንት፡ ኢይጼውዖ፡ ለወልድየ፡ ጦብያ፡ ከመ፡ እንግሮ፡ ዘእንበለ፡ እሙት።</l>
-                  <l n="3">ወጸውዖ፡ ወይቤሎ፡ ወልድየ፡ አመ፡ ሞትኩ፡ ቅበረኒ፡ በሠናይ፡ ወዕቀብ፡ እመከ፡ ወአክብራ፡ በኵሉ፡ መዋዕለ፡ ሕይወታ፡ ወግበር፡ ላቲ፡ ኵሎ፡ ዘፈቀደት፡ ወኢታኅዝና።</l>
-                  <l n="4">ተዘከር፡ ወልድየ፡ ከመ፡ ብዙኃ፡ ሕማመ፡ ረከበት፡ ብከ፡ እንዘ፡ ሀሎከ፡ ውስተ፡ ከርሣ፡ ወእመ፡ ሞተት፡ ቅብራ፡ ምስሌየ፡ ውስተ፡ አሐዱ፡ መቃብር።</l>
-                  <l n="5">ወበኵሉ፡ መዋዕል፡ ኦ፡ ወልድየ፡ ተዘከሮ፡ ለእግዚአብሔር፡ አምላክነ፡ ወኢትፍቅድ፡ አብሶ፡ ወክሂደ፡ ትእዛዙ፡ ወግበር፡ ጽድቀ፡ በኵሉ፡ መዋዕለ፡ ሕይወትከ፡ ወኢትሑር፡ በፍኖተ፡ ዓመፃ።</l>
-                  <l n="6">ወእምከመ፡ ገበርካ፡ ለጽድቅ፡ ትሤራህ፡ በኵሉ፡ ፍኖትከ፡ ወበኵሉ፡ ግብርከ፡ ዘገበርከ፡ ወከማሁ፡ ለኵሎሙ፡ እለ፡ ይገብርዋ፡ ለጽድቅ።</l>
-                  <l n="7">ወእምንዋይከ፡ ግበር፡ ምጽዋተ፡ ወኢትደንግፅ፡ ዓይንከ፡ ሶበ፡ ትገብር፡ ምጽዋተ፡ ወኢትሚጥ፡ ገጸከ፡ እምነ፡ ነዳይ፡ ወእግዚአብሔር፡ ኢይመይጥ፡ ገጾ፡ እምኔከ።</l>
-                  <l n="8">ወአምጣነ፡ ትክል፡ መጠነ፡ ብከ፡ ግበር፡ ምጽዋተ፡ ወእመኒ፡ ውኁድ፡ ኢትደንግፅ፡ ለገቢረ፡ ምጽዋት።</l>
-                  <l n="9">እስመ፡ ሠናየ፡ መዝገበ፡ ትዘግብ፡ ለከ።</l>
-                  <l n="10">እስመ፡ ምጽዋት፡ ታድኅን፡ እሞት፡ በዕለተ፡ ምንዳቤ፡ ወኢትወስድ፡ ውስተ፡ ጽልመት።</l>
-                  <l n="11">እስመ፡ ሠናይ፡ ጸጋ፡ ይእቲ፡ ምጽዋት፡ ለእለ፡ ይገብርዋ፡ በቅድመ፡ ልዑል።</l>
-                  <l n="12">ወዑቅ፡ ርእሰከ፡ ኦ፡ ወልድየ፡ እምኵሉ፡ ዝሙት፡ ወቅድም፡ ለከ፡ ነሢአ፡ ብእሲት፡ እምዘርአ፡ አበዊከ፡ ወኢታውስብ፡ እምነኪር፡ ለእመ፡ ኢኮነት፡ እምዘመድከ፡ እስመ፡ እምደቂቀ፡ ነቢያት፡ ንሕነ፡ ኖኅ፡ ወአብርሃም፡ ይስሐቅ፡ ወያዕቆብ፡ እለ፡ እምዓለም፡ አበዊነ፡ ተዘከር፡ ወልድየ፡ ከመ፡ ኵሎሙ፡ ነሥኡ፡ አንስትያ፡ እምትውልደ፡ አኃዊሆሙ፡ ወተባረኩ፡ ውሉዶሙ፡ ወዘርኦሙ፡ ወረስዋ፡ ለምድር።</l>
-                  <l n="13">ወይእዜኒ፡ ወልድየ፡ አፍቅር፡ ቢጸከ፡ ወኢታዕቢ፡ ልበከ፡ እምነ፡ ቢጽከ፡ ወእምደቂቀ፡ ሕዝብከ፡ ወእምነ፡ አዋልዲሆሙ፡ ንሣእ፡ ለከ፡ ብእሲተ፡ እምኔሆሙ፡ እስመ፡ ኀበ፡ ሀለወት፡ ትዕቢት፡ ህየ፡ ሀሎ፡ ኃሣር፡ ወብዙኅ፡ ሁከት፡ ወኀበ፡ ሀለወ፡ ሁከት፡ ህየ፡ ሀሎ፡ ተጽናስ፡ ወንዴት፡ እስመ፡ እማ፡ ይእቲ።</l>
-                  <l n="14">አስቡ፡ ለኵሉ፡ ዘተጋነየ፡ ለከ፡ ኢይቢት፡ ኀቤከ፡ አላ፡ ሀቦ፡ በጊዜሃ፡ እምዘ፡ ብከ፡ ወእምከመ፡ ተቀነይከ፡ ለእግዚአብሔር፡ ይፈደፍድ፡ አስብከ፡ ወዑቅ፡ ርእሰከ፡ ወበኵሉ፡ ግብርከ፡ ኩን፡ ጠቢበ፡ ወበኵሉ፡ ግዕዝከ።</l>
-                  <l n="15">ወዘትጸልዕ፡ ለርእስከ፡ ኢትግበር፡ ለመኑሂ፡ ወይነ፡ ለሰኪር፡ ኢትስተይ፡ ወኢትሑር፡ ምስለ፡ ስክርት፡ ውስተ፡ ፍኖትከ።</l>
-                  <l n="16">ወእምነ፡ እክልከ፡ ሀብ፡ ለርኁብ፡ ወእምነ፡ አልባሲከ፡ ሀብ፡ ለዕሩቅ፡ ወእምኵሉ፡ ዘይተርፈከ፡ ግበር፡ ምጽዋተ።</l>
-                  <l n="17">ወዝሩ፡ እክለከ፡ ላዕለ፡ መቃብረ፡ ጻድቃን፡ ወኢተሀብ፡ ለኃጥአን።</l>
-                  <l n="18">ምክረ፡ ኅሥሥ፡ በኀበ፡ ኵሉ፡ ጠቢባን፡ ወኢታስትት፡ ምክረ፡ እንተ፡ ትበቊዓከ።</l>
-                  <l n="19">ወበኵሉ፡ ጊዜ፡ ባርኮ፡ ለእግዚአብሔር፡ ወጸሊ፡ ኀቤሁ፡ ከመ፡ ሥሩሕ፡ ይኩን፡ ፍኖትከ፡ ዘይሤርሐከ፡ በኵሉ፡ ግብርከ፡ ወበኵሉ፡ ፍናዊከ፡ እስመ፡ ኵሎሙ፡ አሕዛብ፡ ዘይመክሩ፡ ምክረ፡ ዘኢኮነ፡ እምእግዚአብሔር፡ እንበለ፡ ውእቱ፡ እግዚአብሔር፡ ይሁብ፡ ኵሎ፡ ሠናይቶ፡ ወለዘፈቀደ፡ ያቴሕቶ፡ በከመ፡ ውእቱ፡ ፈቀደ፡ ወይእዜኒ፡ ወልድየ፡ ተዘከር፡ ትእዛዝየ፡ ወኢይደምሰስ፡ እምልብከ።</l>
-                  <l n="20">ወይእዜኒ፡ እነግረከ፡ በእንተ፡ መካልየ፡ ብሩር፡ ዐሠርቱ፡ ዘአዕቀብኩ፡ ኀበ፡ ገባኤል፡ ወልደ፡ ግብርያ፡ ዘራጊስ፡ ዘሜዶን።</l>
-                  <l n="21">ወኢትፍራህ፡ ወልድየ፡ በእንተ፡ ንዴትከ፡ እስመ፡ ነዳያን፡ ብከ፡ ይነሥኡ፡ በረከተ፡ ለእመ፡ ፈራህኮ፡ ለእግዚአብሔር፡ ወኃደገ፡ ኵሎ፡ ኃጢአተከ፡ ወገበርከ፡ ዘያሠምሮ፡ ለእግዚአብሔር፡ በቅድሜሁ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="5" xml:id="chapter5">
-               <label>Chapter 5</label>
-               <ab>
-                  <l n="1">ወአውሥአ፡ ጦብያ፡ ወይቤ፡ እገብር፡ አባ፡ ኵሎ፡ ዘአዘዝከኒ።</l>
-                  <l n="2">ወባሕቱ፡ እፎ፡ እክል፡ ነሢኦቶ፡ ለውእቱ፡ ብሩር፡ ዘኢየአምሮ።</l>
-                  <l n="3">ወወሀቦ፡ መጽሐፈ፡ ወይቤሎ፡ ኅሥሥ፡ ብእሴ፡ ዘየሐውር፡ ምስሌከ፡ ወእሁቦ፡ አስቦ፡ እንዘ፡ ሕያው፡ አነ፡ ወሑር፡ ንሣእ፡ ዘንተ፡ ብሩረ።</l>
-                  <l n="4">ወሖረ፡ ይኅሥሥ፡ ሎቱ፡ ብእሴ፡ ወረከቦ፡ ለሩፋኤል፡ መልአክ፡ ወኢያእመሮ፡ ከመ፡ መልአክ፡ ውእቱ።</l>
-                  <l n="5">ወይቤሎ፡ ትክልኑ፡ ሐዊረ፡ ምስሌየ፡ ራጊስ፡ ዘሜዶን፡ እመ፡ ተአምር፡ ብሔሮ።</l>
-                  <l n="6">ወይቤሎ፡ ውእቱ፡ መልአክ፡ አሐውር፡ ምስሌከ፡ ወፍኖቶሂ፡ አአምር፡ ወኀበ፡ ገባኤልሂ፡ ነበርኩ።</l>
-                  <l n="7">ወይቤሎ፡ ጦብያ፡ ጽንሐኒ፡ ከመ፡ እንግሮ፡ ለአቡየ፡ ጦቢት።</l>
-                  <l n="8">ወይቤሎ፡ ሑር፡ ኢትጐንዲ፡ ወሖረ፡ ወይቤሎ፡ ለአቡሁ፡ ነዋ፡ ረከብኩ፡ ዘየሐውር፡ ምስሌየ፡ ወይቤሎ፡ ጸውዖ፡ ኀቤየ፡ ከመ፡ አእምር፡ እምአይ፡ ሕዝብ፡ ውእቱ፡ ወእመ፡ ማእምን፡ ለሐዊር፡ ምስሌከ።</l>
-                  <l n="9">ወጸውዖ፡ ወቦአ፡ ወተአምኁ፡ በበይናቲሆሙ።</l>
-                  <l n="10">ወይቤሎ፡ ጦቢት፡ አንተ፡ እኁየ፡ እምአይ፡ ሕዝብ፡ አንተ፡ ወእምአይ፡ ብሔር፡ አንተ።</l>
-                  <l n="11">ወይቤሎ፡ መልአክ፡ ሕዝብየኑ፡ ወብሔርየኑ፡ ተኃሥሥ፡ አው፡ አስቦ፡ ዘየሐውር፡ ምስለ፡ ወልድከ፡ ወይቤሎ፡ ጦቢት፡ እፈቅድ፡ አንተ፡ እኁየ፡ አእምር፡ ዘመደከ፡ ወስመከ።</l>
-                  <l n="12">ወይቤሎ፡ አንሰ፡ አዛርያ፡ ዘመደ፡ አናንያ፡ ዓቢይ፡ እኁከ።</l>
-                  <l n="13">ወይቤሎ፡ ዳኅንኑ፡ አንተ፡ እኁየ፡ ወኢትኂሰኒ፡ እስመ፡ ኃሠሥኩ፡ አእምር፡ ሕዝበከ፡ ወብሔረከ፡ ወአማን፡ ባሕቱ፡ እምሠናይ፡ ዘመድ፡ አንተ፡ ወቡሩክ፡ ወአአምሮ፡ አነ፡ ለአዛርያ፡ ደቂቀ፡ ሴምዩ፡ ዓቢይ፡ ወሖርነ፡ ምስሌሆሙ፡ ኅቡረ፡ ኢየሩሳሌም፡ ከመ፡ ንስግድ፡ ወወሰድነ፡ በኵረነ፡ ወአሥራተ፡ እክልነ፡ ወኢአበስነ፡ አበሳ፡ አበዊነ፡ ወአንተሰ፡ እምነ፡ ዓቢይ፡ ሥርው፡ አንተ፡ እኁየ።</l>
-                  <l n="14">ወባሕቱ፡ ንግረኒ፡ ምንተ፡ ነሀብ፡ አስበከ፡ ድርከመኑ፡ ለለዕለትከ፡ ወሲሳይከ፡ ምስለ፡ ወልድየ።</l>
-                  <l n="15">ወእዌስክ፡ አስበከ፡ በዲበ፡ አስብከ፡ ለእመ፡ ዳኅነ፡ አቶክሙ።</l>
-                  <l n="16">ወአኅለቁ፡ ከመዝ፡ ወይቤሎ፡ ጦቢት፡ ለጦብያ፡ ወልዱ፡ ተደለው፡ ከመ፡ ትሑር፡ ወተሠርሑ፡ ወአስተዳለወ፡ ወልዱ፡ ስንቆሙ፡ ለፍኖት፡ ወይቤሎ፡ አቡሁ፡ ሑር፡ ምስለ፡ ዝንቱ፡ ብእሲ፡ ወእግዚአብሔር፡ ዘይነብር፡ ውስተ፡ ሰማይ፡ ይሠርሕ፡ ፍኖተክሙ፡ ወመልአኩ፡ ይሑር፡ ምስሌክሙ፡ ወወጽኡ፡ ክልኤሆሙ፡ ወሖሩ፡ ወተለዎሙ፡ ከልበ፡ ወልዶሙ።</l>
-                  <l n="17">ወበከየት፡ ሐና፡ እሙ፡ ወትቤሎ፡ ለጦቢት፡ ለምንት፡ ፈነውኮ፡ ለወልድየ፡ አኮኑ፡ ውእቱ፡ በትርነ፡ እንተ፡ ውስተ፡ እዴነ፡ ዘይወጽእ፡ ቅድሜነ።</l>
-                  <l n="18">ብሩር፡ ለይጥፋዕ።</l>
-                  <l n="19">ወቤዛሁ፡ ለወልድየ፡ ይኩን፡ ዘወሀበነ፡ እግዚአብሔር፡ ዘቦቱ፡ ነሐዩ።</l>
-                  <l n="20">ወይቤላ፡ ኢትትኃለፊ፡ እኅትየ፡ ዳኅነ፡ የአቱ፡ ወትሬኢይዮ፡ በአዕይ፡ ንትኪ።</l>
-                  <l n="21">እስመ፡ መልአከ፡ እግዚአብሔር፡ የሐውር፡ ቅድሜሁ፡ ወይሤርሕ፡ ፍኖቶ፡ ወየአቱ፡ ዳኅነ፡ ወኃደገት፡ ብካየ፡ ሐና።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="6" xml:id="chapter6">
-               <label>Chapter 6</label>
-               <ab>
-                  <l n="1">ወእንዘ፡ የሐውሩ፡ ፍኖቶሙ፡ በጽሑ፡ በጣኔስ፡ ውስተ፡ ተከዚ፡ ምሴተ፡ ወቤቱ፡ በህየ።</l>
-                  <l n="2">ወወረደ፡ ውእቱ፡ ወልድ፡ ይትሐፀብ፡ ወሠረረ፡ ላዕሌሁ፡ ዓሣ፡ እምውስተ፡ ተከዚ፡ ወፈቀደ፡ የሐጦ፡ ለውእቱ፡ ወልድ።</l>
-                  <l n="3">ወይቤሎ፡ መልአክ፡ አኃዞ፡ ለውእቱ፡ ዓሣ፡ ወአኃዞ፡ ለዓሣ፡ ውእቱ፡ ወልድ፡ ወአውጽኦ፡ ውስተ፡ ምድር።</l>
-                  <l n="4">ወይቤሎ፡ ዝኩ፡ መልአክ፡ ምትሮ፡ ለውእቱ፡ ዓሣ፡ ወንሣእ፡ ልቦ፡ ወከብዶ፡ ወሐሞቶ፡ ወአጽንዕ፡ ዓቂቦቶ።</l>
-                  <l n="5">ወገብረ፡ ውእቱ፡ ወልድ፡ በከመ፡ አዘዞ፡ መልአክ፡ ወዓሣሁኒ፡ ጠበሱ፡ ወበልዑ፡ ወጌሡ፡ ክልኤሆሙ፡ ወበጽሑ፡ በጣኔስ።</l>
-                  <l n="6">ወይቤሎ፡ ዝኩ፡ ወልድ፡ ለመልአክ፡ አንተ፡ እኁየ፡ አዛርያ፡ ምንት፡ ውእቱ፡ ከብዱ፡ ወልቡ፡ ወሐሞቱ፡ ለዝንቱ፡ ዓሣ።</l>
-                  <l n="7">ወይቤሎ፡ ልቡ፡ ወከብዱ፡ ለእመቦ፡ ዘየሐምሞ፡ ጋኔን፡ እኵይ፡ ዘንተ፡ ያጠይሱ፡ ቅድሜሁ፡ ለውእቱ፡ ብእሲ፡ ወእመኒ፡ ብእሲት፡ ወኢየሐምም፡ እንከ።</l>
-                  <l n="8">ወሐሞቶሰ፡ ይኵሕልዎ፡ ለብእሲ፡ ዘቦቱ፡ ጢስ፡ ውስተ፡ አዕይንቲሁ፡ ወየሐዩ።</l>
-                  <l n="9">ወሶበ፡ ቀርቡ፡ ኀበ፡ ራጊስ፡ ወይቤሎ፡ ውእቱ፡ መልአክ፡ አንተ፡ እኁየ፡ ዮምኬ፡ ኀበ፡ ራጉኤል፡ ነኅድር።</l>
-                  <l n="10">ወአዝማዲከ፡ ውእቱ፡ ወቦ፡ አሐቲ፡ ወለት፡ ዘስማ፡ ሣራ፡ ወእትናገርኑ፡ በእንቲአሃ፡ የሀቡከ፡ ትኩንከ፡ ብእሲተ።</l>
-                  <l n="11">እስመ፡ ለከ፡ ይበጽሐከ፡ ርስታ፡ ወአንተ፡ ሀሎከ፡ እምነ፡ አዝማዲሃ፡ ወወለታኒ፡ ሠናይት፡ ወጠባብ።</l>
-                  <l n="12">ወይእዜኒ፡ ስምዓኒ፡ ወእትናገሮ፡ ለአቡሃ፡ ወሶበ፡ ገባዕነ፡ እምነ፡ ራጊስ፡ ንገብር፡ በዓለ፡ እስመ፡ ኢይገብር፡ የሀባ፡ ራጉኤል፡ ለካልዕ፡ ሰብእ፡ በእንተ፡ ሕገ፡ ሙሴ፡ ወእምአብደረ፡ ትሙት፡ እስመ፡ ርስታ፡ ለከ፡ ይበጽሐከ፡ እምኵሉ፡ ሰብእ።</l>
-                  <l n="13">ወይቤሎ፡ ዝኩ፡ ወልድ፡ ለውእቱ፡ መልአክ፡ አንተ፡ እኁየ፡ አዛርያ፡ ሰማዕኩ፡ አነ፡ ከመ፡ አስተዋሰብዋ፡ ለይእቲ፡ ወለት፡ ለሰብእቱ፡ ዕደው፡ ወኵሎሙ፡ ሞቱ፡ አመ፡ ከብካብ።</l>
-                  <l n="14">ወይእዜኒ፡ ባሕቲትየ፡ አነ፡ ለአቡየ፡ እፈርህ፡ ሶበ፡ ቦእኩ፡ ኢይሙት፡ ወኢይወርድ፡ ሕይወቶሙ፡ ለአቡየ፡ ወእምየ፡ በፃዕር፡ ወአልቦሙ፡ ካልዕ፡ ወልድ፡ ዘይቀብሮሙ።</l>
-                  <l n="15">ወይቤሎ፡ ውእቱ፡ መልአክ፡ ኢትዜከርኑ፡ ቃለ፡ ዘአዘዘከ፡ አቡከ፡ ከመ፡ ትንሣእ፡ ለከ፡ ብእሲተ፡ አምአዝማዲከ፡ ወይእዜኒ፡ ስምዐኒ፡ አንተ፡ እኁየ፡ ወበእንተ፡ ጋኔንሰ፡ ኢያኅዝንከ፡ እስመ፡ በዝንቱ፡ ሌሊት፡ ትትወሀብ፡ ለከ፡ ብእሲት፡ እምአዝማዲከ።</l>
-                  <l n="16">ወሶበ፡ ቦእከ፡ ውስተ፡ ጽርሕከ፡ ንሣእ፡ ለከ፡ ሕራረ፡ ዕጣን፡ ወደይ፡ እምነ፡ ከብዱ፡ ወልቡ፡ ለዝኩ፡ ዓሣ፡ ወአጢስ፡ ቦቱ።</l>
-                  <l n="17">ወሶበ፡ ፄነዎ፡ ለውእቱ፡ ጋኔን፡ ይጐይይ፡ ወኢይገብእ፡ ለዓለም፡ ወሶበ፡ ቦእከ፡ ኀቤሃ፡ ጽርሑ፡ ክልኤክሙ፡ ኀበ፡ እግዚአብሔር፡ መሐሪ፡ ወያድኅነክሙ፡ ወይምሕረክሙ፡ ወኢትፍርሁ፡ እንከ፡ እስመ፡ ኪያክሙ፡ አስተዳለወ፡ እምነ፡ ዓለም፡ ወአንተ፡ ታድኅና፡ ወተሐውር፡ ምስሌከ፡ ወእብለከ፡ ከመ፡ ትረክብ፡ ውሉደ፡ እምኔሃ፡ ወሰሚዖ፡ ጦብያ፡ አንከረ፡ ወተለዋ፡ ነፍሱ፡ ኀቤሃ፡ ጥቀ፡ ወበጽሑ፡ ውስተ፡ በጣኔስ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="7" xml:id="chapter7">
-               <label>Chapter 7</label>
-               <ab>
-                  <l n="1">ወቦኡ፡ ቤተ፡ ራጉኤል፡ ወተቀበለቶሙ፡ ሣራ፡ ወአስተፍሥሐቶሙ፡ ወከማሁ፡ እሙንቱኒ፡ ላቲ፡ ወአብአቶሙ፡ ቤተ።</l>
-                  <l n="2">ወይቤላ፡ ራጉኤል፡ ለብእሲቲ፡ እድና፡ ዕፁብ፡ ዝንቱ፡ ወልድ፡ ይመስሎ፡ ለጦቢት፡ ዘእምአዝማድየ።</l>
-                  <l n="3">ወይቤሎሙ፡ ራጉኤል፡ እምአይቴ፡ አንትሙ፡ አኃውየ፡ ወይቤልዎ፡ እምደቂቀ፡ ንፍታሌም፡ እለ፡ ተፄወዉ፡ ነነዌ።</l>
-                  <l n="4">ወይቤሎሙ፡ ራጉኤል፡ ተአምርዎኑ፡ ለጦቢት፡ እኁየ።</l>
-                  <l n="5">ወይቤልዎ፡ እወ፡ ነአምሮ፡ ሕያውኑ፡ ወዳኅንኑ፡ ወይቤሎ፡ ጦቢያ፡ አቡየ፡ ውእቱ።</l>
-                  <l n="6">ወሠረረ፡ ራጉኤል፡ ወሰዓሞ፡ ወበከየ።</l>
-                  <l n="7">ወባረኮ፡ ወይቤሎ፡ ወልደ፡ ብእሲ፡ ቡሩክ፡ አንተ፡ ወነገሮ፡ ከመ፡ ጠፍዓ፡ አዕይንቲሁ፡ ለጦቢት፡ ወሶበ፡ ሰምዐ፡ ከመ፡ ተኃጕለ፡ አዕይንቲሁ፡ ራጉኤል፡ ተከዘ፡ ወበከየ።</l>
-                  <l n="8">ወከማሁ፡ እድናሂ፡ ብእሲቱ፡ ወሣራሂ፡ ወለቱ፡ ወተቀበልዎሙ፡ በትፍሥሕት፡ ወጠብሑ፡ አባግዓ፡ ወአቅረበ፡ ሎሙ፡ ወመስየ፡ በሕቁ፡ ወይቤሎ፡ ጦብያ፡ ለአዛርያ፡ አንተ፡ እኁየ፡ አዛርያ፡ ተናገር፡ በእንተ፡ ዘትቤለኒ፡ በፍኖት፡ ወይሕልቅ፡ ነገሩ።</l>
-                  <l n="9">ወዘንተ፡ ሰሚዖ፡ ራጉኤል፡ እንዘ፡ ይትናገሮ፡ ጦብያ፡ ለመልአክ፡ ወይቤሎ፡ ለጦብያ፡ ብላዕ፡ ወስተይ፡ ምዕረ፡ ወተፈሣሕ።</l>
-                  <l n="10">እስመ፡ ለከ፡ ይእቲ፡ ወለትየ፡ ወአንተ፡ ትነሥኣ፡ ወአነ፡ እነግር፡ ጽድቃ፡ ለዛቲ፡ ወለትየ።</l>
-                  <l n="11">ለዛቲ፡ ወለትየ፡ አስተዋሰብክዋ፡ ለሰብአቱ፡ ዕደው፡ ወእምከመ፡ ቦኡ፡ ኀቤሃ፡ ይመውቱ፡ በሌሊት፡ ወባሕቱ፡ ብላዕ፡ ወተፈሣሕ፡ ምዕረ፡ ወይቤ፡ ጦብያ፡ ኢይጥዕም፡ ወኢምንተኒ፡ እስከ፡ ታሐልቁ፡ ወታቀውሙ፡ ሊተ፡ ነገርየ።</l>
-                  <l n="12">ወይቤሎ፡ ራጉኤል፡ ንሣኣ፡ እምይእዜሰ፡ ዘበሕጉ።</l>
-                  <l n="13">እስመ፡ እኁሃ፡ አንተ፡ ወይእቲኒ፡ ብእሲትከ፡ ወእግዚአብሔር፡ መሐሪ፡ ይሠርሕክሙ፡ በእንተ፡ ዘትሤኒ።</l>
-                  <l n="14">ወጸውዓ፡ ለሣራ፡ ወለቱ።</l>
-                  <l n="15">ወአኃዛ፡ እዴሃ፡ ወመጠዋ፡ ለጦብያ፡ ትኩኖ፡ ብእሲተ፡ ወይቤሎ፡ ናሁ፡ ንሣእ፡ በሕገ፡ ሙሴ፡ ወአዕትዋ፡ ኀበ፡ አቡከ፡ ወባረኮሙ።</l>
-                  <l n="16">ወጸውዓ፡ ለእድና፡ ብእሲቱ፡ ወነሥአ፡ መጽሐፈ፡ ወኀተመ፡ ወአኃዙ፡ ይብልዑ፡ ወጸውዓ፡ ለእድና፡ ወይቤላ፡ አንቲ፡ እኅትየ፡ አስተዳልዊ፡ ካልዓ፡ ጽርሐ፡ ወአብኢያ።</l>
-                  <l n="17">ወገብረታ፡ በከመ፡ ይቤላ፡ ወአብአታ፡ ህየ፡ ወበከየት፡ ወአውከፈት፡ አንብዓ፡ ወለታ።</l>
-                  <l n="18">ወትቤላ፡ ተአመኒ፡ ወለትየ፡ ከመ፡ እግዚአ፡ ሰማይ፡ ወምድር፡ ይሁበኪ፡ ትፍሥሕተ፡ ወኃሤተ፡ ህየንተ፡ ኃዘንኪ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="8" xml:id="chapter8">
-               <label>Chapter 8</label>
-               <ab>
-                  <l n="1">ወሶበ፡ አሕለቁ፡ ተደሮ፡ አብእዎ፡ ኀቤሃ፡ ለጦብያ።</l>
-                  <l n="2">ወሶበ፡ ቦአ፡ ተዘከረ፡ ቃሎ፡ ወነሥአ፡ ሕራረ፡ ዕጣን፡ ወወደየ፡ እምነ፡ ልቡ፡ ወከብዱ፡ ለዝኩ፡ ዓሣ፡ ወአጤሰ።</l>
-                  <l n="3">ወሶበ፡ ፄነዎ፡ ፄናሁ፡ ለዝኩ፡ ጋኔን፡ እስከ፡ ላዕላይ፡ ደወለ፡ ግብጽ፡ ወዓሠሮ፡ ዝኩ፡ መልአክ፡ ለውእቱ፡ ጋኔን።</l>
-                  <l n="4">ወሶበ፡ ተዓደዉ፡ ክልኤሆሙ፡ ተንሥአ፡ ጦብያ፡ እምነ፡ ዓራቱ፡ ወይቤላ፡ ተንሥኢ፡ እኅትየ፡ ንጸሊ፡ ኀበ፡ እግዚአብሔር፡ ከመ፡ ይሣሃለነ።</l>
-                  <l n="5">ወአኃዘ፡ ጦብያ፡ እንዘ፡ ይብል፡ ቡሩክ፡ አንተ፡ እግዚኦ፡ አምላከ፡ አበዊነ፡ ወይትባረክ፡ ስምከ፡ ቅዱስ፡ ወይሴባሕ፡ ለዓለመ፡ ዓለም፡ ይባርኩከ፡ ሰማያት፡ ወኵሉ፡ ዘፈጠርከ፡ አንተ፡ ገበርኮ፡ ለአዳም።</l>
-                  <l n="6">ወወሀብኮ፡ ሔዋንሃ፡ ትኩኖ፡ ብእሲተ፡ ወከመ፡ ታዕርፎ፡ ወእምኔሆሙ፡ ተወልደ፡ ዘርአ፡ ዕጓለ፡ እመሕያው፡ አንተ፡ ትቤ፡ ኢኮነ፡ ሠናየ፡ የሃሉ፡ ብእሲ፡ ባሕቲቱ፡ አላ፡ ንግበር፡ ሎቱ፡ ቢጸ፡ ዘትረድኦ።</l>
-                  <l n="7">ወይእዜኒ፡ እግዚኦ፡ እንበይነ፡ ዝሙት፡ ዘእነሥኣ፡ ለዛቲ፡ ብእሲት፡ እኅትየ፡ አላ፡ በጽድቅ፡ ፈኑ፡ ሣህለከ፡ ላዕሌየ፡ ወላቲኒ፡ ከመ፡ ንትፈሣሕ።</l>
-                  <l n="8">ወትቤ፡ ምስሌሁ፡ አሜን።</l>
-                  <l n="9">ወቤቱ፡ ክልኤሆሙ፡ ኅቡረ፡ በይእቲ፡ ሌሊት፡ ወእምዝ፡ ተንሥአ፡ ራጉኤል፡ ወሖረ፡ ወከረየ፡ መቃብረ።</l>
-                  <l n="10">እንዘ፡ ይብል፡ ዮጊ፡ ይመውት፡ ውእቱኒ።</l>
-                  <l n="11">ወገብአ፡ ራጉኤል፡ ቤቶ፡ ወይቤላ፡ ለእድና፡ ብእሲቱ።</l>
-                  <l n="12">ፈንዊ፡ አሐተ፡ ወለተ፡ ትርአዮ፡ እመሕያው፡ ውእቱ፡ ወእመ፡ አኮ፡ ንቅብሮ፡ እንዘ፡ አልቦ፡ ዘየአምሮ፡ መኑሂ።</l>
-                  <l n="13">ወሖረት፡ ይእቲ፡ ወለት፡ ወአርኃወት፡ ኆኅተ፡ ወረከበቶሙ፡ ይስክቡ፡ ክልኤሆሙ።</l>
-                  <l n="14">ወገብአት፡ ወአይድዐቶሙ፡ ከመ፡ ሕያዋን፡ እሙንቱ።</l>
-                  <l n="15">ወባረኮ፡ ራጉኤል፡ ለእግዚአብሔር፡ ወይቤ፡ ቡሩክ፡ አንተ፡ እግዚኦ፡ በኵሉ፡ በረከት፡ ንጽሕት፡ ወቅድስት፡ ወይባርኩከ፡ ቅዱሳኒከ፡ በኵሉ፡ ግብርከ፡ ወኵሎሙ፡ መላእክቲከ፡ ወኅሩያኒከ፡ ይባርኩከ፡ በኵሉ፡ ዓለም።</l>
-                  <l n="16">ቡሩክ፡ አንተ፡ እግዚኦ፡ እስመ፡ አስተፍሣሕከኒ፡ ወበከመ፡ ኢተኃዘብኩ፡ ኮነኒ፡ አላ፡ በከመ፡ ብዝኃ፡ ምሕረትከ፡ ገበርከ፡ ላዕሌየ።</l>
-                  <l n="17">ቡሩክ፡ አንተ፡ እግዚኦ፡ እስመ፡ ተሣሃልኮሙ፡ ለክልኤቱ፡ ባሕታውያን፡ ወገበርከ፡ ሎሙ፡ እግዚኦ፡ ሠናይቲከ፡ ከመ፡ ይፈጽሙ፡ ሕይወቶሙ፡ በደኅና፡ ወበፍሥሓ፡ በምሕረትከ።</l>
-                  <l n="18">ወእምዝ፡ አዘዞሙ፡ ለአግብርቲሁ፡ ይድፍኑ፡ ዝክተ፡ መቃብረ።</l>
-                  <l n="19">ወገብረ፡ ሎሙ፡ በዓለ፡ ዐሡረ፡ ወረቡዐ፡ መዋዕለ።</l>
-                  <l n="20">ወእምዝ፡ አምሐሎ፡ ራጉኤል፡ ለጦብያ፡ ከመ፡ ኢይፃእ፡ ወኢይሑር፡ እስከ፡ ይትፌጸም፡ መዋዕል፡ ዐሡር፡ ወረቡዕ፡ ዘመርዓ።</l>
-                  <l n="21">ወእምድኅረ፡ ዝንቱ፡ ይሑር፡ ወይንሣዕ፡ መንፈቀ፡ ንዋዩ፡ ወይሑር፡ በዳኅን፡ ኀበ፡ አቡሁ፡ ወዘተርፈሰ፡ እምድኅረ፡ ሞቱ፡ ውእቱ፡ ወብእሲቱ፡ ይንሥኡ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="9" xml:id="chapter9">
-               <label>Chapter 9</label>
-               <ab>
-                  <l n="1">ወጸውዖ፡ ጦብያ፡ ለሩፋኤል፡ ወይቤሎ፡ አንተ፡ እኁየ፡ አዛርያ፡ ንሣእ፡ ምስሌከ፡ ክልኤተ፡ ደቂቀ፡ ወአግማለ።</l>
-                  <l n="2">ወሑር፡ ራጊስ፡ ዘሜዶን፡ ኀበ፡ ገባኤል፡ ወንሣእ፡ አሠርተ፡ መክሊተ፡ ብሩር፡ ወጸውዖ፡ ኪያሁኒ፡ ውስተ፡ በዓል።</l>
-                  <l n="3">እስመ፡ አምሐለኒ፡ ራጉኤል፡ ከመ፡ ኢይፃእ፡ ዘእንበለ፡ ይኅልፍ፡ በዓል።</l>
-                  <l n="4">ወአቡየሰ፡ ይኌልቊ፡ መዋዕለ፡ ወለእመ፡ ጐንደይኩ፡ ጥቀ፡ የኀዝን።</l>
-                  <l n="5">ወሖረ፡ ሩፋኤል፡ ወበጽሐ፡ ኀበ፡ ገባኤል፡ ወመጠዎ፡ መጽሐፈ፡ ወገባኤልኒ፡ አምጽአ፡ ዝኰ፡ መስነቀ፡ በማኅተም፡ ወወሀቦ፡ ለሩፋኤል።</l>
-                  <l n="6">ወጌሡ፡ በጽባሕ፡ ኅቡረ፡ ወበጽሑ፡ ውስተ፡ በዓል፡ ወባረኮ፡ ጦብያ፡ ሶበ፡ አምጽአ፡ ሎቱ፡ ውእተ፡ ብሩረ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="10" xml:id="chapter10">
-               <label>Chapter 10</label>
-               <ab>
-                  <l n="1">ወጦቢትሰ፡ አቡሁ፡ ለጦብያ፡ ይኌልቊ፡ መዋዕለ፡ ወሶበ፡ ተፈጸመ፡ መዋዕለ፡ ዕድሜሆሙ፡ ወኢመጽኡ።</l>
-                  <l n="2">ይቤ፡ ዮጊ፡ ተኃፍረኑ፡ ወልድየ፡ አው፡ ይመውት፡ ገባኤል፡ ወኢረከበ፡ ዘይሁቦ፡ ብሩረ።</l>
-                  <l n="3">ወተከዘ፡ ጥቀ።</l>
-                  <l n="4">ወትቤሎ፡ ብእሲቱ፡ ወልድየሰ፡ ሞተ፡ ወበእንተዝ፡ ጐንደየ፡ ወአኃዘጽ፡ ትብክዮ።</l>
-                  <l n="5">ወትቤ፡ እምኢያኅዘነኒ፡ ወልድየ፡ ሶበ፡ አኮ፡ ዘአኅጐከኒ፡ ብርሃነ፡ አዕይንትየ።</l>
-                  <l n="6">ወይቤላ፡ አርምሚ፡ ወኢትትኃለፊ፡ ውእቱሰ፡ ሕያው።</l>
-                  <l n="7">ወትቤሎ፡ ይእቲኒ፡ አርምም፡ አንተኒ፡ ወኢታስተአብደኒ፡ ወልድየሰ፡ ሞተ፡ ወተሐውር፡ ኵሎ፡ አሚረ፡ ትብክዮ፡ ውስተ፡ ፍኖት፡ እንተ፡ ኀበ፡ ሖረ፡ መዓልተ፡ እክለ፡ ኢትበልዕ፡ ወሌሊተ፡ ኢታረምም፡ እንዘ፡ ትበክዮ፡ ለጦብያ፡ ወልዳ፡ ወእስከ፡ ተፈጸመ፡ ዓሠርቱ፡ ወረቡዕ፡ ዕለት፡ መዋዕለ፡ በዓል፡ ዘአምሐሎ፡ ራጉኤል፡ ከመ፡ ኢይሑር፡ እስከ፡ አመ፡ ይትፌጸም፡ በዓል፡ ዘመርዓ።</l>
-                  <l n="8">ወእምዝ፡ ተፈጺሞ፡ መዋዕለ፡ በዓል፡ ይቤሎ፡ ጦብ፡ ለራጉኤል፡ ፈንወኒ፡ እንከሰ፡ እስመ፡ አቡየ፡ ወእምየ፡ ቀብፁኒ፡ ወኢይሴፈዉ፡ እንከ፡ ይርአዩኒ።</l>
-                  <l n="9">ወይቤሎ፡ ሐሙሁ፡ ንበር፡ ኀቤየ፡ ወአነ፡ እልእክ፡ ኀበ፡ አቡከ፡ ከመ፡ ይንግርዎ፡ ዜናከ።</l>
-                  <l n="10">ወይቤሎ፡ ጦብያ፡ አልቦ፡ ዳዕሙ፡ ፈንወኒ፡ ኀበ፡ አቡየ።</l>
-                  <l n="11">ወተንሥአ፡ ራጉኤል፡ ወወሀቦ፡ ሣራሃ፡ ብእሲቶ፡ ወመንፈቀ፡ ንዋዮሙ፡ ሰብአኒ፡ ወእንስሳሁኒ።</l>
-                  <l n="12">ወባረኮሙ፡ ወይቤሎሙ፡ እግዚአ፡ ሰማይ፡ ያሠኒ፡ ላዕሌክሙ፡ ደቂቅየ፡ ዘእንበለ፡ እሙት፡ ወይቤላ፡ ለወለቱ፡ አክብሪ፡ ታሕማኪ፡ እስመ፡ እምይእዜ፡ ዘመድኪ፡ ወንሕነሰ፡ ንስማዕ፡ ዜና፡ ሠናየ፡ በላዕሌኪ፡ ወሰዓማ፡ ወትቤሎ፡ እድና፡ ለጦብያ፡ አንተ፡ እኁየ፡ ዘአፈቅሮ፡ እግዚአ፡ ሰማይ፡ ይሠርሕከ፡ ወየሀብከ፡ ወልደ፡ እምነ፡ ሣራ፡ ወለትየ፡ እርአይ፡ ለከ፡ ከመ፡ እትፈሣሕ፡ በቅድመ፡ እግዚአብሔር፡ ወናሁ፡ አማኅፀንኩከ፡ ወለትየ፡ ማኅፀንተ፡ ኢታኅዝና።</l>
-                  <l n="13">ወእምድኅረ፡ ሖረ፡ ጦብያ፡ ወባረኮ፡ እግዚአብሔር፡ እስመ፡ ሠርሐ፡ ፍኖቶ፡ ወባረክዎ፡ ራጉኤል፡ ወእድና፡ ብእሲቱ፡ ወሖሩ፡ ወቀርቡ፡ ኀበ፡ ነነዌ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="11" xml:id="chapter11">
-               <label>Chapter 11</label>
-               <ab>
-                  <l n="1">ወእምዝ፡ ይቤሎ፡ ሩፋኤል፡ ለጦብያ፡ አንተ፡ እኁየ፡ ኢተአምርኑ፡ እፎ፡ ኀደጋሁ፡ ለአቡከ።</l>
-                  <l n="2">ነዓ፡ ንቅድም፡ እምነ፡ ብእሲትከ፡ ወናስተዳሉ፡ ቤተ።</l>
-                  <l n="3">ወንሣእ፡ ምስሌከ፡ ሐሞቶ፡ ለውእቱ፡ ዓሣ፡ ወሖሩ፡ ክልኤሆሙ፡ ወሖረ፡ ምስሌሆሙ፡ ዝኩ፡ ወልድ፡ ዘተለዎሙ።</l>
-                  <l n="4">ወሐናሰ፡ ትነብር፡ ውስተ፡ ፍኖት፡ ወትጸንሕ፡ ምጽአቶ፡ ለወልዳ።</l>
-                  <l n="5">ወርእየቶ፡ እንዘ፡ ይመጽእ፡ ሕረት፡ ወነገረቶ፡ ለአቡሁ፡ ወትቤሎ፡ ናሁ፡ መጽአ፡ ወልድከ፡ ወውእቱኒ፡ ብእሲ፡ ዘሖረ፡ ምስሌሁ፡ ውእቱኒ፡ መጽአ።</l>
-                  <l n="6">ወይቤሎ፡ ሩፋኤል፡ ለጦብያ፡ አነ፡ አአምር፡ ከመ፡ ይትከሠት፡ አዕይንቲሁ፡ ለአቡከ።</l>
-                  <l n="7">አንተሰ፡ ኰሐሎ፡ ዘንተ፡ ሐሞተ፡ አዕይንቲሁ፡ ወሶበ፡ ተኵሕለ፡ የሐሲ፡ ወይወጽእ፡ ዝኩ፡ ጢስ፡ እምኔሁ፡ ወይሬኢ፡ ዳኅነ።</l>
-                  <l n="8">ወሮፀት፡ ሐና፡ ወሐቀፈት፡ ክሣደ፡ ወልዳ፡ ወትቤሎ፡ እሙ፡ እምይእዜሰ፡ እሙት፡ እንከ፡ እስመ፡ ርኢኩከ፡ ወልድየ፡ ወበከዩ፡ ክልኤሆሙ።</l>
-                  <l n="9">ወወጽአ፡ ጦቢት፡ ኀበ፡ ኆኅት፡ ወተሐቅፉ፡ ወሮፀ፡ ወልዱ፡ ወአንሥኦ፡ ለአቡሁ፡ ወኰሐሎ፡ ዝኰ፡ ሐሞተ፡ ውስተ፡ አዕይንቲሁ።</l>
-                  <l n="10">ወይቤሎ፡ ተአመን፡ አባ፡ ከመ፡ ተሐዩ።</l>
-                  <l n="11">ወሶበ፡ ኰሐሎ፡ ሐሰየ፡ አዕይንቲሁ።</l>
-                  <l n="12">ወተሥዕየ፡ እምነ፡ ብንተ፡ አዕይንቲሁ፡ ወርእዮ፡ ለወልዱ።</l>
-                  <l n="13">ወሐቀፎ፡ ክሣዶ፡ ወበከየ፡ ወይቤ፡ ቡሩክ፡ አንተ፡ እግዚኦ፡ ወይትባረክ፡ ስምከ፡ ለዓለም፡ ወቡሩካን፡ ኵሎሙ፡ መላእክቲከ፡ ቅዱሳን።</l>
-                  <l n="14">እስመ፡ ቀሠፍከነ፡ ወተሣሃልከነ፡ ወናሁ፡ ርኢክዎ፡ ለጦብያ፡ ወልድየ፡ ወእምዝ፡ ቦአ፡ ወልዱ፡ እንዘ፡ ይትፌሣሕ፡ ወአይድዖ፡ ለአቡሁ፡ ኵሎ፡ ዓቢያተ፡ ዘኮነ፡ ላዕሌሁ።</l>
-                  <l n="15">ወወጽአ፡ ጦቢት፡ ወተቀበላ፡ ለመርዓቱ፡ እንዘ፡ ይትፌሣሕ፡ ወባረኮ፡ ለእግዚአብሔር፡ በኀበ፡ አንቀጸ፡ ነነዌ፡ ወአንከሩ፡ እለ፡ ርእይዎ፡ እንዘ፡ የሐውር፡ ወይቤሉ፡ እፎ፡ ርእየ።</l>
-                  <l n="16">ወጦቢትሰ፡ ገነየ፡ ለእግዚአብሔር፡ በቅድሜሆሙ፡ እስመ፡ ተሣሃሎ፡ አምላከ፡ ሰማይ፡ ወሶበ፡ በጽሐ፡ ጦቢት፡ ኀበ፡ ሣራ፡ መርዓቱ፡ ባረካ፡ ወይቤላ፡ በጻሕኪኑ፡ በዳኅን፡ ወለትየ፡ ይትባረክ፡ እግዚአብሔር፡ ዘአምጽአኪ፡ ኀቤነ፡ ወይባርክ፡ አባኪኒ፡ ወእመኪኒ፡ ወኮነ፡ ዓቢይ፡ ትፍሥሕት፡ ላዕለ፡ ኵሉ፡ አዝማዲሁ፡ እለ፡ ይነብሩ፡ ነነዌ።</l>
-                  <l n="17">ወመጽኡ፡ አካኪሮስ፡ ወነሳቦስ፡ ወልደ፡ እኁሁ።</l>
-                  <l n="18">ወገብሩ፡ በዓለ፡ ሰቡዓ፡ መዋዕለ፡ በትፍሥሕት።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="12" xml:id="chapter12">
-               <label>Chapter 12</label>
-               <ab>
-                  <l n="1">ወእምዝ፡ ጸውዖ፡ ለጦብያ፡ ጦቢት፡ ወይቤሎ፡ ርኢ፡ ሎቱ፡ ወልድየ፡ አስቦ፡ ለዝኩ፡ ብእሲ፡ ዘሖረ፡ ምስሌከ፡ ወዓዲ፡ ርቱዕ፡ ትወስክ፡ ሎቱ።</l>
-                  <l n="2">ወይቤሎ፡ ጦቢያ፡ ለአቡሁ፡ አባ፡ ዘይነክየኒ፡ አልቦ፡ ለእመ፡ ወሀብክዎ፡ መንፈቀ፡ ዝንቱ፡ ነዋይ፡ ዘአምጻእኩ።</l>
-                  <l n="3">እስመ፡ አዕተወኒ፡ ኀቤከ፡ በዳኅና፡ ወለብእሲትየኒ፡ ፈወሳ፡ ወብሩረኒ፡ አምጽአ፡ ከማሁ፡ ለከሂ፡ ፈወሰከ።</l>
-                  <l n="4">ወይቤሎ፡ አቡሁ፡ ጽድቀ፡ ነበብከ።</l>
-                  <l n="5">ወጸውዖ፡ ለውእቱ፡ መልአክ፡ ወይቤሎ፡ ንሣእ፡ መንፈቀ፡ ኵሉ፡ ንዋይ፡ ዘአምጻእክሙ፡ ምስሌክሙ፡ ወሑር፡ በዳኅን።</l>
-                  <l n="6">ወጸውዖሙ፡ ሩፋኤል፡ ውእተ፡ ጊዜ፡ ለክልኤሆሙ፡ ወአግኃሦሙ፡ ወይቤሎሙ፡ ባርክዎ፡ ለእግዚአብሔር፡ ወግነዩ፡ ሎቱ፡ ወወሀቡ፡ ዕበየ፡ ለስሙ፡ ወእመኑ፡ ቦቱ፡ በቅድመ፡ ኵሉ፡ ዘሕያው፡ በእንተ፡ ኵሉ፡ ዘገብረ፡ ላዕሌክሙ፡ ሠናያተ፡ ወአዕኵትዎ፡ ለእግዚአብሔር፡ ወሰብሑ፡ ለስሙ፡ ወንግሩ፡ ግብሮ፡ ለእግዚአብሔር፡ በክብር፡ አርእዩ፡ ወኢትትሐከዩ፡ ገንየ፡ ሎቱ።</l>
-                  <l n="7">እስመ፡ ምሥጢረ፡ መንግሥት፡ ሠናይ፡ ለኀቢእ፡ ወለግብረ፡ እግዚአብሔርሰ፡ ይከሥትዎ፡ በግብር፡ ግበርዋ፡ ለሠናይት፡ ወኢትረክበክሙ፡ እኪት።</l>
-                  <l n="8">ሠናይ፡ ውእቱ፡ ጸሎት፡ ምስለ፡ ሰላም፡ ወምጽዋት፡ ወጽድቅ፡ ይኄይስ፡ ኅዳጥ፡ ዘበጽድቅ፡ እምብዙኅ፡ ብዕለ፡ ዓመፃ፡ ወይኄይስ፡ ውኂበ፡ ምጽዋት፡ እምዘጊቦቱ፡ ለወርቅ።</l>
-                  <l n="9">እስመ፡ ምጽዋት፡ ታድኅን፡ እሞት፡ ወታነጽሕ፡ እምኵሉ፡ ኃጢአት፡ ወእለሰ፡ ይገብሩ፡ ጽድቀ፡ ወምጽዋተ፡ ይመልዑ፡ ላዕሌሆሙ፡ ሕይወተ።</l>
-                  <l n="10">ወእለሂ፡ ይኤብሱ፡ ይጸልእዋ፡ ለነፍሶሙ።</l>
-                  <l n="11">ወናሁ፡ ኢየኀብእ፡ እምኔክሙ፡ ኵሎ፡ ነገረ፡ ወእቤለክሙ፡ ከመ፡ ምሥጢረ፡ መንግሥት፡ ሠናይ፡ ለኃቢዕ፡ ወግብሮሰ፡ ለእግዚአብሔር፡ ይከሥትዎ፡ በክብር።</l>
-                  <l n="12">ወይእዜኒ፡ አመ፡ ጸለይክሙ፡ አንተ፡ ወሣራ፡ መርዓትከ፡ አነ፡ አባዕኩ፡ ተዝካረ፡ ስእለትክሙ፡ ቅድሜሁ፡ ለቅዱሰ፡ ቅዱሳን፡ ወአንተኒ፡ አመ፡ ትቀብር፡ አብድንተ፡ አሜሃ፡ ሀሎኩ፡ ምስሌከ።</l>
-                  <l n="13">ወአመኒ፡ ኢተሐየይከ፡ ወተንሣእከ፡ ኀዲገከ፡ ምስሐከ፡ ወሖርከ፡ ትቀብር፡ በድነ፡ ወኢረሣእከ፡ ገቢረ፡ ሠናይ፡ አሜሃ፡ ሀሎኩ፡ ምስሌከ።</l>
-                  <l n="14">ወእግዚአብሔር፡ ፈነወኒ፡ ከመ፡ እፈውስከ፡ ወለሣራ፡ መርዓትከ፡ ከመ፡ እናዝዝ፡ ኃዘና።</l>
-                  <l n="15">አነ፡ ውእቱ፡ ሩፋኤል፡ መልአክ፡ አሐዱ፡ እምነ፡ ሰብአቱ፡ ሊቃነ፡ መላእክት፡ ቅዱሳን፡ እለ፡ የዓርጉ፡ ጸሎቶሙ፡ ለቅዱሳን፡ ወያበውዑ፡ ቅድመ፡ ስብሐቲሁ፡ ለዓቢይ፡ ወቅዱስ።</l>
-                  <l n="16">ወሰሚዖሙ፡ ዘንተ፡ ደንገፁ፡ ክልኤሆሙ፡ ወወድቁ፡ በገጾሙ፡ እስመ፡ ፈርሁ።</l>
-                  <l n="17">ወይቤሎሙ፡ ኢትፍርሁ፡ ለእግዚአብሔር፡ አምላክክሙ፡ ባርክዎ።</l>
-                  <l n="18">እስመ፡ አኮ፡ ሊተ፡ አኰቴት፡ አላ፡ ፈቃዱ፡ ለአምላክክሙ፡ አምጽአኒ፡ ወበእንተዝ፡ ባርክዎ፡ ለአምላከ፡ ጽድቅ፡ ለዓለም።</l>
-                  <l n="19">ወበኵሉ፡ መዋዕለ፡ ወአነ፡ አስተርአይኩክሙ፡ ወርኢክሙ፡ ራእይየ፡ ኢበላዕኩ፡ ወኢሰተይኩ፡ ምስሌክሙ።</l>
-                  <l n="20">ወይእዜኒ፡ እመኑ፡ በእግዚአብሔር፡ እስመአ፡ ዓርግ፡ ኀበ፡ ዘፈነወኒ፡ ወመጻእኩ፡ እጽሐፍ፡ እሎንተ፡ መጻሕፍተ።</l>
-                  <l n="21">ወሶቤሃ፡ ተንሥአ፡ ወሖረ፡ ወኢርእይዎ፡ እንከ።</l>
-                  <l n="22">ወአምኑ፡ በኵሉ፡ ግብሩ፡ ለእግዚአብሔር፡ ዓቢይ፡ ወግሩም፡ ወበእንተ፡ ዘአስተርአዮሙ፡ መልአከ፡ እግዚአብሔር።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="13" xml:id="chapter13">
-               <label>Chapter 13</label>
-               <ab>
-                  <l n="1">ወጸለየ፡ ጦቢት፡ ጸሎተ፡ ትፍሥሕት፡ ወይቤ፡ ይትባረክ፡ እግዚአብሔር፡ ዘውእቱ፡ ሕያው፡ ዘለዓለም፡ ወለዓለመ፡ ዓለም፡ መንግሥቱ።</l>
-                  <l n="2">ወውእቱ፡ ይቀሥፍ፡ ወይሣሃል፡ ወውእቱ፡ ያወርድ፡ ውስተ፡ ሲኦል፡ ወየዐርግ፡ ወአልቦ፡ ዘያመስጥ፡ እምእዴሁ።</l>
-                  <l n="3">ወግነዩ፡ ሎቱ፡ ኵልክሙ፡ ደቂቀ፡ እስራኤል፡ በቅድመ፡ ኵሉ፡ አሕዛብ፡ እለ፡ ዘረወነ፡ ውስቴቶሙ።</l>
-                  <l n="4">በህየ፡ አርአየ፡ ምሕረቶ፡ ላዕሌነ፡ ወአልዕልዎ፡ በቅድመ፡ ኵሉ፡ ደቂቀ፡ ዕጓለ፡ እመሕያው፡ እስመ፡ ውእቱ፡ እግዚእነ፡ ወውእቱ፡ እግዚአብሔር፡ አቡነ፡ በኵሉ፡ ዓለም።</l>
-                  <l n="5">ወይቀሥፈነ፡ በኵሉ፡ ኃጣውኢነ፡ ወካዕበ፡ ይሣሃለነ፡ ወያስተጋብአነ፡ እምኵሉ፡ አሕዛብ፡ እለ፡ ውስቴቶሙ፡ ዘረወነ።</l>
-                  <l n="6">ወለእመኒ፡ ተመየጥነ፡ ኀቤሁ፡ በኵሉ፡ ልብነ፡ ወበኵሉ፡ ነፍስነ፡ ከመ፡ ንግበር፡ ጽድቀ፡ በቅድሜሁ፡ ወውእተ፡ ጊዜ፡ ይትመየጥ፡ ኀቤነ፡ ወኢይሤውር፡ ገጾ፡ እምኔነ፡ ወርእዩ፡ ዘገብረ፡ በላዕሌነ፡ ወእመኑ፡ ቦቱ፡ በኵሉ፡ ልብክሙ፡ ወበኵሉ፡ ነፍስክሙ፡ ወባርክዎ፡ ለእግዚአብሔር፡ ወአልዕልዎ፡ ለንጉሠ፡ ዓለም፡ በምድር፡ ዘትፄወውክሙ፡ ወአንሰ፡ በምድር፡ ዘተፄወውኩ፡ አአምን፡ ቦቱ፡ ወእነግር፡ ኃይሎ፡ ወዕበዮ፡ ለሕዝብ፡ ኃጥአን፡ ተመየጡ፡ ኃጥአን፡ ወግበርዋ፡ ለጽድቅ፡ ቅድሜሁ፡ ለእግዚእየ፡ መኑ፡ የአምሮ፡ እመ፡ ይፈቅድ፡ ዘይገብር፡ ምሕረቶ፡ በላዕሌክሙ፡ አምላኪየ።</l>
-                  <l n="7">ወታሌዕሎ፡ ነፍስየ፡ ለንጉሠ፡ ሰማይ፡ እሴብሕ፡ ዕበዮ፡ ለአምላከ፡ ጽድቅ፡ በኵሉ።</l>
-                  <l n="8">ወእመኒ፡ ቦቱ፡ በጽድቅ፡ ሀገረ፡ ኢየሩሳሌም፡ ቅድስት፡ ኢይቅሥፍኪኑ፡ በምግባረ፡ ጽድቅኪ፡ ወካዕበ፡ ይምሕኮሙ፡ ለደቂቀ፡ ጻድቃን።</l>
-                  <l n="9">ግነዩ፡ ለእግዚአብሔር፡ በሠናይ፡ ወባርኪዮ፡ ለንጉሠ፡ ዓለም፡ ከመ፡ ትትሐነፅ፡ ደብተራሁ፡ ውስቴትኪ፡ በትፍሥሕት፡ ወይትፌሥሑ፡ ብኪ፡ ህየ፡ እለ፡ ሀለዉ፡ ፂውዋን፡ ወይትፋቀሩ፡ በእንቲአኪ፡ ጽሉዓን፡ በኵሉ፡ ትውልድ፡ ዘለዓለም።</l>
-                  <l n="10">እስመ፡ ብዙኃን፡ አሕዛብ፡ ይመጽኡ፡ እምርኁቅ፡ ኀበ፡ ስሙ፡ ለእግዚአብሔር፡ ወያመጽኡ፡ አምኃ፡ ለንጉሠ፡ ዓለም፡ ወለንጉሠ፡ ሰማይ፡ ለትውልደ፡ ትውልድ፡ ይሴብሑከ፡ እግዚኦ፡ ወይሁቡ፡ ስብሐተ፡ ለስምከ።</l>
-                  <l n="11">ርጉማን፡ ኵሎሙ፡ እለ፡ ይጸልኡከ፡ ወቡሩካን፡ እሙንቱ፡ ኵሎሙ፡ እለ፡ ያፈቅሩከ፡ ለዓለም።</l>
-                  <l n="12">ወትትፌሣሕ፡ በደቂቆሙ፡ ለጻድቃን፡ እስመ፡ ይትጋብኡ፡ ወይባርኩከ፡ እግዚኦ፡ እስመ፡ ብፁዓን፡ እሙንቱ፡ እለ፡ ያፈቅሩከ፡ ወይትፌሥሑ፡ በስምከ።</l>
-                  <l n="13">ወብፁዓን፡ ኵሎሙ፡ እለ፡ ይቴክዙ፡ በሕማምከ፡ እስመ፡ ይትፌሥሑ፡ ብከ፡ ርእዮሙ፡ ኵሎ፡ ስብሐቲከ፡ ወይትፌሥሑ፡ ለዓለም።</l>
-                  <l n="14">ነፍስነሰ፡ ትባርኮ፡ ለእግዚአብሔር፡ ንጉሥ፡ ዓቢይ።</l>
-                  <l n="15">እስመ፡ ትትሐነፅ፡ ኢየሩሳሌም፡ በዕብነ፡ ሰንፔር፡ ወበመረግድ፡ ወበዕንቊ፡ ክቡር፡ አረፋቲሃ፡ ወማሕፈዲሃ፡ ወአናቅጺሃ፡ በወርቅ፡ ንጽሕ።</l>
-                  <l n="16">ወመርኅባኒ፡ በቢረሌ፡ ወበዕንቈ፡ ሶፎር፡ አትራኮስ፡ ወበዕንቈ፡ ሶፎር፡ ይትገበር።</l>
-                  <l n="17">ወይብሉ፡ በኵሉ፡ ፍናዊሃ፡ ሃሌሉያ፡ ይሴብሑ፡ ወይብሉ፡ ይትባረክ፡ እግዚአብሔር፡ ለዓለም፡ ወበኵሉ፡ ዓለም።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="14" xml:id="chapter14">
-               <label>Chapter 14</label>
-               <ab>
-                  <l n="1">ወእምዝ፡ አርመመ፡ ጦቢት፡ እምኀበ፡ ይጼሊ።</l>
-                  <l n="2">ኃምሳ፡ ወሰመንቱ፡ ዓመት፡ ሎቱ፡ አመ፡ የኃጕል፡ አዕይንቲሁ፡ ወእምድኅረ፡ ኃምሳ፡ ወሰመንቱ፡ ዓመት፡ ርእየ፡ ወገብረ፡ ምጽዋተ፡ ወወሰከ፡ ዓዲ፡ ፈሪሆቶ፡ ለእግዚአብሔር።</l>
-                  <l n="3">ወፈድፋደ፡ ረስዓ፡ ወጸውዖሙ፡ ለወልዱ፡ ወለደቂቀ፡ ወልዱ፡ ወይቤሎ፡ ወልድየ፡ ንሣእ፡ ደቂቀከ፡ እስመ፡ ረሣዕኩ፡ ወበጻሕኩ፡ እስከ፡ ለሞት።</l>
-                  <l n="4">ወሑር፡ እስከ፡ ሜዶን፡ እስመ፡ አአምር፡ ኵሎ፡ ዘነበበ፡ ዮናስ፡ ነቢይ፡ ላዕለ፡ ነነዌ፡ ከመ፡ ሀለዋ፡ ትትነሠት፡ ውስተ፡ ሜዶንሰ፡ ሰላም፡ ይከውን፡ እስከ፡ ዘመኑ፡ ወአኃዊነ፡ ሀለዎሙ፡ ይዘረዉ፡ ውስተ፡ በሐውርት፡ እምነ፡ ኵሉ፡ ምድር፡ ቡርክት፡ ወኢየሩሳሌምኒ፡ ትከውን፡ በድወ፡ ወቤተ፡ እግዚአብሔር፡ ዘውስቴታ፡ ይውዒ፡ በእሳት፡ ወይከውን፡ በድወ።</l>
-                  <l n="5">ወካዕበ፡ ይሣሃሎሙ፡ እግዚአብሔር፡ ወያገብኦሙ፡ ውስተ፡ ምድሮሙ፡ ወየሐንፁ፡ ቤቶ፡ ወአኮ፡ ከመ፡ ቀዲሙ፡ አላ፡ እስከ፡ ይትፌጸም፡ መዋዕለ፡ ዓለም፡ ወእምድኅረ፡ ዝንቱ፡ ይገብኡ፡ እምኀበ፡ ይፄወዉ፡ ወይትሐነፅ፡ ኢየሩሳሌም፡ በክብር፡ ወይትሐነፅ፡ በውስቴታ፡ ቤተ፡ እግዚአብሔር፡ በኵሉ፡ ትውልድ፡ ዘለዓለም፡ በንድቅ፡ ክቡር።</l>
-                  <l n="6">ወኵሉ፡ አሕዛብ፡ ይገድፉ፡ አማልክቲሆሙ፡ ወይትመየጡ፡ በጽድቅ።</l>
-                  <l n="7">ወይፈርህዎ፡ ለእግዚአብሔር፡ ወይባርክዎ፡ ወሕዝብኒ፡ የአምኑ፡ ቦቱ፡ ወይሣሃሎሙ፡ እግዚአብሔር፡ ለሕዝቡ፡ ወይትፌሥሑ፡ ኵሎሙ፡ እለ፡ ይፈርህዎ፡ ለእግዚአብሔር፡ በጽድቅ፡ ወበርትዕ፡ ወይገብሩ፡ ምሕረተ፡ ላዕለ፡ አኃዊሆሙ።</l>
-                  <l n="8">ወይእዜኒ፡ ወልድየ፡ ፃዕ፡ እነ፡ ነነዌ፡ እስመ፡ በግብር፡ ይከውን፡ ዘነበበ፡ ዮናስ፡ ነቢይ።</l>
-                  <l n="9">ወአንተሰ፡ ዕቀብ፡ ሕገ፡ ወትእዛዘ፡ ወኩን፡ መሐሬ፡ ወአፍቅር፡ ጽድቀ፡ ከመ፡ ይኩን፡ ሠናየ፡ ላዕሌከ።</l>
-                  <l n="10">ወቅብረኒ፡ በሠናይ፡ ወለእምከኒ፡ ምስሌየ፡ ወኢትንበር፡ ውስተ፡ ነነዌ፡ ወልድየ፡ ወርኢ፡ ዘከመ፡ ገብረ፡ ሐማ፡ ላዕለ፡ አካኪሮስ፡ ወከመ፡ አብኦ፡ እምብርሃን፡ ውስተ፡ ጽልመት፡ ወእመ፡ ተፈድየ፡ በከመ፡ እከዩ፡ ወአካኪሮንሰ፡ ሕያው፡ ውእቱ፡ ወውእቱሰ፡ ተፈድየ፡ ፍዳሁ፡ ወለሊሁ፡ ወረደ፡ ውስተ፡ ጽልመት፡ ወምናሴ፡ ገብረ፡ ምጽዋተ፡ ወገብረ፡ ጽድቀ፡ ወድኅነ፡ እምነ፡ መቅሠፍተ፡ ሞት፡ እንተ፡ ሠርዑ፡ ላዕሌሁ፡ ወሐማሰ፡ ወድቀ፡ ውስተ፡ ይእቲ፡ መሥገርት፡ ወሞተ፡ ሞተ።</l>
-                  <l n="11">ወይእዜኒ፡ ርኢ፡ ወልድየ፡ ከመ፡ ታድኅን፡ ምጽዋተ፡ ለእለ፡ ይገብርዋ፡ ወትፈሪ፡ ጽድቀ፡ ወከመዝ፡ ብሂሎ፡ ሞተ፡ ጦቢት፡ ወወጽአት፡ መንፈሱ፡ በዲበ፡ ዓራቱ፡ ምዕት፡ ወኃምሣ፡ ወሰመንቱ፡ ዓመት፡ ሎቱ፡ ወቀበርዎ፡ በክብር።</l>
-                  <l n="12">ወአመ፡ ሞተት፡ ሐና፡ እሙ፡ ቀበራ፡ ጦብያ፡ ወልዱ፡ ምስለ፡ አቡሁ፡ ወሖረ፡ ጦብያ፡ ምስለ፡ ብእሲቱ፡ ወደቂቁ፡ ውስተ፡ ባጥና፡ ኀበ፡ ራጉኤል።</l>
-                  <l n="13">ወረስዐ፡ ራጉኤል፡ ወእድና፡ ብእሲቱ፡ ወሞቱ፡ ወቀበሮሙ፡ ጦብያ፡ በክብር፡ ለሐማትሁ፡ ወተዋረሶሙ፡ ኵሎ፡ ንዋዮሙ፡ ወለጦቢትኒ፡ አቡሁ።</l>
-                  <l n="14">ወሰምዐ፡ ጦብያ፡ ሙስናሃ፡ ለነነዌ፡ ዘእንበለ፡ ይሙት፡ በከመ፡ ነገሮ፡ አቡሁ፡ ወሰምዑ፡ ናቡከደነፆር፡ ወአስዊሮስ፡ ሙስናሃ፡ ለነነዌ፡ ወተፈሥሑ።</l>
-                  <l n="15">ወሞተ፡ ጦብያ፡ በ፻ወ፳ወ</l>
-               </ab>
-            </div>
-         </div>
-      </body>
-   </text></TEI>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change when="2017-12-08" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added bibliography and keywords</change>
+         <change when="2025-06-05" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
+      </t:revisionDesc>
+   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
+            <t:listBibl type="editions">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/GE34C4XW"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Dillmann1894VetTest"/><title level="m">Biblia Veteris Testamenti Aethiopica: in quinque tomos distributa, ad librorum manuscriptorum fidem edidit et apparatu critico instruxit,&lt;hi rend="italics"&gt; V: &lt;/hi&gt;Libri Apocryphi, Baruch, Epistola Jeremiae, Tobith, Judith, Ecclesiasticus, Sapientia, Esdrae Apocalypsis, Esdrae Graecus</title><author><forename>Christian Friedrich August</forename><surname>Dillmann</surname></author><editor><forename>Christian Friedrich August</forename><surname>Dillmann</surname></editor><pubPlace>Berolini</pubPlace><publisher>Prostat apud A. Asher et Socios</publisher><date>1894</date><note type="url">http://digitale-sammlungen.ulb.uni-bonn.de/content/titleinfo/69640</note><note type="tags"><note type="tag">Apocrypha</note><note type="tag">Bible</note><note type="tag">Old Testament</note><note type="tag">bm:Dillmann1894VetTest</note></note><note type="tag">Apocrypha</note><note type="tag">Bible</note><note type="tag">Old Testament</note><note type="tag">bm:Dillmann1894VetTest</note><t:citedRange unit="page">11-27</t:citedRange></t:bibl>
+            </t:listBibl>
+         </t:div>
+         <t:div type="edition" xml:lang="gez" xml:id="div2LIT2473TobitB">
+            <t:note>Text of the EOTC printed Bible</t:note>
+            <t:div type="textpart" subtype="chapter" n="1" xml:id="chapter1">
+               <t:label>Chapter 1</t:label>
+               <t:ab>
+                  <t:l n="1">መጽሐፍ፡ ነገሩ፡ ለጦብያ፡ ወልደ፡ ጦቢት፡ ወልደ፡ ገባኤል፡ ዘእምነ፡ አሳሔል፡ ዘእምነገደ፡ ንፍታሌም።</t:l>
+                  <t:l n="2">ዘተፄወወ፡ በመዋዕለ፡ አኔሜሴር፡ ንጉሠ፡ ፋርስ፡ ዘእምታቢስ፡ እንተ፡ እምየማና፡ ለቃዴስ፡ ዘእንተ፡ ንፍታሌም፡ ዘገሊላ፡ እንተ፡ መልዕልተ፡ አሴር።</t:l>
+                  <t:l n="3">አነ፡ ጦቢት፡ በፍኖተ፡ ጽድቅ፡ ሖርኩ፡ ወበርትዕ፡ ሐየውኩ፡ በኵሉ፡ መዋዕለ፡ ሕይወትየ፡ ወምጽዋትየኒ፡ ብዙኃ፡ ገበርኩ፡ ለአኃውየ፡ ወለሕዝብየኒ፡ እለ፡ ሖሩ፡ ምስሌየ፡ ብሔረ፡ ፋርስ፡ ውስተ፡ ነነዌ።</t:l>
+                  <t:l n="4">ወእንዘ፡ ሀሎኩ፡ ምስለ፡ ደቂቀ፡ እስራኤል፡ በብሔርየ፡ እንዘ፡ ንዑስ፡ አነ፡ ወኵሉ፡ ሕዝበ፡ ንፍታሌም፡ ወአቡየ፡ ክህዱ፡ እምነ፡ ኢየሩሳሌም፡ እንተ፡ ኃረይዋ፡ እምነ፡ ኵሉ፡ እስራኤል፡ ከመ፡ ይሡዑ፡ ውስቴታ፡ ኵሉ፡ እስራኤል፡ ወተቀደሰ፡ ጽርሐ፡ መቅደሱ፡ ለልዑል፡ ወተሐንፀ፡ ሎሙ፡ ለትውልድ፡ ዘለዓለም።</t:l>
+                  <t:l n="5">ወኵሉ፡ ሕዝብ፡ እለ፡ ክህዱ፡ ሦዑ፡ ለበዓል፡ ወለደማሊ፡ ወቤተ፡ ንፍታሌምኒ፡ ወቤተ፡ አቡየ፡ ኀብሩ፡ ምስሌሆሙ።</t:l>
+                  <t:l n="6">ወአነ፡ ባሕቲትየ፡ መብዝኅቶ፡ አሐውር፡ ኢየሩሳሌም፡ አመ፡ በዓላት፡ በከመ፡ ጽሑፍ፡ ለኵሉ፡ እስራኤል፡ ውስተ፡ ትእዛዝ፡ ዘለዓለም፡ እምነ፡ ቀዳሚት፡ ዘቀረጽኩ፡ እወስድ፡ ሎሙ፡ ለካህናት፡ ለደቂቀ፡ አሮን፡ ኀበ፡ ምሥዋዕ፡ ኵሎ፡ እክለ።</t:l>
+                  <t:l n="7">ወቀዳሜ፡ ኵሉ፡ ዓሥራት፡ እሁቦሙ፡ ለደቂቀ፡ አሮን፡ እለ፡ ይፀመዱ፡ ኢየሩሳሌም፡ ወዘዳግመ፡ ዓሥራተ፡ እዔሥር፡ ወአስተዋጽእ፡ ምጽዋተ፡ ወአሐውር፡ ኢየሩሳሌም፡ በበዓመት።</t:l>
+                  <t:l n="8">ወሣልስተ፡ እሁብ፡ ለነዳያን፡ በከመ፡ አዘዘት፡ ዲቦራ፡ እሙ፡ ለአቡየ፡ እስመ፡ ዕጓለ፡ ማውታ፡ ኀደጉኒ፡ አቡየ፡ ወእምየ።</t:l>
+                  <t:l n="9">ወአመ፡ ኮንኩ፡ ብእሴ፡ ነሣእኩ፡ ሊተ፡ ብእሲተ፡ እምነ፡ አዝማድየ፡ ወወለድኩ፡ እምኔሃ፡ ጦብያሃ።</t:l>
+                  <t:l n="10">ወአመ፡ ተፄወዉ፡ ነነዌ፡ ኵሎሙ፡ አኃውየ፡ ወአዝማድየ፡ በልዑ፡ እምነ፡ እክለ፡ አሕዛብ።</t:l>
+                  <t:l n="11">ወአንሰ፡ ዓቀብኩ፡ ነፍስየ፡ ከመ፡ ኢይብላዕ።</t:l>
+                  <t:l n="12">እስመ፡ እዜክሮ፡ ለእግዚአብሔር፡ በኵሉ፡ ልብየ።</t:l>
+                  <t:l n="13">ወወሀበኒ፡ እግዚአብሔር፡ ገጸ፡ ወሞገሰ፡ በቅድመ፡ አኔሜሴር፡ ወሤመኒ፡ መጋቢሁ።</t:l>
+                  <t:l n="14">ወሖርኩ፡ ምድያም፡ ወአዕቀብክዎ፡ ለገባኤል፡ በብሔረ፡ ራጊስ፡ ዘምድያም፡ ዐሠርተ፡ መካልየ፡ ብሩር።</t:l>
+                  <t:l n="15">ወአመ፡ ሞተ፡ አኔሜሴር፡ ነግሠ፡ ህየንቴሁ፡ ሰናክሬም፡ ዘእኩይ፡ ምግባሩ፡ ወሠዐረኒ፡ ወኢክህልኩ፡ ሐዊረ፡ ምድያም።</t:l>
+                  <t:l n="16">ወበመዋዕ፡ አኔሜሴር፡ ብዙኃ፡ ምጽዋተ፡ ገበርኩ፡ ለአኃውየ።</t:l>
+                  <t:l n="17">ወእክልየኒ፡ ወሀብኩ፡ ለርኁባን፡ ወልብስየኒ፡ ለዕሩቃን፡ ወእመቦ፡ ዘርኢኩ፡ እምሕዝብየ፡ ምውተ፡ ግዱፈ፡ ኀበ፡ ዓረፍት፡ በነነዌ፡ እቀብሮ።</t:l>
+                  <t:l n="18">እመቦ፡ ዘቀተለ፡ ሰናክሬም፡ ንጉሠ፡ አመ፡ አተወ፡ እምይሁዳ፡ እንዘ፡ ይጐይይ፡ ወአነ፡ ቀበርክዎሙ፡ ጽሚተ፡ እስመ፡ ብዙኃነ፡ ቀተለ፡ በመዓቱ፡ ወኃሠሠ፡ ንጉሥ፡ አብድንቲሆሙ፡ ወኢረከቦሙ።</t:l>
+                  <t:l n="19">ወሖረ፡ አሐዱ፡ እምሰብአ፡ ነነዌ፡ ኀበ፡ ንጉሥ፡ ወአስተዋደየኒ፡ ከመ፡ አነ፡ ቀበርክዎሙ፡ ወተኀባዕኩ፡ ሶበ፡ አእመርኩ፡ ከመ፡ ይፈቅዱ፡ ይቅትሉኒ፡ ወፈሪህየ፡ ተግኅሥኩ።</t:l>
+                  <t:l n="20">ወሶበ፡ ኃጥኡኒ፡ በርበሩ፡ ኵሎ፡ ንዋይየ፡ ወአልቦ፡ ዘአትረፉ፡ ሊተ፡ ዘእንበለ፡ ሐና፡ ብእሲትየ፡ ወጦብያ፡ ወልድየ።</t:l>
+                  <t:l n="21">ወኢወፃእኩ፡ ሃምሳ፡ ወሐምስተ፡ መዋዕለ፡ እስከ፡ አመ፡ ቀተልዎ፡ ክልኤሆሙ፡ ደቂቁ፡ ወጐዩ፡ ውስተ፡ አራራት፡ ወነግሠ፡ አስራዶን፡ ወልዱ፡ ህየንቴሁ፡ ወሤሞ፡ ለአካኪሮን፡ ወልደ፡ አሳሔል፡ ወልደ፡ እኁየ፡ ላዕለ፡ ኵሉ፡ ቤተ፡ አቡሁ፡ ወላዕለ፡ ኵሉ፡ ሥርዓቶሙ።</t:l>
+                  <t:l n="22">ወሰአሎ፡ በእንቲአየ፡ አካኪሮን፡ ወአዕተወኒ፡ ውስተ፡ ነነዌ፡ ወአካኪሮን፡ ዘላዕሌሁ፡ ማኅተም፡ ወፃዕፃዕ፡ ቤቱ፡ ወሤመ፡ ዳግመ፡ አክሮንድስሃ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="2" xml:id="chapter2">
+               <t:label>Chapter 2</t:label>
+               <t:ab>
+                  <t:l n="1">ወሶበ፡ አተውኩ፡ ቤትየ፡ አግብኡ፡ ሊተ፡ ሐናሃ፡ ብእሲትየ፡ በዕለተ፡ በዓለ፡ ጰንጠቈስጤ፡ ቅድስት፡ ሳብዕ፡ ሰንበት፡ ገብሩ፡ ላዕሌየ፡ ሠናየ፡ ወረፈቁ፡ እብላዕ።</t:l>
+                  <t:l n="2">ወርእኪ፡ ከመ፡ መስየ፡ በሕቁ፡ ወእቤሎ፡ ለወልድየ፡ ሑር፡ አምጽእ፡ ዘረከብከ፡ እምአኃዊነ፡ ቢጸ፡ ነዳያን፡ እስመ፡ ተዘከርክዎ፡ ለእግዚአብሔር፡ እጸንሐከ፡ እስከ፡ ትገብእ።</t:l>
+                  <t:l n="3">ወሶበ፡ ገብአ፡ ወይቤለኒ፡ አባ፡ ረከብኩ፡ አሐደ፡ እምሕዝብ፡ ወግዱፍ፡ በድኑ፡ ውስተ፡ ምሥያጥ።</t:l>
+                  <t:l n="4">ወአነሂ፡ ተንሣእኩ፡ ዘእንበለ፡ እጥዓም፡ እክለ፡ ወአባዕክዎ፡ ውስተ፡ አሐዱ፡ ቤት፡ እስከ፡ የዓርብ፡ ፀሐይ።</t:l>
+                  <t:l n="5">ወገባዕኩ፡ ውስተ፡ ቤትየ፡ ወተሐፀብኩ፡ ወበላዕኩ፡ እክልየ፡ በኃዘን።</t:l>
+                  <t:l n="6">ወተዘከርኩ፡ ዘይቤ፡ አሞጽ፡ ይትመየጥ፡ በዓላቲክሙ፡ ውስተ፡ ብካይ።</t:l>
+                  <t:l n="7">ወእምዝ፡ በከይኩ፡ ወሶበ፡ ዓርበ፡ ፀሐይ፡ ሖርኩ፡ ወከረይኩ፡ ወቀበርክዎ።</t:l>
+                  <t:l n="8">ወሰሐቁ፡ ላዕሌየ፡ ሰብአ፡ ብሔር፡ ወይቤሉ፡ ኢይፈርህኑ፡ ዝንቱ፡ ኢይቅትልዎ፡ በእንተ፡ ዝንቱ፡ ግብር፡ እስመ፡ ይቀብሮሙ፡ ለእለ፡ ቀተለ፡ ንጉሥ።</t:l>
+                  <t:l n="9">ወበይእቲ፡ ሌሊት፡ ቤትኩ፡ ስኩብየ፡ ውስተ፡ ዓረፍተ፡ ዓፀድ፡ ወክሡት፡ ገጽየ።</t:l>
+                  <t:l n="10">ወኢያእመርኩ፡ ከመ፡ ቦቱ፡ አዕዋፍ፡ ውስተ፡ ዓረፍት፡ ወእንዘ፡ ክሡት፡ ገጽየ፡ አኵስሓ፡ እልክቱ፡ አዕዋፍ፡ ውዑየ፡ ውስተ፡ አዕይንትየ፡ ወሖርኩ፡ ኀበ፡ ዓቀብተ፡ ሥራይ፡ ወአልቦ፡ ዘበቊዓኒ፡ ወአካኪሮስ፡ ይሴስየኒ፡ እስከ፡ አመ፡ ሖርኩ፡ ኤልማድያ፡ ባሕቲትየ።</t:l>
+                  <t:l n="11">ወሐናሰ፡ ትፀመድ፡ ቤተ፡ አንስት።</t:l>
+                  <t:l n="12">ወለአከት፡ ኀበ፡ አጋዕዝቲሃ፡ ወወሀባሃ፡ እማንቱሂ፡ መሐስዓ፡ ወአምጽአት፡ ኀቤየ።</t:l>
+                  <t:l n="13">ወሶበ፡ መጽአት፡ ኀቤየ፡ አኀዘት፡ ትጽራኅ፡ ወእቤላ፡ እምአይቴ፡ ዛቲ፡ መሐስዕ፡ ወለእመ፡ ስረቂዮ፡ አግብኢዮ፡ ለባዕሉ፡ እስመ፡ ኢኮነ፡ ጽድቀ፡ በሊዕ፡ ዘስርቅ።</t:l>
+                  <t:l n="14">ወትቤለኒ፡ ጸግውኒያ፡ ህየንተ፡ አስብየ፡ ወኢአመንክዋ፡ ወእቤላ፡ አግብኢ፡ ለባዕሉ፡ ወብዙኃ፡ ተገአዝኩ፡ ምስሌሃ፡ ወአውሥአት፡ ወትቤለኒ፡ አይቴ፡ ውእቱ፡ ምጽዋትከ፡ ወጽድቅከ፡ ናሁ፡ ኵሉ፡ ተአውቀ፡ ዘላዕሌከ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="3" xml:id="chapter3">
+               <t:label>Chapter 3</t:label>
+               <t:ab>
+                  <t:l n="1">ወተከዝኩ፡ በሕማየ፡ ወጸለይኩ፡ ወበከይኩ።</t:l>
+                  <t:l n="2">ወእቤ፡ ጻድቅ፡ አንተ፡ እግዚኦ፡ ወኵሉ፡ ፍናዊከ፡ በምሕረት፡ ወበፍትሕ፡ በርትዕ፡ ወበጽድቅ፡ ትኴንን፡ ዓለመ።</t:l>
+                  <t:l n="3">ተዘከረኒ፡ ወነጽረኒ፡ ወኢትትበቀለኒ፡ በኃጢአትየ።</t:l>
+                  <t:l n="4">ወበኃጢአተ፡ አበውየ፡ እለ፡ አበሱ፡ ለከ፡ ወኢሰምዑ፡ ትእዛዘከ፡ ወረሰይከኒ፡ ለተበርብሮ፡ ወለተሄውዎ፡ ወለተቀትሎ፡ ወኮነ፡ ትዕይርተ፡ ውስተ፡ ኵሉ፡ ዓለም፡ ወአሕዛብ፡ እለ፡ እምውስቴቶሙ፡ ተዘርውነ፡ ኵለሄ።</t:l>
+                  <t:l n="5">ወይእዜኒ፡ ርቱዕ፡ ውእቱ፡ ኵነኔከ፡ ዘበጽድቅ፡ ወግበር፡ ሊተ፡ በዘይሠረይ፡ ኃጢአትየ፡ ወዘአበውየ፡ እስመ፡ ኢገበርነ፡ ትእዛዝከ፡ ወኢሖርነ፡ በጽድቅ፡ ቅድሜከ።</t:l>
+                  <t:l n="6">ወይእዜኒ፡ ዘይዔድመከ፡ ግበር፡ ምስሌየ፡ በቅድሜከ፡ ወአዝዝ፡ ዘይትሜጦ፡ መንፈስየ፡ ከመ፡ እሠዓር፡ ወእኩን፡ መሬተ፡ እስመ፡ ይኄይሰኒ፡ ትዕይርተ፡ በሐሰት፡ ወበዝኀ፡ ኃዘን፡ ላዕሌየ፡ ወአዝዝ፡ እሠዐር፡ እምሕማምየ፡ ውስተ፡ መካን፡ ዘለዓለም፡ ወኢትሚጥ፡ ገጸከ፡ እምኔየ።</t:l>
+                  <t:l n="7">ወበይእቲ፡ ዕለት፡ ረከባ፡ ለወለተ፡ ራጉኤል፡ ሣራ፡ እምነ፡ መጣኒ፡ ዘሜዶን፡ ወተአየራሃ፡ አዕማተ፡ አቡሃ።</t:l>
+                  <t:l n="8">እስመ፡ አስተዋሰብዋ፡ ለሰብዓቱ፡ ዕደው፡ ወቀተሎሙ፡ ጋኔን፡ እኩይ፡ አስማንድዮስ፡ ዘእንበለ፡ ይቅረብዋ፡ እንተ፡ ብእሲ፡ ወብእሲት፡ ወይቤላሃ፡ ኢተአምሪኑ፡ እንዘ፡ ይትሐነቁ፡ ዓምታትኪ፡ ወናሁ፡ ሰብዓቱ፡ አውሰቡኪ፡ ወአሐዱ፡ እምኔሆሙ፡ ኢተለወኪ።</t:l>
+                  <t:l n="9">ወምንተት፡ እንከ፡ ተቀሠፍነ፡ በእንቲአሆሙ፡ እስመ፡ ሞቱ፡ ሑሪ፡ ምስሌሆሙ፡ ወኢንርአይ፡ ወልደ፡ ወወለተ፡ እምኔኪ፡ ለዓለም።</t:l>
+                  <t:l n="10">ወሶበ፡ ሰምዐት፡ ዘንተ፡ ተከዘት፡ ጥቀ፡ ወትቤ፡ አሐቲ፡ አነ፡ ለአቡየ፡ ወእመ፡ ገበርኩ፡ ዘንተ፡ ከመዝ፡ ትዕይርተ፡ እከውኖ፡ ወአወርድ፡ ርስዓኒሁ፡ በፃዕር፡ ውስተ፡ መቃብር።</t:l>
+                  <t:l n="11">ወጸለየት፡ በውስተ፡ ቤታ፡ ወትቤ፡ ቡሩክ፡ አንተ፡ እግዚኦ፡ አምላኪየ፡ ወይትባረክ፡ ስምከ፡ ቅዱስ፡ ወቡሩክ፡ ስምከ፡ በኵሉ፡ ዓለም፡ ወክቡር፡ ኵሉ፡ ግብርከ፡ ለዓለም።</t:l>
+                  <t:l n="12">ወይእዜኒ፡ እግዚኦ፡ አዕይንትየ፡ ወገጽየ፡ ለከ፡ መጠውኩ።</t:l>
+                  <t:l n="13">ወእብለከ፡ ሠዓረኒ፡ እምነ፡ ምድር፡ ከመ፡ ኢይስማዕ፡ ትዕይርተ።</t:l>
+                  <t:l n="14">ለሊከ፡ እግዚኦ፡ ተአምር፡ ከመ፡ ንጽሕት፡ አነ፡ እምኵሉ፡ ኃጢአት፡ ዘምስለ፡ ብእሲ።</t:l>
+                  <t:l n="15">ወኢያገመንኩ፡ ስምየ፡ ወስመ፡ አቡየ፡ በብሔር፡ ዘተፄወውኩ፡ ወአሐቲ፡ አነ፡ ለአቡየ፡ ወአልብየ፡ እኍ፡ ወአልብየ፡ ዘቅሩብ፡ ወእትዓቀብ፡ ለብእሲ፡ እስመ፡ ሰብዓቱ፡ ሞቱኒ፡ ለምንተ፡ እንከ፡ አሐዩ፡ ወለእመኒ፡ ኢፈቀድከ፡ ትቅትለኒ፡ ነጽር፡ ላዕሌየ፡ ወአስተምሕረኒ፡ ወአዝዝ፡ ከመ፡ ኢይስማዕ፡ ትዕይርተ፡ እንከ።</t:l>
+                  <t:l n="16">ወተሰምዓ፡ ጸሎቶሙ፡ ለክልኤሆሙ፡ በቅድመ፡ ስብሐተ፡ ዕበዩ፡ ለእግዚአብሔር።</t:l>
+                  <t:l n="17">ወፈነዎ፡ ለሩፋኤል፡ ከመ፡ ይፈውሶሙ፡ ለክልኤሆሙ፡ ወለጦቢትኒ፡ ከመ፡ ያሰስል፡ ጢሰ፡ ዓይኑ፡ ወለሣራኒ፡ ወለተ፡ ራጉኤል፡ ከመ፡ የሀባ፡ ለጦብያ፡ ወልደ፡ ጦቢት፡ ትኰኖ፡ ብእሲቶ፡ ወከመ፡ ይሥዓሮ፡ ለአስማንድዮስ፡ ጋኔን፡ እኵይ፡ እስመ፡ ጦብያ፡ ይወርሳ፡ ወበእማንቱ፡ መዋዕል፡ ተመይጠ፡ ጦቢት፡ ወዐተወ፡ ቤቶ፡ ወሣራኒ፡ ወለተ፡ ራጉኤል፡ ወረደት፡ እምነ፡ ጽርሐ፡ ላዕላይ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="4" xml:id="chapter4">
+               <t:label>Chapter 4</t:label>
+               <t:ab>
+                  <t:l n="1">ወበይእቲ፡ ዕለተ፡ ተዘከረ፡ ጦቢት፡ በእንተ፡ ብሩር፡ ዘአማኅፀነ፡ ኀበ፡ ገባኤል፡ በራጊስ፡ ዘሜዶን።</t:l>
+                  <t:l n="2">ወሐለየ፡ ወይቤ፡ ናሁ፡ ሰአልኩ፡ ከመ፡ እሙት፡ ወለምንት፡ ኢይጼውዖ፡ ለወልድየ፡ ጦብያ፡ ከመ፡ እንግሮ፡ ዘእንበለ፡ እሙት።</t:l>
+                  <t:l n="3">ወጸውዖ፡ ወይቤሎ፡ ወልድየ፡ አመ፡ ሞትኩ፡ ቅበረኒ፡ በሠናይ፡ ወዕቀብ፡ እመከ፡ ወአክብራ፡ በኵሉ፡ መዋዕለ፡ ሕይወታ፡ ወግበር፡ ላቲ፡ ኵሎ፡ ዘፈቀደት፡ ወኢታኅዝና።</t:l>
+                  <t:l n="4">ተዘከር፡ ወልድየ፡ ከመ፡ ብዙኃ፡ ሕማመ፡ ረከበት፡ ብከ፡ እንዘ፡ ሀሎከ፡ ውስተ፡ ከርሣ፡ ወእመ፡ ሞተት፡ ቅብራ፡ ምስሌየ፡ ውስተ፡ አሐዱ፡ መቃብር።</t:l>
+                  <t:l n="5">ወበኵሉ፡ መዋዕል፡ ኦ፡ ወልድየ፡ ተዘከሮ፡ ለእግዚአብሔር፡ አምላክነ፡ ወኢትፍቅድ፡ አብሶ፡ ወክሂደ፡ ትእዛዙ፡ ወግበር፡ ጽድቀ፡ በኵሉ፡ መዋዕለ፡ ሕይወትከ፡ ወኢትሑር፡ በፍኖተ፡ ዓመፃ።</t:l>
+                  <t:l n="6">ወእምከመ፡ ገበርካ፡ ለጽድቅ፡ ትሤራህ፡ በኵሉ፡ ፍኖትከ፡ ወበኵሉ፡ ግብርከ፡ ዘገበርከ፡ ወከማሁ፡ ለኵሎሙ፡ እለ፡ ይገብርዋ፡ ለጽድቅ።</t:l>
+                  <t:l n="7">ወእምንዋይከ፡ ግበር፡ ምጽዋተ፡ ወኢትደንግፅ፡ ዓይንከ፡ ሶበ፡ ትገብር፡ ምጽዋተ፡ ወኢትሚጥ፡ ገጸከ፡ እምነ፡ ነዳይ፡ ወእግዚአብሔር፡ ኢይመይጥ፡ ገጾ፡ እምኔከ።</t:l>
+                  <t:l n="8">ወአምጣነ፡ ትክል፡ መጠነ፡ ብከ፡ ግበር፡ ምጽዋተ፡ ወእመኒ፡ ውኁድ፡ ኢትደንግፅ፡ ለገቢረ፡ ምጽዋት።</t:l>
+                  <t:l n="9">እስመ፡ ሠናየ፡ መዝገበ፡ ትዘግብ፡ ለከ።</t:l>
+                  <t:l n="10">እስመ፡ ምጽዋት፡ ታድኅን፡ እሞት፡ በዕለተ፡ ምንዳቤ፡ ወኢትወስድ፡ ውስተ፡ ጽልመት።</t:l>
+                  <t:l n="11">እስመ፡ ሠናይ፡ ጸጋ፡ ይእቲ፡ ምጽዋት፡ ለእለ፡ ይገብርዋ፡ በቅድመ፡ ልዑል።</t:l>
+                  <t:l n="12">ወዑቅ፡ ርእሰከ፡ ኦ፡ ወልድየ፡ እምኵሉ፡ ዝሙት፡ ወቅድም፡ ለከ፡ ነሢአ፡ ብእሲት፡ እምዘርአ፡ አበዊከ፡ ወኢታውስብ፡ እምነኪር፡ ለእመ፡ ኢኮነት፡ እምዘመድከ፡ እስመ፡ እምደቂቀ፡ ነቢያት፡ ንሕነ፡ ኖኅ፡ ወአብርሃም፡ ይስሐቅ፡ ወያዕቆብ፡ እለ፡ እምዓለም፡ አበዊነ፡ ተዘከር፡ ወልድየ፡ ከመ፡ ኵሎሙ፡ ነሥኡ፡ አንስትያ፡ እምትውልደ፡ አኃዊሆሙ፡ ወተባረኩ፡ ውሉዶሙ፡ ወዘርኦሙ፡ ወረስዋ፡ ለምድር።</t:l>
+                  <t:l n="13">ወይእዜኒ፡ ወልድየ፡ አፍቅር፡ ቢጸከ፡ ወኢታዕቢ፡ ልበከ፡ እምነ፡ ቢጽከ፡ ወእምደቂቀ፡ ሕዝብከ፡ ወእምነ፡ አዋልዲሆሙ፡ ንሣእ፡ ለከ፡ ብእሲተ፡ እምኔሆሙ፡ እስመ፡ ኀበ፡ ሀለወት፡ ትዕቢት፡ ህየ፡ ሀሎ፡ ኃሣር፡ ወብዙኅ፡ ሁከት፡ ወኀበ፡ ሀለወ፡ ሁከት፡ ህየ፡ ሀሎ፡ ተጽናስ፡ ወንዴት፡ እስመ፡ እማ፡ ይእቲ።</t:l>
+                  <t:l n="14">አስቡ፡ ለኵሉ፡ ዘተጋነየ፡ ለከ፡ ኢይቢት፡ ኀቤከ፡ አላ፡ ሀቦ፡ በጊዜሃ፡ እምዘ፡ ብከ፡ ወእምከመ፡ ተቀነይከ፡ ለእግዚአብሔር፡ ይፈደፍድ፡ አስብከ፡ ወዑቅ፡ ርእሰከ፡ ወበኵሉ፡ ግብርከ፡ ኩን፡ ጠቢበ፡ ወበኵሉ፡ ግዕዝከ።</t:l>
+                  <t:l n="15">ወዘትጸልዕ፡ ለርእስከ፡ ኢትግበር፡ ለመኑሂ፡ ወይነ፡ ለሰኪር፡ ኢትስተይ፡ ወኢትሑር፡ ምስለ፡ ስክርት፡ ውስተ፡ ፍኖትከ።</t:l>
+                  <t:l n="16">ወእምነ፡ እክልከ፡ ሀብ፡ ለርኁብ፡ ወእምነ፡ አልባሲከ፡ ሀብ፡ ለዕሩቅ፡ ወእምኵሉ፡ ዘይተርፈከ፡ ግበር፡ ምጽዋተ።</t:l>
+                  <t:l n="17">ወዝሩ፡ እክለከ፡ ላዕለ፡ መቃብረ፡ ጻድቃን፡ ወኢተሀብ፡ ለኃጥአን።</t:l>
+                  <t:l n="18">ምክረ፡ ኅሥሥ፡ በኀበ፡ ኵሉ፡ ጠቢባን፡ ወኢታስትት፡ ምክረ፡ እንተ፡ ትበቊዓከ።</t:l>
+                  <t:l n="19">ወበኵሉ፡ ጊዜ፡ ባርኮ፡ ለእግዚአብሔር፡ ወጸሊ፡ ኀቤሁ፡ ከመ፡ ሥሩሕ፡ ይኩን፡ ፍኖትከ፡ ዘይሤርሐከ፡ በኵሉ፡ ግብርከ፡ ወበኵሉ፡ ፍናዊከ፡ እስመ፡ ኵሎሙ፡ አሕዛብ፡ ዘይመክሩ፡ ምክረ፡ ዘኢኮነ፡ እምእግዚአብሔር፡ እንበለ፡ ውእቱ፡ እግዚአብሔር፡ ይሁብ፡ ኵሎ፡ ሠናይቶ፡ ወለዘፈቀደ፡ ያቴሕቶ፡ በከመ፡ ውእቱ፡ ፈቀደ፡ ወይእዜኒ፡ ወልድየ፡ ተዘከር፡ ትእዛዝየ፡ ወኢይደምሰስ፡ እምልብከ።</t:l>
+                  <t:l n="20">ወይእዜኒ፡ እነግረከ፡ በእንተ፡ መካልየ፡ ብሩር፡ ዐሠርቱ፡ ዘአዕቀብኩ፡ ኀበ፡ ገባኤል፡ ወልደ፡ ግብርያ፡ ዘራጊስ፡ ዘሜዶን።</t:l>
+                  <t:l n="21">ወኢትፍራህ፡ ወልድየ፡ በእንተ፡ ንዴትከ፡ እስመ፡ ነዳያን፡ ብከ፡ ይነሥኡ፡ በረከተ፡ ለእመ፡ ፈራህኮ፡ ለእግዚአብሔር፡ ወኃደገ፡ ኵሎ፡ ኃጢአተከ፡ ወገበርከ፡ ዘያሠምሮ፡ ለእግዚአብሔር፡ በቅድሜሁ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="5" xml:id="chapter5">
+               <t:label>Chapter 5</t:label>
+               <t:ab>
+                  <t:l n="1">ወአውሥአ፡ ጦብያ፡ ወይቤ፡ እገብር፡ አባ፡ ኵሎ፡ ዘአዘዝከኒ።</t:l>
+                  <t:l n="2">ወባሕቱ፡ እፎ፡ እክል፡ ነሢኦቶ፡ ለውእቱ፡ ብሩር፡ ዘኢየአምሮ።</t:l>
+                  <t:l n="3">ወወሀቦ፡ መጽሐፈ፡ ወይቤሎ፡ ኅሥሥ፡ ብእሴ፡ ዘየሐውር፡ ምስሌከ፡ ወእሁቦ፡ አስቦ፡ እንዘ፡ ሕያው፡ አነ፡ ወሑር፡ ንሣእ፡ ዘንተ፡ ብሩረ።</t:l>
+                  <t:l n="4">ወሖረ፡ ይኅሥሥ፡ ሎቱ፡ ብእሴ፡ ወረከቦ፡ ለሩፋኤል፡ መልአክ፡ ወኢያእመሮ፡ ከመ፡ መልአክ፡ ውእቱ።</t:l>
+                  <t:l n="5">ወይቤሎ፡ ትክልኑ፡ ሐዊረ፡ ምስሌየ፡ ራጊስ፡ ዘሜዶን፡ እመ፡ ተአምር፡ ብሔሮ።</t:l>
+                  <t:l n="6">ወይቤሎ፡ ውእቱ፡ መልአክ፡ አሐውር፡ ምስሌከ፡ ወፍኖቶሂ፡ አአምር፡ ወኀበ፡ ገባኤልሂ፡ ነበርኩ።</t:l>
+                  <t:l n="7">ወይቤሎ፡ ጦብያ፡ ጽንሐኒ፡ ከመ፡ እንግሮ፡ ለአቡየ፡ ጦቢት።</t:l>
+                  <t:l n="8">ወይቤሎ፡ ሑር፡ ኢትጐንዲ፡ ወሖረ፡ ወይቤሎ፡ ለአቡሁ፡ ነዋ፡ ረከብኩ፡ ዘየሐውር፡ ምስሌየ፡ ወይቤሎ፡ ጸውዖ፡ ኀቤየ፡ ከመ፡ አእምር፡ እምአይ፡ ሕዝብ፡ ውእቱ፡ ወእመ፡ ማእምን፡ ለሐዊር፡ ምስሌከ።</t:l>
+                  <t:l n="9">ወጸውዖ፡ ወቦአ፡ ወተአምኁ፡ በበይናቲሆሙ።</t:l>
+                  <t:l n="10">ወይቤሎ፡ ጦቢት፡ አንተ፡ እኁየ፡ እምአይ፡ ሕዝብ፡ አንተ፡ ወእምአይ፡ ብሔር፡ አንተ።</t:l>
+                  <t:l n="11">ወይቤሎ፡ መልአክ፡ ሕዝብየኑ፡ ወብሔርየኑ፡ ተኃሥሥ፡ አው፡ አስቦ፡ ዘየሐውር፡ ምስለ፡ ወልድከ፡ ወይቤሎ፡ ጦቢት፡ እፈቅድ፡ አንተ፡ እኁየ፡ አእምር፡ ዘመደከ፡ ወስመከ።</t:l>
+                  <t:l n="12">ወይቤሎ፡ አንሰ፡ አዛርያ፡ ዘመደ፡ አናንያ፡ ዓቢይ፡ እኁከ።</t:l>
+                  <t:l n="13">ወይቤሎ፡ ዳኅንኑ፡ አንተ፡ እኁየ፡ ወኢትኂሰኒ፡ እስመ፡ ኃሠሥኩ፡ አእምር፡ ሕዝበከ፡ ወብሔረከ፡ ወአማን፡ ባሕቱ፡ እምሠናይ፡ ዘመድ፡ አንተ፡ ወቡሩክ፡ ወአአምሮ፡ አነ፡ ለአዛርያ፡ ደቂቀ፡ ሴምዩ፡ ዓቢይ፡ ወሖርነ፡ ምስሌሆሙ፡ ኅቡረ፡ ኢየሩሳሌም፡ ከመ፡ ንስግድ፡ ወወሰድነ፡ በኵረነ፡ ወአሥራተ፡ እክልነ፡ ወኢአበስነ፡ አበሳ፡ አበዊነ፡ ወአንተሰ፡ እምነ፡ ዓቢይ፡ ሥርው፡ አንተ፡ እኁየ።</t:l>
+                  <t:l n="14">ወባሕቱ፡ ንግረኒ፡ ምንተ፡ ነሀብ፡ አስበከ፡ ድርከመኑ፡ ለለዕለትከ፡ ወሲሳይከ፡ ምስለ፡ ወልድየ።</t:l>
+                  <t:l n="15">ወእዌስክ፡ አስበከ፡ በዲበ፡ አስብከ፡ ለእመ፡ ዳኅነ፡ አቶክሙ።</t:l>
+                  <t:l n="16">ወአኅለቁ፡ ከመዝ፡ ወይቤሎ፡ ጦቢት፡ ለጦብያ፡ ወልዱ፡ ተደለው፡ ከመ፡ ትሑር፡ ወተሠርሑ፡ ወአስተዳለወ፡ ወልዱ፡ ስንቆሙ፡ ለፍኖት፡ ወይቤሎ፡ አቡሁ፡ ሑር፡ ምስለ፡ ዝንቱ፡ ብእሲ፡ ወእግዚአብሔር፡ ዘይነብር፡ ውስተ፡ ሰማይ፡ ይሠርሕ፡ ፍኖተክሙ፡ ወመልአኩ፡ ይሑር፡ ምስሌክሙ፡ ወወጽኡ፡ ክልኤሆሙ፡ ወሖሩ፡ ወተለዎሙ፡ ከልበ፡ ወልዶሙ።</t:l>
+                  <t:l n="17">ወበከየት፡ ሐና፡ እሙ፡ ወትቤሎ፡ ለጦቢት፡ ለምንት፡ ፈነውኮ፡ ለወልድየ፡ አኮኑ፡ ውእቱ፡ በትርነ፡ እንተ፡ ውስተ፡ እዴነ፡ ዘይወጽእ፡ ቅድሜነ።</t:l>
+                  <t:l n="18">ብሩር፡ ለይጥፋዕ።</t:l>
+                  <t:l n="19">ወቤዛሁ፡ ለወልድየ፡ ይኩን፡ ዘወሀበነ፡ እግዚአብሔር፡ ዘቦቱ፡ ነሐዩ።</t:l>
+                  <t:l n="20">ወይቤላ፡ ኢትትኃለፊ፡ እኅትየ፡ ዳኅነ፡ የአቱ፡ ወትሬኢይዮ፡ በአዕይ፡ ንትኪ።</t:l>
+                  <t:l n="21">እስመ፡ መልአከ፡ እግዚአብሔር፡ የሐውር፡ ቅድሜሁ፡ ወይሤርሕ፡ ፍኖቶ፡ ወየአቱ፡ ዳኅነ፡ ወኃደገት፡ ብካየ፡ ሐና።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="6" xml:id="chapter6">
+               <t:label>Chapter 6</t:label>
+               <t:ab>
+                  <t:l n="1">ወእንዘ፡ የሐውሩ፡ ፍኖቶሙ፡ በጽሑ፡ በጣኔስ፡ ውስተ፡ ተከዚ፡ ምሴተ፡ ወቤቱ፡ በህየ።</t:l>
+                  <t:l n="2">ወወረደ፡ ውእቱ፡ ወልድ፡ ይትሐፀብ፡ ወሠረረ፡ ላዕሌሁ፡ ዓሣ፡ እምውስተ፡ ተከዚ፡ ወፈቀደ፡ የሐጦ፡ ለውእቱ፡ ወልድ።</t:l>
+                  <t:l n="3">ወይቤሎ፡ መልአክ፡ አኃዞ፡ ለውእቱ፡ ዓሣ፡ ወአኃዞ፡ ለዓሣ፡ ውእቱ፡ ወልድ፡ ወአውጽኦ፡ ውስተ፡ ምድር።</t:l>
+                  <t:l n="4">ወይቤሎ፡ ዝኩ፡ መልአክ፡ ምትሮ፡ ለውእቱ፡ ዓሣ፡ ወንሣእ፡ ልቦ፡ ወከብዶ፡ ወሐሞቶ፡ ወአጽንዕ፡ ዓቂቦቶ።</t:l>
+                  <t:l n="5">ወገብረ፡ ውእቱ፡ ወልድ፡ በከመ፡ አዘዞ፡ መልአክ፡ ወዓሣሁኒ፡ ጠበሱ፡ ወበልዑ፡ ወጌሡ፡ ክልኤሆሙ፡ ወበጽሑ፡ በጣኔስ።</t:l>
+                  <t:l n="6">ወይቤሎ፡ ዝኩ፡ ወልድ፡ ለመልአክ፡ አንተ፡ እኁየ፡ አዛርያ፡ ምንት፡ ውእቱ፡ ከብዱ፡ ወልቡ፡ ወሐሞቱ፡ ለዝንቱ፡ ዓሣ።</t:l>
+                  <t:l n="7">ወይቤሎ፡ ልቡ፡ ወከብዱ፡ ለእመቦ፡ ዘየሐምሞ፡ ጋኔን፡ እኵይ፡ ዘንተ፡ ያጠይሱ፡ ቅድሜሁ፡ ለውእቱ፡ ብእሲ፡ ወእመኒ፡ ብእሲት፡ ወኢየሐምም፡ እንከ።</t:l>
+                  <t:l n="8">ወሐሞቶሰ፡ ይኵሕልዎ፡ ለብእሲ፡ ዘቦቱ፡ ጢስ፡ ውስተ፡ አዕይንቲሁ፡ ወየሐዩ።</t:l>
+                  <t:l n="9">ወሶበ፡ ቀርቡ፡ ኀበ፡ ራጊስ፡ ወይቤሎ፡ ውእቱ፡ መልአክ፡ አንተ፡ እኁየ፡ ዮምኬ፡ ኀበ፡ ራጉኤል፡ ነኅድር።</t:l>
+                  <t:l n="10">ወአዝማዲከ፡ ውእቱ፡ ወቦ፡ አሐቲ፡ ወለት፡ ዘስማ፡ ሣራ፡ ወእትናገርኑ፡ በእንቲአሃ፡ የሀቡከ፡ ትኩንከ፡ ብእሲተ።</t:l>
+                  <t:l n="11">እስመ፡ ለከ፡ ይበጽሐከ፡ ርስታ፡ ወአንተ፡ ሀሎከ፡ እምነ፡ አዝማዲሃ፡ ወወለታኒ፡ ሠናይት፡ ወጠባብ።</t:l>
+                  <t:l n="12">ወይእዜኒ፡ ስምዓኒ፡ ወእትናገሮ፡ ለአቡሃ፡ ወሶበ፡ ገባዕነ፡ እምነ፡ ራጊስ፡ ንገብር፡ በዓለ፡ እስመ፡ ኢይገብር፡ የሀባ፡ ራጉኤል፡ ለካልዕ፡ ሰብእ፡ በእንተ፡ ሕገ፡ ሙሴ፡ ወእምአብደረ፡ ትሙት፡ እስመ፡ ርስታ፡ ለከ፡ ይበጽሐከ፡ እምኵሉ፡ ሰብእ።</t:l>
+                  <t:l n="13">ወይቤሎ፡ ዝኩ፡ ወልድ፡ ለውእቱ፡ መልአክ፡ አንተ፡ እኁየ፡ አዛርያ፡ ሰማዕኩ፡ አነ፡ ከመ፡ አስተዋሰብዋ፡ ለይእቲ፡ ወለት፡ ለሰብእቱ፡ ዕደው፡ ወኵሎሙ፡ ሞቱ፡ አመ፡ ከብካብ።</t:l>
+                  <t:l n="14">ወይእዜኒ፡ ባሕቲትየ፡ አነ፡ ለአቡየ፡ እፈርህ፡ ሶበ፡ ቦእኩ፡ ኢይሙት፡ ወኢይወርድ፡ ሕይወቶሙ፡ ለአቡየ፡ ወእምየ፡ በፃዕር፡ ወአልቦሙ፡ ካልዕ፡ ወልድ፡ ዘይቀብሮሙ።</t:l>
+                  <t:l n="15">ወይቤሎ፡ ውእቱ፡ መልአክ፡ ኢትዜከርኑ፡ ቃለ፡ ዘአዘዘከ፡ አቡከ፡ ከመ፡ ትንሣእ፡ ለከ፡ ብእሲተ፡ አምአዝማዲከ፡ ወይእዜኒ፡ ስምዐኒ፡ አንተ፡ እኁየ፡ ወበእንተ፡ ጋኔንሰ፡ ኢያኅዝንከ፡ እስመ፡ በዝንቱ፡ ሌሊት፡ ትትወሀብ፡ ለከ፡ ብእሲት፡ እምአዝማዲከ።</t:l>
+                  <t:l n="16">ወሶበ፡ ቦእከ፡ ውስተ፡ ጽርሕከ፡ ንሣእ፡ ለከ፡ ሕራረ፡ ዕጣን፡ ወደይ፡ እምነ፡ ከብዱ፡ ወልቡ፡ ለዝኩ፡ ዓሣ፡ ወአጢስ፡ ቦቱ።</t:l>
+                  <t:l n="17">ወሶበ፡ ፄነዎ፡ ለውእቱ፡ ጋኔን፡ ይጐይይ፡ ወኢይገብእ፡ ለዓለም፡ ወሶበ፡ ቦእከ፡ ኀቤሃ፡ ጽርሑ፡ ክልኤክሙ፡ ኀበ፡ እግዚአብሔር፡ መሐሪ፡ ወያድኅነክሙ፡ ወይምሕረክሙ፡ ወኢትፍርሁ፡ እንከ፡ እስመ፡ ኪያክሙ፡ አስተዳለወ፡ እምነ፡ ዓለም፡ ወአንተ፡ ታድኅና፡ ወተሐውር፡ ምስሌከ፡ ወእብለከ፡ ከመ፡ ትረክብ፡ ውሉደ፡ እምኔሃ፡ ወሰሚዖ፡ ጦብያ፡ አንከረ፡ ወተለዋ፡ ነፍሱ፡ ኀቤሃ፡ ጥቀ፡ ወበጽሑ፡ ውስተ፡ በጣኔስ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="7" xml:id="chapter7">
+               <t:label>Chapter 7</t:label>
+               <t:ab>
+                  <t:l n="1">ወቦኡ፡ ቤተ፡ ራጉኤል፡ ወተቀበለቶሙ፡ ሣራ፡ ወአስተፍሥሐቶሙ፡ ወከማሁ፡ እሙንቱኒ፡ ላቲ፡ ወአብአቶሙ፡ ቤተ።</t:l>
+                  <t:l n="2">ወይቤላ፡ ራጉኤል፡ ለብእሲቲ፡ እድና፡ ዕፁብ፡ ዝንቱ፡ ወልድ፡ ይመስሎ፡ ለጦቢት፡ ዘእምአዝማድየ።</t:l>
+                  <t:l n="3">ወይቤሎሙ፡ ራጉኤል፡ እምአይቴ፡ አንትሙ፡ አኃውየ፡ ወይቤልዎ፡ እምደቂቀ፡ ንፍታሌም፡ እለ፡ ተፄወዉ፡ ነነዌ።</t:l>
+                  <t:l n="4">ወይቤሎሙ፡ ራጉኤል፡ ተአምርዎኑ፡ ለጦቢት፡ እኁየ።</t:l>
+                  <t:l n="5">ወይቤልዎ፡ እወ፡ ነአምሮ፡ ሕያውኑ፡ ወዳኅንኑ፡ ወይቤሎ፡ ጦቢያ፡ አቡየ፡ ውእቱ።</t:l>
+                  <t:l n="6">ወሠረረ፡ ራጉኤል፡ ወሰዓሞ፡ ወበከየ።</t:l>
+                  <t:l n="7">ወባረኮ፡ ወይቤሎ፡ ወልደ፡ ብእሲ፡ ቡሩክ፡ አንተ፡ ወነገሮ፡ ከመ፡ ጠፍዓ፡ አዕይንቲሁ፡ ለጦቢት፡ ወሶበ፡ ሰምዐ፡ ከመ፡ ተኃጕለ፡ አዕይንቲሁ፡ ራጉኤል፡ ተከዘ፡ ወበከየ።</t:l>
+                  <t:l n="8">ወከማሁ፡ እድናሂ፡ ብእሲቱ፡ ወሣራሂ፡ ወለቱ፡ ወተቀበልዎሙ፡ በትፍሥሕት፡ ወጠብሑ፡ አባግዓ፡ ወአቅረበ፡ ሎሙ፡ ወመስየ፡ በሕቁ፡ ወይቤሎ፡ ጦብያ፡ ለአዛርያ፡ አንተ፡ እኁየ፡ አዛርያ፡ ተናገር፡ በእንተ፡ ዘትቤለኒ፡ በፍኖት፡ ወይሕልቅ፡ ነገሩ።</t:l>
+                  <t:l n="9">ወዘንተ፡ ሰሚዖ፡ ራጉኤል፡ እንዘ፡ ይትናገሮ፡ ጦብያ፡ ለመልአክ፡ ወይቤሎ፡ ለጦብያ፡ ብላዕ፡ ወስተይ፡ ምዕረ፡ ወተፈሣሕ።</t:l>
+                  <t:l n="10">እስመ፡ ለከ፡ ይእቲ፡ ወለትየ፡ ወአንተ፡ ትነሥኣ፡ ወአነ፡ እነግር፡ ጽድቃ፡ ለዛቲ፡ ወለትየ።</t:l>
+                  <t:l n="11">ለዛቲ፡ ወለትየ፡ አስተዋሰብክዋ፡ ለሰብአቱ፡ ዕደው፡ ወእምከመ፡ ቦኡ፡ ኀቤሃ፡ ይመውቱ፡ በሌሊት፡ ወባሕቱ፡ ብላዕ፡ ወተፈሣሕ፡ ምዕረ፡ ወይቤ፡ ጦብያ፡ ኢይጥዕም፡ ወኢምንተኒ፡ እስከ፡ ታሐልቁ፡ ወታቀውሙ፡ ሊተ፡ ነገርየ።</t:l>
+                  <t:l n="12">ወይቤሎ፡ ራጉኤል፡ ንሣኣ፡ እምይእዜሰ፡ ዘበሕጉ።</t:l>
+                  <t:l n="13">እስመ፡ እኁሃ፡ አንተ፡ ወይእቲኒ፡ ብእሲትከ፡ ወእግዚአብሔር፡ መሐሪ፡ ይሠርሕክሙ፡ በእንተ፡ ዘትሤኒ።</t:l>
+                  <t:l n="14">ወጸውዓ፡ ለሣራ፡ ወለቱ።</t:l>
+                  <t:l n="15">ወአኃዛ፡ እዴሃ፡ ወመጠዋ፡ ለጦብያ፡ ትኩኖ፡ ብእሲተ፡ ወይቤሎ፡ ናሁ፡ ንሣእ፡ በሕገ፡ ሙሴ፡ ወአዕትዋ፡ ኀበ፡ አቡከ፡ ወባረኮሙ።</t:l>
+                  <t:l n="16">ወጸውዓ፡ ለእድና፡ ብእሲቱ፡ ወነሥአ፡ መጽሐፈ፡ ወኀተመ፡ ወአኃዙ፡ ይብልዑ፡ ወጸውዓ፡ ለእድና፡ ወይቤላ፡ አንቲ፡ እኅትየ፡ አስተዳልዊ፡ ካልዓ፡ ጽርሐ፡ ወአብኢያ።</t:l>
+                  <t:l n="17">ወገብረታ፡ በከመ፡ ይቤላ፡ ወአብአታ፡ ህየ፡ ወበከየት፡ ወአውከፈት፡ አንብዓ፡ ወለታ።</t:l>
+                  <t:l n="18">ወትቤላ፡ ተአመኒ፡ ወለትየ፡ ከመ፡ እግዚአ፡ ሰማይ፡ ወምድር፡ ይሁበኪ፡ ትፍሥሕተ፡ ወኃሤተ፡ ህየንተ፡ ኃዘንኪ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="8" xml:id="chapter8">
+               <t:label>Chapter 8</t:label>
+               <t:ab>
+                  <t:l n="1">ወሶበ፡ አሕለቁ፡ ተደሮ፡ አብእዎ፡ ኀቤሃ፡ ለጦብያ።</t:l>
+                  <t:l n="2">ወሶበ፡ ቦአ፡ ተዘከረ፡ ቃሎ፡ ወነሥአ፡ ሕራረ፡ ዕጣን፡ ወወደየ፡ እምነ፡ ልቡ፡ ወከብዱ፡ ለዝኩ፡ ዓሣ፡ ወአጤሰ።</t:l>
+                  <t:l n="3">ወሶበ፡ ፄነዎ፡ ፄናሁ፡ ለዝኩ፡ ጋኔን፡ እስከ፡ ላዕላይ፡ ደወለ፡ ግብጽ፡ ወዓሠሮ፡ ዝኩ፡ መልአክ፡ ለውእቱ፡ ጋኔን።</t:l>
+                  <t:l n="4">ወሶበ፡ ተዓደዉ፡ ክልኤሆሙ፡ ተንሥአ፡ ጦብያ፡ እምነ፡ ዓራቱ፡ ወይቤላ፡ ተንሥኢ፡ እኅትየ፡ ንጸሊ፡ ኀበ፡ እግዚአብሔር፡ ከመ፡ ይሣሃለነ።</t:l>
+                  <t:l n="5">ወአኃዘ፡ ጦብያ፡ እንዘ፡ ይብል፡ ቡሩክ፡ አንተ፡ እግዚኦ፡ አምላከ፡ አበዊነ፡ ወይትባረክ፡ ስምከ፡ ቅዱስ፡ ወይሴባሕ፡ ለዓለመ፡ ዓለም፡ ይባርኩከ፡ ሰማያት፡ ወኵሉ፡ ዘፈጠርከ፡ አንተ፡ ገበርኮ፡ ለአዳም።</t:l>
+                  <t:l n="6">ወወሀብኮ፡ ሔዋንሃ፡ ትኩኖ፡ ብእሲተ፡ ወከመ፡ ታዕርፎ፡ ወእምኔሆሙ፡ ተወልደ፡ ዘርአ፡ ዕጓለ፡ እመሕያው፡ አንተ፡ ትቤ፡ ኢኮነ፡ ሠናየ፡ የሃሉ፡ ብእሲ፡ ባሕቲቱ፡ አላ፡ ንግበር፡ ሎቱ፡ ቢጸ፡ ዘትረድኦ።</t:l>
+                  <t:l n="7">ወይእዜኒ፡ እግዚኦ፡ እንበይነ፡ ዝሙት፡ ዘእነሥኣ፡ ለዛቲ፡ ብእሲት፡ እኅትየ፡ አላ፡ በጽድቅ፡ ፈኑ፡ ሣህለከ፡ ላዕሌየ፡ ወላቲኒ፡ ከመ፡ ንትፈሣሕ።</t:l>
+                  <t:l n="8">ወትቤ፡ ምስሌሁ፡ አሜን።</t:l>
+                  <t:l n="9">ወቤቱ፡ ክልኤሆሙ፡ ኅቡረ፡ በይእቲ፡ ሌሊት፡ ወእምዝ፡ ተንሥአ፡ ራጉኤል፡ ወሖረ፡ ወከረየ፡ መቃብረ።</t:l>
+                  <t:l n="10">እንዘ፡ ይብል፡ ዮጊ፡ ይመውት፡ ውእቱኒ።</t:l>
+                  <t:l n="11">ወገብአ፡ ራጉኤል፡ ቤቶ፡ ወይቤላ፡ ለእድና፡ ብእሲቱ።</t:l>
+                  <t:l n="12">ፈንዊ፡ አሐተ፡ ወለተ፡ ትርአዮ፡ እመሕያው፡ ውእቱ፡ ወእመ፡ አኮ፡ ንቅብሮ፡ እንዘ፡ አልቦ፡ ዘየአምሮ፡ መኑሂ።</t:l>
+                  <t:l n="13">ወሖረት፡ ይእቲ፡ ወለት፡ ወአርኃወት፡ ኆኅተ፡ ወረከበቶሙ፡ ይስክቡ፡ ክልኤሆሙ።</t:l>
+                  <t:l n="14">ወገብአት፡ ወአይድዐቶሙ፡ ከመ፡ ሕያዋን፡ እሙንቱ።</t:l>
+                  <t:l n="15">ወባረኮ፡ ራጉኤል፡ ለእግዚአብሔር፡ ወይቤ፡ ቡሩክ፡ አንተ፡ እግዚኦ፡ በኵሉ፡ በረከት፡ ንጽሕት፡ ወቅድስት፡ ወይባርኩከ፡ ቅዱሳኒከ፡ በኵሉ፡ ግብርከ፡ ወኵሎሙ፡ መላእክቲከ፡ ወኅሩያኒከ፡ ይባርኩከ፡ በኵሉ፡ ዓለም።</t:l>
+                  <t:l n="16">ቡሩክ፡ አንተ፡ እግዚኦ፡ እስመ፡ አስተፍሣሕከኒ፡ ወበከመ፡ ኢተኃዘብኩ፡ ኮነኒ፡ አላ፡ በከመ፡ ብዝኃ፡ ምሕረትከ፡ ገበርከ፡ ላዕሌየ።</t:l>
+                  <t:l n="17">ቡሩክ፡ አንተ፡ እግዚኦ፡ እስመ፡ ተሣሃልኮሙ፡ ለክልኤቱ፡ ባሕታውያን፡ ወገበርከ፡ ሎሙ፡ እግዚኦ፡ ሠናይቲከ፡ ከመ፡ ይፈጽሙ፡ ሕይወቶሙ፡ በደኅና፡ ወበፍሥሓ፡ በምሕረትከ።</t:l>
+                  <t:l n="18">ወእምዝ፡ አዘዞሙ፡ ለአግብርቲሁ፡ ይድፍኑ፡ ዝክተ፡ መቃብረ።</t:l>
+                  <t:l n="19">ወገብረ፡ ሎሙ፡ በዓለ፡ ዐሡረ፡ ወረቡዐ፡ መዋዕለ።</t:l>
+                  <t:l n="20">ወእምዝ፡ አምሐሎ፡ ራጉኤል፡ ለጦብያ፡ ከመ፡ ኢይፃእ፡ ወኢይሑር፡ እስከ፡ ይትፌጸም፡ መዋዕል፡ ዐሡር፡ ወረቡዕ፡ ዘመርዓ።</t:l>
+                  <t:l n="21">ወእምድኅረ፡ ዝንቱ፡ ይሑር፡ ወይንሣዕ፡ መንፈቀ፡ ንዋዩ፡ ወይሑር፡ በዳኅን፡ ኀበ፡ አቡሁ፡ ወዘተርፈሰ፡ እምድኅረ፡ ሞቱ፡ ውእቱ፡ ወብእሲቱ፡ ይንሥኡ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="9" xml:id="chapter9">
+               <t:label>Chapter 9</t:label>
+               <t:ab>
+                  <t:l n="1">ወጸውዖ፡ ጦብያ፡ ለሩፋኤል፡ ወይቤሎ፡ አንተ፡ እኁየ፡ አዛርያ፡ ንሣእ፡ ምስሌከ፡ ክልኤተ፡ ደቂቀ፡ ወአግማለ።</t:l>
+                  <t:l n="2">ወሑር፡ ራጊስ፡ ዘሜዶን፡ ኀበ፡ ገባኤል፡ ወንሣእ፡ አሠርተ፡ መክሊተ፡ ብሩር፡ ወጸውዖ፡ ኪያሁኒ፡ ውስተ፡ በዓል።</t:l>
+                  <t:l n="3">እስመ፡ አምሐለኒ፡ ራጉኤል፡ ከመ፡ ኢይፃእ፡ ዘእንበለ፡ ይኅልፍ፡ በዓል።</t:l>
+                  <t:l n="4">ወአቡየሰ፡ ይኌልቊ፡ መዋዕለ፡ ወለእመ፡ ጐንደይኩ፡ ጥቀ፡ የኀዝን።</t:l>
+                  <t:l n="5">ወሖረ፡ ሩፋኤል፡ ወበጽሐ፡ ኀበ፡ ገባኤል፡ ወመጠዎ፡ መጽሐፈ፡ ወገባኤልኒ፡ አምጽአ፡ ዝኰ፡ መስነቀ፡ በማኅተም፡ ወወሀቦ፡ ለሩፋኤል።</t:l>
+                  <t:l n="6">ወጌሡ፡ በጽባሕ፡ ኅቡረ፡ ወበጽሑ፡ ውስተ፡ በዓል፡ ወባረኮ፡ ጦብያ፡ ሶበ፡ አምጽአ፡ ሎቱ፡ ውእተ፡ ብሩረ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="10" xml:id="chapter10">
+               <t:label>Chapter 10</t:label>
+               <t:ab>
+                  <t:l n="1">ወጦቢትሰ፡ አቡሁ፡ ለጦብያ፡ ይኌልቊ፡ መዋዕለ፡ ወሶበ፡ ተፈጸመ፡ መዋዕለ፡ ዕድሜሆሙ፡ ወኢመጽኡ።</t:l>
+                  <t:l n="2">ይቤ፡ ዮጊ፡ ተኃፍረኑ፡ ወልድየ፡ አው፡ ይመውት፡ ገባኤል፡ ወኢረከበ፡ ዘይሁቦ፡ ብሩረ።</t:l>
+                  <t:l n="3">ወተከዘ፡ ጥቀ።</t:l>
+                  <t:l n="4">ወትቤሎ፡ ብእሲቱ፡ ወልድየሰ፡ ሞተ፡ ወበእንተዝ፡ ጐንደየ፡ ወአኃዘጽ፡ ትብክዮ።</t:l>
+                  <t:l n="5">ወትቤ፡ እምኢያኅዘነኒ፡ ወልድየ፡ ሶበ፡ አኮ፡ ዘአኅጐከኒ፡ ብርሃነ፡ አዕይንትየ።</t:l>
+                  <t:l n="6">ወይቤላ፡ አርምሚ፡ ወኢትትኃለፊ፡ ውእቱሰ፡ ሕያው።</t:l>
+                  <t:l n="7">ወትቤሎ፡ ይእቲኒ፡ አርምም፡ አንተኒ፡ ወኢታስተአብደኒ፡ ወልድየሰ፡ ሞተ፡ ወተሐውር፡ ኵሎ፡ አሚረ፡ ትብክዮ፡ ውስተ፡ ፍኖት፡ እንተ፡ ኀበ፡ ሖረ፡ መዓልተ፡ እክለ፡ ኢትበልዕ፡ ወሌሊተ፡ ኢታረምም፡ እንዘ፡ ትበክዮ፡ ለጦብያ፡ ወልዳ፡ ወእስከ፡ ተፈጸመ፡ ዓሠርቱ፡ ወረቡዕ፡ ዕለት፡ መዋዕለ፡ በዓል፡ ዘአምሐሎ፡ ራጉኤል፡ ከመ፡ ኢይሑር፡ እስከ፡ አመ፡ ይትፌጸም፡ በዓል፡ ዘመርዓ።</t:l>
+                  <t:l n="8">ወእምዝ፡ ተፈጺሞ፡ መዋዕለ፡ በዓል፡ ይቤሎ፡ ጦብ፡ ለራጉኤል፡ ፈንወኒ፡ እንከሰ፡ እስመ፡ አቡየ፡ ወእምየ፡ ቀብፁኒ፡ ወኢይሴፈዉ፡ እንከ፡ ይርአዩኒ።</t:l>
+                  <t:l n="9">ወይቤሎ፡ ሐሙሁ፡ ንበር፡ ኀቤየ፡ ወአነ፡ እልእክ፡ ኀበ፡ አቡከ፡ ከመ፡ ይንግርዎ፡ ዜናከ።</t:l>
+                  <t:l n="10">ወይቤሎ፡ ጦብያ፡ አልቦ፡ ዳዕሙ፡ ፈንወኒ፡ ኀበ፡ አቡየ።</t:l>
+                  <t:l n="11">ወተንሥአ፡ ራጉኤል፡ ወወሀቦ፡ ሣራሃ፡ ብእሲቶ፡ ወመንፈቀ፡ ንዋዮሙ፡ ሰብአኒ፡ ወእንስሳሁኒ።</t:l>
+                  <t:l n="12">ወባረኮሙ፡ ወይቤሎሙ፡ እግዚአ፡ ሰማይ፡ ያሠኒ፡ ላዕሌክሙ፡ ደቂቅየ፡ ዘእንበለ፡ እሙት፡ ወይቤላ፡ ለወለቱ፡ አክብሪ፡ ታሕማኪ፡ እስመ፡ እምይእዜ፡ ዘመድኪ፡ ወንሕነሰ፡ ንስማዕ፡ ዜና፡ ሠናየ፡ በላዕሌኪ፡ ወሰዓማ፡ ወትቤሎ፡ እድና፡ ለጦብያ፡ አንተ፡ እኁየ፡ ዘአፈቅሮ፡ እግዚአ፡ ሰማይ፡ ይሠርሕከ፡ ወየሀብከ፡ ወልደ፡ እምነ፡ ሣራ፡ ወለትየ፡ እርአይ፡ ለከ፡ ከመ፡ እትፈሣሕ፡ በቅድመ፡ እግዚአብሔር፡ ወናሁ፡ አማኅፀንኩከ፡ ወለትየ፡ ማኅፀንተ፡ ኢታኅዝና።</t:l>
+                  <t:l n="13">ወእምድኅረ፡ ሖረ፡ ጦብያ፡ ወባረኮ፡ እግዚአብሔር፡ እስመ፡ ሠርሐ፡ ፍኖቶ፡ ወባረክዎ፡ ራጉኤል፡ ወእድና፡ ብእሲቱ፡ ወሖሩ፡ ወቀርቡ፡ ኀበ፡ ነነዌ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="11" xml:id="chapter11">
+               <t:label>Chapter 11</t:label>
+               <t:ab>
+                  <t:l n="1">ወእምዝ፡ ይቤሎ፡ ሩፋኤል፡ ለጦብያ፡ አንተ፡ እኁየ፡ ኢተአምርኑ፡ እፎ፡ ኀደጋሁ፡ ለአቡከ።</t:l>
+                  <t:l n="2">ነዓ፡ ንቅድም፡ እምነ፡ ብእሲትከ፡ ወናስተዳሉ፡ ቤተ።</t:l>
+                  <t:l n="3">ወንሣእ፡ ምስሌከ፡ ሐሞቶ፡ ለውእቱ፡ ዓሣ፡ ወሖሩ፡ ክልኤሆሙ፡ ወሖረ፡ ምስሌሆሙ፡ ዝኩ፡ ወልድ፡ ዘተለዎሙ።</t:l>
+                  <t:l n="4">ወሐናሰ፡ ትነብር፡ ውስተ፡ ፍኖት፡ ወትጸንሕ፡ ምጽአቶ፡ ለወልዳ።</t:l>
+                  <t:l n="5">ወርእየቶ፡ እንዘ፡ ይመጽእ፡ ሕረት፡ ወነገረቶ፡ ለአቡሁ፡ ወትቤሎ፡ ናሁ፡ መጽአ፡ ወልድከ፡ ወውእቱኒ፡ ብእሲ፡ ዘሖረ፡ ምስሌሁ፡ ውእቱኒ፡ መጽአ።</t:l>
+                  <t:l n="6">ወይቤሎ፡ ሩፋኤል፡ ለጦብያ፡ አነ፡ አአምር፡ ከመ፡ ይትከሠት፡ አዕይንቲሁ፡ ለአቡከ።</t:l>
+                  <t:l n="7">አንተሰ፡ ኰሐሎ፡ ዘንተ፡ ሐሞተ፡ አዕይንቲሁ፡ ወሶበ፡ ተኵሕለ፡ የሐሲ፡ ወይወጽእ፡ ዝኩ፡ ጢስ፡ እምኔሁ፡ ወይሬኢ፡ ዳኅነ።</t:l>
+                  <t:l n="8">ወሮፀት፡ ሐና፡ ወሐቀፈት፡ ክሣደ፡ ወልዳ፡ ወትቤሎ፡ እሙ፡ እምይእዜሰ፡ እሙት፡ እንከ፡ እስመ፡ ርኢኩከ፡ ወልድየ፡ ወበከዩ፡ ክልኤሆሙ።</t:l>
+                  <t:l n="9">ወወጽአ፡ ጦቢት፡ ኀበ፡ ኆኅት፡ ወተሐቅፉ፡ ወሮፀ፡ ወልዱ፡ ወአንሥኦ፡ ለአቡሁ፡ ወኰሐሎ፡ ዝኰ፡ ሐሞተ፡ ውስተ፡ አዕይንቲሁ።</t:l>
+                  <t:l n="10">ወይቤሎ፡ ተአመን፡ አባ፡ ከመ፡ ተሐዩ።</t:l>
+                  <t:l n="11">ወሶበ፡ ኰሐሎ፡ ሐሰየ፡ አዕይንቲሁ።</t:l>
+                  <t:l n="12">ወተሥዕየ፡ እምነ፡ ብንተ፡ አዕይንቲሁ፡ ወርእዮ፡ ለወልዱ።</t:l>
+                  <t:l n="13">ወሐቀፎ፡ ክሣዶ፡ ወበከየ፡ ወይቤ፡ ቡሩክ፡ አንተ፡ እግዚኦ፡ ወይትባረክ፡ ስምከ፡ ለዓለም፡ ወቡሩካን፡ ኵሎሙ፡ መላእክቲከ፡ ቅዱሳን።</t:l>
+                  <t:l n="14">እስመ፡ ቀሠፍከነ፡ ወተሣሃልከነ፡ ወናሁ፡ ርኢክዎ፡ ለጦብያ፡ ወልድየ፡ ወእምዝ፡ ቦአ፡ ወልዱ፡ እንዘ፡ ይትፌሣሕ፡ ወአይድዖ፡ ለአቡሁ፡ ኵሎ፡ ዓቢያተ፡ ዘኮነ፡ ላዕሌሁ።</t:l>
+                  <t:l n="15">ወወጽአ፡ ጦቢት፡ ወተቀበላ፡ ለመርዓቱ፡ እንዘ፡ ይትፌሣሕ፡ ወባረኮ፡ ለእግዚአብሔር፡ በኀበ፡ አንቀጸ፡ ነነዌ፡ ወአንከሩ፡ እለ፡ ርእይዎ፡ እንዘ፡ የሐውር፡ ወይቤሉ፡ እፎ፡ ርእየ።</t:l>
+                  <t:l n="16">ወጦቢትሰ፡ ገነየ፡ ለእግዚአብሔር፡ በቅድሜሆሙ፡ እስመ፡ ተሣሃሎ፡ አምላከ፡ ሰማይ፡ ወሶበ፡ በጽሐ፡ ጦቢት፡ ኀበ፡ ሣራ፡ መርዓቱ፡ ባረካ፡ ወይቤላ፡ በጻሕኪኑ፡ በዳኅን፡ ወለትየ፡ ይትባረክ፡ እግዚአብሔር፡ ዘአምጽአኪ፡ ኀቤነ፡ ወይባርክ፡ አባኪኒ፡ ወእመኪኒ፡ ወኮነ፡ ዓቢይ፡ ትፍሥሕት፡ ላዕለ፡ ኵሉ፡ አዝማዲሁ፡ እለ፡ ይነብሩ፡ ነነዌ።</t:l>
+                  <t:l n="17">ወመጽኡ፡ አካኪሮስ፡ ወነሳቦስ፡ ወልደ፡ እኁሁ።</t:l>
+                  <t:l n="18">ወገብሩ፡ በዓለ፡ ሰቡዓ፡ መዋዕለ፡ በትፍሥሕት።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="12" xml:id="chapter12">
+               <t:label>Chapter 12</t:label>
+               <t:ab>
+                  <t:l n="1">ወእምዝ፡ ጸውዖ፡ ለጦብያ፡ ጦቢት፡ ወይቤሎ፡ ርኢ፡ ሎቱ፡ ወልድየ፡ አስቦ፡ ለዝኩ፡ ብእሲ፡ ዘሖረ፡ ምስሌከ፡ ወዓዲ፡ ርቱዕ፡ ትወስክ፡ ሎቱ።</t:l>
+                  <t:l n="2">ወይቤሎ፡ ጦቢያ፡ ለአቡሁ፡ አባ፡ ዘይነክየኒ፡ አልቦ፡ ለእመ፡ ወሀብክዎ፡ መንፈቀ፡ ዝንቱ፡ ነዋይ፡ ዘአምጻእኩ።</t:l>
+                  <t:l n="3">እስመ፡ አዕተወኒ፡ ኀቤከ፡ በዳኅና፡ ወለብእሲትየኒ፡ ፈወሳ፡ ወብሩረኒ፡ አምጽአ፡ ከማሁ፡ ለከሂ፡ ፈወሰከ።</t:l>
+                  <t:l n="4">ወይቤሎ፡ አቡሁ፡ ጽድቀ፡ ነበብከ።</t:l>
+                  <t:l n="5">ወጸውዖ፡ ለውእቱ፡ መልአክ፡ ወይቤሎ፡ ንሣእ፡ መንፈቀ፡ ኵሉ፡ ንዋይ፡ ዘአምጻእክሙ፡ ምስሌክሙ፡ ወሑር፡ በዳኅን።</t:l>
+                  <t:l n="6">ወጸውዖሙ፡ ሩፋኤል፡ ውእተ፡ ጊዜ፡ ለክልኤሆሙ፡ ወአግኃሦሙ፡ ወይቤሎሙ፡ ባርክዎ፡ ለእግዚአብሔር፡ ወግነዩ፡ ሎቱ፡ ወወሀቡ፡ ዕበየ፡ ለስሙ፡ ወእመኑ፡ ቦቱ፡ በቅድመ፡ ኵሉ፡ ዘሕያው፡ በእንተ፡ ኵሉ፡ ዘገብረ፡ ላዕሌክሙ፡ ሠናያተ፡ ወአዕኵትዎ፡ ለእግዚአብሔር፡ ወሰብሑ፡ ለስሙ፡ ወንግሩ፡ ግብሮ፡ ለእግዚአብሔር፡ በክብር፡ አርእዩ፡ ወኢትትሐከዩ፡ ገንየ፡ ሎቱ።</t:l>
+                  <t:l n="7">እስመ፡ ምሥጢረ፡ መንግሥት፡ ሠናይ፡ ለኀቢእ፡ ወለግብረ፡ እግዚአብሔርሰ፡ ይከሥትዎ፡ በግብር፡ ግበርዋ፡ ለሠናይት፡ ወኢትረክበክሙ፡ እኪት።</t:l>
+                  <t:l n="8">ሠናይ፡ ውእቱ፡ ጸሎት፡ ምስለ፡ ሰላም፡ ወምጽዋት፡ ወጽድቅ፡ ይኄይስ፡ ኅዳጥ፡ ዘበጽድቅ፡ እምብዙኅ፡ ብዕለ፡ ዓመፃ፡ ወይኄይስ፡ ውኂበ፡ ምጽዋት፡ እምዘጊቦቱ፡ ለወርቅ።</t:l>
+                  <t:l n="9">እስመ፡ ምጽዋት፡ ታድኅን፡ እሞት፡ ወታነጽሕ፡ እምኵሉ፡ ኃጢአት፡ ወእለሰ፡ ይገብሩ፡ ጽድቀ፡ ወምጽዋተ፡ ይመልዑ፡ ላዕሌሆሙ፡ ሕይወተ።</t:l>
+                  <t:l n="10">ወእለሂ፡ ይኤብሱ፡ ይጸልእዋ፡ ለነፍሶሙ።</t:l>
+                  <t:l n="11">ወናሁ፡ ኢየኀብእ፡ እምኔክሙ፡ ኵሎ፡ ነገረ፡ ወእቤለክሙ፡ ከመ፡ ምሥጢረ፡ መንግሥት፡ ሠናይ፡ ለኃቢዕ፡ ወግብሮሰ፡ ለእግዚአብሔር፡ ይከሥትዎ፡ በክብር።</t:l>
+                  <t:l n="12">ወይእዜኒ፡ አመ፡ ጸለይክሙ፡ አንተ፡ ወሣራ፡ መርዓትከ፡ አነ፡ አባዕኩ፡ ተዝካረ፡ ስእለትክሙ፡ ቅድሜሁ፡ ለቅዱሰ፡ ቅዱሳን፡ ወአንተኒ፡ አመ፡ ትቀብር፡ አብድንተ፡ አሜሃ፡ ሀሎኩ፡ ምስሌከ።</t:l>
+                  <t:l n="13">ወአመኒ፡ ኢተሐየይከ፡ ወተንሣእከ፡ ኀዲገከ፡ ምስሐከ፡ ወሖርከ፡ ትቀብር፡ በድነ፡ ወኢረሣእከ፡ ገቢረ፡ ሠናይ፡ አሜሃ፡ ሀሎኩ፡ ምስሌከ።</t:l>
+                  <t:l n="14">ወእግዚአብሔር፡ ፈነወኒ፡ ከመ፡ እፈውስከ፡ ወለሣራ፡ መርዓትከ፡ ከመ፡ እናዝዝ፡ ኃዘና።</t:l>
+                  <t:l n="15">አነ፡ ውእቱ፡ ሩፋኤል፡ መልአክ፡ አሐዱ፡ እምነ፡ ሰብአቱ፡ ሊቃነ፡ መላእክት፡ ቅዱሳን፡ እለ፡ የዓርጉ፡ ጸሎቶሙ፡ ለቅዱሳን፡ ወያበውዑ፡ ቅድመ፡ ስብሐቲሁ፡ ለዓቢይ፡ ወቅዱስ።</t:l>
+                  <t:l n="16">ወሰሚዖሙ፡ ዘንተ፡ ደንገፁ፡ ክልኤሆሙ፡ ወወድቁ፡ በገጾሙ፡ እስመ፡ ፈርሁ።</t:l>
+                  <t:l n="17">ወይቤሎሙ፡ ኢትፍርሁ፡ ለእግዚአብሔር፡ አምላክክሙ፡ ባርክዎ።</t:l>
+                  <t:l n="18">እስመ፡ አኮ፡ ሊተ፡ አኰቴት፡ አላ፡ ፈቃዱ፡ ለአምላክክሙ፡ አምጽአኒ፡ ወበእንተዝ፡ ባርክዎ፡ ለአምላከ፡ ጽድቅ፡ ለዓለም።</t:l>
+                  <t:l n="19">ወበኵሉ፡ መዋዕለ፡ ወአነ፡ አስተርአይኩክሙ፡ ወርኢክሙ፡ ራእይየ፡ ኢበላዕኩ፡ ወኢሰተይኩ፡ ምስሌክሙ።</t:l>
+                  <t:l n="20">ወይእዜኒ፡ እመኑ፡ በእግዚአብሔር፡ እስመአ፡ ዓርግ፡ ኀበ፡ ዘፈነወኒ፡ ወመጻእኩ፡ እጽሐፍ፡ እሎንተ፡ መጻሕፍተ።</t:l>
+                  <t:l n="21">ወሶቤሃ፡ ተንሥአ፡ ወሖረ፡ ወኢርእይዎ፡ እንከ።</t:l>
+                  <t:l n="22">ወአምኑ፡ በኵሉ፡ ግብሩ፡ ለእግዚአብሔር፡ ዓቢይ፡ ወግሩም፡ ወበእንተ፡ ዘአስተርአዮሙ፡ መልአከ፡ እግዚአብሔር።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="13" xml:id="chapter13">
+               <t:label>Chapter 13</t:label>
+               <t:ab>
+                  <t:l n="1">ወጸለየ፡ ጦቢት፡ ጸሎተ፡ ትፍሥሕት፡ ወይቤ፡ ይትባረክ፡ እግዚአብሔር፡ ዘውእቱ፡ ሕያው፡ ዘለዓለም፡ ወለዓለመ፡ ዓለም፡ መንግሥቱ።</t:l>
+                  <t:l n="2">ወውእቱ፡ ይቀሥፍ፡ ወይሣሃል፡ ወውእቱ፡ ያወርድ፡ ውስተ፡ ሲኦል፡ ወየዐርግ፡ ወአልቦ፡ ዘያመስጥ፡ እምእዴሁ።</t:l>
+                  <t:l n="3">ወግነዩ፡ ሎቱ፡ ኵልክሙ፡ ደቂቀ፡ እስራኤል፡ በቅድመ፡ ኵሉ፡ አሕዛብ፡ እለ፡ ዘረወነ፡ ውስቴቶሙ።</t:l>
+                  <t:l n="4">በህየ፡ አርአየ፡ ምሕረቶ፡ ላዕሌነ፡ ወአልዕልዎ፡ በቅድመ፡ ኵሉ፡ ደቂቀ፡ ዕጓለ፡ እመሕያው፡ እስመ፡ ውእቱ፡ እግዚእነ፡ ወውእቱ፡ እግዚአብሔር፡ አቡነ፡ በኵሉ፡ ዓለም።</t:l>
+                  <t:l n="5">ወይቀሥፈነ፡ በኵሉ፡ ኃጣውኢነ፡ ወካዕበ፡ ይሣሃለነ፡ ወያስተጋብአነ፡ እምኵሉ፡ አሕዛብ፡ እለ፡ ውስቴቶሙ፡ ዘረወነ።</t:l>
+                  <t:l n="6">ወለእመኒ፡ ተመየጥነ፡ ኀቤሁ፡ በኵሉ፡ ልብነ፡ ወበኵሉ፡ ነፍስነ፡ ከመ፡ ንግበር፡ ጽድቀ፡ በቅድሜሁ፡ ወውእተ፡ ጊዜ፡ ይትመየጥ፡ ኀቤነ፡ ወኢይሤውር፡ ገጾ፡ እምኔነ፡ ወርእዩ፡ ዘገብረ፡ በላዕሌነ፡ ወእመኑ፡ ቦቱ፡ በኵሉ፡ ልብክሙ፡ ወበኵሉ፡ ነፍስክሙ፡ ወባርክዎ፡ ለእግዚአብሔር፡ ወአልዕልዎ፡ ለንጉሠ፡ ዓለም፡ በምድር፡ ዘትፄወውክሙ፡ ወአንሰ፡ በምድር፡ ዘተፄወውኩ፡ አአምን፡ ቦቱ፡ ወእነግር፡ ኃይሎ፡ ወዕበዮ፡ ለሕዝብ፡ ኃጥአን፡ ተመየጡ፡ ኃጥአን፡ ወግበርዋ፡ ለጽድቅ፡ ቅድሜሁ፡ ለእግዚእየ፡ መኑ፡ የአምሮ፡ እመ፡ ይፈቅድ፡ ዘይገብር፡ ምሕረቶ፡ በላዕሌክሙ፡ አምላኪየ።</t:l>
+                  <t:l n="7">ወታሌዕሎ፡ ነፍስየ፡ ለንጉሠ፡ ሰማይ፡ እሴብሕ፡ ዕበዮ፡ ለአምላከ፡ ጽድቅ፡ በኵሉ።</t:l>
+                  <t:l n="8">ወእመኒ፡ ቦቱ፡ በጽድቅ፡ ሀገረ፡ ኢየሩሳሌም፡ ቅድስት፡ ኢይቅሥፍኪኑ፡ በምግባረ፡ ጽድቅኪ፡ ወካዕበ፡ ይምሕኮሙ፡ ለደቂቀ፡ ጻድቃን።</t:l>
+                  <t:l n="9">ግነዩ፡ ለእግዚአብሔር፡ በሠናይ፡ ወባርኪዮ፡ ለንጉሠ፡ ዓለም፡ ከመ፡ ትትሐነፅ፡ ደብተራሁ፡ ውስቴትኪ፡ በትፍሥሕት፡ ወይትፌሥሑ፡ ብኪ፡ ህየ፡ እለ፡ ሀለዉ፡ ፂውዋን፡ ወይትፋቀሩ፡ በእንቲአኪ፡ ጽሉዓን፡ በኵሉ፡ ትውልድ፡ ዘለዓለም።</t:l>
+                  <t:l n="10">እስመ፡ ብዙኃን፡ አሕዛብ፡ ይመጽኡ፡ እምርኁቅ፡ ኀበ፡ ስሙ፡ ለእግዚአብሔር፡ ወያመጽኡ፡ አምኃ፡ ለንጉሠ፡ ዓለም፡ ወለንጉሠ፡ ሰማይ፡ ለትውልደ፡ ትውልድ፡ ይሴብሑከ፡ እግዚኦ፡ ወይሁቡ፡ ስብሐተ፡ ለስምከ።</t:l>
+                  <t:l n="11">ርጉማን፡ ኵሎሙ፡ እለ፡ ይጸልኡከ፡ ወቡሩካን፡ እሙንቱ፡ ኵሎሙ፡ እለ፡ ያፈቅሩከ፡ ለዓለም።</t:l>
+                  <t:l n="12">ወትትፌሣሕ፡ በደቂቆሙ፡ ለጻድቃን፡ እስመ፡ ይትጋብኡ፡ ወይባርኩከ፡ እግዚኦ፡ እስመ፡ ብፁዓን፡ እሙንቱ፡ እለ፡ ያፈቅሩከ፡ ወይትፌሥሑ፡ በስምከ።</t:l>
+                  <t:l n="13">ወብፁዓን፡ ኵሎሙ፡ እለ፡ ይቴክዙ፡ በሕማምከ፡ እስመ፡ ይትፌሥሑ፡ ብከ፡ ርእዮሙ፡ ኵሎ፡ ስብሐቲከ፡ ወይትፌሥሑ፡ ለዓለም።</t:l>
+                  <t:l n="14">ነፍስነሰ፡ ትባርኮ፡ ለእግዚአብሔር፡ ንጉሥ፡ ዓቢይ።</t:l>
+                  <t:l n="15">እስመ፡ ትትሐነፅ፡ ኢየሩሳሌም፡ በዕብነ፡ ሰንፔር፡ ወበመረግድ፡ ወበዕንቊ፡ ክቡር፡ አረፋቲሃ፡ ወማሕፈዲሃ፡ ወአናቅጺሃ፡ በወርቅ፡ ንጽሕ።</t:l>
+                  <t:l n="16">ወመርኅባኒ፡ በቢረሌ፡ ወበዕንቈ፡ ሶፎር፡ አትራኮስ፡ ወበዕንቈ፡ ሶፎር፡ ይትገበር።</t:l>
+                  <t:l n="17">ወይብሉ፡ በኵሉ፡ ፍናዊሃ፡ ሃሌሉያ፡ ይሴብሑ፡ ወይብሉ፡ ይትባረክ፡ እግዚአብሔር፡ ለዓለም፡ ወበኵሉ፡ ዓለም።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="14" xml:id="chapter14">
+               <t:label>Chapter 14</t:label>
+               <t:ab>
+                  <t:l n="1">ወእምዝ፡ አርመመ፡ ጦቢት፡ እምኀበ፡ ይጼሊ።</t:l>
+                  <t:l n="2">ኃምሳ፡ ወሰመንቱ፡ ዓመት፡ ሎቱ፡ አመ፡ የኃጕል፡ አዕይንቲሁ፡ ወእምድኅረ፡ ኃምሳ፡ ወሰመንቱ፡ ዓመት፡ ርእየ፡ ወገብረ፡ ምጽዋተ፡ ወወሰከ፡ ዓዲ፡ ፈሪሆቶ፡ ለእግዚአብሔር።</t:l>
+                  <t:l n="3">ወፈድፋደ፡ ረስዓ፡ ወጸውዖሙ፡ ለወልዱ፡ ወለደቂቀ፡ ወልዱ፡ ወይቤሎ፡ ወልድየ፡ ንሣእ፡ ደቂቀከ፡ እስመ፡ ረሣዕኩ፡ ወበጻሕኩ፡ እስከ፡ ለሞት።</t:l>
+                  <t:l n="4">ወሑር፡ እስከ፡ ሜዶን፡ እስመ፡ አአምር፡ ኵሎ፡ ዘነበበ፡ ዮናስ፡ ነቢይ፡ ላዕለ፡ ነነዌ፡ ከመ፡ ሀለዋ፡ ትትነሠት፡ ውስተ፡ ሜዶንሰ፡ ሰላም፡ ይከውን፡ እስከ፡ ዘመኑ፡ ወአኃዊነ፡ ሀለዎሙ፡ ይዘረዉ፡ ውስተ፡ በሐውርት፡ እምነ፡ ኵሉ፡ ምድር፡ ቡርክት፡ ወኢየሩሳሌምኒ፡ ትከውን፡ በድወ፡ ወቤተ፡ እግዚአብሔር፡ ዘውስቴታ፡ ይውዒ፡ በእሳት፡ ወይከውን፡ በድወ።</t:l>
+                  <t:l n="5">ወካዕበ፡ ይሣሃሎሙ፡ እግዚአብሔር፡ ወያገብኦሙ፡ ውስተ፡ ምድሮሙ፡ ወየሐንፁ፡ ቤቶ፡ ወአኮ፡ ከመ፡ ቀዲሙ፡ አላ፡ እስከ፡ ይትፌጸም፡ መዋዕለ፡ ዓለም፡ ወእምድኅረ፡ ዝንቱ፡ ይገብኡ፡ እምኀበ፡ ይፄወዉ፡ ወይትሐነፅ፡ ኢየሩሳሌም፡ በክብር፡ ወይትሐነፅ፡ በውስቴታ፡ ቤተ፡ እግዚአብሔር፡ በኵሉ፡ ትውልድ፡ ዘለዓለም፡ በንድቅ፡ ክቡር።</t:l>
+                  <t:l n="6">ወኵሉ፡ አሕዛብ፡ ይገድፉ፡ አማልክቲሆሙ፡ ወይትመየጡ፡ በጽድቅ።</t:l>
+                  <t:l n="7">ወይፈርህዎ፡ ለእግዚአብሔር፡ ወይባርክዎ፡ ወሕዝብኒ፡ የአምኑ፡ ቦቱ፡ ወይሣሃሎሙ፡ እግዚአብሔር፡ ለሕዝቡ፡ ወይትፌሥሑ፡ ኵሎሙ፡ እለ፡ ይፈርህዎ፡ ለእግዚአብሔር፡ በጽድቅ፡ ወበርትዕ፡ ወይገብሩ፡ ምሕረተ፡ ላዕለ፡ አኃዊሆሙ።</t:l>
+                  <t:l n="8">ወይእዜኒ፡ ወልድየ፡ ፃዕ፡ እነ፡ ነነዌ፡ እስመ፡ በግብር፡ ይከውን፡ ዘነበበ፡ ዮናስ፡ ነቢይ።</t:l>
+                  <t:l n="9">ወአንተሰ፡ ዕቀብ፡ ሕገ፡ ወትእዛዘ፡ ወኩን፡ መሐሬ፡ ወአፍቅር፡ ጽድቀ፡ ከመ፡ ይኩን፡ ሠናየ፡ ላዕሌከ።</t:l>
+                  <t:l n="10">ወቅብረኒ፡ በሠናይ፡ ወለእምከኒ፡ ምስሌየ፡ ወኢትንበር፡ ውስተ፡ ነነዌ፡ ወልድየ፡ ወርኢ፡ ዘከመ፡ ገብረ፡ ሐማ፡ ላዕለ፡ አካኪሮስ፡ ወከመ፡ አብኦ፡ እምብርሃን፡ ውስተ፡ ጽልመት፡ ወእመ፡ ተፈድየ፡ በከመ፡ እከዩ፡ ወአካኪሮንሰ፡ ሕያው፡ ውእቱ፡ ወውእቱሰ፡ ተፈድየ፡ ፍዳሁ፡ ወለሊሁ፡ ወረደ፡ ውስተ፡ ጽልመት፡ ወምናሴ፡ ገብረ፡ ምጽዋተ፡ ወገብረ፡ ጽድቀ፡ ወድኅነ፡ እምነ፡ መቅሠፍተ፡ ሞት፡ እንተ፡ ሠርዑ፡ ላዕሌሁ፡ ወሐማሰ፡ ወድቀ፡ ውስተ፡ ይእቲ፡ መሥገርት፡ ወሞተ፡ ሞተ።</t:l>
+                  <t:l n="11">ወይእዜኒ፡ ርኢ፡ ወልድየ፡ ከመ፡ ታድኅን፡ ምጽዋተ፡ ለእለ፡ ይገብርዋ፡ ወትፈሪ፡ ጽድቀ፡ ወከመዝ፡ ብሂሎ፡ ሞተ፡ ጦቢት፡ ወወጽአት፡ መንፈሱ፡ በዲበ፡ ዓራቱ፡ ምዕት፡ ወኃምሣ፡ ወሰመንቱ፡ ዓመት፡ ሎቱ፡ ወቀበርዎ፡ በክብር።</t:l>
+                  <t:l n="12">ወአመ፡ ሞተት፡ ሐና፡ እሙ፡ ቀበራ፡ ጦብያ፡ ወልዱ፡ ምስለ፡ አቡሁ፡ ወሖረ፡ ጦብያ፡ ምስለ፡ ብእሲቱ፡ ወደቂቁ፡ ውስተ፡ ባጥና፡ ኀበ፡ ራጉኤል።</t:l>
+                  <t:l n="13">ወረስዐ፡ ራጉኤል፡ ወእድና፡ ብእሲቱ፡ ወሞቱ፡ ወቀበሮሙ፡ ጦብያ፡ በክብር፡ ለሐማትሁ፡ ወተዋረሶሙ፡ ኵሎ፡ ንዋዮሙ፡ ወለጦቢትኒ፡ አቡሁ።</t:l>
+                  <t:l n="14">ወሰምዐ፡ ጦብያ፡ ሙስናሃ፡ ለነነዌ፡ ዘእንበለ፡ ይሙት፡ በከመ፡ ነገሮ፡ አቡሁ፡ ወሰምዑ፡ ናቡከደነፆር፡ ወአስዊሮስ፡ ሙስናሃ፡ ለነነዌ፡ ወተፈሥሑ።</t:l>
+                  <t:l n="15">ወሞተ፡ ጦብያ፡ በ፻ወ፳ወ</t:l>
+               </t:ab>
+            </t:div>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

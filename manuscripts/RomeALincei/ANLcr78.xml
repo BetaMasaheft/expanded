@@ -2,10 +2,10 @@
         <fileDesc>
             <titleStmt><title type="full">Rome, Biblioteca dell’Accademia Nazionale dei Lincei, Conti Rossini 78</title>
                 <title>Gadla Ṣādǝqān za-Bāraknāhā</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,26 +14,35 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">17.12.2024 at 11:37:48</date><date type="lastModified">14.9.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr78/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr78</idno><idno type="filename">ANLcr78.xml</idno><idno type="ID">ANLcr78</idno></publicationStmt>
+            <date type="expanded">3.9.2026 at 09:54:05</date><date type="lastModified">27.7.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr78/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr78</idno><idno type="filename">ANLcr78.xml</idno><idno type="ID">ANLcr78</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
                         <repository ref="https://betamasaheft.eu/INS0335ANL">Biblioteca dell’Accademia Nazionale dei Lincei</repository>
                         <idno>Conti Rossini 78</idno>
                     </msIdentifier>
-
-                <msContents>
-                    <summary/>
-                    <msItem xml:id="ms_i1">
-                        <locus from="12r" to="31v">12r-31v</locus>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT1489Gadlas">Gadla Ṣādǝqān
-                                                  za-Bāraknāhā</title>
-                        <textLang mainLang="gez"/>
-                    </msItem>
-                </msContents>
+                <msContents><summary/></msContents>
+                    <physDesc>
+                        <objectDesc form="Notebook">
+                            <supportDesc>
+                                <support>
+                                    <material key="paper"/></support>
+                                <extent>
+                                    <measure unit="leaf" quantity="40">40</measure>
+                                </extent>
+                                <condition key="good"/>
+                            </supportDesc>
+                        </objectDesc>
+                        <bindingDesc>
+                            <binding contemporary="non-Ethiopian">
+                                <decoNote xml:id="b1">European textile quarter cover</decoNote>
+                                <decoNote xml:id="b2" type="bindingMaterial"><material key="textile"/></decoNote>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
                     <history>
                         <origin>
-                            <origDate notBefore="1900" notAfter="2000">20th century</origDate>
+                            <origDate notBefore="1900" notAfter="1949">20th century, but not after 1949.</origDate>
                         </origin>
                     </history>
                     <additional>
@@ -41,7 +50,7 @@
                             <recordHist>
                                 <source>
                                     <listBibl type="catalogue">
-                                        <bibl corresp="http://zotero.org/groups/358366/items/N6HPGQK3"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1976Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens de l’Accademia Nazionale dei Lincei: Fonds Conti Rossini et Fonds Caetani 209, 375, 376, 377, 378</title><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>Roma</pubPlace><publisher>Accademia Nazionale dei Lincei</publisher><date>1976</date><series><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><biblScope unit="volume">9</biblScope></series><biblScope unit="volume">9</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Strelcyn1976Catalogue</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Strelcyn1976Catalogue</note><citedRange unit="page">188</citedRange></bibl>
+                                        <bibl corresp="http://zotero.org/groups/358366/items/N6HPGQK3"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1976Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens de l’Accademia Nazionale dei Lincei: Fonds Conti Rossini et Fonds Caetani 209, 375, 376, 377, 378</title><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>Roma</pubPlace><publisher>Accademia Nazionale dei Lincei</publisher><date>1976</date><series><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><biblScope unit="volume">9</biblScope></series><biblScope unit="volume">9</biblScope><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:IHABook182</note><note type="tag">bm:Strelcyn1976Catalogue</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:IHABook182</note><note type="tag">bm:Strelcyn1976Catalogue</note><citedRange unit="page">203–204</citedRange></bibl>
                                     </listBibl>
                                 </source>
                             </recordHist>
@@ -49,10 +58,197 @@
                                 <custEvent type="restorations" subtype="none"/>
                             </custodialHist>
                         </adminInfo>
-                        
-                        
                     </additional>
-                </msDesc>
+                    <msPart xml:id="p1">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary>Land-donation; chronology</summary>
+                            <msItem xml:id="p1_i1">
+                                <locus from="2r" to="2v"/>
+                                <title ref="https://betamasaheft.eu/NAR0001gwelt">Deed of a land-donation to the Church of the Holy Trinity in Ṣaʿadā ʾAmbā</title>
+                                <note>Deed of a donation of land to the benefit of the 
+                                    <placeName ref="https://betamasaheft.eu/LOC5427SaedaE">Church of the Holy Trinity in Ṣaʿadā ʾAmbā</placeName>
+                                    by <persName ref="https://betamasaheft.eu/PRS4015Fasilada">Fāsiladas</persName> and later by <persName ref="https://betamasaheft.eu/PRS5616IyasuI">ʾIyāsu I</persName>,
+                                    confirmed by <persName ref="https://betamasaheft.eu/PRS9955WaldaMi">rās Walda Mikāʾel</persName> during the reign of
+                                    <persName ref="https://betamasaheft.eu/PRS10378Yohanne">Yoḥannǝs IV</persName>.</note>
+                                <incipit xml:lang="am">የስላሴ፡ ጉልት፡ ፊት፡ በሐፄ፡ ፋሲል፡ ኋላ፡ በሐፄ፡ ኢያሱ፡ አድያም፡ ሰገድ፡ የተጐለተ፡ ጉልት፡ አድርባ፡ ደቅ፡ ዓንዱ፡ ለመጨሊ፡
+                                        </incipit>
+                                <textLang mainLang="am"/>
+                            </msItem>
+                            <msItem xml:id="p1_i2">
+                                <locus from="2v" to="6v"/>
+                                <title>Chronology from Noah to Yoḥannǝs IV</title>
+                                <note>Chronology from Noah to <persName ref="https://betamasaheft.eu/PRS10378Yohanne">Yoḥannǝs IV</persName>, possibly calculated according to the
+                                    <ref type="work" corresp="https://betamasaheft.eu/LIT4723TarikaWaldaAmid">Tārika Walda ʾAmid (general record)</ref>. The incipit is written in Gǝʿǝz, but the explicit is in
+                                    Amharic.</note>
+                                <incipit xml:lang="gez">እስከ፡ ሰማእታት፡ ፪፻፸ወ፯ ሐሰበ፡ ኖኅ፡ ፲፻ወ፯ ወእም፡ ኖኅ፡ እስከ፡ ማየ፡ <pb n="3r"/> አየህ፡ ፯፻ ወእማየ፡ አይህ፡ እስከ፡ 
+                                    ሕንፃ፡ ማሃፈድ፡ ፭፻፸፩ ወኮነ፡ ድምሩ፡ ፳፻። ወእምህነፃ፡ ማህፈድ፡ እስከ፡ አብርሐም፡ ፭፻፩ 
+                                    ወእምአብር<supplied reason="undefined" resp="PRS8999Strelcyn"/>ሐም፡ እስከ፡ ሙሴ፡ ፬፻፶፭ ወኮነ፡ ድምሩ፡ 
+                                    <unclear>፴፻ወ፯፻፶ወ፯</unclear></incipit>
+                                <explicit xml:lang="am">ኈልቈ፡ ዓመታት፡ ዘመሳፍንት፡ ታላቅ፡ አሊ፡ ፬ ዓመት። አሊጋዝ፡ ፭ ዓመት፡ የወል<surplus>፡</surplus>ደ፡ ገብርኤል፡
+                                    ያሰራት፡ የዋህዱ፡ ፯ ዓመት። የጉግሣ፡ ፳ወ፯ ዓመት። የይማም፡ የማርየ፡ የይራ፡ ፮ ዓመት። የአሊ፡ ፳ወ፪ ዓመት፡ ዘመነ፡ መሳፍንት፡ ፸ወ፩፡ ነው። ዘመን፡ ነገሥታት፡
+                                    ቴዎድሮስ፡ ፲፭ ዓመት። ተክለ፡ ጊዮር<choice resp="PRS8999Strelcyn"><sic>ግ</sic><corr>ጊ</corr></choice>ስ፡ ፫ ዓመት።
+                                    ዮሐንስ፡ ፲፰ ዓመት።</explicit>
+                                <textLang mainLang="gez" otherLangs="am"/>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="Notebook">
+                                <supportDesc>
+                                    <support>
+                                        <material key="paper">Lined paper</material></support>
+                                    <extent>
+                                        <measure unit="leaf" quantity="10">10</measure><locus from="1" to="10"/>
+                                        <measure unit="leaf" type="blank">5</measure><locus from="6v" to="10"/>
+                                        <dimensions type="inner" unit="mm">
+                                            <height unit="mm">155</height>
+                                            <width unit="mm">105</width>
+                                        </dimensions><dimensions subtype="computed" unit="mm" type="inner"><height quantity="155" unit="mm"/><width quantity="105" unit="mm"/></dimensions>
+                                    </extent>
+                                    <condition key="good"/>
+                                </supportDesc>
+                                <layoutDesc><layout writtenLines="14"/><layout subtype="computed" type="catalogue"><writtenLines quantity="14"/></layout></layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote xml:id="h1" script="Ethiopic">
+                                    <desc>The handwriting is slender and slanted, and was executed with a European pen.</desc>
+                                    <seg type="script">20th-century script</seg>
+                                </handNote>                            
+                            </handDesc>
+                            <additions>
+                                <list>
+                                    <item xml:id="a1">
+                                        <desc type="Comment">Note by <persName ref="https://betamasaheft.eu/PRS3182ContiRo">Carlo Conti Rossini</persName> in blue pencil.</desc>
+                                        <q xml:lang="it"><placeName ref="https://betamasaheft.eu/LOC5427SaedaE">Czaadà Ambà</placeName></q>
+                                    </item>
+                                </list>
+                            </additions>
+                        </physDesc>
+                        <history>
+                            <origin>According to the explicit of <ref target="#p1_i2"/> which mentions the 16th year of the reign of 
+                                <persName ref="https://betamasaheft.eu/PRS10378Yohanne">Yoḥannǝs IV</persName>, this codicological unit was probobly copied from a text, which was written in
+                                <origDate notBefore="1888">1888 AD</origDate>.</origin>
+                        </history>
+                    </msPart>
+                    <msPart xml:id="p2">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary>Gadla Ṣādqān</summary>
+                            <msItem xml:id="p2_i1">
+                                <locus from="12r" to="31v"/>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT1489Gadlas">Gadla Ṣādǝqān za-Bāraknāhā</title>
+                                <note>This is probably the copy of the manuscript from the church of 
+                                    <placeName ref="https://betamasaheft.eu/INS0919Baraknaha">Bāraknāhā</placeName>, which <persName ref="https://betamasaheft.eu/PRS3182ContiRo">Carlo Conti Rossini</persName> used
+                                    in <bibl corresp="http://zotero.org/groups/358366/items/XELQF66E"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1903Ricordi"/><title level="m">Ricordi di un soggiorno in Eritrea</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><pubPlace>Asmara</pubPlace><publisher>Tipografia della Missione Svedese</publisher><date>1903</date><note type="tags"><note type="tag">bm:ContiRossini1903Ricordi</note></note><note type="tag">bm:ContiRossini1903Ricordi</note></bibl>.</note>
+                                <incipit xml:lang="gez">በስመ፡ <gap reason="ellipsis"/> ዝውእቱ፡ መጽሐፈ፡ ዜናሆሙ፡ ለአበው፡ ቅዱሳን፡ እለ፡ ወጽኡ፡ እምሮም፡ 
+                                    በመዋዕሊሁ፡ ለዓልሜድ፡ ን<choice resp="PRS8999Strelcyn"><sic>ገሠ</sic><corr>ጉሥ</corr></choice>፡ ዘኢትዮጵያ፡
+                                    ጸሎቶሙ፡ ወበረከቶሙ፡ የሀሉ፡ ምስለ፡ ፍቅሮሙ፡ <persName role="owner" ref="https://betamasaheft.eu/PRS15080TaklaKres">ተክለ፡ ክርስቶስ፡</persName>
+                                    ለዓለመ፡ ዓለም፡ አሜን።</incipit>
+                                <colophon xml:lang="gez" xml:id="coloph1">
+                                    <locus from="31r"/>
+                                    ተፈጸመ፡ መጽሐፈ፡ ገድሎሙ፡ ለጻድቃን፡ ዘበርክናሃ፡ ዘጸሐፋ፡ 
+                                    <persName role="scribe" ref="https://betamasaheft.eu/PRS15079GabraSel">ገብረ፡ <sic>ሥላሥየ፡</sic></persName> በእንተ፡ ፍቁሮሙ፡ ለጻድቃን፡
+                                    ወይደምሮ፡ ምስለ፡ <sic>አዜቤዊት፡</sic> መካን፡ ለዓለመ፡ ዓለም፡
+                                    አሜን<choice resp="PRS8999Strelcyn"><sic>፡</sic><corr>።</corr></choice> ለዘጸሐፎ፡ ወለዘአንበቦ፡ ወለዘተርጐሞ፡
+                                    <gap reason="ellipsis"/></colophon>
+                                <textLang mainLang="gez"/>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="Notebook">
+                                <supportDesc>
+                                    <support>
+                                        <material key="paper"/></support>
+                                    <extent>
+                                        <measure unit="leaf" quantity="22">22</measure><locus from="11" to="32"/>
+                                        <measure unit="page" type="blank">4</measure><locus target="#11v #31v #32r #32v"/>
+                                        <dimensions type="inner" unit="mm">
+                                            <height unit="mm">203</height>
+                                            <width unit="mm">155</width>
+                                        </dimensions><dimensions subtype="computed" unit="mm" type="inner"><height quantity="203" unit="mm"/><width quantity="155" unit="mm"/></dimensions>
+                                    </extent>
+                                    <foliation>Paginated by the hand of <persName ref="https://betamasaheft.eu/PRS3182ContiRo">Carlo Conti Rossini</persName> in blue pencil, beginning with '1' on
+                                        <locus target="#12r"/> and ending with '39' on <locus target="#31r"/>.</foliation>
+                                    <condition key="good"/>
+                                </supportDesc>
+                                <layoutDesc><layout writtenLines="17 18"/><layout subtype="computed" type="catalogue"><writtenLines quantity="18"/></layout></layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote xml:id="h2" script="Ethiopic">
+                                    <desc>Large, mediocre handwriting.</desc>
+                                    <seg type="script">20th-century script</seg>
+                                </handNote>                            
+                            </handDesc>
+                            <additions>
+                                <list>
+                                    <item xml:id="e1">
+                                        <locus target="#11r"/>
+                                        <desc type="StampExlibris">Stamp by <persName ref="https://betamasaheft.eu/PRS3182ContiRo">Carlo Conti Rossini</persName> on the top margin.</desc>
+                                        <q xml:lang="it">donazione <persName ref="https://betamasaheft.eu/PRS3182ContiRo">Conti Rossini Carlo</persName></q>
+                                    </item>
+                                </list>
+                            </additions>
+                        </physDesc>
+                    </msPart>
+                    <msPart xml:id="p3">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary/>
+                            <msItem xml:id="p3_i1">
+                                <locus from="34ra" to="38va"/>
+                                <title ref="https://betamasaheft.eu/NAR0001gwelt">Deeds of eight land-donations by rās Walda Mikāʾel to the church of the Virgin in Dabra Sinā</title>
+                                <note>These are the deeds of eight land donations by <persName ref="https://betamasaheft.eu/PRS9955WaldaMi">rās Walda Mikāʾel</persName>
+                                    to the <placeName ref="https://betamasaheft.eu/LOC2379DabraS">Church of Our Lady in Dabra Sinā</placeName> during the reign 
+                                    of <persName ref="https://betamasaheft.eu/PRS10378Yohanne">Yoḥannǝs IV</persName> and Metropolitan <persName ref="https://betamasaheft.eu/PRS2225Atnatewo">ʾAtnātewos</persName>, i.e. 
+                                    <date notBefore="1872" notAfter="1876">between 1872 and 1876</date>.</note>
+                                <incipit xml:lang="gez">በስመ፡ <gap reason="ellipsis"/> ንጽሕፍ፡ ነገረ፡ አጕላት፡ ዘእግዝእትነ፡ ማርያም፡ 
+                                    ዘ<placeName ref="https://betamasaheft.eu/LOC2377DabraS">ደበረ<supplied reason="undefined">፡</supplied> ሲና፡</placeName> ዘሀለወት፡ 
+                                    በምድረ፡ ዛውል፡ ዘወሀባ፡ ክቡር፡ ራስ፡ <persName ref="https://betamasaheft.eu/PRS9955WaldaMi">ወልደ፡ ሚካኤል፡</persName> መፍቀሬ፡ አብያተ፡ ክርስቲያናት፡
+                                    ወካህናት፡ ከመ፡ ይኵኖ፡ መርሓ፡ ለመንግሥተ፡ ሰማያት፡ ወበእንተ፡ ፍቅራ፡ ለእግዝእትነ፡ ማርያም፡ ዘተሣየጦ፡ በወርቁ። እምነ፡ አበሊና፡ ወድቀ፡ መሐሬ፡ በ፻ ብር፡
+                                    ወምድሩሰ፡ ዘተሣየጦ፡ ምስለ፡ አብ<cb n="34rb"/>ያቲሁ፡ ወማያቲሆሙ፡ ወዕፀዋቲሁ፡</incipit>
+                                <textLang mainLang="gez"/>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="Notebook">
+                                <supportDesc>
+                                    <support>
+                                        <material key="paper"/></support>
+                                    <extent>
+                                        <measure unit="leaf" quantity="8">8</measure><locus from="33" to="40"/>
+                                        <measure unit="page" type="blank">4</measure><locus target="#33v #39r #40r #40v"/>
+                                        <dimensions type="inner" unit="mm">
+                                            <height unit="mm">203</height>
+                                            <width unit="mm">163</width>
+                                        </dimensions><dimensions subtype="computed" unit="mm" type="inner"><height quantity="203" unit="mm"/><width quantity="163" unit="mm"/></dimensions>
+                                    </extent>
+                                    <collation>The bifolium in the middle (<locus from="36" to="37"/>) is incorrectly bound into the codex. The correct
+                                        order is as follows: <locus target="#35v"/>, <locus target="#37r"/>, <locus target="#37v"/>, 
+                                        <locus target="#36r"/>, <locus target="#36v"/>, <locus target="#38r"/>.</collation>
+                                    <condition key="good">The bifolium (<locus from="36" to="37"/>) is loosely attached and incorrectly bound into 
+                                        the codex.</condition>
+                                </supportDesc>
+                                <layoutDesc><layout columns="2" writtenLines="19 21"/><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="21"/></layout></layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote xml:id="h3" script="Ethiopic">
+                                    <desc>Large, mediocre handwriting.</desc>
+                                    <seg type="script">20th-century script</seg>
+                                    <seg type="ink">Black, red ink.</seg>
+                                </handNote>                            
+                            </handDesc>
+                            <additions>
+                                <list>
+                                    <item xml:id="a2">
+                                        <locus target="#33r"/>
+                                        <desc type="Comment">Note by <persName ref="https://betamasaheft.eu/PRS3182ContiRo">Carlo Conti Rossini</persName>.</desc>
+                                        <q xml:lang="it">Atti di <placeName ref="https://betamasaheft.eu/LOC2379DabraS">Debra Sina</placeName></q>
+                                    </item>
+                                </list>
+                            </additions>
+                        </physDesc>
+                    </msPart>
+                <msPartsCount quantity="3"/></msDesc>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -60,14 +256,14 @@
         
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <t:creation/>
             <t:abstract>
@@ -77,17 +273,29 @@
                 <t:keywords>
                     <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
                     <t:term key="Hagiography" ana="#Hagiography"/>
-                    
+                    <t:term key="Chronography" ana="#Chronography"/>
+                    <t:term key="Chronicles" ana="#Chronicles"/>
                 </t:keywords>
             </t:textClass>
-            <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+            <t:langUsage>
+                <t:language ident="en">English</t:language>
+                <t:language ident="am">Amharic</t:language>
+                <t:language ident="gez">Gǝʿǝz</t:language>
+                <t:language ident="it">Italian</t:language>
+            </t:langUsage>
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <change who="#ES" when="2020-09-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created stub</change>
+            <change when="2020-09-14" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+            <change when="2025-11-01" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Update with information from catalogue</change>
+            <change when="2025-11-03" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Reviewed and approved by Magdalena Krzyżanowska and Eugenia Sokolinski</change>
+            <change when="2025-11-04" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updating references to LOC2379DabraS after merging doublets</change>
+            <change when="2025-11-06" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updates after reviews by Eugenia Sokolinski and Magdalena Krzyżanowska</change>
+            <change when="2026-07-17" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Changed addition to extra (e1)</change>
+            <change when="2026-07-27" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated binding</change>
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>
             <t:ab/>
-                    </t:body>
+         </t:body>
     </t:text></TEI>

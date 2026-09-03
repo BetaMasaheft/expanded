@@ -3,9 +3,9 @@
          <titleStmt><title type="full">Oxford, Bodleian Library, Bodleian Bruce 75</title>
             <title>Jeremiah, Ezekiel, Ezra, Esther</title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
-            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,7 +14,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">10.10.2022 at 18:43:18</date><date type="lastModified">5.2.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLbruce75/main</idno><idno type="URI">https://betamasaheft.eu/BDLbruce75</idno><idno type="filename">BDLbruce75.xml</idno><idno type="ID">BDLbruce75</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 09:37:06</date><date type="lastModified">5.2.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLbruce75/main</idno><idno type="URI">https://betamasaheft.eu/BDLbruce75</idno><idno type="filename">BDLbruce75.xml</idno><idno type="ID">BDLbruce75</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                   <msIdentifier>
@@ -43,27 +43,27 @@
                               <height>336</height>
                               <width>296</width>
                               <depth>40</depth>
-                           </dimensions>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="336" unit="mm"/><width quantity="296" unit="mm"/><depth quantity="40" unit="mm"/></dimensions>
                               <dimensions type="leaf" unit="mm" xml:id="leafdim">
                                  <height>327</height>
                                  <width>293</width>
-                              </dimensions>
-                              <note corresp="#leafdim">Data on leaves dimensions taken from <locus target="#21r">fol. 21r</locus>.</note>
+                              </dimensions><dimensions subtype="computed" unit="mm" type="leaf"><height quantity="327" unit="mm"/><width quantity="293" unit="mm"/></dimensions>
+                              <note corresp="#leafdim">Data on leaves dimensions taken from <locus target="#21r"/>.</note>
                               
                               <measure type="weight" unit="g">2510</measure>
                            </extent>
                             <foliation>
                                <list>
                                   <item xml:id="fol1">
-                                     <locus from="1r" to="73r" corresp="#fol1">Fols 1r–73r, </locus>
-                                     <locus from="1r" to="73r" corresp="#fol2">1r–73r, </locus>
-                                     <locus from="74r" to="94r" corresp="#fol1">74r–94r, </locus>
-                                     <locus from="75r" to="95r" corresp="#fol2">75r–95r</locus>
-                                     This foliation, referred to by  <bibl corresp="http://zotero.org/groups/358366/items/NMHJ56PR"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Dillmann1848Catalogus"/><title level="m">Catalogus codicum manuscriptorum Bibliothecae Bodleianae Oxoniensis, Pars VII: Codices Aethiopici</title><author><forename>Christian Friedrich August</forename><surname>Dillmann</surname></author><pubPlace>Oxonii</pubPlace><publisher>E Typographeo Academico</publisher><date>1848</date><note type="url">https://archive.org/details/CatalogiCodicumManuscriptorumBibliothP7</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">Cataloguing</note><note type="tag">bm:Dillmann1848Catalogus</note></note><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">Cataloguing</note><note type="tag">bm:Dillmann1848Catalogus</note><citedRange unit="page">8a–9b</citedRange></bibl>, does not take into account the blank <locus target="#74" corresp="#fol2">74</locus>.
+                                     <locus from="1r" to="73r" corresp="#fol1"/>
+                                     <locus from="1r" to="73r" corresp="#fol2"/>
+                                     <locus from="74r" to="94r" corresp="#fol1"/>
+                                     <locus from="75r" to="95r" corresp="#fol2"/>
+                                     This foliation, referred to by  <bibl corresp="http://zotero.org/groups/358366/items/NMHJ56PR"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Dillmann1848Catalogus"/><title level="m">Catalogus codicum manuscriptorum Bibliothecae Bodleianae Oxoniensis, Pars VII: Codices Aethiopici</title><author><forename>Christian Friedrich August</forename><surname>Dillmann</surname></author><pubPlace>Oxonii</pubPlace><publisher>E Typographeo Academico</publisher><date>1848</date><note type="url">https://archive.org/details/CatalogiCodicumManuscriptorumBibliothP7</note><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">bm:Dillmann1848Catalogus</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">bm:Dillmann1848Catalogus</note><citedRange unit="page">8a–9b</citedRange></bibl>, does not take into account the blank <locus target="#74" corresp="#fol2"/>.
                                   </item>
                                   <item xml:id="fol2">
-                                     <locus from="1r" to="94r" corresp="#fol1">Fols 1r–94r, </locus>
-                                     <locus from="1r" to="95r" corresp="#fol2">1r–95r</locus>
+                                     <locus from="1r" to="94r" corresp="#fol1"/>
+                                     <locus from="1r" to="95r" corresp="#fol2"/>
                                      The manuscript is foliated in pencil in the upper right corner, beginning with the first folio containing text.
                                      The three first leaves, which are blank, are not foliated.
                                   </item>
@@ -71,71 +71,71 @@
                             </foliation>
                         <collation>
                            <signatures>
-                              Remains of European numerals written in black ink, partly cut off, on <locus target="#9r">fols. 9r, </locus>, 
-                              <locus target="#17r">17r, </locus>, <locus target="#25r">25r, </locus>, <locus target="#33r">33r, </locus>.<locus target="#91r">91r</locus>.
+                              Remains of European numerals written in black ink, partly cut off, on <locus target="#9r"/>, 
+                              <locus target="#17r"/>, <locus target="#25r"/>, <locus target="#33r"/>.<locus target="#91r"/>.
                            </signatures>
                            <list>
                               <item xml:id="q1" n="A">
                                  <dim unit="leaf">3</dim>
-                                 <locus from="ir" to="iiiv" corresp="#fol2">Fols ir–iiiv</locus>
+                                 <locus from="ir" to="iiiv" corresp="#fol2"/>
                                  1 added
                               </item>
                               <item xml:id="q2" n="1">
                                  <dim unit="leaf">8</dim>
-                                 <locus from="1r" to="8v" corresp="#fol2">Fols 1r–8v</locus>
+                                 <locus from="1r" to="8v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q3" n="2">
                                  <dim unit="leaf">8</dim>
-                                 <locus from="9r" to="16v" corresp="#fol2">Fols 9r–16v</locus>
+                                 <locus from="9r" to="16v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q4" n="3">
                                  <dim unit="leaf">8</dim>
-                                 <locus from="17r" to="24v" corresp="#fol2">Fols 17r–24v</locus>
+                                 <locus from="17r" to="24v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q5" n="4">
                                  <dim unit="leaf">8</dim>
-                                 <locus from="25r" to="32v" corresp="#fol2">Fols 25r–32v</locus>
+                                 <locus from="25r" to="32v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q6" n="5">
                                  <dim unit="leaf">2</dim>
-                                 <locus from="33r" to="34v" corresp="#fol2">Fols 33r–34v</locus>
+                                 <locus from="33r" to="34v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q7" n="6">
                                  <dim unit="leaf">10</dim>
-                                 <locus from="35r" to="44v" corresp="#fol2">Fols 35r–44v</locus>
+                                 <locus from="35r" to="44v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q8" n="7">
                                  <dim unit="leaf">10</dim>
-                                 <locus from="45r" to="54v" corresp="#fol2">Fols 45r–54v</locus>
+                                 <locus from="45r" to="54v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q9" n="8">
                                  <dim unit="leaf">10</dim>
-                                 <locus from="55r" to="64v" corresp="#fol2">Fols 55r–64v</locus>
+                                 <locus from="55r" to="64v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q10" n="9">
                                  <dim unit="leaf">10</dim>
-                                 <locus from="65r" to="74v" corresp="#fol2">Fols 65r–74v</locus>
+                                 <locus from="65r" to="74v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q11" n="10">
                                  <dim unit="leaf">8</dim>
-                                 <locus from="75r" to="82v" corresp="#fol2">Fols 75r–82v</locus>
+                                 <locus from="75r" to="82v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q12" n="11">
                                  <dim unit="leaf">8</dim>
-                                 <locus from="83r" to="90v" corresp="#fol2">Fols 83r–90v</locus>
+                                 <locus from="83r" to="90v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q13" n="12">
                                  <dim unit="leaf">4</dim>
-                                 <locus from="91r" to="94v" corresp="#fol2">Fols 91r–94v</locus>
+                                 <locus from="91r" to="94v" corresp="#fol2"/>
                               </item>
                               <item xml:id="q14" n="B">
                                  <dim unit="leaf">1</dim>
-                                 <locus from="95r" to="95v" corresp="#fol2">Fols 95r–95v</locus>
+                                 <locus from="95r" to="95v" corresp="#fol2"/>
                                  1 added
                               </item>
                            </list>
                         </collation>
-                        <condition key="good">Occasional parchment repairs, for example on <locus target="#94">fol. 94</locus>.</condition>
+                        <condition key="good">Occasional parchment repairs, for example on <locus target="#94"/>.</condition>
                         </supportDesc>
                      </objectDesc>
                      
@@ -174,7 +174,7 @@
                      <recordHist>
                         <source>
                            <listBibl type="catalogue">
-                              <bibl corresp="http://zotero.org/groups/358366/items/NMHJ56PR"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Dillmann1848Catalogus"/><title level="m">Catalogus codicum manuscriptorum Bibliothecae Bodleianae Oxoniensis, Pars VII: Codices Aethiopici</title><author><forename>Christian Friedrich August</forename><surname>Dillmann</surname></author><pubPlace>Oxonii</pubPlace><publisher>E Typographeo Academico</publisher><date>1848</date><note type="url">https://archive.org/details/CatalogiCodicumManuscriptorumBibliothP7</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">Cataloguing</note><note type="tag">bm:Dillmann1848Catalogus</note></note><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">Cataloguing</note><note type="tag">bm:Dillmann1848Catalogus</note><citedRange unit="page">8a–9b</citedRange></bibl>
+                              <bibl corresp="http://zotero.org/groups/358366/items/NMHJ56PR"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Dillmann1848Catalogus"/><title level="m">Catalogus codicum manuscriptorum Bibliothecae Bodleianae Oxoniensis, Pars VII: Codices Aethiopici</title><author><forename>Christian Friedrich August</forename><surname>Dillmann</surname></author><pubPlace>Oxonii</pubPlace><publisher>E Typographeo Academico</publisher><date>1848</date><note type="url">https://archive.org/details/CatalogiCodicumManuscriptorumBibliothP7</note><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">bm:Dillmann1848Catalogus</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">bm:Dillmann1848Catalogus</note><citedRange unit="page">8a–9b</citedRange></bibl>
                            </listBibl>
                         </source>
                      </recordHist>
@@ -187,8 +187,8 @@
                      <summary/>
                   
                      <msItem xml:id="p1_i1">
-                        <locus from="1ra" to="31vc" corresp="#fol1">Fols 1ra–31vc, </locus>
-                        <locus from="1ra" to="31vc" corresp="#fol2">1ra–31vc</locus>
+                        <locus from="1ra" to="31vc" corresp="#fol1"/>
+                        <locus from="1ra" to="31vc" corresp="#fol2"/>
                         <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT1685Bookof">ዘኤርምያስ፡ ነቢይ፡ በረከተ፡ አምላኩ፡ ትኩን፡ ምስለ፡ ፍቁሩ፡ 
                         <persName ref="https://betamasaheft.eu/PRS2916Bruce">ያዕቆብ፡</persName>
                      ለዓለመ፡ ዓለም፡ አሜን።</title>
@@ -249,8 +249,8 @@
                      </msItem>
                      
                      <msItem xml:id="p1_i2">
-                        <locus from="31vc" to="34rc" corresp="#fol1">Fols 31vc–34rc, </locus>
-                        <locus from="31vc" to="34rc" corresp="#fol2">31vc–34rc</locus>
+                        <locus from="31vc" to="34rc" corresp="#fol1"/>
+                        <locus from="31vc" to="34rc" corresp="#fol2"/>
                         <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT1753Lament">ሰቆቃወ፡ ኤርምያስ፡ ነቢይ።</title>
                         <textLang mainLang="gez"/> 
                         <note>
@@ -263,8 +263,8 @@
                      </msItem>
                      
                      <msItem xml:id="p1_i3">
-                        <locus from="74ra" to="87vc" corresp="#fol1">Fols 74ra–87vc, </locus>
-                        <locus from="75ra" to="88vc" corresp="#fol2">75ra–88vc</locus>
+                        <locus from="74ra" to="87vc" corresp="#fol1"/>
+                        <locus from="75ra" to="88vc" corresp="#fol2"/>
                         <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT1374Bookof">ዘዕዝራ፡ ነቢይ፡ በረከተ፡ አምላኩ፡ ተሀሉ፡ ምስለ፡ ፍቁሩ፡ 
                            <persName ref="https://betamasaheft.eu/PRS2916Bruce">ያዕቆብ፡</persName>
                         ለዓለመ፡ ዓለም፡ አሜን።</title>
@@ -301,8 +301,8 @@
                      </msItem>
                      
                      <msItem xml:id="p1_i4">
-                        <locus from="88ra" to="93vc" corresp="#fol1">Fols 88ra–93vc, </locus>
-                        <locus from="89ra" to="94vc" corresp="#fol2">89ra–94vc</locus>
+                        <locus from="88ra" to="93vc" corresp="#fol1"/>
+                        <locus from="89ra" to="94vc" corresp="#fol2"/>
                         <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT1362Esther">Book of Esther</title>
                         <textLang mainLang="gez"/> 
                         <note>There is no title.</note>
@@ -331,28 +331,28 @@
                            </support>
                            <extent>
                               <measure unit="leaf">54</measure>
-                              <locus from="1" to="34">Fols 1–34, </locus>
-                              <locus from="74" to="93">Fols 74–93</locus>
+                              <locus from="1" to="34"/>
+                              <locus from="74" to="93"/>
                               <note>formae 4<hi rend="apices">ae</hi> magnae</note>
                            </extent>
                         </supportDesc>
                      
                         <layoutDesc>
                            <layout columns="3" writtenLines="32">
-                              <note corresp="#margin #textarea">Data on text area and margin dimensions taken from <locus target="#21r">fol. 21r</locus>.</note>
+                              <note corresp="#margin #textarea">Data on text area and margin dimensions taken from <locus target="#21r"/>.</note>
                               <dimensions unit="mm" xml:id="textarea"> 
                                  <height>236</height>
                                  <width>230</width>
-                              </dimensions>
+                              </dimensions><dimensions subtype="computed" unit="mm"><height quantity="236" unit="mm"/><width quantity="230" unit="mm"/></dimensions>
                               <dimensions type="margin" unit="mm" xml:id="margin">
                                  <dim type="top">42</dim>
                                  <dim type="bottom">49</dim>
                                  <dim type="right">41</dim>
                                  <dim type="left">21</dim>
                                  <dim type="intercolumn">14</dim>
-                              </dimensions>
+                              </dimensions><dimensions subtype="computed" unit="mm" type="margin"><dim type="top" quantity="42" unit="mm"/><dim type="bottom" quantity="49" unit="mm"/><dim type="right" quantity="41" unit="mm"/><dim type="left" quantity="21" unit="mm"/><dim type="intercolumn" quantity="14" unit="mm"/></dimensions>
                               <ab type="ruling">Ruling and pricking are visible.</ab>
-                           </layout>
+                           </layout><layout subtype="computed" type="catalogue" columns="3"><writtenLines quantity="32"/></layout>
                         </layoutDesc>
                      </objectDesc>
                   
@@ -383,8 +383,8 @@
                      <summary/>
                      
                      <msItem xml:id="p2_i1">
-                        <locus from="35ra" to="61rc" corresp="#fol1">Fols 35ra–61rc, </locus>
-                        <locus from="35ra" to="61rc" corresp="#fol2">35ra–61rc</locus>
+                        <locus from="35ra" to="61rc" corresp="#fol1"/>
+                        <locus from="35ra" to="61rc" corresp="#fol2"/>
                         <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT1373Bookof">ዘሕዝቅኤል፡ ነቢይ፡ በረከተ፡ አምላኩ፡ ትኩን፡ ምስለ፡ 
                            ፍቁሩ፡ <del rend="erasure"/>
                         ለዓለመ፡ ዓለም፡ አሜን።</title>
@@ -397,8 +397,8 @@
                      </msItem>
                      
                      <msItem xml:id="p2_i2">
-                        <locus from="61va" to="73vb" corresp="#fol1">Fols 61va–73vb, </locus>
-                        <locus from="61va" to="73vb" corresp="#fol2">61va–73vb</locus>
+                        <locus from="61va" to="73vb" corresp="#fol1"/>
+                        <locus from="61va" to="73vb" corresp="#fol2"/>
                         <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT1376Apocal">ቀዳሜ፡ ቃሉ፡ ለዕዝራ፡ በረከተ፡ አምላኩ፡</title>
                         <textLang mainLang="gez"/> 
                         <explicit xml:lang="gez" type="subscriptio">በዝየ፡ ተፈጸመ፡ መጽሐፈ፡ ዕዝራ፡ በረከቱ፡ ይኩን፡ ምስለ፡ ፍቁሩ፡
@@ -439,20 +439,20 @@
                         
                         <layoutDesc>
                            <layout columns="3" writtenLines="32">
-                              <note corresp="#margin2 #textarea2">Data on text area and margin dimensions taken from <locus target="#43r">fol. 43r</locus>.</note>
+                              <note corresp="#margin2 #textarea2">Data on text area and margin dimensions taken from <locus target="#43r"/>.</note>
                               <dimensions unit="mm" xml:id="textarea2"> 
                                  <height>247</height>
                                  <width>238</width>
-                              </dimensions>
+                              </dimensions><dimensions subtype="computed" unit="mm"><height quantity="247" unit="mm"/><width quantity="238" unit="mm"/></dimensions>
                               <dimensions type="margin" unit="mm" xml:id="margin2">
                                  <dim type="top">31</dim>
                                  <dim type="bottom">49</dim>
                                  <dim type="right">36</dim>
                                  <dim type="left">16</dim>
                                  <dim type="intercolumn">15</dim>
-                              </dimensions>
+                              </dimensions><dimensions subtype="computed" unit="mm" type="margin"><dim type="top" quantity="31" unit="mm"/><dim type="bottom" quantity="49" unit="mm"/><dim type="right" quantity="36" unit="mm"/><dim type="left" quantity="16" unit="mm"/><dim type="intercolumn" quantity="15" unit="mm"/></dimensions>
                               <ab type="ruling">Ruling is visible, pricking has been partly cut off.</ab>
-                           </layout>
+                           </layout><layout subtype="computed" type="catalogue" columns="3"><writtenLines quantity="32"/></layout>
                         </layoutDesc>
                      </objectDesc>
                      
@@ -494,7 +494,7 @@
                   </history>
                </msPart>
                
-            </msDesc>
+            <msPartsCount quantity="2"/></msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -504,14 +504,14 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:textClass>
             <t:keywords scheme="#ethioauthlist">
@@ -526,9 +526,9 @@
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#DR" when="2017-04-20"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
-         <change who="#DR" when="2017-06-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Additions</change>
-         <change who="#DR" when="2020-02-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Improved binding according to proposal by Denis Nosnitsin</change>
+         <change when="2017-04-20" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
+         <change when="2017-06-21" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Additions</change>
+         <change when="2020-02-05" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Improved binding according to proposal by Denis Nosnitsin</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>

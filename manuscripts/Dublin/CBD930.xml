@@ -3,43 +3,540 @@
          <titleStmt><title type="full">Dublin, Chester Beatty Library Dublin, CBD W 930</title>
             <title>Dǝrsāna Mikāʾel, Taʾāmmǝra Mikāʾel, Malkǝʾa Mikāʾel</title>
             <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
-            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="ESh" corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ESh">Elizaveta Shvarts</editor>
+            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ed-ESh"><resp>editor</resp><name>Elizaveta Shvarts</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+               Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">1.7.2025 at 13:10:41</date><date type="lastModified">30.4.2022</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD930/main</idno><idno type="URI">https://betamasaheft.eu/CBD930</idno><idno type="filename">CBD930.xml</idno><idno type="ID">CBD930</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 08:37:26</date><date type="lastModified">7.7.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD930/main</idno><idno type="URI">https://betamasaheft.eu/CBD930</idno><idno type="filename">CBD930.xml</idno><idno type="ID">CBD930</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
-                  <msIdentifier>
-                     <repository ref="https://betamasaheft.eu/INS0422Chester_Beatty_Library">Chester Beatty Library Dublin</repository>
-                     <collection>Ethiopian</collection>
-                     <idno>CBD W 930</idno>
-                  </msIdentifier>
-               <msContents><summary>Dǝrsāna Mikāʾel, Taʾāmmǝra Mikāʾel, Malkǝʾa Mikāʾel</summary></msContents>
-               <physDesc/>
+               <msIdentifier>
+                  <repository ref="https://betamasaheft.eu/INS0422Chester_Beatty_Library">Chester Beatty Library Dublin</repository>
+                  <collection>Ethiopian</collection>
+                  <idno>CBD W 930</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem xml:id="ms_i1">
+                     <locus from="3r" to="82v"/>
+                     <title ref="https://betamasaheft.eu/LIT1295Dersan">Dǝrsāna Mikāʾel</title>
+                     <textLang mainLang="gez"/>
+
+                     <msItem xml:id="ms_i1.1">
+                        <locus from="3r" to="5r"/>
+                        <title ref="https://betamasaheft.eu/LIT1295Dersan#Introduction">Dǝrsāna Mikāʾel: Introduction</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.2">
+                        <locus from="5v" to="12rb"/>
+                        <title ref="https://betamasaheft.eu/LIT1295Dersan#Hedar">Dǝrsāna Mikāʾel: Ḫǝdār</title>
+                        <msItem xml:id="ms_i1.2.1">
+                           <locus from="5v" to="12ra2"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#HomilyTimothy">Dǝrsāna Mikāʾel: Homily by Timothy</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.2.2">
+                           <locus from="12ra3" to="12rb"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#CommemorativeJoshua">Dǝrsāna Mikāʾel: Commemorative notice on
+        Michael's appearance to Joshua</title>
+                        </msItem>
+                     </msItem>
+                     <msItem xml:id="ms_i1.3">
+                        <locus from="13r" to="18rb"/>
+                        <title ref="https://betamasaheft.eu/LIT1295Dersan#Tahsas">Dǝrsāna Mikāʾel: Tāḫśāś</title>
+
+                        <msItem xml:id="ms_i1.3.1">
+                           <locus from="13r" to="17vb6"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#HomilyDeratewos">Dǝrsāna Mikāʾel: Homily on Dǝrātewos and
+        Tewobǝstǝyā</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.3.2">
+                           <locus from="17vb7" to="18rb"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#CommemorativeTahsas">Dǝrsāna Mikāʾel: Commemorative notice about
+        the three youths in the furnace</title>
+                        </msItem>
+                     </msItem>
+
+                     <msItem xml:id="ms_i1.4">
+                        <locus from="19r" to="26v"/>
+                        <title ref="https://betamasaheft.eu/LIT1295Dersan#Terr">Dǝrsāna Mikāʾel: Ṭǝrr</title>
+                        <msItem xml:id="ms_i1.4.1">
+                           <locus from="19r" to="26va1"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#HomilyTalafinos">Dǝrsāna Mikāʾel: Homily on the Archangel Michael
+        by Epiphanius</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.4.2">
+                           <locus target="#26v"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#CommemorativeTerr">Dǝrsāna Mikāʾel: Commemorative notice on St
+        Michael's appearance to Jacob</title>
+                        </msItem>
+                     </msItem>
+
+                     <msItem xml:id="ms_i1.5">
+                        <locus from="28r" to="31r"/>
+                        <title ref="https://betamasaheft.eu/LIT1295Dersan#Yakkatit">Dǝrsāna Mikāʾel: Yakkātit</title>
+                        <msItem xml:id="ms_i1.5.1">
+                           <locus from="28r" to="31ra5"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#HomilyPoor">Dǝrsāna Mikāʾel: Homily on a poor man of great
+        faith</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.5.2">
+                           <locus target="#31r"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#CommemorativeYakkatit">Dǝrsāna Mikāʾel: Commemorative notice on St
+        Michael's appearance to Samson</title>
+                        </msItem>
+                     </msItem>
+
+                     <msItem xml:id="ms_i1.6">
+                        <locus from="32r" to="45rb4"/>
+                        <title ref="https://betamasaheft.eu/LIT1295Dersan#Maggabit">Dǝrsāna Mikāʾel: Maggābit</title>
+                        <msItem xml:id="ms_i1.6.1">
+                           <locus from="32r" to="45va"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#HomilyPsalm">Dǝrsāna Mikāʾel: Homily by a patriarch of Antioch on
+        the Psalm of David</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.6.2">
+                           <locus from="45rb5" to="45va"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#CommemorativeMaggabit">Dǝrsāna Mikāʾel: Commemorative notice on St
+        Michael's appearance to Balaam</title>
+                        </msItem>
+                     </msItem>
+
+                     <msItem xml:id="ms_i1.7">
+                        <locus from="47r" to="52r"/>
+                        <title ref="https://betamasaheft.eu/LIT1295Dersan#Miyazya">Dǝrsāna Mikāʾel: Miyāzyā</title>
+                        <msItem xml:id="ms_i1.7.1">
+                           <locus from="47r" to="51va17"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#HomilyOrthodox">Dǝrsāna Mikāʾel: Homily by Rǝtuʿa Hāymānot</title>
+                        </msItem>
+
+                        <msItem xml:id="ms_i1.7.2">
+                           <locus from="51va18" to="52ra"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#CommemorativeMiyazya">Dǝrsāna Mikāʾel: Commemorative notice on
+        Jeremiah freed by St Michael</title>
+                        </msItem>
+                     </msItem>
+                     <msItem xml:id="ms_i1.8">
+                        <locus from="53r" to="55r"/>
+                        <title ref="https://betamasaheft.eu/LIT1295Dersan#Genbot">Dǝrsāna Mikāʾel: Gǝnbot</title>
+                        <msItem xml:id="ms_i1.8.1">
+                           <locus from="53r" to="54vb6"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#HomilyGenbot">Dǝrsāna Mikāʾel: Homily on Eudoxia and
+        Yoḥannǝs</title>
+                        </msItem>
+
+                        <msItem xml:id="ms_i1.8.2">
+                           <locus from="54vb7" to="55r"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#CommemorativeGenbot">Dǝrsāna Mikāʾel: Commemorative notice on St
+        Michael's appearance to Habakkuk</title>
+                        </msItem>
+
+                     </msItem>
+                     <msItem xml:id="ms_i1.9">
+                        <locus from="56r" to="63r"/>
+                        <title ref="https://betamasaheft.eu/LIT1295Dersan#Sane">Dǝrsāna Mikāʾel: Sane</title>
+                        <msItem xml:id="ms_i1.9.1">
+                           <locus from="56r" to="62rb15"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#HomilySane">Dǝrsāna Mikāʾel: Homily by Yoḥannǝs on Astaraniqos and
+        Euphemia</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.9.2">
+                           <locus from="62rb16" to="63r"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#CommemorativeTemple">Dǝrsāna Mikāʾel: Commemoration on the
+        conversion of the temple of Alexandria</title>
+                        </msItem>
+                     </msItem>
+                     <msItem xml:id="ms_i1.10">
+                        <locus from="64r" to="69r"/>
+                        <title ref="https://betamasaheft.eu/LIT1295Dersan#Hamle">Dǝrsāna Mikāʾel: Ḥamle</title>
+                        <msItem xml:id="ms_i1.10.1">
+                           <locus from="64r" to="68rb"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#HomilyTalason">Dǝrsāna Mikāʾel: Homily on Talāson by
+        Yoḥannǝs</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.10.2">
+                           <locus from="68rb18" to="69r"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#CommemorativeHamle">Dǝrsāna Mikāʾel: Commemorative notice on St
+        Michael's intervention against King Sennacherib</title>
+                        </msItem>
+                     </msItem>
+
+                     <msItem xml:id="ms_i1.11">
+                        <locus from="70r" to="73r"/>
+                        <title ref="https://betamasaheft.eu/LIT1295Dersan#Nahase">Dǝrsāna Mikāʾel: Naḥāse</title>
+                        <msItem xml:id="ms_i1.11.1">
+                           <locus from="70r" to="72vb"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#HomilyNahase">Dǝrsāna Mikāʾel: Anonymous homily referring to
+        David's sayings on St Michael and St Michael's deeds to Lamech, Sem and Christ.</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.11.2">
+                           <locus from="72vb16" to="73r"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#CommemorativeNahase">Dǝrsāna Mikāʾel: Commemorative notice on
+        Michael's appearance to king Constantine</title>
+                        </msItem>
+                     </msItem>
+                     <msItem xml:id="ms_i1.12">
+                        <locus from="74r" to="76v"/>
+                        <title ref="https://betamasaheft.eu/LIT1295Dersan#Maskaram">Dǝrsāna Mikāʾel: Maskaram</title>
+                        <msItem xml:id="ms_i1.12.1">
+                           <locus from="74r" to="76va5"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#HomilyLordship">Dǝrsāna Mikāʾel: Homily on the Lordship of
+        God</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.12.2">
+                           <locus target="#76v"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#CommemorativeMaskaram">Dǝrsāna Mikāʾel: Commemorative notice on
+        Michael's appearance to Isaiah</title>
+                        </msItem>
+                     </msItem>
+                     <msItem xml:id="ms_i1.13">
+                        <locus from="77r" to="82v"/>
+                        <title ref="https://betamasaheft.eu/LIT1295Dersan#Teqemt">Dǝrsāna Mikāʾel: Ṭǝqǝmt</title>
+                        <msItem xml:id="ms_i1.13.1">
+                           <locus from="77r" to="81vb14"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#HomilyTeqemt">Dǝrsāna Mikāʾel: Homily 'Who did not seek the
+        soul'</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.13.2">
+                           <locus from="81vb15" to="82v"/>
+                           <title ref="https://betamasaheft.eu/LIT1295Dersan#CommemorativeFathers">Dǝrsāna Mikāʾel: Commemorative to the
+        fathers, brothers and beloved</title>
+                        </msItem>
+                     </msItem>
+                  </msItem>
+                  <msItem xml:id="ms_i2">
+                     <locus from="83r" to="99v"/>
+                     <title ref="https://betamasaheft.eu/LIT4155MiraclesMichael">12 Miracles of St Michael</title>
+                     <textLang mainLang="gez"/>
+                     <msItem xml:id="ms_i2.1">
+                        <locus from="83r" to="84rb"/>
+                        <title ref="https://betamasaheft.eu/LIT4155MiraclesMichael#Miracle1">12 Miracles of St Michael: Miracle Ḫǝdār: on the
+        Egyptian sailors</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.2">
+                        <locus from="84rb" to="85ra"/>
+                        <title ref="https://betamasaheft.eu/LIT4155MiraclesMichael#Miracle2">12 Miracles of St Michael: Miracle Tāḫśāś: on
+        the poor peasant who found a treasure in a fish</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.3">
+                        <locus from="85rb" to="85vb"/>
+                        <title ref="https://betamasaheft.eu/LIT4155MiraclesMichael#Miracle3">12 Miracles of St Michael: Miracle Ṭǝrr: about
+        the rich man (woman) who became poor</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.4">
+                        <locus from="85vb" to="87va"/>
+                        <title ref="https://betamasaheft.eu/LIT4155MiraclesMichael#Miracle4">12 Miracles of St Michael: Miracle Yakkatit:
+        Miracle of St Michael healing of a paralytic</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.5">
+                        <locus from="87vb" to="89ra"/>
+                        <title ref="https://betamasaheft.eu/LIT4155MiraclesMichael#Miracle5">12 Miracles of St Michael: Miracle Maggābit: on
+        the woman suffering from elephantiasis</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.6">
+                        <locus from="89ra" to="90v"/>
+                        <title ref="https://betamasaheft.eu/LIT4155MiraclesMichael#Miracle6">12 Miracles of St Michael: Miracle Miyāzyā: on
+        the withered hand</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.7">
+                        <locus from="91r" to="92rb"/>
+                        <title ref="https://betamasaheft.eu/LIT4155MiraclesMichael#Miracle7">12 Miracles of St Michael: Miracle Gǝnbot: on a
+        sterile woman, who bears a son through the intervention of St Michael, devoting her child to
+        service in St Michael's church.</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.8">
+                        <locus from="92rb" to="94ra"/>
+                        <title ref="https://betamasaheft.eu/LIT4155MiraclesMichael#Miracle8">12 Miracles of St Michael: Miracle Sane: on a
+        leprous Jew</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.9">
+                        <locus from="94rb" to="96ra"/>
+                        <title ref="https://betamasaheft.eu/LIT4155MiraclesMichael#Miracle9">12 Miracles of St Michael: Miracle Ḥamle: on a
+        possessed freed in church</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.10">
+                        <locus from="96rb" to="96v"/>
+                        <title ref="https://betamasaheft.eu/LIT4155MiraclesMichael#Miracle10">12 Miracles of St Michael: Miracle Naḥase: on
+        healing a blind</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.11">
+                        <locus from="97r" to="98vb"/>
+                        <title ref="https://betamasaheft.eu/LIT4155MiraclesMichael#Miracle11">12 Miracles of St Michael: Miracle Maskaram: on
+        Dorotheus and Theophista, who found a treasure in the belly of a fish</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.12">
+                        <locus from="98vb" to="99v"/>
+                        <title ref="https://betamasaheft.eu/LIT4155MiraclesMichael#Miracle12">12 Miracles of St Michael: Miracle Ṭǝqǝmt: of
+        the rich man who recovers his possessions</title>
+                        <explicit type="supplication">Supplication for the
+                           <persName role="scribe" ref="https://betamasaheft.eu/PRS15462WaldaGabr">Walda Gabrǝʾel</persName> and the 
+                           <persName role="patron" ref="https://betamasaheft.eu/PRS15461ZawaldaMaryam">Zawalda Māryām</persName>.
+                           <q xml:lang="gez"><hi rend="rubric">ዘሰረቆ፡ ወዘፈሐቆ፡ በ ፲ወ፪ ሐዋርያት፡ አጽሐፊሁ፡
+                              ዘወልደ፡ ማርያም፡ ወጸሐፊሁ፡ ወልደ፡ ገብርኤል፡</hi> ለዓለም፡ ዓለም።</q></explicit>
+                     </msItem>
+                  </msItem>
+                  <msItem xml:id="ms_i3">
+                     <locus from="100r" to="104va"/>
+                     <title ref="https://betamasaheft.eu/LIT2835RepCh119">Malkǝʾa Mikāʾel</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="Codex">
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                           <note>The holes in <locus target="#1 #33 #39 #42 #43 #50 #52 #64 #67 #68 #69 #77 #79"/> have
+                              been sewn up.</note>
+                        </support>
+                        <extent>
+                           <measure unit="leaf" quantity="105">105</measure>
+                           <measure unit="page" type="blank">4</measure>
+                           <locus target="#1r #2v #27r #46r"/>
+                           <dimensions type="outer" unit="mm">
+                              <height unit="mm">360</height>
+                              <width unit="mm">269</width>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="360" unit="mm"/><width quantity="269" unit="mm"/></dimensions>
+                        </extent>
+                        <foliation>Foliation is provided by the library and is marked in pencil on
+                           the upper right edge of the recto of each folium.</foliation>
+                        <condition key="good">Despite some fungus stains (e.g., on <locus target="#17v #18r #68v"/>) and the general dirtiness of several folia,
+                           the text is fully readable and all miniatures including most of their
+                           protective curtains are well preserved. The tailband is slightly damaged.
+                           The leather cover is slightly worn at the corners. There are holes in <locus target="#11 #17 #94 #98 #99 #100"/>.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="19">
+                           <ab type="ruling">Ruling is visible.</ab>
+                           <ab type="ruling" subtype="pattern">1A-1A-1A1A/0-0/0-0/C</ab>
+                           <ab type="pricking">Pricking is visible.</ab>
+                           <ab type="pricking">Primary pricks are partly visible.</ab>
+                           <ab type="pricking">Ruling pricks are partly visible.</ab>
+                           <ab type="ruling">The upper line is written above the ruling.</ab>
+                           <ab type="ruling">The bottom line is written above the ruling.</ab>
+                        </layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="19"/></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <locus from="3r" to="37r"/>
+                        <seg type="script">Early eighteenth-century script.</seg>
+                        <seg type="ink">Black, red.</seg>
+                        <seg type="rubrication">Divine names, incipits, punctuation marks, Ethiopic
+                           numerals and the supplicants’ names.</seg>
+                        <desc>Regular, neat, careful, small square letters; copied by the <persName role="scribe" ref="https://betamasaheft.eu/PRS15460GabraHeywat">Gabraḥǝywat</persName>.</desc></handNote>
+                     <handNote xml:id="h2" script="Ethiopic">
+                        <locus from="37v" to="104v"/>
+                        <seg type="script">Eighteenth-century script.</seg>
+                        <seg type="ink">Black, red.</seg>
+                        <seg type="rubrication">Divine names, incipits, punctuation marks, Ethiopic
+                           numerals and the supplicants’ names.</seg>
+                        <desc>Regular, neat, careful, larger round letters with more space between
+                           them; copied by the <persName role="scribe" ref="https://betamasaheft.eu/PRS15462WaldaGabr">Walda Gabrǝʾel</persName>. Despite clear
+                           differences in style between <ref target="#h1"/> and <ref target="#h2"/>,
+                           the transition is smooth and, therefore, precisely not
+                           identifiable.</desc>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote xml:id="d1" type="drawing">
+                        <locus target="#1v"/>
+                        <desc>A drawing of a warrior with a long spear, in pencil. Based on its
+                           highly realistic anatomical features and the use of pencil, the drawing
+                           was probably added later to the manuscript and was made not by the
+                           same artist(s) who painted miniatures.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d2" type="drawing">
+                        <locus target="#2r"/>
+                        <desc>An unfinished pencil drawing of several warriors with <term key="sword" ana="#sword">swords</term>, made by the same artist as <ref target="#d1"/>.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d3" type="headpieceBand">
+                        <locus target="#3r"/>
+                        <desc>An elaborate black outline for a horizontal ornamental band (ḥarag)
+                           over columns a–b, featuring interlaces, cross-shaped flowers, with three
+                           lateral extensions and an eye in the middle of the band.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d4" type="drawing">
+                        <locus target="#69r"/>
+                        <desc>A simple unfinished pencil drawing of a face.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d5" type="drawing">
+                        <locus target="#77v"/>
+                        <desc>A sketch drawing of <ref target="#d20"/>, in pencil.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d6" type="headpieceBand">
+                        <locus target="#103r"/>
+                        <desc>An outline for two horizontal ornamental bands (ḥarags), over each
+                           column one, featuring interlaces, with four lateral extensions
+                           each.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d7" type="drawing">
+                        <locus target="#105r"/>
+                        <desc>A drawing of three <term key="animal" ana="#animal">lions</term>, one in ink and two
+                           in pencil.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d8" type="drawing">
+                        <locus target="#105v"/>
+                        <desc>An outline of three horizontal ornamental bands (ḥarags), featuring
+                           interlaces, with shadows, along with an outline of an elaborate <term key="cross" ana="#cross">cross</term>; a few doodlings, all in pencil.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d9" type="miniature">
+                        <locus target="#12v"/>
+                        <desc>Two miniatures belonging to the <term key="FirstGondarineStyle" ana="#FirstGondarineStyle"/> in a
+                           double red frame. In the first one, <persName ref="https://betamasaheft.eu/PRS7049Michael">Michael</persName> on a
+                              <term key="animal" ana="#animal">horse</term> with soldiers appears to Joshua. In
+                           the second one, <persName ref="https://betamasaheft.eu/PRS7049Michael">Michael</persName> appears to a shepherd. 
+                           A white cotton <term key="protectiveCurtain" ana="#protectiveCurtain"/> is
+                           sewn to the top of the folia.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d10" type="miniature">
+                        <locus target="#18v"/>
+                        <desc>A miniature in a double red frame depicting <persName ref="https://betamasaheft.eu/PRS15488Longinus">Longinus</persName> wounding
+                              the crucified <persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName>
+                           in the presence of <persName ref="https://betamasaheft.eu/PRS6819Mary">St Mary</persName> and <persName ref="https://betamasaheft.eu/PRS5741Johnthe">St John the Baptist</persName>. A white cotton <term key="protectiveCurtain" ana="#protectiveCurtain"/> is
+                           sewn to the top of the folia.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d11" type="miniature">
+                        <locus target="#27v"/>
+                        <desc>A miniature in a double red frame depicting the miracle of
+                           the jewel found in the <term key="animal" ana="#animal">fish</term>.
+                           A white cotton <term key="protectiveCurtain" ana="#protectiveCurtain"/> is
+                           sewn to the top of the folia.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d12" type="miniature">
+                        <locus target="#31v"/>
+                        <desc>Two miniatures in a single double red frame depicting the miracle of the
+                           boat and the miracle of Qison at the door of the church of <persName ref="https://betamasaheft.eu/PRS7049Michael">Saint Michael</persName>, respectively.
+                           A white cotton <term key="protectiveCurtain" ana="#protectiveCurtain"/> is
+                           sewn to the top of the folia.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d13" type="miniature">
+                        <locus target="#45v"/>
+                        <desc>A miniature in a double red frame depicting <persName ref="https://betamasaheft.eu/PRS4585Georgeo">St George of Lydda</persName> killing the <term key="dragon" ana="#dragon"/>. Traces of a <term key="protectiveCurtain" ana="#protectiveCurtain"/>.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d14" type="miniature">
+                        <locus target="#46v"/>
+                        <desc>A miniature in a double red frame depicting <ref type="authFile" corresp="https://betamasaheft.eu/AT1031VirginAndChild">Virgin and Child</ref>
+                           with two <term key="angel" ana="#angel">angels</term>, <persName ref="https://betamasaheft.eu/PRS7049Michael">Michael</persName> and <persName ref="https://betamasaheft.eu/PRS4377Gabriel">Gabriel</persName> as well as <persName role="patron" ref="https://betamasaheft.eu/PRS15461ZawaldaMaryam">Zawalda Māryām</persName>
+                           prostrating before Them. 
+                        <q xml:lang="gez">ቅዱስ፡ ሚካኤል። ቅዱስ፡ ገብርኤል። ዘከመ፡ ተማኀጸኑ፡ መምህር፡ ዘወልደ፡ ማርያም።</q>
+                           A white cotton <term key="protectiveCurtain" ana="#protectiveCurtain"/> is
+                           sewn to the top of the folia.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d15" type="miniature">
+                        <locus target="#52v"/>
+                        <desc>A miniature in a double red frame depicting <persName ref="https://betamasaheft.eu/PRS5720JohnChr">John Chrysostom</persName> before a group of people.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d16" type="miniature">
+                        <locus target="#55v"/>
+                        <desc>A miniature in a double red frame depicting <persName ref="https://betamasaheft.eu/PRS7049Michael">Michael</persName> spearing the <term key="demon" ana="#demon">devil</term> who was trying to throttle <persName ref="https://betamasaheft.eu/PRS14019Euphemia">Euphemia</persName>.
+                        <q xml:lang="gez">ቅዱስ፡ ሚካኤል። አፎምያ፡ ሰይጣን።</q>
+                           A white cotton <term key="protectiveCurtain" ana="#protectiveCurtain"/> is
+                           sewn to the top of the folia.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d17" type="miniature">
+                        <locus target="#63v"/>
+                        <desc>A miniature in a double red frame depicting a rich man and his two poor neighbors.
+                           A white cotton <term key="protectiveCurtain" ana="#protectiveCurtain"/> is
+                           sewn to the top of the folia. </desc>
+                     </decoNote>
+                     <decoNote xml:id="d18" type="miniature">
+                        <locus target="#69v"/>
+                        <desc>A miniature in a double red frame depicting <persName ref="https://betamasaheft.eu/PRS7049Michael">Michael</persName> bringing souls to judgement before <persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName>.
+                           <q xml:lang="gez">እግዚእነ፡ ኢየሲስ። ቅዱስ፡ ሚካኤል።</q>
+                           A white cotton <term key="protectiveCurtain" ana="#protectiveCurtain"/> is
+                           sewn to the top of the folia.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d19" type="miniature">
+                        <locus target="#73v"/>
+                        <desc>A miniature in a double red frame depicting the small chest filled with money that was sent to the poor man by <persName ref="https://betamasaheft.eu/PRS7049Michael">Michael</persName>.
+                        <q xml:lang="gez">እግዚእነ። ሰይጣን። ሣፅን፤ አሣ፤ ጉማራ።</q>
+                           A white cotton <term key="protectiveCurtain" ana="#protectiveCurtain"/> is
+                           sewn to the top of the folia.</desc>
+                     </decoNote>
+                     <decoNote xml:id="d20" type="miniature">
+                        <locus target="#77r"/>
+                        <desc>A miniature in a double red frame depicting <persName ref="https://betamasaheft.eu/PRS5584Isaiah">Isaiah</persName> healing <persName ref="https://betamasaheft.eu/PRS5680Jeremiah">Jeremiah</persName> by pouring water on his head.
+                        <q xml:lang="gez">ቅዱስ፡ ሚካኤል። ኢሳያስ። ሕዝያስ።</q>
+                           A white cotton <term key="protectiveCurtain" ana="#protectiveCurtain"/> is
+                           sewn to the top of the folia. </desc>
+                     </decoNote>
+                  </decoDesc>
+                  <additions>
+                     <list>
+                        
+                        <item xml:id="a1">
+                           <locus target="#2r"/>
+                           <desc type="PurchaseNote">Purchase note mentioning <persName ref="https://betamasaheft.eu/PRS15463AmataWald">ʾAmata Wald</persName> and
+                                 <persName ref="https://betamasaheft.eu/PRS15464AbbaWaldaAr">Walda ʾAragāwi</persName>.</desc>
+                           <q xml:id="am">ለአመተ፡ ወልደ፡ አረጋዊ፡ ፩ቀን፡ ለአባ፡ ወልደ፡ አረጋዊ፡ ፩ጨበር፡ ማላሻ፡ ፪ጨበር፡</q>
+                        </item>
+                        <item xml:id="a2">
+                           <locus target="#73ra"/>
+                           <desc>Sale note written in pencil. Its text is faded and hardly
+                              legible.</desc>
+                           <q xml:lang="am">በ፲፻፱፻፮ ዓመተ፡ ምሕረት፡ በዘ <gap reason="illegible"/> ፡ ማርቆስ፡
+                              በ፲፪ ቀን፡ ፊታውራሪ፡ <gap reason="illegible"/> ፺ብር፡ ለ <gap reason="illegible"/> ልብሱ፡ አባቶችም፡ <sic>ትላቀ፡</sic> <gap reason="illegible"/>
+                              መጋቢ፡ ወልደ፡ ገብርኤል። ጊዜ፡ <gap reason="illegible"/></q>
+                        </item>
+                        <item xml:id="e1">
+                           <locus target="#3r"/>
+                           <desc type="StampExlibris">A blue Ethiopian stamp with a cross in the
+                              middle, which is illegible due to its fading.</desc>
+                        </item>
+                      
+                        <item xml:id="e2">
+                           <locus target="#104v"/>
+                           <desc>Pen trial.</desc>
+                        </item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <decoNote xml:id="b1">Two wooden boards.</decoNote>
+                        <decoNote xml:id="b2" type="Cover">Reddish brown tooled leather cover with
+                           bright pink <term key="inlay" ana="#inlay">textile inlays</term> with a geometrical
+                           green-and-yellow pattern. The <term key="tooling" ana="#tooling">blind tooled
+                              ornament</term> includes <term key="cross" ana="#cross">crosses</term>, <term key="doubleStraightLine" ana="#doubleStraightLine">double line fillets</term>, <term key="doubleCircle" ana="#doubleCircle">double circles</term>, <term key="interlace" ana="#interlace">interlaces</term>, and other ornamental elements.</decoNote>
+                        <decoNote xml:id="b3" type="Sewing">Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b4" type="SewingStations">4</decoNote>
+                        <decoNote xml:id="b5" type="Endbands">Endbands are present, the tailband is
+                           slightly damaged.</decoNote>
+                        <decoNote xml:id="b6" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="textile"/>
+                           <material key="leather"/>
+                        </decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="1700" notAfter="1800"/>                     
+                     <origDate notBefore="1700" notAfter="1750" evidence="lettering">First half of
+                        the 18th century</origDate>
                   </origin>
+                  <provenance><persName role="patron" ref="https://betamasaheft.eu/PRS15461ZawaldaMaryam">Zawalda Māryām</persName> appears in numerous supplications 
+                     throughout the whote text, e.g., on <locus target="#12r #17v #99v"/> and on a 
+                     <ref target="#d14">miniature</ref> on <locus target="#46v"/>.</provenance>
                </history>
-                  <additional>
-                     <adminInfo>
-                        <recordHist>
-                           <source>
-                              <listBibl type="catalogue">
-                                 <bibl corresp="http://zotero.org/groups/358366/items/TDIJ8SGG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Cerulli1965ChesterBeatty"/><title level="m">I manoscritti etiopici della Chester Beatty Library in Dublino</title><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Enrico</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Cerulli</t:surname></author><pubPlace>[Roma]</pubPlace><publisher>[Accademia nazionale dei Lincei]</publisher><date>1965</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">Serie ottava, 11/6</t:biblScope></series><biblScope unit="volume">Serie ottava, 11/6</biblScope><citedRange unit="page">297-298</citedRange></bibl>
-                              </listBibl>
-                           </source>
-                        </recordHist>
-                        </adminInfo>
-                  </additional>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl corresp="http://zotero.org/groups/358366/items/TDIJ8SGG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Cerulli1965ChesterBeatty"/><title level="m">I manoscritti etiopici della Chester Beatty Library in Dublino</title><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><author><forename>Enrico</forename><surname>Cerulli</surname></author><pubPlace>[Roma]</pubPlace><publisher>[Accademia nazionale dei Lincei]</publisher><date>1965</date><series><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><biblScope unit="volume">Serie ottava, 11/6</biblScope></series><biblScope unit="volume">Serie ottava, 11/6</biblScope><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note></note><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note><citedRange unit="page">297–298</citedRange></bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
@@ -50,28 +547,36 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-      <profileDesc>
-         <textClass>
-            <keywords scheme="#ethioauthlist">
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>               
-            </keywords>
-         </textClass>
-         <langUsage><language ident="gez">Gǝʿǝz</language> <language ident="en">English</language></langUsage>         
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:textClass>
+            <t:keywords scheme="#ethioauthlist">
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+            </t:keywords>
+         </t:textClass>
+         <t:langUsage>
+            <t:language ident="gez">Gǝʿǝz</t:language>
+            <t:language ident="en">English</t:language>
+            <t:language ident="am">Amharic</t:language>
+         </t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#ES" when="2022-04-30"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created stub</change>
-      </revisionDesc>
-   </teiHeader><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <ab/>
-      </body>
-   </text></TEI>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+         <change when="2026-06-22" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added information from the catalogue as well as binding
+            and hand description</change>
+         <change when="2026-07-07" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Changed according to the suggestions of Magdalena Krzyżanowska and Carsten Hoffmann</change>
+    
+      </t:revisionDesc>
+   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:ab/>
+      </t:body>
+   </t:text></TEI>

@@ -2,10 +2,11 @@
         <fileDesc>
             <titleStmt><title type="full">Rome, Biblioteca dell’Accademia Nazionale dei Lincei, Conti Rossini 60</title>
                 <title>Horologium</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
+                <editor key="CH" corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH">Carsten Hoffmann</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="ed-CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
@@ -15,28 +16,61 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">1.7.2025 at 13:10:41</date><date type="lastModified">23.4.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr60/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr60</idno><idno type="filename">ANLcr60.xml</idno><idno type="ID">ANLcr60</idno></publicationStmt>
+            <date type="expanded">3.9.2026 at 09:54:05</date><date type="lastModified">11.6.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr60/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr60</idno><idno type="filename">ANLcr60.xml</idno><idno type="ID">ANLcr60</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
                         <repository ref="https://betamasaheft.eu/INS0335ANL">Biblioteca dell’Accademia Nazionale dei Lincei</repository>
                         <idno>Conti Rossini 60</idno>
                     </msIdentifier>
-
-                    <msContents>
+                  <msContents>
                         <summary/>
                         <msItem xml:id="ms_i1">
-                            <locus from="3r" to="63r"/>
-                            <title>Mashafa Sa'atat</title>                        
-                            <notatedMusic><desc>with notation</desc></notatedMusic>
+                            <locus from="3ra" to="63ra"/>
+                            <title ref="https://betamasaheft.eu/LIT3575Mashaf">Maṣḥafa saʿātāt</title>                        
+                            <notatedMusic><desc>With musical notation.</desc></notatedMusic>
+                            <incipit type="inscriptio" xml:lang="gez">ሰዓታቱ፡ ለአባ፡ <persName ref="https://betamasaheft.eu/PRS4709Giyorgis">ጊዮርጊስ፡</persName>
+                                ዘመዓልት፡ ወዘሌሊት፡ በረድኤተ፡ እግዚእነ፡ ዘደረሰ፡ በሰላመ፡ እግዚአብሔር፡</incipit>
+                            <msItem xml:id="ms_i1.1">
+                                <locus from="3ra" to="13rb"/>
+                                <title>Morning service</title>                        
+                                <incipit xml:lang="gez">መዝሙር፡ በ፭ሃሎ፡ ሃሌ፡ ሃሌ፡ ሉያ፡ ሃሌ፡ ሃሌ፡ ሉያ፡ በጽሐ፡ አዕይንትየ፡ ለገይስ፡ ከመ፡ እንብብ፡ ቃለከ፡</incipit>
+                            </msItem>
+                            <msItem xml:id="ms_i1.2">
+                                <locus from="13rb" to="23va"/>
+                                <title>Service of the 3rd hour</title>                        
+                                <incipit xml:lang="gez">መዝሙር፡ በ፫ሰአት፡ መኑ፡ ዘደመሮ፡ ለብርሃን፡ ምስለ፡ ጽልመት፡</incipit>
+                            </msItem>
+                            <msItem xml:id="ms_i1.3">
+                                <locus from="23va" to="31vb"/>
+                                <title>Service of the 6th hour</title>                        
+                                <incipit type="inscriptio" xml:lang="gez">መዝሙር፡ ዘቀትር፡ በ፭ሃሌ፡ ሃሌ፡ ሃሌ፡ ሉያ፡ ሃሌ፡ ሃሌ፡ ሃሌ፡ ሉያ፡ ትግሁ፡ እንከ፡ አኃውየ፡ ጽልዩ፡ ወሰአሉ፡
+                                    ከመ፡ ኢትባዑ፡ ውስተ፡ መንሱት፡</incipit>
+                            </msItem>
+                            <msItem xml:id="ms_i1.4">
+                                <locus from="31vb" to="41va"/>
+                                <title>Service of the 9th hour</title>                        
+                                <incipit xml:lang="gez">መዝሙር፡ ዘተስዐቱ፡ ሰዓት<supplied reason="omitted">፡</supplied> ኖላዊ፡ ዘመዓልት፡ ሀላዊ፡ ዘሌሊት፡
+                                    </incipit>
+                            </msItem>
+                            <msItem xml:id="ms_i1.5">
+                                <locus from="41va" to="55vb"/>
+                                <title>Service of Vespers</title>                        
+                                <incipit xml:lang="gez">መዝሙር፡ ዘሠርክ፡ በ፭ሃሌ፡ ሃሌ፡ ሊሌ። <unclear>ሕየኒ፡</unclear> እዴከ፡ ትመርሐኒ፡ ወታነብረኒ፡</incipit>
+                            </msItem>
+                            <msItem xml:id="ms_i1.6">
+                                <locus from="55vb" to="63ra"/>
+                                <title>Compline</title>                        
+                                <incipit xml:lang="gez">መዝሙር፡ ዘንዋም፡ ሃሌ፡ ሉያ፡ መኑ፡ ይትኤረዮ፡ ለእግዚአብሔር፡ በደመናት፡</incipit>
+                            </msItem>
                         </msItem>
-                        
                         <msItem xml:id="ms_i2">
                             <locus from="63r" to="63v"/>
-                            <title>1 Miracle of Mary</title>      
-                            
+                            <title ref="https://betamasaheft.eu/LIT3655Miracle">Miracle of Mary: Miracle of a woman from Ceasarea whom Mary
+        helped to give birth</title>    
+                            <incipit xml:lang="gez">ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀለወት፡ አሐቲ፡ ብእሲት፡ እምዐበይት፡ ሀገረ፡ ሶርያ፡ ወኮነ፡ አቡሃ፡ በአለ፡ በሕቁ፡
+                                በወርቅ፡ ወ<cb n="63rb"/>በብሩር፡ ወበኵሉ፡ ንዋየ፡ ዓለም፡ ሐላፊ፡ ወይእቲሰ፡ ብእኢት፡ ኮነት፡ ፅንስተ፡</incipit>
                         </msItem>
-                        
                     </msContents>
                     <physDesc> 
                         <objectDesc form="Codex">
@@ -44,37 +78,97 @@
                                 <support>
                                     <material key="parchment"/></support>
                                 <extent>
-                                    <measure unit="leaf">65</measure>
-                                    
+                                    <measure unit="leaf" quantity="65">65</measure>
+                                    <measure unit="page" type="blank">1</measure><locus target="#2v"/>
+                                    <measure unit="quire" quantity="7">7</measure>
                                     <dimensions type="outer" unit="mm">
-                                        <height unit="mm"> 175</height>
+                                        <height unit="mm">175</height>
                                         <width unit="mm">110</width>
-                                    </dimensions>
-                                </extent>
-                                
+                                    </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="175" unit="mm"/><width quantity="110" unit="mm"/></dimensions>
+                                </extent>               
+                                <foliation>Quire marks in Ethiopic numerals from <foreign xml:lang="gez">፩</foreign> to 
+                                    <foreign xml:lang="gez">፯</foreign>.</foliation>
                                 <condition key="good"/>
                             </supportDesc>
-                            <layoutDesc><layout columns="2" writtenLines="17"/></layoutDesc>
+                            <layoutDesc><layout columns="2" writtenLines="17"/><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="17"/></layout></layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote xml:id="h1" script="Ethiopic"><seg type="ink">black and red ink</seg></handNote>                            
+                            <handNote xml:id="h1" script="Ethiopic">
+                                <desc>Careful handwriting. Name of the scribe: <persName role="scribe" ref="https://betamasaheft.eu/PRS15059BezawaWald">Bezawa Wald</persName>.</desc>
+                                <seg type="ink">Black, red.</seg>
+                            </handNote>
                         </handDesc>
-                        
+                        <decoDesc>
+                            <decoNote xml:id="d1" type="drawing">
+                                <desc>The pieces of parchment that form the spine and protrude from the front and back of the manuscript are
+                                    covered with graffiti.</desc>
+                            </decoNote>
+                            <decoNote xml:id="d2" type="drawing">
+                                <desc>Graffiti on the inner front board.</desc>
+                            </decoNote>
+                        </decoDesc>
                         <additions>
-                            <list>
-                                
+                            <list>               
                                 <item xml:id="a1">
-                                    <locus from="1r"/>
-                                    <desc type="GuestText">Prayer, Salam</desc>
+                                    <locus from="1ra"/>
+                                    <desc type="GuestText"><ref type="work" corresp="https://betamasaheft.eu/LIT7716PrayerJes">Sǝʾlat wa-ʾastabqʷǝʾot ḫaba ʾƎgziʾǝna wa-ʾAmlākǝna ʾIyasus Krǝstos la-śǝgā wa-nafs</ref> 
+                                        <q xml:lang="gez">ስዕለት፡ ወመስተብቁዓት፡ እግዚእነ፡ ወአምላክነ፡ ኢየሱስ፡ ክርስቶስ፡ ዘትበቍዕ፡ ለሥጋ፡ ወነፍስ፡</q></desc>
                                 </item>
-                                
-                                
+                                <item xml:id="a2">
+                                    <locus from="1rb"/>
+                                    <desc type="GuestText">Salām-hymn concerning the different parts of the body of the Virgin Mary, possibly part of 
+                                        <ref type="work" corresp="https://betamasaheft.eu/LIT5685Hymn">Hymn to Jesus Christ</ref>. 
+                                        <q xml:lang="gez">ሰላም፡ ለኪ፡ ኦአፍ፡ ቅድስት፡ ዘቤዛዊነ፡ ኢየሱስ፡ ክርስቶስ፡ ዘፈቀድኪ፡ ትጥዓሚ፡ 
+                                            ሐሞተ<supplied reason="omitted">፡</supplied> ወከርቤ፡ <unclear>ቱስሐ፡</unclear>
+                                            ከመ<supplied reason="omitted">፡</supplied> ተሀበኒ፡ መድ<supplied reason="omitted">ኃ</supplied>ኒተ፡
+                                            ለነፍሳቲነ፡ አድኅነነ፡ እምእደ፡ ዕጣን፡ ፀርነ፡ <gap reason="ellipsis"/> ሰላም፡ ለኪ፡ ኦእድ፡ ቅድስት፡ የማናዊት፡</q></desc>
+                                </item>
+                                <item xml:id="a3">
+                                    <locus from="1rb"/>
+                                    <desc type="GuestText">Prayer for the salutation of a certain <persName ref="https://betamasaheft.eu/PRS15071Zamanuel">Zāmānuʾel</persName>.</desc>
+                                </item>
+                                <item xml:id="a4">
+                                    <locus from="63va" to="64ra"/>
+                                    <desc type="GuestText">Halleluyatic prayer in three Halleluyas, with musical annotation, possibly taken from
+                                        <ref type="work" corresp="https://betamasaheft.eu/LIT2361somade">Ṣoma dǝggʷā</ref>:
+                                        <q xml:lang="gez">በ፫ ሃ<supplied reason="undefined" resp="PRS8999Strelcyn">፡</supplied> ስምዕዎኬ፡ ለእግዚእነ፡ 
+                                            ኵልክሙ፡ አብያተ፡ ክርስቲያናት፡ <gap reason="ellipsis"/></q></desc>
+                                </item>
+                                <item xml:id="a5">
+                                    <locus from="64rb" to="65vb"/>
+                                    <desc type="GuestText">Salām-hymn to the Virgin, similar to <ref type="work" corresp="https://betamasaheft.eu/LIT2814RepCh98">Salām laki dāgǝmit samāy</ref> as well as 
+                                        to the explicit of <ref type="work" corresp="https://betamasaheft.eu/LIT1807Litonz">ʾƎnza naʾakkʷǝto ʾǝsma ʿaqabanna</ref> as attested in 
+                                        <ref type="mss" corresp="https://betamasaheft.eu/BAVet1#ms_i4.2">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 1: ʾƎnza naʾakkʷǝto ʾǝsma ʿaqabanna (in ms_i4.2)</ref> on fol. 126v: <q xml:lang="gez">ሰላም፡ ዳግሚት፡ ሰማይ፡ ማርያም፡ ሙፃዓ፡ 
+                                            ፀሐይ፡ <unclear>አንቀጸ፡</unclear> መድኃኒት፡ ሙዳየ፡ እፍረት፡ <gap reason="ellipsis"/></q></desc>
+                                </item>                 
+                                <item xml:id="a6">
+                                    <locus target="#63ra"/>
+                                    <desc type="OwnershipNote">Ownership note for <persName role="owner" ref="https://betamasaheft.eu/PRS15057SennaGiy">Sǝnna Giyorgis</persName>,
+                                        father of <persName ref="https://betamasaheft.eu/PRS15058TaklaAmin">Takla ʾAmin</persName>.</desc>
+                                </item>
+                                <item xml:id="a7">
+                                    <locus target="#63va"/>
+                                    <desc type="OwnershipNote">Ownership note for <persName role="owner" ref="https://betamasaheft.eu/PRS15057SennaGiy">Sǝnna Giyorgis</persName>.</desc>
+                                </item>
+                                <item xml:id="e1">
+                                    <locus target="#63va"/>
+                                    <desc type="ScribalSignature">Name of the scribe <persName role="scribe" ref="https://betamasaheft.eu/PRS15059BezawaWald">Bezawa Wald</persName>.</desc>
+                                </item>
+                                <item xml:id="e2">
+                                    <desc type="StampExlibris">Ex libris <persName role="owner" ref="https://betamasaheft.eu/PRS3182ContiRo">Carlo Conti Rossini</persName></desc>
+                                </item>
+                                <item xml:id="e3">
+                                    <desc type="StampExlibris"><q xml:lang="it">Chiesa di Arbambà (Scioa)</q>
+                                        Possibly corresponding to <placeName ref="https://betamasaheft.eu/LOC1516ArbaAm">Arba Amba</placeName>.</desc>
+                                </item>
                             </list>
                         </additions>
                         <bindingDesc>
-                            <binding>
-                                <decoNote xml:id="b1"> wooden boards covered with stamped leather</decoNote>
-                                
+                            <binding contemporary="Ethiopian">
+                                <decoNote xml:id="b1" type="Boards">Wooden boards, of which only the front board is preserved</decoNote>
+                                <decoNote xml:id="b2" type="EndLeaves">The manuscript is sewn into a sheet of parchment with pieces of cloth
+                                    on both sides between the manuscript and the wooden covers.</decoNote>
+                                <decoNote xml:id="b3" type="bindingMaterial"><material key="wood"/><material key="textile"/></decoNote>
                             </binding>
                         </bindingDesc>
                     </physDesc>
@@ -82,14 +176,19 @@
                         <origin>
                             <origDate notBefore="1700" notAfter="1800">18th century</origDate>
                         </origin>
-                        <provenance>owner  Sǝnnä Giyorgis</provenance>
+                        <provenance>The owner was <persName role="owner" ref="https://betamasaheft.eu/PRS15057SennaGiy">Sǝnna Giyorgis</persName> as mention in <ref target="#a6 #a7"/>.
+                            The manuscript was in possession of a church in ‘Arbambà’ in <placeName ref="https://betamasaheft.eu/LOC5597Sawa">Šawā</placeName>, possibly
+                            corresponding to <placeName ref="https://betamasaheft.eu/LOC1516ArbaAm">Arba Amba</placeName> (see <ref target="#e3"/>). 
+                            It was either acquired by <persName role="owner" ref="https://betamasaheft.eu/PRS3182ContiRo">Carlo Conti Rossini</persName> 
+                            during his stay in <placeName ref="https://betamasaheft.eu/LOC2991Eritre">Eritrea</placeName>
+                            (<date notBefore="1899" notAfter="1903">1899–1903</date>) or sent to him after his return to Europe.</provenance>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
                                     <listBibl type="catalogue">
-                                        <bibl corresp="http://zotero.org/groups/358366/items/N6HPGQK3"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1976Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens de l’Accademia Nazionale dei Lincei: Fonds Conti Rossini et Fonds Caetani 209, 375, 376, 377, 378</title><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Stefan</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Strelcyn</t:surname></author><pubPlace>Roma</pubPlace><publisher>Accademia Nazionale dei Lincei</publisher><date>1976</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Indici e Sussidi Bibliografici della Biblioteca</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">9</t:biblScope></series><biblScope unit="volume">9</biblScope><citedRange unit="page">169-171</citedRange></bibl>
+                                        <bibl corresp="http://zotero.org/groups/358366/items/N6HPGQK3"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1976Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens de l’Accademia Nazionale dei Lincei: Fonds Conti Rossini et Fonds Caetani 209, 375, 376, 377, 378</title><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>Roma</pubPlace><publisher>Accademia Nazionale dei Lincei</publisher><date>1976</date><series><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><biblScope unit="volume">9</biblScope></series><biblScope unit="volume">9</biblScope><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:IHABook182</note><note type="tag">bm:Strelcyn1976Catalogue</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:IHABook182</note><note type="tag">bm:Strelcyn1976Catalogue</note><citedRange unit="page">169–171</citedRange></bibl>
                                     </listBibl>
                                 </source>
                             </recordHist>
@@ -97,8 +196,6 @@
                                 <custEvent type="restorations" subtype="none"/>
                             </custodialHist>
                         </adminInfo>
-
-
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -108,38 +205,42 @@
             
                 
             
-        <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-        <profileDesc>
-            <creation/>
-            <abstract>
-                <p/>
-            </abstract>
-            <textClass>
-                <keywords>
-                    <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                    <term key="Liturgy" ana="#Liturgy"/>
-                    <term key="Hagiography" ana="#Hagiography"/>
-
-                </keywords>
-            </textClass>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
-            </langUsage>
+        <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <t:creation/>
+            <t:abstract>
+                <t:p/>
+            </t:abstract>
+            <t:textClass>
+                <t:keywords>
+                    <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+                    <t:term key="Liturgy" ana="#Liturgy"/>
+                    <t:term key="Hagiography" ana="#Hagiography"/>
+                </t:keywords>
+            </t:textClass>
+            <t:langUsage>
+                <t:language ident="en">English</t:language>
+                <t:language ident="gez">Gǝʿǝz</t:language>
+                <t:language ident="it">Italian</t:language>
+            </t:langUsage>
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-        <revisionDesc>
-            <change who="#ES" when="2024-04-23"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created stub</change>
-        </revisionDesc>
-    </teiHeader><text xml:base="https://betamasaheft.eu/">
-        <body>
-            <ab/>
-        </body>
-    </text></TEI>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <change when="2024-04-23" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+            <change when="2025-10-12" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated record with information from catalogue</change>
+            <change when="2025-10-20" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrections after review by Magdalena Krzyżanowska</change>
+            <change when="2026-06-04" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Move 'graffiti' to decoNotes.</change>
+            <change when="2026-06-11" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated referene in provenance</change>
+        </t:revisionDesc>
+    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+        <t:body>
+            <t:ab/>
+        </t:body>
+    </t:text></TEI>

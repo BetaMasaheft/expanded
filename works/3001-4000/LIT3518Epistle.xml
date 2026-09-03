@@ -5,9 +5,12 @@
             <title xml:id="t2" xml:lang="gez">መልእክተ፡ ጳውሎስ፡ ኀበ፡ ሰብአ፡ ገላትያ፡፡</title>
             <title corresp="#t2" xml:lang="gez" type="normalized">Malʾǝkta Ṗāwlos ḫaba sabʾa Galātyā</title>
             <title type="short">Gal.</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <editionStmt>            
+            <p>The text provided below has been digitized by partner projects from modern Vulgata printed editions and converted to XML by the Bm project team.</p>
+         </editionStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -19,7 +22,7 @@
                                     Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
-         <date type="expanded">10.6.2025 at 12:06:43</date><date type="lastModified">10.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3518Epistle/main</idno><idno type="URI">https://betamasaheft.eu/LIT3518Epistle</idno><idno type="filename">LIT3518Epistle.xml</idno><idno type="ID">LIT3518Epistle</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:20:43</date><date type="lastModified">10.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3518Epistle/main</idno><idno type="URI">https://betamasaheft.eu/LIT3518Epistle</idno><idno type="filename">LIT3518Epistle.xml</idno><idno type="ID">LIT3518Epistle</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -31,408 +34,412 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="Introduction,  present not in all manuscripts" match="div" use="div"><desc><list><item>Introduction</item></list></desc></citeStructure><citeStructure unit="Colophon of the work" match="div" use="div"><desc><list><item>ColophonWork</item></list></desc></citeStructure><citeStructure unit="Stichometry" match="div" use="div"><desc><list><item>Stichometry</item></list></desc></citeStructure><citeStructure unit="Main text of the Epistle" match="div" use="div"><desc><list><item>Epistle</item></list></desc><citeStructure unit="chapter" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item></list></desc><citeStructure unit="l" match="l" use="l"><desc><list><item>tei:l[1]</item><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item><item>25</item><item>26</item><item>27</item><item>28</item><item>29</item><item>30</item><item>31</item></list></desc></citeStructure></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
-         <textClass>
-            <keywords>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="NewTestament" ana="#NewTestament"/>
-               <term key="Bible" ana="#Bible"/>
-               <term key="Translation" ana="#Translation"/>
-            </keywords>
-         </textClass>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="Colophon of the work" use="@xml:id"><desc><list><item>ColophonWork</item></list></desc></citeStructure><citeStructure match="t:div" unit="Stichometry" use="@xml:id"><desc><list><item>Stichometry</item></list></desc></citeStructure><citeStructure match="t:div" unit="Introduction to the epistle" use="@xml:id"><desc><list><item>Introduction</item></list></desc></citeStructure><citeStructure match="t:div" unit="Main text of the Epistle" use="@xml:id"><citeStructure match="t:div" unit="chapter" use="@n"><citeStructure match="t:l" unit="t:l" use="@xml:id"><desc><list><item>tei:t:l[1]</item><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item><item>25</item><item>26</item><item>27</item><item>28</item><item>29</item><item>30</item><item>31</item></list></desc></citeStructure><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item></list></desc></citeStructure><desc><list><item>Epistle</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="NewTestament" ana="#NewTestament"/>
+               <t:term key="Bible" ana="#Bible"/>
+               <t:term key="Translation" ana="#Translation"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-07-26"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record from Ethio authority google spreadsheet</change>
-         <change who="#MV" when="2017-03-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
-         <change who="#DR" when="2018-01-29"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added textparts, bibliography and keyword</change>
-         <change who="#ES" when="2020-03-30"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added title</change>
-         <change who="#ES" when="2025-06-10"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
-      </revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-07-26" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record from Ethio authority google spreadsheet</change>
+         <change when="2017-03-15" who="#MV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
+         <change when="2018-01-29" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added textparts, bibliography and keyword</change>
+         <change when="2020-03-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added title</change>
+         <change when="2025-06-10" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT3518Epistle" passive="https://betamasaheft.eu/LIT3505PaulineEpis"/>
-            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="bibliography">
+               <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_http://erlangen-crm.org/current/may_http://erlangen-crm.org/current/form_http://erlangen-crm.org/current/part_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/LIT3518Epistle#Introduction" passive="https://betamasaheft.eu/LIT3518Epistle">
+                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">Not all manuscripts containing the Epistle have the Introduction.</t:desc>
+               </relation>
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
             
-            <listBibl type="secondary">
-               <bibl corresp="http://zotero.org/groups/358366/items/IAWWWFD3"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Tedros2005EAEPauline"/><title level="a">The Pauline Epistles</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Tedros Abraha</t:name></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Siegbert</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Uhlig</t:surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">338a-340a</biblScope></bibl>
-            </listBibl>
-         </div>
-         <div type="edition" xml:lang="gez">
-            <div type="textpart" xml:id="Introduction">
-               <label>Introduction,  present not in all manuscripts</label>
-            </div>
-            <div type="textpart" xml:id="Epistle">
-               <label>Main text of the Epistle</label>
-   <note>Text of the EOTC printed Bible</note>
-   <div type="textpart" subtype="chapter" n="1" xml:id="ch1">
-      <label>ምዕራፍ 1</label>
-      <ab>
+            <t:listBibl type="secondary">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/IAWWWFD3"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Tedros2005EAEPauline"/><title level="a">The Pauline Epistles</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><name>Tedros Abraha</name></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">338a-340a</biblScope><note type="tags"><note type="tag">bm:Tedros2005EAEPauline</note></note><note type="tag">bm:Tedros2005EAEPauline</note></t:bibl>
+            </t:listBibl>
+         </t:div>
+         <t:div type="edition" xml:lang="gez" xml:id="div2LIT3518Epistle">
+            <t:div type="textpart" xml:id="Introduction">
+               <t:label>Introduction to the epistle</t:label>             
+            </t:div>
+            
+            <t:div type="textpart" xml:id="Epistle">
+               <t:label>Main text of the Epistle</t:label>
+   <t:note>Text of the EOTC printed Bible</t:note>
+   <t:div type="textpart" subtype="chapter" n="1" xml:id="ch1">
+      <t:label>ምዕራፍ 1</t:label>
+      <t:ab>
          
-         <l>ዘከመ፡ ተሠይመ፡ ጳውሎስ፡ በፈቃደ፡ እግዚአብሔር</l>
-         <l n="1">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=1"/>ጳውሎስ፡ ሐዋርያ፡ ዘኢኮነ፡ በእንተ፡ ሰብእ። ወኢኮነ፡ እምኀበ፡ ሰብእ፡ ዘእንበለ፡ በእግዚእነ፡ ኢየሱስ፡ ክርስቶስ። ወእግዚአብሔር፡ አብ፡ ዘአንሥኦ፡ እምዉታን።</l>
-         <l n="2">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=2"/>ወእምኵሎሙ፡ አኀዊነ፡ እለ፡ ምስሌየ፡ ለቤተ፡ ክርስቲያን፡ ዘገላትያ።</l>
-         <l n="3">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=3"/>ሰላም፡ ለክሙ፡ ወጸጋ፡ እግዚአብሔር፡ አቡነ፡ ወእግዚእነ፡ ኢየሱስ፡ ክርስቶስ።</l>
-         <l n="4">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=4"/>ዘመጠወ፡ ርእሶ፡ በእንተ፡ ኀጢአትነ፡ ከመ፡ ያድኅነነ፡ እምዝንቱ፡ ዓለም። ዘይትቃወም፡ በእኩይ፡ በፈቃደ፡ እግዚአብሔር፡ አቡነ።</l>
-         <l n="5">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=5"/>ዘሎቱ፡ ስብሐት፡ ወኀይል፡ ለዓለመ፡ ዓለም፡ አሜን።</l>
-         <l n="6">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=6"/>አነክረክሙ፡ እፎ፡ ከመ፡ ዝ፡ ፍጡነ፡ ያፈልሱክሙ፡ እምሃይማኖተ፡ ክርስቶስ። ዘጸውዐክሙ፡ በጸጋሁ፡ ውስተ፡ ካልእ፡ ትምህርት።</l>
-         <l n="7">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=7"/>ዘኢኮነ፡ ህልወ፡ ዘእንበለ፡ ዘየሀውኩክሙ። ወይፈቅዱ፡ ይዕልዉ፡ ትምህርቶ፡ ለክርስቶስ።</l>
-         <l n="8">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=8"/>ወባሕቱ፡ አንትሙ፡ አሠረ፡ ዚኣነ፡ ትልዉ። አንትሙሰ፡ መልአክ፡ እምሰማይ፡ ለእመ፡ መሀረክሙ። ካልአ፡ እምዘመሀርናክሙ፡ ውጉዘ፡ ለይኩን።</l>
-         <l n="9">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=9"/>በከመ፡ እቤ፡ ቀዳሚ፡ ወይእዜኒ፡ ካዕበ፡ እብል። ለእመ፡ ቦ፡ ዘመሀረክሙ፡ ካልአ፡ እምዘመሀርናክሙ፡ ውጉዘ፡ ለይኩን።</l>
-         <l n="10">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=10"/>ወይእዜሰ፡ ለሰብእኑ፡ ነአምን፡ ወአኮ፡ ለእግዚአብሔር። ወእመሰኬ፡ እፈቅድ፡ ለሰብእ፡ አድሉ፡ ኢኮንኩኬ፡ ገብሮ፡ ለክርስቶስ።</l>
-         <l n="11">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=11"/>እነግረክሙ፡ አኀዊነ፡ እስመ፡ ትምህርት፡ ዘመሀርኩክሙ፡ ኢኮነ፡ በእንተ፡ ሰብእ።</l>
-         <l n="12">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=12"/>ወአነሂ፡ አኮ፡ እምኀበ፡ ሰብእ፡ ዘነሣእክዎ፡ ወኢሂ፡ መሀሩኒዮ። ዳእሙ፡ በዘከሠተ፡ ሊተ፡ እግዚእየ፡ ኢየሱስ፡ ክርስቶስ።</l>
-         <l n="13">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=13"/>ወሰማዕክሙ፡ ግዕዝየ፡ ዘትካት፡ ዘአመ፡ ሀሎኩ፡ ውስተ፡ አይሁድ። ከመ፡ ፈድፋደ፡ ሰደድኩ፡ ቤተ፡ ክርስቲያኑ፡ ለእግዚአብሔር፡ ወአመንዘዝክዎሙ።</l>
-         <l n="14">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=14"/>ወከበርኩ፡ በውስተ፡ አይሁድ፡ ፈድፋደ፡ እምኵሉ፡ ቢጽየ፡ በውስተ፡ ሕዝብየ። እስመ፡ ፈድፋደ፡ ኮንኩ፡ ቀናኤ፡ ለሕገ፡ አበውየ።</l>
-         <l n="15">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=15"/>ወአመ፡ ሠምረ፡ ወፈቀደ፡ እግዚአብሔር። ዘፈለጠኒ፡ ወአውፅአኒ፡ እምከርሠ፡ እምየ፡ ወጸውዐኒ፡ በጸጋሁ።</l>
-         <l n="16">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=16"/>ወከሠተ፡ ሊተ፡ ወልዶ፡ ከመ፡ ይትዐወቅ፡ ስብሐተ፡ ወልዱ፡ በእዴየ። ከመ፡ እስብክ፡ ለአሕዛብ፡ በስሙ። ወኢተለውኩ፡ ሶቤሃ፡ ዘሥጋ፡ ወደም።</l>
-         <l n="17">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=17"/>ወኢዐረጉ፡ ኢየሩሳሌም፡ ኀበ፡ ሐዋርያት፡ ቀደምትየ። ወሖርኩ፡ ብሔረ፡ ዓረብ፡ ወካዕበ፡ ተመየጥኩ፡ ደማስቆ።</l>
-         <l>በእንተ፡ ቀዳማይ፡ ዕርገቱ፡ ውስተ፡ ኢየሩሳሌም</l>
-         <l n="18">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=18"/>ወእምድኅረ፡ ሠለስቱ፡ ዓመት፡ ዐረጉ፡ ኢየሩሳሌም፡ እርአዮ፡ ለኬፋ። ወነበርኩ፡ ኀቤሁ፡ ዐሡረ፡ ወኀምሰ፡ መዋዕለ።</l>
-         <l n="19">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=19"/>ወኢያአምር፡ ባዕደ፡ ሐዋርያተ፡ ዘእንበለ፡ ያዕቆብ፡ እኁሁ፡ ለእግዚእነ።</l>
-         <l n="20">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=20"/>ወዘኒ፡ ዘጸሐፍኩ፡ ለክሙ፡ ናሁ፡ ቅድመ፡ እግዚአብሔር፡ ከመ፡ ኢይሔሱ።</l>
-         <l n="21">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=21"/>ወእምድኅረ፡ ዝ፡ በጻሕኩ፡ ደወለ፡ ቂልቅያ፡ ወሶርያ።</l>
-         <l n="22">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=22"/>ወኢያእመሩኒ፡ ቤተ፡ ክርስቲያናት፡ ዘብሔረ፡ ይሁዳ፡ እለ፡ በክርስቶስ፡ በገጽየ።</l>
-         <l n="23">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=23"/>ወዳእሙ፡ ሰምዑ፡ ዝኩአ፡ ዘትካት፡ ይሰድድ። ይእዜ፡ ይሰብክ፡ ትምህርተ፡ ሃይማኖት።</l>
-         <l n="24">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=24"/>ወይሴብሕዎ፡ ለእግዚአብሔር፡ በእንቲኣየ።</l>
-      </ab>
-   </div>
-   <div type="textpart" subtype="chapter" n="2" xml:id="ch2">
-      <label>ምዕራፍ 2</label>
-      <ab>
+         <t:l>ዘከመ፡ ተሠይመ፡ ጳውሎስ፡ በፈቃደ፡ እግዚአብሔር</t:l>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=1"/>ጳውሎስ፡ ሐዋርያ፡ ዘኢኮነ፡ በእንተ፡ ሰብእ። ወኢኮነ፡ እምኀበ፡ ሰብእ፡ ዘእንበለ፡ በእግዚእነ፡ ኢየሱስ፡ ክርስቶስ። ወእግዚአብሔር፡ አብ፡ ዘአንሥኦ፡ እምዉታን።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=2"/>ወእምኵሎሙ፡ አኀዊነ፡ እለ፡ ምስሌየ፡ ለቤተ፡ ክርስቲያን፡ ዘገላትያ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=3"/>ሰላም፡ ለክሙ፡ ወጸጋ፡ እግዚአብሔር፡ አቡነ፡ ወእግዚእነ፡ ኢየሱስ፡ ክርስቶስ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=4"/>ዘመጠወ፡ ርእሶ፡ በእንተ፡ ኀጢአትነ፡ ከመ፡ ያድኅነነ፡ እምዝንቱ፡ ዓለም። ዘይትቃወም፡ በእኩይ፡ በፈቃደ፡ እግዚአብሔር፡ አቡነ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=5"/>ዘሎቱ፡ ስብሐት፡ ወኀይል፡ ለዓለመ፡ ዓለም፡ አሜን።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=6"/>አነክረክሙ፡ እፎ፡ ከመ፡ ዝ፡ ፍጡነ፡ ያፈልሱክሙ፡ እምሃይማኖተ፡ ክርስቶስ። ዘጸውዐክሙ፡ በጸጋሁ፡ ውስተ፡ ካልእ፡ ትምህርት።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=7"/>ዘኢኮነ፡ ህልወ፡ ዘእንበለ፡ ዘየሀውኩክሙ። ወይፈቅዱ፡ ይዕልዉ፡ ትምህርቶ፡ ለክርስቶስ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=8"/>ወባሕቱ፡ አንትሙ፡ አሠረ፡ ዚኣነ፡ ትልዉ። አንትሙሰ፡ መልአክ፡ እምሰማይ፡ ለእመ፡ መሀረክሙ። ካልአ፡ እምዘመሀርናክሙ፡ ውጉዘ፡ ለይኩን።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=9"/>በከመ፡ እቤ፡ ቀዳሚ፡ ወይእዜኒ፡ ካዕበ፡ እብል። ለእመ፡ ቦ፡ ዘመሀረክሙ፡ ካልአ፡ እምዘመሀርናክሙ፡ ውጉዘ፡ ለይኩን።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=10"/>ወይእዜሰ፡ ለሰብእኑ፡ ነአምን፡ ወአኮ፡ ለእግዚአብሔር። ወእመሰኬ፡ እፈቅድ፡ ለሰብእ፡ አድሉ፡ ኢኮንኩኬ፡ ገብሮ፡ ለክርስቶስ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=11"/>እነግረክሙ፡ አኀዊነ፡ እስመ፡ ትምህርት፡ ዘመሀርኩክሙ፡ ኢኮነ፡ በእንተ፡ ሰብእ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=12"/>ወአነሂ፡ አኮ፡ እምኀበ፡ ሰብእ፡ ዘነሣእክዎ፡ ወኢሂ፡ መሀሩኒዮ። ዳእሙ፡ በዘከሠተ፡ ሊተ፡ እግዚእየ፡ ኢየሱስ፡ ክርስቶስ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=13"/>ወሰማዕክሙ፡ ግዕዝየ፡ ዘትካት፡ ዘአመ፡ ሀሎኩ፡ ውስተ፡ አይሁድ። ከመ፡ ፈድፋደ፡ ሰደድኩ፡ ቤተ፡ ክርስቲያኑ፡ ለእግዚአብሔር፡ ወአመንዘዝክዎሙ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=14"/>ወከበርኩ፡ በውስተ፡ አይሁድ፡ ፈድፋደ፡ እምኵሉ፡ ቢጽየ፡ በውስተ፡ ሕዝብየ። እስመ፡ ፈድፋደ፡ ኮንኩ፡ ቀናኤ፡ ለሕገ፡ አበውየ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=15"/>ወአመ፡ ሠምረ፡ ወፈቀደ፡ እግዚአብሔር። ዘፈለጠኒ፡ ወአውፅአኒ፡ እምከርሠ፡ እምየ፡ ወጸውዐኒ፡ በጸጋሁ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=16"/>ወከሠተ፡ ሊተ፡ ወልዶ፡ ከመ፡ ይትዐወቅ፡ ስብሐተ፡ ወልዱ፡ በእዴየ። ከመ፡ እስብክ፡ ለአሕዛብ፡ በስሙ። ወኢተለውኩ፡ ሶቤሃ፡ ዘሥጋ፡ ወደም።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=17"/>ወኢዐረጉ፡ ኢየሩሳሌም፡ ኀበ፡ ሐዋርያት፡ ቀደምትየ። ወሖርኩ፡ ብሔረ፡ ዓረብ፡ ወካዕበ፡ ተመየጥኩ፡ ደማስቆ።</t:l>
+         <t:l>በእንተ፡ ቀዳማይ፡ ዕርገቱ፡ ውስተ፡ ኢየሩሳሌም</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=18"/>ወእምድኅረ፡ ሠለስቱ፡ ዓመት፡ ዐረጉ፡ ኢየሩሳሌም፡ እርአዮ፡ ለኬፋ። ወነበርኩ፡ ኀቤሁ፡ ዐሡረ፡ ወኀምሰ፡ መዋዕለ።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=19"/>ወኢያአምር፡ ባዕደ፡ ሐዋርያተ፡ ዘእንበለ፡ ያዕቆብ፡ እኁሁ፡ ለእግዚእነ።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=20"/>ወዘኒ፡ ዘጸሐፍኩ፡ ለክሙ፡ ናሁ፡ ቅድመ፡ እግዚአብሔር፡ ከመ፡ ኢይሔሱ።</t:l>
+         <t:l n="21">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=21"/>ወእምድኅረ፡ ዝ፡ በጻሕኩ፡ ደወለ፡ ቂልቅያ፡ ወሶርያ።</t:l>
+         <t:l n="22">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=22"/>ወኢያእመሩኒ፡ ቤተ፡ ክርስቲያናት፡ ዘብሔረ፡ ይሁዳ፡ እለ፡ በክርስቶስ፡ በገጽየ።</t:l>
+         <t:l n="23">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=23"/>ወዳእሙ፡ ሰምዑ፡ ዝኩአ፡ ዘትካት፡ ይሰድድ። ይእዜ፡ ይሰብክ፡ ትምህርተ፡ ሃይማኖት።</t:l>
+         <t:l n="24">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=1&amp;verse=24"/>ወይሴብሕዎ፡ ለእግዚአብሔር፡ በእንቲኣየ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="2" xml:id="ch2">
+      <t:label>ምዕራፍ 2</t:label>
+      <t:ab>
          
-         <l>በእንተ፡ ግዝረት፡ ወኢ፡ ተገዝሮ</l>
-         <l n="1">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=1"/>ወእምድኅረ፡ ዐሠርቱ፡ ወአርባዕቱ፡ ዓመት። ዐረጉ፡ ካዕበ፡ ኢየሩሳሌም፡ ምስለ፡ በርናባስ፡ ወነሣእክዎ፡ ለቲቶ።</l>
-         <l n="2">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=2"/>ወዐረጉ፡ በዘአስተርአየኒ፡ ወነገርክዎሙ። ዘከመ፡ መሀርኩ፡ ወሰበኩ፡ ለአሕዛብ፡ ባሕቲትየ፡ ለእለ፡ ይትሔዘቡኒ። ከመ፡ ለከንቱ፡ እረውጽ፡ ወእትባደር።</l>
-         <l n="3">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=3"/>ወቲቶስ፡ ዘምስሌየ፡ እንዘ፡ አረማዊ፡ ውእቱ፡ ኢያገበርክዎ፡ ይትገዘር።</l>
-         <l n="4">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=4"/>በእንተ፡ ቢጽ፡ ሐሳውያን፡ እለ፡ ተባውኡነ። ከመ፡ ያስተሐይጽዋ፡ ለግዕዛንነ፡ ዘረከብነ፡ በኢየሱስ፡ ክርስቶስ።</l>
-         <l n="5">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=5"/>ከመ፡ ይቅንዩነ፡ እለ፡ ኢነሐስቦሙ፡ ወኢ፡ ከመ፡ ምንትኒ። ወኢተቀነይነ፡ ሎሙ፡ አሐተሂ፡ ሰዓተ። ከመ፡ ይጽናዕ፡ በኀቤክሙ፡ ጽድቀ፡ ትምህርት።</l>
-         <l n="6">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=6"/>ወእለሰ፡ ይብሉ፡ መኑ፡ ከማነ፡ እፎ፡ ኮኑ፡ እሙንቱ፡ ትካት። ኢያጽሕቀኒ፡ እንግር፡ እስመ፡ እግዚአብሔር፡ ኢያደሉ፡ ለገጸ፡ ሰብእ። ወእለሰ፡ በርእሶሙ፡ አልቦ፡ ዘወሰኩኒ፡ ምንተኒ።</l>
-         <l n="7">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=7"/>ዘእንበለ፡ ዳእሙ፡ አእሚሮሙ፡ ከመ፡ ተአመነኒ፡ ትምህርትየ፡ በኀበ፡ አሕዛብ፡ እለ፡ ኢተገዝሩ። በከመ፡ ትምህርቱ፡ ለጴጥሮስ፡ በኀበ፡ አይሁድ፡ እለ፡ ተገዝሩ።</l>
-         <l n="8">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=8"/>ወውእቱ፡ ዘአርድኦ፡ ለጴጥሮስ፡ በመልእክቱ፡ ዘመንገለ፡ ግዝረተ፡ አይሁድ። አርድአኒ፡ ሊተኒ፡ ውስተ፡ ቊልፈተ፡ አሕዛብ።</l>
-         <l n="9">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=9"/>ወአእሚሮሙ፡ ጸጋሁ፡ ዘወሀበኒ፡ ያዕቆብ፡ ወኬፋ፡ ወዮሐንስ፡ እለ፡ ይብልዎሙ፡ አዕማድ። እሙንቱ፡ የማኖሙ፡ መጠዉኒ፡ ምስለ፡ በርናባስ፡ ከመ፡ ንሳተፍ፡ ምህሮ፡ አሕዛብ። ወእሙንቱ፡ ይሑሩ፡ ኀበ፡ አይሁድ፡ ወንሕነኒ፡ ኀበ፡ አረሚ።</l>
-         <l n="10">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=10"/>ዳእሙ፡ ከመ፡ ንዘክሮሙ፡ ለነዳያን። ወበእንተ፡ ዝ፡ ጽሕቁ፡ እግበሮ፡ ለዝንቱ።</l>
-         <l n="11">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=11"/>ወአመ፡ መጽአ፡ ኬፋ፡ አንጾኪያ፡ ተቃወምክዎ፡ ቅድመ፡ ገጹ፡ እስመ፡ ግእዝዎ።</l>
-         <l n="12">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=12"/>እስመ፡ ዘእንበለ፡ ይምጽኡ፡ ዕደው፡ እምኀበ፡ ያዕቆብ፡ በልዐ፡ ምስለ፡ አረሚ። ወአመ፡ መጽኡ፡ ተግሕሦሙ፡ እስመ፡ ፈርሆሙ፡ ለእለ፡ እምአይሁድ።</l>
-         <l n="13">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=13"/>ወበዝኁ፡ እለ፡ ገብኡ፡ ኀበ፡ ዝንቱ፡ ግብር፡ እምአይሁድ። ወበርናባስኒ፡ ኀብረ፡ ምስሌሆሙ፡ በአድልወ፡ ሎሙ።</l>
-         <l n="14">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=14"/>ወሶበ፡ ርኢኩ፡ ከመ፡ ኢያርትዑ፡ እግሮሙ፡ ኀበ፡ ጽድቀ፡ ትምህርት። እቤሎ፡ ለኬፋ፡ በቅድመ፡ ኵሎሙ። ሶበ፡ አንተ፡ እንዘ፡ አይሁዳዊ፡ አንተ፡ በሕገ፡ አረሚ፡ ትነብር፡ ወአኮ፡ በሕገ፡ አይሁድ። እፎ፡ እንከ፡ ታጌብሮሙ፡ ለአረሚ፡ ይትየሀዱ።</l>
-         <l n="15">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=15"/>ወእንዘ፡ ንሕነ፡ እለ፡ እምፍጥረትነ፡ አይሁድ፡ ወአኮ፡ እምአሕዛብ፡ ኃጥኣን።</l>
-         <l n="16">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=16"/>እስመ፡ ነአምር፡ ከመ፡ ኢይጸድቅ፡ ሰብእ፡ በገቢረ፡ ሕገገ፡ ኦሪት። ዘእንበለ፡ ዳእሙ፡ በአሚን፡ በኢየሱስ፡ ክርስቶስ። ወንሕነኒ፡ አመነ፡ በኢየሱስ፡ ክርስቶስ፡ ወበሃይማኖትነ፡ ቦቱ፡ ንጽድቅ። ወአኮ፡ በገቢረ፡ ሕገገ፡ ኦሪት። እስመ፡ በገቢረ፡ ሕገ፡ ኦሪት፡ ኢይጸድቅ፡ ኵሉ፡ ዘነፍስ።</l>
-         <l>በእንተ፡ እለ፡ ይፈቅዱ፡ ይጽድቁ፡ በክርስቶስ</l>
-         <l n="17">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=17"/>ወእመሰ፡ እለ፡ ንፈቅድ፡ ንጽደቅ፡ በክርስቶስ፡ ኮነ፡ ከመ፡ ኃጥኣን። ክርስቶስ፡ እንከ፡ ላእከ፡ ኀጢአትኑ፡ እንጋ፡ ሐሰ።</l>
-         <l n="18">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=18"/>እመሰኬ፡ ዝኰ፡ ዘነሠትኩ፡ ኪያሁ፡ ክመ፡ አሐንጽ። ዐላዌ፡ ረሰይኩ፡ ርእስየ።</l>
-         <l n="19">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=19"/>አንሰኬ፡ እምሕግ፡ ዘቀዳሚ፡ ከመ፡ እሕየው፡ ለእግዚአብሔር። ወተሰቀልኩ፡ ምስለ፡ ክርስቶስ። ሕይወትየሰ፡ ኀልቀት፡ ወበሕይወተ፡ ክርስቶስ፡ ሀለውኩ።</l>
-         <l n="20">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=20"/>ወዘኒ፡ ዘአሐዩ፡ ይእዜ፡ በሥጋየ፡ በአሚን፡ በወልደ፡ እግዚአብሔር፡ አሐዩ። ዘአፍቀረኒ፡ ወመጠወ፡ ርእሶ፡ በእንቲኣየ።</l>
-         <l n="21">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=21"/>ኢይክሕድ፡ ጸጋ፡ እግዚአብሔር። እመሰኬ፡ በገቢረ፡ ሕገገ፡ ኦሪት፡ ይጸድቁ፡ ለከንቱኬ፡ ሞተ፡ ክርስቶስ።</l>
-      </ab>
-   </div>
-   <div type="textpart" subtype="chapter" n="3" xml:id="ch3">
-      <label>ምዕራፍ 3</label>
-      <ab>
+         <t:l>በእንተ፡ ግዝረት፡ ወኢ፡ ተገዝሮ</t:l>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=1"/>ወእምድኅረ፡ ዐሠርቱ፡ ወአርባዕቱ፡ ዓመት። ዐረጉ፡ ካዕበ፡ ኢየሩሳሌም፡ ምስለ፡ በርናባስ፡ ወነሣእክዎ፡ ለቲቶ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=2"/>ወዐረጉ፡ በዘአስተርአየኒ፡ ወነገርክዎሙ። ዘከመ፡ መሀርኩ፡ ወሰበኩ፡ ለአሕዛብ፡ ባሕቲትየ፡ ለእለ፡ ይትሔዘቡኒ። ከመ፡ ለከንቱ፡ እረውጽ፡ ወእትባደር።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=3"/>ወቲቶስ፡ ዘምስሌየ፡ እንዘ፡ አረማዊ፡ ውእቱ፡ ኢያገበርክዎ፡ ይትገዘር።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=4"/>በእንተ፡ ቢጽ፡ ሐሳውያን፡ እለ፡ ተባውኡነ። ከመ፡ ያስተሐይጽዋ፡ ለግዕዛንነ፡ ዘረከብነ፡ በኢየሱስ፡ ክርስቶስ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=5"/>ከመ፡ ይቅንዩነ፡ እለ፡ ኢነሐስቦሙ፡ ወኢ፡ ከመ፡ ምንትኒ። ወኢተቀነይነ፡ ሎሙ፡ አሐተሂ፡ ሰዓተ። ከመ፡ ይጽናዕ፡ በኀቤክሙ፡ ጽድቀ፡ ትምህርት።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=6"/>ወእለሰ፡ ይብሉ፡ መኑ፡ ከማነ፡ እፎ፡ ኮኑ፡ እሙንቱ፡ ትካት። ኢያጽሕቀኒ፡ እንግር፡ እስመ፡ እግዚአብሔር፡ ኢያደሉ፡ ለገጸ፡ ሰብእ። ወእለሰ፡ በርእሶሙ፡ አልቦ፡ ዘወሰኩኒ፡ ምንተኒ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=7"/>ዘእንበለ፡ ዳእሙ፡ አእሚሮሙ፡ ከመ፡ ተአመነኒ፡ ትምህርትየ፡ በኀበ፡ አሕዛብ፡ እለ፡ ኢተገዝሩ። በከመ፡ ትምህርቱ፡ ለጴጥሮስ፡ በኀበ፡ አይሁድ፡ እለ፡ ተገዝሩ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=8"/>ወውእቱ፡ ዘአርድኦ፡ ለጴጥሮስ፡ በመልእክቱ፡ ዘመንገለ፡ ግዝረተ፡ አይሁድ። አርድአኒ፡ ሊተኒ፡ ውስተ፡ ቊልፈተ፡ አሕዛብ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=9"/>ወአእሚሮሙ፡ ጸጋሁ፡ ዘወሀበኒ፡ ያዕቆብ፡ ወኬፋ፡ ወዮሐንስ፡ እለ፡ ይብልዎሙ፡ አዕማድ። እሙንቱ፡ የማኖሙ፡ መጠዉኒ፡ ምስለ፡ በርናባስ፡ ከመ፡ ንሳተፍ፡ ምህሮ፡ አሕዛብ። ወእሙንቱ፡ ይሑሩ፡ ኀበ፡ አይሁድ፡ ወንሕነኒ፡ ኀበ፡ አረሚ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=10"/>ዳእሙ፡ ከመ፡ ንዘክሮሙ፡ ለነዳያን። ወበእንተ፡ ዝ፡ ጽሕቁ፡ እግበሮ፡ ለዝንቱ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=11"/>ወአመ፡ መጽአ፡ ኬፋ፡ አንጾኪያ፡ ተቃወምክዎ፡ ቅድመ፡ ገጹ፡ እስመ፡ ግእዝዎ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=12"/>እስመ፡ ዘእንበለ፡ ይምጽኡ፡ ዕደው፡ እምኀበ፡ ያዕቆብ፡ በልዐ፡ ምስለ፡ አረሚ። ወአመ፡ መጽኡ፡ ተግሕሦሙ፡ እስመ፡ ፈርሆሙ፡ ለእለ፡ እምአይሁድ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=13"/>ወበዝኁ፡ እለ፡ ገብኡ፡ ኀበ፡ ዝንቱ፡ ግብር፡ እምአይሁድ። ወበርናባስኒ፡ ኀብረ፡ ምስሌሆሙ፡ በአድልወ፡ ሎሙ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=14"/>ወሶበ፡ ርኢኩ፡ ከመ፡ ኢያርትዑ፡ እግሮሙ፡ ኀበ፡ ጽድቀ፡ ትምህርት። እቤሎ፡ ለኬፋ፡ በቅድመ፡ ኵሎሙ። ሶበ፡ አንተ፡ እንዘ፡ አይሁዳዊ፡ አንተ፡ በሕገ፡ አረሚ፡ ትነብር፡ ወአኮ፡ በሕገ፡ አይሁድ። እፎ፡ እንከ፡ ታጌብሮሙ፡ ለአረሚ፡ ይትየሀዱ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=15"/>ወእንዘ፡ ንሕነ፡ እለ፡ እምፍጥረትነ፡ አይሁድ፡ ወአኮ፡ እምአሕዛብ፡ ኃጥኣን።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=16"/>እስመ፡ ነአምር፡ ከመ፡ ኢይጸድቅ፡ ሰብእ፡ በገቢረ፡ ሕገገ፡ ኦሪት። ዘእንበለ፡ ዳእሙ፡ በአሚን፡ በኢየሱስ፡ ክርስቶስ። ወንሕነኒ፡ አመነ፡ በኢየሱስ፡ ክርስቶስ፡ ወበሃይማኖትነ፡ ቦቱ፡ ንጽድቅ። ወአኮ፡ በገቢረ፡ ሕገገ፡ ኦሪት። እስመ፡ በገቢረ፡ ሕገ፡ ኦሪት፡ ኢይጸድቅ፡ ኵሉ፡ ዘነፍስ።</t:l>
+         <t:l>በእንተ፡ እለ፡ ይፈቅዱ፡ ይጽድቁ፡ በክርስቶስ</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=17"/>ወእመሰ፡ እለ፡ ንፈቅድ፡ ንጽደቅ፡ በክርስቶስ፡ ኮነ፡ ከመ፡ ኃጥኣን። ክርስቶስ፡ እንከ፡ ላእከ፡ ኀጢአትኑ፡ እንጋ፡ ሐሰ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=18"/>እመሰኬ፡ ዝኰ፡ ዘነሠትኩ፡ ኪያሁ፡ ክመ፡ አሐንጽ። ዐላዌ፡ ረሰይኩ፡ ርእስየ።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=19"/>አንሰኬ፡ እምሕግ፡ ዘቀዳሚ፡ ከመ፡ እሕየው፡ ለእግዚአብሔር። ወተሰቀልኩ፡ ምስለ፡ ክርስቶስ። ሕይወትየሰ፡ ኀልቀት፡ ወበሕይወተ፡ ክርስቶስ፡ ሀለውኩ።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=20"/>ወዘኒ፡ ዘአሐዩ፡ ይእዜ፡ በሥጋየ፡ በአሚን፡ በወልደ፡ እግዚአብሔር፡ አሐዩ። ዘአፍቀረኒ፡ ወመጠወ፡ ርእሶ፡ በእንቲኣየ።</t:l>
+         <t:l n="21">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=2&amp;verse=21"/>ኢይክሕድ፡ ጸጋ፡ እግዚአብሔር። እመሰኬ፡ በገቢረ፡ ሕገገ፡ ኦሪት፡ ይጸድቁ፡ ለከንቱኬ፡ ሞተ፡ ክርስቶስ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="3" xml:id="ch3">
+      <t:label>ምዕራፍ 3</t:label>
+      <t:ab>
          
-         <l>በእንተ፡ ገሥጾቱ፡ ሰብአ፡ ገላትያ</l>
-         <l n="1">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=1"/>ኦ፡ አብዳን፡ ሰብአ፡ ገላትያ፡ መኑ፡ አሕመመክሙ። ከመ፡ ኢትእመኑ፡ በጽድቅ፡ ዘያስተርኢ፡ ለዐይን፡ ኢየሱስ፡ ክርስቶስ። ዘአቅደመ፡ ተጽሕፎ፡ በእንቲኣሁ፡ ከመሂ፡ ይሰቀል።</l>
-         <l n="2">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=2"/>ዘንተ፡ ዳእሙ፡ እፈቅድ፡ አእምር፡ በኀቤክሙ። በገቢረ፡ ሕገገ፡ ኦሪትኑ፡ ነሣእክሙ፡ መንፈሰ፡ ቅዱሰ፡ አው፡ በሰሚዐ፡ ሃይማኖት።</l>
-         <l n="3">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=3"/>ከመ፡ ዝኑ፡ አብዳን፡ አንትሙ፡ እምድኅረ፡ ዘመንፈስ፡ ቅዱስ፡ ወጠንክሙ። ወገባእክሙ፡ ይእዜ፡ ሕገ፡ ሥጋ፡ ወደም፡ ትግበሩ።</l>
-         <l n="4">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=4"/>ወመጠነ፡ ዝ፡ ሐሚመክሙ፡ ለከንቱ፡ ረሰይክሙ።</l>
-         <l n="5">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=5"/>ውእቱ፡ ዘይሁበክሙ፡ መንፈሰ፡ ወይገብር፡ ለክሙ፡ ኀይለ። በገቢረ፡ ሕገገ፡ ኦሪትኑ፡ አው፡ በሰሚዐ፡ ሃይማኖት።</l>
-         <l>ዘከመ፡ ጸድቀ፡ አብርሃም፡ በሃይማኖት</l>
-         <l n="6">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=6"/>በከመ፡ አብርሃም፡ አምነ፡ በእግዚአብሔር፡ ወኮኖ፡ ጽድቀ።</l>
-         <l n="7">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=7"/>ተአምሩ፡ እንከ፡ ከመ፡ እለ፡ አምኑ፡ ውሉደ፡ አብርሃም፡ እሙንቱ።</l>
-         <l n="8">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=8"/>እስመ፡ አቅደመ፡ አእምሮ፡ መጽሐፍ። ከመ፡ በአሚን፡ ያጸድቆሙ፡ እግዚአብሔር፡ ለአሕዛብ። ናሁ፡ አቅደመ፡ አሰፍዎቶ፡ እግዚአብሔር፡ ለአብርሃም። ከመ፡ ቦቱ፡ ይትባረኩ፡ ኵሎሙ፡ አሕዛብ።</l>
-         <l n="9">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=9"/>ወይእዜሰኬ፡ እለ፡ የአምኑ፡ ይትባረኩ፡ ምስለ፡ አብርሃም፡ ምእመን።</l>
-         <l n="10">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=10"/>ወኵሎሙ፡ እለ፡ ውስተ፡ ሕገ፡ ኦሪት፡ ሀለዉ፡ ውስተ፡ መርገም፡ ይነብሩ። እስመ፡ ከመ፡ ዝ፡ ይቤ፡ መጽሐፍ። ርጉመ፡ ለይኩን፡ ኵሉ፡ ዘጽሑፍ፡ ውስተ፡ ዝንቱ፡ መጽሐፈ፡ ኦሪት፡ ዘኢይፌጽም፡ ገቢሮቶ።</l>
-         <l n="11">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=11"/>ወእምከመሰ፡ ኢይጸድቁ፡ በገቢረ፡ ሕገገ፡ ኦሪት፡ በኀበ፡ እግዚአብሔር። ይትዐወቅ፡ ከመ፡ በአሚነ፡ ይጸድቁ። ወጻድቅኒ፡ በአሚን፡ የሐዩ፡ በከመ፡ ጽሑፍ።</l>
-         <l n="12">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=12"/>ኦሪትሰ፡ ኢኮነ፡ በአሚን፡ ዘያጸድቅ። ዳእሙ፡ ዘፈጸመ፡ ገቢሮቶ፡ የሐዩ፡ ቦቱ።</l>
-         <l n="13">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=13"/>ወለነሰ፡ ተሣየጠነ፡ ክርስቶስ፡ እመርገማ፡ ለኦሪት፡ በዘወድአ፡ በእንቲኣነ። ወጾረ፡ መርገማ፡ እስመ፡ ከመ፡ ዝ፡ ይቤ፡ መጽሐፍ።</l>
-         <l n="14">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=14"/>ርጉም፡ ውእቱ፡ ኵሉ፡ ዘስቁል፡ ዲበ፡ ዕፅ። ከመ፡ ይግባእ፡ በረከተ፡ አብርሃም፡ ላዕለ፡ አሕዛብ፡ በእንተ፡ ኢየሱስ፡ ክርስቶስ። ወንርከብ፡ ተስፋሁ፡ ለመንፈስ፡ ቅዱስ፡ በአሚን፡ በክርስቶስ።</l>
-         <l>በእንተ፡ ኪዳን፡ ጽኑዕ</l>
-         <l n="15">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=15"/>ሕገ፡ ሰብእ፡ ንብል። ሰብእ፡ ጥቀ፡ ኢየአቢ፡ ወኢይትከሐድ፡ ኪዳነ፡ ዘጽኑዕ።</l>
-         <l n="16">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=16"/>ወለአብርሃምኒ፡ አሰፈዎ፡ እግዚአብሔር፡ ወይቤሎ፡ ለከ፡ ወለዘርዕከ። ወኢይቤሎ፡ ለከ፡ ወለአዝርዕቲከ፡ ከመ፡ ዘለብዙኃን። ዘእንበለ፡ ከመ፡ ዘለአሐዱ፡ ለዘርዕከ፡ ዘውእቱ፡ ክርስቶስ።</l>
-         <l n="17">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=17"/>እብል፡ እንከ፡ ዝንቱ፡ ኪዳን፡ ጽኑዕ፡ ዘእምኀበ፡ እግዚአብሔር። ወእምድኅሬሁ፡ በአርባዕቱ፡ ምእት፡ ክረምት፡ መጽአት፡ ኦሪት። ወአኮሰ፡ ከመ፡ ትክላእ፡ ዘአሰፈወ፡ እግዚአብሔር።</l>
-         <l n="18">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=18"/>ወእመሰኬ፡ በገቢረ፡ ሕገገ፡ ኦሪት፡ ይወርሱ፡ ኢኮነኬ፡ በዘአሰፈዎ። ናሁ፡ አቅደመ፡ አሰፍዎቶ፡ እግዚአብሔር፡ ለአብርሃም።</l>
-         <l n="19">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=19"/>ለምንት፡ እንከ፡ መጽአት፡ ኦሪት፡ ከመ፡ ታብዝኃ፡ ለኀጢአት። እስከ፡ አመ፡ ይበጽሕ፡ ዝኩ፡ ዘርዕ፡ ዘሎቱ፡ አሰፈወ። ወወረደት፡ ሥርዐት፡ ምስለ፡ መላእክት፡ በእደ፡ ኅሩይ።</l>
-         <l n="20">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=20"/>ወኅሩይሰ፡ ኢኮነ፡ አሐዱሂ። ዘእንበለ፡ አሐዱ፡ እግዚአብሔር፡ ውእቱ።</l>
-         <l n="21">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=21"/>ኦሪት፡ እንከ፡ ትክላእኑ፡ ዘአሰፈወ፡ እግዚአብሔር፡ መጽአት፡ ሐሰ። ሶበሁ፡ ተውህበ፡ ሕግ፡ ዘይክል፡ አሕይዎ፡ በውእቱ፡ ሕግ፡ እምኮነ፡ ጽድቅ።</l>
-         <l n="22">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=22"/>ወባሕቱ፡ ዘግሖ፡ መጽሐፍ፡ ለኵሉ፡ ውስተ፡ ኀጢአት። ከመ፡ ይኩን፡ ተስፋ፡ በአሚን፡ በኢየሱስ፡ ክርስቶስ። ወይርከብዎ፡ እለ፡ የአምኑ።</l>
-         <l n="23">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=23"/>ወዘእንበለ፡ ይብጻሕ፡ አሚን፡ ዐቀበተነ፡ ኦሪት። ወመርሐተነ፡ ውስተ፡ አሚን፡ ዘይመጽእ።</l>
-         <l n="24">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=24"/>ኦሪት፡ እንከ፡ መርሐ፡ ኮነተነ፡ ለኀበ፡ ክርስቶስ። ከመ፡ ንጽደቅ፡ በአሚን፡ ቦቱ።</l>
-         <l n="25">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=25"/>ወሶበ፡ መጽአት፡ እንከ፡ አሚን፡ ኢንፈቅድ፡ እንከ፡ መርሐ።</l>
-         <l n="26">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=26"/>እስመ፡ ኵልነ፡ ውሉደ፡ እግዚአብሔር፡ ንሕነ፡ በአሚን፡ በኢየሱስ፡ ክርስቶስ።</l>
-         <l n="27">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=27"/>ወአንትሙሰ፡ እለ፡ ተጠመቅሙ፡ በክርስቶስ፡ ክርስቶስሃ፡ ለበስክሙ።</l>
-         <l n="28">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=28"/>አልቦ፡ በዝንቱ፡ አይሁዳዊ፡ ወአልቦ፡ አረማዊ። ወአልቦ፡ ነባሪ፡ ወአልቦ፡ አግዓዚ። ወአልቦ፡ ተባዕት፡ ወአልቦ፡ አንስት። ዳእሙ፡ ኵልክሙ፡ አሐዱ፡ በኢየሱስ፡ ክርስቶስ።</l>
-         <l n="29">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=29"/>ወእምከመ፡ ኮንክሙ፡ ለኢየሱስ፡ ክርስቶስ። አንትሙኬ፡ እንከ፡ ዘርዐ፡ አብርሃም፡ ወራስያነ፡ ተስፋ።</l>
-      </ab>
-   </div>
-   <div type="textpart" subtype="chapter" n="4" xml:id="ch4">
-      <label>ምዕራፍ 4</label>
-      <ab>
+         <t:l>በእንተ፡ ገሥጾቱ፡ ሰብአ፡ ገላትያ</t:l>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=1"/>ኦ፡ አብዳን፡ ሰብአ፡ ገላትያ፡ መኑ፡ አሕመመክሙ። ከመ፡ ኢትእመኑ፡ በጽድቅ፡ ዘያስተርኢ፡ ለዐይን፡ ኢየሱስ፡ ክርስቶስ። ዘአቅደመ፡ ተጽሕፎ፡ በእንቲኣሁ፡ ከመሂ፡ ይሰቀል።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=2"/>ዘንተ፡ ዳእሙ፡ እፈቅድ፡ አእምር፡ በኀቤክሙ። በገቢረ፡ ሕገገ፡ ኦሪትኑ፡ ነሣእክሙ፡ መንፈሰ፡ ቅዱሰ፡ አው፡ በሰሚዐ፡ ሃይማኖት።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=3"/>ከመ፡ ዝኑ፡ አብዳን፡ አንትሙ፡ እምድኅረ፡ ዘመንፈስ፡ ቅዱስ፡ ወጠንክሙ። ወገባእክሙ፡ ይእዜ፡ ሕገ፡ ሥጋ፡ ወደም፡ ትግበሩ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=4"/>ወመጠነ፡ ዝ፡ ሐሚመክሙ፡ ለከንቱ፡ ረሰይክሙ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=5"/>ውእቱ፡ ዘይሁበክሙ፡ መንፈሰ፡ ወይገብር፡ ለክሙ፡ ኀይለ። በገቢረ፡ ሕገገ፡ ኦሪትኑ፡ አው፡ በሰሚዐ፡ ሃይማኖት።</t:l>
+         <t:l>ዘከመ፡ ጸድቀ፡ አብርሃም፡ በሃይማኖት</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=6"/>በከመ፡ አብርሃም፡ አምነ፡ በእግዚአብሔር፡ ወኮኖ፡ ጽድቀ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=7"/>ተአምሩ፡ እንከ፡ ከመ፡ እለ፡ አምኑ፡ ውሉደ፡ አብርሃም፡ እሙንቱ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=8"/>እስመ፡ አቅደመ፡ አእምሮ፡ መጽሐፍ። ከመ፡ በአሚን፡ ያጸድቆሙ፡ እግዚአብሔር፡ ለአሕዛብ። ናሁ፡ አቅደመ፡ አሰፍዎቶ፡ እግዚአብሔር፡ ለአብርሃም። ከመ፡ ቦቱ፡ ይትባረኩ፡ ኵሎሙ፡ አሕዛብ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=9"/>ወይእዜሰኬ፡ እለ፡ የአምኑ፡ ይትባረኩ፡ ምስለ፡ አብርሃም፡ ምእመን።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=10"/>ወኵሎሙ፡ እለ፡ ውስተ፡ ሕገ፡ ኦሪት፡ ሀለዉ፡ ውስተ፡ መርገም፡ ይነብሩ። እስመ፡ ከመ፡ ዝ፡ ይቤ፡ መጽሐፍ። ርጉመ፡ ለይኩን፡ ኵሉ፡ ዘጽሑፍ፡ ውስተ፡ ዝንቱ፡ መጽሐፈ፡ ኦሪት፡ ዘኢይፌጽም፡ ገቢሮቶ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=11"/>ወእምከመሰ፡ ኢይጸድቁ፡ በገቢረ፡ ሕገገ፡ ኦሪት፡ በኀበ፡ እግዚአብሔር። ይትዐወቅ፡ ከመ፡ በአሚነ፡ ይጸድቁ። ወጻድቅኒ፡ በአሚን፡ የሐዩ፡ በከመ፡ ጽሑፍ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=12"/>ኦሪትሰ፡ ኢኮነ፡ በአሚን፡ ዘያጸድቅ። ዳእሙ፡ ዘፈጸመ፡ ገቢሮቶ፡ የሐዩ፡ ቦቱ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=13"/>ወለነሰ፡ ተሣየጠነ፡ ክርስቶስ፡ እመርገማ፡ ለኦሪት፡ በዘወድአ፡ በእንቲኣነ። ወጾረ፡ መርገማ፡ እስመ፡ ከመ፡ ዝ፡ ይቤ፡ መጽሐፍ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=14"/>ርጉም፡ ውእቱ፡ ኵሉ፡ ዘስቁል፡ ዲበ፡ ዕፅ። ከመ፡ ይግባእ፡ በረከተ፡ አብርሃም፡ ላዕለ፡ አሕዛብ፡ በእንተ፡ ኢየሱስ፡ ክርስቶስ። ወንርከብ፡ ተስፋሁ፡ ለመንፈስ፡ ቅዱስ፡ በአሚን፡ በክርስቶስ።</t:l>
+         <t:l>በእንተ፡ ኪዳን፡ ጽኑዕ</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=15"/>ሕገ፡ ሰብእ፡ ንብል። ሰብእ፡ ጥቀ፡ ኢየአቢ፡ ወኢይትከሐድ፡ ኪዳነ፡ ዘጽኑዕ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=16"/>ወለአብርሃምኒ፡ አሰፈዎ፡ እግዚአብሔር፡ ወይቤሎ፡ ለከ፡ ወለዘርዕከ። ወኢይቤሎ፡ ለከ፡ ወለአዝርዕቲከ፡ ከመ፡ ዘለብዙኃን። ዘእንበለ፡ ከመ፡ ዘለአሐዱ፡ ለዘርዕከ፡ ዘውእቱ፡ ክርስቶስ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=17"/>እብል፡ እንከ፡ ዝንቱ፡ ኪዳን፡ ጽኑዕ፡ ዘእምኀበ፡ እግዚአብሔር። ወእምድኅሬሁ፡ በአርባዕቱ፡ ምእት፡ ክረምት፡ መጽአት፡ ኦሪት። ወአኮሰ፡ ከመ፡ ትክላእ፡ ዘአሰፈወ፡ እግዚአብሔር።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=18"/>ወእመሰኬ፡ በገቢረ፡ ሕገገ፡ ኦሪት፡ ይወርሱ፡ ኢኮነኬ፡ በዘአሰፈዎ። ናሁ፡ አቅደመ፡ አሰፍዎቶ፡ እግዚአብሔር፡ ለአብርሃም።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=19"/>ለምንት፡ እንከ፡ መጽአት፡ ኦሪት፡ ከመ፡ ታብዝኃ፡ ለኀጢአት። እስከ፡ አመ፡ ይበጽሕ፡ ዝኩ፡ ዘርዕ፡ ዘሎቱ፡ አሰፈወ። ወወረደት፡ ሥርዐት፡ ምስለ፡ መላእክት፡ በእደ፡ ኅሩይ።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=20"/>ወኅሩይሰ፡ ኢኮነ፡ አሐዱሂ። ዘእንበለ፡ አሐዱ፡ እግዚአብሔር፡ ውእቱ።</t:l>
+         <t:l n="21">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=21"/>ኦሪት፡ እንከ፡ ትክላእኑ፡ ዘአሰፈወ፡ እግዚአብሔር፡ መጽአት፡ ሐሰ። ሶበሁ፡ ተውህበ፡ ሕግ፡ ዘይክል፡ አሕይዎ፡ በውእቱ፡ ሕግ፡ እምኮነ፡ ጽድቅ።</t:l>
+         <t:l n="22">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=22"/>ወባሕቱ፡ ዘግሖ፡ መጽሐፍ፡ ለኵሉ፡ ውስተ፡ ኀጢአት። ከመ፡ ይኩን፡ ተስፋ፡ በአሚን፡ በኢየሱስ፡ ክርስቶስ። ወይርከብዎ፡ እለ፡ የአምኑ።</t:l>
+         <t:l n="23">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=23"/>ወዘእንበለ፡ ይብጻሕ፡ አሚን፡ ዐቀበተነ፡ ኦሪት። ወመርሐተነ፡ ውስተ፡ አሚን፡ ዘይመጽእ።</t:l>
+         <t:l n="24">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=24"/>ኦሪት፡ እንከ፡ መርሐ፡ ኮነተነ፡ ለኀበ፡ ክርስቶስ። ከመ፡ ንጽደቅ፡ በአሚን፡ ቦቱ።</t:l>
+         <t:l n="25">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=25"/>ወሶበ፡ መጽአት፡ እንከ፡ አሚን፡ ኢንፈቅድ፡ እንከ፡ መርሐ።</t:l>
+         <t:l n="26">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=26"/>እስመ፡ ኵልነ፡ ውሉደ፡ እግዚአብሔር፡ ንሕነ፡ በአሚን፡ በኢየሱስ፡ ክርስቶስ።</t:l>
+         <t:l n="27">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=27"/>ወአንትሙሰ፡ እለ፡ ተጠመቅሙ፡ በክርስቶስ፡ ክርስቶስሃ፡ ለበስክሙ።</t:l>
+         <t:l n="28">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=28"/>አልቦ፡ በዝንቱ፡ አይሁዳዊ፡ ወአልቦ፡ አረማዊ። ወአልቦ፡ ነባሪ፡ ወአልቦ፡ አግዓዚ። ወአልቦ፡ ተባዕት፡ ወአልቦ፡ አንስት። ዳእሙ፡ ኵልክሙ፡ አሐዱ፡ በኢየሱስ፡ ክርስቶስ።</t:l>
+         <t:l n="29">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=3&amp;verse=29"/>ወእምከመ፡ ኮንክሙ፡ ለኢየሱስ፡ ክርስቶስ። አንትሙኬ፡ እንከ፡ ዘርዐ፡ አብርሃም፡ ወራስያነ፡ ተስፋ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="4" xml:id="ch4">
+      <t:label>ምዕራፍ 4</t:label>
+      <t:ab>
          
-         <l>በከመ፡ ተወልደ፡ እግዚእነ፡ እማርያም</l>
-         <l n="1">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=1"/>ወባሕቱ፡ እብል፡ አምጣነሰ፡ ሕፃን፡ ውእቱ፡ ወራሲ። አልቦ፡ ዘይኄይስ፡ እምነባሪ፡ እንዘ፡ እግዚእ፡ ውእቱ፡ ለኵሉ።</l>
-         <l n="2">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=2"/>ወባሕቱ፡ ላዕለ፡ እምሔው፡ ወላዕለ፡ መገብት፡ ይትዐቀብ። እስከ፡ ይበጽሕ፡ ዕድሜ፡ ዘዐደሞ፡ አቡሁ።</l>
-         <l n="3">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=3"/>ከማሁ፡ ንሕነኒ፡ አመ፡ ሕፃናት፡ ንሕነ፡ ተቀነይነ፡ ለስሒተ፡ ዝ፡ ዓለም።</l>
-         <l n="4">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=4"/>ወአመ፡ በጽሐ፡ ዕድሜሁ፡ ፈነወ፡ እግዚአብሔር፡ ወልዶ። ወተወልደ፡ እምብእሲት፡ ወገብረ፡ በሕገ፡ ኦሪት።</l>
-         <l>በእንተ፡ ትርሲተ፡ ውሉድ</l>
-         <l n="5">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=5"/>ከመ፡ ይሣየጦሙ፡ ለእለ፡ ውስተ፡ ኦሪት። ከመ፡ ንርከብ፡ ትርሲተ፡ ውሉድ።</l>
-         <l n="6">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=6"/>ወከመሰ፡ ውሉድ፡ አንትሙ። ናሁ፡ ፈነወ፡ እግዚአብሔር፡ መንፈሰ፡ ወልዱ፡ ውስተ፡ ልብክሙ። ውእቱ፡ ዘትጼውዑ፡ ወትብሉ፡ አባ፡ ወአቡየ።</l>
-         <l n="7">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=7"/>እንከሰኬ፡ ውሉድ፡ አንትሙ፡ ወኢኮንክሙ፡ አግብርተ። ወእመሰኬ፡ ውሉድ፡ አንትሙ። ወራስያኒሁ፡ ለእግዚአብሔር፡ አንትሙ፡ በኢየሱስ፡ ክርስቶስ።</l>
-         <l n="8">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=8"/>ወባሕቱ፡ ትካትሰ፡ በኢያእምሮትክሙ፡ ተቀነይክሙ፡ ለእለ፡ ኢኮኑ፡ አማልክተ።</l>
-         <l n="9">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=9"/>ወይእዜሰ፡ አእመርክምዎ፡ ለእግዚአብሔር፡ ወፈድፋደ፡ ውእቱ፡ አእመረክሙ። እፎ፡ ካዕበ፡ ኀበ፡ ዝኩ፡ ድኩም፡ ወጽኑስ፡ ጣዖተ፡ ዝ፡ ዓለም፡ ትፈቅዱ፡ ፈጠራ፡ ትትቀነዩ፡ ሎሙ።</l>
-         <l n="10">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=10"/>ወትትዐቀቡ፡ ዕለተ፡ ወወርኀ፡ ወጊዜ፡ ወዓመታት።</l>
-         <l n="11">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=11"/>እፈርሀክሙ፡ እንዳዒ፡ ለእመ፡ ለከንቱ፡ ጻመውኩ፡ በእንቲኣክሙ። ኵኑ፡ ከማየ፡ እስመ፡ አነሂ፡ ከማክሙ፡ ኮንኩ።</l>
-         <l>በእንተ፡ ቅንአት፡ በገቢረ፡ ሠናይ</l>
-         <l n="12">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=12"/>አኀዊነ፡ አስተበቊዐክሙ፡ እስመ፡ ኢገፋዕክሙኒ።</l>
-         <l n="13">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=13"/>ተአምሩ፡ ከመ፡ በአምጣነ፡ ድካመ፡ ኀይልየ፡ መሀርኩክሙ፡ ቀዲሙ።</l>
-         <l n="14">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=14"/>ወእንዘሂ፡ አሐምም፡ ኢተቈጣዕክሙኒ፡ ወኢመነንክሙኒ፡ በሥጋየ። ወተወከፍክሙኒ፡ ከመ፡ መልአከ፡ እግዚአብሔር፡ ወከመ፡ ክርስቶስ፡ ኢየሱስ።</l>
-         <l n="15">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=15"/>አይቴኑ፡ አብፅዖትክሙ፡ ይእዜ። አነ፡ ሰማዕትክሙ፡ ከመ፡ ሶበ፡ ይትከሀለክሙ፡ አዕይንቲክሙ፡ መሊኀክሙ፡ እምወሀብክሙኒ።</l>
-         <l n="16">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=16"/>ጸላኤኑ፡ ኮንኩክሙ፡ ሶበ፡ መሀርኩክሙ፡ ጽድቀ።</l>
-         <l n="17">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=17"/>ወእሉሰ፡ ይቀንኡ፡ ላዕሌክሙ፡ ወአኮ፡ ለሠናይ። ዳእሙ፡ ይዝግሑክሙ፡ ይፈቅዱ፡ ከመ፡ ትቅንኡ፡ ላዕሌሆሙ።</l>
-         <l n="18">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=18"/>ሠናይኬ፡ ከመ፡ ትቅንኡ፡ ለገቢረ፡ ሠናይ፡ ኵሎ፡ ጊዜ። ወአኮ፡ ዳእሙ፡ በሀልዎ፡ ዚኣየ፡ ኀቤክሙ።</l>
-         <l n="19">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=19"/>ደቂቅየ፡ እለ፡ ዳግመ፡ አሐምም፡ ብክሙ። እስከ፡ አመ፡ ያስተርኢ፡ ክርስቶስ፡ ውስተ፡ ልበክሙ።</l>
-         <l n="20">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=20"/>ወእፈቅድ፡ አሀሉ፡ ኀቤክሙ፡ ይእዜ፡ ወእዌልጥ፡ ቃልየ። እስመ፡ አኀጥእ፡ ዘእብል፡ በእንቲኣክሙ።</l>
-         <l>በእንተ፡ ይስሐቅ፡ ወይስማኤል፡ ሳራ፡ ወአጋር</l>
-         <l n="21">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=21"/>ትብሉኑ፡ በሕገ፡ ኦሪት፡ ነሀሉ፡ ወኢትሰምዕዋኑ፡ ለኦሪት።</l>
-         <l n="22">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=22"/>እስመ፡ ጽሑፍ፡ ውስቴታ፡ ከመ፡ አብርሃም፡ ክልኤተ፡ ደቂቀ፡ ወለደ። አሐደ፡ እምዕቅብቱ፡ ወአሐደ፡ እምአግዓዚት።</l>
-         <l n="23">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=23"/>ወባሕቱ፡ ካልእ፡ ልደቱ፡ ለዘእምዕቅብቱ፡ ሕገ፡ ሰብእ፡ ተወልደ። ወዘሰ፡ እምአግዓዚት፡ በዘአሰፈዎ።</l>
-         <l n="24">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=24"/>ወዝ፡ ውእቱ፡ አምሳለ፡ ክልኤቱ፡ ሥርዐት። ወአሐቲሰ፡ እምደብረ፡ ሲና፡ ተወልደት፡ ለቅኔ፡ ወይእቲሰ፡ አጋር።</l>
-         <l n="25">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=25"/>ወሲናሰ፡ ደብር፡ ውእቱ፡ በብሔረ፡ ዓረብ። ወትትናጸር፡ ምስለ፡ ኢየሩሳሌም፡ እንተ፡ በታሕቱ፡ ምድራዊት። ወትትቀነይ፡ ምስለ፡ ደቂቃ።</l>
-         <l n="26">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=26"/>ወኢየሩሳሌምሰ፡ እንተ፡ ላዕሉ፡ አግዓዚት፡ ይእቲ፡ ወይእቲ፡ እምነ።</l>
-         <l n="27">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=27"/>ጽሑፍ፡ ትትፌሣሕ፡ መካን፡ እንተ፡ ኢትወልድ። ወትትሐሠይ፡ ወትኬልሕ፡ እንተ፡ ኢተአምር፡ ማሕምመ። እስመ፡ ብዙኅ፡ ውሉዳ፡ ለመዐስብ፡ እምእንተ፡ ባቲ፡ ምት።</l>
-         <l n="28">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=28"/>ወንሕነሰ፡ አኀዊነ፡ ውሉደ፡ ተስፋ፡ አምሳለ፡ ይስሐቅ።</l>
-         <l n="29">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=29"/>ወበከመ፡ ዘበሕገ፡ ሥጋ፡ ተወልደ፡ ሰደዶ፡ ለዘበመንፈስ። ተወልደ፡ ከማሁ፡ ይእዜኒ።</l>
-         <l n="30">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=30"/>ወባሕቱ፡ ምንተ፡ ይቤ፡ መጽሐፍ፡ ስድዳ፡ ለአመት፡ ምስለ፡ ወልዳ። እስመ፡ ኢይወርስ፡ ወልደ፡ አመት፡ ምስለ፡ ወልደ፡ አግዓዚት።</l>
-         <l n="31">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=31"/>ወንሕነሰ፡ ይእዜ፡ አኀዊነ፡ ኢኮነ፡ ውሉደ፡ አመት። ዘእንበለ፡ ዘአግዓዚት፡ እስመ፡ ክርስቶስ፡ አግዐዘነ።</l>
-      </ab>
-   </div>
-   <div type="textpart" subtype="chapter" n="5" xml:id="ch5">
-      <label>ምዕራፍ 5</label>
-      <ab>
+         <t:l>በከመ፡ ተወልደ፡ እግዚእነ፡ እማርያም</t:l>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=1"/>ወባሕቱ፡ እብል፡ አምጣነሰ፡ ሕፃን፡ ውእቱ፡ ወራሲ። አልቦ፡ ዘይኄይስ፡ እምነባሪ፡ እንዘ፡ እግዚእ፡ ውእቱ፡ ለኵሉ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=2"/>ወባሕቱ፡ ላዕለ፡ እምሔው፡ ወላዕለ፡ መገብት፡ ይትዐቀብ። እስከ፡ ይበጽሕ፡ ዕድሜ፡ ዘዐደሞ፡ አቡሁ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=3"/>ከማሁ፡ ንሕነኒ፡ አመ፡ ሕፃናት፡ ንሕነ፡ ተቀነይነ፡ ለስሒተ፡ ዝ፡ ዓለም።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=4"/>ወአመ፡ በጽሐ፡ ዕድሜሁ፡ ፈነወ፡ እግዚአብሔር፡ ወልዶ። ወተወልደ፡ እምብእሲት፡ ወገብረ፡ በሕገ፡ ኦሪት።</t:l>
+         <t:l>በእንተ፡ ትርሲተ፡ ውሉድ</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=5"/>ከመ፡ ይሣየጦሙ፡ ለእለ፡ ውስተ፡ ኦሪት። ከመ፡ ንርከብ፡ ትርሲተ፡ ውሉድ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=6"/>ወከመሰ፡ ውሉድ፡ አንትሙ። ናሁ፡ ፈነወ፡ እግዚአብሔር፡ መንፈሰ፡ ወልዱ፡ ውስተ፡ ልብክሙ። ውእቱ፡ ዘትጼውዑ፡ ወትብሉ፡ አባ፡ ወአቡየ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=7"/>እንከሰኬ፡ ውሉድ፡ አንትሙ፡ ወኢኮንክሙ፡ አግብርተ። ወእመሰኬ፡ ውሉድ፡ አንትሙ። ወራስያኒሁ፡ ለእግዚአብሔር፡ አንትሙ፡ በኢየሱስ፡ ክርስቶስ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=8"/>ወባሕቱ፡ ትካትሰ፡ በኢያእምሮትክሙ፡ ተቀነይክሙ፡ ለእለ፡ ኢኮኑ፡ አማልክተ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=9"/>ወይእዜሰ፡ አእመርክምዎ፡ ለእግዚአብሔር፡ ወፈድፋደ፡ ውእቱ፡ አእመረክሙ። እፎ፡ ካዕበ፡ ኀበ፡ ዝኩ፡ ድኩም፡ ወጽኑስ፡ ጣዖተ፡ ዝ፡ ዓለም፡ ትፈቅዱ፡ ፈጠራ፡ ትትቀነዩ፡ ሎሙ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=10"/>ወትትዐቀቡ፡ ዕለተ፡ ወወርኀ፡ ወጊዜ፡ ወዓመታት።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=11"/>እፈርሀክሙ፡ እንዳዒ፡ ለእመ፡ ለከንቱ፡ ጻመውኩ፡ በእንቲኣክሙ። ኵኑ፡ ከማየ፡ እስመ፡ አነሂ፡ ከማክሙ፡ ኮንኩ።</t:l>
+         <t:l>በእንተ፡ ቅንአት፡ በገቢረ፡ ሠናይ</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=12"/>አኀዊነ፡ አስተበቊዐክሙ፡ እስመ፡ ኢገፋዕክሙኒ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=13"/>ተአምሩ፡ ከመ፡ በአምጣነ፡ ድካመ፡ ኀይልየ፡ መሀርኩክሙ፡ ቀዲሙ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=14"/>ወእንዘሂ፡ አሐምም፡ ኢተቈጣዕክሙኒ፡ ወኢመነንክሙኒ፡ በሥጋየ። ወተወከፍክሙኒ፡ ከመ፡ መልአከ፡ እግዚአብሔር፡ ወከመ፡ ክርስቶስ፡ ኢየሱስ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=15"/>አይቴኑ፡ አብፅዖትክሙ፡ ይእዜ። አነ፡ ሰማዕትክሙ፡ ከመ፡ ሶበ፡ ይትከሀለክሙ፡ አዕይንቲክሙ፡ መሊኀክሙ፡ እምወሀብክሙኒ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=16"/>ጸላኤኑ፡ ኮንኩክሙ፡ ሶበ፡ መሀርኩክሙ፡ ጽድቀ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=17"/>ወእሉሰ፡ ይቀንኡ፡ ላዕሌክሙ፡ ወአኮ፡ ለሠናይ። ዳእሙ፡ ይዝግሑክሙ፡ ይፈቅዱ፡ ከመ፡ ትቅንኡ፡ ላዕሌሆሙ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=18"/>ሠናይኬ፡ ከመ፡ ትቅንኡ፡ ለገቢረ፡ ሠናይ፡ ኵሎ፡ ጊዜ። ወአኮ፡ ዳእሙ፡ በሀልዎ፡ ዚኣየ፡ ኀቤክሙ።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=19"/>ደቂቅየ፡ እለ፡ ዳግመ፡ አሐምም፡ ብክሙ። እስከ፡ አመ፡ ያስተርኢ፡ ክርስቶስ፡ ውስተ፡ ልበክሙ።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=20"/>ወእፈቅድ፡ አሀሉ፡ ኀቤክሙ፡ ይእዜ፡ ወእዌልጥ፡ ቃልየ። እስመ፡ አኀጥእ፡ ዘእብል፡ በእንቲኣክሙ።</t:l>
+         <t:l>በእንተ፡ ይስሐቅ፡ ወይስማኤል፡ ሳራ፡ ወአጋር</t:l>
+         <t:l n="21">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=21"/>ትብሉኑ፡ በሕገ፡ ኦሪት፡ ነሀሉ፡ ወኢትሰምዕዋኑ፡ ለኦሪት።</t:l>
+         <t:l n="22">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=22"/>እስመ፡ ጽሑፍ፡ ውስቴታ፡ ከመ፡ አብርሃም፡ ክልኤተ፡ ደቂቀ፡ ወለደ። አሐደ፡ እምዕቅብቱ፡ ወአሐደ፡ እምአግዓዚት።</t:l>
+         <t:l n="23">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=23"/>ወባሕቱ፡ ካልእ፡ ልደቱ፡ ለዘእምዕቅብቱ፡ ሕገ፡ ሰብእ፡ ተወልደ። ወዘሰ፡ እምአግዓዚት፡ በዘአሰፈዎ።</t:l>
+         <t:l n="24">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=24"/>ወዝ፡ ውእቱ፡ አምሳለ፡ ክልኤቱ፡ ሥርዐት። ወአሐቲሰ፡ እምደብረ፡ ሲና፡ ተወልደት፡ ለቅኔ፡ ወይእቲሰ፡ አጋር።</t:l>
+         <t:l n="25">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=25"/>ወሲናሰ፡ ደብር፡ ውእቱ፡ በብሔረ፡ ዓረብ። ወትትናጸር፡ ምስለ፡ ኢየሩሳሌም፡ እንተ፡ በታሕቱ፡ ምድራዊት። ወትትቀነይ፡ ምስለ፡ ደቂቃ።</t:l>
+         <t:l n="26">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=26"/>ወኢየሩሳሌምሰ፡ እንተ፡ ላዕሉ፡ አግዓዚት፡ ይእቲ፡ ወይእቲ፡ እምነ።</t:l>
+         <t:l n="27">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=27"/>ጽሑፍ፡ ትትፌሣሕ፡ መካን፡ እንተ፡ ኢትወልድ። ወትትሐሠይ፡ ወትኬልሕ፡ እንተ፡ ኢተአምር፡ ማሕምመ። እስመ፡ ብዙኅ፡ ውሉዳ፡ ለመዐስብ፡ እምእንተ፡ ባቲ፡ ምት።</t:l>
+         <t:l n="28">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=28"/>ወንሕነሰ፡ አኀዊነ፡ ውሉደ፡ ተስፋ፡ አምሳለ፡ ይስሐቅ።</t:l>
+         <t:l n="29">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=29"/>ወበከመ፡ ዘበሕገ፡ ሥጋ፡ ተወልደ፡ ሰደዶ፡ ለዘበመንፈስ። ተወልደ፡ ከማሁ፡ ይእዜኒ።</t:l>
+         <t:l n="30">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=30"/>ወባሕቱ፡ ምንተ፡ ይቤ፡ መጽሐፍ፡ ስድዳ፡ ለአመት፡ ምስለ፡ ወልዳ። እስመ፡ ኢይወርስ፡ ወልደ፡ አመት፡ ምስለ፡ ወልደ፡ አግዓዚት።</t:l>
+         <t:l n="31">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=4&amp;verse=31"/>ወንሕነሰ፡ ይእዜ፡ አኀዊነ፡ ኢኮነ፡ ውሉደ፡ አመት። ዘእንበለ፡ ዘአግዓዚት፡ እስመ፡ ክርስቶስ፡ አግዐዘነ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="5" xml:id="ch5">
+      <t:label>ምዕራፍ 5</t:label>
+      <t:ab>
          
-         <l>ዘከመ፡ ኢይደሉ፡ ተዐቅፎ፡ በእንተ፡ ግዝረት</l>
-         <l n="1">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=1"/>ቁሙ፡ እንከ፡ ወኢትሑሩ፡ ዳግመ፡ ውስተ፡ አርዑተ፡ ቅኔ።</l>
-         <l n="2">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=2"/>ናሁ፡ አነ፡ ጳውሎስ፡ እብለክሙ። እምከመ፡ ትትገዘሩ፡ በኀበ፡ ክርስቶስ፡ ኢይበቊዐክሙ፡ ምንተኒ።</l>
-         <l n="3">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=3"/>ወካዕበ፡ አሰምዕ፡ ለኵሉ፡ ብእሲ፡ ግዙር። ከመ፡ ይደልዎ፡ ይግበር፡ ኵሎ፡ ሕገ፡ ኦሪት።</l>
-         <l n="4">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=4"/>ተስዕርክሙ፡ እምክርስቶስ፡ እለ፡ በኦሪት፡ ተኀሥሡ፡ ትጽደቁ። ወወደቅሙ፡ እምጸጋሁ።</l>
-         <l n="5">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=5"/>ወንሕነሰ፡ በመንፈስ፡ ቅዱስ፡ ወበአሚን፡ ንሴፎ፡ ንጽደቅ።</l>
-         <l n="6">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=6"/>እስመ፡ በኀበ፡ እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ተገዝሮሂ፡ ኢይበቊዕ። ወኢ፡ ተገዝሮሂ፡ ኢያሠልጥ፡ ዘእንበለ፡ ዳእሙ፡ በአሚን፡ ወበተፋቅሮ።</l>
-         <l>በእንተ፡ ትዕይርተ፡ መስቀሉ፡ ለክርስቶስ</l>
-         <l n="7">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=7"/>ትካትሰ፡ ሠናየ፡ ሮጽክሙ።</l>
-         <l n="8">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=8"/>መኑ፡ አዕቀፈክሙ፡ ኢትእመኑ፡ በጽድቅ። እስመ፡ ዝ፡ ሩጸትክሙ፡ ኢኮነ፡ ኀበ፡ ውእቱ፡ ዘጸውዐክሙ።</l>
-         <l n="9">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=9"/>አኮኑ፡ ኅዳጥ፡ ብሑእ፡ ብዙኀ፡ ሐሪጸ፡ ያብሕእ።</l>
-         <l n="10">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=10"/>አንሰ፡ ተአመንኩክሙ፡ በእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ከመ፡ ኢተኀልዩ፡ ባዕደ። ወዘሰ፡ የሀውከክሙ፡ ይጸውር፡ ደይኖ፡ መኑሂ፡ ዘኮነ፡ ከዊኖ።</l>
-         <l n="11">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=11"/>ወአንሰ፡ አኀውየ፡ ለእመ፡ ግዝረተ፡ እሰብክ፡ ለምንትኑ፡ እንከ፡ እዴግን። ተስዕረኑ፡ እንከ፡ ትዕይርተ፡ መስቀሉ፡ ለክርስቶስ።</l>
-         <l n="12">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=12"/>ርቱዕ፡ ይንትጉ፡ እለ፡ የሀውኩክሙ።</l>
-         <l>ዘከመ፡ ይደሉ፡ ተፋቅሮ፡ ምስለ፡ ቢጽ</l>
-         <l n="13">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=13"/>ወአንትሙሰ፡ ለግእዛን፡ ተጸዋዕክሙ፡ አኀውየ። ወዳእሙ፡ ኢትግበሩ፡ ላቲ፡ ምክንያተ፡ ለግእዛንክሙ፡ በፍትወተ፡ ሥጋክሙ። ወበተፋቅሮ፡ ተቀነዩ፡ ለቢጽክሙ።</l>
-         <l n="14">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=14"/>እስመ፡ አሐዱ፡ ቃል፡ ይፌጽሞ፡ ለኵሉ፡ ሕግ። አፍቅር፡ ቢጸከ፡ ከመ፡ ነፍስከ።</l>
-         <l n="15">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=15"/>ወእመሰ፡ በበይናቲክሙ፡ ትትባልዑ፡ ወትትናሰኩ፡ ተኀልቆ፡ ተርፈክሙ።</l>
-         <l n="16">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=16"/>እብለክሙ፡ በመንፈስ፡ ሑሩ፡ ወፍትወተ፡ ሥጋክሙ፡ ኢትግበሩ።</l>
-         <l n="17">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=17"/>እስመ፡ ሥጋኒ፡ ይፈቱ፡ ዘኢይፈቱ፡ መንፈስ። ወመንፈስኒ፡ ይፈቱ፡ ዘኢይፈቱ፡ ሥጋ። ወይትእበዩ፡ በበይናቲሆሙ፡ ከመ፡ ኢትግበሩ፡ ዘትፈቅዱ።</l>
-         <l n="18">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=18"/>ወእመሰ፡ ዘመንፈስ፡ ትተልዉ፡ ወፃእክሙ፡ እምኦሪት።</l>
-         <l n="19">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=19"/>ወይትዐወቅ፡ ምግባሩ፡ ለሥጋ፡ ዝሙት፡ ርኩስ፡ ወምርዓት።</l>
-         <l n="20">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=20"/>አጣዕዎ፡ ሥራይ፡ ጽልእ፡ ትዝኅርት፡ ትውዝፍት፡ ቅንአት፡ መዓት። ኑፋቄ፡ ተቃሕዎ፡ ተሐምሞ፡ ተቃትሎ፡ ስክረት፡ ወዘአምሳሊሁ፡ ለዝንቱ።</l>
-         <l n="21">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=21"/>በከመ፡ አቅደምኩ፡ ነጊሮተክሙ። ዘዘንተ፡ ይገብር፡ ኢይሬኢ፡ መንግሥተ፡ እግዚአብሔር።</l>
-         <l n="22">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=22"/>ወፍሬሁሰ፡ ለመንፈስ፡ ቅዱስ፡ ተፋቅሮ፡ ፍሥሓ፡ ሰላም፡ ትዕግሥት፡ ምጽዋት። ኂሩት፡ ሃይማኖት፡ የውሀት፡ ኢ፡ ዘምዎት።</l>
-         <l n="23">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=23"/>አልቦ፡ ዘይኄይስ፡ እምዝ፡ ሕግ።</l>
-         <l n="24">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=24"/>ወእለሰ፡ በኢየሱስ፡ ክርስቶስ፡ ሰቀሉ፡ ሥጋሆሙ፡ ምስለ፡ ፍትወት፡ ወምስለ፡ ኀጢአት።</l>
-         <l n="25">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=25"/>ወይእዜሰ፡ በመንፈስ፡ ንሕየው፡ ወዘበመንፈስ፡ ንግበር።</l>
-         <l n="26">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=26"/>ወኢንኩን፡ ዝኁራነ። ወኢትትሐመዩ፡ በበይናቲክሙ፡ ወኢትትኀሠሡ፡ በበይናቲክሙ።</l>
-      </ab>
-   </div>
-   <div type="textpart" subtype="chapter" n="6" xml:id="ch6">
-      <label>ምዕራፍ 6</label>
-      <ab>
+         <t:l>ዘከመ፡ ኢይደሉ፡ ተዐቅፎ፡ በእንተ፡ ግዝረት</t:l>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=1"/>ቁሙ፡ እንከ፡ ወኢትሑሩ፡ ዳግመ፡ ውስተ፡ አርዑተ፡ ቅኔ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=2"/>ናሁ፡ አነ፡ ጳውሎስ፡ እብለክሙ። እምከመ፡ ትትገዘሩ፡ በኀበ፡ ክርስቶስ፡ ኢይበቊዐክሙ፡ ምንተኒ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=3"/>ወካዕበ፡ አሰምዕ፡ ለኵሉ፡ ብእሲ፡ ግዙር። ከመ፡ ይደልዎ፡ ይግበር፡ ኵሎ፡ ሕገ፡ ኦሪት።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=4"/>ተስዕርክሙ፡ እምክርስቶስ፡ እለ፡ በኦሪት፡ ተኀሥሡ፡ ትጽደቁ። ወወደቅሙ፡ እምጸጋሁ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=5"/>ወንሕነሰ፡ በመንፈስ፡ ቅዱስ፡ ወበአሚን፡ ንሴፎ፡ ንጽደቅ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=6"/>እስመ፡ በኀበ፡ እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ተገዝሮሂ፡ ኢይበቊዕ። ወኢ፡ ተገዝሮሂ፡ ኢያሠልጥ፡ ዘእንበለ፡ ዳእሙ፡ በአሚን፡ ወበተፋቅሮ።</t:l>
+         <t:l>በእንተ፡ ትዕይርተ፡ መስቀሉ፡ ለክርስቶስ</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=7"/>ትካትሰ፡ ሠናየ፡ ሮጽክሙ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=8"/>መኑ፡ አዕቀፈክሙ፡ ኢትእመኑ፡ በጽድቅ። እስመ፡ ዝ፡ ሩጸትክሙ፡ ኢኮነ፡ ኀበ፡ ውእቱ፡ ዘጸውዐክሙ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=9"/>አኮኑ፡ ኅዳጥ፡ ብሑእ፡ ብዙኀ፡ ሐሪጸ፡ ያብሕእ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=10"/>አንሰ፡ ተአመንኩክሙ፡ በእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ከመ፡ ኢተኀልዩ፡ ባዕደ። ወዘሰ፡ የሀውከክሙ፡ ይጸውር፡ ደይኖ፡ መኑሂ፡ ዘኮነ፡ ከዊኖ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=11"/>ወአንሰ፡ አኀውየ፡ ለእመ፡ ግዝረተ፡ እሰብክ፡ ለምንትኑ፡ እንከ፡ እዴግን። ተስዕረኑ፡ እንከ፡ ትዕይርተ፡ መስቀሉ፡ ለክርስቶስ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=12"/>ርቱዕ፡ ይንትጉ፡ እለ፡ የሀውኩክሙ።</t:l>
+         <t:l>ዘከመ፡ ይደሉ፡ ተፋቅሮ፡ ምስለ፡ ቢጽ</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=13"/>ወአንትሙሰ፡ ለግእዛን፡ ተጸዋዕክሙ፡ አኀውየ። ወዳእሙ፡ ኢትግበሩ፡ ላቲ፡ ምክንያተ፡ ለግእዛንክሙ፡ በፍትወተ፡ ሥጋክሙ። ወበተፋቅሮ፡ ተቀነዩ፡ ለቢጽክሙ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=14"/>እስመ፡ አሐዱ፡ ቃል፡ ይፌጽሞ፡ ለኵሉ፡ ሕግ። አፍቅር፡ ቢጸከ፡ ከመ፡ ነፍስከ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=15"/>ወእመሰ፡ በበይናቲክሙ፡ ትትባልዑ፡ ወትትናሰኩ፡ ተኀልቆ፡ ተርፈክሙ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=16"/>እብለክሙ፡ በመንፈስ፡ ሑሩ፡ ወፍትወተ፡ ሥጋክሙ፡ ኢትግበሩ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=17"/>እስመ፡ ሥጋኒ፡ ይፈቱ፡ ዘኢይፈቱ፡ መንፈስ። ወመንፈስኒ፡ ይፈቱ፡ ዘኢይፈቱ፡ ሥጋ። ወይትእበዩ፡ በበይናቲሆሙ፡ ከመ፡ ኢትግበሩ፡ ዘትፈቅዱ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=18"/>ወእመሰ፡ ዘመንፈስ፡ ትተልዉ፡ ወፃእክሙ፡ እምኦሪት።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=19"/>ወይትዐወቅ፡ ምግባሩ፡ ለሥጋ፡ ዝሙት፡ ርኩስ፡ ወምርዓት።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=20"/>አጣዕዎ፡ ሥራይ፡ ጽልእ፡ ትዝኅርት፡ ትውዝፍት፡ ቅንአት፡ መዓት። ኑፋቄ፡ ተቃሕዎ፡ ተሐምሞ፡ ተቃትሎ፡ ስክረት፡ ወዘአምሳሊሁ፡ ለዝንቱ።</t:l>
+         <t:l n="21">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=21"/>በከመ፡ አቅደምኩ፡ ነጊሮተክሙ። ዘዘንተ፡ ይገብር፡ ኢይሬኢ፡ መንግሥተ፡ እግዚአብሔር።</t:l>
+         <t:l n="22">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=22"/>ወፍሬሁሰ፡ ለመንፈስ፡ ቅዱስ፡ ተፋቅሮ፡ ፍሥሓ፡ ሰላም፡ ትዕግሥት፡ ምጽዋት። ኂሩት፡ ሃይማኖት፡ የውሀት፡ ኢ፡ ዘምዎት።</t:l>
+         <t:l n="23">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=23"/>አልቦ፡ ዘይኄይስ፡ እምዝ፡ ሕግ።</t:l>
+         <t:l n="24">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=24"/>ወእለሰ፡ በኢየሱስ፡ ክርስቶስ፡ ሰቀሉ፡ ሥጋሆሙ፡ ምስለ፡ ፍትወት፡ ወምስለ፡ ኀጢአት።</t:l>
+         <t:l n="25">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=25"/>ወይእዜሰ፡ በመንፈስ፡ ንሕየው፡ ወዘበመንፈስ፡ ንግበር።</t:l>
+         <t:l n="26">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=5&amp;verse=26"/>ወኢንኩን፡ ዝኁራነ። ወኢትትሐመዩ፡ በበይናቲክሙ፡ ወኢትትኀሠሡ፡ በበይናቲክሙ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="6" xml:id="ch6">
+      <t:label>ምዕራፍ 6</t:label>
+      <t:ab>
          
-         <l>ዘከመ፡ ይደሉ፡ ተዐግሦ፡ ላዕለ፡ ቢጽ</l>
-         <l n="1">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=1"/>አኀዊነ፡ ለእመ፡ ቦ፡ ብእሲ፡ ዘስሕተ፡ እምኔክሙ። አንትሙ፡ እለ፡ በመንፈስ፡ ቅዱስ፡ አጽንዕዎ፡ በመንፈሰ፡ የውሀት። እንዘ፡ ትትዐቀቡ፡ ለርእስክሙ፡ ወኢትስሐቱ።</l>
-         <l n="2">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=2"/>ወጹሩ፡ ለቢጽክሙ፡ ዘአክበዱ፡ ላዕሌክሙ። ወቦቱ፡ ትፌጽሙ፡ ሕገ፡ ክርስቶስ።</l>
-         <l n="3">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=3"/>ወአልቦ፡ ዘያስሕት፡ ርእሶ።</l>
-         <l>በእንተ፡ አመክሮ፡ ምግባር</l>
-         <l n="4">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=4"/>ወኵሉ፡ ያመክር፡ ምግባሮ፡ በዘይከውኖ፡ ምክሐ፡ ለርእሱ፡ ወአኮ፡ ለባዕድ።</l>
-         <l n="5">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=5"/>እስመ፡ ኵሎ፡ ጾሮ፡ ይጸውር።</l>
-         <l n="6">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=6"/>ወይስምዖ፡ ንኡሰ፡ ክርስቲያን፡ ለዝ፡ ነገር። ወይትመሀር፡ ኵሎ፡ ሠናያተ።</l>
-         <l n="7">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=7"/>ኢያስሕቱክሙ፡ አልቦ፡ ዘያስተአብዶ፡ ለእግዚአብሔር።</l>
-         <l n="8">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=8"/>ዘዘርዐ፡ ሰብእ፡ የአርር። ዘዘርዐ፡ ውስተ፡ ሥጋሁ፡ የአርር፡ ሞተ። ወዘዘርዐ፡ ውስተ፡ መንፈሱ፡ የአርር፡ ሕይወተ፡ ዘለዓለም።</l>
-         <l n="9">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=9"/>ወኢንትሐከይ፡ ገቢረ፡ ሠናይ፡ እስመ፡ በዕድሜሁ፡ ነአርሮ።</l>
-         <l n="10">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=10"/>አምጣነ፡ ብነ፡ ዕለት፡ ንግበር፡ ሠናየ፡ ለኵሉ፡ ወፈድፋደሰ፡ ለሰብአ፡ ሃይማኖት።</l>
-         <l n="11">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=11"/>ርእዩ፡ ዘከመ፡ ጸሐፍኩ፡ ለክሙ፡ በእዴየ።</l>
-         <l n="12">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=12"/>ወእለሰ፡ ይፈቅዱ፡ ያድልዉ፡ ለገጽ፡ እሙንቱ፡ ያጌብሩክሙ፡ ትትገዘሩ። ዳእሙ፡ ከመ፡ ኢትትልዉ፡ መስቀሎ፡ ለክርስቶስ።</l>
-         <l n="13">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=13"/>ወእለሂ፡ ተገዝሩ፡ ኢዐቀቡ፡ ኦሪተ። ዳእሙ፡ ይፈቅዱ፡ ለክሙ፡ ትትገዘሩ፡ ከመ፡ በነፍስክሙ፡ ትዘኀሩ።</l>
-         <l n="14">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=14"/>ወአንሰ፡ ሐሰ፡ ሊተ፡ ኢይዜኀር፡ ዘእንበለ፡ በመስቀሉ፡ ለኢየሱስ፡ ክርስቶስ፡ እግዚእነ። ወበኀቤየሰ፡ ምዉት፡ ዓለም፡ ወአነሂ፡ ምዉት፡ በኀበ፡ ዓለም።</l>
-         <l n="15">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=15"/>እስመ፡ በኢየሱስ፡ ክርስቶስ፡ ተገዝሮሂ፡ ኢይበቊዕ። ወኢተገዝሮሂ፡ ኢያሠልጥ፡ ዘእንበለ፡ ሐዳስ፡ ፍጥረት።</l>
-         <l n="16">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=16"/>ወላዕለ፡ ኵሎሙ፡ እለ፡ ይነብሩ፡ በዝንቱ፡ ሕግ፡ ሰላም፡ ወሣህል፡ ወዲበ፡ እስራኤል፡ ዘእግዚአብሔር።</l>
-         <l n="17">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=17"/>እምይእዜሰ፡ አልቦ፡ ዘያነጥየኒ። አንሰ፡ ሕማሞ፡ ለክርስቶስ፡ እጸውር፡ በሥጋየ።</l>
-         <l n="18">
-            <ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=18"/>ጸጋሁ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ምስለ፡ መንፈስክሙ፡ አኀውየ፡ አሜን።</l>
-      </ab>
-   </div>
+         <t:l>ዘከመ፡ ይደሉ፡ ተዐግሦ፡ ላዕለ፡ ቢጽ</t:l>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=1"/>አኀዊነ፡ ለእመ፡ ቦ፡ ብእሲ፡ ዘስሕተ፡ እምኔክሙ። አንትሙ፡ እለ፡ በመንፈስ፡ ቅዱስ፡ አጽንዕዎ፡ በመንፈሰ፡ የውሀት። እንዘ፡ ትትዐቀቡ፡ ለርእስክሙ፡ ወኢትስሐቱ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=2"/>ወጹሩ፡ ለቢጽክሙ፡ ዘአክበዱ፡ ላዕሌክሙ። ወቦቱ፡ ትፌጽሙ፡ ሕገ፡ ክርስቶስ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=3"/>ወአልቦ፡ ዘያስሕት፡ ርእሶ።</t:l>
+         <t:l>በእንተ፡ አመክሮ፡ ምግባር</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=4"/>ወኵሉ፡ ያመክር፡ ምግባሮ፡ በዘይከውኖ፡ ምክሐ፡ ለርእሱ፡ ወአኮ፡ ለባዕድ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=5"/>እስመ፡ ኵሎ፡ ጾሮ፡ ይጸውር።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=6"/>ወይስምዖ፡ ንኡሰ፡ ክርስቲያን፡ ለዝ፡ ነገር። ወይትመሀር፡ ኵሎ፡ ሠናያተ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=7"/>ኢያስሕቱክሙ፡ አልቦ፡ ዘያስተአብዶ፡ ለእግዚአብሔር።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=8"/>ዘዘርዐ፡ ሰብእ፡ የአርር። ዘዘርዐ፡ ውስተ፡ ሥጋሁ፡ የአርር፡ ሞተ። ወዘዘርዐ፡ ውስተ፡ መንፈሱ፡ የአርር፡ ሕይወተ፡ ዘለዓለም።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=9"/>ወኢንትሐከይ፡ ገቢረ፡ ሠናይ፡ እስመ፡ በዕድሜሁ፡ ነአርሮ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=10"/>አምጣነ፡ ብነ፡ ዕለት፡ ንግበር፡ ሠናየ፡ ለኵሉ፡ ወፈድፋደሰ፡ ለሰብአ፡ ሃይማኖት።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=11"/>ርእዩ፡ ዘከመ፡ ጸሐፍኩ፡ ለክሙ፡ በእዴየ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=12"/>ወእለሰ፡ ይፈቅዱ፡ ያድልዉ፡ ለገጽ፡ እሙንቱ፡ ያጌብሩክሙ፡ ትትገዘሩ። ዳእሙ፡ ከመ፡ ኢትትልዉ፡ መስቀሎ፡ ለክርስቶስ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=13"/>ወእለሂ፡ ተገዝሩ፡ ኢዐቀቡ፡ ኦሪተ። ዳእሙ፡ ይፈቅዱ፡ ለክሙ፡ ትትገዘሩ፡ ከመ፡ በነፍስክሙ፡ ትዘኀሩ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=14"/>ወአንሰ፡ ሐሰ፡ ሊተ፡ ኢይዜኀር፡ ዘእንበለ፡ በመስቀሉ፡ ለኢየሱስ፡ ክርስቶስ፡ እግዚእነ። ወበኀቤየሰ፡ ምዉት፡ ዓለም፡ ወአነሂ፡ ምዉት፡ በኀበ፡ ዓለም።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=15"/>እስመ፡ በኢየሱስ፡ ክርስቶስ፡ ተገዝሮሂ፡ ኢይበቊዕ። ወኢተገዝሮሂ፡ ኢያሠልጥ፡ ዘእንበለ፡ ሐዳስ፡ ፍጥረት።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=16"/>ወላዕለ፡ ኵሎሙ፡ እለ፡ ይነብሩ፡ በዝንቱ፡ ሕግ፡ ሰላም፡ ወሣህል፡ ወዲበ፡ እስራኤል፡ ዘእግዚአብሔር።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=17"/>እምይእዜሰ፡ አልቦ፡ ዘያነጥየኒ። አንሰ፡ ሕማሞ፡ ለክርስቶስ፡ እጸውር፡ በሥጋየ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Gal&amp;chapter=6&amp;verse=18"/>ጸጋሁ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ምስለ፡ መንፈስክሙ፡ አኀውየ፡ አሜን።</t:l>
+      </t:ab>
+   </t:div>
 
-            </div>
-            <div type="textpart" xml:id="ColophonWork">
-               <label>Colophon of the work</label>
-            </div>
-            <div type="textpart" xml:id="Stichometry">
-               <label>Stichometry</label>
-            </div>
-         </div>
-      </body>
-   </text></TEI>
+            </t:div>
+            <t:div type="textpart" xml:id="ColophonWork">
+               <t:label>Colophon of the work</t:label>
+            </t:div>
+            <t:div type="textpart" xml:id="Stichometry">
+               <t:label>Stichometry</t:label>
+            </t:div>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

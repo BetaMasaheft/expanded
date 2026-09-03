@@ -2,10 +2,10 @@
         <fileDesc>
             <titleStmt><title type="full">Hamburg, State and University Library Hamburg Carl von Ossietzky, Cod. orient. 402</title>
                 <title>Anaphora of the Apostles, Anaphora of Our Lady by St. Cyriacus of Behnesā</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="EDS" corresp="https://betamasaheft.eu/team.html#EDS" xml:id="EDS">Eliana Dal Sasso</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-EDS" corresp="https://betamasaheft.eu/team.html#EDS"><resp>editor</resp><name>Eliana Dal Sasso</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#EDS" xml:id="ed-EDS"><resp>editor</resp><name>Eliana Dal Sasso</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,7 +14,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">25.4.2024 at 08:24:42</date><date type="lastModified">31.1.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/SHOr400/main</idno><idno type="URI">https://betamasaheft.eu/SHOr400</idno><idno type="filename">SHOr400.xml</idno><idno type="ID">SHOr400</idno></publicationStmt>
+            <date type="expanded">3.9.2026 at 08:56:23</date><date type="lastModified">31.1.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/SHOr400/main</idno><idno type="URI">https://betamasaheft.eu/SHOr400</idno><idno type="filename">SHOr400.xml</idno><idno type="ID">SHOr400</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                   <msIdentifier>
@@ -28,7 +28,7 @@
                     <msContents>
                       <summary>Anaphora of the Apostles, Anaphora of Our Lady by St. Cyriacus of Behnesā</summary>
                       <msItem xml:id="ms_i1">
-                        <locus from="3r" to="37v">Fols 3r–37v</locus>
+                        <locus from="3r" to="37v"/>
                         <title>Anaphora of Our Lady by St. Cyriacus of Behnesā</title>
                       </msItem>
                     </msContents>
@@ -47,7 +47,7 @@
                                         <height>115</height>
                                         <width>65</width>
                                         <depth>25</depth>
-                                    </dimensions>
+                                    </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="115" unit="mm"/><width quantity="65" unit="mm"/><depth quantity="25" unit="mm"/></dimensions>
                                     <note>The boards are 5 mm thick and cut to the size of the bookblock.</note>
                                 </extent>
 
@@ -56,23 +56,23 @@
                                 <list>
                                   <item xml:id="q1">
                                     <dim unit="leaf">2</dim>
-                                    <locus from="1" to="2">Fols 1–2</locus>
+                                    <locus from="1" to="2"/>
                                   </item>
                                   <item xml:id="q2">
                                     <dim unit="leaf">10</dim>
-                                    <locus from="3" to="12">Fols 3–12</locus>
+                                    <locus from="3" to="12"/>
                                   </item>
                                   <item xml:id="q3">
                                     <dim unit="leaf">10</dim>
-                                    <locus from="13" to="22">Fols 13–22</locus>
+                                    <locus from="13" to="22"/>
                                   </item>
                                   <item xml:id="q4">
                                     <dim unit="leaf">10</dim>
-                                    <locus from="23" to="32">Fols 23–32</locus>
+                                    <locus from="23" to="32"/>
                                   </item>
                                   <item xml:id="q5">
                                     <dim unit="leaf">6</dim>
-                                    <locus from="33" to="38">Fols 33–38</locus>
+                                    <locus from="33" to="38"/>
                                   </item>
                                 </list>
                               </collation>
@@ -87,18 +87,18 @@
 
                             <layoutDesc>
                               <layout columns="1" writtenLines="12">
-                                <note>Data on dimension are taken from <locus target="#13r">fol. 13r</locus>.</note>
-                                <locus from="3r" to="37r">Fols 3r–37r</locus>
+                                <note>Data on dimension are taken from <locus target="#13r"/>.</note>
+                                <locus from="3r" to="37r"/>
                                 <dimensions unit="mm">
                                   <height>80</height>
                                   <width>45</width>
-                                </dimensions>
+                                </dimensions><dimensions subtype="computed" unit="mm"><height quantity="80" unit="mm"/><width quantity="45" unit="mm"/></dimensions>
                                 <dimensions type="margin">
                                   <dim type="top">13</dim>
                                   <dim type="bottom">20</dim>
                                   <dim type="right">11</dim>
                                   <dim type="left">7</dim>
-                                </dimensions>
+                                </dimensions><dimensions subtype="computed" unit="mm" type="margin"><dim type="top" quantity="13" unit="mm"/><dim type="bottom" quantity="20" unit="mm"/><dim type="right" quantity="11" unit="mm"/><dim type="left" quantity="7" unit="mm"/></dimensions>
                                 <ab type="ruling" subtype="pattern">1-1/0/0/C</ab>
                                 <ab type="pricking" subtype="pattern">
                                   The layout corresponds to the pattern I defined by D. Nosnitsin: the text is written above the first ruled line,
@@ -106,7 +106,7 @@
                                   Every bifolium has been pricked from the flesh side to the hair side.
                                   Since the bifolia show the same irregularity in the lineup of the text pricks, probably the same template has been used.
                                 </ab>
-                              </layout>
+                              </layout><layout subtype="computed" type="catalogue" columns="1"><writtenLines quantity="12"/></layout>
                             </layoutDesc>
                         </objectDesc>
 
@@ -118,37 +118,37 @@
 
                         <decoDesc>
                             <decoNote type="drawing" xml:id="d1">
-                              <locus target="#1r">Fol. 1r</locus>
+                              <locus target="#1r"/>
                               <desc>Pencil sketch depicting a Saint holding two undefined objects in the hands.
                               </desc>
                             </decoNote>
                             <decoNote type="drawing" xml:id="d2">
-                              <locus target="#1v">Fol. 1v</locus>
+                              <locus target="#1v"/>
                               <desc>Pencil sketch depicting a monk (?) with the arms opened and raised.
                               </desc>
                             </decoNote>
                             <decoNote type="band" xml:id="d3">
-                              <locus target="#2r">Fol. 2r</locus>
+                              <locus target="#2r"/>
                               <desc>Ornamental band in black and red ink on the top of the incipit page with rombuses, crosses and double circles.</desc>
                             </decoNote>
                             <decoNote type="band" xml:id="d6">
-                              <locus target="#37r">Fol. 37r</locus>
+                              <locus target="#37r"/>
                               <desc>Ornamental band in black and red ink at the end of the text with rombuses, circles and crosses.</desc>
                             </decoNote>
                             <decoNote type="drawing" xml:id="d7">
-                              <locus target="#37r">Fol. 37r</locus>
+                              <locus target="#37r"/>
                               <desc>Pencil sketch depicting the <ref type="authFile" corresp="https://betamasaheft.eu/AT1031VirginAndChild">Virgin and Child</ref>
                         </desc>
                             </decoNote>
                             <decoNote type="miniature" xml:id="d8">
-                              <locus target="#37v">Fol. 37v</locus>
+                              <locus target="#37v"/>
                               <desc>
                            <term key="donordepiction" ana="#donordepiction">Donor</term> portrait.
                               </desc>
                               <q xml:lang="gez">ዘከመ፡ ተማኀነ፡ መምሕሬ፡ ወልደ ጸድቅ። አቡሁ</q>
                             </decoNote>
                             <decoNote type="miniature" xml:id="d9">
-                              <locus target="#38r">Fol. 38r</locus>
+                              <locus target="#38r"/>
                               <desc>A miniature of the <ref type="authFile" corresp="https://betamasaheft.eu/AT1031VirginAndChild">Virgin and Child</ref>
                               <persName ref="https://betamasaheft.eu/PRS6819Mary">St Mary</persName> with a rayed <term key="halo" ana="#halo">halo</term> holds <persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> with both hands. The Child holds a <term key="codex" ana="#codex">codex</term> in his left hand.
                               Two angels in the background.
@@ -156,7 +156,7 @@
                               <q xml:lang="gez">ምስለ፡ ፍቁር፡ ወልዳ</q>
                             </decoNote>
                             <decoNote type="drawing" xml:id="d10">
-                              <locus target="#38v">Fol. 38v</locus>
+                              <locus target="#38v"/>
                               <desc>Pencil sketch depicting an interlace.</desc>
                             </decoNote>
                         </decoDesc>
@@ -164,12 +164,12 @@
                         <additions>
                           <list>
                             <item xml:id="a1">
-                              <locus target="#2r">Fol. 2r</locus>
+                              <locus target="#2r"/>
                               <desc type="GuestText">Der Beginn der Interzessio aus der Apostelanaphora</desc>
                             </item>
                           <item xml:id="e1">
                             <desc>The stamp of the Staats- und Universitätsbibliothek Hamburg.</desc>
-                            <locus target="#38v">Fol. 38v</locus>
+                            <locus target="#38v"/>
                           </item>
                           </list>
                         </additions>
@@ -215,7 +215,7 @@
                             <recordHist>
                                 <source>
                                     <listBibl type="catalogue">
-                                        <bibl corresp="http://zotero.org/groups/358366/items/PWM266DM"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Six1994VOHD6"/><title level="m">Äthiopische Handschriften 3: Handschriften deutscher Bibliotheken, Museen und aus Privatbesitz</title><title level="s">Verzeichnis der orientalischen Handschriften in Deutschland</title><author><forename>Veronika</forename><surname>Six</surname></author><editor><forename>Ernst</forename><surname>Hammerschmidt</surname></editor><pubPlace>Stuttgart</pubPlace><publisher>Franz Steiner Verlag</publisher><date>1994</date><series><title level="s">Verzeichnis der orientalischen Handschriften in Deutschland</title><biblScope unit="volume">20/6</biblScope></series><biblScope unit="volume">20/6</biblScope><note type="url">https://doi.org/10.26015/adwdocs-1662</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Six1994VOHD6</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Six1994VOHD6</note></bibl>
+                                        <bibl corresp="http://zotero.org/groups/358366/items/PWM266DM"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Six1994VOHD6"/><title level="m">Äthiopische Handschriften&lt;hi rend="italics"&gt;, III:&lt;/hi&gt; Handschriften deutscher Bibliotheken, Museen und aus Privatbesitz</title><title level="s">Verzeichnis der orientalischen Handschriften in Deutschland</title><author><forename>Veronika</forename><surname>Six</surname></author><editor><forename>Ernst</forename><surname>Hammerschmidt</surname></editor><pubPlace>Stuttgart</pubPlace><publisher>Franz Steiner Verlag</publisher><date>1994</date><series><title level="s">Verzeichnis der orientalischen Handschriften in Deutschland</title><biblScope unit="volume">20/6</biblScope></series><biblScope unit="volume">20/6</biblScope><note type="url">https://doi.org/10.26015/adwdocs-1662</note><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Six1994VOHD6</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Six1994VOHD6</note></bibl>
                                     </listBibl>
                                 </source>
                             </recordHist>
@@ -229,14 +229,14 @@
         
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <t:creation/>
             <t:abstract>
@@ -251,8 +251,8 @@
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-        <change who="#EDS" when="2018-01-10"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
-        <change who="#ES" when="2024-01-31"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added graphic url, updated description from Stabi metadata</change>
+        <change when="2018-01-10" who="#EDS"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+        <change when="2024-01-31" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added graphic url, updated description from Stabi metadata</change>
       </t:revisionDesc>
     </teiHeader><t:facsimile xmlns:t="http://www.tei-c.org/ns/1.0">
     <t:graphic url="https://resolver.sub.uni-hamburg.de/goobi/PPN1845525922"/></t:facsimile><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">

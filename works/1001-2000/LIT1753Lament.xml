@@ -7,9 +7,12 @@
             <title xml:lang="gez" corresp="#t3" type="normalized">Saqoqāwa ʾErmǝyās nabiyy</title>
             <title xml:lang="en" corresp="#t3">Lamentation of Prophet Jeremiah</title>
             <title type="short">Thren.</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <editionStmt>            
+            <p>The text provided in this record has been digitized from modern Vulgata printed editions and converted to XML by the Bm team. For the version digitized from a critical edition visit also <ref target="https://www.tau.ac.il/~hacohen/Biblia.html">https://www.tau.ac.il/~hacohen/Biblia.html</ref>.</p>
+         </editionStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -21,7 +24,7 @@
                 Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
-         <date type="expanded">5.6.2025 at 14:13:01</date><date type="lastModified">5.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1753Lament/main</idno><idno type="URI">https://betamasaheft.eu/LIT1753Lament</idno><idno type="filename">LIT1753Lament.xml</idno><idno type="ID">LIT1753Lament</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:15:44</date><date type="lastModified">5.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1753Lament/main</idno><idno type="URI">https://betamasaheft.eu/LIT1753Lament</idno><idno type="filename">LIT1753Lament.xml</idno><idno type="ID">LIT1753Lament</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -31,385 +34,385 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="chapter" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item></list></desc><citeStructure unit="l" match="l" use="l"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item><item>25</item><item>26</item><item>27</item><item>28</item><item>29</item><item>30</item><item>31</item><item>32</item><item>33</item><item>34</item><item>35</item><item>36</item><item>37</item><item>38</item><item>39</item><item>40</item><item>41</item><item>42</item><item>43</item><item>44</item><item>45</item><item>46</item><item>47</item><item>48</item><item>49</item><item>50</item><item>51</item><item>52</item><item>53</item><item>54</item><item>55</item><item>56</item><item>57</item><item>58</item><item>59</item><item>60</item><item>61</item><item>62</item><item>63</item><item>64</item><item>65</item><item>66</item></list></desc></citeStructure></citeStructure><citeStructure unit="incipit" match="div" use="div"><desc><list><item>incipit</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
-         <textClass>
-            <keywords scheme="#ethioauthlist">
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="Bible" ana="#Bible"/>
-               <term key="OldTestament" ana="#OldTestament"/>
-               <term key="Translation" ana="#Translation"/>
-            </keywords>
-         </textClass>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="chapter" use="@n"><citeStructure match="t:l" unit="t:l" use="@n"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item><item>25</item><item>26</item><item>27</item><item>28</item><item>29</item><item>30</item><item>31</item><item>32</item><item>33</item><item>34</item><item>35</item><item>36</item><item>37</item><item>38</item><item>39</item><item>40</item><item>41</item><item>42</item><item>43</item><item>44</item><item>45</item><item>46</item><item>47</item><item>48</item><item>49</item><item>50</item><item>51</item><item>52</item><item>53</item><item>54</item><item>55</item><item>56</item><item>57</item><item>58</item><item>59</item><item>60</item><item>61</item><item>62</item><item>63</item><item>64</item><item>65</item><item>66</item></list></desc></citeStructure><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item></list></desc></citeStructure><citeStructure match="t:div" unit="incipit" use="@subtype"><desc><list><item>incipit</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage>
+            <t:language ident="en">English</t:language>
+            <t:language ident="gez">Gǝʿǝz</t:language>
+         </t:langUsage>
+         <t:textClass>
+            <t:keywords scheme="#ethioauthlist">
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Bible" ana="#Bible"/>
+               <t:term key="OldTestament" ana="#OldTestament"/>
+               <t:term key="Translation" ana="#Translation"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
-         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
-         <change who="#ES" when="2017-02-13"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added relation</change>
-         <change who="#ES" when="2017-03-07"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added title</change>
-         <change who="#DR" when="2023-05-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated bibliography.</change>
-         <change who="#ES" when="2025-06-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
-      </revisionDesc>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change when="2017-02-13" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added relation</change>
+         <change when="2017-03-07" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added title</change>
+         <change when="2023-05-05" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated bibliography.</change>
+         <change when="2025-06-05" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
             <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT753Lament" passive="https://betamasaheft.eu/LIT2035Jerem"/>
             <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT1753Lament" passive="https://betamasaheft.eu/PRS5680Jeremiah"/>
-         </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
+         </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
          
-         <listBibl type="editions">
-            <bibl corresp="http://zotero.org/groups/358366/items/NQXZVZBB"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Bachmann1893Klagelieder"/><title level="m">ሰቆቃወ፡ ኤርምያስ፡ ነቢይ። (Saqoqāwa ʾErmǝyās nabiy) Die Klagelieder Jeremiae in der aethiopischen Bibelübersetzung. Auf Grund handschriftlicher Quellen mit text-kritischen Anmerkungen</title><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Johannes</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bachmann</t:surname></editor><pubPlace>Halle a. S.</pubPlace><publisher>Max Niemeyer</publisher><date>1893</date><note type="url">https://www.archive.org/stream/MN41896ucmf_0?ref=ol#page/n3/mode/2up</note></bibl>
-         </listBibl>
-         <div type="edition" xml:lang="gez">
-            <note>the text of the printed EOTC Bible</note>
-            <div type="textpart" subtype="incipit">
-               <ab>ወእም ዝ እምድኅረ ፄወውዎ ለእስራኤል ወለኢየሩሳሌምኒ አማሰንዋ ነበረ ኤርምያስኒ ይበኪ ወአስቆቀወ ዘከመ ዝ ሰቆቃወ ላዕለ ኢየሩሳሌም። </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="1" xml:id="chapter1">
-               <label>Chapter 1</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=1"/>አሌፍ። እፎ፡ ነበረት፡ ባሕቲታ፡ ሀገር፡ እንተ፡ ምልእት፡ ሕዝበ፡ ወኮነት፡ መበለተ፡ እንተ፡ ትኴንን፡ አሕዛበ፡ ወእንተ፡ ትኴንን፡ በሓውርተ፡ ገብአት፡ ውስተ፡ ጸዋር።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=2"/>ቤት። ብካየ፡ በከየት፡ በሌሊት፡ ወአንብዐ፡ ውስተ፡ መልታሕታ፡ ውሕዘ፡ ወኀጥአት፡ ዘይናዝዛ፡ እምኵሎሙ፡ ዘያፈቅርዋ፡ ወተፃረርዋ፡ ኵሎሙ፡ ፍቁራኒሃ፡ ወኮኑ፡ ላቲ፡ ጸላእተ።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=3"/>ጋሜል። ፈለሰት፡ ይሁዳ፡ በኀሣራ፡ ወበብዝኀ፡ ቅኔሃ፡ ወነበረት፡ ውስተ፡ አሕዛብ፡ ወአልባ፡ ዕረፍት፡ ኵሎሙ፡ እለ፡ ዴገንዋ፡ አኀዝዋ፡ በማእከለ፡ እለ፡ አስርሕዋ።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=4"/>ዳሌጥ። ፍናዊሃ፡ ለጽዮን፡ ይላሕውዋ፡ እስመ፡ አልቦ፡ ዘይመጽእ፡ ለበዓል፡ ወማሰነ፡ ኵሉ፡ አናቅጺሃ፡ ካህናቲሃኒ፡ ይበክዩ፡ ወደናሊሃ፡ ተፄወዋ፡ ወለሊሃ፡ መራረ፡ ኮነት።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=5"/>ሄ። ወኮኑ፡ እለ፡ ሣቀይዋ፡ ላዕለ፡ ርእሳ፡ ወጸላእታሂ፡ ተፈሥሑ፡ እስመ፡ እግዚአብሔር፡ አኅሠራ፡ በብዝኀ፡ ኀጢአታ፡ ለሕፃናቲሃኒ፡ ፄወውዎሙ፡ በቅድመ፡ እለ፡ ሣቀይዋ።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=6"/>ዋው። ሰለብዋ፡ ለወለተ፡ ጽዮን፡ ኵሎ፡ ትርሲታ፡ ወኮኑ፡ መላእክቲሃ፡ ከመ፡ አብሐኵ፡ እለ፡ ኀጥኡ፡ ዘይትረዐዩ፡ ወሖሩ፡ ድኩማኒሆሙ፡ ቅድመ፡ እለ፡ ሮድዎሙ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=7"/>ዛይ። ተዘከረት፡ ኢየሩሳሌም፡ መዋዕለ፡ ኀሣራ፡ በኵላ፡ ፍትወታ፡ ዘቀዲሙ፡ ሶበ፡ ተተተ፡ ሕዝባ፡ በእደ፡ ፀሮሙ፡ ወአልቦ፡ ዘይረድኣ፡ ወርእይዋ፡ ጸላእታ፡ በኀበ፡ ፈለሰት፡ ወሰሐቅዋ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=8"/>ሔት። አብሶ፡ አበሰት፡ ኢየሩሳሌም፡ ወበእንተ፡ ዝንቱ፡ ኮነት፡ ሰቆራረ፡ ኵሎሙ፡ እለ፡ ይዌድስዋ፡ አኅሠርዋ፡ እስመ፡ ርእዩ፡ ኀሣራ፡ በኀበ፡ ተመንደበት፡ ወወድቀት፡ ድኅሪተ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=9"/>ጤት። ርኵስ፡ ውስተ፡ እገሪሃ፡ ወኢተዘከረት፡ ደኃሪታ፡ ወጾረት፡ ክቡደ፡ ወኢሠኀትዋ። ርኢ፡ እግዚኦ፡ ሕማምየ፡ ከመ፡ ተዘኀሩ፡ ፀርየ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=10"/>ዮድ። አንሥአ፡ እዴሁ፡ ዘሣቀያ፡ በኵሉ፡ ፍትወታ፡ ርእየት፡ አሕዛበ፡ ዘከላእከ፡ ኢይባኡ፡ ውስተ፡ መቅደስከ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=11"/>ካፍ። ኵሉ፡ ሕዝባ፡ ይግዕሩ፡ ወየኀጥኡ፡ እክለ፡ ወወሀቡ፡ ፍትወቶሙ፡ ለመብልዕ፡ ለመይጠ፡ ነፍስ። ርኢ፡ እግዚኦ፡ ወነጽር፡ እስመ፡ ኀሠርኩ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=12"/>ላሜድ። አልቦ፡ ኀቤክሙ፡ ኵሉ፡ ኀላፍያነ፡ ፍኖት፡ ተመየጡ፡ ወርእዩ፡ እመ፡ ቦ፡ ቊስል፡ ከመ፡ ቊስልየ፡ ዘአሕመመኒ፡ እግዚአብሔር፡ በዕለተ፡ መቅሠፍተ፡ መዐቱ።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=13"/>ሜም። እምአርያም፡ ፈነወ፡ እሳተ፡ ወአሕለለ፡ አዕፅምትየ፡ ወሰፍሐ፡ መሥገርቶ፡ ለእገርየ፡ ወአግብአኒ፡ ድኅሬየ፡ ወአማሰነኒ፡ ወአሕመመኒ፡ ኵሎ፡ ዕለተ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=14"/>ኖን። ተግሀ፡ በእንተ፡ ኀጢአትየ፡ ዘተፀፍረ፡ በእደውየ፡ ዐርገ፡ ውስተ፡ ክሳድየ፡ ወደክመ፡ ኀይልየ፡ እስመ፡ መጠወኒ፡ እግዚአብሔር፡ ውስተ፡ እደ፡ ሕማም፡ በዘኢይክል፡ ቀዊመ።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=15"/>ሳምኬት። አእተቶሙ፡ እግዚአብሔር፡ ለኵሎሙ፡ ኀያላንየ፡ እማእከሌየ፡ ጸውዐ፡ ላዕሌየ፡ መዋዕለ፡ በዘይትቀጠቀጡ፡ ኅሩያንየ። ወነፅኃ፡ እግዚአብሔር፡ ለድንግል፡ ወለተ፡ ይሁዳ፡ በእንተ፡ ዝንቱ፡ እበኪ፡ አነ።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=16"/>ዔ። ዐይንየ፡ አውሐዘት፡ ማየ፡ እስመ፡ ርኅቀ፡ እምኔየ፡ ዘይናዝዘኒ፡ ወዘያገብኣ፡ ለነፍስየ፡ ወማሰኑ፡ ደቂቅየ፡ እስመ፡ ሞአ፡ ፀር።</l>
-                  <l n="17">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=17"/>ፌ። አንሥአት፡ እደዊሃ፡ ጽዮን፡ ወኀጥአት፡ ዘይላሕያ። ወአዘዘ፡ እግዚአብሔር፡ ለያዕቆብ፡ ይዕግትዎ፡ እለ፡ ይረውድዎ፡ ወኮነት፡ ኢየሩሳሌም፡ ትክተ፡ በማእከሎሙ።</l>
-                  <l n="18">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=18"/>ጻዴ። ጻድቅ፡ ውእቱ፡ እግዚአብሔር፡ እስመ፡ ወሐክዎ፡ ለአፉሁ። ስምዑ፡ ኵልክሙ፡ አሕዛብ፡ ወርእዩ፡ ቊስልየ፡ እስመ፡ ፄወውዎሙ፡ ለደናግልየ፡ ወለወራዙትየ።</l>
-                  <l n="19">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=19"/>ቆፍ። ጸዋዕክዎሙ፡ ለመሐዛንየ፡ ወተጸመሙኒ። ካህናትየኒ፡ ወረበናትየ፡ ኀልቁ፡ በሀገር፡ ሶበ፡ ኀሠሡ፡ ዘይበልዑ፡ በዘይመይጡ፡ ነፍሶሙ፡ ወኀጥኡ።</l>
-                  <l n="20">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=20"/>ሬስ። ርኢ፡ እግዚኦ፡ እስመ፡ ሐመምኩ፡ ወተከውሰት፡ ከርሥየ፡ ወልብየ፡ ተመይጠ፡ በላዕሌየ፡ እስመ፡ መሪረ፡ መረርኩ፡ በአፍኣኒ፡ አምከነተኒ፡ መጥባሕት፡ ወብድብድ፡ በውስተ፡ ቤት።</l>
-                  <l n="21">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=21"/>ሳን። ስምዑኒ፡ ዘከመ፡ እግዕር፡ አነ፡ ወአልቦ፡ ዘያንህየኒ፡ ኵሎሙ፡ ፀርየ፡ ሰምዑ፡ ሕማምየ፡ ወተፈሥሑ፡ እስመ፡ አንተ፡ ገበርከ፡ በዘአምጻእከ፡ ዕለተ፡ ጸዋዕከ፡ ወኮኑ፡ ከማየ።</l>
-                  <l n="22">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=22"/>ታው። ለትባእ፡ ኵሉ፡ እከዮሙ፡ ቅድሜከ፡ ወተቀረሞሙ፡ ዘከመ፡ ተቀረምከ፡ ኪያየ፡ አንተ፡ በኵሉ፡ ኀጢአትየ፡ እስመ፡ በዝኀ፡ ናህክየ፡ ወልብየኒ፡ ያጠውቀኒ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="2" xml:id="chapter2">
-               <label>Chapter 2</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=1"/>አሌፍ። እፎኬ፡ አደመና፡ እግዚአብሔር፡ በመቅሠፍተ፡ መዐቱ፡ ለወለተ፡ ጽዮን፡ ወነፅኆ፡ እምሰማይ፡ ውስተ፡ ምድር፡ ለክብረ፡ እስራኤል፡ ወኢተዘከረ፡ መከየደ፡ እገሪሁ፡ በዕለተ፡ መዐቱ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=2"/>ቤት። አሥጠመ፡ እግዚአብሔር፡ ወኢመሐከ፡ ኵሎ፡ መሠንዮ፡ ለያዕቆብ፡ ወአንኀለ፡ በመዐቱ፡ አጽዋኒሃ፡ ለወለተ፡ ይሁዳ፡ ወአጥበቃ፡ በምድር፡ ወአርኰሰ፡ መንግሥታ፡ ወምኵናኒሃ።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=3"/>ጋሜል። ቀጥቀጠ፡ በመዐቱ፡ ኵሎ፡ ቀርነ፡ እስራኤል፡ ወሜጠ፡ ድኅረ፡ የማኖ፡ እምገጸ፡ ፀር። ወአንደደ፡ ላዕለ፡ ያዕቆብ፡ ነበልባለ፡ እሳት፡ ወበልዐ፡ ኵሎ፡ ዘዐውዱ።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=4"/>ዳሌጥ። ወሰቀ፡ ቀስቶ፡ ከመ፡ ፀር፡ ወከመ፡ ጸላኢ፡ አጽንዐ፡ የማኖ፡ ከመ፡ እድው። ወቀተለ፡ ኵሎ፡ ዘያፈትዋ፡ ለዐይንየ፡ በተዐይኒሃ፡ ለወለተ፡ ጽዮን። ከዐወ፡ መዐቶ፡ ከመ፡ እሳት።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=5"/>ሄ። ኮነኒ፡ እግዚአብሔር፡ ከመ፡ ፀር፡ ወአሥጠሞ፡ ለእስራኤል፡ ወአሥጠመ፡ ኵሎ፡ ክበዲሃ፡ ወአማሰነ፡ አጽዋኒሃ። ወአብዝኀ፡ ኀሣራ፡ ለወለተ፡ ይሁዳ፡ ኅሥርት።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=6"/>ዋው። ወጸለለ፡ ከመ፡ ወይን፡ ማኅደሮ፡ ወአማሰነ፡ በዓሎ። ረስዐ፡ እግዚአብሔር፡ ዘገብረ፡ በጽዮን፡ በዓለ፡ ወሰንበተ። ወአኅለቀ፡ በመቅሠፍተ፡ መዐቱ፡ ነገሥተ፡ ወመላእክተ፡ ወካህናተ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=7"/>ዛይ። ኀደገ፡ እግዚአብሔር፡ ምሥዋዖ፡ ወረስዐ፡ መቅደሶ፡ ወዐጸወ፡ በእደ፡ ፀር፡ አረፍተ፡ ኀይላ። ወቃለ፡ ወሀቡ፡ ውስተ፡ ቤተ፡ እግዚአብሔር፡ ወየበቡ፡ ከመ፡ ዕለተ፡ በዓል።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=8"/>ሔት። ወተመይጠ፡ እግዚአብሔር፡ ከመ፡ ያማስን፡ አረፍታ፡ ለወለተ፡ ጽዮን፡ ወሰሐበ፡ አምጣነ፡ ወኢመጠወ፡ እዴሁ፡ እምአሥጥሞ፡ ወለሐወ፡ ጥቅማ፡ ወአረፍታ፡ ኅቡረ፡ ደክመ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=9"/>ጤት። ተደፍኑ፡ ውስተ፡ ምድር፡ ዴዴያቲሃ። ተገድፈ፡ ወተቀጥቀጠ፡ መናስግቲሃ። ንጉሣሂ፡ ወመልአካሂ፡ ውስተ፡ አሕዛብ፡ አልባቲ፡ ሕግ። ወነቢያቲሃ፡ ኢርእዩ፡ ራእየ፡ በኀበ፡ እግዚአብሔር።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=10"/>ዮድ። ነበሩ፡ ውስተ፡ ምድር፡ ወአርመሙ፡ ረበናቲሃ፡ ለወለተ፡ ጽዮን። ወወደዩ፡ መሬተ፡ ውስተ፡ ርእሶሙ፡ ወቀነቱ፡ ሠቀ። ወአውረድዎሙ፡ ውስተ፡ ምድር፡ ለመሳፍንት፡ ወለደናግል፡ በኢየሩሳሌም።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=11"/>ካፍ። ደክማ፡ አዕይንትየ፡ በአንብዕ፡ ደንገፀ፡ ልብየ። ወተክዕወ፡ ውስተ፡ ምድር፡ ክብርየ፡ በእንተ፡ ቅጥቃጤሃ፡ ለወለተ፡ ሕዝብየ። ሶበ፡ ኀልቁ፡ ሕፃናት፡ ወጠባዊት፡ በመርሕበ፡ ሀገር።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=12"/>ላሜድ። ይቤልዎን፡ ለእማቲሆሙ፡ አይቴ፡ እክል፡ ወወይን፡ ሶበ፡ ርኅቡ፡ ከመ፡ ቅቱላን፡ ውስተ፡ መርሕበ፡ ሀገር። ሶበ፡ ወፅአት፡ ነፍሶሙ፡ በውስተ፡ ሕፅነ፡ እሞሙ።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=13"/>ሜም። በምንት፡ አስተማስለኪ፡ ወበምንት፡ አስተዔርየኪ፡ ወለተ፡ ኢየሩሳሌም። መኑ፡ ያድኅነኪ፡ ወመኑ፡ ያስተፌሥሐኪ፡ ወለተ፡ ጽዮን፡ ድንግል። እስመ፡ ሀብየ፡ ከመ፡ ባሕር፡ ቅጥቃጤኪ፡ መኑ፡ ይፌውሰኪ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=14"/>ኖን። ነቢያትኪ፡ ርእዩ፡ ለኪ፡ ከንቶ፡ ወእበደ። ወኢከሠቱ፡ ጌጋየኪ፡ ከመ፡ ይሚጡ፡ ፄዋኪ። ወርእዩ፡ ለኪ፡ ተረፈ፡ ከንቶ።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=15"/>ሳምኬት። ጠፍሑ፡ እደዊሆሙ፡ ላዕሌኪ፡ ኵሎሙ፡ ኀለፍተ፡ ፍኖት። ተፋጸዩ፡ ወአሖሱ፡ ርእሶሙ፡ ላዕለ፡ ወለተ፡ ኢየሩሳሌም። ወይቤሉ፡ ዛቲኑ፡ ሀገር፡ አክሊሉ፡ ወክብሩ፡ ወፍሥሓሁ፡ ለኵሉ፡ ምድር።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=16"/>ዔ። አብቀዉ፡ አፉሆሙ፡ ላዕሌኪ፡ ኵሎሙ፡ ፀርኪ። ተፋጸዩ፡ ወሐቀዩ፡ ስነኒሆሙ፡ ወይቤሉ። ውሕጥናሃ፡ ወባሕቱ፡ ዛቲ፡ ዕለት፡ ዘተሰፈውናሃ፡ ረከብናሃ፡ ወርኢናሃ።</l>
-                  <l n="17">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=17"/>ፌ። ገብረ፡ እግዚአብሔር፡ ዘሐለየ፡ ወፈጸመ፡ ዘነበበ፡ ዘአዘዘ፡ እግዚአብሔር፡ በመዋዕለ፡ ትካት፡ ወነሠታ፡ ወኢምሕካ፡ ወአስተፍሥሐ፡ ጸላእተኪ፡ ወአልዐለ፡ ቀርነ፡ ፀርኪ፡ ላዕሌኪ።</l>
-                  <l n="18">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=18"/>ጻዴ። አውየወ፡ ልቦሙ፡ ኀበ፡ እግዚአብሔር፡ ለአረፋተ፡ ወለተ፡ ጽዮን። ይወርዳ፡ አንብዕ፡ ከመ፡ ውሒዝ፡ መዓልተ፡ ወሌሊተ። ኢተሀቢ፡ ዕረፍተ፡ ለኪ፡ ወኢታርምም፡ ብንተ፡ ዐይንኪ።</l>
-                  <l n="19">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=19"/>ቆፍ። ተንሥኢ፡ ወተፈሥሒ፡ በሌሊት፡ በቀዳሚት፡ ሰዓትኪ። ከዐዊዮ፡ ከመ፡ ማይ፡ ለልብኪ፡ ቅድመ፡ ገጹ፡ ለእግዚአብሔር። አንሥኢ፡ እደወኪ፡ ኀቤሁ፡ በእንተ፡ ነፍሰ፡ ሕፃናትኪ፡ እለ፡ ኀልቁ፡ በረኀብ፡ በርእሰ፡ ኵሉ፡ ፍናዋት።</l>
-                  <l n="20">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=20"/>ሬስ። ርኢ፡ እግዚኦ፡ ወነጽር፡ መነ፡ ተቀረምከ፡ ከመዝ። ይበልዓኑ፡ አንስት፡ ፍሬ፡ ከርሦን፡ ወሐፃንያት፡ እለ፡ ያጠብዋ፡ አው፡ ይቀትሉኑ፡ ካህነ፡ ወነቢየ፡ በመቅደሰ፡ እግዚአብሔር።</l>
-                  <l n="21">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=21"/>ሳን። አስከብዎሙ፡ ውስተ፡ ፍናው፡ ለአእሩግ፡ ወለሕፃናት። ወለደናግልየ፡ ወለወራዙትየ፡ ፄወውዎሙ፡ ወወድቁ፡ በኵናት። ወቀተልኮሙ፡ በረኀብ፡ በዕለተ፡ መዐትከ፡ ቀተልከ፡ ወኢመሐከ።</l>
-                  <l n="22">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=22"/>ታው። ጸውዐ፡ ዕለተ፡ በዓል፡ በኀበ፡ ፈለስኩ፡ እምዐውድ። ወኢኮነ፡ በዕለተ፡ መዐቱ፡ ለእግዚአብሔር፡ ዘይድኅን፡ ወዘይተርፍ፡ በከመ፡ ዘአልሀቁ፡ ወዘሐፀንኩ፡ ፀርየ፡ አኅለቅዎሙ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="3" xml:id="chapter3">
-               <label>Chapter 3</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=1"/>አሌፍ። አነ፡ ብእሲ፡ ዘይሬኢ፡ ተፅናሰ፡ በበትረ፡ መዐቱ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=2"/>ነሥአኒ፡ ወወሰደኒ፡ ውስተ፡ ጽልመት፡ ዘአልቦ፡ ብርሃን።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=3"/>ወሜጠ፡ እዴሁ፡ ኀቤየ፡ ኵሎ፡ ዕለተ።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=4"/>በልየ፡ ሥጋየ፡ ወማእስየ፡ ወተቀጥቀጠ፡ አዕፅምትየ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=5"/>ቤት። ሐነጸ፡ ጥቅመ፡ ላዕለ፡ ርእስየ። ወሰርሐ፡ ፍኖተ፡ ሕማም፡ ላዕሌየ።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=6"/>ወውስተ፡ ጽልመት፡ አንበረኒ፡ ከመ፡ ምዉተ፡ ትካት።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=7"/>ወነደቀ፡ ላዕሌየ፡ ወኢይወፅእ፡ ወአክበደ፡ ብርትየ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=8"/>ጋሜል። እጸርሕ፡ ወአአወዩ፡ እስመ፡ ተፈጸመ፡ ጸሎትየ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=9"/>ዳሌጥ። ወሐነጸ፡ ፍኖትየ፡ በኰኵሕ፡ ወዐጸወ፡ ፍኖትየ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=10"/>ድብ፡ እንተ፡ ትንዑ፡ ውእቱ፡ ሊተ፡ ወከመ፡ አንበሳ፡ ጽሚተ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=11"/>ዴገነኒ፡ ወአኅለቀኒ፡ ወረሰየኒ፡ ገዳመ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=12"/>ሄ። ወሰቀ፡ ቀስቶ፡ ወአቀመኒ፡ ከመ፡ መጠራ፡ ለሐፅ።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=13"/>ወነደፈኒ፡ ውስተ፡ ኵልያትየ፡ በአሕፃሁ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=14"/>ወኮንኩ፡ ሰሐቀ፡ ለኵሉ፡ ሕዝብየ፡ ወየኀልዩኒ፡ ኵሎ፡ አሚረ።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=15"/>ዋው። አጽገበኒ፡ ሕምዘ፡ ወአርወየኒ፡ ሐሞተ።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=16"/>ወሰበረ፡ ስነንየ፡ በኆጻ፡ ወአቅምሐኒ፡ ሐመደ።</l>
-                  <l n="17">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=17"/>ቀብጸት፡ ነፍስየ፡ ሰላመ፡ ወረሳዕክዋ፡ ለሠናይት።</l>
-                  <l n="18">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=18"/>ወሐጐልኩ፡ ተስፋየ፡ ወትውክልትየ፡ በኀበ፡ እግዚአብሔር።</l>
-                  <l n="19">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=19"/>ዛይ። ተዘከርኩ፡ ተፅናስየ፡ ወተሰዶትየ፡ ወምረተ፡ ሕምዝየ።</l>
-                  <l n="20">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=20"/>ወዐንበዘት፡ ነፍስየ፡ በላዕሌየ።</l>
-                  <l n="21">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=21"/>ወአነብር፡ ውስተ፡ ልብየ፡ በእተ፡ ዝንቱ፡ እትዔገሥ።</l>
-                  <l n="22">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=22"/>ሔት። ምሕረተ፡ እግዚአብሔር፡ እስመ፡ ኢኀልቀ፡ ወኢተፈጸመ፡ ሣህሉ።</l>
-                  <l n="23">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=23"/>ሐዳሳት፡ ለለ፡ ጽባሕ፡ ብዝኀ፡ ጽድቅከ።</l>
-                  <l n="24">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=24"/>ክፍልየ፡ እግዚአብሔር፡ ትቤ፡ ነፍስየ፡ በእንተ፡ ዝንቱ፡ እጸንሕ።</l>
-                  <l n="25">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=25"/>ጤት። ኄር፡ እግዚአብሔር፡ ለእለ፡ ይትዔገሥዎ።</l>
-                  <l n="26">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=26"/>ለነፍስ፡ እንተ፡ ተኀሥሥ፡ በሠናይ፡ ወትትዔገሥ፡ ወታረምም፡ ለመድኀኒተ፡ እግዚአብሔር።</l>
-                  <l n="27">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=27"/>ጤት። ሠናይ፡ ለብእሲ፡ ሶበ፡ ይነሥእ፡ አርዑቶ፡ እምንእሱ።</l>
-                  <l n="28">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=28"/>ወይነብር፡ ባሕቲቱ፡ ወይፃሙ፡ ሶበ፡ አንሥኡ፡ ላዕሌሁ።</l>
-                  <l n="29">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=29"/>ይወዲ፡ ውስተ፡ መሬት፡ አፉሁ፡ ዮጊ፡ በተስፋ።</l>
-                  <l n="30">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=30"/>ዮድ። ይመይጥ፡ መልታሕቶ፡ ለዘይጸፍዖ፡ ወይጸግብ፡ ጽዕለተ።</l>
-                  <l n="31">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=31"/>እስመ፡ ኢይገድፎሙ፡ እግዚአብሔር፡ ለዓለም።</l>
-                  <l n="32">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=32"/>ካፍ። እስመ፡ ዘአሕመመ፡ ይሠሀል፡ በከመ፡ ብዝኀ፡ ምሕረቱ።</l>
-                  <l n="33">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=33"/>እስመ፡ ኢተቈጥዐ፡ ልቡ፡ ወኢያሕመመ፡ ደቂቀ፡ እጓለ፡ እመሕያው።</l>
-                  <l n="34">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=34"/>ላሜድ። ከመ፡ ያኅሥር፡ በታሕተ፡ እገሪሁ፡ ለኵሉ፡ ኅሡራነ፡ ምድር።</l>
-                  <l n="35">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=35"/>ከመ፡ ይሚጥ፡ ፍትሐ፡ ብእሲ፡ በቅድመ፡ ገጸ፡ ልዑል።</l>
-                  <l n="36">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=36"/>ይደይ፡ ብእሴ፡ ውስተ፡ ኵነኔ፡ ሶበ፡ ይኴንን፡ እግዚአብሔር፡ ዘኢአዘዘ።</l>
-                  <l n="37">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=37"/>መኑ፡ ዘይቤ፡ ወይከውን፡ እግዚአብሔር፡ ዘኢአዘዘ።</l>
-                  <l n="38">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=38"/>ወእምአፈ፡ ልዑል፡ ዘኢወፅአ፡ እኩይኒ፡ ወሠናይኒ።</l>
-                  <l n="39">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=39"/>ሜም። ለምንት፡ ያንጐረጕር፡ ሰብእ፡ እንዘ፡ ሕያው፡ ብእሲ፡ በእንተ፡ ኀጢአቱ።</l>
-                  <l n="40">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=40"/>ኖን። ንሕትት፡ ፍኖተነ፡ ወንኀሥሦ፡ ወንትመየጥ፡ ኀበ፡ እግዚአብሔር።</l>
-                  <l n="41">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=41"/>ናንሥእ፡ ልበነ፡ ወእደዊነ፡ ኀበ፡ እግዚአብሔር፡ ሰማየ።</l>
-                  <l n="42">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=42"/>ንሕነ፡ አበስነ፡ ወጌገይነ፡ አንተኒ፡ ኢመሐከነ።</l>
-                  <l n="43">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=43"/>ሳምኬት። ደፈንከነ፡ በመዐትከ፡ ወሰደድከነ፡ ወቀተልከነ፡ ወኢመሐከነ።</l>
-                  <l n="44">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=44"/>ጸለልከነ፡ በደመና፡ እምወፂእ፡ ለምዕራገ፡ ጸሎትነ።</l>
-                  <l n="45">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=45"/>ዔ። ከመ፡ ንሕምም፡ ወከመ፡ ኢንርአይ፡ አንበርከነ፡ ማእከለ፡ አሕዛብ።</l>
-                  <l n="46">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=46"/>ከሠቱ፡ አፉሆሙ፡ ላዕሌነ፡ ኵሉ፡ ፀርነ።</l>
-                  <l n="47">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=47"/>ፍርሃት፡ ወረዓድ፡ አኀዘነ፡ ሙስና፡ ወቅጥቃጤ።</l>
-                  <l n="48">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=48"/>ፈለገ፡ ማይ፡ ይውሕዝ፡ እምአዕይንቲነ፡ በእንተ፡ ቅጥቃጤሃ፡ ለወለተ፡ ሕዝብየ።</l>
-                  <l n="49">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=49"/>ፌ። ዐይንየ፡ ተደፍነት፡ ወኢያረምም፡ እንከ፡ እምአልዕሎ።</l>
-                  <l n="50">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=50"/>እስከ፡ ይሬኢ፡ እግዚአብሔር፡ እምሰማይ።</l>
-                  <l n="51">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=51"/>ዐይንየ፡ አሕመሞ፡ ለነፍስየ፡ በእንተ፡ ኵሉ፡ አዋልደ፡ ሀገርየ።</l>
-                  <l n="52">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=52"/>ጻዴ። ንዒወ፡ ነዐዉኒ፡ ከመ፡ ዖፍ፡ ኵሉ፡ ፀርየ፡ በከንቱ።</l>
-                  <l n="53">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=53"/>ወቀተሉ፡ ሕይወትየ፡ በውስተ፡ ዓዘቅት፡ ወከደኑኒ፡ እብነ።</l>
-                  <l n="54">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=54"/>ተክዕወ፡ ማይ፡ ላዕለ፡ ርእስየ፡ እቤ፡ ተኀድጉ፡ እምኔሁ።</l>
-                  <l n="55">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=55"/>ቆፍ። ጸዋዕኩ፡ ስመከ፡ እግዚኦ፡ እምግብ፡ ታሕቲት።</l>
-                  <l n="56">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=56"/>ወሰማዕከኒ፡ ቃልየ፡ ወኢትሚጥ፡ እዝነከ፡ እምነ፡ እስለትየ።</l>
-                  <l n="57">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=57"/>ቀረብከ፡ በዕለተ፡ እጼውዐከ፡ ወትቤ፡ ኢትፍራህ።</l>
-                  <l n="58">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=58"/>ሬስ። ኰነንከ፡ እግዚኦ፡ ኵነኔ፡ ነፍስየ፡ ወቤዘውከ፡ ሕይወትየ።</l>
-                  <l n="59">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=59"/>ርኢከ፡ እግዚኦ፡ ኵሎ፡ ዘይመክሩ፡ ላዕሌየ፡ ፈታሕከ፡ ፍትሕየ።</l>
-                  <l n="60">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=60"/>ርኢከ፡ ኵሎ፡ ተበቅሎቶሙ፡ ወኵሎ፡ ሕሊናሆሙ፡ ብየ።</l>
-                  <l n="61">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=61"/>ሳን። ሰማዕከ፡ ኵሎ፡ ጽዕለቶሙ፡ እግዚኦ፡ ወኵሎ፡ ሕሊናሆሙ፡ ላዕሌየ።</l>
-                  <l n="62">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=62"/>ወዘአሖሱ፡ ከናፍሪሆሙ፡ ብየ፡ ኵሎ፡ ዕለተ።</l>
-                  <l n="63">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=63"/>ንብረቶሙ፡ ወተንሥኦቶሙ፡ ርኢ፡ አነ፡ ማኅሌቶሙ።</l>
-                  <l n="64">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=64"/>ፍድዮሙ፡ ወተበቀሎሙ፡ በከመ፡ ምግባረ፡ እደዊሆሙ።</l>
-                  <l n="65">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=65"/>ታው። ሀቦሙ፡ ሕማመ፡ ልብ፡ ወመርገምከ።</l>
-                  <l n="66">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=66"/>ስድዶሙ፡ በመዐትከ፡ ወአጥፍኦሙ፡ እምታሕተ፡ ሰማይ፡ እግዚኦ፡ በከመ፡ እከየ፡ ልቦሙ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="4" xml:id="chapter4">
-               <label>Chapter 4</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=1"/>አሌፍ። እፎ፡ ተጸልአ፡ ወርቅ፡ ወተወለጠ፡ ብሩር፡ ሠናይ፡ ወተዘርወ፡ ዕንቊ፡ ቅዱስ፡ ውስተ፡ ኵሉ፡ ፍኖት።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=2"/>ቤት። ደቂቀ፡ ጽዮን፡ ክቡራን፡ ተሠይጡ፡ በወርቅ። እፎ፡ ኮኑ፡ ከመ፡ ንዋየ፡ ልሕኵት፡ ግብረ፡ እደ፡ ለብሓዊ።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=3"/>ጋሜል። አክይስትኒ፡ አጥበዉ፡ እጐሊሆሙ። አዋልደ፡ ሕዝብየሰ፡ ከመ፡ አዕዋፈ፡ ሰገኖ፡ ውስተ፡ ገዳም።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=4"/>ዳሌጥ። ጠግዐ፡ ልሳነ፡ ሕፃን፡ ውስተ፡ ጕርዔሁ፡ በጽምእ። ወሕፃናት፡ ሰአሉ፡ ኅብስተ፡ ወአልቦ፡ ዘይሁቦሙ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=5"/>ሄ። እለ፡ ይሴሰዩ፡ ሲሳየ፡ ማሰኑ፡ በውስተ፡ ፍናው፡ ወደፈኖሙ፡ መሬት።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=6"/>ዋው። ዐብየት፡ ኀጢአታ፡ ለወለተ፡ ሕዝብየ፡ እምኀጢአተ፡ ሰዶም፡ እንተ፡ ተገፍትዐት፡ ፍጡነ፡ እንዘ፡ ኢይፃምዉ፡ እደው፡ ባቲ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=7"/>ዛይ። ጻዕደዉ፡ ቅዱሳኒሃ፡ እምበረድ፡ ወጻዕደዉ፡ እምሐሊብ፡ ወቄሑ፡ ፈድፋደ፡ እምዕንቈ፡ ሰንፔር፡ ፀአቶሙ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=8"/>ሔት። ጸልመ፡ እምነ፡ ሕመት፡ ራእዮሙ፡ ወኢተዐውቀት፡ በአፍኣ፡ ፍኖቶሙ። ወቈቊዐ፡ ማእሶሙ፡ በዲበ፡ አዕፅምቲሆሙ፡ ወየብሰ፡ ከመ፡ ዕፅ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=9"/>ጤት። ኀየሱ፡ ቅቱላን፡ በኵናት፡ እምቅቱላን፡ በረኀብ፡ ወሖሩ፡ እንዘ፡ ርጉዛን፡ በትእዛዘ፡ እግዚአብሔር።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=10"/>ዮድ። እደዊሆን፡ ለአንስት፡ መሓርያት፡ አብሰላ፡ እጐሊሆን፡ ወኮንዎን፡ ሲሳዮን፡ በቅጥቃጤሃ፡ ለወለተ፡ ሕዝብየ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=11"/>ካፍ። ፈጸመ፡ እግዚአብሔር፡ መዐቶ፡ ወከዐወ፡ መቅሠፍቶ፡ ወአንደደ፡ እሳተ፡ ውስተ፡ ጽዮን፡ ወበልዐት፡ መሠረታቲሃ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=12"/>ላሜድ። ኢአምኑ፡ ነገሥተ፡ ምድር፡ ኵሎሙ፡ እለ፡ ይነብሩ፡ ውስተ፡ ዓለም፡ ከመ፡ ይበውእ፡ ፀር፡ ወጸላእት፡ አንቀጸ፡ ኢየሩሳሌም።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=13"/>ሜም። በኀጢአተ፡ ነቢያቲሃ፡ ወጌጋየ፡ ካህናቲሃ፡ እለ፡ ከዐዉ፡ ደመ፡ ጻድቃን፡ በማእከላ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=14"/>ኖን። ተሀውኩ፡ እለ፡ ይሔልውዋ፡ በአፍኣ፡ ወተቀብኡ፡ በደም፡ ሶበ፡ ተስእኖሙ፡ ገሰሱ፡ አልባሲሆሙ።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=15"/>ሳምኬት። ረኀቁ፡ እምርኩሳን፡ ስብኩ፡ ሎሙ፡ ወበልዖሙ፡ ረኀቁ፡ ረኀቁ፡ ወኢትግስስዎሙ። እስመ፡ ተሀውኩ፡ ወበልዖሙ፡ ለአሕዛብ፡ ኢይድግሙ፡ ነቢሮታ።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=16"/>ዔ። ገጹ፡ ለእግዚአብሔር፡ መክፈልቶሙ፡ ወኢይደግም፡ ነጽሮቶሙ። እስመ፡ ኢኀፈሩ፡ ገጸ፡ ካህናት፡ ወኢመሐሩ፡ ሊቃውንተ።</l>
-                  <l n="17">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=17"/>ፌ። እንዘ፡ ዓዲነ፡ ሕያዋን፡ ንሕነ፡ ጠፍኣ፡ አዕይንቲነ፡ በእንተ፡ ከንቱ፡ ረድኤተነ፡ እንዘ፡ ንሴፎ።</l>
-                  <l n="18">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=18"/>ጻዴ። ተወከልነ፡ ኀበ፡ ሕዝብ፡ ዘኢያድኅን።ከላእነ፡ ደቂቀነ፡ ኢይፃኡ፡ መርሕበነ።</l>
-                  <l n="19">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=19"/>ቆፍ። ቀርበ፡ ጊዜነ፡ በኀልቀ፡ መዋዕሊነ፡ እስመ፡ በጽሐ፡ ጊዜነ። ረዋጽያነ፡ ኮኑ፡ እለ፡ ዴገኑነ፡ እምአንስርተ፡ ሰማይ። ላዕለ፡ አድባር፡ ረከቡነ፡ እስመ፡ በገዳም፡ ጸንሑነ።</l>
-                  <l n="20">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=20"/>ሬስ። መንፈሰ፡ ገጽነ፡ መሲሑ፡ ለእግዚአብሔር፡ ተንሥአ፡ በመሥገርቶሙ። ዝኩ፡ ዘንቤ፡ በጽላሎቱ፡ ነሐዩ፡ ውስተ፡ አሕዛብ።</l>
-                  <l n="21">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=21"/>ሳን። ተፈሥሒ፡ ወተኀሠዪ፡ ወለተ፡ ኤዶምያስ፡ እንተ፡ ትነብሪ፡ ውስተ፡ ምድረ፡ ዖፅ። እስመ፡ ላዕሌኪ፡ ኀለፈ፡ ጽዋዐ፡ እግዚአብሔር፡ ትሰክሪ፡ ወትትዐረቂ።</l>
-                  <l n="22">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=22"/>ታው። ኀልቀ፡ ኀጢአትኪ፡ ወለተ፡ ጽዮን፡ ኢይደግም፡ እንከ፡ አፍልሶተኪ። ይዋህዮ፡ ለኀጢአትኪ፡ ወለተ፡ ኤዶምያስ፡ ከሠተ፡ ላዕለ፡ ኀጢአትኪ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="5" xml:id="chapter5">
-               <label>Chapter 5</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=1"/>ተዘከር፡ እግዚኦ፡ ምንተ፡ ኮነ፡ ለነ፡ ነጽር፡ ወርኢ፡ እግዚኦ፡ ኀሣረነ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=2"/>ዘኮነ፡ ለባዕድ፡ ርስትነ፡ ወአብያቲ፡ ለነኪራን።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=3"/>ዕጓለ፡ ማውታ፡ ኮነ፡ አልብነ፡ አብ፡ እማቲነ፡ ኮና፡ ከመ፡ መበለታት።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=4"/>ወማያቲነ፡ በብሩር፡ ሰተይነ። ዕፀዊነ፡ በሤጥ፡ ይመጽእ፡ ላዕለ፡ ክሳውዲነ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=5"/>ዴገኑነ፡ ሰራሕነ፡ ወኢያዕረፍነ።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=6"/>ግብጽ፡ ወሰብአ፡ ፋርስሂ፡ ወሀቡነ፡ እደ፡ ከመ፡ ያጽግቡነ፡ እክለ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=7"/>አበዊነ፡ አበሱ፡ ለሊሆሙ፡ ወኢሀለዉ፡ ንሕነ፡ ኀጢአቶሙ፡ ጾርነ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=8"/>አግብርት፡ ተሠልጡ፡ ላዕሌነ፡ ወአልቦ፡ ዘያድኅን፡ እምእዴሆሙ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=9"/>በነፍስነ፡ ናመጽእ፡ ሲሳየነ፡ እምገጸ፡ ኵናተ፡ ገዳም።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=10"/>አማእሲነ፡ ከመ፡ እቶን፡ ተጸምሀየዩ፡ ወተሀውኩ፡ እምገጸ፡ ረኀብ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=11"/>አንስት፡ በጽዮን፡ ኀሥራ፡ ደናግል፡ በአህጉረ፡ ይሁዳ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=12"/>መላእክት፡ በእደዊሆሙ፡ ተሰቅሉ፡ ገጸ፡ ሊቃናት፡ ኢያክበሩ።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=13"/>ወራዙት፡ ማሕረፀ፡ ጾሩ፡ ወመሐዛት፡ በዕፅ፡ ደክሙ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=14"/>ሊቃናት፡ እምነ፡ አንቀጽ፡ ተሥዕሩ፡ ወለወራዙት፡ ማኅሌቶሙ፡ ተሥዕረ።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=15"/>ፍሥሐ፡ ልብነ፡ ተሥዕረ፡ ተመይጠ፡ ለላሕ፡ ማኅሌትነ።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=16"/>ወድቀት፡ አክሊለ፡ ርእስነ፡ ወይኬ፡ ለነ፡ እስመ፡ ጌገይነ።</l>
-                  <l n="17">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=17"/>በእንተ፡ ዝንቱ፡ ደወየ፡ ልብነ፡ በእተ፡ እሉ፡ ጸልመ፡ ዐይንነ።</l>
-                  <l n="18">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=18"/>በእንተ፡ ደብረ፡ ጽዮን፡ እስመ፡ ኮነ፡ ገዳመ፡ ቈናጽል፡ ሖሩ፡ ቦቱ።</l>
-                  <l n="19">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=19"/>አንተ፡ እግዚኦ፡ ለዓለም፡ ትነብር፡ ወመንበርከሂ፡ ለትውልደ፡ ትውልድ።</l>
-                  <l n="20">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=20"/>ለምንት፡ ለግሙራ፡ ትረስዐነ፡ ተኀድገነ፡ ለነዋኅ፡ መዋዕል።</l>
-                  <l n="21">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=21"/>ሚጠነ፡ እግዚኦ፡ ኀቤከ፡ ወንትመየጥ፡ ሐድስ፡ መዋዕሊነ፡ ከመ፡ ትካት።</l>
-                  <l n="22">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=22"/>እስመ፡ መንኖ፡ መነንከነ፡ ተማዕከ፡ ላዕሌነ፡ ጥቀ።</l>
-               </ab>
-            </div>
-         </div>
-      </body>
-   </text></TEI>
+         <t:listBibl type="editions">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/NQXZVZBB"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Bachmann1893Klagelieder"/><title level="m">ሰቆቃወ፡ ኤርምያስ፡ ነቢይ። (Saqoqāwa ʾErmǝyās nabiy) Die Klagelieder Jeremiae in der aethiopischen Bibelübersetzung. Auf Grund handschriftlicher Quellen mit text-kritischen Anmerkungen</title><editor><forename>Johannes</forename><surname>Bachmann</surname></editor><pubPlace>Halle a. S.</pubPlace><publisher>Max Niemeyer</publisher><date>1893</date><note type="url">https://www.archive.org/stream/MN41896ucmf_0?ref=ol#page/n3/mode/2up</note><note type="tags"><note type="tag">bm:Bachmann1893Klagelieder</note></note><note type="tag">bm:Bachmann1893Klagelieder</note></t:bibl>
+         </t:listBibl>
+         <t:div type="edition" xml:lang="gez" xml:id="div1LIT1753Lament">
+            <t:note>the text of the printed EOTC Bible</t:note>
+            <t:div type="textpart" subtype="incipit">
+               <t:ab>ወእም ዝ እምድኅረ ፄወውዎ ለእስራኤል ወለኢየሩሳሌምኒ አማሰንዋ ነበረ ኤርምያስኒ ይበኪ ወአስቆቀወ ዘከመ ዝ ሰቆቃወ ላዕለ ኢየሩሳሌም። </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="1" xml:id="chapter1">
+               <t:label>Chapter 1</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=1"/>አሌፍ። እፎ፡ ነበረት፡ ባሕቲታ፡ ሀገር፡ እንተ፡ ምልእት፡ ሕዝበ፡ ወኮነት፡ መበለተ፡ እንተ፡ ትኴንን፡ አሕዛበ፡ ወእንተ፡ ትኴንን፡ በሓውርተ፡ ገብአት፡ ውስተ፡ ጸዋር።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=2"/>ቤት። ብካየ፡ በከየት፡ በሌሊት፡ ወአንብዐ፡ ውስተ፡ መልታሕታ፡ ውሕዘ፡ ወኀጥአት፡ ዘይናዝዛ፡ እምኵሎሙ፡ ዘያፈቅርዋ፡ ወተፃረርዋ፡ ኵሎሙ፡ ፍቁራኒሃ፡ ወኮኑ፡ ላቲ፡ ጸላእተ።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=3"/>ጋሜል። ፈለሰት፡ ይሁዳ፡ በኀሣራ፡ ወበብዝኀ፡ ቅኔሃ፡ ወነበረት፡ ውስተ፡ አሕዛብ፡ ወአልባ፡ ዕረፍት፡ ኵሎሙ፡ እለ፡ ዴገንዋ፡ አኀዝዋ፡ በማእከለ፡ እለ፡ አስርሕዋ።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=4"/>ዳሌጥ። ፍናዊሃ፡ ለጽዮን፡ ይላሕውዋ፡ እስመ፡ አልቦ፡ ዘይመጽእ፡ ለበዓል፡ ወማሰነ፡ ኵሉ፡ አናቅጺሃ፡ ካህናቲሃኒ፡ ይበክዩ፡ ወደናሊሃ፡ ተፄወዋ፡ ወለሊሃ፡ መራረ፡ ኮነት።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=5"/>ሄ። ወኮኑ፡ እለ፡ ሣቀይዋ፡ ላዕለ፡ ርእሳ፡ ወጸላእታሂ፡ ተፈሥሑ፡ እስመ፡ እግዚአብሔር፡ አኅሠራ፡ በብዝኀ፡ ኀጢአታ፡ ለሕፃናቲሃኒ፡ ፄወውዎሙ፡ በቅድመ፡ እለ፡ ሣቀይዋ።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=6"/>ዋው። ሰለብዋ፡ ለወለተ፡ ጽዮን፡ ኵሎ፡ ትርሲታ፡ ወኮኑ፡ መላእክቲሃ፡ ከመ፡ አብሐኵ፡ እለ፡ ኀጥኡ፡ ዘይትረዐዩ፡ ወሖሩ፡ ድኩማኒሆሙ፡ ቅድመ፡ እለ፡ ሮድዎሙ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=7"/>ዛይ። ተዘከረት፡ ኢየሩሳሌም፡ መዋዕለ፡ ኀሣራ፡ በኵላ፡ ፍትወታ፡ ዘቀዲሙ፡ ሶበ፡ ተተተ፡ ሕዝባ፡ በእደ፡ ፀሮሙ፡ ወአልቦ፡ ዘይረድኣ፡ ወርእይዋ፡ ጸላእታ፡ በኀበ፡ ፈለሰት፡ ወሰሐቅዋ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=8"/>ሔት። አብሶ፡ አበሰት፡ ኢየሩሳሌም፡ ወበእንተ፡ ዝንቱ፡ ኮነት፡ ሰቆራረ፡ ኵሎሙ፡ እለ፡ ይዌድስዋ፡ አኅሠርዋ፡ እስመ፡ ርእዩ፡ ኀሣራ፡ በኀበ፡ ተመንደበት፡ ወወድቀት፡ ድኅሪተ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=9"/>ጤት። ርኵስ፡ ውስተ፡ እገሪሃ፡ ወኢተዘከረት፡ ደኃሪታ፡ ወጾረት፡ ክቡደ፡ ወኢሠኀትዋ። ርኢ፡ እግዚኦ፡ ሕማምየ፡ ከመ፡ ተዘኀሩ፡ ፀርየ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=10"/>ዮድ። አንሥአ፡ እዴሁ፡ ዘሣቀያ፡ በኵሉ፡ ፍትወታ፡ ርእየት፡ አሕዛበ፡ ዘከላእከ፡ ኢይባኡ፡ ውስተ፡ መቅደስከ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=11"/>ካፍ። ኵሉ፡ ሕዝባ፡ ይግዕሩ፡ ወየኀጥኡ፡ እክለ፡ ወወሀቡ፡ ፍትወቶሙ፡ ለመብልዕ፡ ለመይጠ፡ ነፍስ። ርኢ፡ እግዚኦ፡ ወነጽር፡ እስመ፡ ኀሠርኩ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=12"/>ላሜድ። አልቦ፡ ኀቤክሙ፡ ኵሉ፡ ኀላፍያነ፡ ፍኖት፡ ተመየጡ፡ ወርእዩ፡ እመ፡ ቦ፡ ቊስል፡ ከመ፡ ቊስልየ፡ ዘአሕመመኒ፡ እግዚአብሔር፡ በዕለተ፡ መቅሠፍተ፡ መዐቱ።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=13"/>ሜም። እምአርያም፡ ፈነወ፡ እሳተ፡ ወአሕለለ፡ አዕፅምትየ፡ ወሰፍሐ፡ መሥገርቶ፡ ለእገርየ፡ ወአግብአኒ፡ ድኅሬየ፡ ወአማሰነኒ፡ ወአሕመመኒ፡ ኵሎ፡ ዕለተ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=14"/>ኖን። ተግሀ፡ በእንተ፡ ኀጢአትየ፡ ዘተፀፍረ፡ በእደውየ፡ ዐርገ፡ ውስተ፡ ክሳድየ፡ ወደክመ፡ ኀይልየ፡ እስመ፡ መጠወኒ፡ እግዚአብሔር፡ ውስተ፡ እደ፡ ሕማም፡ በዘኢይክል፡ ቀዊመ።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=15"/>ሳምኬት። አእተቶሙ፡ እግዚአብሔር፡ ለኵሎሙ፡ ኀያላንየ፡ እማእከሌየ፡ ጸውዐ፡ ላዕሌየ፡ መዋዕለ፡ በዘይትቀጠቀጡ፡ ኅሩያንየ። ወነፅኃ፡ እግዚአብሔር፡ ለድንግል፡ ወለተ፡ ይሁዳ፡ በእንተ፡ ዝንቱ፡ እበኪ፡ አነ።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=16"/>ዔ። ዐይንየ፡ አውሐዘት፡ ማየ፡ እስመ፡ ርኅቀ፡ እምኔየ፡ ዘይናዝዘኒ፡ ወዘያገብኣ፡ ለነፍስየ፡ ወማሰኑ፡ ደቂቅየ፡ እስመ፡ ሞአ፡ ፀር።</t:l>
+                  <t:l n="17">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=17"/>ፌ። አንሥአት፡ እደዊሃ፡ ጽዮን፡ ወኀጥአት፡ ዘይላሕያ። ወአዘዘ፡ እግዚአብሔር፡ ለያዕቆብ፡ ይዕግትዎ፡ እለ፡ ይረውድዎ፡ ወኮነት፡ ኢየሩሳሌም፡ ትክተ፡ በማእከሎሙ።</t:l>
+                  <t:l n="18">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=18"/>ጻዴ። ጻድቅ፡ ውእቱ፡ እግዚአብሔር፡ እስመ፡ ወሐክዎ፡ ለአፉሁ። ስምዑ፡ ኵልክሙ፡ አሕዛብ፡ ወርእዩ፡ ቊስልየ፡ እስመ፡ ፄወውዎሙ፡ ለደናግልየ፡ ወለወራዙትየ።</t:l>
+                  <t:l n="19">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=19"/>ቆፍ። ጸዋዕክዎሙ፡ ለመሐዛንየ፡ ወተጸመሙኒ። ካህናትየኒ፡ ወረበናትየ፡ ኀልቁ፡ በሀገር፡ ሶበ፡ ኀሠሡ፡ ዘይበልዑ፡ በዘይመይጡ፡ ነፍሶሙ፡ ወኀጥኡ።</t:l>
+                  <t:l n="20">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=20"/>ሬስ። ርኢ፡ እግዚኦ፡ እስመ፡ ሐመምኩ፡ ወተከውሰት፡ ከርሥየ፡ ወልብየ፡ ተመይጠ፡ በላዕሌየ፡ እስመ፡ መሪረ፡ መረርኩ፡ በአፍኣኒ፡ አምከነተኒ፡ መጥባሕት፡ ወብድብድ፡ በውስተ፡ ቤት።</t:l>
+                  <t:l n="21">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=21"/>ሳን። ስምዑኒ፡ ዘከመ፡ እግዕር፡ አነ፡ ወአልቦ፡ ዘያንህየኒ፡ ኵሎሙ፡ ፀርየ፡ ሰምዑ፡ ሕማምየ፡ ወተፈሥሑ፡ እስመ፡ አንተ፡ ገበርከ፡ በዘአምጻእከ፡ ዕለተ፡ ጸዋዕከ፡ ወኮኑ፡ ከማየ።</t:l>
+                  <t:l n="22">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=1&amp;verse=22"/>ታው። ለትባእ፡ ኵሉ፡ እከዮሙ፡ ቅድሜከ፡ ወተቀረሞሙ፡ ዘከመ፡ ተቀረምከ፡ ኪያየ፡ አንተ፡ በኵሉ፡ ኀጢአትየ፡ እስመ፡ በዝኀ፡ ናህክየ፡ ወልብየኒ፡ ያጠውቀኒ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="2" xml:id="chapter2">
+               <t:label>Chapter 2</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=1"/>አሌፍ። እፎኬ፡ አደመና፡ እግዚአብሔር፡ በመቅሠፍተ፡ መዐቱ፡ ለወለተ፡ ጽዮን፡ ወነፅኆ፡ እምሰማይ፡ ውስተ፡ ምድር፡ ለክብረ፡ እስራኤል፡ ወኢተዘከረ፡ መከየደ፡ እገሪሁ፡ በዕለተ፡ መዐቱ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=2"/>ቤት። አሥጠመ፡ እግዚአብሔር፡ ወኢመሐከ፡ ኵሎ፡ መሠንዮ፡ ለያዕቆብ፡ ወአንኀለ፡ በመዐቱ፡ አጽዋኒሃ፡ ለወለተ፡ ይሁዳ፡ ወአጥበቃ፡ በምድር፡ ወአርኰሰ፡ መንግሥታ፡ ወምኵናኒሃ።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=3"/>ጋሜል። ቀጥቀጠ፡ በመዐቱ፡ ኵሎ፡ ቀርነ፡ እስራኤል፡ ወሜጠ፡ ድኅረ፡ የማኖ፡ እምገጸ፡ ፀር። ወአንደደ፡ ላዕለ፡ ያዕቆብ፡ ነበልባለ፡ እሳት፡ ወበልዐ፡ ኵሎ፡ ዘዐውዱ።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=4"/>ዳሌጥ። ወሰቀ፡ ቀስቶ፡ ከመ፡ ፀር፡ ወከመ፡ ጸላኢ፡ አጽንዐ፡ የማኖ፡ ከመ፡ እድው። ወቀተለ፡ ኵሎ፡ ዘያፈትዋ፡ ለዐይንየ፡ በተዐይኒሃ፡ ለወለተ፡ ጽዮን። ከዐወ፡ መዐቶ፡ ከመ፡ እሳት።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=5"/>ሄ። ኮነኒ፡ እግዚአብሔር፡ ከመ፡ ፀር፡ ወአሥጠሞ፡ ለእስራኤል፡ ወአሥጠመ፡ ኵሎ፡ ክበዲሃ፡ ወአማሰነ፡ አጽዋኒሃ። ወአብዝኀ፡ ኀሣራ፡ ለወለተ፡ ይሁዳ፡ ኅሥርት።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=6"/>ዋው። ወጸለለ፡ ከመ፡ ወይን፡ ማኅደሮ፡ ወአማሰነ፡ በዓሎ። ረስዐ፡ እግዚአብሔር፡ ዘገብረ፡ በጽዮን፡ በዓለ፡ ወሰንበተ። ወአኅለቀ፡ በመቅሠፍተ፡ መዐቱ፡ ነገሥተ፡ ወመላእክተ፡ ወካህናተ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=7"/>ዛይ። ኀደገ፡ እግዚአብሔር፡ ምሥዋዖ፡ ወረስዐ፡ መቅደሶ፡ ወዐጸወ፡ በእደ፡ ፀር፡ አረፍተ፡ ኀይላ። ወቃለ፡ ወሀቡ፡ ውስተ፡ ቤተ፡ እግዚአብሔር፡ ወየበቡ፡ ከመ፡ ዕለተ፡ በዓል።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=8"/>ሔት። ወተመይጠ፡ እግዚአብሔር፡ ከመ፡ ያማስን፡ አረፍታ፡ ለወለተ፡ ጽዮን፡ ወሰሐበ፡ አምጣነ፡ ወኢመጠወ፡ እዴሁ፡ እምአሥጥሞ፡ ወለሐወ፡ ጥቅማ፡ ወአረፍታ፡ ኅቡረ፡ ደክመ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=9"/>ጤት። ተደፍኑ፡ ውስተ፡ ምድር፡ ዴዴያቲሃ። ተገድፈ፡ ወተቀጥቀጠ፡ መናስግቲሃ። ንጉሣሂ፡ ወመልአካሂ፡ ውስተ፡ አሕዛብ፡ አልባቲ፡ ሕግ። ወነቢያቲሃ፡ ኢርእዩ፡ ራእየ፡ በኀበ፡ እግዚአብሔር።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=10"/>ዮድ። ነበሩ፡ ውስተ፡ ምድር፡ ወአርመሙ፡ ረበናቲሃ፡ ለወለተ፡ ጽዮን። ወወደዩ፡ መሬተ፡ ውስተ፡ ርእሶሙ፡ ወቀነቱ፡ ሠቀ። ወአውረድዎሙ፡ ውስተ፡ ምድር፡ ለመሳፍንት፡ ወለደናግል፡ በኢየሩሳሌም።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=11"/>ካፍ። ደክማ፡ አዕይንትየ፡ በአንብዕ፡ ደንገፀ፡ ልብየ። ወተክዕወ፡ ውስተ፡ ምድር፡ ክብርየ፡ በእንተ፡ ቅጥቃጤሃ፡ ለወለተ፡ ሕዝብየ። ሶበ፡ ኀልቁ፡ ሕፃናት፡ ወጠባዊት፡ በመርሕበ፡ ሀገር።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=12"/>ላሜድ። ይቤልዎን፡ ለእማቲሆሙ፡ አይቴ፡ እክል፡ ወወይን፡ ሶበ፡ ርኅቡ፡ ከመ፡ ቅቱላን፡ ውስተ፡ መርሕበ፡ ሀገር። ሶበ፡ ወፅአት፡ ነፍሶሙ፡ በውስተ፡ ሕፅነ፡ እሞሙ።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=13"/>ሜም። በምንት፡ አስተማስለኪ፡ ወበምንት፡ አስተዔርየኪ፡ ወለተ፡ ኢየሩሳሌም። መኑ፡ ያድኅነኪ፡ ወመኑ፡ ያስተፌሥሐኪ፡ ወለተ፡ ጽዮን፡ ድንግል። እስመ፡ ሀብየ፡ ከመ፡ ባሕር፡ ቅጥቃጤኪ፡ መኑ፡ ይፌውሰኪ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=14"/>ኖን። ነቢያትኪ፡ ርእዩ፡ ለኪ፡ ከንቶ፡ ወእበደ። ወኢከሠቱ፡ ጌጋየኪ፡ ከመ፡ ይሚጡ፡ ፄዋኪ። ወርእዩ፡ ለኪ፡ ተረፈ፡ ከንቶ።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=15"/>ሳምኬት። ጠፍሑ፡ እደዊሆሙ፡ ላዕሌኪ፡ ኵሎሙ፡ ኀለፍተ፡ ፍኖት። ተፋጸዩ፡ ወአሖሱ፡ ርእሶሙ፡ ላዕለ፡ ወለተ፡ ኢየሩሳሌም። ወይቤሉ፡ ዛቲኑ፡ ሀገር፡ አክሊሉ፡ ወክብሩ፡ ወፍሥሓሁ፡ ለኵሉ፡ ምድር።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=16"/>ዔ። አብቀዉ፡ አፉሆሙ፡ ላዕሌኪ፡ ኵሎሙ፡ ፀርኪ። ተፋጸዩ፡ ወሐቀዩ፡ ስነኒሆሙ፡ ወይቤሉ። ውሕጥናሃ፡ ወባሕቱ፡ ዛቲ፡ ዕለት፡ ዘተሰፈውናሃ፡ ረከብናሃ፡ ወርኢናሃ።</t:l>
+                  <t:l n="17">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=17"/>ፌ። ገብረ፡ እግዚአብሔር፡ ዘሐለየ፡ ወፈጸመ፡ ዘነበበ፡ ዘአዘዘ፡ እግዚአብሔር፡ በመዋዕለ፡ ትካት፡ ወነሠታ፡ ወኢምሕካ፡ ወአስተፍሥሐ፡ ጸላእተኪ፡ ወአልዐለ፡ ቀርነ፡ ፀርኪ፡ ላዕሌኪ።</t:l>
+                  <t:l n="18">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=18"/>ጻዴ። አውየወ፡ ልቦሙ፡ ኀበ፡ እግዚአብሔር፡ ለአረፋተ፡ ወለተ፡ ጽዮን። ይወርዳ፡ አንብዕ፡ ከመ፡ ውሒዝ፡ መዓልተ፡ ወሌሊተ። ኢተሀቢ፡ ዕረፍተ፡ ለኪ፡ ወኢታርምም፡ ብንተ፡ ዐይንኪ።</t:l>
+                  <t:l n="19">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=19"/>ቆፍ። ተንሥኢ፡ ወተፈሥሒ፡ በሌሊት፡ በቀዳሚት፡ ሰዓትኪ። ከዐዊዮ፡ ከመ፡ ማይ፡ ለልብኪ፡ ቅድመ፡ ገጹ፡ ለእግዚአብሔር። አንሥኢ፡ እደወኪ፡ ኀቤሁ፡ በእንተ፡ ነፍሰ፡ ሕፃናትኪ፡ እለ፡ ኀልቁ፡ በረኀብ፡ በርእሰ፡ ኵሉ፡ ፍናዋት።</t:l>
+                  <t:l n="20">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=20"/>ሬስ። ርኢ፡ እግዚኦ፡ ወነጽር፡ መነ፡ ተቀረምከ፡ ከመዝ። ይበልዓኑ፡ አንስት፡ ፍሬ፡ ከርሦን፡ ወሐፃንያት፡ እለ፡ ያጠብዋ፡ አው፡ ይቀትሉኑ፡ ካህነ፡ ወነቢየ፡ በመቅደሰ፡ እግዚአብሔር።</t:l>
+                  <t:l n="21">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=21"/>ሳን። አስከብዎሙ፡ ውስተ፡ ፍናው፡ ለአእሩግ፡ ወለሕፃናት። ወለደናግልየ፡ ወለወራዙትየ፡ ፄወውዎሙ፡ ወወድቁ፡ በኵናት። ወቀተልኮሙ፡ በረኀብ፡ በዕለተ፡ መዐትከ፡ ቀተልከ፡ ወኢመሐከ።</t:l>
+                  <t:l n="22">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=2&amp;verse=22"/>ታው። ጸውዐ፡ ዕለተ፡ በዓል፡ በኀበ፡ ፈለስኩ፡ እምዐውድ። ወኢኮነ፡ በዕለተ፡ መዐቱ፡ ለእግዚአብሔር፡ ዘይድኅን፡ ወዘይተርፍ፡ በከመ፡ ዘአልሀቁ፡ ወዘሐፀንኩ፡ ፀርየ፡ አኅለቅዎሙ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="3" xml:id="chapter3">
+               <t:label>Chapter 3</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=1"/>አሌፍ። አነ፡ ብእሲ፡ ዘይሬኢ፡ ተፅናሰ፡ በበትረ፡ መዐቱ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=2"/>ነሥአኒ፡ ወወሰደኒ፡ ውስተ፡ ጽልመት፡ ዘአልቦ፡ ብርሃን።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=3"/>ወሜጠ፡ እዴሁ፡ ኀቤየ፡ ኵሎ፡ ዕለተ።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=4"/>በልየ፡ ሥጋየ፡ ወማእስየ፡ ወተቀጥቀጠ፡ አዕፅምትየ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=5"/>ቤት። ሐነጸ፡ ጥቅመ፡ ላዕለ፡ ርእስየ። ወሰርሐ፡ ፍኖተ፡ ሕማም፡ ላዕሌየ።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=6"/>ወውስተ፡ ጽልመት፡ አንበረኒ፡ ከመ፡ ምዉተ፡ ትካት።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=7"/>ወነደቀ፡ ላዕሌየ፡ ወኢይወፅእ፡ ወአክበደ፡ ብርትየ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=8"/>ጋሜል። እጸርሕ፡ ወአአወዩ፡ እስመ፡ ተፈጸመ፡ ጸሎትየ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=9"/>ዳሌጥ። ወሐነጸ፡ ፍኖትየ፡ በኰኵሕ፡ ወዐጸወ፡ ፍኖትየ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=10"/>ድብ፡ እንተ፡ ትንዑ፡ ውእቱ፡ ሊተ፡ ወከመ፡ አንበሳ፡ ጽሚተ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=11"/>ዴገነኒ፡ ወአኅለቀኒ፡ ወረሰየኒ፡ ገዳመ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=12"/>ሄ። ወሰቀ፡ ቀስቶ፡ ወአቀመኒ፡ ከመ፡ መጠራ፡ ለሐፅ።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=13"/>ወነደፈኒ፡ ውስተ፡ ኵልያትየ፡ በአሕፃሁ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=14"/>ወኮንኩ፡ ሰሐቀ፡ ለኵሉ፡ ሕዝብየ፡ ወየኀልዩኒ፡ ኵሎ፡ አሚረ።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=15"/>ዋው። አጽገበኒ፡ ሕምዘ፡ ወአርወየኒ፡ ሐሞተ።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=16"/>ወሰበረ፡ ስነንየ፡ በኆጻ፡ ወአቅምሐኒ፡ ሐመደ።</t:l>
+                  <t:l n="17">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=17"/>ቀብጸት፡ ነፍስየ፡ ሰላመ፡ ወረሳዕክዋ፡ ለሠናይት።</t:l>
+                  <t:l n="18">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=18"/>ወሐጐልኩ፡ ተስፋየ፡ ወትውክልትየ፡ በኀበ፡ እግዚአብሔር።</t:l>
+                  <t:l n="19">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=19"/>ዛይ። ተዘከርኩ፡ ተፅናስየ፡ ወተሰዶትየ፡ ወምረተ፡ ሕምዝየ።</t:l>
+                  <t:l n="20">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=20"/>ወዐንበዘት፡ ነፍስየ፡ በላዕሌየ።</t:l>
+                  <t:l n="21">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=21"/>ወአነብር፡ ውስተ፡ ልብየ፡ በእተ፡ ዝንቱ፡ እትዔገሥ።</t:l>
+                  <t:l n="22">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=22"/>ሔት። ምሕረተ፡ እግዚአብሔር፡ እስመ፡ ኢኀልቀ፡ ወኢተፈጸመ፡ ሣህሉ።</t:l>
+                  <t:l n="23">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=23"/>ሐዳሳት፡ ለለ፡ ጽባሕ፡ ብዝኀ፡ ጽድቅከ።</t:l>
+                  <t:l n="24">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=24"/>ክፍልየ፡ እግዚአብሔር፡ ትቤ፡ ነፍስየ፡ በእንተ፡ ዝንቱ፡ እጸንሕ።</t:l>
+                  <t:l n="25">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=25"/>ጤት። ኄር፡ እግዚአብሔር፡ ለእለ፡ ይትዔገሥዎ።</t:l>
+                  <t:l n="26">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=26"/>ለነፍስ፡ እንተ፡ ተኀሥሥ፡ በሠናይ፡ ወትትዔገሥ፡ ወታረምም፡ ለመድኀኒተ፡ እግዚአብሔር።</t:l>
+                  <t:l n="27">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=27"/>ጤት። ሠናይ፡ ለብእሲ፡ ሶበ፡ ይነሥእ፡ አርዑቶ፡ እምንእሱ።</t:l>
+                  <t:l n="28">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=28"/>ወይነብር፡ ባሕቲቱ፡ ወይፃሙ፡ ሶበ፡ አንሥኡ፡ ላዕሌሁ።</t:l>
+                  <t:l n="29">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=29"/>ይወዲ፡ ውስተ፡ መሬት፡ አፉሁ፡ ዮጊ፡ በተስፋ።</t:l>
+                  <t:l n="30">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=30"/>ዮድ። ይመይጥ፡ መልታሕቶ፡ ለዘይጸፍዖ፡ ወይጸግብ፡ ጽዕለተ።</t:l>
+                  <t:l n="31">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=31"/>እስመ፡ ኢይገድፎሙ፡ እግዚአብሔር፡ ለዓለም።</t:l>
+                  <t:l n="32">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=32"/>ካፍ። እስመ፡ ዘአሕመመ፡ ይሠሀል፡ በከመ፡ ብዝኀ፡ ምሕረቱ።</t:l>
+                  <t:l n="33">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=33"/>እስመ፡ ኢተቈጥዐ፡ ልቡ፡ ወኢያሕመመ፡ ደቂቀ፡ እጓለ፡ እመሕያው።</t:l>
+                  <t:l n="34">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=34"/>ላሜድ። ከመ፡ ያኅሥር፡ በታሕተ፡ እገሪሁ፡ ለኵሉ፡ ኅሡራነ፡ ምድር።</t:l>
+                  <t:l n="35">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=35"/>ከመ፡ ይሚጥ፡ ፍትሐ፡ ብእሲ፡ በቅድመ፡ ገጸ፡ ልዑል።</t:l>
+                  <t:l n="36">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=36"/>ይደይ፡ ብእሴ፡ ውስተ፡ ኵነኔ፡ ሶበ፡ ይኴንን፡ እግዚአብሔር፡ ዘኢአዘዘ።</t:l>
+                  <t:l n="37">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=37"/>መኑ፡ ዘይቤ፡ ወይከውን፡ እግዚአብሔር፡ ዘኢአዘዘ።</t:l>
+                  <t:l n="38">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=38"/>ወእምአፈ፡ ልዑል፡ ዘኢወፅአ፡ እኩይኒ፡ ወሠናይኒ።</t:l>
+                  <t:l n="39">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=39"/>ሜም። ለምንት፡ ያንጐረጕር፡ ሰብእ፡ እንዘ፡ ሕያው፡ ብእሲ፡ በእንተ፡ ኀጢአቱ።</t:l>
+                  <t:l n="40">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=40"/>ኖን። ንሕትት፡ ፍኖተነ፡ ወንኀሥሦ፡ ወንትመየጥ፡ ኀበ፡ እግዚአብሔር።</t:l>
+                  <t:l n="41">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=41"/>ናንሥእ፡ ልበነ፡ ወእደዊነ፡ ኀበ፡ እግዚአብሔር፡ ሰማየ።</t:l>
+                  <t:l n="42">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=42"/>ንሕነ፡ አበስነ፡ ወጌገይነ፡ አንተኒ፡ ኢመሐከነ።</t:l>
+                  <t:l n="43">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=43"/>ሳምኬት። ደፈንከነ፡ በመዐትከ፡ ወሰደድከነ፡ ወቀተልከነ፡ ወኢመሐከነ።</t:l>
+                  <t:l n="44">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=44"/>ጸለልከነ፡ በደመና፡ እምወፂእ፡ ለምዕራገ፡ ጸሎትነ።</t:l>
+                  <t:l n="45">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=45"/>ዔ። ከመ፡ ንሕምም፡ ወከመ፡ ኢንርአይ፡ አንበርከነ፡ ማእከለ፡ አሕዛብ።</t:l>
+                  <t:l n="46">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=46"/>ከሠቱ፡ አፉሆሙ፡ ላዕሌነ፡ ኵሉ፡ ፀርነ።</t:l>
+                  <t:l n="47">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=47"/>ፍርሃት፡ ወረዓድ፡ አኀዘነ፡ ሙስና፡ ወቅጥቃጤ።</t:l>
+                  <t:l n="48">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=48"/>ፈለገ፡ ማይ፡ ይውሕዝ፡ እምአዕይንቲነ፡ በእንተ፡ ቅጥቃጤሃ፡ ለወለተ፡ ሕዝብየ።</t:l>
+                  <t:l n="49">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=49"/>ፌ። ዐይንየ፡ ተደፍነት፡ ወኢያረምም፡ እንከ፡ እምአልዕሎ።</t:l>
+                  <t:l n="50">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=50"/>እስከ፡ ይሬኢ፡ እግዚአብሔር፡ እምሰማይ።</t:l>
+                  <t:l n="51">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=51"/>ዐይንየ፡ አሕመሞ፡ ለነፍስየ፡ በእንተ፡ ኵሉ፡ አዋልደ፡ ሀገርየ።</t:l>
+                  <t:l n="52">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=52"/>ጻዴ። ንዒወ፡ ነዐዉኒ፡ ከመ፡ ዖፍ፡ ኵሉ፡ ፀርየ፡ በከንቱ።</t:l>
+                  <t:l n="53">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=53"/>ወቀተሉ፡ ሕይወትየ፡ በውስተ፡ ዓዘቅት፡ ወከደኑኒ፡ እብነ።</t:l>
+                  <t:l n="54">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=54"/>ተክዕወ፡ ማይ፡ ላዕለ፡ ርእስየ፡ እቤ፡ ተኀድጉ፡ እምኔሁ።</t:l>
+                  <t:l n="55">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=55"/>ቆፍ። ጸዋዕኩ፡ ስመከ፡ እግዚኦ፡ እምግብ፡ ታሕቲት።</t:l>
+                  <t:l n="56">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=56"/>ወሰማዕከኒ፡ ቃልየ፡ ወኢትሚጥ፡ እዝነከ፡ እምነ፡ እስለትየ።</t:l>
+                  <t:l n="57">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=57"/>ቀረብከ፡ በዕለተ፡ እጼውዐከ፡ ወትቤ፡ ኢትፍራህ።</t:l>
+                  <t:l n="58">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=58"/>ሬስ። ኰነንከ፡ እግዚኦ፡ ኵነኔ፡ ነፍስየ፡ ወቤዘውከ፡ ሕይወትየ።</t:l>
+                  <t:l n="59">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=59"/>ርኢከ፡ እግዚኦ፡ ኵሎ፡ ዘይመክሩ፡ ላዕሌየ፡ ፈታሕከ፡ ፍትሕየ።</t:l>
+                  <t:l n="60">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=60"/>ርኢከ፡ ኵሎ፡ ተበቅሎቶሙ፡ ወኵሎ፡ ሕሊናሆሙ፡ ብየ።</t:l>
+                  <t:l n="61">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=61"/>ሳን። ሰማዕከ፡ ኵሎ፡ ጽዕለቶሙ፡ እግዚኦ፡ ወኵሎ፡ ሕሊናሆሙ፡ ላዕሌየ።</t:l>
+                  <t:l n="62">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=62"/>ወዘአሖሱ፡ ከናፍሪሆሙ፡ ብየ፡ ኵሎ፡ ዕለተ።</t:l>
+                  <t:l n="63">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=63"/>ንብረቶሙ፡ ወተንሥኦቶሙ፡ ርኢ፡ አነ፡ ማኅሌቶሙ።</t:l>
+                  <t:l n="64">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=64"/>ፍድዮሙ፡ ወተበቀሎሙ፡ በከመ፡ ምግባረ፡ እደዊሆሙ።</t:l>
+                  <t:l n="65">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=65"/>ታው። ሀቦሙ፡ ሕማመ፡ ልብ፡ ወመርገምከ።</t:l>
+                  <t:l n="66">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=3&amp;verse=66"/>ስድዶሙ፡ በመዐትከ፡ ወአጥፍኦሙ፡ እምታሕተ፡ ሰማይ፡ እግዚኦ፡ በከመ፡ እከየ፡ ልቦሙ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="4" xml:id="chapter4">
+               <t:label>Chapter 4</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=1"/>አሌፍ። እፎ፡ ተጸልአ፡ ወርቅ፡ ወተወለጠ፡ ብሩር፡ ሠናይ፡ ወተዘርወ፡ ዕንቊ፡ ቅዱስ፡ ውስተ፡ ኵሉ፡ ፍኖት።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=2"/>ቤት። ደቂቀ፡ ጽዮን፡ ክቡራን፡ ተሠይጡ፡ በወርቅ። እፎ፡ ኮኑ፡ ከመ፡ ንዋየ፡ ልሕኵት፡ ግብረ፡ እደ፡ ለብሓዊ።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=3"/>ጋሜል። አክይስትኒ፡ አጥበዉ፡ እጐሊሆሙ። አዋልደ፡ ሕዝብየሰ፡ ከመ፡ አዕዋፈ፡ ሰገኖ፡ ውስተ፡ ገዳም።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=4"/>ዳሌጥ። ጠግዐ፡ ልሳነ፡ ሕፃን፡ ውስተ፡ ጕርዔሁ፡ በጽምእ። ወሕፃናት፡ ሰአሉ፡ ኅብስተ፡ ወአልቦ፡ ዘይሁቦሙ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=5"/>ሄ። እለ፡ ይሴሰዩ፡ ሲሳየ፡ ማሰኑ፡ በውስተ፡ ፍናው፡ ወደፈኖሙ፡ መሬት።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=6"/>ዋው። ዐብየት፡ ኀጢአታ፡ ለወለተ፡ ሕዝብየ፡ እምኀጢአተ፡ ሰዶም፡ እንተ፡ ተገፍትዐት፡ ፍጡነ፡ እንዘ፡ ኢይፃምዉ፡ እደው፡ ባቲ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=7"/>ዛይ። ጻዕደዉ፡ ቅዱሳኒሃ፡ እምበረድ፡ ወጻዕደዉ፡ እምሐሊብ፡ ወቄሑ፡ ፈድፋደ፡ እምዕንቈ፡ ሰንፔር፡ ፀአቶሙ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=8"/>ሔት። ጸልመ፡ እምነ፡ ሕመት፡ ራእዮሙ፡ ወኢተዐውቀት፡ በአፍኣ፡ ፍኖቶሙ። ወቈቊዐ፡ ማእሶሙ፡ በዲበ፡ አዕፅምቲሆሙ፡ ወየብሰ፡ ከመ፡ ዕፅ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=9"/>ጤት። ኀየሱ፡ ቅቱላን፡ በኵናት፡ እምቅቱላን፡ በረኀብ፡ ወሖሩ፡ እንዘ፡ ርጉዛን፡ በትእዛዘ፡ እግዚአብሔር።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=10"/>ዮድ። እደዊሆን፡ ለአንስት፡ መሓርያት፡ አብሰላ፡ እጐሊሆን፡ ወኮንዎን፡ ሲሳዮን፡ በቅጥቃጤሃ፡ ለወለተ፡ ሕዝብየ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=11"/>ካፍ። ፈጸመ፡ እግዚአብሔር፡ መዐቶ፡ ወከዐወ፡ መቅሠፍቶ፡ ወአንደደ፡ እሳተ፡ ውስተ፡ ጽዮን፡ ወበልዐት፡ መሠረታቲሃ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=12"/>ላሜድ። ኢአምኑ፡ ነገሥተ፡ ምድር፡ ኵሎሙ፡ እለ፡ ይነብሩ፡ ውስተ፡ ዓለም፡ ከመ፡ ይበውእ፡ ፀር፡ ወጸላእት፡ አንቀጸ፡ ኢየሩሳሌም።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=13"/>ሜም። በኀጢአተ፡ ነቢያቲሃ፡ ወጌጋየ፡ ካህናቲሃ፡ እለ፡ ከዐዉ፡ ደመ፡ ጻድቃን፡ በማእከላ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=14"/>ኖን። ተሀውኩ፡ እለ፡ ይሔልውዋ፡ በአፍኣ፡ ወተቀብኡ፡ በደም፡ ሶበ፡ ተስእኖሙ፡ ገሰሱ፡ አልባሲሆሙ።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=15"/>ሳምኬት። ረኀቁ፡ እምርኩሳን፡ ስብኩ፡ ሎሙ፡ ወበልዖሙ፡ ረኀቁ፡ ረኀቁ፡ ወኢትግስስዎሙ። እስመ፡ ተሀውኩ፡ ወበልዖሙ፡ ለአሕዛብ፡ ኢይድግሙ፡ ነቢሮታ።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=16"/>ዔ። ገጹ፡ ለእግዚአብሔር፡ መክፈልቶሙ፡ ወኢይደግም፡ ነጽሮቶሙ። እስመ፡ ኢኀፈሩ፡ ገጸ፡ ካህናት፡ ወኢመሐሩ፡ ሊቃውንተ።</t:l>
+                  <t:l n="17">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=17"/>ፌ። እንዘ፡ ዓዲነ፡ ሕያዋን፡ ንሕነ፡ ጠፍኣ፡ አዕይንቲነ፡ በእንተ፡ ከንቱ፡ ረድኤተነ፡ እንዘ፡ ንሴፎ።</t:l>
+                  <t:l n="18">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=18"/>ጻዴ። ተወከልነ፡ ኀበ፡ ሕዝብ፡ ዘኢያድኅን።ከላእነ፡ ደቂቀነ፡ ኢይፃኡ፡ መርሕበነ።</t:l>
+                  <t:l n="19">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=19"/>ቆፍ። ቀርበ፡ ጊዜነ፡ በኀልቀ፡ መዋዕሊነ፡ እስመ፡ በጽሐ፡ ጊዜነ። ረዋጽያነ፡ ኮኑ፡ እለ፡ ዴገኑነ፡ እምአንስርተ፡ ሰማይ። ላዕለ፡ አድባር፡ ረከቡነ፡ እስመ፡ በገዳም፡ ጸንሑነ።</t:l>
+                  <t:l n="20">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=20"/>ሬስ። መንፈሰ፡ ገጽነ፡ መሲሑ፡ ለእግዚአብሔር፡ ተንሥአ፡ በመሥገርቶሙ። ዝኩ፡ ዘንቤ፡ በጽላሎቱ፡ ነሐዩ፡ ውስተ፡ አሕዛብ።</t:l>
+                  <t:l n="21">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=21"/>ሳን። ተፈሥሒ፡ ወተኀሠዪ፡ ወለተ፡ ኤዶምያስ፡ እንተ፡ ትነብሪ፡ ውስተ፡ ምድረ፡ ዖፅ። እስመ፡ ላዕሌኪ፡ ኀለፈ፡ ጽዋዐ፡ እግዚአብሔር፡ ትሰክሪ፡ ወትትዐረቂ።</t:l>
+                  <t:l n="22">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=4&amp;verse=22"/>ታው። ኀልቀ፡ ኀጢአትኪ፡ ወለተ፡ ጽዮን፡ ኢይደግም፡ እንከ፡ አፍልሶተኪ። ይዋህዮ፡ ለኀጢአትኪ፡ ወለተ፡ ኤዶምያስ፡ ከሠተ፡ ላዕለ፡ ኀጢአትኪ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="5" xml:id="chapter5">
+               <t:label>Chapter 5</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=1"/>ተዘከር፡ እግዚኦ፡ ምንተ፡ ኮነ፡ ለነ፡ ነጽር፡ ወርኢ፡ እግዚኦ፡ ኀሣረነ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=2"/>ዘኮነ፡ ለባዕድ፡ ርስትነ፡ ወአብያቲ፡ ለነኪራን።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=3"/>ዕጓለ፡ ማውታ፡ ኮነ፡ አልብነ፡ አብ፡ እማቲነ፡ ኮና፡ ከመ፡ መበለታት።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=4"/>ወማያቲነ፡ በብሩር፡ ሰተይነ። ዕፀዊነ፡ በሤጥ፡ ይመጽእ፡ ላዕለ፡ ክሳውዲነ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=5"/>ዴገኑነ፡ ሰራሕነ፡ ወኢያዕረፍነ።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=6"/>ግብጽ፡ ወሰብአ፡ ፋርስሂ፡ ወሀቡነ፡ እደ፡ ከመ፡ ያጽግቡነ፡ እክለ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=7"/>አበዊነ፡ አበሱ፡ ለሊሆሙ፡ ወኢሀለዉ፡ ንሕነ፡ ኀጢአቶሙ፡ ጾርነ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=8"/>አግብርት፡ ተሠልጡ፡ ላዕሌነ፡ ወአልቦ፡ ዘያድኅን፡ እምእዴሆሙ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=9"/>በነፍስነ፡ ናመጽእ፡ ሲሳየነ፡ እምገጸ፡ ኵናተ፡ ገዳም።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=10"/>አማእሲነ፡ ከመ፡ እቶን፡ ተጸምሀየዩ፡ ወተሀውኩ፡ እምገጸ፡ ረኀብ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=11"/>አንስት፡ በጽዮን፡ ኀሥራ፡ ደናግል፡ በአህጉረ፡ ይሁዳ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=12"/>መላእክት፡ በእደዊሆሙ፡ ተሰቅሉ፡ ገጸ፡ ሊቃናት፡ ኢያክበሩ።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=13"/>ወራዙት፡ ማሕረፀ፡ ጾሩ፡ ወመሐዛት፡ በዕፅ፡ ደክሙ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=14"/>ሊቃናት፡ እምነ፡ አንቀጽ፡ ተሥዕሩ፡ ወለወራዙት፡ ማኅሌቶሙ፡ ተሥዕረ።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=15"/>ፍሥሐ፡ ልብነ፡ ተሥዕረ፡ ተመይጠ፡ ለላሕ፡ ማኅሌትነ።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=16"/>ወድቀት፡ አክሊለ፡ ርእስነ፡ ወይኬ፡ ለነ፡ እስመ፡ ጌገይነ።</t:l>
+                  <t:l n="17">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=17"/>በእንተ፡ ዝንቱ፡ ደወየ፡ ልብነ፡ በእተ፡ እሉ፡ ጸልመ፡ ዐይንነ።</t:l>
+                  <t:l n="18">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=18"/>በእንተ፡ ደብረ፡ ጽዮን፡ እስመ፡ ኮነ፡ ገዳመ፡ ቈናጽል፡ ሖሩ፡ ቦቱ።</t:l>
+                  <t:l n="19">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=19"/>አንተ፡ እግዚኦ፡ ለዓለም፡ ትነብር፡ ወመንበርከሂ፡ ለትውልደ፡ ትውልድ።</t:l>
+                  <t:l n="20">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=20"/>ለምንት፡ ለግሙራ፡ ትረስዐነ፡ ተኀድገነ፡ ለነዋኅ፡ መዋዕል።</t:l>
+                  <t:l n="21">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=21"/>ሚጠነ፡ እግዚኦ፡ ኀቤከ፡ ወንትመየጥ፡ ሐድስ፡ መዋዕሊነ፡ ከመ፡ ትካት።</t:l>
+                  <t:l n="22">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Lam&amp;chapter=5&amp;verse=22"/>እስመ፡ መንኖ፡ መነንከነ፡ ተማዕከ፡ ላዕሌነ፡ ጥቀ።</t:l>
+               </t:ab>
+            </t:div>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

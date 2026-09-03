@@ -4,9 +4,9 @@
             <title xml:id="t1" xml:lang="am">መጽሐፈ፡ መድኃኒት፡</title>
             <title corresp="#t1" xml:lang="am" type="normalized">Maṣḥafa madḫānit</title>
             <title xml:lang="en" corresp="#t1">Book of Medicine</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt><respStmt xml:id="CH" corresp="https://betamasaheft.eu/team.html#CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -18,7 +18,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">16.6.2025 at 09:49:43</date><date type="lastModified">13.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1942Mashaf/main</idno><idno type="URI">https://betamasaheft.eu/LIT1942Mashaf</idno><idno type="filename">LIT1942Mashaf.xml</idno><idno type="ID">LIT1942Mashaf</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:15:44</date><date type="lastModified">13.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1942Mashaf/main</idno><idno type="URI">https://betamasaheft.eu/LIT1942Mashaf</idno><idno type="filename">LIT1942Mashaf.xml</idno><idno type="ID">LIT1942Mashaf</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -28,83 +28,85 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="chapter" match="div" use="div"><desc><list><item>Intro</item><item>Hair</item><item>Grey</item><item>Lasht</item><item>Law</item><item>Eye</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <abstract>
-            <p>Collection of medical prescriptions in a mixture of Gǝʾǝz and Amharic, which is reported to originate from Jerusalem, attested in
-               <ref type="mss" corresp="https://betamasaheft.eu/BLorient828">London, British Library, BL Oriental 828</ref>. It differs from <ref type="work" corresp="https://betamasaheft.eu/LIT7529Madhanit">Maṣḥafa Madḫanit</ref> and 
-               <ref type="work" corresp="https://betamasaheft.eu/LIT7530MashafaMad">Maṣḥafa Madḫanit</ref>.</p>
-         </abstract>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="am">Amharic</language>
-            <language ident="gez">Gǝʾǝz</language>
-         </langUsage>
-         <textClass>
-            <keywords>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="Magic" ana="#Magic"/>
-               <term key="Medicine" ana="#Medicine"/>
-            </keywords>
-         </textClass>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="chapter" use="@subtype"><desc><list><item>Intro</item><item>Hair</item><item>Grey</item><item>Lasht</item><item>Law</item><item>Eye</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:abstract>
+            <t:p>Collection of medical prescriptions in a mixture of Gǝʾǝz and Amharic, which is reported to originate from Jerusalem, attested in
+               <t:ref type="mss" corresp="https://betamasaheft.eu/BLorient828">London, British Library, BL Oriental 828</t:ref>. It differs from <t:ref type="work" corresp="https://betamasaheft.eu/LIT7529Madhanit">Maṣḥafa Madḫanit</t:ref> and 
+               <t:ref type="work" corresp="https://betamasaheft.eu/LIT7530MashafaMad">Maṣḥafa Madḫanit</t:ref>.</t:p>
+         </t:abstract>
+         <t:langUsage>
+            <t:language ident="en">English</t:language>
+            <t:language ident="am">Amharic</t:language>
+            <t:language ident="gez">Gǝʾǝz</t:language>
+         </t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Magic" ana="#Magic"/>
+               <t:term key="Medicine" ana="#Medicine"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
-         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
-         <change who="#DR" when="2017-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords and title</change>
-         <change who="#CH" when="2025-06-12"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Changed title; Added abstract and disambiguated from LIT7529Madhanit and LIT7530MashafaMad</change>
-         <change who="#CH" when="2025-06-13"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updates after reviews by Magdalena Krzyżanowska and Dorothea Reule</change>
-      </revisionDesc>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change when="2017-03-21" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords and title</change>
+         <change when="2025-06-12" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Changed title; Added abstract and disambiguated from LIT7529Madhanit and LIT7530MashafaMad</change>
+         <change when="2025-06-13" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updates after reviews by Magdalena Krzyżanowska and Dorothea Reule</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="saws:isDifferentTo" ref="http://purl.org/saws/ontology#isDifferentTo" active="https://betamasaheft.eu/LIT1942Mashaf" passive="https://betamasaheft.eu/LIT7529Madhanit"/>
                <relation name="saws:isDifferentTo" ref="http://purl.org/saws/ontology#isDifferentTo" active="https://betamasaheft.eu/LIT1942Mashaf" passive="https://betamasaheft.eu/LIT7530MashafaMad"/>
-               <relation name="dc:relation" ref="http://purl.org/dc/terms/relation" active="https://betamasaheft.eu/LIT1942Mashaf#Eye" passive="https://betamasaheft.eu/LIT7531Eye#Eye"><desc>Thematically similar
-                  to other prescriptions to the eye in <ref type="work" corresp="https://betamasaheft.eu/LIT7531Eye#Eye">Medical prescriptions in Amharic: Prescription against various diseases of the eye</ref>.</desc></relation>
-               <relation name="dc:relation" ref="http://purl.org/dc/terms/relation" active="https://betamasaheft.eu/LIT1942Mashaf#Eye" passive="https://betamasaheft.eu/LIT7529Madhanit#Cataract"><desc>Thematically similar
-                  to other prescriptions to the eye in <ref type="work" corresp="https://betamasaheft.eu/LIT7529Madhanit#Cataract">Maṣḥafa Madḫanit: Against cataract</ref>.</desc></relation>
-            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="bibliography">
+               <relation name="dc:relation" ref="http://purl.org/dc/terms/relation" active="https://betamasaheft.eu/LIT1942Mashaf#Eye" passive="https://betamasaheft.eu/LIT7531Eye#Eye"><t:desc xmlns:t="http://www.tei-c.org/ns/1.0">Thematically similar
+                  to other prescriptions to the eye in <t:ref type="work" corresp="https://betamasaheft.eu/LIT7531Eye#Eye">Medical prescriptions in Amharic: Prescription against various
+        diseases of the eye</t:ref>.</t:desc></relation>
+               <relation name="dc:relation" ref="http://purl.org/dc/terms/relation" active="https://betamasaheft.eu/LIT1942Mashaf#Eye" passive="https://betamasaheft.eu/LIT7529Madhanit#Cataract"><t:desc xmlns:t="http://www.tei-c.org/ns/1.0">Thematically similar
+                  to other prescriptions to the eye in <t:ref type="work" corresp="https://betamasaheft.eu/LIT7529Madhanit#Cataract">Maṣḥafa Madḫanit: Against cataract</t:ref>.</t:desc></relation>
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
             
-         </div>
-         <div type="edition" xml:lang="am">
-            <note>The division in textparts and the incipits are taken from <ref type="mss" corresp="https://betamasaheft.eu/BLorient828">London, British Library, BL Oriental 828</ref> according to the 
-               description in <bibl corresp="http://zotero.org/groups/358366/items/MIFKZCUN"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Wright1877BM"/><title level="m">Catalogue of the Ethiopic Manuscripts in the British Museum Acquired since the Year 1847</title><author><forename>William</forename><surname>Wright</surname></author><pubPlace>London</pubPlace><publisher>Gilbert and Rivington</publisher><date>1877</date><note type="url">https://archive.org/details/catalogueofethio00brituoft</note><note type="tags"><note type="tag">bm:Wright1877BM</note><note type="tag">British Museum</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note></note><note type="tag">bm:Wright1877BM</note><note type="tag">British Museum</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><citedRange unit="item">CCCC</citedRange><citedRange unit="page">324</citedRange></bibl>.</note>
-            <div type="textpart" subtype="chapter" xml:id="Intro">
-               <label>Introduction</label>
-               <ab>ዛቲ፡ መጽሐፈ፡ መድኃኒት፡ ዘውጽአት፡ እምኢየሩሳሌም፡ ለበሽታ፡ ሁሉ፡ ላካላትም፡ ሁሉ፡ በፊት፡ አዋዊወች፡ ሁሉ፡ ያከማቿት፡ ነች፡ ለበሽታ፡ ሁሉ፡ እንድትፈውስ፡</ab>
-            </div>
-            <div type="textpart" subtype="chapter" xml:id="Hair">
-               <label>Chapter 1 - About growing hair</label>
-               <ab>፩ አንቀጽ፡ ጠጉር፡ የሚያበቅል።</ab>
-            </div>
-            <div type="textpart" subtype="chapter" xml:id="Grey">
-               <label>Chapter 2 - About grey hair</label>
-               <ab>፪ አንቀጽ፡ ዘሽበት።</ab>
-            </div>
-            <div type="textpart" subtype="chapter" xml:id="Lasht">
-               <label>Chapter 3 - About the lizard</label>
-               <ab>፫ አንቀጽ፡ ዘላሽት።</ab>
-            </div>
-            <div type="textpart" subtype="chapter" xml:id="Law">
-               <label>Chapter 4 - About the baldness (?)</label>
-               <ab>፬ አንቀጽ፡ ዘባ<choice resp="MK"><sic>ኃ</sic><corr>ኋ</corr></choice>።</ab>
-            </div>
-            <div type="textpart" subtype="chapter" xml:id="Eye">
-               <label>Chapter 5 - About a hair growing in the eye</label>
-               <note>Thematically similar to <ref type="work" corresp="https://betamasaheft.eu/LIT7531Eye#Eye">Medical prescriptions in Amharic: Prescription against various diseases of the eye</ref> and
-                  <ref type="work" corresp="https://betamasaheft.eu/LIT7529Madhanit#Cataract">Maṣḥafa Madḫanit: Against cataract</ref>.</note>
-               <ab>፭ አንቀጽ፡ ዘዓይን፡ ጠጉር፡ እንደያበቅል።</ab>
-            </div>
-         </div>
-      </body>
-   </text></TEI>
+         </t:div>
+         <t:div type="edition" xml:lang="am" xml:id="div2LIT1942Mashaf">
+            <t:note>The division in textparts and the incipits are taken from <t:ref type="mss" corresp="https://betamasaheft.eu/BLorient828">London, British Library, BL Oriental 828</t:ref> according to the 
+               description in <t:bibl corresp="http://zotero.org/groups/358366/items/MIFKZCUN"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Wright1877BM"/><title level="m">Catalogue of the Ethiopic Manuscripts in the British Museum Acquired since the Year 1847</title><author><forename>William</forename><surname>Wright</surname></author><pubPlace>London</pubPlace><publisher>Gilbert and Rivington</publisher><date>1877</date><note type="url">https://archive.org/details/catalogueofethio00brituoft</note><note type="tags"><note type="tag">BLorient501</note><note type="tag">British Museum</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Wright1877BM</note></note><note type="tag">BLorient501</note><note type="tag">British Museum</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Wright1877BM</note><t:citedRange unit="item">CCCC</t:citedRange><t:citedRange unit="page">324</t:citedRange></t:bibl>.</t:note>
+            <t:div type="textpart" subtype="chapter" xml:id="Intro">
+               <t:label>Introduction</t:label>
+               <t:ab>ዛቲ፡ መጽሐፈ፡ መድኃኒት፡ ዘውጽአት፡ እምኢየሩሳሌም፡ ለበሽታ፡ ሁሉ፡ ላካላትም፡ ሁሉ፡ በፊት፡ አዋዊወች፡ ሁሉ፡ ያከማቿት፡ ነች፡ ለበሽታ፡ ሁሉ፡ እንድትፈውስ፡</t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" xml:id="Hair">
+               <t:label>Chapter 1 - About growing hair</t:label>
+               <t:ab>፩ አንቀጽ፡ ጠጉር፡ የሚያበቅል።</t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" xml:id="Grey">
+               <t:label>Chapter 2 - About grey hair</t:label>
+               <t:ab>፪ አንቀጽ፡ ዘሽበት።</t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" xml:id="Lasht">
+               <t:label>Chapter 3 - About the lizard</t:label>
+               <t:ab>፫ አንቀጽ፡ ዘላሽት።</t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" xml:id="Law">
+               <t:label>Chapter 4 - About the baldness (?)</t:label>
+               <t:ab>፬ አንቀጽ፡ ዘባ<t:choice resp="MK"><t:sic>ኃ</t:sic><t:corr>ኋ</t:corr></t:choice>።</t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" xml:id="Eye">
+               <t:label>Chapter 5 - About a hair growing in the eye</t:label>
+               <t:note>Thematically similar to <t:ref type="work" corresp="https://betamasaheft.eu/LIT7531Eye#Eye">Medical prescriptions in Amharic: Prescription against various
+        diseases of the eye</t:ref> and
+                  <t:ref type="work" corresp="https://betamasaheft.eu/LIT7529Madhanit#Cataract">Maṣḥafa Madḫanit: Against cataract</t:ref>.</t:note>
+               <t:ab>፭ አንቀጽ፡ ዘዓይን፡ ጠጉር፡ እንደያበቅል።</t:ab>
+            </t:div>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

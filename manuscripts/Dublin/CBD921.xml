@@ -3,48 +3,215 @@
          <titleStmt><title type="full">Dublin, Chester Beatty Library Dublin, CBD W 921</title>
             <title>Liturgical Texts and Prayers</title>
             <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
-            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="ESh" corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ESh">Elizaveta Shvarts</editor>
+            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ed-ESh"><resp>editor</resp><name>Elizaveta Shvarts</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+               Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">29.1.2024 at 21:20:03</date><date type="lastModified">4.5.2022</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD921/main</idno><idno type="URI">https://betamasaheft.eu/CBD921</idno><idno type="filename">CBD921.xml</idno><idno type="ID">CBD921</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 08:37:26</date><date type="lastModified">10.6.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD921/main</idno><idno type="URI">https://betamasaheft.eu/CBD921</idno><idno type="filename">CBD921.xml</idno><idno type="ID">CBD921</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
-                  <msIdentifier>
-                     <repository ref="https://betamasaheft.eu/INS0422Chester_Beatty_Library">Chester Beatty Library Dublin</repository>
-                     <collection>Ethiopian</collection>
-                     <idno facs="EMIP/Codices/3175/" n="98" corresp="https://betamasaheft.eu/api/iiif/CBD921/manifest">CBD W 921</idno>                     
-                     <altIdentifier>
-                        <repository ref="https://betamasaheft.eu/INS0447EMIP">Ethiopic Manuscript Imaging Project</repository>
-                        <collection>EMIP</collection>
-                        <idno>EMIP 3175</idno>
-                     </altIdentifier>
-                  </msIdentifier>
-               <msContents><summary>Liturgical Texts and Prayers</summary>
-                  </msContents>
-               <physDesc/>
+               <msIdentifier>
+                  <repository ref="https://betamasaheft.eu/INS0422Chester_Beatty_Library">Chester Beatty Library Dublin</repository>
+                  <collection>Ethiopian</collection>
+                  <idno facs="EMIP/Codices/3175/" n="98" corresp="https://betamasaheft.eu/api/iiif/CBD921/manifest">CBD W 921</idno>
+                  <altIdentifier>
+                     <repository ref="https://betamasaheft.eu/INS0447EMIP">Ethiopic Manuscript Imaging Project</repository>
+                     <collection>EMIP</collection>
+                     <idno>EMIP 3175</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="Codex">
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>
+                           <measure unit="leaf" quantity="85">85</measure>
+                           <measure unit="page" type="blank">2</measure>
+                           <locus target="#20v #84v"/>
+                           <dimensions type="outer" unit="mm">
+                              <height unit="mm">79</height>
+                              <width unit="mm">78</width>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="79" unit="mm"/><width quantity="78" unit="mm"/></dimensions>
+                        </extent>
+                       
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"><locus from="2r" to="80v"/></layout>
+                        <layout columns="1"><locus target="#1v"/>, <locus from="82r" to="83v"/></layout>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                 
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <decoNote xml:id="b1">Two wooden boards.</decoNote>
+                        <decoNote xml:id="b4" type="bindingMaterial">
+                           <material key="wood"/>
+                        </decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
                <history>
-                                    
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699">17th century</origDate> The
+                     manuscript consists of 2 production units. <ref target="#p1"/> consisting of
+                        <locus from="1" to="81"/> and <locus target="#84"/> is dated by Cerulli to
+                        17th century. The date of <ref target="#p2"/> consisting of
+                        <locus from="82" to="84"/> is unknown; it was sewn later to the codex. </origin>
+                  
+                  <provenance>The manuscript contains a long supplication in Amharic and Gǝʿǝz for
+                        <persName ref="https://betamasaheft.eu/PRS15446SagaZaab">Ṣaggā Zaʾab</persName>, written by <ref target="#h2"/>, on
+                        <locus from="19vb" to="20rb"/>. Another
+                     short supplication note for <persName ref="https://betamasaheft.eu/PRS15450WaldaMaryam">Walda Māryām</persName> can be found
+                     on <locus target="#67r"/>.</provenance>
                </history>
+               <msPart xml:id="p1">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary/>
+                     <msItem xml:id="p1_i1">
+                        <locus from="2r" to="2v"/>
+                     
+                        <title type="incomplete" ref="https://betamasaheft.eu/LIT6011FeastsList">List of commemorations for the Apostles and the
+        Evangelists</title>
+                     </msItem>
+                     <msItem xml:id="p1_i2">
+                        <locus from="3r" to="16ra"/>
+                        <title ref="https://betamasaheft.eu/LIT1716Kidanz">Kidān za-nagh</title>
+                        <notatedMusic>
+                           <desc>Contains music notation.</desc>
+                        </notatedMusic>
+                     </msItem>
+                     <msItem xml:id="p1_i3">
+                        <locus from="15v" to="16ra"/>
+                        <title type="incomplete" ref="https://betamasaheft.eu/LIT6011FeastsList">List of commemorations for the Apostles and the
+        Evangelists</title>
+                     </msItem>
+                     <msItem xml:id="p1_i4">
+                        <locus from="16v" to="18vb3"/>
+                        <title>Liturgical invocation of the Epiclesis</title>
+                        <incipit><q xml:lang="gez">በእንተ፡ ጥብሑ፡ ለወልድ፡ ቁ<supplied reason="omitted">ባ</supplied>ነ፡ አምልኮ፡ ዋሕድ፡ በውስተ፡ ዛቲ፡ ም<gap reason="illegible"/> ፡
+                              መንፈስ፡ ቅዱስ፡ ይረድ፡ ኃይለ፡ ጸለኢ፡ ይስደድ።</q></incipit>
+                     </msItem>
+                     <msItem xml:id="p1_i5">
+                        <locus from="18vb4" to="19vb"/>
+                        <title type="incomplete" ref="https://betamasaheft.eu/LIT2362Songof">Song of Songs</title>
+                        <notatedMusic>
+                           <desc>Contains music notation.</desc>
+                        </notatedMusic>
+                     </msItem>
+                     
+                     <msItem xml:id="p1_i6">
+                        <locus from="21r" to="73r"/>
+                        <title ref="https://betamasaheft.eu/LIT4711Mastabqwe">Mastabqʷǝʿān</title>
+                        <notatedMusic>
+                           <desc>Contains music notation.</desc>
+                        </notatedMusic>
+                     </msItem>
+                     <msItem xml:id="p1_i7">
+                        <locus from="73v" to="81v"/>
+                        <title type="incomplete" ref="https://betamasaheft.eu/LIT2709Matthew">Parable of the Ten Virgins (Mt
+                           25:1–25:13)</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                    
+                     <handDesc>
+                        <handNote xml:id="h1" script="Ethiopic" corresp="https://betamasaheft.eu/CBD921#p1_i1 #p1_i2 #p1_i6">
+                           <seg type="script" cert="medium">Late seventeenth-century script.</seg>
+                          
+                           <desc>Neat, careful, round shape, some letters have serifs.</desc>
+                        </handNote>
+                        <handNote xml:id="h2" script="Ethiopic" corresp="https://betamasaheft.eu/CBD921#p1_i3 #p1_i4 #p1_i7">
+                           <desc>Not very careful; big letters with serifs.</desc>
+                        </handNote>
+                        <handNote xml:id="h3" script="Ethiopic" corresp="https://betamasaheft.eu/CBD921#p1_i5">
+                        <desc>Not very careful; small letters with long horizontal strokes.</desc></handNote>
+                     </handDesc>
+                     <additions>
+                        <list>
+                           <item xml:id="a1">
+                              <locus target="#1v"/>
+                              <desc type="GuestText">A fragment of <title ref="https://betamasaheft.eu/LIT6447MalkeaGMQeddus">Malkǝ'a gabra manfas qǝddus</title>, written by <ref target="#h2"/>.</desc>
+                           </item>
+                           <item xml:id="a2">
+                              <locus from="19vb" to="20rb"/>
+                              <desc>A supplication in Amharic and Gǝʿǝz for
+                                 <persName ref="https://betamasaheft.eu/PRS15446SagaZaab">Ṣaggā Zaʾab</persName>, written by <ref target="#h2"/>.</desc>
+                              <q xml:lang="am">በዜና፡ ማርቆስ፡ መስቀል፡ በደብረ፡ ሊባኖስ፡ መስቀል፡
+                                 ተማኀጸኛለሁ፡ ለነፍሴም፡ ለሥጋዬም፡ ተማኀጸንኩ፡ ዕቀቦ፡ ወአድኃኖ፡ ለገብርከ፡ ጸጋ፡ ዘአብ።</q>
+                              <q xml:lang="gez">ዘሠረቆ፡ ወዘፈሐቆ፡ በሥልጣነ፡ ጴጥሮስ፡ ወጳውሎስ፡ ውጉዝ፡ ከመ፡ አርዩስ፡</q>
+                           </item>
+                           <item xml:id="e1">
+                              <locus target="#1r #84r"/>
+                              <desc>Pen trial.</desc>
+                           </item>
+                           <item xml:id="e2">
+                              <locus target="#4r #11v"/>
+                              <desc>Spaces reserved for rubrication were left blank.</desc>
+                           </item>
+                        </list>
+                     </additions>
+
+                  </physDesc>
+
                   <additional>
                      <adminInfo>
                         <recordHist>
-                           <source>                              
+                           <source>
                               <listBibl type="catalogue">
-                                 <bibl corresp="http://zotero.org/groups/358366/items/TDIJ8SGG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Cerulli1965ChesterBeatty"/><title level="m">I manoscritti etiopici della Chester Beatty Library in Dublino</title><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><author><forename>Enrico</forename><surname>Cerulli</surname></author><pubPlace>[Roma]</pubPlace><publisher>[Accademia nazionale dei Lincei]</publisher><date>1965</date><series><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><biblScope unit="volume">Serie ottava, 11/6</biblScope></series><biblScope unit="volume">Serie ottava, 11/6</biblScope><note type="tags"><note type="tag">Manuscripts</note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Cerulli1965ChesterBeatty</note><note type="tag">Dublin</note></note><note type="tag">Manuscripts</note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Cerulli1965ChesterBeatty</note><note type="tag">Dublin</note><citedRange unit="page">294</citedRange></bibl>
+                                 <bibl corresp="http://zotero.org/groups/358366/items/TDIJ8SGG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Cerulli1965ChesterBeatty"/><title level="m">I manoscritti etiopici della Chester Beatty Library in Dublino</title><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><author><forename>Enrico</forename><surname>Cerulli</surname></author><pubPlace>[Roma]</pubPlace><publisher>[Accademia nazionale dei Lincei]</publisher><date>1965</date><series><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><biblScope unit="volume">Serie ottava, 11/6</biblScope></series><biblScope unit="volume">Serie ottava, 11/6</biblScope><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note></note><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note><citedRange unit="page">294</citedRange></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
-                        </adminInfo>
+                     </adminInfo>
                   </additional>
-            </msDesc>
+               </msPart>
+               <msPart xml:id="p2">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary/>
+                     <msItem xml:id="p2_i1">
+                        <locus from="82r" to="83v"/>
+                        <title type="incomplete" ref="https://betamasaheft.eu/LIT2246salotz">Ṣalot za-ʾǝgzǝʾtǝna Māryām ba-Dabra Golgotā</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+<supportDesc>
+   <condition key="deficient">The text is mostly illegible due to severe dirtiness of the parchment.</condition>
+</supportDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote xml:id="h4" script="Ethiopic" corresp="https://betamasaheft.eu/CBD921#p2_i1">
+                           <seg type="rubrication">The name of <persName ref="https://betamasaheft.eu/PRS6819Mary">St Mary</persName>and elements of punctuation
+                              marks.</seg>
+                           <desc>Regular, careful, round, without serifs.</desc>
+                           <list type="abbreviations">
+                              <item>
+                           <abbr>መ፡</abbr> in <ref target="#p2_i1"/> stands for an unclear word.
+                              </item>
+                           </list>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+               </msPart>
+            <msPartsCount quantity="2"/></msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -54,29 +221,41 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:textClass>
             <t:keywords scheme="#ethioauthlist">
                <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
                <t:term key="Liturgy" ana="#Liturgy"/>
+               <t:term key="Bible" ana="#Bible"/>
+               <t:term key="NewTestament" ana="#NewTestament"/>
+               <t:term key="Prayers" ana="#Prayers"/>
+               <t:term key="OldTestament" ana="#OldTestament"/>
             </t:keywords>
          </t:textClass>
-         <t:langUsage><t:language ident="gez">Gǝʿǝz</t:language> <t:language ident="en">English</t:language></t:langUsage>         
+         <t:langUsage>
+            <t:language ident="gez">Gǝʿǝz</t:language>
+            <t:language ident="en">English</t:language>
+            <t:language ident="am">Amharic</t:language>
+         </t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#ES" when="2022-04-30"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created stub</change>
-         <change who="#ES" when="2022-05-04"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added EMIP</change>
+         <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+         <change when="2022-05-04" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added EMIP</change>
+         <change when="2026-06-10" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added information from the catalogue as well as
+            production units, hands and additions</change>
       </t:revisionDesc>
-   </teiHeader><standOff><listRelation><relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/CBD921" passive="https://betamasaheft.eu/EMIP03175"/></listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+   </teiHeader><standOff><listRelation>
+         <relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/CBD921" passive="https://betamasaheft.eu/EMIP03175"/>
+      </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       
       <t:body>
          <t:ab/>

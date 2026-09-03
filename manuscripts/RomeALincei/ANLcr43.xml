@@ -2,10 +2,10 @@
         <fileDesc>
             <titleStmt><title type="full">Rome, Biblioteca dell’Accademia Nazionale dei Lincei, Conti Rossini 43</title>
                 <title>Gospel of John, Miracles of St Mary, Miracles of Jesus, Image of Mary</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">17.12.2024 at 11:37:48</date><date type="lastModified">23.4.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr43/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr43</idno><idno type="filename">ANLcr43.xml</idno><idno type="ID">ANLcr43</idno></publicationStmt>
+            <date type="expanded">3.9.2026 at 09:54:05</date><date type="lastModified">8.10.2025</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr43/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr43</idno><idno type="filename">ANLcr43.xml</idno><idno type="ID">ANLcr43</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -26,130 +26,328 @@
                     <msContents>
                         <summary/>
                         <msItem xml:id="ms_i1">
-                            <locus from="5r" to="82v">Fols 5r–82v</locus>
-                            <title>Gospel of John</title>                          
+                            <locus from="5ra" to="82va"/>
+                            <title ref="https://betamasaheft.eu/LIT1693John">Gospel of John (Collection)</title>
+                            <note>Readings divided according to the days of the week.</note>
+                            <msItem xml:id="ms_i1.1">
+                                <locus from="5r"/>
+                                <title>Reading for Monday</title>                
+                                <incipit type="inscriptio" xml:lang="gez">ዘሰኑ<supplied reason="undefined" resp="PRS8999Strelcyn">ይ</supplied>
+                                        </incipit>
+                            </msItem>
+                            <msItem xml:id="ms_i1.2">
+                                <locus from="18rb"/>
+                                <title>Reading for Saturday</title>                
+                                <incipit type="inscriptio" xml:lang="gez">ዘቀዳም፡</incipit>
+                            </msItem>
+                            <msItem xml:id="ms_i1.3">
+                                <locus from="22ra"/>
+                                <title>Reading for Tuesday</title>                
+                                <incipit type="inscriptio" xml:lang="gez">ዘሠሉስ፡</incipit>
+                            </msItem>
+                            <msItem xml:id="ms_i1.4">
+                                <locus from="44ra"/>
+                                <title>Reading for Wednesday</title>                
+                                <incipit type="inscriptio" xml:lang="gez">ዘረቡዕ፡</incipit>
+                            </msItem>
+                            <msItem xml:id="ms_i1.5">
+                                <locus from="53vb"/>
+                                <title>Reading for Thursday</title>                
+                                <incipit type="inscriptio" xml:lang="gez">ዘሐሙስ፡</incipit>
+                            </msItem>
+                            <msItem xml:id="ms_i1.6">
+                                <locus from="68ra"/>
+                                <title>Reading for Friday</title>                
+                                <incipit type="inscriptio" xml:lang="gez">ዘዓርብ፡</incipit>
+                            </msItem>
+                            <msItem xml:id="ms_i1.7">
+                                <locus from="75vb"/>
+                                <title>Reading for Saturday</title>                
+                                <incipit type="inscriptio" xml:lang="gez">ዘቀዳም፡</incipit>
+                            </msItem>
+                            <msItem xml:id="ms_i1.8">
+                                <locus from="76rb"/>
+                                <title>Reading for Sunday</title>                
+                                <incipit type="inscriptio" xml:lang="gez"/>
+                            </msItem>
                         </msItem>
                         <msItem xml:id="ms_i2">
-                            <locus from="82v" to="151r">Fols 82v–151r</locus>
-                            <title>34 Miracles of Mary</title>
-                            <msItem xml:id="ms_i2.1">                                
-                                <title>Miracle 1</title>                                
+                            <locus from="82vb" to="151ra"/>
+                            <title type="incomplete" ref="https://betamasaheft.eu/LIT2384Taamme">34 Miracles of Mary</title>
+                            <msItem xml:id="ms_i2.1">
+                                <locus target="#82vb"/>
+                                <title>Introduction</title>
+                                <note>Introduction partly similar to <ref type="work" corresp="https://betamasaheft.eu/LIT3584Intro">Introductive exhortation to the Taʾammǝra Māryām</ref> with a similar set of miracles as
+                                    <ref type="mss" corresp="https://betamasaheft.eu/BNFet60#ms_i1.2">Paris, Bibliothèque nationale de France, BnF Éthiopien 60: Taʾammǝra Māryām (in ms_i1.2)</ref>.</note>
+                                
+                                <incipit xml:lang="gez">በስመ፡ <gap reason="ellipsis"/> ንዌጥን፡ በረድኤተ፡ እግዚአብሔር፡ ወበሠናይ፡ ሀብቱ፡ ዐጽሒፈ፡ ተአምሪሃ፡ ለእግዝእትነ፡
+                                    ቅድስት፡ ድንግል፡ በ፪ኤ፡<surplus>፡</surplus> ማርያም፡ ወላዲተ፡ አምላክ፡ <gap reason="ellipsis"/><pb n="83ra"/> ንዑ፡ ንነግረክሙ፡
+                                    አኃዊነ፡ ፍቁራን። ውሉደ፡ ቤተ፡ ክርስቲያን፡ እግዚአብሔር፡ ይባርክሙ፡ ወያብርህ፡ አዕይንት፡ አልባቢክሙ፡ <surplus>፡</surplus> ለሰሚዓ፡ ተአምሪሃ፡
+                                    ለእግዝእትነ፡ ማርያም፡</incipit>
                             </msItem>
-                            <msItem xml:id="ms_i2.2">
-                                <title>Miracle 2</title>
+                            <msItem xml:id="ms_i2.2">                                
+                                <locus from="87ra" to="91rb"/>
+                                <title ref="https://betamasaheft.eu/LIT3586Miracle">Miracle of Mary: Miracle of Hildephonsus (Dexius) of
+        Toledo</title>    
+                                <incipit xml:lang="gez">፩ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ ብእሲ፡ ኤጲስ፡ ቆጶስ፡ ውስተ፡ አሐቲ፡ ቤተ፡ 
+                                    ክ<choice resp="CH"><sic resp="PRS8999Strelcyn">ተ</sic><corr>ር</corr></choice>ስቲያን፡ ዘሀገረ፡ ጥልጥያ፡ ዘስሙ፡ 
+                                    ደቅስዩስ።</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.3">
-                                <title>Miracle 3</title>
+                                <locus from="91va" to="95ra"/>
+                                <title ref="https://betamasaheft.eu/LIT5398MiracleAstaqaos">Miracle of Mary: The story of ʾAstaqāʾos, the European
+        potter who was buried alive</title>
+                                <note>With an incipit different to the one in <ref type="mss" corresp="https://betamasaheft.eu/EMML2999">Collegeville, Hill Museum and Manuscript Library, MS EMML no. 2999</ref>.</note>
+                                <incipit xml:lang="gez">፪ ተአምሪሃ፡ <gap reason="ellipsis"/> ስምዑ፡ አበውየ፡ ወአኃውየ፡ ከመ፡ ንንግርክሙ፡ ዘንተ፡ ተአምረ፡ ዓቢየ።
+                                    <gap reason="ellipsis"/><cb n="91vb"/><gap reason="ellipsis"/> ወይቤሉ፡ ነበረ፡ በምድረ፡ ሶርያ፡ ፩ ብእሲ፡ ዘስሙ፡ ለብሐዊ፡ ፈራሄ፡
+                                    እግዚአብሔር። ወያፈቅራ፡ ለእግዝእትነ፡ ድንግል፡ በ፪ኤ፡ ማርያም፡ <gap reason="ellipsis"/> በ፩ እመዋዕል፡ አስተርአየቶ፡ እግዝእትነ፡ 
+                                    <gap reason="ellipsis"/><pb n="92ra"/> ለውእቱ፡ ለብሐዊ፡ በዕለተ፡ ሰኑይ፡ ጊዜ፡ ነግህ፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.4">
-                                <title>Miracle 4</title>
+                                <locus from="95rb" to="96rb"/>
+                                <title ref="https://betamasaheft.eu/LIT3588Miracle">Miracle of Mary: Miracle of a picture of Mary speaking to a
+        worker</title>
+                                <incipit xml:lang="gez">፫ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ ገባ<sic>ረ</sic>ዊ፡ ዘኮነ፡ ያወትር፡ ኵሎ፡ ዕለተ፡ 
+                                    <pb n="95va"/> ሰላመ፡ መልአክ፡ ወይዌድሳ፡ ለእግዝእትነ፡ ቅድስት፡ ድንግል፡ በ፪ኤ፡ ማርያም፡ <gap reason="ellipsis"/> ዘእንበለ፡ ፅርዓት፡ ሰርከ፡ 
+                                    ወነግሀ፡ ወመንፈቀ፡ መዓልት፡ ወነበረ፡ ከመዝ።</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.5">
-                                <title>Miracle 5</title>
+                                <locus from="96rb" to="98ra"/>
+                                <title ref="https://betamasaheft.eu/LIT3589Miracle">Miracle of Mary: Miracle of a Jew of ʾAḫmīm</title>
+                                <incipit xml:lang="gez">፬ ተአምሪሃ፡ <gap reason="ellipsis"/><cb n="96va"/><gap reason="ellipsis"/>  ወሀሎ፡ ፩ ብእሲ፡ 
+                                    ዕብራዊ፡ ውስተ፡ ሀገረ፡ አክሚም፡ ዘያፈቅራ፡ ለእግዝእትነ፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.6">
-                                <title>Miracle 6</title>
+                                <locus from="98ra" to="99va"/>
+                                <title ref="https://betamasaheft.eu/LIT3590Miracle">Miracle of Mary: Miracle of the scribe Damianus from
+        Philippi</title>
+                                <incipit xml:lang="gez">፭ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ መነኮስ፡ በሀገ<cb n="98rb"/>ረ፡ ፊልጵስዮስ፡ ዘስሙ፡ ድምያኖስ፡ 
+                                    ወያፈቅራ፡ ለእግዝእትነ፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.7">
-                                <title>Miracle 7</title>
+                                <locus from="99va" to="101ra"/>
+                                <title ref="https://betamasaheft.eu/LIT5903MMAbbasShort">Miracle of Mary: Miracle of the Bishop of Rome, ʾAbbās
+        (Short version)</title>
+                                <incipit xml:lang="gez">፮ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ ብእሲ፡ እምጳጳሳት፡ ሮሜ፡ ዘይቤልዎ፡ አባስ፡ ወኄር፡ ብእሲሁ፡ ውእቱ፡
+                                    </incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.8">
-                                <title>Miracle 8</title>
+                                <locus from="101ra" to="103ra"/>
+                                <title ref="https://betamasaheft.eu/LIT7150Miracle">The Revelation of the Virgin Mary to the Devoted Monk
+        Yǝsḥaq</title>
+                                <incipit xml:lang="gez">፯ ተአምሪሃ፡ <gap reason="ellipsis"/><cb n="101rb"/><gap reason="ellipsis"/> ወሀሎ፡ ፩ ብእሲ፡ 
+                                    መነኮስ፡ ዘስሙ፡ ይስሐቅ፡ ወያፈቅራ፡ ለእግዝእትነ፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.9">
-                                <title>Miracle 9</title>
+                                <locus from="103ra" to="104va"/>
+                                <title ref="https://betamasaheft.eu/LIT3593Miracle">Miracle of Mary: Miracle of the young girl called Mary, from
+        Dafrā</title>
+                                <incipit xml:lang="gez">፰ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ ብእሲ፡ ፈራሄ፡ እግዚአብሔር፡ ዘያፈቅራ፡ ለእግዝእትነ፡
+                                    <gap reason="ellipsis"/> ወሀገሩስ፡ ድፍራ። ወአውሰበ፡ ብእሲተ፡ ወወለደ፡ እምኔሃ፡ ፫ ውሉደ፡ ፪ ተባዕተ፡ ወአሐቲ፡ እንተ፡ ትንእስ፡ ስማ፡ ማርያም፡
+                                    ወሞተት፡ እሞሙ፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.10">
-                                <title>Miracle 10</title>
+                                <locus from="104va" to="106va"/>
+                                <title ref="https://betamasaheft.eu/LIT3594Miracle">Miracle of Mary: Miracle of a French painter whose scaffold was
+        overthrown by the devil</title>
+                                <incipit xml:lang="gez">፱ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ ሠዓሊ፡ ወ<cb n="104vb"/>አልቦ፡ ዘይትሜሰሎ፡ በውእቱ፡ 
+                                    አዝማን፡ በገቢረ፡ ሥዕል። <gap reason="ellipsis"/> በሀገረ፡ አፍርንሳ፡</incipit>
                             </msItem>
-                            <msItem xml:id="ms_i2.11">                                
-                                <title>Miracle 11</title>                                
+                            <msItem xml:id="ms_i2.11">
+                                <locus from="106va" to="107va"/>
+                                <title ref="https://betamasaheft.eu/LIT3595Miracle">Miracle of Mary: Miracle of a sick man in a hospital whom Mary
+        carries to Jerusalem</title>
+                                <incipit xml:lang="gez">፲ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀለወት፡ ሥዕለ፡ እግዝእትነ፡ ቅድስት፡ ድንግል፡ <gap reason="ellipsis"/>
+                                    በደብ<cb n="106vb"/>ረ፡ ነጋድያን፡ በቤተ፡ ሕሙማን፡ መንገለ፡ ምሥራቅ፡ ዘለለ፡ ጽባሑ፡ ይትመኃፀኑ፡ ባቲ፡ ሕሙማን።</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.12">
-                                <title>Miracle 12</title>
+                                <locus from="107va" to="110rb"/>                                
+                                <title ref="https://betamasaheft.eu/LIT3596Miracle">Mary Crowned with Roses</title>              
+                                <incipit xml:lang="gez">፲፩ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ ወሬዛ፡ ዘሠናይ፡ አርአያሁ፡ ዘስሙ፡ ዘካርያስ፡ እምዘመደ፡ ነገሥት፡ 
+                                    ዘሀገረ፡ ሮሜ።</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.13">
-                                <title>Miracle 13</title>
+                                <locus from="110rb" to="111rb"/>
+                                <title ref="https://betamasaheft.eu/LIT3597Miracle">Miracle of Mary: Miracle of Juliana and Barbara from
+        Bethlehem</title>
+                                <incipit xml:lang="gez">፲፪ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀለዋ፡ ፪ አንስት፡ አዕማተ፡ እግዝእትነ፡ <gap reason="ellipsis"/> በቤተ፡ ልሔም፡ እምአዋልደ፡
+                                    ይሁዳ፡ ስማ፡ ለአሐቲ፡ ዮልያና፡ ወስማ፡ ለካልእታ፡ በር<cb n="110va"/>ባራ።</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.14">
-                                <title>Miracle 14</title>
+                                <locus from="111rb" to="112vb"/>
+                                <title ref="https://betamasaheft.eu/LIT3598Miracle">Miracle of Mary: Miracle of three Arabs in Rīf and Salomon, abbot
+        of Kalamon</title>
+                                <incipit xml:lang="gez">፲፫ ተአምሪሃ፡ <gap reason="ellipsis"/> ወኮነ፡ በ፩ እ<cb n="111va"/>መዋዕል፡ ሖሩ፡ ኀበ፡ ምድረ፡ ሪፍ፡ ፫ ሰብእ፡
+                                    ዓረባውያን፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.15">
-                                <title>Miracle 15</title>
+                                <locus from="112vb" to="114ra"/>
+                                <title ref="https://betamasaheft.eu/LIT3599Miracle">Miracle of Mary: Miracle of the construction of a church in
+        Jericho</title>
+                                <incipit xml:lang="gez">፲፬ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ደብር፡ በሀገረ፡ ጽርእ፡ ወኑኁ፡ መጠነ፡ መንፈቀ፡ ምዕራፍ፡ እምኢያሪኮ፡
+                                    ወሀለወት፡ ህየ፡ ቤተ፡ ክርስቲያን፡ በስሙ፡ ለእግዝእትነ፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.16">
-                                <title>Miracle 16</title>
+                                <locus from="114ra" to="115vb"/>
+                                <title ref="https://betamasaheft.eu/LIT3600Miracle">Miracle of Mary: Miracle of the blind priest John from the church
+        of St Mercurius in Cairo</title>
+                                <incipit xml:lang="gez">፲፭ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀለወት፡ ቤተ፡ ክርስቲያን፡ 
+                                    በሀገረ፡ ምስር<choice resp="PRS8999Strelcyn"><sic>።</sic><corr>፡</corr></choice> በስመ፡ ስምዕት፡ መርቆሬዮስ፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.17">
-                                <title>Miracle 17</title>
+                                <locus from="115vb" to="117rb"/>
+                                <title ref="https://betamasaheft.eu/LIT3601Miracle">Miracle of Mary: Miracle of a rich man from Qʷalāsis who fought
+        the Qʷǝz and whose eye was pierced by an arrow</title>
+                                <incipit xml:lang="gez">፲፮ ተአምሪሃ፡ <gap reason="ellipsis"/><pb n="116ra"/><gap reason="ellipsis"/> ወሀሎ፡ ፩ ብእሲ፡ 
+                                    በደሴተ፡ ቈላስያስ፡ ባዕል፡ ጥቀ፡ ወሖረ፡ ሀገረ፡ ትርኵ፡ በሐመር፡ ከመ፡ ይፅብዖሙ፡ ለቍዝ።</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.18">
-                                <title>Miracle 18</title>
+                                <locus from="117rb" to="119rb"/>
+                                <title ref="https://betamasaheft.eu/LIT3602Miracle">Miracle of Mary: Miracle of Abraham, his wife Gerā and their
+        blind daughter Elisabeth from Badramān</title>
+                                <incipit xml:lang="gez">፲፯ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ ብእሲ፡ በሀገረ፡ ፅዒድ፡ ዘትሰመይ፡ ብድርማን፡ 
+                                    ዘስ<cb n="116va"/>ሙ፡ አብርሃም፡ ወስመ፡ ብእሲቱ፡ ጌራ፡ አንስት፡ ብዑላን፡ ጥቀ፡ በንዋይ፡ ወፍጹማን፡ በምግባረ፡ ሠናይ።
+                                    ወቦሙ፡ አሐቲ፡ ወለት፡ እንተ፡ ስማ፡ ኤልሳቤጥ።</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.19">
-                                <title>Miracle 19</title>
+                                <locus from="119rb" to="121ra"/>
+                                <title ref="https://betamasaheft.eu/LIT3603Miracle">Miracle of Mary: Miracle of a widow and her poor daughters Maria,
+        Martha, and Yawāhit</title>
+                                <incipit xml:lang="gez">፲፰ ተአምሪሃ፡ <gap reason="ellipsis"/><pb n="119va"/><gap reason="ellipsis"/> ወሀለወት፡ ብእሲት፡
+                                    ነዳይት፡ ወሞተ፡ ምታ። ወኀደገ፡ አዋልደ፡ ሠላስ፡ ለአሐቲ፡ ስማ፡ ማርያም፡ ወለካልእታ፡ ማርታ። ወለሣልሲት፡ የዋሂት፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.20">
-                                <title>Miracle 20</title>
+                                <locus from="121ra" to="122rb"/>
+                                <title ref="https://betamasaheft.eu/LIT3604Miracle">Miracle of Mary: Miracle of the two scribes who were
+        brothers</title>
+                                <incipit xml:lang="gez">፲፱ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀለዉ፡ <cb n="121rb"/> በአሐቲ፡ ሀገር፡ እምአኅጉረ፡ ክርስቲያን፡ 
+                                    ፪ አኃው፡ ፍቁራን። ወየአምሩ፡ ግብረ፡ እድ፡ ወግብረ፡ እዶሙሰ፡ ጽሒፍ፡ ፩ ሠናይ፡ ይጽሕፍ፡ ወካልኡሰ፡ ኢያጠንቀቀ፡ ጽሒፈ።</incipit>
                             </msItem>
-                            <msItem xml:id="ms_i2.21">                                
-                                <title>Miracle 21</title>                                
+                            <msItem xml:id="ms_i2.21">
+                                <locus from="123rb" to="123rb"/>
+                                <title ref="https://betamasaheft.eu/LIT3605Miracle">Miracle of Mary: Miracle of George the Younger, who was delivered
+        from prison</title>
+                                <incipit xml:lang="gez">፳ ተአምሪሃ፡ <gap reason="ellipsis"/><pb n="122va"/><gap reason="ellipsis"/> ወሀሎ፡ ፩ ብእሲ፡
+                                    ዘስሙ፡ ጊዮርጊስ፡ ሐዲስ፡ መስተጋድል፡ ፈድፋደ፡</incipit>
                             </msItem>
-                            <msItem xml:id="ms_i2.22">
-                                <title>Miracle 22</title>
+                            <msItem xml:id="ms_i2.22">     
+                                <locus from="123va" to="124vb"/>
+                                <title ref="https://betamasaheft.eu/LIT3606Miracle">Miracle of Mary: Miracle of the old priest Qaṭīr at ʾƎlkǝsus
+        (al-Khusus)</title>              
+                                <incipit xml:lang="gez"><supplied reason="omitted" resp="PRS8999Strelcyn">፳፩</supplied> ተአምሪሃ፡ 
+                                    <gap reason="ellipsis"/> ወሀሎ፡ ፩ ቀሲስ፡ በሀገረ፡ እልክሱስ፡ ዘስሙ፡ ከጢር።</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.23">
-                                <title>Miracle 23</title>
+                                <locus from="124vb" to="126vb"/>
+                                <title ref="https://betamasaheft.eu/LIT3607Miracle">Miracle of Mary: Miracle of the two brothers Tāg and Nazib from
+        Dalgā</title>
+                                <incipit xml:lang="gez">፳፪፡ ተአምሪሃ፡ <gap reason="ellipsis"/><pb n="125ra"/><gap reason="ellipsis"/> ወሀለዉ፡ ፪፡ አኃው፡
+                                    ውስተ፡ ሀገር፡ ዘስሙ፡ ደልጋ፡ እለ፡ የአልሉ፡ አልባሰ፡ በቀለመ፡ ኒል፡ ፩ ቀሲስ፡ ዘስሙ፡ ታግ፡ ወካልኡኒ፡ ዲያቆን፡ ወስሙ፡ ነዚብ።</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.24">
-                                <title>Miracle 24</title>
+                                <locus from="126vb" to="128va"/>
+                                <title ref="https://betamasaheft.eu/LIT3608Miracle">Miracle of Mary: Miracle of a European man with a petrified
+        foot</title>
+                                <incipit xml:lang="gez">፳፫፡ ተአምሪሃ፡ <gap reason="ellipsis"/><pb n="127ra"/><gap reason="ellipsis"/> ወሀሎ፡ ፩ ብእሲ፡
+                                    በብሔረ፡ አፍርንጊ፡ ዘዕብን፡ እግሩ፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.25">
-                                <title>Miracle 25</title>
+                                <locus from="128va" to="129va"/>
+                                <title ref="https://betamasaheft.eu/LIT3609Miracle">Miracle of Mary: Miracle of the leprous Bishop Mercurius</title>
+                                <incipit xml:lang="gez">፳፬፡ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ ኤጲስ፡ ቆጶስ፡ ዘስሙ፡ መርቆሬዎስ፡ ዘኮነ፡ ለምጽ።</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.26">
-                                <title>Miracle 26</title>
+                                <locus from="129va" to="131ra"/>
+                                <title ref="https://betamasaheft.eu/LIT3610Miracle">Miracle of Mary: Miracle of a woman from Hartalom/Hartarom with
+        broken legs</title>
+                                <incipit xml:lang="gez">፳፭፡ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀለወት፡ 
+                                    ቤተ፡ ክርስቲያን<choice resp="PRS8999Strelcyn"><sic>።</sic><corr>፡</corr></choice> በሀገረ፡ ሐርተሎም፡ ሀለወት፡ ውስቴታ፡ 
+                                    ሥዕለ፡ እግዝእትነ፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.27">
-                                <title>Miracle 27</title>
+                                <locus from="131ra" to="135ra"/>
+                                <title ref="https://betamasaheft.eu/LIT3611Miracle">Miracle of Mary: Miracle of Sophia, abbess of Mount Carmel</title>
+                                <incipit xml:lang="gez">፳፮፡ ተአምሪሃ፡ <gap reason="ellipsis"/><cb n="131rb"/><gap reason="ellipsis"/> ወሀለወት፡ አሐቲ፡ 
+                                    እመ፡ ምኔት፡ በደብረ፡ ቀርሜሎስ።</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.28">
-                                <title>Miracle 28</title>
+                                <locus from="135ra" to="136rb"/>
+                                <title ref="https://betamasaheft.eu/LIT3612Miracle">Miracle of Mary: Miracle of the Phoenician evil man called
+        Bārok</title>
+                                <incipit xml:lang="gez">፳፯፡ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ ብእሲ፡ እኩይ፡ በሀገረ፡ ፊንቂ፡ ዘስሙ፡ ባሮክ፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.29">
-                                <title>Miracle 29</title>
+                                <locus from="136rb" to="137vb"/>
+                                <title ref="https://betamasaheft.eu/LIT3613Miracle">Miracle of Mary: Miracle of Anastasius, a deacon of Rome</title>
+                                <incipit xml:lang="gez">፳፰፡ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ ዲያቆን፡ ዘስሙ፡ አንስጣስዮስ፡ በሀገረ፡ ሮሜ፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.30">
-                                <title>Miracle 30</title>
+                                <locus from="137vb" to="141ra"/>
+                                <title ref="https://betamasaheft.eu/LIT3614Miracle">Miracle of Mary: Miracle of a monk of the Monastery of St Samuel
+        of Kalamon</title>
+                                <incipit xml:lang="gez">፳፱፡ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ መነኮስ፡ በደብረ፡ አባ፡ ሳሙኤል፡ ዘቀልሞን፡ ወያፈቅራ፡ ለእግዝእትነ፡
+                                    ቅድስት፡</incipit>
                             </msItem>
-                            <msItem xml:id="ms_i2.31">                                
-                                <title>Miracle 31</title>                                
+                            <msItem xml:id="ms_i2.31">
+                                <locus from="141rb" to="144vb"/>
+                                <title ref="https://betamasaheft.eu/LIT3615Miracle">Miracle of Mary: The Story of the Cannibal of Qǝmr</title>
+                                <incipit xml:lang="gez">፴፡ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ ብእሲ፡ በሀገረ፡ ቅምር፡ ክቡረ፡ ዘመድ፡ በስምዑ፡ 
+                                    ክርስቲያናዊ፣ ወኃጢ<pb n="141va"/>አቱ፡ ብዙኅ፡ እምኃጢአተ፡ ኵሉ፡ ሰብእ፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.32">
-                                <title>Miracle 32</title>
+                                <locus from="144vb" to="146vb"/>                                
+                                <title ref="https://betamasaheft.eu/LIT3616Miracle">Miracle of Mary: Miracle of a poor widow and her son who became a
+        thief and was crucified</title>
+                                <incipit xml:lang="gez">፴፩፡ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀለወት፡ አሐቲ፡ ብእሲት፡ መበለት፡ ነዳይት፡ ወባቲ፡ ፩ ወልደ።</incipit>                                
                             </msItem>
                             <msItem xml:id="ms_i2.33">
-                                <title>Miracle 33</title>
+                                <locus from="146vb" to="148vb"/>
+                                <title ref="https://betamasaheft.eu/LIT3617Miracle">Miracle of Mary: Miracle of a pregnant woman</title>
+                                <incipit xml:lang="gez">፴፪፡ ተአምሪሃ፡ <gap reason="ellipsis"/><pb n="147ra"/><gap reason="ellipsis"/> ወሀለወት፡ አሐቲ፡
+                                    ብእሲት፡ ውስተ፡ ፩ ሀገር፡ ወፅንስት፡ ይእቲ። ወአልጸቀት፡ ለወሊድ።</incipit>
                             </msItem>
                             <msItem xml:id="ms_i2.34">
-                                <title>Miracle 34</title>
+                                <locus from="149ra" to="149vb"/>
+                                <title ref="https://betamasaheft.eu/LIT3618Miracle">Miracle of Mary: Miracle of the thirsty dog whom the Virgin gave
+        water</title>
+                                <incipit xml:lang="gez">፴፫፡ ተአምሪሃ፡ <gap reason="ellipsis"/> ወሀለዋ፡ አንስት፡ ምስለ፡ እግዝእትነ፡ <gap reason="ellipsis"/> ወመጽአ፡ ጽምዕ፡ ከልብ፡
+                                    ወሰደዳሁ፡ እማንቱ፡ አንስት፤</incipit>
+                            </msItem>
+                            <msItem xml:id="ms_i2.35">
+                                <locus from="149vb" to="151ra"/>
+                                <title ref="https://betamasaheft.eu/LIT3633Miracle">Miracle of Mary: Five Pains of the Virgin, Conversation of the
+        Virgin and Jesus Christ; promise of salvation to those who recite the Paternoster and Ave
+        Maria</title>
+                                <incipit xml:lang="gez">ተአምሪሃ፡ <gap reason="ellipsis"/> ወበአሐቲ፡ ዕለት፡ ይቤላ፡ ፡ እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ለእሙ፡ አይ፡ ኀዘን፡ የዓቢ፡ እምን፡ ኀዘናት፡ 
+                                    ዘረከበኪ፡ በእንቲአየ።</incipit>
                             </msItem>
                         </msItem>
                         <msItem xml:id="ms_i3">
-                            <locus from="151r" to="158v">Fols 151r–158v</locus>
+                            <locus from="151rb" to="158va"/>
                             <title>3 Miracles of Jesus</title>      
-                            <msItem xml:id="ms_i3.1">                                
-                                <title>Miracle 1</title>                                
+                            <msItem xml:id="ms_i3.1">  
+                                <locus from="151rb" to="153vb"/>
+                                <title ref="https://betamasaheft.eu/LIT6397MJVirginity"><seg corresp="LIT6397MJVirginity">No item: LIT6397MJVirginity</seg></title>
+                                <incipit xml:lang="gez">፩ ተአምሪሁ፡ ለእግዚእነ፡ ወአምላክነ፡ ወመድኃኒነ፡ ኢየሱስ፡ ክርስቶስ። <gap reason="ellipsis"/> ወሶበ፡ በጽሐ፡ ጊዜ፡ ልደቱ፡ 
+                                    ለእግዚእነ፡ ወአምላክነ፡ ወመድኃኒነ፡ ኢየሱስ፡ ክርስቶስ። ወፅአ፡ ትእዛዝ፡ እምኀበ፡ ቄሳር፡ ንጉሥ። ከመ፡ ይኈለቁ፡ ኵሎሙ፡ ደቂቀ፡ እስራኤል፡</incipit>
                             </msItem>
                             <msItem xml:id="ms_i3.2">
-                                <title>Miracle 2</title>
+                                <locus from="154ra" to="155ra"/>
+                                <title ref="https://betamasaheft.eu/LIT6012MJSalome">Miracle of Jesus: Salome praises Jesus</title>
+                                <incipit xml:lang="gez">፪ ተአምሪሁ፡ <gap reason="ellipsis"/> ወሶበ፡ ሰምዓት፡ ሰሎሜ፡ ነገሮ፡ ለሕፃን፡ ሰብሐቶ፡ እንዘ፡ ትብል፡ ኦዘይነብር፡ በየማኑ፡
+                                    ለአብ፡ ስብሐት፡ ለከ።</incipit>
                             </msItem>
                             <msItem xml:id="ms_i3.3">
-                                <title>Miracle 3</title>
+                                <locus from="155rb" to="158va"/>
+                                <title ref="https://betamasaheft.eu/LIT6020MJCrucifixion">Miracle of Jesus: The crucifixion</title>
+                                <incipit xml:lang="gez">፫ ተአምሪሁ፡ <gap reason="ellipsis"/> ወእምዝ፡ አምጽኡ፡ ልብሰ፡ ሜላት፡ እምአልባሰ፡ ነገሥት፡ ወአልበስዎ፡ ለእግዚእነ፡
+                                    ወአልበስዎ፡ ላዕሌሁ፡ ልብሰ፡ አሮን።</incipit>
                             </msItem>
                         </msItem>
                         <msItem xml:id="ms_i4">
-                            <title>Malke'a Maryam (Chaîne 362)</title>
+                            <locus from="158vb" to="164vb"/>
+                            <title ref="https://betamasaheft.eu/LIT3082RepCh362">Malkǝʾa kidāna mǝḥrat</title>
+                            <incipit xml:lang="gez">እግዚአብሔር፡ ወሀቤ፡ ብርሃን፡ ዘይሤለስ፡ በአካሉ።</incipit>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -158,52 +356,75 @@
                                 <support>
                                     <material key="parchment"/></support>
                                 <extent>
-                                    <measure unit="leaf">46</measure>
-                                    
+                                    <measure unit="leaf" quantity="168">168</measure>
+                                    <measure unit="page" quantity="10" type="blank">10</measure><locus from="1r" to="4v"/>
+                                                            <locus target="#167r #168v"/>
                                     <dimensions type="outer" unit="mm">
-                                        <height unit="mm"> 180</height>
+                                        <height unit="mm">180</height>
                                         <width unit="mm">120</width>
-                                    </dimensions>
+                                    </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="180" unit="mm"/><width quantity="120" unit="mm"/></dimensions>
                                 </extent>
-                                
                                 <condition key="good"/>
                             </supportDesc>
-                            <layoutDesc><layout columns="2" writtenLines="18 20"/></layoutDesc>
+                            <layoutDesc><layout columns="2" writtenLines="18 20"/><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="20"/></layout></layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote xml:id="h1" script="Ethiopic"><seg type="ink">black and red ink</seg></handNote>                            
+                            <handNote xml:id="h1" script="Ethiopic">
+                                <seg type="script">First half of the twentieth-century script.</seg>
+                                <seg type="ink">black and red ink</seg>
+                                <date notBefore="1900" notAfter="1950">First half of the twentieth century</date>
+                                 <desc>Fairly neat handwriting</desc>
+                            </handNote>
                         </handDesc>
-                        
                         <additions>
                             <list>
-                                
-                                <item xml:id="e1">
-                                    <locus from="2r">Fols 2r and following</locus>
-                                    <desc>Ex libris Carlo Conti Rossini</desc>
+                                <item xml:id="a1">
+                                    <locus from="165r" to="166vb"/>
+                                    <desc type="GuestText">The beginning of a miracle of Jesus, added by a very clumsy hand: 
+                                        <ref type="work" corresp="https://betamasaheft.eu/LIT6014MJTetmena">Miracle of Jesus: The stolen cows of Ṭǝṭmǝnā, a neighbour of
+        the Holy Family</ref>.</desc>
+                                    <q xml:id="gez">ተአምር፡ ዘገብረ፡ እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩ ብእሲ፡ ዘቦቱ፡ ብዙኅ፡ አልህምት፡ ወመፍቀሬ፡ 
+                                        ምጽዋት፡ ውእቱ፡ ወይሴፎ፡ ምሕረተ፡ እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ወመድኃኒቶሙ፡ ለእስራኤል፡</q>
                                 </item>
-                                
-                                
+                                <item xml:id="a2">
+                                    <locus from="167v" to="168r"/>
+                                    <desc type="GuestText">Fragment of a prayer to the Virgin Mary by a different hand than <ref target="#a3"/>.</desc>
+                                </item>
+                                <item xml:id="a3">
+                                    <locus from="167v" to="168r"/>
+                                    <desc type="GuestText">Fragment of a salām-hymn to the Virgin Mary by a different hand than <ref target="#a2"/>.</desc>
+                                </item>
+                                <item xml:id="e1">
+                                    <locus target="#2r"/>
+                                    <desc type="StampExlibris">Ex libris Carlo Conti Rossini</desc>
+                                </item>
+                                <item xml:id="e2">
+                                    <locus target="#3r"/>
+                                    <desc>Graffiti</desc>
+                                </item>
                             </list>
                         </additions>
                         <bindingDesc>
                             <binding>
-                                <decoNote xml:id="b1"> wooden boards covered with stamped leather</decoNote>
-                                
+                                <decoNote xml:id="b1"/>
+                                <decoNote xml:id="b2" type="Boards">Wooden boards</decoNote>
+                                <decoNote xml:id="b3" type="Cover">Leather cover, <term key="tooling" ana="#tooling">blind tooled ornament</term></decoNote>
+                                <decoNote xml:id="b4" type="bindingMaterial"><material key="wood"/><material key="leather"/></decoNote>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate notBefore="1900" notAfter="1950">20th century</origDate>
+                            <origDate notBefore="1900" notAfter="1950">20th century, but not after 1950</origDate>
                         </origin>
-                        <provenance>owner Amda Mika'el</provenance>
+                        <provenance>The owner is named <persName role="owner" ref="https://betamasaheft.eu/PRS15050AmdaMik">ʿAmda Mikāʾel</persName>.</provenance>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
                                     <listBibl type="catalogue">
-                                        <bibl corresp="http://zotero.org/groups/358366/items/N6HPGQK3"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1976Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens de l’Accademia Nazionale dei Lincei: Fonds Conti Rossini et Fonds Caetani 209, 375, 376, 377, 378</title><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>Roma</pubPlace><publisher>Accademia Nazionale dei Lincei</publisher><date>1976</date><series><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><biblScope unit="volume">9</biblScope></series><biblScope unit="volume">9</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Strelcyn1976Catalogue</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Strelcyn1976Catalogue</note><citedRange unit="page">128-133</citedRange></bibl>
+                                        <bibl corresp="http://zotero.org/groups/358366/items/N6HPGQK3"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1976Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens de l’Accademia Nazionale dei Lincei: Fonds Conti Rossini et Fonds Caetani 209, 375, 376, 377, 378</title><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>Roma</pubPlace><publisher>Accademia Nazionale dei Lincei</publisher><date>1976</date><series><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><biblScope unit="volume">9</biblScope></series><biblScope unit="volume">9</biblScope><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:IHABook182</note><note type="tag">bm:Strelcyn1976Catalogue</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:IHABook182</note><note type="tag">bm:Strelcyn1976Catalogue</note><citedRange unit="page">128–133</citedRange></bibl>
                                     </listBibl>
                                 </source>
                             </recordHist>
@@ -211,8 +432,6 @@
                                 <custEvent type="restorations" subtype="none"/>
                             </custodialHist>
                         </adminInfo>
-
-
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -222,14 +441,14 @@
             
                 
             
-        <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+        <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <t:creation/>
             <t:abstract>
@@ -239,7 +458,7 @@
                 <t:keywords>
                     <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
                     <t:term key="Hagiography" ana="#Hagiography"/>
-
+                    <t:term key="Prayers" ana="#Prayers"/>
                 </t:keywords>
             </t:textClass>
             <t:langUsage>
@@ -249,7 +468,9 @@
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <change who="#ES" when="2024-04-23"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created stub</change>
+            <change when="2024-04-23" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+            <change when="2025-10-07" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated msContents and physDesc according to catalogue</change>
+            <change when="2025-10-08" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrections after review by Magda Krzyżanowska and Eugenia Sokolinski</change>
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>

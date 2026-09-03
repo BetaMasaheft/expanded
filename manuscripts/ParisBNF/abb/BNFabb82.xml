@@ -2,9 +2,9 @@
       <fileDesc>
          <titleStmt><title type="full">Paris, Bibliothèque nationale de France, BnF Éthiopien d'Abbadie 82</title>
             <title>Four Gospels</title>
-            <editor role="cataloguer" key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
+            <editor role="cataloguer" key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="ca-DN">Denis Nosnitsin</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DN" xml:id="cat-DN"><resp>cataloguer</resp><name>Denis Nosnitsin</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
@@ -17,7 +17,7 @@
                </licence>
             </availability>
 
-         <date type="expanded">30.4.2025 at 16:01:59</date><date type="lastModified">1.6.2021</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFabb82/main</idno><idno type="URI">https://betamasaheft.eu/BNFabb82</idno><idno type="filename">BNFabb82.xml</idno><idno type="ID">BNFabb82</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 09:38:11</date><date type="lastModified">20.10.2025</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFabb82/main</idno><idno type="URI">https://betamasaheft.eu/BNFabb82</idno><idno type="filename">BNFabb82.xml</idno><idno type="ID">BNFabb82</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
               <msIdentifier>
@@ -41,14 +41,14 @@
 
                            <msItem xml:id="ms_i1.1">
                               <locus from="2va" to="25vb"/>
-                              <title type="complete" ref="https://betamasaheft.eu/LIT2709Matthew">Bǝsrāta Mātewos</title>
+                              <title type="complete" ref="https://betamasaheft.eu/LIT2709Matthew">Gospel of Matthew (Mt)</title>
                               <textLang mainLang="gez"/>
                               </msItem>
 
 
                               <msItem xml:id="ms_i1.2">
                                 <locus from="26v" to="34vb"/>
-                                 <title type="complete" ref="https://betamasaheft.eu/LIT2711Mark">Bǝsrāta Mārqos</title>
+                                 <title type="complete" ref="https://betamasaheft.eu/LIT2711Mark">Gospel of Mark (Mk)</title>
                                  <textLang mainLang="gez"/>
                               </msItem>
 
@@ -84,7 +84,7 @@
                                <dimensions type="outer">
                               <height unit="mm" cert="medium">75</height>
                               <width unit="mm" cert="medium">80</width>
-                                </dimensions>
+                                </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="75" unit="mm"/><width quantity="80" unit="mm"/></dimensions>
                         </extent>
                         <foliation>Foliation in the upper right corner of the folia.
                         </foliation>
@@ -137,7 +137,7 @@
                         <ab type="pricking">Pricking and ruling are visible.</ab>
                         <ab type="ruling" subtype="pattern">1A-1A-1A1A/0-0/0-0/C</ab>
                         <note>The leaves <locus target="#1 #2 #51 #52"/> are not ruled.</note>
-                      </layout>
+                      </layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="31"/></layout>
                      </layoutDesc>
 
                   </objectDesc>
@@ -160,7 +160,7 @@
                                        <desc>Regular, careful; by a mediocre scribe.
                                          Broad script with rounded letter shapes. The 5th-order markers are
                                        open.</desc>
-                                       <persName role="scribe" ref="https://betamasaheft.eu/PRS13425Fanta">ʾalaqā Fantā</persName>
+                               <persName role="scribe" ref="https://betamasaheft.eu/PRS3976Fanta">ʾalaqā Fantā</persName>
                                        </handNote>
 
                   </handDesc>
@@ -180,7 +180,7 @@
                      <decoNote type="miniature" xml:id="d2">
                      <locus target="#2v"/>
                      <desc>
-                        A miniature of <ref type="authFile" corresp="https://betamasaheft.eu/AT1013Evangelist"><span xmlns="" class="w3-tag w3-red">No item: AT1013Evangelist</span></ref>
+                        A miniature of <ref type="authFile" corresp="https://betamasaheft.eu/AT1013Evangelist"><seg corresp="AT1013Evangelist">No item: AT1013Evangelist</seg></ref>
                          <persName ref="https://betamasaheft.eu/PRS6902Matthew">Matthew</persName>.
                         <q xml:lang="gez"><hi rend="rubric">ሥዕለ፡ ቅዱስ፡ ማቴዎስ፡</hi></q>
                    </desc>
@@ -200,7 +200,7 @@
                   <decoNote type="miniature" xml:id="d4">
                   <locus target="#26v"/>
                   <desc>
-                  A miniature of an unnamed evangelist <ref type="authFile" corresp="https://betamasaheft.eu/AT1013Evangelist"><span xmlns="" class="w3-tag w3-red">No item: AT1013Evangelist</span></ref>,
+                  A miniature of an unnamed evangelist <ref type="authFile" corresp="https://betamasaheft.eu/AT1013Evangelist"><seg corresp="AT1013Evangelist">No item: AT1013Evangelist</seg></ref>,
                   obviously <persName ref="https://betamasaheft.eu/PRS6751Mark">Mark</persName>, with no caption.
 
                   </desc>
@@ -220,7 +220,7 @@
             <decoNote type="miniature" xml:id="d6">
             <locus target="#35v"/>
             <desc>
-              A miniature of <ref type="authFile" corresp="https://betamasaheft.eu/AT1013Evangelist"><span xmlns="" class="w3-tag w3-red">No item: AT1013Evangelist</span></ref>
+              A miniature of <ref type="authFile" corresp="https://betamasaheft.eu/AT1013Evangelist"><seg corresp="AT1013Evangelist">No item: AT1013Evangelist</seg></ref>
                <persName ref="https://betamasaheft.eu/PRS6387Luke">Luke</persName>.
               <q xml:lang="gez"><hi rend="rubric">ሥዕለ፡ ቅዱስ፡ ሉቃስ፡</hi></q>
           </desc>
@@ -242,7 +242,7 @@
       <decoNote type="miniature" xml:id="d8">
       <locus target="#52v"/>
       <desc>
-        A miniature of <ref type="authFile" corresp="https://betamasaheft.eu/AT1013Evangelist"><span xmlns="" class="w3-tag w3-red">No item: AT1013Evangelist</span></ref>
+        A miniature of <ref type="authFile" corresp="https://betamasaheft.eu/AT1013Evangelist"><seg corresp="AT1013Evangelist">No item: AT1013Evangelist</seg></ref>
          <persName ref="https://betamasaheft.eu/PRS5695John">John</persName>.
         <q xml:lang="gez"><hi rend="rubric">ሥዕለ፡ ቅዱስ፡ ፡</hi></q>
       </desc>
@@ -254,7 +254,7 @@
                       <item xml:id="a1">
                         <locus target="#1r"/>
                         <desc type="DonationNote">A note stating that the owner
-                          <persName ref="https://betamasaheft.eu/PRS13425Fanta">ʾalaqā Fantā</persName>
+                          <persName ref="https://betamasaheft.eu/PRS3976Fanta">ʾalaqā Fantā</persName>
                           gives the book as gift to <persName role="owner" ref="https://betamasaheft.eu/PRS1071dAbbadi">Antoine
                            d'Abbadie</persName>, in the year <date>1835 from the birth of Christ</date> (=1842/43 CE),
                            in <placeName ref="https://betamasaheft.eu/LOC3577Gondar">Gondar</placeName>.</desc>
@@ -402,7 +402,7 @@ Name of the day of the week (Sunday) written between two lines,
                         <decoNote xml:id="b3" type="SewingStations">4</decoNote>
                            <decoNote xml:id="b4" type="Endbands">Endbands.</decoNote>
                         <decoNote xml:id="b5" type="SlipCase">The manuscript has a leather case that is made of
-                        lion leather, according to <bibl corresp="http://zotero.org/groups/358366/items/QENM9ZMP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abbadie1859Cat"/><title level="m">Catalogue raisonné de manuscrits éthiopiens appartenant à Antoine d’Abbadie</title><author><forename>Antoine d'</forename><surname>Abbadie</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie impériale</publisher><date>1859</date><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k1044499</note><note type="tags"><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Binding</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Abbadie1859Cat</note></note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Binding</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Abbadie1859Cat</note><citedRange unit="page">95</citedRange></bibl>.</decoNote>
+                        lion leather, according to <bibl corresp="http://zotero.org/groups/358366/items/QENM9ZMP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abbadie1859Cat"/><title level="m">Catalogue raisonné de manuscrits éthiopiens appartenant à Antoine d’Abbadie</title><author><forename>Antoine d’</forename><surname>d’Abbadie</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie impériale</publisher><date>1859</date><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k1044499</note><note type="tags"><note type="tag">Bibliothèque Nationale</note><note type="tag">Binding</note><note type="tag">Cataloguing</note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">bm:Abbadie1859Cat</note></note><note type="tag">Bibliothèque Nationale</note><note type="tag">Binding</note><note type="tag">Cataloguing</note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">bm:Abbadie1859Cat</note><citedRange unit="page">95</citedRange></bibl>.</decoNote>
                               <decoNote xml:id="b6" type="bindingMaterial">
                                     <material key="wood"/>
                                     <material key="leather"/>
@@ -419,7 +419,7 @@ Name of the day of the week (Sunday) written between two lines,
                      The manuscript is of unusually small size and written in
                      microscript. According to <persName role="owner" ref="https://betamasaheft.eu/PRS1071dAbbadi">Antoine d'Abbadie</persName>, it
                      was meant as an amulet, for carrying on the chest.</origin>
-                  <provenance>The manuscript belonged to <persName ref="https://betamasaheft.eu/PRS13425Fanta">Fantā</persName> and was given by him to
+                 <provenance>The manuscript belonged to <persName ref="https://betamasaheft.eu/PRS3976Fanta">Fantā</persName> and was given by him to
                     <persName role="owner" ref="https://betamasaheft.eu/PRS1071dAbbadi">Antoine d'Abbadie</persName> as gift
                     in <date>1842/1843 CE</date>.</provenance>
                   <acquisition>The manuscript entered the Bibliothèque nationale in
@@ -431,9 +431,9 @@ Name of the day of the week (Sunday) written between two lines,
                      <recordHist>
                         <source>
                            <listBibl type="catalogue">
-                              <bibl corresp="http://zotero.org/groups/358366/items/MZC4PZ7D"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1914Notice"/><title level="m">Notice sur les manuscrits éthiopiens de la Collection d’Abbadie</title><title level="s">Extrait du Journal Asiatique</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1914</date><series><title level="s">Extrait du Journal Asiatique</title></series><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:ContiRossini1914Notice</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:ContiRossini1914Notice</note><citedRange unit="page">55</citedRange><citedRange unit="number">26</citedRange></bibl>
-                                         <bibl corresp="http://zotero.org/groups/358366/items/GADX9HRE"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Chaine1912Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens de la Collection Antoine d’Abbadie</title><author><forename>Marius</forename><surname>Chaîne</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale–Ernest Leroux, éditeur</publisher><date>1912</date><note type="url">https://archive.org/details/cataloguedesmanu00bibluoft</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Chaine1912Catalogue</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Chaine1912Catalogue</note><citedRange unit="page">54</citedRange><citedRange unit="number">82</citedRange></bibl>
-                                         <bibl corresp="http://zotero.org/groups/358366/items/QENM9ZMP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abbadie1859Cat"/><title level="m">Catalogue raisonné de manuscrits éthiopiens appartenant à Antoine d’Abbadie</title><author><forename>Antoine d'</forename><surname>Abbadie</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie impériale</publisher><date>1859</date><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k1044499</note><note type="tags"><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Binding</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Abbadie1859Cat</note></note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Binding</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Abbadie1859Cat</note><citedRange unit="page">95-96</citedRange><citedRange unit="number">82</citedRange></bibl>
+                              <bibl corresp="http://zotero.org/groups/358366/items/MZC4PZ7D"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1914Notice"/><title level="m">Notice sur les manuscrits éthiopiens de la Collection d’Abbadie</title><title level="s">Extrait du Journal Asiatique</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1914</date><series><title level="s">Extrait du Journal Asiatique</title></series><note type="tags"><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:ContiRossini1914Notice</note></note><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:ContiRossini1914Notice</note><citedRange unit="page">55</citedRange><citedRange unit="number">26</citedRange></bibl>
+                                         <bibl corresp="http://zotero.org/groups/358366/items/GADX9HRE"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Chaine1912Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens de la Collection Antoine d’Abbadie</title><author><forename>Marius</forename><surname>Chaîne</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale–Ernest Leroux, éditeur</publisher><date>1912</date><note type="url">https://archive.org/details/cataloguedesmanu00bibluoft</note><note type="tags"><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Chaine1912Catalogue</note></note><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Chaine1912Catalogue</note><citedRange unit="page">54</citedRange><citedRange unit="number">82</citedRange></bibl>
+                                         <bibl corresp="http://zotero.org/groups/358366/items/QENM9ZMP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abbadie1859Cat"/><title level="m">Catalogue raisonné de manuscrits éthiopiens appartenant à Antoine d’Abbadie</title><author><forename>Antoine d’</forename><surname>d’Abbadie</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie impériale</publisher><date>1859</date><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k1044499</note><note type="tags"><note type="tag">Bibliothèque Nationale</note><note type="tag">Binding</note><note type="tag">Cataloguing</note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">bm:Abbadie1859Cat</note></note><note type="tag">Bibliothèque Nationale</note><note type="tag">Binding</note><note type="tag">Cataloguing</note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">bm:Abbadie1859Cat</note><citedRange unit="page">95-96</citedRange><citedRange unit="number">82</citedRange></bibl>
                                            </listBibl>
 
                         </source>
@@ -453,21 +453,21 @@ Name of the day of the week (Sunday) written between two lines,
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:particDesc>
             <t:listPerson>
                <t:person>
                </t:person>
                <t:person>
-                  <t:persName role="owner" ref="https://betamasaheft.eu/PRS13425Fanta">Fantā</t:persName>
+                 <t:persName role="owner" ref="https://betamasaheft.eu/PRS3976Fanta">Fantā</t:persName>
                </t:person>
                <t:person>
                   <t:persName role="bequeather" ref="https://betamasaheft.eu/PRS1071dAbbadi">Antoine d’Abbadie [d’Arrast]</t:persName>
@@ -489,8 +489,8 @@ Name of the day of the week (Sunday) written between two lines,
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#DN" when="2021-06-01"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->record created and edited</change>
-
+         <change when="2021-06-01" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->record created and edited</change>
+        <change when="2025-10-20" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated PRS3976Fanta</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>

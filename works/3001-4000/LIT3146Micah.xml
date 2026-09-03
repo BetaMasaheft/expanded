@@ -6,9 +6,12 @@
             <title corresp="#t1" type="main" xml:lang="en">Book of Micah</title>
             
             <title type="short">Mich.</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <editionStmt>            
+            <p>The text provided below has been digitized by partner projects from modern Vulgata printed editions.For the version digitized from a critical edition visit also <ref target="https://www.tau.ac.il/~hacohen/Biblia.html">https://www.tau.ac.il/~hacohen/Biblia.html</ref>.</p>
+         </editionStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -20,7 +23,7 @@
                 Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
-         <date type="expanded">5.6.2025 at 14:39:32</date><date type="lastModified">5.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3146Micah/main</idno><idno type="URI">https://betamasaheft.eu/LIT3146Micah</idno><idno type="filename">LIT3146Micah.xml</idno><idno type="ID">LIT3146Micah</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:20:43</date><date type="lastModified">5.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3146Micah/main</idno><idno type="URI">https://betamasaheft.eu/LIT3146Micah</idno><idno type="filename">LIT3146Micah.xml</idno><idno type="ID">LIT3146Micah</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -34,294 +37,294 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="chapter" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item></list></desc><citeStructure unit="l" match="l" use="l"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
-         <textClass>
-            <keywords>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="Bible" ana="#Bible"/>
-               <term key="OldTestament" ana="#OldTestament"/>
-               <term key="Translation" ana="#Translation"/>
-            </keywords>
-         </textClass>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="chapter" use="@n"><citeStructure match="t:l" unit="t:l" use="@n"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item></list></desc></citeStructure><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage>
+            <t:language ident="en">English</t:language>
+            <t:language ident="gez">Gǝʿǝz</t:language>
+         </t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Bible" ana="#Bible"/>
+               <t:term key="OldTestament" ana="#OldTestament"/>
+               <t:term key="Translation" ana="#Translation"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#MV" when="2016-05-26"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
-         <change who="#ES" when="2017-02-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added relation keywords</change>
-         <change who="#DR" when="2017-08-22"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated title</change>
-         <change who="#ES" when="2025-06-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
-      </revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-05-26" who="#MV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change when="2017-02-14" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added relation keywords</change>
+         <change when="2017-08-22" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated title</change>
+         <change when="2025-06-05" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT3146Micah" passive="https://betamasaheft.eu/LIT1315Dodeka"/>
-            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="bibliography">
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
             
-            <listBibl type="editions">
-               <bibl corresp="http://zotero.org/groups/358366/items/P5DUDEHE"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Fuhs1968Micah"/><title level="m">Die äthiopische Übersetzung des Propheten Micha: Edition und textkritischer Kommentar nach den Handschriften in Oxford, London, Paris, Cambridge, Wien und Frankfurt am Main</title><title level="s">Bonner biblische Beiträge</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Hans Ferdinand</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Fuhs</t:surname></author><pubPlace>Bonn</pubPlace><publisher>Peter Hanstein Verlag</publisher><date>1968</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Bonner biblische Beiträge</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">28</t:biblScope></series><biblScope unit="volume">28</biblScope></bibl>
-            </listBibl>
-         </div>
-         <div type="edition" xml:lang="gez">
-            <note>Text of the EOTC printed Bible</note>
-            <div type="textpart" subtype="chapter" n="1" xml:id="chapter1">
-               <label>Chapter 1</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=1"/>ወኮነ፡ ቃለ፡ እግዚአብሔር፡ ኀበ፡ ሚኪያስ፡ ወልደ፡ ሞራት፡ በመዋዕለ፡ ኢዩአታ፡ ወአካዝ፡ ወሕዝቅስ፡ ነገስተ፡ ይሁዳ፡ ዘርእየ፡ በእንተ፡ ሰማርያ፡ ወበእንተ፡ ኢየሩሳሌም።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=2"/>ስምዑ፡ አህዛብ፡ ወታጽምዕ፡ ምድር፡ ወኲሎሙ፡ እለ፡ ይነብሩ፡ ውስቴታ፡ ወይከውነክሙ፡ እግዚአብሔር፡ ሰማዕተክሙ፡ እግዚአብሔርሰ፡ ውስተ፡ ቤተ፡ መቅደሱ።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=3"/>ናሁ፡ እግዚአብሔር፡ ይወፅአ፡ እምቤቱ፡ ወይወርድ፡ ወይነብር፡ ዲበ፡ መልዕልተ፡ ምድር።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=4"/>ወያንቀለቅሉ፡ አድባ፡ ባታሕቱ፡ ወይትመሰው፡ አውግ፡ ከመ፡ ሰምዕ፡ እምቅድመ፡ ገጸ፡ እሳት፡ ወከመ፡ ማይ፡ ዘይውኀዝ፡ እምአድባር፡ በተታልዎ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=5"/>ዝንቱ፡ ኲሉ፡ ዜከውን፡ በእንተ፡ ኃጢአቱ፡ ለያቆብ፡ ወበእነተ፡ ጌጋዩሙ፡ ለቤተ፡ እስራኤል፡ ምንተኑ፡ ኃጢያቱ፡ ለያዕቆብ፡ አኮኑ፡ ሰማሪያ፡ ውትኑ፡ ጌጋዩሙ፡ ለቤተ፡ ይሁዳ፡ እኮኑ፡ ኢየሩሳሌም።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=6"/>ወእርስያ፡ ላርያ፡ ከመለልገተ፡ ዓቃቤ፡ ለበቆ፡ በገዳም፡ ወከመ፡ ተክለ፡ ወይን፡ ተክለ፡ ወይን፡ ወአነስቶ፡ ለእበኒሓ፡ ወአንኀሎ፡ ለወእከስቶ፡ ለመሰረታቲሓ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=7"/>ወይሰብሩ፡ ኲሉ፡ ግልፎሃ፡ ወያውዕዩ፡ በእሳተ፡ ኲሎ፡ ደነሳ፡ ወአጠፍእ፡ ኲሎለ፡ ጣዖታ፡ እምደነሰ፡ ዝሙታ፡ እስመ፡ አስተጋብአቶሙ፡ በደነሰ፡ መሐዛኒሃ፡ ወተገበረት።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=8"/>በእንተ፡ ዝንቱ፡ ትበኪ፡ ወትላሑ፡ ወተሐውር፡ ዕራቃ፡ ዘእነበለ፡ አሣእን፡ ዋትበኪ፡ ከመ፡ ከይሲ፡ ወትላሑ፡ ከመ፡ አዋልደ፡ ሴርኖን።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=9"/>እስመ፡ ጸንዐ፡ መቅሠፍታ፡ እስመ፡ መጽአት፡ እስከ፡ ይሁዳ፡ ወበጽሐት፡ እስከ፡ አንቀጽ፡ ሕዝብየ፡ እስከ፡ ኢሩሳሌም።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=10"/>ኢኬ፡ ትዜኀሩ፡ ሰብአ፡ ጌት፡ ወኢተሐንጹ፡ እለ፡ ውስተ፡ አቂም፡ ቤተ፡ ኃሳርክሙ፡ ሐመድ፡ ደዩ፡ ውስተ፡ ርእስክሙ፡ ለኃሳርክሙ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=11"/>እንተ፡ ትነብረ፡ ሰናየ፡ ውስተ፡ አህጉሪሃ፡ ወኢወፅእ፡ እንተ፡ ትነብር፡ ውስተ፡ ሰናኦር፡ ዋይበክዩ፡ ምስሌሃ፡ አብያተ፡ ዘጎራ፡ ወይነስእ፡ እምኔክሙ፡ መቅሠፍተ፡ ዋፃዕረ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=12"/>ምንተ፡ ብኪ፡ ምስለ፡ ሠናይት፡ ንተ፡ ትነብር፡ ውስተ፡ ማሕምም፡ እስመ፡ ዋርደት፡ እኪት፡ እምኀበ፡ እግዚአብሔር፡ ላዕለ፡ እናቀጸ፡ ኢየሩሳሌም።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=13"/>ድምጽ፡ ሠረገላ፡ ወአፍራስ፡ ላዕለ፡ እንተ፡ ተነብረ፡ ላኪስ፡ መልአከ፡ ኃጢአታ፡ ለውእቱ፡ ለወለተ፡ ጽዩን፡ እስመ፡ ላዕሌኪ፡ ተረክበ፡ ጣዖተ፡ እስራኤል።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=14"/>በእንተ፡ ዘፈኖኪ፡ ሐዋርያተ፡ ውስተ፡ መክፈልተ፡ ጌት፡ ከነቶ፡ ኮኑ፡ ወዐረቁ፡ አብያተ፡ መንግስተ፡ እስራኤል።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=15"/>ወይወስድሙ፡ ለሰብአ፡ ላኪስ፡ ኀበ፡ መዋስት፡ ወይወርስዎሙስከ፡ አዶላም፡ ወያመጽኡ፡ ክብረ፡ ለወለተ፡ እስራኤል።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=16"/>ግምዒ፡ ርእሰኪ፡ ወተላጸዩ፡ ላዕለ፡ ደቂቅኪ፡ ልሕድ፡ አርሕቢ፡ ብርሐተኪ፡ ከመ፡ ንስር፡ እስመ፡ ፄወውዎሙ፡ እምኀቤኪ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="2" xml:id="chapter2">
-               <label>Chapter 2</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=1"/>ወመከሩ፡ እኩያ፡ ወገብሩ፡ ኃጢአተ፡ በወስተ፡ ምስካቦሙ፡ ወነቂሆሙ፡ በጽባሕ፡ ይፌጽምዋ። ወኢያነስኡ፡ እደዊሆሙ፡ ኀበ፡ እግዚአብሔር።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=2"/>ወፈት፡ ገራውሀ፡ ወሄዱ፡ አብያ፡ ወተዐገሉ፡ አጓለ፡ ማውታ፡ ወበርበርዎ፡ ለብእሲ፡ ምስለ፡ ቤቱ፡ ወመሠጡ፡ ብኤሴ፡ ምስለርስቱ።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=3"/>በእንተ፡ ዝንቱ፡ ከመዝ፡ ይቤ፡ እግዚአብሔር፡ ናሁ፡ እነ፡ መከርኩ፡ ኩየ፡ ላዕለ፡ ዝንቱ፡ ህዝብ፡ በዘ፡ ኢያነስኡ፡ እከ፡ ካሳዶሙ፡ ወኢየሐውሩ፡ እንከ፡ ርቱዐ፡ ፍኖተ፡ እስመ፡ ታወግቦሙ፡ ዕለት፡ እኪት።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=4"/>ይእተ፡ አሚረ፡ ይሜስ፡ ላዕሌክሙ፡ ምሳሌ፡ ወታስቆቅው፡ ሠቆቃወ፡ ወትበሉ፡ ኀሠርነ፡ ወሐርተምነ፡ ወይሰፍርዋ፡ በሐብል፡ ለምድር፡ ሕዝብየ፡ ወአልቦ፡ ዜከልእ፡ ወየኀድግ፡ ወይከፈሉ፡ ገራውሂክሙ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=5"/>በእንተ፡ ዝቱ፡ ኢትረክቢ፡ ዘያዐውድ፡ ለኪ፡ ሐብለ፡ ዲበ፡ መክፈልትኪ፡ ውስተ፡ ማኀበረ፡ እግዚአብሔር።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=6"/>ኢትብክዩ፡ ወኢታንብኡ፡ በእንተ፡ ዝነቱ። እስመ፡ ኢያትኀደግ፡ ኃሳርክሙ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=7"/>ዘይቤ፡ ቤተ፡ ያእቆብ፡ እምዕኡ፡ መንፈሰ፡ እግዝአቤሔር፡ በዝንቱ፡ ጌጋዩሙ፡ እንዘ፡ ነገሩ፡ ሠናየ፡ ዘኀቤሁ፡ ወራትአን፡ የሀውሩ፡ ቦቱ፡ ወያሜልዑ፡ ቅድም።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=8"/>ወሕዝብየስ፡ ተቃወምዋ፡ ቅድሃ፡ ለሰላሞሙ፡ ወይፃረርዋ። ወሰለብዎ፡ ኩናቶ፡ ወይትቀጠቀጥዎ፡ በውስተ፡ ቀትል።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=9"/>ወበበይ፡ ዝንቱ፡ ይገድፍዎሙ፡ ለመላእክተ፡ ሕዝብየ፡ እምውስተ፡ ትርቲተ፡ አብያቶሙ፡ ወይሰደድዎሙ፡ እስመ፡ እኩ፡ ምግባሪሆሙ። ቅረቡ፡ አድባር፡ እለ፡ እምፍጥረተ፡ ዓለም።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=10"/>ተንስኦ፡ ወሖር፡ እስመ፡ ኢኮነት፡ እንቲአከ፡ ዛቲ፡ ዕረፍት፡ በእን፡ ርኩስክ፡ ጠፋእክሙ፡ ወኀለቅሙ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=11"/>ወጎየድክሙ፡ እንዘ፡ አልቦ፡ ዜዴግነክሙ፡ ጋኔን፡ አቀመ፡ ለከ፡ ሐሰት፡ ዋኣውጽሐ፡ ለከ፡ ወይነ፡ ወጼተሎ። ወይከውን፡ በነፍኒፎሙ፡ ለዝቱ፡ ሕዝብ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=12"/>ይትጋባእ፡ ያዕቆብ፡ ምስለ፡ ኰሎሙ፡ እለ፡ ይጸንሑ። እጸንሖ፡ ለተረፈ፡ እስራኤል፡ ወእሬስያ፡ ኀብረ፡ ለሚጠቶሙ። ከመ፡ አባግዕ፡ ውስተ፡ መጽብብ፡ ወከመ፡ መርዔት፡ ውስተ፡ ምብያቲሆሙ፡ ይትባልሑ፡ እምሰብእ።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=13"/>በእንተ፡ ቅትለቶሙ፡ ዘተቃተሉ፡ በቅድመ፡ ገጾሙ፡ ወኀለፋ፡ እምአናቅጽ፡ ወወፅኡ፡ ንተ፡ ውስቴታ፡ ወሖረ፡ ንጉሶሙ፡ ቅደመ፡ ገጾሙ፡ ወእግዚአብሔር፡ ይመርሖሙ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="3" xml:id="chapter3">
-               <label>Chapter 3</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=1"/>ወይብል፡ ስምዑ፡ ዘንተ፡ መኳንንት፡ ቤተ፡ ያዕቆብ፡ ወተረፈ፡ ቤተ፡ እስራኤል፡ አኮኑ፡ ለክሙ፡ አእምሮ፡ ፍትሕ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=2"/>እለ፡ ትጸልኡ፡ ሠናይ፡ ወተኀሥሱ፡ እኩየ፡ ወትመሥጥዎሙ፡ አምእስቲሆሙ፡ እምላዕሌሆሙ። ወስጋሆሙኒ፡ እምውስተ፡ አዕጽምቲሆሙ።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=3"/>ወበከመ፡ በልዑ፡ ስጋሆሙ፡ ለሕዝብየ፡ ወአውፅኡ፡ አምእስቲሙ፡ እምስቲሆሙ፡ እምውስተ፡ አዕጽምቲሆሙ፡ ወገመዱ፡ መሌሊቶሙ፡ ከመ፡ ስጋ፡ ውስተ፡ ጽሕርት፡ ወከመ፡ አባል፡ ውስተ፡ መቅጹት።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=4"/>ከማሁ፡ ይጸርሑ፡ ኀበ፡ እግዚአብሔር፡ ወኢይሰምዖሙ፡ ወይመይጥ፡ ገጾ፡ እምኔሆሙ፡ ይእተ፡ አቢረ፡ እስመ፡ አሕሠሙ፡ ገቢረ፡ ላዕለሌሆሙ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=5"/>ከመዝ፡ ይቤ፡ እግዚአብሔር፡ ላዕለ፡ ነቢያት፡ እለ፡ ስሕትዎሙ፡ ለሕዝብየ፡ እለ፡ ይኔዝርዎሙ፡ በስነኒሆሙ፡ ወይሰብኩ፡ ሎሙ፡ ሰላመ፡ ዘአልቦ፡ ዘአዘዞሙ፡ ወአንስኡ፡ ላዕሌሆሙ፡ ቀት።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=6"/>በእንተ፡ ዝንቱ፡ ሌሊት፡ ይከውነክሙ፡ ራእይክሙ፡ ወጽልመተ፡ ይከውነክሙ፡ ሰገልከሙ፡ ወየዐርቦሙ፡ ፀሐይ፡ ለነቢያት፡ ወይጸልሞሙ፡ መዓልት።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=7"/>ወይትኀፈሩ፡ ሐላምያነ፡ ህልመ፡ ሐሰት፡ ወይስሕቅዎሙ፡ ለሰብአ፡ ሰገል፡ ወየሐምይዎሙ፡ ለኰሎሙ፡ ወአልቦ፡ ዘያጸምዖሙ፡ እንከ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=8"/>ለእመ፡ አነ፡ ኢመላእ፡ ኃይለ፡ መንፈሰ፡ እግዚአብሔር፡ ወኃይለ፡ ወፍትሐ፡ ከመ፡ ይንግርዎ፡ ለያዕቆብ፡ ኃጢአቶ፡ ወልስራኤል፡ ጌጋዩ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=9"/>ስምዕ፡ ዘንተ፡ መኳንንተ፡ ቤተ፡ ያዕቆብ፡ ዋታራፋ፡ ቤተ፡ እስራኤል፡ እለ፡ ታስቆርርዋ፡ ለጽድቅ፡ ወትገፈትዕዋ፡ ለርትዕ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=10"/>እለ፡ ተሐንጽዋ፡ ለጽዮን፡ በደም፡ ወለኢየሩሳሌም፡ በዐመፃ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=11"/>መኳንንቲሃኒ፡ በሕልያን፡ ይኬንኑ፡ ወካህናቲሃኒ፡ በዐስብ፡ ያወስኡ፡ ወነቢያቲሃኒ፡ በወርቅ፡ ያስግሉ፡ ወላዕለ፡ እግዚአብሔር፡ ያሰምኩ፡ ወይብ፡ አኮ፡ እግዚአብሔር፡ ምስሌነ፡ ወኢይረክበነ፡ አኩይ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=12"/>በእንተ፡ ዝንቱ፡ በበይነ፡ ዚአክሙ፡ የሐርስዋ፡ ለጽዩን፡ ከመ፡ ገራህት፡ ወትከውን፡ ኢየሩሳም፡ ከመ፡ ልገተ፡ ዓቃቤ፡ ቀምሕ፡ ወደብረ፡ ቤቱሂ፡ ከመ፡ ኦመ፡ ገዳም።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="4" xml:id="chapter4">
-               <label>Chapter 4</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=1"/>ወይከውን፡ ምደኃሪ፡ መዋዕል፡ ያስተርኢ፡ ደብረ፡ እግዚአብሔር፡ ድልው፡ ውስተ፡ አርእስተ፡ አድባ፡ ዌትሌዐል፡ መልዕልተ፡ አድባር፡ ዋይትሌዐል፡ መዕልተ፡ አውግር፡ ወይረውጹ፡ ኀቤሁ፡ አሕዛብ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=2"/>ወየሐውሩ፡ ብዙኃን፡ ወይብሉ፡ ንዑ፡ ንዕረግ፡ ደብረ፡ እግዚአብሔር፡ ወውስተ፡ ቤተ፡ አምላክ፡ ዕቆብ፡ ወያርእዩነ፡ ፍኖቶ፡ ወንሖር፡ በአሠሩ፡ እስመ፡ እምጽዩን፡ ይወፅእ፡ ህግ፡ ወቃለ፡ እግዚአብሔር፡ እምኢየሩሳም።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=3"/>ወይኳንን፡ ማእከለ፡ ብዙኃን፡ አህዛብ፡ ወይዘልፎሙ፡ ለአሕዛብ፡ ጽኑዓን፡ እስከ፡ ነዋኀ፡ ብሔር፡ ወይመትሩ፡ ኮያንዊሆሙ፡ ለማህረስ፡ ወአስይፍቲሆሙ፡ ለማዓፅድ፡ ወኢያንስኡ፡ እንከ፡ ኩናተ፡ ሕዝብ፡ ላዕለ፡ ህዝብ፡ ወኢይትሜሀሩ፡ እንከ፡ ቀትለ።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=4"/>ወየዐርፋ፡ ኲሎሙ፡ ታሕተ፡ ወይኖሙ፡ ወታህት፡ በለሶሙ፡ ወአልቦ፡ ዘይጌርሞሙ፡ እስመ፡ አፋሁ፡ ለእግዚአብሔር፡ ዘኲሎ፡ ይመልክ፡ ነበበ፡ ከመዝ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=5"/>እስመ፡ ኮለሙ፡ አህዛ፡ ሐውሩ፡ በፍኖቶሙ፡ ወንሕነስ፡ ነሐው፡ በስመ፡ እግኢአብሔር፡ አምላክነ፡ ለዓለም፡ ወዓዲ።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=6"/>ይእተ፡ አሚረ፡ ይቤ፡ እግዚአብሔር፡ አስታኣ፡ ለቅጥቅጥ፡ ወእትዌከፋ፡ ለግድፍት፡ ለእንተ፡ አርኀቅዋ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=7"/>ወእሬስያ፡ ለቅጥቅጥ፡ ትርፍተ፡ ወለግድፍት፡ ህዝበ፡ ጽንዕተ፡ ወይነገስ፡ ሎሙ፡ እግዚአብሔር፡ በደብር፡ ጽለየን፡ እኤእዜ፡ ወእስከ፡ ለዐለም።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=8"/>ወአንቲሂ፡ መኀፈደ፡ ኖሎት፡ ከመ፡ ጸበል፡ ወትመጽእ፡ ዋላታ፡ ጽዩን፡ ውስቴትኪ፡ ወትቀድም፡ በዊኦ፡ ቀዳሚተ፡ መንግስት፡ እምባቢሎን፡ ወለተ፡ ኢየሩሳሌም።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=9"/>ወይእዜ፡ ለምንት፡ መከርኪ፡ እኩየ፡ ንጉሠኑ፡ አልብኪ፡ ዋጣፍአኑ፡ ልብከኪ፡ ከመ፡ የአኀዝኪ፡ ማህምም፡ ክም፡ እንተ፡ ተውልድ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=10"/>ሐመመኪሂ፡ ወተዐገስኪ፡ እንከ፡ ወቅረቢ፡ ወለተ፡ ጽዩን፡ ከመ፡ እተ፡ ትውልድ፡ እስመ፡ ናሁ፡ ይአዝዜ፡ ትወፅኢ፡ ምሀገር፡ ወታኃድሪ፡ ውስተ፡ ጋዳ፡ ዋትበጽሂ፡ እስከ፡ ባቢሎን፡ ወሀህየ፡ ያድኀነኪ፡ ወበሕየ፡ ነግፈኪ፡ እግዚኦብሔር፡ አምላክኪ፡ እምእደ፡ ፀርኪ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=11"/>ወናሁ፡ አእዜ፡ ይትጋብኡ፡ ብዙኃን፡ አህዛብ፡ ላዕሌኪ፡ እለ፡ ይብሉ፡ ንትፈሣሕ፡ ላዕሌኪ፡ ወይርአያኪ፡ አዕይንቲነ፡ ጽዩን።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=12"/>ወእሙንቱሰ፡ ኢያእመሩ፡ ዘመከረ፡ እግዚአብሔር፡ ወኢያእመሩ፡ ዘየለየ፡ እስመ፡ አስተጋብኦሙ፡ ከመ፡ ከላስስት፡ ውስተ፡ ዐውደ፡ እክል።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=13"/>ተንስኢ፡ አኪድዩሙ፡ ወለተ፡ ጽዩን፡ እስመ፡ እሬስዩ፡ ዘኃፂን፡ ለአቅርቲኪ፡ ወእሬስዩ፡ ዘብርት፡ ለወላትኪ፡ ወትመስዊዩሙ፡ ለብዙኃን፡ አሕዛብ፡ ወተሐርሚዩሙ፡ ለእግዚአብሔር፡ ብዝኖሙ፡ ወኃይሎሙ፡ ለእግዚአብሔር፡ በኲሉ፡ ምድር።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="5" xml:id="chapter5">
-               <label>Chapter 5</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=1"/>ናሁ፡ ይእዜ፡ የዐግትዋ፡ ለመለተ፡ ጽዩን፡ ወየሐጽርዋ፡ በበትር፡ ይዘብጡክሙ፡ ውስተ፡ መላትሒክሙ፡ ህዝበ፡ እስራኤል።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=2"/>ወአንቲኒ፡ ቤተልሄም፡ መድረ፡ ኤፍራ፡ ውሕድ፡ አንቲ፡ ከመ፡ ትኪኒ፡ አእላፈ፡ ይሁዳ፡ እምኔኪ፡ ይወፅእ፡ ንጉሠ፡ ለእስራኤል፡ ወፍናዊሁኒ፡ ዘእምፍጥረተ፡ ዐለም።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=3"/>በእንተ፡ ዝንቱ፡ ትሁቦሙ፡ እስከ፡ ጊዜ፡ ትውልድ፡ ትውልድ፡ ወእለ፡ ተርፋ፡ አኃዊሆሙ፡ ይትመየጡ፡ ኀበ፡ ደቂቀ፡ እስራኤል።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=4"/>ወይቀውም፡ ወይሬዔቶ፡ በኃይለ፡ እግዚአብሔር፡ ወበስብሐተ፡ ስመ፡ እግዚአብሔር፡ አምላኮሙ፡ ይሄልው፡ እስመ፡ አጽናፈ፡ ምድር።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=5"/>ወትከውን፡ ዛ፡ ሰላም፡ አመ፡ መጽኡ፡ ፋርስ፡ ውስተ፡ ምድርክሙ፡ ወአመ፡ ዕጉ፡ ውስተ፡ ብሔርክ፡ ወይትንስኡ</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=7"/>ኖሉት፡ ላእሌሁ፡ ወ</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=6"/>ወይርእይዎ፡ ለአሶር፡ በኩናት፡ ዋላምድረ፡ ነምሮድ፡ በውስተ፡ ኀዝአቱ፡ ወይድኃን፡ እምአሶር፡ እመ፡ መጽአ፡ ውስተ፡ ብሔርክሙ፡ ወአመ፡ ዐርገ፡ ውስተ፡ አድባሪክሙ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=7"/>ወይከውን፡ ተረፈ፡ ያእቆብ፡ ውስተ፡ አሕዛብ፡ በማእከለ፡ ብዙኃን፡ ህዝብ፡ ከመ፡ ጠል፡ ዘይወርድ፡ እምኀበ፡ እግዚአብሔር፡ ወከመ፡ አባግዕ፡ ውስተ፡ ተሐግ፡ ከመ፡ ኢይትጋባአ፡ ዋኢአሐዱ፡ ወኢይቀውም፡ ውስተ፡ ዳቂቀ፡ እጓለ፡ እመሕያው።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=8"/>ወይከውን፡ ተረፈ፡ ያዕቆብ፡ ማእከለ፡ ብዙኃን፡ አሕዛብ፡ ከመ፡ አንበሳ፡ ውስተ፡ እንስሳ፡ በገዳም፡ ወከመ፡ እጓለ፡ አንበሳ፡ ውስተ፡ መርዔተ፡ አባግዕ፡ ከመ፡ ሶበ፡ ይመጽእ፡ ወይሰርር፡ ወይመስጥ፡ ወአልቦ፡ ዘያነግፎ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=9"/>ከማኁ፡ ትትሌዐል፡ እዴከ፡ ዲበ፡ እለ፡ ይሣቅከ፡ ወይሴረው፡ ኰሎሙ፡ ፀረከ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=10"/>ወይከውን፡ ይእቲ፡ ኣሚረ፡ ይቤ፡ እግዚአብሔር፡ እሴርዎሙ፡ ለአፍራሲከ፡ በማእከልከ፡ ወአጠፍእ፡ ሠረገላከ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=11"/>ወእሤርዎን፡ ለአህጉረ፡ ብሔርከ፡ ወአንኅ፡ ኮሎ፡ አጽዋኒከ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=12"/>ወእስዕር፡ ኮሎ፡ ስራያቲከ፡ እምእደዊክ፡ ወአልቦ፡ ዘይትዋሳእ፡ ላከ።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=13"/>ወእሤሩ፡ ግልፎከ፡ ወአምሳሊከ፡ እማእከልከ፡ ወኢትሰግድ፡ እንከ፡ ግብረ፡ እደዊከ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=14"/>ወእገዝም፡ ምህራማቲከ፡ እማእከልከ፡ ወአጠፍኦን፡ ለአህጉሪከ።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=15"/>ወእገብር፡ በቀለ፡ ውስተ፡ አህዛብ፡ በመዐትየ፡ ወበመቅሠፍትየ፡ እስመ፡ ኢሰምኡ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="6" xml:id="chapter6">
-               <label>Chapter 6</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=1"/>ስምኡ፡ ቃለ፡ እግዚአብሔር፡ ዘይቤ፡ ተንስእ፡ ተዋቀስሙ፡ ለአድባር፡ ወይስምኡ፡ አውግር፡ ቃለከ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=2"/>ስምኡ፡ አድባር፡ ቅስተ፡ እግዚአብሔር፡ ወቆላተ፡ መሠረተ፡ ምድር፡ እስመ፡ ይትዋቀሶሙ፡ እግዚአብሑር፡ ለህዝብ፡ ወይዛፎሙ፡ ለእስራኤል።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=3"/>እንዘ፡ ይብል፡ ሕዝብየ፡ ምተ፡ ረሰይኩክ፡ ወምንተ፡ አተከዝኩከ፡ ወምነተ፡ አጽሐብኩከ፡ ንግረኒ።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=4"/>ናሁ፡ አውፃእኩከ፡ እምድረ፡ ግብጽ፡ ወባለሕኩከ፡ አምቤተ፡ ቅኔ፡ ወፈነውኩ፡ ቅድሜከ፡ ሙሴሃ፡ ወአሮንሃ፡ ወማርያሃ።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=5"/>ተዘከር፡ ህዝብየ፡ ዘመከረ፡ ላዕሌከ፡ ባላቅ፡ ንጉሰ፡ ሞአብ፡ ወምንተ፡ አውስኦ፡ በለዓም፡ ወልደቤኦር፡ እምነ፡ ሰኪኖን፡ እስከ፡ ገላገላ። ከመ፡ ይትዐወቅ፡ ጽድቁ፡ ለእግዜአብሔር።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=6"/>በምንትኑ፡ እንጋ፡ እረክቦ፡ ለእግዚአብሔር፡ ወእትዌከፎ፡ ለአምላኪየ፡ ልዑል፡ እረክቦኑ፡ እንጋ፡ በመስዋዕተ፡ አልህምት፡ ዘዓመት።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=7"/>ይትዌከፍኑ፡ እንጋ፡ እግዚአብሔር፡ በእልፍ፡ አባግዕ፡ ወእመ፡ አኮ፡ በአእላፍ፡ ሐራጊት፡ ስቡሖን፡ ወእመ፡ አኮ፡ በበኩርየ፡ በፍሬ፡ ከርስየ፡ በእንተ፡ ኃጢተ፡ ነፍስየ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=8"/>እመ፡ ቦ፡ ዘነገረከ፡ ሰብእ፡ ምንት፡ ሠናይ፡ ወምንተ፡ ይፈቅድ፡ እግዚአብሔር፡ እምኔከ፡ ዘእነነለ፡ ከመ፡ ትግበር፡ ጽድቀ፡ ወታፍቅር፡ ምጽዋተ፡ ወትኩን፡ ጥቡዐ፡ ከመ፡ ትትልዎ፡ ለእግዚአብሔር፡ አምላክከ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=9"/>ቃለ፡ እግዚአብሔር፡ ትስማሚ፡ በሀገርከ፡ ከመ፡ ያድኀኖሙ፡ ለእለ፡ ይፈርሁ፡ ስሞ። ስማዕ፡ ሕዝብየ፡ መኑ፡ ያስተሬሲ፡ ሀገረ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=10"/>እሳትኑ፡ ወቤተ፡ ዓማፅያን፡ እለ፡ ይዘግቡ፡ መዛግብተ፡ ዓመፃ፡ ወይገፍዑ፡ ወየኀስሩ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=11"/>ለእመ፡ ይጠድቁ፡ በመዳልወ፡ ዓመፃ፡ ወቁናማተ፡ ተምያን።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=12"/>እለ፡ መልእዎ፡ ለብዕለሎሙ፡ በዓመፃ፡ ወእለኒ፡ ይነብሩ፡ ውስቴታ፡ ሐሰተ፡ ይትናገሩ፡ ወልሳኖሙኒ፡ ዘጐሕሉት፡ ውስተ፡ አፋሆሙ።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=13"/>ወአነሂ፡ እኀዘ፡ እቅትልኪ፡ ወአጥፍእኪ፡ በእንተ፡ ኃጢአትኪ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=14"/>ትበልኢ፡ ወኢትጸግቢ፡ ወይጸልመኪ፡ ወትመውቲ፡ ወኢተሐይዊ፡ ወኮሎሙ፡ እለ፡ ድኀኑ፡ በኪናት፡ ይወድቁ።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=15"/>ትዘርኢ፡ ወኢተአርሪ፡ ትተክሊ፡ ዘይተ፡ ወኢትትቀብኢ፡ ቅብአ፡ ትተክሊ፡ ለወይነ፡ ወኢትሰትዩ፡ ወይነኪ፡ ወይማስን፡ ስርዓቶሙ፡ ለሕዝብየ።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=16"/>መአቀብኪ፡ ህጎ፡ ለዘንበሪ፡ ወኮሎ፡ ምባረለቤተ፡ አካአብ፡ ወሖርክሙ፡ በምባሮሙ፡ ከመ፡ ያብእ፡ ውስተ፡ ሙስና። ወለእለሂ፡ ይነብሩ፡ ውስቴታ፡ ኃሳር፡ ወጽዕለተ፡ አሕዛብ፡ ረክቦሙ።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="7" xml:id="chapter7">
-               <label>Chapter 7</label>
-               <ab>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=1"/>አሌሊተ፡ እስመ፡ ኮንኩ፡ ከመ፡ ዜስተጋብእ፡ ቀሪመ፡ በማእረር፡ ወከመ፡ ተቅራም፡ እመ፡ ቀስም፡ ዘአልቦ፡ አስካ፡ ዘይበልኡ። አሌላ፡ ለነፍስየ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=2"/>እስመ፡ ኀልቀ፡ ኄር፡ እምድር፡ ወአልቦ፡ ሰብእ፡ ዘይረትዕ፡ ኩሉ፡ ለለለነፍሱ፡ ይሴነን፡ ወክሉ፡ ለያጠውቅ፡ ቢጾ፡ ወያመነደብ።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=3"/>ወያነስኡ፡ እደውሆሙ፡ ለእኩይ፡ መልአክኒ፡ ይስእል፡ ወመኮንንኒ፡ ይየውህ፡ ከመ፡ ይርከብ፡ ፍትወተ፡ ነፍሱ፡ ወአጠፍኦ፡ ለበረከቶሙ።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=4"/>ከመ፡ ጻፄ፡ ዘይበልዕ፡ ወየዐርግ፡ ዲበ፡ ንዋይ፡ በዕለተ፡ ጽልመት። አሌለኪ፡ በጽሒኪ፡ ፍዳኪ፡ ይእዜ፡ ይበጽሖሙ፡ ግዓር።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=5"/>ኢትትአመንዎሙ፡ እንከ፡ ለአዕርክቲክሙ፡ ወኢትትወከልዎሙ፡ ለመላእክት፡ ወእምብእሲትከ፡ ብስተ፡ ምስካብከ፡ ተዐቀብ፡ ከመ፡ ትእበያ።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=6"/>እስመ፡ ወልድኒ፡ ያኀስር፡ አባሁ፡ ወወለትኒ፡ ትትነሣእ፡ ዲበ፡ እማ፡ ወመርዓትኒ፡ ትትነሣእ፡ ዲበ፡ እማ፡ ወመርዓት፡ ላዕለ፡ ሐማታ፡ ወኲሉ፡ ሰብ፡ ቤቱ፡ ይጻረሮ፡ ለሰብእ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=7"/>ወአንሰ፡ ዲበ፡ እግዚአብሔር፡ አዐርፍ፡ ወእሴፈዎ፡ ለአምላኪየ፡ ወመድኃንየ፡ ወይሰምዐኒ፡ አምላኪየ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=8"/>ወኢይከውን፡ ስላተ፡ ጸላእየ፡ እኒ፡ ድኀጽኩ፡ እትነሳእ፡ ወእመኒ፡ ነበርኩ፡ ስተ፡ ጽልመጽ፡ እግዚአብሔር፡ በርህ፡ ሊተ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=9"/>ተግሳጽ፡ እግዚአብሔር፡ አንሰ፡ ተዐገስኩ፡ እስመ፡ አበስኩ፡ ሎቱ፡ እስከ፡ ያጸድቂ፡ ፍትሕየ። ወይገብሮ፡ ሊተ፡ ቅስትየ፡ ወያገብአኒ፡ ውስተ፡ ብርሃን፡ ወእሬእያ፡ ለጽድቁ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=10"/>ወትሬኢ፡ ጸላእትየ፡ ወትለብስ፡ ኃፍረተ፡ እንተ፡ ትብለኒ፡ አይቴ፡ ውእቱ፡ እግዚአብሔር፡ አምላክከ። ወይሬእያ፡ አዕይንትየ፡ ይእዜ፡ ትከውን፡ ከመ፡ ጽንጒን፡ ዜከይዱ፡ ውስተ፡ ፍኖት።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=11"/>ወታጠፍአኪ፡ ይእተ፡ ዕለተ፡ ወትማስን፡ ህግኪ፡ ይእተ፡ ዕለተ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=12"/>ወትዐጸው፡ አህጉሪኪ፡ ወይትካፈልዎን፡ ፋርስ፡ ለአህጉሪኪ፡ ጽኑዓት፡ እምጢስ፡ እስከ፡ ፈለገ፡ ሶርያ፡ ወእምባሕር፡ እስከ፡ ባሕር፡ ወእምአድባር፡ እስከ፡ አድባር።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=13"/>ወትማስን፡ ምድር፡ ምስለ፡ ኩሉ፡ ዘይነብራ፡ እምፍሬ፡ እከየ፡ ምግባሮሙ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=14"/>ረዐይ፡ ሕዝብከ፡ በበትርከ፡ ወነገደ፡ አባግዐ፡ ርስትከ፡ ወይኀድሩ፡ ባሕቲቶሙ፡ ወይትረዐዩ፡ ውስተ፡ ዖም፡ ዘማእከለ፡ ቀርሜሎስ፡ ወባሳን፡ ወገለአድ፡ በከመ፡ መዋዕለ፡ ዓለም።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=15"/>ወከመ፡ መዋዕክ፡ ዘአመ፡ ዐርጉ፡ እምግብጽ፡ ወትሬእዩ፡ መንክረ።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=16"/>ወይርአዩ፡ አሕዛብ፡ ወይትኀፈሩ፡ በኩሉ፡ ኃይሎሙ፡ ይወድዩ፡ እደዊሆሙ፡ ዲበ፡ አፋሆሙ፡ ወይጠይዑ፡ እዘኒሆሙ።</l>
-                  <l n="17">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=17"/>ወይልሕሱ፡ መሬተ፡ ከመ፡ አርዌ፡ ምድር፡ ወይትከውሱ፡ በውስተ፡ መዕገቶሙ፡ ወይደነግፁ፡ እምእግዚአብሔር፡ አምላክነ፡ ወይፈርሁ፡ እምኔሁ።</l>
-                  <l n="18">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=18"/>መኑ፡ አምላክ፡ ከማከ፡ ዘያአትት፡ ኃጢአተ፡ ወይትዐደው፡ አበሳሆሙ፡ ለርስቱ፡ ለእለ፡ ተርፋ፡ ወኢያጽንዐ፡ ስምዐ፡ መዐቱ፡ እስመ፡ ፈቃዴ፡ ምሕረት፡ ውእቱ።</l>
-                  <l n="19">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=19"/>ይትመየጠነ፡ ዋይሠሀለነ፡ ወያሠጥሞን፡ ለኃጣውኢነ፡ ወይዌርዎን፡ ውስተ፡ ቀላየ፡ ባሕር፡ ለአበሳነ።</l>
-                  <l n="20">
-                     <ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=20"/>ወትሁብ፡ ጽድቀ፡ ለያዕቆብ፡ መሳህ፡ ለአብርሃም፡ በከመ፡ መሐልከ፡ ለአበዊነ፡ በመዋዕለ፡ ትካት።</l>
-               </ab>
-            </div>
-         </div>
-      </body>
-   </text></TEI>
+            <t:listBibl type="editions">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/P5DUDEHE"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Fuhs1968Micah"/><title level="m">Die äthiopische Übersetzung des Propheten Micha: Edition und textkritischer Kommentar nach den Handschriften in Oxford, London, Paris, Cambridge, Wien und Frankfurt am Main</title><title level="s">Bonner biblische Beiträge</title><author><forename>Hans Ferdinand</forename><surname>Fuhs</surname></author><pubPlace>Bonn</pubPlace><publisher>Peter Hanstein Verlag</publisher><date>1968</date><series><title level="s">Bonner biblische Beiträge</title><biblScope unit="volume">28</biblScope></series><biblScope unit="volume">28</biblScope><note type="tags"><note type="tag">Bible</note><note type="tag">Micah</note><note type="tag">Minor Prophets</note><note type="tag">Old Testament</note><note type="tag">bm:Fuhs1968Micah</note></note><note type="tag">Bible</note><note type="tag">Micah</note><note type="tag">Minor Prophets</note><note type="tag">Old Testament</note><note type="tag">bm:Fuhs1968Micah</note></t:bibl>
+            </t:listBibl>
+         </t:div>
+         <t:div type="edition" xml:lang="gez" xml:id="div2LIT3146Micah">
+            <t:note>Text of the EOTC printed Bible</t:note>
+            <t:div type="textpart" subtype="chapter" n="1" xml:id="chapter1">
+               <t:label>Chapter 1</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=1"/>ወኮነ፡ ቃለ፡ እግዚአብሔር፡ ኀበ፡ ሚኪያስ፡ ወልደ፡ ሞራት፡ በመዋዕለ፡ ኢዩአታ፡ ወአካዝ፡ ወሕዝቅስ፡ ነገስተ፡ ይሁዳ፡ ዘርእየ፡ በእንተ፡ ሰማርያ፡ ወበእንተ፡ ኢየሩሳሌም።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=2"/>ስምዑ፡ አህዛብ፡ ወታጽምዕ፡ ምድር፡ ወኲሎሙ፡ እለ፡ ይነብሩ፡ ውስቴታ፡ ወይከውነክሙ፡ እግዚአብሔር፡ ሰማዕተክሙ፡ እግዚአብሔርሰ፡ ውስተ፡ ቤተ፡ መቅደሱ።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=3"/>ናሁ፡ እግዚአብሔር፡ ይወፅአ፡ እምቤቱ፡ ወይወርድ፡ ወይነብር፡ ዲበ፡ መልዕልተ፡ ምድር።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=4"/>ወያንቀለቅሉ፡ አድባ፡ ባታሕቱ፡ ወይትመሰው፡ አውግ፡ ከመ፡ ሰምዕ፡ እምቅድመ፡ ገጸ፡ እሳት፡ ወከመ፡ ማይ፡ ዘይውኀዝ፡ እምአድባር፡ በተታልዎ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=5"/>ዝንቱ፡ ኲሉ፡ ዜከውን፡ በእንተ፡ ኃጢአቱ፡ ለያቆብ፡ ወበእነተ፡ ጌጋዩሙ፡ ለቤተ፡ እስራኤል፡ ምንተኑ፡ ኃጢያቱ፡ ለያዕቆብ፡ አኮኑ፡ ሰማሪያ፡ ውትኑ፡ ጌጋዩሙ፡ ለቤተ፡ ይሁዳ፡ እኮኑ፡ ኢየሩሳሌም።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=6"/>ወእርስያ፡ ላርያ፡ ከመለልገተ፡ ዓቃቤ፡ ለበቆ፡ በገዳም፡ ወከመ፡ ተክለ፡ ወይን፡ ተክለ፡ ወይን፡ ወአነስቶ፡ ለእበኒሓ፡ ወአንኀሎ፡ ለወእከስቶ፡ ለመሰረታቲሓ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=7"/>ወይሰብሩ፡ ኲሉ፡ ግልፎሃ፡ ወያውዕዩ፡ በእሳተ፡ ኲሎ፡ ደነሳ፡ ወአጠፍእ፡ ኲሎለ፡ ጣዖታ፡ እምደነሰ፡ ዝሙታ፡ እስመ፡ አስተጋብአቶሙ፡ በደነሰ፡ መሐዛኒሃ፡ ወተገበረት።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=8"/>በእንተ፡ ዝንቱ፡ ትበኪ፡ ወትላሑ፡ ወተሐውር፡ ዕራቃ፡ ዘእነበለ፡ አሣእን፡ ዋትበኪ፡ ከመ፡ ከይሲ፡ ወትላሑ፡ ከመ፡ አዋልደ፡ ሴርኖን።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=9"/>እስመ፡ ጸንዐ፡ መቅሠፍታ፡ እስመ፡ መጽአት፡ እስከ፡ ይሁዳ፡ ወበጽሐት፡ እስከ፡ አንቀጽ፡ ሕዝብየ፡ እስከ፡ ኢሩሳሌም።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=10"/>ኢኬ፡ ትዜኀሩ፡ ሰብአ፡ ጌት፡ ወኢተሐንጹ፡ እለ፡ ውስተ፡ አቂም፡ ቤተ፡ ኃሳርክሙ፡ ሐመድ፡ ደዩ፡ ውስተ፡ ርእስክሙ፡ ለኃሳርክሙ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=11"/>እንተ፡ ትነብረ፡ ሰናየ፡ ውስተ፡ አህጉሪሃ፡ ወኢወፅእ፡ እንተ፡ ትነብር፡ ውስተ፡ ሰናኦር፡ ዋይበክዩ፡ ምስሌሃ፡ አብያተ፡ ዘጎራ፡ ወይነስእ፡ እምኔክሙ፡ መቅሠፍተ፡ ዋፃዕረ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=12"/>ምንተ፡ ብኪ፡ ምስለ፡ ሠናይት፡ ንተ፡ ትነብር፡ ውስተ፡ ማሕምም፡ እስመ፡ ዋርደት፡ እኪት፡ እምኀበ፡ እግዚአብሔር፡ ላዕለ፡ እናቀጸ፡ ኢየሩሳሌም።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=13"/>ድምጽ፡ ሠረገላ፡ ወአፍራስ፡ ላዕለ፡ እንተ፡ ተነብረ፡ ላኪስ፡ መልአከ፡ ኃጢአታ፡ ለውእቱ፡ ለወለተ፡ ጽዩን፡ እስመ፡ ላዕሌኪ፡ ተረክበ፡ ጣዖተ፡ እስራኤል።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=14"/>በእንተ፡ ዘፈኖኪ፡ ሐዋርያተ፡ ውስተ፡ መክፈልተ፡ ጌት፡ ከነቶ፡ ኮኑ፡ ወዐረቁ፡ አብያተ፡ መንግስተ፡ እስራኤል።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=15"/>ወይወስድሙ፡ ለሰብአ፡ ላኪስ፡ ኀበ፡ መዋስት፡ ወይወርስዎሙስከ፡ አዶላም፡ ወያመጽኡ፡ ክብረ፡ ለወለተ፡ እስራኤል።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=1&amp;verse=16"/>ግምዒ፡ ርእሰኪ፡ ወተላጸዩ፡ ላዕለ፡ ደቂቅኪ፡ ልሕድ፡ አርሕቢ፡ ብርሐተኪ፡ ከመ፡ ንስር፡ እስመ፡ ፄወውዎሙ፡ እምኀቤኪ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="2" xml:id="chapter2">
+               <t:label>Chapter 2</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=1"/>ወመከሩ፡ እኩያ፡ ወገብሩ፡ ኃጢአተ፡ በወስተ፡ ምስካቦሙ፡ ወነቂሆሙ፡ በጽባሕ፡ ይፌጽምዋ። ወኢያነስኡ፡ እደዊሆሙ፡ ኀበ፡ እግዚአብሔር።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=2"/>ወፈት፡ ገራውሀ፡ ወሄዱ፡ አብያ፡ ወተዐገሉ፡ አጓለ፡ ማውታ፡ ወበርበርዎ፡ ለብእሲ፡ ምስለ፡ ቤቱ፡ ወመሠጡ፡ ብኤሴ፡ ምስለርስቱ።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=3"/>በእንተ፡ ዝንቱ፡ ከመዝ፡ ይቤ፡ እግዚአብሔር፡ ናሁ፡ እነ፡ መከርኩ፡ ኩየ፡ ላዕለ፡ ዝንቱ፡ ህዝብ፡ በዘ፡ ኢያነስኡ፡ እከ፡ ካሳዶሙ፡ ወኢየሐውሩ፡ እንከ፡ ርቱዐ፡ ፍኖተ፡ እስመ፡ ታወግቦሙ፡ ዕለት፡ እኪት።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=4"/>ይእተ፡ አሚረ፡ ይሜስ፡ ላዕሌክሙ፡ ምሳሌ፡ ወታስቆቅው፡ ሠቆቃወ፡ ወትበሉ፡ ኀሠርነ፡ ወሐርተምነ፡ ወይሰፍርዋ፡ በሐብል፡ ለምድር፡ ሕዝብየ፡ ወአልቦ፡ ዜከልእ፡ ወየኀድግ፡ ወይከፈሉ፡ ገራውሂክሙ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=5"/>በእንተ፡ ዝቱ፡ ኢትረክቢ፡ ዘያዐውድ፡ ለኪ፡ ሐብለ፡ ዲበ፡ መክፈልትኪ፡ ውስተ፡ ማኀበረ፡ እግዚአብሔር።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=6"/>ኢትብክዩ፡ ወኢታንብኡ፡ በእንተ፡ ዝነቱ። እስመ፡ ኢያትኀደግ፡ ኃሳርክሙ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=7"/>ዘይቤ፡ ቤተ፡ ያእቆብ፡ እምዕኡ፡ መንፈሰ፡ እግዝአቤሔር፡ በዝንቱ፡ ጌጋዩሙ፡ እንዘ፡ ነገሩ፡ ሠናየ፡ ዘኀቤሁ፡ ወራትአን፡ የሀውሩ፡ ቦቱ፡ ወያሜልዑ፡ ቅድም።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=8"/>ወሕዝብየስ፡ ተቃወምዋ፡ ቅድሃ፡ ለሰላሞሙ፡ ወይፃረርዋ። ወሰለብዎ፡ ኩናቶ፡ ወይትቀጠቀጥዎ፡ በውስተ፡ ቀትል።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=9"/>ወበበይ፡ ዝንቱ፡ ይገድፍዎሙ፡ ለመላእክተ፡ ሕዝብየ፡ እምውስተ፡ ትርቲተ፡ አብያቶሙ፡ ወይሰደድዎሙ፡ እስመ፡ እኩ፡ ምግባሪሆሙ። ቅረቡ፡ አድባር፡ እለ፡ እምፍጥረተ፡ ዓለም።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=10"/>ተንስኦ፡ ወሖር፡ እስመ፡ ኢኮነት፡ እንቲአከ፡ ዛቲ፡ ዕረፍት፡ በእን፡ ርኩስክ፡ ጠፋእክሙ፡ ወኀለቅሙ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=11"/>ወጎየድክሙ፡ እንዘ፡ አልቦ፡ ዜዴግነክሙ፡ ጋኔን፡ አቀመ፡ ለከ፡ ሐሰት፡ ዋኣውጽሐ፡ ለከ፡ ወይነ፡ ወጼተሎ። ወይከውን፡ በነፍኒፎሙ፡ ለዝቱ፡ ሕዝብ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=12"/>ይትጋባእ፡ ያዕቆብ፡ ምስለ፡ ኰሎሙ፡ እለ፡ ይጸንሑ። እጸንሖ፡ ለተረፈ፡ እስራኤል፡ ወእሬስያ፡ ኀብረ፡ ለሚጠቶሙ። ከመ፡ አባግዕ፡ ውስተ፡ መጽብብ፡ ወከመ፡ መርዔት፡ ውስተ፡ ምብያቲሆሙ፡ ይትባልሑ፡ እምሰብእ።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=2&amp;verse=13"/>በእንተ፡ ቅትለቶሙ፡ ዘተቃተሉ፡ በቅድመ፡ ገጾሙ፡ ወኀለፋ፡ እምአናቅጽ፡ ወወፅኡ፡ ንተ፡ ውስቴታ፡ ወሖረ፡ ንጉሶሙ፡ ቅደመ፡ ገጾሙ፡ ወእግዚአብሔር፡ ይመርሖሙ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="3" xml:id="chapter3">
+               <t:label>Chapter 3</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=1"/>ወይብል፡ ስምዑ፡ ዘንተ፡ መኳንንት፡ ቤተ፡ ያዕቆብ፡ ወተረፈ፡ ቤተ፡ እስራኤል፡ አኮኑ፡ ለክሙ፡ አእምሮ፡ ፍትሕ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=2"/>እለ፡ ትጸልኡ፡ ሠናይ፡ ወተኀሥሱ፡ እኩየ፡ ወትመሥጥዎሙ፡ አምእስቲሆሙ፡ እምላዕሌሆሙ። ወስጋሆሙኒ፡ እምውስተ፡ አዕጽምቲሆሙ።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=3"/>ወበከመ፡ በልዑ፡ ስጋሆሙ፡ ለሕዝብየ፡ ወአውፅኡ፡ አምእስቲሙ፡ እምስቲሆሙ፡ እምውስተ፡ አዕጽምቲሆሙ፡ ወገመዱ፡ መሌሊቶሙ፡ ከመ፡ ስጋ፡ ውስተ፡ ጽሕርት፡ ወከመ፡ አባል፡ ውስተ፡ መቅጹት።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=4"/>ከማሁ፡ ይጸርሑ፡ ኀበ፡ እግዚአብሔር፡ ወኢይሰምዖሙ፡ ወይመይጥ፡ ገጾ፡ እምኔሆሙ፡ ይእተ፡ አቢረ፡ እስመ፡ አሕሠሙ፡ ገቢረ፡ ላዕለሌሆሙ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=5"/>ከመዝ፡ ይቤ፡ እግዚአብሔር፡ ላዕለ፡ ነቢያት፡ እለ፡ ስሕትዎሙ፡ ለሕዝብየ፡ እለ፡ ይኔዝርዎሙ፡ በስነኒሆሙ፡ ወይሰብኩ፡ ሎሙ፡ ሰላመ፡ ዘአልቦ፡ ዘአዘዞሙ፡ ወአንስኡ፡ ላዕሌሆሙ፡ ቀት።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=6"/>በእንተ፡ ዝንቱ፡ ሌሊት፡ ይከውነክሙ፡ ራእይክሙ፡ ወጽልመተ፡ ይከውነክሙ፡ ሰገልከሙ፡ ወየዐርቦሙ፡ ፀሐይ፡ ለነቢያት፡ ወይጸልሞሙ፡ መዓልት።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=7"/>ወይትኀፈሩ፡ ሐላምያነ፡ ህልመ፡ ሐሰት፡ ወይስሕቅዎሙ፡ ለሰብአ፡ ሰገል፡ ወየሐምይዎሙ፡ ለኰሎሙ፡ ወአልቦ፡ ዘያጸምዖሙ፡ እንከ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=8"/>ለእመ፡ አነ፡ ኢመላእ፡ ኃይለ፡ መንፈሰ፡ እግዚአብሔር፡ ወኃይለ፡ ወፍትሐ፡ ከመ፡ ይንግርዎ፡ ለያዕቆብ፡ ኃጢአቶ፡ ወልስራኤል፡ ጌጋዩ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=9"/>ስምዕ፡ ዘንተ፡ መኳንንተ፡ ቤተ፡ ያዕቆብ፡ ዋታራፋ፡ ቤተ፡ እስራኤል፡ እለ፡ ታስቆርርዋ፡ ለጽድቅ፡ ወትገፈትዕዋ፡ ለርትዕ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=10"/>እለ፡ ተሐንጽዋ፡ ለጽዮን፡ በደም፡ ወለኢየሩሳሌም፡ በዐመፃ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=11"/>መኳንንቲሃኒ፡ በሕልያን፡ ይኬንኑ፡ ወካህናቲሃኒ፡ በዐስብ፡ ያወስኡ፡ ወነቢያቲሃኒ፡ በወርቅ፡ ያስግሉ፡ ወላዕለ፡ እግዚአብሔር፡ ያሰምኩ፡ ወይብ፡ አኮ፡ እግዚአብሔር፡ ምስሌነ፡ ወኢይረክበነ፡ አኩይ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=3&amp;verse=12"/>በእንተ፡ ዝንቱ፡ በበይነ፡ ዚአክሙ፡ የሐርስዋ፡ ለጽዩን፡ ከመ፡ ገራህት፡ ወትከውን፡ ኢየሩሳም፡ ከመ፡ ልገተ፡ ዓቃቤ፡ ቀምሕ፡ ወደብረ፡ ቤቱሂ፡ ከመ፡ ኦመ፡ ገዳም።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="4" xml:id="chapter4">
+               <t:label>Chapter 4</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=1"/>ወይከውን፡ ምደኃሪ፡ መዋዕል፡ ያስተርኢ፡ ደብረ፡ እግዚአብሔር፡ ድልው፡ ውስተ፡ አርእስተ፡ አድባ፡ ዌትሌዐል፡ መልዕልተ፡ አድባር፡ ዋይትሌዐል፡ መዕልተ፡ አውግር፡ ወይረውጹ፡ ኀቤሁ፡ አሕዛብ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=2"/>ወየሐውሩ፡ ብዙኃን፡ ወይብሉ፡ ንዑ፡ ንዕረግ፡ ደብረ፡ እግዚአብሔር፡ ወውስተ፡ ቤተ፡ አምላክ፡ ዕቆብ፡ ወያርእዩነ፡ ፍኖቶ፡ ወንሖር፡ በአሠሩ፡ እስመ፡ እምጽዩን፡ ይወፅእ፡ ህግ፡ ወቃለ፡ እግዚአብሔር፡ እምኢየሩሳም።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=3"/>ወይኳንን፡ ማእከለ፡ ብዙኃን፡ አህዛብ፡ ወይዘልፎሙ፡ ለአሕዛብ፡ ጽኑዓን፡ እስከ፡ ነዋኀ፡ ብሔር፡ ወይመትሩ፡ ኮያንዊሆሙ፡ ለማህረስ፡ ወአስይፍቲሆሙ፡ ለማዓፅድ፡ ወኢያንስኡ፡ እንከ፡ ኩናተ፡ ሕዝብ፡ ላዕለ፡ ህዝብ፡ ወኢይትሜሀሩ፡ እንከ፡ ቀትለ።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=4"/>ወየዐርፋ፡ ኲሎሙ፡ ታሕተ፡ ወይኖሙ፡ ወታህት፡ በለሶሙ፡ ወአልቦ፡ ዘይጌርሞሙ፡ እስመ፡ አፋሁ፡ ለእግዚአብሔር፡ ዘኲሎ፡ ይመልክ፡ ነበበ፡ ከመዝ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=5"/>እስመ፡ ኮለሙ፡ አህዛ፡ ሐውሩ፡ በፍኖቶሙ፡ ወንሕነስ፡ ነሐው፡ በስመ፡ እግኢአብሔር፡ አምላክነ፡ ለዓለም፡ ወዓዲ።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=6"/>ይእተ፡ አሚረ፡ ይቤ፡ እግዚአብሔር፡ አስታኣ፡ ለቅጥቅጥ፡ ወእትዌከፋ፡ ለግድፍት፡ ለእንተ፡ አርኀቅዋ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=7"/>ወእሬስያ፡ ለቅጥቅጥ፡ ትርፍተ፡ ወለግድፍት፡ ህዝበ፡ ጽንዕተ፡ ወይነገስ፡ ሎሙ፡ እግዚአብሔር፡ በደብር፡ ጽለየን፡ እኤእዜ፡ ወእስከ፡ ለዐለም።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=8"/>ወአንቲሂ፡ መኀፈደ፡ ኖሎት፡ ከመ፡ ጸበል፡ ወትመጽእ፡ ዋላታ፡ ጽዩን፡ ውስቴትኪ፡ ወትቀድም፡ በዊኦ፡ ቀዳሚተ፡ መንግስት፡ እምባቢሎን፡ ወለተ፡ ኢየሩሳሌም።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=9"/>ወይእዜ፡ ለምንት፡ መከርኪ፡ እኩየ፡ ንጉሠኑ፡ አልብኪ፡ ዋጣፍአኑ፡ ልብከኪ፡ ከመ፡ የአኀዝኪ፡ ማህምም፡ ክም፡ እንተ፡ ተውልድ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=10"/>ሐመመኪሂ፡ ወተዐገስኪ፡ እንከ፡ ወቅረቢ፡ ወለተ፡ ጽዩን፡ ከመ፡ እተ፡ ትውልድ፡ እስመ፡ ናሁ፡ ይአዝዜ፡ ትወፅኢ፡ ምሀገር፡ ወታኃድሪ፡ ውስተ፡ ጋዳ፡ ዋትበጽሂ፡ እስከ፡ ባቢሎን፡ ወሀህየ፡ ያድኀነኪ፡ ወበሕየ፡ ነግፈኪ፡ እግዚኦብሔር፡ አምላክኪ፡ እምእደ፡ ፀርኪ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=11"/>ወናሁ፡ አእዜ፡ ይትጋብኡ፡ ብዙኃን፡ አህዛብ፡ ላዕሌኪ፡ እለ፡ ይብሉ፡ ንትፈሣሕ፡ ላዕሌኪ፡ ወይርአያኪ፡ አዕይንቲነ፡ ጽዩን።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=12"/>ወእሙንቱሰ፡ ኢያእመሩ፡ ዘመከረ፡ እግዚአብሔር፡ ወኢያእመሩ፡ ዘየለየ፡ እስመ፡ አስተጋብኦሙ፡ ከመ፡ ከላስስት፡ ውስተ፡ ዐውደ፡ እክል።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=4&amp;verse=13"/>ተንስኢ፡ አኪድዩሙ፡ ወለተ፡ ጽዩን፡ እስመ፡ እሬስዩ፡ ዘኃፂን፡ ለአቅርቲኪ፡ ወእሬስዩ፡ ዘብርት፡ ለወላትኪ፡ ወትመስዊዩሙ፡ ለብዙኃን፡ አሕዛብ፡ ወተሐርሚዩሙ፡ ለእግዚአብሔር፡ ብዝኖሙ፡ ወኃይሎሙ፡ ለእግዚአብሔር፡ በኲሉ፡ ምድር።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="5" xml:id="chapter5">
+               <t:label>Chapter 5</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=1"/>ናሁ፡ ይእዜ፡ የዐግትዋ፡ ለመለተ፡ ጽዩን፡ ወየሐጽርዋ፡ በበትር፡ ይዘብጡክሙ፡ ውስተ፡ መላትሒክሙ፡ ህዝበ፡ እስራኤል።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=2"/>ወአንቲኒ፡ ቤተልሄም፡ መድረ፡ ኤፍራ፡ ውሕድ፡ አንቲ፡ ከመ፡ ትኪኒ፡ አእላፈ፡ ይሁዳ፡ እምኔኪ፡ ይወፅእ፡ ንጉሠ፡ ለእስራኤል፡ ወፍናዊሁኒ፡ ዘእምፍጥረተ፡ ዐለም።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=3"/>በእንተ፡ ዝንቱ፡ ትሁቦሙ፡ እስከ፡ ጊዜ፡ ትውልድ፡ ትውልድ፡ ወእለ፡ ተርፋ፡ አኃዊሆሙ፡ ይትመየጡ፡ ኀበ፡ ደቂቀ፡ እስራኤል።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=4"/>ወይቀውም፡ ወይሬዔቶ፡ በኃይለ፡ እግዚአብሔር፡ ወበስብሐተ፡ ስመ፡ እግዚአብሔር፡ አምላኮሙ፡ ይሄልው፡ እስመ፡ አጽናፈ፡ ምድር።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=5"/>ወትከውን፡ ዛ፡ ሰላም፡ አመ፡ መጽኡ፡ ፋርስ፡ ውስተ፡ ምድርክሙ፡ ወአመ፡ ዕጉ፡ ውስተ፡ ብሔርክ፡ ወይትንስኡ</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=7"/>ኖሉት፡ ላእሌሁ፡ ወ</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=6"/>ወይርእይዎ፡ ለአሶር፡ በኩናት፡ ዋላምድረ፡ ነምሮድ፡ በውስተ፡ ኀዝአቱ፡ ወይድኃን፡ እምአሶር፡ እመ፡ መጽአ፡ ውስተ፡ ብሔርክሙ፡ ወአመ፡ ዐርገ፡ ውስተ፡ አድባሪክሙ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=7"/>ወይከውን፡ ተረፈ፡ ያእቆብ፡ ውስተ፡ አሕዛብ፡ በማእከለ፡ ብዙኃን፡ ህዝብ፡ ከመ፡ ጠል፡ ዘይወርድ፡ እምኀበ፡ እግዚአብሔር፡ ወከመ፡ አባግዕ፡ ውስተ፡ ተሐግ፡ ከመ፡ ኢይትጋባአ፡ ዋኢአሐዱ፡ ወኢይቀውም፡ ውስተ፡ ዳቂቀ፡ እጓለ፡ እመሕያው።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=8"/>ወይከውን፡ ተረፈ፡ ያዕቆብ፡ ማእከለ፡ ብዙኃን፡ አሕዛብ፡ ከመ፡ አንበሳ፡ ውስተ፡ እንስሳ፡ በገዳም፡ ወከመ፡ እጓለ፡ አንበሳ፡ ውስተ፡ መርዔተ፡ አባግዕ፡ ከመ፡ ሶበ፡ ይመጽእ፡ ወይሰርር፡ ወይመስጥ፡ ወአልቦ፡ ዘያነግፎ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=9"/>ከማኁ፡ ትትሌዐል፡ እዴከ፡ ዲበ፡ እለ፡ ይሣቅከ፡ ወይሴረው፡ ኰሎሙ፡ ፀረከ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=10"/>ወይከውን፡ ይእቲ፡ ኣሚረ፡ ይቤ፡ እግዚአብሔር፡ እሴርዎሙ፡ ለአፍራሲከ፡ በማእከልከ፡ ወአጠፍእ፡ ሠረገላከ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=11"/>ወእሤርዎን፡ ለአህጉረ፡ ብሔርከ፡ ወአንኅ፡ ኮሎ፡ አጽዋኒከ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=12"/>ወእስዕር፡ ኮሎ፡ ስራያቲከ፡ እምእደዊክ፡ ወአልቦ፡ ዘይትዋሳእ፡ ላከ።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=13"/>ወእሤሩ፡ ግልፎከ፡ ወአምሳሊከ፡ እማእከልከ፡ ወኢትሰግድ፡ እንከ፡ ግብረ፡ እደዊከ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=14"/>ወእገዝም፡ ምህራማቲከ፡ እማእከልከ፡ ወአጠፍኦን፡ ለአህጉሪከ።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=5&amp;verse=15"/>ወእገብር፡ በቀለ፡ ውስተ፡ አህዛብ፡ በመዐትየ፡ ወበመቅሠፍትየ፡ እስመ፡ ኢሰምኡ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="6" xml:id="chapter6">
+               <t:label>Chapter 6</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=1"/>ስምኡ፡ ቃለ፡ እግዚአብሔር፡ ዘይቤ፡ ተንስእ፡ ተዋቀስሙ፡ ለአድባር፡ ወይስምኡ፡ አውግር፡ ቃለከ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=2"/>ስምኡ፡ አድባር፡ ቅስተ፡ እግዚአብሔር፡ ወቆላተ፡ መሠረተ፡ ምድር፡ እስመ፡ ይትዋቀሶሙ፡ እግዚአብሑር፡ ለህዝብ፡ ወይዛፎሙ፡ ለእስራኤል።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=3"/>እንዘ፡ ይብል፡ ሕዝብየ፡ ምተ፡ ረሰይኩክ፡ ወምንተ፡ አተከዝኩከ፡ ወምነተ፡ አጽሐብኩከ፡ ንግረኒ።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=4"/>ናሁ፡ አውፃእኩከ፡ እምድረ፡ ግብጽ፡ ወባለሕኩከ፡ አምቤተ፡ ቅኔ፡ ወፈነውኩ፡ ቅድሜከ፡ ሙሴሃ፡ ወአሮንሃ፡ ወማርያሃ።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=5"/>ተዘከር፡ ህዝብየ፡ ዘመከረ፡ ላዕሌከ፡ ባላቅ፡ ንጉሰ፡ ሞአብ፡ ወምንተ፡ አውስኦ፡ በለዓም፡ ወልደቤኦር፡ እምነ፡ ሰኪኖን፡ እስከ፡ ገላገላ። ከመ፡ ይትዐወቅ፡ ጽድቁ፡ ለእግዜአብሔር።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=6"/>በምንትኑ፡ እንጋ፡ እረክቦ፡ ለእግዚአብሔር፡ ወእትዌከፎ፡ ለአምላኪየ፡ ልዑል፡ እረክቦኑ፡ እንጋ፡ በመስዋዕተ፡ አልህምት፡ ዘዓመት።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=7"/>ይትዌከፍኑ፡ እንጋ፡ እግዚአብሔር፡ በእልፍ፡ አባግዕ፡ ወእመ፡ አኮ፡ በአእላፍ፡ ሐራጊት፡ ስቡሖን፡ ወእመ፡ አኮ፡ በበኩርየ፡ በፍሬ፡ ከርስየ፡ በእንተ፡ ኃጢተ፡ ነፍስየ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=8"/>እመ፡ ቦ፡ ዘነገረከ፡ ሰብእ፡ ምንት፡ ሠናይ፡ ወምንተ፡ ይፈቅድ፡ እግዚአብሔር፡ እምኔከ፡ ዘእነነለ፡ ከመ፡ ትግበር፡ ጽድቀ፡ ወታፍቅር፡ ምጽዋተ፡ ወትኩን፡ ጥቡዐ፡ ከመ፡ ትትልዎ፡ ለእግዚአብሔር፡ አምላክከ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=9"/>ቃለ፡ እግዚአብሔር፡ ትስማሚ፡ በሀገርከ፡ ከመ፡ ያድኀኖሙ፡ ለእለ፡ ይፈርሁ፡ ስሞ። ስማዕ፡ ሕዝብየ፡ መኑ፡ ያስተሬሲ፡ ሀገረ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=10"/>እሳትኑ፡ ወቤተ፡ ዓማፅያን፡ እለ፡ ይዘግቡ፡ መዛግብተ፡ ዓመፃ፡ ወይገፍዑ፡ ወየኀስሩ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=11"/>ለእመ፡ ይጠድቁ፡ በመዳልወ፡ ዓመፃ፡ ወቁናማተ፡ ተምያን።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=12"/>እለ፡ መልእዎ፡ ለብዕለሎሙ፡ በዓመፃ፡ ወእለኒ፡ ይነብሩ፡ ውስቴታ፡ ሐሰተ፡ ይትናገሩ፡ ወልሳኖሙኒ፡ ዘጐሕሉት፡ ውስተ፡ አፋሆሙ።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=13"/>ወአነሂ፡ እኀዘ፡ እቅትልኪ፡ ወአጥፍእኪ፡ በእንተ፡ ኃጢአትኪ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=14"/>ትበልኢ፡ ወኢትጸግቢ፡ ወይጸልመኪ፡ ወትመውቲ፡ ወኢተሐይዊ፡ ወኮሎሙ፡ እለ፡ ድኀኑ፡ በኪናት፡ ይወድቁ።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=15"/>ትዘርኢ፡ ወኢተአርሪ፡ ትተክሊ፡ ዘይተ፡ ወኢትትቀብኢ፡ ቅብአ፡ ትተክሊ፡ ለወይነ፡ ወኢትሰትዩ፡ ወይነኪ፡ ወይማስን፡ ስርዓቶሙ፡ ለሕዝብየ።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=6&amp;verse=16"/>መአቀብኪ፡ ህጎ፡ ለዘንበሪ፡ ወኮሎ፡ ምባረለቤተ፡ አካአብ፡ ወሖርክሙ፡ በምባሮሙ፡ ከመ፡ ያብእ፡ ውስተ፡ ሙስና። ወለእለሂ፡ ይነብሩ፡ ውስቴታ፡ ኃሳር፡ ወጽዕለተ፡ አሕዛብ፡ ረክቦሙ።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="7" xml:id="chapter7">
+               <t:label>Chapter 7</t:label>
+               <t:ab>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=1"/>አሌሊተ፡ እስመ፡ ኮንኩ፡ ከመ፡ ዜስተጋብእ፡ ቀሪመ፡ በማእረር፡ ወከመ፡ ተቅራም፡ እመ፡ ቀስም፡ ዘአልቦ፡ አስካ፡ ዘይበልኡ። አሌላ፡ ለነፍስየ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=2"/>እስመ፡ ኀልቀ፡ ኄር፡ እምድር፡ ወአልቦ፡ ሰብእ፡ ዘይረትዕ፡ ኩሉ፡ ለለለነፍሱ፡ ይሴነን፡ ወክሉ፡ ለያጠውቅ፡ ቢጾ፡ ወያመነደብ።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=3"/>ወያነስኡ፡ እደውሆሙ፡ ለእኩይ፡ መልአክኒ፡ ይስእል፡ ወመኮንንኒ፡ ይየውህ፡ ከመ፡ ይርከብ፡ ፍትወተ፡ ነፍሱ፡ ወአጠፍኦ፡ ለበረከቶሙ።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=4"/>ከመ፡ ጻፄ፡ ዘይበልዕ፡ ወየዐርግ፡ ዲበ፡ ንዋይ፡ በዕለተ፡ ጽልመት። አሌለኪ፡ በጽሒኪ፡ ፍዳኪ፡ ይእዜ፡ ይበጽሖሙ፡ ግዓር።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=5"/>ኢትትአመንዎሙ፡ እንከ፡ ለአዕርክቲክሙ፡ ወኢትትወከልዎሙ፡ ለመላእክት፡ ወእምብእሲትከ፡ ብስተ፡ ምስካብከ፡ ተዐቀብ፡ ከመ፡ ትእበያ።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=6"/>እስመ፡ ወልድኒ፡ ያኀስር፡ አባሁ፡ ወወለትኒ፡ ትትነሣእ፡ ዲበ፡ እማ፡ ወመርዓትኒ፡ ትትነሣእ፡ ዲበ፡ እማ፡ ወመርዓት፡ ላዕለ፡ ሐማታ፡ ወኲሉ፡ ሰብ፡ ቤቱ፡ ይጻረሮ፡ ለሰብእ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=7"/>ወአንሰ፡ ዲበ፡ እግዚአብሔር፡ አዐርፍ፡ ወእሴፈዎ፡ ለአምላኪየ፡ ወመድኃንየ፡ ወይሰምዐኒ፡ አምላኪየ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=8"/>ወኢይከውን፡ ስላተ፡ ጸላእየ፡ እኒ፡ ድኀጽኩ፡ እትነሳእ፡ ወእመኒ፡ ነበርኩ፡ ስተ፡ ጽልመጽ፡ እግዚአብሔር፡ በርህ፡ ሊተ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=9"/>ተግሳጽ፡ እግዚአብሔር፡ አንሰ፡ ተዐገስኩ፡ እስመ፡ አበስኩ፡ ሎቱ፡ እስከ፡ ያጸድቂ፡ ፍትሕየ። ወይገብሮ፡ ሊተ፡ ቅስትየ፡ ወያገብአኒ፡ ውስተ፡ ብርሃን፡ ወእሬእያ፡ ለጽድቁ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=10"/>ወትሬኢ፡ ጸላእትየ፡ ወትለብስ፡ ኃፍረተ፡ እንተ፡ ትብለኒ፡ አይቴ፡ ውእቱ፡ እግዚአብሔር፡ አምላክከ። ወይሬእያ፡ አዕይንትየ፡ ይእዜ፡ ትከውን፡ ከመ፡ ጽንጒን፡ ዜከይዱ፡ ውስተ፡ ፍኖት።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=11"/>ወታጠፍአኪ፡ ይእተ፡ ዕለተ፡ ወትማስን፡ ህግኪ፡ ይእተ፡ ዕለተ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=12"/>ወትዐጸው፡ አህጉሪኪ፡ ወይትካፈልዎን፡ ፋርስ፡ ለአህጉሪኪ፡ ጽኑዓት፡ እምጢስ፡ እስከ፡ ፈለገ፡ ሶርያ፡ ወእምባሕር፡ እስከ፡ ባሕር፡ ወእምአድባር፡ እስከ፡ አድባር።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=13"/>ወትማስን፡ ምድር፡ ምስለ፡ ኩሉ፡ ዘይነብራ፡ እምፍሬ፡ እከየ፡ ምግባሮሙ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=14"/>ረዐይ፡ ሕዝብከ፡ በበትርከ፡ ወነገደ፡ አባግዐ፡ ርስትከ፡ ወይኀድሩ፡ ባሕቲቶሙ፡ ወይትረዐዩ፡ ውስተ፡ ዖም፡ ዘማእከለ፡ ቀርሜሎስ፡ ወባሳን፡ ወገለአድ፡ በከመ፡ መዋዕለ፡ ዓለም።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=15"/>ወከመ፡ መዋዕክ፡ ዘአመ፡ ዐርጉ፡ እምግብጽ፡ ወትሬእዩ፡ መንክረ።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=16"/>ወይርአዩ፡ አሕዛብ፡ ወይትኀፈሩ፡ በኩሉ፡ ኃይሎሙ፡ ይወድዩ፡ እደዊሆሙ፡ ዲበ፡ አፋሆሙ፡ ወይጠይዑ፡ እዘኒሆሙ።</t:l>
+                  <t:l n="17">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=17"/>ወይልሕሱ፡ መሬተ፡ ከመ፡ አርዌ፡ ምድር፡ ወይትከውሱ፡ በውስተ፡ መዕገቶሙ፡ ወይደነግፁ፡ እምእግዚአብሔር፡ አምላክነ፡ ወይፈርሁ፡ እምኔሁ።</t:l>
+                  <t:l n="18">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=18"/>መኑ፡ አምላክ፡ ከማከ፡ ዘያአትት፡ ኃጢአተ፡ ወይትዐደው፡ አበሳሆሙ፡ ለርስቱ፡ ለእለ፡ ተርፋ፡ ወኢያጽንዐ፡ ስምዐ፡ መዐቱ፡ እስመ፡ ፈቃዴ፡ ምሕረት፡ ውእቱ።</t:l>
+                  <t:l n="19">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=19"/>ይትመየጠነ፡ ዋይሠሀለነ፡ ወያሠጥሞን፡ ለኃጣውኢነ፡ ወይዌርዎን፡ ውስተ፡ ቀላየ፡ ባሕር፡ ለአበሳነ።</t:l>
+                  <t:l n="20">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=Mic&amp;chapter=7&amp;verse=20"/>ወትሁብ፡ ጽድቀ፡ ለያዕቆብ፡ መሳህ፡ ለአብርሃም፡ በከመ፡ መሐልከ፡ ለአበዊነ፡ በመዋዕለ፡ ትካት።</t:l>
+               </t:ab>
+            </t:div>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

@@ -2,9 +2,9 @@
         <fileDesc>
             <titleStmt><title type="full">London, British Library, BL Oriental 12034</title>
                 <title>Divination, Magic prayers, Medicine</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="CH" corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH">Carsten Hoffmann</editor>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-CH" corresp="https://betamasaheft.eu/team.html#CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="ed-CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -14,7 +14,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">2.7.2025 at 12:30:01</date><date type="lastModified">10.6.2025</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BLorient12034/main</idno><idno type="URI">https://betamasaheft.eu/BLorient12034</idno><idno type="filename">BLorient12034.xml</idno><idno type="ID">BLorient12034</idno></publicationStmt>
+            <date type="expanded">3.9.2026 at 09:11:25</date><date type="lastModified">4.9.2025</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BLorient12034/main</idno><idno type="URI">https://betamasaheft.eu/BLorient12034</idno><idno type="filename">BLorient12034.xml</idno><idno type="ID">BLorient12034</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -35,7 +35,7 @@
                                     <dimensions type="outer" unit="mm">
                                         <height>115</height>
                                         <width>160</width>
-                                    </dimensions>
+                                    </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="115" unit="mm"/><width quantity="160" unit="mm"/></dimensions>
                                 </extent>
                                 <foliation><locus from="80" to="87">Ff. 80 to 87</locus> are excluded from foliation. <locus target="#88"/> is 
                                     therefore foliated with '80' et passim.</foliation>
@@ -43,6 +43,7 @@
                         </objectDesc>
                     </physDesc>
                     <history>
+                        <origin><origDate notBefore="1700" notAfter="1799">18th century</origDate></origin>
                         <provenance>Before being auctioned in Sotheby's, the manuscript was in the possession of 
                             <persName role="owner" ref="https://betamasaheft.eu/PRS8169Rodd">Lord Rennell of Rodd</persName>.</provenance>
                         <acquisition>Bought from Sotheby's. <date when="1952-11-10">10 November 1952</date>.</acquisition>
@@ -52,7 +53,7 @@
                             <recordHist>
                                 <source>
                                     <listBibl type="catalogue">
-                                        <bibl corresp="http://zotero.org/groups/358366/items/RSEA4WPK"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1978BritishLibrary"/><title level="m">Catalogue of Ethiopian Manuscripts in the British Library acquired since the Year 1877</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>London</pubPlace><publisher>British Museum</publisher><date>1978</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">British Museum</note><note type="tag">bm:Strelcyn1978BritishLibrary</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">British Museum</note><note type="tag">bm:Strelcyn1978BritishLibrary</note><citedRange unit="page">144-153</citedRange></bibl>
+                                        <bibl corresp="http://zotero.org/groups/358366/items/RSEA4WPK"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1978BritishLibrary"/><title level="m">Catalogue of Ethiopian Manuscripts in the British Library Acquired Since the Year 1877</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>London</pubPlace><publisher>Published by British Museum Publications for the British Library</publisher><date>1978</date><note type="tags"><note type="tag">British Museum</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Strelcyn1978BritishLibrary</note></note><note type="tag">British Museum</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Strelcyn1978BritishLibrary</note><citedRange unit="page">144-153</citedRange></bibl>
                                     </listBibl>
                                 </source>
                             </recordHist>
@@ -73,7 +74,7 @@
                             </msItem>
                             <msItem xml:id="p1_i2">
                                 <locus target="#1r"/>
-                                <title type="complete">Ḥassāb concerning the destruction of the country</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7562HassabDes">Ḥassāba ṭǝfʾata hagar</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ጥፍአተ፡ ሀገር፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
@@ -118,7 +119,7 @@
                                         <dimensions type="outer" unit="mm">
                                             <height>670</height>
                                             <width>110</width>
-                                        </dimensions>
+                                        </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="670" unit="mm"/><width quantity="110" unit="mm"/></dimensions>
                                     </extent>
                                 </supportDesc>
                                 <layoutDesc>
@@ -142,15 +143,17 @@
                                 <title type="incomplete" ref="https://betamasaheft.eu/LIT7479Saalt">Maṣḥafa Saʾalt</title>
                                 <note>Only 22 out of 30 chapters are present. The last four chapters bear no titles, the places for rubrication remain
                                     blank.</note>
-                                <note>Cf. <bibl corresp="http://zotero.org/groups/358366/items/Z86ISJY5"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abreha1949Hatata"/><title level="m">Ḥatatā manāfǝst (kaʾǝna tǝrgumu wa-'awda nagast)</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Za-Manfas Qǝddus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">ʾAbrǝha</t:surname></author><pubPlace>Asmara</pubPlace><date>1949</date><citedRange unit="page">213-232</citedRange></bibl></note>
+                                <note>Cf. <bibl corresp="http://zotero.org/groups/358366/items/Z86ISJY5"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abreha1949Hatata"/><title level="m">Ḥatatā manāfǝst (kaʾǝna tǝrgumu wa-'awda nagast)</title><author><name>Za-Manfas Qǝddus ʾAbrǝha</name></author><pubPlace>Asmara</pubPlace><date>1949</date><note type="tags"><note type="tag">bm:Abreha1949Hatata</note></note><note type="tag">bm:Abreha1949Hatata</note><citedRange unit="page">213-232</citedRange></bibl></note>
                                 <textLang mainLang="gez"/>
                                 <msItem xml:id="p2_i2.1">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Husband">Maṣḥafa Saʾalt: Chapter 1 - Concerning a husband and wife</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Husband">Maṣḥafa Saʾalt: Chapter 1 - Concerning a husband and
+        wife</title>
                                     <incipit xml:lang="gez">አንቀጽ፡ በእንተ፡ ብእሲ፡ ወብእሲት፡</incipit>
                                     <textLang mainLang="gez"/>
                                 </msItem>
                                 <msItem xml:id="p2_i2.2">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Prison">Maṣḥafa Saʾalt: Chapter 2 - Concerning prison and anger</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Prison">Maṣḥafa Saʾalt: Chapter 2 - Concerning prison and
+        anger</title>
                                     <incipit xml:lang="gez">አንቀጽ፡ በእንተ፡ ሞቅሕ፡ ወቍጥዓ፡</incipit>
                                     <textLang mainLang="gez"/>
                                 </msItem>
@@ -160,7 +163,8 @@
                                     <textLang mainLang="gez"/>
                                 </msItem>
                                 <msItem xml:id="p2_i2.4">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Power">Maṣḥafa Saʾalt: Chapter 4 - Concerning the (royal) power</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Power">Maṣḥafa Saʾalt: Chapter 4 - Concerning the (royal)
+        power</title>
                                     <incipit xml:lang="gez">ሥልጣን፡ ዘንጉሥ፡</incipit>
                                     <textLang mainLang="gez"/>
                                 </msItem>
@@ -170,7 +174,8 @@
                                     <textLang mainLang="gez"/>
                                 </msItem>
                                 <msItem xml:id="p2_i2.6">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Acquisition">Maṣḥafa Saʾalt: Chapter 6 - Concerning the acquisition of things</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Acquisition">Maṣḥafa Saʾalt: Chapter 6 - Concerning the acquisition
+        of things</title>
                                     <incipit xml:lang="gez">ተቀብሎተ፡ ነገር፡</incipit>
                                     <textLang mainLang="gez"/>
                                 </msItem>
@@ -180,17 +185,20 @@
                                     <textLang mainLang="gez"/>
                                 </msItem>
                                 <msItem xml:id="p2_i2.8">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Disease1">Maṣḥafa Saʾalt: Chapter 8 - Concerning disease and death</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Disease1">Maṣḥafa Saʾalt: Chapter 8 - Concerning disease and
+        death</title>
                                     <incipit xml:lang="gez">ደዌ፡ ወሞት፡</incipit>
                                     <textLang mainLang="gez"/>
                                 </msItem>
                                 <msItem xml:id="p2_i2.9">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Enemy">Maṣḥafa Saʾalt: Chapter 9 - Concerning the coming of enemies</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Enemy">Maṣḥafa Saʾalt: Chapter 9 - Concerning the coming of
+        enemies</title>
                                     <incipit xml:lang="gez">ምጽአተ፡ ጸላዒ፡ ወአርበኛ፡</incipit>
                                     <textLang mainLang="gez"/>
                                 </msItem>
                                 <msItem xml:id="p2_i2.10">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Journey2">Maṣḥafa Saʾalt: Chapter 10 - Concerning one who undertakes a long journey</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Journey2">Maṣḥafa Saʾalt: Chapter 10 - Concerning one who undertakes
+        a long journey</title>
                                     <incipit xml:lang="gez">ዘነገደ፡ ርሁቀ፡</incipit>
                                     <textLang mainLang="gez"/>
                                 </msItem>
@@ -200,7 +208,8 @@
                                     <textLang mainLang="gez"/>
                                 </msItem>
                                 <msItem xml:id="p2_i2.12">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Loss1">Maṣḥafa Saʾalt: Chapter 12 - Concerning the loss of goods</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Loss1">Maṣḥafa Saʾalt: Chapter 12 - Concerning the loss of
+        goods</title>
                                     <incipit xml:lang="gez">ጥፍአተ፡ ንዋይ፡</incipit>
                                     <textLang mainLang="gez"/>
                                 </msItem>
@@ -215,21 +224,25 @@
                                     <textLang mainLang="gez"/>
                                 </msItem>
                                 <msItem xml:id="p2_i2.15">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Valuation">Maṣḥafa Saʾalt: Chapter 15 - Concerning the valuation of goods</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Valuation">Maṣḥafa Saʾalt: Chapter 15 - Concerning the valuation of
+        goods</title>
                                     <incipit xml:lang="gez">ሐሲበ<supplied reason="omitted" resp="PRS8999Strelcyn">፡</supplied> ንዋይ፡</incipit>
                                     <textLang mainLang="gez"/>
                                 </msItem>
                                 <msItem xml:id="p2_i2.16">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Delivery">Maṣḥafa Saʾalt: Chapter 16 - Whether a woman gives birth to a child or not</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Delivery">Maṣḥafa Saʾalt: Chapter 16 - Whether a woman gives birth
+        to a child or not</title>
                                     <incipit xml:lang="gez">ዘትወልድ፡ ወኢትወልድ፡</incipit>
                                     <textLang mainLang="gez"/>
                                 </msItem>
                                 <msItem xml:id="p2_i2.17">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Disease2">Maṣḥafa Saʾalt: Chapter 17 - Concerning disease and death</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Disease2">Maṣḥafa Saʾalt: Chapter 17 - Concerning disease and
+        death</title>
                                     <textLang mainLang="gez"/>
                                 </msItem>
                                 <msItem xml:id="p2_i2.18">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Loss2">Maṣḥafa Saʾalt: Chapter 18 - Concerning the loss of goods</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7479Saalt#Loss2">Maṣḥafa Saʾalt: Chapter 18 - Concerning the loss of
+        goods</title>
                                     <textLang mainLang="gez"/>
                                 </msItem>
                                 <msItem xml:id="p2_i2.19">
@@ -253,19 +266,17 @@
                             </msItem>
                             <msItem xml:id="p2_i3">
                                 <locus from="8ra"/>
-                                <title type="complete">Ḥassāb concerning fate</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7566HassabFate">Ḥassāba kǝfl ʾi-yǝfaqqǝraka wa-ʾi-yǝṣallǝʾaka</title>
                                 <note>Ḥassāb concerning the fate, i.e. whether a person will like you or hate you.</note>
-                                
                                 <incipit xml:lang="gez">ሐሳበ፡ ክፍል፡ ኢይፈቅረከ፡ ወኢይጸልአከ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i4">
                                 <locus from="8rb"/>
-                                <title type="complete">Ḥassāb concerning a soldier</title>
-                                
-                                <note>Cf. <bibl corresp="http://zotero.org/groups/358366/items/Z86ISJY5"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abreha1949Hatata"/><title level="m">Ḥatatā manāfǝst (kaʾǝna tǝrgumu wa-'awda nagast)</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Za-Manfas Qǝddus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">ʾAbrǝha</t:surname></author><pubPlace>Asmara</pubPlace><date>1949</date><citedRange unit="page">191-192</citedRange></bibl></note>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7570HassabHara">Ḥassāba ḥarā (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ሐራ፡</incipit>
-                                
+                                <note>Different from <ref target="#p2_i10"/>, <ref target="#p2_i33"/>, <ref target="#p2_i38"/> and 
+                                    <ref target="#p2_i41"/>.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i5">
@@ -283,7 +294,7 @@
                             </msItem>
                             <msItem xml:id="p2_i7">
                                 <locus from="9r"/>
-                                <title type="complete">Ḥassāb to know whether someone will return or not</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7577HasYegbe">Yǝgbǝʾ wa-ʾiyǝgabbǝʾ</title>
                                 <incipit xml:lang="gez">ይግብእ፡ ወኢይገብእ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
@@ -307,11 +318,13 @@
                                     <incipit xml:lang="am">ለዘሞተ፡ እስኪቱ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i9.3">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7529Madhanit#Genitals">Maṣḥafa Madḫanit: Against swelling of the genitals</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7529Madhanit#Genitals">Maṣḥafa Madḫanit: Against swelling of the
+        genitals</title>
                                     <incipit xml:lang="am">እስኪቱ፡ ሶበ፡ የሐብጥ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i9.4">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7529Madhanit#Child">Maṣḥafa Madḫanit: Against night terror of a sick child</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7529Madhanit#Child">Maṣḥafa Madḫanit: Against night terror of a sick
+        child</title>
                                     <incipit xml:lang="am">ሕፃን፡ በሌሊት፡ በታመመ፡ ጊዜ፡ ቢደነግፅ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i9.5">
@@ -321,8 +334,9 @@
                             </msItem>
                             <msItem xml:id="p2_i10">
                                 <locus from="10r"/>
-                                <title type="complete">Ḥassāb concerning a soldier</title>
-                                
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7570HassabHara">Ḥassāba ḥarā (general record)</title>
+                                <note>Different from <ref target="#p2_i4"/>, <ref target="#p2_i33"/>, <ref target="#p2_i38"/> and 
+                                    <ref target="#p2_i41"/>.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i11">
@@ -332,14 +346,14 @@
                             </msItem>
                             <msItem xml:id="p2_i12">
                                 <locus target="10r"/>
-                                <title type="complete">Ḥassāb on destiny, to know if one will grow rich or become poor</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7578HaRichPoor">Ḥassāba kǝfl za-yǝbǝʿǝlu wa-yǝnaddǝyu</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ክፍል፡ ዘይብዕሉ፡ ወይነድዩ፡</incipit>
-                                
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i13">
                                 <locus from="10r"/>
-                                <title type="complete" ref="https://betamasaheft.eu/LIT7513PPMaganna">Prescription against Magāññā, for sleeping and against asthma</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7513PPMaganna">Prescription against Magāññā, for sleeping and against
+        asthma</title>
                                 <note>Medical prescription against Magāññā and other evil spirits, for sleeping (<foreign xml:lang="gez">ለእንቅልፍ፡</foreign>),
                                     for the asthmatic (<foreign xml:lang="gez">በቃታ፡</foreign>), etc.</note>
                                 <textLang mainLang="gez"/>
@@ -360,16 +374,15 @@
                             </msItem>
                             <msItem xml:id="p2_i16">
                                 <locus from="13r"/>
-                                <title type="complete">Ḥassāb concerning a journey</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7579HassabaFen">Ḥassāba fǝnot (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ፍኖት፡</incipit>
-                                
-                                <note>Cf. <bibl corresp="http://zotero.org/groups/358366/items/Z86ISJY5"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abreha1949Hatata"/><title level="m">Ḥatatā manāfǝst (kaʾǝna tǝrgumu wa-'awda nagast)</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Za-Manfas Qǝddus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">ʾAbrǝha</t:surname></author><pubPlace>Asmara</pubPlace><date>1949</date><citedRange unit="page">207, 232</citedRange></bibl></note>
+                                <note>Different from <ref target="#p2_i30"/> and <ref target="#p2_i86"/>.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i17">
                                 <locus target="#13v"/>
                                 <title type="complete" ref="https://betamasaheft.eu/LIT7532PPElkh">Set of magic prayers</title>
-                                <note>Written in a <ref type="authFile" corresp="https://betamasaheft.eu/MagicDrawing">Magic Square</ref> (cf. <ref target="#d1"/></note>
+                                <note>Written in a <ref type="authFile" corresp="https://betamasaheft.eu/MagicDrawing">Magic Square</ref> (cf. <ref target="#d1"/>.</note>
                                 <incipit xml:lang="gez">እልኽ፡ ፯ ሜልኽ፡ ፯ ሕልሕሜል፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
@@ -456,7 +469,7 @@
                                     <locus from="33rb"/>
                                     <title ref="https://betamasaheft.eu/LIT1171Awdana#Gemb">ʿAwda nagaśt: 14th story on lake Gǝmb</title>
                                     <note>This part is numbered 14th and comes after <foreign xml:lang="gez">Ḥawāš</foreign>in 
-                                        <bibl><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1941AwdaNagast"/><title level="a">Lo 'awda nagast scritto divinatorio etiopico</title><title level="j">Rassegna di Studi Etiopici</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><date>1941</date><biblScope unit="volume">1</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">127-145</biblScope><note type="url">http://www.jstor.org/stable/41460166</note><note type="tags"><note type="tag">Divination</note><note type="tag">bm:ContiRossini1941AwdaNagast</note></note><note type="tag">Divination</note><note type="tag">bm:ContiRossini1941AwdaNagast</note><citedRange unit="page">131</citedRange></bibl>,
+                                        <bibl corresp="http://zotero.org/groups/358366/items/IHD4VC4U"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1941AwdaNagast"/><title level="a">Lo ʿawda nagast scritto divinatorio etiopico</title><title level="j">Rassegna di Studi Etiopici</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><date>1941</date><biblScope unit="volume">1</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">127-145</biblScope><note type="url">http://www.jstor.org/stable/41460166</note><note type="tags"><note type="tag">Divination</note><note type="tag">bm:ContiRossini1941AwdaNagast</note></note><note type="tag">Divination</note><note type="tag">bm:ContiRossini1941AwdaNagast</note><citedRange unit="page">131</citedRange></bibl>,
                                         but here it comes before.</note>
                                     <incipit xml:lang="gez">ዘባሕረ፡ ግምብ፡</incipit>
                                 </msItem>
@@ -464,7 +477,7 @@
                                     <locus from="33va"/>
                                     <title ref="https://betamasaheft.eu/LIT1171Awdana#Hawash">ʿAwda nagaśt: 13th story on lake Ḥawāš</title>
                                     <note>This part is numbered 13th and comes before <foreign xml:lang="gez">Gǝmb</foreign>in 
-                                        <bibl><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1941AwdaNagast"/><title level="a">Lo 'awda nagast scritto divinatorio etiopico</title><title level="j">Rassegna di Studi Etiopici</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><date>1941</date><biblScope unit="volume">1</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">127-145</biblScope><note type="url">http://www.jstor.org/stable/41460166</note><note type="tags"><note type="tag">Divination</note><note type="tag">bm:ContiRossini1941AwdaNagast</note></note><note type="tag">Divination</note><note type="tag">bm:ContiRossini1941AwdaNagast</note><citedRange unit="page">131</citedRange></bibl>,
+                                        <bibl corresp="http://zotero.org/groups/358366/items/IHD4VC4U"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1941AwdaNagast"/><title level="a">Lo ʿawda nagast scritto divinatorio etiopico</title><title level="j">Rassegna di Studi Etiopici</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><date>1941</date><biblScope unit="volume">1</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">127-145</biblScope><note type="url">http://www.jstor.org/stable/41460166</note><note type="tags"><note type="tag">Divination</note><note type="tag">bm:ContiRossini1941AwdaNagast</note></note><note type="tag">Divination</note><note type="tag">bm:ContiRossini1941AwdaNagast</note><citedRange unit="page">131</citedRange></bibl>,
                                         but here it comes after.</note>
                                     <incipit xml:lang="gez">ዘባሕረ፡ ሐዋሽ፡</incipit>
                                 </msItem>
@@ -487,26 +500,22 @@
                             </msItem>
                             <msItem xml:id="p2_i21">
                                 <locus from="35vb"/>
-                                <title type="complete">Ḥassāb concerning a man who is sick</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7593HassHemum">Ḥassāba ḥǝmum (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ሕሙም፡</incipit>
-                                
-                                
-                                <note>Cf. <bibl corresp="http://zotero.org/groups/358366/items/Z86ISJY5"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abreha1949Hatata"/><title level="m">Ḥatatā manāfǝst (kaʾǝna tǝrgumu wa-'awda nagast)</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Za-Manfas Qǝddus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">ʾAbrǝha</t:surname></author><pubPlace>Asmara</pubPlace><date>1949</date><citedRange unit="page">205, 210, 212</citedRange></bibl></note>
+                                <note>Different from <ref target="#p2_i29"/>, <ref target="#p2_i31"/> and <ref target="#p2_i39"/>.</note>                                <note>Cf. <bibl corresp="http://zotero.org/groups/358366/items/Z86ISJY5"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abreha1949Hatata"/><title level="m">Ḥatatā manāfǝst (kaʾǝna tǝrgumu wa-'awda nagast)</title><author><name>Za-Manfas Qǝddus ʾAbrǝha</name></author><pubPlace>Asmara</pubPlace><date>1949</date><note type="tags"><note type="tag">bm:Abreha1949Hatata</note></note><note type="tag">bm:Abreha1949Hatata</note><citedRange unit="page">205, 210, 212</citedRange></bibl></note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i22">
                                 <locus target="#36rb"/>
-                                <title type="complete">Ḥassāb concerning beer</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7595HassabBeer">Ḥassāba mǝzr (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ምዝር፡</incipit>
-                                
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i23">
                                 <locus from="36rb"/>
-                                <title type="complete">Ḥassāb concerning a man who is ill</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7594HassabSick">Ḥassāba dǝwwǝy (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ድውይ፡</incipit>
-                                
-                                <note>Cf. <bibl corresp="http://zotero.org/groups/358366/items/Z86ISJY5"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abreha1949Hatata"/><title level="m">Ḥatatā manāfǝst (kaʾǝna tǝrgumu wa-'awda nagast)</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Za-Manfas Qǝddus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">ʾAbrǝha</t:surname></author><pubPlace>Asmara</pubPlace><date>1949</date><citedRange unit="page">204</citedRange></bibl></note>
+                                <note>Different to <ref target="#p2_i32"/> and <ref target="#p2_i40"/>.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i24">
@@ -651,11 +660,11 @@
                                 <title>Short magic prayers and divinations</title>
                                 <textLang mainLang="gez"/>
                                 <msItem xml:id="p2_i25.1">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Against Satan</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Magic prayer against Satan</title>
                                     <incipit xml:lang="gez">ቸቸቸ ፫ ጊዜ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i25.2">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7536Enmity">... kama č̣āč̣ut ʾastanāč̣nəč̣omu ...</title> 
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7536Enmity">... kama č̣āč̣ut ʾastanāč̣nǝč̣omu ...</title> 
                                     <incipit xml:lang="gez">ሐቀ፡ ስቀ፡ <gap reason="ellipsis"/> ከመ፡ ጫጩት፡ አስተናጭንጮሙ፡ ወከመ፡ ከልብ፡ አስተናክሶሙ፡ ወከመ፡
                                         አድግ፡ አስተራግጾሙ፡ <gap reason="ellipsis"/> ወያስተአብዶሙ፡ ለመንፈሰ፡ አጋንንት፡</incipit>
                                 </msItem>
@@ -664,21 +673,20 @@
                                     <incipit xml:lang="gez">አላ፡ በስሚላ፡ ከርሜል፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i25.4">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">For binding demons</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Magic prayer for binding demons</title>
                                     <incipit xml:lang="gez">እጀጅ፡ መጀጅ፡ ወነፋስ፡ ነጅ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i25.5">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">To arouse love</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Magic prayer to arouse love</title>
                                     <note>Possibly similar or the same as <ref type="work" corresp="https://betamasaheft.eu/LIT7138PrLover">Prayer of the lover</ref>.</note>
                                     <incipit xml:lang="gez">መስተፋቅር፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i25.6">
-                                    <title type="complete">Ḥassāb to know whether one will find riches or not</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7597HassRich">Baʾǝnta nǝwāy yǝtrakkab wa-ʾi-yǝtrakkab</title>
                                     <incipit xml:lang="gez">በእንተ፡ ንዋይ፡ ይትረከብ፡ ወኢይትረከብ፡</incipit>
-                                    
                                 </msItem>
                                 <msItem xml:id="p2_i25.7">
-                                    <title type="complete">Ḥassāb to know whether someone will give you riches or not</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7598HassRiches">Ḥassāba nǝwāy za-yǝhubaka wa-ʾi-yǝhubaka</title>
                                     <incipit xml:lang="gez">ሐሳበ፡ ንዋይ፡ ዘይሁበከ፡ ወኢይ<supplied reason="omitted" resp="PRS8999Strelcyn">ሁ</supplied>በከ፡</incipit>
                                 </msItem>
                             </msItem>
@@ -690,158 +698,159 @@
                             </msItem>
                             <msItem xml:id="p2_i27">
                                 <locus from="42rb" to="51vb"/>
-                                <title type="complete">Ḥassāb on the stars, ḥassāba kawākǝbt</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7599HassStars">Ḥassāba kawākǝbt (general record)</title>
                                 <note>Composed of twelve chapters corresponding to the twelve signs of the zodiac.</note>
-                                <incipit xml:lang="gez"/>
-                                
-                                <note>Cf. <bibl corresp="http://zotero.org/groups/358366/items/Z86ISJY5"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abreha1949Hatata"/><title level="m">Ḥatatā manāfǝst (kaʾǝna tǝrgumu wa-'awda nagast)</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Za-Manfas Qǝddus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">ʾAbrǝha</t:surname></author><pubPlace>Asmara</pubPlace><date>1949</date><citedRange unit="page">142-177</citedRange></bibl></note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i28">
                                 <locus from="52ra" to="54ra"/>
-                                <title type="complete">Ḥassāb concerning the learned man</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7600HassMamer">Ḥassāba māʾmǝr (general record)</title>
                                 <note>Composed of sixteen sections.</note>
                                 <incipit xml:lang="gez">ሐሳበ፡ ማእምር፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i29">
                                 <locus from="54rb" to="55rb"/>
-                                <title type="complete">Ḥassāb concerning the man who is sick</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7593HassHemum">Ḥassāba ḥǝmum (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ሕሙም፡</incipit>
-                                
+                                <note>Different from <ref target="#p2_i21"/>, <ref target="#p2_i31"/> and <ref target="#p2_i39"/>.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i30">
                                 <locus from="55ra" to="55va"/>
-                                <title type="complete">Ḥassāb concerning a journey</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7579HassabaFen">Ḥassāba fǝnot (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ፍኖት፡</incipit>
-                                
+                                <note>Different from <ref target="#p2_i16"/> and <ref target="#p2_i86"/>.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i31">
                                 <locus target="#55va"/>
-                                <title type="complete">Ḥassāb concerning a man who is sick</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7593HassHemum">Ḥassāba ḥǝmum (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ሕሙም፡</incipit>
-                                
+                                <note>Different from <ref target="#p2_i21"/>, <ref target="#p2_i29"/> and <ref target="#p2_i39"/>.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i32">
                                 <locus from="55va" to="55vb"/>
-                                <title type="complete">Ḥassāb concerning a man who is ill</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7594HassabSick">Ḥassāba dǝwwǝy (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ድውይ፡</incipit>
-                                
+                                <note>Different from <ref target="#p2_i23"/> and <ref target="#p2_i40"/>.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i33">
                                 <locus target="#55va"/>
-                                <title type="complete">Ḥassāb concerning a soldier</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7570HassabHara">Ḥassāba ḥarā (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ሐራ፡</incipit>
-                                
+                                <note>Different from <ref target="#p2_i4"/>, <ref target="#p2_i10"/>, <ref target="#p2_i38"/> and 
+                                    <ref target="#p2_i41"/>.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i34">
                                 <locus from="55v" to="56r"/>
-                                <title type="complete">Ḥassāb concerning a pagan</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7606HassArami">Ḥassāba ʾArami</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ዓረሚ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i35">
                                 <locus from="56ra"/>
-                                <title type="complete">Ḥassāb concerning a man's position in life</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7607HassNebrat">Ḥassāba nǝbrat la-sabʾ</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ንብረት፡ ለሰብእ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i36">
                                 <locus from="56rb" to="56vb"/>
-                                <title type="complete">Ḥassāb concerning grain - to know if there will be sufficient water</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7608HassGrain">Ḥassāba ʾǝḫl waha yǝḫallǝq wa-yaḥawwǝr</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ እኅል፡ ወሀ፡ ይሐልቅ፡ ወየሐውር፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i37">
                                 <locus from="56vb" to="57va"/>
-                                <title type="complete">Ḥassāb concerning food</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7609HassabFood">Ḥassāba sisāy</title>
+                                <note>Thematically similar, but different from <ref target="#p2_i2.11"/>.</note>
                                 <incipit xml:lang="gez">ሐሳበ፡ ሲሣይ፡</incipit>
-                                
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i38">
                                 <locus from="57va" to="58ra"/>
-                                <title type="complete">Ḥassāb concerning a soldier</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7570HassabHara">Ḥassāba ḥarā (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ሐራ፡</incipit>
-                                
+                                <note>Different from <ref target="#p2_i4"/>, <ref target="#p2_i10"/>, <ref target="#p2_i30"/> and 
+                                    <ref target="#p2_i41"/>.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i39">
                                 <locus target="#58ra"/>
-                                <title type="complete">Ḥassāb concerning a man who is sick</title>
-                                
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7593HassHemum">Ḥassāba ḥǝmum (general record)</title>
+                                <note>Different from <ref target="#p2_i21"/>, <ref target="#p2_i29"/> and <ref target="#p2_i31"/>.</note>
                                 <incipit xml:lang="gez">ሐሳበ፡ ሕሙም፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i40">
                                 <locus target="#58ra"/>
-                                <title type="complete">Ḥassāb concerning a man who is ill</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7594HassabSick">Ḥassāba dǝwwǝy (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ድውይ፡</incipit>
-                                
+                                <note>Different from <ref target="#p2_i23"/> and <ref target="#p2_i32"/>.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i41">
                                 <locus from="58ra"/>
-                                <title type="complete">Ḥassāb concerning a soldier</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7570HassabHara">Ḥassāba ḥarā (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ሐራ፡</incipit>
-                                
+                                <note>Different from <ref target="#p2_i4"/>, <ref target="#p2_i10"/>, <ref target="#p2_i33"/> and 
+                                    <ref target="#p2_i38"/>.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i42">
                                 <locus target="#58rb"/>
-                                <title type="complete">Ḥassāb to know whether people will quarrel or will like each other</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7610HassabLike">Ḥassāba za-yǝtfāttǝḥu wa-za-ʾi-yǝtfāttǝḥu wa-za-yǝtfāqqaru
+        wa-za-ʾi-yǝtfāqqaru</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ዘይትፋትሑ፡ ወዘኢይትፋትሁ፡ ዘይትፋቀሩ፡ ወዘኢይትፋቀሩ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i43">
                                 <locus from="58rb" to="59ra"/>
-                                <title type="complete">Ḥassāb concerning monasteries</title>
-                                <note>According to <bibl corresp="http://zotero.org/groups/358366/items/RSEA4WPK"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1978BritishLibrary"/><title level="m">Catalogue of Ethiopian Manuscripts in the British Library acquired since the Year 1877</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>London</pubPlace><publisher>British Museum</publisher><date>1978</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">British Museum</note><note type="tag">bm:Strelcyn1978BritishLibrary</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">British Museum</note><note type="tag">bm:Strelcyn1978BritishLibrary</note><citedRange unit="page">148</citedRange></bibl> on mountains.</note>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7611HassAdbar">Ḥassāba ʾadbār (general record)</title>
+                                <note>Different from <ref target="#p2_i46"/>, <ref target="#p2_i48"/>, <ref target="#p2_i60"/> and
+                                    <ref target="p2_i91"/>.</note>
                                 <incipit xml:lang="gez">ሐሳበ፡ አድባር፡</incipit>
-                                
-                                <note>Cf. <bibl corresp="http://zotero.org/groups/358366/items/Z86ISJY5"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abreha1949Hatata"/><title level="m">Ḥatatā manāfǝst (kaʾǝna tǝrgumu wa-'awda nagast)</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Za-Manfas Qǝddus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">ʾAbrǝha</t:surname></author><pubPlace>Asmara</pubPlace><date>1949</date><citedRange unit="page">198 and 207</citedRange></bibl></note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i44">
                                 <locus from="59ra" to="60ra"/>
-                                <title type="complete">Ḥassāb about the intelligence (?) of a man</title>
-                                <incipit xml:lang="gez">ሐሳ<choice><sic>በ</sic><corr>ብ</corr></choice>፡ በእንተ፡ 
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7613HassWisdom">Ḥassāb baʾǝnta ṭǝbab la-bǝʾsi</title>
+                                <incipit xml:lang="gez">ሐሳ<choice resp="PRS8999Strelcyn"><sic>በ</sic><corr>ብ</corr></choice>፡ በእንተ፡ 
                                     ጥ<choice resp="CH"><sic>ዕ</sic><corr>በ</corr></choice>ብ፡ ለብእሲ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i45">
                                 <locus from="60ra" to="60vb"/>
-                                <title type="complete">Ḥassāb concerning wealth</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7620HassWealth">Ḥassāba bǝʿl (general record)</title>
+                                <note>Different from <ref target="#p2_i90"/>.</note>
                                 <incipit xml:lang="gez">ሐሳ<supplied reason="omitted" resp="PRS8999Strelcyn">በ</supplied>፡ ብእል፡</incipit>
                                 
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i46">
                                 <locus from="60vb" to="61ra"/>
-                                <title type="complete">Ḥassāb concerning monasteries</title>
-                                <note>According to <bibl corresp="http://zotero.org/groups/358366/items/RSEA4WPK"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1978BritishLibrary"/><title level="m">Catalogue of Ethiopian Manuscripts in the British Library acquired since the Year 1877</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>London</pubPlace><publisher>British Museum</publisher><date>1978</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">British Museum</note><note type="tag">bm:Strelcyn1978BritishLibrary</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">British Museum</note><note type="tag">bm:Strelcyn1978BritishLibrary</note><citedRange unit="page">148</citedRange></bibl> on mountains.</note>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7611HassAdbar">Ḥassāba ʾadbār (general record)</title>
+                                <note>Different from <ref target="#p2_i43"/>, <ref target="#p2_i48"/>, <ref target="#p2_i60"/> and 
+                                    <ref target="p2_i91"/>.</note>
                                 <incipit xml:lang="gez">ሐሳበ፡ አድባር፡</incipit>
-                                
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i47">
                                 <locus from="61ra" to="61vb"/>
-                                <title type="complete">Ḥassāb concerning a man who is ill - to know if the person will 
-                                    recover or not</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7587HassHemum">Ḥassāba ḥǝmum yǝtnaśāʾ wa-ʾi-yǝtnaśāʾ</title>
+                                <note>Ḥassāb concerning a man who is ill: to know if the person will recover or not</note>
                                 <incipit xml:lang="gez">ሐሳበ፡ ሕሙም፡ ይትነሣእ፡ ወኢይትነሣእ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i48">
                                 <locus from="61vb"/>
-                                <title type="complete">Ḥassāb concerning monasteries</title>
-                                <note>According to <bibl corresp="http://zotero.org/groups/358366/items/RSEA4WPK"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1978BritishLibrary"/><title level="m">Catalogue of Ethiopian Manuscripts in the British Library acquired since the Year 1877</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>London</pubPlace><publisher>British Museum</publisher><date>1978</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">British Museum</note><note type="tag">bm:Strelcyn1978BritishLibrary</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">British Museum</note><note type="tag">bm:Strelcyn1978BritishLibrary</note><citedRange unit="page">148</citedRange></bibl> on mountains.</note>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7611HassAdbar">Ḥassāba ʾadbār (general record)</title>
+                                <note>Different from <ref target="#p2_i43"/>, <ref target="#p2_i46"/>, <ref target="#p2_i60"/> and
+                                    <ref target="p2_i91"/>.</note>
                                 <incipit xml:lang="gez">ሐሳበ፡ አድባር፡</incipit>
-                                
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i49">
@@ -849,42 +858,52 @@
                                 <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti">Medico-magic prescriptions in Amharic</title>
                                 <textLang mainLang="gez"/>
                                 <msItem xml:id="p2_i49.1">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Thief">Medico-magic prescriptions in Amharic: Prescription to find a thief</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Thief">Medico-magic prescriptions in Amharic: Prescription to
+        find a thief</title>
                                     <incipit xml:lang="am">የሌባ፡ ምራ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i49.2">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Pregnant">Medico-magic prescriptions in Amharic: Prescription for a woman who cannot get pregnant and has irregular menstruation</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Pregnant">Medico-magic prescriptions in Amharic: Prescription
+        for a woman who cannot get pregnant and has irregular menstruation</title>
                                     <incipit xml:lang="am">የደም፡ ልጅ፡ እምቢ፡ ላላት፡ እንበለ፡ ወራቱ፡ ደም፡ ለሚመፃበት፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i49.3">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Buda">Medico-magic prescriptions in Amharic: Prescription against Budā</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Buda">Medico-magic prescriptions in Amharic: Prescription
+        against Budā</title>
                                 </msItem>
                                 <msItem xml:id="p2_i49.4">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Dog">Medico-magic prescriptions in Amharic: Prescription for a man bitten by a mad dog</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Dog">Medico-magic prescriptions in Amharic: Prescription for a
+        man bitten by a mad dog</title>
                                     <incipit xml:lang="am">እብድ፡ ውሻ፡ ለነከሰው፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i49.5">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#All">Medico-magic prescriptions in Amharic: Prescriptions against all diseases</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#All">Medico-magic prescriptions in Amharic: Prescriptions
+        against all diseases</title>
                                     <incipit xml:lang="am">ከደዌ፡ ሁሉ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i49.6">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Wounds">Medico-magic prescriptions in Amharic: Prescription against wounds</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Wounds">Medico-magic prescriptions in Amharic: Prescription
+        against wounds</title>
                                     <incipit xml:lang="am">የለት፡ ቍስል፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i49.7">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Teffi">Medico-magic prescriptions in Amharic: Prescription against swelling, against inflammation or swelling of the eye</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Teffi">Medico-magic prescriptions in Amharic: Prescription
+        against swelling, against inflammation or swelling of the eye</title>
                                     <incipit xml:lang="am">ለአበጠ፡ ለጥፊ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i49.8">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Placenta">Medico-magic prescriptions in Amharic: Prescription for expelling the placenta</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Placenta">Medico-magic prescriptions in Amharic: Prescription
+        for expelling the placenta</title>
                                     <incipit xml:lang="gez">የእንግዴህ፡ ልጅ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i49.9">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Breasts">Medico-magic prescriptions in Amharic: Prescription against the swelling of the breasts</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Breasts">Medico-magic prescriptions in Amharic: Prescription
+        against the swelling of the breasts</title>
                                     <incipit xml:lang="am">ጡቷም፡ ላበጠበት፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i49.10">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Coitus">Medico-magic prescriptions in Amharic: For a woman who has an aversion to her (own) vagina</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7543Prescripti#Coitus">Medico-magic prescriptions in Amharic: For a woman who
+        has an aversion to her (own) vagina</title>
                                     <incipit xml:lang="am">ብልቷንም፡ ለሰቀቀው<supplied reason="omitted">፡</supplied> ሰው፡</incipit>
                                 </msItem>
                             </msItem>
@@ -904,9 +923,8 @@
                             </msItem>
                             <msItem xml:id="p2_i52">
                                 <locus from="67v"/>
-                                <title type="complete">Ḥassāb concerning wise men</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7614HassabWise">Ḥassāba ṭabibān (general record)</title>
                                 <incipit xml:lang="gez"><supplied reason="undefined" resp="PRS8999Strelcyn">ሐሳበ፡</supplied> ጠቢባን፡</incipit>
-                                
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i53">
@@ -915,41 +933,47 @@
                                 <note>Medical prescriptions against various diseases, some of which are listed below.</note>
                                 <textLang mainLang="am"/>
                                 <msItem xml:id="p2_i53.1">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7544Prescr#Sores">Medical prescriptions in Amharic: Prescription for sores (qʷasla hullu)</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7544Prescr#Sores">Medical prescriptions in Amharic: Prescription for sores
+        (qʷasla hullu)</title>
                                     <incipit xml:lang="am">ለቈስለ፡ ሁሉ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i53.2">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7544Prescr#Wata">Medical prescriptions in Amharic: Prescription against scabies (wāṭā)</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7544Prescr#Wata">Medical prescriptions in Amharic: Prescription against
+        scabies (wāṭā)</title>
                                 </msItem>
                                 <msItem xml:id="p2_i53.3">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7544Prescr#Cough">Medical prescriptions in Amharic: Prescription against cough (sāl)</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7544Prescr#Cough">Medical prescriptions in Amharic: Prescription against cough
+        (sāl)</title>
                                     <incipit xml:lang="am">ለሳል፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i53.4">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7544Prescr#Animals">Medical prescriptions in Amharic: Prescription for animals</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7544Prescr#Animals">Medical prescriptions in Amharic: Prescription for
+        animals</title>
                                     <incipit xml:lang="am">ለእንስሳ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i53.5">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7544Prescr#Etsi">Medical prescriptions in Amharic: Prescription against the ʾǝṣi disease of the ear</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7544Prescr#Etsi">Medical prescriptions in Amharic: Prescription against the
+        ʾǝṣi disease of the ear</title>
                                     <incipit xml:lang="am">ለዕፄ፡ ዕዝን፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i53.6">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7544Prescr#Scabies">Medical prescriptions in Amharic: Prescription against scabies (kak)</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7544Prescr#Scabies">Medical prescriptions in Amharic: Prescription against
+        scabies (kak)</title>
                                     <incipit xml:lang="am">የከክ፡</incipit>
                                 </msItem>
                             </msItem>
                             <msItem xml:id="p2_i54">
                                 <locus target="#69r"/>
-                                <title type="complete">Ḥassāb about the dwellings of the kings and princes (?)</title>
-                                <incipit xml:lang="gez"><sic>በዘተኃድር፡</sic> ነገሥት፡ 
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7621HassDwell">Ba-za-taḫāddǝr (!) nagaśt wa-makʷānǝnt</title>
+                                <incipit xml:lang="gez">በዘተኃድ<sic>ር</sic>፡ ነገሥት
                                     ወመኳ<supplied reason="undefined" resp="PRS8999Strelcyn">ንንት፡</supplied></incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i55">
                                 <locus from="69r"/>
-                                <title type="complete">Ḥassāb concerning war</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7622HassabWar">Ḥassāba ṣabʾ (general record)</title>
+                                <note>Different from <ref target="#p2_i87"/>.</note>
                                 <incipit xml:lang="gez">ሐሳበ፡ ጸብእ፡</incipit>
-                                
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i56">
@@ -987,9 +1011,9 @@
                             </msItem>
                             <msItem xml:id="p2_i60">
                                 <locus from="88r" to="88v"/>
-                                <title type="complete">Ḥassāb concerning monasteries</title>
-                                
-                                <note>Divinatory text (ḥassāb) on <locus from="88r" to="88v"/>, which is foliated '80'.</note>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7611HassAdbar">Ḥassāba ʾadbār (general record)</title>
+                                <note>Divinatory text (ḥassāb) on <locus from="88r" to="88v"/>, which is foliated '80'. Different from 
+                                    <ref target="#p2_i43"/>, <ref target="#p2_i46"/>, <ref target="#p2_i48"/> and <ref target="#p2_i91"/>.</note>
                                 <incipit xml:lang="gez">ሐሳበ፡ አድባር፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
@@ -1020,17 +1044,16 @@
                             </msItem>
                             <msItem xml:id="p2_i64">
                                 <locus from="92r" to="93r"/>
-                                <title type="complete">Ḥassāba lǝdat - concerning birth</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7623HassBirth">La-ʾǝmma kona lǝdat ba-ʾǝhud zǝnām</title>
                                 <incipit xml:lang="gez">ለእመ፡ ኮነ፡ ልደት፡ በእሁድ፡ ዝናም፡ ወመዓር፡ ይሐፅፅ፡ ማያተ፡ ባሕር፡ ይየብስ፡ ነፍስ፡ ወኵናት፡ ይከውን፡ ፍሬ፡ ምድር፡</incipit>
                                 <note>Divinatory calculation (ḥassāb) concerning the birth of a child on <locus from="92v" to="93r"/>, foliated as '84'
                                     and '85'.</note>
-                                
-                                <note>Cf. <bibl corresp="http://zotero.org/groups/358366/items/Z86ISJY5"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abreha1949Hatata"/><title level="m">Ḥatatā manāfǝst (kaʾǝna tǝrgumu wa-'awda nagast)</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Za-Manfas Qǝddus</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">ʾAbrǝha</t:surname></author><pubPlace>Asmara</pubPlace><date>1949</date><citedRange unit="page">197</citedRange></bibl></note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i65">
                                 <locus from="93v"/>
-                                <title type="complete">Magic prayer against Magāññā and several diseases</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7631PPMaganna">Ṣalot baʾǝnta ḥǝmāma Magāññā wa-qʷǝrḍat wa-gʷǝsǝmt ʾAwlo
+        Malālkuʾel</title>
                                 <note>Magic prayers against Magāññā, colic, pleurisy, for fettering devils, and against madness on 
                                     <locus from="93v"/>, which was foliated '85'.</note>
                                 <incipit xml:lang="gez">በስመ፡ አብ፡ በል፡ ጸሎ<supplied reason="undefined">ት</supplied>፡ 
@@ -1041,7 +1064,8 @@
                             </msItem>
                             <msItem xml:id="p2_i66">
                                 <locus target="#94r"/>
-                                <title type="complete">Prescriptions for undoing magic and against fright in children</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7629PresFright">Prescriptions for undoing magic and against fright in
+        children</title>
                                 <note>Prescriptions for undoing magic 
                                     (<foreign xml:lang="gez">መፍትሔ፡ ኪ<supplied reason="undefined" resp="PRS8999Strelcyn">ን፡</supplied></foreign>) 
                                     and against fright in children (<foreign xml:lang="gez">ለዘ፡ አደንገፆ፡ ሕፃን፡</foreign>) on <locus target="#94r"/>, 
@@ -1050,15 +1074,16 @@
                             </msItem>
                             <msItem xml:id="p2_i67">
                                 <locus from="94r"/>
-                                <title type="complete">Magic prayer for keeping a woman faithful to her husband</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7628PPFaithful">Ba-zǝntu ʾasmāt kama ʾi-tahab ḥǝlḍāhā wa-ḥǝmsǝhā wa-ʾi-tāfqǝr
+        ba-lǝbbunāhā tǝṣlāʿ wa-tǝḍrǝfo la-bāʿd ʾǝnbala bǝʾsehā</title>
                                 <note>Magic prayer for keeping a woman faithful to her husband from <locus target="#94r"/>, which was foliated '86'.</note>
-                                <incipit xml:lang="gez"><gap reason="ellipsis"/> በዝንቱ፡ አስማት፡ ከመ፡ ኢተሀብ፡ ሕልፃሃ፡ ወሕምስሃ፡ ወኢታፍቅር፡ በልቡናሃ፡ ትጽላዕ፡ ወትጽርፎ፡
-                                    ለባዕድ፡ እንበለ፡ ብ<supplied reason="undefined">እ</supplied>ሴሃ፡</incipit>
+                                <incipit xml:lang="gez"><gap reason="ellipsis"/>በዝንቱ፡ አስማት፡ ከመ፡ ኢተሀብ፡ ሕልፃሃ፡ ወሕምስሃ፡ ወኢታፍቅር፡ በልቡናሃ፡ ትጽላዕ፡ 
+                                    ወትጽርፎ፡ ለባዕድ፡ እንበለ፡ ብ<supplied reason="undefined">እ</supplied>ሴሃ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i68">
                                 <locus from="94v" to="96r"/>
-                                <title type="complete">Magic prayers and prescriptions for undoing charms</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7630PPCharms">ʾƎf ʾǝni qaddamhuh ʾanani šafāni ...</title>
                                 <note>Magic prayers and prescriptions for undoing charms on <locus from="94v" to="96r"/>, which were foliated '86' to '88'.</note>
                                 <incipit xml:lang="gez">እፍ፡ እኒ፡ ቀደምሁህ፡ አነኒ፡ ሸፋኒ፡ <gap reason="ellipsis"/> ተወከልናኒ፡ እምኀበ፡ ሰብእ፡ ይሠዓር፡ ወበስመ፡ መደንግፅ፡ ይዘርዘር፡
                                     ወበስመ፡ ጋዴራ፡ ይትፈታሕ፡ ኅምዘ፡ ሥራይ፡</incipit>
@@ -1066,10 +1091,9 @@
                             </msItem>
                             <msItem xml:id="p2_i69">
                                 <locus from="96r" to="97r"/>
-                                <title type="complete">Prescriptions for eye diseases (Amharic)</title>
-                                <note>Prescriptions for eye diseases in Amharic on <locus from="96r" to="97r"/>, which were foliated '88' and '89'.</note>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7633PrescrEye">Madḫānit za-ʿāyn la-ṭālabbat</title>
+                                <note>Prescriptions for eye diseases, in Amharic, on <locus from="96r" to="97r"/>, which were foliated '88' and '89'.</note>
                                 <incipit xml:lang="am">መድኃኒት፡ ዘዓይን፡ ለጣለበት፡ የደደሆ፡ የመረዝ፡ ያንፋር፡ የበለስ፡ የወንዝ፡ አድምቅ፡ ተቀጽላቻውን፡ አልሞ፡ ደቁሶ፡</incipit>
-                                
                                 <textLang mainLang="am"/>
                             </msItem>
                             <msItem xml:id="p2_i70">
@@ -1081,7 +1105,7 @@
                             <msItem xml:id="p2_i71">
                                 <locus from="98r"/>
                                 <title>Magic prayers against demons and a cold</title>
-                                <note>Magic prayers against demons and a cold from <locus from="98r"/>, which was foliated '90'.</note>
+                                <note>On <locus from="98r"/>, which was foliated '90'.</note>
                                 <textLang mainLang="gez"/>
                                 <msItem xml:id="p2_i71.1">
                                     <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Magic prayer against demons</title>
@@ -1098,12 +1122,14 @@
                                 <note>Magic prayers against headache and to bring about impotence from <locus from="98v"/>, which was foliated '90'.</note>
                                 <textLang mainLang="gez"/>
                                 <msItem xml:id="p2_i72.1">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7553PPHeadache#Headache">Ṣalot baʾǝnta ḥǝmāma rǝʾs: Prayer against headache</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7553PPHeadache#Headache">Ṣalot baʾǝnta ḥǝmāma rǝʾs: Prayer against
+        headache</title>
                                     <incipit xml:lang="gez">በስመ፡ አብ፡ በል፡ ጸሎት፡ በእ<supplied reason="undefined">ንተ</supplied>፡ 
                                         ሕማ<supplied reason="undefined">መ</supplied>፡ ርእስ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i72.2">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7553PPHeadache#Impotence">Ṣalot baʾǝnta ḥǝmāma rǝʾs: Prayer against impotence</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7553PPHeadache#Impotence">Ṣalot baʾǝnta ḥǝmāma rǝʾs: Prayer against
+        impotence</title>
                                     <incipit xml:lang="gez">ከማ<supplied reason="undefined">ሁ</supplied>፡ ኅትም፡ እስኪቶ፡ ወአልህም፡ ፍትወተ፡ ሥጋ፡ 
                                         ለ<supplied reason="undefined">እ</supplied>ገ<supplied reason="undefined">ሌ</supplied>፡</incipit>
                                 </msItem>
@@ -1114,7 +1140,8 @@
                                 <note>Medical prescriptions in Amharic on <locus from="99r" to="100r"/>, which were foliated '91' and '92'.</note>
                                 <textLang mainLang="am"/>
                                 <msItem xml:id="p2_i73.1">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7545MedPres#Terenter">Medical prescriptions in Amharic: Against tǝrǝntǝr (?)</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7545MedPres#Terenter">Medical prescriptions in Amharic: Against tǝrǝntǝr
+        (?)</title>
                                     <incipit xml:lang="am">የትርንትር፡</incipit>        
                                 </msItem>
                                 <msItem xml:id="p2_i73.2">
@@ -1126,7 +1153,8 @@
                                     <incipit xml:lang="am">ለአብርቅ፡</incipit>        
                                 </msItem>
                                 <msItem xml:id="p2_i73.4">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7545MedPres#Qitten">Medical prescriptions in Amharic: Against syphilis (qiṭṭǝñ)</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7545MedPres#Qitten">Medical prescriptions in Amharic: Against syphilis
+        (qiṭṭǝñ)</title>
                                     <incipit xml:lang="am">የቂጥኝ፡</incipit>        
                                 </msItem>
                                 <msItem xml:id="p2_i73.5">
@@ -1142,7 +1170,7 @@
                                     <incipit xml:lang="am">ዘላህም፡</incipit>        
                                 </msItem>
                                 <msItem xml:id="p2_i73.8">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7545MedPres#Disease">Medical prescriptions in Amharic: Against (any) disease</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7545MedPres#Disease">Medical prescriptions in Amharic:  Disease</title>
                                     <incipit xml:lang="am">ደዌ፡</incipit>        
                                 </msItem>
                                 <msItem xml:id="p2_i73.9">
@@ -1150,7 +1178,8 @@
                                     <incipit xml:lang="am">ጋኔን፡</incipit>        
                                 </msItem>
                                 <msItem xml:id="p2_i73.10">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7545MedPres#Andarabi">Medical prescriptions in Amharic: Against ʾAndarabbi</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7545MedPres#Andarabi">Medical prescriptions in Amharic: Against
+        ʾAndarabbi</title>
                                     <incipit xml:lang="am">አንደረቢ፡</incipit>        
                                 </msItem>
                                 <msItem xml:id="p2_i73.11">
@@ -1158,7 +1187,8 @@
                                     <incipit xml:lang="am">ወስፋት፡</incipit>        
                                 </msItem>
                                 <msItem xml:id="p2_i73.12">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7545MedPres#Tshenqur">Medical prescriptions in Amharic: Against č̣̣ǝnqur</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7545MedPres#Tshenqur">Medical prescriptions in Amharic: Against
+        č̣̣ǝnqur</title>
                                     <incipit xml:lang="am">ጭንቁር፡</incipit>        
                                 </msItem>
                                 <msItem xml:id="p2_i73.13">
@@ -1170,7 +1200,8 @@
                                     <incipit xml:lang="am">ለጽላት፡</incipit>        
                                 </msItem>
                                 <msItem xml:id="p2_i73.15">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7545MedPres#Qusl">Medical prescriptions in Amharic: About leprosy (qʷǝsla śǝgā)</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7545MedPres#Qusl">Medical prescriptions in Amharic: About leprosy (qʷǝsla
+        śǝgā)</title>
                                     <incipit xml:lang="am">ዘቍስለ፡ ሥ<supplied reason="undefined">ጋ</supplied>፡</incipit>        
                                 </msItem>
                             </msItem>
@@ -1188,33 +1219,39 @@
                                 <title type="complete" ref="https://betamasaheft.eu/LIT7546MedPrescr">Medical prescriptions in Amharic and Gǝʿǝz</title>
                                 <note>Prescriptions in Amharic and Gǝʿǝz on <locus from="101r"/>, which was foliated '93'.</note>
                                 <msItem xml:id="p2_i75.1">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7546MedPrescr#Haemor">Medical prescriptions in Amharic and Gǝʿǝz: Against haemorrhoids</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7546MedPrescr#Haemor">Medical prescriptions in Amharic and Gǝʿǝz: Against
+        haemorrhoids</title>
                                     <incipit xml:lang="am">ለጀርባ፡ ደዌ፡ ጀርባው፡ ለወጣ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i75.2">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7546MedPrescr#Ears">Medical prescriptions in Amharic and Gǝʿǝz: Against disease of the ears</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7546MedPrescr#Ears">Medical prescriptions in Amharic and Gǝʿǝz: Against
+        disease of the ears</title>
                                     <incipit xml:lang="gez">ለሕማመ፡ ዕዝን፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i75.3">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7546MedPrescr#Eti">Medical prescriptions in Amharic and Gǝʿǝz: For the gland</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7546MedPrescr#Eti">Medical prescriptions in Amharic and Gǝʿǝz: For the
+        gland</title>
                                     <incipit xml:lang="am">ለዕጢ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i75.4">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7546MedPrescr#Impotence">Medical prescriptions in Amharic and Gǝʿǝz: Against impotence</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7546MedPrescr#Impotence">Medical prescriptions in Amharic and Gǝʿǝz: Against
+        impotence</title>
                                     <incipit xml:lang="gez">ለዘሞተ፡ እስኪቱ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i75.5">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7546MedPrescr#Goods">Medical prescriptions in Amharic and Gǝʿǝz: For acquiring large goods</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7546MedPrescr#Goods">Medical prescriptions in Amharic and Gǝʿǝz: For acquiring
+        large goods</title>
                                     <incipit xml:lang="gez">ወትረክብ፡ ዓቢየ፡ ንዋየ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i75.6">
-                                    <title type="complete" ref="https://betamasaheft.eu/LIT7546MedPrescr#Colic">Medical prescriptions in Amharic and Gǝʿǝz: Against colic</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT7546MedPrescr#Colic">Medical prescriptions in Amharic and Gǝʿǝz: Against
+        colic</title>
                                     <incipit xml:lang="am">የቁርፀት፡</incipit>
                                 </msItem>
                             </msItem>
                             <msItem xml:id="p2_i76">
                                 <locus from="101v" to="106r"/>
-                                <title type="complete">Magic prayers and prescriptions against fire, thieves, etc.</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7634PPFire">Ya-ʾǝsāt madḫane qore</title>
                                 <note>Magic prayers and prescriptions against fire, thieves, etc. on <locus from="101v" to="106r"/>, which were 
                                     foliated '93' to '98'.</note>
                                 <incipit xml:lang="gez">የእሳት፡ መድኃኔ፡ ቆሬ፡ እሳት፡ ሐደ፡ ፍልዱስ፡ ስርከፈር፡ እሳት፡ ተለዓዲር፡ እሳት፡ ነደ፡ ሹር፡ እሳት፡ በኃይለ፡ ዝንቱ፡ አስማቲከ፡ ኢይልክ፡
@@ -1233,7 +1270,7 @@
                             </msItem>
                             <msItem xml:id="p2_i78">
                                 <locus from="109r"/>
-                                <title type="complete">Prescription against vaginal haemorrhage</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT5199MagicPrayer">Prescription against vaginal haemorrhage</title>
                                 <note>Prescription against vaginal haemorrhage from <locus from="109r"/>, which is foliated '101'.</note>
                                 <incipit xml:lang="am">የደም፡</incipit>
                                 <textLang mainLang="am"/>
@@ -1252,11 +1289,13 @@
                             </msItem>
                             <msItem xml:id="p2_i81">
                                 <locus from="110v"/>
-                                <title type="complete">Medical prescriptions against diseases of the ear and abdominal
-                                    distention in Amharic and Gǝʿǝz</title>
-                                <note>Medical prescriptions against diseases of the ear indicated with <foreign xml:lang="am">ጆሮው፡ ለሚመግል፡</foreign> and
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7642MedPrEar">Medical prescriptions against diseases of the ear and abdominal
+        distention</title>
+                                <note>Medical prescriptions against diseases of the ear indicated with 
+                                    <foreign xml:lang="am">ጆሮው፡ ለሚመግል፡</foreign> ('a pus-discharging ear') and
                                     <foreign xml:lang="gez">ለዘደወየ፡ ዕዝኑ፡</foreign> as well as abdominal distention, indicated with
-                                    (<foreign xml:lang="am">ለዘነፍሐ፡ ከርሦ፡</foreign>) from <locus from="110v"/>, which was foliated '102'.</note>
+                                    <foreign xml:lang="am">ለዘነፍሐ፡ ከርሦ፡</foreign>, partly in Amharic and partly in Gǝʿǝz, written from 
+                                    <locus from="110v"/>, which was foliated '102'.</note>
                                 <textLang mainLang="am"/>
                             </msItem>
                             <msItem xml:id="p2_i82">
@@ -1275,8 +1314,8 @@
                             </msItem>
                             <msItem xml:id="p2_i84">
                                 <locus from="113r"/>
-                                <title type="complete">Ḥassāb to know whether news will be good or bad, whether someone
-                                    will live or die</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7624HassabDie">Ba-za-taʾammǝr śannāya wa-ʾǝkkuya za-yaḥayyu
+        wa-za-yǝmawwǝt</title>
                                 <note>Divinatory calculation (ḥassāb) to know whether news will be good or bad, whether someone will live or die on
                                     <locus from="113r"/>, which was foliated '105'.</note>
                                 <incipit xml:lang="gez">በዘተአምር፡ ሠናየ፡ ወእኩየ፡ ዘየሐዩ፡ ወይመውት፡</incipit>
@@ -1284,33 +1323,33 @@
                             </msItem>
                             <msItem xml:id="p2_i85">
                                 <locus from="114r"/>
-                                <title type="complete">Ḥassāb concerning the nature of a man</title>
-                                <note>Divinatory calculation (ḥassāb) concerning the nature of a man from <locus from="114r"/>, which was foliated '106'.</note>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7625HassNature">Ḥassāba ṭabāyǝʿ</title>
+                                <note>Divinatory calculation (ḥassāb) concerning the nature of a person from <locus from="114r"/>, which was 
+                                    foliated '106'.</note>
                                 <incipit xml:lang="gez">ሐሳበ፡ ጠባይዕ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i86">
                                 <locus from="114v"/>
-                                <title type="complete">Ḥassāb concerning a journey</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7579HassabaFen">Ḥassāba fǝnot (general record)</title>
                                 <incipit xml:lang="gez">ሐሳበ፡ ፍኖት፡</incipit>
-                                <note>Divinatory calculation (ḥassāb) concerning a journey from <locus from="114v"/>, which was foliated '106'.</note>
-                                
+                                <note>Divinatory calculation (ḥassāb) concerning a journey from <locus from="114v"/>, which was foliated '106'.
+                                    Different from <ref target="#p2_i16"/> and <ref target="#p2_i30"/>.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i87">
                                 <locus from="115r"/>
-                                <title type="complete">Ḥassāb concerning war</title>
-                                <note>Divinatory calculation (ḥassāb) concerning warfare from <locus from="115r"/>, which was foliated '107'.</note>
-                                
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7622HassabWar">Ḥassāba ṣabʾ (general record)</title>
+                                <note>Divinatory calculation (ḥassāb) concerning warfare from <locus from="115r"/>, which was foliated '107'.
+                                    Different from <ref target="#p2_i55"/>.</note>
                                 <incipit xml:lang="gez">ሐሳበ፡ ጸብእ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i88">
                                 <locus from="115v"/>
-                                <title>Three ḥassābāt concerning husband and wife</title>
+                                <title ref="https://betamasaheft.eu/LIT7626HasHusband">Three ḥassābāt concerning husband and wife</title>
                                 <note>Three divinatory calculations (ḥassābāt) concerning husband and wife from <locus from="115v"/>, which was 
                                     foliated '107'.</note>
-                                
                                 <incipit xml:lang="gez">ሐሳበ፡ ብእሲ፡ ወብእሲት፡</incipit>
                                 <textLang mainLang="gez"/>
                                 <msItem xml:id="p2_i88.1">
@@ -1328,54 +1367,55 @@
                             </msItem>
                             <msItem xml:id="p2_i89">
                                 <locus target="#116r"/>
-                                <title type="complete">Ḥassāb for learning whether a woman will bear a child or not</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7627HassChild">Ḥassāb baʿǝnta tǝwallǝd wa-ʾi-tǝwallǝd (general record)</title>
                                 <note>Divinatory calculation (ḥassāb) to determine whether or not a woman will bear a child or not on 
                                     <locus target="#116r"/>, which was foliated '108'.</note>
                                 <incipit xml:lang="gez">ሐሳብ፡ በእንተ፡ ትወልድ፡ ወኢትወልድ፡</incipit>
-                                
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i90">
                                 <locus from="116r"/>
-                                <title type="complete">Ḥassāb concerning wealth</title>
-                                <note>Divinatory calculation (ḥassāb) concerning wealth from <locus target="#116r"/>, which was foliated '108'.</note>
-                                
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7620HassWealth">Ḥassāba bǝʿl (general record)</title>
+                                <note>Divinatory calculation (ḥassāb) concerning wealth from <locus target="#116r"/>, which was foliated '108'.
+                                    Different from <ref target="#p2_i45"/>.</note>
                                 <incipit xml:lang="gez">ሐሳበ፡ ብእል፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i91">
                                 <locus target="#117r"/>
-                                <title type="complete">Ḥassāb concerning monasteries</title>
-                                <note>Divinatory calculation (ḥassāb) concerning mountains from <locus target="#117r"/>, which was foliated '109'.</note>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7611HassAdbar">Ḥassāba ʾadbār (general record)</title>
+                                <note>Divinatory calculation (ḥassāb) concerning mountains from <locus target="#117r"/>, which was foliated '109'.
+                                    Different from <ref target="#p2_i43"/>, <ref target="#p2_i46"/>, <ref target="#p2_i48"/> and 
+                                    <ref target="p2_i60"/>.</note>
                                 <incipit xml:lang="gez">ሐሳበ፡ አድባር፡</incipit>
-                                
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i92">
                                 <locus from="118r"/>
-                                <title type="complete">Horoscopes according to the signs of the zodiac</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7563Horoscope">ʾAnqaṣ la-Ḥamal beta ḍarru Ḥut beta nǝwāyu Sawwǝr beta ḥǝmāmu
+        ...</title>
                                 <note>Horoscopes according to the signs of the zodiac from <locus target="#118r"/>, which was foliated '110'.</note>
-                                
                                 <incipit xml:lang="gez">አንቀጽ፡ ለሐመል፡ ቤተ፡ ፀሩ፡ ሑት፡ ቤተ፡ ንዋዩ፡ ሰውር፡ ቤተ፡ ሕማሙ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i93">
                                 <locus target="#119v"/>
-                                <title type="complete">Magic prayer and prescription for receiving revelations</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7567PPRevela">Labotā lǝho ʾabṭǝlho bayǝsbǝṭǝsho</title>
                                 <note>Magic prayer and prescription for receiving revelations on <locus target="#119v"/>, which was foliated '111'.</note>
-                                <incipit xml:lang="gez">ለቦታ፡ ልሆ፡ አብጥልሆ፡ በይስብጥስሆ፡</incipit>
-                                <textLang mainLang="gez"/>
+                                <incipit xml:lang="am">ለቦታ፡ ልሆ፡ አብጥልሆ፡ በይስብጥስሆ፡</incipit>
+                                <textLang mainLang="am"/>
                             </msItem>
                             <msItem xml:id="p2_i94">
                                 <locus from="119v"/>
-                                <title type="complete">Magic prayer and prescription for making a man impotent</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7568PPimpotent">Babasmilāhi, hudok, maluk, ʾalā, qǝtǝl ʾǝskitu la-ʾǝgale kama
+        ʾiyāwsǝbā la-ʾǝgalit</title>
                                 <note>Magic prayer and prescription for making a man impotent on <locus from="119v"/>, which was foliated '111'.</note>
                                 <incipit xml:lang="gez">በበስሚላሂ፡ ሁዶክ፡ መሉክ፡ አላ፡ ቅትል፡ እስኪቱ፤ ለእገሌ፡ ከመ፡ ኢያውስባ፡ ለእገሊት፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i95">
                                 <locus from="120r"/>
-                                <title type="complete">Magic prayer and prescription for keeping the fidelity of a woman</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7569PPFidelity">La-ʿaqābe ḥǝgg. Kogurdon, suden, sagāliyan, māqʷǝri</title>
                                 <note>Magic prayer and prescription for keeping the fidelity of a woman from <locus from="120r"/>, which was 
                                     foliated '112'.</note>
                                 <incipit xml:lang="gez">ለዓቃቤ፡ ሕግ። ኮጉርዴን፡ ሱዴን፡ ሰጋሊያን፡ ማቍሪ፡ በዝ፡ 
@@ -1385,7 +1425,7 @@
                             </msItem>
                             <msItem xml:id="p2_i96">
                                 <locus target="#120v"/>
-                                <title type="complete">Magic prayer for being loved</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Magic prayer for being loved</title>
                                 <note>Magic prayer and prescription for keeping the fidelity of a woman on <locus target="#120v"/>, which was 
                                     foliated '112'.</note>
                                 <incipit xml:lang="gez">ጸሎት፡ በእንተ፡ ፍቅረ፡ <sic>ሰብ፡</sic></incipit>
@@ -1393,57 +1433,60 @@
                             </msItem>
                             <msItem xml:id="p2_i97">
                                 <locus target="#120v"/>
-                                <title type="complete">Magic prayer and prescription acting as aphrodisiacs</title>
-                                <note>Magic prayer and prescription acting as aphrodisiacs from <locus target="#120v"/>, which was foliated '112'.</note>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7575PPaphrodi">Bāb, ʾabdad, ḥawz, ḥuṭi</title>
+                                <note>Magic prayer and prescription that acts as an aphrodisiac from <locus target="#120v"/>, which was foliated '112'.</note>
                                 <incipit xml:lang="gez">ባብ፡ አብደድ፡ ሐውዝ፡ ሑጢ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i98">
                                 <locus from="120v"/>
-                                <title type="complete">Magic prayer and prescription against Ṣǝlā wagi</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Magic prayer and prescription against Ṣǝlā wagi</title>
                                 <note>Magic prayer and prescription against Ṣǝlā Wagi (<foreign xml:lang="gez">ጽላ፡ ወጊ፡</foreign>) from 
                                     <locus from="120v"/>, which was foliated '102'.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i99">
                                 <locus target="#121r"/>
-                                <title type="complete">Prayer for being loved</title>
-                                <note>Magic prayer for being loved from <locus from="121r"/>, which was foliated '113'.</note>
-                                <incipit xml:lang="gez">ጸለተ፡ መስተፋቅ<supplied reason="undefined">ር</supplied>፡</incipit>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Prayer for being loved</title>
+                                <note>Magic prayer for being loved from <locus from="121r"/>, which was foliated '113'. Possibly similar or 
+                                    identical to <ref type="work" corresp="https://betamasaheft.eu/LIT7138PrLover">Prayer of the lover</ref>.</note>
+                                <incipit xml:lang="gez">ጸ<sic>ለ</sic>ተ፡ መስተፋቅ<supplied reason="undefined">ር</supplied>፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i100">
                                 <locus target="#121r"/>
-                                <title type="complete">Prayer against theft</title>
-                                <note>Magic prayer against theft on <locus target="#121r"/>, which was foliated '113'</note>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Prayer against theft</title>
+                                <note>Magic prayer against theft on <locus target="#121r"/>, which was foliated '113'. Possibly similar to 
+                                    <ref type="work" corresp="https://betamasaheft.eu/LIT7261PPThieves">Prayer against thieves</ref>.</note>
                                 <incipit xml:lang="gez"><gap reason="ellipsis"/>ከመ፡ ኢይንሥኡኒ፡ ንዋይየ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i101">
                                 <locus from="121v"/>
-                                <title type="complete">Magic prayers and prescriptions for being loved</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7576PPLoved">Liḥa maliḥa ṭoʾaṭǝʿ ṭorāṭǝʿ</title>
                                 <note>Magic prayers and prescriptions for being loved from <locus from="121v"/>, which was foliated '113'.</note>
                                 <incipit xml:lang="gez">ሊሐ፡ መሊሃ፡ ጦአጥዕ፡ ጦራጥዕ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i102">
                                 <locus from="122v"/>
-                                <title type="complete">Magic prayers and prescriptions against chest pain</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Magic prayers and prescriptions against chest pain</title>
                                 <note>Several magic prayers and prescriptions against chest pain (<foreign xml:lang="gez">ዘውግዓት፡</foreign>)
                                     from <locus from="122v"/>, which was foliated '114'.</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i103">
                                 <locus from="123r"/>
-                                <title type="complete">Prayers for being loved</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7589PPLoved">ʾAnāfǝg 7 ʾanāfǝd 9 ba-zǝ ʾasmātika yāfqǝruni</title>
                                 <note>Several magic prayers for being loved accompanied by magic pictures (cf. <ref target="#d8"/>) on
-                                    <locus from="123r"/>, which was foliated '115'.</note>
-                                <incipit xml:lang="gez">አናፍግ፡ ጊ<supplied reason="undefined">ዜ</supplied>፡ አናፍድ፡ ፱፡ በዝ፡ አስማቲከ፡ ያፍቅሩኒ፡</incipit>
+                                    <locus from="123r"/>, which was foliated '115'. According to <persName ref="https://betamasaheft.eu/PRS8999Strelcyn">Stefan Strelcyn</persName>, 
+                                    <foreign xml:lang="gez">ጊ፡</foreign> needs to be emended to <foreign xml:lang="gez">ጊዜ፡</foreign>.</note>
+                                <incipit xml:lang="gez">አናፍግ፡ ጊ፡ አናፍድ፡ ፱፡ በዝ፡ አስማቲከ፡ ያፍቅሩኒ፡</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i104">
                                 <locus from="123v" to="124r"/>
-                                <title type="complete">Medical prescriptions in Amharic against several diseases</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7592MedicPre">Medical prescriptions in Amharic against several diseases</title>
                                 <note>Medical prescriptions in Amharic against ʾaṣǝnt (<foreign xml:lang="am">አጽንት፡ ለሆነበት፡ ሴት፡</foreign>),
                                     pleurisy (<foreign xml:lang="am">ለጉሥምት፡</foreign>), leprosy (<foreign xml:lang="am">ለለምጽ፡</foreign>),
                                     migraine (<foreign xml:lang="am">ለፍልፀተ፡ ርእስ፡</foreign>), and hair growing in the eye 
@@ -1453,7 +1496,7 @@
                             </msItem>
                             <msItem xml:id="p2_i105">
                                 <locus from="124v" to="125r"/>
-                                <title type="complete">Several prayers against demons and for protecting goods</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Several prayers against demons and for protecting goods</title>
                                 <note>Several magic prayers against demons and for protecting goods, especially the horse and the mule of the owner
                                     on <locus from="124v" to="125r"/>, which were foliated '116' and '117'.</note>
                                 <incipit xml:lang="gez">ጸሎት፡ በእንተ፡ <sic>ዓይነ፡ ምድር፡</sic></incipit>
@@ -1461,7 +1504,7 @@
                             </msItem>
                             <msItem xml:id="p2_i106">
                                 <locus from="125v"/>
-                                <title type="complete">Magic prayer against sores</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7585PPWounds">Yǝtfǝʿ wa-yǝṣṣamamǝhi wa-yǝrmay qʷǝslu</title>
                                 <note>Magic prayer against sores on <locus from="125v"/>, which was foliated '117'.</note>
                                 <incipit xml:lang="gez"><gap reason="ellipsis"/>ይጥፍዕ፡ ወይጸመ<supplied reason="undefined" resp="PRS8999Strelcyn">ም</supplied>ሂ፡ 
                                     ወይርመይ፡ ቍስሉ፡ ለገ<supplied reason="undefined" resp="PRS8999Strelcyn">ብርከ</supplied>፡ 
@@ -1470,21 +1513,22 @@
                             </msItem>
                             <msItem xml:id="p2_i107">
                                 <locus target="#126r"/>
-                                <title type="complete">Magic prayer and prescription for a madman</title>
-                                <incipit xml:lang="am">መድኃ<supplied reason="undefined" resp="PRS8999Strelcyn"/>ኒት፡ ለአበደ፡ ሰው፡ ኸየለኸ፡ የሉስከ፡ 
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7586PPMadman">Madḫānit la-ʿabada saw</title>
+                                <incipit xml:lang="am">መድኃ<supplied reason="undefined" resp="PRS8999Strelcyn">ኒት</supplied>፡ ለአበደ፡ ሰው፡ ኸየለኸ፡ የሉስከ፡ 
                                     ያለውስ፡ ኸይ፡</incipit>
                                 <textLang mainLang="am"/>
                             </msItem>
                             <msItem xml:id="p2_i108">
                                 <locus from="126r"/>
-                                <title type="complete">Magic prayer against locusts</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Magic prayer against locusts</title>
                                 <note>Magic prayer against locusts (<foreign xml:lang="gez">ለአንበጣ፡</foreign>) from <locus from="126r"/>,
                                     which was foliated '118'.</note>
-                                <textLang mainLang="gez"/> 
+                                 
                             </msItem>
                             <msItem xml:id="p2_i109">
                                 <locus from="126v"/>
-                                <title type="complete">Magic prayers for the protection of goods and the fulfilment of wishes</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7590PPWishes">Ba-sǝma ʾAb buruk wa-sǝma Wald nabalbāl Qʷarāʿin sǝma Manfas
+        qǝddus Qʷalāšer Šoba</title>
                                 <note>Several magic prayers for the protection of goods and the fulfilment of wishes from <locus from="126v"/>, 
                                     which is foliated '118'.</note>
                                 <incipit xml:lang="gez">በስመ፡ አብ፡ ቡሩክ፡ ወስመ፡ ወልድ፡ ነበልባል፡ ቈራዒን፡ ስመ፡ መንፈስ፡ ቅዱስ፡ ቈላሼር፡ ሾበ፡</incipit>
@@ -1492,27 +1536,28 @@
                             </msItem>
                             <msItem xml:id="p2_i110">
                                 <locus target="#129r"/>
-                                <title type="complete">Magic prayer for protecting the traveller</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Magic prayer for protecting the traveller</title>
                                 <note>Magic prayer for protecting the traveller (<foreign xml:lang="gez">ለነጋዲ፡</foreign>).</note>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i111">
                                 <locus target="#129r"/>
-                                <title type="complete">Magic prayer against diseases of the heart</title>
-                                <note>Magic prayer against diseases of the heart on <locus target="#129r"/>, which are foliated '121'.</note>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Magic prayer against diseases of the heart</title>
+                                <note>Magic prayer against diseases of the heart on <locus target="#129r"/>, which are foliated '121',
+                                    possibly similar or identical to <ref type="work" corresp="https://betamasaheft.eu/LIT4603Salot">Ṣalot baʾǝnta ḥǝmāma lǝbb</ref>.</note>
                                 <incipit xml:lang="gez">ጸሎት፡ በእንተ፡ ሕማመ፡ ልብ።</incipit>
                                 <textLang mainLang="gez"/>
                             </msItem>
                             <msItem xml:id="p2_i112">
                                 <locus from="129r"/>
-                                <title type="complete">Medical prescriptions in Amharic Magāññā, periostitis of the leg and nose bleeding</title>
-                                <note>Medical prescriptions in Amharic Magāññā, periostitis of the leg (<foreign xml:lang="am">ለሚሰቀስቃት፡</foreign>)
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7591MedPre">Medical prescriptions in Amharic against Magāññā, periostitis of the leg and nose bleeding</title>
+                                <note>Medical prescriptions in Amharic against Magāññā, periostitis of the leg (<foreign xml:lang="am">ለሚሰቀስቃት፡</foreign>)
                                     and nose bleeding (<foreign xml:lang="am">ለነስር፡</foreign>) from <locus from="129r"/>, which is foliated '121'.</note>
-                                <textLang mainLang="gez"/>
+                                <textLang mainLang="am"/>
                             </msItem>
                             <msItem xml:id="p2_i113">
                                 <locus from="129v" to="130r"/>
-                                <title type="complete">Magic prayers for gaining love and respect</title>
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7588PPLove">Faṗunon sirāknon ... habani fǝqra wa-mogasa</title>
                                 <note>Several magic prayers for gaining love and respect on <locus from="121v" to="122r"/>, which were foliated 
                                     '121' and '122'.</note>
                                 <incipit xml:lang="gez">ፈጱኖን፡ ሲራክኖን፡ <gap reason="ellipsis"/> ሀበኒ፡ ፍቅረ፡ ወሞገሰ፡ ለገብርከ፡</incipit>
@@ -1520,24 +1565,24 @@
                             </msItem>
                             <msItem xml:id="p2_i114">
                                 <locus target="#130v"/>
-                                <title type="complete">Prescription in Amharic against the disease of the scalp</title>
-                                <note>Prescription in Amharic against the disease of the scalp called lašǝt (<foreign xml:lang="am">የላሽት፡</foreign>)
+                                <title type="complete" ref="https://betamasaheft.eu/LIT7635MedLashet">Ya-lāšǝt</title>
+                                <note>Prescription in Amharic against baldness caused by a lizard which is called lāšǝt (<foreign xml:lang="am">የላሽት፡</foreign>)
                                     on <locus target="#130v"/>, which is foliated '122'.</note>
                                 <textLang mainLang="am"/>
                             </msItem>
                             <msItem xml:id="p2_i115">
                                 <locus target="#130v"/>
-                                <title type="complete">Magic prayers against vaginal haemorrhage and Šotalāy</title>
+                                <title type="complete">Several magic prayers against vaginal haemorrhage and Šotalāy</title>
                                 <note>Several magic prayers against vaginal haemorrhage and Šotalāy and other demons or diseases on 
                                     <locus target="#130v"/>, which is foliated '122'.</note>
                                 <msItem xml:id="p2_i115.1">
                                     <locus target="#130v"/>
-                                    <title type="complete">Magic prayers against vaginal haemorrhage</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT5199MagicPrayer">Magic prayers against vaginal haemorrhage</title>
                                     <incipit xml:lang="gez">ከማሁ፡ አር<supplied reason="undefined">ግዕ፡</supplied> ውኅዘ፡ ደማ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p2_i115.2">
                                     <locus target="#130v"/>
-                                    <title type="complete">Magic prayers against Šotalāy</title>
+                                    <title type="complete" ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Magic prayers against Šotalāy</title>
                                     <incipit xml:lang="gez">ጸሎት፡ በእ<supplied reason="undefined">ንተ</supplied>፡ 
                                         ሾተ<supplied reason="undefined">ላይ፡</supplied></incipit>
                                 </msItem>
@@ -1551,23 +1596,23 @@
                                         <material key="parchment"/>
                                     </support>
                                     <extent>
-                                        <measure unit="leaf" quantity="118">126</measure>
+                                        <measure unit="leaf" quantity="126">126</measure>
                                         <locus from="2" to="90"/><locus from="92" to="126"/><locus from="129" to="130"/>
                                     </extent>    
                                 </supportDesc>
                                 <layoutDesc>
-                                    <layout columns="1" writtenLines="28 36"><locus from="2r" to="7v"/></layout>
-                                    <layout columns="2" writtenLines="28 36"><locus target="#8r"/></layout>
-                                    <layout columns="1" writtenLines="28 36"><locus from="8v" to="14v"/></layout>
-                                    <layout columns="2" writtenLines="28 36"><locus from="24r" to="36r"/></layout>
-                                    <layout columns="1" writtenLines="28 36"><locus target="#36v"/></layout>
-                                    <layout columns="2" writtenLines="28 36"><locus from="37r" to="40v"/></layout>
-                                    <layout columns="1" writtenLines="28 36"><locus from="41r" to="42r"/></layout>
-                                    <layout columns="2" writtenLines="28 36"><locus from="42r" to="55v"/></layout>
-                                    <layout columns="1" writtenLines="28 36"><locus from="55v" to="56r"/></layout>
-                                    <layout columns="2" writtenLines="28 36"><locus from="56r" to="63r"/></layout>
+                                    <layout columns="1" writtenLines="28 36"><locus from="2r" to="7v"/></layout><layout subtype="computed" type="catalogue" columns="1"><writtenLines quantity="36"/></layout>
+                                    <layout columns="2" writtenLines="28 36"><locus target="#8r"/></layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="36"/></layout>
+                                    <layout columns="1" writtenLines="28 36"><locus from="8v" to="14v"/></layout><layout subtype="computed" type="catalogue" columns="1"><writtenLines quantity="36"/></layout>
+                                    <layout columns="2" writtenLines="28 36"><locus from="24r" to="36r"/></layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="36"/></layout>
+                                    <layout columns="1" writtenLines="28 36"><locus target="#36v"/></layout><layout subtype="computed" type="catalogue" columns="1"><writtenLines quantity="36"/></layout>
+                                    <layout columns="2" writtenLines="28 36"><locus from="37r" to="40v"/></layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="36"/></layout>
+                                    <layout columns="1" writtenLines="28 36"><locus from="41r" to="42r"/></layout><layout subtype="computed" type="catalogue" columns="1"><writtenLines quantity="36"/></layout>
+                                    <layout columns="2" writtenLines="28 36"><locus from="42r" to="55v"/></layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="36"/></layout>
+                                    <layout columns="1" writtenLines="28 36"><locus from="55v" to="56r"/></layout><layout subtype="computed" type="catalogue" columns="1"><writtenLines quantity="36"/></layout>
+                                    <layout columns="2" writtenLines="28 36"><locus from="56r" to="63r"/></layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="36"/></layout>
                                     <layout columns="1" writtenLines="28 36"><locus from="63r" to="82v"/><locus from="84r" to="118v"/>
-                                        <locus from="121r" to="122v"/></layout>
+                                        <locus from="121r" to="122v"/></layout><layout subtype="computed" type="catalogue" columns="1"><writtenLines quantity="36"/></layout>
                                 </layoutDesc>
                             </objectDesc>
                             <handDesc>
@@ -1607,7 +1652,7 @@
                                 <decoNote type="drawing" xml:id="d7">
                                     <locus target="121r"/>
                                     <desc><ref type="authFile" corresp="https://betamasaheft.eu/MagicDrawing">Magic square</ref> of the seven signs.</desc>
-                                    
+                                    <note>Cf. <bibl corresp="http://zotero.org/groups/358366/items/P56A9HHG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1955Prieres"/><title level="m">Prières magiques éthiopiennes pour délier les charmes (&lt;hi rend="italics"&gt;maftǝḥe šǝrāy&lt;/hi&gt;)</title><title level="s">&lt;Rocznik orientalistyczny&gt;</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>Warszawa</pubPlace><publisher>Państwowe wydawnictwo naukowe</publisher><date>1955</date><series><title level="s">&lt;Rocznik orientalistyczny&gt;</title><biblScope unit="volume">18</biblScope></series><biblScope unit="volume">18</biblScope><note type="tags"><note type="tag">Magic scrols</note><note type="tag">bm:Strelcyn1955Prieres</note></note><note type="tag">Magic scrols</note><note type="tag">bm:Strelcyn1955Prieres</note><citedRange unit="page">LIX-LX</citedRange><citedRange unit="item">Fig. 7</citedRange></bibl>.</note>
                                 </decoNote>
                                 <decoNote type="drawing" xml:id="d8">
                                     <locus target="#123r"/>
@@ -1619,8 +1664,8 @@
                                 <list>
                                     <item xml:id="a1">
                                         <locus target="#17v"/>
-                                        <desc type="GuestText">This was a blank page on which a text of 
-                                            <ref type="work" corresp="https://betamasaheft.eu/LIT7535Kobar">Ḥassāba kobar</ref> has been copied.</desc>
+                                        <desc type="GuestText">This was a blank page on which a text of <ref type="work" corresp="https://betamasaheft.eu/LIT7535Kobar">Ḥassāba kobar</ref> 
+                                            has been copied.</desc>
                                     </item>
                                     <item xml:id="a2">
                                         <locus target="#21r"/>
@@ -1632,8 +1677,8 @@
                                     <item xml:id="e1">
                                         <locus target="#124r #129r"/>
                                         <desc type="OwnershipNote">The name of the owner 
-                                            <persName role="owner" ref="https://betamasaheft.eu/PRS14870GabraHanna">Gabra Ḥannā</persName> is mentioned on
-                                            <locus target="#124r"/> and <locus target="#129r"/> which are foliated '116' and '121'.</desc>
+                                            <persName role="owner" ref="https://betamasaheft.eu/PRS14870GabraHanna">Gabra Ḥannā</persName> is mentioned on <locus target="#124r"/> and 
+                                            <locus target="#129r"/> which are foliated '116' and '121'.</desc>
                                     </item>   
                                 </list>  
                             </additions>
@@ -1651,21 +1696,23 @@
                             <summary/>
                             <msItem xml:id="p3_i1">
                                 <locus from="91r" to="91v"/>
-                                <title ref="https://betamasaheft.eu/LIT7531Eye">Medical prescriptions in Amharic</title>
-                                <note>Taken from a collection of medical prescriptions (maṣḥafa madḫanit).</note>
-                                <note>The beginning is missing.</note>
-                                <note>Foliated '83'.</note>
+                                <title type="incomplete" ref="https://betamasaheft.eu/LIT7531Eye">Medical prescriptions in Amharic</title>
+                                <note>Taken from a collection of medical prescriptions (maṣḥafa madḫanit), written on <locus target="#91"/>, but
+                                    foliated '83'. The beginning is missing.</note>
                                 <textLang mainLang="am"/>
                                 <msItem xml:id="p3_i1.1">
-                                    <title ref="https://betamasaheft.eu/LIT7531Eye#Haem">Medical prescriptions in Amharic: Prescription against vaginal haemorrhage</title>
+                                    <title ref="https://betamasaheft.eu/LIT7531Eye#Haem">Medical prescriptions in Amharic: Prescription against vaginal
+        haemorrhage</title>
                                     <incipit xml:lang="am">የደም፡ <gap reason="ellipsis"/> ለዘይውኅዝ፡ ትክቶሃ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p3_i1.2">
-                                    <title ref="https://betamasaheft.eu/LIT7531Eye#Foetus">Medical prescriptions in Amharic: Prescription for protecting the foetus</title>
+                                    <title ref="https://betamasaheft.eu/LIT7531Eye#Foetus">Medical prescriptions in Amharic: Prescription for protecting
+        the foetus</title>
                                     <incipit xml:lang="am">የፅንስ፡</incipit>
                                 </msItem>
                                 <msItem xml:id="p3_i1.3">
-                                    <title ref="https://betamasaheft.eu/LIT7531Eye#Eye">Medical prescriptions in Amharic: Prescription against various diseases of the eye</title>
+                                    <title ref="https://betamasaheft.eu/LIT7531Eye#Eye">Medical prescriptions in Amharic: Prescription against various
+        diseases of the eye</title>
                                     <incipit xml:lang="am">ለጣለበት፡ <gap reason="ellipsis"/> ለዓይን፡ <gap reason="ellipsis"/> ዓይኑ፡ 
                                         <supplied reason="undefined" resp="PRS8999Strelcyn">ይመ</supplied>ስል፡ ጊሜ፡ <gap reason="ellipsis"/>
                                         ጨምጫ<supplied reason="undefined" resp="PRS8999Strelcyn">ማ</supplied>፡ <gap reason="ellipsis"/>
@@ -1685,7 +1732,7 @@
                                         <dimensions type="outer" unit="mm">
                                             <height>132</height>
                                             <width>108</width>
-                                        </dimensions>
+                                        </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="132" unit="mm"/><width quantity="108" unit="mm"/></dimensions>
                                     </extent>
                                 </supportDesc>
                                 <layoutDesc>
@@ -1732,7 +1779,7 @@
                                         <dimensions type="outer" unit="mm">
                                             <height>82</height>
                                             <width>75</width>
-                                        </dimensions>
+                                        </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="82" unit="mm"/><width quantity="75" unit="mm"/></dimensions>
                                     </extent>    
                                 </supportDesc>
                                 <layoutDesc>
@@ -1746,48 +1793,50 @@
                             </handDesc>
                         </physDesc>
                     </msPart>
-                </msDesc>
+                <msPartsCount quantity="4"/></msDesc>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             
                 
             
-        <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term key="Magic" ana="#Magic"/>
-                    <term key="Prayers" ana="#Prayers"/>
-                    <term key="Medicine" ana="#Medicine"/>
-                    <term key="Divination" ana="#Divination"/>
-                    <term key="AmharicLiterature" ana="#AmharicLiterature"/>
-                    <term key="Asmat" ana="#Asmat"/>
-                    <term key="MagicDrawing" ana="#MagicDrawing"/>
-                 </keywords>
-            </textClass>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
-                <language ident="am">Amharic</language>
-            </langUsage>
+        <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <t:textClass>
+                <t:keywords>
+                    <t:term key="Magic" ana="#Magic"/>
+                    <t:term key="Prayers" ana="#Prayers"/>
+                    <t:term key="Medicine" ana="#Medicine"/>
+                    <t:term key="Divination" ana="#Divination"/>
+                    <t:term key="AmharicLiterature" ana="#AmharicLiterature"/>
+                    <t:term key="Asmat" ana="#Asmat"/>
+                    <t:term key="MagicDrawing" ana="#MagicDrawing"/>
+                    <t:term key="demon" ana="#demon"/>
+                 </t:keywords>
+            </t:textClass>
+            <t:langUsage>
+                <t:language ident="en">English</t:language>
+                <t:language ident="gez">Gǝʿǝz</t:language>
+                <t:language ident="am">Amharic</t:language>
+            </t:langUsage>
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-        <revisionDesc>
-            <change who="#CH" when="2025-05-20"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record.</change>
-            <change who="#CH" when="2025-05-26"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated p2_i2 (Maṣḥafa saʾalt)</change>
-            <change who="#CH" when="2025-06-02"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated p2_i24 (Book of the Signs by Aristotle)</change>
-            <change who="#CH" when="2025-06-10"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated p2 and p4 with new LIT IDs for magic prayers</change>
-        </revisionDesc>
-    </teiHeader><text xml:base="https://betamasaheft.eu/">
-        <body>
-            <ab/>
-        </body>
-    </text></TEI>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <change when="2025-05-20" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record.</change>
+            <change when="2025-05-26" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated p2_i2 (Maṣḥafa saʾalt)</change>
+            <change when="2025-06-02" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated p2_i24 (Book of the Signs by Aristotle)</change>
+            <change when="2025-06-10" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated p2 and p4 with new LIT IDs for magic prayers</change>
+            <change when="2025-09-04" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated p2 with new LIT IDs for magic prayers and divination</change>
+        </t:revisionDesc>
+    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+        <t:body>
+            <t:ab/>
+        </t:body>
+    </t:text></TEI>

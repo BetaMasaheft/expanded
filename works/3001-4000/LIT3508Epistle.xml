@@ -7,9 +7,12 @@
             <title xml:id="t3" xml:lang="gez">ካልእት፡ መልእክተ፡ ጴጥሮስ፡</title>
             <title corresp="#t3" xml:lang="gez" type="normalized">Kālʾǝt malʾǝkta Ṗeṭros </title>
             <title type="short">2 Petr.</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <editionStmt>            
+            <p>The text provided below has been digitized by partner projects from modern Vulgata printed editions.  </p>
+         </editionStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -20,7 +23,7 @@
                                     Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
-         <date type="expanded">11.6.2025 at 09:01:13</date><date type="lastModified">10.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3508Epistle/main</idno><idno type="URI">https://betamasaheft.eu/LIT3508Epistle</idno><idno type="filename">LIT3508Epistle.xml</idno><idno type="ID">LIT3508Epistle</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:20:43</date><date type="lastModified">10.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3508Epistle/main</idno><idno type="URI">https://betamasaheft.eu/LIT3508Epistle</idno><idno type="filename">LIT3508Epistle.xml</idno><idno type="ID">LIT3508Epistle</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -29,189 +32,189 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="chapter" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item></list></desc><citeStructure unit="l" match="l" use="l"><desc><list><item>tei:l[1]</item><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
-         <textClass>
-            <keywords>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="NewTestament" ana="#NewTestament"/>
-               <term key="Bible" ana="#Bible"/>
-               <term key="Translation" ana="#Translation"/>
-            </keywords>
-         </textClass>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="chapter" use="@n"><citeStructure match="t:l" unit="t:l" use="@xml:id"><desc><list><item>tei:t:l[1]</item><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item></list></desc></citeStructure><desc><list><item>1</item><item>2</item><item>3</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="NewTestament" ana="#NewTestament"/>
+               <t:term key="Bible" ana="#Bible"/>
+               <t:term key="Translation" ana="#Translation"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-07-26"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record from Ethio authority google spreadsheet</change>
-         <change who="#MV" when="2017-03-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
-         <change who="#ES" when="2025-06-10"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
-      </revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-07-26" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record from Ethio authority google spreadsheet</change>
+         <change when="2017-03-15" who="#MV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
+         <change when="2025-06-10" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added text</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT3508Epistle" passive="https://betamasaheft.eu/LIT3506CatholicEpis"/>
-            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="bibliography">
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
             
-            <listBibl type="editions">
-               <bibl corresp="http://zotero.org/groups/358366/items/JQ8WXBQV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Uhlig1993Katholischen"/><title level="m">Novum Testamentum Aethiopice: Die katholischen Briefe</title><title level="s">Aethiopistische Forschungen</title><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Josef</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Hofmann</t:surname></editor><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Siegbert</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Uhlig</t:surname></editor><pubPlace>Stuttgart</pubPlace><publisher>Franz Steiner</publisher><date>1993</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Aethiopistische Forschungen</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">29</t:biblScope></series><biblScope unit="volume">29</biblScope></bibl>
-            </listBibl>
-         </div>
-         <div type="edition" xml:lang="gez">
-            <note>Text of the EOTC printed Bible</note>
-            <div type="textpart" subtype="chapter" n="1" xml:id="ch1">
-               <label>ምዕራፍ 1</label>
-               <ab>
-                  <l>ለእለ፡ የኀብሩ፡ በሃይማኖት</l>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=1"/>እምኀበ፡ ስምዖን፡ ኬፋ፡ ገብሩ፡ ወልኡኩ፡ ለኢየሱስ፡ ክርስቶስ። ለእለ፡ ነኀብር፡ ክብረ፡ በሃይማኖት። እንተ፡ ከፈለነ፡ በጽድቁ፡ ለአምላክነ፡ ወፈራቂነ፡ ኢየሱስ፡ ክርስቶስ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=2"/>ሞገስ፡ ወሰላም፡ ይብዛኅ፡ ለክሙ። በአእምሮቱ፡ ለአምላክነ፡ ወኢየሱስ፡ ክርስቶስ፡ እግዚእነ።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=3"/>ዘበኀይለ፡ መለኮቱ፡ ወሀበነ፡ ለነ፡ ኵሎ፡ ምግባረ፡ ዘይወስድ፡ ኀበ፡ ሕይወት። ወጽድቅ፡ ውእቱ፡ ዘጸውዐነ፡ ውስተ፡ ስብሐቲሁ፡ ወውስተ፡ ሠናይቱ።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=4"/>በዘቦቱ፡ ነሐዩ፡ ወነዐቢ፡ ወንከብር፡ በተስፋሁ፡ እንተ፡ ጸገወነ። ከመ፡ በእንተ፡ ዝንቱ፡ ትኩኑ፡ ሱቱፋነ፡ ለመለኮተ፡ ዚኣሁ። እንዘ፡ ትጐይይዋ፡ ለፍትወተ፡ ሙስናሁ፡ ለዝንቱ፡ ዓለም።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=5"/>ወአንትሙኒ፡ በኵሉ፡ ጕጕኣ፡ ገቢረክሙ፡ አትልውዋ፡ ለሠናይት፡ በሃይማኖትክሙ። ወበሠናይት፡ ለአእምሮ፡ ወበአእምሮ፡ ለኢዘምዎ።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=6"/>ወበኢዘምዎ፡ ለትዕግሥት፡ ወበትዕግሥት፡ ለአምልኮ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=7"/>ወበአምልኮ፡ ለተአኅዎ፡ ወበተአኅዎ፡ ለተፋቅሮ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=8"/>ወዝንቱ፡ ኵሉ፡ እምከመ፡ ሀለወ፡ ኀቤክሙ፡ ኢኮንክሙ፡ ፅሩዓነ። ወኢኮንክሙ፡ እለ፡ እንበለ፡ ፍሬ። አላ፡ ያበጽሐክሙ፡ ውስተ፡ አእምሮቱ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=9"/>ወዘሰ፡ ኢሀሎ፡ ውስተ፡ ዝንቱ፡ ምግባር። ዕዉር፡ ውእቱ፡ ዘየሐውር፡ በመርሰስ። ወረስዐ፡ አንጽሖ፡ ርእሶ፡ እምእለ፡ በልያ፡ በላዕሌሁ፡ ኀጣውኢሁ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=10"/>ወይእዜኒ፡ አኀዊነ፡ ጐጕኡ፡ ከመ፡ በጽንዐ፡ ምግባሪክሙ። ጽንዕተ፡ ትኩን፡ ጽዋዔክሙ፡ ወታወፍዩ፡ ሐሳበ፡ ሃይማኖትክሙ። ወዘንተ፡ እንዘ፡ ትገብሩ፡ ኢትስሐቱ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=11"/>ወይትወሀበክሙ፡ ርሒብ፡ ፍኖት፡ ዘይወስድ፡ ውስተ፡ ሕይወት፡ ዘለዓለም። ወመንግሥቱ፡ ለመድኀኒነ፡ ኢየሱስ፡ ክርስቶስ።</l>
-                  <l>በእንተ፡ አዘክሮተ፡ ሞት</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=12"/>ወበእንተ፡ ዝ፡ እጽሕቅ፡ ለክሙ፡ ዘልፈ፡ ወአዜክረክሙ፡ ዘንተ፡ ትእዛዘ። እንዘ፡ ጽኑዓን፡ አንትሙ፡ በዘሀለወ፡ ጽድቅ።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=13"/>ወይመስለኒሰ፡ ከመ፡ ርቱዕ፡ ሊተ። አምጣነ፡ ሀሎኩ፡ በዝንቱ፡ ሥጋየ፡ አንቅህክሙ፡ በዘክሮ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=14"/>እስመ፡ አአምር፡ ከመ፡ ፍጥንት፡ ይእቲ፡ ስሳሌ፡ ዚኣየ፡ እምኔክሙ። በከመ፡ አይድዐኒ፡ እግዚእየ፡ ኢየሱስ፡ ክርስቶስ።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=15"/>ወዓዲ፡ ጐጕኡ፡ ከመ፡ ተሀሉ፡ ኀቤክሙ፡ ዛቲ፡ ትእዛዝ፡ ዘልፈ። ወከመ፡ ትዘከርዋ፡ እምድኅረ፡ ኅልፈትየ፡ ወከማሁ፡ ትግበሩ።</l>
-                  <l>በእንተ፡ ስምዕ፡ አማናዊ</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=16"/>እስመ፡ ኢኮነ፡ መሐድምተ፡ ጥበብ፡ ዘተሎነ። ወአእመርናክሙ፡ ቦቱ፡ ኀይሎ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ወምጽአቶ፡ ወሀልዎቶ። አላ፡ ለሊነ፡ ርኢነ፡ ዕበዮ፡ ዘነሥአ፡ እምኀበ፡ እግዚአብሔር፡ አብ፡ ክብረ፡ ወስብሐተ።</l>
-                  <l n="17">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=17"/>ወቃል፡ ዘወረደ፡ ላዕሌሁ፡ ዘምሉእ፡ ስብሐተ፡ ወልዕልና፡ ይቤ። ዝንቱ፡ ውእቱ፡ ወልድየ፡ ዘአፈቅር፡ ዘአነ፡ ኀረይኩ።</l>
-                  <l n="18">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=18"/>ዘንተ፡ ቃለ፡ ንሕነ፡ ሰማዕናሁ፡ ከመ፡ እምሰማይ፡ ወረደ፡ ሎቱ። እንዘ፡ ሀሎነ፡ ምስሌሁ፡ በደብረ፡ መቅደሱ።</l>
-                  <l>በእንተ፡ ቃለ፡ ነቢያት</l>
-                  <l n="19">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=19"/>ወብነ፡ ዓዲ፡ ዘእምዝኒ፡ ይቀድም፡ ቃለ፡ ነቢያት፡ ዘያዐውቅ፡ ዘንተ። ወእምከመ፡ ጥቀ፡ ታሤንዩ፡ ገቢረ፡ ወትኔጽርዎ። ይከውን፡ ለክሙ፡ ከመ፡ ማኅቶት። እንተ፡ ታበርህ፡ ውስተ፡ መካነ፡ ጽልመት፡ እስከ፡ ታበርህ፡ ለክሙ፡ ዕለት። ወይሠርቅ፡ ለክሙ፡ ቤዝ፡ ውስተ፡ ልብክሙ፡ ዘያበርህ።</l>
-                  <l n="20">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=20"/>ወዘንተ፡ ባሕቱ፡ ቅድሙ፡ አእምሮ። ከመ፡ ኵሉ፡ ተነብዮ፡ ዘውስተ፡ መጽሐፍ፡ አልቦ፡ ላዕሌሁ፡ ፍካሬሁ።</l>
-                  <l n="21">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=21"/>ወኢይከውን፡ ተነብዮ፡ ግሙራ፡ እምፈቃደ፡ ሰብእ። ወኢ፡ እምሥምረተ፡ ዕጓለ፡ እመሕያው። አላ፡ በመንፈስ፡ ቅዱስ፡ ነበቡ፡ ቅዱሳን፡ ሰብእ፡ ተፈኒዎሙ፡ እምኀበ፡ እግዚአብሔር።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="2" xml:id="ch2">
-               <label>ምዕራፍ 2</label>
-               <ab>
-                  <l>በእንተ፡ ሐሳውያነ፡ ነቢያት</l>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=1"/>ወቦ፡ ባሕቱ፡ ሐሳውያን፡ ነቢያት፡ ማእከለ፡ ሕዝብ። ከመ፡ እለ፡ ሀለዉ፡ ማእከሌክሙ፡ ወውስቴትክሙ። እለ፡ ሐሰተ፡ ይሜህሩ፡ ወእለ፡ ካሕደ፡ ያበውኡ፡ ለሕርትምና። ወይክሕድዎ፡ ለእግዚኦሙ፡ ዘተሣየጦሙ። ወያመጽእዎ፡ ላዕሌሆሙ፡ ፍጡነ፡ ለሙስና፡ ወለተሠርዎ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=2"/>ወብዙኃን፡ ሰብእ፡ ይተልውዎሙ፡ ለእሉ፡ በእንተ፡ ፍትወተ፡ ዝሙቶሙ። ወይፀርፉ፡ ላዕለ፡ ፍኖተ፡ ጽድቅ።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=3"/>ወይትከሐዱ፡ በቃል፡ ዘለሊሆሙ፡ ፈጠሩ፡ ወቦቱ፡ የሐውሩ። ወደይኖሙሰ፡ እምፍጥረተ፡ ዓለም፡ ዘኢተዐርፍ። ወሕርትምናሆሙ፡ እንተ፡ ኢትዴቅስ።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=4"/>ወእግዚአብሔርሰ፡ ለመላእክቲሁ፡ ጥቀ፡ አቢሶሙ፡ ኢመሀኮሙ። አላ፡ ወደዮሙ፡ ውስተ፡ ጻዕረ፡ ደይን፡ ዘርሱን። ወመጠዎሙ፡ ይትኰነኑ፡ ወይንበሩ፡ ውስተ፡ ጻዕረ፡ ደይን።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=5"/>ወለዓለምሰ፡ ቀደምት፡ ኢመሀኮሙ። አላ፡ አትረፈ፡ ሰማኒተ፡ ነፍሰ፡ ምስለ፡ ኖኅ፡ ዘዐቀባ፡ ለጽድቅ። ከመ፡ ይኩን፡ ዜናዌ፡ በጽድቅ። ወለባዕዳንሰ፡ ሰብእ፡ ረሲዓን፡ ፈነወ፡ አይኀ፡ ላዕሌሆሙ።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=6"/>ወለአህጉረ፡ ሰዶምኒ፡ ወገሞራ፡ አውዐዮን፡ ወገፍትዖን፡ ወከመ፡ ዝ፡ ኰነኖሙ። ወአርአያ፡ ረሰዮሙ፡ ለእለ፡ በደኃሪ፡ መዋዕል፡ ለኃጥኣን።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=7"/>ወለጻድቅሰ፡ ሎጥ፡ ዘይትገፋዕ፡ እምእለ፡ ይኤብሱ፡ በምግባረ፡ ዝሙቶሙ፡ አድኀኖ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=8"/>ወእንዘ፡ ይሬኢ፡ ወይሰምዕ፡ ወኅዱር፡ ምስሌሆሙ። ወዕለተ፡ እምዕለት፡ ያጼዕርዋ፡ ለነፍሱ፡ ጻድቅት፡ በእከየ፡ ምግባሮሙ።</l>
-                  <l>በእንተ፡ ጊጉያን፡ ወጌጋዮሙ</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=9"/>ናሁኬ፡ አእመርነ፡ ከመ፡ እግዚአብሔር፡ ይክል፡ አድኅኖቶሙ፡ እምነ፡ መንሱት፡ ለጻድቃን። ወለኃጥኣንሰ፡ ዕለተ፡ ደይን፡ ትጸንሖሙ፡ ለተጽዕሮ።</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=10"/>ወፈድፋደሰ፡ ለእለ፡ ይተልውዋ፡ ድኅሬሃ፡ ለፍትወቶሙ። ወያጌምንዎ፡ ለሥጋሆሙ፡ ወያስተሐቅርዎ፡ ለፈጣሪሆሙ። ኅቡላን፡ ወዝሉፋን፡ እለ፡ ኢይደነግፁ፡ ከመ፡ ይፅርፉ፡ ላዕለ፡ ስብሐቲሁ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=11"/>ዘውእቱ፡ ኀበ፡ መላእክት፡ እለ፡ ልዑላን፡ እሙንቱ፡ እምኔሆሙ፡ በኀይል፡ ወበጽንዕ። ወኢይክሉ፡ ተዐግሦ፡ ከመ፡ ያብጽሑ፡ ላዕሌሆሙ፡ ደይነ፡ ፅርፈቶሙ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=12"/>ውእቶሙኬ፡ ከመ፡ እንስሳ፡ ዘአልቦ፡ ቃል፡ ዘይትወለድ፡ ለሙስና፡ ወለተሠርዎ። እስመ፡ ይፀርፉ፡ ላዕለ፡ ዘኢየአምሩ፡ ለሕርትምናሆሙ። ወሎሙ፡ በሙስናሆሙ፡ ዐስበ፡ ዐመፃ።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=13"/>ወአስተሐወዝዋ፡ ለተደልዎ፡ ስታየ፡ ዕለቶሙ። ወይበልዑ፡ እንዘ፡ ሕብቁቃን፡ ወርኩሳን፡ እለ፡ ኢይጸግቡ። ወይትጐሐለዉ፡ በፍቅሮሙ፡ ወይትሜክሑ፡ ለቢጾሙ፡ ከመ፡ ዘሠናይ፡ ምግባሮሙ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=14"/>ወምሉእ፡ ውስተ፡ አዕይንቲሆሙ፡ ዝሙት። ወኀጢአት፡ እንተ፡ አልባቲ፡ ዘይገሀግሃ። ወያደነግፁ፡ ነፍሰ፡ ሰብእ፡ እለ፡ ስጡሕ፡ ልቦሙ፡ ወትዕግልት፡ ምግባሮሙ። ወየኀድጉ፡ መርገመ፡ ለውሉዶሙ።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=15"/>ወስሕትዋ፡ ለፍኖተ፡ ጽድቅ። ወተለውዋ፡ ለፍኖተ፡ በለዓም፡ ወልደ፡ ባሶር፡ ዘአፍቀራ፡ ለዐስበ፡ ዐመፃ።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=16"/>ወተዛለፎ፡ ለበለዓም፡ በኀጢአቱ። ዘኢይነብብ፡ አድግ፡ በቃለ፡ ዕጓለ፡ እመሕያው፡ ተናገረ። ወከልኦ፡ ለነቢይ፡ ዕበዲሁ።</l>
-                  <l n="17">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=17"/>እሉ፡ እሙንቱ፡ ዐዘቅት፡ ንፅፍት፡ ወጊሜ፡ ዘነፋስ፡ ይዘርዎ። እለ፡ ለደይነ፡ ጽልመት፡ ዘለዓለም፡ የዐቅብዎሙ።</l>
-                  <l n="18">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=18"/>እስመ፡ ዐበይተ፡ ጌጋይ፡ ነበቡ፡ ወያደነግፁ፡ ነፍሰ፡ ሰብእ፡ በእንተ፡ ፍትወተ፡ ዝሙቶሙ፡ ዘሥጋሆሙ። ሰብእ፡ እለ፡ ኅዳጠ፡ አምሠጡ፡ ወገብኡ፡ ውስተ፡ ጌጋይ።</l>
-                  <l n="19">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=19"/>እለ፡ ሕገ፡ ግዕዛን፡ ተምህሩ፡ ወለሊሆሙኒ፡ ቅኑያን፡ ለሕርትምና። እስመ፡ ኵሉ፡ ለዘተአዘዘ፡ ውእቱ፡ ይትቀነይ።</l>
-                  <l n="20">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=20"/>እስመ፡ ጐዩ፡ እምኀጢአቱ፡ ለዝንቱ፡ ዓለም። በአእምሮቱ፡ ለእግዚእነ፡ ወመድኀኒነ፡ ኢየሱስ፡ ክርስቶስ። ወገብኡ፡ ዳግመ፡ ወተጸፍሩ፡ ወተቀነዩ፡ ሎቱ። ወይከውኖሙ፡ ደኃሪ፡ ጌጋዮሙ፡ እምነ፡ ቀዲሙ፡ ዘየአክዮሙ።</l>
-                  <l n="21">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=21"/>እምኀየሶሙ፡ ሶበ፡ ኢያእመርዋ፡ ለፍኖተ፡ ጽድቅ፡ እምያእምርዋ፡ ወይግብኡ፡ ድኅሬሆሙ። እምእንተ፡ ተውህበት፡ ሎሙ፡ ትእዛዝ፡ ቅድስት።</l>
-                  <l n="22">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=22"/>ወበጽሐቶሙ፡ አምሳል፡ እንተ፡ መሰሉ፡ በጽድቅ፡ እንተ፡ ይቤ። ከልብ፡ ገብአ፡ ዲበ፡ ቅያኡ፡ ወሐራውያኒ፡ ተኀፂባ፡ ገብአት፡ ዲበ፡ ጸብር።</l>
-               </ab>
-            </div>
-            <div type="textpart" subtype="chapter" n="3" xml:id="ch3">
-               <label>ምዕራፍ 3</label>
-               <ab>
-                  <l>አዘክሮ፡ ቃለ፡ ነቢያት፡ ወትእዛዘ፡ እግዚእነ</l>
-                  <l n="1">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=1"/>ወዛቲ፡ ይእቲ፡ አኀውየ፡ ዳግሚትየ፡ ጸሐፍኩ፡ ለክሙ፡ መጽሐፈ። ከመ፡ አንሥእክሙ፡ በዘክሮ፡ ወትዕቀብዋ፡ በልብክሙ፡ ለጽድቅ።</l>
-                  <l n="2">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=2"/>ወከመ፡ ትዘከሩ፡ ቃለ፡ ነቢያት፡ ቀደምት፡ ቅዱሳን፡ ዘይቤሉ። ወትእዛዘ፡ እግዚእነ፡ ወመድኀኒነ፡ ኢየሱስ፡ ክርስቶስ፡ ዘአዘዘ፡ ለነ፡ ለሐዋርያት።</l>
-                  <l n="3">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=3"/>ወዘንተኒ፡ ቅድሙ፡ አእምሮ። ከመ፡ ሀለዎሙ፡ ይምጽኡ፡ በደኃሪ፡ መዋዕል፡ መስተአብዳን፡ ለአስተዐብዶ። እለ፡ የሐውሩ፡ በፍትወተ፡ ልቦሙ፡ ወይብሉ። አይቴ፡ ውእቱ፡ ቃሉ፡ ዘይቤ፡ ከመ፡ ሀለዎ፡ ይምጻእ።</l>
-                  <l n="4">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=4"/>ናሁ፡ እመሰ፡ አበዊነ፡ ቀደምት፡ ሞቱ። እስመ፡ ኵሉ፡ ግብር፡ ሀለወ፡ በከመ፡ ሀሎ፡ እምፍጥረተ፡ ዓለም።</l>
-                  <l n="5">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=5"/>ወኢያእመርዎ፡ ለዝንቱ፡ ከመ፡ ሰማያትኒ፡ ተፈጥራ፡ እምትካት። ወምድርኒ፡ እምነ፡ ማይ፡ ወበማይ፡ ጸንዐት፡ በቃለ፡ እግዚአብሔር።</l>
-                  <l n="6">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=6"/>ወዓለመ፡ ትካትኒ፡ ቦቱ፡ አጥፍአ፡ በማየ፡ አይኅ።</l>
-                  <l n="7">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=7"/>ወይእዜኒ፡ ሰማይ፡ ወምድር፡ በውእቱ፡ ቃል፡ ዝጉባን፡ ወዕቁባን፡ እሙንቱ። እስከ፡ ዕለተ፡ ደይን፡ ወድምሳሴ፡ ኃጥኣን፡ ሰብእ።</l>
-                  <l n="8">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=8"/>ወዘንተ፡ ባሕቱ፡ ኢትርስዑ፡ አኀዊነ። እስመ፡ አሐቲ፡ ዕለት፡ በኀበ፡ እግዚአብሔር፡ ከመ፡ ዐሠርቱ፡ ምእት፡ ዓመት። ወዐሠርቱ፡ ምእት፡ ዓመት፡ ከመ፡ አሐቲ፡ ዕለት።</l>
-                  <l n="9">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=9"/>ኢያጐነዲ፡ እግዚአብሔር፡ ቃለ፡ ዘነበበ። እስመ፡ ቦ፡ እለ፡ ይብሉ፡ ከመ፡ ይጐነዲ፡ ወባሕቱ፡ ይትዔገሥ፡ በእንቲኣሆሙ። እስመ፡ ኢይፈቅድ፡ መነሂ፡ ያማስን፡ አላ፡ ይነስሑ፡ ለኵሉ፡ ሰብእ፡ ያርሕብ።</l>
-                  <l>በእንተ፡ ዕለተ፡ እግዚአብሔር</l>
-                  <l n="10">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=10"/>ወዕለቱሰ፡ ለእግዚአብሔር፡ ግብተ፡ ትመጽእ። ከመ፡ ሰራቂ፡ እንተ፡ ባቲ፡ ሰማያትኒ፡ ይትረኀዋ፡ ወይሴስላ። ወኵሉ፡ ፍጥረት፡ ዘቀዲሙ፡ በውዕየተ፡ እሳት፡ ይትመሰው። ወምድርኒ፡ ወኵሉ፡ ዘላዕሌሃ፡ ግብር፡ ይውዒ።</l>
-                  <l n="11">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=11"/>ወዝንቱ፡ ኵሉ፡ ተመሲዎ፡ ጐጕኡ። ከመ፡ ተሀልዉ፡ በምግባር፡ ቅዱስ፡ ዘጽድቅ።</l>
-                  <l n="12">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=12"/>እንዘ፡ ትሴፈዉ፡ ዕለተ፡ ምጽአቱ፡ ለእግዚአብሔር። እንተ፡ ባቲ፡ ሰማያትኒ፡ ይረስና፡ ወይትመሰዋ። ወኵሉ፡ ፍጥረት፡ ይውዒ፡ ወይትመሰው።</l>
-                  <l n="13">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=13"/>ሐዳሳተ፡ ሰማያተ፡ ወሐዳሰ፡ ምድረ፡ ንሴፎ፡ ዘውስቴቶን፡ የኀድር፡ ጽድቅ።</l>
-                  <l n="14">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=14"/>ወይእዜኒ፡ አኀውየ፡ ዘንተ፡ እንዘ፡ ትሴፈዉ። ጐጕኡ፡ ይርከብክሙ፡ ዘእንበለ፡ ርስሐት፡ ወዘእንበለ፡ ጌጋይ፡ እንዘ፡ ትሰነአዉ።</l>
-                  <l n="15">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=15"/>ወትዕግሥቱሰ፡ ለእግዚእነ፡ የሀብክሙ፡ መድኀኒተ። በከመ፡ እኁነ፡ ጳውሎስ፡ ዘናፈቅር፡ ጸሐፈ፡ ለክሙ። በእንተ፡ ዘወሀቦ፡ እግዚአብሔር፡ ጥበበ።</l>
-                  <l n="16">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=16"/>ዘከመ፡ ሀሎ፡ ውስተ፡ ኵሉ፡ መጻሕፍቲሁ፡ ዘነበበ፡ ውስቴቶን፡ በእንቲኣሁ፡ ለዝንቱ። ወዘሰ፡ ነበቡ፡ እሙራን፡ ሰብእ፡ እለ፡ ይሌብውዎ። ወእለሰ፡ አልቦሙ፡ ትምህርት፡ እለ፡ ኢለበዉ፡ ይመይጥዎ፡ ለቃለ፡ መጽሐፍ። ከመ፡ ሜጥዎን፡ ለብዙኃት፡ መጻሕፍት፡ ለግዕዞሙ፡ ወያማስኑ።</l>
-                  <l>በእንተ፡ ተዐቅቦ፡ እምስሒት</l>
-                  <l n="17">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=17"/>ወአንትሙሰ፡ አኀዊነ፡ አቅድሙ፡ አእምሮ። ወተዐቀቡ፡ ከመ፡ ኢትስሐቱ፡ በዘኢይበቊዕ፡ ትምህርት። ከመ፡ ኢትደቁ፡ እምነ፡ ምጽናዕክሙ።</l>
-                  <l n="18">
-                     <ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=18"/>ተባዝኁ፡ በእግዚእነ፡ ወበአኰቴቱ፡ ለኢየሱስ፡ ክርስቶስ፡ መድኀኒነ፡ ወእግዚአብሔር፡ አብ። ዘሎቱ፡ ስብሐት፡ ይእዜኒ፡ ወዘልፈኒ፡ ወለዓለመ፡ ዓለም፡ አሜን።</l>
-               </ab>
-            </div>
-         </div>
-      </body>
-   </text></TEI>
+            <t:listBibl type="editions">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/JQ8WXBQV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Uhlig1993Katholischen"/><title level="m">Novum Testamentum Aethiopice: Die katholischen Briefe</title><title level="s">Aethiopistische Forschungen</title><editor><forename>Josef</forename><surname>Hofmann</surname></editor><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Stuttgart</pubPlace><publisher>Franz Steiner</publisher><date>1993</date><series><title level="s">Aethiopistische Forschungen</title><biblScope unit="volume">29</biblScope></series><biblScope unit="volume">29</biblScope><note type="tags"><note type="tag">New Testament</note><note type="tag">bm:Uhlig1993Katholischen</note></note><note type="tag">New Testament</note><note type="tag">bm:Uhlig1993Katholischen</note></t:bibl>
+            </t:listBibl>
+         </t:div>
+         <t:div type="edition" xml:lang="gez" xml:id="div2LIT3508Epistle">
+            <t:note>Text of the EOTC printed Bible</t:note>
+            <t:div type="textpart" subtype="chapter" n="1" xml:id="ch1">
+               <t:label>ምዕራፍ 1</t:label>
+               <t:ab>
+                  <t:l>ለእለ፡ የኀብሩ፡ በሃይማኖት</t:l>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=1"/>እምኀበ፡ ስምዖን፡ ኬፋ፡ ገብሩ፡ ወልኡኩ፡ ለኢየሱስ፡ ክርስቶስ። ለእለ፡ ነኀብር፡ ክብረ፡ በሃይማኖት። እንተ፡ ከፈለነ፡ በጽድቁ፡ ለአምላክነ፡ ወፈራቂነ፡ ኢየሱስ፡ ክርስቶስ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=2"/>ሞገስ፡ ወሰላም፡ ይብዛኅ፡ ለክሙ። በአእምሮቱ፡ ለአምላክነ፡ ወኢየሱስ፡ ክርስቶስ፡ እግዚእነ።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=3"/>ዘበኀይለ፡ መለኮቱ፡ ወሀበነ፡ ለነ፡ ኵሎ፡ ምግባረ፡ ዘይወስድ፡ ኀበ፡ ሕይወት። ወጽድቅ፡ ውእቱ፡ ዘጸውዐነ፡ ውስተ፡ ስብሐቲሁ፡ ወውስተ፡ ሠናይቱ።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=4"/>በዘቦቱ፡ ነሐዩ፡ ወነዐቢ፡ ወንከብር፡ በተስፋሁ፡ እንተ፡ ጸገወነ። ከመ፡ በእንተ፡ ዝንቱ፡ ትኩኑ፡ ሱቱፋነ፡ ለመለኮተ፡ ዚኣሁ። እንዘ፡ ትጐይይዋ፡ ለፍትወተ፡ ሙስናሁ፡ ለዝንቱ፡ ዓለም።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=5"/>ወአንትሙኒ፡ በኵሉ፡ ጕጕኣ፡ ገቢረክሙ፡ አትልውዋ፡ ለሠናይት፡ በሃይማኖትክሙ። ወበሠናይት፡ ለአእምሮ፡ ወበአእምሮ፡ ለኢዘምዎ።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=6"/>ወበኢዘምዎ፡ ለትዕግሥት፡ ወበትዕግሥት፡ ለአምልኮ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=7"/>ወበአምልኮ፡ ለተአኅዎ፡ ወበተአኅዎ፡ ለተፋቅሮ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=8"/>ወዝንቱ፡ ኵሉ፡ እምከመ፡ ሀለወ፡ ኀቤክሙ፡ ኢኮንክሙ፡ ፅሩዓነ። ወኢኮንክሙ፡ እለ፡ እንበለ፡ ፍሬ። አላ፡ ያበጽሐክሙ፡ ውስተ፡ አእምሮቱ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=9"/>ወዘሰ፡ ኢሀሎ፡ ውስተ፡ ዝንቱ፡ ምግባር። ዕዉር፡ ውእቱ፡ ዘየሐውር፡ በመርሰስ። ወረስዐ፡ አንጽሖ፡ ርእሶ፡ እምእለ፡ በልያ፡ በላዕሌሁ፡ ኀጣውኢሁ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=10"/>ወይእዜኒ፡ አኀዊነ፡ ጐጕኡ፡ ከመ፡ በጽንዐ፡ ምግባሪክሙ። ጽንዕተ፡ ትኩን፡ ጽዋዔክሙ፡ ወታወፍዩ፡ ሐሳበ፡ ሃይማኖትክሙ። ወዘንተ፡ እንዘ፡ ትገብሩ፡ ኢትስሐቱ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=11"/>ወይትወሀበክሙ፡ ርሒብ፡ ፍኖት፡ ዘይወስድ፡ ውስተ፡ ሕይወት፡ ዘለዓለም። ወመንግሥቱ፡ ለመድኀኒነ፡ ኢየሱስ፡ ክርስቶስ።</t:l>
+                  <t:l>በእንተ፡ አዘክሮተ፡ ሞት</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=12"/>ወበእንተ፡ ዝ፡ እጽሕቅ፡ ለክሙ፡ ዘልፈ፡ ወአዜክረክሙ፡ ዘንተ፡ ትእዛዘ። እንዘ፡ ጽኑዓን፡ አንትሙ፡ በዘሀለወ፡ ጽድቅ።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=13"/>ወይመስለኒሰ፡ ከመ፡ ርቱዕ፡ ሊተ። አምጣነ፡ ሀሎኩ፡ በዝንቱ፡ ሥጋየ፡ አንቅህክሙ፡ በዘክሮ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=14"/>እስመ፡ አአምር፡ ከመ፡ ፍጥንት፡ ይእቲ፡ ስሳሌ፡ ዚኣየ፡ እምኔክሙ። በከመ፡ አይድዐኒ፡ እግዚእየ፡ ኢየሱስ፡ ክርስቶስ።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=15"/>ወዓዲ፡ ጐጕኡ፡ ከመ፡ ተሀሉ፡ ኀቤክሙ፡ ዛቲ፡ ትእዛዝ፡ ዘልፈ። ወከመ፡ ትዘከርዋ፡ እምድኅረ፡ ኅልፈትየ፡ ወከማሁ፡ ትግበሩ።</t:l>
+                  <t:l>በእንተ፡ ስምዕ፡ አማናዊ</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=16"/>እስመ፡ ኢኮነ፡ መሐድምተ፡ ጥበብ፡ ዘተሎነ። ወአእመርናክሙ፡ ቦቱ፡ ኀይሎ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ወምጽአቶ፡ ወሀልዎቶ። አላ፡ ለሊነ፡ ርኢነ፡ ዕበዮ፡ ዘነሥአ፡ እምኀበ፡ እግዚአብሔር፡ አብ፡ ክብረ፡ ወስብሐተ።</t:l>
+                  <t:l n="17">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=17"/>ወቃል፡ ዘወረደ፡ ላዕሌሁ፡ ዘምሉእ፡ ስብሐተ፡ ወልዕልና፡ ይቤ። ዝንቱ፡ ውእቱ፡ ወልድየ፡ ዘአፈቅር፡ ዘአነ፡ ኀረይኩ።</t:l>
+                  <t:l n="18">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=18"/>ዘንተ፡ ቃለ፡ ንሕነ፡ ሰማዕናሁ፡ ከመ፡ እምሰማይ፡ ወረደ፡ ሎቱ። እንዘ፡ ሀሎነ፡ ምስሌሁ፡ በደብረ፡ መቅደሱ።</t:l>
+                  <t:l>በእንተ፡ ቃለ፡ ነቢያት</t:l>
+                  <t:l n="19">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=19"/>ወብነ፡ ዓዲ፡ ዘእምዝኒ፡ ይቀድም፡ ቃለ፡ ነቢያት፡ ዘያዐውቅ፡ ዘንተ። ወእምከመ፡ ጥቀ፡ ታሤንዩ፡ ገቢረ፡ ወትኔጽርዎ። ይከውን፡ ለክሙ፡ ከመ፡ ማኅቶት። እንተ፡ ታበርህ፡ ውስተ፡ መካነ፡ ጽልመት፡ እስከ፡ ታበርህ፡ ለክሙ፡ ዕለት። ወይሠርቅ፡ ለክሙ፡ ቤዝ፡ ውስተ፡ ልብክሙ፡ ዘያበርህ።</t:l>
+                  <t:l n="20">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=20"/>ወዘንተ፡ ባሕቱ፡ ቅድሙ፡ አእምሮ። ከመ፡ ኵሉ፡ ተነብዮ፡ ዘውስተ፡ መጽሐፍ፡ አልቦ፡ ላዕሌሁ፡ ፍካሬሁ።</t:l>
+                  <t:l n="21">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=1&amp;verse=21"/>ወኢይከውን፡ ተነብዮ፡ ግሙራ፡ እምፈቃደ፡ ሰብእ። ወኢ፡ እምሥምረተ፡ ዕጓለ፡ እመሕያው። አላ፡ በመንፈስ፡ ቅዱስ፡ ነበቡ፡ ቅዱሳን፡ ሰብእ፡ ተፈኒዎሙ፡ እምኀበ፡ እግዚአብሔር።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="2" xml:id="ch2">
+               <t:label>ምዕራፍ 2</t:label>
+               <t:ab>
+                  <t:l>በእንተ፡ ሐሳውያነ፡ ነቢያት</t:l>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=1"/>ወቦ፡ ባሕቱ፡ ሐሳውያን፡ ነቢያት፡ ማእከለ፡ ሕዝብ። ከመ፡ እለ፡ ሀለዉ፡ ማእከሌክሙ፡ ወውስቴትክሙ። እለ፡ ሐሰተ፡ ይሜህሩ፡ ወእለ፡ ካሕደ፡ ያበውኡ፡ ለሕርትምና። ወይክሕድዎ፡ ለእግዚኦሙ፡ ዘተሣየጦሙ። ወያመጽእዎ፡ ላዕሌሆሙ፡ ፍጡነ፡ ለሙስና፡ ወለተሠርዎ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=2"/>ወብዙኃን፡ ሰብእ፡ ይተልውዎሙ፡ ለእሉ፡ በእንተ፡ ፍትወተ፡ ዝሙቶሙ። ወይፀርፉ፡ ላዕለ፡ ፍኖተ፡ ጽድቅ።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=3"/>ወይትከሐዱ፡ በቃል፡ ዘለሊሆሙ፡ ፈጠሩ፡ ወቦቱ፡ የሐውሩ። ወደይኖሙሰ፡ እምፍጥረተ፡ ዓለም፡ ዘኢተዐርፍ። ወሕርትምናሆሙ፡ እንተ፡ ኢትዴቅስ።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=4"/>ወእግዚአብሔርሰ፡ ለመላእክቲሁ፡ ጥቀ፡ አቢሶሙ፡ ኢመሀኮሙ። አላ፡ ወደዮሙ፡ ውስተ፡ ጻዕረ፡ ደይን፡ ዘርሱን። ወመጠዎሙ፡ ይትኰነኑ፡ ወይንበሩ፡ ውስተ፡ ጻዕረ፡ ደይን።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=5"/>ወለዓለምሰ፡ ቀደምት፡ ኢመሀኮሙ። አላ፡ አትረፈ፡ ሰማኒተ፡ ነፍሰ፡ ምስለ፡ ኖኅ፡ ዘዐቀባ፡ ለጽድቅ። ከመ፡ ይኩን፡ ዜናዌ፡ በጽድቅ። ወለባዕዳንሰ፡ ሰብእ፡ ረሲዓን፡ ፈነወ፡ አይኀ፡ ላዕሌሆሙ።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=6"/>ወለአህጉረ፡ ሰዶምኒ፡ ወገሞራ፡ አውዐዮን፡ ወገፍትዖን፡ ወከመ፡ ዝ፡ ኰነኖሙ። ወአርአያ፡ ረሰዮሙ፡ ለእለ፡ በደኃሪ፡ መዋዕል፡ ለኃጥኣን።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=7"/>ወለጻድቅሰ፡ ሎጥ፡ ዘይትገፋዕ፡ እምእለ፡ ይኤብሱ፡ በምግባረ፡ ዝሙቶሙ፡ አድኀኖ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=8"/>ወእንዘ፡ ይሬኢ፡ ወይሰምዕ፡ ወኅዱር፡ ምስሌሆሙ። ወዕለተ፡ እምዕለት፡ ያጼዕርዋ፡ ለነፍሱ፡ ጻድቅት፡ በእከየ፡ ምግባሮሙ።</t:l>
+                  <t:l>በእንተ፡ ጊጉያን፡ ወጌጋዮሙ</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=9"/>ናሁኬ፡ አእመርነ፡ ከመ፡ እግዚአብሔር፡ ይክል፡ አድኅኖቶሙ፡ እምነ፡ መንሱት፡ ለጻድቃን። ወለኃጥኣንሰ፡ ዕለተ፡ ደይን፡ ትጸንሖሙ፡ ለተጽዕሮ።</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=10"/>ወፈድፋደሰ፡ ለእለ፡ ይተልውዋ፡ ድኅሬሃ፡ ለፍትወቶሙ። ወያጌምንዎ፡ ለሥጋሆሙ፡ ወያስተሐቅርዎ፡ ለፈጣሪሆሙ። ኅቡላን፡ ወዝሉፋን፡ እለ፡ ኢይደነግፁ፡ ከመ፡ ይፅርፉ፡ ላዕለ፡ ስብሐቲሁ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=11"/>ዘውእቱ፡ ኀበ፡ መላእክት፡ እለ፡ ልዑላን፡ እሙንቱ፡ እምኔሆሙ፡ በኀይል፡ ወበጽንዕ። ወኢይክሉ፡ ተዐግሦ፡ ከመ፡ ያብጽሑ፡ ላዕሌሆሙ፡ ደይነ፡ ፅርፈቶሙ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=12"/>ውእቶሙኬ፡ ከመ፡ እንስሳ፡ ዘአልቦ፡ ቃል፡ ዘይትወለድ፡ ለሙስና፡ ወለተሠርዎ። እስመ፡ ይፀርፉ፡ ላዕለ፡ ዘኢየአምሩ፡ ለሕርትምናሆሙ። ወሎሙ፡ በሙስናሆሙ፡ ዐስበ፡ ዐመፃ።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=13"/>ወአስተሐወዝዋ፡ ለተደልዎ፡ ስታየ፡ ዕለቶሙ። ወይበልዑ፡ እንዘ፡ ሕብቁቃን፡ ወርኩሳን፡ እለ፡ ኢይጸግቡ። ወይትጐሐለዉ፡ በፍቅሮሙ፡ ወይትሜክሑ፡ ለቢጾሙ፡ ከመ፡ ዘሠናይ፡ ምግባሮሙ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=14"/>ወምሉእ፡ ውስተ፡ አዕይንቲሆሙ፡ ዝሙት። ወኀጢአት፡ እንተ፡ አልባቲ፡ ዘይገሀግሃ። ወያደነግፁ፡ ነፍሰ፡ ሰብእ፡ እለ፡ ስጡሕ፡ ልቦሙ፡ ወትዕግልት፡ ምግባሮሙ። ወየኀድጉ፡ መርገመ፡ ለውሉዶሙ።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=15"/>ወስሕትዋ፡ ለፍኖተ፡ ጽድቅ። ወተለውዋ፡ ለፍኖተ፡ በለዓም፡ ወልደ፡ ባሶር፡ ዘአፍቀራ፡ ለዐስበ፡ ዐመፃ።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=16"/>ወተዛለፎ፡ ለበለዓም፡ በኀጢአቱ። ዘኢይነብብ፡ አድግ፡ በቃለ፡ ዕጓለ፡ እመሕያው፡ ተናገረ። ወከልኦ፡ ለነቢይ፡ ዕበዲሁ።</t:l>
+                  <t:l n="17">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=17"/>እሉ፡ እሙንቱ፡ ዐዘቅት፡ ንፅፍት፡ ወጊሜ፡ ዘነፋስ፡ ይዘርዎ። እለ፡ ለደይነ፡ ጽልመት፡ ዘለዓለም፡ የዐቅብዎሙ።</t:l>
+                  <t:l n="18">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=18"/>እስመ፡ ዐበይተ፡ ጌጋይ፡ ነበቡ፡ ወያደነግፁ፡ ነፍሰ፡ ሰብእ፡ በእንተ፡ ፍትወተ፡ ዝሙቶሙ፡ ዘሥጋሆሙ። ሰብእ፡ እለ፡ ኅዳጠ፡ አምሠጡ፡ ወገብኡ፡ ውስተ፡ ጌጋይ።</t:l>
+                  <t:l n="19">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=19"/>እለ፡ ሕገ፡ ግዕዛን፡ ተምህሩ፡ ወለሊሆሙኒ፡ ቅኑያን፡ ለሕርትምና። እስመ፡ ኵሉ፡ ለዘተአዘዘ፡ ውእቱ፡ ይትቀነይ።</t:l>
+                  <t:l n="20">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=20"/>እስመ፡ ጐዩ፡ እምኀጢአቱ፡ ለዝንቱ፡ ዓለም። በአእምሮቱ፡ ለእግዚእነ፡ ወመድኀኒነ፡ ኢየሱስ፡ ክርስቶስ። ወገብኡ፡ ዳግመ፡ ወተጸፍሩ፡ ወተቀነዩ፡ ሎቱ። ወይከውኖሙ፡ ደኃሪ፡ ጌጋዮሙ፡ እምነ፡ ቀዲሙ፡ ዘየአክዮሙ።</t:l>
+                  <t:l n="21">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=21"/>እምኀየሶሙ፡ ሶበ፡ ኢያእመርዋ፡ ለፍኖተ፡ ጽድቅ፡ እምያእምርዋ፡ ወይግብኡ፡ ድኅሬሆሙ። እምእንተ፡ ተውህበት፡ ሎሙ፡ ትእዛዝ፡ ቅድስት።</t:l>
+                  <t:l n="22">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=2&amp;verse=22"/>ወበጽሐቶሙ፡ አምሳል፡ እንተ፡ መሰሉ፡ በጽድቅ፡ እንተ፡ ይቤ። ከልብ፡ ገብአ፡ ዲበ፡ ቅያኡ፡ ወሐራውያኒ፡ ተኀፂባ፡ ገብአት፡ ዲበ፡ ጸብር።</t:l>
+               </t:ab>
+            </t:div>
+            <t:div type="textpart" subtype="chapter" n="3" xml:id="ch3">
+               <t:label>ምዕራፍ 3</t:label>
+               <t:ab>
+                  <t:l>አዘክሮ፡ ቃለ፡ ነቢያት፡ ወትእዛዘ፡ እግዚእነ</t:l>
+                  <t:l n="1">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=1"/>ወዛቲ፡ ይእቲ፡ አኀውየ፡ ዳግሚትየ፡ ጸሐፍኩ፡ ለክሙ፡ መጽሐፈ። ከመ፡ አንሥእክሙ፡ በዘክሮ፡ ወትዕቀብዋ፡ በልብክሙ፡ ለጽድቅ።</t:l>
+                  <t:l n="2">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=2"/>ወከመ፡ ትዘከሩ፡ ቃለ፡ ነቢያት፡ ቀደምት፡ ቅዱሳን፡ ዘይቤሉ። ወትእዛዘ፡ እግዚእነ፡ ወመድኀኒነ፡ ኢየሱስ፡ ክርስቶስ፡ ዘአዘዘ፡ ለነ፡ ለሐዋርያት።</t:l>
+                  <t:l n="3">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=3"/>ወዘንተኒ፡ ቅድሙ፡ አእምሮ። ከመ፡ ሀለዎሙ፡ ይምጽኡ፡ በደኃሪ፡ መዋዕል፡ መስተአብዳን፡ ለአስተዐብዶ። እለ፡ የሐውሩ፡ በፍትወተ፡ ልቦሙ፡ ወይብሉ። አይቴ፡ ውእቱ፡ ቃሉ፡ ዘይቤ፡ ከመ፡ ሀለዎ፡ ይምጻእ።</t:l>
+                  <t:l n="4">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=4"/>ናሁ፡ እመሰ፡ አበዊነ፡ ቀደምት፡ ሞቱ። እስመ፡ ኵሉ፡ ግብር፡ ሀለወ፡ በከመ፡ ሀሎ፡ እምፍጥረተ፡ ዓለም።</t:l>
+                  <t:l n="5">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=5"/>ወኢያእመርዎ፡ ለዝንቱ፡ ከመ፡ ሰማያትኒ፡ ተፈጥራ፡ እምትካት። ወምድርኒ፡ እምነ፡ ማይ፡ ወበማይ፡ ጸንዐት፡ በቃለ፡ እግዚአብሔር።</t:l>
+                  <t:l n="6">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=6"/>ወዓለመ፡ ትካትኒ፡ ቦቱ፡ አጥፍአ፡ በማየ፡ አይኅ።</t:l>
+                  <t:l n="7">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=7"/>ወይእዜኒ፡ ሰማይ፡ ወምድር፡ በውእቱ፡ ቃል፡ ዝጉባን፡ ወዕቁባን፡ እሙንቱ። እስከ፡ ዕለተ፡ ደይን፡ ወድምሳሴ፡ ኃጥኣን፡ ሰብእ።</t:l>
+                  <t:l n="8">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=8"/>ወዘንተ፡ ባሕቱ፡ ኢትርስዑ፡ አኀዊነ። እስመ፡ አሐቲ፡ ዕለት፡ በኀበ፡ እግዚአብሔር፡ ከመ፡ ዐሠርቱ፡ ምእት፡ ዓመት። ወዐሠርቱ፡ ምእት፡ ዓመት፡ ከመ፡ አሐቲ፡ ዕለት።</t:l>
+                  <t:l n="9">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=9"/>ኢያጐነዲ፡ እግዚአብሔር፡ ቃለ፡ ዘነበበ። እስመ፡ ቦ፡ እለ፡ ይብሉ፡ ከመ፡ ይጐነዲ፡ ወባሕቱ፡ ይትዔገሥ፡ በእንቲኣሆሙ። እስመ፡ ኢይፈቅድ፡ መነሂ፡ ያማስን፡ አላ፡ ይነስሑ፡ ለኵሉ፡ ሰብእ፡ ያርሕብ።</t:l>
+                  <t:l>በእንተ፡ ዕለተ፡ እግዚአብሔር</t:l>
+                  <t:l n="10">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=10"/>ወዕለቱሰ፡ ለእግዚአብሔር፡ ግብተ፡ ትመጽእ። ከመ፡ ሰራቂ፡ እንተ፡ ባቲ፡ ሰማያትኒ፡ ይትረኀዋ፡ ወይሴስላ። ወኵሉ፡ ፍጥረት፡ ዘቀዲሙ፡ በውዕየተ፡ እሳት፡ ይትመሰው። ወምድርኒ፡ ወኵሉ፡ ዘላዕሌሃ፡ ግብር፡ ይውዒ።</t:l>
+                  <t:l n="11">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=11"/>ወዝንቱ፡ ኵሉ፡ ተመሲዎ፡ ጐጕኡ። ከመ፡ ተሀልዉ፡ በምግባር፡ ቅዱስ፡ ዘጽድቅ።</t:l>
+                  <t:l n="12">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=12"/>እንዘ፡ ትሴፈዉ፡ ዕለተ፡ ምጽአቱ፡ ለእግዚአብሔር። እንተ፡ ባቲ፡ ሰማያትኒ፡ ይረስና፡ ወይትመሰዋ። ወኵሉ፡ ፍጥረት፡ ይውዒ፡ ወይትመሰው።</t:l>
+                  <t:l n="13">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=13"/>ሐዳሳተ፡ ሰማያተ፡ ወሐዳሰ፡ ምድረ፡ ንሴፎ፡ ዘውስቴቶን፡ የኀድር፡ ጽድቅ።</t:l>
+                  <t:l n="14">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=14"/>ወይእዜኒ፡ አኀውየ፡ ዘንተ፡ እንዘ፡ ትሴፈዉ። ጐጕኡ፡ ይርከብክሙ፡ ዘእንበለ፡ ርስሐት፡ ወዘእንበለ፡ ጌጋይ፡ እንዘ፡ ትሰነአዉ።</t:l>
+                  <t:l n="15">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=15"/>ወትዕግሥቱሰ፡ ለእግዚእነ፡ የሀብክሙ፡ መድኀኒተ። በከመ፡ እኁነ፡ ጳውሎስ፡ ዘናፈቅር፡ ጸሐፈ፡ ለክሙ። በእንተ፡ ዘወሀቦ፡ እግዚአብሔር፡ ጥበበ።</t:l>
+                  <t:l n="16">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=16"/>ዘከመ፡ ሀሎ፡ ውስተ፡ ኵሉ፡ መጻሕፍቲሁ፡ ዘነበበ፡ ውስቴቶን፡ በእንቲኣሁ፡ ለዝንቱ። ወዘሰ፡ ነበቡ፡ እሙራን፡ ሰብእ፡ እለ፡ ይሌብውዎ። ወእለሰ፡ አልቦሙ፡ ትምህርት፡ እለ፡ ኢለበዉ፡ ይመይጥዎ፡ ለቃለ፡ መጽሐፍ። ከመ፡ ሜጥዎን፡ ለብዙኃት፡ መጻሕፍት፡ ለግዕዞሙ፡ ወያማስኑ።</t:l>
+                  <t:l>በእንተ፡ ተዐቅቦ፡ እምስሒት</t:l>
+                  <t:l n="17">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=17"/>ወአንትሙሰ፡ አኀዊነ፡ አቅድሙ፡ አእምሮ። ወተዐቀቡ፡ ከመ፡ ኢትስሐቱ፡ በዘኢይበቊዕ፡ ትምህርት። ከመ፡ ኢትደቁ፡ እምነ፡ ምጽናዕክሙ።</t:l>
+                  <t:l n="18">
+                     <t:ref target="http://classic.net.bible.org/verse.php?book=2Pe&amp;chapter=3&amp;verse=18"/>ተባዝኁ፡ በእግዚእነ፡ ወበአኰቴቱ፡ ለኢየሱስ፡ ክርስቶስ፡ መድኀኒነ፡ ወእግዚአብሔር፡ አብ። ዘሎቱ፡ ስብሐት፡ ይእዜኒ፡ ወዘልፈኒ፡ ወለዓለመ፡ ዓለም፡ አሜን።</t:l>
+               </t:ab>
+            </t:div>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

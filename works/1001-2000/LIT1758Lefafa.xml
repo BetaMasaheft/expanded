@@ -14,15 +14,15 @@
             <title xml:lang="gez" corresp="#t3" type="normalized">Ṣalota madḫānit</title>
             <title xml:lang="en" corresp="#t3">Prayer of Salvation/Redemption</title>
 
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <editor key="RHC" corresp="https://betamasaheft.eu/team.html#RHC" xml:id="RHC">Ran HaCohen</editor>
             <respStmt>
                <resp>Digitization and encoded by</resp>
                <persName>Michal Jerabek</persName>
-               <persName ref="#RHC">No item: RHC</persName>
+               <persName ref="#RHC"><seg corresp="RHC">No item: RHC</seg></persName>
             </respStmt>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-RHC" corresp="https://betamasaheft.eu/team.html#RHC"><resp>editor</resp><name>Ran HaCohen</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#RHC" xml:id="ed-RHC"><resp>editor</resp><name>Ran HaCohen</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -37,7 +37,7 @@
                      all copies of this text. This text cannot be sold under any circumstances.</p>
                </licence>
             </availability>
-         <date type="expanded">6.6.2025 at 13:18:31</date><date type="lastModified">28.1.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1758Lefafa/main</idno><idno type="URI">https://betamasaheft.eu/LIT1758Lefafa</idno><idno type="filename">LIT1758Lefafa.xml</idno><idno type="ID">LIT1758Lefafa</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:15:44</date><date type="lastModified">28.1.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1758Lefafa/main</idno><idno type="URI">https://betamasaheft.eu/LIT1758Lefafa</idno><idno type="filename">LIT1758Lefafa.xml</idno><idno type="ID">LIT1758Lefafa</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -47,344 +47,344 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="book" match="div" use="div"><desc><list><item>FirstPart</item><item>MangadaSamay</item></list></desc><citeStructure unit="chapter" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item></list></desc></citeStructure></citeStructure><citeStructure unit="incipit" match="div" use="div"><desc><list><item>Incipit</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
-         <textClass>
-            <keywords>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="Magic" ana="#Magic"/>
-            </keywords>
-         </textClass>
-         <abstract>
-            <p>A collection of magic prayers, usually copied on a scroll which is buried with the
-               deceased. General record.</p>
-         </abstract>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="book" use="@subtype"><citeStructure match="t:div" unit="chapter" use="@n"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item></list></desc></citeStructure><desc><list><item>FirstPart</item><item>MangadaSamay</item></list></desc></citeStructure><citeStructure match="t:div" unit="incipit" use="@subtype"><desc><list><item>Incipit</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Magic" ana="#Magic"/>
+            </t:keywords>
+         </t:textClass>
+         <t:abstract>
+            <t:p>A collection of magic prayers, usually copied on a scroll which is buried with the
+               deceased. General record.</t:p>
+         </t:abstract>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google spreadsheet </change>
-         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
-         <change who="#DR" when="2016-12-07"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Bibliography added</change>
-         <change who="#ES" when="2017-03-06"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->titles added keywords added</change>
-         <change who="#DR" when="2017-06-19"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Title corrected</change>
-         <change who="#RHC" when="2017-07-18"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Sent word file with unicode encoded text.</change>
-         <change who="#PL" when="2017-07-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Marked up minimally the text provided.</change>
-         <change who="#ES" when="2025-01-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->corrected sections to pb in accordance with https://raw.githubusercontent.com/geezorg/ebooks/refs/heads/master/geez/religious/LET/simplified/BandelotOfRighteousness/BandelotOfRighteousness.html</change>
-      </revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google spreadsheet </change>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change when="2016-12-07" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Bibliography added</change>
+         <change when="2017-03-06" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->titles added keywords added</change>
+         <change when="2017-06-19" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Title corrected</change>
+         <change when="2017-07-18" who="#RHC"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Sent word file with unicode encoded text.</change>
+         <change when="2017-07-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Marked up minimally the text provided.</change>
+         <change when="2025-01-28" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->corrected sections to pb in accordance with https://raw.githubusercontent.com/geezorg/ebooks/refs/heads/master/geez/religious/LET/simplified/BandelotOfRighteousness/BandelotOfRighteousness.html</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_http://erlangen-crm.org/current/may_http://erlangen-crm.org/current/form_http://erlangen-crm.org/current/part_http://erlangen-crm.org/current/of" active="https://betamasaheft.eu/LIT1758Lefafa" passive="https://betamasaheft.eu/LIT1931Mashaf">
-                  <desc>The <foreign xml:lang="gez">Lǝfāfa ṣǝdǝq</foreign> can circulate both as an
-                     independent work and as a part of the <foreign xml:lang="gez">Maṣḥafa
-                        gǝnzat</foreign>
-                  </desc>
+                  <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">The <t:foreign xml:lang="gez">Lǝfāfa ṣǝdǝq</t:foreign> can circulate both as an
+                     independent work and as a part of the <t:foreign xml:lang="gez">Maṣḥafa
+                        gǝnzat</t:foreign>
+                  </t:desc>
                </relation>
                <relation name="saws:contains" ref="http://purl.org/saws/ontology#contains" active="https://betamasaheft.eu/LIT1758Lefafa" passive="https://betamasaheft.eu/LIT1873Mangad"/>
-            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="bibliography">
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
 
-            <listBibl type="editions">
-               <bibl corresp="http://zotero.org/groups/358366/items/2UYPRMGY"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Euringer1940Rechtfertigung"/><title level="a">Die Binde der Rechtfertigung (Lefâfa ṣedeḳ)</title><title level="j">Orientalia</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Sebastian</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Euringer</t:surname></author><date>1940</date><biblScope unit="volume">Nova series, 9</biblScope><biblScope unit="page">76–99, 244–259</biblScope><note type="url">http://www.jstor.org/stable/43582682?seq=1#page_scan_tab_contents</note><citedRange unit="page">91-99</citedRange></bibl>
-               <bibl xml:id="budge" corresp="http://zotero.org/groups/358366/items/NS8WNSR6"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Budge1929"/><title level="m">The Bandlet of Righteousness, an Ethiopian Book of the Dead: The Ethiopic Text of the ልፋፈ፡ ጽድቅ፡ in Facsimile from Two Manuscripts in the British Museum</title><title level="s">Luzac’s Semitic Text &amp; Translation Series</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ernest Alfred Wallis</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Budge</t:surname></author><pubPlace>London</pubPlace><publisher>Luzac &amp; Company</publisher><date>1929</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Luzac’s Semitic Text &amp; Translation Series</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">19</t:biblScope></series><biblScope unit="volume">19</biblScope></bibl>
-            </listBibl>
+            <t:listBibl type="editions">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/2UYPRMGY"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Euringer1940Rechtfertigung"/><title level="a">Die Binde der Rechtfertigung (Lefâfa ṣedeḳ)</title><title level="j">Orientalia</title><author><forename>Sebastian</forename><surname>Euringer</surname></author><date>1940</date><biblScope unit="volume">Nova series, 9</biblScope><biblScope unit="page">76–99, 244–259</biblScope><note type="url">http://www.jstor.org/stable/43582682?seq=1#page_scan_tab_contents</note><note type="tags"><note type="tag">bm:Euringer1940Rechtfertigung</note></note><note type="tag">bm:Euringer1940Rechtfertigung</note><t:citedRange unit="page">91-99</t:citedRange></t:bibl>
+               <t:bibl xml:id="budge" corresp="http://zotero.org/groups/358366/items/NS8WNSR6"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Budge1929"/><title level="m">The Bandlet of Righteousness, an Ethiopian Book of the Dead: The Ethiopic Text of the ልፋፈ፡ ጽድቅ፡ in Facsimile from Two Manuscripts in the British Museum</title><title level="s">Luzac’s Semitic Text &amp; Translation Series</title><author><forename>Ernest Alfred Wallis</forename><surname>Budge</surname></author><pubPlace>London</pubPlace><publisher>Luzac &amp; Company</publisher><date>1929</date><series><title level="s">Luzac’s Semitic Text &amp; Translation Series</title><biblScope unit="volume">19</biblScope></series><biblScope unit="volume">19</biblScope><note type="tags"><note type="tag">Literary Criticism / African</note><note type="tag">bm:Budge1929</note></note><note type="tag">Literary Criticism / African</note><note type="tag">bm:Budge1929</note></t:bibl>
+            </t:listBibl>
 
-            <listBibl type="translation">
-               <bibl corresp="http://zotero.org/groups/358366/items/2UYPRMGY"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Euringer1940Rechtfertigung"/><title level="a">Die Binde der Rechtfertigung (Lefâfa ṣedeḳ)</title><title level="j">Orientalia</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Sebastian</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Euringer</t:surname></author><date>1940</date><biblScope unit="volume">Nova series, 9</biblScope><biblScope unit="page">76–99, 244–259</biblScope><note type="url">http://www.jstor.org/stable/43582682?seq=1#page_scan_tab_contents</note><citedRange unit="page">244-259</citedRange></bibl>
-            </listBibl>
+            <t:listBibl type="translation">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/2UYPRMGY"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Euringer1940Rechtfertigung"/><title level="a">Die Binde der Rechtfertigung (Lefâfa ṣedeḳ)</title><title level="j">Orientalia</title><author><forename>Sebastian</forename><surname>Euringer</surname></author><date>1940</date><biblScope unit="volume">Nova series, 9</biblScope><biblScope unit="page">76–99, 244–259</biblScope><note type="url">http://www.jstor.org/stable/43582682?seq=1#page_scan_tab_contents</note><note type="tags"><note type="tag">bm:Euringer1940Rechtfertigung</note></note><note type="tag">bm:Euringer1940Rechtfertigung</note><t:citedRange unit="page">244-259</t:citedRange></t:bibl>
+            </t:listBibl>
 
-            <listBibl type="secondary">
-               <bibl corresp="http://zotero.org/groups/358366/items/4IA4ED7J"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Burtea2007EAELefafa"/><title level="a">Lǝfafä ṣǝdǝq</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Bogdan</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Burtea</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Siegbert</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Uhlig</t:surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">542a-543a</biblScope></bibl>
-            </listBibl>
+            <t:listBibl type="secondary">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/4IA4ED7J"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Burtea2007EAELefafa"/><title level="a">Lǝfafä ṣǝdǝq</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Bogdan</forename><surname>Burtea</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">542a-543a</biblScope><note type="tags"><note type="tag">bm:Burtea2007EAELefafa</note></note><note type="tag">bm:Burtea2007EAELefafa</note></t:bibl>
+            </t:listBibl>
 
             
-         </div>
+         </t:div>
 
-         <div type="edition"><note>this division follows that used in <bibl corresp="http://zotero.org/groups/358366/items/2UYPRMGY"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Euringer1940Rechtfertigung"/><title level="a">Die Binde der Rechtfertigung (Lefâfa ṣedeḳ)</title><title level="j">Orientalia</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Sebastian</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Euringer</t:surname></author><date>1940</date><biblScope unit="volume">Nova series, 9</biblScope><biblScope unit="page">76–99, 244–259</biblScope><note type="url">http://www.jstor.org/stable/43582682?seq=1#page_scan_tab_contents</note></bibl></note>
-            <div type="textpart" subtype="incipit" xml:id="Incipit">
-               <label>Preface</label>
+         <t:div type="edition" xml:id="div2LIT1758Lefafa"><t:note>this division follows that used in <t:bibl corresp="http://zotero.org/groups/358366/items/2UYPRMGY"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Euringer1940Rechtfertigung"/><title level="a">Die Binde der Rechtfertigung (Lefâfa ṣedeḳ)</title><title level="j">Orientalia</title><author><forename>Sebastian</forename><surname>Euringer</surname></author><date>1940</date><biblScope unit="volume">Nova series, 9</biblScope><biblScope unit="page">76–99, 244–259</biblScope><note type="url">http://www.jstor.org/stable/43582682?seq=1#page_scan_tab_contents</note><note type="tags"><note type="tag">bm:Euringer1940Rechtfertigung</note></note><note type="tag">bm:Euringer1940Rechtfertigung</note></t:bibl></t:note>
+            <t:div type="textpart" subtype="incipit" xml:id="Incipit">
+               <t:label>Preface</t:label>
                
-            </div>
-            <div type="textpart" subtype="book" xml:id="FirstPart" xml:lang="gez">
-               <label>First part: revelation of the powerful names of Jesus</label>
+            </t:div>
+            <t:div type="textpart" subtype="book" xml:id="FirstPart" xml:lang="gez">
+               <t:label>First part: revelation of the powerful names of Jesus</t:label>
 
-               <div type="textpart" subtype="chapter" n="1" xml:id="FirstChapter" xml:lang="gez">
-                  <label>First Chapter</label>
+               <t:div type="textpart" subtype="chapter" n="1" xml:id="FirstChapter" xml:lang="gez">
+                  <t:label>First Chapter</t:label>
                   
-               </div>
-               <div type="textpart" subtype="chapter" n="2" xml:id="SecondChapter" xml:lang="gez">
-                  <label>Second Chapter</label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" n="2" xml:id="SecondChapter" xml:lang="gez">
+                  <t:label>Second Chapter</t:label>
                   
-               </div>
-               <div type="textpart" subtype="chapter" n="3" xml:id="ThirdChapter" xml:lang="gez">
-                  <label>Third Chapter</label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" n="3" xml:id="ThirdChapter" xml:lang="gez">
+                  <t:label>Third Chapter</t:label>
                   
-               </div>
-               <div type="textpart" subtype="chapter" n="4" xml:id="FourthChapter" xml:lang="gez">
-                  <label>Fourth Chapter</label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" n="4" xml:id="FourthChapter" xml:lang="gez">
+                  <t:label>Fourth Chapter</t:label>
                   
-               </div>
-               <div type="textpart" subtype="chapter" n="5" xml:id="FifthChapter" xml:lang="gez">
-                  <label>Fifth Chapter</label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" n="5" xml:id="FifthChapter" xml:lang="gez">
+                  <t:label>Fifth Chapter</t:label>
                   
-               </div>
-               <div type="textpart" subtype="chapter" n="6" xml:id="SixthChapter" xml:lang="gez">
-                  <label>Sixth Chapter</label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" n="6" xml:id="SixthChapter" xml:lang="gez">
+                  <t:label>Sixth Chapter</t:label>
                   
-               </div>
-            </div>
+               </t:div>
+            </t:div>
 
-            <div type="textpart" subtype="book" xml:id="MangadaSamay" xml:lang="gez" corresp="https://betamasaheft.eu/LIT1873Mangad">
-               <label>Second part: Prayers for the heavenly journey</label>
+            <t:div type="textpart" subtype="book" xml:id="MangadaSamay" xml:lang="gez" corresp="https://betamasaheft.eu/LIT1873Mangad">
+               <t:label>Second part: Prayers for the heavenly journey</t:label>
 
-               <div type="textpart" subtype="chapter" n="1" xml:id="FirstPrayer" xml:lang="gez">
-                  <label>First Prayer</label>
+               <t:div type="textpart" subtype="chapter" n="1" xml:id="FirstPrayer" xml:lang="gez">
+                  <t:label>First Prayer</t:label>
                   
-               </div>
-               <div type="textpart" subtype="chapter" n="2" xml:id="SecondPrayer" xml:lang="gez">
-                  <label>Second Prayer</label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" n="2" xml:id="SecondPrayer" xml:lang="gez">
+                  <t:label>Second Prayer</t:label>
                   
-               </div>
-               <div type="textpart" subtype="chapter" n="3" xml:id="ThirdPrayer" xml:lang="gez">
-                  <label>Third Prayer</label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" n="3" xml:id="ThirdPrayer" xml:lang="gez">
+                  <t:label>Third Prayer</t:label>
                   
-               </div>
-               <div type="textpart" subtype="chapter" n="4" xml:id="FourthPrayer" xml:lang="gez">
-                  <label>Fourth Prayer</label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" n="4" xml:id="FourthPrayer" xml:lang="gez">
+                  <t:label>Fourth Prayer</t:label>
                   
-               </div>
-               <div type="textpart" subtype="chapter" n="5" xml:id="FifthPrayer" xml:lang="gez">
-                  <label>Fifth Prayer</label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" n="5" xml:id="FifthPrayer" xml:lang="gez">
+                  <t:label>Fifth Prayer</t:label>
                   
-               </div>
-               <div type="textpart" subtype="chapter" n="6" xml:id="SixthPrayer" xml:lang="gez">
-                  <label>Sixth Prayer</label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" n="6" xml:id="SixthPrayer" xml:lang="gez">
+                  <t:label>Sixth Prayer</t:label>
                   
-               </div>
-               <div type="textpart" subtype="chapter" n="7" xml:id="SeventhPrayer" xml:lang="gez">
-                  <label>Seventh Prayer</label>
+               </t:div>
+               <t:div type="textpart" subtype="chapter" n="7" xml:id="SeventhPrayer" xml:lang="gez">
+                  <t:label>Seventh Prayer</t:label>
                   
-               </div>
-            </div>
+               </t:div>
+            </t:div>
 
-         </div>
-         <div type="edition" xml:id="editionBudge" corresp="https://betamasaheft.eu/LIT1758Lefafa#budge">
-            <ab>
-            <pb n="2r"/>
+         </t:div>
+         <t:div type="edition" xml:id="editionBudge" corresp="https://betamasaheft.eu/LIT1758Lefafa#budge">
+            <t:ab>
+            <t:pb n="2r"/>
                 በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ፩፡ አምላክ፨ ጸሎት፡ በእመድኃኒት፡ መጽሐፈ፡ ሕይወት፡ ዘትሰመይ፡
                   ልፋፈ፡ ጽድቅ፡ ዘጸሐፈ፡ አብ፡ በእደዊሁ፡ እምቅድመ፡ ይትወለድ፡ ክርስቶስ፡ እምቅድስት፡ ድንግል፡ ማርያም፡ እንተ፡ ታበውዐ፡ ውስተ፡ ጽባበ፡ አንቀጽ፡ ወታበጽሕ፡ ውስተ፡ መንግሥተ፡ ሰማያት፡ መርሐ፡ ለጽድቅ፨ ወዘንተ፡ ነገራ፡
                   ክርስቶስ፡ ለማርያም፡ እሙ፡ እምድኅረ፡ ተወልደ፡ እ
             
-            <pb n="2v"/>
+            <t:pb n="2v"/>
                ምኔሃ፨ አመ፡ ፲ወ፯፡ ለየካቲት፡ አስተርአያ፡ ክርስቶስ፡ ለማርያም፡ ኀበ፡ ይነብሩ፡ ጻድቃን፡ ውስተ፡ ገነት፡
                   ወኀበ፡ ይነብሩ፡ ኃጥአን፡ ውስተ፡ ደይን፨ ወትቤ፡ እግዝእትነ፡ ማርያም፡ ወሶበ፡ ትሬኢ፡ ደንገፀት፡ ወርዕደት፡
                   ወፈርሃት፡ ዓቢየ፡ ፍርሃተ፡ ወይቤላ፡ ኢየሱስ፡ ልማርያም፡ ኢትፍርሂ፡ ኦማርያም፡ እምየ፡ እንተ፡ ፆርክኒ፡
                   በከርሥኪ፡ ወወለድክኒ፡ በመንፈስ፡ ቅዱስ፨ ወትቤሎ፡ በእንተ፡ ምንት፡ ፆርኩከ፡ ንግረኒ፡ ኦወልድየ፡ በምንት፡
                   ይድኅኑ፡ አዝማድየ፡ እምዝንቱ፡ እሳት፡ በላዒ፨ አንሰ፡ እፈርህ፡ በእንተ፡ ነፍስየ፨ ወበእንተ፡ 
             
-            <pb n="3r"/>
+            <t:pb n="3r"/>
                ኢያቂም፡ አቡየ፡ ወበእንተ፡ ሐና፡ እምየ፨ ወበእንተ፡ ሳሙዔል፡ ወዮሴፍ፡ አኃውየ፨ ወበእንተ፡ ኢልሳቤጥ፡ እኅትየ፨ ወበእንተ፡ ዳዊት፡ ጉንደ፡ ሙላድየ፨ ወይእዜኒ፡ ንግረኒ፡ ወልድየ፡ ጥዩቀ፡ በዘይድኅኑ፡ እምዝንቱ፡ እሳት፡
                   በላዒ፨ ወይቤላ፡ ኢየሱስ፡ ለማርያም፡ ኢይነግረኪ፡ እስመ፡ ዘተናገሩ፡ ፪፡ ይወጽእ፡ ኀበ፡ ሣልሳይ፨ ወእምድኅሬሁሰ፡ ይዘራዕ፡ ውስተ፡ ኵሉ፡ ሰብእ፡ ወይገብሩ፡ ኃጢአት፡ እንዘ፡ ይብሉ፡ ሀለወነ፡ በዘንድኅን፡ ቦቱ፨ ወካዕበ፡
                   ተስእለቶ፡ ወትቤሎ፡ ማርያም፡ በእንተ፡ ፆርኩከ፡ በከርሥየ፡ ፱፡ አውራኅ፡ ወ፭ዕለ
             
-            <pb n="3v"/>
+            <t:pb n="3v"/>
                ተ፨ ወበከየት፡ እግዝእትነ፡ ማርያም፡ አንብዓ፡ መሪረ፡ ወክርስቶስኒ፡ በከየ፡ ምስሌሃ፨ ወይቤላ፡ ኢትብክዪ፡
                   ማርያም፡ እምየ፡ ናሁ፡ እነግሮ፡ ለአቡየ፨ ወለእመሰ፡ አብሀኒ፡ እነግረኪ፡ ወሖረ፡ ኀበ፡ አቡሁ፡ ወይቤሉ፡ ናሁ፡ ማርያም፡ እምየ፡ ትበኪ፡ ሀበኒ፡ መጽሐፈ፡ ሕይወት፡ እንተ፡ ጸሐፍከ፡ በእዴከ፡ ቅድስተ፡ እምቅድመ፡ እትወለድ፡ አነ፡ እማርያም፡ ድንግል፡ ትነብር፡ ዲበ፡ ሠረገላ፡ ኪሩበል፡ መንበርከ፡ ወይቤሎ፡ አቡሁ፡ ለወልዱ፨ ናሁ፡
                   ወሀብኩከ፡ ሑር፡ ንግራ፡ ለማርያም፡ እምከ፡ አልቦ፡ ዘኀባእኩ፡ እምኔሃ፨ መፍትው፡ ለከ፡ አላ፡ ከሠት 
-            <pb n="4r"/>
+            <t:pb n="4r"/>
             
                ኩ፡ ለከ፡ ኵሎ፨ ወጸሐፈ፡ ኢየሱስ፡ ክርስቶስ፡ በቀለመ፡ ወርቅ፡ ወመጽአ፡ ደመና፡ ብሩህ፡ ወጸለሎሙ፡ ወገብሩ፡ ፯መንጦላዕት፡ ዘእሳት፡ ወአልቦ፡ ዘአእመሩ፡ ወኢሰምዑ፡ ኢመላእክት፡ ወኢሊቃነ፡ መላእክት፡ እስከ፡ ይነግራ፡
                   ዘንተ፡ ነገረ፡ ለማርያም፡ ወይቤላ፡ ንሥኢ፡ ዘንተ፡ ዘወሀብኩኪ፨ ወአንቲኒ፡ ኢትክሥቲ፡ ለዘኢይክል፡ ፀዊሮታ፡
                   ወዓቂቦታ፡ ለዛቲ፡ መጽሐፍ፡ እንዳኢ፡ ለጠቢባን፡ እለ፡ የአምኑ፡ ብየ፡ ወእለ፡ የሐውሩ፡ በትእዛዝየ፨ ወዘአጥረያ፡ ለዛቲ፡ መጽሐፍ፡ ኢይወርድ፡ ውስተ፡ ደይን፡ ወኢውስተ፡ ሲኦል፨ እመሂ፡ ዘፆራ፡ ወዘዓነቃ፡ በክሣዱ፡ 
-            <pb n="4v"/>
+            <t:pb n="4v"/>
             
                 ይትኃደግ፡ ሎቱ፡ ኃጢአቱ፨ ወለእመ፡ ደገመ፡ በቃሉ፡ በጊዜ፡ ቊርባን፡ ይትኃደግ፡ ወይነጽሕ፡ እምርስሐተ፡
                   ኃጢአት፨ ወለእመ፡ ገብሩ፡ ኀበ፡ መግነዙ፡ ማዕተበ፡ ሰሎሞን፡ ፫፡ በዛቲ፡ መጽሐፍ፡ ለእመ፡ ተቀብረ፡ ይመርሕዎ፡ መላእክት፡ ውስተ፡ አንቀጸ፡ ሕይወት፨ ወያበጽሕዎ፡ ቅድመ፡ እግዚአብሔር፡ ወያበውዕዎ፡ ውስተ፡ መንግሥተ፡ ሰማያት፡ አብዓኒ፡ ሊተ፡ ለገብርከ፡ እስጠፋኖስ፡ ውስተ፡ ብርሃነ፡ ሕይወት፡ ወመድኃኒት፡ ዘለዓለም፨ ወዘንተ፡ ፈጺሞ፡
                   ኢየሱስ፡ ነገራ፡ አስማቲሁ፡ ዘድልው፡ ለሕይወት፡ ወለመድኃኒት፨ 
-            <pb n="5r"/>
+            <t:pb n="5r"/>
             
                 ወካዕበ፡ ይብሉ፡ ሰብእ፡ ይጸርሑ፡ ወይብሉ፡ በብርሃናዔል፡ ስምከ፡ ተማኅፀንኩ፤ በአፍርዮን፤ በአፍናታ፤ በለሐን፤ በኡራዔል፤ በአፈር፤ በመስድዮስ፤ በላሂ፤ በአፍኪር፤ በያው፤ በኪዳ፤ በኂጣ፤ በማርዮን፤ በአፍራታው፤ በአኦ፤
                   በአማኑኤል፤ በአድናኤል፤ በአቅባዲር፤ በድማሂል፡ ስምከ፡ ተማኅፀንኩ፡ ከመ፡ ትምሐረኒ፡ ወትሣሃለኒ፡ ለገብርከ፤
                   እስጤፋኖስ፡ በኪሮስ፤ ወበበጥሮኮስ፤ በጸቢን፤ በታቲን፤ በጵቲን፤ በድርፉቃዊኤል፤ በክምርልዮስ፤ በትንብራንም፤
                   በክራድዮን፤ በአውርጋኤል፤ በአኮጥያ፤ በከርድኤል፤ በያኬር፤ በአፍካኤል፤ 
-            <pb n="5v"/>
+            <t:pb n="5v"/>
             
                 በሰቅልቅልያኖስ፡ በተርኪዮስ፤ በኵባኤል፤ በአርናኤል፤ በድባኤል፤ በአልዮስ፤ በኢሮስ፤ በሐኖ፤ በአልፋ፤ በኢያኤያ፤ በሂዳ፤ በዮዳ፤ በኡዳ፤ በኦዳ፤ በዳልዳ፤ በሐሪ፤ በዱኒ፤ ለወላዲ፤ በኮባ፤ በአልፋ፤ በኒዮዲሐሪ፤ በድልዳ፤
                   በአኡሀዲድልያዲ፤ በንድልኪን፤ በህህዱዲ፤ በአውያን፤ በትሬን፤ በማታስ፤ በአኃዝዮስ፤ በአትዮስ፤ በማስያስ፤ በባኢል፤
                   በአሁሃኤል፤ በአውሎድል፤ በዳን፤ በአልናቲን፤ ከመ፡ ትምሐረኒ፡ ወትሣሃለኒ፡ ለገብርከ፡ እስጤፋኖስ፡ ወይቤላ፡
                   ኢየሱስ፡ ክርስቶስ፡ ለማርያም፡ ፍጹም፡ ምሕረቱ፡ ለአቡየ፡ ሰማያዊ፨ ወለእመኒ፡ ተአመኑ፡ 
-            <pb n="6r"/>
+            <t:pb n="6r"/>
             
                 በዝንቱ፡ ስምየ፡ ይኵኖሙ፡ ለሕይወት፡ ወለመድኃኒት፡ ወሊተኒ፡ ይኩነኒ፡ ከማሁ፡ ለገብርከ፤ ወልደ፡ ሚካኤል፡
                   ለዓለመ፡ ዓለም፨ በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ፩፡ አምላክ፨ ወጸሐፈ፡ ኢየሱስ፡ በእደዊሁ፡ ቅዱሳት፡ በሲሮኖ፤ በጵናክ፡ በዊፓሮስ፤ በፈረስስ፤ በኖሮስ፤ በመስአመር፤ በያውሲፍ፤ በርፍስዮስ፤ በአልሂዮስ፤ በመግዕዮስ፤
                   በኢልኖስ፤ በፈጵልና፤ በኢፍሎና፤ በይርአዮስ፤ በዲድሞስ፤ በረጵዮና፤ በቈቊናፌ፤ በዮሲፍ፤ በመድፍን፤ በአልፎ፤
                   በመቅድዮስ፤ በአፍሬ፤ በአሊፍ፤ በቤት፤ በጋሜል፤ በዳሌጥ፤ 
-            <pb n="6v"/>
+            <t:pb n="6v"/>
             
                 በሄ፤ በዋው፤ በዛይ፤ በሔት፤ በጤት፤ በዮድ፤ በካፍ፤ በላሜድ፤ በሚም፤ በኖን፤ በሳምኪት፤ በዔ፤ በፌ፤
                   በጻዴ፤ በቆፍ፤ በራስ፤ በሳን፤ በታው፤ ለትቅረብ፡ ስእለትየ፡ ኀቤከ፡ እግዚኦ፨ በኃይለ፡ ዝንቱ፡ አስማቲከ፡
                   ኢታርእየኒ፡ ጢሶ፡ ለደይን፡ ለገብርከ፡ እስጤፋኖስ፡ አስማቲከ፡ እግዚአብሔር፡ ዓቢይ፡ ዝውእቱ፡ ዘለዓለም፨ እግዚእነ፡ ዘነግሮ፡ ለጴጥሮስ፡ ሰማያዊ፡ እፎአ፤ በፍኪይር፤ በላሁ፤ በምስድያስ፤ በአፍን፤ በአፍላ፤ በአሊና፤ በአፍላቂን፤
                   በላህላሁ፤ በላእናሐነጡ፤ በንሕልፍ፤ በአርዮስ፤ ወበርዮስ፤ በአክልያ፤ በጵልያ፤ በተሣሃሎ፤ ሚድ፤ 
-            <pb n="7r"/>
+            <t:pb n="7r"/>
             
                 በሐኤ፤ በአዮ፤ በርማክርሚር፤ በሱርያል፤ በሰዳቃኤል፤ በሰላትያል፤ በአፍክያል፤ በአንያል፤ በአጥዮድ፤ አይ፡
                   ልሳን፤ በአልፋዊ፤ በአእ፤ ይኃራዊ፡ ስምከ፤ በያው፤ በ፡ አግዮስ፤ በካፉ፤ በአርምንያል፤ በስምየል፤ በአፍሩ፤
                   በአራናት፤ በአፍራስካርስ፤ በአሂ፤ በኤሎሄ፤ በአፍኒያል፤ በአማኑኤል፤ በአብርስትያል፤ በአልያል፤ በኤርናኤል፤
                   በአማስርዮል፤ በአፍሳርዮል፤ በግርምልዩል፤ በድርምልዩል፤ በቀርድልዩል፤ በግርሙልዩል፤ በድርአስዊስ፤ በአርክያል፤
                   በሰርስያስል፤ በአንዮስ፤ በጠበርያ፤ በሄትዮ፤ በጥርስድም፤ በማርያ፤ በማርማ፤ በአንሶስ፤ 
-            <pb n="7v"/>
+            <t:pb n="7v"/>
             
                 በዳኪ፤ በአብያጤር፤ በሐራጦን፤ በጰንከተራጥር፤ ብርኢያስዮንሮድኅ፤ በኄድራ፡ በኡኡሱሲኖያክአእዮዎስ፤ በሰላስኤል፤
                   በሄሴዎን፤ በዴንፍስ፤ በኃይለ፡ ዝንቱ፡ አስማቲከ፡ ተማኅፀንኩ፡ አነ፡ ገብርከ፡ ወልደ፡ ሚካኤል፤ ሳዶር፤ አላዶር፤ ዳናት፤ አዴራ፤ ሮዳስ፤ በ፭፡ ቅንዋተ፡ መስቀሉ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ተማኅፀንኩ፡ አነ፡ ገብርከ፡ እስጤፋኖስ፡ በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ፩፡ አምላክ፡ 
-            <pb n="8r"/>
+            <t:pb n="8r"/>
             
                 ጸሎት፡ በእንተ፡ ፃዕረ፡ ሞት፤ ድቃስ፤ በትሮን፡ ኩጉያ፤ ጋኖን፤ ካውስ፡ ቂርል፤ ወኢይልክፍዎ፡ ለበድን፡
                   ለዛቲ፡ መጽሐፍ፡ ዘያነብብዎ፡ በደኃሪት፡ ዕለት፨ አመ፡ ዕለት፡ ኵነኔ፡ ጐግ፡ ማጎግ፡ እለ፡ ያስሕቱ፡ ሕግ፡
                   እግዚአብሔር፨ ወእለ፡ ያመጽኡ፡ ነገረ፡ ጠዋይ፨ ወይብሉ፡ አነ፡ ውእቱ፡ ክርስቶስ፡ ወልደ፡ እግዚአብሔር፡ ሕያው፨
                   ወየአምንዎ፡ ኵሎሙ፡ ኃጥአን፡ ሕዝበ፡ ክርስቲያን፡ ይብሉ፡ ወንሕነሰ፡ ነአምን፡ በስመ፡ ኢየሱስ፡ ክርስቶስ፡
                   በወልደ፡ እግዚአብሔር፡ በአብ፤ ወበወልድ፡ ወበመንፈስ፡ ቅዱስ፨ ወኤልያስ፡ ይሰብክ፡ ለኵሉ፡ 
-            <pb n="8v"/>
+            <t:pb n="8v"/>
            
                 ሕዝበ፡ ክርስቲያን፨ ወየአምንዎ፡ ለክርስቶስ፡ ወልድ፨ ወበወልደ፡ ስይጣንሰ፡ ዘየአምን፡ ይትኴነን፡ በደይን፨
                   ወዘሰ፡ የአምን፡ በኢየሱስ፡ ክርስቶስ፡ ወልደ፡ እግዚአብሔር፡ ኢይበውዕ፡ ውስተ፡ ደይን፨ ይደልዎ፡ ወየሐውር፡
                   በመንፈስ፡ ቅዱስ፨ ይቤ፡ እግዚአብሔር፡ አነ፡ ውእቱ፡ አምላከ፡ ሰማይ፡ ወምድር፡ ወአንሶሰወ፡ ናትናኤል፡ ንጉሥ፡
                   ኪያሁ፡ ይበኪ፡ ክርስቲያናዊ፡ ከለሜዳ፡ አዘቅተ፡ ክብር፡ ወሕይወት፨ ዝኬ፡ ዘይፄዓን፡ አፍራሰ፡ ሕይወት፨ አመ፡
                   ዕለተ፡ ፍዳ፡ ወደይን፨ ወበውእቱ፡ መዋዕል፡ ፀሐይኒ፡ ይጸልም፡ ወወርኅኒ፡ ደመ፡ ይከውን፨ ወበውእቱ፡ 
-            <pb n="9r"/>
+            <t:pb n="9r"/>
             
                 መዋዕል፡ መሐረኒ፡ ወተሣሃለኒ፡ ለገብርከ፡ ወልደ፡ ሚካኤል፡ ስብሐት፡ ለአብ፡ ለእግዚአብሔር፡ በሰማያት፡ ወሰላም፡ በምድር፡ ለዘፈለወ፡ ብርሃነ፡ ይረድአነ፡ አምላክነ፡ ወመድኃኒነ፨ ስመከ፡ እንዘ፡ ንዜከር፡ ወበመስቀልከ፡ እንዘ፡ ናሰምክ፨ ወንትአመን፡ በኅቡእ፡ ሰምከ፡ እሴብሐከ፡ በንዑላን፡ ወበልሂቃን፡ ከመ፡ ትምሐረኒ፡ ወትሣሃለኒ፡
                   ለግብርከ፡ እስጠፋኖስ፡ ወይቤሎ፡ መልአከ፡ እግዚአብሔር፨ ምንትኑመ፡ ድምፀ፡ ነጐድጓድ፡ ዘሰማዕኩ፨ ወይቤሎ፡
                   እግዚአብሔር፡ ለሚካኤል፡ ደይን፡ ውእቱ፡ መንበሮሙ፡ ለኃጥአን፨ ለእለ፡ ኢገብሩ፡ ፈቃዶ፡ 
-            <pb n="9v"/>
+            <t:pb n="9v"/>
            
                 ለአቡየ፡ ኃልቀ፡ ነፍሶሙ፡ ለእለ፡ ያስተኃቅሩ፡ ቃሎ፨ ወይቤሎሙ፡ ለአባዊነ፡ አመ፡ ዕለተ፡ ፍዳ፡ ወደይን፨
                   በፁዕ፡ ውእቱ፡ ዘአጽሐፎ፨ ብፁዕ፡ ውእቱ፡ ዘዓነቆ፡ በክሣዱ፡ ወዘተአመኖ፡ ለዝንቱ፡ መጽሐፍ፡ ኢይለክፎ፡ ገሃነም፨ ወበውእቱ፡ መዋዕል፡ ፀሐይ፡ ዘኢየዓርብ፡ ወማኅቶት፡ ዘኢይወፍዕ፡ ቃል፡ ፍዳሆሙ፡ ዘኢያረምም፨ ስብሐተ፡ መንግሥቱ፡ ዘኢይትነስት፨ መንበሩ፡ ዘእሳት፡ ክሉል፬፡ ዘኢያንቀለቅል፡ ለዓለመ፡ ዓለም፡ አሜን፨ ወይቤልዎ፡ መላእክቲሁ፡
                   ዘንዜኑ፡ ስምከ፡ ከመ፡ ንሴብሐከ፡ ወንዜምር፡ 
-            <pb n="10r"/>
+            <t:pb n="10r"/>
             
                 ለከ፨ ወይቤሎሙ፤ ቀዳማዊ፡ ስምየ፡ ኢያዋዳ፤ ካልዕ፡ ስምየ፡ ኬንያ፤ ሣልስ፡ ስምየ፡ አማኑኤል፤ ራብዕ፡ ስምየ፡ ኢየሱስ፡ ኃምስ፡ ስምየ፡ ክርስቶስ፤ ሳድስ፡ ስምየ፡ ኢያድ፤ ሳብዕ፡ ስምየ፡ እግዚአብሔር፡ ለእመ፡ በዝንቱ፡
                   አስማት፡ ዘተአመነ፤ ወዘገብረ፡ ተዝካርየ፨ እምሕሮ፡ አነ፡ እምዝንቱ፡ እሳት፡ ነዳዲ፡ ወዕፄሁ፡ ዘኢይነውም፡
                   ወእሳቱ፡ ዘኢይጠፍዕ፤ ወጢሱ፡ ዘኢይደክም፨ ወይቤሎ፡ እግዚአብሔር፡ ለሚካኤል፡ ወሀብኩከ፡ ማዕኰትየ፨ ወለእመኒ፡
                   ዘገብረ፡ ተዝካርየ፤ ወዘተአመነ፡ ኪያየ፤ ወለዝንቱ፡ መጽሐፍ፡ ዘዓነቆ፡ ወፆሮ፡ 
-            <pb n="10v"/>
+            <t:pb n="10v"/>
             
                 ወለእመኒ፡ አንበረ፡ ውስተ፡ ቤቱ፨ ወለእመኒ፡ ሰትየ፡ በተአምኖ፡ ማየ፡ ጸሎቱ፡ ኢይቀርቦ፡ ደይን፨ ወሶቤሃ፡
                   አስተብቊዖ፡ ሚካኤል፡ ሊቀ፡ መላእክት፨ ወይቤሎሙ፡ አአኵቶ፡ ለእግዚአብሔር፡ አምላኪየ፡ ዘአርአየኒ፡ ዘንተ፡ ተአምረ፡ ዘይትገበር፡ በደኃሪ፡ ዕለት፨ ወይትጋብዑ፡ ኵሎሙ፡ መላእክቲሁ፡ ከመ፡ ያንብብዎ፡ ኀበ፡ ክርስቶስ፡ ወልደ፡
                   እግዚአብሔር፨ ወነሥእዎ፡ ለይእቲ፡ መጽሐፍ፬፡ ወንጌላውያን፡ ወኅትምት፡ ይእቲ፡ በማኅተመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ዘኢይክል፡ ፈቲሖታ፡ ለይእቲ፡ መጽሐፍ፨ ዘእንበለ፳፡ ወ፡ ፬፡ ካህናተ፡ 
-            <pb n="11r"/>
+            <t:pb n="11r"/>
             
                 ሰማይ፡ ወዘእንበለ፬፡ ወንጌላውያን፨ ወፈትሑ፡ ማኅተሚሃ፡ ወነጸርዋ፡ ወአንበብዋ፡ ከመ፡ ይስምዑ፡ ወሶቤሃ፡
                   ነሥኡ፯፡ ተ፡ መጣቅዕተ፡ ወጠቅዑ፨ ወነሥኡ፯፡ ተ፡ ጽዋዓተ፡ ወከዓዉ፡ ውስተ፡ ገጸ፡ ምድር፡ ከመ፡ ይትቀደሱ፡
                   ውሉደ፡ ኄራን፡ ወይትፈለጡ፡ ሰማይ፡ ወምድር፯፡ ተ፡ ማዕፁተ፡ ወ፡ ፯፡ ተ፡ ብርሃናተ፡ ወ፡ ፯፡ ምስዋረ፡
                   መንበሩ፡ ለእግዚአብሔር፡ በዘተአምሩ፡ ስሞ፡ ግሩመ፡ በኀበ፡ ሀለዉ፡ ነቢያት፡ ወሕዋርያት፡ ወደብር፡ ልዑል፨ አመ፲፡ ወ፡ ፮፡ ለመስከረም፡ ቀዲሶ፡ ሥጋሃ፡ በንጽሕ፡ በእንተ፡ መስቀሎ፡ ለክርስቶስ፡ 
-            <pb n="11v"/>
+            <t:pb n="11v"/>
             
                 ክቡር፨ ወልመቃብረ፡ እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፨ ያስተርኢ፡ ምሕረተ፡ ላዕሌነ፨ በከመ፡ ቃልከ፡ ቅዱስ፨
                   ወይቤሎሙ፡ ለቅዱሳኒሁ፡ በሎፌ፡ ክቡራት፡ ቃሉ፡ ለእግዚአብሔር፤ አግፎራ፤ ዝምራኤል፤ ግርካኤል፤ ድምናኤል፤ ኬዱ፤
                   አድናኤል፤ ኂሩት፤ ዝብድዮስ፤ ኤሞንዮስ፤ ሚልታራ፤ ታርቦታ፤ ከመያትር፤ ንፍያኖስ፤ አፎራ፤ ንፍያድ፤ ቀታዊር፤
                   ወርያኤል፤ አልዳን፤ ስሙ፤ አታዋስ፤ ሰሶሮ፨ ወከመዝ፡ ፍካሬሁ፡ በግዕዝ ። ወበእንተዝ፡ ዕርገታ፡ ለማርያም፡ ከማሁ፡ አዕርገኒ፡ ሊተ፡ ለገብርከ፡ ወልደ፡ ሚካኤል፡ 
-            <pb n="12r"/>
+            <t:pb n="12r"/>
             
                 ፩፡ ስሙ፡ ሳፍዮስ፩፡ ስሙ፡ ቆሆኪ፡ ወ፡ ፩፡ ስሙ፡ ገብርኤል፡ ወ፩፡ ስሙ፡ ብርሃናኤል፡ ወ፡ ፩፡ ስሙ፡
                   ጽራኤል፡ ወ፡ ፩፡ ስሙ፡ ዝምራዳኤል፡ ወ፩፡ ስሙ፡ ድድያ፡ ዝንቱ፡ አስማት፡ ኢሀሎ፡ ውስተ፡ ልብ፡ ሰብእ፡
                   መዋትያን፨ ዛቲ፡ ይእቲ፡ ዘወጽአት፡ እምአፉሆሙ፡ ወእምቃለ፡ ከናፍሪሆሙ፤ ለአብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፩፡
                   ስሙ፡ አግዮስ፡ ወ፩፡ ስሙ፡ አርህኖን፡ ወ፡ ፩፡ ስሙ፡ በትሮን፡ ወ፡ ፩፡ ስሙ፡ አስራሮን፡ ወ፩፡ ስሙ፡
                   ጽኑዕ፡ ወ፡ ፩፡ ስሙ፡ ምክያር፡ ወ፩፡ ስሙ፡ ምድዮስ፡ ወ፡ ፩፡ ስሙ፡ አግዮስ፡ ወ፡ ፩፡ ስሙ፡ መፍትልሔም፡ ወ፩፡ ስሙ፡ እልመክን፡ ወ፡ ፩፡ ስሙ፡ 
-            <pb n="12v"/>
+            <t:pb n="12v"/>
             
                 እያ፡ ወ፩፡ ስሙ፡ ምክያር፡ ወ፡ ፩፡ ስሙ፡ ጋኖን፡ ወ፡ ፩፡ ስሙ፡ ነዳዲሃ፡ ለፈፈስ፡ ወ፩፡ ስሙ፡
                   አዳሄል፡ ወ፡ ፩፡ ስሙ፡ ግምአድዮስ፡ ወ፩፡ ስሙ፡ አጋትዮር፡ ወ፡ ፩፡ ስሙ፡ ኬድዮሮስ፨ ዓቃቢሃ፡ ለነፍስ፡
                   ወአናቅጺሃ፡ ዘንተ፡ አስማተ፡ ዘይፀውራ፡ በየውሃት፡ ወበአርምሞ፡ ወበትዕግሥት፡ ወመልኆሳስ፨ ወበፈሪሃ፡ እግዚአብሔር፡ ይድኅን፡ ዘንተ፡ ቃለ፡ ሰሚዖ፡ ብእሲ፡ በእዘኒሁ፡ ይሣየጥ፡ በወርቅ፡ ወበብሩር፡ ወበአልባስ፡ ክቡራት፨ ወዘንተ፡ ለእመ፡ ኃጥአ፡ ይኩን፡ ገብረ፡ በድልስቅያም፡ ስምየ፡ ህየ፡ ዘአጥመቀ፡ አባ፡ ዮሐንስ፡ በዛቲ፡ ዕለት፡
                
-            <pb n="13r"/>
+            <t:pb n="13r"/>
             
                 ወበዛቲ፡ ሰዓት፡ ይፈትሕ፡ አንቀጸ፡ ጽድቅ፨ ወኢይሬእይዎ፡ ለደይን፡ ወበውስተ፡ ደይን፡ ምግባሩ፡ ወይምሕሮ፡
                   እግዚአብሔር፡ ወበእንተ፡ ዝንቱ፡ ዕርገታ፡ ለማርያም፡ ከማሁ፡ አዕርገኒ፡ ሊተ፡ በዝንቱ፡ አስማቲከ፡ ተማኅፀንኩ፡
                   አነ፡ ገብርከ፡ እስጤፋኖስ፡ ጋር(?)ሎኤል፤ ስድብኤል፤ ኢዮኤል፤ ፍኖኤል፤ አቅናኤል፤ ኢዮብድ፤ ቄሮሎላኤል፤ ኢሊጻል፤ ሰላትያኤል፤ ዕዝራኤል፤ ቃላታለኤል፤ አዝራዊ፤ ኤላዊ፤ ኤላኢሩባላኤል፤ ስድራኤል፤ ሰንባኤል፨ ብዝንቱ፡ አስማቲከ፡
                   ከመ፡ ኢይምጽአኒ፡ ሞት፡ ወኢሕማም፡ በድላኤል፤ በለክኤል፤ በፍላኤል፤ በኢክኤል፤ 
-            <pb n="13v"/>
+            <t:pb n="13v"/>
             
                 በዱላፉኤል፡ በኢያኤል፤ በድርስላኤል፤ በዝንቱ፡ ኵሎ፡ አስማቲከ፡ ተማኅፀንኩ፡ አነ፡ ገብርከ፡ እስጠፋኖስ፡
                   ኤልሳኤልኮስ፤ ጵንታኮሮጢስ፤ አግሜሙስ፤ ወጥንትን፤ አዕዶን፤ ወአቅማቱስ፤ ኢያንኤል፤ አዛኤልሓጎማ፤ መርሞቶናጌ፤
                   አዴራጽብዮን፤ ብዝንቱ፡ አስማቲከ፤ ወበክዕወተ፡ ደሙ፡ ለጊዮርጊስ፡ ገብርከ፤ ተዘከረኒ፡ እግዚኦ፡ በመንገሥትከ፡
                   ለገብርከ፡ ወልደ፡ ሚካይኤል፡ ሳዶር፤ አላዶር፤ ዳናት፤ አዴራ፤ ሮዳስ፤ በ፭፡ ቅናዋተ፡ መስቀሎ፡ ለእግዚእና፡
                   ኢየሱስ፡ ክርስቶስ፡ ለዓለመ፡ ዓለም፡ አሜን፨፨፨፨፨፨ 
-            <pb n="14r"/>
+            <t:pb n="14r"/>
             
                 በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ፩፡ አምላክ፡ ስምዑ፡ ንነግረክሙ፡ አኃዊነ፡ ለእመ፡ ተአምኑ፡ ቃለ፡ ልፋፈ፡ ጽድቅ፡ ዘወሀባ፡ እግዚአብሔር፡ ኪዳነ፡ ለማርያም፡ በደኃሪት፡ ዕለተ፡ ወዘንተ፡ አስማተ፡ ከርሡ፡
                   በአምሳለ፡ ገራ፡ ወዘፆራ፡ በአምሳለ፡ ማርያም፡ ወዘሂ፡ ዘዓነቃ፡ ለዛቲ፡ መጽሐፍ፡ ኢይሬእያ፡ 
-            <pb n="14v"/>
+            <t:pb n="14v"/>
             
                 ለደይን፡ እላ፡ ይረክብ፡ ሕይወተ፡ ዘለዓለም፨ ወተስእለቶ፡ እግዝእትነ፡ ማርያም፡ ለእግዚእነ፡ ወትቤሎ፡ ንግረኒ፡ ዘየዓቢ፡ እምኵሉ፡ አስማቲከ፨ ወተሰጠዋ፡ እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ለማርያም፡ ወይቤላ፡ እነግረኪ፡ ዘንተ፡ አስማትየ፡ ዘዕፁብ፡ ለስሚዕ፡ ወኅቡእ፡ ለራእይ፡ ወሠናይ፡ ለውእቱ፡ ለዘይክል፡ ፀዊሮቶ፡ ወዓቂቦቶ፤ ወካዕበ፡
                   ትቤሎ፡ እግዝእትነ፡ ማርያም፡ እስእለከ፡ ኦወልድየ፡ ከመ፡ ትንግረኒ፡ ስመከ፡ ኅቡእ፨ ወይቤላ፡ እነግረኪ፡ ስምየ፡ ጥዩቀ፨ ወአንቲ፡ ኢታስትቲ፡ ዘንተ፡ አስማትየ፡ ዘዕፁብ፡ ለዘኢየአምን፡ በጥቡዕ፡ ወለዘኢይፀውር፡ 
-            <pb n="15r"/>
+            <t:pb n="15r"/>
             
                 ዘንተ፡ ነገርየ፡ ኢይደልዎ፡ ይክሥት፡ አስማትየ፨ ወካዕበ፡ ተስእለቶ፡ እግዝእትነ፡ ማርያም፡ ለኢየሱስ፡
                   ኢይነግሮሙ፡ ለአብዳን፡ ሰብእ፡ ለእለ፡ ኢይሌብዉ፡ በልቦሙ፤ ወለእለ፡ ኢየኃሥሡ፡ ማኅደረ፡ ዘበሰማያት፡ ወለእለ፡
                   ኢይሜንኑ፡ ዘበምድር፡ ክብረ፤ ተሰጠዋ፡ እግዚእነ፡ ለማርያም፡ ኢትፍለጢ፡ ይቤላ፡ ከመ፡ ይእምሩ፡ ዘንተ፡ ስምየ፡
                   ዘእነግረኪ፨ ወፈጺሞ፡ ኢየሱስ፡ ቆመ፡ ማዕከለ፡ ዓምደ፡ ደመና፨ ወአስተርአያ፡ በነደ፡ እሳት፡ እስከ፡ ይነግራ፡
                   ዘንተ፡ አስማተ፨ ወይቤላ፡ ኤሎሄ፡ ኤሎሄ፡ ኤሎሄ፤ ኤራን፤ ኤራን፤ ኤራን፤ Rአፎን፤ Rአፎን፤ 
-            <pb n="15v"/>
+            <t:pb n="15v"/>
            
                 ራፎን፤ ወዝንቱ፡ ብሂል፤ አኃዜ፡ ዓለም፤ ቀሳፊ፡ ወመሐሪ፤ ብሂል፤ መርዮን፤ ብሂል፡ ኢይትመዓዕ፤ ብሂል፡
                   ፎፎራን፤ ብሂል፤ ተሣሃለኒ፤ ብሂል፤ ብዮን፤ ብሂል፤ ኄር፤ ብሂል፤ በርስባሄል፡ ብሂል፨ ኵሎ፡ ዘይፈርሆ፡ ስሙ፡
                   ለአብ፡ ማርያል፤ ስሙ፡ ለወልድ፤ ምናቴር፤ ወስሙ፡ ለመንፈስ፡ ቅዱስ፡ አብያቴር፨ በዝንቱ፡ አስማቲከ፡ ተማኅፀንኩ፡ አነ፡ ገብርከ፡ እስ[ጤ]ፋኖስ፡ ሚካኤል፤ ወገብርኤል፤ ሱራፌል፤ ወኪሩቤል፤ ዑርያል፡ ወሩፋኤል፤ ኢያኤል፤
                   ወሳቁኤል፤ ፯፡ ሊቃነ፡ መላእክት፡ ሰአሉ፡ ለነ፡ አስተምህሩ፡ በእንቲአነ፨ ሰዱቃኤል፤ ብርንኤል፤ ሰአሉ፡ 
-            <pb n="16r"/>
+            <t:pb n="16r"/>
             
                 በእንቲአነ፡ በጸሎትክሙ፡ ከመ፡ ንድኃን፤ እግረ፡ ማጣ፤ ሱርትዮን፤ ማራማራ፤ መሊጦን፡ ፬፡ እንስሳ፡ ተማኅፀንኩ፡ በአስማቲክሙ፨ በአልዳን፡ መንበርከ፡ ወበልምሕሳ፡ ሀገርከ፡ ወበአርያም፡ ፍጹም፡ ማኅደርከ፨ ወበማርያም፡ ወላዲትከ፡ ወበ፬፡ ወንጌላውያን፡ በ፲ወ፭ነቢያት፡ በ፲ወ፪ሐዋርያት፡ በ፳ወ፬ካህናተ፡ ሰማይ፡ ወበ፵ሐራ፡ ሰማይ፡ በ፸ወ፪አርድዕት፡ ወበ፭፻ቢጽ፡ በ፫፻፲ወ፰ርቱዓነ፡ ሃይማኖት፡ ወበ፯ሊቃነ፡ መላእክት፡ ወበ፯፡ አዕላፋት፡ ወትዕልፊት፡ አዕላፋት፡
                   ወበአስማተ፡ ኵሎሙ፡ ቅዱሳን፡ መላእክት፡ ተማኅፀንኩ፡ አነ፡ 
-            <pb n="16v"/>
+            <t:pb n="16v"/>
             
                 ገብርከ፡ ወልደ፡ ሚካኤል፡ ሳዶር፤ አላዶር፤ ዳናት፤ አዴራ፤ ሮዳስ፤ በ፭፡ ቅንዋተ፡ መስቀሉ፡ ለእግዚእነ፡
                   ኢየሱስ፡ ክርስቶስ፡ ተማኅፀንኩ፡ አነ፡ ገብርከ፤ እስጤፋኖስ፡ በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ፩፡
                   አምላክ፡ ጸሎተ፡ መንገደ፡ ሰማይ፡ በሄት፡ ምድር፤ ዕቀበኒ፡ ክርስቶስ፤ ከመ፡ ኢያዕቅፍዋ፡ ለነፍስየ፡ መላእክተ፡
                   ጸልመት፤ ከመ፡ ትፈኑ፡ ሊተ፡ መላእክተ፡ ብርሃን፤ ሚካኤል፡ ወገብርኤል፤ እሉ፡ ግሩማን፤ ወጵራቅሊጦስ፡ መንፈስ፡
                   ጽድቅ፤ 
-            <pb n="17r"/>
+            <t:pb n="17r"/>
             
                 ከመ፡ ኢይዕቅፍዋ፡ ለዓለም፡ መላእክተ፡ ጽልመት፡ ወከመ፡ ኢያቅሙኒ፡ እግዚኦ፡ ውስተ፡ ጽልመት፨ ወየሐቂ፡ ስነነ፡ ተማኅፀንኩ፡ በግንጳዌ፡ ስምከ፡ አነ፡ ገብርከ፡ ወልደ፡ ሚካኤል፡ ወበስማ፡ ለማርያም፡ ድንግል፡ ወላዲቱ፡
                   አምላክ፡ ጥብርያዶስ፡ ወበአምልኮቶሙ፡ ለሰማይውያን፡ ወሰማየ፡ ሰማያት፡ ወበመንበረ፡ ስብሐቲሁ፡ ዘሐነፀ፡ ጽርኆ፨
                   ወአልቦ፡ ዘየአምን፡ ዘእንበለ፡ ባሕቲቱ፤ ወዘእንበለ፡ ክርስቶስ፡ ወልዱ፤ መሐሪ፡ መሐርኩከ፡ በለኒ፡ ወስረይ፡ ሊተ፡ ኃጢአትየ፡ ለገብርከ፡ እስቴፋኖስ፡ ወበደኃሪት፡ ወህየ፡ ይነሥዑ፡ ፯መላእክት፡ ወ፯መንጦላዕት፨ ወያዓርጉ፡ 
-            <pb n="17v"/>
+            <t:pb n="17v"/>
             
                 ጸሎተ፡ በአንተ፡ ምሕረተ፡ ሰብእ፡ ማኅቶተ፡ መላእክቲሁ፨ አመ፡ ይቤሎ፡ እግዚኦ፡ መኑ፡ ሰብእ፡ ዘኢይኤብስ፤
                   ወአይኑ፡ ዕፅ፡ ዘኢይጤይስ፡ ውሉደ፡ ሰብእ፡ ዘኢይገብር፡ ኃጢአተ፡ እግዚኦ፡ አልቦ፡ ኄር፡ ዘእንበሌከ፤ ወሶቤሃ፡
                   ተናሮሙ፡ እግዚአብሔር፡ ለ፲፡ ወ፡ ፪፡ ሐዋርያት፡ ለ፸ወ፪፡ አርድእት፡ ከመ፡ ይጽሐፍዋ፡ ለዛቲ፡ መጽሐፍ፡
                   ወይቤሎሙ፡ ለሐዋርያቲሁ፨ አባህኩክሙ፡ ወዜንዉ፡ ለኵሉ፡ ዘየአምን፡ ብየ፡ በስመ፡ ኢየሱስ፡ ክርስቶስ፡ ወልደ፡
                   እግዚአብሔር፡ ብፁዕ፡ ውእቱ፡ ዘየአምን፡ ብየ፤ በቃለ፡ ዝንቱ፡ መጽሐፍ፡ ለዘጸሐፎ፡ 
-            <pb n="18r"/>
+            <t:pb n="18r"/>
             
                 ወለዘአጽሐፎ፡ ወለዘዓነቆ፡ በክሣዱ፨ ወበማየ፡ ጸሎቱሂ፡ ለእመ፡ ተሐፅበ፨ ወበቤቱሂ፡ ለእመ፡ አንበረ፡ መዊተ፡
                   ኢይመውት፨ ወየሐዩ፡ በደኃሪት፡ ዕለት፨ አመ፡ ዕለተ፡ ኵነኔ፡ ወደይን፡ ይትመሐር፡ ወእምሕሮ፡ እምእሳተ፡ ገሃነም፨ አመ፡ ዕለት፡ ይትሌለዩ፡ ኃጥአን፡ ወዓማዕያን፨ እመሂ፡ መዓልተ፡ ወእመሂ፡ ሌሊተ፡ ኀበ፡ ሀለወት፡ ወፆሮ፡
                   ብፁዕ፡ ውእቱ፨ እስመ፡ ዓባይ፡ ይእቲ፡ ዕለት፡ እምዛቲ፡ መጽሐፍ፡ እንተ፡ ትሰድድ፡ አጋንንተ፡ ወፃዕረ፡ ሞት፡
                   እምላዕለ፡ ነፍሰ፡ ገብርከ፡ ወልደ፡ ሚካኤል፡ ወተሰደዱ፡ እምላዕለ፡ መንበረ፡ ስብሐቲሁ፡ ለእግዚአብሔር፡ 
-            <pb n="18v"/>
+            <t:pb n="18v"/>
             
                 ለዓለመ፡ ዓለም፡ አሜን፨ በድማሄል፡ ስመ፡ ኃይልከ፤ ወበቶቤል፡ ስምከ፤ ወበልቅኤል፡ ስመ፡ ጥምቀትከ፤
                   በጐሁካኤል፤ በዘፈታሕከ፡ አፃውንተ፡ ሲኦል፡ በቀተናዊ፤ ወበሰተናዊ፤ ወቀርነላዊ፤ ስምከ፡ ተማኅፀንኩ፤ ከመ፡
                   ትምሐረኒ፡ ወትሣሃለኒ፡ ለገብርከ፡ እስጤፋኖስ፡ ዝንቱ፡ ዘተሰቅለ፡ ወልደ፡ ማርያም፡ ናዝራዊ፡ ንጉሥ፡ አይሁድ፤
                   ተዘከረኒ፡ እግዚኦ፡ በውስተ፡ መንገሥትከ፡ ለገብርከ፡ ወልደ፡ ሚካኤል፡ ሳዶር፤ አላዶር፤ ዳናት፤ አዴራ፤ ሮዳስ፤
                   በ፭፡ ቅንዋተ፡ መስቀሎ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፨ በዝንቱ፡ አስማቲከ፡ ተማኅፀንኩ፡ ወአማኅፀንኩ፡ ነፍስየ፡ ወሥጋየ፡ 
-            <pb n="19r"/>
+            <t:pb n="19r"/>
            
                 ለገብርከ፡ እስጤፋኖስ፡ ለ፡ ዓለመ፡ ዓለም፨ አሜን፨፨፨ በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ፩፡
                   አምላክ፡ መጽሐፈ፡ አርድእት፡ ዘተስእልዎ፡ አርዳኢሁ፡ ለኢየሱስ፡ እስከ፡ ይትከሠት፡ ስሞ፡ ኅቡእ፨ ወእምድኅሬሁሰ፡
                   ነገሮሙ፡ ኢየሱስ፡ ወይቤሎሙ፡ ዕቀብዎ፡ ወአጽንዕዎ፡ ወትድኅኑ፡ እምእሳት፨ ወኵሉ፡ ሰብእ፡ ዘአእመረ፡ አስማትየ፡
                   ዘአጽንዖ፡ 
-            <pb n="19v"/>
+            <t:pb n="19v"/>
             
                 መንገሮ፡ ውዘተሐፅበ፡ አንቢቦ፡ እምብዝኃ፡ ኃጢአቱ፡ ይድኅን፨ ዘጸሐፈ፡ አምላክነ፡ በቃሉ፡ ወበእደዊሁ፡ ቅዱሳት፨ ወወሀብኮሙ፡ ለአርዳኢሁ፡ ከመ፡ ያንብብዋ፡ ወእንዘ፡ ያንብቡ፡ ረከቡ፡ ስሞ፡ ተፈሥሑ፡ ወተሐሠዩ፨ ወይቤሉ፡
                   እኩት፡ ወስቡሕ፡ ስምከ፡ ዘአርአይከነ፡ ዘንተ፡ ኵሎ፡ ወሀብከነ፡ ስመከ፡ ቅዱሰ፨ ወጸውዑ፡ ስሞ፡ እንዘ፡ ይብሉ፤ ራፎን፡ ራፎን፡ ራፎን፤ ራኮን፡ ራኮን፡ ራኮን፤ ጲስ፡ ጲስ፡ ጲስ፤ አፍሊስ፡ አፍሊስ፡ አፍሊስ፤ ምልዮስ፡
                   ምልዮስ፡ ምልዮስ፤ ሔናኤል፡ ሔናኤል፡ ሔናኤል፤ ጽራኤል፡ ጽራኤል፡ ጽራኤል፤ ናሮስ፡ ናሮስ፡ ናሮስ፡ 
-            <pb n="20r"/>
+            <t:pb n="20r"/>
             
                 ኪሮስ፡ ኪሮስ፡ ኪሮስ፤ ፌሎስ፡ ፌሎስ፡ ፌሎስ፤ ሲሮስ፡ ሲሮስ፡ ሲሮስ፤ ሊፍርናስ፡ ሊፍርናስ፡ ሊፍርናስ፤
                   ኔሮን፡ ኔሮን፡ ኔሮን፤ ኤሮን፡ ኤሮን፡ ኤሮን፨ እምኵሎሙይ፡ ዘየዓቢ፡ ስምየ፤ ድማሂል፡ ድማሂል፡ ድማሂል፤
@@ -394,81 +394,81 @@
                   ወኢይሬኢ፡ ጢሶ፡ [ 20b] ለደይን፡ እምኵሉ፡ ዘተጽሕፈ፡ ውስተ፡ መጻሕፍትየ፤ አልቦ፡ ዘየዓብዮ፡ ለዝንቱ፡ ነገር፡ እምኵሉ፡ ጸሎት፡ በዝንቱ፡ ዘተአመነ፡ እምሕሮ፡ ወእሣሃሎ፨ መሀልኩ፡ በመንበርየ፡ ወበርእስየ፡ ልዑል፨ መሀልኩ፡
                   በመከየደ፡ እገርየ፨ ወበማርያም፡ እምየ፨ መሀልኩ፡ በቅዱሳን፡ መላእክትየ፡ አንሰ፡ ኢይዔምፅ፡ በጽድቅየ፡ ወኢይኂሱ፡ በቃልየ፨ ወኢያረኵስ፡ ኪዳንየ፡ በከመ፡ አድኃንኮሙ፡ ለቅዱሳን፡ አርዳኢከ፨ አድኅነኒ፡ በኃይለ፡ ስምከ፡ ቅዱስ፡
                   ሕፅበኒ፡ እምኃጢአትየ፡ ለገብርከ፡ ወልደ፡ ሚካኤል፨ ወካዕበ፡ ይቤሎሙ፡ 
-            <pb n="21r"/>
+            <t:pb n="21r"/>
             
                 ኢየሱስ፤ ብፁዕ፡ ውእቱ፡ ዘአንበቦ፡ ለዝንቱ፡ ጸሎት፤ ብፁዕ፡ ውእቱ፡ ዘተሐፅበ፡ በማየ፡ ጸሎቱ፨ ብፁዕ፡
                   ዘሰምዖ፡ በእዝኑ፡ ለዝንቱ፡ ጸሎት፡ ይጸንዕ፡ ኃይሉ፡ ከመ፡ ኰኵሕ፨ ወይሰማዕ፡ ድምፁ፡ ከመ፡ ድምፀ፡ አንበሳ፡
                   ወዓዓቅቦ፡ አነ፡ በኃይልየ፡ ወበጽንዕየ፨ ወአፈቅሮ፡ ከመ፡ አርድእትየ፤ ብፁዕ፡ ውእቱ፡ ዘፆሮ፡ ለዝንቱ፡ ጸሎት፡
                   ኢይቀርቡ፡ ኀቤሁ፡ መናፍስተ፡ ርኩሳን፨ አልቦ፡ ዝይክል፡ ገሢሠ፡ ሥጋሁ፡ ወነፍሱ፡ ኀበ፡ ሀለወት፡ ዛቲ፡ ጸሎት፨ ኢይበውዕ፡ ሕማም፡ ወድካም፡ ወረኃብ፡ ውስተ፡ ቤቱ፡ ወሰይጣንሂ፡ ይሰድድ፡ ወኢይቀርብ፡ ኀበ፡ ማኅደሩ፨
                   ወሠራቂኒ፡ 
-            <pb n="21v"/>
+            <t:pb n="21v"/>
             
                 ኢይክል፡ ሠራቀ፡ ወጸላኢኒ፡ ኢይክሎ፡ ወያደክም፡ ኃይለ፡ ኵሉ፡ ፀሩ፨ ወይትባረክ፡ ቤቱ፡ ወውሉዱ፨ ወመላእክትኒ፡ ኢይርኅቁ፡ እምኔሁ፡ ወትረ፡ በረከተ፡ ነቢያት፡ ወሐዋርያት፡ ወመንፈሰ፡ እግዚአብሔር፡ ያዕርፍ፡ ላዕሌሁ፨
                   ወመንፈሰ፡ ሰይጣን፡ ይርኃቅ፡ እምኔሁ፨ ወአንተሂ፡ ለእመ፡ ተአመንከ፡ ዘንተ፡ ጸሎተ፡ ወማየ፡ ጸሎቱሂ፡ ኢይትከዓው፡ ውስተ፡ ምድር፨ እስመ፡ ክቡር፡ ወቅዱስ፡ ውእቱ፡ አምሳለ፡ ሥጋሁ፡ ወደሙ፡ ለክርስቶስ፡ መንጽሒ፡ ኃጢአት፡
                   መድኃኒተ፡ ነፍስ፡ ወሥጋ፨ ወዘንተ፡ አንቢበከ፡ ለእመ፡ ተሐፀብከ፡ ትመውዕ፡ ወታገርር፡ ፀረከ፡ ወጸላእተከ፨
                
-            <pb n="22r"/>
+            <t:pb n="22r"/>
             
                 ወአልቦ፡ ዘይክል፡ ቀዊመ፡ ቅድመ፡ ገጽከ፡ ኵሉ፡ ፍጥረት፡ ይርዕዱ፡ እምቃልከ፨ ወሶበ፡ ይሬእዩ፡ ገጽከ፡
                   ይጐይዩ፨ ወይጥዕም፡ ነገርከ፡ ለኵሉ፡ ሰብእ፨ ተዘከረኒ፡ እግዚኦ፡ አመ፡ ትመጽእ፡ በመንግሥትከ፡ ለገብርከ፡
                   እስቴፋኖስ፡ በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ፩፡ አምላክ፡ አስማተ፡ ዘነገሮ፡ እግዚእነ፡ ለእንድርያስ፡ ቅዱስ፡ ረድእ፨ ወይቤሎ፡ ሑር፡ ሀገረ፡ በላዕተ፡ ሰብእ፡ ኀበ፡ ሀሎ፡ እኁከ፡ ማትያስ፡ ከመ፡ ታውጽእ፡
                   እምቤተ፡ ሞቅህ፨ ተንሥእ፡ ወሑር፡ ምስለ፡ ፪፡ አርዳኢከ፡ ወአውሥአ፡ እንድርያስ፡ በእፎ፡ እክል፡ በጺሖታ፡
                   ለይእቲ፡ ሀገር፨ እስመ፡ ርኅቅት፡ 
-            <pb n="22v"/>
+            <t:pb n="22v"/>
             
                 መጠነ፪፡ ዓመት፡ ኢይክል፡ በጺሐ፡ ሶቤሃ፡ ዓቢይ፡ ባሕር፨ ወውስቴታ፡ ሀሎ፡ ወአውሥአ፡ እግዚእ፨ ወይቤሎ፡
                   ኢትፍራህ፡ ኦእንድርያስ፡ ፍቁርየ፡ እከሥት፡ ለከ፡ ዓቢየ፡ ነገረ፡ ወመድምመ፡ ውስቴታ፡ ወእነግረከ፡ አስማተ፤ ሶበ፡ ትበጽሕ፡ ወትደለው፡ ለሐዊር፡ ከመዝ፡ በል፨ እንድርያስ፤ አርያስያስኖስ፤ አርያስያስኖስ፤ አርያስያስኖስ፤
                   ኪያዩዱዮስ፤ ኪያዩዱዮስ፤ ኪያዩዱዮስ፤ አክልያዳኤል፤ አክልያዳኤል፤ አክልያዳኤል፤ ሰርኑኤል፤ ሰርኑኤል፤ ሰርኑኤል፤
                   ታዳኦስ፤ ታዳኦስ፤ ታዳኦስ፤ ርድያኤል፤ ርድያኤል፤ ርድያኤል፨ አስማቲሁ፡ ለአቡየ፡ እምቅድመ፡ 
-            <pb n="23r"/>
+            <t:pb n="23r"/>
             
                 ንፍጥሮ፡ ለሰማይ፡ ወምድር፡ አስማትየ፡ እነግረከ፤ ቀዲሙሰ፡ ዘነገርኩከ፡ አስማቲሁ፡ ለልብየ፡ ውእቱ፡ ስምየ፨
                   ሰልግዋታኤል፡ ሰልግዋታኤል፡ ሰልግዋታኤል፤ ፀበርትናኤል፡ ፀበርትናኤል፡ ፀበርትናኤል፤ ታዳኤል፡ ታዳኤል፡ ታዳኤል፤
                   አግስያዮስ፡ አግስያዮስ፡ አግስያዮስ፤ ልምዮስ፡ ልምዮስ፡ ልምዮስ፤ አስቃዳቆስ፡ አስቃዳቆስ፡ አስቃዳቆስ፨ ዘበትርጓሜሁ፡ ኢየሱስ፡ ክርስቶስ፡ ብሂል፤ ዱዱሜል፡ ዱዱሜል፡ ዱዱሜል፤ አስሐል፡ አስሐል፡ አስሐል፨ አስማተ፡ መንፈስ፡ ቅዱስ፡ ጳራቅሊጦስ፤ አራድያል፡ አራድያል፡ አራድያል፤ ዳኤል፡ ዳኤል፡ ዳኤል፤ ኤሎሀ፡ ኤሎሀ፡ 
-            <pb n="23v"/>
+            <t:pb n="23v"/>
             
                 ኤሎሀ፡ ጸባዖት፤ አዶናይ፤ ግዮስ፡ ግዮስ፡ ግዮስ፤ አግዮስ፡ አግዮስ፡ አግዮስ፤ ዘበተርጓሜሁ፤ ቅዱስ፡ ቅዱስ፡
                   ቅዱስ፡ እግዚአብሔር፡ ጸባዖት፡ ፍጹም፡ ምሉዕ፡ ሰማያተ፡ ወምድረ፡ ቅድሳተ፡ ስብሐቲከ፨ አልክናተ፡ ዘበትርጓሜሁ፤
                   ሃሌ፡ ሉያ፡ ለአብ፤ ሃሌ፡ ሉያ፡ ለወልድ፤ ሃሌ፡ ሉያ፡ ለመንፈስ፡ ቅዱስ፤ ስብሐት፡ ለአብ፤ ስብሐት፡ ለወልድ፤ ስብሐት፡ ለመንፈስ፡ ቅዱስ፨ ለዘህላዊሆሙ፩፡ ኵሎ፡ ጊዜ፡ ኅቡረ፨ ይእዜኒ፡ ወዘልፈኒ፡ ወለዓለመ፡ ዓለም፡ አሜን፨ አልቦ፡ ዘተናገርኩ፡ ዘንተ፡ ነገረ፡ ወለማርያምሂ፡ እምየ፨ ወለከሰ፡ ከሠትኩ፡ ወጸልዩ፡ በዝንቱ፡ 
-            <pb n="24r"/>
+            <t:pb n="24r"/>
             
                 አስማትየ፨ ወተርኅዉ፡ አናቅጽ፡ ወተፈትሑ፡ ሙቁሐን፨ ወዘንተ፡ አስማተ፡ ለእመ፡ ፆሮ፡ ወዓነቆ፡ ይከውን፡ ክፍሉ፡ ምስለ፡ ጴጥሮስ፡ ሊቀ፡ ሐዋርያት፤ ኢይሬእዮ፡ ዓይነ፡ እኩይ፡ ወኢይቀርቦ፡ ኃይለ፡ ጸላዒ፤ ወኢረዋዲ፡ ኃይለ፡
                   አጋንንት፡ እኩያን፡ ወኃይለ፡ መናፍስት፡ ርኩሳን፤ ኢይክሉ፡ ኃይለ፡ ጽልመት፨ ጌራድን፡ ሚሎስ፡ ጋደን፤ ሰተናዊ፤
                   ቀተናዊ፤ ተንከረም፤ ቀታሊ፡ ወማህየዊ፡ ክርስቶስ፡ ወልደ፡ እግዚአብሔር፡ ወልደ፡ እግዝእትነ፡ ማርያም፡ ዘአሰርኮ፡
                   ለብርያል፡ ከማሁ፡ እስሮሙ፡ ለፀርየ፡ ወለጸላእትየ፨ ተዘከረኒ፡ እግዚኦ፡ በኃይለ፡ ዝንቱ፡ አስማቲከ፡ 
-            <pb n="24v"/>
+            <t:pb n="24v"/>
             
                 አመ፡ ትመጽእ፡ በመንግሥትከ፡ አነ፡ ጋብርከ፡ ወልደ፡ ሚካኤል፡ በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፩፡
                   አምላክ፡ አስማተ፡ እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ሲድራላዊ፡ ከመ፡ ኢይምጽአኒ፡ ሞት፡ ዘእንበለ፡ ጊዜየ፤
                   በአውላኪት፡ በድርዳስ፤ በናሮስ፤ በኤሎን፤ በደልፎጊን፤ በጋዴን፤ በዮጣ፤ ወቢበኰላዲን፤ በሲድራቃኤል፤ ዘቂረቂጢን፤
                   በዶሎቆሎን፤ በዘፉባኤል፤ በጽፉፋኤል፤ በዶሎሆሎሂን፤ በቆለኪን፤ በከፈዚን፤ በጋዚን፤ በፉላከኤል፤ በአልፋኤል፤
                   በዳራታን፤ በዝራኤል፤ በገልማላዊ፤ በገለውድያን፤ በኢያፌን፤ በቀላዲን፤ በአብዳዊ፤ በምናሴላዊ፤ በስልኖድስ፡ 
-            <pb n="25r"/>
+            <t:pb n="25r"/>
             
                 በስላዊ፡ በጎለዳፌን፡ በቀላኤል፡ በደፉኤል፡ በስድራቃኤል፡ በሲሊ፡ ተማኅፀንኩ፡ አነ፡ ገብርከ፤ እስጤፋኖስ፡
                   በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፩፡ አምላክ፡ አልፋ፡ ወኦ፡ አልፋ፡ አልፋ፡ አልፋ፡ አልፋ፡ አልፋ፡
                   አልፋ፡ አልፋ፤ ኢያኤል፡ ኢያኤል፡ ኢያኤል፡ ኢያኤል፡ ኢያኤል፡ ኢያኤል፡ ኢያኤል፤ ሂዳኤል፡ ሂዳኤል፡ ሂዳኤል፡
                   ሂዳኤል፡ ሂዳኤል፡ ሂዳኤል፡ ሂዳኤል፤ ዮድናኤል፡ ዮድናኤል፡ ዮድናኤል፡ ዮድናኤል፡ ዮድናኤል፡ ዮድናኤል፡ ዮድናኤል፤ ኡርናኤል፡ ኡርናኤል፡ ኡርናኤል፡ ኡርናኤል፡ ኡርናኤል፡ ኡርናኤል፡ ኡርናኤል፤ ሂርናኤል፡ ሂርናኤል፡ ሂርናኤል፡
                   ሂርናኤል፡ ሂርናኤል፡ 
-            <pb n="25v"/>
+            <t:pb n="25v"/>
            
                 ሂርናኤል፡ ሂርናኤል፡ አሚስ፡ አሚስ፡ አሚስ፡ አሚስ፡ አሚስ፡ አሚስ፡ አሚስ፡ [---]፡ ዳህዲ፡ ንግድኪኒ፡
                   ህህዱዲ፡ ስራያስያል፡ ሱርያል፡ ፋርድያል፡ አራድያል፤ ሰድራል፡ ሙዱያል፡ አዶናይ፡ ማስያስ፡ አማኑኤል፡ አክሳር፡
                   መራድያል፡ አራድያል፡ ከፍኤል፡ አስአል፡ አፍትያል፡ አርማያል፡ አቅጥአል፡ አርስአል፡ አክያል፡ ፋኑኤል፤ ቀቲትያል፤ ርትያል፡ እልያል፤ ቲታኦል፡ ዮልያል፤ ከርቲያል፤ ሰብትያል፤ ሚታኦል፤ ሚራኦል፤ አክሲፋኦል፤ አውክትያል፤ ቢትያል፤ ፌዋል፤ ሰርዋል፤ አንዋል፤ ፈለለኦል፤ አክርስቲያል፤ አብሲኦል፤ አውንዋል፤ አርንኤል፤ ዋቴር፤ ናኡስ፤
                   ቲራንአርናስ፤ ዘሪከአብግ፤ ትርምን፤ ያአሰኮ፡ ሚሶንክስ፤ ማቴር፤ 
-            <pb n="26r"/>
+            <t:pb n="26r"/>
             
                 ናሳኪብ፤ አክስኑኒዮስ፤ ኡናር፤ በራኪያስ፤ ራስቲዎን፤ ዳኪያስ፤ ኦርንያስ፤ ጥራስ፤ ኪናስ፤ አብጻሎን፤ አንስኮ፤
                   ሙድ፤ ምጦስ፤ ሙት፤ ክትና፤ ሊአጻ፤ ኪና፤ አራጻ፤ አንዮስ፤ ሳርዲ፤ ከላሲን፤ ኡሱራን፤ ሚራአክ፤ ዋሮከ፤
                   ወርዲአክ፤ አጽማኦል፤ ኮናአል፤ ዶራን፤ አርኒ፤ ማሪክ፤ ለሰንክ፤ አሚዮስ፤ ደውረ፤ በርድ፤ ምያል፤ ማሲድንያል፤
                   አርምያል፤ አርያሚ፤ አናምያል፤ አልድያል፤ አውያል፤ ያአብ፤ ፉአማ፤ ፉያማ፤ ሰርዱር፤ መተዋዳይ፤ አራድያል፤ ረውር፤ ፋሩል፤ ፍርትከ፤ ሱሃሉ፡ ሱሃሉ፡ ሱሃሉ፨ ሚካኤል፤ ወገብርኤል፤ ሱርያል፤ ወሰድክያል፤ ሰራትያል፤ ወአናንያል፤
                   ሩፋኤል፤ አኅራጥያል፤ ወኃርማስያል፤ አቅማድያል፤ አፍዳምያል፤ አርንያንል፤ አስራም፤ 
-            <pb n="26v"/>
+            <t:pb n="26v"/>
             
                 ዚዳኦል፤ ሱሩክ፤ ምንሱክ፤ አኅብርያኖስ፤ ኪሩቤል፤ አፍናንያል፤ አትልዋ፤ ብርስትያል፤ አብርያል፤ አብራቅ፤ ራግ፤ ፍርትያል፤ ፍርፋር፤ ፋማዋዋል፤ ፋናንያል፤ ዲድያል፤ መራድክያል፤ አፍድክያል፨ ኦሥሉስ፡ ቅዱስ፡ ተማኅፀንኩ፡
                   በበአስማቲክሙ፡ ወበስመ፡ መላእክቲክሙ፡ ወካህናቲክሙ፡ ከመ፡ ኢ[ ። ]ቅረቡ፡ በየማንየ፡ ወበፀጋምየ፡ በቅድሜየ፡
                   ወበድኅሬየ፡ መናፍስተ፡ ርኩሳን፡ ወሠራዊተ፡ ዲያብሎስ፡ እኩያን፡ ኀበ፡ ሀሎኩ፡ አና፡ ገብርክሙ፡ ወልደ፡ ሚካኤል፡ ያስዮን፡ ሮድኅ፡ ሄድራ፡ ኡኡሱሲኖያክክ፡ አዮዎስ፡ ሰላስኤል፡ ሄሴዎን፡ ዴንፍስ፨ እስጤፋኖስ፡ 
-            </ab>
-         </div>
-      </body>
-   </text></TEI>
+            </t:ab>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

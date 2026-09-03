@@ -5,7 +5,7 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt xml:id="GS" corresp="https://betamasaheft.eu/team.html#GS"><resp>contributor</resp><name>Guesh Solomon</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#GS" xml:id="GS"><resp>contributor</resp><name>Guesh Solomon</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">14.7.2025 at 16:41:46</date><date type="lastModified">6.9.2022</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5673AkkonuColl/main</idno><idno type="URI">https://betamasaheft.eu/LIT5673AkkonuColl</idno><idno type="filename">LIT5673AkkonuColl.xml</idno><idno type="ID">LIT5673AkkonuColl</idno></publicationStmt>
+            <date type="expanded">3.9.2026 at 06:16:54</date><date type="lastModified">6.9.2022</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5673AkkonuColl/main</idno><idno type="URI">https://betamasaheft.eu/LIT5673AkkonuColl</idno><idno type="filename">LIT5673AkkonuColl.xml</idno><idno type="ID">LIT5673AkkonuColl</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -25,636 +25,636 @@
             
                 
             
-        <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit=" Miracle of Sophia, abbess of Mount Carmel" match="div" use="div"><desc><list><item>AkkColl25</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir25</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin25</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta25</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of three Arabs in Rīf and Salomon, abbot of Kalamon" match="div" use="div"><desc><list><item>AkkColl12</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir12</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin12</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta12</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of a picture of Mary speaking to a worker" match="div" use="div"><desc><list><item>AkkColl2</item></list></desc><citeStructure unit="&#xA;                            &#xA;                        " match="div" use="div"><desc><list><item>AkkMir2</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin2</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta2</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of a rich man from Qʷalāsis who fought the Qʷǝz and whose eye was&#xA;                        pierced by an arrow" match="div" use="div"><desc><list><item>AkkColl15</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir15</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin15</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta15</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of the Bishop of Rome, ʾAbbās (Leo)" match="div" use="div"><desc><list><item>AkkColl5</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir5</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin5</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta5</item></list></desc></citeStructure></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta34</item></list></desc></citeStructure><citeStructure unit="Miracle of the thirsty dog whom the Virgin gave water" match="div" use="div"><desc><list><item>AkkColl32</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir32</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin32</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta32</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of George the Younger, who was delivered from prison" match="div" use="div"><desc><list><item>AkkColl19</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir19</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin19</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta19</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of a widow and her poor daughters Maria, Martha, and&#xA;                        Yawāhit" match="div" use="div"><desc><list><item>AkkColl17</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir17</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin17</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta17</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of the old priest Qaṭīr at ʾƎlkǝsus (al-Khusus)" match="div" use="div"><desc><list><item>AkkColl20</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir20</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin20</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta20</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of Anastasius, a deacon of Rome" match="div" use="div"><desc><list><item>AkkColl27</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir27</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin27</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta27</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of a European man with a petrified foot" match="div" use="div"><desc><list><item>AkkColl22</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir22</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin22</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta22</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of the two scribes who were brothers" match="div" use="div"><desc><list><item>AkkColl18</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir18</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin18</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta18</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of a French painter whose scaffold was overthrown by the&#xA;                        devil" match="div" use="div"><desc><list><item>AkkColl8</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir8</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin8</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta8</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of the preservation of the Church of the Virgin in ʾAṯrīb " match="div" use="div"><desc><list><item>AkkColl33</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir33</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta33</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of a woman from Hartalom/Hartarom with broken legs" match="div" use="div"><desc><list><item>AkkColl24</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir24</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin24</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta24</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of St Mary on Yǝsḥaq" match="div" use="div"><desc><list><item>AkkColl6</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir6</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin6</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta6</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of a sick man in a hospital whom Mary carries to&#xA;                        Jerusalem" match="div" use="div"><desc><list><item>AkkColl9</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir9</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin9</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta9</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of the child girl called Mary, from Dafrā" match="div" use="div"><desc><list><item>AkkColl7</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir7</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin7</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta7</item></list></desc></citeStructure></citeStructure><citeStructure unit="Introduction to the Miracles of Mary" match="div" use="div"><desc><list><item>introduction</item></list></desc><citeStructure unit="Introductive exhortation" match="div" use="div"><desc><list><item>IntroExhortation</item></list></desc></citeStructure><citeStructure unit="Maṣḥafa śǝrʿāt" match="div" use="div"><desc><list><item>MashafaSerat</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of the construction of a church in Jericho" match="div" use="div"><desc><list><item>AkkColl13</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir13</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin13</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta13</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of the two brothers Tāg and Nazīb from Dalgā" match="div" use="div"><desc><list><item>AkkColl21</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir21</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin21</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta21</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of the scribe Damianus from Philippi" match="div" use="div"><desc><list><item>AkkColl4</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir4</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin4</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta4</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of the Phoenician evil man called Bārok" match="div" use="div"><desc><list><item>AkkColl26</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir26</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin26</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta26</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of Abraham, his wife Gerā and their blind daughter Elisabeth from&#xA;                        Badramān" match="div" use="div"><desc><list><item>AkkColl16</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir16</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin16</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta16</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of Juliana and Barbara from Bethlehem" match="div" use="div"><desc><list><item>AkkColl11</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir11</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin11</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta11</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of Hildephonsus (Dexius) of Toledo" match="div" use="div"><desc><list><item>AkkColl1</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir1</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin1</item></list></desc></citeStructure><citeStructure unit="Soba ʾaṣḥafa" match="div" use="div"><desc><list><item>tei:div[1]</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta1</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of a pregnant woman" match="div" use="div"><desc><list><item>AkkColl31</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir31</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin31</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta31</item></list></desc></citeStructure></citeStructure><citeStructure unit="title inscriptio" match="div" use="div"><desc><list><item>Title</item></list></desc></citeStructure><citeStructure unit="Miracle of a Jew of ʾAḫmīm" match="div" use="div"><desc><list><item>AkkColl3</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir3</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin3</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta3</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of a poor widow and her son who became a thief and was&#xA;                        crucified" match="div" use="div"><desc><list><item>AkkColl30</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir30</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin30</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta30</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of the blind priest John from the church of St Mercurius in&#xA;                        Cairo" match="div" use="div"><desc><list><item>AkkColl14</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir14</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin14</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta14</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of the youth Zechariah, from Rome" match="div" use="div"><desc><list><item>AkkColl10</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir10</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin10</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta10</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of a monk of the Monastery of St Samuel of Kalamon" match="div" use="div"><desc><list><item>AkkColl28</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir28</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin28</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta28</item></list></desc></citeStructure></citeStructure><citeStructure unit="The Story of a Cannibal of Qǝmr" match="div" use="div"><desc><list><item>AkkColl29</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir29</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin29</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta29</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of the leprous Bishop Mercurius" match="div" use="div"><desc><list><item>AkkColl23</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir23</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin23</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta23</item></list></desc></citeStructure></citeStructure><citeStructure unit="Miracle of Mary: Miracle of a poor monk whom Mary gave a garment" match="div" use="div"><desc><list><item>AkkColl1A</item></list></desc><citeStructure unit="Miracle" match="div" use="div"><desc><list><item>AkkMir1A</item></list></desc></citeStructure><citeStructure unit="Miniature" match="div" use="div"><desc><list><item>AkkMin1A</item></list></desc></citeStructure><citeStructure unit="ʾAkko-nu bǝʾsi stanza" match="div" use="div"><desc><list><item>AkkSta1A</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
-        <profileDesc>
-            <creation/>
-            <abstract>
-                <p>A collection of miracles of Mary which is fixed in its content and sequence in
+        <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit=" Miracle of Sophia, abbess of Mount Carmel" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir25</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin25</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta25</item></list></desc></citeStructure><desc><list><item>AkkColl25</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of three Arabs in Rīf and Salomon, abbot of Kalamon" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir12</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin12</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta12</item></list></desc></citeStructure><desc><list><item>AkkColl12</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of a picture of Mary speaking to a worker" use="@xml:id"><citeStructure match="t:div" unit="&#xA;                            &#xA;                        " use="@xml:id"><desc><list><item>AkkMir2</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin2</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta2</item></list></desc></citeStructure><desc><list><item>AkkColl2</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of a rich man from Qʷalāsis who fought the Qʷǝz and whose eye was&#xA;                        pierced by an arrow" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir15</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin15</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta15</item></list></desc></citeStructure><desc><list><item>AkkColl15</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of the Bishop of Rome, ʾAbbās (Leo)" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir5</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin5</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta5</item></list></desc></citeStructure><desc><list><item>AkkColl5</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta34</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of the thirsty dog whom the Virgin gave water" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir32</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin32</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta32</item></list></desc></citeStructure><desc><list><item>AkkColl32</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of George the Younger, who was delivered from prison" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir19</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin19</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta19</item></list></desc></citeStructure><desc><list><item>AkkColl19</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of a widow and her poor daughters Maria, Martha, and&#xA;                        Yawāhit" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir17</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin17</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta17</item></list></desc></citeStructure><desc><list><item>AkkColl17</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of the old priest Qaṭīr at ʾƎlkǝsus (al-Khusus)" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir20</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin20</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta20</item></list></desc></citeStructure><desc><list><item>AkkColl20</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of Anastasius, a deacon of Rome" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir27</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin27</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta27</item></list></desc></citeStructure><desc><list><item>AkkColl27</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of a European man with a petrified foot" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir22</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin22</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta22</item></list></desc></citeStructure><desc><list><item>AkkColl22</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of the two scribes who were brothers" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir18</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin18</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta18</item></list></desc></citeStructure><desc><list><item>AkkColl18</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of a French painter whose scaffold was overthrown by the&#xA;                        devil" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir8</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin8</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta8</item></list></desc></citeStructure><desc><list><item>AkkColl8</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of the preservation of the Church of the Virgin in ʾAṯrīb " use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir33</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta33</item></list></desc></citeStructure><desc><list><item>AkkColl33</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of a woman from Hartalom/Hartarom with broken legs" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir24</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin24</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta24</item></list></desc></citeStructure><desc><list><item>AkkColl24</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of St Mary on Yǝsḥaq" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir6</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin6</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta6</item></list></desc></citeStructure><desc><list><item>AkkColl6</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of a sick man in a hospital whom Mary carries to&#xA;                        Jerusalem" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir9</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin9</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta9</item></list></desc></citeStructure><desc><list><item>AkkColl9</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of the child girl called Mary, from Dafrā" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir7</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin7</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta7</item></list></desc></citeStructure><desc><list><item>AkkColl7</item></list></desc></citeStructure><citeStructure match="t:div" unit="Introduction to the Miracles of Mary" use="@xml:id"><citeStructure match="t:div" unit="Introductive exhortation" use="@xml:id"><desc><list><item>IntroExhortation</item></list></desc></citeStructure><citeStructure match="t:div" unit="Maṣḥafa śǝrʿāt" use="@xml:id"><desc><list><item>MashafaSerat</item></list></desc></citeStructure><desc><list><item>introduction</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of the construction of a church in Jericho" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir13</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin13</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta13</item></list></desc></citeStructure><desc><list><item>AkkColl13</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of the two brothers Tāg and Nazīb from Dalgā" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir21</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin21</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta21</item></list></desc></citeStructure><desc><list><item>AkkColl21</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of the scribe Damianus from Philippi" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir4</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin4</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta4</item></list></desc></citeStructure><desc><list><item>AkkColl4</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of the Phoenician evil man called Bārok" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir26</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin26</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta26</item></list></desc></citeStructure><desc><list><item>AkkColl26</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of Abraham, his wife Gerā and their blind daughter Elisabeth from&#xA;                        Badramān" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir16</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin16</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta16</item></list></desc></citeStructure><desc><list><item>AkkColl16</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of Juliana and Barbara from Bethlehem" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir11</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin11</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta11</item></list></desc></citeStructure><desc><list><item>AkkColl11</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of Hildephonsus (Dexius) of Toledo" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir1</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin1</item></list></desc></citeStructure><citeStructure match="t:div" unit="Soba ʾaṣḥafa" use="@xml:id"><desc><list><item>tei:t:div[1]</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta1</item></list></desc></citeStructure><desc><list><item>AkkColl1</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of a pregnant woman" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir31</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin31</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta31</item></list></desc></citeStructure><desc><list><item>AkkColl31</item></list></desc></citeStructure><citeStructure match="t:div" unit="title inscriptio" use="@subtype"><desc><list><item>Title</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of a Jew of ʾAḫmīm" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir3</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin3</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta3</item></list></desc></citeStructure><desc><list><item>AkkColl3</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of a poor widow and her son who became a thief and was&#xA;                        crucified" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir30</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin30</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta30</item></list></desc></citeStructure><desc><list><item>AkkColl30</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of the blind priest John from the church of St Mercurius in&#xA;                        Cairo" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir14</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin14</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta14</item></list></desc></citeStructure><desc><list><item>AkkColl14</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of the youth Zechariah, from Rome" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir10</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin10</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta10</item></list></desc></citeStructure><desc><list><item>AkkColl10</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of a monk of the Monastery of St Samuel of Kalamon" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir28</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin28</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta28</item></list></desc></citeStructure><desc><list><item>AkkColl28</item></list></desc></citeStructure><citeStructure match="t:div" unit="The Story of a Cannibal of Qǝmr" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir29</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin29</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta29</item></list></desc></citeStructure><desc><list><item>AkkColl29</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of the leprous Bishop Mercurius" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir23</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin23</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta23</item></list></desc></citeStructure><desc><list><item>AkkColl23</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miracle of Mary: Miracle of a poor monk whom Mary gave a garment" use="@xml:id"><citeStructure match="t:div" unit="Miracle" use="@xml:id"><desc><list><item>AkkMir1A</item></list></desc></citeStructure><citeStructure match="t:div" unit="Miniature" use="@xml:id"><desc><list><item>AkkMin1A</item></list></desc></citeStructure><citeStructure match="t:div" unit="ʾAkko-nu bǝʾsi stanza" use="@xml:id"><desc><list><item>AkkSta1A</item></list></desc></citeStructure><desc><list><item>AkkColl1A</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <t:creation/>
+            <t:abstract>
+                <t:p>A collection of miracles of Mary which is fixed in its content and sequence in
                     its manuscript transmission: after the introduction to the Miracles follow a
-                    fixed sequence of 33 miracles, each of is followed by a stanza of the <ref type="work" corresp="https://betamasaheft.eu/LIT4274AkkonuB">ʾakko-nu bǝʾsi hymn</ref>, which might
-                    be followed by a miniature illustrating the miracle.</p>
-            </abstract>
-            <textClass>
-                <keywords>
-                    <term key="Apocrypha" ana="#Apocrypha"/>
-                    <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                    <term key="Hagiography" ana="#Hagiography"/>
-                    <term key="Miracle" ana="#Miracle"/>
-                    <term key="Liturgy" ana="#Liturgy"/>
-                    <term key="Chants" ana="#Chants"/>
-                </keywords>
-            </textClass>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
-                <language ident="en">English</language>
+                    fixed sequence of 33 miracles, each of is followed by a stanza of the <t:ref type="work" corresp="https://betamasaheft.eu/LIT4274AkkonuB">ʾakko-nu bǝʾsi hymn</t:ref>, which might
+                    be followed by a miniature illustrating the miracle.</t:p>
+            </t:abstract>
+            <t:textClass>
+                <t:keywords>
+                    <t:term key="Apocrypha" ana="#Apocrypha"/>
+                    <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+                    <t:term key="Hagiography" ana="#Hagiography"/>
+                    <t:term key="Miracle" ana="#Miracle"/>
+                    <t:term key="Liturgy" ana="#Liturgy"/>
+                    <t:term key="Chants" ana="#Chants"/>
+                </t:keywords>
+            </t:textClass>
+            <t:langUsage>
+                <t:language ident="en">English</t:language>
             </t:langUsage>
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-        <revisionDesc>
-            <change who="#DR" when="2019-05-07"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
-            <change who="#GS" when="2022-09-06"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added elements on the poor monk who begs the Virgin
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <change when="2019-05-07" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2022-09-06" who="#GS"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added elements on the poor monk who begs the Virgin
                 for garment and food.</change>
-        </revisionDesc>
+        </t:revisionDesc>
     </teiHeader><standOff><listRelation>
                     <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT5673AkkonuColl" passive="https://betamasaheft.eu/LIT2384Taamme"/>
-                </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-        <body>
+                </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+        <t:body>
 
-            <div type="bibliography">
+            <t:div type="bibliography">
                 
-                <listBibl type="secondary">
-                    <bibl corresp="http://zotero.org/groups/358366/items/BJNE2DCD"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Habtemichael2003EAEAkkonu"/><title level="a">Akkonu bǝʾǝsi</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><name>Habtemichael Kidane</name></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">169b-170a</biblScope><note type="tags"><note type="tag">bm:Habtemichael2003EAEAkkonu</note></note><note type="tag">bm:Habtemichael2003EAEAkkonu</note></bibl>
-                    <bibl corresp="http://zotero.org/groups/358366/items/C2K82WJ4"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:BalickaBausi2010TM"/><title level="a">Täʾammǝrä Maryam</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Ewa</forename><surname>Balicka-Witakowska</surname></author><author><forename>Alessandro</forename><surname>Bausi</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">789b-793b</biblScope><note type="tags"><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Decoration</note><note type="tag">bm:BalickaBausi2010TM</note></note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Decoration</note><note type="tag">bm:BalickaBausi2010TM</note></bibl>
-                    <bibl corresp="http://zotero.org/groups/358366/items/BIV2AEEZ"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Balicka2010TMart"/><title level="a">Täʾammǝrä Maryam in art</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Ewa</forename><surname>Balicka-Witakowska</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">789b-795b</biblScope><note type="tags"><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Decoration</note><note type="tag">bm:Balicka2010TMart</note></note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Decoration</note><note type="tag">bm:Balicka2010TMart</note></bibl>
-                    <bibl corresp="http://zotero.org/groups/358366/items/2CM9ZMCU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Grohmann1919Marien"/><title level="m">Aethiopische Marienhymnen</title><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Adolf</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Grohmann</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Adolf</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Grohmann</t:surname></editor><pubPlace>Leipzig</pubPlace><publisher>Bei B. G. Teubner</publisher><date>1919</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</t:biblScope></series><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope><note type="url">https://digital.slub-dresden.de/werkansicht/dlf/447/9/</note><citedRange unit="page">322-382</citedRange></bibl>
-                </listBibl>
-            </div>
+                <t:listBibl type="secondary">
+                    <t:bibl corresp="http://zotero.org/groups/358366/items/BJNE2DCD"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Habtemichael2003EAEAkkonu"/><title level="a">Akkonu bǝʾǝsi</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><name>Habtemichael Kidane</name></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">169b-170a</biblScope><note type="tags"><note type="tag">bm:Habtemichael2003EAEAkkonu</note></note><note type="tag">bm:Habtemichael2003EAEAkkonu</note></t:bibl>
+                    <t:bibl corresp="http://zotero.org/groups/358366/items/C2K82WJ4"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:BalickaBausi2010TM"/><title level="a">Täʾammǝrä Maryam</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Ewa</forename><surname>Balicka-Witakowska</surname></author><author><forename>Alessandro</forename><surname>Bausi</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">789b-793b</biblScope><note type="tags"><note type="tag">Codicology</note><note type="tag">Decoration</note><note type="tag">Ethiopic</note><note type="tag">bm:BalickaBausi2010TM</note></note><note type="tag">Codicology</note><note type="tag">Decoration</note><note type="tag">Ethiopic</note><note type="tag">bm:BalickaBausi2010TM</note></t:bibl>
+                    <t:bibl corresp="http://zotero.org/groups/358366/items/BIV2AEEZ"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Balicka2010TMart"/><title level="a">Täʾammǝrä Maryam in art</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Ewa</forename><surname>Balicka-Witakowska</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">789b-795b</biblScope><note type="tags"><note type="tag">Codicology</note><note type="tag">Decoration</note><note type="tag">Ethiopic</note><note type="tag">bm:Balicka2010TMart</note></note><note type="tag">Codicology</note><note type="tag">Decoration</note><note type="tag">Ethiopic</note><note type="tag">bm:Balicka2010TMart</note></t:bibl>
+                    <t:bibl corresp="http://zotero.org/groups/358366/items/2CM9ZMCU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Grohmann1919Marien"/><title level="m">Aethiopische Marienhymnen</title><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><author><forename>Adolf</forename><surname>Grohmann</surname></author><editor><forename>Adolf</forename><surname>Grohmann</surname></editor><pubPlace>Leipzig</pubPlace><publisher>Bei B. G. Teubner</publisher><date>1919</date><series><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope></series><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope><note type="url">https://digital.slub-dresden.de/werkansicht/dlf/447/9/</note><note type="tags"><note type="tag">Hymns</note><note type="tag">Mary</note><note type="tag">bm:Grohmann1919Marien</note></note><note type="tag">Hymns</note><note type="tag">Mary</note><note type="tag">bm:Grohmann1919Marien</note><t:citedRange unit="page">322-382</t:citedRange></t:bibl>
+                </t:listBibl>
+            </t:div>
 
-            <div type="edition">
+            <t:div type="edition" xml:id="div2LIT5673AkkonuColl">
 
-                <div type="textpart" subtype="title inscriptio" xml:id="Title">
-                    <label>Title</label>
-                </div>
+                <t:div type="textpart" subtype="title inscriptio" xml:id="Title">
+                    <t:label>Title</t:label>
+                </t:div>
 
-                <div type="textpart" xml:id="introduction">
-                    <label>Introduction to the Miracles of Mary</label>
+                <t:div type="textpart" xml:id="introduction">
+                    <t:label>Introduction to the Miracles of Mary</t:label>
 
-                    <div type="textpart" xml:id="MashafaSerat" corresp="https://betamasaheft.eu/LIT1968Mashaf">
-                        <label>Maṣḥafa śǝrʿāt</label>
-                    </div>
+                    <t:div type="textpart" xml:id="MashafaSerat" corresp="https://betamasaheft.eu/LIT1968Mashaf">
+                        <t:label>Maṣḥafa śǝrʿāt</t:label>
+                    </t:div>
 
-                    <div type="textpart" xml:id="IntroExhortation" corresp="https://betamasaheft.eu/LIT3584Intro">
-                        <label>Introductive exhortation</label>
-                    </div>
-                </div>
+                    <t:div type="textpart" xml:id="IntroExhortation" corresp="https://betamasaheft.eu/LIT3584Intro">
+                        <t:label>Introductive exhortation</t:label>
+                    </t:div>
+                </t:div>
 
-                <div type="textpart" xml:id="AkkColl1">
-                    <label>Miracle of Hildephonsus (Dexius) of Toledo</label>
+                <t:div type="textpart" xml:id="AkkColl1">
+                    <t:label>Miracle of Hildephonsus (Dexius) of Toledo</t:label>
 
-                    <div type="textpart" xml:id="AkkMir1" corresp="https://betamasaheft.eu/LIT3586Miracle">
-                        <label>Miracle</label>
-                    </div>
+                    <t:div type="textpart" xml:id="AkkMir1" corresp="https://betamasaheft.eu/LIT3586Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
 
-                    <div type="textpart" corresp="https://betamasaheft.eu/LIT5052SobaAshafa">
-                        <label>Soba ʾaṣḥafa</label>
-                    </div>
+                    <t:div type="textpart" xml:id="div2div3div2LIT5673AkkonuColl" corresp="https://betamasaheft.eu/LIT5052SobaAshafa">
+                        <t:label>Soba ʾaṣḥafa</t:label>
+                    </t:div>
 
-                    <div type="textpart" xml:id="AkkSta1" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza1">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
+                    <t:div type="textpart" xml:id="AkkSta1" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza1">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
 
-                    <div type="textpart" xml:id="AkkMin1" corresp="https://betamasaheft.eu/AT1108MMDaqseyos">
-                        <label>Miniature</label>
-                    </div>
-                </div>
+                    <t:div type="textpart" xml:id="AkkMin1" corresp="https://betamasaheft.eu/AT1108MMDaqseyos">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
 
-                <div type="textpart" xml:id="AkkColl1A">
-                    <label>Miracle of Mary: Miracle of a poor monk whom Mary gave a garment</label>
-                    <note> The narration about the poor monk does not appear in most manuscripts but
+                <t:div type="textpart" xml:id="AkkColl1A">
+                    <t:label>Miracle of Mary: Miracle of a poor monk whom Mary gave a garment</t:label>
+                    <t:note> The narration about the poor monk does not appear in most manuscripts but
                         only occurs as the first (sometimes as the second) narration in a few
-                        manuscripts. </note>
-                    <div type="textpart" xml:id="AkkMir1A" corresp="https://betamasaheft.eu/LIT3587Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-
-                    <div type="textpart" xml:id="AkkSta1A" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza1">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin1A" corresp="https://betamasaheft.eu/AT1145MMGarment">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl2">
-                    <label>Miracle of a picture of Mary speaking to a worker</label>
-
-                    <div type="textpart" xml:id="AkkMir2" corresp="https://betamasaheft.eu/LIT3588Miracle">
-                        <label>
-                            <ref type="work" corresp="https://betamasaheft.eu/LIT3588Miracle">Miracle of Mary: Miracle of a picture of Mary speaking to a
-          worker</ref>
-                        </label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta2" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza2">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin2" corresp="https://betamasaheft.eu/AT1109MMWorker">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl3">
-                    <label>Miracle of a Jew of ʾAḫmīm</label>
-
-                    <div type="textpart" xml:id="AkkMir3" corresp="https://betamasaheft.eu/LIT3589Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta3" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza3">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin3" corresp="https://betamasaheft.eu/AT1110MMJew">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl4">
-                    <label>Miracle of the scribe Damianus from Philippi</label>
-
-                    <div type="textpart" xml:id="AkkMir4" corresp="https://betamasaheft.eu/LIT3590Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta4" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza4">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin4" corresp="https://betamasaheft.eu/AT1111MMDamianus">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl5">
-                    <label>Miracle of the Bishop of Rome, ʾAbbās (Leo)</label>
-
-                    <div type="textpart" xml:id="AkkMir5" corresp="https://betamasaheft.eu/LIT3591Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta5" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza5">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin5" corresp="https://betamasaheft.eu/AT1112MMAbbas">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl6">
-                    <label>Miracle of St Mary on Yǝsḥaq</label>
-                    <div type="textpart" xml:id="AkkMir6" corresp="https://betamasaheft.eu/LIT3592Miracle">
-                        <label>Miracle</label>
-                    </div>
-                    <div type="textpart" xml:id="AkkSta6" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza6">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin6" corresp="https://betamasaheft.eu/AT1113MMYeshaq">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl7">
-                    <label>Miracle of the child girl called Mary, from Dafrā</label>
-
-                    <div type="textpart" xml:id="AkkMir7" corresp="https://betamasaheft.eu/LIT3593Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta7" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza7">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-                    <div type="textpart" xml:id="AkkMin7" corresp="https://betamasaheft.eu/AT1114MMMaryam">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl8">
-                    <label>Miracle of a French painter whose scaffold was overthrown by the
-                        devil</label>
-
-                    <div type="textpart" xml:id="AkkMir8" corresp="https://betamasaheft.eu/LIT3594Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta8" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza8">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin8" corresp="https://betamasaheft.eu/AT1115MMFrenchman">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl9">
-                    <label>Miracle of a sick man in a hospital whom Mary carries to
-                        Jerusalem</label>
-
-                    <div type="textpart" xml:id="AkkMir9" corresp="https://betamasaheft.eu/LIT3595Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta9" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza9">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin9" corresp="https://betamasaheft.eu/AT1116MMJerusalem">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl10">
-                    <label>Miracle of the youth Zechariah, from Rome</label>
-
-                    <div type="textpart" xml:id="AkkMir10" corresp="https://betamasaheft.eu/LIT3596Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta10" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza10">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin10" corresp="https://betamasaheft.eu/AT1117MMZakaryas">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl11">
-                    <label>Miracle of Juliana and Barbara from Bethlehem</label>
-
-                    <div type="textpart" xml:id="AkkMir11" corresp="https://betamasaheft.eu/LIT3597Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta11" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza11">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin11" corresp="https://betamasaheft.eu/AT1118MMYolyana">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl12">
-                    <label>Miracle of three Arabs in Rīf and Salomon, abbot of Kalamon</label>
-
-                    <div type="textpart" xml:id="AkkMir12" corresp="https://betamasaheft.eu/LIT3598Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta12" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza12">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin12" corresp="https://betamasaheft.eu/AT1119MMArabs">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl13">
-                    <label>Miracle of the construction of a church in Jericho</label>
-
-                    <div type="textpart" xml:id="AkkMir13" corresp="https://betamasaheft.eu/LIT3599Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta13" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza13">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin13" corresp="https://betamasaheft.eu/AT1120MMSea">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl14">
-                    <label>Miracle of the blind priest John from the church of St Mercurius in
-                        Cairo</label>
-
-                    <div type="textpart" xml:id="AkkMir14" corresp="https://betamasaheft.eu/LIT3600Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta14" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza14">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin14" corresp="https://betamasaheft.eu/AT1121MMYohannes">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl15">
-                    <label>Miracle of a rich man from Qʷalāsis who fought the Qʷǝz and whose eye was
-                        pierced by an arrow</label>
-
-                    <div type="textpart" xml:id="AkkMir15" corresp="https://betamasaheft.eu/LIT3601Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta15" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza15">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin15" corresp="https://betamasaheft.eu/AT1122MMGreek">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl16">
-                    <label>Miracle of Abraham, his wife Gerā and their blind daughter Elisabeth from
-                        Badramān</label>
-
-                    <div type="textpart" xml:id="AkkMir16" corresp="https://betamasaheft.eu/LIT3602Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta16" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza16">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin16" corresp="https://betamasaheft.eu/AT1123MMElsabet">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl17">
-                    <label>Miracle of a widow and her poor daughters Maria, Martha, and
-                        Yawāhit</label>
-
-                    <div type="textpart" xml:id="AkkMir17" corresp="https://betamasaheft.eu/LIT3603Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta17" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza17">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin17" corresp="https://betamasaheft.eu/AT1124MMWidow">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl18">
-                    <label>Miracle of the two scribes who were brothers</label>
-
-                    <div type="textpart" xml:id="AkkMir18" corresp="https://betamasaheft.eu/LIT3604Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta18" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza18">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin18" corresp="https://betamasaheft.eu/AT1125MMScribes">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl19">
-                    <label>Miracle of George the Younger, who was delivered from prison</label>
-
-                    <div type="textpart" xml:id="AkkMir19" corresp="https://betamasaheft.eu/LIT3605Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta19" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza19">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin19" corresp="https://betamasaheft.eu/AT1126MMGiyorgis">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl20">
-                    <label>Miracle of the old priest Qaṭīr at ʾƎlkǝsus (al-Khusus)</label>
-
-                    <div type="textpart" xml:id="AkkMir20" corresp="https://betamasaheft.eu/LIT3606Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta20" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza20">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin20" corresp="https://betamasaheft.eu/AT1127MMQatir">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl21">
-                    <label>Miracle of the two brothers Tāg and Nazīb from Dalgā</label>
-
-                    <div type="textpart" xml:id="AkkMir21" corresp="https://betamasaheft.eu/LIT3607Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta21" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza21">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin21" corresp="https://betamasaheft.eu/AT1128MMDyers">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl22">
-                    <label>Miracle of a European man with a petrified foot</label>
-
-                    <div type="textpart" xml:id="AkkMir22" corresp="https://betamasaheft.eu/LIT3608Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta22" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza22">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin22" corresp="https://betamasaheft.eu/AT1129MMFrank">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl23">
-                    <label>Miracle of the leprous Bishop Mercurius</label>
-
-                    <div type="textpart" xml:id="AkkMir23" corresp="https://betamasaheft.eu/LIT3609Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta23" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza23">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin23" corresp="https://betamasaheft.eu/AT1130MMMarqorewos">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl24">
-                    <label>Miracle of a woman from Hartalom/Hartarom with broken legs</label>
-
-                    <div type="textpart" xml:id="AkkMir24" corresp="https://betamasaheft.eu/LIT3610Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta24" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza24">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin24" corresp="https://betamasaheft.eu/AT1131MMWoman">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl25">
-                    <label> Miracle of Sophia, abbess of Mount Carmel</label>
-
-                    <div type="textpart" xml:id="AkkMir25" corresp="https://betamasaheft.eu/LIT3611Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta25" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza25">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin25" corresp="https://betamasaheft.eu/AT1132MMSophia">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl26">
-                    <label>Miracle of the Phoenician evil man called Bārok</label>
-
-                    <div type="textpart" xml:id="AkkMir26" corresp="https://betamasaheft.eu/LIT3612Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta26" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza26">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin26" corresp="https://betamasaheft.eu/AT1133MMBarok">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl27">
-                    <label>Miracle of Anastasius, a deacon of Rome</label>
-
-                    <div type="textpart" xml:id="AkkMir27" corresp="https://betamasaheft.eu/LIT3613Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta27" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza27">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin27" corresp="https://betamasaheft.eu/AT1134MMAnestasyos">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl28">
-                    <label>Miracle of a monk of the Monastery of St Samuel of Kalamon</label>
-
-                    <div type="textpart" xml:id="AkkMir28" corresp="https://betamasaheft.eu/LIT3614Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta28" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza28">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin28" corresp="https://betamasaheft.eu/AT1135MMSalusi">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl29">
-                    <label>The Story of a Cannibal of Qǝmr</label>
-
-                    <div type="textpart" xml:id="AkkMir29" corresp="https://betamasaheft.eu/LIT3615Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta29" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza29">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin29" corresp="https://betamasaheft.eu/AT1136MMCannibal">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl30">
-                    <label>Miracle of a poor widow and her son who became a thief and was
-                        crucified</label>
-
-                    <div type="textpart" xml:id="AkkMir30" corresp="https://betamasaheft.eu/LIT3692Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta30" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza30">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin30" corresp="https://betamasaheft.eu/AT1137MMThief">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl31">
-                    <label>Miracle of a pregnant woman</label>
-
-                    <div type="textpart" xml:id="AkkMir31" corresp="https://betamasaheft.eu/LIT3617Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta31" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza31">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin31" corresp="https://betamasaheft.eu/AT1138MMFlood">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl32">
-                    <label>Miracle of the thirsty dog whom the Virgin gave water</label>
-
-                    <div type="textpart" xml:id="AkkMir32" corresp="https://betamasaheft.eu/LIT3618Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta32" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza32">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkMin32" corresp="https://betamasaheft.eu/AT1139MMDog">
-                        <label>Miniature</label>
-                    </div>
-                </div>
-
-                <div type="textpart" xml:id="AkkColl33">
-                    <label>Miracle of the preservation of the Church of the Virgin in ʾAṯrīb </label>
-
-                    <div type="textpart" xml:id="AkkMir33" corresp="https://betamasaheft.eu/LIT3619Miracle">
-                        <label>Miracle</label>
-                    </div>
-
-                    <div type="textpart" xml:id="AkkSta33" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza33">
-                        <label>ʾAkko-nu bǝʾsi stanza</label>
-                    </div>
-                </div>
+                        manuscripts. </t:note>
+                    <t:div type="textpart" xml:id="AkkMir1A" corresp="https://betamasaheft.eu/LIT3587Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+
+                    <t:div type="textpart" xml:id="AkkSta1A" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza1">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin1A" corresp="https://betamasaheft.eu/AT1145MMGarment">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl2">
+                    <t:label>Miracle of a picture of Mary speaking to a worker</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir2" corresp="https://betamasaheft.eu/LIT3588Miracle">
+                        <t:label>
+                            <t:ref type="work" corresp="https://betamasaheft.eu/LIT3588Miracle">Miracle of Mary: Miracle of a picture of Mary speaking to a
+        worker</t:ref>
+                        </t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta2" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza2">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin2" corresp="https://betamasaheft.eu/AT1109MMWorker">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl3">
+                    <t:label>Miracle of a Jew of ʾAḫmīm</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir3" corresp="https://betamasaheft.eu/LIT3589Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta3" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza3">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin3" corresp="https://betamasaheft.eu/AT1110MMJew">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl4">
+                    <t:label>Miracle of the scribe Damianus from Philippi</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir4" corresp="https://betamasaheft.eu/LIT3590Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta4" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza4">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin4" corresp="https://betamasaheft.eu/AT1111MMDamianus">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl5">
+                    <t:label>Miracle of the Bishop of Rome, ʾAbbās (Leo)</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir5" corresp="https://betamasaheft.eu/LIT3591Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta5" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza5">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin5" corresp="https://betamasaheft.eu/AT1112MMAbbas">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl6">
+                    <t:label>Miracle of St Mary on Yǝsḥaq</t:label>
+                    <t:div type="textpart" xml:id="AkkMir6" corresp="https://betamasaheft.eu/LIT3592Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+                    <t:div type="textpart" xml:id="AkkSta6" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza6">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin6" corresp="https://betamasaheft.eu/AT1113MMYeshaq">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl7">
+                    <t:label>Miracle of the child girl called Mary, from Dafrā</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir7" corresp="https://betamasaheft.eu/LIT3593Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta7" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza7">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+                    <t:div type="textpart" xml:id="AkkMin7" corresp="https://betamasaheft.eu/AT1114MMMaryam">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl8">
+                    <t:label>Miracle of a French painter whose scaffold was overthrown by the
+                        devil</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir8" corresp="https://betamasaheft.eu/LIT3594Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta8" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza8">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin8" corresp="https://betamasaheft.eu/AT1115MMFrenchman">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl9">
+                    <t:label>Miracle of a sick man in a hospital whom Mary carries to
+                        Jerusalem</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir9" corresp="https://betamasaheft.eu/LIT3595Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta9" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza9">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin9" corresp="https://betamasaheft.eu/AT1116MMJerusalem">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl10">
+                    <t:label>Miracle of the youth Zechariah, from Rome</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir10" corresp="https://betamasaheft.eu/LIT3596Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta10" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza10">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin10" corresp="https://betamasaheft.eu/AT1117MMZakaryas">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl11">
+                    <t:label>Miracle of Juliana and Barbara from Bethlehem</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir11" corresp="https://betamasaheft.eu/LIT3597Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta11" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza11">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin11" corresp="https://betamasaheft.eu/AT1118MMYolyana">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl12">
+                    <t:label>Miracle of three Arabs in Rīf and Salomon, abbot of Kalamon</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir12" corresp="https://betamasaheft.eu/LIT3598Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta12" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza12">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin12" corresp="https://betamasaheft.eu/AT1119MMArabs">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl13">
+                    <t:label>Miracle of the construction of a church in Jericho</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir13" corresp="https://betamasaheft.eu/LIT3599Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta13" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza13">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin13" corresp="https://betamasaheft.eu/AT1120MMSea">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl14">
+                    <t:label>Miracle of the blind priest John from the church of St Mercurius in
+                        Cairo</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir14" corresp="https://betamasaheft.eu/LIT3600Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta14" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza14">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin14" corresp="https://betamasaheft.eu/AT1121MMYohannes">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl15">
+                    <t:label>Miracle of a rich man from Qʷalāsis who fought the Qʷǝz and whose eye was
+                        pierced by an arrow</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir15" corresp="https://betamasaheft.eu/LIT3601Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta15" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza15">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin15" corresp="https://betamasaheft.eu/AT1122MMGreek">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl16">
+                    <t:label>Miracle of Abraham, his wife Gerā and their blind daughter Elisabeth from
+                        Badramān</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir16" corresp="https://betamasaheft.eu/LIT3602Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta16" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza16">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin16" corresp="https://betamasaheft.eu/AT1123MMElsabet">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl17">
+                    <t:label>Miracle of a widow and her poor daughters Maria, Martha, and
+                        Yawāhit</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir17" corresp="https://betamasaheft.eu/LIT3603Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta17" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza17">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin17" corresp="https://betamasaheft.eu/AT1124MMWidow">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl18">
+                    <t:label>Miracle of the two scribes who were brothers</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir18" corresp="https://betamasaheft.eu/LIT3604Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta18" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza18">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin18" corresp="https://betamasaheft.eu/AT1125MMScribes">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl19">
+                    <t:label>Miracle of George the Younger, who was delivered from prison</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir19" corresp="https://betamasaheft.eu/LIT3605Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta19" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza19">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin19" corresp="https://betamasaheft.eu/AT1126MMGiyorgis">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl20">
+                    <t:label>Miracle of the old priest Qaṭīr at ʾƎlkǝsus (al-Khusus)</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir20" corresp="https://betamasaheft.eu/LIT3606Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta20" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza20">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin20" corresp="https://betamasaheft.eu/AT1127MMQatir">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl21">
+                    <t:label>Miracle of the two brothers Tāg and Nazīb from Dalgā</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir21" corresp="https://betamasaheft.eu/LIT3607Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta21" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza21">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin21" corresp="https://betamasaheft.eu/AT1128MMDyers">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl22">
+                    <t:label>Miracle of a European man with a petrified foot</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir22" corresp="https://betamasaheft.eu/LIT3608Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta22" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza22">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin22" corresp="https://betamasaheft.eu/AT1129MMFrank">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl23">
+                    <t:label>Miracle of the leprous Bishop Mercurius</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir23" corresp="https://betamasaheft.eu/LIT3609Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta23" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza23">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin23" corresp="https://betamasaheft.eu/AT1130MMMarqorewos">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl24">
+                    <t:label>Miracle of a woman from Hartalom/Hartarom with broken legs</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir24" corresp="https://betamasaheft.eu/LIT3610Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta24" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza24">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin24" corresp="https://betamasaheft.eu/AT1131MMWoman">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl25">
+                    <t:label> Miracle of Sophia, abbess of Mount Carmel</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir25" corresp="https://betamasaheft.eu/LIT3611Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta25" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza25">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin25" corresp="https://betamasaheft.eu/AT1132MMSophia">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl26">
+                    <t:label>Miracle of the Phoenician evil man called Bārok</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir26" corresp="https://betamasaheft.eu/LIT3612Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta26" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza26">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin26" corresp="https://betamasaheft.eu/AT1133MMBarok">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl27">
+                    <t:label>Miracle of Anastasius, a deacon of Rome</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir27" corresp="https://betamasaheft.eu/LIT3613Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta27" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza27">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin27" corresp="https://betamasaheft.eu/AT1134MMAnestasyos">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl28">
+                    <t:label>Miracle of a monk of the Monastery of St Samuel of Kalamon</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir28" corresp="https://betamasaheft.eu/LIT3614Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta28" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza28">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin28" corresp="https://betamasaheft.eu/AT1135MMSalusi">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl29">
+                    <t:label>The Story of a Cannibal of Qǝmr</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir29" corresp="https://betamasaheft.eu/LIT3615Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta29" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza29">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin29" corresp="https://betamasaheft.eu/AT1136MMCannibal">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl30">
+                    <t:label>Miracle of a poor widow and her son who became a thief and was
+                        crucified</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir30" corresp="https://betamasaheft.eu/LIT3692Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta30" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza30">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin30" corresp="https://betamasaheft.eu/AT1137MMThief">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl31">
+                    <t:label>Miracle of a pregnant woman</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir31" corresp="https://betamasaheft.eu/LIT3617Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta31" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza31">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin31" corresp="https://betamasaheft.eu/AT1138MMFlood">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl32">
+                    <t:label>Miracle of the thirsty dog whom the Virgin gave water</t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir32" corresp="https://betamasaheft.eu/LIT3618Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta32" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza32">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkMin32" corresp="https://betamasaheft.eu/AT1139MMDog">
+                        <t:label>Miniature</t:label>
+                    </t:div>
+                </t:div>
+
+                <t:div type="textpart" xml:id="AkkColl33">
+                    <t:label>Miracle of the preservation of the Church of the Virgin in ʾAṯrīb </t:label>
+
+                    <t:div type="textpart" xml:id="AkkMir33" corresp="https://betamasaheft.eu/LIT3619Miracle">
+                        <t:label>Miracle</t:label>
+                    </t:div>
+
+                    <t:div type="textpart" xml:id="AkkSta33" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza33">
+                        <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                    </t:div>
+                </t:div>
 
                 
 
 
-                <div type="textpart" xml:id="AkkSta34" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza34">
-                    <label>ʾAkko-nu bǝʾsi stanza</label>
-                </div>
+                <t:div type="textpart" xml:id="AkkSta34" corresp="https://betamasaheft.eu/LIT4274AkkonuB#Stanza34">
+                    <t:label>ʾAkko-nu bǝʾsi stanza</t:label>
+                </t:div>
 
-            </div>
-        </body>
-    </text></TEI>
+            </t:div>
+        </t:body>
+    </t:text></TEI>

@@ -1,9 +1,7 @@
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus4" type="work">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:id="corpus4"><teiHeader>
       <fileDesc>
-        <!--INFORMATION ON THE ELECTRONIC EDITION-->
-        <titleStmt>
+        
+        <titleStmt><title type="full">Archives de Ṭānā Qirqos</title>
           <title>Archives de  Ṭānā Qirqos</title>
           <principal>
             <persName>
@@ -29,7 +27,7 @@
               <surname>Burnard</surname>
             </persName>
           </respStmt>
-        </titleStmt>
+        <respStmt corresp="https://betamasaheft.eu/team.html#AW" xml:id="AW"><resp>contributor</resp><name>Andreas Wetter</name></respStmt></titleStmt>
         <editionStmt xml:id="editionStmt4" xml:lang="fra">
           <p>test</p>
         </editionStmt>
@@ -40,19 +38,17 @@
             <postCode>45071 Orléans</postCode>
             <name n="F">France</name>
           </address>
-        </publicationStmt>
+        <date type="expanded">3.9.2026 at 10:45:21</date><date type="lastModified">19.7.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/corpus4/main</idno><idno type="URI">https://betamasaheft.eu/corpus4</idno><idno type="filename">corpus4.xml</idno><idno type="ID">corpus4</idno></publicationStmt>
         <sourceDesc>
-          <!--DESCRIPTION OF THE MANUSCRIPT-->
+          
           <p/>
         </sourceDesc>
       </fileDesc>
       <revisionDesc>
-        <change when="2017-07-19" who="AW">Création du fichier xml</change>
+        <change when="2017-07-19" who="#AW"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Création du fichier xml</change>
       </revisionDesc>
-    </teiHeader>     
-  <text>
+    </teiHeader><text>
     <body>
       <p/>
     </body>
-  </text>
-  </TEI>
+  </text></TEI>

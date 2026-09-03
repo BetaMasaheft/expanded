@@ -3,9 +3,9 @@
          <titleStmt><title type="full">Sinai Peninsula, Saint Catherine’s Monastery Sinai, Sinai Ethiopic 5</title>
             <title>Maṣḥafa saʿātāt (unidentified version) and prayers</title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
@@ -16,7 +16,7 @@
             under the Creative Commons Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">9.4.2025 at 15:48:23</date><date type="lastModified">24.1.2023</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/SinaiEt005/main</idno><idno type="URI">https://betamasaheft.eu/SinaiEt005</idno><idno type="filename">SinaiEt005.xml</idno><idno type="ID">SinaiEt005</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 10:08:46</date><date type="lastModified">24.1.2023</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/SinaiEt005/main</idno><idno type="URI">https://betamasaheft.eu/SinaiEt005</idno><idno type="filename">SinaiEt005.xml</idno><idno type="ID">SinaiEt005</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
               <msIdentifier>
@@ -41,7 +41,7 @@
                         <height>170</height>
                         <width>122</width>
                         <depth>45</depth>
-                      </dimensions>
+                      </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="170" unit="mm"/><width quantity="122" unit="mm"/><depth quantity="45" unit="mm"/></dimensions>
                     </extent>
                     <foliation>Foliation in the upper outer corner.</foliation>
                     <collation>
@@ -135,7 +135,7 @@
                   <recordHist>
                     <source>
                       <listBibl type="catalogue">
-                        <bibl corresp="http://zotero.org/groups/358366/items/RKQ8N7BF"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Kamil1957Sinai"/><title level="a">Les manuscrits éthiopiens du Sinaï</title><title level="j">Annales d’Éthiopie</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Murad</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Kamil</t:surname></author><date>1957</date><biblScope unit="volume">2</biblScope><biblScope unit="page">83-90</biblScope><note type="url">https://www.persee.fr/doc/ethio_0066-2127_1957_num_2_1_1260</note><citedRange unit="page">88</citedRange></bibl>
+                        <bibl><ptr target="bm:Kamil1957Sinai"/><citedRange unit="page">88</citedRange></bibl>
                       </listBibl>
                     </source>
                   </recordHist>
@@ -156,23 +156,23 @@
                       
                    <msItem xml:id="p1_i1.1">
                         <locus target="#1ra"/>
-                        <title type="incomplete" ref="https://betamasaheft.eu/LIT2000Mazmur#Ps112">Mazmura Dāwit, Psalmus 112</title>
+                        <title type="incomplete" ref="https://betamasaheft.eu/LIT2000Mazmur#Ps112">Psalms of David: Psalmus 112</title>
                         <note>The beginning is missing.</note>
                       </msItem>
                       
                    <msItem xml:id="p1_i1.2">
                         <locus from="1ra" to="1va"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT2000Mazmur#Ps121">Mazmura Dāwit, Psalmus 121</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT2000Mazmur#Ps121">Psalms of David: Psalmus 121</title>
                       </msItem>
                       
                    <msItem xml:id="p1_i1.3">
                         <locus from="1va" to="1vb"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT2000Mazmur#Ps14">Mazmura Dāwit, Psalmus 14</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT2000Mazmur#Ps14">Psalms of David: Psalmus 14</title>
                       </msItem>
                       
                    <msItem xml:id="p1_i1.4">
                         <locus from="1vb" to="2va"/>
-                        <title type="incomplete" ref="https://betamasaheft.eu/LIT2000Mazmur#Ps118">Mazmura Dāwit, Psalmus 118</title>
+                        <title type="incomplete" ref="https://betamasaheft.eu/LIT2000Mazmur#Ps118">Psalms of David: Psalmus 118</title>
                         <note>Verses 1-24.</note>
                       </msItem>
                       
@@ -324,7 +324,7 @@
                           <dimensions type="leaf" unit="mm" xml:id="leafdim">
                             <height>165</height>
                             <width>118</width>
-                          </dimensions>
+                          </dimensions><dimensions subtype="computed" unit="mm" type="leaf"><height quantity="165" unit="mm"/><width quantity="118" unit="mm"/></dimensions>
                           <note corresp="#leafdim">Data on leaves dimensions taken from <locus target="#25r"/>.</note>
                         </extent>
                         <condition key="good"/>
@@ -339,26 +339,26 @@
                              <dimensions unit="mm" xml:id="textarea">
                                <height>130</height>
                                <width>88</width>
-                             </dimensions>
+                             </dimensions><dimensions subtype="computed" unit="mm"><height quantity="130" unit="mm"/><width quantity="88" unit="mm"/></dimensions>
                              <dimensions type="margin" unit="mm" xml:id="margin">
                                <dim type="top">17</dim>
                                <dim type="bottom">20</dim>
                                <dim type="right">24</dim>
                                <dim type="left">5</dim>
                                <dim type="intercolumn">12</dim>
-                             </dimensions>
+                             </dimensions><dimensions subtype="computed" unit="mm" type="margin"><dim type="top" quantity="17" unit="mm"/><dim type="bottom" quantity="20" unit="mm"/><dim type="right" quantity="24" unit="mm"/><dim type="left" quantity="5" unit="mm"/><dim type="intercolumn" quantity="12" unit="mm"/></dimensions>
                              <ab type="ruling" subtype="pattern">1A-1A-1A1A/0-0/0-0/C</ab>
                              <ab type="pricking">Vertical and horizontal pricks are visible. Horizontal pricks are located close to the outer vertical ruled line.
                              Vertical pricks are located next to the written text.</ab>
                              <ab type="ruling">Ruling is visible. The upper line is written below the ruling, the lower line is written above the ruling.</ab>
-                           </layout>
+                           </layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="25"/></layout>
                      </layoutDesc>
                   </objectDesc>
                  
 <handDesc>
                      <handNote xml:id="h1" script="Ethiopic">
                        <seg type="script"><date>Second half of the 13th/first half of the 14th-century</date> script.</seg> 
-                       <date notBefore="1350" notAfter="1449"/>
+                       <date notBefore="1250" notAfter="1349"/>
                         <seg type="ink">Black, red.</seg>
                        <seg type="rubrication">One to three lines at the beginning of prayers, sometimes alternating with black lines; 
                          every second character, alternating with black characters, of the beginning of the prayer on <locus target="#101rb"/>
@@ -382,9 +382,9 @@
     
     <item xml:id="e2">
       <locus target="#57va #76vb"/>
-      <desc>The name <persName ref="https://betamasaheft.eu/PRS13957Qalementos">Qalemǝnṭos</persName>, possibly identical with a person of the same name attested in
-        <ref type="mss" corresp="https://betamasaheft.eu/SinaiEt004">Sinai Peninsula, Saint Catherine’s Monastery Sinai, Sinai Ethiopic 4</ref> and <ref type="mss" corresp="https://betamasaheft.eu/SinaiEt006">Sinai Peninsula, Saint Catherine’s Monastery Sinai, Sinai Ethiopic 6</ref>,
-        is mentioned in supplications within the main body of the text.</desc>
+      <desc><persName ref="https://betamasaheft.eu/PRS13949Qalamentos">Qalemanṭos</persName> mentioned in the supplicthetions 
+        unlikely refers to the person of the same name (<persName ref="https://betamasaheft.eu/PRS13957Qalementos">Qalemǝnṭos</persName>) attested in
+        <ref type="mss" corresp="https://betamasaheft.eu/SinaiEt004">Sinai Peninsula, Saint Catherine’s Monastery Sinai, Sinai Ethiopic 4</ref> and <ref type="mss" corresp="https://betamasaheft.eu/SinaiEt006">Sinai Peninsula, Saint Catherine’s Monastery Sinai, Sinai Ethiopic 6</ref>.</desc>
     </item>
     
     <item xml:id="a1">
@@ -393,6 +393,7 @@
       ወረሀ፡ ታሕሳስ፡ እም ፲
       ገብዐከ</q>
     </item>
+    
     
     <item xml:id="a2">
       <locus target="#112v"/>
@@ -410,20 +411,19 @@
     <item xml:id="a4">
       <locus target="#112v"/>
       <desc>Note in faded ink in the left margin, only partly visible.</desc>
-      <q xml:lang="gez">ዕምሰሙ
-      <gap reason="illegible"/>ታሕሳስ</q>
+      <q xml:lang="gez">ዕምሰሙ<gap reason="illegible"/>ታሕሳስ</q>
     </item>
     
     <item xml:id="a5">
       <locus target="#112v"/>
-      <desc>List of numbers under Gǝnbot and Sane.</desc>
-      <q xml:lang="gez"/>
+      <desc type="GuestText"><title type="incomplete" ref="https://betamasaheft.eu/LIT5996ComputHours">Computation of the hours: shadow tables for the months Gǝnbot and Sane</title></desc>
+     
     </item>
     
     <item xml:id="a6">
       <locus target="#112v"/>
       <desc>Possibly pen trial, the characters መ and እ are repeated in several orders.</desc>
-      <q xml:lang="gez"/>
+  
     </item>
     
     <item xml:id="a7">
@@ -434,13 +434,13 @@
     
     <item xml:id="a8">
       <locus target="#112v"/>
-      <desc>Prayer.</desc>
-      <q xml:lang="gez"/>
+      <desc>Prayer, the same as in Additional note 9, written in a different, better hand, ending ex abrupto</desc>
+      <q xml:lang="gez">እግዚእየ፡ ወአምላክየ፡ ኢየሱስ፡ ክርስቶስ፡ ወልደ፡ እግዚአ፡ ብሔር፡ ሕያው፡ ዘእምኃቤሁ፡ ኵሉ፡ ሃብት፡ ወሠናያት፡ አበ፡ ብርሃና</q>
     </item>
     
     <item xml:id="a9">
       <locus target="#112v"/>
-      <desc>Prayer in faded ink (beginning identical as above).</desc>
+      <desc>Prayer in faded ink (beginning identical as above), written in a crude hand.</desc>
       <q xml:lang="gez">እግዚእየ፡ ወአምላክየ፡ ኢየሱስ፡ ክርስቶስ፡ ወልደ፡ እግዚአ፡ ብሔር፡ ሕያው፡ ዘእምኃቤሁ፡ ኵሉ፡ ሃብት፡ ወሠናያት፡ አበ፡ ብርሃናት፡ ዘይሁብ፡
         <gap reason="illegible" unit="chars" quantity="2"/>ለኅሩያኒሁ<gap reason="illegible" unit="chars" quantity="2"/>ምላእ፡ ላዕሌነ
       </q>
@@ -467,8 +467,10 @@
                     <title type="incomplete" ref="https://betamasaheft.eu/LIT6803SupplPrayer">Supplicative Prayer</title>
                     <textLang mainLang="gez"/>
                     <note>The beginning is missing.</note>
-                    <incipit xml:lang="gez"><locus target="#113ra"/>ክ፡ ትመልአክ፡ ዘበ፡ ቃል፡ ነባበ፡ ወበመንፈስ፡ መንፈስ፡ ዘበወልድ፡ በአምላክ፡ አምላክ፡ ዘበዓለም፡ አሜን፡ ፍሥሓ፡ እስመ፡ ውእቱ፡ ዘኖሐ፡ ኀደፈ፡ ወአብርሃምሃ፡ መርሐ፡</incipit>
-                    <explicit xml:lang="gez"><locus from="115ra" to="115rb"/>ወኵልነ፡ እንከ፡ በአተነ፡ ወፀአተነ፡ ውስተዝ፡ ቤት፡ በሰላም፡ ዕቀብ፡ በአሐቶ፡ ወልደ<cb n="b"/>ከ፡ ዘቦቱ፡ ለከ፡
+                    <incipit xml:lang="gez">
+                      <locus target="#113ra"/>ክ፡ ትመልአክ፡ ዘበ፡ ቃል፡ ነባበ፡ ወበመንፈስ፡ መንፈስ፡ ዘበወልድ፡ በአምላክ፡ አምላክ፡ ዘበዓለም፡ አሜን፡ ፍሥሓ፡ እስመ፡ ውእቱ፡ ዘኖሐ፡ ኀደፈ፡ ወአብርሃምሃ፡ መርሐ፡</incipit>
+                    <explicit xml:lang="gez">
+                      <locus from="115ra" to="115rb"/>ወኵልነ፡ እንከ፡ በአተነ፡ ወፀአተነ፡ ውስተዝ፡ ቤት፡ በሰላም፡ ዕቀብ፡ በአሐቶ፡ ወልደ<cb n="b"/>ከ፡ ዘቦቱ፡ ለከ፡
                     ምስሌሆ፡ ወምስለ፡ ቅዱስ፡ መንፈስ፡ ስብሐት፡ ወእኂዝ፡</explicit>
                   </msItem>
                   
@@ -477,6 +479,7 @@
                     <title type="incomplete" ref="https://betamasaheft.eu/LIT3308Nicene">Nicene Creed</title>
                     <textLang mainLang="gez"/>
                     <note>The end is missing.</note>
+                    
                   </msItem>
                   
                 </msContents>
@@ -502,14 +505,14 @@
                         <dimensions unit="mm" xml:id="textarea2">
                           <height>120</height>
                           <width>87</width>
-                        </dimensions>
+                        </dimensions><dimensions subtype="computed" unit="mm"><height quantity="120" unit="mm"/><width quantity="87" unit="mm"/></dimensions>
                         <dimensions type="margin" unit="mm" xml:id="margin2">
                           <dim type="top">22</dim>
                           <dim type="bottom">20</dim>
                           <dim type="right">19</dim>
                           <dim type="left">12</dim>
                           <dim type="intercolumn">9</dim>
-                        </dimensions>
+                        </dimensions><dimensions subtype="computed" unit="mm" type="margin"><dim type="top" quantity="22" unit="mm"/><dim type="bottom" quantity="20" unit="mm"/><dim type="right" quantity="19" unit="mm"/><dim type="left" quantity="12" unit="mm"/><dim type="intercolumn" quantity="9" unit="mm"/></dimensions>
                               <ab type="ruling">On <locus target="#113r"/>, vertical and lower and upper horizontal ruled lines are visible.
                               Vertical and horizontal pricks are visible, both close to the body of the text. There are no horizontal ruled text lines.
                               On <locus from="114" to="115"/>, three vertical ruled lines are visible. No horizontal lines are visible. Upper vertical pricks are visible, 
@@ -518,7 +521,7 @@
                              <ab type="ruling" subtype="pattern"/>
                              <ab type="pricking"/>
                              <ab type="ruling"/>
-                      </layout>
+                      </layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="17"/></layout>
                     </layoutDesc>
                   </objectDesc>
                   
@@ -530,7 +533,9 @@
                       <desc>Untrained and irregular hand, of somewhat later time than <ref target="#h1">Hand 1</ref>.  
                         There is a change of ink (and pen?) between <ref target="#p2_i1"/> and <ref target="#p2_i2"/>, 
                       but it cannot be excluded that the hand is the same. Angular, square letter shapes, somewhat resembling 
-                      the hand of <ref type="mss" corresp="https://betamasaheft.eu/BAVet21">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 21</ref>. The word for God is written in two units.</desc>
+                      the hand of <ref type="mss" corresp="https://betamasaheft.eu/BAVet21">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 21</ref>. The Gǝʿǝz word for God is mostly written as two words, 
+                        but somewhere as one word (e.g., <locus target="#37vb #39va #44va"/>). A qʷǝm-sign is on 
+                        <locus target="#26va #26vb"/>.</desc>
                      
                     </handNote>
                   </handDesc>
@@ -557,7 +562,7 @@
                   </origin>
                 </history>
               </msPart>
-            </msDesc>
+            <msPartsCount quantity="2"/></msDesc>
 
          </sourceDesc>
       </fileDesc>
@@ -568,38 +573,39 @@
          
             
          
-        <tagsDecl>
-          <rendition xml:id="partialRubric">Red ink is used partially in the rubrication of punctuation.</rendition>
-        </tagsDecl>
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-      <profileDesc>
-         <textClass>
-            <keywords>
-               <term key="Bible" ana="#Bible"/>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-              <term key="NewTestament" ana="#NewTestament"/>
-              <term key="OldTestament" ana="#OldTestament"/>
-              <term key="Liturgy" ana="#Liturgy"/>
-                       </keywords>
-         </textClass>
-         <langUsage>
-           <language ident="en">English</language>
-           <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+        <t:tagsDecl xmlns:t="http://www.tei-c.org/ns/1.0">
+          <t:rendition xml:id="partialRubric">Red ink is used partially in the rubrication of punctuation.</t:rendition>
+        </t:tagsDecl>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:textClass>
+            <t:keywords>
+               <t:term key="Bible" ana="#Bible"/>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+              <t:term key="NewTestament" ana="#NewTestament"/>
+              <t:term key="OldTestament" ana="#OldTestament"/>
+              <t:term key="Chronography" ana="#Chronography"/>              
+              <t:term key="Liturgy" ana="#Liturgy"/>
+                       </t:keywords>
+         </t:textClass>
+         <t:langUsage>
+           <t:language ident="en">English</t:language>
+           <t:language ident="gez">Gǝʿǝz</t:language>
+         </t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#DR" when="2023-01-24"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record from catalogue description with consultation of digitized microfilm</change>
-      </revisionDesc>
-  </teiHeader><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <ab/>
-      </body>
-  </text></TEI>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2023-01-24" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record from catalogue description with consultation of digitized microfilm</change>
+      </t:revisionDesc>
+  </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:ab/>
+      </t:body>
+  </t:text></TEI>

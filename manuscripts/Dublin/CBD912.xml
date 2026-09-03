@@ -3,92 +3,398 @@
          <titleStmt><title type="full">Dublin, Chester Beatty Library Dublin, CBD W 912</title>
             <title>Gospels</title>
             <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
-            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
+            <editor key="ESh" corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ESh">Elizaveta Shvarts</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ed-ESh"><resp>editor</resp><name>Elizaveta Shvarts</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+               Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">30.1.2024 at 11:24:40</date><date type="lastModified">4.5.2022</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD912/main</idno><idno type="URI">https://betamasaheft.eu/CBD912</idno><idno type="filename">CBD912.xml</idno><idno type="ID">CBD912</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 08:37:26</date><date type="lastModified">1.7.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD912/main</idno><idno type="URI">https://betamasaheft.eu/CBD912</idno><idno type="filename">CBD912.xml</idno><idno type="ID">CBD912</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
-                  <msIdentifier>
-                     <repository ref="https://betamasaheft.eu/INS0422Chester_Beatty_Library">Chester Beatty Library Dublin</repository>
-                     <collection>Ethiopian</collection>
-                     <idno facs="https://viewer.cbl.ie/viewer/api/v1/records/W_912/manifest/" corresp="https://viewer.cbl.ie/viewer/api/v1/records/W_912/manifest/">CBD W 912</idno>
-                     <altIdentifier>
-                        <repository ref="https://betamasaheft.eu/INS0447EMIP">Ethiopic Manuscript Imaging Project</repository>
-                        <collection>EMIP</collection>
-                        <idno>EMIP 3166</idno>
-                     </altIdentifier>
-                  </msIdentifier>
-               <msContents><summary>Gospel of Matthew, ወንጌል፡ ዘማቴዎስ፡, Gospel of Mark, ወንጌል፡ ዘማርቆስ፡</summary></msContents>
+               <msIdentifier>
+                  <repository ref="https://betamasaheft.eu/INS0422Chester_Beatty_Library">Chester Beatty Library Dublin</repository>
+                  <collection>Ethiopian</collection>
+                  
+                  <idno facs="https://viewer.cbl.ie/viewer/api/v1/records/W_912/manifest/" corresp="https://viewer.cbl.ie/viewer/api/v1/records/W_912/manifest/">CBD W 912</idno>
+                 
+                  <altIdentifier>
+                     <repository ref="https://betamasaheft.eu/INS0447EMIP">Ethiopic Manuscript Imaging Project</repository>
+                     <collection>EMIP</collection>
+                     <idno>EMIP 3166</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Gospel of Matthew, Gospel of Mark</summary>
+                  <msItem xml:id="ms_i1">
+                     <locus from="2r"/>
+                     <title type="incomplete" ref="https://betamasaheft.eu/LIT2709Matthew">Gospel of Matthew (Mt)</title>
+                     <msItem xml:id="ms_i1.1">
+                        <locus target="#2r"/>
+                        <title>Mt. 8:1–Mt. 8:4</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.2">
+                        <locus from="3r" to="3v"/>
+                        <title>Mt. 8:5–Mt. 8:13</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.3">
+                        <locus target="#5r"/>
+                        <title>Mt. 8:14–Mt. 8:15</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.4">
+                        <locus target="#6r"/>
+                        <title>Mt. 8:16–Mt. 8:18</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.5">
+                        <locus target="#7v"/>
+                        <title>Mt. 8:23–Mt. 8:27</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.6">
+                        <locus target="#9r"/>
+                        <title>Mt. 8:28–Mt. 8:34</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.7">
+                        <locus target="#9v"/>
+                        <title>Mt. 8:34</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.8">
+                        <locus target="#10v"/>
+                        <title>Mt. 9:1–Mt. 9:8</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.9">
+                        <locus target="#11v"/>
+                        <title>Mt. 9:9–Mt. 9:15</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.10">
+                        <locus target="#12r"/>
+                        <title>Mt. 9:15–Mt. 9:17</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.11">
+                        <locus target="#13r"/>
+                        <title>Mt. 9:18–Mt. 9:19</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.12">
+                        <locus target="#14r"/>
+                        <title>Mt. 9:20–Mt. 9:26</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.13">
+                        <locus target="#15r"/>
+                        <title>Mt. 9:27–Mt. 9:31</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.14">
+                        <locus target="#16r"/>
+                        <title>Mt. 9:32–Mt. 9:38</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.15">
+                        <locus target="#17v"/>
+                        <title>Mt. 11:2–Mt. 11:10</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.16">
+                        <locus target="#18r"/>
+                        <title>Mt. 11:10–Mt. 11:19</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.17">
+                        <locus target="#18v"/>
+                        <title>Mt. 11:19</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.18">
+                        <locus target="#19v"/>
+                        <title>Mt. 12:1–Mt. 12:8</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.19">
+                        <locus target="#20r"/>
+                        <title>Mt. 12:8</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.20">
+                        <locus target="#20v"/>
+                        <title>Mt. 12:9–Mt. 12:18</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.21">
+                        <locus target="#21r"/>
+                        <title>Mt. 12:18–Mt. 12:21</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.22">
+                        <locus target="#22r"/>
+                        <title>Mt. 12:37</title>
+                     </msItem>
+
+                     <msItem xml:id="ms_i1.23">
+                        <locus target="#22v"/>
+                        <title>Mt. 12:38–Mt. 12:43</title>
+                     </msItem>
+                     <msItem xml:id="ms_i1.24">
+                        <locus target="#23v"/>
+                        <title>Mt. 16:69–Mt. 17:1</title>
+                     </msItem>
+
+                  </msItem>
+                  <msItem xml:id="ms_i2">
+                     <locus from="26r"/>
+                     <title type="incomplete" ref="https://betamasaheft.eu/LIT2711Mark">Gospel of Mark (Mk)</title>
+                     <msItem xml:id="ms_i2.1">
+                        <locus target="#26r"/>
+                        <title>Mk. 15:9</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.2">
+                        <locus target="#26v"/>
+                        <title>Mk. 15:20</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.3">
+                        <locus target="#27r"/>
+                        <title>Mk. 15:21</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.4">
+                        <locus target="#27v"/>
+                        <title>Mk. 15:22–Mk. 15:32</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.5">
+                        <locus target="#28v"/>
+                        <title>Mk. 15:42–Mk. 15:47</title>
+                     </msItem>
+                     <msItem xml:id="ms_i2.6">
+                        <locus target="#29v"/>
+                        <title>Mk. 16:1–Mk. 16:8</title>
+                     </msItem>
+                  </msItem>
+               </msContents>
                <physDesc>
+                  <objectDesc form="Codex">
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>
+                           <measure unit="leaf" quantity="31">31</measure>
+                           <measure unit="page" type="blank">8</measure>
+                           <locus target="#1v #4v #5v #8v #24v #25v #30v #31v"/>
+                           <dimensions type="outer" unit="mm">
+                              <height unit="mm">370</height>
+                              <width unit="mm">320</width>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="370" unit="mm"/><width quantity="320" unit="mm"/></dimensions>
+                        </extent>
+                        <foliation>Foliation provided by the library and is marked on the right upper edge of the recto folia in pencil.</foliation>
+                        <condition key="good">Many folia are either lost or torn off, but the
+                           remaining folia are in a very good condition. Despite some light humidity
+                           stains on <locus target="#1v"/>, a red stain on <locus target="#29v"/>,
+                           and fungus on, e.g., <locus target="#26r"/>, the whole text is readable
+                           and all illuminations are well preserved.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2">
+                           <ab type="ruling">Ruling is visible.</ab>
+                           <ab type="ruling" subtype="pattern">1A-1A-1A1A/0-0/0-0/C</ab>
+                           <ab type="pricking">Pricking is visible.</ab>
+                           <ab type="pricking">Primary pricks are partly visible.</ab>
+                           <ab type="pricking">Ruling pricks are visible.</ab>
+                           <ab type="ruling">The upper line is written above the ruling.</ab>
+                           <ab type="ruling">The bottom line is written above the ruling.</ab>
+                        </layout>
+                     </layoutDesc>
+
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <seg type="script" cert="medium">Late eighteenth-century script.</seg>
+                        <seg type="ink">Black, red.</seg>
+                        <seg type="rubrication">The name of Jesus, chapter numbers, incipits, asterisks, a few other
+                           punctuation marks and numerals.</seg>
+                        <desc>Regular, neat, careful.</desc>
+                     </handNote>
+                  </handDesc>
                   <decoDesc>
-                     <decoNote xml:id="d1" type="miniature"><desc>f. I r: Gesù parla al popolo (il discorso della montagna</desc></decoNote>
-                     <decoNote xml:id="d2" type="miniature"><desc>f. 2 r: Gesù
-                        guarisce il lebbroso</desc></decoNote>
-                     <decoNote xml:id="d3" type="miniature"><desc>f. 3 v: Il centurione chiede a Gesù di guarire il suo ragazzo</desc></decoNote>
-                     <decoNote xml:id="d4" type="miniature"><desc>f. 4 r: La guarigione del ragazzo</desc></decoNote>
-                     <decoNote xml:id="d5" type="miniature"><desc>f. 5 r: Gesù guarisce la suocera di
-                        S. Pietro</desc></decoNote>
-                     <decoNote xml:id="d6" type="miniature"><desc>f. 6 v: Gesù scaccia i demoni</desc></decoNote>
-                     <decoNote xml:id="d7" type="miniature"><desc>f. 7 r: Gesù dice allo Scriba ed al Discepolo</desc></decoNote>
-                     <decoNote xml:id="d8" type="miniature"><desc>f. 8 v: Gesù nella barca</desc></decoNote>
-                     <decoNote xml:id="d9" type="miniature"><desc>f. 9 v: Gesù guarisce gli ossessi
-                        nel paese dei Geraseni;</desc></decoNote>
-                     <decoNote xml:id="d10" type="miniature"><desc>f. 10 r: Gesù manda i demoni nei porci</desc></decoNote>
-                     <decoNote xml:id="d11" type="miniature"><desc>f. 11 r: Il miracolo
-                        del paralitico</desc></decoNote>
-                     <decoNote xml:id="d12" type="miniature"><desc>f. I 2 v: la cena in casa di Simeone</desc></decoNote>
-                     <decoNote xml:id="d13" type="miniature"><desc>f. 13 r: Gesù è richiesto di visitare la fanciulla morta</desc></decoNote>
-                     <decoNote xml:id="d14" type="miniature"><desc>f. 1 3 v: L'emorroissa</desc></decoNote>
-                     <decoNote xml:id="d15" type="miniature"><desc>f. 14 v: La resurrezione
-                        della fanciulla</desc></decoNote>
-                     <decoNote xml:id="d16" type="miniature"><desc>f. 15 v: Gesù guarisce i ciechi</desc></decoNote>
-                     <decoNote xml:id="d17" type="miniature"><desc>f. 16 v: Gesù guarisce il muto
-                        ossesso</desc></decoNote>
-                     <decoNote xml:id="d18" type="miniature"><desc>f. 17 r: Gesù conferisce il potere agli Apostoli</desc></decoNote>
-                     <decoNote xml:id="d19" type="miniature"><desc>f. 20 r: I Discepoli
-                        raccolgono grano durante il sabbato</desc></decoNote>
-                     <decoNote xml:id="d20" type="miniature"><desc>f. 21 v: Il miracolo della mano secca</desc></decoNote>
-                     <decoNote xml:id="d21" type="miniature"><desc>f. 22 r: Gesù disputa con i Farisei</desc></decoNote>
-                     <decoNote xml:id="d22" type="miniature"><desc>f. 23 r: Gesù innanzi a Caifa</desc></decoNote>
-                     <decoNote xml:id="d23" type="miniature"><desc>f. 24 r: Ecce
-                        Homo</desc></decoNote>
-                     <decoNote xml:id="d24" type="miniature"><desc>f. 25 r: la Flagellazione</desc></decoNote>
-                     <decoNote xml:id="d25" type="miniature"><desc>f. 26 r: Gesù prende in spalla la Croce. Pilato
-                        si lava le mani</desc></decoNote>
-                     <decoNote xml:id="d26" type="miniature"><desc>f. 27 r: il Cireneo aiuta Gesù</desc></decoNote>
-                     <decoNote xml:id="d27" type="miniature"><desc>f. 28 r: Longino ferisce il costato
-                        del Crocifisso</desc></decoNote>
-                     <decoNote xml:id="d28" type="miniature"><desc>f. 28 v: Giuseppe di Arimatea chiede a Pilato il corpo di Gesù</desc></decoNote>
-                     <decoNote xml:id="d29" type="miniature"><desc>f. 29 r: la Deposizione ed il Santo Sepolcro</desc></decoNote>
-                     <decoNote xml:id="d30" type="miniature"><desc>f. 30 r: la Resurrezione</desc></decoNote>
-                     <decoNote xml:id="d31" type="miniature"><desc>f. 31 r: l'Angelo annunzia la Resurrezione alle sante donne. Gesù appare ai Discepoli</desc></decoNote>
+                     <decoNote xml:id="d1" type="miniature">
+                        <locus target="#1r"/>
+                        <desc>Sermon on the Mount. <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ተናገሮሙ፡
+                                 እግዚእነ፡ በመሳሌ፡ ለሕዝብ፡</hi></q></desc></decoNote>
+                     <decoNote xml:id="d2" type="miniature">
+                        <locus target="#2r"/>
+                        <desc><persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> heals a leper. <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ፈወሰ፡ እግዚእነ፡ እምለምጹ፡</hi></q></desc></decoNote>
+                     <decoNote xml:id="d3" type="miniature">
+                        <locus target="#3v"/>
+                        <desc>The centurion asks <persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> to heal his
+                           servant. <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ሰአሎ፡ መስፍን፡ በእንተ፡ ደዌሁ፡
+                                 ለገብር፡</hi></q></desc></decoNote>
+                     <decoNote xml:id="d4" type="miniature">
+                        <locus target="#4r"/>
+                        <desc><ref type="authFile" corresp="https://betamasaheft.eu/AT1021MiraclesOfJesus">The healing of
+                              the boy.</ref>
+                           <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ረከቦ፡ መስፍን፡ ለቁልዔሁ፡
+                           ሕያዎ፡</hi></q></desc></decoNote>
+                     <decoNote xml:id="d5" type="miniature">
+                        <locus target="#5r"/>
+                        </decoNote>
+                     <decoNote xml:id="d6" type="miniature">
+                        <locus target="#6v"/>
+                        <desc><persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> casts out a <term key="demon" ana="#demon"/>. <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ አዉፅአሙ፡ እግዚእነ፡ ለአጋንንት፡ እምላዕለ፡
+                                 ሰብእ።</hi></q></desc></decoNote>
+                     <decoNote xml:id="d7" type="miniature">
+                        <locus target="#7r"/>
+                        <desc><persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> tells to the scribe and the Disciple
+                           to follow Him. <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ይቤሎሙ፡ እግዚእነ፡
+                                 ለጸሐፊ፡ ወለረድእ፡ ንዑ፡ ትልዉኒ።</hi></q></desc></decoNote>
+                     <decoNote xml:id="d8" type="miniature">
+                        <locus target="#8v"/>
+                        <desc><persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> in the boat. <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ኖመ፡ እግዚእነ፡ መልዕልተ፡ ሐመር፡ ወዘከመ፡ አንቅሕዎ፡ ሐዋርያት፡
+                                 አምፍርሃት፡ ማዕበል።</hi></q></desc></decoNote>
+                     <decoNote xml:id="d9" type="miniature">
+                        <locus target="#9v"/>
+                        <desc><ref type="authFile" corresp="https://betamasaheft.eu/AT1021MiraclesOfJesus">Jesus heals a
+                              leper in Gergesa who were possessed by demons.</ref>
+                           <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ፈወሰ፡ ድዉያነ፡ እለ፡ ቦሙ፡ አ<supplied reason="lost">ጋ</supplied>ንንት፤</hi></q>
+                        </desc></decoNote>
+                     <decoNote xml:id="d10" type="miniature">
+                        <locus target="#10r"/>
+                        <desc><persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> sends <term key="demon" ana="#demon">demons</term>
+                           into <term key="animal" ana="#animal">pigs</term>. <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ አብሐሙ፡ ለአጋንንት፡ ይባኡ፡ ዉስተ፡ አኀርዉ።</hi>
+                           </q></desc></decoNote>
+                     <decoNote xml:id="d11" type="miniature">
+                        <locus target="#11r"/>
+                        <desc><ref type="authFile" corresp="https://betamasaheft.eu/AT1074JesusHealsParalytic"><seg corresp="AT1074JesusHealsParalytic">No item: AT1074JesusHealsParalytic</seg></ref></desc>
+                        <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ነስቱ፡ ጠፈረ፡ ወዘከመ፡ ፈወሶ፡
+                           ለመፃጉዕ፡</hi></q></decoNote>
+                     <decoNote xml:id="d12" type="miniature">
+                        <locus target="#12v"/>
+                        <desc>The supper in <persName ref="https://betamasaheft.eu/PRS8854Simeon">Simeon’s</persName>
+                           house.</desc>
+                        <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ገብረ፡ መሳሐ፡ ፡ በቤተ፡
+                        ስምዖን፤</hi></q></decoNote>
+                     <decoNote xml:id="d13" type="miniature">
+                        <locus target="#13r"/>
+                        <desc><persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> is asked to visit a dead girl.</desc>
+                        <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ሰአሎ፡ <choice>
+                                 <sic>መኮንን፡</sic>
+                                 <corr>መኮነን፡</corr>
+                              </choice> በእንተ፡ ደዌሃ፡ ወለቱ።</hi></q></decoNote>
+                     <decoNote xml:id="d14" type="miniature">
+                        <locus target="#13v"/>
+                        <desc><ref type="authFile" corresp="https://betamasaheft.eu/AT1021MiraclesOfJesus">The woman with
+                              the hemorrhage.</ref> The centurion asks <persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> to heal his daughter. <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ገሰሰት፡ ጽንፈ፡ ልብሱ፡ እንተ፡ ደም፡ ይዉኅዘ። ወዘከመ፡ ነገሮ፡ መስፍን፡
+                                 ጽንዓ፡ ደዌሃ፡ ለወለቱ</hi></q></desc></decoNote>
+                     <decoNote xml:id="d15" type="miniature">
+                        <locus target="#14v"/>
+                        <desc><ref type="authFile" corresp="https://betamasaheft.eu/AT1021MiraclesOfJesus">The resurrection
+                              of the daughter of the centurion.</ref>
+                           <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ፈወሳ፡ እግዚእነ፡ ለወለተ፡
+                           መስፍን፡</hi></q></desc></decoNote>
+                     <decoNote xml:id="d16" type="miniature">
+                        <locus target="#15v"/>
+                        <desc><ref type="authFile" corresp="https://betamasaheft.eu/AT1070JesushealstheBlind">Jesus Heals the Blind</ref></desc>
+                        <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ አብርሃ፡ አዕይንቲሆሙ፡ ለዕዉራን፡
+                           እግዚእነ፡</hi></q></decoNote>
+                     <decoNote xml:id="d17" type="miniature">
+                        <locus target="#16v"/>
+                        <desc><persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> heals the mute and possessed man. <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ፈወሳ፡ ለጽሙም፡ ወዘከመ፡ ገሠጸ፡
+                              ለጋኔን፤</hi></q></desc></decoNote>
+                     <decoNote xml:id="d18" type="miniature">
+                        <locus target="#17r"/>
+                        <desc><persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> confers power on the Apostles. <q xml:lang="gez"><hi rend="rubric">ዘከመ፡ ወሀቦሙ፡ እግዚእነ፡ ለሐዋርያት፡
+                              ሥልጣነ፤</hi></q></desc></decoNote>
+                     <decoNote xml:id="d19" type="miniature">
+                        <locus target="#20r"/>
+                        <desc>The Disciples gather grain during Sabbath.</desc></decoNote>
+                     <decoNote xml:id="d20" type="miniature">
+                        <locus target="#21v"/>
+                        <desc><ref type="authFile" corresp="https://betamasaheft.eu/AT1021MiraclesOfJesus">The miracle of a
+                              withered hand.</ref></desc></decoNote>
+                     <decoNote xml:id="d21" type="miniature">
+                        <locus target="#22r"/>
+                        <desc><persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> disputes with the
+                        Pharisees.</desc></decoNote>
+                     <decoNote xml:id="d22" type="miniature">
+                        <locus target="#23r"/>
+                        <desc><persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> before Caiaphas.</desc></decoNote>
+                     <decoNote xml:id="d23" type="miniature">
+                        <locus target="#24r"/>
+                        <desc><ref type="authFile" corresp="https://betamasaheft.eu/AT1023Mocking">Mocking of Jesus</ref></desc></decoNote>
+                     <decoNote xml:id="d24" type="miniature">
+                        <locus target="#25r"/>
+                        <desc>Flagellation.</desc></decoNote>
+                     <decoNote xml:id="d25" type="miniature">
+                        <locus target="#26r"/>
+                        <desc><persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> takes the <term key="cross" ana="#cross"/> on his
+                           shoulders. <persName ref="https://betamasaheft.eu/PRS7928Pontius">Pontius Pilate</persName> washes his
+                        hands.</desc></decoNote>
+                     <decoNote xml:id="d26" type="miniature">
+                        <locus target="#27r"/>
+                        <desc>The Cyrenean helps <persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName>.</desc></decoNote>
+                     <decoNote xml:id="d27" type="miniature">
+                        <locus target="#28r"/>
+                        <desc>Longinus wounds <persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> while He is on the
+                           <term key="cross" ana="#cross"/>.</desc></decoNote>
+                     <decoNote xml:id="d28" type="miniature">
+                        <locus target="#28v"/>
+                        <desc><persName ref="https://betamasaheft.eu/PRS13687JosephArim">Joseph of Arimathea</persName> asks <persName ref="https://betamasaheft.eu/PRS7928Pontius">Pontius Pilate</persName> for the <term key="deadjesus" ana="#deadjesus">corpse of
+                              Jesus</term>.</desc></decoNote>
+                     <decoNote xml:id="d29" type="miniature">
+                        <locus target="#29r"/>
+                        <desc><ref type="authFile" corresp="https://betamasaheft.eu/AT1007Deposition">Deposition from the Cross</ref> and <ref type="authFile" corresp="https://betamasaheft.eu/AT1010Entombment">Entombment of Jesus</ref>.</desc></decoNote>
+                     <decoNote xml:id="d30" type="miniature">
+                        <locus target="#30r"/>
+                        <desc><ref type="authFile" corresp="https://betamasaheft.eu/AT1049Resurrection">Resurrection of Jesus</ref>.</desc></decoNote>
+                     <decoNote xml:id="d31" type="miniature">
+                        <locus target="#31r"/>
+                        <desc>An <term key="angel" ana="#angel"/> announces the Resurrection to holy women.
+                              <persName ref="https://betamasaheft.eu/PRS5684JesusCh">Jesus Christ</persName> appears to the
+                        Disciples.</desc></decoNote>
+                     <decoNote type="frame" xml:id="d32">
+                        <locus target="#3v #6r #10vb #15rb #16rb #18v #22r #21r #27rb"/>
+                        <desc>Narrow ornamental bands of black and red dots.</desc>
+                     </decoNote>
                   </decoDesc>
+                  <additions>
+                     <list>
+                        <item xml:id="e1">
+                           <locus target="#9ra"/>
+                           <desc type="Correction">An omitted sentence part is added.</desc>
+                        </item>
+                        <item xml:id="e2">
+                           <locus target="#22vb"/>
+                           <desc type="Correction">One erasure and two corrections over erasures,
+                              omitted words are added above the line.</desc>
+                        </item>
+                        <item xml:id="e3">
+                           <locus target="#23va"/>
+                           <desc type="Correction">A correction over an erasure.</desc>
+                        </item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <decoNote xml:id="b1" type="Boards">The front and the back boards are
+                           missing.</decoNote>
+                        <decoNote xml:id="b2" type="Sewing">Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b3" type="SewingStations">4</decoNote>
+                        <decoNote xml:id="b4" type="Other"><term key="leafStringMark" ana="#leafStringMark">Red
+                              threads</term> are inserted in the upper part of many folia (e.g.,
+                              <locus target="#1 #2 #3 #4"/>) for navigation in the text. </decoNote>
+                     </binding>
+                  </bindingDesc>
+
                </physDesc>
+
                <history>
                   <origin>
-                     <origDate notBefore="1700" notAfter="1800"/>                     
+                     <origDate notBefore="1700" notAfter="1799">18th century</origDate>
                   </origin>
                </history>
-                  <additional>
-                     <adminInfo>
-                        <recordHist>
-                           <source>
-                              <listBibl type="catalogue">
-                                 <bibl corresp="http://zotero.org/groups/358366/items/TDIJ8SGG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Cerulli1965ChesterBeatty"/><title level="m">I manoscritti etiopici della Chester Beatty Library in Dublino</title><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><author><forename>Enrico</forename><surname>Cerulli</surname></author><pubPlace>[Roma]</pubPlace><publisher>[Accademia nazionale dei Lincei]</publisher><date>1965</date><series><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><biblScope unit="volume">Serie ottava, 11/6</biblScope></series><biblScope unit="volume">Serie ottava, 11/6</biblScope><note type="tags"><note type="tag">Manuscripts</note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Cerulli1965ChesterBeatty</note><note type="tag">Dublin</note></note><note type="tag">Manuscripts</note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Cerulli1965ChesterBeatty</note><note type="tag">Dublin</note><citedRange unit="page">287-288</citedRange></bibl>
-                              </listBibl>
-                           </source>
-                        </recordHist>
-                        </adminInfo>
-                  </additional>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl corresp="http://zotero.org/groups/358366/items/TDIJ8SGG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Cerulli1965ChesterBeatty"/><title level="m">I manoscritti etiopici della Chester Beatty Library in Dublino</title><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><author><forename>Enrico</forename><surname>Cerulli</surname></author><pubPlace>[Roma]</pubPlace><publisher>[Accademia nazionale dei Lincei]</publisher><date>1965</date><series><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><biblScope unit="volume">Serie ottava, 11/6</biblScope></series><biblScope unit="volume">Serie ottava, 11/6</biblScope><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note></note><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note><citedRange unit="page">287-288</citedRange></bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
@@ -99,33 +405,41 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-      <profileDesc>
-         <textClass>
-            <keywords scheme="#ethioauthlist">
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>    
-               <term key="Bible" ana="#Bible"/>               
-            </keywords>
-         </textClass>
-         <langUsage><language ident="gez">Gǝʿǝz</language> <language ident="en">English</language></langUsage>         
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:textClass>
+            <t:keywords scheme="#ethioauthlist">
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Bible" ana="#Bible"/>
+            </t:keywords>
+         </t:textClass>
+         <t:langUsage>
+            <t:language ident="gez">Gǝʿǝz</t:language>
+            <t:language ident="en">English</t:language>
+         </t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#ES" when="2022-04-30"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created stub</change>
-         <change who="#ES" when="2022-05-04"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added EMIP</change>
-      </revisionDesc>
-   </teiHeader><standOff><listRelation><relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/CBD912" passive="https://betamasaheft.eu/EMIP03166"/></listRelation></standOff><facsimile>
-      <graphic url="https://viewer.cbl.ie/viewer/mirador/?pi=W_912"/>
-   </facsimile><text xml:base="https://betamasaheft.eu/">
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+         <change when="2022-05-04" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added EMIP</change>
+         <change when="2026-03-02" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added content and physical description, updated
+            decoration</change>
+        <change when="2026-07-01" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Fixed typo</change>
+      </t:revisionDesc>
+   </teiHeader><standOff><listRelation>
+         <relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/CBD912" passive="https://betamasaheft.eu/EMIP03166"/>
+      </listRelation></standOff><t:facsimile xmlns:t="http://www.tei-c.org/ns/1.0">
+      <t:graphic url="https://viewer.cbl.ie/viewer/mirador/?pi=W_912"/>
+   </t:facsimile><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       
-      <body>
-         <ab/>
-      </body>
-   </text></TEI>
+      <t:body>
+         <t:ab/>
+      </t:body>
+   </t:text></TEI>

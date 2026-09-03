@@ -3,8 +3,8 @@
          <titleStmt><title type="full">Copenhagen, The Royal Library, Cod. Etiop Add. 20</title>
             <title>Cod. Etiop Add. 20, scroll</title>
             <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
-         <respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DN" xml:id="ed-DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -15,7 +15,7 @@
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date/>
-         <date type="expanded">2022-01-05T13:36:28.446+01:00</date><date type="lastModified">22.2.2017</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/KopCodEtiopAdd20</idno><idno type="URI">https://betamasaheft.eu/KopCodEtiopAdd20</idno><idno type="filename">KopCodEtiopAdd20.xml</idno><idno type="ID">KopCodEtiopAdd20</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 09:05:24</date><date type="lastModified">14.1.2025</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/KopCodEtiopAdd20/main</idno><idno type="URI">https://betamasaheft.eu/KopCodEtiopAdd20</idno><idno type="filename">KopCodEtiopAdd20.xml</idno><idno type="ID">KopCodEtiopAdd20</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -23,15 +23,22 @@
                   <idno>Cod. Etiop Add. 20</idno>
                </msIdentifier>
                <msContents>
-                  <summary>
-                     <p>I) ጸሎት᎓በእንተ᎓ማእሰሮሙ᎓ለአጋንንት᎓ጸሎተ᎓መስጥም᎓ ዓቃቢሁኒ᎓ ዑራኤል᎓ ወሳቁኤል᎓...,ˀAsmat prayer for binding demons</p>
-                     <p>II) ጸሎት᎓በእንተ᎓ማእሰሮሙ᎓ለአጋንንት᎓ ወለሰይጣናት᎓ ዓይነ᎓ ወርቅ᎓ ዓይነ᎓ ዕስላም᎓...,ˀAsmat prayer for binding demons</p>
-                     <p>III) ጸሎት᎓አስማተ᎓ሰሎሞን᎓አስማተ᎓ህላዌሁ᎓ ንእህዝ᎓ አድያኖስ᎓ አያይኖስ᎓...,ˀAsmat prayer</p>
-                     
-                     
-                     
-                  </summary>
-                
+                  <summary/>
+                <msItem xml:id="ms_i1">
+                   <title ref="https://betamasaheft.eu/LIT5888AsmatPrayer">ʾAsmāt prayer for binding demons and their drowning</title>
+                   <incipit xml:lang="gez">ጸሎት፡ በእንተ፡ ማእሰሮሙ፡ ለአጋንንት፡ ጸሎተ፡ መስጥም፡ ዓቃቢሁኒ፡ ዑራኤል፡ ወሳቁኤል፡ ወኮከቡኒ፡ ሸምሸያለሁማ፡ ያተናዚ፡ እልመለኪ፡
+                      ወያኑራተዋቀራ፡</incipit>
+                  </msItem>
+                  <msItem xml:id="ms_i2">
+                     <title ref="https://betamasaheft.eu/LIT5888AsmatPrayer">ʾAsmāt prayer for binding demons, devils and the evil eyes of Warq and ʿƎslām</title>
+                     <incipit xml:lang="gez">ጸሎት፡ በእንተ፡ ማእሰሮሙ፡ ለአጋንንት፡ ወለሰይጣናት፡ ዓይነ፡ ወርቅ፡ ዓይነ፡ ዕስላም፡</incipit>
+                  </msItem>
+                  <msItem xml:id="ms_i3">
+                     <title ref="https://betamasaheft.eu/LIT7242PPEssenceSolomon">Prayer of Salomon, names of the nature of Solomon</title>
+                     <incipit xml:lang="gez">ጸሎት፡ አስማተ፡ ሰሎሞን፡ አስማተ፡ ህላዌሁ፡ ንእህዝ፡ አድያኖስ፡ አያይኖስ፡</incipit>
+                     <explicit xml:lang="gez">ፈርሃ፡ ወደንገፀ፡ ዲያብሎስ፡ ርእዮ፡ ብሁተ፡ ልደት፡ በሥጋ፡ አምላክ፡ በሲኦል፡ በዝቃልከ፡ ወበዝአስማቲከ፡ አድኅና፡ እምሕማመ፡ ባርያ፡
+                        ወሌጌዎን፡ ባርያ፡ ወሰራቅያን፡ ሊተ፡ አመትከ፡ ደስታ፡ ወለተ፡ ገብርኤል፡ <gap reason="illegible"/> አዲራ፡ እር፡ ስብርቅንኖተ፡ መስ<gap reason="illegible"/></explicit>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="Scroll">
@@ -40,11 +47,10 @@
                            <dimensions type="outer">
                               <height unit="cm">253.5</height>
                               <width unit="cm">8.2</width>
-                           </dimensions>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="2535" unit="mm"/><width quantity="82" unit="mm"/></dimensions>
                         </extent>
                         <condition key="other">
-                           <p>Good. In Text II, in a passage of <locus target="#19">fol. 19</locus>written lines, each letter is placed in a net drawn with blue ink.</p>
-                           
+                           <p>Good. In Text II, in a passage of <locus target="#19"/>written lines, each letter is placed in a net drawn with blue ink.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -53,21 +59,18 @@
                         </layout>
                         <layout>
                            <p>One column</p>
-                           
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote xml:id="h1" script="Ethiopic">Late 19th – 20th-century script; fine, careful hand.<note>
                            <p>Unknown</p>
-                           
                         </note>
                         <note>
                            <p>The text and images are embraced with black frame along the edges of the scroll. Angels’ names and four lines of demons’ names around the second image are rubricated. </p>
                         </note>
                         <seg type="rubrication">
                            Executed in the main hand
-                           
                         </seg>
                      </handNote>
                   </handDesc>
@@ -77,27 +80,17 @@
                      <decoNote type="mixed" xml:id="d3">
                         <p>Three polychrome (black, violet, red) pictures: </p>
                         <p>
-                           <locus target="#1">Fol. 1</locus>) A face framed with “horns” (“The Net of Solomon”), at the top of the scroll, finely executed </p>
+                           <locus target="#1"/>) A face framed with “horns” (“The Net of Solomon”), at the top of the scroll, finely executed </p>
                         <p>
-                           <locus target="#2">Fol. 2</locus>) An angel with a sword and scabbard, in the midst of Text II </p>
+                           <locus target="#2"/>) An angel with a sword and scabbard, in the midst of Text II </p>
                         <p>
-                           <locus target="#3">Fol. 3</locus>) A face framed with eight “horns” (“The Net of Solomon”), finely executed.</p>
-                        
+                           <locus target="#3"/>) A face framed with eight “horns” (“The Net of Solomon”), finely executed.</p>
                      </decoNote>
                   </decoDesc>
-                  <additions>
-                     <list>
-                        <item xml:id="a1">
-                           <p>በስመ᎓አብ᎓"... ጸሎት᎓በእንተ᎓ማእሰሮሙ᎓ለአጋንንት᎓ጸሎተ᎓መስጥም᎓ ዓቃቢሁኒ᎓ ዑራኤል᎓ ወሳቁኤል᎓ወኮከቡኒ᎓ ሸምሸያለሁማ᎓ ያተናዚ᎓ እልመለኪ᎓ወያኑራተዋቀራ᎓...</p>
-                           
-                        </item>
-                     </list>
-                  </additions>
                   <bindingDesc>
                      <binding contemporary="true">
                         <decoNote xml:id="b1">
-                           <p>Scroll made of four pieces of parchment (ca. <locus target="#75">Fols. 75, </locus>.<locus target="#5 #65">5, 65, </locus>.<locus target="#5 #55 #63">5, 55, 63, </locus>.<locus target="#5">5</locus>cm long) sewn together with narrow leather strips. </p>
-                           
+                           <p>Scroll made of four pieces of parchment (ca. <locus target="#75"/>.<locus target="#5 #65"/>.<locus target="#5 #55 #63"/>.<locus target="#5"/>cm long) sewn together with narrow leather strips. </p>
                         </decoNote>
                      </binding>
                   </bindingDesc>
@@ -105,7 +98,7 @@
                <history>
                   <origin>
                      <origPlace/>
-                     <origDate>Copying date: Late 19th or 20th century</origDate>
+                     <origDate notBefore="1870" notAfter="1999">Copying date: Late 19th or 20th century</origDate>
                   </origin>
                </history>
             </msDesc>
@@ -118,14 +111,14 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="explicit" match="t:div" use="t:div"><desc><list><item>explicit</item></list></desc></assertion><assertion unit="incipit" match="t:div" use="t:div"><desc><list><item>incipit</item></list></desc></assertion></assertion></source-url></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:particDesc>
             <t:listPerson>
@@ -139,19 +132,12 @@
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#DN" when="2016-12-15">Denis Nosnitsin: Final record in Word File</change>
-         <change who="#PL" when="2017-02-22">Pietro Maria Liuzzo: transformed from Word to TEI
-                            P5</change>
+         <change when="2016-12-15" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Final record in Word File</change>
+         <change when="2017-02-22" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->transformed from Word to TEI P5</change>
+         <change when="2025-01-14" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated ms-contents</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
-         <t:div type="edition">
-            <t:div type="textpart" subtype="incipit">
-               <t:ab>በስመ᎓ አብ᎓" ...  ጸሎት᎓ በእንተ᎓ ማእሰሮሙ᎓ ለአጋንንት᎓ ጸሎተ᎓ መስጥም᎓ ዓቃቢሁኒ᎓ ዑራኤል᎓ ወሳቁኤል᎓ ወኮከቡኒ᎓ ሸምሸያለሁማ᎓ ያተናዚ᎓ እልመለኪ᎓ ወያኑራተዋቀራ᎓ ...</t:ab>
-            </t:div>
-            <t:div type="textpart" subtype="explicit">
-               <t:ab>...  ፈር ሃ᎓  ወደንገፀ᎓ ዲያብሎስ᎓ ርእዮ᎓ ብሁተ᎓ ልደት᎓ በሥጋ᎓ አምላክ᎓ በሲኦል᎓ በዝቃልከ᎓ ወበዝአስማቲከ᎓ አድኅና᎓ እምሕማመ᎓ ባርያ᎓ ወሌጌዎን᎓ ባርያ᎓ ወሰራቅያን᎓ ሊተ᎓ አመትከ᎓ ደስታ᎓ ወለተ᎓ ገብርኤል᎓ &lt;…&gt; አዲራ᎓ እር ስብርቅንኖተ᎓ መስ &lt;…&gt;</t:ab>
-            </t:div>
-         </t:div>
+         <t:div type="edition" xml:id="div1KopCodEtiopAdd20"/>
       </t:body>
    </t:text></TEI>

@@ -3,10 +3,10 @@
          <titleStmt><title type="full">ʾAdulis</title>
             <title>ʾAdulis</title>
             <author/>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <editor key="FP" corresp="https://betamasaheft.eu/team.html#FP" xml:id="FP">Francesca Panini</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#FP" xml:id="ed-FP"><resp>editor</resp><name>Francesca Panini</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
                Zentrum für Äthiopistik</authority>
@@ -20,7 +20,7 @@
             </availability>
 
             <date>2016-03-21</date>
-         <date type="expanded">29.4.2022 at 19:18:51</date><date type="lastModified">30.6.2017</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC1261Adulis/main</idno><idno type="URI">https://betamasaheft.eu/LOC1261Adulis</idno><idno type="filename">LOC1261Adulis.xml</idno><idno type="ID">LOC1261Adulis</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 10:36:20</date><date type="lastModified">30.6.2017</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC1261Adulis/main</idno><idno type="URI">https://betamasaheft.eu/LOC1261Adulis</idno><idno type="filename">LOC1261Adulis.xml</idno><idno type="ID">LOC1261Adulis</idno></publicationStmt>
          <sourceDesc>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
@@ -29,85 +29,85 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language><language ident="la">Latin</language></langUsage>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language><t:language ident="la">Latin</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#FP" when="2017-06-30">Francesca Panini: completed test record</change>
-         <change who="#FP" when="2017-06-22">Francesca Panini: added information and tested new attributes</change>
-         <change who="#PL" when="2016-04-27">Pietro Maria Liuzzo: harmonized typology based on Eugenia indication in Issue
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2017-06-30" who="#FP"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->completed test record</change>
+         <change when="2017-06-22" who="#FP"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added information and tested new attributes</change>
+         <change when="2016-04-27" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->harmonized typology based on Eugenia indication in Issue
             48.</change>
-         <change who="#PL" when="2016-03-21">Pietro Maria Liuzzo:  Created file from google spreadsheet </change>
-         <change who="#ES" when="2016-02-09">Eugenia Sokolinski: CREATED: place</change>
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google spreadsheet </change>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: place</change>
          
-      </revisionDesc>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
             <relation name="skos:exactMatch" ref="http://www.w3.org/2004/02/skos/core#exactMatch" active="https://betamasaheft.eu/LOC1261Adulis" passive="http://pleiades.stoa.org/places/39271"/>
-         </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
+         </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
          
-         <listPlace>
-            <place type="city port" sameAs="wd:Q378940">
-               <placeName xml:id="n1" xml:lang="gez" source="#FattovichMunro">አዱሊስ፡</placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAdulis</placeName>
-               <placeName xml:id="n2" xml:lang="en" type="alt" source="#FattovichMunro">the arbour
-                  of the Adulitae</placeName>
-               <placeName xml:id="n3" xml:lang="gez" type="alt" source="#FattovichMunro">ገበዛ፡</placeName>
-               <placeName corresp="#n3" xml:lang="gez" type="normalized">Gabazā</placeName>
-               <placeName xml:id="n4" xml:lang="la" type="alt" source="#FattovichMunro">Adulitae
-                     <note source="#Smith">
-                     <ref cRef="urn:cts:greekLit:tlg0363.tlg007.perseus-grc1:4.7">Ptolemy 4.7.8</ref>
-                  </note>
-                  <note source="#Epiphanius">
+         <t:listPlace>
+            <t:place type="city port" sameAs="wd:Q378940">
+               <t:placeName xml:id="n1" xml:lang="gez" source="#FattovichMunro">አዱሊስ፡</t:placeName>
+               <t:placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAdulis</t:placeName>
+               <t:placeName xml:id="n2" xml:lang="en" type="alt" source="#FattovichMunro">the arbour
+                  of the Adulitae</t:placeName>
+               <t:placeName xml:id="n3" xml:lang="gez" type="alt" source="#FattovichMunro">ገበዛ፡</t:placeName>
+               <t:placeName corresp="#n3" xml:lang="gez" type="normalized">Gabazā</t:placeName>
+               <t:placeName xml:id="n4" xml:lang="la" type="alt" source="#FattovichMunro">Adulitae
+                     <t:note source="#Smith">
+                     <t:ref cRef="urn:cts:greekLit:tlg0363.tlg007.perseus-grc1:4.7">Ptolemy 4.7.8</t:ref>
+                  </t:note>
+                  <t:note source="#Epiphanius">
                      Epiphanius (listing nine kingdoms of the 'Indians', he refers to the Adulites
-                     other then to the Aksumites)</note>
-               </placeName>
-               <placeName xml:id="n5" type="alt" source="#FattovichMunro">WDTT <note source="#FattovichMunro">The geographical lists of the Egyptian 18th
-                     dynasty (<date when="-1450" precision="low">ca. 1450
-                  B.C.</date>)</note>
-               </placeName>
-               <state type="existence" ref="Aks"/>
-               <location type="relative" source="#FattovichMunro">
-                  <desc>20 stades from the actual port.</desc>
-                  <desc>The ancient site of ʾAdulis is located in the coastal plain of the
-                        <ref type="place" target="#LOC6503Zula">Gulf of Zulā</ref>, approx. <measure unit="km" quantity="40">40
-                        km</measure> to the south of <placeName ref="https://betamasaheft.eu/LOC4631Massaw">Māssāwā</placeName>, at the northen side of the river <placeName ref="https://betamasaheft.eu/LOC3727Haddas">Ḥaddās</placeName> and at about <measure unit="km" quantity="4">4 km</measure>
-                     from the coast.</desc>
-               </location>
-               <listBibl type="secondary">
-                  <bibl xml:id="FattovichMunro" corresp="http://zotero.org/groups/358366/items/QXGDNMRE"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:FattovichMunro2003EnAeAdulis"/><title level="a">Adulis</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Rodolfo</forename><surname>Fattovich</surname></author><author><forename>Stuart</forename><surname>Munro-Hay</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">104a-105b</biblScope><note type="tags"><note type="tag">bm:FattovichMunro2003EnAeAdulis</note></note><note type="tag">bm:FattovichMunro2003EnAeAdulis</note></bibl>
-                  <bibl xml:id="Smith" corresp="http://zotero.org/groups/358366/items/ZV2TZWPA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:SmithGreekRomanGeo"/><title level="m">Dictionary of Greek and Roman Geography</title><author><forename>William</forename><surname>Smith</surname></author><date>1854</date><note type="url">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064</note><note type="tags"><note type="tag">bm:SmithGreekRomanGeo</note></note><note type="tag">bm:SmithGreekRomanGeo</note><citedRange unit="item">s.v. Adu'le or Adu'lis</citedRange></bibl>
-                  <bibl xml:id="Epiphanius" corresp="http://zotero.org/groups/358366/items/5FMTJ5NF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:BlakeVisEpiphanius"/><title level="m">Epiphanius de Gemmis. The Old Georgian Version and the Fragments of the Armenian Version. And the Coptic-Sahidic Fragments.</title><author><forename>Robert Pierpont</forename><surname>Blake</surname></author><author><forename>Henri de</forename><surname>Vis</surname></author><pubPlace>London</pubPlace><publisher>Christophers</publisher><date>1934</date><note type="url">http://archive.org/details/MN41447ucmf_1</note><note type="tags"><note type="tag">bm:BlakeVisEpiphanius</note><note type="tag">Precious stones</note></note><note type="tag">bm:BlakeVisEpiphanius</note><note type="tag">Precious stones</note></bibl>
-                  <bibl xml:id="Periplus" corresp="http://zotero.org/groups/358366/items/7ZDWMWM9"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:HuntingfordPeriplus"/><title level="m">The Periplus of the Erythraean Sea, by an unknown author. With some Extracts from Agatharkhidēs ‘On the Erythraean Sea’</title><title level="s">Hakluyt Society, Second Series</title><author><forename>George Wynn Brereton</forename><surname>Huntingford</surname></author><pubPlace>London</pubPlace><publisher>The Hakluyt Society</publisher><date>1980</date><series><title level="s">Hakluyt Society, Second Series</title><biblScope unit="volume">151</biblScope></series><biblScope unit="volume">151</biblScope><note type="tags"><note type="tag">bm:HuntingfordPeriplus</note><note type="tag">Periplus</note></note><note type="tag">bm:HuntingfordPeriplus</note><note type="tag">Periplus</note></bibl>
-                  <bibl xml:id="Pliny" corresp="http://zotero.org/groups/358366/items/UV3RRI48"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:PlinyHistory"/><title level="m">The Natural History</title><author><name>Pliny the Elder</name></author><editor><forename>John</forename><surname>Bostock</surname></editor><date/><note type="accessed">2017-06-30T10:54:11Z</note><note type="url">http://www.perseus.tufts.edu/hopper/text?doc=Plin.+Nat.+toc</note><note type="tags"><note type="tag">bm:PlinyHistory</note></note><note type="tag">bm:PlinyHistory</note></bibl>
-               </listBibl>
-               <note>
-                  <ab type="history">ʾAdulis was the main port of <placeName ref="https://betamasaheft.eu/LOC7363Aksum">ʾAksum</placeName> during the zenith of the Aksumite Empire. This port is
+                     other then to the Aksumites)</t:note>
+               </t:placeName>
+               <t:placeName xml:id="n5" type="alt" source="#FattovichMunro">WDTT <t:note source="#FattovichMunro">The geographical lists of the Egyptian 18th
+                     dynasty (<t:date when="-1450" precision="low">ca. 1450
+                  B.C.</t:date>)</t:note>
+               </t:placeName>
+               <t:state type="existence" ref="Aks"/>
+               <t:location type="relative" source="#FattovichMunro">
+                  <t:desc>20 stades from the actual port.</t:desc>
+                  <t:desc>The ancient site of ʾAdulis is located in the coastal plain of the
+                        <t:ref type="place" target="#LOC6503Zula">Gulf of Zulā</t:ref>, approx. <t:measure unit="km" quantity="40">40
+                        km</t:measure> to the south of <t:placeName ref="https://betamasaheft.eu/LOC4631Massaw">Māssāwā</t:placeName>, at the northen side of the river <t:placeName ref="https://betamasaheft.eu/LOC3727Haddas">Ḥaddās</t:placeName> and at about <t:measure unit="km" quantity="4">4 km</t:measure>
+                     from the coast.</t:desc>
+               </t:location>
+               <t:listBibl type="secondary">
+                  <t:bibl xml:id="FattovichMunro" corresp="http://zotero.org/groups/358366/items/QXGDNMRE"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:FattovichMunro2003EnAeAdulis"/><title level="a">Adulis</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Rodolfo</forename><surname>Fattovich</surname></author><author><forename>Stuart</forename><surname>Munro-Hay</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">104a-105b</biblScope><note type="tags"><note type="tag">bm:FattovichMunro2003EnAeAdulis</note></note><note type="tag">bm:FattovichMunro2003EnAeAdulis</note></t:bibl>
+                  <t:bibl xml:id="Smith" corresp="http://zotero.org/groups/358366/items/ZV2TZWPA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:SmithGreekRomanGeo"/><title level="m">Dictionary of Greek and Roman Geography</title><author><forename>William</forename><surname>Smith</surname></author><date>1854</date><note type="url">http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064</note><note type="tags"><note type="tag">bm:SmithGreekRomanGeo</note></note><note type="tag">bm:SmithGreekRomanGeo</note><t:citedRange unit="item">s.v. Adu'le or Adu'lis</t:citedRange></t:bibl>
+                  <t:bibl xml:id="Epiphanius" corresp="http://zotero.org/groups/358366/items/5FMTJ5NF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:BlakeVisEpiphanius"/><title level="m">Epiphanius de Gemmis. The Old Georgian Version and the Fragments of the Armenian Version. And the Coptic-Sahidic Fragments.</title><author><forename>Robert Pierpont</forename><surname>Blake</surname></author><author><forename>Henri de</forename><surname>Vis</surname></author><pubPlace>London</pubPlace><publisher>Christophers</publisher><date>1934</date><note type="url">http://archive.org/details/MN41447ucmf_1</note><note type="tags"><note type="tag">Precious stones</note><note type="tag">bm:BlakeVisEpiphanius</note></note><note type="tag">Precious stones</note><note type="tag">bm:BlakeVisEpiphanius</note></t:bibl>
+                  <t:bibl xml:id="Periplus" corresp="http://zotero.org/groups/358366/items/7ZDWMWM9"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:HuntingfordPeriplus"/><title level="m">The Periplus of the Erythraean Sea, by an unknown author. With some Extracts from Agatharkhidēs ‘On the Erythraean Sea’</title><title level="s">Hakluyt Society, Second Series</title><author><forename>George Wynn Brereton</forename><surname>Huntingford</surname></author><pubPlace>London</pubPlace><publisher>The Hakluyt Society</publisher><date>1980</date><series><title level="s">Hakluyt Society, Second Series</title><biblScope unit="volume">151</biblScope></series><biblScope unit="volume">151</biblScope><note type="tags"><note type="tag">Periplus</note><note type="tag">bm:HuntingfordPeriplus</note></note><note type="tag">Periplus</note><note type="tag">bm:HuntingfordPeriplus</note></t:bibl>
+                  <t:bibl xml:id="Pliny" corresp="http://zotero.org/groups/358366/items/UV3RRI48"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:PlinyHistory"/><title level="m">The Natural History</title><author><name>Pliny the Elder</name></author><editor><forename>John</forename><surname>Bostock</surname></editor><date/><note type="accessed">2017-06-30T10:54:11Z</note><note type="url">http://www.perseus.tufts.edu/hopper/text?doc=Plin.+Nat.+toc</note><note type="tags"><note type="tag">bm:PlinyHistory</note></note><note type="tag">bm:PlinyHistory</note></t:bibl>
+               </t:listBibl>
+               <t:note>
+                  <t:ab type="history">ʾAdulis was the main port of <t:placeName ref="https://betamasaheft.eu/LOC7363Aksum">ʾAksum</t:placeName> during the zenith of the Aksumite Empire. This port is
                      mentioned in numerous foreign reports and played a key role in maintaining
                      trade contacts with other powers of the time. The city probably lay some
-                     distance (20 stades) from the actual port. <note source="#Pliny">According to
+                     distance (20 stades) from the actual port. <t:note source="#Pliny">According to
                         Pliny, it was a large centre of trade founded by slaves from Egypt who run
-                        away from their masters.</note>
-                     <note source="#Periplus">The trade of ʾAdulis with other centres is recounted
+                        away from their masters.</t:note>
+                     <t:note source="#Periplus">The trade of ʾAdulis with other centres is recounted
                         by the Periplus of the Erythraean Sea, which reports lists of imports and
-                        exports.</note> Cosmas Indicopleustes offers maps that illustrate some
+                        exports.</t:note> Cosmas Indicopleustes offers maps that illustrate some
                      characteristics of ʾAdulis. Research has shown that ʾAdulis was a sizeable town and
                      archeological excavations have found traces of an ancient prehistoric
                      settlement beneath the Aksumite town. How ʾAdulis was destroyed is not certain
                      yet. It was traditionally claimed that it was destroyed by an Arab expedition in
-                     <date when="0640">640</date> AD however, while traces of fire were found,
-                     the expedition was said to be a failure.</ab>
-               </note>
-            </place>
-         </listPlace>
-      </body>
-   </text></TEI>
+                     <t:date when="0640">640</t:date> AD however, while traces of fire were found,
+                     the expedition was said to be a failure.</t:ab>
+               </t:note>
+            </t:place>
+         </t:listPlace>
+      </t:body>
+   </t:text></TEI>

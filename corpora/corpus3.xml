@@ -1,9 +1,7 @@
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus3" type="work">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:id="corpus3"><teiHeader>
       <fileDesc>
-        <!--INFORMATION ON THE ELECTRONIC EDITION-->
-        <titleStmt>
+        
+        <titleStmt><title type="full">Archives d'Aksum</title>
           <title>Archives d'Aksum</title>
           <principal>
             <persName>
@@ -29,7 +27,7 @@
               <surname>Burnard</surname>
             </persName>
           </respStmt>
-        </titleStmt>
+        <respStmt corresp="https://betamasaheft.eu/team.html#AW" xml:id="AW"><resp>contributor</resp><name>Andreas Wetter</name></respStmt></titleStmt>
         <editionStmt>
           <p>édition électronique 2011</p>
         </editionStmt>
@@ -40,25 +38,30 @@
             <postCode>45071 Orléans</postCode>
             <name>France</name>
           </address>
-        </publicationStmt>
+        <date type="expanded">3.9.2026 at 10:45:21</date><date type="lastModified">19.7.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/corpus3/main</idno><idno type="URI">https://betamasaheft.eu/corpus3</idno><idno type="filename">corpus3.xml</idno><idno type="ID">corpus3</idno></publicationStmt>
         <sourceDesc>
-          <!--DESCRIPTION OF THE MANUSCRIPT-->
+          
           <p/>
         </sourceDesc>
       </fileDesc>
-      <!--DESCRIPTION OF THE CORPUS : à encoder pour le filtre CORPUS-->
+      
       <encodingDesc>
         <projectDesc>
-          <p>L'église d'Aksum Ṣeyon Maryam a conservé différents recueils de documents d'archive. Ceux-ci ont été réunis et partiellement publiés en 1909-10 par C. Conti Rossini sous le titre général de Liber Aksumae. L'un des objectifs de la publication de ce corpus est de permettre de consulter l’ensemble de ces documents désormais célèbres dans leur intégralité, en respectant l’organisation des recueils manuscrits dans lesquels ils furent copiés. Ainsi, le titre Liber Aksumae fut en réalité attribué en 1771 par James Bruce à un manuscrit que fit copier pour lui le rās Mikā’ēl Sehul, aujourd'hui conservé à la bibliothèque bodléienne d'Oxford (<ref corresp="BDLbruce93">ms. Bodleian Bruce 93</ref>. Il s'agit d'une compilation de textes historiographiques et administratifs relatifs à la ville et à l'église d'Aksum ainsi qu'à l'histoire du royaume chrétien d'Éthiopie. Dans son édition, Carlo Conti Rossini a quant à lui utilisé plusieurs copies comportant de fortes variantes de ce recueil (liste) ainsi que deux autres corpus. L'un est constitué d'un unique manuscrit, un cartulaire réunissant les actes fonciers des églises et des provinces environnant Aksum (provinces du Sirē, de l'Akkalē Guzay, de l'Hamasēn, de Na‘edēr,...). Conservé à Aksum Ṣeyon sous les appellations de Wangel za-Warq ou Évangile d’Or ou encore de Kebra Nagaśt, il nous est connu uniquement à travers la copie <ref corresp="BNFabb152">BnF Eth. Abb. 152</ref>. Le troisième et dernier corpus utilisé par C. Conti Rossini est un autre cartulaire, concernant plus particulièrement l'église d'Aksum Ṣeyon, connu par deux copies, les manuscrits <ref corresp="BNFabb225">BnF Eth. Abb. 225</ref> et <ref corresp="BNFabb97">BnF Eth. Abb. 97</ref>.  </p>
+          <p>L'église d'Aksum Ṣeyon Maryam a conservé différents recueils de documents d'archive. Ceux-ci ont été réunis et partiellement publiés en 1909-10 par C. Conti Rossini sous le titre général de Liber Aksumae. L'un des objectifs de la publication de ce corpus est de permettre de consulter l’ensemble de ces documents désormais célèbres dans leur intégralité, en respectant l’organisation des recueils manuscrits dans lesquels ils furent copiés. Ainsi, le titre Liber Aksumae fut en réalité attribué en 1771 par James Bruce à un manuscrit que fit copier pour lui le rās Mikā’ēl Sehul, aujourd'hui conservé à la bibliothèque bodléienne d'Oxford (<ref corresp="https://betamasaheft.eu/BDLbruce93">ms. Bodleian Bruce 93</ref>. Il s'agit d'une compilation de textes historiographiques et administratifs relatifs à la ville et à l'église d'Aksum ainsi qu'à l'histoire du royaume chrétien d'Éthiopie. Dans son édition, Carlo Conti Rossini a quant à lui utilisé plusieurs copies comportant de fortes variantes de ce recueil (liste) ainsi que deux autres corpus. L'un est constitué d'un unique manuscrit, un cartulaire réunissant les actes fonciers des églises et des provinces environnant Aksum (provinces du Sirē, de l'Akkalē Guzay, de l'Hamasēn, de Na‘edēr,...). Conservé à Aksum Ṣeyon sous les appellations de Wangel za-Warq ou Évangile d’Or ou encore de Kebra Nagaśt, il nous est connu uniquement à travers la copie <ref corresp="https://betamasaheft.eu/BNFabb152">BnF Eth. Abb. 152</ref>. Le troisième et dernier corpus utilisé par C. Conti Rossini est un autre cartulaire, concernant plus particulièrement l'église d'Aksum Ṣeyon, connu par deux copies, les manuscrits <ref corresp="https://betamasaheft.eu/BNFabb225">BnF Eth. Abb. 225</ref> et <ref corresp="https://betamasaheft.eu/BNFabb97">BnF Eth. Abb. 97</ref>.  </p>
         </projectDesc>
-      </encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <revisionDesc>
-        <change when="2017-07-19" who="AW">Création du fichier xml</change>
+        <change when="2017-07-19" who="#AW"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Création du fichier xml</change>
       </revisionDesc>
-    </teiHeader> 
-    <text>
+    </teiHeader><text>
       <body>
         <p/>
       </body>
-    </text>
-  </TEI>
+    </text></TEI>

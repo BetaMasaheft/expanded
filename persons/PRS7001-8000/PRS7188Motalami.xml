@@ -3,9 +3,9 @@
          <titleStmt><title type="full">Motalami</title>
             <title>Motalami</title>
             <editor key="SG" corresp="https://betamasaheft.eu/team.html#SG" xml:id="SG">Solomon Gebreyes</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <author/>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-SG" corresp="https://betamasaheft.eu/team.html#SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#SG" xml:id="ed-SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -16,7 +16,7 @@
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
-         <date type="expanded">25.8.2022 at 14:45:19</date><date type="lastModified">14.8.2017</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS7188Motalami/main</idno><idno type="URI">https://betamasaheft.eu/PRS7188Motalami</idno><idno type="filename">PRS7188Motalami.xml</idno><idno type="ID">PRS7188Motalami</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 07:25:45</date><date type="lastModified">14.8.2017</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS7188Motalami/main</idno><idno type="URI">https://betamasaheft.eu/PRS7188Motalami</idno><idno type="filename">PRS7188Motalami.xml</idno><idno type="ID">PRS7188Motalami</idno></publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
@@ -27,70 +27,70 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-04-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->batch updated according to requirements and issues.</change>
-         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-04-28" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->batch updated according to requirements and issues.</change>
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
                                                   google spreadsheet </change>
-         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: person</change>
-         <change who="#SG" when="2016-08-01"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Complete record</change>
-         <change who="#SG" when="2017-08-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Correction and addition</change>
-      </revisionDesc>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: person</change>
+         <change when="2016-08-01" who="#SG"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Complete record</change>
+         <change when="2017-08-14" who="#SG"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Correction and addition</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="betmas:baptizedBy" ref="betmas:baptizedBy" active="https://betamasaheft.eu/PRS7188Motalami" passive="https://betamasaheft.eu/PRS9162TaklaHa"/>
               <relation name="snap:SonOf" ref="http://data.snapdrgn.net/ontology/snap#SonOf" active="https://betamasaheft.eu/PRS7188Motalami" passive="https://betamasaheft.eu/PRS7189Motaqal"/>
               <relation name="snap:SonOf" ref="http://data.snapdrgn.net/ontology/snap#SonOf" active="https://betamasaheft.eu/PRS7188Motalami" passive="https://betamasaheft.eu/PRS3881eslandan"/>
               
-              </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPerson>
-            <person sex="1">
-              <persName xml:lang="gez" xml:id="n1" type="birth">ሞተለሚ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Motalami</persName>
-               <persName xml:lang="gez" xml:id="n2" type="birth">ሞተሎሜ፡</persName>
-                  <persName xml:lang="gez" corresp="#n2" type="normalized">Motalome</persName>
-               <persName xml:lang="gez" xml:id="n3" type="birth">ሞተሎሚ፡</persName>
-                  <persName xml:lang="gez" corresp="#n3" type="normalized">Motalomi</persName>
-                  <persName>
-                  <roleName type="title">śǝyyuma</roleName>
-               </persName>
+              </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPerson>
+            <t:person sex="1">
+              <t:persName xml:lang="gez" xml:id="n1" type="birth">ሞተለሚ፡</t:persName>
+               <t:persName xml:lang="gez" corresp="#n1" type="normalized">Motalami</t:persName>
+               <t:persName xml:lang="gez" xml:id="n2" type="birth">ሞተሎሜ፡</t:persName>
+                  <t:persName xml:lang="gez" corresp="#n2" type="normalized">Motalome</t:persName>
+               <t:persName xml:lang="gez" xml:id="n3" type="birth">ሞተሎሚ፡</t:persName>
+                  <t:persName xml:lang="gez" corresp="#n3" type="normalized">Motalomi</t:persName>
+                  <t:persName>
+                  <t:roleName type="title">śǝyyuma</t:roleName>
+               </t:persName>
                
-               <nationality type="Ethiopia"/>
-               <faith type="EOTC"/>
-               <occupation type="political">King</occupation>
+               <t:nationality type="Ethiopia"/>
+               <t:faith type="EOTC"/>
+               <t:occupation type="political">King</t:occupation>
              
-               <floruit notBefore="1200" notAfter="1300">He was the legendary king 
-                  of the Kingdom of <placeName ref="https://betamasaheft.eu/LOC2488Damot">Dāmot</placeName>
+               <t:floruit notBefore="1200" notAfter="1300">He was the legendary king 
+                  of the Kingdom of <t:placeName ref="https://betamasaheft.eu/LOC2488Damot">Dāmot</t:placeName>
                   in the 13th and 14th centuries.
                   He was baptized and converted into Christianity by saint 
-                  <persName ref="https://betamasaheft.eu/PRS9162TaklaHa">Takla Hāymānot</persName>.
-               </floruit>
+                  <t:persName ref="https://betamasaheft.eu/PRS9162TaklaHa">Takla Hāymānot</t:persName>.
+               </t:floruit>
           
-            </person>  
+            </t:person>  
            
-         </listPerson>
+         </t:listPerson>
          
-         <listBibl type="secondary">
-            <bibl corresp="http://zotero.org/groups/358366/items/H2P2BI2F"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1896TaklaHaymanot"/><title level="m">Il “Gadla Takla Hāymānot” secondo la redazione waldebbana</title><title level="s">Reale Accademia dei Lincei, serie quinta, Memorie della Classe di scienze morali, storiche e filologiche</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><pubPlace>Roma</pubPlace><publisher>Tipografia della R. Accademia dei Lincei</publisher><date>1896</date><series><title level="s">Reale Accademia dei Lincei, serie quinta, Memorie della Classe di scienze morali, storiche e filologiche</title><biblScope unit="volume">2/1</biblScope></series><biblScope unit="volume">2/1</biblScope><note type="tags"><note type="tag">Hagiography</note><note type="tag">bm:ContiRossini1896TaklaHaymanot</note><note type="tag">Takla Haymanot</note></note><note type="tag">Hagiography</note><note type="tag">bm:ContiRossini1896TaklaHaymanot</note><note type="tag">Takla Haymanot</note></bibl>
+         <t:listBibl type="secondary">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/H2P2BI2F"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1896TaklaHaymanot"/><title level="m">Il “Gadla Takla Hāymānot” secondo la redazione waldebbana</title><title level="s">Reale Accademia dei Lincei, serie quinta, Memorie della Classe di scienze morali, storiche e filologiche</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><pubPlace>Roma</pubPlace><publisher>Tipografia della R. Accademia dei Lincei</publisher><date>1896</date><series><title level="s">Reale Accademia dei Lincei, serie quinta, Memorie della Classe di scienze morali, storiche e filologiche</title><biblScope unit="volume">2/1</biblScope></series><biblScope unit="volume">2/1</biblScope><note type="tags"><note type="tag">Hagiography</note><note type="tag">Takla Haymanot</note><note type="tag">bm:ContiRossini1896TaklaHaymanot</note></note><note type="tag">Hagiography</note><note type="tag">Takla Haymanot</note><note type="tag">bm:ContiRossini1896TaklaHaymanot</note></t:bibl>
          
-            <bibl corresp="http://zotero.org/groups/358366/items/8SCM474J"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Budge1906Taklahaymanot"/><title level="m">The Life of Takla Hâymânôt, in the version of Dabra Lîbanôs, and The miracles of Takla Hâymânôt in the version of Dabra Lîbanôs</title><author><forename>E. A. Wallis</forename><surname>Budge</surname></author><pubPlace>London</pubPlace><publisher>Privately printed for Lady Meux</publisher><date>1906</date><note type="tags"><note type="tag">bm:Budge1906Taklahaymanot</note></note><note type="tag">bm:Budge1906Taklahaymanot</note></bibl>
-         </listBibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/8SCM474J"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Budge1906Taklahaymanot"/><title level="m">The Life of Takla Hâymânôt, in the version of Dabra Lîbanôs, and The Miracles of Takla Hâymânôt in the version of Dabra Lîbanôs, and The Book of the Riches of Kings</title><editor><forename>E. A. Wallis</forename><surname>Budge</surname></editor><pubPlace>London</pubPlace><publisher>Privately printed for Lady Meux</publisher><date>1906</date><biblScope unit="volume">I-II</biblScope><note type="tags"><note type="tag">bm:Budge1906Taklahaymanot</note></note><note type="tag">bm:Budge1906Taklahaymanot</note></t:bibl>
+         </t:listBibl>
          
          
-         <listBibl type="secondary">
-            <bibl corresp="http://zotero.org/groups/358366/items/BFPVV94I"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Nosnitsin2007Motalami"/><title level="a">Motälämi</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Denis</forename><surname>Nosnitsin</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">1035b-1037a</biblScope><note type="tags"><note type="tag">bm:Nosnitsin2007Motalami</note></note><note type="tag">bm:Nosnitsin2007Motalami</note></bibl>
-            <bibl corresp="http://zotero.org/groups/358366/items/IA6C6EXN"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Taddesse1972Church"/><title level="m">Church and State in Ethiopia 1270–1527</title><title level="s">Oxford Studies in African Affairs</title><author><name>Taddesse Tamrat</name></author><pubPlace>Oxford</pubPlace><publisher>Clarendon Press</publisher><date>1972</date><series><title level="s">Oxford Studies in African Affairs</title></series><note type="tags"><note type="tag">bm:Taddesse1972Church</note></note><note type="tag">bm:Taddesse1972Church</note></bibl>  
-         </listBibl>
-      </body>
-   </text></TEI>
+         <t:listBibl type="secondary">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/BFPVV94I"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Nosnitsin2007Motalami"/><title level="a">Motälämi</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Denis</forename><surname>Nosnitsin</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">1035b-1037a</biblScope><note type="tags"><note type="tag">bm:Nosnitsin2007Motalami</note></note><note type="tag">bm:Nosnitsin2007Motalami</note></t:bibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/IA6C6EXN"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Taddesse1972Church"/><title level="m">Church and State in Ethiopia 1270–1527</title><title level="s">Oxford Studies in African Affairs</title><author><name>Taddesse Tamrat</name></author><pubPlace>Oxford</pubPlace><publisher>At the Clarendon Press</publisher><date>1972</date><series><title level="s">Oxford Studies in African Affairs</title></series><note type="url">https://soas-repository.worktribe.com/output/413799</note><note type="tags"><note type="tag">bm:Taddesse1972Church</note></note><note type="tag">bm:Taddesse1972Church</note></t:bibl>  
+         </t:listBibl>
+      </t:body>
+   </t:text></TEI>

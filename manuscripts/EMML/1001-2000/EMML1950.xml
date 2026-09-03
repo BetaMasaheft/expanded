@@ -1,10 +1,10 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="EMML1950"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
-         <titleStmt><title type="full">Collegeville, Hill Museum and Manuscript Library, MS EMML no. 1950</title>
+         <titleStmt><title type="full">Dabub Wallo, Dabra Ḥayq ʾƎsṭifānos, MS EMML no. 1950</title>
             <title xml:id="t1">EMML 1950</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#AD" xml:id="AD"><resp>contributor</resp><name>Augustine Dickinson</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <editionStmt>
             <p>The initial version of this file was created from data kindly
                                 provided by Hill Museum &amp; Manuscript Library.</p>
@@ -19,18 +19,22 @@
                                 multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p>This XML file is licensed under the Creative Commons
-                                        Attribution-ShareAlike 4.0. </p>
+                  This XML file is licensed under the Creative Commons
+                                        Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
-            <date>2017-11-30+01:00</date>
-         <date type="expanded">26.8.2022 at 23:56:34</date><date type="lastModified">30.11.2017</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMML1950/main</idno><idno type="URI">https://betamasaheft.eu/EMML1950</idno><idno type="filename">EMML1950.xml</idno><idno type="ID">EMML1950</idno></publicationStmt>
+            
+         <date type="expanded">3.9.2026 at 08:41:22</date><date type="lastModified">6.10.2025</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMML1950/main</idno><idno type="URI">https://betamasaheft.eu/EMML1950</idno><idno type="filename">EMML1950.xml</idno><idno type="ID">EMML1950</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository ref="https://betamasaheft.eu/INS0004HMML">Hill Museum and Manuscript Library</repository>
-                  <collection>Parish Church, Ambāssal</collection>
+                  <repository ref="https://betamasaheft.eu/INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</repository>
+                  
                   <idno>MS EMML no. 1950</idno>
+                  <altIdentifier>
+                     <repository ref="https://betamasaheft.eu/INS0004HMML">Hill Museum and Manuscript Library</repository>                     
+                     <idno> EMML  1950</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <summary/>
@@ -42,14 +46,13 @@
                            <material key="parchment"/>
                         </support>
                         <extent>
-                           <measure unit="leaf">123 </measure>
-                           <dimensions>
-                              <dim/>
-                           </dimensions>
+                           <measure unit="leaf">124</measure>
+                           <dimensions type="outer" unit="mm">
+                              <height>225</height>
+                              <width>220</width>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="225" unit="mm"/><width quantity="220" unit="mm"/></dimensions>
                         </extent>
-                        <foliation/>
-                        <condition key="good"/>
-                     </supportDesc>
+                     </supportDesc>                     
                   </objectDesc>
                </physDesc>
                <history>
@@ -64,13 +67,263 @@
                      <recordHist>
                         <source>
                            <listBibl type="catalogue">
-                              <bibl corresp="http://zotero.org/groups/358366/items/UUFSWNIB"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:EMML5"/><title level="m">A Catalogue of Ethiopian Manuscripts Microfilmed for the Ethiopian Manuscript Microfilm Library, Addis Ababa, and for the Hill Monastic Manuscript Library, Collegeville, V: Project Numbers 1501–2000</title><author><name>Getatchew Haile</name></author><author><forename>William F.</forename><surname>Macomber</surname></author><pubPlace>Collegeville, MN</pubPlace><publisher>Hill Monastic Manuscript Library, St. John's Abbey and University</publisher><date>1981</date><note type="url">https://archive.org/details/EMMLCatalog05</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">EMML</note><note type="tag">bm:EMML5</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">EMML</note><note type="tag">bm:EMML5</note></bibl>
+                              <bibl corresp="http://zotero.org/groups/358366/items/UUFSWNIB"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:EMML5"/><title level="m">A Catalogue of Ethiopian Manuscripts Microfilmed for the Ethiopian Manuscript Microfilm Library, Addis Ababa, and for the Hill Monastic Manuscript Library, Collegeville, &lt;hi rend="italics"&gt;V:&lt;/hi&gt; Project Numbers 1501–2000</title><author><name>Getatchew Haile</name></author><author><forename>William F.</forename><surname>Macomber</surname></author><pubPlace>Collegeville, MN</pubPlace><publisher>Hill Monastic Manuscript Library, St. John's Abbey and University</publisher><date>1981</date><note type="url">https://archive.org/details/EMMLCatalog05</note><note type="tags"><note type="tag">Cataloguing</note><note type="tag">EMML</note><note type="tag">Ethiopic</note><note type="tag">bm:EMML5</note></note><note type="tag">Cataloguing</note><note type="tag">EMML</note><note type="tag">Ethiopic</note><note type="tag">bm:EMML5</note></bibl>                           
+                              <bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV"><seg type="webpage"><!-- attributes from original bibl--></seg><ptr target="bm:MgWebsite"/><title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title><author><forename>Augustine</forename><surname>Dickinson</surname></author><date>2020</date><note type="accessed">2024-09-24</note><note type="url">https://malkeagubae.com/</note><note type="tags"><note type="tag">bm:MgWebsite</note></note><note type="tag">bm:MgWebsite</note></bibl>
+                              <bibl corresp="http://zotero.org/groups/358366/items/Y2BK7A9V"><seg type="dataset"><!-- attributes from original bibl--></seg><ptr target="bm:vHMML"/><title level="m">HMML Reading Room</title><date/><note type="url">https://www.vhmml.org/readingRoom</note><note type="tags"><note type="tag">bm:vHMML</note></note><note type="tag">bm:vHMML</note></bibl>
                            </listBibl>
                         </source>
                      </recordHist>
                   </adminInfo>
                </additional>
-            </msDesc>
+               
+               <msPart xml:id="p1">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary>Ethiopic book of Enoch</summary>
+                     <msItem xml:id="p1_i1.1">
+                        <locus from="2ra" to="29rc">2ra-29rc</locus>
+                        <title ref="https://betamasaheft.eu/LIT1340EnochE">(Ethiopic Book of) Enoch</title>
+                     </msItem>
+                     <msItem xml:id="p1_i1.2">
+                        <locus from="30r" to="31r">30r-31r</locus>
+                        <title>Diagrams of the direction of the sun</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="Codex">
+                        <supportDesc>
+                           <support>
+                              <material key="parchment"/>
+                           </support>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="3" writtenLines="33"/><layout subtype="computed" type="catalogue" columns="3"><writtenLines quantity="33"/></layout>
+                        </layoutDesc>
+                     </objectDesc>                     
+                  </physDesc>
+               </msPart>
+               <msPart xml:id="p2">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary>Image of the Trinity, Chaîne Repertoire number 20, fol. 32r-34v; Lamentation of the Virgin, Chaîne Repertoire number 268, fol. 34v-38v; Image of the Pact of Mercy, Chaîne Repertoire number 362, fol. 38v-41r; Image of the Assumption, Chaîne Repertoire number 213, fol. 41r-42r; ʼAkko-nu beʼsi, Chaîne Repertoire number 327, fol. 42r-44v; Image of Mary, Chaîne Repertoire number 222, fol. 44v-46r; Image of Michael, Chaîne Repertoire number 119, fol. 46v-49r; Image of Gabriel, Chaîne Repertoire number 246, fol. 49r-51r; Image of the Four Living Animals, fol. 51r-52v; Image of the Heavenly Priests, Chaîne Repertoire number 190, fol. 52v-55v; Image of Raphael, fol. 55v-56v; Image of the Guardian Angel, Chaîne Repertoire number 219, fol. 56v-58v; Image of Peter and Paul, Chaîne Repertoire number 187, fol. 58v-61r; Image of James son of Alphaeus, Chaîne Repertoire number 199, fol. 61r-62v; Image of Matthias, Chaîne Repertoire number 197, fol. 62v-63v; Image of James son of Zebedee, Chaîne Repertoire number 206, fol. 63v-65r; Image of Mark, Chaîne Repertoire number 198, fol. 65r-66r; Image of Thomas, Chaîne Repertoire number 201, fol. 66r-67r; Image of Thaddeus, Chaîne Repertoire number 113, fol. 67r-68v; Image of Nathaniel, fol. 68v-69v; Image of Abraham, Isaac, and Jacob, Chaîne Repertoire number 182, fol. 69v-72r; Image of George, Chaîne Repertoire number 147, fol. 72r-74v; Image of Theodore, Chaîne Repertoire number 160, fol. 74v-77r; Image of Takla Hāymānot, Chaîne Repertoire number 211, fol. 77r-80r; Image of Gabra Manfas Qeddus, Chaîne Repertoire number 196, fol. 80r-83r; Image of Honorius, fol. 83r-85v; Image of the Cross, Chaîne Repertoire number 125, fol. 85v-87v; Image of Bartholomew, Chaîne Repertoire number 205, fol. 88r-89r; Image of Matthew, Chaîne Repertoire number 202, fol. 89r-90v; Image of Luke, Chaîne Repertoire number 203, fol. 90v-92r; Image of Phillip, Chaîne Repertoire number 137, fol. 92r-93r; Image of Andrew, Chaîne Repertoire number 210, fol. 93r-94r; Image of John son of thunder, Chaîne Repertoire number 209, fol. 94r-95v; Image of Claudius, Chaîne Repertoire number 315, fol. 96r-99r; Image of Malkeʼa Krestos, fol. 99r-100v; Image of Aragāwi, Chaîne Repertoire number 278, fol. 100v-102r; Image of John the Baptist, Chaîne Repertoire number 279, fol. 102r-103v; Image of James brother of Jesus,Chaîne Repertoire number 193, fol. 104r-105r; Image of Stephen, fol. 105v-107r; Image of the 40 martyrs of Sebaste, Chaîne Repertoire number 217, fol. 107r-109r; Image of Cyricus and Julitta, Chaîne Repertoire number 375, fol. 109r-112r; Image of the 318 Orthodox Fathers, Chaîne Repertoire number375, fol. 112r-113r; Image of Abib, fol. 113r-114r; Image of Fāsiladas, Chaîne Repertoire number 284, fol. 114r-117r; Image of Mercurius, Chaîne Repertoire number 169, fol. 117r-119r; Image of Kiros, fol. 119r-122r; Image of Alexius/Gabra Iyāsus Krestos, fol. 122r-123v; Greeting to Abib, fol. 123v </summary>
+                     
+                     <msItem xml:id="p2_i1">
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1850Malkea">Malkǝʾa gubāʾe</title> 
+                        <msItem xml:id="p2_i1.1">
+                        <locus from="32ra" to="34vb">32ra-34vb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2736RepCh20">Malkǝʾa Śǝllāse</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.2">
+                        <locus from="34vb" to="38va">34vb-38va</locus>
+                        <title ref="https://betamasaheft.eu/LIT2285RepCh268"><seg corresp="LIT2285RepCh268">No item: LIT2285RepCh268</seg></title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.3">
+                        <locus from="38va" to="41rb">38va-41rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT3082RepCh362">Malkǝʾa kidāna mǝḥrat</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.4">
+                        <locus from="41rb" to="42rb">41rb-42rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2932RepCh213">Malkǝʾa fǝlsatā</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.5">
+                        <locus from="42rb" to="44va">42rb-44va</locus>
+                        <title ref="https://betamasaheft.eu/LIT4274RepCh327"><seg corresp="LIT4274RepCh327">No item: LIT4274RepCh327</seg></title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.6">
+                        <locus from="44va" to="46rb">44va-46rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2941RepCh222">Malkǝʾa baʾatā</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.7">
+                        <locus from="46va" to="49rb">46va-49rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2835RepCh119">Malkǝʾa Mikāʾel</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.8">
+                        <locus from="49rb" to="51ra">49rb-51ra</locus>
+                        <title ref="https://betamasaheft.eu/LIT2965RepCh246">Malkǝʾa Gabrǝʾel</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.9">
+                        <locus from="51ra" to="52vb">51ra-52vb</locus>
+                        <title ref="https://betamasaheft.eu/LIT0348Malke">Malkǝʾa ʾArbāʿǝttu ʾƎnsǝsā</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.10">
+                        <locus from="52vb" to="55vb">52vb-55vb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2909RepCh190">Malkǝʾa ʿǝśrā waʾarbāʿtu kāhǝnāta samāy</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.11">
+                        <locus from="55vb" to="56va">55vb-56va</locus>
+                        <title ref="https://betamasaheft.eu/LIT2934RepCh215">Malkǝʾa Rufāʾel</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.12">
+                        <locus from="56va" to="58vb">56va-58vb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2938RepCh219">Malkǝʾa Malʾaka ʿUqābe</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.13">
+                        <locus from="58vb" to="61rb">58vb-61rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2906RepCh187">Malkǝʾa Ṗeṭros wa-Ṗāwlos</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.14">
+                        <locus from="61rb" to="62va">61rb-62va</locus>
+                        <title ref="https://betamasaheft.eu/LIT2918RepCh199">Malkǝʾa Yāʿqob Walda ʾƎlfyos</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.15">
+                        <locus from="62va" to="63vb">62va-63vb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2916RepCh197">Malkǝʾa Mātyās</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.16">
+                        <locus from="63vb" to="65ra">63vb-65ra</locus>
+                        <title ref="https://betamasaheft.eu/LIT2925RepCh206">Malkǝʾa Yāʿqob Walda Zabdewos</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.17">
+                        <locus from="65ra" to="66rb">65ra-66rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2917RepCh198">Malkǝʾa Mārqos</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.18">
+                        <locus from="66rb" to="67rb">66rb-67rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2920RepCh201">Malkǝʾa Tomās</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.19">
+                        <locus from="67rb" to="68va">67rb-68va</locus>
+                        <title ref="https://betamasaheft.eu/LIT2829RepCh113">Malkǝʾa Tādewos</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.20">
+                        <locus from="68va" to="69vb">68va-69vb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2828RepCh112">Malkǝʾa Nātnāʾel</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.21">
+                        <locus from="69vb" to="70vb">69vb-70vb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2901RepCh182">Malkǝʾa ʾAbrǝhām Yǝsḥaq wa-Yāʿqob</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.22">
+                        <locus from="70vb" to="72rb">70vb-72rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT0448Malke">Malkǝʾa ʾAbrǝhām</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.23">
+                        <locus from="72rb" to="74vb">72rb-74vb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2866RepCh147">Malkǝʾa Giyorgis</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.24">
+                        <locus from="74vb" to="77ra">74vb-77ra</locus>
+                        <title ref="https://betamasaheft.eu/LIT2879RepCh160">Malkǝʾa Tewodros</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.25">
+                        <locus from="77ra" to="80ra">77ra-80ra</locus>
+                        <title ref="https://betamasaheft.eu/LIT2930RepCh211">Malkǝʾa ʾAbuna Takla Hāymānot</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.26">
+                        <locus from="80ra" to="83ra">80ra-83ra</locus>
+                        <title ref="https://betamasaheft.eu/LIT2836RepCh196"><seg corresp="LIT2836RepCh196">No item: LIT2836RepCh196</seg></title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.27">
+                        <locus from="83ra" to="85vb">83ra-85vb</locus>
+                        <title ref="https://betamasaheft.eu/LIT0321Malke">Malkǝʾa ʾAnorewos za-Dabra Ṣǝgāǧǧā</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.28">
+                        <locus from="85vb" to="87vb">85vb-87vb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2842RepCh125">Malkǝʾa masqal</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.29">
+                        <locus from="88ra" to="89rb">88ra-89rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2924RepCh205">Malkǝʾa Bartalomewos</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.30">
+                        <locus from="89rb" to="90va">89rb-90va</locus>
+                        <title ref="https://betamasaheft.eu/LIT2921RepCh202">Malkǝʾa Mātewos</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.31">
+                        <locus from="90va" to="92ra">90va-92ra</locus>
+                        <title ref="https://betamasaheft.eu/LIT2922RepCh203">Malkǝʾ-hymn to St Luke the Evangelist</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.32">
+                        <locus from="92ra" to="93ra">92ra-93ra</locus>
+                        <title ref="https://betamasaheft.eu/LIT2855RepCh137">Malkǝʾa Filǝṗṗos</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.33">
+                        <locus from="93ra" to="94ra">93ra-94ra</locus>
+                        <title ref="https://betamasaheft.eu/LIT2929RepCh210">Malkǝʾa ʾƎndrǝyās</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.34">
+                        <locus from="94ra" to="95vb">94ra-95vb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2928RepCh209">Malkǝʾa Yoḥannǝs Wangelāwi</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.35">
+                        <locus from="96ra" to="98va">96ra-98va</locus>
+                        <title ref="https://betamasaheft.eu/LIT3035RepCh315">Malkǝʾa Galāwdewos</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.36">
+                        <locus from="98vb" to="100va">98vb-100va</locus>
+                        <title ref="https://betamasaheft.eu/LIT0332Malke">Malkǝʾa Malkǝʾa Krǝstos</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.37">
+                        <locus from="100va" to="102ra">100va-102ra</locus>
+                        <title ref="https://betamasaheft.eu/LIT2998RepCh278">Malkǝʾa ʾAragāwi</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.38">
+                        <locus from="102ra" to="103vb">102ra-103vb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2999RepCh279">Malkǝʾa Yoḥannǝs Maṭmǝq</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.39">
+                        <locus from="104ra" to="105rb">104ra-105rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2912RepCh193">Malkǝʾa Yāʿqob ʾǝḫuhu la-ʾƎgziʾ</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.40">
+                        <locus from="105va" to="107ra">105va-107ra</locus>
+                        <title ref="https://betamasaheft.eu/LIT0357Malke">Malkǝʾa ʾƎsṭifānos</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.41">
+                        <locus from="107ra" to="109ra">107ra-109ra</locus>
+                        <title ref="https://betamasaheft.eu/LIT2936RepCh217">Malkǝʾa ʾarbǝʿā ḥarā</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.42">
+                        <locus from="109ra" to="112ra">109ra-112ra</locus>
+                        <title ref="https://betamasaheft.eu/LIT3095RepCh375">Hymn to St Cyricus and Julitta</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.43">
+                        <locus from="112ra" to="113rb">112ra-113rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2903RepCh184">Malkǝʾ-hymn to the Fathers of Nicea</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.44">
+                        <locus from="113rb" to="114rb">113rb-114rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT0542Malke">Malkǝʾa Malāʾǝkt</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.45">
+                        <locus from="114rb" to="117rb">114rb-117rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT3004RepCh284">Malkǝʾa Fāsiladas</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.46">
+                        <locus from="117rb" to="119rb">117rb-119rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT2888RepCh169">Malkǝʾa Marqorewos</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.47">
+                        <locus from="119rb" to="122rb">119rb-122rb</locus>
+                        <title ref="https://betamasaheft.eu/LIT0359Malke">Malkǝʾa Kiros</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.48">
+                        <locus from="122rb" to="123va">122rb-123va</locus>
+                        <title ref="https://betamasaheft.eu/LIT0358Malke">Malkǝʾa Gabra Krǝstos</title>
+                     </msItem>
+                     <msItem xml:id="p2_i1.49">
+                        <locus from="123va" to="123vb">123va-123vb</locus>
+                        <title>Salutation to Abib</title>
+                     </msItem>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="Codex">
+                        <supportDesc>
+                           <support>
+                              <material key="parchment"/>
+                           </support>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="2" writtenLines="25 26"/><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="26"/></layout>
+                        </layoutDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msPart>
+               
+            <msPartsCount quantity="2"/></msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -80,21 +333,23 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#PL" when="2017-11-30"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created minimal record with link from data sent from Daniel Gullo, HMML
+         <change when="2017-11-30" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created minimal record with link from data sent from Daniel Gullo, HMML
                             project.</change>
+         <change when="2025-10-06" who="#AD"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->described the content at https://malkeagubae.com/manuscripts/EMML1950</change>
+         <change when="2025-10-06" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->adjusted IDs to https://malkeagubae.com and using metadata added by Jeremy R. Brown at HMML</change>
       </t:revisionDesc>
    </teiHeader><t:facsimile xmlns:t="http://www.tei-c.org/ns/1.0">
       <t:graphic url="https://w3id.org/vhmml/readingRoom/view/203780"/>

@@ -3,9 +3,9 @@
          <titleStmt><title type="full">Paris, Bibliothèque nationale de France, BnF Éthiopien 82</title>
             <title>Treaty on the Holy Spirit, Maṣḥafa saʿātāt</title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,7 +14,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is licensed
             under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">17.12.2024 at 11:49:45</date><date type="lastModified">13.9.2016</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFet82/main</idno><idno type="URI">https://betamasaheft.eu/BNFet82</idno><idno type="filename">BNFet82.xml</idno><idno type="ID">BNFet82</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 09:38:11</date><date type="lastModified">13.9.2016</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFet82/main</idno><idno type="URI">https://betamasaheft.eu/BNFet82</idno><idno type="filename">BNFet82.xml</idno><idno type="ID">BNFet82</idno></publicationStmt>
       
          <sourceDesc>
             <msDesc xml:id="ms">
@@ -63,7 +63,7 @@
                               <dimensions type="outer" unit="mm">
                                  <height>190</height>
                                  <width>117</width>
-                              </dimensions>
+                              </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="190" unit="mm"/><width quantity="117" unit="mm"/></dimensions>
                            </extent>
                     
                         </supportDesc>
@@ -86,7 +86,7 @@
                         <recordHist>
                            <source>
                               <listBibl type="catalogue">
-                                 <bibl corresp="http://zotero.org/groups/358366/items/XIGIRUCA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Zotenberg1877Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens (gheez et amharique) de la Bibliothèque nationale</title><title level="s">Manuscrits Orientaux</title><author><forename>Hermann</forename><surname>Zotenberg</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1877</date><series><title level="s">Manuscrits Orientaux</title></series><note type="url">https://archive.org/details/manuscritsorient00bibl</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Zotenberg1877Catalogue</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Zotenberg1877Catalogue</note><citedRange unit="page">87b</citedRange></bibl>
+                                 <bibl corresp="http://zotero.org/groups/358366/items/XIGIRUCA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Zotenberg1877Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens &lt;hi rend="italics"&gt;(&lt;/hi&gt;gheez et amharique&lt;hi rend="italics"&gt;)&lt;/hi&gt; de la Bibliothèque nationale</title><title level="s">Manuscrits Orientaux</title><author><forename>Hermann</forename><surname>Zotenberg</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1877</date><series><title level="s">Manuscrits Orientaux</title></series><note type="url">https://archive.org/details/manuscritsorient00bibl</note><note type="tags"><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Zotenberg1877Catalogue</note></note><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Zotenberg1877Catalogue</note><citedRange unit="page">87b</citedRange></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -101,14 +101,12 @@
                   <msContents>
                      <summary/>
                      <msItem xml:id="p2_i1">
-                        <title ref="https://betamasaheft.eu/LIT1961Mashaf">Maṣḥafa saʿātāt
-                                                  (general record)</title> 
+                        <title ref="https://betamasaheft.eu/LIT1961Mashaf">Maṣḥafa saʿātāt</title> 
                         <textLang mainLang="gez"/>
-                        <note>This recension of <ref type="work" corresp="https://betamasaheft.eu/LIT1961Mashaf">Maṣḥafa saʿātāt
-                                                  (general record)</ref> is different from the one in
+                        <note>This recension of <ref type="work" corresp="https://betamasaheft.eu/LIT1961Mashaf">Maṣḥafa saʿātāt</ref> is different from the one in
                   <ref type="mss" corresp="https://betamasaheft.eu/BNFet81">Paris, Bibliothèque nationale de France, BnF Éthiopien 81</ref>.</note>
                         <note>
-                           <locus target="#12">Fols. 12, </locus> and <locus target="#21">21</locus> are fragments of another office.</note>
+                           <locus target="#12"/> and <locus target="#21"/> are fragments of another office.</note>
               
                         <msItem xml:id="p2_i1.1">
                            <title type="incomplete" cert="low" ref="https://betamasaheft.eu/LIT3196dorho">Matins</title> 
@@ -117,44 +115,39 @@
               
               
                         <msItem xml:id="p2_i1.2">
-                           <locus from="39v">Fols 39v and following</locus>
+                           <locus from="39v"/>
                            <title type="complete" cert="low" ref="https://betamasaheft.eu/LIT3125Saatat">Lauds</title> 
                            <textLang mainLang="gez"/>
                         </msItem>
               
                         <msItem xml:id="p2_i1.3">
-                           <locus from="53r">Fols 53r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT3126Prayer">Ṣalot ba-3
-                                                  saʿāt</title> 
+                           <locus from="53r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT3126Prayer">Ṣalot ba-3 saʿāt</title> 
                            <textLang mainLang="gez"/>
                         </msItem>
               
                         <msItem xml:id="p2_i1.4">
-                           <locus from="65r">Fols 65r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT3127Prayer">Ṣalot ba-6
-                                                  saʿāt</title> 
+                           <locus from="65r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT3127Prayer">Ṣalot ba-6 saʿāt</title> 
                            <textLang mainLang="gez"/>
                         </msItem>     
               
                         <msItem xml:id="p2_i1.5">
-                           <locus from="77r">Fols 77r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT3127Prayer">Ṣalot ba-6
-                                                  saʿāt</title> 
+                           <locus from="77r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT3127Prayer">Ṣalot ba-6 saʿāt</title> 
                            <textLang mainLang="gez"/>
                         </msItem>
               
                         <msItem xml:id="p2_i1.6">
-                           <locus from="89v">Fols 89v and following</locus>
-                           <title type="incomplete" ref="https://betamasaheft.eu/LIT3129Prayer">Ṣalot ba-12 saʿāt
-                                                  ba-gize sark</title>
+                           <locus from="89v"/>
+                           <title type="incomplete" ref="https://betamasaheft.eu/LIT3129Prayer">Ṣalot ba-12 saʿāt ba-gize sark</title>
                            <note>The end is missing.</note>
                            <textLang mainLang="gez"/>
                         </msItem>
               
                         <msItem xml:id="p2_i1.7">
-                           <locus from="99r">Fols 99r and following</locus>
-                           <title type="incomplete" ref="https://betamasaheft.eu/LIT3130Prayer">Ṣalot ba-3 saʿāta
-                                                  lelit ba-gize nǝwām</title> 
+                           <locus from="99r"/>
+                           <title type="incomplete" ref="https://betamasaheft.eu/LIT3130Prayer">Ṣalot ba-3 saʿāta lelit ba-gize nǝwām</title> 
                            <note>The beginning and the end are missing, there is a lacuna in the middle.</note>
                            <textLang mainLang="gez"/>
                         </msItem>
@@ -172,22 +165,22 @@
                               <dimensions type="outer" unit="mm">
                                  <height>190</height>
                                  <width>117</width>
-                              </dimensions>
+                              </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="190" unit="mm"/><width quantity="117" unit="mm"/></dimensions>
                            </extent>
                            <condition key="deficient">Some pages are missing in the beginning, the middle and the end. </condition>
                         </supportDesc>
                         <layoutDesc>
-                           <layout columns="2" writtenLines="19"/>
+                           <layout columns="2" writtenLines="19"/><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="19"/></layout>
                         </layoutDesc>
                      </objectDesc>
             
                      <handDesc>
                         <handNote xml:id="h2" script="Ethiopic"> 
                            <date notBefore="1400" notAfter="1499">Date according to
-                  <bibl corresp="http://zotero.org/groups/358366/items/XIGIRUCA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Zotenberg1877Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens (gheez et amharique) de la Bibliothèque nationale</title><title level="s">Manuscrits Orientaux</title><author><forename>Hermann</forename><surname>Zotenberg</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1877</date><series><title level="s">Manuscrits Orientaux</title></series><note type="url">https://archive.org/details/manuscritsorient00bibl</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Zotenberg1877Catalogue</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Zotenberg1877Catalogue</note><citedRange unit="page">87b</citedRange></bibl>.</date>
+                  <bibl corresp="http://zotero.org/groups/358366/items/XIGIRUCA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Zotenberg1877Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens &lt;hi rend="italics"&gt;(&lt;/hi&gt;gheez et amharique&lt;hi rend="italics"&gt;)&lt;/hi&gt; de la Bibliothèque nationale</title><title level="s">Manuscrits Orientaux</title><author><forename>Hermann</forename><surname>Zotenberg</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1877</date><series><title level="s">Manuscrits Orientaux</title></series><note type="url">https://archive.org/details/manuscritsorient00bibl</note><note type="tags"><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Zotenberg1877Catalogue</note></note><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Zotenberg1877Catalogue</note><citedRange unit="page">87b</citedRange></bibl>.</date>
                            <desc/>
                            <date notBefore="1375" notAfter="1450">Date according to
-                  <bibl corresp="http://zotero.org/groups/358366/items/MIBCP4VG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Uhlig1988Palaographie"/><title level="m">Äthiopische Paläographie</title><title level="s">Äthiopistische Forschungen</title><author><forename>Siegbert</forename><surname>Uhlig</surname></author><pubPlace>Stuttgart</pubPlace><publisher>Franz Steiner Verlag GmbH</publisher><date>1988</date><series><title level="s">Äthiopistische Forschungen</title><biblScope unit="volume">22</biblScope></series><biblScope unit="volume">22</biblScope><note type="tags"><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">bm:Uhlig1988Palaographie</note></note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">bm:Uhlig1988Palaographie</note><citedRange unit="page">254–255</citedRange></bibl>.</date>
+                  <bibl corresp="http://zotero.org/groups/358366/items/MIBCP4VG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Uhlig1988Palaographie"/><title level="m">Äthiopische Paläographie</title><title level="s">Äthiopistische Forschungen</title><author><forename>Siegbert</forename><surname>Uhlig</surname></author><pubPlace>Stuttgart</pubPlace><publisher>Franz Steiner Verlag</publisher><date>1988</date><series><title level="s">Äthiopistische Forschungen</title><biblScope unit="volume">22</biblScope></series><biblScope unit="volume">22</biblScope><note type="tags"><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">bm:Uhlig1988Palaographie</note></note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">bm:Uhlig1988Palaographie</note><citedRange unit="page">254–255</citedRange></bibl>.</date>
                         </handNote>
                      </handDesc>
                   </physDesc>
@@ -204,14 +197,14 @@
                         <recordHist>
                            <source>
                               <listBibl type="catalogue">
-                                 <bibl corresp="http://zotero.org/groups/358366/items/XIGIRUCA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Zotenberg1877Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens (gheez et amharique) de la Bibliothèque nationale</title><title level="s">Manuscrits Orientaux</title><author><forename>Hermann</forename><surname>Zotenberg</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1877</date><series><title level="s">Manuscrits Orientaux</title></series><note type="url">https://archive.org/details/manuscritsorient00bibl</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Zotenberg1877Catalogue</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Zotenberg1877Catalogue</note><citedRange unit="page">87b</citedRange></bibl>
+                                 <bibl corresp="http://zotero.org/groups/358366/items/XIGIRUCA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Zotenberg1877Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens &lt;hi rend="italics"&gt;(&lt;/hi&gt;gheez et amharique&lt;hi rend="italics"&gt;)&lt;/hi&gt; de la Bibliothèque nationale</title><title level="s">Manuscrits Orientaux</title><author><forename>Hermann</forename><surname>Zotenberg</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1877</date><series><title level="s">Manuscrits Orientaux</title></series><note type="url">https://archive.org/details/manuscritsorient00bibl</note><note type="tags"><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Zotenberg1877Catalogue</note></note><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Zotenberg1877Catalogue</note><citedRange unit="page">87b</citedRange></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
                      </adminInfo>
                   </additional>
                </msPart>
-            </msDesc>
+            <msPartsCount quantity="2"/></msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -221,14 +214,14 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:textClass>
             <t:keywords>
@@ -241,7 +234,7 @@
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#DR" when="2016-09-13"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
+         <change when="2016-09-13" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
       </t:revisionDesc>
   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>

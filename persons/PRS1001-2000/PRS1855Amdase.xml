@@ -3,9 +3,9 @@
          <titleStmt><title type="full">ʿAmda Ṣǝyon II</title>
             <title> ʿAmda Ṣǝyon II</title>
             <editor key="SG" corresp="https://betamasaheft.eu/team.html#SG" xml:id="SG">Solomon Gebreyes</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <author/>
-         <respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#SG" xml:id="ed-SG"><resp>editor</resp><name>Solomon Gebreyes</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -16,7 +16,7 @@
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
-         <date type="expanded">2022-02-04T16:06:44.843+01:00</date><date type="lastModified">10.1.2017</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS1855Amdase</idno><idno type="URI">https://betamasaheft.eu/PRS1855Amdase</idno><idno type="filename">PRS1855Amdase.xml</idno><idno type="ID">PRS1855Amdase</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:47:18</date><date type="lastModified">10.1.2017</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS1855Amdase/main</idno><idno type="URI">https://betamasaheft.eu/PRS1855Amdase</idno><idno type="filename">PRS1855Amdase.xml</idno><idno type="ID">PRS1855Amdase</idno></publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
@@ -27,62 +27,62 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-04-28">Pietro Maria Liuzzo: batch updated according to requirements and issues.</change>
-         <change who="#PL" when="2016-03-21">Pietro Maria Liuzzo:  Created file from
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-04-28" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->batch updated according to requirements and issues.</change>
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
                                                   google spreadsheet </change>
-         <change who="#ES" when="2016-02-09">Eugenia Sokolinski: CREATED: person</change>
-         <change who="#SG" when="2017-01-10">Solomon Gebreyes: Complete record</change>
-      </revisionDesc>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: person</change>
+         <change when="2017-01-10" who="#SG"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Complete record</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="snap:SonOf" ref="http://data.snapdrgn.net/ontology/snap#SonOf" active="https://betamasaheft.eu/PRS1855Amdase" passive="https://betamasaheft.eu/PRS3874eskender"/>
                <relation name="snap:NephewOf" ref="http://data.snapdrgn.net/ontology/snap#NephewOf" active="https://betamasaheft.eu/PRS1855Amdase" passive="https://betamasaheft.eu/PRS7481NaodA"/>
-                </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPerson>
-            <person sex="1" sameAs="wd:Q460332">
-               <persName xml:lang="gez" xml:id="n1" type="birth">ዓምደ፡ ጽዮን፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">ʿAmda Ṣǝyon II</persName>
-               <persName>
-                  <roleName type="title">ʾaṣe</roleName>
-               </persName>
+                </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPerson>
+            <t:person sex="1" sameAs="wd:Q460332">
+               <t:persName xml:lang="gez" xml:id="n1" type="birth">ዓምደ፡ ጽዮን፡</t:persName>
+               <t:persName xml:lang="gez" corresp="#n1" type="normalized">ʿAmda Ṣǝyon II</t:persName>
+               <t:persName>
+                  <t:roleName type="title">ʾaṣe</t:roleName>
+               </t:persName>
 
-               <occupation type="ruler">Emperor</occupation>
+               <t:occupation type="ruler">Emperor</t:occupation>
 
-               <floruit when="1494">He was the son of <persName ref="https://betamasaheft.eu/PRS3874eskender">
-                     <roleName type="title">ʾaṣe</roleName>
-                   ʾƎskǝndǝr</persName>,
-                  crowned in <date>1494</date> at the age of seven or even younger.
+               <t:floruit when="1494">He was the son of <t:persName ref="https://betamasaheft.eu/PRS3874eskender">
+                     <t:roleName type="title">ʾaṣe</t:roleName>
+                   ʾƎskǝndǝr</t:persName>,
+                  crowned in <t:date>1494</t:date> at the age of seven or even younger.
                   His short reign of only six or seven months was characterized by continued civil war and bloodshed,
                   with one faction at the court favouring him and another his uncle
-                  <persName ref="https://betamasaheft.eu/PRS7481NaodA">
-                     <roleName type="title">ʾaṣe</roleName>
-                      Nāʿod (ʾAnbasā Baḍar)</persName>.
-               </floruit>
+                  <t:persName ref="https://betamasaheft.eu/PRS7481NaodA">
+                     <t:roleName type="title">ʾaṣe</t:roleName>
+                      Nāʿod (ʾAnbasā Baḍar)</t:persName>.
+               </t:floruit>
 
-            </person>
+            </t:person>
             
-         </listPerson>
+         </t:listPerson>
 
-<listBibl type="secondary">
-            <bibl corresp="http://zotero.org/groups/358366/items/Z9QEIQVR"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Basset1881EtudesI"/><title level="a">Études sur l'Histoire d'Éthiopie. Première partie. Chronique éthiopienne, d'après un manuscrit de la Bibliothèque nationale de Paris</title><title level="j">Journal Asiatique</title><author><forename>René</forename><surname>Basset</surname></author><date>1881</date><biblScope unit="volume">17</biblScope><biblScope unit="issue">1</biblScope><biblScope unit="page">315-434</biblScope><note type="tags"><note type="tag">bm:Basset1881Etudes1</note><note type="tag">bm:Basset1881EtudesI</note></note><note type="tag">bm:Basset1881Etudes1</note><note type="tag">bm:Basset1881EtudesI</note></bibl>
-            <bibl corresp="http://zotero.org/groups/358366/items/Q9FZZWKS"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Basset1881EtudesII"/><title level="a">Études sur l'Histoire d'Éthiopie. Première partie. Chronique éthiopienne, d'après un manuscrit de la Bibliothèque nationale de Paris (Suite)</title><title level="j">Journal Asiatique</title><author><forename>René</forename><surname>Basset</surname></author><date>1881</date><biblScope unit="volume">18</biblScope><biblScope unit="page">93-183</biblScope><note type="url">https://archive.org/stream/journalasiatique17187sociuoft#page/92/mode/2up</note><note type="tags"><note type="tag">bm:Basset1881Etudes2</note><note type="tag">bm:Basset1881EtudesII</note></note><note type="tag">bm:Basset1881Etudes2</note><note type="tag">bm:Basset1881EtudesII</note></bibl>
-            <bibl corresp="http://zotero.org/groups/358366/items/Z3XVFF8R"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Perruchon1894Eskender"/><title level="a">Histoire d'Eskender,  dʾ'Amda-Ṣeyon II et de Nâʾod, rois dʾÉthiopie. Texte éthiopien inédit comprenant en outre un fragment de la chronique de Baʾeda-Mâryâm, leur prédécesseur et traduction</title><title level="j">Journal Asiatique</title><author><forename>Jules</forename><surname>Perruchon</surname></author><date>1894</date><biblScope unit="volume">9e ser., 3</biblScope><biblScope unit="page">319-366</biblScope><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k932452/</note><note type="tags"><note type="tag">Ethiopia</note><note type="tag">Geschichte</note><note type="tag">Chronik</note><note type="tag">Manuskript</note><note type="tag">Ba'eda-Mâryâm</note><note type="tag">Bieber, Friedrich J. / Exlibris</note><note type="tag">bm:Perruchon1894Eskender</note><note type="tag">König Eskender</note></note><note type="tag">Ethiopia</note><note type="tag">Geschichte</note><note type="tag">Chronik</note><note type="tag">Manuskript</note><note type="tag">Ba'eda-Mâryâm</note><note type="tag">Bieber, Friedrich J. / Exlibris</note><note type="tag">bm:Perruchon1894Eskender</note><note type="tag">König Eskender</note></bibl>
+<t:listBibl type="secondary">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/Z9QEIQVR"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Basset1881EtudesI"/><title level="a">Études sur l'Histoire d'Éthiopie. Première partie. Chronique éthiopienne, d'après un manuscrit de la Bibliothèque nationale de Paris</title><title level="j">Journal Asiatique</title><author><forename>René</forename><surname>Basset</surname></author><date>1881</date><biblScope unit="volume">Septième série, 17</biblScope><biblScope unit="page">315-434</biblScope><note type="url">http://archive.org/details/in.ernet.dli.2015.530731</note><note type="tags"><note type="tag">bm:Basset1881Etudes1</note><note type="tag">bm:Basset1881EtudesI</note></note><note type="tag">bm:Basset1881Etudes1</note><note type="tag">bm:Basset1881EtudesI</note></t:bibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/Q9FZZWKS"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Basset1881EtudesII"/><title level="a">Études sur l'Histoire d'Éthiopie. Première partie. Chronique éthiopienne, d'après un manuscrit de la Bibliothèque nationale de Paris (Suite)</title><title level="j">Journal Asiatique</title><author><forename>René</forename><surname>Basset</surname></author><date>1881</date><biblScope unit="volume">Septième série, 18</biblScope><biblScope unit="page">93-183</biblScope><note type="url">https://archive.org/stream/journalasiatique17187sociuoft#page/92/mode/2up</note><note type="tags"><note type="tag">bm:Basset1881Etudes2</note><note type="tag">bm:Basset1881EtudesII</note></note><note type="tag">bm:Basset1881Etudes2</note><note type="tag">bm:Basset1881EtudesII</note></t:bibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/Z3XVFF8R"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Perruchon1894Eskender"/><title level="a">Histoire d'Eskender,  dʾ'Amda-Ṣeyon II et de Nâʾod, rois dʾÉthiopie. Texte éthiopien inédit comprenant en outre un fragment de la chronique de Baʾeda-Mâryâm, leur prédécesseur et traduction</title><title level="j">Journal Asiatique</title><author><forename>Jules</forename><surname>Perruchon</surname></author><date>1894</date><biblScope unit="volume">9e ser., 3</biblScope><biblScope unit="page">319-366</biblScope><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k932452/</note><note type="tags"><note type="tag">Ba'eda-Mâryâm</note><note type="tag">Bieber, Friedrich J. / Exlibris</note><note type="tag">Chronik</note><note type="tag">Ethiopia</note><note type="tag">Geschichte</note><note type="tag">König Eskender</note><note type="tag">Manuskript</note><note type="tag">bm:Perruchon1894Eskender</note></note><note type="tag">Ba'eda-Mâryâm</note><note type="tag">Bieber, Friedrich J. / Exlibris</note><note type="tag">Chronik</note><note type="tag">Ethiopia</note><note type="tag">Geschichte</note><note type="tag">König Eskender</note><note type="tag">Manuskript</note><note type="tag">bm:Perruchon1894Eskender</note></t:bibl>
          
          
-            <bibl corresp="http://zotero.org/groups/358366/items/B6H2MB4R"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Kaplan2003AmdeseyonII"/><title level="a">ʿAmdä Ṣǝyon II</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Steven</forename><surname>Kaplan</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">229b</biblScope><note type="tags"><note type="tag">bm:Kaplan2003AmdeseyonII</note></note><note type="tag">bm:Kaplan2003AmdeseyonII</note></bibl>
-         </listBibl>
-      </body>
-   </text></TEI>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/B6H2MB4R"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Kaplan2003AmdeseyonII"/><title level="a">ʿAmdä Ṣǝyon II</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Steven</forename><surname>Kaplan</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">229b</biblScope><note type="tags"><note type="tag">bm:Kaplan2003AmdeseyonII</note></note><note type="tag">bm:Kaplan2003AmdeseyonII</note></t:bibl>
+         </t:listBibl>
+      </t:body>
+   </t:text></TEI>

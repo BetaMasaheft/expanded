@@ -1,13 +1,13 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT4968SenkessarSec"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
-            <titleStmt><title type="full"><span xmlns="" class="w3-tag w3-red">No item: LIT4968SenkessarSec</span></title>
+            <titleStmt><title type="full">Sǝnkǝsār (General record for the "Second Recension")</title>
                <title xml:lang="gez" xml:id="t1">ስንክሳር፡</title>
                <title xml:lang="gez" corresp="#t1" type="normalized">Sǝnkǝsār (General record for the "Second Recension")</title>          
                <title xml:lang="gez" corresp="#t1" type="normalized">Sǝnkǝssār</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
@@ -17,7 +17,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">29.4.2025 at 12:44:40</date><date type="lastModified">15.5.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT4968SenkessarSec/main</idno><idno type="URI">https://betamasaheft.eu/LIT4968SenkessarSec</idno><idno type="filename">LIT4968SenkessarSec.xml</idno><idno type="ID">LIT4968SenkessarSec</idno></publicationStmt>
+            <date type="expanded">3.9.2026 at 06:15:20</date><date type="lastModified">15.5.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT4968SenkessarSec/main</idno><idno type="URI">https://betamasaheft.eu/LIT4968SenkessarSec</idno><idno type="filename">LIT4968SenkessarSec.xml</idno><idno type="ID">LIT4968SenkessarSec</idno></publicationStmt>
             <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -30,650 +30,650 @@
         
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="chapter" match="div" use="div"><desc><list><item>Maggabit</item></list></desc><citeStructure unit="chapter" match="div" use="div"><desc><list><item>MaggIntroduction</item><item>Magg1</item><item>Magg2</item><item>Magg3</item><item>Magg4</item><item>Magg5</item><item>Magg6</item><item>Magg7</item><item>Magg8</item><item>Magg9</item><item>Magg10</item><item>Magg11</item><item>Magg12</item><item>Magg13</item><item>Magg14</item><item>Magg15</item><item>Magg16</item><item>Magg17</item><item>Magg18</item><item>Magg19</item><item>Magg20</item><item>Magg21</item><item>Magg22</item><item>Magg23</item><item>Magg24</item><item>Magg25</item><item>Magg26</item><item>Magg27</item><item>Magg28</item><item>Magg29</item><item>Magg30</item></list></desc><citeStructure unit="commemoration" match="div" use="div"><desc><list><item>Magg1Barkisos</item><item>Magg1Marqoryos</item><item>Magg1Eskenderos</item><item>Magg2Makrawi</item><item>Magg2Gorgoryos</item><item>Magg3Qozmos</item><item>Magg3Barfonyos</item><item>Magg4Council</item><item>Magg4Hanelyos</item><item>Magg5Sarabamun</item><item>Magg5Odokiya</item><item>Magg5GabraManfasQeddus</item><item>Magg6Diyosqoros</item><item>Magg6Tewodotos</item><item>Magg6Entones</item><item>Magg7Filmon</item><item>Magg7Tewodosyos</item><item>Magg7Tewodotos</item><item>Magg8Aryanos</item><item>Magg8Matyas</item><item>Magg8Yulyanos</item><item>Magg9Andyanos</item><item>Magg9NobCompanions</item><item>Magg9Kuten</item><item>Magg10Cross</item><item>Magg11Tewoteqinos</item><item>Magg11Basilaos</item><item>Magg11Alef</item><item>Magg11Awsanyos</item><item>Magg12Michael</item><item>Magg12MichaelBalaam</item><item>Magg12Demetreyos</item><item>Magg12Malazi</item><item>Magg13Sebestya</item><item>Magg13Maqaryos</item><item>Magg13Diyonasyos</item><item>Magg14Qerellos</item><item>Magg14Batel</item><item>Magg14Sinoda</item><item>Magg14Awganyos</item><item>Magg14TomasMiracle</item><item>Magg15Sara</item><item>Magg15Solafkos</item><item>Magg15Helyanos</item><item>Magg16Helyanos</item><item>Magg16Mikael</item><item>Magg17Alazar</item><item>Magg17Tewoqritos</item><item>Magg17Giyorgis</item><item>Magg18Isderos</item><item>Magg19Arestupawlos</item><item>Magg19Seven</item><item>Magg19Askanafer</item><item>Magg20Mikael</item><item>Magg20Alazar</item><item>Magg20SegeSellase</item><item>Magg20Astarataniqa</item><item>Magg20Asqaran</item><item>Magg21Mary</item><item>Magg21Anointing</item><item>Magg21Alazar</item><item>Magg21Lameh</item><item>Magg21Tewodros</item><item>Magg22PalmSunday</item><item>Magg22Qerellos</item><item>Magg23Danel</item><item>Magg23Qayafa</item><item>Magg24Maqares</item><item>Magg24Assembly</item><item>Magg25Onisifores</item><item>Magg26Ferfeyos</item><item>Magg26Iyoparaqesya</item><item>Magg26Estifanos</item><item>Magg26FootWashing</item><item>Magg27Maqares</item><item>Magg27Crucifixion</item><item>Magg27Galawdewos</item><item>Magg28Qwastantinos</item><item>Magg28Abreham</item><item>Magg29Annunciation</item><item>Magg29Resurrection</item><item>Magg29Pawlos</item><item>Magg30Gabriel</item><item>Magg30Samson</item></list></desc></citeStructure></citeStructure><citeStructure unit="commemoration" match="div" use="div"><desc><list><item>MaggSubscription</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
-        <profileDesc>
-            <creation/>
-            <abstract>
-                <p/>
-            </abstract>
-            <textClass>
-                <keywords>
-                    <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                    <term key="Hagiography" ana="#Hagiography"/>
-                    <term key="Liturgy" ana="#Liturgy"/>
-                    <term key="Translation" ana="#Translation"/>
-                </keywords>
-            </textClass>
-            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="chapter" use="@subtype"><citeStructure match="t:div" unit="chapter" use="@subtype"><citeStructure match="t:div" unit="commemoration" use="@subtype"><desc><list><item>Magg1Barkisos</item><item>Magg1Marqoryos</item><item>Magg1Eskenderos</item><item>Magg2Makrawi</item><item>Magg2Gorgoryos</item><item>Magg3Qozmos</item><item>Magg3Barfonyos</item><item>Magg4Council</item><item>Magg4Hanelyos</item><item>Magg5Sarabamun</item><item>Magg5Odokiya</item><item>Magg5GabraManfasQeddus</item><item>Magg6Diyosqoros</item><item>Magg6Tewodotos</item><item>Magg6Entones</item><item>Magg7Filmon</item><item>Magg7Tewodosyos</item><item>Magg7Tewodotos</item><item>Magg8Aryanos</item><item>Magg8Matyas</item><item>Magg8Yulyanos</item><item>Magg9Andyanos</item><item>Magg9NobCompanions</item><item>Magg9Kuten</item><item>Magg10Cross</item><item>Magg11Tewoteqinos</item><item>Magg11Basilaos</item><item>Magg11Alef</item><item>Magg11Awsanyos</item><item>Magg12Michael</item><item>Magg12MichaelBalaam</item><item>Magg12Demetreyos</item><item>Magg12Malazi</item><item>Magg13Sebestya</item><item>Magg13Maqaryos</item><item>Magg13Diyonasyos</item><item>Magg14Qerellos</item><item>Magg14Batel</item><item>Magg14Sinoda</item><item>Magg14Awganyos</item><item>Magg14TomasMiracle</item><item>Magg15Sara</item><item>Magg15Solafkos</item><item>Magg15Helyanos</item><item>Magg16Helyanos</item><item>Magg16Mikael</item><item>Magg17Alazar</item><item>Magg17Tewoqritos</item><item>Magg17Giyorgis</item><item>Magg18Isderos</item><item>Magg19Arestupawlos</item><item>Magg19Seven</item><item>Magg19Askanafer</item><item>Magg20Mikael</item><item>Magg20Alazar</item><item>Magg20SegeSellase</item><item>Magg20Astarataniqa</item><item>Magg20Asqaran</item><item>Magg21Mary</item><item>Magg21Anointing</item><item>Magg21Alazar</item><item>Magg21Lameh</item><item>Magg21Tewodros</item><item>Magg22PalmSunday</item><item>Magg22Qerellos</item><item>Magg23Danel</item><item>Magg23Qayafa</item><item>Magg24Maqares</item><item>Magg24Assembly</item><item>Magg25Onisifores</item><item>Magg26Ferfeyos</item><item>Magg26Iyoparaqesya</item><item>Magg26Estifanos</item><item>Magg26FootWashing</item><item>Magg27Maqares</item><item>Magg27Crucifixion</item><item>Magg27Galawdewos</item><item>Magg28Qwastantinos</item><item>Magg28Abreham</item><item>Magg29Annunciation</item><item>Magg29Resurrection</item><item>Magg29Pawlos</item><item>Magg30Gabriel</item><item>Magg30Samson</item></list></desc></citeStructure><desc><list><item>MaggIntroduction</item><item>Magg1</item><item>Magg2</item><item>Magg3</item><item>Magg4</item><item>Magg5</item><item>Magg6</item><item>Magg7</item><item>Magg8</item><item>Magg9</item><item>Magg10</item><item>Magg11</item><item>Magg12</item><item>Magg13</item><item>Magg14</item><item>Magg15</item><item>Magg16</item><item>Magg17</item><item>Magg18</item><item>Magg19</item><item>Magg20</item><item>Magg21</item><item>Magg22</item><item>Magg23</item><item>Magg24</item><item>Magg25</item><item>Magg26</item><item>Magg27</item><item>Magg28</item><item>Magg29</item><item>Magg30</item></list></desc></citeStructure><citeStructure match="t:div" unit="commemoration" use="@subtype"><desc><list><item>MaggSubscription</item></list></desc></citeStructure><desc><list><item>Maggabit</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <t:creation/>
+            <t:abstract>
+                <t:p/>
+            </t:abstract>
+            <t:textClass>
+                <t:keywords>
+                    <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+                    <t:term key="Hagiography" ana="#Hagiography"/>
+                    <t:term key="Liturgy" ana="#Liturgy"/>
+                    <t:term key="Translation" ana="#Translation"/>
+                </t:keywords>
+            </t:textClass>
+            <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-        <revisionDesc>
-            <change who="#DR" when="2018-05-15"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
-        </revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <change when="2018-05-15" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+        </t:revisionDesc>
     </teiHeader><standOff><listRelation>
               <relation name="saws:isVersionOf" ref="http://purl.org/saws/ontology#isVersionOf" active="https://betamasaheft.eu/LIT4968SenkessarSec" passive="https://betamasaheft.eu/LIT2375Synaxa"/>
-           </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-        <body>
+           </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+        <t:body>
            
-            <div type="edition">             
+            <t:div type="edition" xml:id="div1LIT4968SenkessarSec">             
          
                    
             
             
-            <div type="textpart" subtype="chapter" xml:id="Maggabit">
-               <label>Commemorative notices for the month of <foreign xml:lang="gez">Maggābit</foreign>
-               </label>
+            <t:div type="textpart" subtype="chapter" xml:id="Maggabit">
+               <t:label>Commemorative notices for the month of <t:foreign xml:lang="gez">Maggābit</t:foreign>
+               </t:label>
             
                
                
                
-               <div type="textpart" subtype="chapter" xml:id="MaggIntroduction">
-                  <label>Introduction for <foreign xml:lang="gez">Maggābit</foreign>
-                  </label>
-               </div>
+               <t:div type="textpart" subtype="chapter" xml:id="MaggIntroduction">
+                  <t:label>Introduction for <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                  </t:label>
+               </t:div>
                
-               <div type="textpart" subtype="chapter" xml:id="Magg1">
-                  <label>
-                     <date>1st <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg1">
+                  <t:label>
+                     <t:date>1st <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                   
-                  <div type="textpart" subtype="commemoration" xml:id="Magg1Barkisos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12017Barkisos">Narcissus</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg1Barkisos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12017Barkisos">Narcissus</t:persName>
+                     </t:label>
+                  </t:div>
                   
-                  <div type="textpart" subtype="commemoration" xml:id="Magg1Marqoryos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12018Marqoryos">Marqoryos</persName> and Mātusālā</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg1Marqoryos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12018Marqoryos">Marqoryos</t:persName> and Mātusālā</t:label>
+                  </t:div>
                   
-                  <div type="textpart" subtype="commemoration" xml:id="Magg1Eskenderos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12019Eskenderos">ʾƎskǝndǝros</persName>
-                     </label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg1Eskenderos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12019Eskenderos">ʾƎskǝndǝros</t:persName>
+                     </t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg2">
-                  <label>
-                     <date>2nd <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg2">
+                  <t:label>
+                     <t:date>2nd <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg2Makrawi">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12020Makrawi">Makrāwi</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg2Makrawi">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12020Makrawi">Makrāwi</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg2Gorgoryos">
-                    <label>Commemoration of Gorgoryos</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg2Gorgoryos">
+                    <t:label>Commemoration of Gorgoryos</t:label>
+                  </t:div>
                
-               </div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg3">
-                  <label>
-                     <date>3rd <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg3">
+                  <t:label>
+                     <t:date>3rd <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg3Qozmos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS3203CosmasI">Cosmas III</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg3Qozmos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS3203CosmasI">Cosmas III</t:persName>
+                     </t:label>
+                  </t:div>
             
-                  <div type="textpart" subtype="commemoration" xml:id="Magg3Barfonyos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12021Barfonyos">Barfonyos</persName>
-                     </label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg3Barfonyos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12021Barfonyos">Barfonyos</t:persName>
+                     </t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg4">
-                  <label>
-                     <date>4th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg4">
+                  <t:label>
+                     <t:date>4th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg4Council">
-                     <label>Commemoration of the Council of Ǧazīra Banī ʿUmar</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg4Council">
+                     <t:label>Commemoration of the Council of Ǧazīra Banī ʿUmar</t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg4Hanelyos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12022Hanelyos">Hanǝlyos</persName>
-                     </label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg4Hanelyos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12022Hanelyos">Hanǝlyos</t:persName>
+                     </t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg5">
-                  <label>
-                     <date>5th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg5">
+                  <t:label>
+                     <t:date>5th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg5Sarabamun">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12023Sarabemon">Sarābǝmon</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg5Sarabamun">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12023Sarabemon">Sarābǝmon</t:persName>
+                     </t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg5Odokiya">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12024Odokiya">ʾOdokiyā</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg5Odokiya">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12024Odokiya">ʾOdokiyā</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg5GabraManfasQeddus">
-                    <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS4306GabraMa">Gabra Manfas Qǝddus</persName>
-                     </label>
-                    <note>This commemoration is missing from <ref type="mss" corresp="https://betamasaheft.eu/EMML2054"><span xmlns="" class="w3-tag w3-red">No item: EMML2054</span></ref> and the manuscripts used by Budge.</note>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg5GabraManfasQeddus">
+                    <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS4306GabraMa">Gabra Manfas Qǝddus</t:persName>
+                     </t:label>
+                    <t:note>This commemoration is missing from <t:ref type="mss" corresp="https://betamasaheft.eu/EMML2054">Collegeville, Hill Museum and Manuscript Library, MS EMML no. 2054</t:ref> and the manuscripts used by Budge.</t:note>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg6">
-                  <label>
-                     <date>6th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg6">
+                  <t:label>
+                     <t:date>6th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg6Diyosqoros">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12025Diyosqoros">Diyosqoros</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg6Diyosqoros">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12025Diyosqoros">Diyosqoros</t:persName>
+                     </t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg6Tewodotos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12026Tewodotos">Tewodoṭos</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg6Tewodotos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12026Tewodotos">Tewodoṭos</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg6Entones">
-                    <label>Commemoration of ʾƎnṭonǝs and ʾArkāladis</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg6Entones">
+                    <t:label>Commemoration of ʾƎnṭonǝs and ʾArkāladis</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg7">
-                  <label>
-                     <date>7th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg7">
+                  <t:label>
+                     <t:date>7th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg7Filmon">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12027Filmon">Filmon</persName> and  <persName ref="https://betamasaheft.eu/PRS12046Ablanyos">ʾAblānyos</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg7Filmon">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12027Filmon">Filmon</t:persName> and  <t:persName ref="https://betamasaheft.eu/PRS12046Ablanyos">ʾAblānyos</t:persName>
+                     </t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg7Tewodosyos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS9479Theodosi">Theodosius I ቴዎደስዮስ፡ Tewodosyos Θεοδόσιος Theodosios</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg7Tewodosyos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS9479Theodosi">Theodosius I</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg7Tewodotos">
-                    <label>Commemoration of Tewodoṭos</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg7Tewodotos">
+                    <t:label>Commemoration of Tewodoṭos</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg8">
-                  <label>
-                     <date>8th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg8">
+                  <t:label>
+                     <t:date>8th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg8Aryanos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12031Aryanos">ʾAryānos</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg8Aryanos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12031Aryanos">ʾAryānos</t:persName>
+                     </t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg8Matyas">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS11023Mathias">Mathias</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg8Matyas">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS11023Mathias">Mathias</t:persName>
+                     </t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg8Yulyanos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12032Julian">Julian</persName>
-                     </label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg8Yulyanos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12032Julian">Julian</t:persName>
+                     </t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg9">
-                  <label>
-                     <date>9th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg9">
+                  <t:label>
+                     <t:date>9th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg9Andyanos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12033Andyanos">ʾAndyānos</persName>, his wife, <persName ref="https://betamasaheft.eu/PRS12034Awsabyos">ʾAwsābyos</persName>, ʾArmā and forty martyrs</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg9Andyanos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12033Andyanos">ʾAndyānos</t:persName>, his wife, <t:persName ref="https://betamasaheft.eu/PRS12034Awsabyos">ʾAwsābyos</t:persName>, ʾArmā and forty martyrs</t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg9NobCompanions">
-                    <label>Commemoration of the 2000 companions of ʾabbā Nob</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg9NobCompanions">
+                    <t:label>Commemoration of the 2000 companions of ʾabbā Nob</t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg9Kuten">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12035Kuten">Kutǝn</persName>
-                     </label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg9Kuten">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12035Kuten">Kutǝn</t:persName>
+                     </t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg10">
-                  <label>
-                     <date>10th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg10">
+                  <t:label>
+                     <t:date>10th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg10Cross">
-                     <label>Invention of the cross</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg10Cross">
+                     <t:label>Invention of the cross</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg11">
-                  <label>
-                     <date>11th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg11">
+                  <t:label>
+                     <t:date>11th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg11Tewoteqinos">
-                    <label>Commemoration of Tewoṭeqinos and ʾƎskǝndǝrā</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg11Tewoteqinos">
+                    <t:label>Commemoration of Tewoṭeqinos and ʾƎskǝndǝrā</t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg11Basilaos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12047Basilaos">Bāsilāʾos</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg11Basilaos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12047Basilaos">Bāsilāʾos</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg11Alef">
-                    <label>Commemoration of ʾabbā ʾAlef</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg11Alef">
+                    <t:label>Commemoration of ʾabbā ʾAlef</t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg11Awsanyos">
-                    <label>Commemoration of ʾAwsānyos, ʾEfrem, ʾArqādyu and ʾElyās</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg11Awsanyos">
+                    <t:label>Commemoration of ʾAwsānyos, ʾEfrem, ʾArqādyu and ʾElyās</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg12">
-                  <label>
-                     <date>12th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg12">
+                  <t:label>
+                     <t:date>12th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg12Michael">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS7049Michael">Michael</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg12Michael">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS7049Michael">Michael</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg12MichaelBalaam">
-                    <label>Commemoration of the miracle of <persName ref="https://betamasaheft.eu/PRS7049Michael">Michael</persName> and Balaʿām</label> 
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg12MichaelBalaam">
+                    <t:label>Commemoration of the miracle of <t:persName ref="https://betamasaheft.eu/PRS7049Michael">Michael</t:persName> and Balaʿām</t:label> 
                      
-                  </div>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg12Demetreyos">
-                     <label>Commemoration of  <persName ref="https://betamasaheft.eu/PRS3499Demetriu">Demetrius I of Alexandria</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg12Demetreyos">
+                     <t:label>Commemoration of  <t:persName ref="https://betamasaheft.eu/PRS3499Demetriu">Demetrius I of Alexandria</t:persName>
+                     </t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg12Malazi">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12048Malazi">Malāzi</persName>
-                     </label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg12Malazi">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12048Malazi">Malāzi</t:persName>
+                     </t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg13">
-                  <label>
-                     <date>13rd <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg13">
+                  <t:label>
+                     <t:date>13rd <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg13Sebestya">
-                     <label>Commemoration of the <persName ref="https://betamasaheft.eu/PRS12049MartyrsSebaste">Forty Martyrs of Sebaste</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg13Sebestya">
+                     <t:label>Commemoration of the <t:persName ref="https://betamasaheft.eu/PRS12049MartyrsSebaste">Forty Martyrs of Sebaste</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg13Maqaryos">
-                    <label>Commemoration of Maqāryos the Great and Maqāryos of Alexandria</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg13Maqaryos">
+                    <t:label>Commemoration of Maqāryos the Great and Maqāryos of Alexandria</t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg13Diyonasyos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS11854Dionysios">Dionysios of Alexandria</persName>
-                     </label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg13Diyonasyos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS11854Dionysios">Dionysios of Alexandria</t:persName>
+                     </t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg14">
-                  <label>
-                     <date>14th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg14">
+                  <t:label>
+                     <t:date>14th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg14Qerellos">
-                    <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS3257CyrilII">Cyril III</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg14Qerellos">
+                    <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS3257CyrilII">Cyril III</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg14Batel">
-                    <label>Commemoration of ʾabbā Baṭǝl</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg14Batel">
+                    <t:label>Commemoration of ʾabbā Baṭǝl</t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg14Sinoda">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12050Sinoda">Sinodā</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg14Sinoda">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12050Sinoda">Sinodā</t:persName>
+                     </t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg14Awganyos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12051Awganyos">ʾAwgānyos</persName>, <persName ref="https://betamasaheft.eu/PRS12052Awganudros">ʾAwgānudros</persName>, <persName ref="https://betamasaheft.eu/PRS12053Alibidyos">ʾAlibidyos</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg14Awganyos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12051Awganyos">ʾAwgānyos</t:persName>, <t:persName ref="https://betamasaheft.eu/PRS12052Awganudros">ʾAwgānudros</t:persName>, <t:persName ref="https://betamasaheft.eu/PRS12053Alibidyos">ʾAlibidyos</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg14TomasMiracle">
-                    <label>Commemoration of a miracle by <persName ref="https://betamasaheft.eu/PRS9496Thomas">Thomas</persName>
-                     </label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg14TomasMiracle">
+                    <t:label>Commemoration of a miracle by <t:persName ref="https://betamasaheft.eu/PRS9496Thomas">Thomas</t:persName>
+                     </t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg15">
-                  <label>
-                     <date>15th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg15">
+                  <t:label>
+                     <t:date>15th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg15Sara">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12054Sara">Sārā</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg15Sara">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12054Sara">Sārā</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg15Solafkos">
-                    <label>Commemoration of Solafkos</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg15Solafkos">
+                    <t:label>Commemoration of Solafkos</t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg15Helyanos">
-                    <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12080Helyanos">Hǝlyānos</persName>, Safānyos and Giyorgis ḥaddis</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg15Helyanos">
+                    <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12080Helyanos">Hǝlyānos</t:persName>, Safānyos and Giyorgis ḥaddis</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg16">
-                  <label>
-                     <date>16th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg16">
+                  <t:label>
+                     <t:date>16th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg16Helyanos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS12080Helyanos">Hǝlyānos</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg16Helyanos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS12080Helyanos">Hǝlyānos</t:persName>
+                     </t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg16Mikael">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS7051Michael">Michael I</persName>
-                     </label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg16Mikael">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS7051Michael">Michael I</t:persName>
+                     </t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg17">
-                  <label>
-                     <date>17th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg17">
+                  <t:label>
+                     <t:date>17th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg17Alazar">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS6208Lazarus">Lazarus</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg17Alazar">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS6208Lazarus">Lazarus</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg17Tewoqritos">
-                    <label>Commemoration of Tewoqriṭos</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg17Tewoqritos">
+                    <t:label>Commemoration of Tewoqriṭos</t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg17Giyorgis">
-                     <label>Commemoration of Giyorgis, Talāsyos and Yosef and translatio of Niqor</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg17Giyorgis">
+                     <t:label>Commemoration of Giyorgis, Talāsyos and Yosef and translatio of Niqor</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg18">
-                  <label>
-                     <date>18th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
-                  <div type="textpart" subtype="commemoration" xml:id="Magg18Isderos">
-                     <label>Commemoration of ʾIsdǝros</label>
-                  </div>
-               </div>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg18">
+                  <t:label>
+                     <t:date>18th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg18Isderos">
+                     <t:label>Commemoration of ʾIsdǝros</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg19">
-                  <label>
-                     <date>19th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg19">
+                  <t:label>
+                     <t:date>19th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg19Arestupawlos">
-                     <label>Commemoration of ʾArǝsṭuṗāwlos</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg19Arestupawlos">
+                     <t:label>Commemoration of ʾArǝsṭuṗāwlos</t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg19Seven">
-                     <label>Commemoration of seven martyrs</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg19Seven">
+                     <t:label>Commemoration of seven martyrs</t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg19Askanafer">
-                    <label>Commemoration of ʾAskanāfǝr, his wife Mārtā and his sons ʾArqādyos and Yoḥannǝs</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg19Askanafer">
+                    <t:label>Commemoration of ʾAskanāfǝr, his wife Mārtā and his sons ʾArqādyos and Yoḥannǝs</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg20">
-                  <label>
-                     <date>20th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg20">
+                  <t:label>
+                     <t:date>20th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg20Mikael">
-                     <label>Commemoration of Mikāʾel</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg20Mikael">
+                     <t:label>Commemoration of Mikāʾel</t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg20Alazar">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS6208Lazarus">Lazarus</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg20Alazar">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS6208Lazarus">Lazarus</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg20SegeSellase">
-                    <label>Commemoration of Ṣǝge Śǝllāse</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg20SegeSellase">
+                    <t:label>Commemoration of Ṣǝge Śǝllāse</t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg20Astarataniqa">
-                    <label>Commemoration of ʾAsṭarāṭāniqā</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg20Astarataniqa">
+                    <t:label>Commemoration of ʾAsṭarāṭāniqā</t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg20Asqaran">
-                     <label>Consecration of the Church of ʾAsqarān</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg20Asqaran">
+                     <t:label>Consecration of the Church of ʾAsqarān</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg21">
-                  <label>
-                     <date>21st <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg21">
+                  <t:label>
+                     <t:date>21st <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg21Mary">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS6819Mary">St Mary</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg21Mary">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS6819Mary">St Mary</t:persName>
+                     </t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg21Anointing">
-                     <label>Commemoration of the Anointing of Jesus</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg21Anointing">
+                     <t:label>Commemoration of the Anointing of Jesus</t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg21Alazar">
-                     <label>Commemoration of the priests' conspiracy to kill <persName ref="https://betamasaheft.eu/PRS6208Lazarus">Lazarus</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg21Alazar">
+                     <t:label>Commemoration of the priests' conspiracy to kill <t:persName ref="https://betamasaheft.eu/PRS6208Lazarus">Lazarus</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg21Lameh">
-                    <label>Commemoration of Lāmeḫ</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg21Lameh">
+                    <t:label>Commemoration of Lāmeḫ</t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg21Tewodros">
-                     <label>Commemoration of Tewodros and Ṭimotewos</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg21Tewodros">
+                     <t:label>Commemoration of Tewodros and Ṭimotewos</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg22">
-                  <label>
-                     <date>22nd <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg22">
+                  <t:label>
+                     <t:date>22nd <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg22PalmSunday">
-                    <label>Commemoration of Palm Sunday</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg22PalmSunday">
+                    <t:label>Commemoration of Palm Sunday</t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg22Qerellos">
-                     <label>Commemoration of Qerǝllos</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg22Qerellos">
+                     <t:label>Commemoration of Qerǝllos</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg23">
-                  <label>
-                     <date>23rd <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg23">
+                  <t:label>
+                     <t:date>23rd <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg23Danel">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS3337Daniel">Daniel</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg23Danel">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS3337Daniel">Daniel</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg23Qayafa">
-                    <label>Commemoration of the assembly of the Jews at the house of Qayāfā</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg23Qayafa">
+                    <t:label>Commemoration of the assembly of the Jews at the house of Qayāfā</t:label>
+                  </t:div>
              
-               </div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg24">
-                  <label>
-                     <date>24th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg24">
+                  <t:label>
+                     <t:date>24th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg24Maqares">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS6424Macarius">Macarius I</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg24Maqares">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS6424Macarius">Macarius I</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg24Assembly">
-                    <label>Commemoration of the assembly of the Jews</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg24Assembly">
+                    <t:label>Commemoration of the assembly of the Jews</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg25">
-                  <label>
-                     <date>25th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
-                  <div type="textpart" subtype="commemoration" xml:id="Magg25Onisifores">
-                     <label>Commemoration of ʾOnisiforǝs</label>
-                  </div>
-               </div>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg25">
+                  <t:label>
+                     <t:date>25th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg25Onisifores">
+                     <t:label>Commemoration of ʾOnisiforǝs</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg26">
-                  <label>
-                     <date>26th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
-                  <div type="textpart" subtype="commemoration" xml:id="Magg26Ferfeyos">
-                     <label>Commemoration of Fǝrfǝyos</label>
-                  </div>
-                  <div type="textpart" subtype="commemoration" xml:id="Magg26Iyoparaqesya">
-                     <label>Commemoration of ʾIyoṗarāqǝsyā</label>
-                  </div>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg26">
+                  <t:label>
+                     <t:date>26th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg26Ferfeyos">
+                     <t:label>Commemoration of Fǝrfǝyos</t:label>
+                  </t:div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg26Iyoparaqesya">
+                     <t:label>Commemoration of ʾIyoṗarāqǝsyā</t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg26Estifanos">
-                    <label>Commemoration of ʾƎsṭifānos</label>
-                    <note>This commemoration is missing from <ref type="mss" corresp="https://betamasaheft.eu/EMML2054"><span xmlns="" class="w3-tag w3-red">No item: EMML2054</span></ref> and the manuscripts used by Budge.</note>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg26Estifanos">
+                    <t:label>Commemoration of ʾƎsṭifānos</t:label>
+                    <t:note>This commemoration is missing from <t:ref type="mss" corresp="https://betamasaheft.eu/EMML2054">Collegeville, Hill Museum and Manuscript Library, MS EMML no. 2054</t:ref> and the manuscripts used by Budge.</t:note>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg26FootWashing">
-                    <label>Commemoration of the foot washing of Christ</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg26FootWashing">
+                    <t:label>Commemoration of the foot washing of Christ</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg27">
-                  <label>
-                     <date>27th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg27">
+                  <t:label>
+                     <t:date>27th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg27Maqares">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS6692Maqares">Maqarǝs</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg27Maqares">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS6692Maqares">Maqarǝs</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg27Crucifixion">
-                    <label>Commemoration of the Crucifixion</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg27Crucifixion">
+                    <t:label>Commemoration of the Crucifixion</t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg27Galawdewos">
-                    <label>Commemoration of the <persName ref="https://betamasaheft.eu/PRS4428Galawdew">Galāwdewos</persName>
-                     </label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg27Galawdewos">
+                    <t:label>Commemoration of the <t:persName ref="https://betamasaheft.eu/PRS4428Galawdew">Galāwdewos</t:persName>
+                     </t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg28">
-                  <label>
-                     <date>28th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
-                  <div type="textpart" subtype="commemoration" xml:id="Magg28Qwastantinos">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS3175Constant">Constantine I</persName>
-                     </label>
-                  </div>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg28">
+                  <t:label>
+                     <t:date>28th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg28Qwastantinos">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS3175Constant">Constantine I</t:persName>
+                     </t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg28Abreham">
-                    <label>Commemoration of ʾAbrǝhām, Yǝsḥaq and Yāʿqob</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg28Abreham">
+                    <t:label>Commemoration of ʾAbrǝhām, Yǝsḥaq and Yāʿqob</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg29">
-                  <label>
-                     <date>29th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
-                  <div type="textpart" subtype="commemoration" xml:id="Magg29Annunciation">
-                     <label>Commemoration of the Annunciation</label>
-                  </div>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg29">
+                  <t:label>
+                     <t:date>29th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg29Annunciation">
+                     <t:label>Commemoration of the Annunciation</t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg29Resurrection">
-                     <label>Commemoration of the Resurrection</label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg29Resurrection">
+                     <t:label>Commemoration of the Resurrection</t:label>
+                  </t:div>
                 
-                  <div type="textpart" subtype="commemoration" xml:id="Magg29Pawlos">
-                    <label>Commemoration of the predication of Ṗāwlos in Wariqon</label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg29Pawlos">
+                    <t:label>Commemoration of the predication of Ṗāwlos in Wariqon</t:label>
+                  </t:div>
+               </t:div>
             
-               <div type="textpart" subtype="chapter" xml:id="Magg30">
-                  <label>
-                     <date>30th <foreign xml:lang="gez">Maggābit</foreign>
-                     </date>
-                  </label>
+               <t:div type="textpart" subtype="chapter" xml:id="Magg30">
+                  <t:label>
+                     <t:date>30th <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                     </t:date>
+                  </t:label>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg30Gabriel">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS4377Gabriel">Gabriel</persName>
-                     </label>
-                  </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg30Gabriel">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS4377Gabriel">Gabriel</t:persName>
+                     </t:label>
+                  </t:div>
                
-                  <div type="textpart" subtype="commemoration" xml:id="Magg30Samson">
-                     <label>Commemoration of <persName ref="https://betamasaheft.eu/PRS8469Samson">Samson</persName>
-                     </label>
-                  </div>
-               </div>
+                  <t:div type="textpart" subtype="commemoration" xml:id="Magg30Samson">
+                     <t:label>Commemoration of <t:persName ref="https://betamasaheft.eu/PRS8469Samson">Samson</t:persName>
+                     </t:label>
+                  </t:div>
+               </t:div>
              
-               <div type="textpart" subtype="commemoration" xml:id="MaggSubscription">
-                 <label>Subscription for <foreign xml:lang="gez">Maggābit</foreign>
-                  </label>
-               </div>
+               <t:div type="textpart" subtype="commemoration" xml:id="MaggSubscription">
+                 <t:label>Subscription for <t:foreign xml:lang="gez">Maggābit</t:foreign>
+                  </t:label>
+               </t:div>
             
-            </div>
+            </t:div>
             
         
             
-            </div>
-        </body>
-    </text></TEI>
+            </t:div>
+        </t:body>
+    </t:text></TEI>

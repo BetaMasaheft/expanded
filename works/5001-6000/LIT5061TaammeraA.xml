@@ -4,10 +4,10 @@
                 <title xml:lang="gez" xml:id="t1">ተአምረ፡ አናንያ፡</title>
                 <title xml:lang="gez" corresp="#t1" type="normalized">Taʾammǝra ʾAnānya</title>
                 <title xml:lang="en" corresp="#t1">Miracles of ʾAnānya</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
@@ -17,9 +17,13 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">8.4.2025 at 00:13:19</date><date type="lastModified">13.9.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5061TaammeraA/main</idno><idno type="URI">https://betamasaheft.eu/LIT5061TaammeraA</idno><idno type="filename">LIT5061TaammeraA.xml</idno><idno type="ID">LIT5061TaammeraA</idno></publicationStmt>
+            <date type="expanded">3.9.2026 at 06:16:54</date><date type="lastModified">21.10.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5061TaammeraA/main</idno><idno type="URI">https://betamasaheft.eu/LIT5061TaammeraA</idno><idno type="filename">LIT5061TaammeraA.xml</idno><idno type="ID">LIT5061TaammeraA</idno></publicationStmt>
             <sourceDesc>
-                <p/>
+                <listWit>
+                    <witness corresp="https://betamasaheft.eu/ANLcr90"><idno>Conti Rossini 90</idno></witness>
+                    <witness corresp="https://betamasaheft.eu/ESky066"><idno>KY-066</idno></witness>
+                    <witness corresp="https://betamasaheft.eu/Cheren33"><idno>Missione Cattolica di Cheren Ms. 33</idno></witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -27,18 +31,18 @@
         
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."><assertion unit="miracle" match="t:div" use="t:div"><desc><list><item>FirstMiracle</item><item>SecondMiracle</item><item>ThirdMiracle</item><item>FourthMiracle</item><item>FifthMiracle</item><item>SixthMiracle</item></list></desc><assertion unit="miracle" match="t:div" use="t:div"><desc><list><item>Miracle1</item><item>Arke1</item><item>Miracle2</item><item>Arke2</item><item>Miracle3</item><item>Arke3</item><item>Miracle4</item><item>Arke4</item><item>Miracle5</item><item>Arke5</item><item>Miracle6</item><item>Arke6</item></list></desc></assertion></assertion><assertion unit="title inscriptio" match="t:div" use="t:div"><desc><list><item>Incipit</item></list></desc></assertion><assertion unit="desinit" match="t:div" use="t:div"><desc><list><item>Desinit</item></list></desc></assertion><assertion unit="supplication" match="t:div" use="t:div"><desc><list><item>SupplicationTM</item></list></desc></assertion></assertion></source-url></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="miracle" use="@subtype"><citeStructure match="t:div" unit="miracle" use="@subtype"><citeStructure match="t:pb" unit="t:pb" use="@n"><desc><list><item>13v</item><item>35ra</item><item>14v</item></list></desc></citeStructure><desc><list><item>Miracle1</item><item>Arke1</item><item>Miracle2</item><item>Arke2</item><item>Miracle3</item><item>Arke3</item><item>Miracle4</item><item>Arke4</item><item>Miracle5</item><item>Arke5</item><item>Miracle6</item><item>Arke6</item></list></desc></citeStructure><desc><list><item>FirstMiracle</item><item>SecondMiracle</item><item>ThirdMiracle</item><item>FourthMiracle</item><item>FifthMiracle</item><item>SixthMiracle</item></list></desc></citeStructure><citeStructure match="t:div" unit="title inscriptio" use="@subtype"><desc><list><item>Incipit</item></list></desc></citeStructure><citeStructure match="t:div" unit="desinit" use="@subtype"><desc><list><item>Desinit</item></list></desc></citeStructure><citeStructure match="t:div" unit="supplication" use="@subtype"><desc><list><item>SupplicationTM</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <t:creation/>
             <t:abstract>
-                <t:p/>
+                <t:p>Six miracles, followed by ʾarke-hymns.</t:p>
             </t:abstract>
             <t:textClass>
                 <t:keywords>
@@ -51,11 +55,13 @@
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <t:change who="#DR" when="2018-09-13"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</t:change>
+            <change when="2018-09-13" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2025-10-21" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated edition with text from ANLcr90</change>
         </t:revisionDesc>
     </teiHeader><standOff><listRelation>
                     <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT5061TaammeraA" passive="https://betamasaheft.eu/PRS1906Ananyao"/>
                     <relation name="saws:follows" ref="http://purl.org/saws/ontology#follows" active="https://betamasaheft.eu/LIT5061TaammeraA" passive="https://betamasaheft.eu/LIT1419GadlaA"/>
+                    <relation name="dcterms:isPartOf" ref="http://purl.org/dc/terms/isPartOf" active="https://betamasaheft.eu/IT5061TaammeraA" passive="https://betamasaheft.eu/LIT6063Ananya"/>
                 </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>
             <t:div type="bibliography">
@@ -63,12 +69,15 @@
                 
                 <t:listBibl type="editions">
                     <t:bibl corresp="http://zotero.org/groups/358366/items/A7TAQHZT"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Lusini1991AnanyaMiracoli"/><title level="a">Miracoli di Anānyā</title><title level="j">Egitto e Vicino Oriente</title><author><forename>Gianfrancesco</forename><surname>Lusini</surname></author><date>1991</date><biblScope unit="volume">14</biblScope><biblScope unit="page">171-74</biblScope><note type="tags"><note type="tag">Hagiography, Ethiopian</note><note type="tag">bm:Lusini1991AnanyaMiracoli</note></note><note type="tag">Hagiography, Ethiopian</note><note type="tag">bm:Lusini1991AnanyaMiracoli</note></t:bibl>
+                    <t:bibl corresp="http://zotero.org/groups/358366/items/9UUEQUXF"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Lusini1990Ananya"/><title level="a">Il &lt;hi rend="italics"&gt;Gadla Anānyā&lt;/hi&gt;</title><title level="j">Egitto e Vicino Oriente</title><author><forename>Gianfrancesco</forename><surname>Lusini</surname></author><date>1990</date><biblScope unit="volume">13</biblScope><biblScope unit="page">149-91</biblScope><note type="tags"><note type="tag">Hagiography, Ethiopian</note><note type="tag">bm:Lusini1990Ananya</note></note><note type="tag">Hagiography, Ethiopian</note><note type="tag">bm:Lusini1990Ananya</note><t:citedRange>186–191</t:citedRange></t:bibl>
                 </t:listBibl>
             </t:div>
             
-            <t:div type="edition">
-                <t:note>The following text is taken from  <t:bibl corresp="http://zotero.org/groups/358366/items/9UUEQUXF"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Lusini1990Ananya"/><title level="a">Il &lt;hi rend="italics"&gt;Gadla Anānyā&lt;/hi&gt;</title><title level="j">Egitto e Vicino Oriente</title><author><forename>Gianfrancesco</forename><surname>Lusini</surname></author><date>1990</date><biblScope unit="volume">13</biblScope><biblScope unit="page">149-91</biblScope><note type="tags"><note type="tag">Hagiography, Ethiopian</note><note type="tag">bm:Lusini1990Ananya</note></note><note type="tag">Hagiography, Ethiopian</note><note type="tag">bm:Lusini1990Ananya</note><t:citedRange>166-191</t:citedRange></t:bibl>.</t:note>
-                
+            <t:div type="edition" xml:id="div2LIT5061TaammeraA">
+                <t:note>The following text is taken from <t:ref type="mss" corresp="https://betamasaheft.eu/ANLcr90">Rome, Biblioteca dell’Accademia Nazionale dei Lincei, Conti Rossini 90</t:ref> according to the catalogue description in 
+                    <t:bibl corresp="http://zotero.org/groups/358366/items/N6HPGQK3"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1976Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens de l’Accademia Nazionale dei Lincei: Fonds Conti Rossini et Fonds Caetani 209, 375, 376, 377, 378</title><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>Roma</pubPlace><publisher>Accademia Nazionale dei Lincei</publisher><date>1976</date><series><title level="s">Indici e Sussidi Bibliografici della Biblioteca</title><biblScope unit="volume">9</biblScope></series><biblScope unit="volume">9</biblScope><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:IHABook182</note><note type="tag">bm:Strelcyn1976Catalogue</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:IHABook182</note><note type="tag">bm:Strelcyn1976Catalogue</note><t:citedRange unit="page">236–238</t:citedRange></t:bibl> 
+                    and the facsimile reproduction in <t:bibl corresp="http://zotero.org/groups/358366/items/9UUEQUXF"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Lusini1990Ananya"/><title level="a">Il &lt;hi rend="italics"&gt;Gadla Anānyā&lt;/hi&gt;</title><title level="j">Egitto e Vicino Oriente</title><author><forename>Gianfrancesco</forename><surname>Lusini</surname></author><date>1990</date><biblScope unit="volume">13</biblScope><biblScope unit="page">149-91</biblScope><note type="tags"><note type="tag">Hagiography, Ethiopian</note><note type="tag">bm:Lusini1990Ananya</note></note><note type="tag">Hagiography, Ethiopian</note><note type="tag">bm:Lusini1990Ananya</note><t:citedRange>186-191</t:citedRange></t:bibl>.</t:note>
+ 
                 <t:div type="textpart" subtype="title inscriptio" xml:id="Incipit" xml:lang="gez">
                     <t:label>Incipit</t:label>
                     <t:ab>በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ፩፡ አምላክ። ንጽሕፍ፡ ዜና፡ ተአምሪሁ፡ ወዕበየ፡ ትሩፋቲሁ፡ ለዝንቱ፡ ጻድቅ፡ አቡነ፡ አናንያ፡ ዘውገ፡ ፋሲለደስ፡ ሰማዕት፡ ዘገብረ፡ እምድኅረ፡ ሞቱ፡</t:ab>
@@ -80,62 +89,117 @@
                 </t:div>
                 
                 <t:div type="textpart" subtype="miracle" xml:id="FirstMiracle" xml:lang="gez">
+                    <t:label>First miracle: Healing of the sick by touching pieces of ʾAbuna ʾAnānyā's shroud</t:label>
                     <t:div type="textpart" subtype="miracle" xml:id="Miracle1" xml:lang="gez">
-                        <t:label>First Miracle</t:label>
+                        <t:label>Miracle 1</t:label>
+                        <t:ab>ቀዳሚ፡ ተአምር፡ ዘገብረ፡ አቡነ፡ አናንያ፡ ዘኤላ፡ ገዳማተ፡ ወአድባራተ፡ ወምኔታተ፡ ወከመ፡ አቡሁ፡ ዘከፈለ፡ ባሕረ፡ ግርምተ፡ ወበከመ፡ ጊዮርጊስ፡ ዘኮነ፡ ሰማዕተ፡ 
+                            ወከመ፡ ኤልያስ፡ ዘዓቀበ፡ ደመናተ፡ ወከመ፡ ጳውሎስ፡ ዘአንኃ፡ ስብከተ፡ ወከመ፡ ጴጥሮስ፡ ዘትወፈየ፡ መራኁተ፡ ወተሰቅለ፡ ቍልቍሊተ። ወበ፩፡ እመዋዕል፡ መጽኡ፡ ብዙኃን፡ 
+                            ድውያን፡ ወሕሙማን፡ <t:gap reason="ellipsis"/> ወይብሉ፡ ዘይፈውሱ፡ ድውያነ፡ በዘፈረ፡ ልብሱ፡ ኢርኢነ፡ ወኢሰማዕነ፡ ዘእንበለ፡ እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ 
+                            ዘፈውሰ፡ በዘፈረ፡ ልብሱ፡ ወዘእንበለ፡ አርዳኢሁ፡ ወሐዋርያቲሁ፡ ውእቱኒ፡ ኢያሕፀፀ፡ እምኔሆሙ፡ በገቢረ፡ ተአምራት፡ ወመንክራት፡ ጸሎቱ። <t:gap reason="omitted"/></t:ab>
                     </t:div>
                     <t:div type="textpart" subtype="miracle" xml:id="Arke1" xml:lang="gez">
-                        <t:label>ʿĀrke-hymn</t:label>
+                        <t:label>ʿĀrke-hymn 1</t:label>
+                        <t:ab>ሰላም፡ ለልብከ፡ ፈዋሴ፡ ሕማም፡ ወደዌ፡ ወእምነ፡ ኵሉ፡ ምንሳዌ፡ <t:gap reason="ellipsis"/>ወእምነ፡ እሳት፡ ነነዌ፡ በስብሐተ፡ ነቢይ፡ ዮናስ፡ አልቦቱ፡ ሕሳዌ።
+                                </t:ab>
                     </t:div>
                 </t:div>
                 
                 <t:div type="textpart" subtype="miracle" xml:id="SecondMiracle" xml:lang="gez">
+                    <t:label>Second miracle: Ending of a famine with the help of relics of ʾAbuna ʾAnānyā and ʾAbuna Ṗawlos</t:label>
+                    <t:note>During a famine in <t:placeName ref="https://betamasaheft.eu/LOC5575Saraye">Sarāye</t:placeName>, while drought reigned and there was an invasion of 
+                        locusts, monks stole the skull of <t:persName ref="https://betamasaheft.eu/PRS1906Ananyao">ʾAnānyā</t:persName> and the sole of the foot of
+                        <t:persName ref="https://betamasaheft.eu/PRS7769Pawlos">Ṗawlos</t:persName> from the monastery of <t:placeName ref="https://betamasaheft.eu/LOC2358DabraS">Dabra Ṣarābi</t:placeName>. 
+                        These relics put an end to the famine and thirst, and made the locusts disappear.</t:note>
                     <t:div type="textpart" subtype="miracle" xml:id="Miracle2" xml:lang="gez">
-                        <t:label>First Miracle</t:label>
+                        <t:label>Miracle 2</t:label>
+                        <t:ab>ተአምሪሁ፡ ለብፁዕ፡ ወለቅዱስ፡ ትሩፈ፡ ምግባር፡ አቡነ፡ ጻድቅ፡ ወሰማዕት፡ አቡነ፡ አናንያ። እምብዕለ፡ ዓለም፡ ለመንግሥተ፡ ሰማያት፡ ዘኃረያ፡ ጸሎቱ። ወበ፩፡ 
+                            እመዋዕል፡ መጽኡ፡ መነኮሳት፡ ተማኪሮሙ፡ ምስለ፡ ሰብአ፡ ሰራዌ፡ ወኮነ፡ በሀገሮሙ፡ አባረ፡ እክል፡ ወጽምዓ፡ ማይ፡ በእንተ፡ ኃጢአ፡ ዝናም፡ ወበልዓ፡ 
+                            አን<t:choice resp="PRS8999Strelcyn"><t:sic>ቦ</t:sic><t:corr>በ</t:corr></t:choice>ጣ፡ ፍሬ፡ ምድሮሙ፡ <t:gap reason="ellipsis"/>
+                            ወኮኑ፡ ይፈውሱ፡ ኵሎ፡ ድውያነ፡ እስከ፡ ዛቲ፡ ዕለት፡ እስመ፡ ንጹሕ፡ ወክቡር፡ እዕፅምቲሆሙ፡ ለጻድቃን፡ አበው፡ ጸሎቶ። <t:gap reason="omitted"/></t:ab>
                     </t:div>
                     <t:div type="textpart" subtype="miracle" xml:id="Arke2" xml:lang="gez">
-                        <t:label>ʿĀrke-hymn</t:label>
+                        <t:label>ʿĀrke-hymn 2</t:label>
+                        <t:ab>ሰላም፡ አዕፅምቲክሙ፡ ዘትይፌውሱ፡ ድውያነ፡ <t:gap reason="ellipsis"/> ወንጽሕናክሙ፡ ያንጽሕ፡ ሥጋነ።</t:ab>
                     </t:div>
                 </t:div>
                 
                 <t:div type="textpart" subtype="miracle" xml:id="ThirdMiracle" xml:lang="gez">
+                    <t:label>Third miracle: How holy water from ʾAnānyā’s shroud prevents grasshoppers from coming near</t:label>
+                    <t:note>The water in which a piece of the shroud of <t:persName ref="https://betamasaheft.eu/PRS1906Ananyao">ʾAnānyā</t:persName> had been soaked prevented 
+                        grasshoppers from touching the grain that has been sprinkled with it.</t:note>
                     <t:div type="textpart" subtype="miracle" xml:id="Miracle3" xml:lang="gez">
-                        <t:label>First Miracle</t:label>
+                        <t:label>Miracle 3</t:label>
+                        <t:ab>ተአምሪሁ፡ ለአቡነ፡ አናንያ፡ <t:gap reason="ellipsis"/> ወነበሩ፡ ፪ አኃው፡ ፩ ወሬዛ፡ ወ፩ መነኮስ። ወንብረቶሙ፡ 
+                            ለ፪ሆሙ። አኃቲ፡ ገራኅት፡ ወተከፍለት፡ በዕፃ፡ ወበአኃቲ፡ ዕለት፡ <t:pb n="13v"/> መጽአ፡ አንበጣ። ወውእቱኒ፡ ወሬዛ፡ ሐፀበ፡ በማይ፡ እምልብሰ፡ መግንዙ፡
+                            ለአቡነ፡ አናንያ፡ ወነዝኃ፡ ማየ፡ ጸሎት፡ ለይእቲ፡ ገራህት፡ ዘተከፍለት፡ በዕፃ፡ እንዘ፡ ክድንት፡ ይእቲ፡ ኵለንታሃ፡ በአን<t:sic>ቦ</t:sic>ጣ፡ ወኢጥዕመ፡ አንቦጣ፡
+                            እምፍሬ፡ እክል። <t:gap reason="ellipsis"/> ወእለ፡ ርእዩ፡ ሰብእ፡ አንከሩ፡ ወተ<t:add place="above"><t:unclear>ጻ</t:unclear></t:add>ሙ፡
+                            እምዕበየ፡ ተአምራቲሁ፡ ለንጹሕ፡ ወቅዱስ፡ ኅሩይ፡ መስተጋድ፡ ጸ<t:supplied reason="omitted" resp="CH">ሎቱ፡</t:supplied>
+                            <t:gap reason="omitted"/></t:ab>
                     </t:div>
                     <t:div type="textpart" subtype="miracle" xml:id="Arke3" xml:lang="gez">
-                        <t:label>ʿĀrke-hymn</t:label>
+                        <t:label>ʿĀrke-hymn 3</t:label>
+                        <t:ab>አዘሰርከ፡ አፈ፡ አንቦጣ፡ በላዒ፡ <t:gap reason="ellipsis"/> አናንያ፡ ካህን፡ ቢጸ፡ ሱራፌል፡ ሠዋዒ፡ በጸሎትከ፡ አባ፡ አድኅነኒ፡ እምዕደ፡ ጽኑዕ፡ መዋዒ፡ 
+                            ወኢይገድፈኒ፡ ብዕሲ፡ ገፋዒ። ።</t:ab>
                     </t:div>
                 </t:div>
                 
                 <t:div type="textpart" subtype="miracle" xml:id="FourthMiracle" xml:lang="gez">
+                    <t:label>Fourth miracle: Healing of a man from elephantiasis</t:label>
                     <t:div type="textpart" subtype="miracle" xml:id="Miracle4" xml:lang="gez">
-                        <t:label>First Miracle</t:label>
+                        <t:label>Miracle 4</t:label>
+                        <t:ab>ተአምሪሁ፡ ለአቡነ፡ አናንያ፡ <t:gap reason="ellipsis"/> ወበ፩ እመዋዕል፡ መጽአ፡ ፩ ብእሲ፡ እምሀገረ፡ ተንቤን፡ ዘደወየ፡ በሕማመ፡ ዝልጋሴ፡ ወሶበ፡ ሰምዓ፡
+                            ዜና፡ ገድሉ፡ ወኂሩቱ፡ ወተአምሪሁ፡ ከመ፡ ይፌውስ፡ ድውያነ፡ ወያርትዕ፡ ኃንካሳነ፡ ወይሁብ፡ ለዕውራን፡ ብርሃነ። <t:gap reason="ellipsis"/> ወተግበር፡ ተዝካሮሙ፡
+                            ለጻድቃን፡ እስከ፡ ዕለተ፡ ሞታ፡ ጸሎ<t:supplied reason="omitted" resp="CH">ቱ፡</t:supplied><t:gap reason="omitted"/></t:ab>
                     </t:div>
                     <t:div type="textpart" subtype="miracle" xml:id="Arke4" xml:lang="gez">
-                        <t:label>ʿĀrke-hymn</t:label>
+                        <t:label>ʿĀrke-hymn 4</t:label>
+                        <t:ab><t:supplied reason="omitted" resp="CH">ኦዘፈወስከ፡</t:supplied> ለብእሲ፡ እምዝልጋሴ፡ <t:gap reason="ellipsis"/>
+                            ወደምስሶ፡ ድምሳሴ፡ ከመ፡ ለደታን፡ ወአቤሮን፡ ደምሰሶሙ፡ ሙሴ። ።</t:ab>
                     </t:div>
                 </t:div>
                 
                 <t:div type="textpart" subtype="miracle" xml:id="FifthMiracle" xml:lang="gez">
+                    <t:label>Fifth miracle: Healing of a blind woman</t:label>
+                    <t:note>The two monks carrying the relics of <t:persName ref="https://betamasaheft.eu/PRS1906Ananyao">ʾAnānyā</t:persName> and 
+                        <t:persName ref="https://betamasaheft.eu/PRS7769Pawlos">Ṗawlos</t:persName> entered the house of a blind woman who was healed on the spot.</t:note>
                     <t:div type="textpart" subtype="miracle" xml:id="Miracle5" xml:lang="gez">
-                        <t:label>First Miracle</t:label>
+                        <t:label>Miracle 5</t:label>
+                        <t:ab>ተአምሪሁ፡ ለአቡነ፡ አናንያ፡ ጻድቅ፡ ከመ፡ ኤልያስ፡ ፃማዊ፡ በከመ፡ ጊዮርጊስ፡ መዓዊ፡ ጸሎ<t:gap reason="omitted"/> ወበ፩ እመዋዕል፡ እንዘ፡ የሃውሩ፡ 
+                            ፪ መነኮሳት፡ ጸዊሮሙ፡ ርእሶ፡ ለአቡነ፡ አናንያ፡ ወአገዳ፡ እግሩ፡ ለአቡነ፡ ጳውሎስ፡ በጊዜ፡ ምሴት፡ ውስተ፡ ቤተ፡ አሐቲ፡ <t:sic>ዕውርቲ፡</t:sic> ወሶበ፡ ቦኡ፡ ውስተ፡ ቤታ፡
+                            ተከሥተ፡ አዕይንቲሃ፡ ወኮነት፡ <t:sic>ሕያውታ፡</t:sic> <t:gap reason="ellipsis"/> ወይቤልዋ፡ አኮ፡ አማልክት፡ ንኅነ፡ አላ፡ አምላከ፡ ጻድቃን፡ ፈወሰኪ፡ ዳእሙ፡ 
+                            ገበረ፡ ተዝካሮሙ፡ ለጻድቃን፡ አበው፡ አቡነ፡ ጳውሎስ፡ ወአቡነ፡ አናንያ፡ ዘአህየወኪ፡ ዓይነኪ፡ 
+                            ጸሎ<t:supplied reason="omitted" resp="CH">ቶሙ፡</t:supplied><t:gap reason="omitted"/></t:ab>
                     </t:div>
                     <t:div type="textpart" subtype="miracle" xml:id="Arke5" xml:lang="gez">
-                        <t:label>ʿĀrke-hymn</t:label>
+                        <t:label>ʿĀrke-hymn 5</t:label>
+                        <t:note>The following ʿārke-hymn is not attested in <t:ref type="mss" corresp="https://betamasaheft.eu/ANLcr90">Rome, Biblioteca dell’Accademia Nazionale dei Lincei, Conti Rossini 90</t:ref>, but taken from
+                            <t:ref type="mss" corresp="https://betamasaheft.eu/ESky066">ʾƎndartā, Koholo Yoḥannǝs Dabra Betel, KY-066</t:ref>.</t:note>
+                        <t:ab>ኦመተንብላን፡ አናንያ፡ ወጳውሎስ። መ<t:pb n="35ra"/>ምሕራነ፡ ወንጌል፡ ሐዲስ። <t:gap reason="ellipsis"/> ወለለዕለቱ፡ ሐውፅዋ፡ ለዛቲ፡ መቅደስ።</t:ab>
                     </t:div>
                 </t:div>
                 
                 <t:div type="textpart" subtype="miracle" xml:id="SixthMiracle" xml:lang="gez">
+                    <t:label>Sixth miracle: Healing of a pregnant woman</t:label>
+                    <t:note>A woman who was about to give birth fell seriously ill. She recovered after coming into contact with a piece of the shroud
+                        of <t:persName ref="https://betamasaheft.eu/PRS1906Ananyao">ʾAnānyā</t:persName>.</t:note>
                     <t:div type="textpart" subtype="miracle" xml:id="Miracle6" xml:lang="gez">
-                        <t:label>First Miracle</t:label>
+                        <t:label>Sixth Miracle</t:label>
+                        <t:ab>ተአምሪሁ፡ ለአቡነ፡ አናንያ፡ ጻድቅ፡ ወምእመን፡ ጸሎቱ። ወሐመት፡ አሐቲ፡ ብእሲት፡ ጽንስት፡ ወአሐዛ፡ ሕማመ፡ ወሊድ፡ ወአልጸቀት፡ ለሞት፡ ወሐመት፡ ብዙኃ፡ 
+                            መዋዕለ፡ ወአምጽኡ፡ ብዙኃ፡ ፈውሰ፡ ወኢተፈወሰት፡ ምንተኒ፡ እምሕማማ፡ ወነ<t:pb n="14v"/>በሩ፡ አቡሃ፡ ወእማ፡
+                            ወ<t:add place="above">አ</t:add>ዝማዲሃ፡ ወብዙኃ፡ ግዓረት፡ ወኃዘኑ፡ ኵሎሙ፡ <t:gap reason="ellipsis"/> ወሶቤሃ፡ ተፈወት፡ በቅጽበት፡ ወወለደት፡ 
+                            ወልደ፡ ወገብሩ፡ ይባቤ፡ እለ፡ ነበሩ፡ ጉቡአን፡ ሰብእ፡ ጸሎቱ። <t:gap reason="omitted"/></t:ab>
                     </t:div>
                     <t:div type="textpart" subtype="miracle" xml:id="Arke6" xml:lang="gez">
-                        <t:label>ʿĀrke-hymn</t:label>
+                        <t:label>ʿĀrke-hymn 6</t:label>
+                        <t:note>The following ʿārke-hymn is not attested in <t:ref type="mss" corresp="https://betamasaheft.eu/ANLcr90">Rome, Biblioteca dell’Accademia Nazionale dei Lincei, Conti Rossini 90</t:ref>, but taken from
+                            <t:ref type="mss" corresp="https://betamasaheft.eu/ESky066">ʾƎndartā, Koholo Yoḥannǝs Dabra Betel, KY-066</t:ref>.</t:note>
+                        <t:ab>ኦዘፈወሰከ፡ እምሕማመ፡ ወሊድ፡ ጽኑዕ። አምጣነ፡ አንተ፡ ብፁዕ። <t:gap reason="ellipsis"/> ምስለ፡ ካህናት፡ ፳ ወርብዕ።</t:ab>
                     </t:div>
                 </t:div>
                 
                 <t:div type="textpart" subtype="desinit" xml:id="Desinit" xml:lang="gez">
                     <t:label>Desinit</t:label>
-                    <t:ab>ኦዘፈወሰከ፡ አመ፡ ሕማመ፡ ወሲድ፡ ፅኡዕ፡ አምጣን፡ አንተ፡ ብፁዕ፡ አናንያ፡ ሰማዕት፡ ወየዋህ፡ በገዕ፡ አእርግ፡ ጸሎተነ፡ ውስተ፡ ኦኃ፡ ሰማይ፡ ሰብእ፡ ምስለ፡ ካህናት፡ ፳ወርብዕ። ኦመተንብለን፡ አናንያ፡ ወጳውሎስ፡ መምህርራነ፡ ወንጌል፡ ሐዳስ፡
+                    <t:ab><t:gap reason="omitted"/> ኦዘፈወሰከ፡ አመ፡ ሕማመ፡ ወሲድ፡ ፅኡዕ፡ አምጣን፡ አንተ፡ ብፁዕ፡ አናንያ፡ ሰማዕት፡ ወየዋህ፡ በገዕ፡ አእርግ፡ ጸሎተነ፡ ውስተ፡ ኦኃ፡ ሰማይ፡ ሰብእ፡ ምስለ፡ ካህናት፡ ፳ወርብዕ። ኦመተንብለን፡ አናንያ፡ ወጳውሎስ፡ መምህርራነ፡ ወንጌል፡ ሐዳስ፡
                         ዘፈወሰክሙ፡ ዓይና፡ ለብእሲተ፡ ተጽናስ፡ ወዒስ፡ አድኅኑነ፡ አበው፡ እምተጽናስ፡ ወባዕሰ፡ ወለለጎዑ፡ ዑድዋ፡ ለዛቲ፡ መቅደስ። ተፈጸመ፡ ገድል፡ ወተአምር፡ ዘአቡነ፡ አናንያ፡ ጸሎቱ፡ ወበረከቱ፡ የሃሉ፡ ለኵሎሙ፡ ደቂቀ፡ ማኅበር፡ ለዓለመ፡ ዓ</t:ab>
                 </t:div>
               

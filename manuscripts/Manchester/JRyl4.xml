@@ -39,18 +39,18 @@
           <resp>Metadata processing</resp>
           <name>Thomas Higgins</name>
         </respStmt>
-      <respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+      <respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
       <publicationStmt>
         <publisher>The University of Manchester Library</publisher>
         <date calendar="gregorian">2024</date>
         <pubPlace>
           <address>
-            <minVersion>The John Rylands Research Institute and Library</minVersion>
-            <all>150 Deansgate</all>
+            <addrLine>The John Rylands Research Institute and Library</addrLine>
+            <street>150 Deansgate</street>
             <settlement>Manchester</settlement>
             <postCode>M3 3EH</postCode>
-            <minVersion><ref target="http://www.library.manchester.ac.uk/specialcollections/">The John Rylands Research Institute and Library</ref></minVersion>
-            <minVersion><email>uml.special-collections@manchester.ac.uk</email></minVersion>
+            <addrLine><ref target="http://www.library.manchester.ac.uk/specialcollections/">The John Rylands Research Institute and Library</ref></addrLine>
+            <addrLine><email>uml.special-collections@manchester.ac.uk</email></addrLine>
           </address>
         </pubPlace>
         <availability xml:id="displayImageRights" status="restricted">
@@ -62,7 +62,7 @@
         <availability xml:id="metadataRights" status="restricted">
           <licence>Metadata made available for download is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).</licence>
         </availability>
-      <date type="expanded">1.7.2025 at 22:03:09</date><date type="lastModified">26.2.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/JRyl4/main</idno><idno type="URI">https://betamasaheft.eu/JRyl4</idno><idno type="filename">JRyl4.xml</idno><idno type="ID">JRyl4</idno></publicationStmt>
+      <date type="expanded">3.9.2026 at 09:17:59</date><date type="lastModified">26.2.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/JRyl4/main</idno><idno type="URI">https://betamasaheft.eu/JRyl4</idno><idno type="filename">JRyl4.xml</idno><idno type="ID">JRyl4</idno></publicationStmt>
       <sourceDesc>
         <msDesc>
           <msIdentifier>
@@ -114,12 +114,12 @@
                 <extent>173 folios: <dimensions type="leaf" unit="mm">
                   <height>225</height>
                   <width>210</width>
-                </dimensions>
+                </dimensions><dimensions subtype="computed" unit="mm" type="leaf"><height quantity="225" unit="mm"/><width quantity="210" unit="mm"/></dimensions>
                   <dimensions type="outer" unit="mm">
                     <height>235</height>
                     <width>223</width>
                     <depth>84</depth>
-                  </dimensions>
+                  </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="235" unit="mm"/><width quantity="223" unit="mm"/><depth quantity="84" unit="mm"/></dimensions>
                 </extent>
                 <foliation>
                   <p>Modern pencil foliation in Arabic numerals on the upper right corner of each recto folio.</p>
@@ -131,10 +131,10 @@
                 <layout columns="3" writtenLines="30">
                   <p>Three columns, 30 lines per leaf.</p>
                   <p>Folios have been pricked and scored to assist in writing, though on some folios the scoring lines are so heavy they are causing splits in the
-                    parchment.</p></layout>
+                    parchment.</p></layout><layout subtype="computed" type="catalogue" columns="3"><writtenLines quantity="30"/></layout>
               </layoutDesc>
             </objectDesc>
-            <handDesc test-plan="1">
+            <handDesc hands="1">
               <handNote xml:id="h1" script="Ethiopic">
                 <p>Written in a <term ana="#">Ge'ez</term> script, in black and red ink, by a single hand; very small excellent handwriting with musical notation.</p>
               </handNote>
@@ -192,8 +192,8 @@
               <recordHist>
                 <source>
                   <listBibl type="catalogue">
-                    <bibl corresp="http://zotero.org/groups/358366/items/VHDME76V"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1974CatJRylands"/><title level="m">Catalogue of Ethiopic manuscripts in the John Rylands University Library of Manchester</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>Manchester</pubPlace><publisher>University Press</publisher><date>1974</date><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Strelcyn1974CatJRylands</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Strelcyn1974CatJRylands</note></bibl>
-                    <bibl corresp="http://zotero.org/groups/358366/items/2NKRG5FA"><seg type="dataset"><!-- attributes from original bibl--></seg><ptr target="bm:ManchesterJRWeb"/><title level="m">Manchester Digital Collections: Ethiopic Manuscripts</title><date/><note type="url">https://www.digitalcollections.manchester.ac.uk/collections/ethiopic</note></bibl>
+                    <bibl corresp="http://zotero.org/groups/358366/items/VHDME76V"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1974CatJRylands"/><title level="m">Catalogue of Ethiopic Manuscripts in the John Rylands University Library of Manchester</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>Manchester</pubPlace><publisher>University Press</publisher><date>1974</date><note type="url">https://books.google.de/books?id=4NlRAQAAIAAJ&amp;lpg=PR8&amp;ots=6SQQLoQuml&amp;dq=Catalogue%20of%20Ethiopic%20Manuscripts%20in%20the%20John%20Rylands%20University%20Library%20of%20Manchester&amp;hl=de&amp;pg=PR7#v=onepage&amp;q&amp;f=false</note><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Strelcyn1974CatJRylands</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Strelcyn1974CatJRylands</note></bibl>
+                    <bibl corresp="http://zotero.org/groups/358366/items/2NKRG5FA"><seg type="dataset"><!-- attributes from original bibl--></seg><ptr target="bm:ManchesterJRWeb"/><title level="m">Manchester Digital Collections: Ethiopic Manuscripts</title><date/><note type="url">https://www.digitalcollections.manchester.ac.uk/collections/ethiopic</note><note type="tags"><note type="tag">bm:ManchesterJRWeb</note></note><note type="tag">bm:ManchesterJRWeb</note></bibl>
                   </listBibl>
                 </source>
               </recordHist>
@@ -207,7 +207,7 @@
             </adminInfo>
             <listBibl type="secondary">
               
-              <bibl corresp="http://zotero.org/groups/358366/items/AGA8QCF6"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1899Manoscritti"/><title level="a">Manoscritti ed opere abissine in Europa</title><title level="j">Atti della Reale Accademia dei Lincei, Rendiconti, Classe di scienze morale, storiche e filologiche</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Carlo</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Conti Rossini</t:surname></author><date>1899</date><biblScope unit="volume">Serie quinta, 8</biblScope><biblScope unit="page">606-637</biblScope><citedRange>318</citedRange></bibl>
+              <bibl corresp="http://zotero.org/groups/358366/items/AGA8QCF6"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1899Manoscritti"/><title level="a">Manoscritti ed opere abissine in Europa</title><title level="j">Atti della Reale Accademia dei Lincei, Rendiconti, Classe di scienze morale, storiche e filologiche</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><date>1899</date><biblScope unit="volume">Serie quinta, 8</biblScope><biblScope unit="page">606-637</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:ContiRossini1899Manoscritti</note></note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:ContiRossini1899Manoscritti</note><citedRange>318</citedRange></bibl>
             </listBibl>
           </additional>
         </msDesc>
@@ -241,14 +241,14 @@
           </desc>
         </taxonomy>
       </classDecl>
-    <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
+    <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
     <profileDesc>
       <textClass>
         <keywords>
@@ -265,7 +265,7 @@
     <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
     <revisionDesc>
-      <change who="#ES" when="2024-02-26"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Imported the description by Ourania Karapasia from https://www.digitalcollections.manchester.ac.uk/view/MS-ETHIOPIC-00004/1; description based on the catalogue record revised and expanded by Jeremy Penner and Jeremy Brown</change>
+      <change when="2024-02-26" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Imported the description by Ourania Karapasia from https://www.digitalcollections.manchester.ac.uk/view/MS-ETHIOPIC-00004/1; description based on the catalogue record revised and expanded by Jeremy Penner and Jeremy Brown</change>
       
     </revisionDesc>
   </teiHeader><facsimile><graphic url="https://www.digitalcollections.manchester.ac.uk/view/MS-ETHIOPIC-00004/1"/></facsimile><text><body><ab/></body></text></TEI>

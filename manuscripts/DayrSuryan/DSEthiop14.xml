@@ -5,9 +5,9 @@
             <title xml:lang="ar">سفر المزامير</title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
             <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
-            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         </titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DN" xml:id="ed-DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -16,7 +16,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">2022-01-05T13:36:28.446+01:00</date><date type="lastModified">15.12.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DSEthiop14</idno><idno type="URI">https://betamasaheft.eu/DSEthiop14</idno><idno type="filename">DSEthiop14.xml</idno><idno type="ID">DSEthiop14</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 08:30:25</date><date type="lastModified">15.12.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DSEthiop14/main</idno><idno type="URI">https://betamasaheft.eu/DSEthiop14</idno><idno type="filename">DSEthiop14.xml</idno><idno type="ID">DSEthiop14</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -40,14 +40,14 @@
                   <summary/>
 
                   <msItem xml:id="ms_i1">
-                     <locus from="1r" to="8v">Fols 1r–8v</locus>
-                     <title type="incomplete" ref="https://betamasaheft.eu/LIT2000Mazmur">Mazmura Dāwit</title>
+                     <locus from="1r" to="8v"/>
+                     <title type="incomplete" ref="https://betamasaheft.eu/LIT2000Mazmur">Psalms of David</title>
                      <textLang mainLang="gez"/>
                      <note>Only the portion Pss. 1-6 and 8-17.
                         The original numeration of the Psalms is not consistent. Number 1 is used twice;
                         Pss. 5, 6, 8, 9, 11 have no numbers. A recent numeration with Western Arabic numerals, in pencil, is added to all Psalms.</note>
                      <incipit xml:lang="gez">
-                        <locus target="#1r">Fol. 1r</locus>
+                        <locus target="#1r"/>
                         <lb n="1"/>
                         <hi rend="rubric"> ፩ፍካሬ፡ ዘጻድቃን፡ ወዘኃጥአን፡</hi>
                         <lb n="2"/>
@@ -61,7 +61,7 @@
                         <hi rend="rubric">ወዘሕጎ፡ ያነብብ፡ መዓልተ፡ ወሌሊተ።</hi>
                      </incipit>
                      <explicit xml:lang="gez">
-                        <locus target="#8v">Fol. 8v</locus>
+                        <locus target="#8v"/>
                         <lb n="1"/>ወልዑል፡ ወሀበ፡ ቃሎ<hi rend="rubric">፨</hi>
                         <lb n="2"/>ፈነወ፡ አሕፃሁ፡ ወዘረዎሙ<hi rend="rubric">፨</hi>
                         <lb n="3"/>አብዝኃ፡ መባርቅቲሁ፡ ወሆኮሙ<hi rend="rubric">፨</hi>
@@ -89,7 +89,7 @@
                               <height>185</height>
                               <width>134</width>
                               <depth>5</depth>
-                           </dimensions>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="185" unit="mm"/><width quantity="134" unit="mm"/><depth quantity="5" unit="mm"/></dimensions>
                            <dimensions type="outer" unit="mm" xml:lang="ar">
                               <height>١٨٥</height>
                               <width>١٣٤</width>
@@ -103,7 +103,7 @@
                            <list>
                               <item xml:id="q1" n="1">
                                  <dim unit="leaf">8</dim>
-                                 <locus from="1r" to="8v">Fols 1r–8v</locus>
+                                 <locus from="1r" to="8v"/>
                                  1, stub after 8
                                  7, stub after 1
                               </item>
@@ -111,31 +111,31 @@
                         </collation>
 
                         <condition key="good">The quire shows slight traces of use,
-                           small occasional stains (<locus target="#1r #2r">fols. 1r, 2r</locus>).</condition>
+                           small occasional stains (<locus target="#1r #2r"/>).</condition>
                      </supportDesc>
 
                      <layoutDesc>
                         <layout columns="1" writtenLines="25 27">
-                           <locus from="1r" to="8v">Fols 1r–8v</locus>
+                           <locus from="1r" to="8v"/>
                            <note corresp="#textarea #margin">
-                              Data on text area and margin dimensions taken from <locus target="#4r">fol. 4r</locus>.</note>
+                              Data on text area and margin dimensions taken from <locus target="#4r"/>.</note>
                            <dimensions unit="mm" xml:id="textarea">
                               <height>83</height>
                               <width>70</width>
-                           </dimensions>
+                           </dimensions><dimensions subtype="computed" unit="mm"><height quantity="83" unit="mm"/><width quantity="70" unit="mm"/></dimensions>
                            <dimensions type="margin" unit="mm" xml:id="margin">
                               <dim type="top">10</dim>
                               <dim type="bottom">23</dim>
                               <dim type="right">6</dim>
                               <dim type="left">7</dim>
-                           </dimensions>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="margin"><dim type="top" quantity="10" unit="mm"/><dim type="bottom" quantity="23" unit="mm"/><dim type="right" quantity="6" unit="mm"/><dim type="left" quantity="7" unit="mm"/></dimensions>
                            <ab type="pricking">Ruling and pricking are visible.</ab>
                            <ab type="ruling" subtype="pattern">1A-1A/0-0/0-0/C</ab>
                            <note>The pricks are located very close to the edges of the folia.
-                              On <locus target="#8">fol. 8</locus>, two
+                              On <locus target="#8"/>, two
                               rows of the text pricks are visible, one very close to the
                               edge, another at the outer bounding line.</note>
-                        </layout>
+                        </layout><layout subtype="computed" type="catalogue" columns="1"><writtenLines quantity="27"/></layout>
                      </layoutDesc>
                   </objectDesc>
 
@@ -147,14 +147,14 @@
                         <seg type="rubrication">Beginnings of the Psalms, elements of numerals, elements of punctuation signs,
                            the word <foreign xml:lang="gez">እግዚአብሔር፡</foreign>,
                            occasionally with the words before and after it or the entire line where
-                           it is written (e.g. <locus target="#2">Fol. 2</locus>.</seg>
+                           it is written (e.g. <locus target="#2"/>.</seg>
                         <desc>Careful but irregular; by a mediocre scribe.</desc>
                      </handNote>
                   </handDesc>
 
                   <decoDesc>
                      <decoNote type="band" xml:id="d1">
-                        <locus target="#1r">Fol. 1r</locus>
+                        <locus target="#1r"/>
                         <desc>Fine ornamental band, geometric motifs (probably unfinished,
                            only yellow has been applied).</desc>
                      </decoNote>
@@ -168,7 +168,7 @@
                         </item>
 
                         <item xml:id="e2">
-                           <locus target="#1r">Fol. 1r</locus>
+                           <locus target="#1r"/>
                            <desc>Arabic title in pencil.</desc>
                            <q xml:lang="ar">مزامير</q>
                         </item>
@@ -218,14 +218,14 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:textClass>
             <t:keywords>
@@ -241,12 +241,12 @@
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#DN" when="2018-02-28">Denis Nosnitsin: Recorded manuscript</change>
-         <change who="#DR" when="2018-03-28">Dorothea Reule: Created catalogue entry</change>
-         <change who="#DR" when="2018-06-15">Dorothea Reule: Added provenance, incipit and explicit</change>
-         <change who="#DR" when="2020-04-30">Dorothea Reule: Continued description</change>
-         <change who="#DR" when="2020-12-15">Dorothea Reule: Continued description and revision</change>
-         <change who="#DN" when="2020-12-15">Denis Nosnitsin: Continued description and revision</change>
+         <change when="2018-02-28" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Recorded manuscript</change>
+         <change when="2018-03-28" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
+         <change when="2018-06-15" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added provenance, incipit and explicit</change>
+         <change when="2020-04-30" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description</change>
+         <change when="2020-12-15" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description and revision</change>
+         <change when="2020-12-15" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Continued description and revision</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>

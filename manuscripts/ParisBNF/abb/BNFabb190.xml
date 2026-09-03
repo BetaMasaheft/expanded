@@ -3,9 +3,9 @@
         <titleStmt><title type="full">Paris, Bibliothèque nationale de France, BnF Éthiopien d'Abbadie 190</title>
            <title>Story about the finding of The Holy Cross, Lexicon for Ezekiel and other texts</title>
           <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
-           <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+           <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
            <funder>Akademie der Wissenschaften in Hamburg</funder>
-        <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
+        <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DN" xml:id="ed-DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
         <publicationStmt>
            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,7 +14,7 @@
               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                  licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
            </availability>
-        <date type="expanded">5.4.2025 at 13:36:32</date><date type="lastModified">3.6.2023</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFabb190/main</idno><idno type="URI">https://betamasaheft.eu/BNFabb190</idno><idno type="filename">BNFabb190.xml</idno><idno type="ID">BNFabb190</idno></publicationStmt>
+        <date type="expanded">3.9.2026 at 09:38:11</date><date type="lastModified">3.6.2023</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFabb190/main</idno><idno type="URI">https://betamasaheft.eu/BNFabb190</idno><idno type="filename">BNFabb190.xml</idno><idno type="ID">BNFabb190</idno></publicationStmt>
         <sourceDesc>
              <msDesc xml:id="ms">
                  <msIdentifier>
@@ -38,7 +38,7 @@
                           <dimensions type="outer" unit="mm">
                              <height>194</height>
                              <width>132</width>                      
-                          </dimensions>                       </extent>
+                          </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="194" unit="mm"/><width quantity="132" unit="mm"/></dimensions>                       </extent>
 
                    
                          <foliation>Foliation of the Library in the upper right corner of the folia.</foliation>
@@ -119,7 +119,7 @@
                                                               <ab type="pricking">Pricking is partly visible.</ab>
                                                             <ab type="ruling">Ruling is not visible.</ab>
                                                              <ab type="ruling" subtype="pattern" cert="medium">1A-1A-1A1A/0-0/0-0/C</ab>
-                                                          </layout>
+                                                          </layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="22"/></layout>
                                                     </layoutDesc>
                                                  </objectDesc>
 
@@ -154,7 +154,7 @@
                            <locus target="#3ra"/>. Written by several hands, the leaves are probably in disorder. 
                            <bibl corresp="http://zotero.org/groups/358366/items/XQXTC5KU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Cowley1988Exeget"/><title level="m">Ethiopian Biblical Interpretation: A Study in Exegetical Tradition and Hermeneutics</title><title level="s">University of Cambridge Oriental Publications</title><author><forename>Roger W.</forename><surname>Cowley</surname></author><pubPlace>Cambridge</pubPlace><publisher>Cambridge University Press</publisher><date>1988</date><series><title level="s">University of Cambridge Oriental Publications</title><biblScope unit="volume">38</biblScope></series><biblScope unit="volume">38</biblScope><note type="tags"><note type="tag">Bible</note><note type="tag">Commentary</note><note type="tag">bm:Cowley1988Exeget</note></note><note type="tag">Bible</note><note type="tag">Commentary</note><note type="tag">bm:Cowley1988Exeget</note><citedRange unit="page">461</citedRange></bibl> indicates, without further remarks, that the same text appears in <ref type="mss" corresp="https://betamasaheft.eu/EMML1279">Collegeville, Hill Museum and Manuscript Library, MS EMML no. 1279</ref>, 
                          but it cannot be ascertained for the moment. The text seems to be different from a lexicon on Ezekiel contained in 
-                           <ref type="mss" corresp="https://betamasaheft.eu/EMML1292">Addis Ababa, የኢትዮጵያ፡ ጤናትና፡ ምርምር፡ ተቋም፡, MS 19</ref>.</note>
+                           <ref type="mss" corresp="https://betamasaheft.eu/EMML1292">ʾAddis ʾAbabā, Institute of Ethiopian Studies, MS 19</ref>.</note>
                      </msItem>
                   </msContents>
 
@@ -177,7 +177,7 @@
                       <ab type="pricking">Pricking is hardly visible.</ab>
                              <ab type="ruling">Ruling is hardly visible.</ab>
                               <ab type="ruling" subtype="pattern" cert="medium">1A-1A-1A1A/0-0/0-0/C</ab>
-                           </layout>
+                           </layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="20"/></layout>
                         </layoutDesc>
                      </objectDesc>
 
@@ -244,7 +244,7 @@
                                <ab type="pricking">Pricking is hardly visible.</ab>
                                <ab type="ruling">Ruling is hardly visible.</ab>
                                <ab type="ruling" subtype="pattern">1A-1A-1A1A/0-0/0-0/C</ab>
-                            </layout>
+                            </layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="40"/></layout>
                          </layoutDesc>
                       </objectDesc>
                       
@@ -310,7 +310,7 @@
                                <ab type="pricking">Pricking is not visible.</ab>
                                <ab type="ruling">Ruling is not visible.</ab>
                                <note>The leaf seems to have been unruled.</note>
-                            </layout>
+                            </layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="32"/></layout>
                          </layoutDesc>
                       </objectDesc>
                       
@@ -327,14 +327,14 @@
                    </physDesc>
                    
                 </msPart>
-               </msDesc>
+               <msPartsCount quantity="4"/></msDesc>
 
 
                            <listBibl type="catalogue">
-             <bibl corresp="http://zotero.org/groups/358366/items/MZC4PZ7D"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1914Notice"/><title level="m">Notice sur les manuscrits éthiopiens de la Collection d’Abbadie</title><title level="s">Extrait du Journal Asiatique</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1914</date><series><title level="s">Extrait du Journal Asiatique</title></series><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:ContiRossini1914Notice</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:ContiRossini1914Notice</note><citedRange unit="page">106-107</citedRange><citedRange unit="number">62</citedRange></bibl>
-                              <bibl corresp="http://zotero.org/groups/358366/items/GADX9HRE"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Chaine1912Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens de la Collection Antoine d’Abbadie</title><author><forename>Marius</forename><surname>Chaîne</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale–Ernest Leroux, éditeur</publisher><date>1912</date><note type="url">https://archive.org/details/cataloguedesmanu00bibluoft</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Chaine1912Catalogue</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Chaine1912Catalogue</note><citedRange unit="page">114</citedRange><citedRange unit="number">190</citedRange></bibl>
+             <bibl corresp="http://zotero.org/groups/358366/items/MZC4PZ7D"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1914Notice"/><title level="m">Notice sur les manuscrits éthiopiens de la Collection d’Abbadie</title><title level="s">Extrait du Journal Asiatique</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1914</date><series><title level="s">Extrait du Journal Asiatique</title></series><note type="tags"><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:ContiRossini1914Notice</note></note><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:ContiRossini1914Notice</note><citedRange unit="page">106-107</citedRange><citedRange unit="number">62</citedRange></bibl>
+                              <bibl corresp="http://zotero.org/groups/358366/items/GADX9HRE"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Chaine1912Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens de la Collection Antoine d’Abbadie</title><author><forename>Marius</forename><surname>Chaîne</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale–Ernest Leroux, éditeur</publisher><date>1912</date><note type="url">https://archive.org/details/cataloguedesmanu00bibluoft</note><note type="tags"><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Chaine1912Catalogue</note></note><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Chaine1912Catalogue</note><citedRange unit="page">114</citedRange><citedRange unit="number">190</citedRange></bibl>
 
-                              <bibl corresp="http://zotero.org/groups/358366/items/QENM9ZMP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abbadie1859Cat"/><title level="m">Catalogue raisonné de manuscrits éthiopiens appartenant à Antoine d’Abbadie</title><author><forename>Antoine d'</forename><surname>Abbadie</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie impériale</publisher><date>1859</date><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k1044499</note><note type="tags"><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Binding</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Abbadie1859Cat</note></note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Binding</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Abbadie1859Cat</note><citedRange unit="page">190</citedRange><citedRange unit="number">189-190</citedRange></bibl>
+                              <bibl corresp="http://zotero.org/groups/358366/items/QENM9ZMP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abbadie1859Cat"/><title level="m">Catalogue raisonné de manuscrits éthiopiens appartenant à Antoine d’Abbadie</title><author><forename>Antoine d’</forename><surname>d’Abbadie</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie impériale</publisher><date>1859</date><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k1044499</note><note type="tags"><note type="tag">Bibliothèque Nationale</note><note type="tag">Binding</note><note type="tag">Cataloguing</note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">bm:Abbadie1859Cat</note></note><note type="tag">Bibliothèque Nationale</note><note type="tag">Binding</note><note type="tag">Cataloguing</note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">bm:Abbadie1859Cat</note><citedRange unit="page">190</citedRange><citedRange unit="number">189-190</citedRange></bibl>
                             </listBibl>
            <listBibl type="secondary">
               <bibl corresp="http://zotero.org/groups/358366/items/XQXTC5KU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Cowley1988Exeget"/><title level="m">Ethiopian Biblical Interpretation: A Study in Exegetical Tradition and Hermeneutics</title><title level="s">University of Cambridge Oriental Publications</title><author><forename>Roger W.</forename><surname>Cowley</surname></author><pubPlace>Cambridge</pubPlace><publisher>Cambridge University Press</publisher><date>1988</date><series><title level="s">University of Cambridge Oriental Publications</title><biblScope unit="volume">38</biblScope></series><biblScope unit="volume">38</biblScope><note type="tags"><note type="tag">Bible</note><note type="tag">Commentary</note><note type="tag">bm:Cowley1988Exeget</note></note><note type="tag">Bible</note><note type="tag">Commentary</note><note type="tag">bm:Cowley1988Exeget</note><citedRange unit="page">461</citedRange></bibl>
@@ -349,14 +349,14 @@
           
              
           
-       <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+       <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:creation/>
          <t:abstract>
@@ -388,7 +388,7 @@
        <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-          <change who="#DN" when="2023-06-03"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created the description</change>
+          <change when="2023-06-03" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created the description</change>
        </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
        <t:body>

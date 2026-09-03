@@ -3,9 +3,9 @@
          <titleStmt><title type="full">Rubāḵusā Qǝddus Giyorgis</title>
             <title>Rubaḵusa Qǝddus Giyorgis</title>
             <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DN" corresp="https://betamasaheft.eu/team.html#DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DN" xml:id="ed-DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -17,7 +17,7 @@
                                     Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">2.7.2025 at 01:29:29</date><date type="lastModified">20.3.2019</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0248RQG/main</idno><idno type="URI">https://betamasaheft.eu/INS0248RQG</idno><idno type="filename">INS0248RQG.xml</idno><idno type="ID">INS0248RQG</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 10:37:54</date><date type="lastModified">20.3.2019</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS0248RQG/main</idno><idno type="URI">https://betamasaheft.eu/INS0248RQG</idno><idno type="filename">INS0248RQG.xml</idno><idno type="ID">INS0248RQG</idno></publicationStmt>
          <sourceDesc>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
@@ -26,61 +26,61 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."/></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#DN" when="2013-01-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created</change>
-         <change who="#DN" when="2015-01-25"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->last edited</change>
-         <change who="#PL" when="2016-04-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->transformed from mycore to TEI
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2013-01-14" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created</change>
+         <change when="2015-01-25" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->last edited</change>
+         <change when="2016-04-28" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->transformed from mycore to TEI
                             P5</change>
-         <change who="#ES" when="2019-03-20"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->adjusted name location tabot</change>
-      </revisionDesc>
-   </teiHeader><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <listPlace>
-            <place type="church monastery gadam" subtype="institution">
-               <placeName>Rubāḵusā Qǝddus Giyorgis</placeName>
-               <placeName type="alt">Rubāḵusā Giyorgis</placeName>
-               <country ref="https://betamasaheft.eu/LOC3010Ethiop">ʾItyoṗyā</country>
-               <region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</region>
-               <settlement from="2012-11-25" to="2012-11-30" type="warada" ref="https://betamasaheft.eu/LOC6965DagaTamben">Dagʿa Tamben</settlement>
-               <settlement from="2012-11-25" to="2012-11-30" type="tabiya" ref="https://betamasaheft.eu/LOC7267MikaelAbiy ">Mikāʾel ʿĀbiy</settlement>
-               <settlement from="2012-11-25" to="2012-11-30" type="qushat" ref="https://betamasaheft.eu/LOC7268Rubakusa">Rubāḵusā</settlement>
+         <change when="2019-03-20" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->adjusted name location tabot</change>
+      </t:revisionDesc>
+   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:listPlace>
+            <t:place type="church monastery gadam" subtype="institution">
+               <t:placeName>Rubāḵusā Qǝddus Giyorgis</t:placeName>
+               <t:placeName type="alt">Rubāḵusā Giyorgis</t:placeName>
+               <t:country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:country>
+               <t:region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</t:region>
+               <t:settlement from="2012-11-25" to="2012-11-30" type="warada" ref="https://betamasaheft.eu/LOC6965DagaTamben">Dagʿa Tamben</t:settlement>
+               <t:settlement from="2012-11-25" to="2012-11-30" type="tabiya" ref="https://betamasaheft.eu/LOC7267MikaelAbiy "><seg corresp="LOC7267MikaelAbiy ">No item: LOC7267MikaelAbiy</seg></t:settlement>
+               <t:settlement from="2012-11-25" to="2012-11-30" type="qushat" ref="https://betamasaheft.eu/LOC7268Rubakusa">Rubāḵusā</t:settlement>
                
                
-               <location>
-                  <geo>13.596 39.227233</geo>
-                  <height unit="m">1957.0</height>
-               </location>
-               <note>
-                  <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
-                  <desc type="foundation">The church is said to have been an old foundation; the monastic community was founded by monk Talāwe Krǝstos.</desc>
-                  <ab type="history">Gadām / monastery. 
-</ab>
-                  <ab type="tabot">
-                     <measure quantity="5"/>Tābots (5 in two churches): <ref type="authFile" corresp="https://betamasaheft.eu/CovenantMercy">Kidāna Mǝḥrat</ref>, 
-                        <persName type="tabot" ref="https://betamasaheft.eu/PRS9162TaklaHa">Takla Haymanot</persName>, <persName type="tabot" ref="https://betamasaheft.eu/PRS4585Georgeo">George</persName> (main) in the monastic church; 
-                        <persName type="tabot" ref="https://betamasaheft.eu/PRS5684JesusCh#n3MadhaneAlam">Madḫāne ʿĀlam</persName> (old), <persName type="tabot" ref="https://betamasaheft.eu/PRS6819Mary">Mary</persName> in the second church.</ab>
-                  <ab type="description">
-                     <figure>
-                        <graphic url="Sites/RQG.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
-                        </graphic>
-                     </figure>37 Mss. photographed: <ref type="mss" corresp="https://betamasaheft.eu/ESrqg001">RQG-001</ref> “Sinodos ”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg002">RQG-002</ref> “Psalter”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg003">RQG-003</ref> “Gospel of John”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg004">RQG-004</ref> “The Harp of the praise (incomplete at the end)”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg005">RQG-005</ref> “Book of Mar Isaac of Nineveh with commentary”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg006">RQG-006</ref> “The Law of the kings”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg007">RQG-007</ref> “Four Gospels”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg008">RQG-008</ref> “Four Gospels”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg009">RQG-009</ref> “History of the church; Introduction to the Epistles; Mälǝʾǝktä Pawols; Mälǝʾǝktat; Raʾǝyu lä-Yohannǝs; Gǝbrä Hawaryat”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg010">RQG-010</ref> “Collection of Sälam-hymns from the synaxarion; Excerpts from Miracles of Mary”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg011">RQG-011</ref> “Spritual Elder; Rule of Abba Pachomiur”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg012">RQG-012</ref> “The Harp of Praise”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg013">RQG-013</ref> “Spritual Elder ”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg014">RQG-014</ref> “Order of the Monastic Profession”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg015">RQG-015</ref> “Psalter with Hymns of Virgin”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg016">RQG-016</ref> “Spritual Elder”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg017">RQG-017</ref> “(12) Minor Prophets; Books of Solomon (3); Book of Isaiah”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg018">RQG-018</ref> “Praise of God”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg019">RQG-019</ref> “Psalter”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg020">RQG-020</ref> “Absolution of the Son; Pater noster; Book of Hours; Prayers”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg021">RQG-021</ref> “Synaxarion (second half of the year) ”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg022">RQG-022</ref> “Acts of the Apostles”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg023">RQG-023</ref> “Praise of God; Harp of
-Praise”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg024">RQG-024</ref> “Commentary to Beauty of the Creation”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg025">RQG-025</ref> “Epistles of St. Paul”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg026">RQG-026</ref> “Commentary to different Prayers”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg027">RQG-027</ref> “Vita of Gäbrä Mänfäs Qǝddus; Miracles of  Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg028">RQG-028</ref> “Synacarion (First half of the year)”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg029">RQG-029</ref> “Psalter”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg030">RQG-030</ref> “Vita of Täklä Haymanot”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg031">RQG-031</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg032">RQG-032</ref> “Praise of God”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg033">RQG-033</ref> “Books of the NT; Epistles of St. Paul; Acts of th Aposttes; Epistles of St. Peter;  Revelation of John”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg034">RQG-034</ref> “History of Grañ”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg035">RQG-035</ref> “Book of the Nt; Epistles of St. Peter; Epistles of John, etc.; Revelation of John”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg036">RQG-036</ref> “Mǝˤraf”; <ref type="mss" corresp="https://betamasaheft.eu/ESrqg037">RQG-037</ref> “Vita of George”.</ab>
+               <t:location>
+                  <t:geo>13.596 39.227233</t:geo>
+                  <t:height unit="m">1957.0</t:height>
+               </t:location>
+               <t:note>
+                  <t:date type="foundation" notBefore="1500" notAfter="1600">1500-1600</t:date>
+                  <t:desc type="foundation">The church is said to have been an old foundation; the monastic community was founded by monk Talāwe Krǝstos.</t:desc>
+                  <t:ab type="history">Gadām / monastery. 
+</t:ab>
+                  <t:ab type="tabot">
+                     <t:measure quantity="5"/>Tābots (5 in two churches): <t:ref type="authFile" corresp="https://betamasaheft.eu/CovenantMercy">Kidāna Mǝḥrat</t:ref>, 
+                        <t:persName type="tabot" ref="https://betamasaheft.eu/PRS9162TaklaHa">Takla Haymanot</t:persName>, <t:persName type="tabot" ref="https://betamasaheft.eu/PRS4585Georgeo">George</t:persName> (main) in the monastic church; 
+                        <t:persName type="tabot" ref="https://betamasaheft.eu/PRS5684JesusCh#n3MadhaneAlam">Madḫāne ʿĀlam</t:persName> (old), <t:persName type="tabot" ref="https://betamasaheft.eu/PRS6819Mary">Mary</t:persName> in the second church.</t:ab>
+                  <t:ab type="description">
+                     <t:figure>
+                        <t:graphic url="Sites/RQG.tif">
+                           <t:desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</t:desc>
+                        </t:graphic>
+                     </t:figure>37 Mss. photographed: <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg001">RQG-001</t:ref> “Sinodos ”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg002">RQG-002</t:ref> “Psalter”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg003">RQG-003</t:ref> “Gospel of John”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg004">RQG-004</t:ref> “The Harp of the praise (incomplete at the end)”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg005">RQG-005</t:ref> “Book of Mar Isaac of Nineveh with commentary”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg006">RQG-006</t:ref> “The Law of the kings”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg007">RQG-007</t:ref> “Four Gospels”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg008">RQG-008</t:ref> “Four Gospels”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg009">RQG-009</t:ref> “History of the church; Introduction to the Epistles; Mälǝʾǝktä Pawols; Mälǝʾǝktat; Raʾǝyu lä-Yohannǝs; Gǝbrä Hawaryat”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg010">RQG-010</t:ref> “Collection of Sälam-hymns from the synaxarion; Excerpts from Miracles of Mary”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg011">RQG-011</t:ref> “Spritual Elder; Rule of Abba Pachomiur”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg012">RQG-012</t:ref> “The Harp of Praise”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg013">RQG-013</t:ref> “Spritual Elder ”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg014">RQG-014</t:ref> “Order of the Monastic Profession”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg015">RQG-015</t:ref> “Psalter with Hymns of Virgin”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg016">RQG-016</t:ref> “Spritual Elder”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg017">RQG-017</t:ref> “(12) Minor Prophets; Books of Solomon (3); Book of Isaiah”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg018">RQG-018</t:ref> “Praise of God”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg019">RQG-019</t:ref> “Psalter”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg020">RQG-020</t:ref> “Absolution of the Son; Pater noster; Book of Hours; Prayers”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg021">RQG-021</t:ref> “Synaxarion (second half of the year) ”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg022">RQG-022</t:ref> “Acts of the Apostles”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg023">RQG-023</t:ref> “Praise of God; Harp of
+Praise”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg024">RQG-024</t:ref> “Commentary to Beauty of the Creation”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg025">RQG-025</t:ref> “Epistles of St. Paul”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg026">RQG-026</t:ref> “Commentary to different Prayers”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg027">RQG-027</t:ref> “Vita of Gäbrä Mänfäs Qǝddus; Miracles of  Gäbrä Mänfäs Qǝddus”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg028">RQG-028</t:ref> “Synacarion (First half of the year)”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg029">RQG-029</t:ref> “Psalter”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg030">RQG-030</t:ref> “Vita of Täklä Haymanot”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg031">RQG-031</t:ref> “The Rite of the Holy Week”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg032">RQG-032</t:ref> “Praise of God”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg033">RQG-033</t:ref> “Books of the NT; Epistles of St. Paul; Acts of th Aposttes; Epistles of St. Peter;  Revelation of John”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg034">RQG-034</t:ref> “History of Grañ”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg035">RQG-035</t:ref> “Book of the Nt; Epistles of St. Peter; Epistles of John, etc.; Revelation of John”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg036">RQG-036</t:ref> “Mǝˤraf”; <t:ref type="mss" corresp="https://betamasaheft.eu/ESrqg037">RQG-037</t:ref> “Vita of George”.</t:ab>
 
-               </note>
-            </place>
-         </listPlace>
-      </body>
-   </text></TEI>
+               </t:note>
+            </t:place>
+         </t:listPlace>
+      </t:body>
+   </t:text></TEI>

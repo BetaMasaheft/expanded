@@ -5,7 +5,7 @@
             <editor key="JS" corresp="https://betamasaheft.eu/team.html#JS" xml:id="JS">Jonah Sandford</editor>
             <editor key="ABe" corresp="https://betamasaheft.eu/team.html#ABe" xml:id="ABe">Ashlee Benson</editor>
             <editor key="RL" corresp="https://betamasaheft.eu/team.html#RL" xml:id="RL">Ralph Lee</editor>
-         <respStmt xml:id="ed-JS" corresp="https://betamasaheft.eu/team.html#JS"><resp>editor</resp><name>Jonah Sandford</name></respStmt><respStmt xml:id="ed-ABe" corresp="https://betamasaheft.eu/team.html#ABe"><resp>editor</resp><name>Ashlee Benson</name></respStmt><respStmt xml:id="ed-RL" corresp="https://betamasaheft.eu/team.html#RL"><resp>editor</resp><name>Ralph Lee</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#JS" xml:id="ed-JS"><resp>editor</resp><name>Jonah Sandford</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ABe" xml:id="ed-ABe"><resp>editor</resp><name>Ashlee Benson</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#RL" xml:id="ed-RL"><resp>editor</resp><name>Ralph Lee</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
          <editionStmt>
             <p>The initial version of this file was created from data kindly
                                         provided by the Ethiopic Manuscript Imaging Project directed
@@ -22,7 +22,7 @@
                                                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">9.12.2024 at 13:23:51</date><date type="lastModified">5.8.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMIP01975/main</idno><idno type="URI">https://betamasaheft.eu/EMIP01975</idno><idno type="filename">EMIP01975.xml</idno><idno type="ID">EMIP01975</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 08:34:16</date><date type="lastModified">5.8.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMIP01975/main</idno><idno type="URI">https://betamasaheft.eu/EMIP01975</idno><idno type="filename">EMIP01975.xml</idno><idno type="ID">EMIP01975</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -37,10 +37,11 @@
                <msContents>
                   <summary>Psalter, ዳዊት፡; Image of Fanuel, መልክአ፡ ፋኑኤል፡</summary>
                   <msItem xml:id="ms_i1">
-                     <locus from="1r" to="161r" facs="002">Fols 1r–161r</locus>
+                     <locus from="1r" to="161r" facs="002"/>
                      <title type="complete" ref="https://betamasaheft.eu/LIT2701Dawit">Psalter</title>
                      <textLang mainLang="gez">Gǝ‘ǝz</textLang>
-                     <note><ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps118Spiritual"><span xmlns="" class="w3-tag w3-red">No item: LIT2000Mazmur#Ps118Spiritual</span></ref></note>
+                     <note><ref type="work" corresp="https://betamasaheft.eu/LIT2000Mazmur#Ps118Spiritual">Psalms of David: Psalm 118 including the Spritual
+        Meaning of the Hebrew Letters</ref></note>
                    </msItem>
                </msContents>
                <physDesc>
@@ -56,74 +57,74 @@
                               <height>123</height>
                               <width>100</width>
                               <depth>80</depth>
-                           </dimensions>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="123" unit="mm"/><width quantity="100" unit="mm"/><depth quantity="80" unit="mm"/></dimensions>
                         </extent>
                         <collation>
                           <note>Quire descriptions: quires 1–5 and 7–10 balanced; protection sheet and quires 6 and 11 unbalanced.</note>
                           <list>
                               <item xml:id="q1" n="a">
                                  <dim unit="leaf">1</dim>
-                                 <locus target="#i" facs="001">Fol. i</locus>
+                                 <locus target="#i" facs="001"/>
                                  <note>A protection quire was sewn to the first quire.</note>
                               Protection Sheet:
                               1, no stub
                             </item>
                               <item xml:id="q2" n="1">
                                  <dim unit="leaf">18</dim>
-                                 <locus from="1" to="18" facs="001">Fols 1–18</locus>
+                                 <locus from="1" to="18" facs="001"/>
                               Quire 1
                             </item>
                               <item xml:id="q3" n="2">
                                  <dim unit="leaf">14</dim>
-                                 <locus from="19" to="32" facs="020">Fols 19–32</locus>
+                                 <locus from="19" to="32" facs="020"/>
                               Quire 2
                             </item>
                               <item xml:id="q4" n="3">
                                  <dim unit="leaf">18</dim>
-                                 <locus from="33" to="50" facs="034">Fols 33–50</locus>
+                                 <locus from="33" to="50" facs="034"/>
                               Quire 3
                             </item>
                               <item xml:id="q5" n="4">
                                  <dim unit="leaf">16</dim>
-                                 <locus from="51" to="66" facs="052">Fols 51–66</locus>
+                                 <locus from="51" to="66" facs="052"/>
                               Quire 4
                             </item>
                               <item xml:id="q6" n="5">
                                  <dim unit="leaf">16</dim>
-                                 <locus from="67" to="82" facs="068">Fols 67–82</locus>
+                                 <locus from="67" to="82" facs="068"/>
                               Quire 5
                             </item>
                               <item xml:id="q7" n="6">
                                  <dim unit="leaf">15</dim>
-                                 <locus from="83" to="97" facs="084">Fols 83–97</locus>
-                                 <note>A folio stub is visible between <locus target="#83 #84" facs="085">fols. 83, 84</locus>.</note>
+                                 <locus from="83" to="97" facs="084"/>
+                                 <note>A folio stub is visible between <locus target="#83 #84" facs="085"/>.</note>
                               Quire 6:
                               14, stub after 1
                             </item>
                               <item xml:id="q8" n="7">
                                  <dim unit="leaf">16</dim>
-                                 <locus from="98" to="113" facs="099">Fols 98–113</locus>
+                                 <locus from="98" to="113" facs="099"/>
                               Quire 7
                             </item>
                               <item xml:id="q9" n="8">
                                  <dim unit="leaf">18</dim>
-                                 <locus from="114" to="131" facs="115">Fols 114–131</locus>
+                                 <locus from="114" to="131" facs="115"/>
                               Quire 8
                             </item>
                               <item xml:id="q10" n="9">
                                  <dim unit="leaf">16</dim>
-                                 <locus from="132" to="147" facs="133">Fols 132–147</locus>
+                                 <locus from="132" to="147" facs="133"/>
                               Quire 9
                             </item>
                               <item xml:id="q11" n="10">
                                  <dim unit="leaf">12</dim>
-                                 <locus from="148" to="159" facs="149">Fols 148–159</locus>
+                                 <locus from="148" to="159" facs="149"/>
                               Quire 10
                             </item>
                               <item xml:id="q12" n="11">
                                  <dim unit="leaf">2</dim>
-                                 <locus from="160" to="161" facs="162">Fols 160–161</locus>
-                                 <note>Two folio stubs are visible after <locus target="#161" facs="163">fol. 161</locus>.</note>
+                                 <locus from="160" to="161" facs="162"/>
+                                 <note>Two folio stubs are visible after <locus target="#161" facs="163"/>.</note>
                               Quire 11:
                               1, stub after 2
                               2, stub after 2
@@ -138,14 +139,14 @@
                               <dim type="bottom">22</dim>
                               <dim type="right">8</dim>
                               <dim type="left">5</dim>
-                           </dimensions>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="margin"><dim type="top" quantity="9" unit="mm"/><dim type="bottom" quantity="22" unit="mm"/><dim type="right" quantity="8" unit="mm"/><dim type="left" quantity="5" unit="mm"/></dimensions>
                        </layout>
                        <layout columns="1" writtenLines="20 22">
-                           <locus from="1r" to="145v" facs="002">Fols 1r–145v</locus>
-                       </layout>
+                           <locus from="1r" to="145v" facs="002"/>
+                       </layout><layout subtype="computed" type="catalogue" columns="1"><writtenLines quantity="22"/></layout>
                        <layout columns="2" writtenLines="20 22">
-                           <locus from="145v" to="161r" facs="147">Fols 145v–161r</locus>
-                       </layout>
+                           <locus from="145v" to="161r" facs="147"/>
+                       </layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="22"/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -155,57 +156,56 @@
                            <foreign xml:lang="gez">ማርያም፡</foreign>
                            <desc>The word God is rubricated in the first three works; the word Mary is rubricated in the final two works</desc>
                         </seg>
-                        <desc>Columetric layout of text: <locus target="#124v #125r" facs="126 126">folss. 124v, 125r, </locus> (Ps. 150); <locus target="#135r #135v" facs="136 137">135r, 135v</locus> (tenth Biblical Canticle)</desc>
+                        <desc>Columetric layout of text: <locus target="#124v #125r" facs="126 126"/> (Ps. 150); <locus target="#135r #135v" facs="136 137"/> (tenth Biblical Canticle)</desc>
                      </handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">
                     Decorative designs:
-                    <locus target="#98v #110r #113r #119r #125v #152v #154r #155r #156r" facs="100 111 114 120 127 154 155 156 157">folss. 98v, 110r, 113r, 119r, 125v, 152v, 154r, 155r, 156r, </locus> (haräg);
-                    <locus target="#24v" facs="026">24v, </locus> (black dots);
-                    <locus target="#44r #50v #60v #80v #86r" facs="045 052 062 082 087">44r, 50v, 60v, 80v, 86r</locus> (red and black dots)
+                    <locus target="#98v #110r #113r #119r #125v #152v #154r #155r #156r" facs="100 111 114 120 127 154 155 156 157"/> (haräg);
+                    <locus target="#24v" facs="026"/> (black dots);
+                    <locus target="#44r #50v #60v #80v #86r" facs="045 052 062 082 087"/> (red and black dots)
                   </decoNote>
                   </decoDesc>
                   <additions>
                      <list>
                        <item xml:id="a1">
-                          <locus from="161v" facs="163">Fols 161v and following</locus>
-                          <desc>Excerpt from <title type="incomplete" ref="https://betamasaheft.eu/LIT2765RepCh49">Malkǝʾ-hymn (Salām)
-                                                  to Phanuel</title> in a later hand</desc>
+                          <locus from="161v" facs="163"/>
+                          <desc>Excerpt from <title type="incomplete" ref="https://betamasaheft.eu/LIT2765RepCh49">Hymn (Salām) to Phanuel</title> in a later hand</desc>
                        </item>
                         <item xml:id="e1">
-                          <locus target="#ir #1v" facs="001 003">Fols. ir, 1v</locus>
+                          <locus target="#ir #1v" facs="001 003"/>
                            <desc>blank</desc>
                         </item>
                         <item xml:id="e2">
-                            <locus target="#Inside back cover" facs="163">Fols. Inside,, </locus>
+                            <locus target="#Inside back cover" facs="163"/>
                            <desc>a printed drawing of a lion, likely cut from an advertisement from C(?). H. Mahomedally &amp; Co. Below the lion is the word Harar‎</desc>
                         </item>
                         <item xml:id="e3">
                            <desc>Identified in the insurance hand list as Psalter 10</desc>
                         </item>
                         <item xml:id="e4">
-                          <locus target="#16 #36 #44 #72 #119 #138" facs="017 037 045 073 120 139">Fols. 16, 36, 44, 72, 119, 138</locus>
+                          <locus target="#16 #36 #44 #72 #119 #138" facs="017 037 045 073 120 139"/>
                            <desc>purple yarn is sewn into the fore edge as navigation system</desc>
                            </item>
                         <item xml:id="e5">
-                          <locus target="#24 #50 #86 #110 #126 #145" facs="025 051 087 111 127 146">Fols. 24, 50, 86, 110, 126, 145</locus>
+                          <locus target="#24 #50 #86 #110 #126 #145" facs="025 051 087 111 127 146"/>
                           <desc>black yarn is sewn into the fore edge as navigation system</desc>
                           </item>
                         <item xml:id="e6">
-                          <locus target="#60" facs="061">Fol. 60</locus>
+                          <locus target="#60" facs="061"/>
                           <desc>blue string is sewn into the fore edge as navigation system </desc>
                         </item>
                         <item xml:id="e7">
-                          <locus target="#13v #19v #20r #20v #21r" facs="015 021 021 022 022">Fols. 13v, 19v, 20r, 20v, 21r</locus>
+                          <locus target="#13v #19v #20r #20v #21r" facs="015 021 021 022 022"/>
                            <desc>etc., words of text are written interlinearly</desc>
                            </item>
                         <item xml:id="e8">
-                          <locus target="#3r #4r #7r #15r #23v" facs="004 005 008 016 025">Fols. 3r, 4r, 7r, 15r, 23v</locus>
+                          <locus target="#3r #4r #7r #15r #23v" facs="004 005 008 016 025"/>
                           <desc>etc., lines of text are written interlinearly</desc>
                           </item>
                         <item xml:id="e9">
-                          <locus target="#14v #15r #15v #16r #16v" facs="016 016 017 017 018">Fols. 14v, 15r, 15v, 16r, 16v</locus>
+                          <locus target="#14v #15r #15v #16r #16v" facs="016 016 017 017 018"/>
                           <desc>etc., text has been removed</desc>
                         </item>
                      </list>
@@ -232,28 +232,28 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#PL" when="2018-01-18"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record from EMIP Collection Metadata.xsls</change>
-         <change who="#JS" when="2019-10-24"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added quire maps, margin dim, columns/lines, binding desc, dating info.</change>
-         <change who="#JS" when="2019-11-01"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Completed quire maps.</change>
-         <change who="#ABe" when="2019-10-14"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added items</change>
-         <change who="#PL" when="2019-11-13"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated msIdentifier for Tweed collection.</change>
-         <change who="#RL" when="2019-12-10"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added image links</change>
-         <change who="#RL" when="2020-01-28"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Edit to content of e2</change>
-         <change who="#RL" when="2020-04-17"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->corrected ǝ character</change>
-         <change who="#RL" when="2020-08-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added link to spiritual meaning of Hebrew letters in Ps118, moved work from ms itmes to additions, as it is a later addition</change>
+         <change when="2018-01-18" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record from EMIP Collection Metadata.xsls</change>
+         <change when="2019-10-24" who="#JS"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added quire maps, margin dim, columns/lines, binding desc, dating info.</change>
+         <change when="2019-11-01" who="#JS"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Completed quire maps.</change>
+         <change when="2019-10-14" who="#ABe"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added items</change>
+         <change when="2019-11-13" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated msIdentifier for Tweed collection.</change>
+         <change when="2019-12-10" who="#RL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added image links</change>
+         <change when="2020-01-28" who="#RL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Edit to content of e2</change>
+         <change when="2020-04-17" who="#RL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->corrected ǝ character</change>
+         <change when="2020-08-05" who="#RL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added link to spiritual meaning of Hebrew letters in Ps118, moved work from ms itmes to additions, as it is a later addition</change>
   </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>

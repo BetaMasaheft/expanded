@@ -2,10 +2,10 @@
         <fileDesc>
             <titleStmt><title type="full">Saint Petersburg, Institut Vostočnyh Rukopisej Rossijskoj Akademii Nauk, IV Ef. 40</title>
                 <title xml:lang="en">Homily on the Ark of the Covenant, Prayer by Philoxenus of Mabbug, The Organ of Mary</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DE" corresp="https://betamasaheft.eu/team.html#DE" xml:id="DE">Daria Elagina</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DE" corresp="https://betamasaheft.eu/team.html#DE"><resp>editor</resp><name>Daria Elagina</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DE" xml:id="ed-DE"><resp>editor</resp><name>Daria Elagina</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">14.5.2025 at 08:48:46</date><date type="lastModified">9.5.2019</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/IVEf40/main</idno><idno type="URI">https://betamasaheft.eu/IVEf40</idno><idno type="filename">IVEf40.xml</idno><idno type="ID">IVEf40</idno></publicationStmt>
+            <date type="expanded">3.9.2026 at 10:09:32</date><date type="lastModified">9.5.2019</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/IVEf40/main</idno><idno type="URI">https://betamasaheft.eu/IVEf40</idno><idno type="filename">IVEf40.xml</idno><idno type="ID">IVEf40</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -91,13 +91,13 @@
                                     <dimensions type="outer" unit="mm">
                                         <height>155</height>
                                         <width>140</width>
-                                    </dimensions>
+                                    </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="155" unit="mm"/><width quantity="140" unit="mm"/></dimensions>
                                 </extent>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="15">
                                   <note>  written area on <locus target="#153r"/> 84 mm :95 mm</note>
-                                </layout>
+                                </layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="15"/></layout>
 
                             </layoutDesc>
                         </objectDesc>
@@ -188,11 +188,11 @@
                             <recordHist>
                                 <source>
                                   <listBibl type="catalogue">
-                                    <bibl corresp="http://zotero.org/groups/358366/items/K8BFKQI6"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Turaev1901Gatchina"/><title level="a">Ėfiopskija rukopisi Gatčinskago Dvorca</title><title level="j">Zapiski Imperatorskoj Akademii Nauk po Istoriko-Filologičeskomu Otděleniju</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Boris</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Turaev</t:surname></author><date>1901</date><biblScope unit="volume">13</biblScope><biblScope unit="page">1-7</biblScope><citedRange unit="page">1-7</citedRange></bibl>
-                                      <bibl corresp="http://zotero.org/groups/358366/items/JVEF8BW6"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Platonov1996Katalog"/><title level="m">Efiopskie rukopisi v sobranijakh Sankt-Peterburga: Katalog</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">V.</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Platonov</t:surname></author><pubPlace>St Petersburg</pubPlace><publisher>The Russian National Library Press</publisher><date>1996</date><citedRange unit="page">20-21</citedRange></bibl>
+                                    <bibl corresp="http://zotero.org/groups/358366/items/K8BFKQI6"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Turaev1901Gatchina"/><title level="a">Ėfiopskija rukopisi Gatčinskago Dvorca</title><title level="j">Zapiski Imperatorskoj Akademii Nauk po Istoriko-Filologičeskomu Otděleniju</title><author><forename>Boris</forename><surname>Turaev</surname></author><date>1901</date><biblScope unit="volume">13</biblScope><biblScope unit="page">1-7</biblScope><note type="tags"><note type="tag">bm:Turaev1901Gatchina</note></note><note type="tag">bm:Turaev1901Gatchina</note><citedRange unit="page">1-7</citedRange></bibl>
+                                      <bibl corresp="http://zotero.org/groups/358366/items/UQ8EUAPL"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Platonov1996Katalog"/><title level="m">Efiopskie rukopisi v sobranijakh Sankt-Peterburga: Katalog (=Ethiopian Manuscripts in the Collections of Saint Petersburg: Catalogue)</title><author><forename>V.</forename><surname>Platonov</surname></author><pubPlace>St Petersburg</pubPlace><publisher>The Russian National Library Press</publisher><date>1996</date><note type="tags"><note type="tag">bm:Platonov1996Katalog</note></note><note type="tag">bm:Platonov1996Katalog</note><citedRange unit="page">20-21</citedRange></bibl>
                                   </listBibl>
                                   <listBibl type="secondary">
-                                    <bibl corresp="http://zotero.org/groups/358366/items/JFIPCPIY"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Platonov2017RukKniga"/><title level="m">Rukopisnaja kniga v traditsionnoj kulture Efiopii</title><author><forename>Vjacheslav</forename><surname>Platonov</surname></author><editor><forename>Ekaterina</forename><surname>Gusarova</surname></editor><pubPlace>Sankt-Peterburg</pubPlace><publisher>Rossijskaja natsional'naja biblioteka</publisher><date>2017</date><note type="tags"><note type="tag">bm:Platonov2017RukKniga</note></note><note type="tag">bm:Platonov2017RukKniga</note><citedRange unit="page">193</citedRange></bibl>
+                                    <bibl corresp="http://zotero.org/groups/358366/items/9FQTVYDN"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Platonov2017RukKniga"/><title level="m">Rukopisnaja kniga v traditsionnoj kulture Efiopii (=The Manuscript Book in the Traditional Culture of Ethiopia)</title><author><forename>Vjacheslav</forename><surname>Platonov</surname></author><editor><forename>Ekaterina</forename><surname>Gusarova</surname></editor><pubPlace>Sankt-Peterburg</pubPlace><publisher>Rossijskaja natsional'naja biblioteka</publisher><date>2017</date><note type="tags"><note type="tag">bm:Platonov2017RukKniga</note></note><note type="tag">bm:Platonov2017RukKniga</note><citedRange unit="page">193</citedRange></bibl>
 
                                   </listBibl>
                                 </source>
@@ -207,20 +207,20 @@
         
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="t:div" match="t:div" use="t:div"><desc><list><item>tei:t:div[1]</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="t:div" use="@xml:id"><desc><list><item>tei:t:div[1]</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
 
             <t:creation/>
-            <abstract>
+            <t:abstract>
                 <t:p/>
-            </abstract>
+            </t:abstract>
             <t:textClass>
                 <t:keywords>
                     <t:term key="Homily" ana="#Homily"/>
@@ -236,18 +236,18 @@
         <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <change who="#DE" when="2019-03-25"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity, added physical description and content.</change>
-            <change who="#DE" when="2019-03-29"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected the encoding of the owner's name.</change>
-            <change who="#DE" when="2019-04-22"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Checked the manuscript, corrected the description.</change>
-            <change who="#DE" when="2019-05-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added edition and bibliography.</change>
+            <change when="2019-03-25" who="#DE"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity, added physical description and content.</change>
+            <change when="2019-03-29" who="#DE"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected the encoding of the owner's name.</change>
+            <change when="2019-04-22" who="#DE"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Checked the manuscript, corrected the description.</change>
+            <change when="2019-05-09" who="#DE"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added edition and bibliography.</change>
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>
             <t:div type="bibliography"/>
          
-            <t:div type="edition">
-              <t:div type="textpart" xml:lang="gez" corresp="https://betamasaheft.eu/IVEf40#ms_i1">
-                <t:bibl corresp="http://zotero.org/groups/358366/items/K8BFKQI6"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Turaev1901Gatchina"/><title level="a">Ėfiopskija rukopisi Gatčinskago Dvorca</title><title level="j">Zapiski Imperatorskoj Akademii Nauk po Istoriko-Filologičeskomu Otděleniju</title><author><t:forename>Boris</t:forename><t:surname>Turaev</t:surname></author><date>1901</date><biblScope unit="volume">13</biblScope><biblScope unit="page">1-7</biblScope><t:citedRange unit="page">2-3</t:citedRange></t:bibl>
+            <t:div type="edition" xml:id="div2IVEf40">
+              <t:div type="textpart" xml:lang="gez" xml:id="div2div1IVEf40" corresp="https://betamasaheft.eu/IVEf40#ms_i1">
+                <t:bibl corresp="http://zotero.org/groups/358366/items/K8BFKQI6"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Turaev1901Gatchina"/><title level="a">Ėfiopskija rukopisi Gatčinskago Dvorca</title><title level="j">Zapiski Imperatorskoj Akademii Nauk po Istoriko-Filologičeskomu Otděleniju</title><author><forename>Boris</forename><surname>Turaev</surname></author><date>1901</date><biblScope unit="volume">13</biblScope><biblScope unit="page">1-7</biblScope><note type="tags"><note type="tag">bm:Turaev1901Gatchina</note></note><note type="tag">bm:Turaev1901Gatchina</note><t:citedRange unit="page">2-3</t:citedRange></t:bibl>
                 <t:ab>
                   በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ አሐዱ፡ አምላክ። ድርሳን፡ ዘደረሰ፡ ፩ ርቱዓ፡ ሃይማኖት፡ ወነዳየ፡ ምግባር፡ ሶበ፡ ረከበ፡ እምቃለ፡ መጻሕፍት፡ ይቤ፡ ናሁ፡ እ ሕፍ፡ ቃለ፡ ጽድቅ፡
                   ወተስፋ፡ ሰጊድ፡ ወጸሎት፡ ወቃለ፡ ማኅሌት፡ ለዘይጸሊ፡ በቤተ፡ ክርስቲያን፡ ፍሬሁ፡ ፵ወ፫፼። ወለዘይጸውር፡ ዕፀ፡ ወዕብነ፡ አው፡ መሬተ፡ አው፡ ሣዕረ፡ ወማየ፡ ይከውን፡ ፍሬሁ፡ ፹፼። ለ፩ ሰጊድ፡

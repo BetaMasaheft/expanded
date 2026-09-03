@@ -7,22 +7,28 @@
             <title xml:lang="gez" xml:id="t3">መጽሐፈ፡ ቀሐልት፡</title>
             <title xml:lang="gez" type="normalized" corresp="#t3">Maṣḥafa qaḥalǝt</title>
             <title type="short">Koh.</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <editor key="MV" corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV">Massimo Villa</editor>
+            <editor key="RHC" corresp="https://betamasaheft.eu/team.html#RHC" xml:id="RHC">Ran HaCohen</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-MV" corresp="https://betamasaheft.eu/team.html#MV"><resp>editor</resp><name>Massimo Villa</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="ed-MV"><resp>editor</resp><name>Massimo Villa</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#RHC" xml:id="ed-RHC"><resp>editor</resp><name>Ran HaCohen</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <editionStmt>
+            <p>The text reproduced in <ref target="#Mercer">Edition 1</ref>: This version follows Mercer's edition.  It was digitized by Rah HaCohen for <ref target="https://www.tau.ac.il/~hacohen/Biblia.html">https://www.tau.ac.il/~hacohen/Biblia.html</ref>.  Permission to use, copy, and distribute this text, for any NONCOMMERCIAL purpose is hereby granted without fee, provided that the copyright notice and this permission notice appear in all copies of this text.  This text cannot be sold under any circumstances.</p>
+            <p>The text reproduced in <ref target="#EOTCed">Edition 2</ref>: This version has been digitized by partner projects from modern Vulgata printed editions and converted to XML by the Bm team..</p>
+         </editionStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">                  
                 This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </p>
+                Attribution-ShareAlike 4.0.   The copyright of the text transcription of Mercer's edition is of <ref target="http://www.tau.ac.il/~hacohen/">Ran HaCohen</ref> and is published also at <ref target="http://www.tau.ac.il/~hacohen/Biblia.html">B I B L I A
+                   - VETERIS TESTAMENTI AETHIOPICA</ref>
+                
                </licence>
             </availability>
-         <date type="expanded">25.11.2024 at 19:06:56</date><date type="lastModified">20.2.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1320Eccles/main</idno><idno type="URI">https://betamasaheft.eu/LIT1320Eccles</idno><idno type="filename">LIT1320Eccles.xml</idno><idno type="ID">LIT1320Eccles</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:15:44</date><date type="lastModified">5.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1320Eccles/main</idno><idno type="URI">https://betamasaheft.eu/LIT1320Eccles</idno><idno type="filename">LIT1320Eccles.xml</idno><idno type="ID">LIT1320Eccles</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -37,14 +43,14 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="chapter" use="@n"><citeStructure match="t:l" unit="t:l" use="@n"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item><item>25</item><item>26</item><item>27</item><item>28</item><item>29</item><item>30</item></list></desc></citeStructure><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
          <t:textClass>
@@ -57,17 +63,1040 @@
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
-         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
-         <change who="#DR" when="2017-02-20"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change when="2017-02-20" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
+         <change when="2025-06-05" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added texts from EOTC edition and from Mercer's edition transcribed by Ran HaCohen</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
          <t:div type="bibliography">
             <t:listBibl type="editions">
-               <t:bibl corresp="http://zotero.org/groups/358366/items/658GRVFB"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Mercer1931Ecclesiastes"/><title level="m">The Ethiopic Text of the Book of Ecclesiastes</title><title level="s">The Oriental Research Series</title><author><forename>Samuel A. B.</forename><surname>Mercer</surname></author><pubPlace>London</pubPlace><publisher>Luzac &amp; Co. Ltd.</publisher><date>1931</date><series><title level="s">The Oriental Research Series</title><biblScope unit="volume">6</biblScope></series><biblScope unit="volume">6</biblScope><note type="tags"><note type="tag">Bible</note><note type="tag">Old Testament</note><note type="tag">bm:Mercer1931Ecclesiastes</note><note type="tag">Ecclesiastes</note></note><note type="tag">Bible</note><note type="tag">Old Testament</note><note type="tag">bm:Mercer1931Ecclesiastes</note><note type="tag">Ecclesiastes</note></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/658GRVFB"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Mercer1931Ecclesiastes"/><title level="m">The Ethiopic Text of the Book of Ecclesiastes</title><title level="s">The Oriental Research Series</title><author><forename>Samuel A. B.</forename><surname>Mercer</surname></author><pubPlace>London</pubPlace><publisher>Luzac &amp; Co. Ltd.</publisher><date>1931</date><series><title level="s">The Oriental Research Series</title><biblScope unit="volume">6</biblScope></series><biblScope unit="volume">6</biblScope><note type="tags"><note type="tag">Bible</note><note type="tag">Ecclesiastes</note><note type="tag">Old Testament</note><note type="tag">bm:Mercer1931Ecclesiastes</note></note><note type="tag">Bible</note><note type="tag">Ecclesiastes</note><note type="tag">Old Testament</note><note type="tag">bm:Mercer1931Ecclesiastes</note></t:bibl>
             </t:listBibl>
          </t:div>
+         <t:div type="edition" xml:lang="gez" xml:id="Mercer">
+   <t:note>Text of <t:bibl corresp="http://zotero.org/groups/358366/items/658GRVFB"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Mercer1931Ecclesiastes"/><title level="m">The Ethiopic Text of the Book of Ecclesiastes</title><title level="s">The Oriental Research Series</title><author><forename>Samuel A. B.</forename><surname>Mercer</surname></author><pubPlace>London</pubPlace><publisher>Luzac &amp; Co. Ltd.</publisher><date>1931</date><series><title level="s">The Oriental Research Series</title><biblScope unit="volume">6</biblScope></series><biblScope unit="volume">6</biblScope><note type="tags"><note type="tag">Bible</note><note type="tag">Ecclesiastes</note><note type="tag">Old Testament</note><note type="tag">bm:Mercer1931Ecclesiastes</note></note><note type="tag">Bible</note><note type="tag">Ecclesiastes</note><note type="tag">Old Testament</note><note type="tag">bm:Mercer1931Ecclesiastes</note></t:bibl> transcribed by Kefela Ghebre and proofread by Ran HaCohen for <t:ref target="https://www.tau.ac.il/~hacohen/Biblia.html">Bibla Veteris Testamenti Etiopica</t:ref></t:note>
+   <t:div type="textpart" subtype="chapter" n="1" xml:id="section1">
+      <t:label>Chapter 1</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=1"/>ቃለ፡ መክብብ፡ ወልደ፡ ዳዊት፡ ንጉሠ፡ እስራኤል፡ በኢየሩሳሌም።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=2"/>ከንቱ፡ ከንቱ፡ ይቤ፡ መክብብ፡ ከንቱ፡ ከንቱ፡ ኵሉ፡ ከንቱ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=3"/>ምንት፡ ፍድፋዱ፡ ለሰብእ፡ በኵሉ፡ ጻማሁ፡ ዘይጻሙ፡ እምታሕተ፡ ፀሓይ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=4"/>ትውልድ፡ የሐልፍ፡ ወትውልድ፡ ይመጽእ፡ ወምድርሰ፡ ለዓለም፡ ትቀውምወ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=5"/>ይሠርቅ፡ ፀሓይ፡ ወየዐርብ፡ ፀሓይ፡ ወውስተ፡ መከኑ፡ ይገብእ፡ እንዘ፡ ይሠርቅ፡ ውእቱ፡ ህየ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=6"/>ይገብእ፡ በይምን፡ ወየአውድ፡ መንገለ፡ ሰሜን፡ አውደ፡ የአውድ፡ ወየሐውር፡ መንፈስ፡ ወበኡደቱ፡ ይገብእ፡ መንፌስ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=7"/>ኵሉ፡ ወሓይዝት፡ የሐውራ፡ ውስተ፡ ባሕር፡ ወባሕር፡ ኢኮነት፡ እንተ፡ ትመልእ፡ ውስተ፡ መካን፡ ውእደ፡ የሐውሩ፡ አፍላግ፡ ህየ፡ ካዕበ፡ ይትመየጡ፡ በሐዊር።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=8"/>ኵሉ፡ ቃል፡ ዘበ፡ ሕማም፡ ኢይክል፡ ብእሲ፡ ለተናግሮ፡ ኢይጸግብ፡ ዓይን፡ በርእይ፡ ወኢይመልእ፡ እዝን፡ በአጽምኦ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=9"/>ምንት፡ ዘተገብረ፡ ውእቱ፡ ዘተገብረ፡ ምንት፡ ዘኮነ፡ ውእቱ፡ ዘከመ፡ ኮነ፡ ወአልቦ፡ ምንትኒ፡ ዘተገብረ፡ እምታሕተ፡ ፀሓይ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=10"/>ዘይነብብ፡ ወይብል፡ ናሁዝ። ሐዲስ፡ ውእቱ፡ ናሁ፡ ተገብረ፡ እምዓለም፡ ዘኮነ፡ እምቅድሜነ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=11"/>አልቦ፡ ዝክረ፡ ለቀደምት፡ ወለእለ፡ ደኃርትኒ፡ ተገብሩ፡ አልቦሙ፡ ዝክረ፡ ምሳሌ፡ ዘይትገበር፡ በደኃርት።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=12"/>አነ፡ መክብብ፡ ኮንኩ፡ ንጉሠ፡ ላዕለ፡ እስራኤል፡ በኢየሩሳሌም።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=13"/>ወውሀብኩ፡ ልብየ፡ ለኃሢሠ፡ ወለፈቲን፡ በጥበብ፡ በእንተ፡ ኵሉ፡ ዘተገብረ፡ እምታሕተ፡ ሰማይ፡ እስመ፡ ስራሕ፡ እኩየ፡ ወሀቦ፡ እግዚኣ፡ ብሔር፡ ለውሉደ፡ ሰብእ፡ ከመ፡ ይስርሑ፡ ቦቱ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=14"/>ርኢኩ፡ ኵሎ፡ ፍጥረተ፡ ዘተገብረ፡ መትሕተ፡ ፀሓይ፡ ወናሁ፡ ኵሉ፡ ከንቱ፡ ወከመ፡ እስትንፋስ፡ መንፈስ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=15"/>ጠዋይ፡ ኢይትከሀል፡ ረቲዕ፡ ወኅጹጽ፡ ኢይትከሀል፡ ተኆልቆ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=16"/>ተናገርኩ፡ አነ፡ በልብየ፡ በብሂል፡ ናሁ፡ አነ፡ ተዐበይኩ፡ ወአፈድፈድኩ፡ ጥበበ፡ ዲበ፡ ኵሉ፡ እምእለ፡ ኮኑ፡ እምቅድሜየ፡ በኢየሩሳሌም፡ ወልብየኒ፡ ርእየት፡ ብዙኅ፡ ጥበበ፡ ወአእምሮ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=17"/>ወሀብኩ፡ ልብየ፡ ለአእምሮ፡ ወጥበብ፡ ምሳሌ፡ ወትምህርተ፡ አእመርኩ፡ እስመ፡ ዝኒ፡ ውእቱ፡ ፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=18"/>እስመ፡ በብዝኀ፡ ጥበብ፡ ብዝኀ፡ አእምሮ፡ ወዘአፈድፈደ፡ አእምሮ፡ አፈድፈደ፡ ሕማመ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="2" xml:id="section2">
+      <t:label>Chapter 2</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=1"/>እቤ፡ አነ፡ በልብየ፡ ነዓ፡ አምከርከ፡ በፍሥሐ፡ ወርኢ፡ በሠናይ፡ ወናሁ፡ ዝኒ፡ ከንቱ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=2"/>ወለሰሐቅ፡ እብሎ፡ አፅፍጠ፡ አስፍጠ፡ ወለፍሥሐ፡ ምንት፡ ውእቱ፡ ዝግብር።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=3"/>ወመከርኩ፡ እምልብየ፡ ወሰሐቦ፡ ከመ፡ ወይን፡ ለሥጋየ፡ ወልብየ፡ መርሐኒ፡ ጥበብ፡ ወዝሂ፡ እኂዝ፡ በፍሥሐ፡ እስከ፡ ሶበ፡ እሬኢ፡ ምንት፡ ሠናይ፡ ለውሉደ፡ ሰብእ፡ ዘይገብሩ፡ እምታሕተ፡ ፀሓይ፡ በኆልቈ፡ መዋዕለ፡ ሕይወቶሙ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=4"/>አዕበይኩ፡ ምግባርየ፡ ሐነጽኩ፡ ሊተ፡ አብያተ፡ ወተከልኩ፡ ሊተ፡ አዕጸዳተ፡ ወይን።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=5"/>ወገበርኩ፡ ሊተ፡ አዕጻዳተ፡ ሐምል፡ ወገነታተ፡ ወተከልኩ፡ ውስቴቶሙ፡ ዕፀ፡ ዘኵሎ፡ ፍሬ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=6"/>ገበርኩ፡ ሊተ፡ ምሕጻበተ፡ ማያት፡ ከመ፡ እስቂ፡ እምኔሆሙ፡ ኦመ፡ ወዕፀ፡ ዘይፈሪ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=7"/>ወአጥረይኩ፡ አግብርተ፡ ወአእማተ፡ ወልደ፡ ቤት፡ አጥረይኩ፡ ወጥሪተ፡ ኖሎት፡ ወአልህምተ፡ ወመራዕየ፡ አባግዕ፡ ብዙኀ፡ አጥረይኩ፡ እምኵሎሙ፡ እለ፡ ኮኑ፡ እምቅድምየ፡ በኢየሩሳሌም።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=8"/>አስተጋባእኩ፡ ሊተ፡ ብሩረ፡ ወወርቀ፡ መጥሪተ፡ መንግሥት፡ ወበሐውርት፡ ገበርኩ፡ ሊተ፡ ኀላያነ፡ ወኀላይያተ፡ ወፍግዐ፡ ምስለ፡ ውሉደ፡ ሰብእ፡ መዘርተ፡ ወመዘርየነ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=9"/>ዐበይኩ፡ ወአፈድፈድኩ፡ እምኵሎሙ፡ እለ፡ ኮኑ፡ እምቅድሜየ፡ በኢየሩሳሌም፡ ወጥበብየኒ፡ ቆመተኒ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=10"/>ወኵሎ፡ ዘሰአለተኒ፡ አዕይንትየ። ኢተመቈስኩ፡ ወኢከላእኩ፡ ልብየ፡ እምኵሉ፡ ፍሥሐ፡ እስመ፡ ልብየ፡ ተፈሥሐ፡ እምኵሉ፡ ጻማየ፡ ወዝ፡ ኮነ፡ መክፈልትየ፡ እምኵሉ፡ ስራኅየ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=11"/>ወነጸርኩ፡ አነ፡ ዲበ፡ ኵሉ፡ ጥሪትየ፡ ዘገብራ፡ እደዊየ፡ ወበሥራሕ፡ ዘሠራኅኩ፡ ለገቢር፡ ወናሁ፡ ኵሉ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ፡ ወአልቦ፡ ፈድፋደ፡ እምታሕተ፡ ፀሓይ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=12"/>ወነጸርኩ፡ አነ፡ ከመ፡ እርአይ፡ ጥበበ፡ ወተሠፍጠ፡ ወእበደ፡ መኑ፡ ብእሲ፡ ዘይተሉ፡ ድኅሬሃ፡ ለምክር፡ ኵሉ፡ ምሳሌ፡ ዘገብረ፡ ላቲ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=13"/>ወርእኩ፡ አነ፡ ከመቦ፡ ፍድፍድና፡ ጠቢብ፡ እምአብድ፡ ከመ፡ ፈድፋድ፡ ብርሃን፡ እምጽልመት።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=14"/>ለጠቢብ፡ አዕይንቲሁ፡ ዲበ፡ ርእሱ፡ ወአብድሰ፡ ውስተ፡ ጽልመት፡ የሐውር፡ ወአእመርኩ፡ አነ፡ ከመ፡ አሐዱ፡ ድድቅ፡ ይዳድቆሙ፡ ለክልኤሆው።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=15"/>ወእቤ፡ አነ፡ በልብየ፡ ከመ፡ ይዳድቆ፡ ለአብድ፡ ከማሁ፡ ሊተኒ፡ ይዴድቀኒ፡ ወለምንት፡ ጠበብኩ፡ አነ፡ አሜሃ፡ በከ፡ አፈድፈድኩ፡ ነቢበ፡ በልብየ፡ እስመ፡ ዝኒ፡ ከንቱ፡ አብድ፡ በከ፡ ያፈደፍድ፡ ነቢበ፡ እስመ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=16"/>እስመ፡ አልቦ፡ ዝክረ፡ ለጠቢብ፡ ምስለ፡ አብድ፡ ለዓለም፡ እስመ፡ ናሁ፡ መዋዕል፡ ይመጽአ፡ ወኵሉ፡ ይትረሳዕ፡ ወእፎ፡ ይመውት፡ ጠቢብ፡ ምስለ፡ አብድ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=17"/>ወጸላእኩ፡ ኵሎ፡ ሕይወተ፡ እስመ፡ እኩይ፡ ላዕሌየ፡ ፍጥረት፡ ዘተገብረ፡ መትሕተ፡ ፀሓይ፡ እስመ፡ ኵሎ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=18"/>ወጸላእኩ፡ አነ፡ ኵሎ፡ ሥራኅየ፡ ዘአነ፡ እሠርሕ፡ እመትሕተ፡ ፀሓይ፡ እስመ፡ አሐድጎ፡ ለሰብእ፡ እምድኅሬየ፡ ዘይትወለድ።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=19"/>ወመኑ፡ ያአምር፡ እመ፡ ጠቢበ፡ ይከውን፡ ወእመ፡ አብድ፡ ወእመ፡ ይሠለጥ፡ በኵሉ፡ ሥራሕየ፡ ዘሠራሕኩ፡ ወዘጠበብኩ፡ እመትሕተ፡ ፀሓይ፡ ወዝኒ፡ ከንቱ።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=20"/>ወተመየጥኩ፡ አነ፡ ከመ፡ እተዋገዘ፡ ለልብየ፡ በኵሉ፡ ሥራኀ፡ ዘሠራሕኩ፡ እመትሕተ፡ ፀሓይ።</t:l>
+         <t:l n="21">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=21"/>እሰመ፡ ሰብእ፡ ዘኢሠርሕ፡ ሎቱ፡ በጥበብ፡ ወበአእምሮ፡ ወበጽንዕ፡ ወብእሲ፡ ዘኢሠርሕ፡ ቦቱ፡ ይሁብ፡ ርእሶ፡ ለመክፈልቱ፡ ወዝኒ፡ ከንቱ፡ ወእኩይ፡ ዐቢይ።</t:l>
+         <t:l n="22">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=22"/>እስመ፡ ይከውኖ፡ ለብእሲ፡ በኵሉ፡ ጻማሁ፡ ወፍትወተ፡ ልቡ፡ ዘውእቱ፡ ይሰርሕ፡ እመትሕተ፡ ፀሓይ።</t:l>
+         <t:l n="23">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=23"/>እስመ፡ ኵሎን፡ መዋዕሊሁ፡ ሕማም፡ ወመዐት፡ ወንታፌ፡ ሎቱ፡ ወበሌ፡ ሊትኒ፡ ኢትነውም፡ ልቡ፡ ወዝኒ፡ ከንቱ፡ ውእቱ።</t:l>
+         <t:l n="24">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=24"/>አልቦ፡ ሠናየ፡ ለሰብእ፡ ዘእንበለ፡ ዘበልዐ፡ ወሰትየ፡ ወዘያርእያ፡ ሠናየ፡ ለነፍሱ፡ ወዘኒ፡ ርኢኩ፡ ከመ፡ እምእደ፡ አግዚኣ፡ ብሔር፡ ውእቱ።</t:l>
+         <t:l n="25">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=25"/>መኑ፡ ውእቱ፡ ዘይበልዕ፡ ወይሰቲ፡ ዘእንበሌሁ።</t:l>
+         <t:l n="26">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=26"/>እስመ፡ ለሰብእ፡ ኄር፡ ቅድመ፡ ገጹ፡ ወሀበ፡ ጥበበ፡ ወአእምሮ፡ ወፍሥሐ፡ ወለዘሰ፡ ይኤብስ፡ ወሀበ፡ ሥራሐ፡ ከመ፡ ይወስክ፡ ወከመ፡ ያስተጋብእ፡ ከመ፡ የሀብ፡ ለኄር፡ ቅድመ፡ ገጸ፡ አግዚኣ፡ ብሔር፡ እስመ፡ ዝኒ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="3" xml:id="section3">
+      <t:label>Chapter 3</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=1"/>ቦለኵሉ፡ ዘመን፡ ወጊዜ፡ ለኵሉ፡ ምግባር፡ ዘታሕተ፡ ፀሓይ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=2"/>ጊዜ፡ ለወሊድ፡ ወጊዜ፡ ለመዊት፡ ጊዜ፡ ለተኪል፡ ወጊዜ፡ ለመሊኅ፡ ዘተከሉ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=3"/>ጊዜ፡ ለቀቲል፡ ወጊዜ፡ ለፈውሶ፡ ጊዜ፡ ለነሢት፡ ወጊዜ፡ ለሐኒጽ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=4"/>ጊዜ፡ ለበኪይ፡ ወጊዜ፡ ለስሒቅ፡ ጊዜ፡ ለላሕዎ፡ ወጊዜ፡ ለዘፊን።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=5"/>ጊዜ፡ ለወርዎ፡ እብን፡ ወጊዜ፡ ለአስተጋብኦ፡ እብን፡ ጊዜ፡ ለተሐቅፎ፡ ወጊዜ፡ ለተራሕቆ፡ እምሑቃፌ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=6"/>ጊዜ፡ ለኅሢሥ፡ ወጊዜ፡ ለሐጉል፡ ጊዜ፡ ለዐቂብ፡ ወጊዜ፡ ለአውፅኦ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=7"/>ጊዜ፡ ለሠጢጥ፡ ወጊዜ፡ ለረፊእ፡ ጊዜ፡ ለአርምሞ፡ ወጊዜ፡ ለተናግሮ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=8"/>ጊዜ፡ ለአፍቅሮ፡ ወጊዜ፡ ለጸሊእ፡ ጊዜ፡ ለጸልእ፡ ወጌዜ፡ ለሰላም።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=9"/>ምንተ፡ ፈድፋዱ፡ ለዘ፡ ይገብር፡ በዘ፡ ውእቱ፡ ይሠርሕ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=10"/>ርኢኩ፡ ኵሎ፡ ሥሩኅ፡ ዘወሀቦ፡ እግዚአ፡ ብሔር፡ ለውሉደ፡ ሰብእ፡ ሥራሐ፡ ከመ፡ ይሥርሑ፡ ቦቱ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=11"/>ኵሎ፡ ዘገብረ፡ ሠናየ፡ በጊዜሁ፡ ወኵሎ፡ ኅቡረ፡ ወሀበ፡ ለዓለም፡ ውስተ፡ ልቦሙ፡ ከመ፡ ኢይርከብ፡ ሰብእ፡ ግብረ፡ ዘገብረ፡ እግዚኣ፡ ብሔር፡ እምጥንቱ፡ እስከ፡ ተፍጻሜቱ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=12"/>አእመርኩ፡ ከመ፡ አልቦ፡ ሠናየ፡ ውስቴቶሙ፡ ዘእንበለ፡ ተፈሥሐ፡ ወገቢረ፡ ሠናይ፡ በሕይወቱ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=13"/>ወኵሉ፡ ሰብእ፡ ዘበልዐ፡ ወሰትየ፡ ወርእየ፡ ሠናየ፡ እምኵሉ፡ ጻማሁ፡ ዝሀብተ፡ እግዚአ፡ ብሔር፡ ውእቱ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=14"/>አእመርኩ፡ ከመ፡ ኵሉ፡ ዘገብረ፡ እግዚኣ፡ ብሔር፡ ውእቱ፡ ይሄሉ፡ ለዓለም፡ ወውእቶሙ፡ ኢይትከሀል፡ ወስኮ፡ ወእምውስቴቶሙ፡ ኢይትከሀል፡ ነቲግ፡ ወእግዚኣ፡ ብሔር፡ ገብረ፡ ከመ፡ ይፍርሁ፡ እምቅድመ፡ ገጹ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=15"/>ወዘተገብረ፡ ናሁ፡ ሀሎ፡ ወኵሉ፡ ዘእምተገብረ፡ ናሁ፡ ተገብረ፡ ወእግዚኣ፡ ብሔር፡ የኀሥሥ፡ ለዘ፡ ይስድድ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=16"/>ወዲዲ፡ ርኢኩ፡ ዘእምታሕተ፡ ፀሓይ፡ በመካነ፡ ጻድቅ፡ ህየ፡ ረሲዕ፡ ወበመካነ፡ ረሲዕ፡ ህየ፡ ጻድቅ፡ በህየ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=17"/>ወእቤ፡ አነ፡ በልብየ፡ ኅቡረ፡ ጻድቅ፡ ወረሲዕ፡ ይኳንን፡ እግዚኣ፡ ብሔር፡ እስመ፡ ጊዜ፡ ለኵሉ፡ ምግባር፡ ወበኵሉ፡ ግብር፡ ወበህየ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=18"/>አቤ፡ አነ፡ በልብየ፡ በእንተ፡ ነገረ፡ ውእቱ፡ ውሉደ፡ ሰብእ፡ ከመ፡ ይኳንኖሙ፡ እግዚኣ፡ ብሔር፡ ወከመ፡ ያርኢ፡ ከመ፡ እንስሳ፡ እሙንቱ፡</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=19"/>ወሎሙ፡ ድድቅ፡ ለውሉደ፡ ሰብእ፡ ወድድቅ፡ እንስሳ፡ አሐዱ፡ ድድቅ፡ ሎሙ፡ ከመ፡ ሞተዝ፡ ከማሁ፡ ሞቱ፡ ለዝ፡ ወአሐዱ፡ መንፈስ፡ ለኵሎሙ፡ ወምንት፡ ፈድፈደ፡ ሰብእ፡ እም፡ እንስሳ፡ ወኢምንተኒ፡ እስመ፡ ኵሉ፡ ከንቱ።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=20"/>ኵሉ፡ ዘየሐውር፡ ውስተ፡ አሐዱ፡ መካን፡ ኵሉ፡ ኮነ፡ እመሬት፡ ወኵሉ፡ ይገብእ፡ ውስተ፡ መሬት።</t:l>
+         <t:l n="21">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=21"/>መኑ፡ ያአምር፡ መንፈስ፡ ለውሉድ፡ ሰብእ፡ እመ፡ ያዐርግ፡ ውእቱ፡ ላዕለ፡ ወመንፈስ፡ እንስሳ፡ እመ፡ ይወርድ፡ ውእቱ። ታሕተ፡ ውስተ፡ ምድር።</t:l>
+         <t:l n="22">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=22"/>ወርኢኩ፡ ከመ፡ አልቦ፡ ሠናየ፡ ዘእንበለ፡ ዘተፈሥሐ፡ ሰብእ፡ በተግባሩ፡ እስመ፡ ውእቱ፡ መክፈልቱ፡ መኑ፡ ያመጽኦ፡ ከመ፡ ይርአይ፡ ዘይከውን፡ እምድኅሬሁ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="4" xml:id="section4">
+      <t:label>Chapter 4</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=1"/>ወተመየጥኩ፡ አነ፡ ወርኢኩ፡ ኵሎ፡ ኅቡረ፡ ትእግልተ፡ ዘይትገበር፡ መትሕተ፡ ፀሓይ፡ ወናሁ፡ አንብዕ፡ ለእለ፡ ይትኤገልዎሙ፡ ወአልቦ፡ ዘይናዝዞሙ፡ እምእደ፡ ይትዔገልዎሙ፡ ወኃይል፡ አልቦሙ፡ ለዘይናዝዝዎሙ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=2"/>ወአስተኀየስክዎሙ፡ አነ፡ ኅቡረ፡ ለእለ፡ ሞቱ፡ እሉ፡ ወድኡ፡ ሞቱ፡ እምሕያዋን፡ እሉ፡ እሙንቱ፡ ሕያዋን፡ እስከ፡ ዮም።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=3"/>ወእምእሉ፡ ክልኤሆሙ፡ ይኄይስ፡ ዓዲ፡ ኢተፈጥሮ፡ ዘኢያኣምር፡ ኵሎ፡ ገቢረ፡ እከይ፡ ዘተገብረ፡ መትሕተ፡ ፀሓይ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=4"/>ወርኢኩ፡ አነ፡ ኵሎ፡ ሥራሐ፡ ኅቡረ፡ ወኵሎ፡ ኅይለ፡ ምግባር፡ ከመ፡ ውእቱ፡ ቅንእ፡ ለብእሲ፡ አምኀበ፡ ቢጹ፡ ወዝኒ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=5"/>አብድ፡ ሐቀፈ፡ እዴሁ፡ ወበልዐ፡ ሥጋሁ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=6"/>ሠናይ፡ ምልአ፡ እድ፡ በዕረፍት፡ እምነ፡ ክልኤ፡ ዘበዐመፃ፡ ወፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=7"/>ወተመየጥኩ፡ አነ፡ ወርኢኩ፡ ከንቶ፡ መትሕተ፡ ፀሓይ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=8"/>ሀሎ፡ አሐዱ፡ ወአልቦ፡ ካልእ፡ ወውሉድ፡ ወእኈ፡ አልቦቱ፡ ወአልቦ፡ ፍጻሜ፡ ለኵሉ፡ ስራሑ፡ ወዐይኑሂ፡ ኢይመልእ፡ ብዕለ፡ ወለመኑ፡ አነ፡ እሠርሕ፡ ወእቄቅያ፡ ለነፍስየ፡ እምፍግዕ፡ ወዝኒ፡ ከንቱ፡ ወሥራሕ፡ እኩይ፡ ውእቱ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=9"/>ይኄይሱ፡ ክልኤቱ፡ እምአሐዱ፡ እለ፡ ቦሙ፡ ዐስበ፡ ሠናየ፡ በጸማሆሙ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=10"/>እስመ፡ እመ፡ ወድቀ፡ አሐዱ፡ ያነሥኦ፡ ካልኤ፡ ወአሌ፡ ሎቱ፡ ለአሐዱ፡ ለእመ፡ ወድቀ፡ ወአልቦ፡ ካልእ፡ ዘያነሥኦ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=11"/>እስመ፡ እመ፡ ኖሙ፡ ክልኤሆሙ፡ ይመውቁ፡ ወአሐዱሰ፡ እፎ፡ ይትማወቅ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=12"/>ወእመ፡ ተፀንዐ፡ አሐዱ፡ ክልኤሆሙ፡ ይትቀውምዎ፡ ወፈትል፡ ሥሉስ፡ ፍጡነ፡ ኢይትበተክ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=13"/>ይኄይስ፡ ቅኑይ፡ ነዳይ፡ ወጠቢብ፡ እምንጉሥ፡ ልሂቅ፡ ወአብድ፡ ዘኢያአመረ፡ ለነጽሮ፡ ዓዲ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=14"/>ከመ፡ እምቤተ፡ ሞቅሕ፡ ይወፅእ፡ ለነጊሥ፡ እስመ፡ በመንግሥቱ፡ ኮነ፡ ነዳየ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=15"/>ወርኢኩ፡ ኵሎ፡ ኅቡረ፡ እለ፡ ሕያዋን፡ እለ፡ ያንሶስዉ፡ መትሕተ፡ ፀሓይ፡ ምሳሌ፡ ወሬዛ፡ ካልእ፡ ይትነሣእ፡ ህየንቴሁ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=16"/>አልቦ፡ ፍጻሜ፡ ለኵሉ፡ ሕዝብ፡ ለኵሎሙ፡ እለ፡ ኮኑ፡ እምቅድሜሁ፡ እሰመ፡ ደኃርትኒ፡ ኢይትፌሥሑ፡ ቦቱ፡ እስመ፡ ዝኒ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=17"/>ዕቀብ፡ እገሪከ፡ ሶበ፡ ተሐውር፡ ኀበ፡ እግዚኣ፡ ብሔር፡ ወቅረብ፡ ለሰሚዕ፡ እምነ፡ ሀብቶሙ፡ ለአብዳን፡ መሥዋዕተከ፡ እስመ፡ ኢኮኑ፡ ማእምራነ፡ ለገቢረ፡ ሠናይ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="5" xml:id="section5">
+      <t:label>Chapter 5</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=1"/>ኢትጐጒእ፡ በአፉከ፡ ወልብከ፡ ኢይጐጒእ፡ ለአውፅኦ፡ ቃል፡ እምቅድመ፡ ገጸ፡ እግዚኣ፡ ብሔር፡ እስመ፡ አግዚኣ፡ ብሔር፡ ውስተ፡ ሰማይ፡ ላዕለ፡ ወአንተሰ፡ ውስተ፡ ምድር፡ በእንተ፡ ዝንቱ፡ ይኩን፡ ነገርክ፡ ኅዳጠ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=2"/>እስመ፡ ይመጽእ፡ ሕልም፡ በብዙኅ፡ መከራ፡ ወቃለ፡ እበድ፡ በብዝኀ፡ ነገር።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=3"/>እምከመ፡ ጸለይከ፡ ጸሎተ፡ ለእግዚኣ፡ ብሔር፡ ኢታጐንዲ፡ ውሂቦተ፡ እስመ፡ አልቦ፡ ፈቃዶ፡ ለአብዳን፡ አንተሰ፡ በከመ፡ ፀለይከ፡ ሀብ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=4"/>ይኄይስ፡ ኢጸልዮተከ፡ እምጸልዮተከ፡ ወኢውሂብ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=5"/>ኢተሀብ፡ አፉከ፡ ለአበሳ፡ ሥጋከ፡ ወኢትበል፡ በቅድመ፡ ገጹ፡ ለእግዚኣ፡ ብሔር፡ በኢያእምሮ፡ ውእቱ፡ ከመ፡ ኢይትመዐዕ፡ እግዚኣ፡ ብሔር፡ በእንተ፡ ቃልከ፡ ወያማስን፡ ግብረ፡ እደዊከ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=6"/>እስመ፡ በብዝኀ፡ ሕልም፡ ወከንቱ፡ ወንበብ፡ ብዙኅ፡ ወኅቡረ፡ እግዚኣ፡ ብሔር፡ ፍራህ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=7"/>እመ፡ ትእግልተ፡ ነዳይ፡ ወሀይደ፡ ፍታሕ፡ ጽድቀ፡ ርኢከ፡ በብሔር፡ ኢታንክር፡ በምግባር፡ እስመ፡ ልዑል፡ መልዕልተ፡ ልዑል፡ የዐቅብ፡ ወልዑላ፡ ዲቤሆሙ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=8"/>ወፈድፋደ፡ ምድር፡ ላዕለ፡ ኵሉ፡ ውእቱ፡ ንጉሥ፡ ዲበ፡ ወፍረ፡ ሐረስት።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=9"/>ዘያፈቅር፡ ብሩር፡ ኢይጸግብ፡ ብሩረ፡ ወዘሂ፡ አፍቀረ፡ ብዙኀ፡ እክለ፡ ወዝኒ፡ ከንቱ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=10"/>በብዝኅ፡ ጥሪት፡ ብዙኀ፡ እለ፡ ይበለዕዋ፡ ወምንተ፡ ጽንዑ፡ ለዘ፡ ይቀርባ፡ እስመ፡ ይኴንን፡ እሰከ፡ ርእየ፡ ዐይን።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=11"/>ጥዑም፡ ንዋም፡ ለገብር፡ እመ፡ ኅዳጥ፡ ወእመ፡ ብዙኀ፡ በልዐ፡ ወለዘ፡ አብዝኀ፡ በሊዐ፡ አልቦ፡ ዘየኅድጎ፡ ይኑም።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=12"/>ቦ፡ ደዌ፡ ዘርኢኩ፡ በመትሕተ፡ ፀሓይ፡ ብዕል፡ ዘይትዓቀብ፡ በኀበ፡ ዘአጥረዮ፡ ለእከይ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=13"/>ወይትሐጐል፡ ውእቱ፡ ብዕል፡ በንታፌ፡ እኩይ፡ ወወለደ፡ ወልደ፡ ወአልቦ፡ ውስተ፡ እዴሁ፡ ወኢምንተኒ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=14"/>በከመ፡ ወፅአ፡ እምከርሠ፡ እሙ፡ ዕራቁ፡ ይትመየጥ፡ ለገቢእ፡ ከመ፡ መጽአ፡ ወአልቦ፡ ዘይነሥእ፡ እምጻማሁ፡ ከመ፡ ይሖር፡ ምስሌሁ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=15"/>ወዝኒ፡ እኩይ፡ ደዌ፡ ውእቱ፡ እስመ፡ በከመ፡ መጽአ፡ ከማሁ፡ የሐውር፡ ወምንተ፡ ፍድፋዴሁ፡ ዘይጸሙ፡ ለነፍሱ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=16"/>እስመ፡ ኵሉ፡ መዋዕሊሁ፡ ውስተ፡ ጽልመት፡ ወላሕ፡ ወበቊጥዓ፡ ብዙኅ፡ ወዴ፡ ወሐዘን።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=17"/>ወባሕቱ፡ ናሁ፡ ዘርኢኩ፡ አነ፡ ኄርት፡ ዘይአቲ፡ ሠናይት፡ በሊዕ፡ ወሰቲይ፡ ወርኢየ፡ ፍግዕ፡ በኵሉ፡ ሥራሑ፡ ዘሠርሐ፡ በመትሕተ፡ ፀሓይ፡ ኆልቈ፡ መዋዕለ፡ ሕይወት፡ ዘወሀቦ፡ እግዚአብሔር፡ እስመ፡ ውእቱ፡ መክፈልቱ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=18"/>ወኵሎ፡ ሰብእ፡ ዘወሀቦ፡ እግዚአብሔር፡ ብዕለ፡ ወጥሪተ፡ ወአሠለጦ፡ ከመ፡ ይብላዕ፡ እምውስቴቱ፡ ወይንሣእ፡ መክፈልቶ፡ ወከመ፡ ይትፈሣሕ፡ እምጻማሁ፡ ዝሀብተ፡ እግዚአ፡ ብሔር፡ ውእቱ።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=19"/>እስመ፡ አኮ፡ ብዘኀ፡ ዘይዜከር፡ መዋዕለ፡ ሕይወቱ፡ እስመ፡ እግዚኣ፡ ብሔር፡ ያሠርሐ፡ በፍትወተ፡ ልቡ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="6" xml:id="section6">
+      <t:label>Chapter 6</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=1"/>ቦእኩየ፡ ዘርኢኩ፡ እምታሕተ፡ ፀሓይ፡ ወብዝኅት፡ ይእቲ፡ ላዕለ፡ ሰብእ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=2"/>ብእሲ፡ ዘወሀቦ፡ እግዚኣ፡ ብሔር፡ ብዕለ፡ ወጥሪተ፡ ወክብረ፡ ወአልቦ፡ ዘይከልኣ፡ ለነፍሱ፡ እምኵሉ፡ ዘፈተወት፡ ወኢያስለጦ፡ እግዚኣ፡ ብሒር፡ ከመ፡ ይብላዕ፡ እምኔሁ፡ እስመ፡ ብእሲ፡ ነግድ፡ ይበልዖ፡ ወዝኒ፡ ከንቱ፡ ውእቱ፡ ወደዌ፡ እኪት።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=3"/>ለእመ፡ ወለደ፡ ብአሲ፡ ምእተ፡ ወዓመታተ፡ ብዙኀ፡ ሐይወ፡ ወብዙኀ፡ ኮነ፡ መዋዕለ፡ ዓመቲሁ፡ ወነፍሱሂ፡ ኢትጸግብ፡ እምሠናያት፡ ወግንዘቱኒ፡ ኢኮኖ፡ እቤ፡ ይኄይስ፡ እምኔሁ፡ ዳህጸ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=4"/>እስመ፡ በከንቱ፡ መጽአ፡ ወውስተ፡ ጽልመት፡ የሐውር፡ ወበጽልመት፡ ስሙ፡ ይትከደን።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=5"/>ወፀሓይኒ፡ ኢርእየ፡ ወኢያእመረ፡ ዕረፍቱ፡ ለዝ፡ እምዝ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=6"/>ወሶበ፡ ሐይወ፡ ዐሠርተ፡ ምእተ፡ ምሕዋረ፡ ዓመት፡ ወሠናይት፡ ኢርእየ፡ አኮሁ፡ ውስተ፡ መካን፡ አሐዱ፡ የሐውር፡ ኵሉ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=7"/>ኵሉ፡ ሥራሑ፡ ለሰብእ፡ ውስተ፡ አፉሁ፡ ወነፍሱሰ፡ ኢትመልእ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=8"/>ምንት፡ ፍድፋዴሁ፡ ለጠቢብ፡ እምአብድ፡ በእንተ፡ ነዳይ፡ ያአምር፡ ሐዊረ፡ ቅድመ፡ ሕይወት።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=9"/>ይኄይስ፡ ርእይ፡ በዓይን፡ እምሐዊር፡ በነፍስ፡ ወዝኒ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=10"/>ኵሉ፡ ዘኮነ፡ ናሁ፡ ተሠምየ፡ ስሙ፡ ወተአምረ፡ ዘውእቱ፡ ሰብእ፡ ወኢይክል፡ ተጋእዞ፡ ምስለ፡ ዘይጸንዕ፡ እምኔሁ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=11"/>እስመ፡ ቦ፡ ነገር፡ ብዙኅ፡ ዘያበዝኅ፡ ከንቶ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="7" xml:id="section7">
+      <t:label>Chapter 7</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=1"/>ምንተ፡ ፈድፋዱ፡ ለሰብእ፡ መኑ፡ ውእቱ፡ ዘያአምር፡ ምንት፡ ውእቱ፡ ሠናይ፡ ለሰብእ፡ በሕይወቱ፡ እንዘ፡ ይኄልቍ፡ መዋዕለ፡ ሕይወቱ፡ ከንቱ፡ ወገብሮን፡ በጽላሎት፡ መኑ፡ ያየድዖ፡ ለሰብአ፡ ዘይከውን፡ እምድኅሬሁ፡ በመትሕተ፡ ፀሓይ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=2"/>ይኄይስ፡ ስም፡ ሠናይ፡ እምቅብእ፡ መዐዛ፡ ወዕለተ፡ ሞት፡ እምዕለተ፡ ልደት።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=3"/>ይኄይስ፡ ሐዊረ፡ ቤተ፡ ላሕ፡ እምሐዊረ፡ ቤተ፡ ግዝእ፡ እስመ፡ ውእቱዝ፡ ደኃሪቱ፡ ለኵሉ፡ ሰብእ፡ ወዘሕያው፡ የሀብ፡ ሠናየ፡ ውስተ፡ ልቡ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=4"/>ይኄይስ፡ መዐት፡ እምሥሂቅ፡ እስመ፡ በእከየ፡ ገጽ፡ ትሤኒ፡ ልብ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=5"/>ልበ፡ ጠቢባን፡ ውስተ፡ ቤተ፡ ላሕ፡ ወልበ፡ አብዳን፡ ውስተ፡ ቤተ፡ ፍሥሐ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=6"/>ይኄይስ፡ ሰሚዐ፡ ተግሣጸ፡ ጥቡበ፡ እምብእሲ፡ ዘይሰምዕ፡ ማኅሌተ፡ አብድ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=7"/>ከመ፡ ቃለ፡ አሥዋክ፡ ታሕተ፡ ጽሀርት፡ ከማሁ፡ ሰሐቆሙ፡ ለአብዳን፡ ወዝኒ፡ ከንቱ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=8"/>እስመ፡ ትእግልት፡ ያንጎግዎ፡ ለጠቢብ፡ ወያሐጕል፡ ትፍሥሕተ፡ ልቡ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=9"/>ይኄይስ፡ ደኃሪት፡ ቃል፡ እምቀዳሚሁ፡ ይኄይስ፡ መስተዓግስ፡ እምዕቡየ፡ መንፈስ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=10"/>ኢትጐጕእ፡ በመንፈስከ፡ ለተምዕዖ፡ እስመ፡ መዐት፡ ውስተ፡ ሕፅነ፡ አብዳን፡ ተዐርፍ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=11"/>ኢትበል፡ ምንተ፡ ኮነ፡ እስመ፡ መዋዕለ፡ ትከት፡ ይኄይስ፡ እምእላንቱ፡ እስመ፡ አኮ፡ በጥበብ፡ ዘተስእልከ፡ በእንተዝ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=12"/>ሠናይ፡ ጥበብ፡ ምስለ፡ ዑቃቤ፡ ወፈድፋደ፡ ምስለ፡ እለ፡ ይሬእዩ፡ ፀሓየ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=13"/>እስመ፡ ጽላሎታ፡ ለጥበብ፡ ከመ፡ ጽላሎታ፡ ለብሩር፡ ወፈድፋደ፡ አእምሮ፡ ለጥበብ፡ ወታሐይዎ፡ ለዘ፡ አጥረያ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=14"/>ርኢ፡ ተግበሮ፡ ለእግዚኣ፡ ብሔር፡ መኑ፡ ውእቱ፡ ዘይክል፡ አሠንዮቶ፡ ለዘ፡ እግዚኣ፡ ብሔር፡ አጥወዮ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=15"/>በመዋዕል፡ ሠናይ፡ ሕየው፡ በፍሥሐ፡ ወርኢ፡ በዕለት፡ እኪት፡ ወዝኒ፡ ናሁ፡ ምስለዝ፡ ውእቱ፡ ገብረ፡ እግዚኣ፡ ብሔር፡ በእንተ፡ ነገር፡ ከመ፡ ኢይርከብ፡ ሰብእ፡ ዘእምድኅሬሁ፡ ወኢምንተ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=16"/>ኵሎ፡ ኅቡረ፡ ርኢኩ፡ በመዋዕለ፡ ሥራሕየ፡ ቦጸድቅ፡ ዘይትሐጐል፡ በጽድቁ፡ ወቦረሲዐ፡ ዘይሄሉ፡ በእከዩ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=17"/>ወኢትኩን፡ ጻደቀ፡ ፈድፋደ፡ ወኢትጠበብ፡ ፈድፋደ፡ ከመ፡ ኢትጌጊ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=18"/>ወኢትኅጣእ፡ ፈድፋደ፡ ወኢትኩን፡ ድሩከ፡ ከመ፡ ኢትሙት፡ ዘእንበለ፡ ጊዜከ።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=19"/>ይኄይስ፡ ሀልዎተከ፡ በዝ፡ ወእምዝኒ፡ ኢታርኵስ፡ እዴከ፡ እስመ፡ ዘይፈርሆ፡ ለእግዚኣ፡ ብሔር፡ ይወፅእ፡ እምኵሉ።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=20"/>ጥበብ፡ ትረድኦ፡ ለጠቢብ፡ እምዐሠርቱ፡ መኳንንተ፡ እለ፡ ሀለዉ፡ ውስተ፡ ሀገር።</t:l>
+         <t:l n="21">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=21"/>እስመ፡ አልቦ፡ ሰብእ፡ ጻድቀ፡ ውስተ፡ ምድር፡ ዘይገብር፡ ሠናየ፡ ወኢይኤብስ።</t:l>
+         <t:l n="22">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=22"/>ወውስተ፡ ኵሉ፡ ነገር፡ ዘይትናገሩ፡ ኢትሰድ፡ ልበከ፡ ከመ፡ ኢትስማዕ፡ ገብርከ፡ እንዘ፡ ይረግመከ።</t:l>
+         <t:l n="23">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=23"/>እስመ፡ ብዙኀ፡ ይትሜአከከ፡ ወበፍናው፡ ብዙኅ፡ ያአክያ፡ ለልብከ፡ እስመ፡ ከመ፡ አንተኒ፡ ረገምክ፡ ባዕደ።</t:l>
+         <t:l n="24">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=24"/>ዘንተ፡ ኵሎ፡ አመከርኩ፡ በጥበብ፡ አቤ፡ እጠበብ፡ ወይእቲ፡ ርሕቅት፡ እምኔየ።</t:l>
+         <t:l n="25">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=25"/>ርኁቀ፡ እንዘ፡ ሀለወት፡ ወዕመቀ፡ ዕሙቅ፡ መኑ፡ ይረክባ።</t:l>
+         <t:l n="26">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=26"/>ኦድኩ፡ አነ፡ ወልብየ፡ በአእምሮ፡ ወከመ፡ አሐሊ፡ ወእኅሥሣ፡ ለጥበብ፡ ወለሐሳብ፡ ወከመ፡ አእምር፡ ለረሲዓን፡ እበዶሙ፡ ወአጽህቆ፡ ወስፍጠታተ።</t:l>
+         <t:l n="27">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=27"/>ወእርከባ፡ አነ፡ መራር፡ እሞት፡ ብእሲት፡ እንተ፡ ይእቲ፡ መሣግር፡ ወመርበብት፡ ልባ፡ ማእሰር፡ ውስተ፡ እዴሃ፡ ኄር፡ በቅድመ፡ እግዚኣ፡ ብሔር፡ ዘይትባበላሕ፡ እምኔሃ፡ ወዘይኤብስ፡ ይስገር፡ ባቲ።</t:l>
+         <t:l n="28">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=28"/>ናሁ፡ ዘንተ፡ ረከብኩ፡ ይቤ፡ መክብብ፡ አሐተ፡ እምአሐቲ፡ ለረኪበ፡ ሕሊና።</t:l>
+         <t:l n="29">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=29"/>ዘኀሠሠት፡ ነፍስየ፡ ወኢረኩበኩ፡ ወብእሲ፡ አሐደ፡ እምዐሠርቱ፡ ምእት፡ ረከብኩ፡ ወብእሲት፡ እምእሉ፡ ኵሎሙ፡ ኢረከብኩ።</t:l>
+         <t:l n="30">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=30"/>ባሕቱ፡ ናሁ፡ ዘንተ፡ ረከብኩ፡ ዘገብረ፡ እግዚኣ፡ ብሔር፡ ወበጊዜሁ፡ ብእሲ፡ ራትዕ፡ ወእሙንቱ፡ የኀሡ፡ ሕሊና፡ ብዙኀ፡ መኑ፡ ያአምሮሙ፡ ለጠቢባን፡ ወመኑ፡ ያአምሮ፡ ፍካሬ፡ ቃሎሙ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="8" xml:id="section8">
+      <t:label>Chapter 8</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=1"/>ጥበቡ፡ ለብእሲ፡ ያበርህ፡ ገጾ፡ ወዘአልቦ፡ ኃፍረተ፡ ውስተ፡ ገጹ፡ ይጸላእ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=2"/>አፈ፡ ንጉሥ፡ ዕቀብ፡ ወለቃለ፡ ማሐላ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=3"/>ኢትጐጕእ፡ ወእምቅድመ፡ ገጹ፡ ኅልፍ፡ ኢትቁም፡ በነገር፡ እኩይ፡ እስመ፡ ኵሉ፡ ዘፈቀደ፡ ይገብር።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=4"/>ወከመ፡ ንጉሥ፡ ስሉጥ፡ ይትናገር፡ ወመኑ፡ ይብሎ፡ ምንተ፡ ገበርከ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=5"/>ዘየዐቅብ፡ ትእዛዘ፡ ኢያአምር፡ ቃለ፡ እከይ፡ ወጊዜሁ፡ ለፍትሕ፡ ያአምር፡ ልበ፡ ጠቢብ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=6"/>እስመ፡ ለኵሉ፡ ግብር፡ ቦ፡ ጊዜ፡ ፍትሕ፡ እስመ፡ አእምሮቱ፡ ለብእሲ፡ ጽኑዕ፡ ላዕሌሁ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=7"/>እስመ፡ አልቦ፡ ዘያአምር፡ ምንተ፡ ዘይከውን፡ እስመ፡ ዘይከውን፡ መኑ፡ ዘይነግሮ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=8"/>አልቦ፡ ዘይሤልጥ፡ በመንፈሱ፡ ለከሊዓ፡ መንፈስ፡ ኅቡረ፡ ወአልቦ፡ ዘይሤልጥ፡ በዕለተ፡ ሞቱ፡ ወአልቦ፡ መልዕክት፡ በዕለተ፡ ቀትል፡ ወኢታድኅን፡ ረሢዓ፡ ዘኀቤሃ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=9"/>ወኵሉ፡ ኅቡረ፡ ዘንተ፡ ርኢኩ፡ ወወሀብኩ፡ ልብየ፡ ውስተ፡ ኵሉ፡ ፍጥረት፡ ዘተፈጥረ፡ በመትሕተ፡ ፀሓይ፡ ዘመጠነ፡ ተሠልጠ፡ ሰብእ፡ ለአእክዮተ፡ ሰብእ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=10"/>አሜሃ፡ ርኢኩ፡ ረሢዓነ፡ እንዘ፡ ይበውዑ፡ ውስተ፡ መቃብር፡ ቅዱስ፡ ወዘእምቅዱሳን፡ ሖሩ፡ ወተወደሱ፡ በውስተ፡ ሀገር፡ እስመ፡ ከመዝ፡ ገብሩ፡ ወዝኒ፡ ከንቱ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=11"/>እስመ፡ አልቦ፡ ዘይከውን፡ ቅስተ፡ እምእለ፡ ይገብሩ፡ አኩየ፡ በፍጡን፡ በእንተዝ፡ አእረፈ፡ ልበ፡ ውሉደ፡ ሰብእ፡ ቦሙ፡ ለገቢረ፡ እከይ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=12"/>ዘአበሰ፡ ገብረ፡ ኃጢአተ፡ እምትከት፡ ወእምቅድሜሁ፡ እስመ፡ አነ፡ ኣአምር፡ ከመ፡ ቦሙ፡ ሠናይ፡ ለእለ፡ ይፈርህዎ፡ ለእግዚአ፡ ብሔር፡ ከመ፡ ይፍርሁ፡ እምቅድመ፡ ገጹ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=13"/>ወአልቦ፡ ሠናይት፡ ለረሢዕ፡ ወኢይነውኅ፡ መዋዕለ፡ ጽላሎቱ፡ ለዘኢይፈርህ፡ እምቅድመ፡ ገጹ፡ ለእግዚአብሔር።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=14"/>ቦከንቱ፡ ዘተገብረ፡ ውስተ፡ ምድር፡ እስመ፡ ቦጻድቃን፡ ዘይበጽሕ፡ ላዕሌሆሙ፡ ግብረ፡ ረሢዓን፡ ወቦ፡ ረሢዓን፡ ዘይበጽሕ፡ ላዕሌሆሙ፡ ግብረ፡ ጸድቃን፡ ወእቤ፡ ዝኒ፡ ከንቱ፡ ውእቱ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=15"/>ወወደስክዋ፡ አነ፡ ለኵላ፡ ፍግዕ፡ እስመ፡ አልቦ፡ ሠናይ፡ ለሰብእ፡ እምታሕተ፡ ፀሓይ፡ ዘእንበለ፡ ዘበልዓ፡ ወሰትየ፡ ወተፈሥሐ፡ ወውእቱ፡ ዘሎቱ፡ አምፃማሁ፡ በመዋዕለ፡ ሕይወቱ፡ ዘወሀቦ፡ እግዚአብሔር፡ እምታሕተ፡ ፀሓይ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=16"/>በከመ፡ ወሀብኩ፡ ልብየ፡ ለአእምሮ፡ ጥበብ፡ ወከመ፡ እርአይ፡ ሥራሐ፡ ዘተገብረ፡ ዲበ፡ ምድር፡ እስመ፡ በዕለትኒ፡ ወበሌሊትኒ፡ ንዋም፡ ውስተ፡ አዕይንቲሁ፡ ዘይሬኢ፡ አልቦ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=17"/>ወርኢኩ፡ ኵሎ፡ ግብሮ፡ ለእግዚአብሔር፡ ከመ፡ ኢይክል፡ ሰብእ፡ ረኪበ፡ ኅቡረ፡ ዘተገብረ፡ በመትሕተ፡ ፀሓይ፡ እመ፡ ሚመጠነ፡ ኅሠሠ፡ ሰብእ፡ ኢይክል፡ ረኪበ፡ ወእመ፡ ሚመጠነ፡ ይቤ፡ ጠቢብ፡ ከመ፡ ያእምር፡ ኢይክል፡ ረኪበ፡ እስመ፡ ኅቡረ፡ ዘንተ፡ ኵሎ፡ ወሀብኩ፡ ልብየ፡ ወልብየ፡ ኅቡረ፡ ዘንተ፡ ኵሎ፡ ርእየት።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="9" xml:id="section9">
+      <t:label>Chapter 9</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=1"/>ከመ፡ ጻድቃን፡ ወጠበብት፡ ወምግባሮሙ፡ ውስተ፡ እደ፡ እግዚአብሔር፡ ፍቅረ፡ ወጸልአ፡ አልቦ፡ ዘያአምር፡ ሰብእ፡ ኵሉ፡ ቅድመ፡ ገጾሙ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=2"/>ወከንቱ፡ ውስተ፡ ኵሉ፡ አሐዱ፡ ድድቁ፡ ለጸድቅ፡ ወለረሲዕ፡ ለኄር፡ ወለእኩይ፡ ለንጹሕ፡ ወለርሱሕ፡ ለዘ፡ ይሠውዕ፡ ወለዘ፡ ኢይሠውዕ፡ ከመ፡ ኄር፡ ወለዘሂ፡ የኃጥእ፡ ከመ፡ ዘይምሕል፡ ወከመ፡ ዘሂ፡ ይፈርህ፡ ማሕላ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=3"/>ዝክቱ፡ በኵሉ፡ ዘተገብረ፡ መትሕተ፡ ፀሓይ፡ እስመ፡ አሐዱ፡ ድድቁ፡ ለኵሉ፡ ወልቦሙ፡ ለውሉደ፡ ሰብእ፡ ፈጸመ፡ እከየ፡ ወበሁከተ፡ ልቦሙ፡ ሕይወቶሙ፡ ወእምድኅሬሆሙ፡ ኀበ፡ ምውታን።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=4"/>እስመ፡ መኑ፡ ውእቱ፡ ዘይሳተፍ፡ ምስለ፡ ኵሉ፡ ሕያዋን፡ በተስፋ፡ ከመ፡ ከልብ፡ ሕያው፡ ውእቱ፡ ይኄይስ፡ እምአንበሳ፡ ምዉት።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=5"/>እስመ፡ ሕያዋን፡ ያአምሩ፡ ከመ፡ ይመውቱ፡ ወምውታንሰ፡ ኢያእሙሩ፡ ወኢምንተ፡ ወአልቦው፡ እንከ፡ ዐስበ፡ እስመ፡ ተረስዐ፡ ዝክሮሙ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=6"/>ወፍቅሮሙኒ፡ ወጽልኦሙኒ፡ ወቅንአቶሙኒ፡ ናሁ፡ ተሐጕለ፡ ወመክፈልት፡ አልቦሙ፡ እንከ፡ ውስተ፡ ዓለም፡ በኵሉ፡ ዘተገብረ፡ መትሕተ፡ ፀሓይ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=7"/>ነዓ፡ ብላዕ፡ በፍሥሐ፡ ኅብስተከ፡ ወስተይ፡ በልብከ፡ ኄር፡ ወይነከ፡ እስመ፡ ሠምረ፡ እግዚአብሔር፡ ምግበሪከ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=8"/>በኵሉ፡ ጊዜ፡ ይኩን፡ ኦልባሲከ፡ ንጹሐ፡ ወቅብዕ፡ አምርእስከ፡ ኢይርኀቅ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=9"/>ወርኢ፡ ሕይወተ፡ ምስለ፡ ብእሲትከ፡ እንተ፡ አፍቀርከ፡ ኵሎ፡ መዋፅለ፡ ሕይወትከ፡ እለ፡ ተውህባከ፡ እምታሕተ፡ ፀሓይ፡ ኵሎ፡ መዋዕለ፡ መዋዕል፡ እለ፡ ኮና፡ ለከ፡ እስመ፡ ውእቱ፡ መክፈልትከ፡ በሕይወትከ፡ ወበሥራኅከ፡ ዘትሰርኅ፡ መትሕተ፡ ፀሓይ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=10"/>ኵሎ፡ ዘትክል፡ እዴከ፡ ለገቢር፡ መጠነ፡ ኃይልከ፡ ግበር፡ እስመ፡ አልቦ፡ ግብር፡ ወህሊና፡ መጥበብ፡ ወአእምሮ፡ ውስተ፡ ገሃነም፡ ኀበ፡ ተሐውር፡ አንተ፡ ህየ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=11"/>ተመየጥኩ፡ ወርኢኩ፡ መትሕተ፡ ፀሓይ፡ ከመ፡ አኮ፡ ለቀሊላን፡ ረዊፅ፡ ወአኮ፡ ለጽኑዓን፡ ቀትል፡ ወአኮ፡ ለጠቢባን፡ እክል፡ ወአኮ፡ ለማእምራን፡ ብፅል፡ ወአኮ፡ ለእለ፡ ይሌብዉ፡ ጸጋ፡ እስመ፡ ጊዜ፡ ወድድቅ፡ ይዳድቆሙ፡ ለኵሎሙ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=12"/>እስመ፡ ኢያአምሩ፡ ጊዜሁ፡ ከመ፡ ዓሣት፡ እለ፡ ይሠገሩ፡ በመርበብት፡ እኩይ፡ ወከመ፡ አዕዋፍ፡ ዘይትኣኃዙ፡ በመሥገርት፡ ወከማሁ፡ ይሠገሩ፡ ውሉደ፡ ሰብእ፡ በጊዜ፡ እኩይ፡ ሶበ፡ ይወድቅ፡ ዲቤሆሙ፡ ግብተ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=13"/>ወናሁ፡ ዘንተኒ፡ ርኢኩ፡ ጥበበ፡ መትሕተ፡ ፀሓይ፡ ወዓባይ፡ ይእቲ፡ በኀቤየ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=14"/>ሀገር፡ ንስቲት፡ ወሰብእ፡ እለ፡ ውስቴታ፡ ኅዳጣን፡ ወአመ፡ መጽአ፡ ላዕሌሃ፡ ንጉሥ፡ ዐቢይ፡ ወዓገታ፡ ወየሐንጽ፡ ላዕሌሃ፡ ጥቅመ፡ ዓቢየ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=15"/>ረከበ፡ በውስቴታ፡ ብእሴ፡ ነዳየ፡ ወጠቢበ፡ ወያድኅን፡ ሀገረ፡ ውእቱ፡ ነዳይ፡ በጥበቡ፡ ወአልቦ፡ ዘተዘከሮ፡ ሰብእ፡ ኅቡረ፡ ለውእቱ፡ ብእሲ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=16"/>ወእቤ፡ አነ፡ ትኄይስ፡ ጥበብ፡ እምኀይል፡ ወጥበቡ፡ ለነዳይ፡ እንተ፡ ትትሜነን፡ ወነገሩ፡ ኢኮኑ፡ እለ፡ ይሰምዑ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=17"/>ነገረ፡ ጠበብት፡ በዕረፍት፡ ይሰማዕ፡ እምነ፡ ጽራኆሙ፡ ለእለ፡ ይኴንኑ፡ በእበድ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=18"/>ትኄይስ፡ ጥበብ፡ እምንዋየ፡ ሐቅል፡ ወእንዘ፡ የኃጥእ፡ አሐደ፡ የሐጕል፡ በረከተ፡ ብዙኃ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="10" xml:id="section10">
+      <t:label>Chapter 10</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=1"/>ጽንጽንያ፡ ምውት፡ ያማስን፡ አፈወ፡ ቅብእ፡ ጥዑም፡ ይከብር፡ ንስቲት፡ ጥበብ፡ እምነ፡ ክብር፡ ዐቢይ፡ በእበድ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=2"/>ልበ፡ ጠቢብ፡ ውስተ፡ የማኑ፡ ወልቡ፡ ለአብድ፡ ውስተ፡ ፀጋሙ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=3"/>ወሶበ፡ የሐውር፡ አብድ፡ በፍኖት፡ ልቡ፡ የሐጾ፡ ወዘይኄሊ፡ ኵሎ፡ አብድ፡ ውእቱ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=4"/>እመ፡ መንፈሱ፡ ለዘ፡ ይሤለጥ፡ ዐርገ፡ ላዕሌከ፡ መካነከ፡ ኢትሕድግ፡ እስመ፡ ፈውስ፡ ያሐድግ፡ ኃጣይአ፡ ዐቢየ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=5"/>በእኩይ፡ ዘርኢኩ፡ መትሕተ፡ ፀሓይ፡ ከመ፡ ዘበኢያእምሮ፡ ወፅአ፡ ቅድመ፡ ይሴለጥ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=6"/>ተውህበ፡ አብድ፡ ለሉዓሌ፡ ዐቢይ፡ ወአብዕልት፡ መትሕተ፡ ይነብሩ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=7"/>ርኢኩ፡ እግብርት፡ ዲበ፡ አፍራስ፡ ወመኴንንት፡ እንዘ፡ የሐውሩ፡ ዲበ፡ ምድር፡ ከመ፡ አግብርት።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=8"/>ዘይከሪ፡ ግበ፡ ውስቴቱ፡ ይወድቅ፡ ወዘይነሥት፡ ፀቈነ፡ ይነስኮ፡ አርዌ፡ ምድር።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=9"/>ዘያስተፌልስ፡ እብነ፡ የሐምም፡ ቦሙ፡ ወዘይሤርጽ፡ ዕፀ፡ ይትመነደብ፡ ቦሙ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=10"/>አመ፡ ተመልኀ፡ ሐፂኑ፡ ወውእቱኒ፡ ግጾ፡ አስተዋለወለ፡ ወኀይል፡ ታኄይል፡ ወፍድፍድናሁ፡ ለጽኑዕ፡ ጥበብ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=11"/>እመ፡ ነሰከ፡ እርዌ፡ ምድር፡ ወኢፈወሰ፡ ረቃዪ፡ አልቦ፡ ዘይበቍዕ፡ ዘይረቂ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=12"/>ንባቡ፡ አፉሁ፡ ለጠቢብ፡ ሞገስ፡ ወከናፍሪሁ፡ ለአብድ፡ ያሰጥማሁ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=13"/>ቀዳሚ፡ ንባበ፡ አፉሁ፡ ዕበድ፡ ወደኃሪተ፡ አፉሁ፡ ፀዋግ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=14"/>አብድ፡ ያበዝኅ፡ ነገረ፡ ኢያአምር፡ ብእሲ፡ ምንተ፡ ዘኮነ፡ ወምንተ፡ ዘይከውን፡ እስመ፡ እምድኅሬሁ፡ መኑ፡ ይዜንዎ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=15"/>ፃማሁ፡ ለእብድ፡ ያሐምሞ፡ እስመ፡ ኢያአምር፡ ሐዊረ፡ ውስተ፡ ሀገር።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=16"/>አሌ፡ ለኪ፡ ሀገር፡ እንተ፡ ንጉሥኪ፡ ወሬዛ፡ ወመኳንንትኪ፡ በነግህ፡ ይበልዑ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=17"/>ብፅዕት፡ እንቲ፡ ምድር፡ እንተ፡ ንጉሥኪ፡ ወልደ፡ አግዓዚ፡ ወመኳንንትኪ፡ በጊዜ፡ ይበልዑ፡ በኃይል፡ ወኢይትኃፈሩ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=18"/>በሐኬት፡ በጽርዓተ፡ እደው፡ ይወድቅ፡ ቤተ፡ ወያወጽሕ፡ ቤት፡ በእድው፡ ሐካያን።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=19"/>ለሰሐቅ፡ ይሬስይዎ፡ ኅብስተ፡ ወወይን፡ ያስተፌሥሕ፡ ሕያዋነ፡ ለወርቅ፡ ይትኤዘዝ፡ ኵሉ፡ ኅቡረ።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=20"/>ወአንተኒ፡ በህሊናከ፡ ንጉሠ፡ ኢትርግም፡ ወበውሳጢተ፡ ቤትከ፡ በዑላነ፡ ኢትርግም፡ እስመ፡ ዖፈ፡ ሰማይ፡ ያወፅእ፡ ቃለከ፡ ወዘቦ፡ ክንፍ፡ ይዜኑ፡ ንባበከ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="11" xml:id="section11">
+      <t:label>Chapter 11</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=1"/>ፈኑ፡ ኅብስተከ፡ ውስተ፡ ገጸ፡ ማይ፡ እስመ፡ በብዙኅ፡ መዋዕል፡ ትረክቦ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=2"/>ሀብ፡ መክፈልተ፡ ለስብዐቱ፡ ወለሰማንቱ፡ እስመ፡ ኢታአምር፡ ዘይከውን፡ እኩይ፡ ውስተ፡ ምድር።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=3"/>እመ፡ መልአት፡ ደመና፡ ዝናመ፡ ውስተ፡ ምድር፡ ይክዑ፡ ወእመ፡ ወድቀ፡ ዕፅ፡ እመኒ፡ ደቡበ፡ ወእመኒ፡ ሰሜነ፡ ወእደ፡ ወድቀ፡ ዕፅ፡ ህየ፡ ይሄሉ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=4"/>ዘየዐቅብ፡ ነፋሰ፡ ኢይዘርእ፡ ወዘይኔጽር፡ ደመናተ፡ ኢየዐጽድ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=5"/>እስመ፡ አልቦ፡ ዘያአምር፡ ምንት፡ ውእቱ፡ ፍኖተ፡ መንፈስ፡ ከመ፡ አዕፅምት፡ ውስተ፡ ከርሠ፡ ፅንስት፡ ከማሁ፡ ኢታአምር፡ ግብሮ፡ ለእግዚአብሔር፡ መጠነ፡ ገብረ፡ ኅቡረ፡ ከሎ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=6"/>በነግህ፡ ዝራእ፡ ዘርአከ፡ ወበምሴትኒ፡ ኢይኅድግ፡ እዴከ፡ እስመ፡ ኢታአምር፡ ዘይከውን፡ እመዝ፡ ውስተዝ፡ ወእመ፡ ክልኤሆሙ፡ ኅቡረ፡ ሠናይ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=7"/>ጥዑም፡ ብርሃን፡ ወሠናይ፡ ለአዕይንት፡ ለርኢየ፡ ኅብረ፡ ፀሓይ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=8"/>እስመ፡ እመኒ፡ ዓመታተ፡ ብዙኀ፡ ሐይወ፡ ሰብእ፡ በኵሎን፡ ይትፌሣሕ፡ ወይዜከር፡ መዋዕል፡ ጽልመት፡ ከመ፡ ብዙኃተ፡ ይከውና፡ ኵሉ፡ ዘይመጽእ፡ ከንቶ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=9"/>ተፈሣሕ፡ ብአሲ፡ በውርዙትከ፡ ወትሠኒ፡ ልበከ፡ በመዋዕለ፡ ውርዙትከ፡ ወሖር፡ በፍኖተ፡ ልብከ፡ ዘበንጹሕ፡ ወኢበርኢየ፡ ዐይንከ፡ ወአእምር፡ ከመ፡ በእንተዝ፡ ኵሉ፡ ዘያቀርበከ፡ እግዚኣ፡ ብሔር፡ ለኵነኔ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=10"/>ወአርሕቅ፡ መዐተ፡ እምልብከ፡ ወአግሕስ፡ እከየ፡ እምሥጋከ፡ እስመ፡ ውርዙት፡ ወኢያእምሮ፡ ከንቱ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="12" xml:id="section12">
+      <t:label>Chapter 12</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=1"/>ተዘከሮ፡ ለፈጣሪከ፡ በመዋዕለ፡ ውርዙትከ፡ ዘእንበለ፡ ይምጻእ፡ መዋዕል፡ እኩይ፡ ወይበጽሕ፡ ዓመታተ፡ በእለ፡ ትብል፡ ኢኮነኒ፡ ቦቶን፡ ፈቃድየ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=2"/>ዘእንበለ፡ ይጽልም፡ ፀሓይ፡ ወብርሃነ፡ ወርኅ፡ ወከዋክብት፡ ወዘእንበለ፡ ይትመየጡ፡ ደመናት፡ ድኅረ፡ ዝናማት።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=3"/>አመ፡ ዕለተ፡ ያንቀለቅሉ፡ ዐቃቢያነ፡ ቤት፡ ይትዐወለዉ፡ ሰብእ፡ ኀየልት፡ ወተፀርዓ፡ እለ፡ የሐርጻ፡ እስመ፡ ውሕዳ፡ ወይጸልማ፡ እለ፡ ይሬእያ፡ በጸዳል።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=4"/>ወየዐፅዉ፡ ኆኃተ፡ በምሥያጣት፡ በድውይ፡ ቃል፡ እንተ፡ ተሐርጽ፡ ወትትነሣእ፡ በቃለ፡ ዖፍ፡ ወያሐስራ፡ ኵሎን፡ አዋልደ፡ ማኅሌት።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=5"/>እስመ፡ እመልዕልት፡ ይሬእዩ፡ ወድንጋፄ፡ ውስተ፡ ፍኖት፡ ወይጸጊ፡ ከርካዕ፡ ወይገዝፍ፡ አንበጣ፡ ወይትፈረዘዝ፡ ቈልሕ፡ እስመ፡ ኆረ፡ ብእሲ፡ ውስተ፡ ቤተ፡ ዓለሙ፡ ወኦዱ፡ ጸጐ፡ እለ፡ የሐብሉ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=6"/>እስከ፡ ሶበ፡ እንበለ፡ ይትገፋዕ፡ ሕብሩ፡ ለብሩር፡ ወተቀጥቀጠ፡ አስተርእዮቱ፡ ለወርቅ፡ ወይትቀጠቀጥ፡ መሳብክ፡ ውስተ፡ ዐዘቅት፡ ወያንኰረኵር፡ መንኰራኵር፡ ውስተ፡ ዐዘቅት።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=7"/>ወይገብእ፡ መሬት፡ ውስተ፡ ምድር፡ ከመ፡ ሀሎ፡ ወመንፈስ፡ ይገብእ፡ ኀበ፡ አግዚኣ፡ ብሔር፡ ዘወሀቦ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=8"/>ከንቱ፡ ከንቱ፡ ይቤ፡ መኩበብ፡ ኵሉ፡ ከንቱ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=9"/>ወፈድፋደ፡ እስመ፡ ኮነ፡ መክብብ፡ ጠቢበ፡ ወእስመ፡ ይሜህር፡ አእምሮ፡ ኵሎ፡ ሰብአ፡ ወእዝን፡ ይፈትን፡ ሰርጐ፡ ምስል።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=10"/>ብዙኀ፡ ኀሠሠ፡ መክብብ፡ ከመ፡ ይርከብ፡ ነገረ፡ ፈቃድ፡ ወጽሑፍ፡ ርትዐ፡ ንበበ፡ ጽድቅ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=11"/>ነገረ፡ ጠቢባን፡ ከመ፡ መድጕጽ፡ ላህም፡ ወከመ፡ ቅትራት፡ ርሡን፡ እለ፡ እምኀበ፡ ትምህርት፡ ተውህቡ፡ እምአሐዱ፡ ኖላዊ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=12"/>ወፈድፋደ፡ እምውስቴቶሙ፡ ወልድየ፡ ኢትግበር፡ መጻሕፍተ፡ ብዙኀ፡ ዘአልቦ፡ ፍጻሜ፡ ወትምህርት፡ ብዙኅ፡ ጻማ፡ ለሥጋ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=13"/>ንበበ፡ ኵሉ፡ ነገር፡ ስማዕ፡ ወእግዚኣ፡ ብሔር፡ ፍራህ፡ ወትእዛዘቲሁ፡ ዕቀብ፡ እስመዝ፡ ውእቱ፡ ኵሉ፡ ብእሲ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=14"/>እስመ፡ ኵሉ፡ ፍጥረት፡ የዐቅብ፡ እግዚኣ፡ ብሔር፡ ለኵሉ፡ ዘኢያስተርአየ፡ እመ፡ ሠናየ፡ ወእመ፡ እኩየ።     ፡ ስባሔ፡ ስባሔያት፡ ዘይሰመይ፡ ሰርድስሪን፡ ተፈጸመ፡ ቃለ፡ መክብብ፡ ወልደ፡ ዳዊት።</t:l>
+      </t:ab>
+   </t:div>
+</t:div>
+         <t:div type="edition" xml:lang="gez" xml:id="EOTCed">
+   <t:note>Text of the EOTC printed Bible</t:note>
+   <t:div type="textpart" subtype="chapter" n="1" xml:id="chapter1">
+      <t:label>Chapter 1</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=1"/>ቃለ፡ ሰሎሞን፡ መክብብ፡ ወልደ፡ ዳዊት፡ ንጉሠ፡ እስራኤል፡ በኢየሩሳሌም።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=2"/>ከንቱ፡ ከንቱ፡ ይቤ፡ መክብብ፡ ኵሉ፡ ከንቱ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=3"/>ምንት፡ ፍድፋዴሁ፡ ለሰብእ፡ በኵሉ፡ ፃማሁ፡ ዘይፃሙ፡ እምታሕተ፡ ፀሐይ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=4"/>ትውልድ፡ የኃልፍ፡ ትውልድ፡ ይመጽእ፡ ወምድርሰ፡ ለዓለም፡ ትቀውም።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=5"/>ይሠርቅ፡ ፀሐይ፡ ወየዐርብ፡ ፀሐይ፡ ወውስተ፡ መካኑ፡ ይገብእ፡ እንዘ፡ ይሠርቅ፡ ውእቱ፡ ህየ፡ ይገብእ፡ በይምን፡ ወየዐውድ፡ መንገለ፡ ሰሜን።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=6"/>ዓውደ፡ የዓውድ፡ ወየሐውር፡ መንፈስ፡ ወበዑደቱ፡ ይገብእ፡ መንፈስ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=7"/>ወኵሎሙ፡ ውሒዛት፡ የሐውሩ፡ ውስተ፡ ባሕር፡ ወባሕርኒ፡ ኢኮነት፡ እንተ፡ ትመልእ፡ ውስተ፡ መካና።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=8"/>ወእደ፡ የሐውሩ፡ አፍላግ፡ ህየ፡ ካዕበ፡ ይትመየጡ፡ ለሐዊር።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=9"/>ኵሉ፡ ቃል፡ ዘበሕማም፡ ኢይክል፡ ብእሲ፡ ለተናግሮ፡ ወኢይጸግብ፡ ዓይን፡ በርእይ፡ ወኢይመልእ፡ ዕዝን፡ በአጽምኦ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=10"/>ወምንት፡ ውእቱ፡ ገብረ፡ እምዘተገብረ፡ ወምንት፡ ውእቱ፡ ዘኮነ፡ እምዘኮነ፡ ወአልቦ፡ ምንትኒ፡ ዘተገብረ፡ በመትሕተ፡ ፀሐይ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=11"/>ዘይነብብ፡ ወይብል፡ ናሁ፡ ዝ፡ ሐዲስ፡ ውእቱ፡ ወናሁ፡ ተገብረ፡ ዓለም፡ እምዓለም፡ ዘኮነ፡ እምቅድሜነ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=12"/>አልቦሙ፡ ዝክር፡ ለቀደምት፡ ምስለ፡ ደኃርት፡ ወለእለ፡ ደኃርትኒ፡ ምስለ፡ ዘይትገበር፡ በደኃርት።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=13"/>አነ፡ መክብብ፡ ኮንኩ፡ ንጉሠ፡ እስራኤል፡ በኢየሩሳሌም።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=14"/>ወወሀብኩ፡ ልብየ፡ ለኃሢሥ፡ ወለፈቲን፡ በጥበብ፡ በእንተ፡ ኵሉ፡ ዘተገብረ፡ መትሕተ፡ ፀሐይ፡ እስመ፡ ሥራኀ፡ እኩየ፡ ወሀበ፡ እግዚአብሔር፡ ለውሉደ፡ ሰብእ፡ ከመ፡ ይሥርኁ፡ ቦቱ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=15"/>ርኢኩ፡ ኵሎ፡ ፍጥረተ፡ ዘተገብረ፡ በመትሕተ፡ ፀሐይ፡ ወናሁ፡ ኵሉ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=16"/>ጠዋይ፡ ኢይክል፡ ረቲዐ፡ ወሕፁፅ፡ ኢይክል፡ ተኈልቆ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=17"/>ተናገርኩ፡ አነ፡ በልብየ፡ በብሂል፡ ወናሁ፡ አፈድፈድኩ፡ ወአዕበይኩ፡ ጥበበ፡ እምእለ፡ ኮኑ፡ እምቅድሜየ፡ በኢየሩሳሌም፡ ወልብየ፡ ርእየት፡ ብዙኀ፡ ጥበበ፡ ወአእምሮ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=18"/>ወወሀብኩ፡ ልብየ፡ ለአእምሮ፡ ወለጥበብ፡ ጥበበ፡ ወአእምሮ፡ ወምሳሌ፡ ወትምህርተ፡ አእመርኩ፡ እስመ፡ ዝኒ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=1&amp;verse=19"/>እስመ፡ በብዝኀ፡ ጥብ፡ ብዙኅ፡ ኀዘን፡ ወዘአፈድፈደ፡ አእምሮ፡ አፈድፈደ፡ ሕማመ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="2" xml:id="chapter2">
+      <t:label>Chapter 2</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=1"/>እቤ፡ አነ፡ በልብየ፡ ነዓ፡ እምክርከ፡ በፍሥሓ፡ ወርኢ፡ በሠናይ፡ ወናሁ፡ እቤ፡ ዝኒ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=2"/>ለሰሐው፡ እብሎ፡ አስፍጦ፡ ወለፍሥሓ፡ ምንት፡ ውእቱዝ፡ ግብር።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=3"/>ወመከርኩ፡ እምልብየ፡ ጥበብ፡ ሰሐበቶ፡ ከመ፡ ወይን፡ ለሥጋየ፡ ወልብየ፡ መሀረኒ፡ ጥበበ፡ ወዝኒ፡ እኂዝ፡ ለፍሥሓ፡ እስከ፡ ሶበ፡ እሬኢ፡ ምንት፡ ውእቱ፡ ሠናይ፡ ለውሉደ፡ ሰበእ፡ ዘይገብሩ፡ እምታሕተ፡ ፀሐይ፡ በኊልቈ፡ መዋዕለ፡ ሕይወቶሙ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=4"/>አንሰ፡ መክብብ፡ አዕበይኩ፡ ምግባርየ፡ ወሐነጽኩ፡ ሊተ፡ አብያተ፡ ወተከልኩ፡ አዕፃዳተ፡ ወይን።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=5"/>ወገበርኩ፡ ሊተ፡ አዕፃዳተ፡ ሐምል፡ ወገነታተ፡ ወተከልኩ፡ ውስቴቶሙ፡ ኵሎ፡ ዕፀወ፡ ዘይፈርዩ፡ በበዖታሆሙ፡ ወኵሉ፡ ዘኢይፈሪ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=6"/>ወገበርኩ፡ ሊተ፡ ምዕቃለ፡ ማያት፡ ከመ፡ እሥቂ፡ እምኔሆሙ፡ ኦመ፡ ወዕፀ፡ ዘይፈሪ፡ ገራህተ፡ ወገራውህ፡ አጥረይኩ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=7"/>አግብርተ፡ ወአእማተ፡ ወልደ፡ ቤት፡ አጥረይኩ፡ ጥሪተ፡ ወኖሎተ፡ አልሕምት፡ ወመራዕየ፡ አባግዕ፡ ብዙኀ፡ አጥረይኩ፡ እምኵሎሙ፡ እለ፡ ኮኑ፡ እምቅድሜየ፡ በኢየሩሳሌም።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=8"/>ወአስተጋባእኩ፡ ብዙኀ፡ ብሩረ፡ ወወርቀ፡ ወጥሪተ፡ መንግሥት፡ ወበሐውርተ፡ ኀለይተ፡ ወኀላይያነ፡ ወፍግዐ፡ ምስለ፡ ውሉደ፡ ሰብእ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=9"/>መዘርተ፡ ወመዛርያነ፡ አዕበይኩ፡ ወአፈድፈድኩ፡ እምእለ፡ ኮኑ፡ እምቅድሜየ፡ በኢየሩሳሌም፡ ወጥበብየኒ፡ ቆመተኒ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=10"/>ኵሎ፡ ዘሰአላ፡ አዕይንትየ፡ ኢተመቈስኩ፡ ወኢከላእክዎ፡ ለልብየ፡ እምኵሉ፡ ፍሥሓ፡ እስመ፡ ልብየ፡ ተፈሥሐ፡ በኵሉ፡ ፃማየ፡ ወዝንቱ፡ ኮነ፡ መክፈልትየ፡ እምኵሉ፡ ሥራኅየ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=11"/>ወነፀርኩ፡ ዲበ፡ ኵሉ፡ ጥሪትየ፡ ዘገብራ፡ እደውየ፡ ወበሥራኅየ፡ ዘሠራዕኩ፡ ለገቢር፡ ወናሁ፡ ኵሉ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ፡ ወአልቦ፡ ፍድፋዴ፡ እምታሕተ፡ ፀሐይ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=12"/>ወነፀርኩ፡ አነ፡ ከመ፡ እርአይ፡ ጥበበ፡ ወተሰፍጦ፡ ወዕበደ፡ መኑ፡ ብእሲ፡ ዘይተሉ፡ ድኅሬሃ፡ ለምክር፡ ወኵሎ፡ ምሳሌ፡ ዘገብረ፡ ላቲ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=13"/>ወርኢኩ፡ አነ፡ ከመቦ፡ ፍድፍድና፡ ለጠቢብ፡ እምዐብድ፡ ከመ፡ ፍድፋዴ፡ ብርሃን፡ እምጽልመት።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=14"/>እስመ፡ ለጠቢብ፡ ዐዕይንቲሁ፡ ዲበ፡ ርእሱ፡ ወዐብድሰ፡ ውስተ፡ ጽልመት፡ የሐውር፡ ወአእመርኩ፡ አነ፡ ከመ፡ አሐዱ፡ ድድቅ፡ ይዳደቆሙ፡ ለክልኤሆሙ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=15"/>ወሶቤሃ፡ አነ፡ እቤ፡ በልብየ፡ በከመ፡ ይዳደቆ፡ ለዐብድ፡ ከማሁ፡ ሊተኒ፡ ይዳደቀኒ፡ ወለምንት፡ ጠበብኩ፡ አነ፡ አሜሃ፡ በከ፡ አፈድፈድኩ፡ ነቢበ፡ እስመ፡ ዝኒ፡ ከንቱ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=16"/>እስመ፡ አልቦ፡ ዝክር፡ ለጠቢብ፡ ምስለ፡ ዐብድ፡ ለዓለም፡ እስመ፡ ናሁ፡ መዋዕል፡ ይመጽእ፡ ወኵሉ፡ ይትረሳዕ፡ ወእፎ፡ ይመውት፡ ጠቢብ፡ ምስለ፡ ዐብድ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=17"/>ወጸላእኩ፡ ኵሎ፡ ህይወትየ፡ እስመ፡ እምእኩይ፡ ፍጥረት፡ ላዕሌየ፡ ሀሎ፡ ዘተገብረ፡ መትሕተ፡ ፀሐይ፡ እስመ፡ ኵሉ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=18"/>ጸላእኩ፡ አነ፡ ኵሎ፡ ሥራኅየ፡ ዘአነ፡ እሠርኅ፡ እምታሕተ፡ ፀሐይ፡ እስመ፡ አኀድጎ፡ ለሰብእ፡ ዘይትወለድ፡ እምድኅሬየ።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=19"/>ወመኑ፡ የአምር፡ እመ፡ ጠቢበ፡ ይከውን፡ ወእመ፡ አኮ፡ ዐብድ፡ ወእመ፡ አኮ፡ ይሤለጥ፡ በኵሉ፡ ዘሥራኅየ፡ ዘሠራኅኩ፡ ወተጠበብኩ፡ እምታሕተ፡ ፀሐይ፡ ወዝኒ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=20"/>ወተመየጥኩ፡ አነ፡ ከመ፡ እትዋገዞ፡ ለልብየ፡ በኵሉ፡ ሥራኅየ፡ ዘሠራኅኩ፡ እምታሕተ፡ ፀሐይ።</t:l>
+         <t:l n="21">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=21"/>እስመ፡ ቦ፡ ሰብእ፡ ዘይሠርኅ፡ ሎቱ፡ በጥበብ፡ ወአእምሮ፡ በጽኑዕ፡ ወበምክር፡ ወለብእሲ፡ ዘኢሠርኀ፡ ቦቱ፡ ይሁብ፡ መክፈልቶ፡ ወዝኒ፡ ከንቱ፡ ወእኩይ፡ ዓቢይ።</t:l>
+         <t:l n="22">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=22"/>እስመ፡ ኢይከውኖ፡ ለብእሲ፡ በኵሉ፡ ፃማሁ፡ ወፍትወተ፡ ልቡ፡ ዘውእቱ፡ ይሠርኅ፡ እምታሕተ፡ ፀሐይ።</t:l>
+         <t:l n="23">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=23"/>እስመ፡ ኵሉ፡ መዋዕሊሁ፡ ሕማም፡ ወመዓት፡ ወንታፌ፡ ሎቱ፡ ወበሌሊትኒ፡ ኢይነውም፡ ልቡ፡ ወዝኒ፡ ከንቱ፡ ውእቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="24">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=24"/>ወአልቦ፡ ሠናይ፡ ለሰብእ፡ ዘእንበለ፡ ዘበልዐ፡ ወሰትየ፡ ወዘያሬእያ፡ ሠናየ፡ ለነፍሱ፡ ወዝኒ፡ ዘርኢኩ፡ አነ፡ ከመ፡ እምእደ፡ እግዚአብሔር፡ ውእቱ።</t:l>
+         <t:l n="25">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=25"/>ወመኑ፡ ውእቱ፡ ዘይበልዕ፡ ወይሰቲ፡ ዘእንበሌሁ።</t:l>
+         <t:l n="26">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=26"/>እስመ፡ ለብእሲ፡ ኄር፡ ቅድመ፡ ገጹ፡ ወሀቦ፡ ጥበበ፡ ወአእምሮ፡ ወፍሥሐ።</t:l>
+         <t:l n="27">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=2&amp;verse=27"/>ወለዘሰ፡ ይኤብስ፡ ወሀቦ፡ ሥራኀ፡ ከመ፡ ይወስክ፡ ወያስተጋብእ፡ ብዕለ፡ ከመ፡ የሀብ፡ ለኄር፡ ዘሀሎ፡ ቅድመ፡ ገጹ፡ ለእግዚአብሔር፡ ወዝኒ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="3" xml:id="chapter3">
+      <t:label>Chapter 3</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=1"/>ቦ፡ ለኩሉ፡ ዘመን፡ ወቦ፡ ጊዜ፡ ለኵሉ፡ ምግባር፡ እምታሕተ፡ ፀሐይ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=2"/>ጊዜ፡ ለጸኒስ፡ ወጊዜ፡ ለወሊድ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=3"/>ጊዜ፡ ለሕይወት፡ ወጊዜ፡ ለመዊት፡ ጊዜ፡ ለተኪል፡ ወጊዜ፡ ለመሊኅ፡ ዘተከሉ፡ ጊዜ፡ ለአቊስሎ፡ ወጊዜ፡ ለፈውሶ፡ ጊዜ፡ ለሐኒፅ፡ ወጊዜ፡ ለነሢት።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=4"/>ጊዜ፡ ለብካይ፡ ወጊዜ፡ ለሰሐቅ፡ ጊዜ፡ ላህዎ፡ ወጊዜ፡ ለዘፊን።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=5"/>ጊዜ፡ ለወርዎ፡ እብን፡ ወጊዜ፡ ለአስተጋብኦ፡ እብን፡ ጊዜ፡ ለተሐቅፎ፡ ወጊዜ፡ ለተራኅቆ፡ እምተሐቅፎ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=6"/>ጊዜ፡ ለኃሢሥ፡ ወጊዜ፡ ለኀጒል፡ ጊዜ፡ ለአቂብ፡ ወጊዜ፡ ለአውፅኦ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=7"/>ጊዜ፡ ለሰጢጥ፡ ወጊዜ፡ ለረፊእ፡ ጊዜ፡ ለአርምሞ፡ ወጊዜ፡ ለተናግሮ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=8"/>ጊዜ፡ ለአፍቅሮ፡ ወጊዜ፡ ለጽልእ፡ ጊዜ፡ ለጸብእ፡ ወጊዜ፡ ለሰላም።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=9"/>ምንት፡ ፍድፋዴሁ፡ ለዘይገብር፡ በዘውእቱ፡ ይሠርኅ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=10"/>ርኢኩ፡ ኵሎ፡ ሥራኀ፡ ዘወሀበ፡ እግዚአብሄር፡ ለውሉደ፡ ሰብእ፡ ሥራኀ፡ ከመ፡ ይሥርኁ፡ ቦቱ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=11"/>ኵሉ፡ ሠናይ፡ ዘገብረ፡ በጊዜሁ፡ ወኵሎ፡ ኅቡረ፡ ወሀቦ፡ ለዓለም፡ ውስተ፡ ልቡ፡ ከመ፡ ኢይርከብ፡ ሰብእ፡ ግብረ፡ ዘገብረ፡ እግዚአብሔር፡ እምጥንቱ፡ እስከ፡ ተፍጻሜቱ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=12"/>አእመርኩ፡ ከመ፡ አልቦ፡ ሠናይ፡ እምውስቴቶሙ፡ ዘእንበለ፡ ዘተፈሥሐ፡ ወገብረ፡ ሠናየ፡ በሕይወቱ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=13"/>ወኵሉ፡ ዘበልዐ፡ ወሰትየ፡ ወርእየ፡ ሠናየ፡ እምኵሉ፡ ፃማሁ፡ ዝኒ፡ ሀብተ፡ እግዚአብሔር፡ ውእቱ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=14"/>አእመርኩ፡ ከመ፡ ኵሉ፡ ዘገብረ፡ እግዚአብሔር፡ ውእቱ፡ ይሄሉ፡ ለዓለም፡ ወእምውስቴቶሙ፡ ኢይትከሃል፡ ወስኮ፡ ወእምውስቴቶሙ፡ ኢይትከሃል፡ ነቲግ፡ ወእግዚአብሔር፡ ገብረ፡ ከመ፡ ይፍርሁ፡ እምቅድመ፡ ገጹ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=15"/>ወዘተገብረ፡ ናሁ፡ ውእቱ፡ ሀሎ፡ ወኵሉ፡ እምዘተገብረ፡ ናሁ፡ ተገብረ፡ ወእግዚአብሔር፡ የኀሥሦ፡ ለዘይሰድዶ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=16"/>ወዓዲ፡ ቦ፡ ዘርኢኩ፡ እምታሕተ፡ ፀሐይ፡ በመካነ፡ ጻድቅ፡ ህየ፡ ረሲዕ፡ ወበመካነ፡ ረሲዕ፡ ህየ፡ ጻድቅ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=17"/>ወበህየ፡ አነ፡ እቤ፡ በልብየ፡ ኅቡረ፡ ጻድቀ፡ ወረሲዐ፡ ይኴንን፡ እግዚአብሔር፡ እስመ፡ ቦ፡ ጊዜ፡ ለኵሉ፡ ምግባር።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=18"/>ወበህየ፡ እቤ፡ አነ፡ በልብየ፡ በእንተ፡ ነገረ፡ ውሉደ፡ ሰብእ፡ ከመ፡ ይኴንኖሙ፡ እግዚአብሔር፡ ወከመዝ፡ ርኢኩ፡ ከመ፡ እንስሳ፡ እሙንቱ።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=19"/>ወሎሙኒ፡ ጽድቅ፡ ለውሉደ፡ ሰብእ፡ ወድድቅ፡ ለእንስሳ፡ አሐዱ፡ ጽድቅ፡ ሎሙ፡ ከመ፡ ሞት፡ ዝ፡ ከማሁ፡ ሞቱ፡ ለዝ፡ ወአሐዱ፡ መንፈስ፡ ለኵሎሙ፡ ምንት፡ ፍድፋዴሁ፡ ለሰብእ፡ እም፡ እንስሳ፡ ወኢምንትኒ፡ እስመ፡ ኵሉ፡ ከንቱ።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=20"/>ኵሉ፡ የሐውር፡ ውስተ፡ አሐዱ፡ መካን፡ ኵሉ፡ ኮነ፡ እመሬት፡ ወኵሉ፡ ይገብእ፡ ውስተ፡ መሬት።</t:l>
+         <t:l n="21">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=21"/>መኑ፡ የአምር፡ መንፈሰ፡ ውሉደ፡ ሰብእ፡ ከመ፡ የዐርግ፡ ላዕለ፡ ወመንፈሰ፡ እንስሳ፡ ከመ፡ ይወርድ፡ ታሕተ፡ ውስተ፡ ምድር።</t:l>
+         <t:l n="22">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=3&amp;verse=22"/>ወርኢኩ፡ ከመ፡ አልቦ፡ ሠናይ፡ ዘእንበለ፡ ዘተፈሥሐ፡ ሰብእ፡ በተግባሩ፡ እስመ፡ ውእቱ፡ መክፈልቱ፡ ወመኑ፡ ያመጽኦ፡ ከመ፡ ይርአይ፡ ዘይከውን፡ እምድኅሬሁ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="4" xml:id="chapter4">
+      <t:label>Chapter 4</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=1"/>ወተመየጥኩ፡ አነ፡ ወርኢኩ፡ ኵሎ፡ ኅቡረ፡ ትዕግልተ፡ ዘይትገበር፡ እምታሕተ፡ ሰማይ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=2"/>ወናሁ፡ አንብዕ፡ ላዕለ፡ እለ፡ ይትዔገልዎሙ፡ ወአልቦ፡ ዘይናዝዞሙ፡ እምእለ፡ ይትዔገልዎሙ፡ በኃይል።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=3"/>ወአስተኃየስክዎሙ፡ አነ፡ ለእለ፡ ሞቱ፡ ኅቡረ፡ እለ፡ ወድኡ፡ ሞተ፡ እምሕያዋን፡ ወእለ፡ እሙንቱ፡ ሕያዋን፡ እስከ፡ ይእዜ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=4"/>ወእምክልኤሆሙ፡ ይኄይስ፡ ዳሕፅ፡ ወዓዲ፡ ኢተፈጥሮ፡ ዘኢየአምር፡ ኵሎ፡ ገቢረ፡ እከይ፡ ዘተገብረ፡ መትሕተ፡ ፀሐይ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=5"/>ወርኢኩ፡ አነ፡ ኵሎ፡ ሥራኀ፡ ኅቡረ፡ ወኵሎ፡ ኃይለ፡ ምግባር፡ ከመ፡ ውእቱ፡ ቅንእ፡ ለብእሲ፡ እምኀበ፡ ቢጹ፡ ወዝኒ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=6"/>ዐብድ፡ ሐቀፈ፡ እዴሁ፡ ወበልዐ፡ ሥጋሁ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=7"/>ሠናይ፡ ምልአ፡ እደ፡ በጽድቅ፡ እምነ፡ ክልኤቱ፡ ሕፍን፡ ዘበዓመፃ፡ ወዝኒ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=8"/>ወተመየጥኩ፡ አነ፡ ወርኢኩ፡ ከንቶ፡ መትሕተ፡ ፀሐይ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=9"/>ወሀሎ፡ አሐዱ፡ ወአልቦ፡ ካልእ፡ ወልድ፡ ወእኊ፡ አልቦ፡ ወአልቦ፡ ፍጻሜ፡ ለኵሉ፡ ሥራሑ፡ ወዓይኑሂ፡ ኢይመልእ፡ ብዕለ፡ ወኢይቤ፡ ለመኑ፡ እሠርኅ፡ አነ፡ ወእቄቅያ፡ ለነፍስየ፡ እምብዕል፡ ወዝኒ፡ ከንቱ፡ ወሥራኅ፡ እኩይ፡ ውእቱ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=10"/>ይኄይሱ፡ ክልኤቱ፡ እምአሐዱ፡ እለ፡ ቦሙ፡ ዐስብ፡ ሠናይ፡ በፃማሆሙ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=11"/>እስመ፡ እመ፡ ወድቀ፡ አሐዱ፡ ያነሥኦ፡ ካልኡ፡ አሌ፡ ሎቱ፡ ለአሐዱ፡ እመ፡ ወድቀ፡ አልቦ፡ ካልእ፡ ዘያነሥኦ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=12"/>እስመ፡ እመ፡ ኖሙ፡ ክልኤሆሙ፡ ይትማወቁ፡ ወአሐዱሰ፡ እፎ፡ ይትማወቅ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=13"/>ወእመ፡ ፀንዐ፡ ክልኤሆሙ፡ ይትቃወምዎ፡ ወፈትል፡ ሥሉስ፡ ፍጡነ፡ ኢይትበተክ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=14"/>ይኄይስ፡ ቅኑይ፡ ነዳይ፡ ወጠቢብ፡ እምንጉሥ፡ ልሂቅ፡ ወዐብድ፡ ዘኢየአምር፡ ለነጽሮ፡ ከመ፡ እምቤተ፡ ሞቅሕ፡ ይወጽእ፡ ለነጊሥ፡ እስመ፡ በመንግሥቱ፡ ኮነ፡ ነዳየ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=15"/>ወርኢኩ፡ አነ፡ ኵሎ፡ ኅቡረ፡ እለ፡ ሕያዋን፡ እለ፡ ያንሶስዉ፡ መትሕተ፡ ፀሐይ፡ ምሳሌ፡ ወሬዛ፡ ካልእ፡ ህየንቴሁ፡ ይትነሣእ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=4&amp;verse=16"/>ወአልቦ፡ ፍጻሜ፡ ለኵሉ፡ ሕዝብ፡ ለኵሎሙ፡ እለ፡ ኮኑ፡ እምቅድሜሁ፡ እስመ፡ ደኃርትኒ፡ ኢይትፌሥሑ፡ ቦቱ፡ እስመ፡ ዝኒ፡ ከንቱ፡ ወፍትወተ፡ መንፈስ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="5" xml:id="chapter5">
+      <t:label>Chapter 5</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=1"/>ዕቀብ፡ እገሪከ፡ ሶበ፡ ተሐውር፡ ውስተ፡ ቤተ፡ እግዚአብሔር፡ ወቅረብ፡ ለሰሚዐ፡ ትምህርቶሙ፡ ለጠቢባን፡ ዓዲ፡ ተዓቀብ፡ እምነ፡ ሀብቶሙ፡ ለዓብዳን፡ መሥዋዕተ፡ እስመ፡ ኢኮኑ፡ ማእምራን፡ ለገቢረ፡ ሠናይ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=2"/>ወዓዲ፡ ተዓቀብ፡ ከመ፡ ኢትጐጒዕ፡ በአፉከ፡ ወበልብከሂ፡ ኢትጐጒዕ፡ ለአውጽኦ፡ ቃል፡ ቅድመ፡ ገጸ፡ እግዚአብሔር፡ እስመ፡ እግዚአብሔር፡ ውስተ፡ ሰማይ፡ ላዕለ፡ ወአንተሰ፡ ውስተ፡ ምድር፡ ታሕተ፡ ወበእንተዝ፡ ይኩን፡ ነገርከ፡ ኅዳጠ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=3"/>እስመ፡ ይመጽእ፡ ሕልም፡ በብዙኅ፡ መከራ፡ ወቃለ፡ ዕበድ፡ በብዙኅ፡ ነገር።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=4"/>እምከመ፡ ጸለይከ፡ ጸሎተ፡ ኢታጐንዲ፡ ውኂቦታ፡ እስመ፡ ኢኮነ፡ ፈቃዱ፡ አንተሰ፡ በከመ፡ ጸለይከ፡ ጸሎተ፡ ሀብ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=5"/>ይኄይስ፡ ኢጸልዮትከ፡ እምጸልዮትከ፡ ዘበኢውሂብ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=6"/>ኢተሀብ፡ አፉከ፡ ለአበሳ፡ ሥጋከ፡ ወኢትበል፡ በቅድመ፡ እግዚአብሔር፡ በኢያእምሮ፡ ውእቱ፡ ከመ፡ ኢይትመዓፅ፡ እግዚአብሔር፡ ላዕሌከ፡ በእንተ፡ ቃልከ፡ ወኢያማስን፡ ግብረ፡ አደዊከ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=7"/>እስመ፡ ብዙኅ፡ ሕልም፡ ከንቱ፡ ወንባብኒ፡ ብዙኅ፡ ከንቱ፡ ወኅቡረ፡ እግዚአብሔር፡ ፍራህ፡ ከመ፡ ቀዳሚ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=8"/>እመ፡ ትዕግልተ፡ ነዳይ፡ ወሀይደ፡ ርኢከ፡ በብሔር፡ ፍታሕ፡ ጽድቀ፡ ወኢታንክር፡ በምግባሩ፡ እስመ፡ ልዑል፡ መልዕልተ፡ ልዑላን፡ የዓቅበከ፡ ወልዑል፡ ዲቤሆሙ፡ ፈድፋደ፡ እምድር፡ ወላዕለ፡ ኵሉ፡ ውእቱ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=9"/>ወንጉሥ፡ ዲበ፡ ወፍረ፡ ሐረስት።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=10"/>ዘያፈቅር፡ ብሩረ፡ ኢይጸግብ፡ ፍሩረ፡ ወዘኒ፡ አፍቀረ፡ ብዙኀ፡ እክለ፡ ወዝኒ፡ ከንቱ፡ ውእቱ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=11"/>እስመ፡ ለብዙኅ፡ ጥሪት፡ ብዙኃን፡ ይበልዕዎ፡ ወምንት፡ ጽንዑ፡ ለዘይቀርብ፡ ዘእንበለ፡ ርእየ፡ ዓይን።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=12"/>ጥዑም፡ ንዋሙ፡ ለገብር፡ ለእመ፡ ኅዳጠ፡ በልዐ፡ ወለእመ፡ ብዙኀ፡ በልዐ፡ ወለዘአብዝኀሰ፡ ብዕለ፡ አልቦ፡ ዘየኃድጎ፡ ይኑም።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=13"/>ቦ፡ ደዌ፡ እንተ፡ ርኢኩ፡ መትሕተ፡ ፀሐይ፡ ብዕል፡ ዘይትዓቀብ፡ በኀበ፡ ዘአጥረዩ፡ በእከይ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=14"/>ወይትኀጐል፡ ውእቱ፡ ብዕል፡ በንታፌ፡ እኩይ፡ ወወለደ፡ ወልደ፡ አልቦ፡ ውስተ፡ እዴሁ፡ ወኢምንትኒ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=15"/>በከመ፡ ወፅአ፡ እምከርሠ፡ እሙ፡ ዕራቆ፡ ይትመየጥ፡ ለገቢእ፡ በከመ፡ ወፅአ፡ ወአልቦ፡ ዘይነሥእ፡ እምፃማሁ፡ ከመ፡ ይሑር፡ ምስሌሁ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=16"/>ወዝኒ፡ እኩይ፡ ደዌ፡ ውእቱ፡ እስመ፡ በከመ፡ ወፅአ፡ ከማሁ፡ የሐውር።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=17"/>ምንት፡ ፍድፋዴሁ፡ ለዘይፃሙ፡ ለነፍሱ፡ እስመ፡ ኵሎን፡ መዋዕሊሁ፡ ውስተ፡ ጽልመት፡ ወላህ፡ ወቊጥዓ፡ ብዙኅ፡ ወደዌ፡ ወኀዘን።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=18"/>ወባሕቱ፡ ናሁ፡ ዘርኢኩ፡ አነ፡ ኄርት፡ ዘይእቲ፡ ሠናይት፡ በልዕ፡ ወሰትይ፡ ወርእየ፡ ፍግዕ፡ በኵሉ፡ ሥራኁ፡ ዘሠርኀ፡ መትሕተ፡ ፀሐይ፡ በኊልቈ፡ መዋዕሊሁ፡ ዘወሀቦ፡ እግዚአብሔር፡ እስመ፡ ውእቱ፡ መክፈልቱ።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=19"/>ወኵሉ፡ ሰብእ፡ ዘወሀቦ፡ እግዚአብሔር፡ ብዕለ፡ ወጥሪተ፡ ወአሥለጠ፡ ቦቱ፡ ከመ፡ ይብላዕ፡ እምውስቴቱ፡ ወይንሣእ፡ መክፈልቶ፡ ወይትፈሣሕ፡ እምፃማሁ፡ ዝኒ፡ ሀብተ፡ እግዚአብሔር፡ ውእቱ።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=5&amp;verse=20"/>እስመ፡ አኮ፡ ብዙኀ፡ ዘይዜከር፡ በኵሉ፡ መዋዕለ፡ ሕይወቱ፡ እስመ፡ እግዚአብሔር፡ ያሠርኆ፡ በፍትወተ፡ ልቡ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="6" xml:id="chapter6">
+      <t:label>Chapter 6</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=1"/>ቦ፡ እኩይ፡ ዘርኢኩ፡ እምታሕተ፡ ፀሐይ፡ ወብዝኅት፡ ይእቲ፡ በላዕለ፡ ኵሉ፡ ሰብእ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=2"/>ብእሲ፡ ዘወሀቦ፡ እግዚአብሔር፡ ብዕለ፡ ወጥሪተ፡ ወክብረ፡ ወአልቦ፡ ዘይከልኣ፡ ለነፍሱ፡ እምኵሉ፡ ዘፈተወት፡ ወኢያሥለጦ፡ እግዚአብሔር፡ ከመ፡ ይባላዕ፡ እምኔሁ፡ እስመ፡ ብእሲ፡ ነግድ፡ ይበልዖ፡ ወዝኒ፡ ከንቱ፡ ውእቱ፡ ወደዌ፡ እኪት።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=3"/>ወለእመ፡ ወለደ፡ ብእሴ፡ ምእተ፡ ወብዙኀ፡ ዓመታተ፡ ኀይወ፡ ወብዙኀ፡ ኮነ፡ መዋዕለ፡ ዓመታቲሁ፡ ወነፍሱሂ፡ ኢትጸግብ፡ እምሠናይት፡ ወግንዘቱሂ፡ ኢኮኖ፡ እቤ፡ አነ፡ ይኄይስ፡ እምኔሁ፡ ዳሕፅ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=4"/>እስመ፡ በከንቱ፡ መጽአ፡ ወውስተ፡ ጽልመት፡ የሐውር፡ ወበጽልመት፡ ስሙ፡ ይትከደን።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=5"/>ወፀሐየኒ፡ ኢርእየ፡ ወኢያእመረ፡ ዕረፍቱ፡ ለዝ፡ እምዝ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=6"/>ወሶበ፡ ሐይወ፡ ዓሠርተ፡ ምእተ፡ ምሕዋረ፡ ዓመት፡ ወሠናይተ፡ ኢርእየ፡ አኮኑ፡ ውስተ፡ መካን፡ አሐዱ፡ ኵሉ፡ የሐውር።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=7"/>ወኵሉ፡ ሥራኁለሰብእ፡ በአፉሁ፡ ወነፍሱሰ፡ ኢትመልእ፡ ብዕለ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=8"/>ምንት፡ ፍድፋዴሁ፡ ለጠቢብ፡ እምዐብድ፡ በእንተ፡ ምንት፡ ነዳይ፡ የአምር፡ ሐዊረ፡ ቅድመ፡ ሕይወት።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=9"/>ይኄይስ፡ ርእይ፡ በዓይን፡ እምኀዊር፡ በነፍስ፡ ወዝኒ፡ ከንቱ፡ ወፍትወተ፡ ነፍስ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=10"/>ኵሉ፡ ዘኮነ፡ ናሁ፡ ተሰምየ፡ ስሙ፡ ወተአምረ፡ ከመ፡ ውእቱ፡ ሰብእ፡ ወኢይክል፡ ተጋእዞ፡ ምስለ፡ ዘይፀንዕ፡ እምኔሁ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=11"/>እስመቦ፡ ከንቶ፡ ነገረ፡ ዘያበዝኅ፡ ምንት፡ ፍድፋዴሁ፡ ለሰብእ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=6&amp;verse=12"/>መኑ፡ ውእቱ፡ ዘየአምር፡ ምንት፡ ውእቱ፡ ሠናይ፡ ለሰብእ፡ በሕይወቱ፡ እንዘ፡ ኊልቈ፡ መዋዕለ፡ ሕይወቱ፡ ከንቱ፡ ወግብሩ፡ ከመ፡ ጽላሎት፡ መኑ፡ ያየድዖ፡ ለሰብእ፡ ዘይከውን፡ እምድኅሬሁ፡ በታሕተ፡ ፀሐይ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="7" xml:id="chapter7">
+      <t:label>Chapter 7</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=1"/>ይኄይስ፡ ስም፡ ሠናይ፡ እምቅብዐ፡ መዐዛ፡ ወዕለተ፡ ሞት፡ እምዕለተ፡ ልደት።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=2"/>ይኄይስ፡ ሐዊረ፡ ቤተ፡ ላህ፡ እምኀዊረ፡ ቤተ፡ ግዕዝ፡ እስመ፡ ውእቱዝ፡ ደኃሪቱ፡ ለኵሉ፡ ሰብእ፡ ወዘሕያው፡ የሀብ፡ ሠናየ፡ ውስተ፡ ልቡ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=3"/>ይኄይስ፡ መዓት፡ እምሰሐቅ፡ እስመ፡ በአእክዮ፡ ገጽ፡ ይሤኒ፡ ልብ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=4"/>ልበ፡ ጠቢባን፡ ውስተ፡ ቤተ፡ ላህ፡ ወልበ፡ ዐብዳንሰ፡ ውስተ፡ ቤተ፡ ፍሥሓ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=5"/>ይኄይስ፡ ሰሚዐ፡ ተግሣፀ፡ ጠቢብ፡ እምብእሲ፡ ዘይሰምዕ፡ ማኅሌተ፡ ዐብድ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=6"/>ከመ፡ ቃለ፡ አሥዋክ፡ ታሕተ፡ ጽሕርት፡ ከማሁ፡ ሰሐቆሙ፡ ለዐብዳን፡ ወዝኒ፡ ከንቱ፡ ውእቱ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=7"/>እስመ፡ ትዕግልት፡ ያንጐግዎ፡ ለጠቢብ፡ ወያኃጒል፡ ትግዕሥተ፡ ልቡ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=8"/>ይኄይስ፡ ደኃሪ፡ ቃል፡ እምቀዳሚሁ፡ ወይኄይስ፡ መስተዓግስሥ፡ እምዕቡየ፡ መንፈስ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=9"/>ኢትጐጒዕ፡ በመንፈስከ፡ ለተምዖ፡ እስመ፡ መዓት፡ ውስተ፡ ኅፅነ፡ ዐብዳን፡ ተዐርፍ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=10"/>ኢትበል፡ ምንተ፡ ኮነ፡ እስመ፡ መዋዕለ፡ ትካት፡ ይኄይስ፡ እምእላንቱ፡ እስመ፡ አኮ፡ በጥበብ፡ ዘተስእልከ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=11"/>ወበእንተዝ፡ ሠናይ፡ ጥበብ፡ ምስለ፡ ዑቃቤ፡ ወፈድፋደሰ፡ ለእለ፡ ይሬእዩ፡ ፀሐየ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=12"/>እስመ፡ ጽላሎታ፡ ለጥበብ፡ ይኄይስ፡ እምጽላሎታ፡ ለብሩር፡ ወፈድፋደሰ፡ አእምሮታ፡ ለጥበብ፡ ወታሐይዎ፡ ለዘአጥረያ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=13"/>ርኢ፡ ተግባሮ፡ ለእግዚአብሔር፡ ወመኑ፡ ውእቱ፡ ዘይክል፡ አርትዖቶ፡ ለዘእግዚአብሔር፡ አጥወዮ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=14"/>በመዋዕለ፡ ሠናይ፡ ሕየው፡ በፍሥሓ፡ ወርኢ፡ በዕለት፡ እኪት፡ ዝኒ፡ ናሁ፡ ወምሰሉ፡ ለዘውእቱ፡ ገብረ፡ እግዚአብሔር።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=15"/>በእንተ፡ ነገረ፡ ውሉደ፡ ሰብእ፡ ከመ፡ ኢይርከብ፡ ሰብእ፡ ዘእምድኅሬሁ፡ ወኢምንትኒ፡ ኵሎ፡ ኅቡረ፡ ርኢኩ፡ በመዋዕለ፡ ሥራኅየ፡ ቦ፡ ጻድቅ፡ ዘይትኃጐል፡ በጽድቁ፡ ወቦ፡ ረሲዕ፡ ዘይሄሉ፡ በእከዩ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=16"/>ኢትኩን፡ ጻድቀ፡ ፈድፋደ፡ ወኢትጠበብ፡ ፈድፋደ፡ ከመ፡ ኢትጌጊ፡ ወኢትኅጣእ፡ ፈድፋደ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=17"/>ወኢትኩን፡ ድሩከ፡ ከመ፡ ኢትሙት፡ ዘእንበለ፡ ጊዜሁ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=18"/>ይኄይስ፡ ሀልዎትከ፡ በዝ፡ እምዝ፡ ወኢታርኵስ፡ እዴከ፡ ፍርሆ፡ ለእግዚአብሔር፡ እስመ፡ ዘይፈርሆ፡ ለእግዚአብሔር፡ ይወፅእ፡ እምኵሉ።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=19"/>ጥበብ፡ ትረድኦ፡ ለጠቢብ፡ እምዓሠርቱ፡ ምእት፡ መኳንንት፡ እለ፡ ሀለዉ፡ ውስተ፡ ሀገር።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=20"/>እስመ፡ አልቦ፡ ሰብእ፡ ጻድቅ፡ ውስተ፡ ምድር፡ ዘይገብር፡ ሠናየ፡ ወኢይኤብስ።</t:l>
+         <t:l n="21">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=21"/>ወውስተ፡ ኵሉ፡ ነገር፡ ዘይትናገሩ፡ ኢትሰድ፡ ልበከ፡ ከመ፡ ኢትስማዕ፡ ገብርከ፡ እንዘ፡ ይረግመከ፡ እስመ፡ ብዙኀ፡ ይትመዓዓከ፡ ልብካ፡ ወበፍናው፡ ብዙኅ፡ የአክያ፡ ለልብከ፡ ከመ፡ አንተኒ፡ ረገምከ፡ ባዕደ።</t:l>
+         <t:l n="22">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=22"/>ወዘንተ፡ ኵሎ፡ አምከርኩከ፡ በጥበብ፡ ወእቤ፡ እጠበብ።</t:l>
+         <t:l n="23">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=23"/>ወይእቲ፡ ርኅቅት፡ እምኔየ፡ ርኁቀ፡ እንዘ፡ ሀለወት፡ ወዕመቀ፡ ዕመቅ፡ መኑ፡ ይረክባ።</t:l>
+         <t:l n="24">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=24"/>ዖድኩ፡ አነ፡ በልብ፡ ለአእምሮ፡ ከመ፡ አሐሊ፡ ወእኅሥሣ፡ ለጥበብ፡ ወለሐሳብ፡ ወከመ፡ አእምር፡ ለረሲዓን፡ ዕበዶሙ፡ ወአጽሕቆ፡ ስሕተታት።</t:l>
+         <t:l n="25">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=25"/>ወእረከብ፡ ኪያሃ፡ አነ፡ መራረ፡ እሞት፡ ብእሲት፡ እንተ፡ ይእቲ፡ መሥገርት፡ ወመርበብት፡ ልባ፡ ወማእሰር፡ ውስተ፡ እዴሃ፡ ኄር፡ በቅድመ፡ እግዚአብሔር፡ ዘይትባላሕ፡ እምኔሃ፡ ወዘይኤብስሰ፡ ይሠገር፡ ባቲ።</t:l>
+         <t:l n="26">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=26"/>ናሁ፡ ዘንተ፡ ረከብኩ፡ ይቤ፡ መክብብ፡ አሐተ፡ እምአሐቲ፡ ለረኪበ፡ ሕሊና፡ ዘኀሠሠት፡ ነፍስየ።</t:l>
+         <t:l n="27">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=27"/>ወኢረከብኩ፡ ወብእሴሰ፡ አሐደ፡ እምዓሠርቱ፡ ምእት፡ ረከብኩ፡ ወብእሲተሰ፡ እምውስተ፡ ዝኵሉ፡ ኢረከብኩ።</t:l>
+         <t:l n="28">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=7&amp;verse=28"/>ባሕቱ፡ ናሁ፡ ዘንተ፡ ረከብኩ፡ ዘገብረ፡ እግዚአብሔር፡ በጊዜሁ፡ ብእሴ፡ ራትዐ፡ ወውእቱ፡ የኃሥሥ፡ ሕሊና፡ ብዙኀ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="8" xml:id="chapter8">
+      <t:label>Chapter 8</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=1"/>መኑ፡ የአምኖሙ፡ ለጠቢባን፡ ወመኑ፡ የአምር፡ ፈክሮ፡ ቃሎሙ፡ ጥበቡ፡ ለብእሲ፡ ያበርህ፡ ገጾ፡ ወዘአልቦ፡ ኀፍረት፡ ውስተ፡ ገጹ፡ ይጸላእ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=2"/>ወልድየ፡ አፈ፡ ንጉሥ፡ ዕቀብ፡ ወለቃለ፡ መሐላ፡ ኢትጐጒዕ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=3"/>እምቅድመ፡ ገጹ፡ ኅልፍ፡ ወኢትቁም፡ በነገር፡ እኩይ፡ እስመ፡ ኵሎ፡ ዘፈቀደ፡ ይገብር።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=4"/>ወከመ፡ ንጉሥ፡ ሥሉጠ፡ ይትናገር፡ ወመኑ፡ ይብሎ፡ ምንተ፡ ገበርከ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=5"/>ዘየዓቅብ፡ ትእዛዞ፡ ኢየአምር፡ ቃለ፡ እኩየ፡ ወጊዜሁ፡ ለፍትሕ፡ የአምር፡ ልበ፡ ጠቢብ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=6"/>እስመ፡ ለኵሉ፡ ግብር፡ ቦ፡ ጊዜ፡ ወፍትሕ፡ እስመ፡ አእምሮቱ፡ ለብእሲ፡ ጽኑዕ፡ ላዕሌሁ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=7"/>እስመ፡ አልቦ፡ ዘየአምር፡ ምንተ፡ ዘኮነ፡ ወዘይከውንሂ፡ መኑ፡ ይነግር።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=8"/>ወአልቦ፡ ብእሲ፡ ዘይሤለጥ፡ በመንፈሱ፡ ለከሊአ፡ መንፈስ፡ ኅቡረ፡ ወአልቦ፡ ዘይሤለጥ፡ በዕለተ፡ ሞት፡ ወአልቦ፡ መልእክት፡ በዕለተ፡ ቀትል፡ ወኢታድኅን፡ ረሲዓነ፡ ዘኀቤሃ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=9"/>ኵሎ፡ ኅቡረ፡ ርኢኩ፡ ወወሀብኩ፡ ልብየ፡ ውስተ፡ ኵሉ፡ ዘፍጥረት፡ ዘተፈጥረ፡ መትሕተ፡ ፀሐይ፡ ዘመጠነ፡ ተሠልጠ፡ ሰብእ፡ ለአእክዮተ፡ ሰብእ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=10"/>አሜሃ፡ ርኢኩ፡ ረሲዓነ፡ ውስተ፡ መቃብር፡ ቅዱስ፡ እንዘ፡ ይበውኡ፡ ወዘእምቅዱሳን፡ ሖሩ፡ ወተወደሱ፡ በውስተ፡ ሀገር፡ እስመ፡ ከመዝ፡ ገብሩ፡ ዝኒ፡ ከንቱ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=11"/>እስመ፡ አልቦ፡ ዘይከውን፡ ቅስት፡ እምእለ፡ ገብሩ፡ እኩየ፡ በፍጡን፡ በእንተ፡ ዝንቱ፡ አዕረፈ፡ ልበ፡ ውሉደ፡ ሰብእ፡ ቦሙ፡ ለገቢረ፡ እከይ፡ ዘአበሰ፡ ወገብረ፡ ኃጢአተ፡ እምትካት፡ ወእምቅድሜሁ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=12"/>እስመ፡ አአምር፡ አነ፡ ከመ፡ ቦ፡ ሠናይት፡ ለእለ፡ ይፈርህዎ፡ ለእግዚአብሔር፡ ከመ፡ ይፍርሁ፡ እምቅድመ፡ ገጹ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=13"/>ወአልቦ፡ ሠናይት፡ ለረሲዕ፡ ወኢነውኅ፡ መዋዕለ፡ ጽላሎቱ፡ ዘኢይፈርህ፡ እምቅድመ፡ ገጹ፡ ለእግዚአብሔር።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=14"/>ወቦ፡ ከንቱ፡ ዘተገብረ፡ መትሕተ፡ ፀሐይ፡ ውስተ፡ ምድር፡ እስመቦ፡ ጻድቃን፡ ዘይበጽሕ፡ ላዕሌሆሙ፡ ግብረ፡ ረሲዓን፡ ወቦ፡ ረሲዓን፡ ዘይበጽሕ፡ ላዕሌሆሙ፡ ግብረ፡ ጻድቃን፡ ወእቤ፡ ዝኒ፡ ከንቱ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=15"/>ወወደስክዋ፡ አነ፡ ለኵላ፡ ፍግዕ፡ እስመ፡ አልቦ፡ ሠናይ፡ ለሰብእ፡ እምታኅተ፡ ፀሐይ፡ ዘእንበለ፡ ዘበልዐ፡ ወሰትየ፡ ወተፈሥሐ፡ ወውእቱሰ፡ ዘሎቱ፡ እምፃማሁ፡ በመዋዕለ፡ ሕይወቱ፡ ዘወሀቦ፡ እግዚአብሔር፡ እምታሕተ፡ ፀሐይ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=16"/>እስመ፡ ወሀብኩ፡ ልብየ፡ ለአእምሮ፡ ጥበብ፡ ወከመ፡ እርአይ፡ ሥራኀ፡ ዘተገብረ፡ ዲበ፡ ምድር፡ እስመ፡ በመዓልትኒ፡ ወበሌሊትኒ፡ ንዋም፡ ውስተ፡ አዕይንቲሁ፡ ዘይሬኢ፡ አልቦ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=8&amp;verse=17"/>ወርኢኩ፡ ኵሎ፡ ግብሮ፡ ለእግዚአብሔር፡ ከመ፡ ኢይክል፡ ሰብእ፡ ረኪበ፡ ኅቡረ፡ ዘተገብረ፡ መትሕተ፡ ፀሐይ፡ እመ፡ ሚ፡ መጠነ፡ ይቤ፡ ጠቢብ፡ ከመ፡ ያእምር፡ ኢይክል፡ ሰብእ፡ ረኪበ፡ ወእመሚ፡ መጠነ፡ ኃሠሠ፡ ኢይክል፡ ሰብእ፡ ረኪበ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="9" xml:id="chapter9">
+      <t:label>Chapter 9</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=1"/>እስመ፡ ኅቡረ፡ ዘንተ፡ ኵሎ፡ ወሀብኩ፡ ልብየ፡ ወልብየ፡ ዘንተ፡ ኵሎ፡ ርእየት፡ ከመ፡ ለጻድቃን፡ ወለጠቢባን፡ ምግባሮሙ፡ ውስተ፡ እደ፡ እግዚአብሔር፡ ፍቅረ፡ ወጽልአ፡ አልቦ፡ ዘየአምር፡ ሰብእ፡ ኵሉ፡ ቅድመ፡ ገጾሙ፡ ወከንቱ፡ ውእቱ፡ ውስተ፡ ኵሉ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=2"/>ወአሐዱ፡ ድድቁ፡ ለጻድቅ፡ ወለረሲዕ፡ ለኄር፡ ወለእኩይ፡ ለርኩስ፡ ወለንጹሕ፡ ለዘይሠውዕ፡ ወለዘኢይሠውዕ፡ ለኄር፡ ወለዘሂ፡ የኃጥእ፡ ለዘይምሕል፡ ወለዘሂ፡ ይፈርህ፡ መሐላ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=3"/>ዝክቱ፡ በኵሉ፡ ዘተገብረ፡ መትሕተ፡ ፀሐይ፡ እስመ፡ አሐዱ፡ ድድቁ፡ ለኵሉ፡ ወልቦሙ፡ ለውሉደ፡ ሰብእ፡ ትፌጽም፡ እኩየ፡ ወበሁከተ፡ ልቦሙ፡ ሕይወቶሙ፡ ወእምድኅሬሆሙ፡ ኀበ፡ ምውታን።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=4"/>እስመ፡ መኑ፡ ውእቱ፡ ዘይሳተፍ፡ ምስለ፡ ሕያዋን፡ በተስፋ፡ ከልብ፡ ሕያው፡ ይኄይስ፡ እምአንበሳ፡ ምውት።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=5"/>እስመ፡ ሕያዋን፡ የአምሩ፡ ከመ፡ ይመውቱ፡ ወሙታንሰ፡ ኢየአምሩ፡ ወኢምንትኒ፡ ወአልቦሙ፡ እንከ፡ ዓስብ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=6"/>እስመዝክሮሙ፡ ወፍቅሮሙ፡ ወጽልኦሙኒ፡ ወቅንአቶሙኒ፡ ናሁ፡ ተኃጒለ፡ ወመክፈልት፡ አልቦሙ፡ እንከ፡ ውስተ፡ ዓለም፡ በኵሉ፡ ዘተገብረ፡ መትሕተ፡ ፀሐይ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=7"/>ነዓ፡ ብላዕ፡ በፍሥሓ፡ ኅብስተከ፡ ወስተይ፡ በልብ፡ ኄር፡ ወይነከ፡ እስመ፡ እግዚአብሔር፡ ሠምረ፡ ምግባሪከ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=8"/>በኵሉ፡ ጊዜ፡ ይኩን፡ ንጹሐ፡ አልባሲከ፡ ወቀቅብዕ፡ እምርእስከ፡ ኢይርኃቅ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=9"/>ወርኢ፡ ሕይወተ፡ ምስለ፡ ብእሲትከ፡ እንተ፡ አፍቀርካ፡ ኵሎ፡ መዋዕለ፡ ሕይወትከ፡ እለ፡ ተውህባከ፡ እምታሕተ፡ ፀሐይ፡ ኵሎ፡ መዋዕለ፡ እለ፡ ኮና፡ ለከ፡ እስመ፡ ውእቱ፡ መክፈልትከ፡ በሕይወትከ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=10"/>ወበሥራኅከ፡ ዘትሠርኅ፡ እምታሕተ፡ ፀሐይ፡ ኵሎ፡ ዘትክል፡ እዴከ፡ ለገቢር፡ መጠነ፡ ኃይልከ፡ ግበር፡ እስመ፡ አልቦ፡ ግብር፡ ወሕሊና፡ ወጥበብ፡ ወአእምሮ፡ ውስተ፡ ገሃነም፡ ኀበ፡ ተሐውር፡ አንተ፡ ህየ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=11"/>ወተመየጥኩ፡ ወርኢኩ፡ መትሕተ፡ ፀሐይ፡ ከመ፡ አኮ፡ ለቀሊላን፡ ረዊዕ፡ ወአኮ፡ ለጽኑዓን፡ ቀትል፡ ወአኮ፡ ለጠቢባን፡ እክል፡ ወአኮ፡ ለማእምራን፡ ብዕል፡ ወአኮ፡ ለእለ፡ ይሴብዉ፡ ጸጋ፡ እስመ፡ ጊዜ፡ ወድድቅ፡ ይዳደቆሙ፡ ለኵሎሙ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=12"/>እስመ፡ ኢየአምር፡ ሰብእ፡ ጊዜሁ፡ ከመ፡ ዓሣት፡ እለ፡ ይሠገሩ፡ በመርበብት፡ እኩይ፡ ወከመ፡ አዕዋፍ፡ ዘይትአኀዙ፡ በመሥገርት፡ ከማሁ፡ ይሠገሩ፡ ውሉደ፡ ሰብእ፡ በጊዜ፡ እኩይ፡ ሶበ፡ ይወድቅ፡ ዲቤሆሙ፡ ግብተ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=13"/>ወናሁ፡ ዘንተኒ፡ ርኢኩ፡ ጥበበ፡ መትሕተ፡ ፀሐይ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=14"/>ወዓባይ፡ ይእቲ፡ በኀቤየ፡ ሀገር፡ ነወስቲት፡ ወሰብእ፡ እለ፡ ውስቴታ፡ ኅዳጣን፡ ወአመ፡ መጽአ፡ ላዕሌሃ፡ ንጉሥ፡ ዓቢይ፡ ወዓገታ፡ ወየሐንጽ፡ ላዕሌሃ፡ ጥቅመ፡ ዓቢየ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=15"/>ወረከበ፡ በውስቴታ፡ ብእሴ፡ ጠቢበ፡ ወነዳየ፡ ወያድኅን፡ ሀገረ፡ ውእቱ፡ በጥበቡ፡ ወአልቦ፡ ዘተዘከሮ፡ ሰብእ፡ ኅቡረ፡ ለውእቱ፡ ብእሲ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=16"/>ወእቤ፡ አነ፡ ትኄይስ፡ ጥበብ፡ እምኃይል፡ ወጥበቡ፡ ለነዳይ፡ እንተ፡ ትትሜነን፡ ወነገሮሂ፡ ኢኮኑ፡ እለ፡ ይሰምዕዎ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=17"/>ወለነገረ፡ ጠቢባን፡ በዕረፍት፡ ይሰምዕዎ፡ እምነ፡ ጽራሖሙ፡ ለእለ፡ ይኴንኑ፡ በዕበድ።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=9&amp;verse=18"/>ትኄይስ፡ ጥበብ፡ እምንዋየ፡ ሐቅል፡ ዘየኃጥእ፡ አሐደ፡ ያኃጒል፡ ብዙኀ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="10" xml:id="chapter10">
+      <t:label>Chapter 10</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=1"/>ጽንጽንያ፡ ከልብ፡ ምውት፡ ያማስን፡ አፈወ፡ ቅብዕ፡ ጥዑመ፡ ትከብር፡ ንስቲት፡ ጥበብ፡ እምነ፡ ክብር፡ ዓቢይ፡ በዕበድ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=2"/>ልቡ፡ ለጠቢብ፡ ውስተ፡ የማኑ፡ ወልቡ፡ ለዐብድ፡ ውስተ፡ ጸጋሙ።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=3"/>ወሶበ፡ የሐውር፡ ዐብድ፡ ብዕበደ፡ ልቡ፡ ወበፍትወተ፡ ልቡ፡ የሐፅዖ፡ አእምሮ፡ ወዘይሔሊ፡ ኵሎ፡ ዐብድ፡ ውእቱ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=4"/>እስመ፡ መንፈሱ፡ ለዘይሤልጥ፡ ዐርገ፡ ላዕሌከ፡ መካነከ፡ ኢትኅድግ፡ እስመ፡ ፈውስ፡ ያኃድግ፡ ኃጣውአ፡ ዓቢየ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=5"/>ቦ፡ እኩይ፡ ዘርኢኩ፡ መትሕተ፡ ፀሐይ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=6"/>ከመ፡ ዘበኢያእምሮ፡ ወጽአ፡ እምቅድመ፡ ይሠልጥ፡ ተውህበ፡ ዐብድ፡ ለሉዓሌ፡ ዓቢይ፡ ወአብዕልት፡ መትሕተ፡ ይነብሩ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=7"/>ወርኢኩ፡ አግብርተ፡ ዲበ፡ አፍራስ፡ ወመኳንንት፡ እንዘ፡ የሐውሩ፡ በእግር፡ ከመ፡ አግብርት።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=8"/>ዘይከሪ፡ ግበ፡ ለቢጹ፡ ይወድቅ፡ ውስቴቱ፡ ወዘይነሥት፡ ጸቈነ፡ ይነስኮ፡ አርዌ፡ ምድር።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=9"/>ወዘያስተፋልስ፡ እብነ፡ የሐምም፡ ቦቱ፡ ወዘይሤዕር፡ ዕፀ፡ ይትመነደብ፡ ቦቱ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=10"/>እመ፡ ተመልሐ፡ ሐፂኑ፡ ወውእቱኒ፡ ገጸ፡ አስተወላወለ፡ ወወኃይል፡ ታኄይል፡ ወፍድፍድናሁ፡ ለጽኑዕ፡ ጥበብ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=11"/>እመ፡ ነሰኮ፡ አርዌ፡ ምድር፡ ወኢረቀዮ፡ ወኢፈወሶ፡ ረቃዪ፡ አልቦ፡ ዘይበቊዕ፡ ዘይረቂ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=12"/>ንባበ፡ አፉሁ፡ ለጠቢብ፡ ሞገሱ፡ ወከናፍሪሁ፡ ለዐብድ፡ ያሠጥማሁ።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=13"/>ቀዳሚ፡ ንባበ፡ አፉሁ፡ ዕበድ፡ ወደኃሪታ፡ ጸዋግ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=14"/>ዐብድሰ፡ ያበዝኅ፡ ነገረ፡ ወኢየአምር፡ ብእሲ፡ ምንተ፡ ዘኮነ፡ ወምንተ፡ ዘይከውን፡ እስመ፡ እምድኅሬሁ፡ መኑ፡ ይዜንዎ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=15"/>ናሁ፡ ፃማሁ፡ ያሐምሞ፡ ለዐብድ፡ እስመ፡ ኢየአምር፡ ሐዊረ፡ ውስተ፡ ሀገር።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=16"/>አሌ፡ ለኪ፡ ኦ፡ ሀገር፡ እንተ፡ ንጉሥኪ፡ ወሬዛ፡ ወመኳንንትኪ፡ ይበልዑ፡ በነግህ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=17"/>ብፅዕት፡ አንቲ፡ ምድር፡ እንተ፡ ንጉሥኪ፡ ወልደ፡ አግአዚ፡ ወመኳንንትኪ፡ በጊዜ፡ ይበልዑ፡ በኃይል፡ ወኢይትኀፈሩ፡ በሀኬት።</t:l>
+         <t:l n="18">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=18"/>ወበጽርዓተ፡ እደው፡ ያወጽሕ፡ ቤት።</t:l>
+         <t:l n="19">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=19"/>እደው፡ ዐብዳን፡ ለሰሐቅ፡ ይሬስዎ፡ ኅብስተ፡ ወይን፡ ያስተፌሥሕ፡ ሕያዋነ፡ ወለወርቅ፡ ኵሉ፡ ይትኤዘዝ፡ ኅቡረ።</t:l>
+         <t:l n="20">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=10&amp;verse=20"/>አንተኒ፡ በሕሊናከ፡ ንጉሠ፡ ኢትርግም፡ ወበውሣጤ፡ ቤትከ፡ ኢትርግም፡ ብዑላነ፡ እስመ፡ ዖፈ፡ ሰማይ፡ ያወጽእ፡ ነገረከ፡ ወዘቦ፡ ክንፍ፡ ይዜኑ፡ ንባበከ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="11" xml:id="chapter11">
+      <t:label>Chapter 11</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=1"/>ፈኑ፡ ኅብስተከ፡ ውስተ፡ ገጸ፡ ማይ፡ እስመ፡ በብዙኅ፡ መዋዕል፡ ትረክቦ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=2"/>ሀብ፡ መክፈልተከ፡ ለሰብዓቱ፡ ወለሰመንቱ፡ እስመ፡ ኢተአምር፡ ዘይከውን፡ እኩየ፡ ውስተ፡ ምድር።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=3"/>እመ፡ መልአ፡ ደመና፡ ይክዑ፡ ዝናመ፡ ውስተ፡ ምድር፡ ወለእመ፡ ወድቀ፡ ዕፅ፡ ደቡበ፡ ወእመኒ፡ ሰሜነ፡ ወእደ፡ ወድቀ፡ ዕፅ፡ ህየ፡ ይሄሉ።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=4"/>ዘየዓቅብ፡ ነፋሰ፡ ኢይዘርእ፡ ወዘይኔጽር፡ ደመናተ፡ ኢየዓፅድ።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=5"/>እስመ፡ አልቦ፡ ዘየአምር፡ ምንት፡ ውእቱ፡ ፍኖተ፡ መንፈስ፡ ከመ፡ አዕፅምት፡ ውስተ፡ ከርሠ፡ ጽንስት፡ ከማሁ፡ ኢይትአመር፡ ግበሩ፡ ለእግዚአብሔር፡ መጠነ፡ ገብረ፡ ኵሎ፡ ኅቡረ።</t:l>
+         <t:l n="6">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=6"/>በነግህ፡ ዝራእ፡ ዘርአከ፡ ወበምሴትኒ፡ ኢትኅድግ፡ እዴከ፡ እስመ፡ ኢተአምር፡ አይ፡ ዘይከውን፡ እምዝ፡ ወእምዝ፡ ወእመ፡ ክልኤሆሙሰ፡ ኅቡረ፡ ሠናይ።</t:l>
+         <t:l n="7">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=7"/>ጥዑም፡ ብርሃን፡ ወሠናይ፡ ለአዕይንት፡ ለርእየ፡ ኅብረ፡ ፀሐይ።</t:l>
+         <t:l n="8">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=8"/>እስመ፡ እመኒ፡ ዓመታተ፡ ብዙኀ፡ ሐይወ፡ ሰብእ፡ ወበኵሎን፡ ይትፌሣሕ፡ ወኢይዜከር፡ መዋዕለ፡ ጽልመት፡ ከመ፡ ብዙኃተ፡ ይከውና፡ ኵሉ፡ ዘይመጽእ፡ ከንቱ፡ ተፈሣሕ፡ ኦ፡ ብእሲ፡ በውርዙትከ።</t:l>
+         <t:l n="9">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=9"/>ወትሠኒ፡ ልብከ፡ በመዋዕለ፡ ውርዙትከ፡ ወሑር፡ በፍኖተ፡ ልብከ፡ ዘበንጽሕ፡ ወኢበርእየ፡ ዓይንከወአእምር፡ ከመ፡ በእንተዝ፡ ኵሉ፡ ያቀርበከ፡ እግዚአብሔር፡ ለኵነኔ።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=11&amp;verse=10"/>ወአርኅቅ፡ መዓተ፡ እምልብከ፡ ወአግኅሥ፡ እከየ፡ እምሥጋከ፡ እስመ፡ ውርዙት፡ ወጸሊመ፡ ሥሥዕርት፡ በኢያእምሮ፡ ከንቱ፡ ውእቱ።</t:l>
+      </t:ab>
+   </t:div>
+   <t:div type="textpart" subtype="chapter" n="12" xml:id="chapter12">
+      <t:label>Chapter 12</t:label>
+      <t:ab>
+         <t:l n="1">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=1"/>ተዘከሮ፡ ለፈጣሪከ፡ በመዋዕለ፡ ውርዙትከ፡ ዘእንበለ፡ ይምጻእከ፡ መዋዕል፡ እኩይ፡ ወይብጽሓ፡ ዓመታት፡ በዕለተ፡ ትብል፡ ኢኮነኒ፡ ዘንተ፡ ፈቃድየ።</t:l>
+         <t:l n="2">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=2"/>ዘእንበለ፡ ይጽልም፡ ፀሐይ፡ ወብርሃነ፡ ወርኅ፡ ወከዋክብት፡ ወዘእንበለ፡ ይትመየጡ፡ ደመናት፡ ድኅረ፡ ዝናማት።</t:l>
+         <t:l n="3">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=3"/>አመ፡ ዕለተ፡ ያንቀለቅሉ፡ ዓቃብያነ፡ ቤት፡ ወይትዓለዉ፡ ሰብእ፡ ኀላይያት፡ ወተፀርዓ፡ እለ፡ የሐርፃ፡ እስመ፡ ድኩማት፡ እማንቱ፡ ወይጽልማ፡ እለ፡ ይሬእያ፡ በጸዳል።</t:l>
+         <t:l n="4">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=4"/>ወይትዐፀው፡ ኆኅት፡ በምሥያጣት፡ በድውይ፡ ቃል፡ እንተ፡ ተሐርፅ፡ ወትትነሣእ፡ በቃለ፡ ዖፍ፡ ወየኃሥራ፡ ኵሎን፡ አዋልደ፡ ማኅሌት።</t:l>
+         <t:l n="5">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=5"/>እስመ፡ እመልዕልት፡ ይሬእዩ፡ ድንጋፄ፡ በውስተ፡ ፍኖት፡ ወይጸጊ፡ ከርካዕ፡ ወይገዝፍ፡ አንቦጣ፡ ወይትፈረዘዝ፡ ቊልሕ፡ አመ፡ ሖረ፡ ብእሲ፡ ውስተ፡ ቤተ፡ ዓለሙ፡ ወዓዲ፡ ጽጐ፡ እለ፡ ይላህዉ።</t:l>
+         <t:l n="6">
+            ዘእንበለ፡ ይትገፈታእ፡ ኅብሩ፡ ለብሩር፡ ወይትዌለጥ፡ አስተርእዮቱ፡ ለወርቅ፡ ወይትቀጠቀጥ፡ መስብክት፡ ውስተ፡ ዓዘቅት።</t:l>
+         <t:l n="7">
+            ወኀልቃ፡ አዕይንት፡ እለ፡ ያንቀዓድዋ፡ ውስተ፡ መስኮት፡ ወይትዓፀዋ፡ አናቅጸ፡ መራኅብት፡ በእንተ፡ ድንጋፄ፡ ቃላት፡ እለ፡ ይኬልሑ፡ ይትነሥኡ፡ እምቃለ፡ ጸላኢ።</t:l>
+         <t:l n="8">
+            ወይሌ፡ ላዕለ፡ ኵሉ፡ ደቂቀ፡ አዳም፡ ወይሬእዩ፡ ኀበ፡ ላዕሉ፡ ወይከውን፡ ፍርሃት፡ ውስተ፡ ፍናዋት፡ ወያስተርኢ፡ እሳት፡ ጊዜ፡ ይፈቅድ፡ ተልዕሎተ።</t:l>
+         <t:l n="9">
+            ወይደምፅ፡ ሰቆቃው፡ ውስተ፡ መራኅብት፡ እምቅድመ፡ ይትወለጥ፡ ኅቡረ፡ ብሩር፡ ወይማስን፡ ሥነ፡ ወርቅ፡ ወያንኰረኵር፡ መንኰራኵር፡ ለኢያንኰርኵሮ፡ ውስተ፡ ዐዘቅት።</t:l>
+         <t:l n="10">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=7"/>ወይገብእ፡ መሬት፡ ውስተ፡ መሬት፡ ከመ፡ ሀሎ፡ ወመንፈስ፡ ይገብእ፡ ኀበ፡ እግዚአብሔር፡ ዘወሀቦ፡ ወይሁብ፡ አውሥኦ፡ በእንተ፡ ኵሉ፡ ዘገብረ፡ ሊተ፡ አመ፡ ነበረ፡ በሥጋ፡ እመ፡ ኮነ፡ ሠናየ፡ አው፡ እኩየ።</t:l>
+         <t:l n="11">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=8"/>ከንቱ፡ ከንቱ፡ ይቤ፡ መክብብ፡ ኵሉ፡ ከንቱ።</t:l>
+         <t:l n="12">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=9"/>ወፈድፋደ፡ እስመ፡ ኮነ፡ መክብብ፡ ጠቢብ፡ እስመ፡ ይሜህር፡ አእምሮ፡ ኵሎ፡ ሰብአ፡ ወይፈትን፡ ሠርጐ፡ ምስል።</t:l>
+         <t:l n="13">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=10"/>ኃሠሠ፡ መክብብ፡ ከመ፡ ይርከብ፡ ነገረ፡ ፈቃዱ፡ ወጸሐፈ፡ ርትዐ፡ ወነበበ፡ ጽድቀ።</t:l>
+         <t:l n="14">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=11"/>ወነገረ፡ ጠቢባን፡ ከመ፡ መድጐጸ፡ ላሕም፡ ወከመ፡ ቅትራት፡ ርሱን፡ እለ፡ እምኀበ፡ ትምህርት፡ ተውህቡ፡ እምአሐዱ፡ ኖላዊ።</t:l>
+         <t:l n="15">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=12"/>ወፈድፋደሰ፡ እምውስቴቶሙ፡ ወልድየ፡ ኢትግበር፡ መጻሕፍተ፡ ብዙኀ፡ ዘአልቦ፡ ፍጻሜ፡ ወትምህርት፡ ብዙኅ፡ ፃማ፡ ለሥጋ።</t:l>
+         <t:l n="16">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=13"/>ንባበ፡ ኵሉ፡ ነገር፡ ስማዕ፡ ወእግዚአብሔር፡ ፍራሕ፡ ወትእዛዛቲሁ፡ ዕቀብ፡ እስመ፡ ዘውእቱ፡ ኵሉ፡ ሰብእ።</t:l>
+         <t:l n="17">
+            <t:ref target="http://classic.net.bible.org/verse.php?book=Ecc&amp;chapter=12&amp;verse=14"/>እስመ፡ ኵሎ፡ ፍጥረተ፡ ያቀርብ፡ እግዚአብሔር፡ ለኵነኔ፡ ኵሉ፡ ዘያስተርኢ፡ ወዘኢያስተርኢ፡ እመኒ፡ ሠናይ፡ ወእመኒ፡ እኩይ፡ ውእቱ።</t:l>
+      </t:ab>
+   </t:div>
+</t:div>
       </t:body>
    </t:text></TEI>

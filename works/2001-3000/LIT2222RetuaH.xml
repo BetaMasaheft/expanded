@@ -3,9 +3,9 @@
          <titleStmt><title type="full">Rǝtuʿa Hāymānot</title>
             <title xml:lang="gez" xml:id="t1">ርቱዐ፡ ሃይማኖት፡</title>
             <title type="normalized" xml:lang="gez" corresp="#t1">Rǝtuʿa Hāymānot</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="MKr" corresp="https://betamasaheft.eu/team.html#MKr"><resp>contributor</resp><name>Marcin Krawczuk</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MKr" xml:id="MKr"><resp>contributor</resp><name>Marcin Krawczuk</name></respStmt></titleStmt>
          <editionStmt>
             <p>The text structure of the edition is based on
                <ref type="mss" corresp="https://betamasaheft.eu/EMML2375">EMML 2375</ref>.</p>
@@ -21,7 +21,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">2.7.2025 at 03:05:45</date><date type="lastModified">30.1.2023</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2222RetuaH/main</idno><idno type="URI">https://betamasaheft.eu/LIT2222RetuaH</idno><idno type="filename">LIT2222RetuaH.xml</idno><idno type="ID">LIT2222RetuaH</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:15:18</date><date type="lastModified">30.1.2023</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2222RetuaH/main</idno><idno type="URI">https://betamasaheft.eu/LIT2222RetuaH</idno><idno type="filename">LIT2222RetuaH.xml</idno><idno type="ID">LIT2222RetuaH</idno></publicationStmt>
          <sourceDesc>
             <listWit>
                <witness corresp="https://betamasaheft.eu/EMML2375"><idno>MS EMML no. 2375</idno></witness>
@@ -33,142 +33,142 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="chapter" match="div" use="div"><desc><list><item>Introduction</item></list></desc><citeStructure unit="incipit" match="div" use="div"><desc><list><item>incipit</item></list></desc></citeStructure></citeStructure><citeStructure unit="homily" match="div" use="div"><desc><list><item>Nativity</item><item>HomBaptism</item><item>Beginning</item><item>Sunday1</item><item>Sunday2</item><item>Sunday3</item><item>Sunday4</item><item>Sunday5</item><item>Sunday6</item><item>Adoration</item><item>Incarnation</item><item>Entrance</item><item>Washing</item><item>Crucifixion</item><item>Ascension</item><item>Paraclete</item><item>Apostles</item><item>Transfiguration</item><item>Mary</item><item>Angels</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage>
-           <language ident="en">English</language>
-           <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
-         <textClass>
-            <keywords>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="Homily" ana="#Homily"/>
-               <term key="Theology" ana="#Theology"/>
-            </keywords>
-         </textClass>
-<abstract>
-<p>Rǝtuʿa Hāymānot is a collection of homilies focusing on the events of the Passion cycle. Most probably it is an indigenous
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="chapter" use="@subtype"><citeStructure match="t:div" unit="incipit" use="@subtype"><desc><list><item>incipit</item></list></desc></citeStructure><desc><list><item>Introduction</item></list></desc></citeStructure><citeStructure match="t:div" unit="homily" use="@subtype"><desc><list><item>Nativity</item><item>HomBaptism</item><item>Beginning</item><item>Sunday1</item><item>Sunday2</item><item>Sunday3</item><item>Sunday4</item><item>Sunday5</item><item>Sunday6</item><item>Adoration</item><item>Incarnation</item><item>Entrance</item><item>Washing</item><item>Crucifixion</item><item>Ascension</item><item>Paraclete</item><item>Apostles</item><item>Transfiguration</item><item>Mary</item><item>Angels</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage>
+           <t:language ident="en">English</t:language>
+           <t:language ident="gez">Gǝʿǝz</t:language>
+         </t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Homily" ana="#Homily"/>
+               <t:term key="Theology" ana="#Theology"/>
+            </t:keywords>
+         </t:textClass>
+<t:abstract>
+<t:p>Rǝtuʿa Hāymānot is a collection of homilies focusing on the events of the Passion cycle. Most probably it is an indigenous
   Ethiopian production. Its author must have lived ca. 1375 and there is some ground to identify him
-  with <persName ref="https://betamasaheft.eu/PRS4709Giyorgis">Giyorgis of Saglā</persName>. It should not be confused with a collection of homilies
-preserved in <ref type="mss" corresp="https://betamasaheft.eu/EMML1763">EMML 1763</ref>, <ref type="mss" corresp="https://betamasaheft.eu/EMML8509">EMML 8509</ref>
-and <ref type="mss" corresp="https://betamasaheft.eu/BLorient8192">BL Or. 8192</ref>.</p>
-</abstract>
+  with <t:persName ref="https://betamasaheft.eu/PRS4709Giyorgis">Giyorgis of Saglā</t:persName>. It should not be confused with a collection of homilies
+preserved in <t:ref type="mss" corresp="https://betamasaheft.eu/EMML1763">EMML 1763</t:ref>, <t:ref type="mss" corresp="https://betamasaheft.eu/EMML8509">EMML 8509</t:ref>
+and <t:ref type="mss" corresp="https://betamasaheft.eu/BLorient8192">BL Or. 8192</t:ref>.</t:p>
+</t:abstract>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
-         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
-         <change who="#MKr" when="2023-01-30"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added missing work IDs</change>
-      </revisionDesc>
-   </teiHeader><text xml:base="https://betamasaheft.eu/">
-  <body>
-     <div type="bibliography">
-        <listBibl type="secondary">
-           <bibl corresp="http://zotero.org/groups/358366/items/M7NA79KV"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Getachew2010RetuaHaymanot"/><title level="a">Rǝtuʿa Haymanot</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Getatchew Haile</t:name></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Siegbert</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Uhlig</t:surname></editor><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Alessandro</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Bausi</t:surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">382b-383b</biblScope></bibl>
-           <bibl corresp="http://zotero.org/groups/358366/items/E7KFHM6W"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Villa2019Filologia"/><title level="m">Filologia e linguistica dei testi gǝʿǝz di età aksumita. Il &lt;hi rend="italics"&gt;Pastore&lt;/hi&gt; di Erma</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Massimo</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Villa</t:surname></author><pubPlace>Napoli</pubPlace><publisher>UniorPress</publisher><date>2019</date><biblScope unit="volume">10</biblScope><note type="url">http://www.fedoa.unina.it/12423/1/149-Book%20Manuscript-886-1-10-20200224.pdf</note><citedRange unit="page">147-154</citedRange></bibl>
-            <bibl corresp="http://zotero.org/groups/358366/items/8VQFRRGX"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Getatchew1981Controversies"/><title level="a">Religious Controversies and the Growth of Ethiopic Literature in the Fourteenth and Fifteenth Centuries</title><title level="j">Oriens Christianus</title><author><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Getatchew Haile</t:name></author><date>1981</date><biblScope unit="volume">65</biblScope><biblScope unit="page">102-136</biblScope><citedRange unit="page">109-116</citedRange></bibl>
-            <bibl corresp="http://zotero.org/groups/358366/items/V9B5J3P9"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ErhoLee2022Shepherd"/><title level="a">References to the Shepherd of Hermas at the Monastery of Gunda Gundē</title><title level="j">Ephemerides Theologicae Lovanienses</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ted</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Erho</t:surname></author><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ralph</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Lee</t:surname></author><date>2022</date><biblScope unit="volume">98</biblScope><biblScope unit="issue">3</biblScope><biblScope unit="page">451-461</biblScope><citedRange unit="page">455-460</citedRange></bibl>
-         </listBibl>
-         </div>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change when="2023-01-30" who="#MKr"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added missing work IDs</change>
+      </t:revisionDesc>
+   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+  <t:body>
+     <t:div type="bibliography">
+        <t:listBibl type="secondary">
+           <t:bibl corresp="http://zotero.org/groups/358366/items/M7NA79KV"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Getachew2010RetuaHaymanot"/><title level="a">Rǝtuʿa Haymanot</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><name>Getatchew Haile</name></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">382b-383b</biblScope><note type="tags"><note type="tag">bm:Getachew2010RetuaHaymanot</note></note><note type="tag">bm:Getachew2010RetuaHaymanot</note></t:bibl>
+           <t:bibl corresp="http://zotero.org/groups/358366/items/XE3F85J2"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Villa2019Filologia"/><title level="m">Filologia e linguistica dei testi gǝʿǝz di età aksumita. Il &lt;hi rend="italics"&gt;Pastore&lt;/hi&gt; di Erma</title><title level="s">Studi Africanistici. Serie Etiopica</title><author><forename>Massimo</forename><surname>Villa</surname></author><pubPlace>Napoli</pubPlace><publisher>UniorPress</publisher><date>2019</date><series><title level="s">Studi Africanistici. Serie Etiopica</title><biblScope unit="volume">10</biblScope></series><biblScope unit="volume">10</biblScope><note type="url">http://www.fedoa.unina.it/12423/1/149-Book%20Manuscript-886-1-10-20200224.pdf</note><note type="tags"><note type="tag">bm:Villa2019Filologia</note></note><note type="tag">bm:Villa2019Filologia</note><t:citedRange unit="page">147-154</t:citedRange></t:bibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/8VQFRRGX"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Getatchew1981Controversies"/><title level="a">Religious Controversies and the Growth of Ethiopic Literature in the Fourteenth and Fifteenth Centuries</title><title level="j">Oriens Christianus</title><author><name>Getatchew Haile</name></author><date>1981</date><biblScope unit="volume">65</biblScope><biblScope unit="page">102-136</biblScope><note type="tags"><note type="tag">bm:Getatchew1981Controversies</note></note><note type="tag">bm:Getatchew1981Controversies</note><t:citedRange unit="page">109-116</t:citedRange></t:bibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/V9B5J3P9"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ErhoLee2022Shepherd"/><title level="a">References to the Shepherd of Hermas at the Monastery of Gunda Gundē</title><title level="j">Ephemerides Theologicae Lovanienses</title><author><forename>Ted</forename><surname>Erho</surname></author><author><forename>Ralph</forename><surname>Lee</surname></author><date>2022</date><biblScope unit="volume">98</biblScope><biblScope unit="issue">3</biblScope><biblScope unit="page">451-461</biblScope><note type="tags"><note type="tag">bm:ErhoLee2022Shepherd</note></note><note type="tag">bm:ErhoLee2022Shepherd</note><t:citedRange unit="page">455-460</t:citedRange></t:bibl>
+         </t:listBibl>
+         </t:div>
 
-<div type="edition" xml:lang="gez">
+<t:div type="edition" xml:lang="gez" xml:id="div2LIT2222RetuaH">
 
 
-<div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Introduction" corresp="https://betamasaheft.eu/LIT6799RHintro">
-<div type="textpart" subtype="incipit">
-   <ab>ስሉሥ፡ ቅዱስ፡ ዘያሌቡ፡ ወኢይትሌቡ፡ ዘያዔውቅ፡ ወኢይትዓወቅ፡ ዘያኤምር፡ ወኢይትአመር፡ ዘይሄሊ፡ ወኢይትሀለይ፡ ዘይጤይቅ፡ ወኢይጠየቅ፡ ዘይእኅዝ፡ ወኢይትአኃዝ፡</ab>
-</div>
-</div>
+<t:div type="textpart" subtype="chapter" xml:lang="gez" xml:id="Introduction" corresp="https://betamasaheft.eu/LIT6799RHintro">
+<t:div type="textpart" subtype="incipit">
+   <t:ab>ስሉሥ፡ ቅዱስ፡ ዘያሌቡ፡ ወኢይትሌቡ፡ ዘያዔውቅ፡ ወኢይትዓወቅ፡ ዘያኤምር፡ ወኢይትአመር፡ ዘይሄሊ፡ ወኢይትሀለይ፡ ዘይጤይቅ፡ ወኢይጠየቅ፡ ዘይእኅዝ፡ ወኢይትአኃዝ፡</t:ab>
+</t:div>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Nativity" corresp="https://betamasaheft.eu/LIT2113OntheB">
-<label>On Christ's nativity</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Nativity" corresp="https://betamasaheft.eu/LIT2113OntheB">
+<t:label>On Christ's nativity</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="HomBaptism" corresp="https://betamasaheft.eu/LIT2095OnHowO">
-<label>On Christ's baptism</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="HomBaptism" corresp="https://betamasaheft.eu/LIT2095OnHowO">
+<t:label>On Christ's baptism</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Beginning" corresp="https://betamasaheft.eu/LIT6060BeginningOfLent">
-<label>On fasting, prayer, and almsgiving, for the first Sunday of Lent</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Beginning" corresp="https://betamasaheft.eu/LIT6060BeginningOfLent">
+<t:label>On fasting, prayer, and almsgiving, for the first Sunday of Lent</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Sunday1" corresp="https://betamasaheft.eu/LIT6049SundayRetuaH">
-<label>On fasting and chastity, for the first Sunday of Lent</label>
-<note>Some manuscripts contain homilies only for the first three Sundays of Lent.</note>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Sunday1" corresp="https://betamasaheft.eu/LIT6049SundayRetuaH">
+<t:label>On fasting and chastity, for the first Sunday of Lent</t:label>
+<t:note>Some manuscripts contain homilies only for the first three Sundays of Lent.</t:note>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Sunday2" corresp="https://betamasaheft.eu/LIT6050SundayRetuaH">
-<label>On fasting and peace, for the second Sunday of Lent</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Sunday2" corresp="https://betamasaheft.eu/LIT6050SundayRetuaH">
+<t:label>On fasting and peace, for the second Sunday of Lent</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Sunday3" corresp="https://betamasaheft.eu/LIT6061SundayRetuaH">
-<label>On fasting and meekness, for the third Sunday of Lent</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Sunday3" corresp="https://betamasaheft.eu/LIT6061SundayRetuaH">
+<t:label>On fasting and meekness, for the third Sunday of Lent</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Sunday4" corresp="https://betamasaheft.eu/LIT6440Sunday4">
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Sunday4" corresp="https://betamasaheft.eu/LIT6440Sunday4">
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Sunday5" corresp="https://betamasaheft.eu/LIT6442Sunday5">
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Sunday5" corresp="https://betamasaheft.eu/LIT6442Sunday5">
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Sunday6" corresp="https://betamasaheft.eu/LIT6443Sunday6">
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Sunday6" corresp="https://betamasaheft.eu/LIT6443Sunday6">
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Adoration" corresp="https://betamasaheft.eu/LIT6045SerataSegdat">
-<label>Order of services for the Rite of Adoration, for the beginning of the Fast of the Apostles</label>
-<note>This part is not a homily but a liturgical text. It appears very rarely in the collection.</note>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Adoration" corresp="https://betamasaheft.eu/LIT6045SerataSegdat">
+<t:label>Order of services for the Rite of Adoration, for the beginning of the Fast of the Apostles</t:label>
+<t:note>This part is not a homily but a liturgical text. It appears very rarely in the collection.</t:note>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Incarnation" corresp="https://betamasaheft.eu/LIT2097OnHowt">
-<label>On the incarnation of the word</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Incarnation" corresp="https://betamasaheft.eu/LIT2097OnHowt">
+<t:label>On the incarnation of the word</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Entrance" corresp="https://betamasaheft.eu/LIT6048OnPalmSundayRetuaH">
-<label>On the entrance to Jerusalem</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Entrance" corresp="https://betamasaheft.eu/LIT6048OnPalmSundayRetuaH">
+<t:label>On the entrance to Jerusalem</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Washing" corresp="https://betamasaheft.eu/LIT2149OntheW">
-<label>On the washing of the feet and on the communion after the Last Supper,
-for Maundy Thursday</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Washing" corresp="https://betamasaheft.eu/LIT2149OntheW">
+<t:label>On the washing of the feet and on the communion after the Last Supper,
+for Maundy Thursday</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Crucifixion" corresp="https://betamasaheft.eu/LIT2118OntheD">
-<label>On the crucifixion of Our Lord, on the thief on the right side, and
-on death, for the 9th hour of Good Friday</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Crucifixion" corresp="https://betamasaheft.eu/LIT2118OntheD">
+<t:label>On the crucifixion of Our Lord, on the thief on the right side, and
+on death, for the 9th hour of Good Friday</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Ascension" corresp="https://betamasaheft.eu/LIT2109OntheA">
-<label>On the ascension of Our Lord</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Ascension" corresp="https://betamasaheft.eu/LIT2109OntheA">
+<t:label>On the ascension of Our Lord</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Paraclete" corresp="https://betamasaheft.eu/LIT2137OntheP">
-<label>On the Paraclete</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Paraclete" corresp="https://betamasaheft.eu/LIT2137OntheP">
+<t:label>On the Paraclete</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Apostles" corresp="https://betamasaheft.eu/LIT6047On12ApostlesRetuaH">
-<label>On the Apostles</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Apostles" corresp="https://betamasaheft.eu/LIT6047On12ApostlesRetuaH">
+<t:label>On the Apostles</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Transfiguration" corresp="https://betamasaheft.eu/LIT2145OntheT">
-<label>On the transfiguration of Our Lord</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Transfiguration" corresp="https://betamasaheft.eu/LIT2145OntheT">
+<t:label>On the transfiguration of Our Lord</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Mary" corresp="https://betamasaheft.eu/LIT1640Homily">
-<label>On Our Lady Mary</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Mary" corresp="https://betamasaheft.eu/LIT1640Homily">
+<t:label>On Our Lady Mary</t:label>
+</t:div>
 
-<div type="textpart" subtype="homily" xml:lang="gez" xml:id="Angels" corresp="https://betamasaheft.eu/LIT2124OntheF">
-<label>On the angels</label>
-</div>
+<t:div type="textpart" subtype="homily" xml:lang="gez" xml:id="Angels" corresp="https://betamasaheft.eu/LIT2124OntheF">
+<t:label>On the angels</t:label>
+</t:div>
 
- </div>
-         </body>
-   </text></TEI>
+ </t:div>
+         </t:body>
+   </t:text></TEI>

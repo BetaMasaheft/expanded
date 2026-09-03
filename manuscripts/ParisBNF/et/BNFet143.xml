@@ -3,9 +3,9 @@
          <titleStmt><title type="full">Paris, Bibliothèque nationale de France, BnF Éthiopien 143</title>
             <title>Ḫāylu-Compilation</title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt xml:id="DE" corresp="https://betamasaheft.eu/team.html#DE"><resp>contributor</resp><name>Daria Elagina</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DE" xml:id="DE"><resp>contributor</resp><name>Daria Elagina</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,7 +14,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is licensed
             under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">4.6.2025 at 18:31:05</date><date type="lastModified">12.3.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFet143/main</idno><idno type="URI">https://betamasaheft.eu/BNFet143</idno><idno type="filename">BNFet143.xml</idno><idno type="ID">BNFet143</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 09:38:11</date><date type="lastModified">12.3.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFet143/main</idno><idno type="URI">https://betamasaheft.eu/BNFet143</idno><idno type="filename">BNFet143.xml</idno><idno type="ID">BNFet143</idno></publicationStmt>
 
          <sourceDesc>
             <msDesc xml:id="ms">
@@ -54,7 +54,8 @@
 
                     <msItem xml:id="ms_i1.1">
                         <locus from="1r" to="22vb"/>
-                        <title type="complete" corresp="LIT4724WaldaAmidIntroduction" ref="https://betamasaheft.eu/LIT4090Haylu#IntroductionWaldaAmid">Ḫāylu Compilation (general record):  (same as LIT4724WaldaAmidIntroduction)</title>
+                        <title type="complete" corresp="LIT4724WaldaAmidIntroduction" ref="https://betamasaheft.eu/LIT4090Haylu#IntroductionWaldaAmid">Ḫāylu Compilation (general record):
+        IntroductionWaldaAmid</title>
                         <textLang mainLang="gez"/>
                     </msItem>
 
@@ -63,7 +64,7 @@
                         <title type="complete" corresp="LIT3855KingList" ref="https://betamasaheft.eu/LIT4090Haylu#">List of the Ethiopian kings</title>
                         <textLang mainLang="gez"/>
                         <listBibl type="secondary">
-                           <bibl corresp="http://zotero.org/groups/358366/items/KKKATHSD"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1909Listes"/><title level="a">Les listes des rois d’Aksoum</title><title level="j">Journal Asiatique</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Carlo</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Conti Rossini</t:surname></author><date>1909</date><biblScope unit="volume">Dixième Série, 14</biblScope><biblScope unit="page">263-320</biblScope><citedRange unit="page">285</citedRange></bibl>
+                           <bibl corresp="http://zotero.org/groups/358366/items/KKKATHSD"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1909Listes"/><title level="a">Les listes des rois d’Aksoum</title><title level="j">Journal Asiatique</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><date>1909</date><biblScope unit="volume">Dixième Série, 14</biblScope><biblScope unit="page">263-320</biblScope><note type="tags"><note type="tag">bm:ContiRossini1909Listes</note></note><note type="tag">bm:ContiRossini1909Listes</note><citedRange unit="page">285</citedRange></bibl>
                         </listBibl>
 
 
@@ -95,7 +96,7 @@
                            <title type="incomplete" ref="https://betamasaheft.eu/LIT3854KingList">King list B</title>
                            <textLang mainLang="gez"/>
                            <listBibl type="secondary">
-                              <bibl corresp="http://zotero.org/groups/358366/items/KKKATHSD"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1909Listes"/><title level="a">Les listes des rois d’Aksoum</title><title level="j">Journal Asiatique</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Carlo</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Conti Rossini</t:surname></author><date>1909</date><biblScope unit="volume">Dixième Série, 14</biblScope><biblScope unit="page">263-320</biblScope><citedRange unit="page">276</citedRange></bibl>
+                              <bibl corresp="http://zotero.org/groups/358366/items/KKKATHSD"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1909Listes"/><title level="a">Les listes des rois d’Aksoum</title><title level="j">Journal Asiatique</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><date>1909</date><biblScope unit="volume">Dixième Série, 14</biblScope><biblScope unit="page">263-320</biblScope><note type="tags"><note type="tag">bm:ContiRossini1909Listes</note></note><note type="tag">bm:ContiRossini1909Listes</note><citedRange unit="page">276</citedRange></bibl>
                            </listBibl>
                         </msItem>
 
@@ -117,7 +118,9 @@
                         </msItem>
 
                         <msItem xml:id="ms_i1.2.9">
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#SubscriptionIntroduction">Ḫāylu Compilation (general record): Subscription following the end of the introduction and king lists, preceding the Śǝrʿāta mangǝśt.</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#SubscriptionIntroduction">Ḫāylu Compilation (general record):
+        Subscription following the end of the introduction and king lists, preceding the Śǝrʿāta
+        mangǝśt.</title>
                            <textLang mainLang="gez"/>
                         </msItem>
 
@@ -205,10 +208,11 @@
 
                     <msItem xml:id="ms_i1.11">
                         <locus from="80rb" to="88rb"/>
-                       <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#SerataGebr">Ḫāylu Compilation (general record): Śǝrʿāta mangǝśt (same as LIT2335serata)</title>
+                       <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#SerataGebr">Ḫāylu Compilation (general record): Śǝrʿāta
+        mangǝśt</title>
                         <textLang mainLang="gez"/>
                        <listBibl type="secondary">
-                          <bibl corresp="http://zotero.org/groups/358366/items/R7QMSMQ4"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Kropp1988Serata"/><title level="a">The Sǝrʿatä Gǝbr: A Mirror View of Daily Life at the Ethiopian Royal Court in the Middle Ages</title><title level="j">Northeast African Studies</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Manfred</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Kropp</t:surname></author><date>1988</date><biblScope unit="volume">10</biblScope><biblScope unit="issue">2-3</biblScope><biblScope unit="page">51-87</biblScope><note type="url">https://www.jstor.org/stable/43661184?seq=1</note><citedRange unit="page">219</citedRange></bibl>
+                          <bibl corresp="http://zotero.org/groups/358366/items/R7QMSMQ4"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Kropp1988Serata"/><title level="a">The Sǝrʿatä Gǝbr: A Mirror View of Daily Life at the Ethiopian Royal Court in the Middle Ages</title><title level="j">Northeast African Studies</title><author><forename>Manfred</forename><surname>Kropp</surname></author><date>1988</date><biblScope unit="volume">10</biblScope><biblScope unit="issue">2-3</biblScope><biblScope unit="page">51-87</biblScope><note type="url">https://www.jstor.org/stable/43661184?seq=1</note><note type="tags"><note type="tag">Historiography</note><note type="tag">Kingship</note><note type="tag">Philology, Ethiopian</note><note type="tag">Serata Gebr</note><note type="tag">bm:Kropp1988Serata</note></note><note type="tag">Historiography</note><note type="tag">Kingship</note><note type="tag">Philology, Ethiopian</note><note type="tag">Serata Gebr</note><note type="tag">bm:Kropp1988Serata</note><citedRange unit="page">219</citedRange></bibl>
                        </listBibl>
                     </msItem>
 
@@ -372,7 +376,8 @@
 
                     <msItem xml:id="ms_i1.13">
                         <locus from="91v"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#LebnaDengel">Ḫāylu Compilation (general record): Chronicle of Lǝbna Dǝngǝl (same as LIT4651ChronLeb)</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#LebnaDengel">Ḫāylu Compilation (general record): Chronicle of Lǝbna
+        Dǝngǝl</title>
                         <textLang mainLang="gez"/>
                     </msItem>
 
@@ -402,13 +407,13 @@
                         ወዘአጽሐፎ፡ ሰ፡ ደጅ፡ አዝማች፡ <persName ref="https://betamasaheft.eu/PRS5222haylaMi">ኀይሉ፡</persName>
                        ወልዱ፡ ለደጃዝማች፡ <persName ref="https://betamasaheft.eu/PRS3856esateof">እሼቴ፡</persName> ወእሙሂ፡ ወይዘሮ፡ <persName ref="https://betamasaheft.eu/PRS9853Walatta">ወለተ፡ ሩፋኤል፡</persName>
                         ወለተ፡ <persName ref="https://betamasaheft.eu/PRS5616IyasuI">አድያም፡ ሰገድ፡ ኢያሱ፡</persName> መንገለ፡ አቡሃ፡ ወመንገለ፡ እማ፡ አልቦ፡ ዘይትኤረይ።
-                        <bibl corresp="http://zotero.org/groups/358366/items/QT6D2TPP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kropp1989Haylu"/><title level="m">Die äthiopischen Königschroniken in der Sammlung des Däǧǧazmač Ḫaylu: Entstehung und handschriftliche Überlieferung des Werks</title><title level="s">Heidelberger orientalische Studien</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Manfred</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Kropp</t:surname></author><pubPlace>Frankfurt a. M.</pubPlace><publisher>Lang</publisher><date>1989</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Heidelberger orientalische Studien</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">13</t:biblScope></series><biblScope unit="volume">13</biblScope><citedRange unit="page">28</citedRange></bibl>
+                        <bibl corresp="http://zotero.org/groups/358366/items/QT6D2TPP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kropp1989Haylu"/><title level="m">Die äthiopischen Königschroniken in der Sammlung des Däǧǧazmač Ḫaylu: Entstehung und handschriftliche Überlieferung des Werks</title><title level="s">Heidelberger orientalische Studien</title><author><forename>Manfred</forename><surname>Kropp</surname></author><pubPlace>Frankfurt a. M.</pubPlace><publisher>Lang</publisher><date>1989</date><series><title level="s">Heidelberger orientalische Studien</title><biblScope unit="volume">13</biblScope></series><biblScope unit="volume">13</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Historiography</note><note type="tag">bm:Kropp1989Haylu</note></note><note type="tag">Ethiopic</note><note type="tag">Historiography</note><note type="tag">bm:Kropp1989Haylu</note><citedRange unit="page">28</citedRange></bibl>
                         </colophon>
                     </msItem>
 
                     <msItem xml:id="ms_i1.16">
                         <locus from="117r"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Minas">Ḫāylu Compilation (general record): Chronicle of Minās (same as LIT4330Minas)</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Minas">Ḫāylu Compilation (general record): Chronicle of Minās</title>
                         <textLang mainLang="gez"/>
                         <incipit xml:lang="gez">
                         በስመ፡<gap reason="omitted" extent="unknown" resp="PRS10747Zotenbe"/> እዌጥን፡ አንሰ፡ ከመ፡ እንብብ፡ ወእከርትስ፡ ዜናሁ፡ ለእግዚእነ፡ ማር፡ ሚናስ፡</incipit>
@@ -416,7 +421,8 @@
 
                     <msItem xml:id="ms_i1.17">
                         <locus from="125r"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#SardaDengel">Ḫāylu Compilation (general record): Chronicle of Śarḍa Dǝngǝl (same as LIT3531Sarsa)</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#SardaDengel">Ḫāylu Compilation (general record): Chronicle of Śarḍa
+        Dǝngǝl</title>
                         <textLang mainLang="gez"/>
                         <incipit xml:lang="gez">ንጽሕፍ፡ መጽሐፈ፡ ዜናሁ፡ ለንጉሥ፡ ሠርፀ፡ ድንግል፡  እግዚአብሔር፡ ያንኅ፡ መዋዕሊሁ፡ ከመ፡ መዋዕለ፡ ዕፀ፡ ሐይወት፡</incipit>
 
@@ -455,7 +461,8 @@
 
                         <msItem xml:id="ms_i1.17.7">
                            <locus to="158v"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#SardaDengel7">Ḫāylu Compilation (general record): Seventh Book</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#SardaDengel7">Ḫāylu Compilation (general record): Seventh
+        Book</title>
                            <textLang mainLang="gez"/>
                            <note>The seventh book ends with a note stating that the work originally ended with this book.</note>
                         </msItem>
@@ -487,100 +494,115 @@
 
                     <msItem xml:id="ms_i1.18">
                         <locus from="181v"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#SuccessorsSardaDengel">Ḫāylu Compilation (general record): Abridged Chronicles of the successors of Śarḍa Dǝngǝl</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#SuccessorsSardaDengel">Ḫāylu Compilation (general record): Abridged
+        Chronicles of the successors of Śarḍa Dǝngǝl</title>
                         <textLang mainLang="gez"/>
 
                         <msItem xml:id="ms_i1.18.1">
                            <locus target="#181v"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Yaqob1">Ḫāylu Compilation (general record): Reign of ʾaṣe Yāʿqob</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Yaqob1">Ḫāylu Compilation (general record): Reign of Yāʿqob</title>
                            <textLang mainLang="gez"/>
                         </msItem>
 
                         <msItem xml:id="ms_i1.18.2">
                            <locus from="181v"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Zadengel">Ḫāylu Compilation (general record): Reign of Zadǝngǝl</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Zadengel">Ḫāylu Compilation (general record): Reign of
+        Zadǝngǝl</title>
                            <textLang mainLang="gez"/>
                         </msItem>
 
                         <msItem xml:id="ms_i1.18.3">
                            <locus target="#182r"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Yaqob2">Ḫāylu Compilation (general record): Restoration of ʾaṣe Yāʿqob</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Yaqob2">Ḫāylu Compilation (general record): Restoration of
+        Yāʿqob</title>
                            <textLang mainLang="gez"/>
                         </msItem>
 
                         <msItem xml:id="ms_i1.18.4">
                            <locus from="182r"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Susenyos">Ḫāylu Compilation (general record): A short summary of the Chronicle of Susǝnyos</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Susenyos">Ḫāylu Compilation (general record): A short summary of the
+        Chronicle of Susǝnyos</title>
                            <textLang mainLang="gez"/>
                         </msItem>
 
                         <msItem xml:id="ms_i1.18.5">
                            <locus from="183r"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Fasiladas">Ḫāylu Compilation (general record): Chronicle of Fāsiladas (same as LIT4640Chronicle)</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Fasiladas">Ḫāylu Compilation (general record): Chronicle of
+        Fāsiladas</title>
                            <textLang mainLang="gez"/>
                         </msItem>
 
                         <msItem xml:id="ms_i1.18.6">
                            <locus from="185r"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Yohannes1">Ḫāylu Compilation (general record): Chronicle of Yoḥannǝs I (same as LIT3947ChronYohannes)</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Yohannes1">Ḫāylu Compilation (general record): Chronicle of Yoḥannǝs
+        I</title>
                            <textLang mainLang="gez"/>
                            <incipit xml:lang="gez">ወነግሠ፡ ወልዱ፡ ዮሐንስ፡ ወተሰምየ፡ ስመ፡ መንግሥቱ፡ አእላፍ፡ ሰገድ።</incipit>
                         </msItem>
 
                         <msItem xml:id="ms_i1.18.7">
                            <locus from="185v"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Yohannes2">Ḫāylu Compilation (general record): Different abridged version of the chronicle of Yoḥannǝs I</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Yohannes2">Ḫāylu Compilation (general record): Different abridged
+        version of the chronicle of Yoḥannǝs I</title>
                            <textLang mainLang="gez"/>
                            <incipit xml:lang="gez">ታሪክ፡ ዘአጽናፍ፡ <supplied reason="explanation" resp="PRS10747Zotenbe">ዘአእላፍ፡</supplied> ሰገድ፡ ዳግም፡ ዘረከብነ፡ በካልእ፡ ብሔር።</incipit>
                         </msItem>
 
                         <msItem xml:id="ms_i1.18.8">
                            <locus from="186v"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Iyasu">Ḫāylu Compilation (general record): Chronicle of ʾIyāsu I (same as LIT3950ChronIyasu)</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Iyasu">Ḫāylu Compilation (general record): Chronicle of ʾIyāsu
+        I</title>
                            <textLang mainLang="gez"/>
                         </msItem>
 
                         <msItem xml:id="ms_i1.18.9">
                            <locus from="195r"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#TaklaHaymanot">Ḫāylu Compilation (general record): Chronicle of Takla Hāymānot I Short Chronicle, forma volgata BNFet142 BassÉth (same as LIT4638Chronicle)</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#TaklaHaymanot">Ḫāylu Compilation (general record): Chronicle of
+        Takla Hāymānot I Short Chronicle, forma volgata BNFet142 BassÉth</title>
                            <textLang mainLang="gez"/>
                         </msItem>
 
                         <msItem xml:id="ms_i1.18.10">
                            <locus from="197r"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Tewoflos">Ḫāylu Compilation (general record): Chronicle of Tewoflos Short Chronicle, forma volgata BNFet142 BassÉth (same as LIT4636Chronicle)</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Tewoflos">Ḫāylu Compilation (general record): Chronicle of Tewoflos
+        Short Chronicle, forma volgata BNFet142 BassÉth</title>
                            <textLang mainLang="gez"/>
                         </msItem>
 
                         <msItem xml:id="ms_i1.18.11">
                            <locus from="198v"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Yostos">Ḫāylu Compilation (general record): Chronicle of Yosṭos Short Chronicle, forma volgata BNFet142 BassÉth (same as LIT4637Chronicle)</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Yostos">Ḫāylu Compilation (general record): Chronicle of Yosṭos
+        Short Chronicle, forma volgata BNFet142 BassÉth</title>
                            <textLang mainLang="gez"/>
                         </msItem>
 
                         <msItem xml:id="ms_i1.18.12">
                            <locus from="199v"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Dawit">Ḫāylu Compilation (general record): Chronicle of Dāwit III Short Chronicle, forma volgata BNFet142 BassÉth (same as LIT4639Chronicle)</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Dawit">Ḫāylu Compilation (general record): Chronicle of Dāwit III
+        Short Chronicle, forma volgata BNFet142 BassÉth</title>
                            <textLang mainLang="gez"/>
                         </msItem>
 
                         <msItem xml:id="ms_i1.18.13">
                            <locus from="202r"/>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Bakaffa">Ḫāylu Compilation (general record): Chronicle of Bäkaffa (same as LIT4633Chronicle)</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Bakaffa">Ḫāylu Compilation (general record): Chronicle of
+        Bäkaffa</title>
                            <textLang mainLang="gez"/>
                         </msItem>
                     </msItem>
 
                     <msItem xml:id="ms_i1.19">
                         <locus from="209r"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#IyasuII">Ḫāylu Compilation (general record): Chronicle of ʾIyāsu II (same as LIT4634Chronicle)</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#IyasuII">Ḫāylu Compilation (general record): Chronicle of ʾIyāsu
+        II</title>
                         <textLang mainLang="gez"/>
 
                     </msItem>
 
                     <msItem xml:id="ms_i1.20">
                         <locus from="256r"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Iyoas">Ḫāylu Compilation (general record): Chronicle of ʾIyoʾas I (same as LIT4635Chronicle)</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#Iyoas">Ḫāylu Compilation (general record): Chronicle of ʾIyoʾas
+        I</title>
                         <textLang mainLang="gez"/>
 
                         <msItem xml:id="ms_i1.20.1">
@@ -653,7 +675,7 @@
                            <textLang mainLang="gez"/>
                            <note>First chapter about
                               <persName ref="https://betamasaheft.eu/PRS7091Mikael">
-                                 <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">rās</t:roleName>
+                                 <roleName type="title">rās</roleName>
                               </persName>
                            </note>
                         </msItem>
@@ -662,7 +684,7 @@
                            <title type="complete" xml:lang="gez" ref="https://betamasaheft.eu/LIT4090Haylu#">ንጽሕፍ፡ ዜና፡ ነገሩ፡ ወታሪከ፡ ልደቱ፡ ለክቡር፡ ራስ፡ ሚካኤል</title>
                            <textLang mainLang="gez"/>
                            <note>Second chapter about  <persName ref="https://betamasaheft.eu/PRS7091Mikael">
-                                 <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">rās</t:roleName>
+                                 <roleName type="title">rās</roleName>
                               </persName>, containing mainly his genealogy.</note>
                         </msItem>
 
@@ -688,7 +710,7 @@
                         <locus from="276v"/>
                         <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#RasMikael">History of
                         <persName ref="https://betamasaheft.eu/PRS7091Mikael">
-                              <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="title">rās</t:roleName>
+                              <roleName type="title">rās</roleName>
                            </persName>  continued under the reigns of <persName ref="https://betamasaheft.eu/PRS10376Yohanne">Yoḥannǝs II</persName>,
                         <persName ref="https://betamasaheft.eu/PRS9153TaklaHa">Takla Hāymānot II</persName> and <persName ref="https://betamasaheft.eu/PRS9142TaklaGi">Takla Giyorgis I</persName>
                         </title>
@@ -699,19 +721,20 @@
                         <colophon xml:id="coloph5" xml:lang="gez">
                         ወአጽሐፎን፡ ለእለ፡ መጻሕፍት፡ ታሪክ፡ ዘነገሥታት፡ ወመኳንንት፡ እለ፡ ኮኑ፡ እምፍጥረተ፡ አዳም፡ እስከ፡
                            <persName ref="https://betamasaheft.eu/PRS9153TaklaHa">
-                              <t:roleName xmlns:t="http://www.tei-c.org/ns/1.0" type="office">ንጉሥ፡ </t:roleName>አድማስ፡ ሰገድ፡</persName>  ተክለ፡ ሃይማኖት፡ ወአስተጋብኦን፡
+                              <roleName type="office">ንጉሥ፡ </roleName>አድማስ፡ ሰገድ፡</persName>  ተክለ፡ ሃይማኖት፡ ወአስተጋብኦን፡
                         ደጅአዝማች፡ ኀይሉ፡ እንዘ፡ ሕፃን፡ ልሒቅ፡ በአስተሐምሞ፡ ወፃሕቅ፡ እምኵሎን፡ አድባራት፡ ወእምደሰያት፡ ወእምቤተ፡ አዛዦች፡ ወእምቤተ፡ ጸሐፍተ፡ ትእዛዝ፤
                         ወእምዝ፡ ኵሉ፡ አስተጋብኦን፡ ለእለ፡ መጻሕፍተ፡ ታሪክ፡ እምአመ፡ ጠፍአ፡ በብዙኅ፡ ዘመን፤ በከመ፡ አስተጋብኦን፡ ዕዝራ፡ ነቢየ፡ ትካ ት፡ ለኵሎን፡ መጻሕፍተ፡ ነቢያት፡ እለ፡ ውዕያ፡
                         ቀዳሚ፡ በእሳት፡ ከማሁ፡ አስተጋብኦን፡ ደጅአዝማች፡ ኀይሉ፡ ርእሰ፡ መኳንንት፡ ለኵሎን፡ መጻሕፍተ፡ ነገሥት፡ እለ፡ ጠፍአ፡ አመ፡ ውዕየ፡ ቤተ፡ መንግሥት፡ በመዓቱ፡ ለራስ፡ ሚካኤል፡
                         ክቡደ፡ መአት፤ ወበከመ፡ አስተጋብእዎን፡ ፫፻<supplied reason="undefined" resp="PRS10747Zotenbe">፲ወ፰</supplied>፡ ለመጻሕፍተ፡ ሐዲሳት፡ ከማሁ፡ አስተጋብኦን። ባሕቱ፡ ኢሀሎ፡ ንጉሥ፡ ወመኰንን፡ በአስተሐምሞ፡ ወጻሕቅ፡ ዘይሰምዖን፡ ወዘይሬእዮን።
                         ተፈጸመ፡ መጽሐፈ፡ ታሪክ፡ አመ፡ ፮፡ ለ ወርኀ፡ መስከረም፡ ቡሩክ፡ ለዓለመ፡ ዓለም፡ አሜን፡ ወአሜን።
                       </colophon>
-                        <note>This manuscript contains an abbreviated recension of this account, see <bibl corresp="http://zotero.org/groups/358366/items/QT6D2TPP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kropp1989Haylu"/><title level="m">Die äthiopischen Königschroniken in der Sammlung des Däǧǧazmač Ḫaylu: Entstehung und handschriftliche Überlieferung des Werks</title><title level="s">Heidelberger orientalische Studien</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Manfred</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Kropp</t:surname></author><pubPlace>Frankfurt a. M.</pubPlace><publisher>Lang</publisher><date>1989</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Heidelberger orientalische Studien</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">13</t:biblScope></series><biblScope unit="volume">13</biblScope><citedRange unit="page">49–50</citedRange></bibl>.</note>
+                        <note>This manuscript contains an abbreviated recension of this account, see <bibl corresp="http://zotero.org/groups/358366/items/QT6D2TPP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kropp1989Haylu"/><title level="m">Die äthiopischen Königschroniken in der Sammlung des Däǧǧazmač Ḫaylu: Entstehung und handschriftliche Überlieferung des Werks</title><title level="s">Heidelberger orientalische Studien</title><author><forename>Manfred</forename><surname>Kropp</surname></author><pubPlace>Frankfurt a. M.</pubPlace><publisher>Lang</publisher><date>1989</date><series><title level="s">Heidelberger orientalische Studien</title><biblScope unit="volume">13</biblScope></series><biblScope unit="volume">13</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Historiography</note><note type="tag">bm:Kropp1989Haylu</note></note><note type="tag">Ethiopic</note><note type="tag">Historiography</note><note type="tag">bm:Kropp1989Haylu</note><citedRange unit="page">49–50</citedRange></bibl>.</note>
                     </msItem>
 
                     <msItem xml:id="ms_i1.22">
                         <locus from="288r"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#TaklaGiyorgis">Ḫāylu Compilation (general record): Chronicle of Takla Giyorgis I, with an intermission for the reign of Salomon I</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#TaklaGiyorgis">Ḫāylu Compilation (general record): Chronicle of
+        Takla Giyorgis I, with an intermission for the reign of Salomon I</title>
                         <textLang mainLang="gez"/>
                         <incipit xml:lang="gez">
                         በስመ፡ <gap reason="omitted" extent="unknown" resp="PRS10747Zotenbe"/>
@@ -725,7 +748,8 @@
 
                     <msItem xml:id="ms_i1.23">
                         <locus from="310v"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#BiographyHaylu">Ḫāylu Compilation (general record): Biography of Ḫāyla Mikāʾel ʾƎšate</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#BiographyHaylu">Ḫāylu Compilation (general record): Biography of
+        Ḫāyla Mikāʾel ʾƎšate</title>
                         <textLang mainLang="gez"/>
                         <incipit xml:lang="gez">በስመ፡
                         <gap reason="omitted" extent="unknown" resp="PRS10747Zotenbe"/>
@@ -745,15 +769,16 @@
                         ዘውእቱ፡ ታሪክ፡ ዘአልቦ፡ ሐሰት፡ ጸሐፍክዎ፡ አነ፡ አበጋዝ፡ ዘብሔርየ፡ ብሔረ፡ ሸዋ፡ ወእግዚአብሔር፡ የአምር፡ ከመ፡ ኢወሰኩ፡ አላ፡ ነበብኩ፡ ኅዳጠ፡
                         እምዘሰማዕኩ፡ ወእስከዝየ፡ አብጻሕኩ፡ ወእምዝ፡ እንዘ፡ ሀሎ፡ በማኅደረ፡ ማርያም፡ ደጅአዝማች፡ ኀይሉ፡
                       </colophon>
-                        <note>Identified by <persName ref="https://betamasaheft.eu/PRS10747Zotenbe">Hermann Zotenberg</persName> as the biography of <persName ref="https://betamasaheft.eu/PRS7091Mikael">Mikāʾel Sǝḥul</persName>, but see <bibl corresp="http://zotero.org/groups/358366/items/5HVV4WUP"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Guidi1902HaylaM"/><title level="a">La storia di Ḫāyla Mikāʾēl</title><title level="j">Atti della Reale Accademia dei Lincei, Rendiconti, Classe di scienze morale, storiche e filologiche</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ignazio</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Guidi</t:surname></author><date>1902</date><biblScope unit="volume">Serie quinta, 11</biblScope><biblScope unit="page">2-79</biblScope><note type="url">http://menadoc.bibliothek.uni-halle.de/ssg/content/titleinfo/919398</note><citedRange unit="page">3</citedRange></bibl>.</note>
+                        <note>Identified by <persName ref="https://betamasaheft.eu/PRS10747Zotenbe">Hermann Zotenberg</persName> as the biography of <persName ref="https://betamasaheft.eu/PRS7091Mikael">Mikāʾel Sǝḥul</persName>, but see <bibl corresp="http://zotero.org/groups/358366/items/5HVV4WUP"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Guidi1902HaylaM"/><title level="a">La storia di Ḫāyla Mikāʾēl</title><title level="j">Atti della Reale Accademia dei Lincei, Rendiconti, Classe di scienze morale, storiche e filologiche</title><author><forename>Ignazio</forename><surname>Guidi</surname></author><date>1902</date><biblScope unit="volume">Serie quinta, 11</biblScope><biblScope unit="page">2-79</biblScope><note type="url">http://menadoc.bibliothek.uni-halle.de/ssg/content/titleinfo/919398</note><note type="tags"><note type="tag">bm:Guidi1902HaylaM</note></note><note type="tag">bm:Guidi1902HaylaM</note><citedRange unit="page">3</citedRange></bibl>.</note>
                         <listBibl type="text">
-                           <bibl corresp="http://zotero.org/groups/358366/items/5HVV4WUP"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Guidi1902HaylaM"/><title level="a">La storia di Ḫāyla Mikāʾēl</title><title level="j">Atti della Reale Accademia dei Lincei, Rendiconti, Classe di scienze morale, storiche e filologiche</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Ignazio</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Guidi</t:surname></author><date>1902</date><biblScope unit="volume">Serie quinta, 11</biblScope><biblScope unit="page">2-79</biblScope><note type="url">http://menadoc.bibliothek.uni-halle.de/ssg/content/titleinfo/919398</note><citedRange unit="page">4–79</citedRange></bibl>
+                           <bibl corresp="http://zotero.org/groups/358366/items/5HVV4WUP"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Guidi1902HaylaM"/><title level="a">La storia di Ḫāyla Mikāʾēl</title><title level="j">Atti della Reale Accademia dei Lincei, Rendiconti, Classe di scienze morale, storiche e filologiche</title><author><forename>Ignazio</forename><surname>Guidi</surname></author><date>1902</date><biblScope unit="volume">Serie quinta, 11</biblScope><biblScope unit="page">2-79</biblScope><note type="url">http://menadoc.bibliothek.uni-halle.de/ssg/content/titleinfo/919398</note><note type="tags"><note type="tag">bm:Guidi1902HaylaM</note></note><note type="tag">bm:Guidi1902HaylaM</note><citedRange unit="page">4–79</citedRange></bibl>
                         </listBibl>
                     </msItem>
 
                     <msItem xml:id="ms_i1.24">
                         <locus from="324r"/>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#RasAli">Ḫāylu Compilation (general record): History of ʾAli Gwāngul, ʾAli I and of the restoration of Takla Giyorgis I</title>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#RasAli">Ḫāylu Compilation (general record): History of ʾAli Gwāngul,
+        ʾAli I and of the restoration of Takla Giyorgis I</title>
                         <textLang mainLang="gez"/>
                         <incipit xml:lang="gez">በስመ፡  <gap reason="omitted" extent="unknown" resp="PRS10747Zotenbe"/>
                        ናሁ፡ ንዌጥን፡ ጽሒፈ፡ ዜናሁ፡ አዳም፡ ዘውእቱ፡ ታሪኩ፡ ለሐዲስ፡ ቈስጠንጢኖስ፡ ራስ፡ አሊ፡ ርእሰ፡ መኳንንት፡
@@ -775,7 +800,7 @@
                         <locus from="335va" to="335vb"/>
                         <title type="complete" ref="https://betamasaheft.eu/LIT4090Haylu#EndowmentMakanaIyasus">Ḫāylu Compilation (general record):  EndowmentMakanaIyasus</title>
                         <textLang mainLang="gez"/>
-                        <note>Abbreviated version of the record, see <bibl corresp="http://zotero.org/groups/358366/items/QT6D2TPP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kropp1989Haylu"/><title level="m">Die äthiopischen Königschroniken in der Sammlung des Däǧǧazmač Ḫaylu: Entstehung und handschriftliche Überlieferung des Werks</title><title level="s">Heidelberger orientalische Studien</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Manfred</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Kropp</t:surname></author><pubPlace>Frankfurt a. M.</pubPlace><publisher>Lang</publisher><date>1989</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Heidelberger orientalische Studien</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">13</t:biblScope></series><biblScope unit="volume">13</biblScope><citedRange unit="page">81</citedRange></bibl>.</note>
+                        <note>Abbreviated version of the record, see <bibl corresp="http://zotero.org/groups/358366/items/QT6D2TPP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kropp1989Haylu"/><title level="m">Die äthiopischen Königschroniken in der Sammlung des Däǧǧazmač Ḫaylu: Entstehung und handschriftliche Überlieferung des Werks</title><title level="s">Heidelberger orientalische Studien</title><author><forename>Manfred</forename><surname>Kropp</surname></author><pubPlace>Frankfurt a. M.</pubPlace><publisher>Lang</publisher><date>1989</date><series><title level="s">Heidelberger orientalische Studien</title><biblScope unit="volume">13</biblScope></series><biblScope unit="volume">13</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Historiography</note><note type="tag">bm:Kropp1989Haylu</note></note><note type="tag">Ethiopic</note><note type="tag">Historiography</note><note type="tag">bm:Kropp1989Haylu</note><citedRange unit="page">81</citedRange></bibl>.</note>
                     </msItem>
                   </msItem>
 
@@ -793,14 +818,14 @@
                            <dimensions type="outer" unit="mm">
                               <height>320</height>
                               <width>220</width>
-                           </dimensions>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="320" unit="mm"/><width quantity="220" unit="mm"/></dimensions>
                         </extent>
 
 
                      </supportDesc>
 
                      <layoutDesc>
-                        <layout columns="2" writtenLines="30 36" cert="low"/>
+                        <layout columns="2" writtenLines="30 36" cert="low"/><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="36"/></layout>
                      </layoutDesc>
                   </objectDesc>
 
@@ -823,7 +848,7 @@
                <history>
                   <origin>
                      <origDate notBefore="1840" evidence="prosopography">
-                        <note>Date according to <bibl corresp="http://zotero.org/groups/358366/items/E7QT2H7D"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kropp1988LebnaI"/><title level="m">Die Geschichte des Lebna-Dengel, Claudius und Minās</title><title level="s">Corpus Scriptorum Christianorum Orientalium</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Manfred</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Kropp</t:surname></author><pubPlace>Lovanii</pubPlace><publisher>Peeters</publisher><date>1988</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Corpus Scriptorum Christianorum Orientalium</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">503 Scriptores Aethiopici, 83</t:biblScope></series><biblScope unit="volume">I</biblScope><biblScope unit="volume">503 Scriptores Aethiopici, 83</biblScope><citedRange unit="page">XIV</citedRange></bibl>.</note>
+                        <note>Date according to <bibl corresp="http://zotero.org/groups/358366/items/E7QT2H7D"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kropp1988LebnaI"/><title level="m">Die Geschichte des Lebna-Dengel, Claudius und Minās</title><title level="s">Corpus Scriptorum Christianorum Orientalium</title><author><forename>Manfred</forename><surname>Kropp</surname></author><pubPlace>Lovanii</pubPlace><publisher>Peeters</publisher><date>1988</date><series><title level="s">Corpus Scriptorum Christianorum Orientalium</title><biblScope unit="volume">503 Scriptores Aethiopici, 83</biblScope></series><biblScope unit="volume">I</biblScope><biblScope unit="volume">503 Scriptores Aethiopici, 83</biblScope><note type="tags"><note type="tag">bm:Kropp1988LebnaI</note></note><note type="tag">bm:Kropp1988LebnaI</note><citedRange unit="page">XIV</citedRange></bibl>.</note>
                      </origDate>
                   </origin>
                </history>
@@ -833,10 +858,10 @@
                      <recordHist>
                         <source>
                            <listBibl type="catalogue">
-                              <bibl corresp="http://zotero.org/groups/358366/items/XIGIRUCA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Zotenberg1877Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens (gheez et amharique) de la Bibliothèque nationale</title><title level="s">Manuscrits Orientaux</title><author><forename>Hermann</forename><surname>Zotenberg</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1877</date><series><title level="s">Manuscrits Orientaux</title></series><note type="url">https://archive.org/details/manuscritsorient00bibl</note><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Zotenberg1877Catalogue</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">Bibliothèque Nationale</note><note type="tag">bm:Zotenberg1877Catalogue</note><citedRange unit="page">216a–221a</citedRange></bibl>
+                              <bibl corresp="http://zotero.org/groups/358366/items/XIGIRUCA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Zotenberg1877Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens &lt;hi rend="italics"&gt;(&lt;/hi&gt;gheez et amharique&lt;hi rend="italics"&gt;)&lt;/hi&gt; de la Bibliothèque nationale</title><title level="s">Manuscrits Orientaux</title><author><forename>Hermann</forename><surname>Zotenberg</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1877</date><series><title level="s">Manuscrits Orientaux</title></series><note type="url">https://archive.org/details/manuscritsorient00bibl</note><note type="tags"><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Zotenberg1877Catalogue</note></note><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Zotenberg1877Catalogue</note><citedRange unit="page">216a–221a</citedRange></bibl>
                            </listBibl>
                            <listBibl type="secondary">
-                              <bibl corresp="http://zotero.org/groups/358366/items/EFE2TAZF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kropp2016Zekra"/><title level="m">Zekra Nagar. Die universalhistorische Einleitung nach Giyorgis Walda-Amid in der Chronikensammlung des Haylu</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Manfred</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Kropp</t:surname></author><pubPlace>Speyer</pubPlace><publisher>Kartoffeldruck-Verlag Kai Brodersen</publisher><date>2016</date><citedRange unit="page">10; 1704</citedRange></bibl>
+                              <bibl corresp="http://zotero.org/groups/358366/items/EFE2TAZF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Kropp2016Zekra"/><title level="m">Zekra Nagar. Die universalhistorische Einleitung nach Giyorgis Walda-Amid in der Chronikensammlung des Haylu</title><author><forename>Manfred</forename><surname>Kropp</surname></author><pubPlace>Speyer</pubPlace><publisher>Kartoffeldruck-Verlag Kai Brodersen</publisher><date>2016</date><note type="tags"><note type="tag">bm:Kropp2016Zekra</note></note><note type="tag">bm:Kropp2016Zekra</note><citedRange unit="page">10; 1704</citedRange></bibl>
                            </listBibl>
                         </source>
                      </recordHist>
@@ -853,14 +878,14 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="t:div" match="t:div" use="t:div"><desc><list><item>SecondPeriod</item><item>SubscriptionIntroduction</item><item>ExcerptIyasu</item></list></desc><citeStructure unit="t:pb" match="t:pb" use="t:pb"><desc><list><item>221v</item></list></desc></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="t:div" use="@xml:id"><citeStructure match="t:pb" unit="t:pb" use="@n"><desc><list><item>221v</item></list></desc></citeStructure><desc><list><item>SecondPeriod</item><item>SubscriptionIntroduction</item><item>ExcerptIyasu</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:textClass>
             <t:keywords>
@@ -874,14 +899,14 @@
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#DR" when="2016-11-04"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
-         <change who="#DR" when="2016-12-19"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Text added</change>
-         <change who="#DR" when="2017-10-25"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Textparts added</change>
-         <change who="#DE" when="2020-03-12"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected transliteration.</change>
+         <change when="2016-11-04" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
+         <change when="2016-12-19" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Text added</change>
+         <change when="2017-10-25" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Textparts added</change>
+         <change when="2020-03-12" who="#DE"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected transliteration.</change>
       </t:revisionDesc>
   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
-         <t:div type="edition">
+         <t:div type="edition" xml:id="div1BNFet143">
 
             <t:div type="textpart" xml:id="SecondPeriod" xml:lang="gez" corresp="https://betamasaheft.eu/BNFet143#ms_i1.2.2">
                <t:ab>

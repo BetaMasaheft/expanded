@@ -4,9 +4,9 @@
             <title xml:lang="gez" xml:id="t1">ማኅሌተ፡ ጽጌ፡</title>
             <title xml:lang="gez" corresp="#t1" type="normalized">Māḫleta ṣǝge</title>
             <title xml:lang="en" corresp="#t1">Canticle of the Flower</title>
-            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="PL" corresp="https://betamasaheft.eu/team.html#PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt xml:id="DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -18,7 +18,7 @@
                 Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
-         <date type="expanded">1.7.2025 at 12:49:44</date><date type="lastModified">27.3.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1834Mahlet/main</idno><idno type="URI">https://betamasaheft.eu/LIT1834Mahlet</idno><idno type="filename">LIT1834Mahlet.xml</idno><idno type="ID">LIT1834Mahlet</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:15:44</date><date type="lastModified">27.3.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1834Mahlet/main</idno><idno type="URI">https://betamasaheft.eu/LIT1834Mahlet</idno><idno type="filename">LIT1834Mahlet.xml</idno><idno type="ID">LIT1834Mahlet</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -28,777 +28,777 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="div" match="div" use="div"><desc><list><item>masgabiya</item><item>tarafa-malke</item></list></desc><citeStructure unit="stanza" match="div" use="div"><desc><list><item>tarafamalkA</item><item>tarafamalkB</item><item>tarafamalkC</item><item>tarafamalkD</item><item>tarafamalkE</item><item>tarafamalkF</item><item>tarafamalkG</item><item>tarafamalkH</item><item>tarafamalkI</item><item>tarafamalkJ</item><item>tarafamalkK</item><item>tarafamalkL</item></list></desc><citeStructure unit="lg" match="lg" use="lg"><desc><list><item>1</item><item>2</item><item>11</item><item>12</item></list></desc><citeStructure unit="l" match="l" use="l"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item></list></desc></citeStructure></citeStructure></citeStructure><citeStructure unit="lg" match="lg" use="lg"><desc><list><item>1</item></list></desc><citeStructure unit="l" match="l" use="l"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item></list></desc></citeStructure></citeStructure></citeStructure><citeStructure unit="stanza" match="div" use="div"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>23</item><item>31</item><item>32</item><item>33</item><item>34</item><item>35</item><item>36</item><item>37</item><item>38</item><item>39</item><item>40</item><item>41</item><item>42</item><item>43</item><item>44</item><item>45</item><item>46</item><item>47</item><item>48</item><item>49</item><item>50</item><item>51</item><item>52</item><item>53</item><item>54</item><item>55</item><item>56</item><item>57</item><item>58</item><item>59</item><item>60</item><item>61</item><item>62</item><item>63</item><item>64</item><item>65</item><item>66</item><item>67</item><item>68</item><item>69</item><item>70</item><item>71</item><item>72</item><item>73</item><item>74</item><item>75</item><item>76</item><item>77</item><item>78</item><item>79</item><item>80</item><item>81</item><item>82</item><item>83</item><item>84</item><item>85</item><item>86</item><item>87</item><item>88</item><item>89</item><item>90</item><item>91</item><item>92</item><item>93</item><item>94</item><item>95</item><item>96</item><item>97</item><item>98</item><item>99</item><item>100</item><item>101</item><item>102</item><item>103</item><item>104</item><item>105</item><item>106</item><item>107</item><item>108</item><item>109</item><item>110</item><item>111</item><item>112</item><item>113</item><item>114</item><item>115</item><item>116</item><item>117</item><item>118</item><item>119</item><item>120</item><item>131</item><item>132</item><item>133</item><item>134</item><item>135</item><item>136</item><item>137</item><item>138</item><item>139</item><item>140</item><item>141</item><item>142</item><item>143</item><item>144</item><item>145</item><item>146</item><item>147</item><item>148</item><item>149</item><item>150</item><item>151</item><item>152</item><item>153</item><item>154</item><item>155</item><item>156</item><item>157</item></list></desc><citeStructure unit="lg" match="lg" use="lg"><desc><list><item>1</item><item>2</item><item>23</item><item>38</item><item>50</item><item>55</item><item>60</item><item>65</item><item>tei:lg[1]</item><item>156</item><item>157</item></list></desc><citeStructure unit="l" match="l" use="l"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>tei:l[1]</item></list></desc></citeStructure></citeStructure></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
-         <textClass>
-            <keywords>
-               <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-               <term key="Poetry" ana="#Poetry"/>
-            </keywords>
-         </textClass>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="t:div" use="@xml:id"><citeStructure match="t:lg" unit="t:lg" use="@n"><citeStructure match="t:l" unit="t:l" use="@n"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item></list></desc></citeStructure><desc><list><item>1</item></list></desc></citeStructure><citeStructure match="t:div" unit="stanza" use="@subtype"><citeStructure match="t:lg" unit="t:lg" use="@n"><citeStructure match="t:l" unit="t:l" use="@n"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item></list></desc></citeStructure><desc><list><item>1</item><item>2</item><item>11</item><item>12</item></list></desc></citeStructure><desc><list><item>tarafamalkA</item><item>tarafamalkB</item><item>tarafamalkC</item><item>tarafamalkD</item><item>tarafamalkE</item><item>tarafamalkF</item><item>tarafamalkG</item><item>tarafamalkH</item><item>tarafamalkI</item><item>tarafamalkJ</item><item>tarafamalkK</item><item>tarafamalkL</item></list></desc></citeStructure><desc><list><item>masgabiya</item><item>tarafa-malke</item></list></desc></citeStructure><citeStructure match="t:div" unit="stanza" use="@n"><citeStructure match="t:lg" unit="t:lg" use="@n"><citeStructure match="t:l" unit="t:l" use="@n"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>tei:t:l[1]</item></list></desc></citeStructure><desc><list><item>1</item><item>2</item><item>23</item><item>38</item><item>50</item><item>55</item><item>60</item><item>65</item><item>tei:t:lg[1]</item><item>156</item><item>157</item></list></desc></citeStructure><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>23</item><item>31</item><item>32</item><item>33</item><item>34</item><item>35</item><item>36</item><item>37</item><item>38</item><item>39</item><item>40</item><item>41</item><item>42</item><item>43</item><item>44</item><item>45</item><item>46</item><item>47</item><item>48</item><item>49</item><item>50</item><item>51</item><item>52</item><item>53</item><item>54</item><item>55</item><item>56</item><item>57</item><item>58</item><item>59</item><item>60</item><item>61</item><item>62</item><item>63</item><item>64</item><item>65</item><item>66</item><item>67</item><item>68</item><item>69</item><item>70</item><item>71</item><item>72</item><item>73</item><item>74</item><item>75</item><item>76</item><item>77</item><item>78</item><item>79</item><item>80</item><item>81</item><item>82</item><item>83</item><item>84</item><item>85</item><item>86</item><item>87</item><item>88</item><item>89</item><item>90</item><item>91</item><item>92</item><item>93</item><item>94</item><item>95</item><item>96</item><item>97</item><item>98</item><item>99</item><item>100</item><item>101</item><item>102</item><item>103</item><item>104</item><item>105</item><item>106</item><item>107</item><item>108</item><item>109</item><item>110</item><item>111</item><item>112</item><item>113</item><item>114</item><item>115</item><item>116</item><item>117</item><item>118</item><item>119</item><item>120</item><item>131</item><item>132</item><item>133</item><item>134</item><item>135</item><item>136</item><item>137</item><item>138</item><item>139</item><item>140</item><item>141</item><item>142</item><item>143</item><item>144</item><item>145</item><item>146</item><item>147</item><item>148</item><item>149</item><item>150</item><item>151</item><item>152</item><item>153</item><item>154</item><item>155</item><item>156</item><item>157</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Poetry" ana="#Poetry"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
-         <change who="#PL" when="2016-03-21"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
-         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
-         <change who="#DR" when="2017-03-17"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
-         <change who="#DR" when="2017-03-17"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added textparts</change>
-         <change who="#ES" when="2024-09-27"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added data from the database by Augustine Dickinson</change>
-         <change who="#DR" when="2025-03-27"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated data for stanzas 155-157 and tarafa malkǝʾ from the database by Augustine Dickinson</change>
-      </revisionDesc>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change when="2017-03-17" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
+         <change when="2017-03-17" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added textparts</change>
+         <change when="2024-09-27" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added data from the database by Augustine Dickinson</change>
+         <change when="2025-03-27" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated data for stanzas 155-157 and tarafa malkǝʾ from the database by Augustine Dickinson</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="saws:isAttributedToAuthor" ref="http://purl.org/saws/ontology#isAttributedToAuthor" active="https://betamasaheft.eu/LIT1834Mahlet" passive="https://betamasaheft.eu/PRS8691segeDen"/>
                <relation name="skos:exactMatch" ref="http://www.w3.org/2004/02/skos/core#exactMatch" active="https://betamasaheft.eu/LIT1834Mahlet" passive="https://w3id.org/malke/1834/"/>
                <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT1834Mahlet" passive="https://betamasaheft.eu/PRS6819Mary"/>
                <relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/LIT1834Mahlet" passive="https://betamasaheft.eu/LIT3117RepCh397"/>
-            </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="bibliography">
-            <listBibl type="editions">
-               <bibl corresp="http://zotero.org/groups/358366/items/7WA33SUX"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Chaine1913Rep"/><title level="a">Répertoire des Salam et Malkeʾe contenus dans les manuscrits éthiopiens des bibliothèques d’Europe</title><title level="j">Revue de l’Orient Chrétien</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Marius</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Chaîne</t:surname></author><date>1913</date><biblScope unit="volume">18</biblScope><biblScope unit="issue">2 and 4 (Deuxième série, 8/2 and 8/4)</biblScope><biblScope unit="page">183–203 and 337–357</biblScope><note type="url">http://catholicapedia.net/Documents/Revue-de-l.Orient-chretien/18-1913_revue-de-l.orient-ch_paris.pdf</note><citedRange unit="item">230</citedRange></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/7WA33SUX"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Chaine1913Rep"/><title level="a">Répertoire des Salam et Malkeʾe contenus dans les manuscrits éthiopiens des bibliothèques d’Europe</title><title level="j">Revue de l’Orient Chrétien</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Marius</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Chaîne</t:surname></author><date>1913</date><biblScope unit="volume">18</biblScope><biblScope unit="issue">2 and 4 (Deuxième série, 8/2 and 8/4)</biblScope><biblScope unit="page">183–203 and 337–357</biblScope><note type="url">http://catholicapedia.net/Documents/Revue-de-l.Orient-chretien/18-1913_revue-de-l.orient-ch_paris.pdf</note><citedRange unit="item">397</citedRange></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/2CM9ZMCU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Grohmann1919Marien"/><title level="m">Aethiopische Marienhymnen</title><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Adolf</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Grohmann</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Adolf</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Grohmann</t:surname></editor><pubPlace>Leipzig</pubPlace><publisher>Bei B. G. Teubner</publisher><date>1919</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</t:biblScope></series><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope><note type="url">https://digital.slub-dresden.de/werkansicht/dlf/447/9/</note><citedRange unit="page">66-156</citedRange></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV"><seg type="webpage"><!-- attributes from original bibl--></seg><ptr target="bm:MgWebsite"/><title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Augustine</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Dickinson</t:surname></author><date>2020</date><note type="accessed">2024-09-24</note><note type="url">https://malkeagubae.com/</note></bibl>
-            </listBibl>
-            <listBibl type="translation">
-               <bibl corresp="http://zotero.org/groups/358366/items/2CM9ZMCU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Grohmann1919Marien"/><title level="m">Aethiopische Marienhymnen</title><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Adolf</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Grohmann</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Adolf</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Grohmann</t:surname></editor><pubPlace>Leipzig</pubPlace><publisher>Bei B. G. Teubner</publisher><date>1919</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</t:biblScope></series><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope><note type="url">https://digital.slub-dresden.de/werkansicht/dlf/447/9/</note><citedRange unit="page">67-157</citedRange></bibl>
-            </listBibl>
-            <listBibl type="secondary">
-               <bibl corresp="http://zotero.org/groups/358366/items/2CM9ZMCU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Grohmann1919Marien"/><title level="m">Aethiopische Marienhymnen</title><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Adolf</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Grohmann</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Adolf</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Grohmann</t:surname></editor><pubPlace>Leipzig</pubPlace><publisher>Bei B. G. Teubner</publisher><date>1919</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</t:biblScope></series><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope><note type="url">https://digital.slub-dresden.de/werkansicht/dlf/447/9/</note><citedRange unit="page">47-65, 158-321</citedRange></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/KUMPE4ZG"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Habtemichael2007EAEMahletaSege"/><title level="a">Maḫletä ṣǝge</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><name>Habtemichael Kidane</name></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">660b-661b</biblScope><note type="tags"><note type="tag">bm:Habtemichael2007EAEMahletaSege</note></note><note type="tag">bm:Habtemichael2007EAEMahletaSege</note></bibl>
-            </listBibl>
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="bibliography">
+            <t:listBibl type="editions">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/7WA33SUX"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Chaine1913Rep"/><title level="a">Répertoire des Salam et Malkeʾe contenus dans les manuscrits éthiopiens des bibliothèques d’Europe</title><title level="j">Revue de l’Orient Chrétien</title><author><forename>Marius</forename><surname>Chaîne</surname></author><date>1913</date><biblScope unit="volume">18</biblScope><biblScope unit="issue">2 and 18/4 (Deuxième série, 8/2 and 8/4)</biblScope><biblScope unit="page">183–203 and 337–357</biblScope><note type="url">http://catholicapedia.net/Documents/Revue-de-l.Orient-chretien/18-1913_revue-de-l.orient-ch_paris.pdf</note><note type="tags"><note type="tag">bm:Chaine1913Rep</note></note><note type="tag">bm:Chaine1913Rep</note><t:citedRange unit="item">230</t:citedRange></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/7WA33SUX"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Chaine1913Rep"/><title level="a">Répertoire des Salam et Malkeʾe contenus dans les manuscrits éthiopiens des bibliothèques d’Europe</title><title level="j">Revue de l’Orient Chrétien</title><author><forename>Marius</forename><surname>Chaîne</surname></author><date>1913</date><biblScope unit="volume">18</biblScope><biblScope unit="issue">2 and 18/4 (Deuxième série, 8/2 and 8/4)</biblScope><biblScope unit="page">183–203 and 337–357</biblScope><note type="url">http://catholicapedia.net/Documents/Revue-de-l.Orient-chretien/18-1913_revue-de-l.orient-ch_paris.pdf</note><note type="tags"><note type="tag">bm:Chaine1913Rep</note></note><note type="tag">bm:Chaine1913Rep</note><t:citedRange unit="item">397</t:citedRange></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/2CM9ZMCU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Grohmann1919Marien"/><title level="m">Aethiopische Marienhymnen</title><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><author><forename>Adolf</forename><surname>Grohmann</surname></author><editor><forename>Adolf</forename><surname>Grohmann</surname></editor><pubPlace>Leipzig</pubPlace><publisher>Bei B. G. Teubner</publisher><date>1919</date><series><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope></series><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope><note type="url">https://digital.slub-dresden.de/werkansicht/dlf/447/9/</note><note type="tags"><note type="tag">Hymns</note><note type="tag">Mary</note><note type="tag">bm:Grohmann1919Marien</note></note><note type="tag">Hymns</note><note type="tag">Mary</note><note type="tag">bm:Grohmann1919Marien</note><t:citedRange unit="page">66-156</t:citedRange></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV"><seg type="webpage"><!-- attributes from original bibl--></seg><ptr target="bm:MgWebsite"/><title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title><author><forename>Augustine</forename><surname>Dickinson</surname></author><date>2020</date><note type="accessed">2024-09-24</note><note type="url">https://malkeagubae.com/</note><note type="tags"><note type="tag">bm:MgWebsite</note></note><note type="tag">bm:MgWebsite</note></t:bibl>
+            </t:listBibl>
+            <t:listBibl type="translation">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/2CM9ZMCU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Grohmann1919Marien"/><title level="m">Aethiopische Marienhymnen</title><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><author><forename>Adolf</forename><surname>Grohmann</surname></author><editor><forename>Adolf</forename><surname>Grohmann</surname></editor><pubPlace>Leipzig</pubPlace><publisher>Bei B. G. Teubner</publisher><date>1919</date><series><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope></series><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope><note type="url">https://digital.slub-dresden.de/werkansicht/dlf/447/9/</note><note type="tags"><note type="tag">Hymns</note><note type="tag">Mary</note><note type="tag">bm:Grohmann1919Marien</note></note><note type="tag">Hymns</note><note type="tag">Mary</note><note type="tag">bm:Grohmann1919Marien</note><t:citedRange unit="page">67-157</t:citedRange></t:bibl>
+            </t:listBibl>
+            <t:listBibl type="secondary">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/2CM9ZMCU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Grohmann1919Marien"/><title level="m">Aethiopische Marienhymnen</title><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><author><forename>Adolf</forename><surname>Grohmann</surname></author><editor><forename>Adolf</forename><surname>Grohmann</surname></editor><pubPlace>Leipzig</pubPlace><publisher>Bei B. G. Teubner</publisher><date>1919</date><series><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope></series><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope><note type="url">https://digital.slub-dresden.de/werkansicht/dlf/447/9/</note><note type="tags"><note type="tag">Hymns</note><note type="tag">Mary</note><note type="tag">bm:Grohmann1919Marien</note></note><note type="tag">Hymns</note><note type="tag">Mary</note><note type="tag">bm:Grohmann1919Marien</note><t:citedRange unit="page">47-65, 158-321</t:citedRange></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/KUMPE4ZG"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Habtemichael2007EAEMahletaSege"/><title level="a">Maḫletä ṣǝge</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><name>Habtemichael Kidane</name></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">660b-661b</biblScope><note type="tags"><note type="tag">bm:Habtemichael2007EAEMahletaSege</note></note><note type="tag">bm:Habtemichael2007EAEMahletaSege</note></t:bibl>
+            </t:listBibl>
             
-         </div>
-         <div type="edition" xml:lang="gez">
-            <note>The following division into stanzas follows  <bibl corresp="http://zotero.org/groups/358366/items/2CM9ZMCU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Grohmann1919Marien"/><title level="m">Aethiopische Marienhymnen</title><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Adolf</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Grohmann</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Adolf</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Grohmann</t:surname></editor><pubPlace>Leipzig</pubPlace><publisher>Bei B. G. Teubner</publisher><date>1919</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</t:biblScope></series><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope><note type="url">https://digital.slub-dresden.de/werkansicht/dlf/447/9/</note><citedRange unit="page">66-156</citedRange></bibl> and <bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV"><seg type="webpage"><!-- attributes from original bibl--></seg><ptr target="bm:MgWebsite"/><title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Augustine</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Dickinson</t:surname></author><date>2020</date><note type="accessed">2024-09-24</note><note type="url">https://malkeagubae.com/</note></bibl>.
-            </note> <note>Text taken from <bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV"><seg type="webpage"><!-- attributes from original bibl--></seg><ptr target="bm:MgWebsite"/><title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Augustine</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Dickinson</t:surname></author><date>2020</date><note type="accessed">2024-09-24</note><note type="url">https://malkeagubae.com/</note></bibl></note>
-            <div type="textpart" xml:id="masgabiya">
-               <lg type="stanza" n="1">
-                  <l n="1">በስመ፡ እግዚአብሔር፡ ሕያው፡ በልሳነ፡ ኵሉ፡ ዘኢይትነገር፨</l>
-                  <l n="2">ወበስምኪ፡ ማርያም፡ ወላዲተ፡ ክርስቶስ፡ ክቡር፨</l>
-                  <l n="3">ማሕሌተ፡ ጽጌ፡ ወጠንኩ፡ ለተኣምርኪ፡ በመዝሙር፨</l>
-                  <l n="4">ድንግል፡ ማርያም፡ ንግሥተ፡ ሰማያት፡ ወምድር፨</l>
-                  <l n="5">አምጣነ፡ ይጥዕም፡ ውዳሴኪ፡ እመዓር፡ ወሦከር፨</l>
-               </lg>
-            </div>
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza1" n="1" corresp="https://betamasaheft.eu/LIT3117RepCh397">
-               <label>Stanza 1</label>
-               <lg type="stanza" n="1">
-                  <l n="1">ጽጌ፡ አስተርአየ፡ ሠሪፆ፡ እምዐጽሙ፨</l>
-                  <l n="2">ለዘአምኃኪ፡ ጽጌ፡ ለገብርኤል፡ ምስለ፡ ሰላሙ፨</l>
-                  <l n="3">ወበእንተ፡ ዝ፡ ማርያም፡ ሶበ፡ ሐወዘኒ፡ መዐዛ፡ ጣዕሙ፨</l>
-                  <l n="4">ለተኣምርኪ፡ አሐሊ፡ እሙ፨</l>
-                  <l n="5">ማሕሌተ፡ ጽጌ፡ ዘይሰመይ፡ ስሙ፨</l>
-               </lg>
+         </t:div>
+         <t:div type="edition" xml:lang="gez" xml:id="div2LIT1834Mahlet">
+            <t:note>The following division into stanzas follows  <t:bibl corresp="http://zotero.org/groups/358366/items/2CM9ZMCU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Grohmann1919Marien"/><title level="m">Aethiopische Marienhymnen</title><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><author><forename>Adolf</forename><surname>Grohmann</surname></author><editor><forename>Adolf</forename><surname>Grohmann</surname></editor><pubPlace>Leipzig</pubPlace><publisher>Bei B. G. Teubner</publisher><date>1919</date><series><title level="s">Abhandlungen der Sächsischen Akademie der Wissenschaften</title><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope></series><biblScope unit="volume">68, Abhandlungen der philologisch-historischen Klasse der Sächsischen Akademie der Wissenschaften, 33/4</biblScope><note type="url">https://digital.slub-dresden.de/werkansicht/dlf/447/9/</note><note type="tags"><note type="tag">Hymns</note><note type="tag">Mary</note><note type="tag">bm:Grohmann1919Marien</note></note><note type="tag">Hymns</note><note type="tag">Mary</note><note type="tag">bm:Grohmann1919Marien</note><t:citedRange unit="page">66-156</t:citedRange></t:bibl> and <t:bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV"><seg type="webpage"><!-- attributes from original bibl--></seg><ptr target="bm:MgWebsite"/><title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title><author><forename>Augustine</forename><surname>Dickinson</surname></author><date>2020</date><note type="accessed">2024-09-24</note><note type="url">https://malkeagubae.com/</note><note type="tags"><note type="tag">bm:MgWebsite</note></note><note type="tag">bm:MgWebsite</note></t:bibl>.
+            </t:note> <t:note>Text taken from <t:bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV"><seg type="webpage"><!-- attributes from original bibl--></seg><ptr target="bm:MgWebsite"/><title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title><author><forename>Augustine</forename><surname>Dickinson</surname></author><date>2020</date><note type="accessed">2024-09-24</note><note type="url">https://malkeagubae.com/</note><note type="tags"><note type="tag">bm:MgWebsite</note></note><note type="tag">bm:MgWebsite</note></t:bibl></t:note>
+            <t:div type="textpart" xml:id="masgabiya">
+               <t:lg type="stanza" n="1">
+                  <t:l n="1">በስመ፡ እግዚአብሔር፡ ሕያው፡ በልሳነ፡ ኵሉ፡ ዘኢይትነገር፨</t:l>
+                  <t:l n="2">ወበስምኪ፡ ማርያም፡ ወላዲተ፡ ክርስቶስ፡ ክቡር፨</t:l>
+                  <t:l n="3">ማሕሌተ፡ ጽጌ፡ ወጠንኩ፡ ለተኣምርኪ፡ በመዝሙር፨</t:l>
+                  <t:l n="4">ድንግል፡ ማርያም፡ ንግሥተ፡ ሰማያት፡ ወምድር፨</t:l>
+                  <t:l n="5">አምጣነ፡ ይጥዕም፡ ውዳሴኪ፡ እመዓር፡ ወሦከር፨</t:l>
+               </t:lg>
+            </t:div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza1" n="1" corresp="https://betamasaheft.eu/LIT3117RepCh397">
+               <t:label>Stanza 1</t:label>
+               <t:lg type="stanza" n="1">
+                  <t:l n="1">ጽጌ፡ አስተርአየ፡ ሠሪፆ፡ እምዐጽሙ፨</t:l>
+                  <t:l n="2">ለዘአምኃኪ፡ ጽጌ፡ ለገብርኤል፡ ምስለ፡ ሰላሙ፨</t:l>
+                  <t:l n="3">ወበእንተ፡ ዝ፡ ማርያም፡ ሶበ፡ ሐወዘኒ፡ መዐዛ፡ ጣዕሙ፨</t:l>
+                  <t:l n="4">ለተኣምርኪ፡ አሐሊ፡ እሙ፨</t:l>
+                  <t:l n="5">ማሕሌተ፡ ጽጌ፡ ዘይሰመይ፡ ስሙ፨</t:l>
+               </t:lg>
                
-            </div>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza2" n="2">
-               <label>Stanza 2</label>
-               <lg type="stanza" n="2">
-                  <l n="1">ተኣምርኪ፡ ማርያም፡ አብቈለት፡ ዕፀ፡ ትእምርት፨</l>
-                  <l n="2">ወአውፅአት፡ ጽጌ፡ በአፈ፡ ምዉት፨</l>
-                  <l n="3">መሐርኪያ፡ ፍቅረ፡ ዚአኪ፡ ለአሐቲ፡ ብእሲት፨</l>
-                  <l n="4">እንዘ፡ ትብሊ፡ ኢትጐጕዒ፡ አንብቦተ፡ ዛቲ፡ ጸሎት፨</l>
-                  <l n="5">እስመ፡ ትኤድመኒ፡ ሊተ፡ እምኵሉ፡ ስብሐት፨</l>
-               </lg>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza2" n="2">
+               <t:label>Stanza 2</t:label>
+               <t:lg type="stanza" n="2">
+                  <t:l n="1">ተኣምርኪ፡ ማርያም፡ አብቈለት፡ ዕፀ፡ ትእምርት፨</t:l>
+                  <t:l n="2">ወአውፅአት፡ ጽጌ፡ በአፈ፡ ምዉት፨</t:l>
+                  <t:l n="3">መሐርኪያ፡ ፍቅረ፡ ዚአኪ፡ ለአሐቲ፡ ብእሲት፨</t:l>
+                  <t:l n="4">እንዘ፡ ትብሊ፡ ኢትጐጕዒ፡ አንብቦተ፡ ዛቲ፡ ጸሎት፨</t:l>
+                  <t:l n="5">እስመ፡ ትኤድመኒ፡ ሊተ፡ እምኵሉ፡ ስብሐት፨</t:l>
+               </t:lg>
                
-            </div>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza3" n="3">
-               <label>Stanza 3</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza3" n="3">
+               <t:label>Stanza 3</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza4" n="4">
-               <label>Stanza 4</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza4" n="4">
+               <t:label>Stanza 4</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza5" n="5">
-               <label>Stanza 5</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza5" n="5">
+               <t:label>Stanza 5</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza6" n="6">
-               <label>Stanza 6</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza6" n="6">
+               <t:label>Stanza 6</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza7" n="7">
-               <label>Stanza 7</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza7" n="7">
+               <t:label>Stanza 7</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza8" n="8">
-               <label>Stanza 8</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza8" n="8">
+               <t:label>Stanza 8</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza9" n="9">
-               <label>Stanza 9</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza9" n="9">
+               <t:label>Stanza 9</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza10" n="10">
-               <label>Stanza 10</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza10" n="10">
+               <t:label>Stanza 10</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza11" n="11">
-               <label>Stanza 11</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza11" n="11">
+               <t:label>Stanza 11</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza12" n="12">
-               <label>Stanza 12</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza12" n="12">
+               <t:label>Stanza 12</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza13" n="13">
-               <label>Stanza 13</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza13" n="13">
+               <t:label>Stanza 13</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza14" n="14">
-               <label>Stanza 14</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza14" n="14">
+               <t:label>Stanza 14</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza15" n="15">
-               <label>Stanza 15</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza15" n="15">
+               <t:label>Stanza 15</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza16" n="16">
-               <label>Stanza 16</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza16" n="16">
+               <t:label>Stanza 16</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza17" n="17">
-               <label>Stanza 17</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza17" n="17">
+               <t:label>Stanza 17</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza18" n="18">
-               <label>Stanza 18</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza18" n="18">
+               <t:label>Stanza 18</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza19" n="19">
-               <label>Stanza 19</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza19" n="19">
+               <t:label>Stanza 19</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza20" n="20">
-               <label>Stanza 23</label>
-               <lg type="stanza" n="23">
-                  <l n="1">ተኣምርኪ፡ ማርያም፡ ተሰብከ፡ በኦሪት፨</l>
-                  <l n="2">አመ፡ ተሰነአውኪ፡ ጳጦስ፡ ምስለ፡ መለኮት፨</l>
-                  <l n="3">ዘርእየኪ፡ ሙሴ፡ ሊቀ፡ ነቢያት፨</l>
-                  <l n="4">ጸልልኒ፡ በአዕፁቅኪ፡ ሐመልሚል፡ ዕፀት፨</l>
-                  <l n="5">ሦከ፡ ኃጢአትየ፡ ያውዒ፡ ጽጌኪ፡ እሳት፨</l>
-               </lg>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza20" n="20">
+               <t:label>Stanza 23</t:label>
+               <t:lg type="stanza" n="23">
+                  <t:l n="1">ተኣምርኪ፡ ማርያም፡ ተሰብከ፡ በኦሪት፨</t:l>
+                  <t:l n="2">አመ፡ ተሰነአውኪ፡ ጳጦስ፡ ምስለ፡ መለኮት፨</t:l>
+                  <t:l n="3">ዘርእየኪ፡ ሙሴ፡ ሊቀ፡ ነቢያት፨</t:l>
+                  <t:l n="4">ጸልልኒ፡ በአዕፁቅኪ፡ ሐመልሚል፡ ዕፀት፨</t:l>
+                  <t:l n="5">ሦከ፡ ኃጢአትየ፡ ያውዒ፡ ጽጌኪ፡ እሳት፨</t:l>
+               </t:lg>
                
-            </div>
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza23" n="23">
-               <label>Stanza 20</label>
-            </div>
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza31" n="31">
-               <label>Stanza 31</label>
-            </div>
+            </t:div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza23" n="23">
+               <t:label>Stanza 20</t:label>
+            </t:div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza31" n="31">
+               <t:label>Stanza 31</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza32" n="32">
-               <label>Stanza 32</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza32" n="32">
+               <t:label>Stanza 32</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza33" n="33">
-               <label>Stanza 33</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza33" n="33">
+               <t:label>Stanza 33</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza34" n="34">
-               <label>Stanza 34</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza34" n="34">
+               <t:label>Stanza 34</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza35" n="35">
-               <label>Stanza 35</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza35" n="35">
+               <t:label>Stanza 35</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza36" n="36">
-               <label>Stanza 36</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza36" n="36">
+               <t:label>Stanza 36</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza37" n="37">
-               <label>Stanza 37</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza37" n="37">
+               <t:label>Stanza 37</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza38" n="38">
-               <label>Stanza 38</label>
-               <lg type="stanza" n="38">
-                  <l n="1">ዘሰ፡ ይብል፡ ኣፈቅረኪ፡ ወኢያፈቅር፡ ተኣምረኪ፡ ክርስቲያናዊ፨</l>
-                  <l n="2">ኢክርስቱን፡ ውእቱ፡ ፀረ፡ ወልድኪ፡ ማሕየዊ፨</l>
-                  <l n="3">ወሠርፀ፡ እስጢፋ፡ ሐሳዊ፨</l>
-                  <l n="4">አንሰ፡ እቤ፡ በማኅሌተ፡ ሰሎሞን፡ ወልደ፡ ሰንቃዊ፨</l>
-                  <l n="5">አፈቅሮ፡ ለፍግዕኪ፡ ወለተ፡ ይሁዳ፡ ወሌዊ፨</l>
-                  <l n="6">ከመ፡ መርዓቶ፡ ያፈቅር፡ ጽጌኪ፡ መርዓዊ፨</l>
-               </lg>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza38" n="38">
+               <t:label>Stanza 38</t:label>
+               <t:lg type="stanza" n="38">
+                  <t:l n="1">ዘሰ፡ ይብል፡ ኣፈቅረኪ፡ ወኢያፈቅር፡ ተኣምረኪ፡ ክርስቲያናዊ፨</t:l>
+                  <t:l n="2">ኢክርስቱን፡ ውእቱ፡ ፀረ፡ ወልድኪ፡ ማሕየዊ፨</t:l>
+                  <t:l n="3">ወሠርፀ፡ እስጢፋ፡ ሐሳዊ፨</t:l>
+                  <t:l n="4">አንሰ፡ እቤ፡ በማኅሌተ፡ ሰሎሞን፡ ወልደ፡ ሰንቃዊ፨</t:l>
+                  <t:l n="5">አፈቅሮ፡ ለፍግዕኪ፡ ወለተ፡ ይሁዳ፡ ወሌዊ፨</t:l>
+                  <t:l n="6">ከመ፡ መርዓቶ፡ ያፈቅር፡ ጽጌኪ፡ መርዓዊ፨</t:l>
+               </t:lg>
                
-            </div>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza39" n="39">
-               <label>Stanza 39</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza39" n="39">
+               <t:label>Stanza 39</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza40" n="40">
-               <label>Stanza 40</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza40" n="40">
+               <t:label>Stanza 40</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza41" n="41">
-               <label>Stanza 41</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza41" n="41">
+               <t:label>Stanza 41</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza42" n="42">
-               <label>Stanza 42</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza42" n="42">
+               <t:label>Stanza 42</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza43" n="43">
-               <label>Stanza 43</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza43" n="43">
+               <t:label>Stanza 43</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza44" n="44">
-               <label>Stanza 44</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza44" n="44">
+               <t:label>Stanza 44</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza45" n="45">
-               <label>Stanza 45</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza45" n="45">
+               <t:label>Stanza 45</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza46" n="46">
-               <label>Stanza 46</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza46" n="46">
+               <t:label>Stanza 46</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza47" n="47">
-               <label>Stanza 47</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza47" n="47">
+               <t:label>Stanza 47</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza48" n="48">
-               <label>Stanza 48</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza48" n="48">
+               <t:label>Stanza 48</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza49" n="49">
-               <label>Stanza 49</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza49" n="49">
+               <t:label>Stanza 49</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza50" n="50">
-               <label>Stanza 50</label>
-               <lg type="stanza" n="50">
-                  <l n="1">አይኑ፡ ዘተገብረ፡ ፈውስ፨</l>
-                  <l n="2">እንበለ፡ ትትወለዲ፡ ድንግል፡ እምቤተ፡ ክህነት፡ ወንግሥ፨</l>
-                  <l n="3">መድኃኔ፡ ዓለም፡ ኮነ፡ ደመ፡ ጽጌኪ፡ ክርስቶስ፨</l>
-                  <l n="4">እሰግድ፡ ለተኣምርኪ፡ በአብራከ፡ ሥጋ፡ ወነፍስ፨</l>
-                  <l n="5">በከመ፡ ሰገደ፡ ለኪ፡ ዮሐንስ፡ በከርሥ፨</l>
-               </lg>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza50" n="50">
+               <t:label>Stanza 50</t:label>
+               <t:lg type="stanza" n="50">
+                  <t:l n="1">አይኑ፡ ዘተገብረ፡ ፈውስ፨</t:l>
+                  <t:l n="2">እንበለ፡ ትትወለዲ፡ ድንግል፡ እምቤተ፡ ክህነት፡ ወንግሥ፨</t:l>
+                  <t:l n="3">መድኃኔ፡ ዓለም፡ ኮነ፡ ደመ፡ ጽጌኪ፡ ክርስቶስ፨</t:l>
+                  <t:l n="4">እሰግድ፡ ለተኣምርኪ፡ በአብራከ፡ ሥጋ፡ ወነፍስ፨</t:l>
+                  <t:l n="5">በከመ፡ ሰገደ፡ ለኪ፡ ዮሐንስ፡ በከርሥ፨</t:l>
+               </t:lg>
                
-            </div>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza51" n="51">
-               <label>Stanza 51</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza51" n="51">
+               <t:label>Stanza 51</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza52" n="52">
-               <label>Stanza 52</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza52" n="52">
+               <t:label>Stanza 52</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza53" n="53">
-               <label>Stanza 53</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza53" n="53">
+               <t:label>Stanza 53</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza54" n="54">
-               <label>Stanza 54</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza54" n="54">
+               <t:label>Stanza 54</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza55" n="55">
-               <label>Stanza 55</label>
-               <lg type="stanza" n="55">
-                  <l n="1">ያኀዝነኒ፡ ማርያም፡ ዘረከበኪ፡ ድክትምና፨</l>
-                  <l n="2">አመ፡ ቤተ፡ መቅደስ፡ ቦእኪ፡ እንዘ፡ ትጠብዊ፡ ሐሊበ፡ ሐና፨</l>
-                  <l n="3">ወያስተፌሥሐኒ፡ ካዕበ፡ ትእምርተ፡ ልህቅትኪ፡ በቅድስና፨</l>
-                  <l n="4">ምስለ፡ አብያጺሁ፡ ከመ፡ አብ፡ እንዘ፡ ይሴስየኪ፡ መና፨</l>
-                  <l n="5">ፋኑኤል፡ ጽጌ፡ ነድ፡ ዘይከይድ፡ ደመና፨</l>
-               </lg>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza55" n="55">
+               <t:label>Stanza 55</t:label>
+               <t:lg type="stanza" n="55">
+                  <t:l n="1">ያኀዝነኒ፡ ማርያም፡ ዘረከበኪ፡ ድክትምና፨</t:l>
+                  <t:l n="2">አመ፡ ቤተ፡ መቅደስ፡ ቦእኪ፡ እንዘ፡ ትጠብዊ፡ ሐሊበ፡ ሐና፨</t:l>
+                  <t:l n="3">ወያስተፌሥሐኒ፡ ካዕበ፡ ትእምርተ፡ ልህቅትኪ፡ በቅድስና፨</t:l>
+                  <t:l n="4">ምስለ፡ አብያጺሁ፡ ከመ፡ አብ፡ እንዘ፡ ይሴስየኪ፡ መና፨</t:l>
+                  <t:l n="5">ፋኑኤል፡ ጽጌ፡ ነድ፡ ዘይከይድ፡ ደመና፨</t:l>
+               </t:lg>
                
-            </div>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza56" n="56">
-               <label>Stanza 56</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza56" n="56">
+               <t:label>Stanza 56</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza57" n="57">
-               <label>Stanza 57</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza57" n="57">
+               <t:label>Stanza 57</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza58" n="58">
-               <label>Stanza 58</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza58" n="58">
+               <t:label>Stanza 58</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza59" n="59">
-               <label>Stanza 59</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza59" n="59">
+               <t:label>Stanza 59</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza60" n="60">
-               <label>Stanza 60</label>
-               <lg type="stanza" n="60">
-                  <l n="1">እግዚአብሔር፡ ነጸረ፡ ኵሎ፡ ዓለመ፨</l>
-                  <l n="2">ወኢረከበ፡ ማርያም፡ ዘከማኪ፡ እመ፨</l>
-                  <l n="3">ለሊሁሰ፡ ጽጌ፡ እማኅፀንኪ፡ ተቀስመ፨</l>
-                  <l n="4">ዳዊትኒ፡ አመረኪ፡ እንዘ፡ ይብል፡ ቅድመ፨</l>
-                  <l n="5">ስምዒ፡ ወለትየ፡ ወርእዪ፡ ዳግመ፨</l>
-                  <l n="6">እስመ፡ ፈተወ፡ ንጉሥ፡ ሥነኪ፡ አዳመ፨</l>
-               </lg>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza60" n="60">
+               <t:label>Stanza 60</t:label>
+               <t:lg type="stanza" n="60">
+                  <t:l n="1">እግዚአብሔር፡ ነጸረ፡ ኵሎ፡ ዓለመ፨</t:l>
+                  <t:l n="2">ወኢረከበ፡ ማርያም፡ ዘከማኪ፡ እመ፨</t:l>
+                  <t:l n="3">ለሊሁሰ፡ ጽጌ፡ እማኅፀንኪ፡ ተቀስመ፨</t:l>
+                  <t:l n="4">ዳዊትኒ፡ አመረኪ፡ እንዘ፡ ይብል፡ ቅድመ፨</t:l>
+                  <t:l n="5">ስምዒ፡ ወለትየ፡ ወርእዪ፡ ዳግመ፨</t:l>
+                  <t:l n="6">እስመ፡ ፈተወ፡ ንጉሥ፡ ሥነኪ፡ አዳመ፨</t:l>
+               </t:lg>
                
-            </div>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza61" n="61">
-               <label>Stanza 61</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza61" n="61">
+               <t:label>Stanza 61</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza62" n="62">
-               <label>Stanza 62</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza62" n="62">
+               <t:label>Stanza 62</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza63" n="63" corresp="https://betamasaheft.eu/LIT5060AbiyWeetu">
-               <label>Stanza 63</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza63" n="63" corresp="https://betamasaheft.eu/LIT5060AbiyWeetu">
+               <t:label>Stanza 63</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza64" n="64">
-               <label>Stanza 64</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza64" n="64">
+               <t:label>Stanza 64</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza65" n="65">
-               <label>Stanza 65</label>
-               <lg type="stanza" n="65">
-                  <l n="1">እንዘ፡ ተሐቅፊዮ፡ ለሕፃንኪ፡ ጽጌ፡ ፀዓዳ፡ ወቀይሕ፨</l>
-                  <l n="2">ውስተ፡ ቤተ፡ መቅደስ፡ ጌስኪ፡ በዕለተ፡ ተኣምር፡ ዘንጽሕ፨</l>
-                  <l n="3">ንዒ፡ ርግብየ፡ ትናዝዝኒ፡ እምላሕ፨</l>
-                  <l n="4">ወንዒ፡ ሠናይትየ፡ ምስለ፡ ገብርኤል፡ ፍሡሕ፨</l>
-                  <l n="5">ወሚካኤል፡ ከማኪ፡ ርኅሩኅ፨</l>
-               </lg>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza65" n="65">
+               <t:label>Stanza 65</t:label>
+               <t:lg type="stanza" n="65">
+                  <t:l n="1">እንዘ፡ ተሐቅፊዮ፡ ለሕፃንኪ፡ ጽጌ፡ ፀዓዳ፡ ወቀይሕ፨</t:l>
+                  <t:l n="2">ውስተ፡ ቤተ፡ መቅደስ፡ ጌስኪ፡ በዕለተ፡ ተኣምር፡ ዘንጽሕ፨</t:l>
+                  <t:l n="3">ንዒ፡ ርግብየ፡ ትናዝዝኒ፡ እምላሕ፨</t:l>
+                  <t:l n="4">ወንዒ፡ ሠናይትየ፡ ምስለ፡ ገብርኤል፡ ፍሡሕ፨</t:l>
+                  <t:l n="5">ወሚካኤል፡ ከማኪ፡ ርኅሩኅ፨</t:l>
+               </t:lg>
                
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza66" n="66">
-               <label>Stanza 66</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza67" n="67">
-               <label>Stanza 67</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza68" n="68">
-               <label>Stanza 68</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza69" n="69">
-               <label>Stanza 69</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza70" n="70">
-               <label>Stanza 70</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza71" n="71">
-               <label>Stanza 71</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza72" n="72">
-               <label>Stanza 72</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza73" n="73">
-               <label>Stanza 73</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza74" n="74">
-               <label>Stanza 74</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza75" n="75">
-               <label>Stanza 75</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza76" n="76">
-               <label>Stanza 76</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza77" n="77">
-               <label>Stanza 77</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza78" n="78">
-               <label>Stanza 78</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza79" n="79">
-               <label>Stanza 79</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza80" n="80">
-               <label>Stanza 80</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza81" n="81">
-               <label>Stanza 81</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza82" n="82">
-               <label>Stanza 82</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza83" n="83">
-               <label>Stanza 83</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza84" n="84">
-               <label>Stanza 84</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza85" n="85" corresp="https://betamasaheft.eu/LIT2949RepCh230">
-               <label>Stanza 85</label>
-               <lg>
-                  <l>ሰዊተ፡ ስርናዩ፡ ለታዴዎስ፡ ወለበርተሎሜዎስ፡ ወይኑ፡</l>
-                  <l>እንተ፡ ጸገይኪ፡ አስካለ፡ በዕለተ፡ ተከለኪ፡ እደ፡ የማኑ፡</l>
-                  <l>ማርያም፡ ለጴጥሮስ፡ ወለጳውሎስ፡ ሰበኑ፡</l>
-                  <l>ብኪ፡ ምውታን፡ ሕያዋነ ኮኑ፡</l>
-                  <l>ወሐዋርያት፡ መላእክት፡ በሰማይ፡ ኰነኑ፡</l>
-               </lg>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza86" n="86">
-               <label>Stanza 86</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza87" n="87">
-               <label>Stanza 87</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza88" n="88">
-               <label>Stanza 88</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza89" n="89">
-               <label>Stanza 89</label>
-            </div>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza66" n="66">
+               <t:label>Stanza 66</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza67" n="67">
+               <t:label>Stanza 67</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza68" n="68">
+               <t:label>Stanza 68</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza69" n="69">
+               <t:label>Stanza 69</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza70" n="70">
+               <t:label>Stanza 70</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza71" n="71">
+               <t:label>Stanza 71</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza72" n="72">
+               <t:label>Stanza 72</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza73" n="73">
+               <t:label>Stanza 73</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza74" n="74">
+               <t:label>Stanza 74</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza75" n="75">
+               <t:label>Stanza 75</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza76" n="76">
+               <t:label>Stanza 76</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza77" n="77">
+               <t:label>Stanza 77</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza78" n="78">
+               <t:label>Stanza 78</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza79" n="79">
+               <t:label>Stanza 79</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza80" n="80">
+               <t:label>Stanza 80</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza81" n="81">
+               <t:label>Stanza 81</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza82" n="82">
+               <t:label>Stanza 82</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza83" n="83">
+               <t:label>Stanza 83</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza84" n="84">
+               <t:label>Stanza 84</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza85" n="85" corresp="https://betamasaheft.eu/LIT2949RepCh230">
+               <t:label>Stanza 85</t:label>
+               <t:lg>
+                  <t:l>ሰዊተ፡ ስርናዩ፡ ለታዴዎስ፡ ወለበርተሎሜዎስ፡ ወይኑ፡</t:l>
+                  <t:l>እንተ፡ ጸገይኪ፡ አስካለ፡ በዕለተ፡ ተከለኪ፡ እደ፡ የማኑ፡</t:l>
+                  <t:l>ማርያም፡ ለጴጥሮስ፡ ወለጳውሎስ፡ ሰበኑ፡</t:l>
+                  <t:l>ብኪ፡ ምውታን፡ ሕያዋነ ኮኑ፡</t:l>
+                  <t:l>ወሐዋርያት፡ መላእክት፡ በሰማይ፡ ኰነኑ፡</t:l>
+               </t:lg>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza86" n="86">
+               <t:label>Stanza 86</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza87" n="87">
+               <t:label>Stanza 87</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza88" n="88">
+               <t:label>Stanza 88</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza89" n="89">
+               <t:label>Stanza 89</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza90" n="90">
-               <label>Stanza 90</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza90" n="90">
+               <t:label>Stanza 90</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza91" n="91">
-               <label>Stanza 91</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza91" n="91">
+               <t:label>Stanza 91</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza92" n="92">
-               <label>Stanza 92</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza92" n="92">
+               <t:label>Stanza 92</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza93" n="93">
-               <label>Stanza 93</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza93" n="93">
+               <t:label>Stanza 93</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza94" n="94" corresp="https://betamasaheft.eu/LIT5059TaammeraFeqreki">
-               <label>Stanza 94</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza94" n="94" corresp="https://betamasaheft.eu/LIT5059TaammeraFeqreki">
+               <t:label>Stanza 94</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza95" n="95">
-               <label>Stanza 95</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza95" n="95">
+               <t:label>Stanza 95</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza96" n="96">
-               <label>Stanza 96</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza96" n="96">
+               <t:label>Stanza 96</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza97" n="97">
-               <label>Stanza 97</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza97" n="97">
+               <t:label>Stanza 97</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza98" n="98">
-               <label>Stanza 98</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza98" n="98">
+               <t:label>Stanza 98</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza99" n="99">
-               <label>Stanza 99</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza99" n="99">
+               <t:label>Stanza 99</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza100" n="100">
-               <label>Stanza 100</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza100" n="100">
+               <t:label>Stanza 100</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza101" n="101">
-               <label>Stanza 101</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza101" n="101">
+               <t:label>Stanza 101</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza102" n="102">
-               <label>Stanza 102</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza102" n="102">
+               <t:label>Stanza 102</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza103" n="103">
-               <label>Stanza 103</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza103" n="103">
+               <t:label>Stanza 103</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza104" n="104">
-               <label>Stanza 104</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza104" n="104">
+               <t:label>Stanza 104</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza105" n="105">
-               <label>Stanza 105</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza105" n="105">
+               <t:label>Stanza 105</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza106" n="106">
-               <label>Stanza 106</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza106" n="106">
+               <t:label>Stanza 106</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza107" n="107">
-               <label>Stanza 107</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza107" n="107">
+               <t:label>Stanza 107</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza108" n="108">
-               <label>Stanza 108</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza108" n="108">
+               <t:label>Stanza 108</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza109" n="109">
-               <label>Stanza 109</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza109" n="109">
+               <t:label>Stanza 109</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza110" n="110">
-               <label>Stanza 110</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza110" n="110">
+               <t:label>Stanza 110</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza111" n="111">
-               <label>Stanza 111</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza111" n="111">
+               <t:label>Stanza 111</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza112" n="112">
-               <label>Stanza 112</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza112" n="112">
+               <t:label>Stanza 112</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza113" n="113">
-               <label>Stanza 113</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza113" n="113">
+               <t:label>Stanza 113</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza114" n="114">
-               <label>Stanza 114</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza114" n="114">
+               <t:label>Stanza 114</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza115" n="115">
-               <label>Stanza 115</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza115" n="115">
+               <t:label>Stanza 115</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza116" n="116">
-               <label>Stanza 116</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza116" n="116">
+               <t:label>Stanza 116</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza117" n="117">
-               <label>Stanza 117</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza117" n="117">
+               <t:label>Stanza 117</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza118" n="118">
-               <label>Stanza 118</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza118" n="118">
+               <t:label>Stanza 118</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza119" n="119">
-               <label>Stanza 119</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza119" n="119">
+               <t:label>Stanza 119</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza120" n="120">
-               <label>Stanza 120</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza120" n="120">
+               <t:label>Stanza 120</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza131" n="131">
-               <label>Stanza 131</label>
-            </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza131" n="131">
+               <t:label>Stanza 131</t:label>
+            </t:div>
             
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza132" n="132">
-               <label>Stanza 132</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza133" n="133">
-               <label>Stanza 133</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza134" n="134">
-               <label>Stanza 134</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza135" n="135">
-               <label>Stanza 135</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza136" n="136">
-               <label>Stanza 136</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza137" n="137">
-               <label>Stanza 137</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza138" n="138">
-               <label>Stanza 138</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza139" n="139">
-               <label>Stanza 139</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza140" n="140">
-               <label>Stanza 140</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza141" n="141">
-               <label>Stanza 141</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza142" n="142">
-               <label>Stanza 142</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza143" n="143">
-               <label>Stanza 143</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza144" n="144">
-               <label>Stanza 144</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza145" n="145">
-               <label>Stanza 145</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza146" n="146">
-               <label>Stanza 146</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza147" n="147">
-               <label>Stanza 147</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza148" n="148">
-               <label>Stanza 148</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza149" n="149">
-               <label>Stanza 149</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza150" n="150">
-               <label>Stanza 150</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza151" n="151">
-               <label>Stanza 151</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza152" n="152">
-               <label>Stanza 152</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza153" n="153">
-               <label>Stanza 153</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza154" n="154">
-               <label>Stanza 154</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza155" n="155">
-               <label>Stanza 155</label>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza156" n="156">
-               <label>Stanza 156</label>
-               <lg type="stanza" n="156">
-                  <l n="1">መኑ፡ ጠቢብ፡ እንበለ፡ ጽጌኪ፡ ዘየአምር፡ ጥዩቀ፨</l>
-                  <l n="2">ከዋክብተ፡ ሰማይ፡ ኈሊቆ፡ ወኆፃ፡ ባሕር፡ ድቁቀ፨</l>
-                  <l n="3">ለውዳሴኪ፡ ማርያም፡ ከመ፡ ለበሓዊ፡ ዘጽሕቀ፨</l>
-                  <l n="4">እስመ፡ ኢንክል፡ ፈጽሞ፡ ተኣምረኪ፡ ጥንቁቀ፨</l>
-                  <l n="5">ናርምም፡ ስብሐተኪ፡ ነጊረነ፡ ሕቀ፨</l>
-               </lg>
-            </div>
-            
-            <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza157" n="157">
-               <label>Stanza 157</label>
-               <lg type="stanza" n="157">
-                  <l n="1">ስብሐት፡ ለኪ፡ ማርያም፡ በጽጌ፡ መላእክት፡ ትጉሃን፨</l>
-                  <l n="2">ስብሐት፡ ለኪ፡ ማርያም፡ በጽጌ፡ ነቢያት፡ ቅዱሳን፨</l>
-                  <l n="3">ስብሐት፡ ለኪ፡ ማርያም፡ በጽጌ፡ ሐዋርያት፡ ሰባክያን፨</l>
-                  <l n="4">ስብሐት፡ ለኪ፡ ማርያም፡ በጽጌ፡ ሰማዕታት፡ ወጻድቃን፨</l>
-                  <l n="5">ወስብሐት፡ ይደሉ፡ ለማሕሌተ፡ ጽጌኪ፡ ወይን፨</l>
-                  <l n="6">እስመ፡ በጽጌኪ፡ ወይን፡ ይትፌሣሕ፡ ኅዙን፨</l>
-               </lg>
-            </div>
-            
-            <div type="textpart" xml:id="tarafa-malke">
-               <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkA">
-                  <label>Tarafa malkǝʾ stanza A</label>
-               <lg type="stanza" n="1">
-                  <l n="1">ሰላም፡ ለኪ፡ መንበረ፡ ፀሓይ፡ ሰማይ፡ ዘከዋክብት፡ አክሊላ፨</l>
-                  <l n="2">ወምድርኒ፡ ሥርጉት፡ በጽጌ፡ ሔላ፨</l>
-                  <l n="3">ማርያም፡ ዘመነ፡ ተድላ፨</l>
-               </lg>
-               </div>
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza132" n="132">
+               <t:label>Stanza 132</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza133" n="133">
+               <t:label>Stanza 133</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza134" n="134">
+               <t:label>Stanza 134</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza135" n="135">
+               <t:label>Stanza 135</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza136" n="136">
+               <t:label>Stanza 136</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza137" n="137">
+               <t:label>Stanza 137</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza138" n="138">
+               <t:label>Stanza 138</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza139" n="139">
+               <t:label>Stanza 139</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza140" n="140">
+               <t:label>Stanza 140</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza141" n="141">
+               <t:label>Stanza 141</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza142" n="142">
+               <t:label>Stanza 142</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza143" n="143">
+               <t:label>Stanza 143</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza144" n="144">
+               <t:label>Stanza 144</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza145" n="145">
+               <t:label>Stanza 145</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza146" n="146">
+               <t:label>Stanza 146</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza147" n="147">
+               <t:label>Stanza 147</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza148" n="148">
+               <t:label>Stanza 148</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza149" n="149">
+               <t:label>Stanza 149</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza150" n="150">
+               <t:label>Stanza 150</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza151" n="151">
+               <t:label>Stanza 151</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza152" n="152">
+               <t:label>Stanza 152</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza153" n="153">
+               <t:label>Stanza 153</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza154" n="154">
+               <t:label>Stanza 154</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza155" n="155">
+               <t:label>Stanza 155</t:label>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza156" n="156">
+               <t:label>Stanza 156</t:label>
+               <t:lg type="stanza" n="156">
+                  <t:l n="1">መኑ፡ ጠቢብ፡ እንበለ፡ ጽጌኪ፡ ዘየአምር፡ ጥዩቀ፨</t:l>
+                  <t:l n="2">ከዋክብተ፡ ሰማይ፡ ኈሊቆ፡ ወኆፃ፡ ባሕር፡ ድቁቀ፨</t:l>
+                  <t:l n="3">ለውዳሴኪ፡ ማርያም፡ ከመ፡ ለበሓዊ፡ ዘጽሕቀ፨</t:l>
+                  <t:l n="4">እስመ፡ ኢንክል፡ ፈጽሞ፡ ተኣምረኪ፡ ጥንቁቀ፨</t:l>
+                  <t:l n="5">ናርምም፡ ስብሐተኪ፡ ነጊረነ፡ ሕቀ፨</t:l>
+               </t:lg>
+            </t:div>
+            
+            <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="Stanza157" n="157">
+               <t:label>Stanza 157</t:label>
+               <t:lg type="stanza" n="157">
+                  <t:l n="1">ስብሐት፡ ለኪ፡ ማርያም፡ በጽጌ፡ መላእክት፡ ትጉሃን፨</t:l>
+                  <t:l n="2">ስብሐት፡ ለኪ፡ ማርያም፡ በጽጌ፡ ነቢያት፡ ቅዱሳን፨</t:l>
+                  <t:l n="3">ስብሐት፡ ለኪ፡ ማርያም፡ በጽጌ፡ ሐዋርያት፡ ሰባክያን፨</t:l>
+                  <t:l n="4">ስብሐት፡ ለኪ፡ ማርያም፡ በጽጌ፡ ሰማዕታት፡ ወጻድቃን፨</t:l>
+                  <t:l n="5">ወስብሐት፡ ይደሉ፡ ለማሕሌተ፡ ጽጌኪ፡ ወይን፨</t:l>
+                  <t:l n="6">እስመ፡ በጽጌኪ፡ ወይን፡ ይትፌሣሕ፡ ኅዙን፨</t:l>
+               </t:lg>
+            </t:div>
+            
+            <t:div type="textpart" xml:id="tarafa-malke">
+               <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkA">
+                  <t:label>Tarafa malkǝʾ stanza A</t:label>
+               <t:lg type="stanza" n="1">
+                  <t:l n="1">ሰላም፡ ለኪ፡ መንበረ፡ ፀሓይ፡ ሰማይ፡ ዘከዋክብት፡ አክሊላ፨</t:l>
+                  <t:l n="2">ወምድርኒ፡ ሥርጉት፡ በጽጌ፡ ሔላ፨</t:l>
+                  <t:l n="3">ማርያም፡ ዘመነ፡ ተድላ፨</t:l>
+               </t:lg>
+               </t:div>
                
-               <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkB">
-                  <label>Tarafa malkǝʾ stanza B</label>
-               <lg type="stanza" n="2">
-                  <l n="1">ሰላም፡ ለኪ፡ አመ፡ ይወፅእ፡ አዳም፡ እምሀገረ፡ ጽጌ፡ ገነት፨</l>
-                  <l n="2">ዘአዕረገ፡ ብኪ፡ ዕጣነ፡ ጸሎት፨</l>
-                  <l n="3">ማርያም፡ ሥነ፡ ሰንበልት፨</l>
-               </lg>
-               </div>
+               <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkB">
+                  <t:label>Tarafa malkǝʾ stanza B</t:label>
+               <t:lg type="stanza" n="2">
+                  <t:l n="1">ሰላም፡ ለኪ፡ አመ፡ ይወፅእ፡ አዳም፡ እምሀገረ፡ ጽጌ፡ ገነት፨</t:l>
+                  <t:l n="2">ዘአዕረገ፡ ብኪ፡ ዕጣነ፡ ጸሎት፨</t:l>
+                  <t:l n="3">ማርያም፡ ሥነ፡ ሰንበልት፨</t:l>
+               </t:lg>
+               </t:div>
                
-               <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkC">
-                  <label>Tarafa malkǝʾ stanza C</label>
-               </div>
+               <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkC">
+                  <t:label>Tarafa malkǝʾ stanza C</t:label>
+               </t:div>
                
-               <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkD">
-                  <label>Tarafa malkǝʾ stanza D</label>
-               </div>
+               <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkD">
+                  <t:label>Tarafa malkǝʾ stanza D</t:label>
+               </t:div>
                
-               <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkE">
-                  <label>Tarafa malkǝʾ stanza E</label>
-               </div>
+               <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkE">
+                  <t:label>Tarafa malkǝʾ stanza E</t:label>
+               </t:div>
                
-               <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkF">
-                  <label>Tarafa malkǝʾ stanza F</label>
-               </div>
+               <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkF">
+                  <t:label>Tarafa malkǝʾ stanza F</t:label>
+               </t:div>
                
-               <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkG">
-                  <label>Tarafa malkǝʾ stanza G</label>
-               </div>
+               <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkG">
+                  <t:label>Tarafa malkǝʾ stanza G</t:label>
+               </t:div>
                
-               <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkH">
-                  <label>Tarafa malkǝʾ stanza H</label>
-               </div>
+               <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkH">
+                  <t:label>Tarafa malkǝʾ stanza H</t:label>
+               </t:div>
                
-               <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkI">
-                  <label>Tarafa malkǝʾ stanza I</label>
-               </div>
+               <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkI">
+                  <t:label>Tarafa malkǝʾ stanza I</t:label>
+               </t:div>
                
-               <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkJ">
-                  <label>Tarafa malkǝʾ stanza J</label>
-               </div>
+               <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkJ">
+                  <t:label>Tarafa malkǝʾ stanza J</t:label>
+               </t:div>
                
-               <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkK">
-                  <label>Tarafa malkǝʾ stanza K</label>
-               <lg type="stanza" n="11">
-                  <l n="1">ሰላም፡ ለኪ፡ ለለ፡ እብለኪ፡ ሰላመ፡ ከመ፡ ገብርኤል፡ መልአክ፨</l>
-                  <l n="2">እምአፉየ፡ ጽጌ፡ ጊዜ፡ ነግህ፡ ወሰርክ፨</l>
-                  <l n="3">ተመጠዊ፡ እመ፡ አምላክ፨</l>
-               </lg>
-               </div>
+               <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkK">
+                  <t:label>Tarafa malkǝʾ stanza K</t:label>
+               <t:lg type="stanza" n="11">
+                  <t:l n="1">ሰላም፡ ለኪ፡ ለለ፡ እብለኪ፡ ሰላመ፡ ከመ፡ ገብርኤል፡ መልአክ፨</t:l>
+                  <t:l n="2">እምአፉየ፡ ጽጌ፡ ጊዜ፡ ነግህ፡ ወሰርክ፨</t:l>
+                  <t:l n="3">ተመጠዊ፡ እመ፡ አምላክ፨</t:l>
+               </t:lg>
+               </t:div>
                
-               <div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkL">
-                  <label>Tarafa malkǝʾ stanza L</label>
-               <lg type="stanza" n="12">
-                  <l n="1">ሰላም፡ ለኪ፡ ማርያም፡ ዳግመ፡ ተኣምረኪ፡ ክሥቲ፨</l>
-                  <l n="2">እምድኅረ፡ ንዋምየ፡ ለመዋቲ፨</l>
-                  <l n="3">ምስለ፡ ሰላምኪ፡ ፍሥሓ፡ ዘባቲ፨</l>
-                  <l n="4">ያስተርኢ፡ ከመ፡ ጽጌ፡ ልሳንየ፡ ዛቲ፨</l>
-               </lg>
-               </div>
-            </div>
+               <t:div type="textpart" subtype="stanza" xml:lang="gez" xml:id="tarafamalkL">
+                  <t:label>Tarafa malkǝʾ stanza L</t:label>
+               <t:lg type="stanza" n="12">
+                  <t:l n="1">ሰላም፡ ለኪ፡ ማርያም፡ ዳግመ፡ ተኣምረኪ፡ ክሥቲ፨</t:l>
+                  <t:l n="2">እምድኅረ፡ ንዋምየ፡ ለመዋቲ፨</t:l>
+                  <t:l n="3">ምስለ፡ ሰላምኪ፡ ፍሥሓ፡ ዘባቲ፨</t:l>
+                  <t:l n="4">ያስተርኢ፡ ከመ፡ ጽጌ፡ ልሳንየ፡ ዛቲ፨</t:l>
+               </t:lg>
+               </t:div>
+            </t:div>
             
-         </div>
-      </body>
-   </text></TEI>
+         </t:div>
+      </t:body>
+   </t:text></TEI>

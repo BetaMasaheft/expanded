@@ -3,9 +3,9 @@
          <titleStmt><title type="full">Oxford, Bodleian Library, Bodleian Aeth. d. 4</title>
             <title>Psalter</title>
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
-            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
+            <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ed-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ed-DR" corresp="https://betamasaheft.eu/team.html#DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,7 +14,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">10.10.2022 at 18:43:18</date><date type="lastModified">9.6.2017</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLaethd4/main</idno><idno type="URI">https://betamasaheft.eu/BDLaethd4</idno><idno type="filename">BDLaethd4.xml</idno><idno type="ID">BDLaethd4</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 09:37:06</date><date type="lastModified">9.6.2017</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLaethd4/main</idno><idno type="URI">https://betamasaheft.eu/BDLaethd4</idno><idno type="filename">BDLaethd4.xml</idno><idno type="ID">BDLaethd4</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                   <msIdentifier>
@@ -30,13 +30,13 @@
                   <summary/>
                      
                   <msItem xml:id="ms_i1">
-                        <locus from="1r" to="206r">Fols 1r–206r</locus>
+                        <locus from="1r" to="206r"/>
                      <title type="complete" ref="https://betamasaheft.eu/LIT2701Dawit">Psalter</title>
                         <textLang mainLang="gez"/>
                   
                      <msItem xml:id="ms_i1.1">
-                        <locus from="1r" to="164v">Fols 1r–164v</locus>
-                        <title type="complete" ref="https://betamasaheft.eu/LIT2000Mazmur">Mazmura Dāwit</title>
+                        <locus from="1r" to="164v"/>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT2000Mazmur">Psalms of David</title>
                         <textLang mainLang="gez"/>
                         <note>The scribe frequently errs in counting the chapters; thus he writes <foreign xml:lang="gez">፲፱</foreign>
                         instead of <foreign xml:lang="gez">፱</foreign>; <foreign xml:lang="gez">፲፮</foreign> instead of
@@ -44,131 +44,140 @@
                      </msItem>
                   
                      <msItem xml:id="ms_i1.2">
-                        <locus from="164v" to="181r">Fols 164v–181r</locus>
+                        <locus from="164v" to="181r"/>
                         <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale">Book of Odes</title>
                         <textLang mainLang="gez"/>
                      
                         <msItem xml:id="ms_i1.2.1">
-                           <locus from="164v">Fols 164v and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Moses1">Maḥālǝya nabiyāt, First Song of Moses (ጸሎቱ፡  ለሙሴ፡) (same as LIT2277salotu)</title>
+                           <locus from="164v"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Moses1">Book of Odes: First Song of Moses (ጸሎቱ፡ ለሙሴ፡)</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.2">
-                           <locus from="165v">Fols 165v and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Moses2">Maḥālǝya nabiyāt, Second Song of Moses (ጸሎተ፡  ሙሴ፡ ዘዳግም፡ ሕግ፡) (same as LIT2278salota)</title>
+                           <locus from="165v"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Moses2">Book of Odes: Second Song of Moses (ጸሎተ፡ ሙሴ፡ ዘዳግም፡
+        ሕግ፡)</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.3">
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Moses3">Maḥālǝya nabiyāt, Third Song of Moses (ጸሎተ፡ ሙሴ፡  ዘሣልስ፡) (same as LIT2703salota)</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Moses3">Book of Odes: Third Song of Moses (ጸሎተ፡ ሙሴ፡ ዘሣልስ፡)</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.4">
-                           <locus from="170r">Fols 170r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Hannah">Maḥālǝya nabiyāt, Song of Hannah (ጸሎተ፡ ሓና፡ እመ፡  ሳሙኤል፡ ነቢይ፡) (same as LIT2257salota)</title>
+                           <locus from="170r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Hannah">Book of Odes: Song of Hannah (ጸሎተ፡ ሓና፡ እመ፡ ሳሙኤል፡
+        ነቢይ፡)</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.5">
-                           <locus from="171v">Fols 171v and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Hezekiah">Maḥālǝya nabiyāt, Prayer of Hezekiah (ጸሎተ፡  ሕዝቅያስ፡ ንጉሠ፡ ይሁዳ፡) (same as LIT2258salota)</title>
+                           <locus from="171v"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Hezekiah">Book of Odes: Prayer of Hezekiah (ጸሎተ፡ ሕዝቅያስ፡ ንጉሠ፡
+        ይሁዳ፡)</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.6">
-                           <locus from="172r">Fols 172r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Manasseh">Maḥālǝya nabiyāt, Prayer of Manasseh (ጸሎተ፡  ምናሴ፡ ነቢይ፡) (same as LIT2265salota)</title>
+                           <locus from="172r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Manasseh">Book of Odes: Prayer of Manasseh (ጸሎተ፡ ምናሴ፡ ነቢይ፡)</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.7">
-                           <locus from="173v">Fols 173v and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Jonah">Maḥālǝya nabiyāt, Song of Jonah (ጸሎተ፡ ዮናስ፡ ነቢይ፡)  (same as LIT2274salota)</title>
+                           <locus from="173v"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Jonah">Book of Odes: Song of Jonah (ጸሎተ፡ ዮናስ፡ ነቢይ፡)</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.8">
-                           <locus from="174r">Fols 174r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#ThreeYouths1">Maḥālǝya nabiyāt, First Song of the Three  Youths in the Furnace (ጸሎተ፡ ዳንኤል፡ ነቢይ፡ ስብሐት፡ ዘእምኣዛርያ፡) (same as  LIT2250salota)</title>
+                           <locus from="174r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#ThreeYouths1">Book of Odes: First Song of the Three Youths in the
+        Furnace (ጸሎተ፡ ዳንኤል፡ ነቢይ፡ ስብሐት፡ ዘእምኣዛርያ፡)</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.9">
-                           <locus from="175v">Fols 175v and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#ThreeYouths2">Maḥālǝya nabiyāt, Second Song of the  Three Youths (ጸሎተ፡ ሠለስቱ፡ ደቂቅ፡) (same as LIT2271salota)</title>
+                           <locus from="175v"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#ThreeYouths2">Book of Odes: Second Song of the Three Youths (ጸሎተ፡
+        ሠለስቱ፡ ደቂቅ፡)</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.10">
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#ThreeYouths3">Maḥālǝya nabiyāt, Third Song of the Three  Youths (ኀበ፡ ባረኩ፡ ኣናንያ፡ ወኣዛርያ፡ ወሚሳኤል፡ ለእግዚአብሔር፡) (same as LIT1566hababa)</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#ThreeYouths3">Book of Odes: Third Song of the Three Youths (ኀበ፡
+        ባረኩ፡ ኣናንያ፡ ወኣዛርያ፡ ወሚሳኤል፡ ለእግዚአብሔር፡)</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.11">
-                           <locus from="177r">Fols 177r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Habakkuk">Maḥālǝya nabiyāt, Song of Habakkuk (ጸሎተ፡  ዕንባቆም፡ ነቢይ፡) (same as LIT2251salota)</title>
+                           <locus from="177r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Habakkuk">Book of Odes: Song of Habakkuk (ጸሎተ፡ ዕንባቆም፡ ነቢይ፡)</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.12">
-                           <locus from="178v">Fols 178v and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Isaiah">Maḥālǝya nabiyāt, Song of Isaiah (ጸሎተ፡ ኢሳይያስ፡  ነቢይ፡) (same as LIT2259salota)</title>
+                           <locus from="178v"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Isaiah">Book of Odes: Song of Isaiah (ጸሎተ፡ ኢሳይያስ፡ ነቢይ፡)</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.13">
-                           <locus from="179v">Fols 179v and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Mary">Maḥālǝya nabiyāt, Song of Our Lady Mary (ጸሎተ፡  እግዝእትነ፡ ማርያም፡) or Magnificat (same as LIT1827Magnif)</title>
+                           <locus from="179v"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Mary">Book of Odes: Song of Our Lady Mary (ጸሎተ፡ እግዝእትነ፡ ማርያም፡) or
+        Magnificat</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.14">
-                           <locus from="180r">Fols 180r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Zachariah">Maḥālǝya nabiyāt, Song of Zachariah (ጸሎተ፡  ዘካርያስ፡ ካህን፡) (same as LIT2275salota)</title>
+                           <locus from="180r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Zachariah">Book of Odes: Song of Zachariah (ጸሎተ፡ ዘካርያስ፡
+        ካህን፡)</title>
                         </msItem>
                      
                         <msItem xml:id="ms_i1.2.15">
-                           <locus target="#181r">Fol. 181r</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Simeon">Maḥālǝya nabiyāt, Song of Simeon, or Nunc  Dimittis (ጸሎተ፡ ስምዖን፡ ነቢይ፡) (same as LIT2272salota)</title>
+                           <locus target="#181r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1828Mahale#Simeon">Book of Odes: Song of Simeon, or Nunc Dimittis (ጸሎተ፡ ስምዖን፡
+        ነቢይ፡)</title>
                         </msItem>
                      </msItem>
                      
                      <msItem xml:id="ms_i1.3">
-                        <locus from="181r">Fols 181r and following</locus>
+                        <locus from="181r"/>
                         <title type="complete" ref="https://betamasaheft.eu/LIT2362Songof">Song of Songs</title>
                      </msItem>
                      
                      <msItem xml:id="ms_i1.4">
-                        <locus from="190r">Fols 190r and following</locus>
+                        <locus from="190r"/>
                         <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas">Wǝddāse Māryām</title>
                         
                         <msItem xml:id="ms_i1.4.1">
-                           <locus from="190r">Fols 190r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Monday">Wǝddāse Māryām for Monday</title>
+                           <locus from="190r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Monday">Wǝddāse Māryām: Monday</title>
                         </msItem>          
                         
                         <msItem xml:id="ms_i1.4.2">
-                           <locus from="191r">Fols 191r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Tuesday">Wǝddāse Māryām for Tuesday</title>
+                           <locus from="191r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Tuesday">Wǝddāse Māryām: Tuesday</title>
                         </msItem>
                         
                         <msItem xml:id="ms_i1.4.3">
-                           <locus from="192v">Fols 192v and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Wednesday">Wǝddāse Māryām for Wednesday</title>
+                           <locus from="192v"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Wednesday">Wǝddāse Māryām: Wednesday</title>
                         </msItem>
                         
                         <msItem xml:id="ms_i1.4.4">
-                           <locus from="195r">Fols 195r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Thursday">Wǝddāse Māryām for Thursday</title>
+                           <locus from="195r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Thursday">Wǝddāse Māryām: Thursday</title>
                         </msItem>
                         
                         <msItem xml:id="ms_i1.4.5">
-                           <locus from="197r">Fols 197r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Friday">Wǝddāse Māryām for Friday</title>
+                           <locus from="197r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Friday">Wǝddāse Māryām: Friday</title>
                         </msItem>
                         
                         <msItem xml:id="ms_i1.4.6">
-                           <locus from="198v">Fols 198v and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Saturday">Wǝddāse Māryām for Saturday</title>
+                           <locus from="198v"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Saturday">Wǝddāse Māryām: Saturday</title>
                         </msItem>
                         
                         <msItem xml:id="ms_i1.4.7">
-                           <locus from="200r">Fols 200r and following</locus>
-                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Sunday">Wǝddāse Māryām, Hymn to Our Lady Mary</title>
+                           <locus from="200r"/>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2509Weddas#Sunday">Wǝddāse Māryām: Sunday</title>
                         </msItem>                  
                      </msItem>
                      
                      <msItem xml:id="ms_i1.5">
-                        <locus from="201r" to="206r">Fols 201r–206r</locus>
+                        <locus from="201r" to="206r"/>
                         <title type="complete" ref="https://betamasaheft.eu/LIT1113Anqasa">ʾAnqaṣa bǝrhān</title>
                         <incipit xml:lang="gez">ቅድስት፡ ወብፅዕት፡ <gap extent="unknown" reason="omitted" resp="PRS9622Ullendor"/>
                         አንቀጸ፡ ብርሃን፡ መዓርገ፡ ሕይወት፡ ወማኅደረ፡ መለኮት፡ ቅድስተ፡ ቅዱሳን።</incipit>
@@ -186,27 +195,27 @@
                         <extent>
                            <measure unit="leaf">207</measure> 
                            <measure unit="folio" type="blank">3</measure>
-                           <locus target="#296v #207r #207v">Fols. 296v, 207r, 207v</locus>
+                           <locus target="#296v #207r #207v"/>
                            <dimensions type="outer" unit="in">
                               <height>9</height>
                               <width>8</width>
-                           </dimensions>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="228.6" unit="mm"/><width quantity="203.2" unit="mm"/></dimensions>
                         </extent>
-                        <foliation>The mutilated folio between    <locus target="#206">fols. 206, </locus> and <locus target="#207">207</locus> 
+                        <foliation>The mutilated folio between    <locus target="#206"/> and <locus target="#207"/> 
                         and the two blank folios at the beginning have not been taken into account for the foliation.</foliation>
                         <collation>
                            <note>There is one unnumbered and badly mutilated folio between 
-                        <locus target="#206">fols. 206, </locus> and <locus target="#207">207</locus> of which only one bottom corner is left.
+                        <locus target="#206"/> and <locus target="#207"/> of which only one bottom corner is left.
                         Two blank additional folios have been added later at the beginning of the volume.</note>
                         </collation>
                        
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
-                           <locus from="1" to="189">Fols 1–189</locus>
+                           <locus from="1" to="189"/>
                         </layout>
                         <layout columns="2">
-                           <locus from="190" to="206">Fols 190–206</locus>
+                           <locus from="190" to="206"/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -224,7 +233,7 @@
                   <additions>
                      <list>
                         <item xml:id="a1">
-                           <locus target="#207v">Fol. 207v</locus>
+                           <locus target="#207v"/>
                            <desc type="OwnershipNote">Written in <ref target="#h2"/>.</desc>
                            <q xml:lang="gez">ዝመጽሐፍ፡ ዘ<persName role="owner" ref="https://betamasaheft.eu/PRS11419WaldaMaryam">ወልደ፡ ማርያም፡</persName>
                            </q>
@@ -265,7 +274,7 @@
                         <recordHist>
                            <source>
                               <listBibl type="catalogue">
-                                 <bibl corresp="http://zotero.org/groups/358366/items/MRGDEBVC"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Ullendorff1951Catalogue"/><title level="m">Catalogue of Ethiopian Manuscripts in the Bodleian Library</title><title level="s">Catalogi Codd. Mss. Bibliothecae Bodleianae</title><author><forename>Edward</forename><surname>Ullendorff</surname></author><pubPlace>Oxford</pubPlace><publisher>Clarendon Press</publisher><date>1951</date><series><title level="s">Catalogi Codd. Mss. Bibliothecae Bodleianae</title><biblScope unit="volume">7</biblScope></series><biblScope unit="volume">II</biblScope><biblScope unit="volume">7</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Ullendorff1951Catalogue</note></note><note type="tag">Ethiopic</note><note type="tag">Cataloguing</note><note type="tag">bm:Ullendorff1951Catalogue</note><citedRange unit="page">5a–6a</citedRange></bibl>
+                                 <bibl corresp="http://zotero.org/groups/358366/items/MRGDEBVC"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Ullendorff1951Catalogue"/><title level="m">Catalogue of Ethiopian Manuscripts in the Bodleian Library</title><title level="s">Catalogi Codd. Mss. Bibliothecae Bodleianae</title><author><forename>Edward</forename><surname>Ullendorff</surname></author><pubPlace>Oxford</pubPlace><publisher>Clarendon Press</publisher><date>1951</date><series><title level="s">Catalogi Codd. Mss. Bibliothecae Bodleianae</title><biblScope unit="volume">7</biblScope></series><biblScope unit="volume">II</biblScope><biblScope unit="volume">7</biblScope><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Ullendorff1951Catalogue</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Ullendorff1951Catalogue</note><citedRange unit="page">5a–6a</citedRange></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -282,14 +291,14 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><source-url><assertion unit="edition" match="//div[@type='edition']" use="@xml:id" log="."/></source-url></encodingDesc>
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:textClass>
             <t:keywords scheme="#ethioauthlist">
@@ -304,8 +313,8 @@
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
                                     Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <change who="#DR" when="2017-01-27"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
-         <change who="#DR" when="2017-06-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Changes</change>
+         <change when="2017-01-27" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
+         <change when="2017-06-09" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Changes</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>

@@ -7,7 +7,7 @@
             
             <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt xml:id="ged-AB" corresp="https://betamasaheft.eu/team.html#AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt xml:id="ES" corresp="https://betamasaheft.eu/team.html#ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -20,7 +20,7 @@
                </licence>
             </availability>
             
-         <date type="expanded">3.7.2025 at 16:57:02</date><date type="lastModified">5.1.2022</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1425GadlaA/main</idno><idno type="URI">https://betamasaheft.eu/LIT1425GadlaA</idno><idno type="filename">LIT1425GadlaA.xml</idno><idno type="ID">LIT1425GadlaA</idno></publicationStmt>
+         <date type="expanded">3.9.2026 at 06:15:44</date><date type="lastModified">5.1.2022</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1425GadlaA/main</idno><idno type="URI">https://betamasaheft.eu/LIT1425GadlaA</idno><idno type="filename">LIT1425GadlaA.xml</idno><idno type="ID">LIT1425GadlaA</idno></publicationStmt>
          
          <sourceDesc>
             <listWit>
@@ -56,226 +56,232 @@
          
             
          
-      <p>Encoded according 
-                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
-                        These Guidelines detail the TEI format ruled by 
-                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. 
-                        The present TEI file is enriched with an 
-                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMas/modules/expand.xqm">Xquery transformation</ref> 
-                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where 
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="xmldb:exist:///db/apps/lists/canonicaltaxonomy.xml"><xi:fallback><p>Definitions of prefixes used.</p></xi:fallback></xi:include><refsDecl><citeStructure unit="edition" match="//div[@type='edition']" use="@xml:id" delim="."><citeStructure unit="§ 37" match="div" use="div"><desc><list><item>paragraph37</item></list></desc></citeStructure><citeStructure unit="§ 15" match="div" use="div"><desc><list><item>paragraph15</item></list></desc></citeStructure><citeStructure unit="§ 38" match="div" use="div"><desc><list><item>paragraph38</item></list></desc><citeStructure unit="page break" match="pb" use="pb"><desc><list><item>tei:pb[1]</item></list></desc></citeStructure></citeStructure><citeStructure unit="§ 16" match="div" use="div"><desc><list><item>paragraph16</item></list></desc></citeStructure><citeStructure unit="§ 17" match="div" use="div"><desc><list><item>paragraph17</item></list></desc></citeStructure><citeStructure unit="§ 18" match="div" use="div"><desc><list><item>paragraph18</item></list></desc></citeStructure><citeStructure unit="§ 33" match="div" use="div"><desc><list><item>paragraph33</item></list></desc></citeStructure><citeStructure unit="§ 11" match="div" use="div"><desc><list><item>paragraph11</item></list></desc></citeStructure><citeStructure unit="§ 34" match="div" use="div"><desc><list><item>paragraph34</item></list></desc></citeStructure><citeStructure unit="§ 12" match="div" use="div"><desc><list><item>paragraph12</item></list></desc></citeStructure><citeStructure unit="§ 1" match="div" use="div"><desc><list><item>paragraph1</item></list></desc><citeStructure unit="page break" match="pb" use="pb"><desc><list><item>tei:pb[1]</item></list></desc></citeStructure></citeStructure><citeStructure unit="§ 35" match="div" use="div"><desc><list><item>paragraph35</item></list></desc><citeStructure unit="page break" match="pb" use="pb"><desc><list><item>tei:pb[1]</item></list></desc></citeStructure></citeStructure><citeStructure unit="§ 13" match="div" use="div"><desc><list><item>paragraph13</item></list></desc><citeStructure unit="page break" match="pb" use="pb"><desc><list><item>tei:pb[1]</item></list></desc></citeStructure></citeStructure><citeStructure unit="§ 36" match="div" use="div"><desc><list><item>paragraph36</item></list></desc></citeStructure><citeStructure unit="§ 14" match="div" use="div"><desc><list><item>paragraph14</item></list></desc></citeStructure><citeStructure unit="§ 4" match="div" use="div"><desc><list><item>paragraph4</item></list></desc><citeStructure unit="page break" match="pb" use="pb"><desc><list><item>tei:pb[1]</item></list></desc></citeStructure></citeStructure><citeStructure unit="§ 30" match="div" use="div"><desc><list><item>paragraph30</item></list></desc></citeStructure><citeStructure unit="§ 5" match="div" use="div"><desc><list><item>paragraph5</item></list></desc></citeStructure><citeStructure unit="§ 31" match="div" use="div"><desc><list><item>paragraph31</item></list></desc></citeStructure><citeStructure unit="§ 2" match="div" use="div"><desc><list><item>paragraph2</item></list></desc></citeStructure><citeStructure unit="§ 32" match="div" use="div"><desc><list><item>paragraph32</item></list></desc></citeStructure><citeStructure unit="§ 3" match="div" use="div"><desc><list><item>paragraph3</item></list></desc></citeStructure><citeStructure unit="§ 8" match="div" use="div"><desc><list><item>paragraph8</item></list></desc></citeStructure><citeStructure unit="§ 9" match="div" use="div"><desc><list><item>paragraph9</item></list></desc><citeStructure unit="page break" match="pb" use="pb"><desc><list><item>tei:pb[1]</item></list></desc></citeStructure></citeStructure><citeStructure unit="§ 6" match="div" use="div"><desc><list><item>paragraph6</item></list></desc></citeStructure><citeStructure unit="§ 19" match="div" use="div"><desc><list><item>paragraph19</item></list></desc></citeStructure><citeStructure unit=" § 7" match="div" use="div"><desc><list><item>paragraph7</item></list></desc></citeStructure><citeStructure unit="§ 26" match="div" use="div"><desc><list><item>paragraph26</item></list></desc></citeStructure><citeStructure unit="§ 27" match="div" use="div"><desc><list><item>paragraph27</item></list></desc></citeStructure><citeStructure unit="§ 28" match="div" use="div"><desc><list><item>paragraph28</item></list></desc></citeStructure><citeStructure unit="§ 29" match="div" use="div"><desc><list><item>paragraph29</item></list></desc><citeStructure unit="page break" match="pb" use="pb"><desc><list><item>tei:pb[1]</item></list></desc></citeStructure></citeStructure><citeStructure unit="§ 22" match="div" use="div"><desc><list><item>paragraph22</item></list></desc></citeStructure><citeStructure unit="§ 23" match="div" use="div"><desc><list><item>paragraph23</item></list></desc></citeStructure><citeStructure unit="§ 24" match="div" use="div"><desc><list><item>paragraph24</item></list></desc></citeStructure><citeStructure unit="§ 25" match="div" use="div"><desc><list><item>paragraph25</item></list></desc><citeStructure unit="page break" match="pb" use="pb"><desc><list><item>tei:pb[1]</item></list></desc></citeStructure></citeStructure><citeStructure unit=" § 10" match="div" use="div"><desc><list><item>paragraph10</item></list></desc></citeStructure><citeStructure unit="§ 20" match="div" use="div"><desc><list><item>paragraph20</item></list></desc><citeStructure unit="page break" match="pb" use="pb"><desc><list><item>tei:pb[1]</item></list></desc></citeStructure></citeStructure><citeStructure unit="§ 21" match="div" use="div"><desc><list><item>paragraph21</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
-      <profileDesc>
-         <abstract>
-            <p> The hagiographic text is only known in Ethiopic version and transmitted by over twenty manuscripts of the <ref type="work" corresp="https://betamasaheft.eu/LIT1493Gadlas">Gadla samāʿtāt</ref>. 
+      <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="§ 37" use="@xml:id"><desc><list><item>paragraph37</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 15" use="@xml:id"><desc><list><item>paragraph15</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 38" use="@xml:id"><citeStructure match="t:pb" unit="t:pb" use="@xml:id"><desc><list><item>tei:t:pb[1]</item></list></desc></citeStructure><desc><list><item>paragraph38</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 16" use="@xml:id"><desc><list><item>paragraph16</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 17" use="@xml:id"><desc><list><item>paragraph17</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 18" use="@xml:id"><desc><list><item>paragraph18</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 33" use="@xml:id"><desc><list><item>paragraph33</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 11" use="@xml:id"><desc><list><item>paragraph11</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 34" use="@xml:id"><desc><list><item>paragraph34</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 12" use="@xml:id"><desc><list><item>paragraph12</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 1" use="@xml:id"><citeStructure match="t:pb" unit="t:pb" use="@xml:id"><desc><list><item>tei:t:pb[1]</item></list></desc></citeStructure><desc><list><item>paragraph1</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 35" use="@xml:id"><citeStructure match="t:pb" unit="t:pb" use="@xml:id"><desc><list><item>tei:t:pb[1]</item></list></desc></citeStructure><desc><list><item>paragraph35</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 13" use="@xml:id"><citeStructure match="t:pb" unit="t:pb" use="@xml:id"><desc><list><item>tei:t:pb[1]</item></list></desc></citeStructure><desc><list><item>paragraph13</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 36" use="@xml:id"><desc><list><item>paragraph36</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 14" use="@xml:id"><desc><list><item>paragraph14</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 4" use="@xml:id"><citeStructure match="t:pb" unit="t:pb" use="@xml:id"><desc><list><item>tei:t:pb[1]</item></list></desc></citeStructure><desc><list><item>paragraph4</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 30" use="@xml:id"><desc><list><item>paragraph30</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 5" use="@xml:id"><desc><list><item>paragraph5</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 31" use="@xml:id"><desc><list><item>paragraph31</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 2" use="@xml:id"><desc><list><item>paragraph2</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 32" use="@xml:id"><desc><list><item>paragraph32</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 3" use="@xml:id"><desc><list><item>paragraph3</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 8" use="@xml:id"><desc><list><item>paragraph8</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 9" use="@xml:id"><citeStructure match="t:pb" unit="t:pb" use="@xml:id"><desc><list><item>tei:t:pb[1]</item></list></desc></citeStructure><desc><list><item>paragraph9</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 6" use="@xml:id"><desc><list><item>paragraph6</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 19" use="@xml:id"><desc><list><item>paragraph19</item></list></desc></citeStructure><citeStructure match="t:div" unit=" § 7" use="@xml:id"><desc><list><item>paragraph7</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 26" use="@xml:id"><desc><list><item>paragraph26</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 27" use="@xml:id"><desc><list><item>paragraph27</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 28" use="@xml:id"><desc><list><item>paragraph28</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 29" use="@xml:id"><citeStructure match="t:pb" unit="t:pb" use="@xml:id"><desc><list><item>tei:t:pb[1]</item></list></desc></citeStructure><desc><list><item>paragraph29</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 22" use="@xml:id"><desc><list><item>paragraph22</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 23" use="@xml:id"><desc><list><item>paragraph23</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 24" use="@xml:id"><desc><list><item>paragraph24</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 25" use="@xml:id"><citeStructure match="t:pb" unit="t:pb" use="@xml:id"><desc><list><item>tei:t:pb[1]</item></list></desc></citeStructure><desc><list><item>paragraph25</item></list></desc></citeStructure><citeStructure match="t:div" unit=" § 10" use="@xml:id"><desc><list><item>paragraph10</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 20" use="@xml:id"><citeStructure match="t:pb" unit="t:pb" use="@xml:id"><desc><list><item>tei:t:pb[1]</item></list></desc></citeStructure><desc><list><item>paragraph20</item></list></desc></citeStructure><citeStructure match="t:div" unit="§ 21" use="@xml:id"><desc><list><item>paragraph21</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+      <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <t:abstract>
+            <t:p> The hagiographic text is only known in Ethiopic version and transmitted by over twenty manuscripts of the <t:ref type="work" corresp="https://betamasaheft.eu/LIT1493Gadlas">Gadla samāʿtāt</t:ref>. 
             Though composed in a literary garb, the data provided by this document on the Christianization of South Arabia and the religious situation at the time are matched by epigraphic data and 
             later liter-ary traditions and appear to some extent reliable and of historical value. The narrative refers to events which might have taken place in the time span of AD
-            <date>470-475</date>. It was translated from Arabic, which in its turn based on most probably Greek or Syriac Vorlage (see also <bibl corresp="http://zotero.org/groups/358366/items/SY9S5G7D"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Robin2010Azqir"/><title level="a">Nagrān vers l’´epoque du massacre: notes sur l’histoire politique, économique et institutionelle et sur l’introduction du christianisme (avec un réexamen du Martyre d’Azqīr)</title><title level="m">Juifs et chrétiens en Arabie aux V&lt;hi rend="sup"&gt;e&lt;/hi&gt; et VI&lt;hi rend="sup"&gt;e&lt;/hi&gt; siècles: Regards croisés sur les sources</title><title level="s">Collège de France–CNRS, Centre de recherche d’Histoire et Civilisation de Byzance, Monographies</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Christian Julien</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Robin</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Joëlle</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Beaucamp</t:surname></editor><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Françoise</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Briquel-Chatonnet</t:surname></editor><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Christian Julien</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Robin</t:surname></editor><pubPlace>Paris</pubPlace><publisher>Association des amis du Centre d’histoire et civilisation de Byzance</publisher><date>2010</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Collège de France–CNRS, Centre de recherche d’Histoire et Civilisation de Byzance, Monographies</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">32, Le massacre de Najrân, 2</t:biblScope></series><biblScope unit="page">39-106</biblScope><biblScope unit="volume">32, Le massacre de Najrân, 2</biblScope><note type="url">https://www.orient-mediterranee.com/IMG/pdf/MTM32.pdf</note></bibl> 
-            </p>
-         </abstract>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+            <t:date>470-475</t:date>. It was translated from Arabic, which in its turn based on most probably Greek or Syriac Vorlage (see also <t:bibl corresp="http://zotero.org/groups/358366/items/SY9S5G7D"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Robin2010Azqir"/><title level="a">Nagrān vers l’´epoque du massacre: notes sur l’histoire politique, économique et institutionelle et sur l’introduction du christianisme (avec un réexamen du Martyre d’Azqīr)</title><title level="m">Juifs et chrétiens en Arabie aux V&lt;hi rend="sup"&gt;e&lt;/hi&gt; et VI&lt;hi rend="sup"&gt;e&lt;/hi&gt; siècles: Regards croisés sur les sources</title><title level="s">Collège de France–CNRS, Centre de recherche d’Histoire et Civilisation de Byzance, Monographies</title><author><forename>Christian Julien</forename><surname>Robin</surname></author><editor><forename>Joëlle</forename><surname>Beaucamp</surname></editor><editor><forename>Françoise</forename><surname>Briquel-Chatonnet</surname></editor><editor><forename>Christian Julien</forename><surname>Robin</surname></editor><pubPlace>Paris</pubPlace><publisher>Association des amis du Centre d’histoire et civilisation de Byzance</publisher><date>2010</date><series><title level="s">Collège de France–CNRS, Centre de recherche d’Histoire et Civilisation de Byzance, Monographies</title><biblScope unit="volume">32, Le massacre de Najrân, 2</biblScope></series><biblScope unit="page">39-106</biblScope><biblScope unit="volume">32, Le massacre de Najrân, 2</biblScope><note type="url">https://www.orient-mediterranee.com/IMG/pdf/MTM32.pdf</note><note type="tags"><note type="tag">bm:Robin2010Azqir</note></note><note type="tag">bm:Robin2010Azqir</note></t:bibl> 
+            </t:p>
+         </t:abstract>
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+         <t:textClass>
+            <t:keywords>
+               <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+               <t:term key="Hagiography" ana="#Hagiography"/>
+            </t:keywords>
+         </t:textClass>
       <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
-      <revisionDesc>
+                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+      <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          
-         <change who="#ES" when="2016-02-09"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
-         <change who="#AB" when="2019-04-10"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->provided transcription</change>
-         <change who="#ES" when="2019-04-12"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added title inserted text</change>
-         <change who="#ES" when="2022-01-05"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added witnesses notes</change>
-      </revisionDesc>
+         <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
+         <change when="2019-04-10" who="#AB"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->provided transcription</change>
+         <change when="2019-04-12" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added title inserted text</change>
+         <change when="2022-01-05" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added witnesses notes</change>
+      </t:revisionDesc>
    </teiHeader><standOff><listRelation>
             <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT1425GadlaA" passive="https://betamasaheft.eu/LIT1493Gadlas"/>
             <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_http://erlangen-crm.org/current/is_http://erlangen-crm.org/current/about" active="https://betamasaheft.eu/LIT1425GadlaA" passive="https://betamasaheft.eu/PRS2303Azqir"/>
-         </listRelation></standOff><text xml:base="https://betamasaheft.eu/">
-      <body>
-         <div type="edition" xml:lang="gez">
-            <note>The copyright of the text transcription is of Alessandro Bausi (see <bibl corresp="http://zotero.org/groups/358366/items/JVMCX6PH"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2017Azqir"/><title level="a">Il Gadla ʾAzqir</title><title level="j">Adamantius</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><date>2017</date><biblScope unit="volume">23</biblScope><biblScope unit="page">341-380</biblScope><note type="tags"><note type="tag">AdW</note><note type="tag">TraCES</note><note type="tag">Main</note><note type="tag">bm:Bausi2017Azqir</note></note><note type="tag">AdW</note><note type="tag">TraCES</note><note type="tag">Main</note><note type="tag">bm:Bausi2017Azqir</note></bibl>)
-            </note>
-            <div type="textpart" xml:id="paragraph1">
-               <label>§ 1</label>
-               <pb ed="edCR"/>
-               <note>C.R. 729</note>
-               <ab>ገድል፡ ወስምዕ፡ ዘቅዱስ፡ ሰማዕት፡ አዝቂር፡ ቀሲስ፡ ናግራናይ፡ ዘመሀረ፡ ክርስ<supplied reason="omitted">ትና</supplied>፡ ቀዳማይ፡ በናግራን፡ ወአግሀደ፡ 
-               ክርስ<supplied reason="omitted">ትና</supplied>፡ 
-               በመዋዕለ፡ ስራብሔል፡ <supplied reason="omitted">ይ</supplied>ንክፍ፡ ንጉሠ፡ ሔሜር፡ ወተከለ፡ ኀይመተ፡ ምጽላየ፡ ወማዕተበ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph2">
-               <label>§ 2</label>
-               <ab>ወሰሚዖሙ፡ መኳንንተ፡ ሀገረ፡ ናግራን፡ ዘስዕልባን፡ ወዘቄፋን፡ ለአኩ፡ ወሠጠጡ፡ ኀይመተ፡ ምጽላዩ፡ ወሰበሩ፡ ማዕተቦ፡ ወአኀዝዎ፡ ለአዝቂር፡ ወወደይዎ፡ ቤተ፡ ሞቅሕ፡ ውስተ፡ ጽልመት፡ ወይብልዋ፡ ለይእቲ፡ ግብ፡ ቀፍነይት፡ ስማ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph3">
-               <label>§ 3</label>
-               <ab>ወእንዘ፡ ሀለወ፡ ቤተ፡ ሞቅሕ፡ በጽሑ፡ ሰብእ፡ እለ፡ መሀረ፡ ዘእንበለ፡ ይትአኀዝ፡ እለ፡ አብአ፡ ንኡሰ፡ ክርስቲያን፡ ወበጽሑ፡ እንዘ፡ ይስእሉ፡ ጥምቀተ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph4">
-               <label>§ 4</label>
-               <ab>
-                  <pb ed="edCR"/>
-                  <note>C.R. 730</note>ወይቤሎሙ፡ ቅዱስ፡ አዝቂር፡ ለዐቀብተ፡ ቤተ፡ ሞቅሕ፡ አርኅውዎሙ፡ ለእሉ፡ ሰብእ፡ ወአበዩ፡ አርኅዎ፡ ዐቀብተ፡ ቤተ፡ ሞቅሕ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph5">
-               <label>§ 5</label>
-               <ab>ወተንሥአ፡ ቅዱስ፡ ወጸለየ፡ ወይቤ፡ እግዚእየ፡ ኢየሱስ፡ ክርስቶስ፡ ዘአርኀውከ፡ ኆኃተ፡ ኀጺን፡ ለጴጥሮስ፡ ወፈታሕከ፡ መዋቅሕቲሁ፡ አንተ፡ አዝዝ፡ ዮምኒ፡ ይትረኀዋ፡ እሉ፡ ኆኃት፡ ኵሎ፡ ሌሊተ፡ ኢይትዐጸዋ፡ እስከ፡ ይበውኡ፡ አግብርቲከ፡ ወይንሥኡ፡ ጸጋከ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph6">
-               <label>§ 6</label>
-               <ab> ወተርኅወ፡ ውእቱ፡ ኆኅት፡ ለሊሁ፡ በኀይለ፡ እግዚአብሔር፡ ወቦኡ፡ እሙንቱ፡ ሰብእ፡ ኀምሳ፡ ብእሲ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph7">
-               <label> § 7</label>
-               <ab>ወተንሥኡ፡ ዐቀብተ፡ ቤተ፡ ሞቅሕ፡ ይዕጽዉ፡ ኆኅተ፡ {ሶበ፡ ደንገፁ፡} ወየአክሉ፡ ኀምሳ፡ ብእሴ፡ ወዐቀብተ፡ ቤተ፡ ሞቅሕ፡ ስእኑ፡ ዐጺዎቶ፡ ለውእቱ፡ ኆኅት፡ ከመ፡ ኢይባኡ፡ ኀበ፡ ቅዱስ፡ አዝቂር፡ ወአእመሩ፡ ዐቀብተ፡ ቤተ፡ ሞቅሕ፡ ከመ፡ እምኀበ፡ እግዚአብሔር፡ ኮነ፡ ዝንቱ፡ ተኣምር።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph8">
-               <label>§ 8</label>
-               <ab>ወደንገፁ፡ ሶቤሃ፡ ወኀደጉ፡ ወቦኡ፡ እሉ፡ ኀምሳ፡ ሰብእ፡ ኀበ፡ ቅዱስ፡ አዝቂር፡ ወገብረ፡ ምጥማቀ፡ በቤተ፡ ሞቅሕ፡ ወአጥመቆሙ፡ በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ወተጠምቁ፡ እልኩ፡ ሰብእ፡ በይእቲ፡ ሌሊት፡ ወገብረ፡ ጸሎተ፡ 
-               ወአ<supplied reason="omitted">ጽደሎ</supplied>ሙ፡ 
-               ፍጹመ፡ በቤተ፡ ሞቅሕ፡ ከመዝ፡ ገብረ፡ ወዝንቱ፡ ተኣምር፡ ቀዳሚ፡ ዘገብረ፡ ቅዱስ፡ አዝቂር፡ በቤተ፡ ሞቅሕ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph9">
-               <label>§ 9</label>
-               <ab> 
-                  <pb ed="edCR"/>
-                  <note>C.R. 731</note>ወሰምዐ፡ ንጉሠ፡ ሄሜር፡ ስራሔብኤል፡ ዘንተ፡ ግብረ፡ ዘገብረ፡ ቅዱስ፡ አዝቂር። ወለአከ፡ ንጉሥ፡ ኀበ፡ መኳንንት፡ ዘይነብሩ፡ ናግራን፡ እንዘ፡ ይብል፡ ፍጡነአ፡ አምጽእዎአ፡ ለውእቱ፡ ብእሲአ፡ ዘአምጽአ፡ ሐዲሰአ፡ ትምህርተአ፡ ውስተ፡ ብሔርየ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph10">
-               <label> § 10</label>
-               <ab>ወሮጸ፡ አሐዱ፡ ብእሲ፡ ዘስሙ፡ ኪርያቂ፡ ኀበ፡ ቅዱስ፡ አዝቂር፡ እንዘ፡ ሀሎ፡ ቤተ፡ ሞቅሕ፡ ወነገሮ፡ ወይቤሎ፡ አብስር፡ እስመ፡ ለአከ፡ ንጉሠ፡ ሔሜር፡ በእንቲአከ፡ ከመ፡ ይሰዱከ፡ ኀቤሁ፡ ለስምዕ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph11">
-               <label>§ 11</label>
-               <ab> ወይቤሎ፡ አዝቂር፡ ለውእቱ፡ ብእሲ፡ አማን፡ ብከ፡ ብስራት፡ ወላዕሌየ፡ ውእቱ፡ ብስራትከ፡ ወመጽኡ፡ ሰብአ፡ ሀገር፡ ወአውሥእዎ፡ ወአውፅእዎ፡ ለቅዱስ፡ አዝቂር፡ እምቤተ፡ ሞቅሕ፡ ወሞቅሕዎ፡ ኅቡረ፡ ምስለ፡ ዝኩ፡ ብእሲ፡ ዘነገሮ፡ ለአዝቂር።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph12">
-               <label>§ 12</label>
-               <ab>ወአሜሃ፡ በጽሑ፡ ነግድ፡ ብዙኃን፡ እምተናሕ፡ ወምስሌሆሙ፡ ፈነውዎ፡ ለአዝቂር፡ ኀበ፡ ንጉሠ፡ ሔሜር፡ ወወፂኦ፡ እምናግራን፡ ተለውዎ፡ ብዙኃን፡ ሰብእ፡ ወፈነውዎ፡ እስከ፡ መካን፡ እንተ፡ ስማ፡ ዋጽሐ፡ ወተአክል፡ መጠነ፡ ዐሠርቱ፡ ወኀምስቱ፡ ምዕራፍ፡ እምሀገረ፡ ናግራን።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph13">
-               <label>§ 13</label>
-               <ab>ወበጺሖሙ፡ ህየ፡ ሰአልዎ፡ ሰብእ፡ ክልኤቱ፡ ከመ፡ ያጥምቆሙ፡ ወገብረ፡ |<pb ed="edCR"/>
-                  <note>C.R. 732</note> ምጽላየ፡ በህየ፡ ጥቃ፡ ኰኵሕ፡ ወነቅዐ፡ ማይ፡ ወአጥመቆሙ፡ በህየ፡ ይእተ፡ አሚረ፡ እንዘ፡ አልቦ፡ ትካተ፡ ውእቱ፡ መካን፡ ማየ፡ ወበጸሎቱ፡ ለቅዱስ፡ አዝቂር፡ ነቅዐ፡ እስከ፡ ዮም። ወኰኵሕ፡ ውእቱ፡ መካን፡ ኀበ፡ ነቅዐ፡ ማይ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph14">
-               <label>§ 14</label>
-               <ab>ወርእዮ፡ ተኣምረ፡ ዝኩ፡ ዘሙቁሕ፡ ምስሌሁ፡ ሰአሎ፡ ወይቤሎ፡ ተዘከር፡ እግዚእየ፡ አመ፡ እነግረከ፡ እንዘ፡ ሀሎከ፡ ቤተ፡ ሞቅሕ፡ ዘትቤለኒ፡ ላዕሌየ፡ ብስራትከ፡ ወተክለ፡ ንዋይ፡ ዘትሁበኒ፡ ብስራትየ፡ ወርቀሰ፡ ወብሩረ፡ ኢይፈቅድ፡ ወኢምንተኒ፡ ወአጥምቀኒ፡ ወውእቱ፡ ይኵነኒ፡ ብስራትየ፡ ወአእኰቶ፡ ቅዱስ፡ አዝቂር፡ ለእግዚአብሔር፡ በእንተ፡ ውእቱ፡ ብእሲ፡ ወአጥመቆ፡ ኪያሁኒ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph15">
-               <label>§ 15</label>
-               <ab>ወኀሊፎሙ፡ እምውእቱ፡ መካን፡ እንዘ፡ የሐውሩ፡ በጽሑ፡ በድወ፡ ዘስሙ፡ <supplied reason="omitted">ግ</supplied>ው<supplied reason="omitted">ዓ</supplied>ን፡ በከመ፡ ይብል፡ መጽሐፍ፡ ጸምአተከ፡ ነፍስየ፡ በምድረ፡ በድው፡ ኀበ፡ አልቦ፡ ዕፀ፡ ወማየ፡ ወከማሁ፡ ውእቱ፡ መካን፡ አልቦ፡ ዕፀ፡ ወማየ፡ ወግውዓን፡ | <note>C.R. 733</note> ብሂል፡ በነገረ፡ ዐረቢ፡ ትርጓሜሁ፡ ረኀብ፡ ብሂል።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph16">
-               <label>§ 16</label>
-               <ab>ወበጺሖሙ፡ ውእተ፡ መካነ፡ ጸምኡ፡ ኵሎሙ፡ ነግድ፡ ወምንዳቤ፡ ዐቢየ፡ ረከቡ፡ ውእቶሙ፡ ወእንስሳሆሙ፡ ወመዋዕለ፡ ሐጋይ፡ ውእተ፡ አሚረ፡ ወአስተብቍዕዎ፡ ለቅዱስ፡ አዝቂር፡ ወሰአልዎ፡ እንዘ፡ ይብሉ፡ ሰአል፡ ለነ፡ ኀበ፡ እግዚአብሔር፡ በእንተ፡ ኵሉ፡ ነፍስ፡ ከመ፡ ኢንሙት፡ በጽምእ፡ ናአምር፡ ከመ፡ ዘጸለይከ፡ ኀበ፡ እግዚአብሔር፡ ይሁበከ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph17">
-               <label>§ 17</label>
-               <ab>ወይቤ፡ አዝቂር፡ ሀቡኒ፡ ገበታ፡ ወአምጽኡ፡ ሎቱ፡ ወተአተተ፡ እምኔሆሙ፡ ወአንበረ፡ ገበታ፡ ቅድሜሁ፡ ወሰፍሐ፡ እዴሁ፡ ወአንሥአ፡ አዕይንቲሁ፡ ውስተ፡ ሰማይ፡ ወጸለየ፡ ወይቤ፡</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph18">
-               <label>§ 18</label>
-               <ab>እግዚእየ፡ ኢየሱስ፡ ክርስቶስ፡ ዘረሰይከ፡ ማየ፡ ወይነ፡ ወአጽገብከ፡ ብዙኃነ፡ አሕዛበ፡ እምኀምስቱ፡ ኅብስት፡ አንተ፡ ግበር፡ ተኣምረ፡ ወፈኑ፡ ሣህለከ፡ ወአርውዮሙ፡ ለነፍስ፡ ጽምእት።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph19">
-               <label>§ 19</label>
-               <ab>ወወረደ፡ ደመና፡ ውስተ፡ ገበታ፡ መጠነ፡ እራኀ፡ ሰብእ፡ ወመልአት፡ ገበታ፡ ማየ፡ ወሰትዩ፡ ወረወዩ፡ ሰብእ፡ ወእንስሳ፡ ወሰነቁ፡ እምኔሁ፡ ወየአክሉ፡ ሰብእ፡ ዘሰትዩ፡ ውእተ፡ ማየ፡ ፈድፋደ፡ እም፮፻፡ ዘእንበለ፡ እንስሳሆሙ፡</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph20">
-               <label>§ 20</label>
-               <ab>ወሀለወት፡ ይእቲ፡ ገበታ፡ እስከ፡ ዮም፡ በቶናሕ፡ ቤተ፡ አሐዱ፡ ወልደ፡ አዝቂር፡ |<pb ed="edCR"/>
-                  <note>C.R. 734</note> ወሣልሱ፡ ዝንቱ፡ ዘገብረ፡ ተኣምረ፡ ቅዱስ፡ አዝቂር፡ በስመ፡ አምላኩ፡ እምአመ፡ ተሞቅሐ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph21">
-               <label>§ 21</label>
-               <ab>ወኀሊፎ፡ እምህየ፡ በጽሐ፡ ጽፋር፡ ኀበ፡ ንጉሠ፡ ሔሜር፡ ወአብእዎ፡ ኀበ፡ ንጉሥ፡ ወበዊኦ፡ ኢተአምኆ፡ ወተምዐ፡ ንጉሥ፡ ዐቢየ፡ መዐተ፡ ወይቤሎ፡ ንጉሥ፡ ለቅዱስ፡ አዝቂር፡ ምንትኑ፡ ዝትምህርት፡ ሐዲስ፡ ዘአምጻእከ፡ ውስተ፡ ብሔርየ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph22">
-               <label>§ 22</label>
-               <ab>ወይቤሎ፡ ቅዱስ፡ አዝቂር፡ ዝንቱሰ፡ ትምህርት፡ ኢኮነ፡ ሐዲሰ፡ ዘእንበለ፡ ዘሰበኩ፡ ኦሪት፡ ወነቢያት፡ ወአኀዘ፡ ይትናገር፡ እመጻሕፍት፡ ምስለ፡ አይሁድ፡ ወይቤሎ፡ ንጉሥ፡ ለምንት፡ ለከ፡ አዝቂር፡ ዝንቱ፡ ኵሉ፡ አዕምቆ፡ ሕሊና፡ አብድር፡ ኪያየ፡ ወሕይወተከ፡ ውስተ፡ ዝንቱ፡ ዓለም፡ እስመ፡ ኢይበቍዐከ፡ ክርስቶስ፡ ዘቦቱ፡ ተአመንከ፡ ዑቅኬ፡ ኢይኰንንከ፡ ዕፁበ፡ ኵነኔ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph23">
-               <label>§ 23</label>
-               <ab>ወይቤሎ፡ ቅዱስ፡ አዝቂር፡ ሕይወትየሰ፡ ዘውስተዝ፡ ዓለም፡ ሞት፡ ውእቱ፡ ውስተ፡ ዝንቱ፡ ወኵነኔከሰ፡ ሞት፡ ዘውስተ፡ እዴከ፡ ሕይወት፡ ውእቱ፡ ሊተ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph24">
-               <label>§ 24</label>
-               <ab>ወአኀዘ፡ ይኂጦ፡ በንዋይ፡ ወይቤሎ፡ ቅዱስ፡ አዝቂር፡ ወርቅሰ፡ ወብሩር፡ ኀላፊ፡ ውእቱ፡ ወክርስቶስ፡ ይነብር፡ ለዓለም።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph25">
-               <label>§ 25</label>
-               <ab>ወተንሥአ፡ አሐዱ፡ እምረበናት፡ ወይቤሎ፡ ለንጉሥ፡ እግዚእየ፡ ዝንቱ፡ ክርስቲያን፡ ቦ|ሙ፡<pb ed="edCR"/>
-                  <note>C.R. 735</note> ሥራየ፡ ዘያሰቲዩ፡ ለሰብእ፡ ወእምከመ፡ ተፍአ፡ ይክሕድ፡ በክርስቶስ፡ ወእመሰ፡ ቦአ፡ ውስተ፡ ሥረዊሁ፡ ኢይክሕድ፡ በክርስቶስ፡ ለዓለም፡ አላ፡ ኢታብዝኅ፡ ነገረ፡ ምስሌሁ፡ ወፈንዎ፡ ብሔሮ፡ በኀበ፡ አዝማዲሁ፡ ክርስቲያን፡ ይትኰነን፡ በናግራን፡ ከመ፡ ይርአዩ፡ ሰብኡ፡ ወይፍርሁ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph26">
-               <label>§ 26</label>
-               <ab>ወሠምረ፡ ንጉሥ፡ በዝ፡ ነገር፡ ወጸሐፈ፡ ኀበ፡ መኳንንት፡ እለ፡ ይነብሩ፡ ናግራን፡ ኀበ፡ ዘስዕልባን፡ ወዘቄፋን፡ ወፈነዎ፡ ለአዝቂር፡ ናግራን፡ ወጸሐፈ፡ ንጉሥ፡ እንዘ፡ ይብል፡ በጺሖአ፡ አዝቂር፡ ኀቤክሙ፡ ኢትኰንንዎ፡ በኅቡእ፡ ዘእንበለ፡ በገሀድ፡ ወስቅልዎ፡ ውስተ፡ ዕፅ፡ ወአስተጋብኡአ፡ ላዕሌሁ፡ ዕፀወአ፡ ወአንድዱአ፡ ላዕሌሁአ፡ እንዘ፡ ሕያው፡ ውእቱ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph27">
-               <label>§ 27</label>
-               <ab>ወወፅአ፡ ቅዱስ፡ አዝቂር፡ እምኀበ፡ ንጉሥ፡ እንዘ፡ ይትፌሣሕ፡ እስመ፡ ሰምዐ፡ ከመ፡ ጸሐፈ፡ ንጉሥ፡ ከመ፡ ይስቅልዎ፡ ወያውዕይዎ፡ በእሳት፡ በእንተ፡ ክርስቶስ። ወበጺሖ፡ ናግራን፡ መሀረ፡ ወአብአ፡ ዐቢየ፡ ክርስቲያን።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph28">
-               <label>§ 28</label>
-               <ab>ወአውፅእዎ፡ ገጸ፡ ጽባሕ፡ እምሀገር፡ ወተከሉ፡ ዕፀ፡ በህየ፡ ወሰቀልዎ፡ ዲቤሁ፡ ወአምጽኡ፡ ዕፀወ፡ እምአርእስተ፡ በቀልት፡ ብዙኀ፡ ወአስተጋብኡ፡ ላዕሌሁ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph29">
-               <label>§ 29</label>
-               <ab>ወይቤ፡ አሐዱ፡ አይሁዳዊ፡ ይምጻእ፡ ክርስቶስ፡ ወያድኅንከ፡ ዘተወከልከ፡ ቦቱ፡ እመ፡ ይክል። ወይቤ፡ ቅዱስ፡ አዝቂር፡ ተወከልኩ፡ በእግዚአብሔር፡ እግዚእየ፡ ኢየሱስ፡ ክርስቶስ፡ |<pb ed="edCR"/>
-                  <note>C.R. 736</note> ለእመ፡ ኵሎ፡ ዕፀወ፡ ብሔርክሙ፡ አንደድክሙ፡ ላዕሌየ፡ አልቦ፡ ዘይሬስየኒ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph30">
-               <label>§ 30</label>
-               <ab>ወአንደዱ፡ ላዕሌሁ፡ ወነደ፡ ኵሉ፡ ዕፀው፡ ወአሕባል፡ በዘ፡ አሰርዎ፡ እደዊሁ፡ ወእገሪሁ፡ ወወረደ፡ እምዲበ፡ ዕፅ፡ ቅዱስ፡ አዝቂር፡ ወቆመ፡ ማእከለ፡ እሳት፡ ከመ፡ ወርቅ፡ ጽሩይ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph31">
-               <label>§ 31</label>
-               <ab>ወይቤሉ፡ አይሁድ፡ መስብዒ፡ ዝብእሲ፡ ዘሞኦ፡ ለእሳት፡ ወይቤሉ፡ ሀቡ፡ ንውግሮ፡ በእብን፡</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph32">
-               <label>§ 32</label>
-               <ab>ወሀሎ፡ አሐዱ፡ አይሁዳዊ፡ ምስለ፡ ብእሲቱ፡ ወእጓሉ፡ ወተሠርጊዎሙ፡ ወፅኡ፡ ከመ፡ ይኅበሩ፡ ለቀቲለ፡ ቅዱስ፡ ሰማዕት፡ አዝቂር፡ ወወገርዎ፡ ለቅዱስ፡ አዝቂር፡ በአእባን፡ ቅድመ፡ ኵሉ፡ ውእቱ፡ ወብእሲቱ፡ ወእጓሉ፡ ወኢበጽሐ፡ እብን፡ ለቅዱስ፡ አዝቂር።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph33">
-               <label>§ 33</label>
-               <ab>ወውእቱ፡ ወልዱ፡ ሞተ፡ በቅድመ፡ አቡሁ፡ እንዘ፡ ይኔጽሮ፡ ወአቡሁ፡ ነቅዐ፡ ከርሡ፡ ወሞተ፡ ወብእሲቱኒ፡ እንዘ፡ ሕያውታ፡ ዐጸየት።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph34">
-               <label>§ 34</label>
-               <ab>ወተባሀሉ፡ አይሁድ፡ በበይናቲሆሙ፡ ሀቡ፡ በአብትር፡ ንዝብጦ፡ ወይቤ፡ አሐዱ፡ እምኔሆሙ፡ እስከ፡ ማእዜኑ፡ ንትዔገሦ፡ ለዝ፡ ብእሲ፡ ሀቡ፡ ንስአል፡ ሰይፈ፡ በዘ፡ ንቀትሎ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph35">
-               <label>§ 35</label>
-               <ab>ወተረክበ፡ አሐ|ዱ፡<pb ed="edCR"/>
-                  <note>C.R. 737</note> ናግራናይ፡ ዘለሊሁ፡ አዝቂር፡ ዘአብኦ፡ ዐቢየ፡ ክርስቲያን፡ ወይጸውር፡ ሰይፈ፡ ወሰአልዎ፡ ያውሕሶሙ፡ ወአበዮሙ፡ አውሕሶተ፡ ወቅዱስ፡ አዝቂር፡ ፈተወ፡ ይፈጽም፡ ገድሎ፡ ወይቤሎ፡ ወልድየ፡ አውሕስ፡ ሰይፈከ፡ ወለእመ፡ ኢያውሐስከ፡ አልብከ፡ መክፈልተ፡ ምስሌየ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph36">
-               <label>§ 36</label>
-               <ab>ወበጊዜሃ፡ መጠዎ፡ ሰይፎ፡ ለአይሁዳዊ፡ ወመጠዎ፡ ርእሶ፡ ቅዱስ፡ አዝቂር፡ ወዘበጥዎ፡ አይሁድ፡ ወመተሩ፡ ርእሶ፡ ለቅዱስ፡ ቀሲስ፡ ሰማዕት፡ አዝቂር፡ ወብዙኀ፡ ተኣምረ፡ ገብረ፡ በመቃብሩ፡ ጸሎቱ፡ ትብጽሐነ፡ አሜን።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph37">
-               <label>§ 37</label>
-               <ab>ወተከለሉ፡ ወኢናፈቁ፡ ወመጠዉ፡ ነፍሶሙ፡ ለእሳት፡ በቅድመ፡ መሥዋዕት፡ በእንተ፡ ስመ፡ መድኀኒነ፡ ክርስቶስ፡ ከመ፡ ይንሥኡ፡ አክሊለ፡ መነኑ፡ ዘዓለመ፡ ወተከለሉ፡ በብሔረ፡ ናግራን፡ ጳጳሳት፡ ወቀሳውስት፡ ወዲያቆናት፡ ወመነኮሳት፡ ብእሲ፡ ወአንስት፡ ወሕዝብ፡ ብዙኅ፡ ምስሌሆሙ፡ ዘተኰነነ።</ab>
-            </div>
-            <div type="textpart" xml:id="paragraph38">
-               <label>§ 38</label>
-               <ab>ወኮነ፡ ኆልቆሙ፡ ፴ወ፰፡ ወኮነ፡ ተዝካሮሙ፡ እም፡ ፳ወ፬ለወርኀ፡ ኅዳር፡ በጽርዕ፡ ይብጽሐነ፡ ጸሎቶሙ፡ ወይክፍለነ፡ መክፈልቶሙ፡ ለኵሎሙ፡ ቅዱሳን፡ ወሰማዕት፡ በቅድ|መ፡<pb ed="edCR"/>
-                  <note>C.R. 738</note> እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ዘሎቱ፡ ስብሐት፡ ለዓለም፡ አሜን፡</ab>
-            </div>
-         </div>
-         <div type="bibliography">
-            <listBibl type="editions">
-               <bibl corresp="http://zotero.org/groups/358366/items/LJABBGY6"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1910Azqir"/><title level="a">Un documento sul cristianesimo nello Iemen ai tempi del re Šarāḥbīl Yakkuf</title><title level="j">Atti della Reale Accademia dei Lincei, Rendiconti, Classe di scienze morale, storiche e filologiche</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Carlo</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Conti Rossini</t:surname></author><date>1910</date><biblScope unit="volume">Serie quinta, 19</biblScope><biblScope unit="page">705–750</biblScope><citedRange unit="page">729-738</citedRange><note>L’opera ha sicuramente avuto un antecedente arabo, per quanto non pervenutoci. 
+         </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+      <t:body>
+         <t:div type="edition" xml:lang="gez" xml:id="div1LIT1425GadlaA">
+            <t:note>The copyright of the text transcription is of Alessandro Bausi (see <t:bibl corresp="http://zotero.org/groups/358366/items/JVMCX6PH"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2017Azqir"/><title level="a">Il Gadla ʾAzqir</title><title level="j">Adamantius</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><date>2017</date><biblScope unit="volume">23</biblScope><biblScope unit="page">341-380</biblScope><note type="tags"><note type="tag">AdW</note><note type="tag">Ethiopic</note><note type="tag">Main</note><note type="tag">TraCES</note><note type="tag">bm:Bausi2017Azqir</note></note><note type="tag">AdW</note><note type="tag">Ethiopic</note><note type="tag">Main</note><note type="tag">TraCES</note><note type="tag">bm:Bausi2017Azqir</note></t:bibl>)
+            </t:note>
+            <t:div type="textpart" xml:id="paragraph1">
+               <t:label>§ 1</t:label>
+               <t:pb ed="edCR"/>
+               <t:note>C.R. 729</t:note>
+               <t:ab>ገድል፡ ወስምዕ፡ ዘቅዱስ፡ ሰማዕት፡ አዝቂር፡ ቀሲስ፡ ናግራናይ፡ ዘመሀረ፡ ክርስ<t:supplied reason="omitted">ትና</t:supplied>፡ ቀዳማይ፡ በናግራን፡ ወአግሀደ፡ 
+               ክርስ<t:supplied reason="omitted">ትና</t:supplied>፡ 
+               በመዋዕለ፡ ስራብሔል፡ <t:supplied reason="omitted">ይ</t:supplied>ንክፍ፡ ንጉሠ፡ ሔሜር፡ ወተከለ፡ ኀይመተ፡ ምጽላየ፡ ወማዕተበ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph2">
+               <t:label>§ 2</t:label>
+               <t:ab>ወሰሚዖሙ፡ መኳንንተ፡ ሀገረ፡ ናግራን፡ ዘስዕልባን፡ ወዘቄፋን፡ ለአኩ፡ ወሠጠጡ፡ ኀይመተ፡ ምጽላዩ፡ ወሰበሩ፡ ማዕተቦ፡ ወአኀዝዎ፡ ለአዝቂር፡ ወወደይዎ፡ ቤተ፡ ሞቅሕ፡ ውስተ፡ ጽልመት፡ ወይብልዋ፡ ለይእቲ፡ ግብ፡ ቀፍነይት፡ ስማ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph3">
+               <t:label>§ 3</t:label>
+               <t:ab>ወእንዘ፡ ሀለወ፡ ቤተ፡ ሞቅሕ፡ በጽሑ፡ ሰብእ፡ እለ፡ መሀረ፡ ዘእንበለ፡ ይትአኀዝ፡ እለ፡ አብአ፡ ንኡሰ፡ ክርስቲያን፡ ወበጽሑ፡ እንዘ፡ ይስእሉ፡ ጥምቀተ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph4">
+               <t:label>§ 4</t:label>
+               <t:ab>
+                  <t:pb ed="edCR"/>
+                  <t:note>C.R. 730</t:note>ወይቤሎሙ፡ ቅዱስ፡ አዝቂር፡ ለዐቀብተ፡ ቤተ፡ ሞቅሕ፡ አርኅውዎሙ፡ ለእሉ፡ ሰብእ፡ ወአበዩ፡ አርኅዎ፡ ዐቀብተ፡ ቤተ፡ ሞቅሕ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph5">
+               <t:label>§ 5</t:label>
+               <t:ab>ወተንሥአ፡ ቅዱስ፡ ወጸለየ፡ ወይቤ፡ እግዚእየ፡ ኢየሱስ፡ ክርስቶስ፡ ዘአርኀውከ፡ ኆኃተ፡ ኀጺን፡ ለጴጥሮስ፡ ወፈታሕከ፡ መዋቅሕቲሁ፡ አንተ፡ አዝዝ፡ ዮምኒ፡ ይትረኀዋ፡ እሉ፡ ኆኃት፡ ኵሎ፡ ሌሊተ፡ ኢይትዐጸዋ፡ እስከ፡ ይበውኡ፡ አግብርቲከ፡ ወይንሥኡ፡ ጸጋከ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph6">
+               <t:label>§ 6</t:label>
+               <t:ab> ወተርኅወ፡ ውእቱ፡ ኆኅት፡ ለሊሁ፡ በኀይለ፡ እግዚአብሔር፡ ወቦኡ፡ እሙንቱ፡ ሰብእ፡ ኀምሳ፡ ብእሲ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph7">
+               <t:label> § 7</t:label>
+               <t:ab>ወተንሥኡ፡ ዐቀብተ፡ ቤተ፡ ሞቅሕ፡ ይዕጽዉ፡ ኆኅተ፡ {ሶበ፡ ደንገፁ፡} ወየአክሉ፡ ኀምሳ፡ ብእሴ፡ ወዐቀብተ፡ ቤተ፡ ሞቅሕ፡ ስእኑ፡ ዐጺዎቶ፡ ለውእቱ፡ ኆኅት፡ ከመ፡ ኢይባኡ፡ ኀበ፡ ቅዱስ፡ አዝቂር፡ ወአእመሩ፡ ዐቀብተ፡ ቤተ፡ ሞቅሕ፡ ከመ፡ እምኀበ፡ እግዚአብሔር፡ ኮነ፡ ዝንቱ፡ ተኣምር።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph8">
+               <t:label>§ 8</t:label>
+               <t:ab>ወደንገፁ፡ ሶቤሃ፡ ወኀደጉ፡ ወቦኡ፡ እሉ፡ ኀምሳ፡ ሰብእ፡ ኀበ፡ ቅዱስ፡ አዝቂር፡ ወገብረ፡ ምጥማቀ፡ በቤተ፡ ሞቅሕ፡ ወአጥመቆሙ፡ በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ወተጠምቁ፡ እልኩ፡ ሰብእ፡ በይእቲ፡ ሌሊት፡ ወገብረ፡ ጸሎተ፡ 
+               ወአ<t:supplied reason="omitted">ጽደሎ</t:supplied>ሙ፡ 
+               ፍጹመ፡ በቤተ፡ ሞቅሕ፡ ከመዝ፡ ገብረ፡ ወዝንቱ፡ ተኣምር፡ ቀዳሚ፡ ዘገብረ፡ ቅዱስ፡ አዝቂር፡ በቤተ፡ ሞቅሕ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph9">
+               <t:label>§ 9</t:label>
+               <t:ab> 
+                  <t:pb ed="edCR"/>
+                  <t:note>C.R. 731</t:note>ወሰምዐ፡ ንጉሠ፡ ሄሜር፡ ስራሔብኤል፡ ዘንተ፡ ግብረ፡ ዘገብረ፡ ቅዱስ፡ አዝቂር። ወለአከ፡ ንጉሥ፡ ኀበ፡ መኳንንት፡ ዘይነብሩ፡ ናግራን፡ እንዘ፡ ይብል፡ ፍጡነአ፡ አምጽእዎአ፡ ለውእቱ፡ ብእሲአ፡ ዘአምጽአ፡ ሐዲሰአ፡ ትምህርተአ፡ ውስተ፡ ብሔርየ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph10">
+               <t:label> § 10</t:label>
+               <t:ab>ወሮጸ፡ አሐዱ፡ ብእሲ፡ ዘስሙ፡ ኪርያቂ፡ ኀበ፡ ቅዱስ፡ አዝቂር፡ እንዘ፡ ሀሎ፡ ቤተ፡ ሞቅሕ፡ ወነገሮ፡ ወይቤሎ፡ አብስር፡ እስመ፡ ለአከ፡ ንጉሠ፡ ሔሜር፡ በእንቲአከ፡ ከመ፡ ይሰዱከ፡ ኀቤሁ፡ ለስምዕ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph11">
+               <t:label>§ 11</t:label>
+               <t:ab> ወይቤሎ፡ አዝቂር፡ ለውእቱ፡ ብእሲ፡ አማን፡ ብከ፡ ብስራት፡ ወላዕሌየ፡ ውእቱ፡ ብስራትከ፡ ወመጽኡ፡ ሰብአ፡ ሀገር፡ ወአውሥእዎ፡ ወአውፅእዎ፡ ለቅዱስ፡ አዝቂር፡ እምቤተ፡ ሞቅሕ፡ ወሞቅሕዎ፡ ኅቡረ፡ ምስለ፡ ዝኩ፡ ብእሲ፡ ዘነገሮ፡ ለአዝቂር።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph12">
+               <t:label>§ 12</t:label>
+               <t:ab>ወአሜሃ፡ በጽሑ፡ ነግድ፡ ብዙኃን፡ እምተናሕ፡ ወምስሌሆሙ፡ ፈነውዎ፡ ለአዝቂር፡ ኀበ፡ ንጉሠ፡ ሔሜር፡ ወወፂኦ፡ እምናግራን፡ ተለውዎ፡ ብዙኃን፡ ሰብእ፡ ወፈነውዎ፡ እስከ፡ መካን፡ እንተ፡ ስማ፡ ዋጽሐ፡ ወተአክል፡ መጠነ፡ ዐሠርቱ፡ ወኀምስቱ፡ ምዕራፍ፡ እምሀገረ፡ ናግራን።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph13">
+               <t:label>§ 13</t:label>
+               <t:ab>ወበጺሖሙ፡ ህየ፡ ሰአልዎ፡ ሰብእ፡ ክልኤቱ፡ ከመ፡ ያጥምቆሙ፡ ወገብረ፡ |<t:pb ed="edCR"/>
+                  <t:note>C.R. 732</t:note> ምጽላየ፡ በህየ፡ ጥቃ፡ ኰኵሕ፡ ወነቅዐ፡ ማይ፡ ወአጥመቆሙ፡ በህየ፡ ይእተ፡ አሚረ፡ እንዘ፡ አልቦ፡ ትካተ፡ ውእቱ፡ መካን፡ ማየ፡ ወበጸሎቱ፡ ለቅዱስ፡ አዝቂር፡ ነቅዐ፡ እስከ፡ ዮም። ወኰኵሕ፡ ውእቱ፡ መካን፡ ኀበ፡ ነቅዐ፡ ማይ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph14">
+               <t:label>§ 14</t:label>
+               <t:ab>ወርእዮ፡ ተኣምረ፡ ዝኩ፡ ዘሙቁሕ፡ ምስሌሁ፡ ሰአሎ፡ ወይቤሎ፡ ተዘከር፡ እግዚእየ፡ አመ፡ እነግረከ፡ እንዘ፡ ሀሎከ፡ ቤተ፡ ሞቅሕ፡ ዘትቤለኒ፡ ላዕሌየ፡ ብስራትከ፡ ወተክለ፡ ንዋይ፡ ዘትሁበኒ፡ ብስራትየ፡ ወርቀሰ፡ ወብሩረ፡ ኢይፈቅድ፡ ወኢምንተኒ፡ ወአጥምቀኒ፡ ወውእቱ፡ ይኵነኒ፡ ብስራትየ፡ ወአእኰቶ፡ ቅዱስ፡ አዝቂር፡ ለእግዚአብሔር፡ በእንተ፡ ውእቱ፡ ብእሲ፡ ወአጥመቆ፡ ኪያሁኒ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph15">
+               <t:label>§ 15</t:label>
+               <t:ab>ወኀሊፎሙ፡ እምውእቱ፡ መካን፡ እንዘ፡ የሐውሩ፡ በጽሑ፡ በድወ፡ ዘስሙ፡ <t:supplied reason="omitted">ግ</t:supplied>ው<t:supplied reason="omitted">ዓ</t:supplied>ን፡ በከመ፡ ይብል፡ መጽሐፍ፡ ጸምአተከ፡ ነፍስየ፡ በምድረ፡ በድው፡ ኀበ፡ አልቦ፡ ዕፀ፡ ወማየ፡ ወከማሁ፡ ውእቱ፡ መካን፡ አልቦ፡ ዕፀ፡ ወማየ፡ ወግውዓን፡ | <t:note>C.R. 733</t:note> ብሂል፡ በነገረ፡ ዐረቢ፡ ትርጓሜሁ፡ ረኀብ፡ ብሂል።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph16">
+               <t:label>§ 16</t:label>
+               <t:ab>ወበጺሖሙ፡ ውእተ፡ መካነ፡ ጸምኡ፡ ኵሎሙ፡ ነግድ፡ ወምንዳቤ፡ ዐቢየ፡ ረከቡ፡ ውእቶሙ፡ ወእንስሳሆሙ፡ ወመዋዕለ፡ ሐጋይ፡ ውእተ፡ አሚረ፡ ወአስተብቍዕዎ፡ ለቅዱስ፡ አዝቂር፡ ወሰአልዎ፡ እንዘ፡ ይብሉ፡ ሰአል፡ ለነ፡ ኀበ፡ እግዚአብሔር፡ በእንተ፡ ኵሉ፡ ነፍስ፡ ከመ፡ ኢንሙት፡ በጽምእ፡ ናአምር፡ ከመ፡ ዘጸለይከ፡ ኀበ፡ እግዚአብሔር፡ ይሁበከ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph17">
+               <t:label>§ 17</t:label>
+               <t:ab>ወይቤ፡ አዝቂር፡ ሀቡኒ፡ ገበታ፡ ወአምጽኡ፡ ሎቱ፡ ወተአተተ፡ እምኔሆሙ፡ ወአንበረ፡ ገበታ፡ ቅድሜሁ፡ ወሰፍሐ፡ እዴሁ፡ ወአንሥአ፡ አዕይንቲሁ፡ ውስተ፡ ሰማይ፡ ወጸለየ፡ ወይቤ፡</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph18">
+               <t:label>§ 18</t:label>
+               <t:ab>እግዚእየ፡ ኢየሱስ፡ ክርስቶስ፡ ዘረሰይከ፡ ማየ፡ ወይነ፡ ወአጽገብከ፡ ብዙኃነ፡ አሕዛበ፡ እምኀምስቱ፡ ኅብስት፡ አንተ፡ ግበር፡ ተኣምረ፡ ወፈኑ፡ ሣህለከ፡ ወአርውዮሙ፡ ለነፍስ፡ ጽምእት።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph19">
+               <t:label>§ 19</t:label>
+               <t:ab>ወወረደ፡ ደመና፡ ውስተ፡ ገበታ፡ መጠነ፡ እራኀ፡ ሰብእ፡ ወመልአት፡ ገበታ፡ ማየ፡ ወሰትዩ፡ ወረወዩ፡ ሰብእ፡ ወእንስሳ፡ ወሰነቁ፡ እምኔሁ፡ ወየአክሉ፡ ሰብእ፡ ዘሰትዩ፡ ውእተ፡ ማየ፡ ፈድፋደ፡ እም፮፻፡ ዘእንበለ፡ እንስሳሆሙ፡</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph20">
+               <t:label>§ 20</t:label>
+               <t:ab>ወሀለወት፡ ይእቲ፡ ገበታ፡ እስከ፡ ዮም፡ በቶናሕ፡ ቤተ፡ አሐዱ፡ ወልደ፡ አዝቂር፡ |<t:pb ed="edCR"/>
+                  <t:note>C.R. 734</t:note> ወሣልሱ፡ ዝንቱ፡ ዘገብረ፡ ተኣምረ፡ ቅዱስ፡ አዝቂር፡ በስመ፡ አምላኩ፡ እምአመ፡ ተሞቅሐ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph21">
+               <t:label>§ 21</t:label>
+               <t:ab>ወኀሊፎ፡ እምህየ፡ በጽሐ፡ ጽፋር፡ ኀበ፡ ንጉሠ፡ ሔሜር፡ ወአብእዎ፡ ኀበ፡ ንጉሥ፡ ወበዊኦ፡ ኢተአምኆ፡ ወተምዐ፡ ንጉሥ፡ ዐቢየ፡ መዐተ፡ ወይቤሎ፡ ንጉሥ፡ ለቅዱስ፡ አዝቂር፡ ምንትኑ፡ ዝትምህርት፡ ሐዲስ፡ ዘአምጻእከ፡ ውስተ፡ ብሔርየ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph22">
+               <t:label>§ 22</t:label>
+               <t:ab>ወይቤሎ፡ ቅዱስ፡ አዝቂር፡ ዝንቱሰ፡ ትምህርት፡ ኢኮነ፡ ሐዲሰ፡ ዘእንበለ፡ ዘሰበኩ፡ ኦሪት፡ ወነቢያት፡ ወአኀዘ፡ ይትናገር፡ እመጻሕፍት፡ ምስለ፡ አይሁድ፡ ወይቤሎ፡ ንጉሥ፡ ለምንት፡ ለከ፡ አዝቂር፡ ዝንቱ፡ ኵሉ፡ አዕምቆ፡ ሕሊና፡ አብድር፡ ኪያየ፡ ወሕይወተከ፡ ውስተ፡ ዝንቱ፡ ዓለም፡ እስመ፡ ኢይበቍዐከ፡ ክርስቶስ፡ ዘቦቱ፡ ተአመንከ፡ ዑቅኬ፡ ኢይኰንንከ፡ ዕፁበ፡ ኵነኔ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph23">
+               <t:label>§ 23</t:label>
+               <t:ab>ወይቤሎ፡ ቅዱስ፡ አዝቂር፡ ሕይወትየሰ፡ ዘውስተዝ፡ ዓለም፡ ሞት፡ ውእቱ፡ ውስተ፡ ዝንቱ፡ ወኵነኔከሰ፡ ሞት፡ ዘውስተ፡ እዴከ፡ ሕይወት፡ ውእቱ፡ ሊተ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph24">
+               <t:label>§ 24</t:label>
+               <t:ab>ወአኀዘ፡ ይኂጦ፡ በንዋይ፡ ወይቤሎ፡ ቅዱስ፡ አዝቂር፡ ወርቅሰ፡ ወብሩር፡ ኀላፊ፡ ውእቱ፡ ወክርስቶስ፡ ይነብር፡ ለዓለም።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph25">
+               <t:label>§ 25</t:label>
+               <t:ab>ወተንሥአ፡ አሐዱ፡ እምረበናት፡ ወይቤሎ፡ ለንጉሥ፡ እግዚእየ፡ ዝንቱ፡ ክርስቲያን፡ ቦ|ሙ፡<t:pb ed="edCR"/>
+                  <t:note>C.R. 735</t:note> ሥራየ፡ ዘያሰቲዩ፡ ለሰብእ፡ ወእምከመ፡ ተፍአ፡ ይክሕድ፡ በክርስቶስ፡ ወእመሰ፡ ቦአ፡ ውስተ፡ ሥረዊሁ፡ ኢይክሕድ፡ በክርስቶስ፡ ለዓለም፡ አላ፡ ኢታብዝኅ፡ ነገረ፡ ምስሌሁ፡ ወፈንዎ፡ ብሔሮ፡ በኀበ፡ አዝማዲሁ፡ ክርስቲያን፡ ይትኰነን፡ በናግራን፡ ከመ፡ ይርአዩ፡ ሰብኡ፡ ወይፍርሁ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph26">
+               <t:label>§ 26</t:label>
+               <t:ab>ወሠምረ፡ ንጉሥ፡ በዝ፡ ነገር፡ ወጸሐፈ፡ ኀበ፡ መኳንንት፡ እለ፡ ይነብሩ፡ ናግራን፡ ኀበ፡ ዘስዕልባን፡ ወዘቄፋን፡ ወፈነዎ፡ ለአዝቂር፡ ናግራን፡ ወጸሐፈ፡ ንጉሥ፡ እንዘ፡ ይብል፡ በጺሖአ፡ አዝቂር፡ ኀቤክሙ፡ ኢትኰንንዎ፡ በኅቡእ፡ ዘእንበለ፡ በገሀድ፡ ወስቅልዎ፡ ውስተ፡ ዕፅ፡ ወአስተጋብኡአ፡ ላዕሌሁ፡ ዕፀወአ፡ ወአንድዱአ፡ ላዕሌሁአ፡ እንዘ፡ ሕያው፡ ውእቱ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph27">
+               <t:label>§ 27</t:label>
+               <t:ab>ወወፅአ፡ ቅዱስ፡ አዝቂር፡ እምኀበ፡ ንጉሥ፡ እንዘ፡ ይትፌሣሕ፡ እስመ፡ ሰምዐ፡ ከመ፡ ጸሐፈ፡ ንጉሥ፡ ከመ፡ ይስቅልዎ፡ ወያውዕይዎ፡ በእሳት፡ በእንተ፡ ክርስቶስ። ወበጺሖ፡ ናግራን፡ መሀረ፡ ወአብአ፡ ዐቢየ፡ ክርስቲያን።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph28">
+               <t:label>§ 28</t:label>
+               <t:ab>ወአውፅእዎ፡ ገጸ፡ ጽባሕ፡ እምሀገር፡ ወተከሉ፡ ዕፀ፡ በህየ፡ ወሰቀልዎ፡ ዲቤሁ፡ ወአምጽኡ፡ ዕፀወ፡ እምአርእስተ፡ በቀልት፡ ብዙኀ፡ ወአስተጋብኡ፡ ላዕሌሁ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph29">
+               <t:label>§ 29</t:label>
+               <t:ab>ወይቤ፡ አሐዱ፡ አይሁዳዊ፡ ይምጻእ፡ ክርስቶስ፡ ወያድኅንከ፡ ዘተወከልከ፡ ቦቱ፡ እመ፡ ይክል። ወይቤ፡ ቅዱስ፡ አዝቂር፡ ተወከልኩ፡ በእግዚአብሔር፡ እግዚእየ፡ ኢየሱስ፡ ክርስቶስ፡ |<t:pb ed="edCR"/>
+                  <t:note>C.R. 736</t:note> ለእመ፡ ኵሎ፡ ዕፀወ፡ ብሔርክሙ፡ አንደድክሙ፡ ላዕሌየ፡ አልቦ፡ ዘይሬስየኒ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph30">
+               <t:label>§ 30</t:label>
+               <t:ab>ወአንደዱ፡ ላዕሌሁ፡ ወነደ፡ ኵሉ፡ ዕፀው፡ ወአሕባል፡ በዘ፡ አሰርዎ፡ እደዊሁ፡ ወእገሪሁ፡ ወወረደ፡ እምዲበ፡ ዕፅ፡ ቅዱስ፡ አዝቂር፡ ወቆመ፡ ማእከለ፡ እሳት፡ ከመ፡ ወርቅ፡ ጽሩይ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph31">
+               <t:label>§ 31</t:label>
+               <t:ab>ወይቤሉ፡ አይሁድ፡ መስብዒ፡ ዝብእሲ፡ ዘሞኦ፡ ለእሳት፡ ወይቤሉ፡ ሀቡ፡ ንውግሮ፡ በእብን፡</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph32">
+               <t:label>§ 32</t:label>
+               <t:ab>ወሀሎ፡ አሐዱ፡ አይሁዳዊ፡ ምስለ፡ ብእሲቱ፡ ወእጓሉ፡ ወተሠርጊዎሙ፡ ወፅኡ፡ ከመ፡ ይኅበሩ፡ ለቀቲለ፡ ቅዱስ፡ ሰማዕት፡ አዝቂር፡ ወወገርዎ፡ ለቅዱስ፡ አዝቂር፡ በአእባን፡ ቅድመ፡ ኵሉ፡ ውእቱ፡ ወብእሲቱ፡ ወእጓሉ፡ ወኢበጽሐ፡ እብን፡ ለቅዱስ፡ አዝቂር።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph33">
+               <t:label>§ 33</t:label>
+               <t:ab>ወውእቱ፡ ወልዱ፡ ሞተ፡ በቅድመ፡ አቡሁ፡ እንዘ፡ ይኔጽሮ፡ ወአቡሁ፡ ነቅዐ፡ ከርሡ፡ ወሞተ፡ ወብእሲቱኒ፡ እንዘ፡ ሕያውታ፡ ዐጸየት።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph34">
+               <t:label>§ 34</t:label>
+               <t:ab>ወተባሀሉ፡ አይሁድ፡ በበይናቲሆሙ፡ ሀቡ፡ በአብትር፡ ንዝብጦ፡ ወይቤ፡ አሐዱ፡ እምኔሆሙ፡ እስከ፡ ማእዜኑ፡ ንትዔገሦ፡ ለዝ፡ ብእሲ፡ ሀቡ፡ ንስአል፡ ሰይፈ፡ በዘ፡ ንቀትሎ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph35">
+               <t:label>§ 35</t:label>
+               <t:ab>ወተረክበ፡ አሐ|ዱ፡<t:pb ed="edCR"/>
+                  <t:note>C.R. 737</t:note> ናግራናይ፡ ዘለሊሁ፡ አዝቂር፡ ዘአብኦ፡ ዐቢየ፡ ክርስቲያን፡ ወይጸውር፡ ሰይፈ፡ ወሰአልዎ፡ ያውሕሶሙ፡ ወአበዮሙ፡ አውሕሶተ፡ ወቅዱስ፡ አዝቂር፡ ፈተወ፡ ይፈጽም፡ ገድሎ፡ ወይቤሎ፡ ወልድየ፡ አውሕስ፡ ሰይፈከ፡ ወለእመ፡ ኢያውሐስከ፡ አልብከ፡ መክፈልተ፡ ምስሌየ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph36">
+               <t:label>§ 36</t:label>
+               <t:ab>ወበጊዜሃ፡ መጠዎ፡ ሰይፎ፡ ለአይሁዳዊ፡ ወመጠዎ፡ ርእሶ፡ ቅዱስ፡ አዝቂር፡ ወዘበጥዎ፡ አይሁድ፡ ወመተሩ፡ ርእሶ፡ ለቅዱስ፡ ቀሲስ፡ ሰማዕት፡ አዝቂር፡ ወብዙኀ፡ ተኣምረ፡ ገብረ፡ በመቃብሩ፡ ጸሎቱ፡ ትብጽሐነ፡ አሜን።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph37">
+               <t:label>§ 37</t:label>
+               <t:ab>ወተከለሉ፡ ወኢናፈቁ፡ ወመጠዉ፡ ነፍሶሙ፡ ለእሳት፡ በቅድመ፡ መሥዋዕት፡ በእንተ፡ ስመ፡ መድኀኒነ፡ ክርስቶስ፡ ከመ፡ ይንሥኡ፡ አክሊለ፡ መነኑ፡ ዘዓለመ፡ ወተከለሉ፡ በብሔረ፡ ናግራን፡ ጳጳሳት፡ ወቀሳውስት፡ ወዲያቆናት፡ ወመነኮሳት፡ ብእሲ፡ ወአንስት፡ ወሕዝብ፡ ብዙኅ፡ ምስሌሆሙ፡ ዘተኰነነ።</t:ab>
+            </t:div>
+            <t:div type="textpart" xml:id="paragraph38">
+               <t:label>§ 38</t:label>
+               <t:ab>ወኮነ፡ ኆልቆሙ፡ ፴ወ፰፡ ወኮነ፡ ተዝካሮሙ፡ እም፡ ፳ወ፬ለወርኀ፡ ኅዳር፡ በጽርዕ፡ ይብጽሐነ፡ ጸሎቶሙ፡ ወይክፍለነ፡ መክፈልቶሙ፡ ለኵሎሙ፡ ቅዱሳን፡ ወሰማዕት፡ በቅድ|መ፡<t:pb ed="edCR"/>
+                  <t:note>C.R. 738</t:note> እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ዘሎቱ፡ ስብሐት፡ ለዓለም፡ አሜን፡</t:ab>
+            </t:div>
+         </t:div>
+         <t:div type="bibliography">
+            <t:listBibl type="editions">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/LJABBGY6"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1910Azqir"/><title level="a">Un documento sul cristianesimo nello Iemen ai tempi del re Šarāḥbīl Yakkuf</title><title level="j">Atti della Reale Accademia dei Lincei, Rendiconti, Classe di scienze morale, storiche e filologiche</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><date>1910</date><biblScope unit="volume">Serie quinta, 19</biblScope><biblScope unit="page">705–750</biblScope><note type="tags"><note type="tag">bm:ContiRossini1910Azqir</note></note><note type="tag">bm:ContiRossini1910Azqir</note><t:citedRange unit="page">729-738</t:citedRange><t:note>L’opera ha sicuramente avuto un antecedente arabo, per quanto non pervenutoci. 
                      Il cristianesimo è nello Yemen in una fase del tutto iniziale, di incertezza, isolamento e precarietà. A corte del re sono molto potenti i giudei, mentre non sembra si possa propriamente parlare di convertiti al giudaismo; 
                      il documento è l’unico che copra questo oscuro periodo della storia sud-arabica. Gli Atti di Azqir sono indipendenti dagli altri documenti che trat-tano delle persecuzioni nello Yemen. 
                      L’autore mostra una conoscenza diretta o antica della toponomastica del Sud-Arabia; è probabile che l’autore fosse parte egli stesso del luogo. Gli Atti sarebbero allora stati composti in Yemen, da locali, alla fine del VI / inizio del VII sec., 
                      e sarebbero stati redatti in siriaco, lingua ufficiale della chiesa yemenita (stando a Nöldeke), da cui in arabo e infine in etiopico, forse a Gerusalemme. Il testo del Gadl è stato edito dai mss.: BL Or. 689, sec. XIV-XV (B); d’Abbadie 110 (A). 
                      A, più recente, presenta un testo più cor-retto di B. C’è anche il ms. BL Or. 686 e 687, sec. XVIII. 
-                     Viene anche aggiunto l’estratto dal Sinassario, BN éth. 126, il cui inno è identico a quello presente nel d’Abbadie 211, contenente la raccolta Egzi’abḥēr nagśa</note></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/JVMCX6PH"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2017Azqir"/><title level="a">Il Gadla ʾAzqir</title><title level="j">Adamantius</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><date>2017</date><biblScope unit="volume">23</biblScope><biblScope unit="page">341-380</biblScope><note type="tags"><note type="tag">AdW</note><note type="tag">TraCES</note><note type="tag">Main</note><note type="tag">bm:Bausi2017Azqir</note></note><note type="tag">AdW</note><note type="tag">TraCES</note><note type="tag">Main</note><note type="tag">bm:Bausi2017Azqir</note></bibl>
-            </listBibl>
-            <listBibl type="secondary">
-               <bibl corresp="http://zotero.org/groups/358366/items/SY9S5G7D"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Robin2010Azqir"/><title level="a">Nagrān vers l’´epoque du massacre: notes sur l’histoire politique, économique et institutionelle et sur l’introduction du christianisme (avec un réexamen du Martyre d’Azqīr)</title><title level="m">Juifs et chrétiens en Arabie aux V&lt;hi rend="sup"&gt;e&lt;/hi&gt; et VI&lt;hi rend="sup"&gt;e&lt;/hi&gt; siècles: Regards croisés sur les sources</title><title level="s">Collège de France–CNRS, Centre de recherche d’Histoire et Civilisation de Byzance, Monographies</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Christian Julien</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Robin</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Joëlle</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Beaucamp</t:surname></editor><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Françoise</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Briquel-Chatonnet</t:surname></editor><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Christian Julien</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Robin</t:surname></editor><pubPlace>Paris</pubPlace><publisher>Association des amis du Centre d’histoire et civilisation de Byzance</publisher><date>2010</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Collège de France–CNRS, Centre de recherche d’Histoire et Civilisation de Byzance, Monographies</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">32, Le massacre de Najrân, 2</t:biblScope></series><biblScope unit="page">39-106</biblScope><biblScope unit="volume">32, Le massacre de Najrân, 2</biblScope><note type="url">https://www.orient-mediterranee.com/IMG/pdf/MTM32.pdf</note><citedRange unit="page">80-98</citedRange></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/H2UR4U8S"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Witakowski2003Azqir"/><title level="a">Azqir: Gädlä Azqir</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Witold</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Witakowski</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Siegbert</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Uhlig</t:surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">421b-422a</biblScope></bibl>
-               <bibl corresp="http://zotero.org/groups/358366/items/CTDSHAW7"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Beeston1985Azqir"/><title level="a">The Martyrdom of Azqir</title><title level="j">Proceedings of the Seminar for Arabian Studies</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Alfred Felix Landon</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Beeston</t:surname></author><date>1985</date><biblScope unit="volume">15</biblScope><biblScope unit="page">5-10</biblScope></bibl>
-            </listBibl>
-         </div>
+                     Viene anche aggiunto l’estratto dal Sinassario, BN éth. 126, il cui inno è identico a quello presente nel d’Abbadie 211, contenente la raccolta Egzi’abḥēr nagśa</t:note></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/JVMCX6PH"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2017Azqir"/><title level="a">Il Gadla ʾAzqir</title><title level="j">Adamantius</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><date>2017</date><biblScope unit="volume">23</biblScope><biblScope unit="page">341-380</biblScope><note type="tags"><note type="tag">AdW</note><note type="tag">Ethiopic</note><note type="tag">Main</note><note type="tag">TraCES</note><note type="tag">bm:Bausi2017Azqir</note></note><note type="tag">AdW</note><note type="tag">Ethiopic</note><note type="tag">Main</note><note type="tag">TraCES</note><note type="tag">bm:Bausi2017Azqir</note></t:bibl>
+            </t:listBibl>
+            <t:listBibl type="secondary">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/SY9S5G7D"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Robin2010Azqir"/><title level="a">Nagrān vers l’´epoque du massacre: notes sur l’histoire politique, économique et institutionelle et sur l’introduction du christianisme (avec un réexamen du Martyre d’Azqīr)</title><title level="m">Juifs et chrétiens en Arabie aux V&lt;hi rend="sup"&gt;e&lt;/hi&gt; et VI&lt;hi rend="sup"&gt;e&lt;/hi&gt; siècles: Regards croisés sur les sources</title><title level="s">Collège de France–CNRS, Centre de recherche d’Histoire et Civilisation de Byzance, Monographies</title><author><forename>Christian Julien</forename><surname>Robin</surname></author><editor><forename>Joëlle</forename><surname>Beaucamp</surname></editor><editor><forename>Françoise</forename><surname>Briquel-Chatonnet</surname></editor><editor><forename>Christian Julien</forename><surname>Robin</surname></editor><pubPlace>Paris</pubPlace><publisher>Association des amis du Centre d’histoire et civilisation de Byzance</publisher><date>2010</date><series><title level="s">Collège de France–CNRS, Centre de recherche d’Histoire et Civilisation de Byzance, Monographies</title><biblScope unit="volume">32, Le massacre de Najrân, 2</biblScope></series><biblScope unit="page">39-106</biblScope><biblScope unit="volume">32, Le massacre de Najrân, 2</biblScope><note type="url">https://www.orient-mediterranee.com/IMG/pdf/MTM32.pdf</note><note type="tags"><note type="tag">bm:Robin2010Azqir</note></note><note type="tag">bm:Robin2010Azqir</note><t:citedRange unit="page">80-98</t:citedRange></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/H2UR4U8S"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Witakowski2003Azqir"/><title level="a">Azqir: Gädlä Azqir</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Witold</forename><surname>Witakowski</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">421b-422a</biblScope><note type="tags"><note type="tag">Najran</note><note type="tag">bm:Witakowski2003Azqir</note></note><note type="tag">Najran</note><note type="tag">bm:Witakowski2003Azqir</note></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/CTDSHAW7"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Beeston1985Azqir"/><title level="a">The Martyrdom of Azqir</title><title level="j">Proceedings of the Seminar for Arabian Studies</title><author><forename>Alfred Felix Landon</forename><surname>Beeston</surname></author><date>1985</date><biblScope unit="volume">15</biblScope><biblScope unit="page">5-10</biblScope><note type="tags"><note type="tag">bm:Beeston1985Azqir</note></note><note type="tag">bm:Beeston1985Azqir</note></t:bibl>
+            </t:listBibl>
+         </t:div>
          
-      </body>
-   </text></TEI>
+      </t:body>
+   </t:text></TEI>
