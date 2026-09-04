@@ -60,11 +60,17 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
 @test "hybrid mode L1-splits heavy corpora and keeps matrix for the rest" {
   run bash "$SCRIPT" --root "$FIX" --mode hybrid --out "${BATS_TEST_TMPDIR}/hybrid.txt"
   [ "$status" -eq 0 ]
+  # Heavy corpora → L1 slices
   [[ "$output" == *"works/1-1000"* ]]
   [[ "$output" == *"works/1001-2000"* ]]
   [[ "$output" == *"persons/alpha"* ]]
+  [[ "$output" == *"places/Africa"* ]]
+  [[ "$output" == *"institutions/Ethiopia"* ]]
   [[ "$output" == *"corpora"* ]]
+  # Heavy corpora must NOT appear as bare corpus-level entries
   ! echo "$output" | grep -qx 'works'
   ! echo "$output" | grep -qx 'persons'
   ! echo "$output" | grep -qx 'manuscripts'
+  ! echo "$output" | grep -qx 'places'
+  ! echo "$output" | grep -qx 'institutions'
 }

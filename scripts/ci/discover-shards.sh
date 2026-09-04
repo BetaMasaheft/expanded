@@ -2,8 +2,9 @@
 # Discover expand shards (BetMasData-relative paths) from an expanded git tree.
 #
 # Modes (--mode / DISCOVER_MODE):
-#   hybrid — L1 for works/persons/manuscripts (~154 jobs) + matrix for the rest
-#            (~6 jobs); recommended for full re-expand (~160 total).
+#   hybrid — L1 for works/persons/manuscripts/places/institutions (~175 jobs) +
+#            matrix for narratives/studies/authority-files/corpora (~4 jobs);
+#            recommended for full re-expand (~179 total).
 #   l1     — one shard per L1 dir under each corpus (~205); skips orphan subtrees
 #            with no BetMasData source (authority-files/new, …).
 #   matrix — corpus-level shards for re-expand (~9 jobs); expanded-git orphans
@@ -109,10 +110,12 @@ discover_l1() {
 discover_hybrid() {
   local r=$1
   local name
-  for name in works persons manuscripts; do
+  # Heavy corpora: L1 slices (~5 min each) avoid 240-min job limit and xst-get stalls.
+  for name in works persons manuscripts places institutions; do
     discover_l1_corpus "${r}" "${name}"
   done
-  for name in places institutions narratives studies authority-files; do
+  # Light corpora: matrix-level jobs finish well within the timeout.
+  for name in narratives studies authority-files; do
     if [ -d "${r}/${name}" ]; then
       echo "${name}"
     fi
