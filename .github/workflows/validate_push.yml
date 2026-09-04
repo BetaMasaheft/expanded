@@ -44,10 +44,12 @@ jobs:
 
       # DP: see #6
       # There are too many validation errors for this to be useful
-      # validate all TEI-files
+      # validate all TEI-files (skip **/new/* — WIP stubs by convention;
+      # well-formedness above still covers them)
       # - name: Validate files
       #   run: |
       #     find . -type f -name '*.xml' \
+      #       -not -path '*/new/*' \
       #       -not -name 'build.xml' \
       #       -not -name 'repo.xml' \
       #       -not -name 'expath-pkg.xml' \
