@@ -8,10 +8,10 @@ name: Scheduled Re-expansion
 # push_to_main gates notify-betmas. Image contents are asserted in BetMas bats.
 #
 # Pilot: collection=corpora or manuscripts/EMML, push_to_main=false.
-# Full run: leave collection empty, shard_mode=hybrid (~160 jobs).
+# Full run: leave collection empty, shard_mode=hybrid (~179 jobs).
 # matrix mode (~9 corpus shards) times out on works/persons/manuscripts.
 # l1 mode (~204 jobs) is uniform L1 everywhere; hybrid keeps matrix grain for
-# corpora that already finish in minutes.
+# narratives/studies/authority-files/corpora (already finish in minutes).
 #
 # Expanded-git orphans (e.g. authority-files/new) are skipped in l1 discover
 # and preserved on assemble when absent from corpus exports. IHA corpora are
@@ -29,7 +29,8 @@ on:
         default: ""
       shard_mode:
         description: >
-          hybrid = L1 for works/persons/manuscripts + matrix for rest (~160).
+          hybrid = L1 for works/persons/manuscripts/places/institutions +
+          matrix for narratives/studies/authority-files/corpora (~179).
           l1 = one job per expanded-git L1 dir (~204, skips authority-files/new).
           matrix = one job per BetMasData corpus root (~9; 3 timeout at 240min).
         required: false

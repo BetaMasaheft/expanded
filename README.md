@@ -82,7 +82,7 @@ Actions → **Scheduled Re-expansion** → **Run workflow** → choose branch
 
 | Mode | Grain | Typical job count |
 | --- | --- | --- |
-| `hybrid` (default) | L1 for works / persons / manuscripts / places / institutions; matrix for the rest | ~174 |
+| `hybrid` (default) | L1 for works / persons / manuscripts / places / institutions; matrix for the rest | ~179 |
 | `l1` | Every L1 dir (skips sourceless orphans e.g. `authority-files/new`) | ~204 |
 | `matrix` | One job per corpus root | ~9 (works/persons/manuscripts hit the 240 min limit) |
 
@@ -201,14 +201,17 @@ Schema for expanded TEI:
 
 Well-formedness / RNG (same flags as CI):
 
+`**/new/*.xml` are WIP stubs by convention: still checked for well-formedness,
+excluded from RNG validation.
+
 ```shell
-# well-formedness
+# well-formedness (includes **/new/*)
 find . -name '*.xml' -not -path './.git/*' -not -path './test/*' -print0 \
   | xargs -0 -n50 xmllint --noout
 
-# against expanded RNG (adjust SCHEMA path)
+# against expanded RNG (adjust SCHEMA path; skip WIP stubs)
 SCHEMA=../Schema/tei-betamesaheft-expanded.rng
-find . -name '*.xml' -not -path './.git/*' -not -path './test/*' -print0 \
+find . -name '*.xml' -not -path './.git/*' -not -path './test/*' -not -path '*/new/*' -print0 \
   | xargs -0 -n50 xmllint --noout --xinclude --nowarning --relaxng "$SCHEMA"
 ```
 

@@ -2,9 +2,9 @@
 # Discover expand shards (BetMasData-relative paths) from an expanded git tree.
 #
 # Modes (--mode / DISCOVER_MODE):
-#   hybrid — L1 for works/persons/manuscripts/places/institutions (~170 jobs) +
+#   hybrid — L1 for works/persons/manuscripts/places/institutions (~175 jobs) +
 #            matrix for narratives/studies/authority-files/corpora (~4 jobs);
-#            recommended for full re-expand (~174 total).
+#            recommended for full re-expand (~179 total).
 #   l1     — one shard per L1 dir under each corpus (~205); skips orphan subtrees
 #            with no BetMasData source (authority-files/new, …).
 #   matrix — corpus-level shards for re-expand (~9 jobs); expanded-git orphans
