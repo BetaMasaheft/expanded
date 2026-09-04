@@ -11,13 +11,25 @@
     </target>
     <target name="xar" depends="clean">
         <mkdir dir="${build.dir}" />
+        <!-- Data package only: TEI corpora + eXist package metadata/indexes.
+             CI scripts, tests, docs, and editor cruft stay out of autodeploy. -->
         <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar">
             <exclude name="${build.dir}/**" />
+            <exclude name=".git/**" />
             <exclude name=".github/**" />
             <exclude name=".vscode/**" />
+            <exclude name=".codacy/**" />
+            <exclude name=".cursor/**" />
+            <exclude name=".agent/**" />
+            <exclude name=".zed/**" />
+            <exclude name=".worktrees/**" />
+            <exclude name="docs/**" />
+            <exclude name="scripts/**" />
+            <exclude name="test/**" />
             <exclude name=".gitignore" />
             <exclude name=".dockerignore" />
             <exclude name=".DS_Store" />
+            <exclude name="*.code-workspace" />
             <exclude name="*report.txt" />
         </zip>
     </target>
