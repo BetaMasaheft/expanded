@@ -25,7 +25,7 @@ env:
 jobs:
   expand-shard:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 300
     steps:
       # App image is ~11GB+ layered; default runner disk is too tight.
       - name: Maximize build space

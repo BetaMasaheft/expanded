@@ -110,7 +110,8 @@ discover_l1() {
 discover_hybrid() {
   local r=$1
   local name
-  # Heavy corpora: L1 slices (~5 min each) avoid 240-min job limit and xst-get stalls.
+  # Heavy corpora: L1 slices (~5 min each) avoid job-limit / xst-get stalls
+  # (EMML still ~3.5h expand alone — see timeout-minutes on expand-shard).
   for name in works persons manuscripts places institutions; do
     discover_l1_corpus "${r}" "${name}"
   done
