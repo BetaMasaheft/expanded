@@ -1,0 +1,30 @@
+scripts/ci/discover-shards.sh
+  s_bfac4543151ff7::t_d62e98c1477d05 5-9
+  s_bfac4543151ff7::t_a646581151c979 139
+  s_bfac4543151ff7::t_29c9627846122a 83-104,117-118
+  s_bfac4543151ff7::t_49c305c712ea5c 119-120
+test/01-discover-shards.bats
+  s_bfac4543151ff7::t_d369613ee67ab6 70-74,82-88
+  s_bfac4543151ff7::t_8744933c401f29 89
+.github/workflows/re-expand.yml
+  s_bfac4543151ff7::t_93437a17abd050 11,13-14
+  s_bfac4543151ff7::t_0a061f53086e68 32-36
+README.md
+  s_bfac4543151ff7::t_4301bf46bac673 85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "b8f3b6be73cf6b7ce18f8e0f72af54e20733e953",
+  "prompts": {},
+  "sessions": {
+    "s_bfac4543151ff7": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "86f79926-bf74-4660-badb-9dd045efa2ca",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
