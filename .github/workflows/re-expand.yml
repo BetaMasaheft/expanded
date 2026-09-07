@@ -7,11 +7,12 @@ name: Scheduled Re-expansion
 # collection path, uploads an artifact. Assemble merges into this repo;
 # push_to_main gates notify-betmas. Image contents are asserted in BetMas bats.
 #
-# Pilot: collection=corpora or manuscripts/EMML, push_to_main=false.
-# Full run: leave collection empty, shard_mode=hybrid (~179 jobs).
+# Pilot: collection=corpora or manuscripts/EMML/1-1000, push_to_main=false.
+#          collection=manuscripts/EMML expands to all EMML L2 buckets.
+# Full run: leave collection empty, shard_mode=hybrid (~188 jobs).
 # matrix mode (~9 corpus shards) times out on works/persons/manuscripts.
-# l1 mode (~204 jobs) is uniform L1 everywhere; hybrid keeps matrix grain for
-# narratives/studies/authority-files/corpora (already finish in minutes).
+# l1 mode (~214 jobs) is uniform L1 everywhere (EMML → L2); hybrid keeps matrix
+# grain for narratives/studies/authority-files/corpora (already finish in minutes).
 #
 # Expanded-git orphans (e.g. authority-files/new) are skipped in l1 discover
 # and preserved on assemble when absent from corpus exports. IHA corpora are
@@ -22,17 +23,21 @@ on:
     inputs:
       collection:
         description: >
-          Optional single relative path under BetMasData (e.g. works/1-1000).
-          Leave empty for full run (uses shard_mode).
+          Optional path under BetMasData (e.g. works/1-1000 or
+          manuscripts/EMML/1-1000). manuscripts/EMML expands to all L2
+          buckets. Leave empty for full run (uses shard_mode).
         required: false
         type: string
         default: ""
       shard_mode:
         description: >
-          hybrid = L1 for works/persons/manuscripts/places/institutions +
-          matrix for narratives/studies/authority-files/corpora (~179).
-          l1 = one job per expanded-git L1 dir (~204, skips authority-files/new).
-          matrix = one job per BetMasData corpus root (~9; 3 timeout at 240min).
+          hybrid = L1 for works/persons/manuscripts/places/institutions
+          (manuscripts/EMML → L2) + matrix for narratives/studies/
+          authority-files/corpora (~188).
+          l1 = one job per expanded-git L1 dir (~214, EMML L2; skips
+          authority-files/new).
+          matrix = one job per BetMasData corpus root (~9; large corpora
+          still risk the expand-shard timeout, currently 300min).
         required: false
         type: choice
         options:

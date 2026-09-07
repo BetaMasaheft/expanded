@@ -67,10 +67,32 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
   [[ "$output" == *"places/Africa"* ]]
   [[ "$output" == *"institutions/Ethiopia"* ]]
   [[ "$output" == *"corpora"* ]]
+  # EMML → L2 buckets; other manuscript L1 dirs stay L1
+  [[ "$output" == *"manuscripts/EMML/1-1000"* ]]
+  [[ "$output" == *"manuscripts/EMML/1001-2000"* ]]
+  [[ "$output" == *"manuscripts/OtherRepo"* ]]
+  ! echo "$output" | grep -qx 'manuscripts/EMML'
   # Heavy corpora must NOT appear as bare corpus-level entries
   ! echo "$output" | grep -qx 'works'
   ! echo "$output" | grep -qx 'persons'
   ! echo "$output" | grep -qx 'manuscripts'
   ! echo "$output" | grep -qx 'places'
   ! echo "$output" | grep -qx 'institutions'
+}
+
+@test "l1 mode also L2-splits manuscripts/EMML" {
+  run bash "$SCRIPT" --root "$FIX" --mode l1 --out "${BATS_TEST_TMPDIR}/l1-emml.txt"
+  [ "$status" -eq 0 ]
+  [[ "$output" == *"manuscripts/EMML/1-1000"* ]]
+  [[ "$output" == *"manuscripts/OtherRepo"* ]]
+  ! echo "$output" | grep -qx 'manuscripts/EMML'
+}
+
+@test "filter manuscripts/EMML expands to L2 buckets" {
+  run bash "$SCRIPT" --root "$FIX" --out "${BATS_TEST_TMPDIR}/emml-filter.txt" manuscripts/EMML
+  [ "$status" -eq 0 ]
+  [[ "$output" == *"manuscripts/EMML/1-1000"* ]]
+  [[ "$output" == *"manuscripts/EMML/1001-2000"* ]]
+  ! echo "$output" | grep -qx 'manuscripts/EMML'
+  [[ "$output" != *"manuscripts/OtherRepo"* ]]
 }

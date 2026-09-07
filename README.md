@@ -82,9 +82,9 @@ Actions → **Scheduled Re-expansion** → **Run workflow** → choose branch
 
 | Mode | Grain | Typical job count |
 | --- | --- | --- |
-| `hybrid` (default) | L1 for works / persons / manuscripts / places / institutions; matrix for the rest | ~179 |
-| `l1` | Every L1 dir (skips sourceless orphans e.g. `authority-files/new`) | ~204 |
-| `matrix` | One job per corpus root | ~9 (works/persons/manuscripts hit the 240 min limit) |
+| `hybrid` (default) | L1 for works / persons / manuscripts / places / institutions (EMML → L2); matrix for the rest | ~188 |
+| `l1` | Every L1 dir (EMML → L2; skips sourceless orphans e.g. `authority-files/new`) | ~214 |
+| `matrix` | One job per corpus root | ~9 (works/persons/manuscripts risk the 300 min shard timeout) |
 
 `allow_partial_assemble=true` is for dry-run inspection only; it always blocks
 `push_to_main`.
@@ -119,7 +119,7 @@ Source lives under `/db/apps/BetMasData/…`; expand writes into
 `/db/apps/expanded/…`.
 
 ```shell
-rel=corpora   # or works/1-1000, manuscripts/EMML, …
+rel=corpora   # or works/1-1000, manuscripts/EMML/1-1000, …
 col="/db/apps/BetMasData/${rel}"
 
 out=$(curl -fsS -u admin: --get --max-time 0 \
