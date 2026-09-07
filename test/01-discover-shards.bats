@@ -87,3 +87,12 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
   [[ "$output" == *"manuscripts/OtherRepo"* ]]
   ! echo "$output" | grep -qx 'manuscripts/EMML'
 }
+
+@test "filter manuscripts/EMML expands to L2 buckets" {
+  run bash "$SCRIPT" --root "$FIX" --out "${BATS_TEST_TMPDIR}/emml-filter.txt" manuscripts/EMML
+  [ "$status" -eq 0 ]
+  [[ "$output" == *"manuscripts/EMML/1-1000"* ]]
+  [[ "$output" == *"manuscripts/EMML/1001-2000"* ]]
+  ! echo "$output" | grep -qx 'manuscripts/EMML'
+  [[ "$output" != *"manuscripts/OtherRepo"* ]]
+}

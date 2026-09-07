@@ -10,7 +10,8 @@
 #   matrix — corpus-level shards for re-expand (~9 jobs); expanded-git orphans
 #            absent from export are preserved on assemble (see assemble-shards).
 #
-# Optional filter: COLLECTION_FILTER or first non-option arg (explicit pilot path).
+# Optional filter: COLLECTION_FILTER or first non-option arg (pilot path).
+# L2 parents (manuscripts/EMML) expand to their children — same as full hybrid/l1.
 # Bash 3.2+ compatible (no mapfile).
 set -euo pipefail
 
@@ -102,6 +103,20 @@ discover_l2_under() {
   done
 }
 
+# Emit L2 children, or fall back to parent with a warning if none exist.
+emit_l2_or_parent() {
+  local r=$1
+  local parent=$2
+  local children
+  children=$(discover_l2_under "${r}" "${parent}")
+  if [ -z "${children}" ]; then
+    echo "warning: ${parent} has no L2 children; using parent path" >&2
+    echo "${parent}"
+  else
+    printf '%s\n' "${children}"
+  fi
+}
+
 discover_l1_corpus() {
   local r=$1
   local corpus=$2
@@ -115,7 +130,7 @@ discover_l1_corpus() {
       continue
     fi
     if is_l2_shard_parent "${rel}"; then
-      discover_l2_under "${r}" "${rel}"
+      emit_l2_or_parent "${r}" "${rel}"
       continue
     fi
     echo "${rel}"
@@ -168,7 +183,12 @@ tmp=$(mktemp)
 trap 'rm -f "${tmp}"' EXIT
 
 if [ -n "${filter}" ]; then
-  printf '%s\n' "${filter#./}" > "${tmp}"
+  filter="${filter#./}"
+  if is_l2_shard_parent "${filter}"; then
+    emit_l2_or_parent "${root}" "${filter}" > "${tmp}"
+  else
+    printf '%s\n' "${filter}" > "${tmp}"
+  fi
 else
   case "${mode}" in
     hybrid)
