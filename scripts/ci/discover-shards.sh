@@ -2,11 +2,11 @@
 # Discover expand shards (BetMasData-relative paths) from an expanded git tree.
 #
 # Modes (--mode / DISCOVER_MODE):
-#   hybrid — L1 for works/persons/manuscripts/places/institutions (~175 jobs) +
-#            matrix for narratives/studies/authority-files/corpora (~4 jobs);
-#            recommended for full re-expand (~179 total).
-#   l1     — one shard per L1 dir under each corpus (~205); skips orphan subtrees
-#            with no BetMasData source (authority-files/new, …).
+#   hybrid — L1 for works/persons/manuscripts/places/institutions, with
+#            manuscripts/EMML further split to L2 (~184 jobs) + matrix for
+#            narratives/studies/authority-files/corpora (~4); ~188 total.
+#   l1     — one shard per L1 dir under each corpus (~214 with EMML L2); skips
+#            orphan subtrees with no BetMasData source (authority-files/new, …).
 #   matrix — corpus-level shards for re-expand (~9 jobs); expanded-git orphans
 #            absent from export are preserved on assemble (see assemble-shards).
 #
@@ -80,6 +80,28 @@ is_skipped_orphan_shard() {
   esac
 }
 
+# L1 dirs whose children are the expand/export unit (avoids 3h+ EMML jobs).
+is_l2_shard_parent() {
+  case "$1" in
+    manuscripts/EMML)
+      return 0
+      ;;
+    *)
+      return 1
+      ;;
+  esac
+}
+
+discover_l2_under() {
+  local r=$1
+  local parent=$2
+  local p rel
+  find "${r}/${parent}" -mindepth 1 -maxdepth 1 -type d | sort | while IFS= read -r p; do
+    rel="${p#"${r}"/}"
+    echo "${rel}"
+  done
+}
+
 discover_l1_corpus() {
   local r=$1
   local corpus=$2
@@ -90,6 +112,10 @@ discover_l1_corpus() {
   find "${r}/${corpus}" -mindepth 1 -maxdepth 1 -type d | sort | while IFS= read -r p; do
     rel="${p#"${r}"/}"
     if is_skipped_orphan_shard "${rel}"; then
+      continue
+    fi
+    if is_l2_shard_parent "${rel}"; then
+      discover_l2_under "${r}" "${rel}"
       continue
     fi
     echo "${rel}"
@@ -110,8 +136,7 @@ discover_l1() {
 discover_hybrid() {
   local r=$1
   local name
-  # Heavy corpora: L1 slices (~5 min each) avoid job-limit / xst-get stalls
-  # (EMML still ~3.5h expand alone — see timeout-minutes on expand-shard).
+  # Heavy corpora: L1 slices; manuscripts/EMML → L2 (see is_l2_shard_parent).
   for name in works persons manuscripts places institutions; do
     discover_l1_corpus "${r}" "${name}"
   done

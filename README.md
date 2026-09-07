@@ -82,7 +82,7 @@ Actions → **Scheduled Re-expansion** → **Run workflow** → choose branch
 
 | Mode | Grain | Typical job count |
 | --- | --- | --- |
-| `hybrid` (default) | L1 for works / persons / manuscripts / places / institutions; matrix for the rest | ~179 |
+| `hybrid` (default) | L1 for works / persons / manuscripts / places / institutions (EMML → L2); matrix for the rest | ~188 |
 | `l1` | Every L1 dir (skips sourceless orphans e.g. `authority-files/new`) | ~204 |
 | `matrix` | One job per corpus root | ~9 (works/persons/manuscripts hit the 240 min limit) |
 
