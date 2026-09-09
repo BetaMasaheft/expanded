@@ -6,7 +6,7 @@
 #            manuscripts/EMML further split to L2 (~184 jobs) + matrix for
 #            narratives/studies/authority-files/corpora (~4); ~188 total.
 #   l1     — one shard per L1 dir under each corpus (~214 with EMML L2); skips
-#            orphan subtrees with no BetMasData source (authority-files/new, …).
+#            reservation / sourceless L1 dirs (`*/new`, …).
 #   matrix — corpus-level shards for re-expand (~9 jobs); expanded-git orphans
 #            absent from export are preserved on assemble (see assemble-shards).
 #
@@ -66,13 +66,13 @@ if [ -z "${out_file}" ]; then
   out_file="${root}/shards.txt"
 fi
 
-# BetMasData has no source for these L1 paths; expanded git may still hold trees
-# (stale expanded-only dirs). assemble preserves any dest child absent from the
-# export; discover skips them so expand jobs do not fail.
+# Reservation folders (`{corpus}/new`) and other sourceless L1 trees must not
+# become expand shards. assemble preserves `new/` under corpus merges; discover
+# skips them so expand jobs do not fail or wipe ID-reservation stubs.
 # IHA corpora are in the base image and are re-expanded like other shards.
 is_skipped_orphan_shard() {
   case "$1" in
-    authority-files/new)
+    */new)
       return 0
       ;;
     *)
@@ -184,6 +184,10 @@ trap 'rm -f "${tmp}"' EXIT
 
 if [ -n "${filter}" ]; then
   filter="${filter#./}"
+  if is_skipped_orphan_shard "${filter}"; then
+    echo "Refusing reservation/orphan shard filter: ${filter}" >&2
+    exit 1
+  fi
   if is_l2_shard_parent "${filter}"; then
     emit_l2_or_parent "${root}" "${filter}" > "${tmp}"
   else

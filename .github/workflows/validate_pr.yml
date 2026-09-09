@@ -37,7 +37,8 @@ jobs:
             -- ':./**/*.xml' ':!*/transkribus*.xml' ':!*/facsimile*.xml' \
             ':!./**/edition.xml' ':!./**/msDesc.xml' ':!./**/*text.xml' \
             ':!./**/taxonomy.xml' ':*.xml' ':!build.xml' ':!expath-pkg.xml' \
-            ':!repo.xml' ':!test/fixtures/**' ':!**/new/**' | xargs)"
+            ':!repo.xml' ':!test/fixtures/**' ':!**/new/**' \
+            ':!config/retired-ids.xml' | xargs)"
           } >> "$GITHUB_OUTPUT"
       # If no xml files were modified ...
       - name: No source files changed
@@ -68,3 +69,7 @@ jobs:
         run: |
           xmllint --noout \
             $(find . -type f -name '*.xml')
+      - name: Refuse resurrected retired ids
+        run: bash scripts/ci/check-retired-ids.sh --root .
+      - name: Report overdue new/ stubs (warn only)
+        run: bash scripts/ci/report-overdue-new-stubs.sh --root .

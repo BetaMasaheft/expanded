@@ -18,10 +18,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
-      - name: Install bats and shellcheck
+      - name: Install bats, shellcheck, and xmllint
         run: |
           sudo apt-get update
-          sudo apt-get install -y bats shellcheck
+          sudo apt-get install -y bats shellcheck libxml2-utils
 
       - name: Shellcheck ci scripts
         run: shellcheck scripts/ci/*.sh

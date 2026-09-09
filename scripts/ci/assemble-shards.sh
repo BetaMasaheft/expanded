@@ -2,6 +2,9 @@
 # Merge shard artifacts into the expanded repo working tree (rsync --delete).
 # Subdirectories present in the repo but absent from the export are preserved
 # (expanded-git orphans with no BetMasData source, e.g. authority-files/new).
+# Reservation folders named `new` are always excluded from the deleting
+# rsync (even when dest lacks new/ and export has one). Dedicated */new
+# shard paths are skipped entirely.
 # Validates every shard first so a later failure cannot leave a half-merged tree.
 set -euo pipefail
 
@@ -110,6 +113,12 @@ while IFS= read -r rel || [ -n "${rel}" ]; do
     continue
   fi
   dest="${repo_root}/${rel}"
+  case "${rel}" in
+    */new)
+      echo "skipping assemble into reservation shard ${rel}" >&2
+      continue
+      ;;
+  esac
   mkdir -p "${dest}"
   rsync_args=(-a --delete)
   if [ -d "${dest}" ]; then
@@ -122,6 +131,11 @@ while IFS= read -r rel || [ -n "${rel}" ]; do
       fi
     done
   fi
+  # Always exclude new/ from --delete (and from copy-in on this pass).
+  # Dest may lack new/ while export has one; still do not invent/wipe via
+  # the deleting rsync — reservation trees are not ordinary shard content.
+  rsync_args+=(--exclude="new/")
+  echo "preserve reservation ${rel}/new" >&2
   rsync "${rsync_args[@]}" "${src}/" "${dest}/"
   echo "merged ${rel} (${count} xml)"
 done < "${manifest}"

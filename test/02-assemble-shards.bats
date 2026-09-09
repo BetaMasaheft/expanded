@@ -120,3 +120,48 @@ setup() {
   [ -f "${REPO}/corpora/new.xml" ]
   [ ! -f "${REPO}/corpora/old.xml" ]
 }
+
+@test "corpus merge never --delete under new/ even when export has new/" {
+  REPO="${BATS_TEST_TMPDIR}/repo-new-protect"
+  mkdir -p "${REPO}/works/new" "${REPO}/works/1-1000"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stub"/>' \
+    > "${REPO}/works/new/STUBkeep.xml"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="old"/>' \
+    > "${REPO}/works/1-1000/old.xml"
+  shards="${BATS_TEST_TMPDIR}/shards-works-new"
+  mkdir -p "${shards}/works/new" "${shards}/works/1-1000"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="exportstub"/>' \
+    > "${shards}/works/new/EXPORTONLY.xml"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fresh"/>' \
+    > "${shards}/works/1-1000/fresh.xml"
+  printf '%s\n' 'works' > "${BATS_TEST_TMPDIR}/works-new.txt"
+  run bash "$SCRIPT" \
+    --manifest "${BATS_TEST_TMPDIR}/works-new.txt" \
+    --shards-in "$shards" \
+    --repo-root "$REPO"
+  [ "$status" -eq 0 ]
+  [ -f "${REPO}/works/new/STUBkeep.xml" ]
+  [ ! -f "${REPO}/works/new/EXPORTONLY.xml" ]
+  [ -f "${REPO}/works/1-1000/fresh.xml" ]
+  [ ! -f "${REPO}/works/1-1000/old.xml" ]
+}
+
+@test "skips assembling a */new reservation shard path" {
+  REPO="${BATS_TEST_TMPDIR}/repo-new-shard"
+  mkdir -p "${REPO}/works/new"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stub"/>' \
+    > "${REPO}/works/new/STUBkeep.xml"
+  shards="${BATS_TEST_TMPDIR}/shards-new-only"
+  mkdir -p "${shards}/works/new"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wipe"/>' \
+    > "${shards}/works/new/WIPE.xml"
+  printf '%s\n' 'works/new' > "${BATS_TEST_TMPDIR}/new-shard.txt"
+  run bash "$SCRIPT" \
+    --manifest "${BATS_TEST_TMPDIR}/new-shard.txt" \
+    --shards-in "$shards" \
+    --repo-root "$REPO"
+  [ "$status" -eq 0 ]
+  [ -f "${REPO}/works/new/STUBkeep.xml" ]
+  [ ! -f "${REPO}/works/new/WIPE.xml" ]
+  [[ "$output" == *"skipping assemble"* ]] || [[ "$stderr" == *"skipping assemble"* ]]
+}
