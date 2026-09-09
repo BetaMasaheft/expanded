@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Fail if any retired basename from config/retired-ids.txt is present as a
-# *.xml file in the expanded tree (blocks re-expand / assemble resurrection).
-# Bash 3.2+ compatible.
+# Fail if any retired @id from config/retired-ids.xml is present as a
+# *.xml basename in the expanded tree (blocks re-expand / assemble
+# resurrection). Manifest shape mirrors betmas-id-manager bim:issued-id.
+# Bash 3.2+ compatible; requires grep/sed (no Python).
 set -euo pipefail
 
 root=.
@@ -37,7 +38,7 @@ while [ "$#" -gt 0 ]; do
 done
 
 if [ -z "${manifest}" ]; then
-  manifest="${root}/config/retired-ids.txt"
+  manifest="${root}/config/retired-ids.xml"
 fi
 
 if [ ! -f "${manifest}" ]; then
@@ -49,30 +50,20 @@ ids_tmp=$(mktemp)
 present_tmp=$(mktemp)
 trap 'rm -f "${ids_tmp}" "${present_tmp}"' EXIT
 
-# First field only; skip comments/blank lines.
-while IFS= read -r line || [ -n "${line}" ]; do
-  case "${line}" in
-    '' | \#*)
-      continue
-      ;;
-  esac
-  # First whitespace-separated field.
-  # shellcheck disable=SC2086
-  set -- ${line}
-  id=$1
-  if [ -n "${id}" ]; then
-    printf '%s\n' "${id}"
-  fi
-done < "${manifest}" | sort -u > "${ids_tmp}"
+# issued-id elements are single-line; pull @id (attribute order may vary).
+grep -E '<issued-id[\t ]' "${manifest}" |
+  grep -oE 'id="[^"]+"' |
+  sed 's/^id="//; s/"$//' |
+  sort -u > "${ids_tmp}"
 
 if [ ! -s "${ids_tmp}" ]; then
-  echo "retired-ids manifest has no ids: ${manifest}" >&2
+  echo "retired-ids manifest has no issued-id/@id: ${manifest}" >&2
   exit 1
 fi
 
-# Present basenames under root (exclude test fixtures / build / .git).
+# Present basenames under root (exclude test fixtures / build / .git / config).
 find "${root}" \
-  \( -path "${root}/test" -o -path "${root}/.git" -o -path "${root}/build" \) -prune \
+  \( -path "${root}/test" -o -path "${root}/.git" -o -path "${root}/build" -o -path "${root}/config" \) -prune \
   -o -type f -name '*.xml' -print |
   while IFS= read -r path; do
     base=${path##*/}
@@ -84,7 +75,7 @@ hits=$(comm -12 "${ids_tmp}" "${present_tmp}" || true)
 if [ -n "${hits}" ]; then
   echo "Retired id(s) still present in ${root}:" >&2
   printf '%s\n' "${hits}" >&2
-  echo "Remove the file(s) or drop the id from ${manifest} if retirement was reversed." >&2
+  echo "Remove the file(s) or drop the issued-id from ${manifest} if retirement was reversed." >&2
   exit 1
 fi
 
