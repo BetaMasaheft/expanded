@@ -1,0 +1,42 @@
+.github/workflows/validate_push.yml
+  s_bfac4543151ff7::t_f50aa8beba4f51 45-47
+test/06-check-retired-ids.bats
+  s_bfac4543151ff7::t_b72fae88de96b9 1-40
+.github/workflows/validate_pr.yml
+  s_bfac4543151ff7::t_5e8139bd3c59d4 71-72
+scripts/ci/check-retired-ids.sh
+  s_bfac4543151ff7::t_fbc87e490c5739 74-76
+  s_bfac4543151ff7::t_313a17837f399e 1-58,63-73,77-91
+  s_bfac4543151ff7::t_67f972ec422703 59-62
+scripts/ci/discover-shards.sh
+  s_bfac4543151ff7::t_44292872cb0107 187-190
+  s_bfac4543151ff7::t_36804c35e9080b 69-71,75
+  s_bfac4543151ff7::t_7b35833eb3fbfa 9
+scripts/ci/assemble-shards.sh
+  s_bfac4543151ff7::t_39e96eaec77676 5-6
+  s_bfac4543151ff7::t_d6a256b89e9eee 115-120,133-136
+  s_bfac4543151ff7::t_5dea479c20f03d 137
+test/02-assemble-shards.bats
+  s_bfac4543151ff7::t_3a9a09b6887708 123-167
+test/01-discover-shards.bats
+  s_bfac4543151ff7::t_e1fb0076cebfba 48,52-64
+  s_bfac4543151ff7::t_688cb3554d389e 65
+config/retired-ids.txt
+  s_bfac4543151ff7::t_e20720d0e60216 1-138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "b0a90113edc3677533d1736f21645611d5643512",
+  "prompts": {},
+  "sessions": {
+    "s_bfac4543151ff7": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "86f79926-bf74-4660-badb-9dd045efa2ca",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
