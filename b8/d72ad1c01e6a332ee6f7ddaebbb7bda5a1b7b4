@@ -1,0 +1,26 @@
+scripts/ci/report-overdue-new-stubs.sh
+  s_bfac4543151ff7::t_8b61312979d6a6 1-93,99-118
+  s_bfac4543151ff7::t_c357f6e1cf24e5 94-98
+.github/workflows/validate_push.yml
+  s_bfac4543151ff7::t_7e9c7fd78dd71f 48-50
+.github/workflows/validate_pr.yml
+  s_bfac4543151ff7::t_d598fc4f1f79b9 74-75
+test/07-report-overdue-new-stubs.bats
+  s_bfac4543151ff7::t_04fa8ce9cc7501 1-52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "b8d72ad1c01e6a332ee6f7ddaebbb7bda5a1b7b4",
+  "prompts": {},
+  "sessions": {
+    "s_bfac4543151ff7": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "86f79926-bf74-4660-badb-9dd045efa2ca",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
