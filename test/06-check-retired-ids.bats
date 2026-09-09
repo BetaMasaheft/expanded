@@ -54,6 +54,44 @@ write_manifest() {
   [ "$status" -eq 0 ]
 }
 
+@test "fails when a retired basename is under corpus/new" {
+  root="${BATS_TEST_TMPDIR}/new-hit"
+  mkdir -p "${root}/works/new" "${root}/config"
+  write_manifest "${root}/config/retired-ids.xml" "LIT9999Ghost"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LIT9999Ghost"/>' \
+    > "${root}/works/new/LIT9999Ghost.xml"
+  run bash "$SCRIPT" --root "$root"
+  [ "$status" -ne 0 ]
+  [[ "$output" == *"LIT9999Ghost"* ]] || [[ "$stderr" == *"LIT9999Ghost"* ]]
+}
+
+@test "matches URL-encoded tombstone against UTF-8 basename" {
+  root="${BATS_TEST_TMPDIR}/encoded"
+  mkdir -p "${root}/persons/1-1000" "${root}/config"
+  write_manifest "${root}/config/retired-ids.xml" "PRS14070%E1%B8%A4abtaMG"
+  # filesystem basename uses the decoded character, not %XX
+  decoded=$(printf '%b' 'PRS14070\xE1\xB8\xA4abtaMG')
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0"/>' \
+    > "${root}/persons/1-1000/${decoded}.xml"
+  run bash "$SCRIPT" --root "$root"
+  [ "$status" -ne 0 ]
+}
+
+@test "does not treat parentId as issued-id @id" {
+  root="${BATS_TEST_TMPDIR}/parentid"
+  mkdir -p "${root}/works/1-1000" "${root}/config"
+  {
+    echo '<?xml version="1.0" encoding="UTF-8"?>'
+    echo '<retired-ids xmlns="https://betamasaheft.eu/betmas-id-manager">'
+    echo '  <issued-id id="REALRETIRED" parentId="NOTANID" type="works" mode="auto" state="retired"/>'
+    echo '</retired-ids>'
+  } > "${root}/config/retired-ids.xml"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0"/>' \
+    > "${root}/works/1-1000/NOTANID.xml"
+  run bash "$SCRIPT" --root "$root"
+  [ "$status" -eq 0 ]
+}
+
 @test "repo config/retired-ids.xml is currently clean" {
   run bash "$SCRIPT" --root "${BATS_TEST_DIRNAME}/.."
   [ "$status" -eq 0 ]

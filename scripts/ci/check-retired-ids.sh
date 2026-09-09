@@ -2,7 +2,8 @@
 # Fail if any retired @id from config/retired-ids.xml is present as a
 # *.xml basename in the expanded tree (blocks re-expand / assemble
 # resurrection). Manifest shape mirrors betmas-id-manager bim:issued-id.
-# Bash 3.2+ compatible; requires grep/sed (no Python).
+# Gate is basename-only (not TEI @xml:id content). Requires xmllint.
+# Bash 3.2+ compatible.
 set -euo pipefail
 
 root=.
@@ -46,14 +47,33 @@ if [ ! -f "${manifest}" ]; then
   exit 1
 fi
 
+if ! command -v xmllint >/dev/null 2>&1; then
+  echo "xmllint is required to read ${manifest}" >&2
+  exit 2
+fi
+
 ids_tmp=$(mktemp)
 present_tmp=$(mktemp)
 trap 'rm -f "${ids_tmp}" "${present_tmp}"' EXIT
 
-# issued-id elements are single-line; pull @id (attribute order may vary).
-grep -E '<issued-id[\t ]' "${manifest}" |
+# Percent-decode so tombstones stored as URL-encoded match UTF-8 basenames.
+urldecode() {
+  # shellcheck disable=SC2059
+  printf '%b' "${1//%/\\x}"
+}
+
+# issued-id/@id via xmllint (local-name ignores default namespace).
+xmllint --xpath '//*[local-name()="issued-id"]/@id' "${manifest}" 2>/dev/null |
   grep -oE 'id="[^"]+"' |
   sed 's/^id="//; s/"$//' |
+  while IFS= read -r id || [ -n "${id}" ]; do
+    [ -z "${id}" ] && continue
+    printf '%s\n' "${id}"
+    decoded=$(urldecode "${id}")
+    if [ "${decoded}" != "${id}" ]; then
+      printf '%s\n' "${decoded}"
+    fi
+  done |
   sort -u > "${ids_tmp}"
 
 if [ ! -s "${ids_tmp}" ]; then
