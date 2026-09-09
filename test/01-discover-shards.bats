@@ -45,9 +45,9 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
   [[ "$output" == *"works/1-1000"* ]]
   [[ "$output" == *"works/IHA"* ]]
   # authority-files/new has no BetMasData twin — never scheduled
-  [[ "$output" != *"authority-files/new"* ]]
+  ! echo "$output" | grep -qx 'authority-files/new'
   # persons/new is a real reservation tree — appended by P3a
-  [[ "$output" == *"persons/new"* ]]
+  echo "$output" | grep -qx 'persons/new'
   [[ "$output" == *"authority-files/IHA"* ]]
 }
 
@@ -57,14 +57,20 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
   [[ "$output" == *"works/1-1000"* ]]
   # Not discovered as ordinary L1 children of the corpus walk alone —
   # appended explicitly so expand populates the twin (P3a).
-  [[ "$output" == *"works/new"* ]]
-  [[ "$output" == *"persons/new"* ]]
+  echo "$output" | grep -qx 'works/new'
+  echo "$output" | grep -qx 'persons/new'
 }
 
 @test "filter allows reservation shard */new for pilots" {
   run bash "$SCRIPT" --root "$FIX" --out "${BATS_TEST_TMPDIR}/new-filter.txt" works/new
   [ "$status" -eq 0 ]
   [ "$output" = "works/new" ]
+}
+
+@test "filter refuses sourceless authority-files/new" {
+  run bash "$SCRIPT" --root "$FIX" --out "${BATS_TEST_TMPDIR}/auth-new.txt" authority-files/new
+  [ "$status" -ne 0 ]
+  [[ "$output" == *"Refusing"* ]] || [[ "$stderr" == *"Refusing"* ]]
 }
 
 @test "matrix mode emits corpus roots" {
@@ -98,8 +104,12 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
   ! echo "$output" | grep -qx 'places'
   ! echo "$output" | grep -qx 'institutions'
   # Heavy corpora: explicit reservation expand jobs (P3a)
-  [[ "$output" == *"works/new"* ]]
-  [[ "$output" == *"persons/new"* ]]
+  echo "$output" | grep -qx 'works/new'
+  echo "$output" | grep -qx 'persons/new'
+  # Light matrix corpora rely on parent expand — no dedicated */new job
+  ! echo "$output" | grep -qx 'narratives/new'
+  ! echo "$output" | grep -qx 'studies/new'
+  ! echo "$output" | grep -qx 'authority-files/new'
 }
 
 @test "l1 mode also L2-splits manuscripts/EMML" {

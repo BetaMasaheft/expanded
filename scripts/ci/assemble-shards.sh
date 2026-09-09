@@ -71,7 +71,7 @@ merge_reservation_new() {
   local src_new=$1
   local dest_new=$2
   local corpus_root=$3
-  local f base found
+  local f base landed_tmp
 
   mkdir -p "${dest_new}"
   rsync -a "${src_new}/" "${dest_new}/"
@@ -80,15 +80,24 @@ merge_reservation_new() {
   if [ ! -d "${dest_new}" ] || [ ! -d "${corpus_root}" ]; then
     return 0
   fi
+
+  # One corpus walk → basename set (avoid per-stub find × tree).
+  landed_tmp=$(mktemp)
+  find "${corpus_root}" -type f -name '*.xml' ! -path '*/new/*' -print |
+    while IFS= read -r path; do
+      printf '%s\n' "${path##*/}"
+    done |
+    sort -u > "${landed_tmp}"
+
   for f in "${dest_new}"/*.xml; do
     [ -f "${f}" ] || continue
     base=$(basename "${f}")
-    found=$(find "${corpus_root}" -type f -name "${base}" ! -path "*/new/*" 2>/dev/null | head -n 1)
-    if [ -n "${found}" ]; then
+    if grep -Fxq "${base}" "${landed_tmp}"; then
       rm -f "${f}"
-      echo "dropped overdue reservation stub ${f#"${repo_root}"/} (landed at ${found#"${repo_root}"/})" >&2
+      echo "dropped overdue reservation stub ${f#"${repo_root}"/} (basename landed outside new/)" >&2
     fi
   done
+  rm -f "${landed_tmp}"
 }
 
 shard_lines=0
@@ -169,7 +178,9 @@ while IFS= read -r rel || [ -n "${rel}" ]; do
   fi
   # Always exclude new/ from --delete; overlay separately without wipe (P3c).
   rsync_args+=(--exclude="new/")
-  echo "defer reservation ${rel}/new (merge-safe overlay)" >&2
+  if [ -d "${dest}/new" ] || [ -d "${src}/new" ]; then
+    echo "defer reservation ${rel}/new (merge-safe overlay)" >&2
+  fi
   rsync "${rsync_args[@]}" "${src}/" "${dest}/"
   if [ -d "${src}/new" ]; then
     merge_reservation_new "${src}/new" "${dest}/new" "${dest}"

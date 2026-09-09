@@ -210,6 +210,11 @@ trap 'rm -f "${tmp}"' EXIT
 
 if [ -n "${filter}" ]; then
   filter="${filter#./}"
+  # Sourceless expanded-git orphan — never a pilot expand target.
+  if [ "${filter}" = "authority-files/new" ]; then
+    echo "Refusing sourceless orphan shard filter: ${filter}" >&2
+    exit 1
+  fi
   if is_l2_shard_parent "${filter}"; then
     emit_l2_or_parent "${root}" "${filter}" > "${tmp}"
   else
