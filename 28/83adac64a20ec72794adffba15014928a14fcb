@@ -1,0 +1,30 @@
+test/07-report-overdue-new-stubs.bats
+  s_bfac4543151ff7::t_eda5b8bcbe907e 48
+scripts/ci/check-retired-ids.sh
+  s_bfac4543151ff7::t_be2179718d4eeb 5-6,50-54,59-66,69-76
+scripts/ci/assemble-shards.sh
+  s_bfac4543151ff7::t_c81cd125d01dc0 5-7
+  s_bfac4543151ff7::t_7ad81f1c65abcf 134-138
+test/06-check-retired-ids.bats
+  s_bfac4543151ff7::t_4edb6e5546352e 57-94
+.github/workflows/re-expand.yml
+  s_bfac4543151ff7::t_a7900291970251 17-20
+  s_bfac4543151ff7::t_429658129b826e 193-195
+  s_bfac4543151ff7::t_da8e32c7939e95 39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "2883adac64a20ec72794adffba15014928a14fcb",
+  "prompts": {},
+  "sessions": {
+    "s_bfac4543151ff7": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "86f79926-bf74-4660-badb-9dd045efa2ca",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
