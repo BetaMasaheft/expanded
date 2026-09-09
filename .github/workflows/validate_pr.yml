@@ -68,3 +68,5 @@ jobs:
         run: |
           xmllint --noout \
             $(find . -type f -name '*.xml')
+      - name: Refuse resurrected retired ids
+        run: bash scripts/ci/check-retired-ids.sh --root .

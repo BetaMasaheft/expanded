@@ -45,7 +45,22 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
   [[ "$output" == *"works/1-1000"* ]]
   [[ "$output" == *"works/IHA"* ]]
   [[ "$output" != *"authority-files/new"* ]]
+  [[ "$output" != *"persons/new"* ]]
   [[ "$output" == *"authority-files/IHA"* ]]
+}
+
+@test "l1 skips works/new and persons/new reservation shards" {
+  run bash "$SCRIPT" --root "$FIX" --mode l1 --out "${BATS_TEST_TMPDIR}/new-skip.txt"
+  [ "$status" -eq 0 ]
+  [[ "$output" == *"works/1-1000"* ]]
+  [[ "$output" != *"works/new"* ]]
+  [[ "$output" != *"persons/new"* ]]
+}
+
+@test "filter refuses reservation shard */new" {
+  run bash "$SCRIPT" --root "$FIX" --out "${BATS_TEST_TMPDIR}/refuse.txt" works/new
+  [ "$status" -ne 0 ]
+  [[ "$output" == *"Refusing"* ]] || [[ "$stderr" == *"Refusing"* ]]
 }
 
 @test "matrix mode emits corpus roots" {
