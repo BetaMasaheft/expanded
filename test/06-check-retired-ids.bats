@@ -75,6 +75,8 @@ write_manifest() {
     > "${root}/persons/1-1000/${decoded}.xml"
   run bash "$SCRIPT" --root "$root"
   [ "$status" -ne 0 ]
+  [[ "$output" == *"PRS14070"* ]] || [[ "$stderr" == *"PRS14070"* ]] || \
+    [[ "$output" == *"${decoded}"* ]] || [[ "$stderr" == *"${decoded}"* ]]
 }
 
 @test "does not treat parentId as issued-id @id" {
