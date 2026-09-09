@@ -1,0 +1,25 @@
+test/06-check-retired-ids.bats
+  s_bfac4543151ff7::t_625fa3f31d8ace 5-24,28,39,47,50,57
+.github/workflows/validate_pr.yml
+  s_bfac4543151ff7::t_d192026be58d31 40-41
+config/retired-ids.xml
+  s_bfac4543151ff7::t_76f6bccf1af14f 1-142
+scripts/ci/check-retired-ids.sh
+  s_bfac4543151ff7::t_130f0e6bc283b7 2-5,41,53-57,60,64,66,78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "87e58d2935f577507979a5843c5d264453dbd2b5",
+  "prompts": {},
+  "sessions": {
+    "s_bfac4543151ff7": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "86f79926-bf74-4660-badb-9dd045efa2ca",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
