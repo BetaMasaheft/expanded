@@ -121,7 +121,7 @@ setup() {
   [ ! -f "${REPO}/corpora/old.xml" ]
 }
 
-@test "corpus merge never --delete under new/ even when export has new/" {
+@test "corpus merge updates new/ without wiping expanded-only stubs" {
   REPO="${BATS_TEST_TMPDIR}/repo-new-protect"
   mkdir -p "${REPO}/works/new" "${REPO}/works/1-1000"
   echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stub"/>' \
@@ -141,20 +141,20 @@ setup() {
     --repo-root "$REPO"
   [ "$status" -eq 0 ]
   [ -f "${REPO}/works/new/STUBkeep.xml" ]
-  [ ! -f "${REPO}/works/new/EXPORTONLY.xml" ]
+  [ -f "${REPO}/works/new/EXPORTONLY.xml" ]
   [ -f "${REPO}/works/1-1000/fresh.xml" ]
   [ ! -f "${REPO}/works/1-1000/old.xml" ]
 }
 
-@test "skips assembling a */new reservation shard path" {
+@test "merges */new reservation shard without --delete" {
   REPO="${BATS_TEST_TMPDIR}/repo-new-shard"
   mkdir -p "${REPO}/works/new"
   echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stub"/>' \
     > "${REPO}/works/new/STUBkeep.xml"
   shards="${BATS_TEST_TMPDIR}/shards-new-only"
   mkdir -p "${shards}/works/new"
-  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wipe"/>' \
-    > "${shards}/works/new/WIPE.xml"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fromexport"/>' \
+    > "${shards}/works/new/FROMEXPORT.xml"
   printf '%s\n' 'works/new' > "${BATS_TEST_TMPDIR}/new-shard.txt"
   run bash "$SCRIPT" \
     --manifest "${BATS_TEST_TMPDIR}/new-shard.txt" \
@@ -162,6 +162,30 @@ setup() {
     --repo-root "$REPO"
   [ "$status" -eq 0 ]
   [ -f "${REPO}/works/new/STUBkeep.xml" ]
-  [ ! -f "${REPO}/works/new/WIPE.xml" ]
-  [[ "$output" == *"skipping assemble"* ]] || [[ "$stderr" == *"skipping assemble"* ]]
+  [ -f "${REPO}/works/new/FROMEXPORT.xml" ]
+}
+
+@test "reservation merge drops overdue stub when canonical exists outside new/" {
+  REPO="${BATS_TEST_TMPDIR}/repo-overdue"
+  mkdir -p "${REPO}/works/new" "${REPO}/works/1-1000"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="overdue"/>' \
+    > "${REPO}/works/new/OVERDUE.xml"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="landed"/>' \
+    > "${REPO}/works/1-1000/OVERDUE.xml"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wip"/>' \
+    > "${REPO}/works/new/WIPONLY.xml"
+  shards="${BATS_TEST_TMPDIR}/shards-overdue"
+  mkdir -p "${shards}/works/new"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="freshstub"/>' \
+    > "${shards}/works/new/FRESH.xml"
+  printf '%s\n' 'works/new' > "${BATS_TEST_TMPDIR}/overdue.txt"
+  run bash "$SCRIPT" \
+    --manifest "${BATS_TEST_TMPDIR}/overdue.txt" \
+    --shards-in "$shards" \
+    --repo-root "$REPO"
+  [ "$status" -eq 0 ]
+  [ ! -f "${REPO}/works/new/OVERDUE.xml" ]
+  [ -f "${REPO}/works/new/WIPONLY.xml" ]
+  [ -f "${REPO}/works/new/FRESH.xml" ]
+  [ -f "${REPO}/works/1-1000/OVERDUE.xml" ]
 }

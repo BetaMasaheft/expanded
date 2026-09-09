@@ -44,23 +44,27 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
   [ "$status" -eq 0 ]
   [[ "$output" == *"works/1-1000"* ]]
   [[ "$output" == *"works/IHA"* ]]
+  # authority-files/new has no BetMasData twin — never scheduled
   [[ "$output" != *"authority-files/new"* ]]
-  [[ "$output" != *"persons/new"* ]]
+  # persons/new is a real reservation tree — appended by P3a
+  [[ "$output" == *"persons/new"* ]]
   [[ "$output" == *"authority-files/IHA"* ]]
 }
 
-@test "l1 skips works/new and persons/new reservation shards" {
+@test "l1 skips */new during L1 walk but appends reservation shards" {
   run bash "$SCRIPT" --root "$FIX" --mode l1 --out "${BATS_TEST_TMPDIR}/new-skip.txt"
   [ "$status" -eq 0 ]
   [[ "$output" == *"works/1-1000"* ]]
-  [[ "$output" != *"works/new"* ]]
-  [[ "$output" != *"persons/new"* ]]
+  # Not discovered as ordinary L1 children of the corpus walk alone —
+  # appended explicitly so expand populates the twin (P3a).
+  [[ "$output" == *"works/new"* ]]
+  [[ "$output" == *"persons/new"* ]]
 }
 
-@test "filter refuses reservation shard */new" {
-  run bash "$SCRIPT" --root "$FIX" --out "${BATS_TEST_TMPDIR}/refuse.txt" works/new
-  [ "$status" -ne 0 ]
-  [[ "$output" == *"Refusing"* ]] || [[ "$stderr" == *"Refusing"* ]]
+@test "filter allows reservation shard */new for pilots" {
+  run bash "$SCRIPT" --root "$FIX" --out "${BATS_TEST_TMPDIR}/new-filter.txt" works/new
+  [ "$status" -eq 0 ]
+  [ "$output" = "works/new" ]
 }
 
 @test "matrix mode emits corpus roots" {
@@ -93,6 +97,9 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
   ! echo "$output" | grep -qx 'manuscripts'
   ! echo "$output" | grep -qx 'places'
   ! echo "$output" | grep -qx 'institutions'
+  # Heavy corpora: explicit reservation expand jobs (P3a)
+  [[ "$output" == *"works/new"* ]]
+  [[ "$output" == *"persons/new"* ]]
 }
 
 @test "l1 mode also L2-splits manuscripts/EMML" {

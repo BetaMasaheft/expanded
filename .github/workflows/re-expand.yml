@@ -9,14 +9,17 @@ name: Scheduled Re-expansion
 #
 # Pilot: collection=corpora or manuscripts/EMML/1-1000, push_to_main=false.
 #          collection=manuscripts/EMML expands to all EMML L2 buckets.
-# Full run: leave collection empty, shard_mode=hybrid (~188 jobs).
+# Full run: leave collection empty, shard_mode=hybrid (~193 jobs with
+# heavy `{corpus}/new` reservation shards).
 # matrix mode (~9 corpus shards) times out on works/persons/manuscripts.
-# l1 mode (~214 jobs) is uniform L1 everywhere (EMML → L2); hybrid keeps matrix
-# grain for narratives/studies/authority-files/corpora (already finish in minutes).
+# l1 mode (~214+ jobs) is uniform L1 everywhere (EMML → L2) plus reservation
+# shards; hybrid keeps matrix grain for narratives/studies/authority-files/
+# corpora and appends heavy */new jobs explicitly.
 #
-# Discover skips all L1 `*/new` reservation shards (not only authority-files/new).
-# Assemble never --delete under `new/` and refuses assembling a `*/new` path.
-# IHA corpora are re-expanded from BetMasData in the base image. After assemble,
+# Discover skips `*/new` during the L1 walk, then hybrid/l1 append heavy
+# `{corpus}/new` jobs (authority-files/new stays unscheduled). Assemble
+# overlays `new/` without --delete; overdue stubs drop when landed outside
+# new/. IHA corpora re-expand from BetMasData. After assemble,
 # check-retired-ids must pass before push_to_main.
 
 on:
@@ -34,9 +37,9 @@ on:
         description: >
           hybrid = L1 for works/persons/manuscripts/places/institutions
           (manuscripts/EMML → L2) + matrix for narratives/studies/
-          authority-files/corpora (~188).
-          l1 = one job per expanded-git L1 dir (~214, EMML L2; skips
-          all `*/new` reservation shards).
+          authority-files/corpora + heavy `{corpus}/new` (~193).
+          l1 = one job per expanded-git L1 dir (~214+, EMML L2; skips
+          `*/new` during walk, appends other reservation shards).
           matrix = one job per BetMasData corpus root (~9; large corpora
           still risk the expand-shard timeout, currently 300min).
         required: false
