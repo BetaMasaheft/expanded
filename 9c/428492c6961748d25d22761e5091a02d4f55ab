@@ -1,0 +1,28 @@
+scripts/ci/assemble-shards.sh
+  s_bfac4543151ff7::t_1bd468effbaef3 74,83-91,95,97,100,181-183
+test/01-discover-shards.bats
+  s_bfac4543151ff7::t_4e0282bdc56c1e 48,50,60-61,70-73
+  s_bfac4543151ff7::t_21398edd6a2ef7 107-112
+  s_bfac4543151ff7::t_acb88d63cdf00c 74-75
+scripts/ci/discover-shards.sh
+  s_bfac4543151ff7::t_95875b41d2d582 213-217
+test/02-assemble-shards.bats
+  s_bfac4543151ff7::t_1bc060c8e97a5b 192-205,210-224
+  s_bfac4543151ff7::t_3e187e3324cc2a 206-209
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "9c428492c6961748d25d22761e5091a02d4f55ab",
+  "prompts": {},
+  "sessions": {
+    "s_bfac4543151ff7": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "86f79926-bf74-4660-badb-9dd045efa2ca",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
