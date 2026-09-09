@@ -4,14 +4,19 @@
 # Modes (--mode / DISCOVER_MODE):
 #   hybrid — L1 for works/persons/manuscripts/places/institutions, with
 #            manuscripts/EMML further split to L2 (~184 jobs) + matrix for
-#            narratives/studies/authority-files/corpora (~4); ~188 total.
+#            narratives/studies/authority-files/corpora (~4) + heavy
+#            `{corpus}/new` reservation jobs (P3a); ~193 total.
 #   l1     — one shard per L1 dir under each corpus (~214 with EMML L2); skips
-#            reservation / sourceless L1 dirs (`*/new`, …).
+#            `*/new` during the L1 walk, then appends reservation shards
+#            (except sourceless authority-files/new).
 #   matrix — corpus-level shards for re-expand (~9 jobs); expanded-git orphans
 #            absent from export are preserved on assemble (see assemble-shards).
+#            Parent corpus jobs already walk `new/` via collection()//TEI;
+#            assemble overlays `new/` merge-safe (P3b/c). No extra */new jobs.
 #
 # Optional filter: COLLECTION_FILTER or first non-option arg (pilot path).
 # L2 parents (manuscripts/EMML) expand to their children — same as full hybrid/l1.
+# Filter may be `{corpus}/new` for a reservation pilot.
 # Bash 3.2+ compatible (no mapfile).
 set -euo pipefail
 
@@ -66,9 +71,10 @@ if [ -z "${out_file}" ]; then
   out_file="${root}/shards.txt"
 fi
 
-# Reservation folders (`{corpus}/new`) and other sourceless L1 trees must not
-# become expand shards. assemble preserves `new/` under corpus merges; discover
-# skips them so expand jobs do not fail or wipe ID-reservation stubs.
+# Reservation folders (`{corpus}/new`) must not appear as ordinary L1 children
+# of the corpus walk (those would look like wipe-shaped shards). They are
+# appended explicitly by discover_reservation_shards after hybrid/l1.
+# authority-files/new stays skipped entirely (sourceless expanded-git orphan).
 # IHA corpora are in the base image and are re-expanded like other shards.
 is_skipped_orphan_shard() {
   case "$1" in
@@ -137,6 +143,20 @@ discover_l1_corpus() {
   done
 }
 
+# P3a: schedule `{corpus}/new` expand jobs. Skip during L1 walk ≠ out of expand.
+# Omit authority-files/new (no BetMasData twin). Heavy list for hybrid; broader
+# for l1 (light corpora are L1-sliced there, not corpus-root jobs).
+discover_reservation_shards() {
+  local r=$1
+  shift
+  local name
+  for name in "$@"; do
+    if [ -d "${r}/${name}/new" ]; then
+      echo "${name}/new"
+    fi
+  done
+}
+
 discover_l1() {
   local r=$1
   local name
@@ -146,6 +166,8 @@ discover_l1() {
   if [ -d "${r}/corpora" ]; then
     echo corpora
   fi
+  discover_reservation_shards "${r}" \
+    works persons manuscripts places institutions narratives studies
 }
 
 discover_hybrid() {
@@ -156,6 +178,7 @@ discover_hybrid() {
     discover_l1_corpus "${r}" "${name}"
   done
   # Light corpora: matrix-level jobs finish well within the timeout.
+  # Their parent expand already walks new/; assemble overlays merge-safe (P3b).
   for name in narratives studies authority-files; do
     if [ -d "${r}/${name}" ]; then
       echo "${name}"
@@ -164,6 +187,9 @@ discover_hybrid() {
   if [ -d "${r}/corpora" ]; then
     echo corpora
   fi
+  # Heavy only: L1 slices never include {corpus}/new.
+  discover_reservation_shards "${r}" \
+    works persons manuscripts places institutions
 }
 
 discover_matrix() {
@@ -184,8 +210,9 @@ trap 'rm -f "${tmp}"' EXIT
 
 if [ -n "${filter}" ]; then
   filter="${filter#./}"
-  if is_skipped_orphan_shard "${filter}"; then
-    echo "Refusing reservation/orphan shard filter: ${filter}" >&2
+  # Sourceless expanded-git orphan — never a pilot expand target.
+  if [ "${filter}" = "authority-files/new" ]; then
+    echo "Refusing sourceless orphan shard filter: ${filter}" >&2
     exit 1
   fi
   if is_l2_shard_parent "${filter}"; then

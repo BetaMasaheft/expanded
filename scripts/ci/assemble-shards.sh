@@ -2,9 +2,13 @@
 # Merge shard artifacts into the expanded repo working tree (rsync --delete).
 # Subdirectories present in the repo but absent from the export are preserved
 # (expanded-git orphans with no BetMasData source, e.g. authority-files/new).
-# Reservation folders named `new` are always excluded from the deleting
-# rsync (even when dest lacks new/ and export has one). Dedicated */new
-# shard paths are skipped entirely.
+# Reservation folders named `new`:
+#   - Parent corpus merges always exclude `new/` from the deleting rsync,
+#     then overlay export/new/ without --delete (P3c) so BetMasData twins
+#     update while expanded-only WIP stubs survive.
+#   - Dedicated `{corpus}/new` shards merge the same way (no --delete).
+#   - After overlay, drop overdue stubs whose basename already exists outside
+#     `new/` under the same corpus (promoted / landed).
 # Validates every shard first so a later failure cannot leave a half-merged tree.
 set -euo pipefail
 
@@ -60,6 +64,42 @@ if [ ! -f "${manifest}" ]; then
   exit 1
 fi
 
+# Merge export/new → dest/new without --delete, then drop overdue stubs.
+# $1 = source new/ dir, $2 = dest new/ dir, $3 = corpus root under repo
+# (parent of new/), used to detect landed basenames outside new/.
+merge_reservation_new() {
+  local src_new=$1
+  local dest_new=$2
+  local corpus_root=$3
+  local f base landed_tmp
+
+  mkdir -p "${dest_new}"
+  rsync -a "${src_new}/" "${dest_new}/"
+  echo "merged reservation ${dest_new#"${repo_root}"/} (no --delete)" >&2
+
+  if [ ! -d "${dest_new}" ] || [ ! -d "${corpus_root}" ]; then
+    return 0
+  fi
+
+  # One corpus walk → basename set (avoid per-stub find × tree).
+  landed_tmp=$(mktemp)
+  find "${corpus_root}" -type f -name '*.xml' ! -path '*/new/*' -print |
+    while IFS= read -r path; do
+      printf '%s\n' "${path##*/}"
+    done |
+    sort -u > "${landed_tmp}"
+
+  for f in "${dest_new}"/*.xml; do
+    [ -f "${f}" ] || continue
+    base=$(basename "${f}")
+    if grep -Fxq "${base}" "${landed_tmp}"; then
+      rm -f "${f}"
+      echo "dropped overdue reservation stub ${f#"${repo_root}"/} (basename landed outside new/)" >&2
+    fi
+  done
+  rm -f "${landed_tmp}"
+}
+
 shard_lines=0
 missing=0
 present=0
@@ -113,12 +153,17 @@ while IFS= read -r rel || [ -n "${rel}" ]; do
     continue
   fi
   dest="${repo_root}/${rel}"
+
   case "${rel}" in
     */new)
-      echo "skipping assemble into reservation shard ${rel}" >&2
+      # Dedicated reservation shard (P3a/c).
+      corpus_root="${repo_root}/${rel%/new}"
+      merge_reservation_new "${src}" "${dest}" "${corpus_root}"
+      echo "merged ${rel} (${count} xml)"
       continue
       ;;
   esac
+
   mkdir -p "${dest}"
   rsync_args=(-a --delete)
   if [ -d "${dest}" ]; then
@@ -131,12 +176,15 @@ while IFS= read -r rel || [ -n "${rel}" ]; do
       fi
     done
   fi
-  # Always exclude new/ from --delete (and from copy-in on this pass).
-  # Dest may lack new/ while export has one; still do not invent/wipe via
-  # the deleting rsync — reservation trees are not ordinary shard content.
+  # Always exclude new/ from --delete; overlay separately without wipe (P3c).
   rsync_args+=(--exclude="new/")
-  echo "preserve reservation ${rel}/new" >&2
+  if [ -d "${dest}/new" ] || [ -d "${src}/new" ]; then
+    echo "defer reservation ${rel}/new (merge-safe overlay)" >&2
+  fi
   rsync "${rsync_args[@]}" "${src}/" "${dest}/"
+  if [ -d "${src}/new" ]; then
+    merge_reservation_new "${src}/new" "${dest}/new" "${dest}"
+  fi
   echo "merged ${rel} (${count} xml)"
 done < "${manifest}"
 

@@ -44,21 +44,31 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
   [ "$status" -eq 0 ]
   [[ "$output" == *"works/1-1000"* ]]
   [[ "$output" == *"works/IHA"* ]]
-  [[ "$output" != *"authority-files/new"* ]]
-  [[ "$output" != *"persons/new"* ]]
+  # authority-files/new has no BetMasData twin — never scheduled
+  ! echo "$output" | grep -qx 'authority-files/new'
+  # persons/new is a real reservation tree — appended by P3a
+  echo "$output" | grep -qx 'persons/new'
   [[ "$output" == *"authority-files/IHA"* ]]
 }
 
-@test "l1 skips works/new and persons/new reservation shards" {
+@test "l1 skips */new during L1 walk but appends reservation shards" {
   run bash "$SCRIPT" --root "$FIX" --mode l1 --out "${BATS_TEST_TMPDIR}/new-skip.txt"
   [ "$status" -eq 0 ]
   [[ "$output" == *"works/1-1000"* ]]
-  [[ "$output" != *"works/new"* ]]
-  [[ "$output" != *"persons/new"* ]]
+  # Not discovered as ordinary L1 children of the corpus walk alone —
+  # appended explicitly so expand populates the twin (P3a).
+  echo "$output" | grep -qx 'works/new'
+  echo "$output" | grep -qx 'persons/new'
 }
 
-@test "filter refuses reservation shard */new" {
-  run bash "$SCRIPT" --root "$FIX" --out "${BATS_TEST_TMPDIR}/refuse.txt" works/new
+@test "filter allows reservation shard */new for pilots" {
+  run bash "$SCRIPT" --root "$FIX" --out "${BATS_TEST_TMPDIR}/new-filter.txt" works/new
+  [ "$status" -eq 0 ]
+  [ "$output" = "works/new" ]
+}
+
+@test "filter refuses sourceless authority-files/new" {
+  run bash "$SCRIPT" --root "$FIX" --out "${BATS_TEST_TMPDIR}/auth-new.txt" authority-files/new
   [ "$status" -ne 0 ]
   [[ "$output" == *"Refusing"* ]] || [[ "$stderr" == *"Refusing"* ]]
 }
@@ -93,6 +103,13 @@ EMPTY="${BATS_TEST_DIRNAME}/fixtures/discover-empty"
   ! echo "$output" | grep -qx 'manuscripts'
   ! echo "$output" | grep -qx 'places'
   ! echo "$output" | grep -qx 'institutions'
+  # Heavy corpora: explicit reservation expand jobs (P3a)
+  echo "$output" | grep -qx 'works/new'
+  echo "$output" | grep -qx 'persons/new'
+  # Light matrix corpora rely on parent expand — no dedicated */new job
+  ! echo "$output" | grep -qx 'narratives/new'
+  ! echo "$output" | grep -qx 'studies/new'
+  ! echo "$output" | grep -qx 'authority-files/new'
 }
 
 @test "l1 mode also L2-splits manuscripts/EMML" {
