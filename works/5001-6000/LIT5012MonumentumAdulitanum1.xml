@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">7.9.2026 at 09:01:35</date><date type="lastModified">19.7.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5012MonumentumAdulitanum1/main</idno><idno type="URI">https://betamasaheft.eu/LIT5012MonumentumAdulitanum1</idno><idno type="filename">LIT5012MonumentumAdulitanum1.xml</idno><idno type="ID">LIT5012MonumentumAdulitanum1</idno></publicationStmt>
+            <date type="expanded">10.9.2026 at 08:55:33</date><date type="lastModified">19.7.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5012MonumentumAdulitanum1/main</idno><idno type="URI">https://betamasaheft.eu/LIT5012MonumentumAdulitanum1</idno><idno type="filename">LIT5012MonumentumAdulitanum1.xml</idno><idno type="ID">LIT5012MonumentumAdulitanum1</idno></publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="VatGr699" type="external" corresp="https://digi.vatlib.it/view/MSS_Vat.gr.699">Vat. Gr. 699</witness>
@@ -34,7 +34,55 @@
                         The present TEI file is enriched with an
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9_]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef>
+     <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1">
+    </prefixDef>
+     <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1">
+    </prefixDef>
+     <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1">
+    </prefixDef>
+    <prefixDef ident="pleiades" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://pleiades.stoa.org/places/$1">
+    </prefixDef>
+    <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1">
+    </prefixDef>
+    <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1">
+    </prefixDef>
+    <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+    </prefixDef>
+    <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1">
+    </prefixDef>
+    <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1">
+    </prefixDef>
+
+    <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1">
+    </prefixDef>
+    <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1">
+    </prefixDef>
+    <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1">
+    </prefixDef>
+
+    <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1">
+    </prefixDef>
+
+    <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1">
+    </prefixDef>
+     <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1">
+     </prefixDef>
+     <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9_]+)" replacementPattern="http://erlangen-crm.org/current/$1">
+     </prefixDef>
+     <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1">
+     </prefixDef>
+</listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <t:creation/>
             <t:abstract>
@@ -47,8 +95,19 @@
                 </t:keywords>
             </t:textClass>
             <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
-        <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+        <calendarDesc>
+	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
+	<calendar xml:id="ethiopian">
+		<p> ʿĀmata śəggāwe (Era of the Incarnation – Ethiopian)</p>
+	</calendar>
+	<calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar>
+	<calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar>
+	<calendar xml:id="alexander"><p> Era of Alexander</p></calendar>
+	<calendar xml:id="evangelists"><p>Evangelists' years</p></calendar>
+	<calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar>
+	<calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar>
+	<calendar xml:id="julian"><p>Julian</p></calendar>
+</calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change when="2018-07-19" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
         </t:revisionDesc>
@@ -68,32 +127,32 @@
                     <t:pb corresp="#VatGr699" n="16rb"/>βασιλεὺς μέγας Πτολεμαῖος, υἱὸς βασιλέως Πτολεμαίου καὶ βασιλίσσης Ἀρσινόης
                     θεῶν ἀδελφῶν, τῶν βασιλίσσης Βερενίκης θεῶν σωτήρων ἀπόγονος, τὰ μὲν ἀπὸ πατρὸς
                     Ἡρακλέος τοῦ Διός, τὰ δὲ ἀπὸ μητρὸς Διονύσου τοῦ Διός, παραλαβὼν παρὰ τοῦ πατρὸς
-                    τὴν βασιλείαν <t:placeName ref="981503">Αἰγύπτου</t:placeName> καὶ 
-                    <t:placeName ref="716588">Λιβύης</t:placeName> 
-                    καὶ <t:placeName ref="1306">Συρίας</t:placeName>
-                    καὶ <t:placeName ref="991410">Φοινίκης</t:placeName> 
-                    καὶ <t:placeName ref="707498">Κύπρου</t:placeName> καὶ 
-                    <t:placeName ref="1001914">Λυκίας</t:placeName>
-                    καὶ <t:placeName ref="1001916">Καρίας</t:placeName> καὶ τῶν 
-                    <t:placeName ref="560353">Κυκλάδων</t:placeName> νήσων ἐξεστράτευσεν εἰς 
-                    τὴν <t:placeName ref="991380">Ἀσίαν</t:placeName> μετὰ δυνάμεως
+                    τὴν βασιλείαν <t:placeName ref="https://pleiades.stoa.org/places/981503">Αἰγύπτου</t:placeName> καὶ 
+                    <t:placeName ref="https://pleiades.stoa.org/places/716588">Λιβύης</t:placeName> 
+                    καὶ <t:placeName ref="https://pleiades.stoa.org/places/1306">Συρίας</t:placeName>
+                    καὶ <t:placeName ref="https://pleiades.stoa.org/places/991410">Φοινίκης</t:placeName> 
+                    καὶ <t:placeName ref="https://pleiades.stoa.org/places/707498">Κύπρου</t:placeName> καὶ 
+                    <t:placeName ref="https://pleiades.stoa.org/places/1001914">Λυκίας</t:placeName>
+                    καὶ <t:placeName ref="https://pleiades.stoa.org/places/1001916">Καρίας</t:placeName> καὶ τῶν 
+                    <t:placeName ref="https://pleiades.stoa.org/places/560353">Κυκλάδων</t:placeName> νήσων ἐξεστράτευσεν εἰς 
+                    τὴν <t:placeName ref="https://pleiades.stoa.org/places/991380">Ἀσίαν</t:placeName> μετὰ δυνάμεως
                     πεζικῶν καὶ ἱππικῶν καὶ ναυτικοῦ στόλου καὶ ἐλεφάντων 
-                    <t:placeName ref="39435">τρωγλοδυτικῶν</t:placeName> καὶ
-                    <t:placeName ref="39274">αἰθιοπικῶν</t:placeName>, οὓς ὅ τε πατὴρ αὐτοῦ καὶ αὐτὸς πρῶτος ἐκ τῶν χώρων τούτων ἐθήρεθσαν
-                    καὶ καταγαγόντες εἰς <t:placeName ref="981503">Αἴγυπτον</t:placeName> κατασκεύασαν πολεμικὴν χρείαν.
+                    <t:placeName ref="https://pleiades.stoa.org/places/39435">τρωγλοδυτικῶν</t:placeName> καὶ
+                    <t:placeName ref="https://pleiades.stoa.org/places/39274">αἰθιοπικῶν</t:placeName>, οὓς ὅ τε πατὴρ αὐτοῦ καὶ αὐτὸς πρῶτος ἐκ τῶν χώρων τούτων ἐθήρεθσαν
+                    καὶ καταγαγόντες εἰς <t:placeName ref="https://pleiades.stoa.org/places/981503">Αἴγυπτον</t:placeName> κατασκεύασαν πολεμικὴν χρείαν.
                     <t:pb corresp="#Cosma" n="59"/> Κυριεύσας
-                    δὲ τῆς τε ἐντὸς <t:placeName ref="912849">Εὐφράτου</t:placeName> χώρας πάσης, καὶ 
-                    <t:placeName ref="981514">Κιλικίας</t:placeName> καὶ <t:placeName ref="1001913">Παμφυλίας</t:placeName> καὶ 
-                    <t:placeName ref="550597"> Ἰωνίας</t:placeName> καὶ
-                    τοῦ <t:placeName ref="1001907">Ἑλλησπόντου</t:placeName> 
-                    καὶ <t:placeName ref="501638">Θρᾴκης</t:placeName> καὶ τῶν δυνάμεων τῶν ἐν ταῖς χώραις ταύταις πασῶν καὶ
+                    δὲ τῆς τε ἐντὸς <t:placeName ref="https://pleiades.stoa.org/places/912849">Εὐφράτου</t:placeName> χώρας πάσης, καὶ 
+                    <t:placeName ref="https://pleiades.stoa.org/places/981514">Κιλικίας</t:placeName> καὶ <t:placeName ref="https://pleiades.stoa.org/places/1001913">Παμφυλίας</t:placeName> καὶ 
+                    <t:placeName ref="https://pleiades.stoa.org/places/550597"> Ἰωνίας</t:placeName> καὶ
+                    τοῦ <t:placeName ref="https://pleiades.stoa.org/places/1001907">Ἑλλησπόντου</t:placeName> 
+                    καὶ <t:placeName ref="https://pleiades.stoa.org/places/501638">Θρᾴκης</t:placeName> καὶ τῶν δυνάμεων τῶν ἐν ταῖς χώραις ταύταις πασῶν καὶ
                     ἐλεφάντων ἰνδικῶν, καὶ τοὺς μονάρχους τοὺς ἐν τοῖς τόποις πάντας ὑπηκόους
-                    καταστήσας, διέβη τὸν <t:placeName ref="912849">Εὐφράτην</t:placeName> ποταμὸν καὶ τὴν 
-                    <t:placeName ref="981534">Μεσοποταμίαν</t:placeName> καὶ <t:placeName ref="912816">Βαβυλωνίαν</t:placeName> καὶ
-                    <t:placeName ref="912843">Σουσιάνην</t:placeName> καὶ <t:placeName ref="922698">Περσίδα</t:placeName> καὶ 
-                    <t:placeName ref="903080">Μηδείαν</t:placeName> καὶ τῆν λοιπὴν πᾶσαν ἕως <t:placeName ref="971705">Βακτριανῆς</t:placeName> ὑφ᾽ἑαυτῷ
-                    ποιησάμενος καὶ ἀναζητήσας ὅσα ὑπὸ τῶν Περσῶν ἱερὰ ἑξ <t:placeName ref="981503">Αἰγύπτου</t:placeName> ἑξήχθη καὶ
-                    ἀνακομίσας μετὰ τῆς ἄλλης γάζης τῆς ἀπὸ τῶν τόπων εἰς <t:placeName ref="981503">Αἴγυπτον</t:placeName>, δυνάμεις
+                    καταστήσας, διέβη τὸν <t:placeName ref="https://pleiades.stoa.org/places/912849">Εὐφράτην</t:placeName> ποταμὸν καὶ τὴν 
+                    <t:placeName ref="https://pleiades.stoa.org/places/981534">Μεσοποταμίαν</t:placeName> καὶ <t:placeName ref="https://pleiades.stoa.org/places/912816">Βαβυλωνίαν</t:placeName> καὶ
+                    <t:placeName ref="https://pleiades.stoa.org/places/912843">Σουσιάνην</t:placeName> καὶ <t:placeName ref="https://pleiades.stoa.org/places/922698">Περσίδα</t:placeName> καὶ 
+                    <t:placeName ref="https://pleiades.stoa.org/places/903080">Μηδείαν</t:placeName> καὶ τῆν λοιπὴν πᾶσαν ἕως <t:placeName ref="https://pleiades.stoa.org/places/971705">Βακτριανῆς</t:placeName> ὑφ᾽ἑαυτῷ
+                    ποιησάμενος καὶ ἀναζητήσας ὅσα ὑπὸ τῶν Περσῶν ἱερὰ ἑξ <t:placeName ref="https://pleiades.stoa.org/places/981503">Αἰγύπτου</t:placeName> ἑξήχθη καὶ
+                    ἀνακομίσας μετὰ τῆς ἄλλης γάζης τῆς ἀπὸ τῶν τόπων εἰς <t:placeName ref="https://pleiades.stoa.org/places/981503">Αἴγυπτον</t:placeName>, δυνάμεις
                     ἀπέστειλε διὰ τῶν ὀρυχθέντων ποταμῶν ...</t:ab>
                 
             </t:div>

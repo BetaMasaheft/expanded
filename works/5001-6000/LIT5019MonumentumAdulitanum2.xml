@@ -17,7 +17,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">7.9.2026 at 09:01:35</date><date type="lastModified">21.7.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5019MonumentumAdulitanum2/main</idno><idno type="URI">https://betamasaheft.eu/LIT5019MonumentumAdulitanum2</idno><idno type="filename">LIT5019MonumentumAdulitanum2.xml</idno><idno type="ID">LIT5019MonumentumAdulitanum2</idno></publicationStmt>
+            <date type="expanded">10.9.2026 at 08:55:33</date><date type="lastModified">21.7.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5019MonumentumAdulitanum2/main</idno><idno type="URI">https://betamasaheft.eu/LIT5019MonumentumAdulitanum2</idno><idno type="filename">LIT5019MonumentumAdulitanum2.xml</idno><idno type="ID">LIT5019MonumentumAdulitanum2</idno></publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="VatGr699" type="external" facs="https://digi.vatlib.it/view/MSS_Vat.gr.699" corresp="https://digi.vatlib.it/view/MSS_Vat.gr.699">Vat. Gr. 699</witness>
@@ -36,7 +36,55 @@
                         The present TEI file is enriched with an
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9_]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef>
+     <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1">
+    </prefixDef>
+     <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1">
+    </prefixDef>
+     <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1">
+    </prefixDef>
+    <prefixDef ident="pleiades" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://pleiades.stoa.org/places/$1">
+    </prefixDef>
+    <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1">
+    </prefixDef>
+    <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1">
+    </prefixDef>
+    <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+    </prefixDef>
+    <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1">
+    </prefixDef>
+    <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1">
+    </prefixDef>
+
+    <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1">
+    </prefixDef>
+    <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1">
+    </prefixDef>
+    <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1">
+    </prefixDef>
+
+    <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1">
+    </prefixDef>
+
+    <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1">
+    </prefixDef>
+     <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1">
+     </prefixDef>
+     <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9_]+)" replacementPattern="http://erlangen-crm.org/current/$1">
+     </prefixDef>
+     <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1">
+     </prefixDef>
+</listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <t:creation/>
             <t:abstract>
@@ -49,8 +97,19 @@
                 </t:keywords>
             </t:textClass>
             <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
-        <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></t:profileDesc>
+        <calendarDesc>
+	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
+	<calendar xml:id="ethiopian">
+		<p> ʿĀmata śəggāwe (Era of the Incarnation – Ethiopian)</p>
+	</calendar>
+	<calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar>
+	<calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar>
+	<calendar xml:id="alexander"><p> Era of Alexander</p></calendar>
+	<calendar xml:id="evangelists"><p>Evangelists' years</p></calendar>
+	<calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar>
+	<calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar>
+	<calendar xml:id="julian"><p>Julian</p></calendar>
+</calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change when="2018-07-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
         </t:revisionDesc>
@@ -84,7 +143,7 @@
                     ἔθνη εἰρηνεύεσθαι κελεύσας, ἐπολέμησα καὶ ὑπέταξα μάχαις τὰ ὑπογεγραμμένα ἔθνη· 
                         
                             
-                            <t:placeName type="ethnic" xml:id="gaze" ref="39303">
+                            <t:placeName type="ethnic" xml:id="gaze" ref="https://pleiades.stoa.org/places/39303">
                                 <t:certainty locus="value" match="../@ref" resp="#salt">
                                     <t:desc>
                         <t:quote>Adegada, or Gaza; (Ade simply meaning a town or district)</t:quote>
@@ -103,7 +162,7 @@
                     <t:app corresp="#gaze">
                         <t:note xml:lang="en">Identified with Aksum, because the Scholion to
                             Florentinus Laurentianus Plut. IX.28 says <t:foreign xml:lang="grc">Γάζην
-                                λέγει τοῦς <t:placeName ref="39303">Ἀξωμίτας</t:placeName> · ἄχρι γὰρ καὶ τοῦ νῦν Ἀγάζη αὐτοῦς
+                                λέγει τοῦς <t:placeName ref="https://pleiades.stoa.org/places/39303">Ἀξωμίτας</t:placeName> · ἄχρι γὰρ καὶ τοῦ νῦν Ἀγάζη αὐτοῦς
                                 ὀνομάζουσι</t:foreign>.</t:note>
                     </t:app>
                      ἔθνος ἐπολέμησα, ἔπειτα 
@@ -114,7 +173,7 @@
                   </t:certainty>
                         Ἄγαμε</t:placeName>
                     
-                    καὶ <t:placeName xml:id="siguene" ref="40308">
+                    καὶ <t:placeName xml:id="siguene" ref="https://pleiades.stoa.org/places/40308">
                         <t:certainty locus="value" match="../@ref" resp="#salt">
                      <t:desc>
                         <t:quote>province of Sigue or Siré (as Dr. Vincent says)</t:quote>
@@ -137,7 +196,7 @@
                     <t:app corresp="#siguene">
                             <t:note xml:lang="en">Florentinus Laurentianus Plut. IX.28 Scholion says
                                 <t:foreign xml:lang="grc">
-                        <t:placeName ref="40308">Σιγύηνε</t:placeName> τοῦς <t:placeName ref="40308">Σουσκινίτας</t:placeName> καλεῖ καὶ τὰ ἐγγὺς αὐτῶν ἔθνη.</t:foreign>
+                        <t:placeName ref="https://pleiades.stoa.org/places/40308">Σιγύηνε</t:placeName> τοῦς <t:placeName ref="https://pleiades.stoa.org/places/40308">Σουσκινίτας</t:placeName> καλεῖ καὶ τὰ ἐγγὺς αὐτῶν ἔθνη.</t:foreign>
                   </t:note>
                         </t:app>
                     
@@ -147,7 +206,7 @@
                     <t:seg type="interpretation" n="A" ana="#Fauvelle-Aymar"/>
                
                     
-                    <t:placeName ref="40063">
+                    <t:placeName ref="https://pleiades.stoa.org/places/40063">
                         <t:certainty locus="value" match="../@ref" resp="#salt">
                      <t:desc>
                         <t:quote>Awa or AVA, which is Ade-Awa, or 
@@ -173,7 +232,7 @@
                   </t:certainty>Αὔα</t:placeName> καὶ 
 
                     
-                    <t:placeName ref="40351">
+                    <t:placeName ref="https://pleiades.stoa.org/places/40351">
                         <t:certainty locus="value" match="../@ref" resp="#salt">
                      <t:desc>
                         <t:quote>the province of Bugné, inhabited by blacks (or Galla)</t:quote>
@@ -224,7 +283,7 @@
                   </t:note>
                     </t:app>   καὶ 
                     
-                    <t:placeName xml:id="tzama" ref="40338">
+                    <t:placeName xml:id="tzama" ref="https://pleiades.stoa.org/places/40338">
                         <t:certainty locus="value" match="../@ref" resp="#salt">
                             <t:desc>
                         <t:quote>Tziama, or Tzama.</t:quote>
@@ -251,7 +310,7 @@
                             <t:foreign xml:lang="grc">Τίαμα τοῦς λεγουμένος Τζιαμῶ καὶ τοὺς Γαμβελὰ καὶ τὰ ἐγγὺς αὐτῶν λέγει ἔθνη τὰ πέραν τοῦ Νείλου.</t:foreign>
                   </t:note>
                     </t:app>
-                    <t:placeName ref="40059">
+                    <t:placeName ref="https://pleiades.stoa.org/places/40059">
                         <t:certainty locus="value" match="../@ref" resp="#salt">
                         <t:desc>
                         <t:quote>Ath-Agaws or the Agaws</t:quote>
@@ -269,7 +328,7 @@
                   Ἀθαγαοὺς</t:placeName> καὶ 
                     
                     <t:seg type="interpretation" n="1" ana="#salt"/>
-                    <t:placeName ref="40169">
+                    <t:placeName ref="https://pleiades.stoa.org/places/40169">
                         <t:certainty locus="value" match="../@ref" resp="#salt">
                         <t:desc>
                         <t:quote>Halaat or Salait</t:quote>
@@ -315,7 +374,7 @@
                     <t:seg type="interpretation" n="1" ana="#Bernand"/>
                
                     ἔπειτα 
-                    <t:placeName ref="40192">
+                    <t:placeName ref="https://pleiades.stoa.org/places/40192">
                         <t:certainty locus="value" match="../@ref" resp="#salt" assertedValue="LOC4259Lasta">
                         <t:desc>
                         <t:quote>Lasta</t:quote>
@@ -329,7 +388,7 @@
                   </t:certainty>Λασινὲ</t:placeName> καὶ 
                     
                     <t:seg type="interpretation" n="2" ana="#salt"/>
-                    <t:placeName ref="40347">
+                    <t:placeName ref="https://pleiades.stoa.org/places/40347">
                         <t:certainty locus="value" match="../@ref" resp="#salt" assertedValue="LOC5597Sawa">
                         <t:desc>
                         <t:quote>Shawa or Zaa</t:quote>
@@ -345,7 +404,7 @@
                      <t:desc>Mount Zaad</t:desc>
                   </t:certainty>Ζαὰ</t:placeName> καὶ 
                     
-                    <t:placeName xml:id="gabala" ref="40144">
+                    <t:placeName xml:id="gabala" ref="https://pleiades.stoa.org/places/40144">
                         <t:certainty locus="value" match="../@ref" resp="#Huntingford">
                      <t:desc>
                         <t:quote>Gäbäle near Ĕnṭälo</t:quote>
@@ -367,9 +426,9 @@
                     
                     <t:seg type="interpretation" n="C" ana="#Fauvelle-Aymar"/>
                
-                    <t:placeName ref="40058">Ἀταλμῶ</t:placeName> καὶ 
+                    <t:placeName ref="https://pleiades.stoa.org/places/40058">Ἀταλμῶ</t:placeName> καὶ 
                     
-                    <t:placeName xml:id="bega" ref="40079">
+                    <t:placeName xml:id="bega" ref="https://pleiades.stoa.org/places/40079">
                         
                         <t:certainty locus="value" match="../@ref" resp="#salt">
                      <t:desc>
@@ -404,9 +463,9 @@
                     </t:app>
                     
                     <t:seg type="interpretation" n="2" ana="#Huntingford"/>
-                    τὰ μέχρι τῶν τῆς <t:placeName ref="981503">Αἰγύπτου</t:placeName> ὁρίων οἰκοῦντα,
+                    τὰ μέχρι τῶν τῆς <t:placeName ref="https://pleiades.stoa.org/places/981503">Αἰγύπτου</t:placeName> ὁρίων οἰκοῦντα,
                     ὑποτάξας πεζεύεσθαι ἐποίησα τὴν ὁδὸν ἀπὸ τῶν τῆς ἐμῆς βασιλείας τόπων μέχρι
-                        <t:placeName ref="981503">Αἰγύπτου</t:placeName>,
+                        <t:placeName ref="https://pleiades.stoa.org/places/981503">Αἰγύπτου</t:placeName>,
                     
 
                     
@@ -416,7 +475,7 @@
                     <t:seg type="interpretation" n="2" ana="#Bernand"/>
                     
                     
-                    <t:placeName xml:id="annene" ref="40040">
+                    <t:placeName xml:id="annene" ref="https://pleiades.stoa.org/places/40040">
                         <t:certainty locus="value" match="../@ref" resp="#vivien">
                      <t:desc>dans la region des Bega</t:desc>
                   </t:certainty>
@@ -426,7 +485,7 @@
                   </t:certainty>Ἀννήνε</t:placeName> καὶ 
                     
                     
-                    <t:placeName xml:id="metine" ref="40223">
+                    <t:placeName xml:id="metine" ref="https://pleiades.stoa.org/places/40223">
                         <t:certainty locus="value" match="../@ref" resp="#vivien">
                      <t:desc>dans la region des Bega</t:desc>
                   </t:certainty>
@@ -448,7 +507,7 @@
                
                     
                     <t:seg type="interpretation" n="3" ana="#Huntingford"/>
-                    <t:placeName xml:id="sesea" ref="40306">
+                    <t:placeName xml:id="sesea" ref="https://pleiades.stoa.org/places/40306">
                         <t:certainty locus="value" match="../@ref" resp="#vivien">
                      <t:desc>Somali</t:desc>
                   </t:certainty>
@@ -476,7 +535,7 @@
                     
                     <t:seg type="interpretation" n="E" ana="#Fauvelle-Aymar"/>
                
-                    <t:placeName xml:id="rauso" ref="40270">
+                    <t:placeName xml:id="rauso" ref="https://pleiades.stoa.org/places/40270">
                   <t:certainty locus="value" match="../@ref" resp="#Huntingford">
                      <t:desc>
                         <t:quote>Almost anywhere in northern Somalia</t:quote>
@@ -494,10 +553,10 @@
                     
                     μεσόγεια 
                     
-                    <t:placeName ref="39370">λιβανωτοφόρων βαρβάρων</t:placeName> οἰκοῦντα ἐντὸς πεδίων μεγάλων ἀνύδρων,
+                    <t:placeName ref="https://pleiades.stoa.org/places/39370">λιβανωτοφόρων βαρβάρων</t:placeName> οἰκοῦντα ἐντὸς πεδίων μεγάλων ἀνύδρων,
                     
                    
-                   καὶ <t:placeName xml:id="solate" ref="40316">
+                   καὶ <t:placeName xml:id="solate" ref="https://pleiades.stoa.org/places/40316">
                        <t:certainty locus="value" match="../@ref" resp="#littmann">
                      <t:desc>Seltagé</t:desc>
                   </t:certainty>
@@ -534,17 +593,17 @@
                     
                     <t:seg type="interpretation" n="4" ana="#Bernand"/>
                
-                    Καὶ πέραν δὲ τῆς<t:placeName ref="39290">Ἐρυθρᾶς θαλάσσης</t:placeName> οἰκοῦντα 
+                    Καὶ πέραν δὲ τῆς<t:placeName ref="https://pleiades.stoa.org/places/39290">Ἐρυθρᾶς θαλάσσης</t:placeName> οἰκοῦντα 
                     
                     
                     
-                    <t:placeName xml:id="arabitas" ref="40050">Ἀραβίτας</t:placeName> καὶ
+                    <t:placeName xml:id="arabitas" ref="https://pleiades.stoa.org/places/40050">Ἀραβίτας</t:placeName> καὶ
                     <t:app corresp="#arabitas">
                         <t:note xml:lang="en">Florentinus Laurentianus Plut. IX.28 has a scholion
                             saying <t:foreign xml:lang="grc">Ἀραβίτας ἐνταῦθα τοὺς Ὁμηρίτας καλεῖ καὶ Κιναιδοκολπίτας τοὺς παραλίους Ἀδονίτας καλεῖ</t:foreign>
                   </t:note>
                     </t:app>
-                    <t:placeName xml:id="kinaidokolpitas" ref="39360">
+                    <t:placeName xml:id="kinaidokolpitas" ref="https://pleiades.stoa.org/places/39360">
                         <t:certainty locus="value" match="../@ref" resp="#dillmann">
                      <t:desc>Haouara</t:desc>
                   </t:certainty>
@@ -560,7 +619,7 @@
                     φόρους τῆς γῆς τελεῖν ἐκέλευσα καὶ ὁδεύεσθαι μετ᾽εἰρήνης καὶ πλέεσθαι, ἀπὸ τε
                     
                     
-                    <t:placeName xml:id="leuke" ref="814698">
+                    <t:placeName xml:id="leuke" ref="https://pleiades.stoa.org/places/814698">
                         <t:certainty locus="value" match="../@ref" resp="#dillmann">
                      <t:desc>Haouara</t:desc>
                   </t:certainty>Λευκῆς κώμης</t:placeName> 
@@ -593,7 +652,7 @@
                     ἐγέννησε, <t:pb corresp="#VatGr699" n="17r"/> δι᾽οὗ πάντα τὰ ἔθνη δι᾽οὗ πάντα τὰ
                     ἔθνη <t:cb n="a"/> τὰ ὁμοροῦντα τῇ ἐμῇ γῇ ἀπὸ μὲν ἀνατολῆς
                     
-                    μέχρι τῆς <t:placeName ref="39370">
+                    μέχρι τῆς <t:placeName ref="https://pleiades.stoa.org/places/39370">
                   <t:certainty locus="value" match="../@ref" resp="#Bernand">
                      <t:desc>Somalie</t:desc>
                   </t:certainty>λιβανωτοφόρου</t:placeName>,
@@ -609,7 +668,7 @@
                   </t:certainty>
                   <t:certainty locus="value" match="../@ref" assertedValue="LOC5017Nubia" resp="#speidel"/>Αἰθιοπίας</t:placeName>
                
-                    καὶ <t:placeName xml:id="sasou" ref="40296">
+                    καὶ <t:placeName xml:id="sasou" ref="https://pleiades.stoa.org/places/40296">
                   <t:certainty locus="value" match="../@ref" resp="#Huntingford" assertedValue="ETH2070Sidaam">
                      <t:desc>
                         <t:quote>Sidama country</t:quote>
