@@ -193,6 +193,11 @@ jobs:
             exit 1
           fi
 
+      - name: Install xmllint for retired-ids gate
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils
+
       - name: Refuse resurrected retired ids
         run: bash scripts/ci/check-retired-ids.sh --root .
 
