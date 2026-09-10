@@ -15,7 +15,7 @@
                Attribution-ShareAlike 4.0. 
             </licence>
             </availability>
-         <date type="expanded">7.9.2026 at 09:02:08</date><date type="lastModified">9.1.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT0300Malke/main</idno><idno type="URI">https://betamasaheft.eu/LIT0300Malke</idno><idno type="filename">LIT0300Malke.xml</idno><idno type="ID">LIT0300Malke</idno></publicationStmt>
+         <date type="expanded">10.9.2026 at 08:55:47</date><date type="lastModified">9.1.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT0300Malke/main</idno><idno type="URI">https://betamasaheft.eu/LIT0300Malke</idno><idno type="filename">LIT0300Malke.xml</idno><idno type="ID">LIT0300Malke</idno></publicationStmt>
          <sourceDesc>
             <p>Malkǝʾa Gubāʾe</p>
          </sourceDesc>
@@ -32,8 +32,19 @@
                <term key="ChristianLiterature" ana="#ChristianLiterature"/>
             </keywords>
          </textClass>
-      <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
+      <calendarDesc>
+	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
+	<calendar xml:id="ethiopian">
+		<p> ʿĀmata śəggāwe (Era of the Incarnation – Ethiopian)</p>
+	</calendar>
+	<calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar>
+	<calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar>
+	<calendar xml:id="alexander"><p> Era of Alexander</p></calendar>
+	<calendar xml:id="evangelists"><p>Evangelists' years</p></calendar>
+	<calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar>
+	<calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar>
+	<calendar xml:id="julian"><p>Julian</p></calendar>
+</calendarDesc></profileDesc>
       <revisionDesc>
          <change when="2024-12-01" who="#AD"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record for Malkea gubae</change>
          <change when="2025-01-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Transformed XML record by Augustine Dickinson</change>
@@ -47,6 +58,7 @@
          <div type="bibliography">
             <listBibl type="editions">
                <bibl corresp="http://zotero.org/groups/358366/items/BL5NWGBV"><seg type="webpage"><!-- attributes from original bibl--></seg><ptr target="bm:MgWebsite"/><title level="a">መልክአ፡ ጉባኤ፡ Malkǝʾa gubāʾe</title><author><forename>Augustine</forename><surname>Dickinson</surname></author><date>2020</date><note type="accessed">2024-09-24</note><note type="url">https://malkeagubae.com/</note><note type="tags"><note type="tag">bm:MgWebsite</note></note><note type="tag">bm:MgWebsite</note></bibl>
+               <bibl corresp="http://zotero.org/groups/358366/items/ZV7HEWJG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Raineri2009MelkaKrestos"/><title level="m">Vita del santo monaco etiopico Malkeʿa Krestos (sec. XVI-XVII)</title><title level="s">Patrologia Orientalis</title><editor><forename>Osvaldo</forename><surname>Raineri</surname></editor><pubPlace>Turnhout/Belgique</pubPlace><publisher>Brepols</publisher><date>2009</date><series><title level="s">Patrologia Orientalis</title><biblScope unit="volume">51/3 (228)</biblScope></series><biblScope unit="volume">51/3 (228)</biblScope><note type="tags"><note type="tag">bm:Raineri2009MelkaKrestos</note></note><note type="tag">bm:Raineri2009MelkaKrestos</note></bibl>
             </listBibl>
          </div>
          <div type="edition" xml:lang="gez" xml:id="div2LIT0300Malke">

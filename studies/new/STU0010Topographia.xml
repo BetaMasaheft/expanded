@@ -14,7 +14,7 @@
                         This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
                     </licence>
                 </availability>                        
-            <date type="expanded">7.9.2026 at 14:21:40</date><date type="lastModified">20.10.2025</date><idno type="collection">studies</idno><idno type="url">https://betamasaheft.eu/studies/STU0010Topographia/main</idno><idno type="URI">https://betamasaheft.eu/STU0010Topographia</idno><idno type="filename">STU0010Topographia.xml</idno><idno type="ID">STU0010Topographia</idno></publicationStmt>  
+            <date type="expanded">10.9.2026 at 13:57:37</date><date type="lastModified">20.10.2025</date><idno type="collection">studies</idno><idno type="url">https://betamasaheft.eu/studies/STU0010Topographia/main</idno><idno type="URI">https://betamasaheft.eu/STU0010Topographia</idno><idno type="filename">STU0010Topographia.xml</idno><idno type="ID">STU0010Topographia</idno></publicationStmt>  
             <sourceDesc>
                 <p>digitally created file</p>    
              </sourceDesc>
@@ -28,7 +28,55 @@
                         The present TEI file is enriched with an
                         <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
                         taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
-                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef><prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1"/><prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1"/><prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1"/><prefixDef ident="pleiades" matchPattern="(\d-3)" replacementPattern="https://pleiades.stoa.org/places/$1"/><prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1"/><prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1"/><prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1"/><prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1"/><prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1"/><prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1"/><prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1"/><prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1"/><prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1"/><prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1"/><prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1"/><prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1"/><prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1"/><prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1"/><prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9_]+)" replacementPattern="http://erlangen-crm.org/current/$1"/><prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1"/></listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef>
+     <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1">
+    </prefixDef>
+     <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1">
+    </prefixDef>
+     <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1">
+    </prefixDef>
+    <prefixDef ident="pleiades" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://pleiades.stoa.org/places/$1">
+    </prefixDef>
+    <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1">
+    </prefixDef>
+    <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1">
+    </prefixDef>
+    <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+    </prefixDef>
+    <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1">
+    </prefixDef>
+    <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1">
+    </prefixDef>
+
+    <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1">
+    </prefixDef>
+    <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1">
+    </prefixDef>
+    <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1">
+    </prefixDef>
+
+    <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1">
+    </prefixDef>
+
+    <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1">
+    </prefixDef>
+     <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1">
+     </prefixDef>
+     <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9_]+)" replacementPattern="http://erlangen-crm.org/current/$1">
+     </prefixDef>
+     <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1">
+     </prefixDef>
+</listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
         <profileDesc>
             <abstract><p> Topographia christiana is a Greek cosmographical work preserved in three manuscripts: Vaticanus graecus 699, Laurentianus Pluteanus 9.28, and Sinaiticus graecus 1186. It was written around <date>547-49</date>, circulated anonymous in the later half of the sixth century, and attributed to a <persName ref="https://betamasaheft.eu/PRS3204CosmasI">Cosmas Indicopleustes (<foreign xml:lang="grc">κοσμᾶς ἰνδικοπλεύστης</foreign>)</persName> by latter hands in the margin of the Sinaiticus and Laurentianus manuscripts. Basing on an Antiochene understanding of the Bible, Cosmas depicts the cosmos as Moses' tabernacle and argues against the Ptolemaic view of the earth as a globe. In the Topographia, he addresses Mar Aba as his teacher and shows polemical attitude against <persName ref="https://betamasaheft.eu/PRS9477Theodosi"> Theodosius I of Alexandria</persName>. 
                     Topographia Christiana is one of the most valuable historical material for the late antique Ethiopia. Cosmas provides information on the "silent trade" between <placeName xml:id="Aksum" ref="https://betamasaheft.eu/LOC1310Aksum">ʾAksum</placeName> and the inland Africa in II.51 and the local animals in Ethiopia in XI.1-8, and mentions the presence of Ethiopian trading ships on <placeName xml:id="Ceylon" ref="https://betamasaheft.eu/LOC2161Ceylon">Taprobana</placeName> in XI.12. It also contains the Greek version of RIE 276 and RIE 277 with an illustration of the outlook and position of the inscriptions in II.54-64. According to Cosmas, he copied these inscriptions for <persName ref="https://betamasaheft.eu/PRS5841Kaleb">Kāleb</persName> when the reign of Justinian began.          
@@ -36,8 +84,19 @@
             <langUsage>
                 <language ident="en">English</language>
             </langUsage>
-        <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
+        <calendarDesc>
+	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
+	<calendar xml:id="ethiopian">
+		<p> ʿĀmata śəggāwe (Era of the Incarnation – Ethiopian)</p>
+	</calendar>
+	<calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar>
+	<calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar>
+	<calendar xml:id="alexander"><p> Era of Alexander</p></calendar>
+	<calendar xml:id="evangelists"><p>Evangelists' years</p></calendar>
+	<calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar>
+	<calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar>
+	<calendar xml:id="julian"><p>Julian</p></calendar>
+</calendarDesc></profileDesc>
         <revisionDesc>
             <change when="2025-10-20" who="#YL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created the record</change>
         </revisionDesc>

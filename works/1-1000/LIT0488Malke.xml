@@ -15,7 +15,7 @@
                Attribution-ShareAlike 4.0. 
             </licence>
             </availability>
-         <date type="expanded">7.9.2026 at 09:02:08</date><date type="lastModified">23.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT0488Malke/main</idno><idno type="URI">https://betamasaheft.eu/LIT0488Malke</idno><idno type="filename">LIT0488Malke.xml</idno><idno type="ID">LIT0488Malke</idno></publicationStmt>
+         <date type="expanded">10.9.2026 at 08:55:47</date><date type="lastModified">23.6.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT0488Malke/main</idno><idno type="URI">https://betamasaheft.eu/LIT0488Malke</idno><idno type="filename">LIT0488Malke.xml</idno><idno type="ID">LIT0488Malke</idno></publicationStmt>
          <sourceDesc>
             <p>Malkǝʾa Gubāʾe</p>
          </sourceDesc>
@@ -31,8 +31,19 @@
                <term key="ChristianLiterature" ana="#ChristianLiterature"/>
             </keywords>
          </textClass>
-      <calendarDesc><calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar><calendar xml:id="ethiopian"><p> ʿĀmata śəggāwe (Era of the Incarnation –
-                                    Ethiopian)</p></calendar><calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar><calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar><calendar xml:id="alexander"><p> Era of Alexander</p></calendar><calendar xml:id="evangelists"><p>Evangelists' years</p></calendar><calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar><calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar><calendar xml:id="julian"><p>Julian</p></calendar></calendarDesc></profileDesc>
+      <calendarDesc>
+	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
+	<calendar xml:id="ethiopian">
+		<p> ʿĀmata śəggāwe (Era of the Incarnation – Ethiopian)</p>
+	</calendar>
+	<calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar>
+	<calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar>
+	<calendar xml:id="alexander"><p> Era of Alexander</p></calendar>
+	<calendar xml:id="evangelists"><p>Evangelists' years</p></calendar>
+	<calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar>
+	<calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar>
+	<calendar xml:id="julian"><p>Julian</p></calendar>
+</calendarDesc></profileDesc>
       <revisionDesc>
          <change when="2025-06-20" who="#AD"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created XML record for Malkea gubae see issue https://github.com/BetaMasaheft/Documentation/issues/2755</change>
          <change when="2025-06-23" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Transformed XML record by Augustine Dickinson</change>
