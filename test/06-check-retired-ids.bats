@@ -65,6 +65,45 @@ write_manifest() {
   [[ "$output" == *"LIT9999Ghost"* ]] || [[ "$stderr" == *"LIT9999Ghost"* ]]
 }
 
+@test "fails when retired id is only on TEI @xml:id (basename differs)" {
+  root="${BATS_TEST_TMPDIR}/xmlid-only"
+  mkdir -p "${root}/persons/1-1000" "${root}/config"
+  write_manifest "${root}/config/retired-ids.xml" "PRS9999Ghost"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS9999Ghost"/>' \
+    > "${root}/persons/1-1000/RENAMED_STILL_GHOST.xml"
+  run bash "$SCRIPT" --root "$root"
+  [ "$status" -ne 0 ]
+  [[ "$output" == *"PRS9999Ghost"* ]] || [[ "$stderr" == *"PRS9999Ghost"* ]]
+  [[ "$output" == *"xml:id"* ]] || [[ "$stderr" == *"xml:id"* ]]
+}
+
+@test "ignores nested xml:id that is not the root TEI id" {
+  root="${BATS_TEST_TMPDIR}/nested-xmlid"
+  mkdir -p "${root}/works/1-1000" "${root}/config"
+  write_manifest "${root}/config/retired-ids.xml" "PRS9999Ghost"
+  cat > "${root}/works/1-1000/LIVEok.xml" <<'EOF'
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LIVEok">
+  <text><body><div xml:id="PRS9999Ghost"/></body></text>
+</TEI>
+EOF
+  run bash "$SCRIPT" --root "$root"
+  [ "$status" -eq 0 ]
+}
+
+@test "matches NFC-normalized @xml:id against tombstone" {
+  root="${BATS_TEST_TMPDIR}/nfc"
+  mkdir -p "${root}/persons/1-1000" "${root}/config"
+  # Tombstone uses NFC; file uses NFD (e + combining acute) for the same letter.
+  nfc_id=$(python3 -c 'import unicodedata; print(unicodedata.normalize("NFC", "PRS\u00e9Test"))')
+  nfd_id=$(python3 -c 'import unicodedata; print(unicodedata.normalize("NFD", "PRS\u00e9Test"))')
+  write_manifest "${root}/config/retired-ids.xml" "${nfc_id}"
+  printf '%s\n' "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xml:id=\"${nfd_id}\"/>" \
+    > "${root}/persons/1-1000/OTHER.xml"
+  run bash "$SCRIPT" --root "$root"
+  [ "$status" -ne 0 ]
+  [[ "$output" == *"PRS"* ]] || [[ "$stderr" == *"PRS"* ]]
+}
+
 @test "matches URL-encoded tombstone against UTF-8 basename" {
   root="${BATS_TEST_TMPDIR}/encoded"
   mkdir -p "${root}/persons/1-1000" "${root}/config"

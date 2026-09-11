@@ -15,7 +15,8 @@ jobs:
         uses: actions/checkout@v7
         with:
           path: project
-          fetch-depth: 2
+          # Need base.sha available for the changed-files diff on large PRs.
+          fetch-depth: 0
       # checkout schema as xmllint can't https
       - name: Checkout schema repo
         uses: actions/checkout@v7
@@ -26,49 +27,93 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libxml2-utils
-      # Compare locally changed files to PR's base
+      # Write changed XML paths to a file — never stuff tens of thousands of
+      # paths into GITHUB_OUTPUT (breaks corpus-wide baseline PRs).
       - name: Check for changed source files
         id: changed
         run: |
-          {
-            echo "FILES=$(git diff --name-only --diff-filter=ACMRT \
-            ${{ github.event.pull_request.base.sha }} \
-            ${{ github.sha }} \
+          set -euo pipefail
+          list=changed-xml.txt
+          git diff --name-only --diff-filter=ACMRT \
+            "${{ github.event.pull_request.base.sha }}" \
+            "${{ github.sha }}" \
             -- ':./**/*.xml' ':!*/transkribus*.xml' ':!*/facsimile*.xml' \
             ':!./**/edition.xml' ':!./**/msDesc.xml' ':!./**/*text.xml' \
             ':!./**/taxonomy.xml' ':*.xml' ':!build.xml' ':!expath-pkg.xml' \
             ':!repo.xml' ':!test/fixtures/**' ':!**/new/**' \
-            ':!config/retired-ids.xml' | xargs)"
+            ':!config/retired-ids.xml' \
+            > "${list}" || true
+          count=$(wc -l < "${list}" | tr -d ' ')
+          {
+            echo "count=${count}"
+            if [ "${count}" -gt 0 ]; then
+              echo "has_files=true"
+            else
+              echo "has_files=false"
+            fi
           } >> "$GITHUB_OUTPUT"
-      # If no xml files were modified ...
+          echo "changed XML files: ${count}"
       - name: No source files changed
-        if: ${{ steps.changed.outputs.FILES == '' }}
-        run: |
-          echo "All good"
-      # ... otherwise
+        if: ${{ steps.changed.outputs.has_files != 'true' }}
+        run: echo "All good"
       - name: List modified documents
-        env:
-          FILES: ${{ steps.changed.outputs.FILES }}
-        if: ${{ steps.changed.outputs.FILES != '' }}  
+        if: ${{ steps.changed.outputs.has_files == 'true' }}
         run: |
-          echo "modified: $FILES"
-      # Validate changed files against latest schema
-      - name: Validate changed source files
-        env:
-          FILES: ${{ steps.changed.outputs.FILES }}
-        if: ${{ steps.changed.outputs.FILES != '' }}
+          echo "modified (${{ steps.changed.outputs.count }}):"
+          head -n 50 changed-xml.txt
+          if [ "${{ steps.changed.outputs.count }}" -gt 50 ]; then
+            echo "... ($(( ${{ steps.changed.outputs.count }} - 50 )) more)"
+          fi
+      # Always exercise xmllint + expanded RNG (even on workflow-only PRs).
+      # Source data repos (Works/Persons/…) run RNG only when XML changes, and
+      # their `grep -vE 'RNG|validates' || :` pattern never fails the job —
+      # `fails to validate` is filtered out. After the clean hybrid baseline we
+      # can enforce for real.
+      - name: RNG toolchain smoke
         run: |
-          xmllint \
-            --noout --xinclude --nowarning \
+          set -euo pipefail
+          # -quit avoids find|head SIGPIPE under pipefail
+          sample=$(
+            find . -type f -name '*.xml' \
+              ! -path './.git/*' ! -path './test/*' ! -path '*/new/*' \
+              ! -name 'build.xml' ! -name 'repo.xml' ! -name 'expath-pkg.xml' \
+              ! -name 'retired-ids.xml' \
+              -print -quit
+          )
+          echo "smoke sample: ${sample}"
+          xmllint --noout --xinclude --nowarning \
             --relaxng ../schema/tei-betamesaheft-expanded.rng \
-            $FILES \
-            2>&1 | \
-            { grep -vE 'RNG|validates' || :; }
+            "${sample}"
+      # Cap keeps corpus-wide baseline PRs from timing out; local jing covers those.
+      - name: Validate changed source files
+        if: ${{ steps.changed.outputs.has_files == 'true' }}
+        env:
+          MAX_RNG_FILES: "500"
+        run: |
+          set -euo pipefail
+          count="${{ steps.changed.outputs.count }}"
+          if [ "${count}" -gt "${MAX_RNG_FILES}" ]; then
+            echo "::warning::Skipping PR RNG for ${count} files (>${MAX_RNG_FILES}). Use local jing for corpus-wide PRs; well-formedness still runs."
+            exit 0
+          fi
+          # Capture output so we can drop success chatter without swallowing
+          # failures. Do NOT grep -v 'validates' — that hides 'fails to validate'.
+          tmp=$(mktemp)
+          status=0
+          tr '\n' '\0' < changed-xml.txt \
+            | xargs -0 -n 50 xmllint \
+              --noout --xinclude --nowarning \
+              --relaxng ../schema/tei-betamesaheft-expanded.rng \
+            >"${tmp}" 2>&1 || status=$?
+          grep -vE ' validates$' "${tmp}" || true
+          rm -f "${tmp}"
+          exit "${status}"
       # ensure branch contains only well-formed xml files (includes **/new/* stubs)
       - name: Ensure all XML files are well formed
         run: |
-          xmllint --noout \
-            $(find . -type f -name '*.xml')
+          set -euo pipefail
+          find . -type f -name '*.xml' -print0 \
+            | xargs -0 -n 50 xmllint --noout
       - name: Refuse resurrected retired ids
         run: bash scripts/ci/check-retired-ids.sh --root .
       - name: Report overdue new/ stubs (warn only)
