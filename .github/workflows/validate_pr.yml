@@ -64,17 +64,49 @@ jobs:
           if [ "${{ steps.changed.outputs.count }}" -gt 50 ]; then
             echo "... ($(( ${{ steps.changed.outputs.count }} - 50 )) more)"
           fi
-      - name: Validate changed source files
-        if: ${{ steps.changed.outputs.has_files == 'true' }}
+      # Always exercise xmllint + expanded RNG (even on workflow-only PRs).
+      # Source data repos (Works/Persons/…) run RNG only when XML changes, and
+      # their `grep -vE 'RNG|validates' || :` pattern never fails the job —
+      # `fails to validate` is filtered out. After the clean hybrid baseline we
+      # can enforce for real.
+      - name: RNG toolchain smoke
         run: |
           set -euo pipefail
-          # Batch so neither ARG_MAX nor one giant xmllint argv blows up.
+          sample=$(
+            find . -type f -name '*.xml' \
+              ! -path './.git/*' ! -path './test/*' ! -path '*/new/*' \
+              ! -name 'build.xml' ! -name 'repo.xml' ! -name 'expath-pkg.xml' \
+              ! -name 'retired-ids.xml' \
+              | head -n 1
+          )
+          echo "smoke sample: ${sample}"
+          xmllint --noout --xinclude --nowarning \
+            --relaxng ../schema/tei-betamesaheft-expanded.rng \
+            "${sample}"
+      # Cap keeps corpus-wide baseline PRs from timing out; local jing covers those.
+      - name: Validate changed source files
+        if: ${{ steps.changed.outputs.has_files == 'true' }}
+        env:
+          MAX_RNG_FILES: "500"
+        run: |
+          set -euo pipefail
+          count="${{ steps.changed.outputs.count }}"
+          if [ "${count}" -gt "${MAX_RNG_FILES}" ]; then
+            echo "::warning::Skipping PR RNG for ${count} files (>${MAX_RNG_FILES}). Use local jing for corpus-wide PRs; well-formedness still runs."
+            exit 0
+          fi
+          # Capture output so we can drop success chatter without swallowing
+          # failures. Do NOT grep -v 'validates' — that hides 'fails to validate'.
+          tmp=$(mktemp)
+          status=0
           tr '\n' '\0' < changed-xml.txt \
             | xargs -0 -n 50 xmllint \
               --noout --xinclude --nowarning \
               --relaxng ../schema/tei-betamesaheft-expanded.rng \
-            2>&1 \
-            | { grep -vE 'RNG|validates' || :; }
+            >"${tmp}" 2>&1 || status=$?
+          grep -vE ' validates$' "${tmp}" || true
+          rm -f "${tmp}"
+          exit "${status}"
       # ensure branch contains only well-formed xml files (includes **/new/* stubs)
       - name: Ensure all XML files are well formed
         run: |
