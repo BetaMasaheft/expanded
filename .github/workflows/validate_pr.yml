@@ -72,12 +72,13 @@ jobs:
       - name: RNG toolchain smoke
         run: |
           set -euo pipefail
+          # -quit avoids find|head SIGPIPE under pipefail
           sample=$(
             find . -type f -name '*.xml' \
               ! -path './.git/*' ! -path './test/*' ! -path '*/new/*' \
               ! -name 'build.xml' ! -name 'repo.xml' ! -name 'expath-pkg.xml' \
               ! -name 'retired-ids.xml' \
-              | head -n 1
+              -print -quit
           )
           echo "smoke sample: ${sample}"
           xmllint --noout --xinclude --nowarning \
