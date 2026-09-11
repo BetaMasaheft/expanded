@@ -1,0 +1,27 @@
+scripts/ci/check-retired-ids.sh
+  s_bfac4543151ff7::t_d731370d19b2ad 3-7,57-60,62,68-90,103-105,112,115-116,124,131,154,181-183,185-193,198
+  s_bfac4543151ff7::t_cf8659a170a936 117-123,125-130,132-153,155-164,166-180
+test/06-check-retired-ids.bats
+  s_bfac4543151ff7::t_3d05d48a3b05d4 68-106
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "2c8c9fe6b7c2892b7d4fcba6a5a51f0456149169",
+  "prompts": {},
+  "humans": {
+    "h_ff0005bef58c9d": {
+      "author": "duncdrum <d.paterson@me.com>"
+    }
+  },
+  "sessions": {
+    "s_bfac4543151ff7": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "86f79926-bf74-4660-badb-9dd045efa2ca",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
