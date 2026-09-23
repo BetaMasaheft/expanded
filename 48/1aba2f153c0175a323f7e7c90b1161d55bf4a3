@@ -1,0 +1,93 @@
+test/02-assemble-shards.bats
+  s_b4064a6f7d116c::t_203146ecfa5956 64,66-67,71-72,83,86
+test/09-image-sources.bats
+  s_b4064a6f7d116c::t_1a50454fce4a6c 1-32
+scripts/ci/assemble-shards.sh
+  s_b4064a6f7d116c::t_5625e3c972ed0a 169-171
+  s_b4064a6f7d116c::t_2c969881cf1994 3-4,11-12
+scripts/ci/prune-absent-shards.sh
+  s_b4064a6f7d116c::t_474c0b67db67a6 74
+  s_b4064a6f7d116c::t_dc9f6b6d6bf635 49
+  s_b4064a6f7d116c::t_380be27fc6a6f4 2,4-6,11,16,18,21,43-44,48,53,55,58-68,71,82-84
+  s_b4064a6f7d116c::t_0a812f163f15ed 1,3,7-10,12-15,17,19-20,22-42,45-47,50-52,54,56-57,69-70,72-73,75-81
+test/10-filter-provenance.bats
+  s_b4064a6f7d116c::t_be4b46b0468fe5 1-94
+.github/workflows/re-expand.yml
+  s_b4064a6f7d116c::t_9a308d240ad156 120-127,131-133,139-140,148,151,166,194,206,212,215,217,222
+  s_b4064a6f7d116c::t_1481e1df3cfc78 146,176-177,181
+  s_b4064a6f7d116c::t_a8663c3e098fed 29
+  s_b4064a6f7d116c::t_295efeac922a7b 22-26
+  s_b4064a6f7d116c::t_6d7a8bac49c60d 36
+  s_b4064a6f7d116c::t_45fc725c734fc5 308-315,320-321,326,340
+  s_b4064a6f7d116c::t_97005a0a0e3db0 30-35,37
+  s_b4064a6f7d116c::t_ea71a7b192f629 62
+  s_b4064a6f7d116c::t_4a85a2f5b96b96 38-44
+  s_b4064a6f7d116c::t_3a92bad0a03dcf 95-97
+  s_b4064a6f7d116c::t_f48d87d4414ded 207
+  s_b4064a6f7d116c::t_c6751a08293a25 297-298
+  s_b4064a6f7d116c::t_b8d2c5ea828868 93-94
+  s_b4064a6f7d116c::t_8481f02ad0b0f5 292,294
+  s_b4064a6f7d116c::t_34af5b45d47122 291,293,295-296,299
+  s_b4064a6f7d116c::t_c0e85fc1e941e0 248
+  s_b4064a6f7d116c::t_c0c925a275e143 134,143-144,147,152-165,167-175,178-180,182-189,192-193,195
+  s_b4064a6f7d116c::t_e427fee96448b7 242
+  s_b4064a6f7d116c::t_3620da4a467541 19
+  s_b4064a6f7d116c::t_6486cb8e90a7db 98-108
+  s_b4064a6f7d116c::t_c65a35dd8efe59 221
+  s_b4064a6f7d116c::t_71996ac5dd4dc3 21,27-28
+  s_b4064a6f7d116c::t_b03cdc780ab8d6 118,128,142,145
+  s_b4064a6f7d116c::t_10f19aa4ffc27d 265,273
+README.md
+  s_b4064a6f7d116c::t_123317eb0e4a70 56,59-62
+  s_b4064a6f7d116c::t_012bea64507983 58
+  s_b4064a6f7d116c::t_745bf3726d19c4 180,182
+  s_b4064a6f7d116c::t_97cd9767337423 90-93
+  s_b4064a6f7d116c::t_ca9412c353e9e4 57
+  s_b4064a6f7d116c::t_d1b03268436e8a 173-175,179
+  s_b4064a6f7d116c::t_12e8db6d7b0ed9 80-83
+  s_b4064a6f7d116c::t_82f6fab0b8e2a2 181
+  s_b4064a6f7d116c::t_26a24efdb3bb6e 84-89
+  s_b4064a6f7d116c::t_3af8aa42ccb325 94
+test/08-prune-absent-shards.bats
+  s_b4064a6f7d116c::t_c9bfb03cc77d38 1-10,12-15,17-18,21-22,24-27,31,41-42,44-46
+  s_b4064a6f7d116c::t_4cf38c07fced69 11,16,19-20,23,28-30,32-40,43
+test/04-select-shards.bats
+  s_b4064a6f7d116c::t_60ac93ab506295 1-34
+scripts/ci/image-sources.sh
+  s_b4064a6f7d116c::t_3bb050f4a5388e 1-56
+scripts/ci/discover-shards.sh
+  s_b4064a6f7d116c::t_54977d4b420ade 2-9
+.github/workflows/reusable-expand-shard.yml
+  s_b4064a6f7d116c::t_92d7d04bb47bf5 94
+  s_b4064a6f7d116c::t_57dbec73afe5d9 171-174
+  s_b4064a6f7d116c::t_730a9c285d6056 66
+  s_b4064a6f7d116c::t_8db70e4acd5ccc 139,141-143
+  s_b4064a6f7d116c::t_2fb7716f394494 152-153,156
+  s_b4064a6f7d116c::t_db500461079b44 151,154-155,157-170,175
+  s_b4064a6f7d116c::t_2138b901ea6013 45-47
+  s_b4064a6f7d116c::t_2d410f46e0bf4e 39-41
+  s_b4064a6f7d116c::t_d47a8128f542a1 4
+  s_b4064a6f7d116c::t_89bedae711e6e9 3,5-6,11-20,22-25,27-38,42-44,56,62-63,65,101-109,113,125-138,140,144-150,176,178,182-186,191,212,236,254
+  s_b4064a6f7d116c::t_e5e558ef5f94fc 64
+scripts/ci/filter-provenance.sh
+  s_b4064a6f7d116c::t_70b96c37dc7d04 1-105
+scripts/ci/select-shards.sh
+  s_b4064a6f7d116c::t_209b81ff7de773 1,3-82
+  s_b4064a6f7d116c::t_fa9c55c22e521c 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "481aba2f153c0175a323f7e7c90b1161d55bf4a3",
+  "prompts": {},
+  "sessions": {
+    "s_b4064a6f7d116c": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "d5632ac4-04a3-45c0-a637-65a985c63b37",
+        "model": "grok-4.6"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
