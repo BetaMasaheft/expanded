@@ -16,11 +16,32 @@ name: Scheduled Re-expansion
 # shards; hybrid keeps matrix grain for narratives/studies/authority-files/
 # corpora and appends heavy */new jobs explicitly.
 #
-# Discover skips `*/new` during the L1 walk, then hybrid/l1 append heavy
+# The shard list skips `*/new` during the L1 walk, then hybrid/l1 append heavy
 # `{corpus}/new` jobs (authority-files/new stays unscheduled). Assemble
-# overlays `new/` without --delete; overdue stubs drop when landed outside
-# new/. IHA corpora re-expand from BetMasData. After assemble,
-# check-retired-ids must pass before push_to_main.
+# deletes a child directory the export does not contain, and keeps `new/`.
+# On a full run, GET /api/expand/deletions names shard directories that
+# this image's expanded collection has and its BetMasData does not.
+# */new is not among them. A collection= pilot does not ask, and does
+# not delete other shards. An older image cannot see a folder that was
+# expanded only into a newer checkout, so it will not delete that folder.
+# Overdue stubs drop when landed outside new/. IHA corpora re-expand from
+# BetMasData. After assemble, check-retired-ids must pass before push_to_main.
+#
+# Every run, including a concrete collection= pilot, boots release-expanded
+# once and GETs /api/expand/shards. That list is the collections inside the
+# image, so a folder that exists only on live git HEAD cannot fail the matrix
+# (expanded#40). The API applies mode grain, splits manuscripts/EMML to L2
+# (a trailing slash or a leading ./ still splits), and refuses
+# authority-files/new. Expand jobs boot the digest that list recorded.
+# missing_only=true then drops paths already present in this checkout.
+# It is ignored when collection is set.
+#
+# A full run also reads provenance.json at the root of this checkout. A shard
+# is skipped when that file already records the image's betmasweb pin, its
+# bibliography pin, and the pin of the shard's corpus (the first path
+# segment). Deletions under an unchanged corpus are skipped the same way.
+# force=true ignores the file. The file is rewritten only in the push_to_main
+# commit of a full run, so a dry run does not advance it.
 
 on:
   workflow_dispatch:
@@ -38,7 +59,7 @@ on:
           hybrid = L1 for works/persons/manuscripts/places/institutions
           (manuscripts/EMML → L2) + matrix for narratives/studies/
           authority-files/corpora + heavy `{corpus}/new` (~193).
-          l1 = one job per expanded-git L1 dir (~214+, EMML L2; skips
+          l1 = one job per BetMasData L1 collection (~214+, EMML L2; skips
           `*/new` during walk, appends other reservation shards).
           matrix = one job per BetMasData corpus root (~9; large corpora
           still risk the expand-shard timeout, currently 300min).
@@ -69,6 +90,22 @@ on:
         required: false
         type: number
         default: 8
+      missing_only:
+        description: >
+          After the image returns its shard list, keep only paths that are
+          not already directories in this checkout. Ignored when collection
+          is set.
+        required: false
+        type: boolean
+        default: false
+      force:
+        description: >
+          Re-expand every shard even when provenance.json already records
+          these source pins. Use when an expand input the pins do not name
+          has changed. Ignored when collection is set.
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: ${{ github.workflow }}
@@ -78,31 +115,84 @@ permissions:
   contents: write
 
 jobs:
+  # One list boot. The API owns grain, the EMML split, and authority-files/new.
   plan:
+    uses: ./.github/workflows/reusable-expand-shard.yml
+    with:
+      mode: list
+      shard_mode: ${{ inputs.shard_mode }}
+      collection: ${{ inputs.collection }}
+    secrets: inherit
+
+  select:
+    needs: plan
     runs-on: ubuntu-latest
     outputs:
-      shards: ${{ steps.list.outputs.shards }}
-      shard_count: ${{ steps.list.outputs.count }}
+      shards: ${{ steps.pick.outputs.shards }}
+      count: ${{ steps.pick.outputs.count }}
+      image: ${{ steps.pick.outputs.image }}
+      removed: ${{ steps.pick.outputs.removed }}
     steps:
       - name: Checkout expanded
         uses: actions/checkout@v7
 
-      - name: Discover shards
-        id: list
+      - name: Filter shard list
+        id: pick
         env:
-          COLLECTION_FILTER: ${{ inputs.collection }}
-          DISCOVER_MODE: ${{ inputs.shard_mode }}
+          SHARDS_JSON: ${{ needs.plan.outputs.shards }}
+          REMOVED_JSON: ${{ needs.plan.outputs.removed }}
+          SOURCES_JSON: ${{ needs.plan.outputs.sources }}
+          IMAGE: ${{ needs.plan.outputs.image }}
+          MISSING_ONLY: ${{ inputs.missing_only }}
+          FORCE: ${{ inputs.force }}
+          COLLECTION: ${{ inputs.collection }}
         run: |
           set -euo pipefail
-          if ! bash scripts/ci/discover-shards.sh --mode "${DISCOVER_MODE}" --out shards.txt; then
-            echo "::error::No shards to expand"
-            exit 1
+          printf '%s\n' "${SHARDS_JSON}" | jq -er '.[]' > shards-in.txt
+          printf '%s\n' "${REMOVED_JSON}" | jq -r '.[]' > removed-in.txt
+          if [ -z "${COLLECTION}" ] && [ "${FORCE}" != "true" ]; then
+            printf '%s\n' "${SOURCES_JSON}" > sources.json
+            bash scripts/ci/filter-provenance.sh \
+              --shards shards-in.txt \
+              --removed removed-in.txt \
+              --sources sources.json \
+              --provenance provenance.json \
+              --out-shards shards-kept.txt \
+              --out-removed removed-kept.txt
+          else
+            cp shards-in.txt shards-kept.txt
+            cp removed-in.txt removed-kept.txt
           fi
-          mapfile -t slices < shards.txt
-          json=$(printf '%s\n' "${slices[@]}" | jq -R . | jq -s -c .)
+          if [ "${MISSING_ONLY}" = "true" ] && [ -z "${COLLECTION}" ]; then
+            if [ -s shards-kept.txt ]; then
+              if ! bash scripts/ci/select-shards.sh \
+                --shards shards-kept.txt --root . --missing-only --out shards.txt; then
+                echo "::error::No shards to expand"
+                exit 1
+              fi
+            else
+              : > shards.txt
+            fi
+          elif [ "${MISSING_ONLY}" = "true" ]; then
+            echo "::notice::missing_only is ignored when collection is set"
+            cp shards-kept.txt shards.txt
+          else
+            cp shards-kept.txt shards.txt
+          fi
+          if [ -s shards.txt ]; then
+            mapfile -t slices < shards.txt
+            json=$(printf '%s\n' "${slices[@]}" | jq -R . | jq -s -c .)
+            echo "count=${#slices[@]}" >> "${GITHUB_OUTPUT}"
+          else
+            json='[]'
+            echo "count=0" >> "${GITHUB_OUTPUT}"
+            echo "Every shard is already published from these source pins."
+          fi
           echo "shards=${json}" >> "${GITHUB_OUTPUT}"
-          echo "count=${#slices[@]}" >> "${GITHUB_OUTPUT}"
-          echo "Planned ${#slices[@]} shard(s) (mode=${DISCOVER_MODE}):"
+          removed_json=$(jq -R . < removed-kept.txt | jq -s -c .)
+          echo "removed=${removed_json}" >> "${GITHUB_OUTPUT}"
+          echo "image=${IMAGE}" >> "${GITHUB_OUTPUT}"
+          echo "Planned $(wc -l < shards.txt | tr -d ' ') shard(s):"
           cat shards.txt
 
       - name: Upload shard manifest
@@ -113,20 +203,23 @@ jobs:
           retention-days: 5
 
   expand:
-    needs: plan
+    needs: select
+    if: needs.select.outputs.count != '0'
     strategy:
       fail-fast: false
       max-parallel: ${{ fromJSON(inputs.max_parallel) }}
       matrix:
-        collection: ${{ fromJSON(needs.plan.outputs.shards) }}
+        collection: ${{ fromJSON(needs.select.outputs.shards) }}
     uses: ./.github/workflows/reusable-expand-shard.yml
     with:
+      mode: expand
       collection: ${{ matrix.collection }}
+      image: ${{ needs.select.outputs.image }}
     secrets: inherit
 
   assemble:
-    needs: [plan, expand]
-    if: ${{ !cancelled() && needs.plan.result == 'success' }}
+    needs: [plan, select, expand]
+    if: ${{ !cancelled() && needs.select.result == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -146,13 +239,13 @@ jobs:
           exit 1
 
       - name: Require full expand success for push
-        if: inputs.push_to_main == true && needs.expand.result != 'success'
+        if: inputs.push_to_main == true && needs.expand.result != 'success' && needs.expand.result != 'skipped'
         run: |
           echo "::error::One or more expand shards failed; fix or re-run before push_to_main."
           exit 1
 
       - name: Require full expand success for strict assemble
-        if: inputs.allow_partial_assemble != true && needs.expand.result != 'success'
+        if: inputs.allow_partial_assemble != true && needs.expand.result != 'success' && needs.expand.result != 'skipped'
         run: |
           echo "::error::One or more expand shards failed. Re-run failed shards or set allow_partial_assemble for dry-run merge."
           exit 1
@@ -169,6 +262,7 @@ jobs:
           path: manifest
 
       - name: Download all shard artifacts
+        if: needs.select.outputs.count != '0'
         uses: actions/download-artifact@v8
         with:
           pattern: shard-*
@@ -176,6 +270,7 @@ jobs:
           merge-multiple: true
 
       - name: Merge shards into working tree
+        if: needs.select.outputs.count != '0'
         env:
           ALLOW_PARTIAL: ${{ inputs.allow_partial_assemble }}
         run: |
@@ -193,6 +288,15 @@ jobs:
             exit 1
           fi
 
+      - name: Remove shards the image no longer has
+        if: success() && inputs.collection == '' && inputs.missing_only != true && inputs.allow_partial_assemble != true && (needs.expand.result == 'success' || needs.expand.result == 'skipped')
+        env:
+          REMOVED: ${{ needs.select.outputs.removed }}
+        run: |
+          set -euo pipefail
+          printf '%s\n' "${REMOVED}" | jq -r '.[]' > removed.txt
+          bash scripts/ci/prune-absent-shards.sh --paths removed.txt --root .
+
       - name: Install xmllint for retired-ids gate
         run: |
           sudo apt-get update
@@ -201,15 +305,25 @@ jobs:
       - name: Refuse resurrected retired ids
         run: bash scripts/ci/check-retired-ids.sh --root .
 
+      - name: Record published source pins
+        if: inputs.push_to_main == true && inputs.collection == '' && inputs.missing_only != true && inputs.allow_partial_assemble != true && (needs.expand.result == 'success' || needs.expand.result == 'skipped')
+        env:
+          SOURCES: ${{ needs.plan.outputs.sources }}
+        run: |
+          set -euo pipefail
+          printf '%s\n' "${SOURCES}" | jq -e -S 'select(.version == 1)' > provenance.json
+
       - name: Diff assembled snapshot
         id: diff
         run: |
           if git status --porcelain --untracked-files=normal \
-            -- works persons places institutions narratives studies \
+            -- provenance.json \
+               works persons places institutions narratives studies \
                authority-files manuscripts corpora \
             | grep -q .; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
             git status --short -- \
+              provenance.json \
               works persons places institutions narratives studies \
               authority-files manuscripts corpora | head -100
           else
@@ -223,6 +337,7 @@ jobs:
           git config user.name "betmas-bot"
           git config user.email "betmas-bot@users.noreply.github.com"
           git add -- \
+            provenance.json \
             works persons places institutions narratives studies \
             authority-files manuscripts corpora
           git commit -m "chore(expand): re-expansion snapshot (${{ inputs.shard_mode }})"

@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
-# Discover expand shards (BetMasData-relative paths) from an expanded git tree.
+# Local checkout walk. CI does not run this.
+#
+# A re-expand GETs /api/expand/shards on the expand image, which lists
+# BetMasData collections inside that image (BetMasWeb expand-shards.xqm).
+# This script lists directories under --root, so it misses a source folder
+# that exists only in BetMasData.
+#
+# Discover expand shards (paths relative to the checkout root).
 #
 # Modes (--mode / DISCOVER_MODE):
 #   hybrid — L1 for works/persons/manuscripts/places/institutions, with

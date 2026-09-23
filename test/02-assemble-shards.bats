@@ -61,13 +61,15 @@ setup() {
   [ ! -f "${REPO}/corpora/new.xml" ]
 }
 
-@test "corpus merge preserves git orphans absent from export" {
+@test "corpus merge deletes a child directory the export does not contain" {
   REPO="${BATS_TEST_TMPDIR}/repo-iha"
-  mkdir -p "${REPO}/works/IHA/works" "${REPO}/works/1-1000/works"
-  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="keep"/> ' \
+  mkdir -p "${REPO}/works/IHA/works" "${REPO}/works/1-1000/works" "${REPO}/works/new"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gone"/> ' \
     > "${REPO}/works/IHA/works/LIT0001IHA.xml"
   echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="old"/> ' \
     > "${REPO}/works/1-1000/works/old.xml"
+  echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="stub"/>' \
+    > "${REPO}/works/new/STUBkeep.xml"
   shards="${BATS_TEST_TMPDIR}/shards-works"
   mkdir -p "${shards}/works/1-1000/works"
   echo '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="new"/> ' \
@@ -78,9 +80,10 @@ setup() {
     --shards-in "$shards" \
     --repo-root "$REPO"
   [ "$status" -eq 0 ]
-  [ -f "${REPO}/works/IHA/works/LIT0001IHA.xml" ]
+  [ ! -d "${REPO}/works/IHA" ]
   [ -f "${REPO}/works/1-1000/works/new.xml" ]
   [ ! -f "${REPO}/works/1-1000/works/old.xml" ]
+  [ -f "${REPO}/works/new/STUBkeep.xml" ]
 }
 
 @test "corpus merge preserves authority-files/new orphan" {

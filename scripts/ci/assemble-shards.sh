@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 # Merge shard artifacts into the expanded repo working tree (rsync --delete).
-# Subdirectories present in the repo but absent from the export are preserved
-# (expanded-git orphans with no BetMasData source, e.g. authority-files/new).
-# Reservation folders named `new`:
+# A child directory of a shard that the export does not contain is removed.
+# Reservation folders named `new` are the exception:
 #   - Parent corpus merges always exclude `new/` from the deleting rsync,
 #     then overlay export/new/ without --delete (P3c) so BetMasData twins
 #     update while expanded-only WIP stubs survive.
 #   - Dedicated `{corpus}/new` shards merge the same way (no --delete).
 #   - After overlay, drop overdue stubs whose basename already exists outside
 #     `new/` under the same corpus (promoted / landed).
+# A shard directory the image no longer lists is removed by
+# prune-absent-shards.sh on a full run, not here.
 # Validates every shard first so a later failure cannot leave a half-merged tree.
 set -euo pipefail
 
@@ -165,19 +166,9 @@ while IFS= read -r rel || [ -n "${rel}" ]; do
   esac
 
   mkdir -p "${dest}"
-  rsync_args=(-a --delete)
-  if [ -d "${dest}" ]; then
-    for orphan in "${dest}"/*/; do
-      [ -d "${orphan}" ] || continue
-      name=$(basename "${orphan}")
-      if [ ! -e "${src}/${name}" ]; then
-        rsync_args+=(--exclude="${name}/")
-        echo "preserve orphan ${rel}/${name} (absent from export)" >&2
-      fi
-    done
-  fi
-  # Always exclude new/ from --delete; overlay separately without wipe (P3c).
-  rsync_args+=(--exclude="new/")
+  # new/ is the only expanded-only child. Every other directory the export
+  # does not contain is deleted with the rest of the shard.
+  rsync_args=(-a --delete --exclude="new/")
   if [ -d "${dest}/new" ] || [ -d "${src}/new" ]; then
     echo "defer reservation ${rel}/new (merge-safe overlay)" >&2
   fi

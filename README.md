@@ -53,6 +53,13 @@ gh workflow run "Scheduled Re-expansion" --ref main \
   -f shard_mode=hybrid \
   -f push_to_main=true \
   -f allow_partial_assemble=false
+
+# Catch-up: shards the expand image has that this checkout does not
+# (e.g. manuscripts/Pistoia). Requires GET /api/expand/shards in that image.
+gh workflow run "Scheduled Re-expansion" --ref main \
+  -f shard_mode=hybrid \
+  -f missing_only=true \
+  -f push_to_main=false
 ```
 
 Watch / download:
@@ -70,9 +77,21 @@ Actions → **Scheduled Re-expansion** → **Run workflow** → choose branch
 
 ### What the workflow does
 
-1. Discover shards (`scripts/ci/discover-shards.sh`)
-2. Each shard boots `ghcr.io/betamasaheft/betamasaheft:release-expanded`,
-   runs makeExpand, exports with `xst`, uploads an artifact
+1. Boot `release-expanded` once and GET `/api/expand/shards`. A
+   `collection=` pilot is the same call with that query parameter, so
+   `manuscripts/EMML` (also with a trailing slash or a leading `./`)
+   comes back as L2 buckets, and a path the image does not contain is a
+   404 before any expand job starts. A full run then drops a shard whose
+   corpus, the BetMasWeb pin, and the bibliography pin already match
+   `provenance.json` in this checkout. `force=true` keeps every shard.
+   `missing_only=true` then drops paths that already exist in this checkout.
+   Expand jobs boot the same digest. A full run also GETs
+   `/api/expand/deletions` and removes directories under corpora whose pins
+   moved. That list is the expanded collection frozen in the image against
+   the BetMasData frozen beside it. `*/new` is not removed. A `collection=`
+   pilot does not delete other shards. `provenance.json` is rewritten only
+   in the `push_to_main` commit of a full run.
+2. Each shard runs makeExpand, exports with `xst`, uploads an artifact.
 3. Assemble merges artifacts (`scripts/ci/assemble-shards.sh`)
 4. Optional `push_to_main` (blocked if any shard failed or partial assemble)
 5. Push to `main` triggers [notify-betmas](.github/workflows/notify-betmas.yml)
@@ -151,10 +170,16 @@ bash scripts/ci/assemble-shards.sh \
 
 ### 4. Full local hybrid (optional)
 
-Same loop CI uses — expect a long wall-clock and large disk use:
+Local loop against a running eXist. `discover-shards.sh` lists directories
+in a checkout; CI asks the image API instead, because a checkout does not
+contain a source folder that has not been expanded yet.
 
 ```shell
 bash scripts/ci/discover-shards.sh --mode hybrid --out /tmp/shards.txt --root .
+# CI equivalent:
+# curl -fsS -u admin: --get \
+#   "http://localhost:8080/exist/apps/BetMasWeb/api/expand/shards" \
+#   --data-urlencode "mode=hybrid"
 mkdir -p /tmp/shards-in
 
 while IFS= read -r rel; do
