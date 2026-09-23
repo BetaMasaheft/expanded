@@ -1,0 +1,43 @@
+test/09-image-sources.bats
+  s_b4064a6f7d116c::t_1a50454fce4a6c 1-32
+scripts/ci/filter-provenance.sh
+  s_b4064a6f7d116c::t_70b96c37dc7d04 1-105
+scripts/ci/image-sources.sh
+  s_b4064a6f7d116c::t_3bb050f4a5388e 1-56
+.github/workflows/re-expand.yml
+  s_b4064a6f7d116c::t_c0e85fc1e941e0 248
+  s_b4064a6f7d116c::t_6486cb8e90a7db 101-108
+  s_b4064a6f7d116c::t_45fc725c734fc5 308-315,320-321,326,340
+  s_b4064a6f7d116c::t_f48d87d4414ded 207
+  s_b4064a6f7d116c::t_4a85a2f5b96b96 38-44
+  s_b4064a6f7d116c::t_10f19aa4ffc27d 265,273
+  s_b4064a6f7d116c::t_c0c925a275e143 134,143-144,147,152-165,167-175,178-180,182-189,192-193,195
+  s_b4064a6f7d116c::t_e427fee96448b7 242
+  s_b4064a6f7d116c::t_8481f02ad0b0f5 292,294
+.github/workflows/reusable-expand-shard.yml
+  s_b4064a6f7d116c::t_2fb7716f394494 152-153,156
+  s_b4064a6f7d116c::t_730a9c285d6056 66
+  s_b4064a6f7d116c::t_57dbec73afe5d9 171-174
+  s_b4064a6f7d116c::t_2138b901ea6013 45-47
+README.md
+  s_b4064a6f7d116c::t_26a24efdb3bb6e 84-89
+  s_b4064a6f7d116c::t_97cd9767337423 90-93
+test/10-filter-provenance.bats
+  s_b4064a6f7d116c::t_be4b46b0468fe5 1-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "39ab8c0cc440466b3c6cd5d3b6ac525c17c3b70e",
+  "prompts": {},
+  "sessions": {
+    "s_b4064a6f7d116c": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "d5632ac4-04a3-45c0-a637-65a985c63b37",
+        "model": "grok-4.7"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
