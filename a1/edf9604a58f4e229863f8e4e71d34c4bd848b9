@@ -1,0 +1,56 @@
+README.md
+  s_b4064a6f7d116c::t_4624a4f6edce0e 172-174,177-178
+  s_b4064a6f7d116c::t_123317eb0e4a70 56-62
+  s_b4064a6f7d116c::t_fba3a2fa670928 80-87,89
+  s_b4064a6f7d116c::t_d0904872f93e9b 176
+  s_b4064a6f7d116c::t_7f853b0a4db742 175
+test/01-discover-shards.bats
+  s_b4064a6f7d116c::t_044b3b47a1f3d5 131-161
+test/02-materialize-source-root.bats
+  s_b4064a6f7d116c::t_489a19e052e248 20
+  s_b4064a6f7d116c::t_584fefb7b69e65 1-19,21-63
+scripts/ci/materialize-source-root.sh
+  s_b4064a6f7d116c::t_5b6f80270bd17b 1-162
+.github/workflows/re-expand.yml
+  s_b4064a6f7d116c::t_1481e1df3cfc78 111,119-120,128-136,142,145-154
+  s_b4064a6f7d116c::t_a8663c3e098fed 24-31
+  s_b4064a6f7d116c::t_b8d2c5ea828868 80-87
+  s_1544e160683453::t_9a0c577c537125 127
+  s_b4064a6f7d116c::t_e7d2dab0e2aa6b 110
+  s_b4064a6f7d116c::t_66f3655fd35815 112-114,116-118
+  s_b4064a6f7d116c::t_187cf14e657132 96-99,115,121-126
+scripts/ci/discover-shards.sh
+  s_b4064a6f7d116c::t_38b8cddec728a6 58,254-272,274-275,290-295,297-307
+  s_b4064a6f7d116c::t_48da7b5ca5a45b 178-180
+  s_b4064a6f7d116c::t_e4405b06e46473 17-23,31-32,47-57
+  s_b4064a6f7d116c::t_54cd729f9e5c40 95-104
+  s_b4064a6f7d116c::t_5723d734b4d502 121-132
+scripts/ci/image-data-refs.sh
+  s_b4064a6f7d116c::t_07c57980d219f7 1-139
+test/03-image-data-refs.bats
+  s_b4064a6f7d116c::t_371293db37dfd1 1-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "a1edf9604a58f4e229863f8e4e71d34c4bd848b9",
+  "prompts": {},
+  "sessions": {
+    "s_1544e160683453": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "9068b082-e053-4108-a625-480faaadd278",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    },
+    "s_b4064a6f7d116c": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "d5632ac4-04a3-45c0-a637-65a985c63b37",
+        "model": "grok-4.6"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
