@@ -1,0 +1,31 @@
+scripts/ci/assemble-shards.sh
+  s_049b34d57b3676::t_dcb03459a7c292 169-176
+  s_049b34d57b3676::t_e7c50309f2ceac 3-4
+  s_049b34d57b3676::t_6916e635173cd6 177-178
+test/08-prune-absent-shards.bats
+  s_049b34d57b3676::t_ce6fa4c0d5baed 43-49
+scripts/ci/prune-absent-shards.sh
+  s_049b34d57b3676::t_3f033cf9d524d5 72-74
+  s_049b34d57b3676::t_3620cdae749745 52-54
+scripts/ci/discover-shards.sh
+  s_049b34d57b3676::t_d7c63153b1dd0a 19-23
+.github/workflows/re-expand.yml
+  s_049b34d57b3676::t_64e3248f69b31f 36-41
+  s_049b34d57b3676::t_9ee4b204ff4524 171-180
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ec88714d4fc6c8bc9f5f87d6aca8969fda02477e",
+  "prompts": {},
+  "sessions": {
+    "s_049b34d57b3676": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9f8d6016-94b2-4418-b8d5-ba78c8037dc2",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
