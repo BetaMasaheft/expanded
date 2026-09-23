@@ -49,6 +49,9 @@ refused=0
 while IFS= read -r rel || [ -n "${rel}" ]; do
   [ -z "${rel}" ] && continue
   rel="${rel#./}"
+  while [ "${rel}" != "${rel%/}" ]; do
+    rel="${rel%/}"
+  done
   case "${rel}" in
     "" | .* | /* | */.. | */../* | new | */new)
       echo "Refusing path: ${rel}" >&2
@@ -66,6 +69,9 @@ root_real=$(CDPATH='' cd "${root}" && pwd)
 while IFS= read -r rel || [ -n "${rel}" ]; do
   [ -z "${rel}" ] && continue
   rel="${rel#./}"
+  while [ "${rel}" != "${rel%/}" ]; do
+    rel="${rel%/}"
+  done
   target="${root}/${rel}"
   if [ ! -d "${target}" ]; then
     echo "already absent ${rel}"

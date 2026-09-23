@@ -33,8 +33,12 @@ name: Scheduled Re-expansion
 # (expanded#40). The API applies mode grain, splits manuscripts/EMML to L2
 # (a trailing slash or a leading ./ still splits), and refuses
 # authority-files/new. Expand jobs boot the digest that list recorded.
-# missing_only=true then drops paths already present in this checkout.
-# It is ignored when collection is set.
+# missing_only=true then drops paths already present in this checkout,
+# selected from the image's full shard list (ahead of provenance filtering,
+# so a shard whose corpus pin already matches provenance.json is still
+# recovered when its directory is actually absent locally). Deletions still
+# go through provenance filtering as usual. It is ignored when collection
+# is set.
 #
 # A full run also reads provenance.json at the root of this checkout. A shard
 # is skipped when that file already records the image's betmasweb pin, its
@@ -164,11 +168,16 @@ jobs:
             cp removed-in.txt removed-kept.txt
           fi
           if [ "${MISSING_ONLY}" = "true" ] && [ -z "${COLLECTION}" ]; then
-            if [ -s shards-kept.txt ]; then
-              if ! bash scripts/ci/select-shards.sh \
-                --shards shards-kept.txt --root . --missing-only --out shards.txt; then
-                echo "::error::No shards to expand"
-                exit 1
+            if [ -s shards-in.txt ]; then
+              set +e
+              bash scripts/ci/select-shards.sh \
+                --shards shards-in.txt --root . --missing-only --out shards.txt
+              status=$?
+              set -e
+              if [ "${status}" -eq 1 ]; then
+                : > shards.txt
+              elif [ "${status}" -ne 0 ]; then
+                exit "${status}"
               fi
             else
               : > shards.txt

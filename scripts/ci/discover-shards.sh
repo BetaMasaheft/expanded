@@ -16,10 +16,11 @@
 #   l1     — one shard per L1 dir under each corpus (~214 with EMML L2); skips
 #            `*/new` during the L1 walk, then appends reservation shards
 #            (except sourceless authority-files/new).
-#   matrix — corpus-level shards for re-expand (~9 jobs); expanded-git orphans
-#            absent from export are preserved on assemble (see assemble-shards).
-#            Parent corpus jobs already walk `new/` via collection()//TEI;
-#            assemble overlays `new/` merge-safe (P3b/c). No extra */new jobs.
+#   matrix — corpus-level shards for re-expand (~9 jobs); a corpus-root export
+#            is authoritative, so a child directory it omits is deleted on
+#            assemble (only new/ survives; see assemble-shards). Parent
+#            corpus jobs already walk `new/` via collection()//TEI; assemble
+#            overlays `new/` merge-safe (P3b/c). No extra */new jobs.
 #
 # Optional filter: COLLECTION_FILTER or first non-option arg (pilot path).
 # L2 parents (manuscripts/EMML) expand to their children — same as full hybrid/l1.

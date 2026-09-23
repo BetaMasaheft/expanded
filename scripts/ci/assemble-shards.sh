@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Merge shard artifacts into the expanded repo working tree (rsync --delete).
-# A child directory of a shard that the export does not contain is removed.
-# Reservation folders named `new` are the exception:
+# A child directory of a shard that the export does not contain is removed
+# and logged. Reservation folders named `new` are the exception:
 #   - Parent corpus merges always exclude `new/` from the deleting rsync,
 #     then overlay export/new/ without --delete (P3c) so BetMasData twins
 #     update while expanded-only WIP stubs survive.
@@ -166,6 +166,16 @@ while IFS= read -r rel || [ -n "${rel}" ]; do
   esac
 
   mkdir -p "${dest}"
+  # Log every child the export does not contain before rsync removes it, so
+  # a shard-root deletion (only new/ survives) shows up in the run's log
+  # even though it also lands in the resulting git diff.
+  for existing in "${dest}"/*/; do
+    [ -d "${existing}" ] || continue
+    name=$(basename "${existing}")
+    if [ "${name}" != "new" ] && [ ! -e "${src}/${name}" ]; then
+      echo "deleting ${rel}/${name} (absent from export)" >&2
+    fi
+  done
   # new/ is the only expanded-only child. Every other directory the export
   # does not contain is deleted with the rest of the shard.
   rsync_args=(-a --delete --exclude="new/")

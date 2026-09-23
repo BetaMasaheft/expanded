@@ -40,6 +40,13 @@ setup() {
   [ -f "${REPO}/works/new/STUB.xml" ]
 }
 
+@test "refuses a reservation path with a trailing slash" {
+  printf '%s\n' 'works/new/' > "${BATS_TEST_TMPDIR}/trailing.txt"
+  run bash "$SCRIPT" --paths "${BATS_TEST_TMPDIR}/trailing.txt" --root "$REPO"
+  [ "$status" -eq 1 ]
+  [ -f "${REPO}/works/new/STUB.xml" ]
+}
+
 @test "requires --paths and --root" {
   run bash "$SCRIPT"
   [ "$status" -eq 2 ]
