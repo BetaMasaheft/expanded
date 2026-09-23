@@ -1,0 +1,30 @@
+.github/workflows/reusable-expand-shard.yml
+  s_b4064a6f7d116c::t_2d410f46e0bf4e 39-41
+  s_b4064a6f7d116c::t_db500461079b44 148-167
+  s_b4064a6f7d116c::t_e5e558ef5f94fc 61
+scripts/ci/prune-absent-shards.sh
+  s_b4064a6f7d116c::t_380be27fc6a6f4 2,4-6,11,16,18,21,43-44,48,53,55,58-68,71,82-84
+README.md
+  s_b4064a6f7d116c::t_a1cb7a2bbeb084 86-89
+test/08-prune-absent-shards.bats
+  s_b4064a6f7d116c::t_4cf38c07fced69 11,16,19-20,23,28-30,32-40,43
+.github/workflows/re-expand.yml
+  s_b4064a6f7d116c::t_c6751a08293a25 244,247-248
+  s_b4064a6f7d116c::t_295efeac922a7b 22-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "b91c422d5e1085aa83d3c3bd7e427ff3e0a7c655",
+  "prompts": {},
+  "sessions": {
+    "s_b4064a6f7d116c": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "d5632ac4-04a3-45c0-a637-65a985c63b37",
+        "model": "grok-4.7"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
