@@ -1,0 +1,41 @@
+README.md
+  s_b4064a6f7d116c::t_578e452c533a62 86-87
+test/08-prune-absent-shards.bats
+  s_b4064a6f7d116c::t_3dd206702c99c0 20
+  s_b4064a6f7d116c::t_f8871f1508e1d0 43
+  s_b4064a6f7d116c::t_9f5552dd3d052f 13
+  s_b4064a6f7d116c::t_c9bfb03cc77d38 1-12,14-19,21-42,44-56
+.github/workflows/re-expand.yml
+  s_b4064a6f7d116c::t_34af5b45d47122 239,241-251
+  s_b4064a6f7d116c::t_71996ac5dd4dc3 21-26
+  s_b4064a6f7d116c::t_1f2681351f5ea9 240
+  s_b4064a6f7d116c::t_c65a35dd8efe59 171
+test/02-assemble-shards.bats
+  s_b4064a6f7d116c::t_203146ecfa5956 64,66-67,71-72,83,86
+scripts/ci/assemble-shards.sh
+  s_b4064a6f7d116c::t_2c969881cf1994 3-4,11-12
+  s_b4064a6f7d116c::t_5625e3c972ed0a 169-171
+scripts/ci/prune-absent-shards.sh
+  s_b4064a6f7d116c::t_f6f0566d4a00d6 120
+  s_b4064a6f7d116c::t_9453c503b89099 70
+  s_b4064a6f7d116c::t_0a812f163f15ed 1-69,71-87,117-119,121-139,142-148
+  s_b4064a6f7d116c::t_474c0b67db67a6 140-141
+  s_b4064a6f7d116c::t_3bfa948ab67a5f 149-150
+  s_b4064a6f7d116c::t_dc9f6b6d6bf635 88-116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "66a3e0470dfac0cc4b9c6404c7aa058f31a8a25c",
+  "prompts": {},
+  "sessions": {
+    "s_b4064a6f7d116c": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "d5632ac4-04a3-45c0-a637-65a985c63b37",
+        "model": "grok-4.7"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
