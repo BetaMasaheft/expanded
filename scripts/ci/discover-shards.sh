@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
-# Discover expand shards (BetMasData-relative paths) from an expanded git tree.
+# Local checkout walk. CI does not run this.
+#
+# A re-expand GETs /api/expand/shards on the expand image, which lists
+# BetMasData collections inside that image (BetMasWeb expand-shards.xqm).
+# This script lists directories under --root, so it misses a source folder
+# that exists only in BetMasData.
+#
+# Discover expand shards (paths relative to the checkout root).
 #
 # Modes (--mode / DISCOVER_MODE):
 #   hybrid — L1 for works/persons/manuscripts/places/institutions, with
@@ -9,10 +16,11 @@
 #   l1     — one shard per L1 dir under each corpus (~214 with EMML L2); skips
 #            `*/new` during the L1 walk, then appends reservation shards
 #            (except sourceless authority-files/new).
-#   matrix — corpus-level shards for re-expand (~9 jobs); expanded-git orphans
-#            absent from export are preserved on assemble (see assemble-shards).
-#            Parent corpus jobs already walk `new/` via collection()//TEI;
-#            assemble overlays `new/` merge-safe (P3b/c). No extra */new jobs.
+#   matrix — corpus-level shards for re-expand (~9 jobs); a corpus-root export
+#            is authoritative, so a child directory it omits is deleted on
+#            assemble (only new/ survives; see assemble-shards). Parent
+#            corpus jobs already walk `new/` via collection()//TEI; assemble
+#            overlays `new/` merge-safe (P3b/c). No extra */new jobs.
 #
 # Optional filter: COLLECTION_FILTER or first non-option arg (pilot path).
 # L2 parents (manuscripts/EMML) expand to their children — same as full hybrid/l1.

@@ -1,16 +1,50 @@
 name: Reusable expand shard
 
-# Called by re-expand.yml (matrix). One BetMasData/expanded rel path per run.
-# Boots the published app image (BetMasWeb + BetMasData + EthioStudies),
-# runs makeExpand, xst get → artifact. See expanded#11.
+# Called by re-expand.yml.
+# mode=list  — boot release-expanded, GET /api/expand/shards, emit shard JSON + image digest.
+# mode=expand — boot that image (or the digest from list), makeExpand, xst get → artifact.
+# See expanded#11, expanded#40.
 
 on:
   workflow_call:
     inputs:
-      collection:
-        description: Relative path under BetMasData (e.g. works/1-1000)
-        required: true
+      mode:
+        description: list (ask the image for shards) or expand (one collection)
+        required: false
         type: string
+        default: expand
+      shard_mode:
+        description: hybrid, l1, or matrix. Used when mode=list.
+        required: false
+        type: string
+        default: hybrid
+      collection:
+        description: >
+          Relative path under BetMasData. Required for expand.
+          Optional filter for list (e.g. manuscripts/EMML).
+        required: false
+        type: string
+        default: ""
+      image:
+        description: >
+          Image ref or digest to boot. Empty uses release-expanded.
+          Expand jobs should pass the digest recorded by mode=list.
+        required: false
+        type: string
+        default: ""
+    outputs:
+      shards:
+        description: JSON array of relative shard paths (list mode)
+        value: ${{ jobs.expand-shard.outputs.shards }}
+      removed:
+        description: JSON array of shard paths to delete (list mode, full run only)
+        value: ${{ jobs.expand-shard.outputs.removed }}
+      image:
+        description: Repo digest of the booted image (list mode)
+        value: ${{ jobs.expand-shard.outputs.image }}
+      sources:
+        description: Normalized source pins from the image labels (list mode)
+        value: ${{ jobs.expand-shard.outputs.sources }}
     secrets:
       BOT_CONTAINER_PAT:
         required: true
@@ -19,13 +53,17 @@ permissions:
   contents: read
 
 env:
-  # App image: BetMasWeb + BetMasData + EthioStudies (docker-build from BetMasWeb main).
-  BETMAS_IMAGE: ghcr.io/betamasaheft/betamasaheft:release-expanded
+  BETMAS_IMAGE: ${{ inputs.image != '' && inputs.image || 'ghcr.io/betamasaheft/betamasaheft:release-expanded' }}
 
 jobs:
   expand-shard:
     runs-on: ubuntu-latest
     timeout-minutes: 300
+    outputs:
+      shards: ${{ steps.list.outputs.shards }}
+      removed: ${{ steps.list.outputs.removed }}
+      image: ${{ steps.list.outputs.image }}
+      sources: ${{ steps.list.outputs.sources }}
     steps:
       # App image is ~11GB+ layered; default runner disk is too tight.
       - name: Maximize build space
@@ -53,18 +91,26 @@ jobs:
           sparse-checkout-cone-mode: true
 
       - name: Log in to GitHub Container Registry
-        uses: docker/login-action@v4
+        uses: docker/login-action@dbcb813823bdd20940b903addbd779551569679f # v4
         with:
           registry: ghcr.io
           username: betmas-bot
           password: ${{ secrets.BOT_CONTAINER_PAT }}
 
       - name: Pull app image
-        run: docker pull "${BETMAS_IMAGE}"
+        id: pull
+        run: |
+          set -euo pipefail
+          docker pull "${BETMAS_IMAGE}"
+          digest=$(docker image inspect --format '{{index .RepoDigests 0}}' "${BETMAS_IMAGE}")
+          if [ -z "${digest}" ] || [ "${digest}" = "<no value>" ]; then
+            digest="${BETMAS_IMAGE}"
+          fi
+          echo "digest=${digest}" >> "${GITHUB_OUTPUT}"
 
       - name: Boot throwaway container
         run: |
-          docker run -d --name betmas-expand-shard -p 8080:8080 "${BETMAS_IMAGE}"
+          docker run -d --name betmas-expand-shard -p 8080:8080 "${{ steps.pull.outputs.digest }}"
 
       - name: Wait for eXist to start
         timeout-minutes: 5
@@ -76,14 +122,73 @@ jobs:
           # Bounded settle — same idea as BetMasWeb exist.yml after boot.
           sleep 15
 
+      - name: List shards from the image
+        id: list
+        if: inputs.mode == 'list'
+        env:
+          SHARD_MODE: ${{ inputs.shard_mode }}
+          REL: ${{ inputs.collection }}
+        run: |
+          set -euo pipefail
+          args=(--data-urlencode "mode=${SHARD_MODE}")
+          rel="${REL#./}"
+          if [ -n "${rel}" ]; then
+            args+=(--data-urlencode "collection=${rel}")
+          fi
+          out=$(curl -fsS -u admin: --get --max-time 120 \
+            "http://localhost:8080/exist/apps/BetMasWeb/api/expand/shards" \
+            "${args[@]}")
+          if ! printf '%s\n' "${out}" | jq -er '.shards[]' > shards.txt; then
+            echo "::error::GET /api/expand/shards did not return a shards array"
+            echo "${out}"
+            exit 1
+          fi
+          echo "Image ${{ steps.pull.outputs.digest }} listed $(wc -l < shards.txt | tr -d ' ') shard(s):"
+          cat shards.txt
+          json=$(jq -R . < shards.txt | jq -s -c .)
+          echo "shards=${json}" >> "${GITHUB_OUTPUT}"
+          echo "image=${{ steps.pull.outputs.digest }}" >> "${GITHUB_OUTPUT}"
+          # Deletions are the expanded tree frozen in this image against this
+          # BetMasData. A collection= pilot does not ask: assemble only prunes
+          # on a full run, and a pilot must not carry that side effect.
+          if [ -n "${rel}" ]; then
+            echo "removed=[]" >> "${GITHUB_OUTPUT}"
+            echo "sources={}" >> "${GITHUB_OUTPUT}"
+          else
+            del=$(curl -fsS -u admin: --get --max-time 120 \
+              "http://localhost:8080/exist/apps/BetMasWeb/api/expand/deletions" \
+              --data-urlencode "mode=${SHARD_MODE}")
+            if ! printf '%s\n' "${del}" | jq -e 'has("removed") and (.removed | type == "array")' >/dev/null; then
+              echo "::error::GET /api/expand/deletions did not return a removed array"
+              echo "${del}"
+              exit 1
+            fi
+            printf '%s\n' "${del}" | jq -r '.removed[]' > removed.txt
+            echo "Image named $(wc -l < removed.txt | tr -d ' ') deletion(s):"
+            cat removed.txt
+            removed_json=$(jq -R . < removed.txt | jq -s -c .)
+            echo "removed=${removed_json}" >> "${GITHUB_OUTPUT}"
+            docker image inspect --format '{{json .Config.Labels}}' \
+              "${{ steps.pull.outputs.digest }}" > labels.json
+            bash scripts/ci/image-sources.sh --labels labels.json > sources.json
+            echo "sources=$(jq -c . < sources.json)" >> "${GITHUB_OUTPUT}"
+          fi
+
       - name: Set shard labels
+        if: inputs.mode != 'list'
         env:
           REL: ${{ inputs.collection }}
         run: |
+          set -euo pipefail
+          if [ -z "${REL}" ]; then
+            echo "::error::expand mode requires collection"
+            exit 1
+          fi
           safe=$(echo "${REL#./}" | tr '/' '-')
           echo "ARTIFACT_NAME=shard-${safe}" >> "${GITHUB_ENV}"
 
       - name: Expand collection
+        if: inputs.mode != 'list'
         env:
           EXISTDB_SERVER: http://localhost:8080
           EXISTDB_USER: admin
@@ -104,6 +209,7 @@ jobs:
           fi
 
       - name: Export shard to artifact tree
+        if: inputs.mode != 'list'
         env:
           EXISTDB_SERVER: http://localhost:8080
           EXISTDB_USER: admin
@@ -127,6 +233,7 @@ jobs:
           fi
 
       - name: Upload shard artifact
+        if: inputs.mode != 'list'
         uses: actions/upload-artifact@v7
         with:
           name: ${{ env.ARTIFACT_NAME }}
@@ -144,7 +251,7 @@ jobs:
         if: failure()
         uses: actions/upload-artifact@v7
         with:
-          name: exist-failed-log-${{ env.ARTIFACT_NAME }}
+          name: exist-failed-log-${{ env.ARTIFACT_NAME || 'list' }}
           path: exist.log
           retention-days: 14
 
