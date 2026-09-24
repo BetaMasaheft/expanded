@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">22.9.2026 at 13:42:38</date><date type="lastModified">7.8.2026</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC7502DabraKarbe/main</idno><idno type="URI">https://betamasaheft.eu/LOC7502DabraKarbe</idno><idno type="filename">LOC7502DabraKarbe.xml</idno><idno type="ID">LOC7502DabraKarbe</idno></publicationStmt>
+            <date type="expanded">24.9.2026 at 00:08:05</date><date type="lastModified">21.9.2026</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC7502DabraKarbe/main</idno><idno type="URI">https://betamasaheft.eu/LOC7502DabraKarbe</idno><idno type="filename">LOC7502DabraKarbe.xml</idno><idno type="ID">LOC7502DabraKarbe</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -104,6 +104,7 @@
             <change when="2026-08-05" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
             <change when="2026-08-07" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated after reviews by Eugenia Sokolinski, Elizaveta Shvarts and Magdalena 
                 Krzyżanowska</change>
+            <change when="2026-09-21" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Update zotero tag bm:1935Guida</change>
         </revisionDesc>
     </teiHeader><text>
         <body>
@@ -124,7 +125,7 @@
             </listPlace>
             <listBibl type="secondary">
                 <bibl corresp="http://zotero.org/groups/358366/items/EER86UKE"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Derat2006Royal"/><title level="a">A Royal Correspondence in the XV&lt;hi rend="sup"&gt;th&lt;/hi&gt; and XVI&lt;hi rend="sup"&gt;th&lt;/hi&gt; Centuries: the Documents of the Gospel of Däbrä Kärbe (Zana)</title><title level="j">Aethiopica</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Marie-Laure</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Derat</t:surname></author><date>2006</date><biblScope unit="volume">9</biblScope><biblScope unit="page">64-79</biblScope><note type="url">http://journals.sub.uni-hamburg.de/aethiopica/article/view/241</note></bibl>
-                <bibl><ptr target="bm:ConTuristica1935Guida"/></bibl>
+                <bibl corresp="http://zotero.org/groups/358366/items/2WAWUS4R"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1935Guida"/><title level="m">Guida d'Italia della Consociazione Turistica Italiana: Africa Orientale Italiana, Con 15 carte geografiche, 16 piante di centri abitati, 10 piante di edifici, schizzi e stemmi</title><title level="s">Supplem. alla Rivista mensile «Le Vie d'Italia»</title><author><name>Consociazione Turistica Italiana</name></author><pubPlace>Milano</pubPlace><publisher>Consociazione Turistica Italiana</publisher><date>1938</date><series><title level="s">Supplem. alla Rivista mensile «Le Vie d'Italia»</title></series><note type="url">https://archive.org/details/africa-orientale-italiana/mode/2up</note><note type="tags"><note type="tag">bm:1935Guida</note></note><note type="tag">bm:1935Guida</note></bibl>
             </listBibl>
         </body>
     </text></TEI>

@@ -5,7 +5,7 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,7 +14,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">22.9.2026 at 08:41:19</date><date type="lastModified">26.7.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT4681Restauration/main</idno><idno type="URI">https://betamasaheft.eu/LIT4681Restauration</idno><idno type="filename">LIT4681Restauration.xml</idno><idno type="ID">LIT4681Restauration</idno></publicationStmt>
+            <date type="expanded">23.9.2026 at 18:44:47</date><date type="lastModified">16.9.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT4681Restauration/main</idno><idno type="URI">https://betamasaheft.eu/LIT4681Restauration</idno><idno type="filename">LIT4681Restauration.xml</idno><idno type="ID">LIT4681Restauration</idno></publicationStmt>
             <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -111,13 +111,17 @@
 </calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change when="2017-07-26" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2026-09-16" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added relation to  LIT1913Mashaf</change>
         </t:revisionDesc>
-    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+    </teiHeader><standOff><listRelation>
+                    <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_may_form_part_of" active="https://betamasaheft.eu/LIT4681Restauration" passive="https://betamasaheft.eu/LIT1913Mashaf"/>
+                </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>
             <t:div type="bibliography">
                 <t:listBibl type="secondary">
                     <t:bibl corresp="http://zotero.org/groups/358366/items/WFZXDU5E"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Wion2009LibAks"/><title level="a">Le Liber Aksumae selon le manuscrit Bodleian Bruce 93 : le plus ancien témoin d'un projet historiographique sans cesse réactivé</title><title level="j">Oriens Christianus</title><author><forename>Anais</forename><surname>Wion</surname></author><date>2009</date><biblScope unit="volume">93</biblScope><biblScope unit="page">135-171</biblScope><note type="url">http://www.academia.edu/3022230/Le_Liber_Aksumae_selon_le_manuscrit_Bodleian_Bruce_93_le_plus_ancien_t%C3%A9moin_dun_projet_historiographique_sans_cesse_r%C3%A9activ%C3%A9</note><note type="tags"><note type="tag">bm:Wion2009LibAks</note></note><note type="tag">bm:Wion2009LibAks</note><t:citedRange unit="page">156-157</t:citedRange></t:bibl>
                 </t:listBibl>
+                
             </t:div>
             <t:div type="edition" xml:id="div2LIT4681Restauration">
                 <t:div type="textpart" subtype="chapter" n="1" xml:id="Part1">

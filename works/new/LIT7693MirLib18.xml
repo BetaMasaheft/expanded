@@ -1,12 +1,12 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT7693MirLib18"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Miracle of Libānos: Miracle 18</title>
-                <title xml:lang="en" xml:id="t1">Miracle of Libānos: Miracle 18</title>
-                <title xml:lang="en" xml:id="t2">Miracle of Libānos: Healing of a blind child</title>
+                <title xml:lang="en" xml:id="t1">Miracle of Libānos: Healing of a blind child</title>
+                <title xml:lang="en" xml:id="t2">Miracle of Libānos: Miracle 18</title> 
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -16,7 +16,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">22.9.2026 at 13:40:35</date><date type="lastModified">23.9.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT7693MirLib18/main</idno><idno type="URI">https://betamasaheft.eu/LIT7693MirLib18</idno><idno type="filename">LIT7693MirLib18.xml</idno><idno type="ID">LIT7693MirLib18</idno></publicationStmt>
+            <date type="expanded">24.9.2026 at 00:06:30</date><date type="lastModified">3.9.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT7693MirLib18/main</idno><idno type="URI">https://betamasaheft.eu/LIT7693MirLib18</idno><idno type="filename">LIT7693MirLib18.xml</idno><idno type="ID">LIT7693MirLib18</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -110,30 +110,30 @@
 </calendarDesc></profileDesc>
         <revisionDesc>
             <change when="2025-09-23" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+            <change when="2026-09-03" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Swapped title and updated edition and links in relations,</change>
         </revisionDesc>
     </teiHeader><standOff><listRelation>
-                    <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_may_form_part_of" active="https://betamasaheft.eu/LIT7692MirLib17" passive="https://betamasaheft.eu/LIT4717TaammerLi"/>
-                    <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_may_form_part_of" active="https://betamasaheft.eu/LIT7692MirLib17" passive="https://betamasaheft.eu/LIT6386Libanos"/>
+                    <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_may_form_part_of" active="https://betamasaheft.eu/LIT7693MirLib18" passive="https://betamasaheft.eu/LIT4717TaammerLi"/>
+                    <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_may_form_part_of" active="https://betamasaheft.eu/LIT7693MirLib18" passive="https://betamasaheft.eu/LIT6386Libanos"/>
+                    <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_is_about" active="https://betamasaheft.eu/LIT7693MirLib18" passive="https://betamasaheft.eu/PRS6298Libanos"/>
                 </listRelation></standOff><text>
         <body>
             <div type="bibliography">
                 <div type="edition" xml:id="div1LIT7693MirLib18">
-                    <bibl corresp="http://zotero.org/groups/358366/items/IJCSM3GA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2003Libanos"/><title level="m">La «Vita» e i «Miracoli» di Libānos</title><title level="s">Corpus Scriptorum Christianorum Orientalium</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Lovanii</pubPlace><publisher>In aedibus Peeters</publisher><date>2003</date><series><title level="s">Corpus Scriptorum Christianorum Orientalium</title><biblScope unit="volume">595, Scriptores Aethiopici, 105</biblScope></series><biblScope unit="volume">595, Scriptores Aethiopici, 105</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Textual criticism</note><note type="tag">bm:Bausi2003Libanos</note></note><note type="tag">Ethiopic</note><note type="tag">Textual criticism</note><note type="tag">bm:Bausi2003Libanos</note><citedRange unit="page">115</citedRange></bibl>
+                    <bibl corresp="http://zotero.org/groups/358366/items/IJCSM3GA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2003Libanos"/><title level="m">La «Vita» e i «Miracoli» di Libānos</title><title level="s">Corpus Scriptorum Christianorum Orientalium</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Lovanii</pubPlace><publisher>In aedibus Peeters</publisher><date>2003</date><series><title level="s">Corpus Scriptorum Christianorum Orientalium</title><biblScope unit="volume">595, Scriptores Aethiopici, 105</biblScope></series><biblScope unit="volume">595, Scriptores Aethiopici, 105</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Textual criticism</note><note type="tag">bm:Bausi2003Libanos</note></note><note type="tag">Ethiopic</note><note type="tag">Textual criticism</note><note type="tag">bm:Bausi2003Libanos</note><citedRange unit="verse">290–291</citedRange><citedRange unit="page">115</citedRange></bibl>
                 </div>
                 <div type="translation">
-                    <bibl corresp="http://zotero.org/groups/358366/items/4WIEHJYU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2003LibanosTr"/><title level="m">La «Vita» e i «Miracoli» di Libānos</title><title level="s">Corpus Scriptorum Christianorum Orientalium</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><pubPlace>Lovanii</pubPlace><publisher>In aedibus Peeters</publisher><date>2003</date><series><title level="s">Corpus Scriptorum Christianorum Orientalium</title><biblScope unit="volume">596, Scriptores Aethiopici, 106</biblScope></series><biblScope unit="volume">596, Scriptores Aethiopici, 106</biblScope><note type="tags"><note type="tag">bm:Bausi2003LibanosTr</note></note><note type="tag">bm:Bausi2003LibanosTr</note><citedRange unit="page">66</citedRange></bibl>
+                    <bibl corresp="http://zotero.org/groups/358366/items/4WIEHJYU"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2003LibanosTr"/><title level="m">La «Vita» e i «Miracoli» di Libānos</title><title level="s">Corpus Scriptorum Christianorum Orientalium</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><pubPlace>Lovanii</pubPlace><publisher>In aedibus Peeters</publisher><date>2003</date><series><title level="s">Corpus Scriptorum Christianorum Orientalium</title><biblScope unit="volume">596, Scriptores Aethiopici, 106</biblScope></series><biblScope unit="volume">596, Scriptores Aethiopici, 106</biblScope><note type="tags"><note type="tag">bm:Bausi2003LibanosTr</note></note><note type="tag">bm:Bausi2003LibanosTr</note><citedRange unit="verse">290–291</citedRange><citedRange unit="page">66</citedRange></bibl>
                 </div>
                 
             </div>
             <div type="edition" xml:id="div2LIT7693MirLib18">
                 <div type="textpart" subtype="incipit" xml:id="MirLib18inc">
-                    <note>The following incipit is taken from <ref type="mss" corresp="https://betamasaheft.eu/ANLcr26">Rome, Biblioteca dell’Accademia Nazionale dei Lincei, Conti Rossini 26</ref>.</note>
-                    <ab xml:lang="gez">ተአምሪሁ፡ <gap reason="ellipsis"/> ካዕበ፡ መጽአት፡ አሐቲ፡ ብእሲት፡ ወምስሌሃ፡ ሕፃን፡
-                        ዘእውር፡ ፪ አዕይንቲሁ፡ ወኢምንትኒ፡ ወአብጽሖቶ፡ ሕየ፡ ሐዚላ፡ በዘባና፡ ወሐፀበቶ፡ እማየ፡ ሕይወት፡
-                        ወጸለየት፡ ወአስተብቍዓት፡ ኀበ፡ ቅዱስ፡ ሊባኖስ፡ በአንብዕ፡ ብዙኅ። ወሶበ፡ አእመረ፡ ብዝኃ፡ ብካያ፡
-                        ወርትዕት፡ ሃይማኖታ፡ ፈወሶ፡ ለወልዳ፡</ab>
+                    <note>The following incipit is taken from <bibl corresp="http://zotero.org/groups/358366/items/IJCSM3GA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2003Libanos"/><title level="m">La «Vita» e i «Miracoli» di Libānos</title><title level="s">Corpus Scriptorum Christianorum Orientalium</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Lovanii</pubPlace><publisher>In aedibus Peeters</publisher><date>2003</date><series><title level="s">Corpus Scriptorum Christianorum Orientalium</title><biblScope unit="volume">595, Scriptores Aethiopici, 105</biblScope></series><biblScope unit="volume">595, Scriptores Aethiopici, 105</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">Textual criticism</note><note type="tag">bm:Bausi2003Libanos</note></note><note type="tag">Ethiopic</note><note type="tag">Textual criticism</note><note type="tag">bm:Bausi2003Libanos</note><citedRange unit="verse">290–291</citedRange><citedRange unit="page">115</citedRange></bibl>.</note>
+                    <ab xml:lang="gez">፲፰ ተኣምሪሁ፡ ለብፁዕ፡ ሊባኖስ፡ ወካዕበ፡ መጽአት፡ አሐቲ፡ ብእሲት፡ ወምስሌሃ፡ ሕፃን፡ ወልዳ፡ ዘዕውር፡ ክልኤሆን፡ አዕይንቲሁ፡ ወኢይሬኢ፡ 
+                        ወኢምንትኒ፡ ወአብጽሐቶ፡ ህየ፡ ሐዚላ፡ በዘባና፡ ወኀፀበቶ፡ እማየ፡ ሕይወት፡ ወጸለየት፡ ወአስተብቍዐት፡ በጸሎቱ፡ ለቅዱስ፡ በአንብዕ፡ ብዙኅ፡ ወሶበ፡ አእመረ፡ ቅዱስ፡ ሊባኖስ፡ 
+                        ብዝኀ፡ ብካያ፡ ወአንብዐ፡ ወርትዕት፡ ሃይማኖታ፡ ፈወሰ፡ ላቲ፡ ወልዳ፡</ab>
                 </div>
-                
             </div>
         </body>
     </text></TEI>
