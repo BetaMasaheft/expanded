@@ -1,0 +1,23 @@
+scripts/ci/fixtures/mini-deleted.xml
+  s_14368c6b7c0862::t_2e2565ed5f0395 1-8
+scripts/ci/fixtures/mini-retired.xml
+  s_14368c6b7c0862::t_69c4591cbc66b0 1-4
+scripts/ci/check-deleted-subseteq-retired.sh
+  s_14368c6b7c0862::t_aa5114b30e7bb2 1-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3e8dca2a15f66eaeb7dc6fd3ea1348665082554c",
+  "prompts": {},
+  "sessions": {
+    "s_14368c6b7c0862": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "db4db031-a8f4-4a76-9afe-1ec953a2f11a",
+        "model": "composer-2.5-fast"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
