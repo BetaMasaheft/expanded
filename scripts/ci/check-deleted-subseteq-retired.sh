@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # HP5: every uncommented deleted.xml item text must appear as issued-id/@id
-# in retired-ids.xml (NFC-normalized). Requires xmllint + python3.
+# in retired-ids.xml (NFC-normalized). Requires python3.
 set -euo pipefail
 
 deleted=""
