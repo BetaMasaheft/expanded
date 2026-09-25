@@ -1,0 +1,33 @@
+scripts/ci/fixtures/mini-retired.xml
+  s_d3687b22a8423d::t_53396bfd1a1e2a 4
+scripts/ci/backfill-retired-from-deleted.py
+  s_d3687b22a8423d::t_2eae3b83db97bf 1-112
+scripts/ci/triage-retired-backfill.md
+  s_d3687b22a8423d::t_3ea6edd9d33034 1-38
+.github/workflows/validate_push.yml
+  s_d3687b22a8423d::t_52b5f2e1111825 48-53
+.github/workflows/validate_pr.yml
+  s_d3687b22a8423d::t_f7c3402ead53c2 119-123
+scripts/ci/check-deleted-subseteq-retired.sh
+  s_d3687b22a8423d::t_f52ec5f6611c70 3
+config/retired-ids.xml
+  s_d3687b22a8423d::t_3bdd2f47e2d10c 1,3-135
+scripts/ci/fixtures/deleted.xml.snapshot
+  s_d3687b22a8423d::t_51e903222a2789 1-908
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "221a8caa4d284b4c5f56e09f4a4d671b240a713c",
+  "prompts": {},
+  "sessions": {
+    "s_d3687b22a8423d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "3a98a62e-ecda-41f8-a980-08029242a2e2",
+        "model": "composer-2.5-fast"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
