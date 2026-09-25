@@ -49,7 +49,8 @@ jobs:
         run: |
           ./scripts/ci/check-deleted-subseteq-retired.sh \
             --deleted scripts/ci/fixtures/deleted.xml.snapshot \
-            --retired config/retired-ids.xml
+            --retired config/retired-ids.xml \
+            --exceptions scripts/ci/fixtures/hp5-exceptions.txt
 
       - name: Report overdue new/ stubs (warn only)
         run: bash scripts/ci/report-overdue-new-stubs.sh --root .
