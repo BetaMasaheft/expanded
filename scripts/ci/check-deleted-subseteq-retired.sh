@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # HP5: every uncommented deleted.xml item text must appear as issued-id/@id
-# in retired-ids.xml (NFC-normalized), or in an optional exceptions file.
-# Requires python3.
+# in retired-ids.xml, or in an optional exceptions file.
+# Uses xmllint (libxml2) + comm — same stack as check-retired-ids / validate_*.
+# XML comments are invisible to XPath, so commented-out <item>s are excluded.
+# Optional NFC via uconv(1) when present; otherwise identity (IDs are ASCII BM forms).
 set -euo pipefail
 
 deleted=""
@@ -20,41 +22,60 @@ done
 : "${deleted:?--deleted required}"
 : "${retired:?--retired required}"
 
-python3 - "$deleted" "$retired" "$exceptions" <<'PY'
-import sys, unicodedata
-from pathlib import Path
-from xml.etree import ElementTree as ET
+if ! command -v xmllint >/dev/null 2>&1; then
+  echo "xmllint is required (libxml2-utils)" >&2
+  exit 2
+fi
 
-NS_TEI = {"t": "http://www.tei-c.org/ns/1.0"}
-NS_BIM = {"bim": "https://betamasaheft.eu/betmas-id-manager"}
+nfc_line() {
+  if command -v uconv >/dev/null 2>&1; then
+    printf '%s\n' "$1" | uconv -f utf-8 -t utf-8 -x any-nfc
+  else
+    printf '%s\n' "$1"
+  fi
+}
 
-def nfc(s: str) -> str:
-    return unicodedata.normalize("NFC", s.strip())
+normalize_ids() {
+  # stdin: raw lines → stdout: NFC-trimmed, non-empty, sorted unique
+  while IFS= read -r line || [ -n "$line" ]; do
+    line=${line#"${line%%[![:space:]]*}"}
+    line=${line%"${line##*[![:space:]]}"}
+    [ -n "$line" ] || continue
+    nfc_line "$line"
+  done | sort -u
+}
 
-def load_exceptions(path: str) -> set[str]:
-    if not path:
-        return set()
-    out: set[str] = set()
-    for line in Path(path).read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#"):
-            continue
-        out.add(nfc(line))
-    return out
+tmp=$(mktemp -d)
+trap 'rm -rf "$tmp"' EXIT
 
-deleted_path, retired_path, exceptions_path = sys.argv[1], sys.argv[2], sys.argv[3]
-droot = ET.parse(deleted_path).getroot()
-# ElementTree drops comments; items in comments are already excluded.
-deleted_ids = {nfc(el.text) for el in droot.findall(".//t:item", NS_TEI) if el.text and el.text.strip()}
-rroot = ET.parse(retired_path).getroot()
-retired_ids = {nfc(el.get("id", "")) for el in rroot.findall("bim:issued-id", NS_BIM) if el.get("id")}
-allowed = retired_ids | load_exceptions(exceptions_path)
-missing = sorted(deleted_ids - allowed)
-if missing:
-    sys.stderr.write(f"HP5 FAIL: {len(missing)} deleted id(s) not in retired-ids or exceptions:\n")
-    for i in missing:
-        sys.stderr.write(f"  {i}\n")
-    sys.exit(1)
-exc_n = len(load_exceptions(exceptions_path))
-print(f"OK: {len(deleted_ids)} deleted ids ⊆ {len(retired_ids)} retired ids (+{exc_n} exceptions)")
-PY
+# item/text() — one id per line for the mini fixtures and deleted snapshot
+xmllint --xpath '//*[local-name()="item"]/text()' "$deleted" 2>/dev/null \
+  | normalize_ids >"$tmp/deleted.ids" || true
+
+xmllint --xpath '//*[local-name()="issued-id"]/@id' "$retired" 2>/dev/null \
+  | sed -e 's/^ *id="//g' -e 's/"$//g' \
+  | normalize_ids >"$tmp/retired.ids" || true
+
+: >"$tmp/exceptions.ids"
+if [ -n "$exceptions" ] && [ -f "$exceptions" ]; then
+  grep -v '^[[:space:]]*#' "$exceptions" | grep -v '^[[:space:]]*$' \
+    | normalize_ids >"$tmp/exceptions.ids" || true
+fi
+
+sort -u "$tmp/retired.ids" "$tmp/exceptions.ids" >"$tmp/allowed.ids"
+
+missing=$tmp/missing.ids
+comm -23 "$tmp/deleted.ids" "$tmp/allowed.ids" >"$missing"
+
+deleted_n=$(wc -l <"$tmp/deleted.ids" | tr -d ' ')
+retired_n=$(wc -l <"$tmp/retired.ids" | tr -d ' ')
+exc_n=$(wc -l <"$tmp/exceptions.ids" | tr -d ' ')
+missing_n=$(wc -l <"$missing" | tr -d ' ')
+
+if [ "$missing_n" -gt 0 ]; then
+  echo "HP5 FAIL: ${missing_n} deleted id(s) not in retired-ids or exceptions:" >&2
+  sed 's/^/  /' "$missing" >&2
+  exit 1
+fi
+
+echo "OK: ${deleted_n} deleted ids ⊆ ${retired_n} retired ids (+${exc_n} exceptions)"
