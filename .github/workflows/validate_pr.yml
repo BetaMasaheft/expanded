@@ -40,7 +40,8 @@ jobs:
             -- ':./**/*.xml' ':!*/transkribus*.xml' ':!*/facsimile*.xml' \
             ':!./**/edition.xml' ':!./**/msDesc.xml' ':!./**/*text.xml' \
             ':!./**/taxonomy.xml' ':*.xml' ':!build.xml' ':!expath-pkg.xml' \
-            ':!repo.xml' ':!test/fixtures/**' ':!**/new/**' \
+            ':!repo.xml' ':!test/fixtures/**' ':!scripts/ci/fixtures/**' \
+            ':!**/new/**' \
             ':!config/retired-ids.xml' \
             > "${list}" || true
           count=$(wc -l < "${list}" | tr -d ' ')
@@ -75,7 +76,8 @@ jobs:
           # -quit avoids find|head SIGPIPE under pipefail
           sample=$(
             find . -type f -name '*.xml' \
-              ! -path './.git/*' ! -path './test/*' ! -path '*/new/*' \
+              ! -path './.git/*' ! -path './test/*' ! -path './scripts/ci/fixtures/*' \
+              ! -path '*/new/*' \
               ! -name 'build.xml' ! -name 'repo.xml' ! -name 'expath-pkg.xml' \
               ! -name 'retired-ids.xml' \
               -print -quit
