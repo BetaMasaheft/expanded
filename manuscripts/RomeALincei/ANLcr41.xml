@@ -5,7 +5,7 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="CH" corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH">Carsten Hoffmann</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="ed-CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="ed-CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN"><resp>contributor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">23.9.2026 at 22:38:11</date><date type="lastModified">21.1.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr41/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr41</idno><idno type="filename">ANLcr41.xml</idno><idno type="ID">ANLcr41</idno></publicationStmt>
+            <date type="expanded">7.10.2026 at 14:37:07</date><date type="lastModified">25.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr41/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr41</idno><idno type="filename">ANLcr41.xml</idno><idno type="ID">ANLcr41</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -157,8 +157,8 @@
                                 </item>
                                 <item xml:id="a2">
                                     <locus from="1va" to="1vb"/>
-                                    <desc type="GuestText"><ref type="work" corresp="https://betamasaheft.eu/LIT6609ProtectPrayer">Magic prayer against wild animals</ref> 
-                                        by an untrained hand.</desc>
+                                    <desc type="GuestText"><ref type="work" corresp="https://betamasaheft.eu/LIT7911Zaqatalka">ʾƎgziʾabǝḥer ʾanta za-qatalka ʾanbasā wa-kaysi</ref> 
+                                        Written by an untrained hand.</desc>
                                     <q xml:lang="gez"><gap reason="ellipsis"/><supplied reason="omitted" resp="PRS8999Strelcyn">እግ</supplied>
                                         ዚአብ<supplied reason="omitted" resp="PRS8999Strelcyn">ሔ</supplied>ር፡ ነፍስ፡ <unclear>እ</unclear>፡ በስመ፡ 
                                         <gap reason="ellipsis"/> ጸሎት፡ ለዘትነድፈ፡ እምአርዌ፡ ጸለየ፡ ዳዊት፡ ወልደ፡ እሴይ፡ ይቤሎ፡ ለእግዚአብሔር፡ ዘቀተልከ፡ አንበሳ፡ ወክይሲ፡ 
@@ -309,6 +309,7 @@
         <revisionDesc>
             <change when="2026-01-19" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
             <change when="2026-01-21" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrections and updates after review by Magdalena Krzyżanowska</change>
+            <change when="2026-09-25" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated record 2</change>
         </revisionDesc>
     </teiHeader><text>
         <body>

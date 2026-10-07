@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="DTEG010"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Eastern Tǝgrāy Zone, Dabra Ṣarābi, DTEG-010</title>
-                <title>Tselote Etan</title>
+                <title>Prayer of thanksgiving for the offering of the incense</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -16,7 +16,7 @@
                      This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
                   </licence>
                </availability>
-            <date type="expanded">23.9.2026 at 20:42:31</date><date type="lastModified">8.8.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG010/main</idno><idno type="URI">https://betamasaheft.eu/DTEG010</idno><idno type="filename">DTEG010.xml</idno><idno type="ID">DTEG010</idno></publicationStmt>
+            <date type="expanded">7.10.2026 at 12:36:23</date><date type="lastModified">22.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG010/main</idno><idno type="URI">https://betamasaheft.eu/DTEG010</idno><idno type="filename">DTEG010.xml</idno><idno type="ID">DTEG010</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -26,8 +26,17 @@
                     <msContents>
                        <summary/>
                        <msItem xml:id="ms_i1">                        
-                           <title type="complete">Tselote Etan</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT4065Prayer">Prayer of thanksgiving for the offering of the incense</title>
                          <textLang mainLang="gez"/>
+                           <incipit>
+                           <locus target="#1r"/>
+                               በስመ፡ አብ፡ <gap reason="ellipsis" resp="DN"/> ጸሎተ፡ ዕጣን፡ ዘያነብብ፡ ቀሲስ፡ 
+                               ጊዜ፡ ቦአ፡ ቤተ፡ ክርስቲያን፡
+                               ወበግብዓቱ፡ እምአፍአ፡ መንጦላዕት፡ ቀዊሞ፨ ወእኂዞ፡ ልብሰ፡ በእዴሁ፡ 
+                               ይበል፨ ቤት፡ በምንት፡ ያረትዕ፡ ወሬዛ፡ ፍኖቶ፡ በዓቂበ፡ 
+                               ነቢብከ፡ ወበኵሉ፡ ልብየ፡ ኃሠሥኩ፡ 
+                           </incipit>
+                           
                            </msItem>
                                                                      
                         </msContents>
@@ -45,16 +54,15 @@
                                                <depth unit="mm">40</depth>
                                            </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="180" unit="mm"/><width quantity="140" unit="mm"/><depth quantity="40" unit="mm"/></dimensions>
                                        </extent>
-                            <foliation>Modern foliation in pencil, 1-135</foliation>
-                            <condition key="deficient">The leather cover on both boards is missing. No textile inlay.</condition>
+                            <foliation/>
+                            <condition key="good">The leather cover on both boards is missing. No textile inlays.</condition>
                          </supportDesc>
                      </objectDesc>
                        
                        
                          <bindingDesc>
                              <binding contemporary="true">
-                                 <decoNote xml:id="b1">Two wooden boards; No leather cover. No textile inlay.
-                                     </decoNote>
+                                 <decoNote xml:id="b1">Two wooden boards.</decoNote>
                                  <decoNote xml:id="b2" type="bindingMaterial">                                     
                                      <material key="wood"/>     
                                      </decoNote>
@@ -67,7 +75,7 @@
                     
                       <history>
                          <origin>
-                           <origDate notBefore="1700" notAfter="1799">18th century.</origDate>
+                           <origDate notBefore="1800" notAfter="1899">19th century.</origDate>
                              </origin>
                           
                       </history>
@@ -141,7 +149,8 @@
                 <keywords>
                     <term key="ChristianLiterature" ana="#ChristianLiterature"/>
                     <term key="Poetry" ana="#Poetry"/>
-                    <term key="Gon" ana="#Gon"/> 
+                    <term key="Gon" ana="#Gon"/>
+                    <term key="MoPe" ana="#MoPe"/>
                       <term key="Liturgy" ana="#Liturgy"/>
                                   
                 </keywords>
@@ -168,6 +177,7 @@
                 description on the basis of an examination in situ.</change>
             <change when="2026-08-08" who="#JF"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created entity with rudimentary
                 description.</change>
+            <change when="2026-09-22" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->revised the description.</change>
         </revisionDesc>
     </teiHeader><text>
         <body>

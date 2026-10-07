@@ -2,13 +2,13 @@
         <fileDesc>
             <titleStmt><title type="full">Prayer against the sufferings provoked by the Budā, containing
         ʾasmāt</title>
-                <title xml:lang="en" xml:id="t1">Protective prayer against the sufferings provoked by the Budā</title>
+                <title xml:lang="en" xml:id="t1">Protective prayer against the disease of Budā</title>
                 <title xml:lang="gez" corresp="#t1"> ጸሎት፡ በእንተ፡ ሕማመ፡ ቡዳ፡</title>
                 <title xml:lang="gez" type="normalized" corresp="#t1">Ṣalota baʾǝnta ḥǝmāma Budā</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="MV" corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV">Massimo Villa</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="ed-MV"><resp>editor</resp><name>Massimo Villa</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="ed-MV"><resp>editor</resp><name>Massimo Villa</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ESh"><resp>contributor</resp><name>Elizaveta Shvarts</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -18,7 +18,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">23.9.2026 at 18:45:37</date><date type="lastModified">9.2.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6851Prayer/main</idno><idno type="URI">https://betamasaheft.eu/LIT6851Prayer</idno><idno type="filename">LIT6851Prayer.xml</idno><idno type="ID">LIT6851Prayer</idno></publicationStmt>
+            <date type="expanded">7.10.2026 at 10:36:48</date><date type="lastModified">24.9.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6851Prayer/main</idno><idno type="URI">https://betamasaheft.eu/LIT6851Prayer</idno><idno type="filename">LIT6851Prayer.xml</idno><idno type="ID">LIT6851Prayer</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -84,7 +84,7 @@
         <profileDesc>
             <creation/>
             <abstract>
-                <p/>
+                <p>The prayer against the disease provoked by Budā and sorcery containing <term key="Asmat" ana="#Asmat">ʾasmāt</term> similar to the ones in <ref type="work" corresp="https://betamasaheft.eu/LIT7212PPTaosAzyos">Prayer containing ʾasmāt</ref>.</p>
             </abstract>
             <textClass>
                 <keywords>
@@ -114,9 +114,11 @@
         <revisionDesc>
             <change when="2023-07-11" who="#MV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
             <change when="2026-02-09" who="#MV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Expanded title, added keyword</change>
+            <change when="2026-09-24" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added the second incipit, relations, and an abstract</change>
         </revisionDesc>
     </teiHeader><standOff><listRelation>
                     <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT6851Prayer" passive="https://betamasaheft.eu/BDLeu7"/>
+                    <relation name="syriaca:possibly-identical" ref="http://syriaca.org/documentation/relations.html#possibly-identical" passive="https://betamasaheft.eu/LIT7212PPTaosAzyos" active="https://betamasaheft.eu/LIT6851Prayer"/>
                    </listRelation></standOff><text>
         <body>
             <div type="bibliography">
@@ -136,6 +138,16 @@
                     <ab>
                         ዓምደ፡ ብርሃን፡ ልብሰ፡ ብርሃን፡ ይበርቅ፡ ቅድመ፡ ገጹ፡ ለኃይለ፡ ፀላኢ፡ ወፀር፡ ባርያ፡ ፓንዋማ፡ ፒልሜ፡ ጴልሜ፡ ኢይርአይ፡ ገጻ፡ አርእየኒ፡ ኃይለ፡ 
                         ግርማከ፡ ንጉሠ፡ ስብሐት፡ ራማ፡ ኢይርአይ፡ ገጻከ፡ ኢይልክፍ፡ ነፍሳ፡ ወሥጋሃ፡ ለአመትከ።
+                    </ab>
+                </div>
+            </div>
+            <div xml:lang="gez" type="edition" xml:id="div3LIT6851Prayer">
+                <note>The following incipit and explicit are taken from <ref type="mss" corresp="https://betamasaheft.eu/CBD936">Dublin, Chester Beatty Library Dublin, CBD W 936</ref>.</note>
+                <div type="textpart" subtype="incipit">
+                    <ab>በስመ፡ አብ፡ ውወልድ፡ ወመንፈስ፡ ቅዱስ፡ ፩አምላክ፡ በስሙ፡ ለእግዚአብሔር፡ አብ፡ በስሙ፡ ለእግዚአብሔር፡ ወልድ፡ 
+                        በስሙ፡ ለእግዚአብሔር፡ መንፈስ፡ ቅዱስ፡ ታዖስ፡ አዝዮስ፡ ማሲ፡ ማስያስ፡ አቅጼፌር፡ በስሙ፡ ለሐራጉ፡
+                        ሐሪፌከር፡ በጠጅን፡ ዘሐጅን፡ ዋህ፡ ፍልፍልማኤል፡ በስ፣እ፡ አድር፡ አዴራ፡ <unclear/>
+                        ታዖስ፡ አብስቴር፡ ፀባዖት፡ ጨሕርዋቅ፡ <unclear>ኃሩርዋኤል፡</unclear> በዝንቱ፡ አስማተ፡ ቃልከ፡ ኢየሱስ፡ ክርስቶስ፡ በሰይፈ፡ ሚካኤል፡ ይትገዘም፡ ወፃዕ፡ መንፈስ፡ ርኩስ፡
                     </ab>
                 </div>
             </div>

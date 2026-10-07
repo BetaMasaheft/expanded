@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">23.9.2026 at 22:38:11</date><date type="lastModified">27.7.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr90/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr90</idno><idno type="filename">ANLcr90.xml</idno><idno type="ID">ANLcr90</idno></publicationStmt>
+            <date type="expanded">7.10.2026 at 14:37:07</date><date type="lastModified">24.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr90/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr90</idno><idno type="filename">ANLcr90.xml</idno><idno type="ID">ANLcr90</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -179,7 +179,7 @@
                                 </support>
                                 <extent>
                                     <measure unit="leaf" quantity="19">19</measure>
-                                    <measure unit="leaf" quantity="5" type="blank"><locus from="15" to="19"/></measure>
+                                    <measure unit="leaf" type="blank">5</measure> <locus from="15" to="19"/>
                                     <dimensions type="outer" unit="mm">
                                         <height unit="mm">305</height>
                                         <width unit="mm">205</width>
@@ -215,7 +215,7 @@
                         </additions>
                         <bindingDesc>
                             <binding contemporary="non-Ethiopian">
-                                <decoNote xml:id="b1">European textile quarter cover</decoNote>
+                                <decoNote xml:id="b1">European textile <term key="quarterCover" ana="#quarterCover">quarter cover</term></decoNote>
                                 <decoNote xml:id="b2" type="bindingMaterial"><material key="textile"/></decoNote>
                             </binding>
                         </bindingDesc>
@@ -333,6 +333,7 @@
             <change when="2025-09-25" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated file according to catalogue</change>
             <change when="2025-10-21" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updates after reviews by Eugenia Sokolinski and Magdalena Krzyżanowska</change>
             <change when="2026-07-27" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated xml:id and binding</change>
+            <change when="2026-09-24" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keyword to binding desc</change>
         </revisionDesc>
     </teiHeader><text>
         <body>

@@ -5,7 +5,7 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="CH" corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH">Carsten Hoffmann</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="ed-CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="ed-CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ESh"><resp>contributor</resp><name>Elizaveta Shvarts</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">23.9.2026 at 22:01:18</date><date type="lastModified">1.11.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BLorient8819/main</idno><idno type="URI">https://betamasaheft.eu/BLorient8819</idno><idno type="filename">BLorient8819.xml</idno><idno type="ID">BLorient8819</idno></publicationStmt>
+            <date type="expanded">7.10.2026 at 14:11:49</date><date type="lastModified">25.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BLorient8819/main</idno><idno type="URI">https://betamasaheft.eu/BLorient8819</idno><idno type="filename">BLorient8819.xml</idno><idno type="ID">BLorient8819</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -169,7 +169,7 @@
                                 </item>
                                 <item xml:id="a5">
                                     <locus from="99r" to="100r"/>
-                                    <desc type="GuestText">Magical prayer for expelling devils, written in another hand.</desc>
+                                    <desc type="GuestText">Magical prayer for expelling devils, written in another hand, probably <title ref="https://betamasaheft.eu/LIT7212PPTaosAzyos">Prayer containing ʾasmāt</title>.</desc>
                                     <q xml:lang="gez">በስሙ፡ ለእግዚአብሔር፡ አብ፡ <gap reason="ellipsis"/> ታኦስ፡ አዝዮስ፡ ማስያስ፡ <gap reason="ellipsis"/></q>
                                 </item>
                                 <item xml:id="e1">
@@ -317,6 +317,7 @@
         <revisionDesc>
             <change when="2024-06-17" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
             <change when="2024-11-01" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrections after reviews by Denis Nosnitsin and Eugenia Sokolinski</change>
+            <change when="2026-09-25" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added LIT ID to a5</change>
         </revisionDesc>
     </teiHeader><text>
         <body>

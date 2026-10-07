@@ -1,20 +1,22 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="CBD941"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt><title type="full">Dublin, Chester Beatty Library Dublin, CBD W 941</title>
-                <title>Magical texts</title>
+                <title>Magic texts</title>
                 <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
+                <editor key="ESh" corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ESh">Elizaveta Shvarts</editor>
                 <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ed-ESh"><resp>editor</resp><name>Elizaveta Shvarts</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">23.9.2026 at 20:47:13</date><date type="lastModified">30.4.2022</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD941/main</idno><idno type="URI">https://betamasaheft.eu/CBD941</idno><idno type="filename">CBD941.xml</idno><idno type="ID">CBD941</idno></publicationStmt>
+            <date type="expanded">7.10.2026 at 12:44:06</date><date type="lastModified">28.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD941/main</idno><idno type="URI">https://betamasaheft.eu/CBD941</idno><idno type="filename">CBD941.xml</idno><idno type="ID">CBD941</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -22,12 +24,65 @@
                         <collection>Ethiopian</collection>
                         <idno facs="https://viewer.cbl.ie/viewer/api/v1/records/W_941/manifest/" corresp="https://viewer.cbl.ie/viewer/api/v1/records/W_941/manifest/">CBD W 941</idno>
                     </msIdentifier>
-                    <msContents><summary/></msContents>
+                    <msContents>
+                        <summary/>
+                        <msItem xml:id="ms_i1">
+                            <title ref="https://betamasaheft.eu/LIT5888AsmatPrayer">ʾAsmāt-prayer (general record)</title>
+                        </msItem>
+                        <msItem xml:id="ms_i2">
+                            <title type="incomplete" ref="https://betamasaheft.eu/LIT1693John#JohnGospel">J. 1:1-1:5</title>
+                        </msItem>
+                        <msItem xml:id="ms_i3">
+                            <title ref="https://betamasaheft.eu/LIT6492PPFanuel">Protective prayer with stanza of the Malkǝʾa Fānuʾel</title>
+                        </msItem>
+                        <msItem xml:id="ms_i4">
+                            <title ref="https://betamasaheft.eu/LIT5696MagicPrayer">Rampart of the Cross (General record)</title>
+                        </msItem>
+                    </msContents>
                     <physDesc>
-                        <objectDesc form="Scroll">                            
+                        <objectDesc form="Scroll">
+                            <supportDesc>
+                                <support>
+                                    <material key="parchment"/>
+                                </support>
+                                <extent>
+                                    <dimensions type="outer" unit="mm">
+                                        <height>1031</height>
+                                        <width>66</width>
+                                    </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="1031" unit="mm"/><width quantity="66" unit="mm"/></dimensions>
+                                </extent>
+                                <condition key="deficient">The bottom strip is missing, but the condition
+                                    of the preserved part is good.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                            </layoutDesc>
                         </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="h1" script="Ethiopic">
+                                <seg type="ink">Black, red.</seg>
+                                <seg type="rubrication">Incipits, the name of the owner as well as a
+                                    few elements of punctuation marks.</seg>
+                                <desc>Regular, careful; square handwriting; ligature of the letters <foreign xml:lang="gez">እ<hi rend="ligature">ግዚ</hi>አብሔር፡</foreign>.</desc>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote xml:id="d1" type="miniature">
+                                <desc>A <term key="MagicDrawing" ana="#MagicDrawing">magic drawning</term> of a holy man
+                                    with a halo. According to Cerulli, this is a portrait of <persName ref="https://betamasaheft.eu/PRS7840Phanuel">Phanuel</persName>. However, the male figure does not have any wings.</desc>
+                            </decoNote>
+                            <decoNote xml:id="d2" type="miniature">
+                                <desc>A <term key="MagicDrawing" ana="#MagicDrawing">magic drawning</term> of three
+                                        <term key="cross" ana="#cross">ceremenoial crosses</term>.</desc>
+                            </decoNote>
+                        </decoDesc>
                     </physDesc>
-                    
+                    <history>
+                        <origin>
+                            <origDate notBefore="1800" notAfter="1899" cert="unknown">19th century (?)</origDate>
+                        </origin>
+                        <provenance>The scroll was manufactured for <persName role="owner" ref="https://betamasaheft.eu/PRS15562Gamila">Ǧamila</persName>.</provenance>
+                    </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -108,10 +163,16 @@
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <t:textClass>
                 <t:keywords scheme="#ethioauthlist">
-                    <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>               
+                    <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+                    <t:term key="NewTestament" ana="#NewTestament"/>
+                    <t:term key="Prayers" ana="#Prayers"/>
+                    <t:term key="Magic" ana="#Magic"/>
                 </t:keywords>
             </t:textClass>
-            <t:langUsage><t:language ident="gez">Gǝʿǝz</t:language> <t:language ident="en">English</t:language></t:langUsage>         
+            <t:langUsage>
+                <t:language ident="gez">Gǝʿǝz</t:language>
+                <t:language ident="en">English</t:language>
+            </t:langUsage>
         <calendarDesc>
 	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
 	<calendar xml:id="ethiopian">
@@ -126,7 +187,9 @@
 	<calendar xml:id="julian"><p>Julian</p></calendar>
 </calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created stub</change>
+            <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+            <change when="2026-09-25" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->completed the record</change>
+            <change when="2026-09-28" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated after the reviews of Carsten Hoffmann and Magdalena Krzyżanowska</change>
         </t:revisionDesc>
     </teiHeader><t:facsimile xmlns:t="http://www.tei-c.org/ns/1.0">
         <t:graphic url="https://viewer.cbl.ie/viewer/mirador/?pi=W_941"/>

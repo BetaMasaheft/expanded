@@ -6,7 +6,7 @@
                 <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
                 <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
@@ -16,7 +16,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">23.9.2026 at 22:38:11</date><date type="lastModified">3.12.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr1/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr1</idno><idno type="filename">ANLcr1.xml</idno><idno type="ID">ANLcr1</idno></publicationStmt>
+            <date type="expanded">7.10.2026 at 14:37:07</date><date type="lastModified">22.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr1/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr1</idno><idno type="filename">ANLcr1.xml</idno><idno type="ID">ANLcr1</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -47,7 +47,7 @@
                                     <material key="parchment"/>
                                 </support>
                                 <extent>
-                                    <measure unit="leaf">54</measure>
+                                    <measure unit="leaf" quantity="54">54</measure>
                                     <dimensions type="outer" unit="mm">
                                         <height unit="mm">110</height>
                                         <width unit="mm">75</width>
@@ -216,6 +216,7 @@
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change when="2024-04-10" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created rudimentary file</change>
             <change when="2024-12-03" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Completed description on the basis of the catalogue description, changed first change element as necessary</change>
+            <change when="2026-09-22" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated extend measure</change>
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>

@@ -5,7 +5,7 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="JK" corresp="https://betamasaheft.eu/team.html#JK" xml:id="JK">Jonas Karlsson</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#JK" xml:id="ed-JK"><resp>editor</resp><name>Jonas Karlsson</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#JK" xml:id="ed-JK"><resp>editor</resp><name>Jonas Karlsson</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ESh"><resp>contributor</resp><name>Elizaveta Shvarts</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">23.9.2026 at 18:44:30</date><date type="lastModified">12.11.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT7212PPTaosAzyos/main</idno><idno type="URI">https://betamasaheft.eu/LIT7212PPTaosAzyos</idno><idno type="filename">LIT7212PPTaosAzyos.xml</idno><idno type="ID">LIT7212PPTaosAzyos</idno></publicationStmt>
+            <date type="expanded">7.10.2026 at 10:36:34</date><date type="lastModified">28.8.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT7212PPTaosAzyos/main</idno><idno type="URI">https://betamasaheft.eu/LIT7212PPTaosAzyos</idno><idno type="filename">LIT7212PPTaosAzyos.xml</idno><idno type="ID">LIT7212PPTaosAzyos</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -113,10 +113,13 @@
         <revisionDesc>
             <change when="2024-12-18" who="#JK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
             <change when="2025-11-12" who="#MV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Revised title, added keyword</change>
+            <change when="2026-08-28" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added relations and alternative incipits</change>
         </revisionDesc>
     </teiHeader><standOff><listRelation>
                     <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT7212PPTaosAzyos" passive="https://betamasaheft.eu/UppEt45"/>
                     <relation name="syriaca:possibly-identical" ref="http://syriaca.org/documentation/relations.html#possibly-identical" active="https://betamasaheft.eu/LIT7212PPTaosAzyos" passive="https://betamasaheft.eu/LIT6851Prayer"/>
+                    <relation name="saws:isVersionOf" ref="http://purl.org/saws/ontology#isVersionOf" active="https://betamasaheft.eu/LIT7212PPTaosAzyos" passive="https://betamasaheft.eu/LIT7094PrayerDevils"/>
+                    <relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/LIT7212PPTaosAzyos" passive="https://betamasaheft.eu/LIT7894TaosAzyos"/>
                 </listRelation></standOff><text>
         <body>
             <div type="bibliography">
@@ -139,6 +142,15 @@
                     አልፋአ፡ አልፋአ<supplied reason="omitted">፡</supplied> ፃዕ፡ ይቤለከ፡ ኢየሱስ፡ ክርስቶስ፡ 
                     ወዝክረ፡ ስምከ፡ ይደምሰስ፡ ለዓለመ፡ ዓለም፡ አሜን፡ ይሰደድ፡ ጋኔን፡ ላዕለ፡ አመትከ፡ 
                     ወለተ፡ <subst><del rend="effaced" unit="chars" quantity="5"/><add>ማርያም<supplied reason="omitted">፡</supplied></add></subst>
+                    </ab>
+                </div>
+            </div>
+            
+            <div xml:lang="gez" type="edition" xml:id="div3LIT7212PPTaosAzyos">
+                <note>The following incipit and explicit are taken from <ref type="mss" corresp="https://betamasaheft.eu/EMIPms00532">Portland, Ethiopic Manuscript Imaging Project, Tweed MS 64</ref>.</note>
+                <div type="textpart" subtype="incipit">
+                    <ab>በስሙ፡ ለአብ፡ በስሙ፡ ለወልድ፡ በስሙ፡ ለመንፈስ፡ ቅዱስ፡ ታዖስ፡ አዝይስ፡ ወሚኪያስ፡ አቅጼፍር፡ አቅጼፍር፡ አቅጼፍር፡ በስሙ፡ ለሐራሹን፡ ሐራሹን፡ <gap reason="ellipsis"/>
+                        አስማተ፡ ቃልከ፡ ኢየሱስ፡ ክርስቶስ፡ ወልደ፡ እግዚአብሔር፡ ሕያው፡ በሰይፈ፡ ሚካኤል፡ ይትገዘም፡ ወፃዕ፡ መንፈስ፡ ርኩስ፡
                     </ab>
                 </div>
             </div>

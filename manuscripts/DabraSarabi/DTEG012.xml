@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="DTEG012"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Eastern Tǝgrāy Zone, Dabra Ṣarābi, DTEG-012</title>
-                <title>Gitsawe</title>
+                <title>Lectionry</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -16,7 +16,7 @@
                      This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
                   </licence>
                </availability>
-            <date type="expanded">23.9.2026 at 20:42:31</date><date type="lastModified">8.8.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG012/main</idno><idno type="URI">https://betamasaheft.eu/DTEG012</idno><idno type="filename">DTEG012.xml</idno><idno type="ID">DTEG012</idno></publicationStmt>
+            <date type="expanded">7.10.2026 at 12:36:23</date><date type="lastModified">22.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG012/main</idno><idno type="URI">https://betamasaheft.eu/DTEG012</idno><idno type="filename">DTEG012.xml</idno><idno type="ID">DTEG012</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -26,7 +26,7 @@
                     <msContents>
                        <summary/>
                        <msItem xml:id="ms_i1">                        
-                           <title type="complete">Gitsawe</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT1932Mashaf">Maṣḥafa gǝṣṣāwe</title>
                          <textLang mainLang="gez"/>
                            </msItem>
                                                                      
@@ -45,16 +45,39 @@
                                                <depth unit="mm">60</depth>
                                            </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="280" unit="mm"/><width quantity="220" unit="mm"/><depth quantity="60" unit="mm"/></dimensions>
                                        </extent>
-                            <foliation>Modern foliation in pencil, 1-135</foliation>
-                            <condition key="deficient">The leather cover on both boards is preserved. Leather and Textile inlay preserved.</condition>
+                            <foliation>Unfoliated.</foliation>
+                            <condition key="intact"/>
                          </supportDesc>
-                     </objectDesc>
+              
+                       <layoutDesc>
+                           <layout columns="2">                               
+                               <ab type="ruling" subtype="pattern">1A-1A-1A1A/0-0/0-0/C</ab> 
+                               
+                           </layout>                           
+                       </layoutDesc>
+                       </objectDesc>
                        
+                       
+                       <handDesc>
+                           <handNote xml:id="h1" script="Ethiopic">
+                               <seg type="script">Twentieth-century script.</seg>
+                               <seg type="ink">Black, red.</seg>
+                               <desc>Not very careful, somewhat irregular; by a mediocre scribe.</desc>
+                           </handNote>                              
+                       </handDesc>     
+                       
+                       <additions>
+                           <list>
+                               <item xml:id="a1">
+                                   <desc type="DonationNote">The note mentions the date of the purchase, 
+                                   1960 EC (=1967/68 CE). Written in red ink.</desc>
+                               </item>
+                           </list>
+                       </additions>
                        
                          <bindingDesc>
                              <binding contemporary="true">
-                                 <decoNote xml:id="b1">Two wooden boards; Leather cover and textile inlay.
-                                     </decoNote>
+                                 <decoNote xml:id="b1">Two wooden boards; blind-tooled leather cover; textile inlays.</decoNote>
                                  <decoNote xml:id="b2" type="bindingMaterial">                                     
                                      <material key="wood"/>   
                                      <material key="leather"/>
@@ -69,7 +92,9 @@
                     
                       <history>
                          <origin>
-                           <origDate notBefore="1700" notAfter="1799">18th century.</origDate>
+                           <origDate notBefore="1960" notAfter="1968">Probably around 1967/68 CE.</origDate>
+                             The manuscript was bought by Gabra ʾƎgziʾabǝḥer Barhe in 1967/68 CE and donated to the church of Gāśāt Yoḥannǝs 
+                             Maṭmǝq (which is different from the present owning institution).  
                              </origin>
                           
                       </history>
@@ -141,9 +166,8 @@
             </abstract>
             <textClass>
                 <keywords>
-                    <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                    <term key="Poetry" ana="#Poetry"/>
-                    <term key="Gon" ana="#Gon"/> 
+                    <term key="ChristianLiterature" ana="#ChristianLiterature"/>                
+                    <term key="MoPe" ana="#MoPe"/> 
                       <term key="Liturgy" ana="#Liturgy"/>
                                   
                 </keywords>
@@ -170,6 +194,7 @@
                 description on the basis of an examination in situ.</change>
             <change when="2026-08-08" who="#JF"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created entity with rudimentary
                 description.</change>
+            <change when="2026-09-22" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->revised the description.</change>
         </revisionDesc>
     </teiHeader><text>
         <body>

@@ -5,7 +5,7 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DE" corresp="https://betamasaheft.eu/team.html#DE" xml:id="DE">Daria Elagina</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DE" xml:id="ed-DE"><resp>editor</resp><name>Daria Elagina</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DE" xml:id="ed-DE"><resp>editor</resp><name>Daria Elagina</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">23.9.2026 at 19:29:53</date><date type="lastModified">12.12.2019</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS12853Berru/main</idno><idno type="URI">https://betamasaheft.eu/PRS12853Berru</idno><idno type="filename">PRS12853Berru.xml</idno><idno type="ID">PRS12853Berru</idno></publicationStmt>
+            <date type="expanded">7.10.2026 at 11:04:23</date><date type="lastModified">29.8.2026</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS12853Berru/main</idno><idno type="URI">https://betamasaheft.eu/PRS12853Berru</idno><idno type="filename">PRS12853Berru.xml</idno><idno type="ID">PRS12853Berru</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -99,17 +99,17 @@
 </calendarDesc></profileDesc>
         <revisionDesc>
             <change when="2019-12-12" who="#DE"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2026-08-29" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated encoding of roleName and added floruit</change>
         </revisionDesc>
     </teiHeader><text>
         <body>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ብሩ</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"><roleName type="title">daǧǧāč</roleName>Bǝrru</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Bǝrru</persName>
+                    <persName><roleName type="title">daǧǧāč</roleName></persName>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1920">Beginning of the twentieth century</floruit>
                 </person>
             </listPerson>
         </body>

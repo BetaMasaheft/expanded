@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="DTEG019"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Eastern Tǝgrāy Zone, Dabra Ṣarābi, DTEG-019</title>
-                <title>Wengele Yohannes</title>
+                <title>Gospel of John</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -16,7 +16,7 @@
                      This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
                   </licence>
                </availability>
-            <date type="expanded">23.9.2026 at 20:42:31</date><date type="lastModified">7.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG019/main</idno><idno type="URI">https://betamasaheft.eu/DTEG019</idno><idno type="filename">DTEG019.xml</idno><idno type="ID">DTEG019</idno></publicationStmt>
+            <date type="expanded">7.10.2026 at 12:36:23</date><date type="lastModified">27.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG019/main</idno><idno type="URI">https://betamasaheft.eu/DTEG019</idno><idno type="filename">DTEG019.xml</idno><idno type="ID">DTEG019</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -26,7 +26,7 @@
                     <msContents>
                        <summary/>
                        <msItem xml:id="ms_i1">                        
-                           <title type="complete">Wengele Yohannes</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT2715John">Gospel of John</title>
                          <textLang mainLang="gez"/>
                            </msItem>
                                                                      
@@ -45,15 +45,30 @@
                                                <depth unit="mm">40</depth>
                                            </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="170" unit="mm"/><width quantity="120" unit="mm"/><depth quantity="40" unit="mm"/></dimensions>
                                        </extent>
-                            <foliation>Modern foliation in pencil, 1-135</foliation>
-                            <condition key="deficient">The leather cover undetectable. Textile over cover</condition>
+                            <foliation>Unfoliated</foliation>
+                            <condition key="intact"/>
                          </supportDesc>
-                     </objectDesc>
+               
+                       
+                       <layoutDesc>
+                           <layout columns="2">                               
+                               <ab type="ruling" subtype="pattern">1A-1A-1A1A/0-0/0-0/C</ab> 
+                               
+                           </layout>                           
+                       </layoutDesc>
+                       </objectDesc>
                        
                        
+                       <handDesc>
+                           <handNote xml:id="h1" script="Ethiopic">
+                               <seg type="script">Twentieth-century script.</seg>
+                               <seg type="ink">Black, red.</seg>
+                               <desc>Not careful, irregular; by a mediocre scribe; probably copied by two scribes.</desc>
+                           </handNote>                              
+                       </handDesc>     
                          <bindingDesc>
                              <binding contemporary="true">
-                                 <decoNote xml:id="b1">Two wooden boards; textile over cover.
+                                 <decoNote xml:id="b1">Two wooden boards; textile overcover.
                                      </decoNote>
                                  <decoNote xml:id="b2" type="bindingMaterial">                                     
                                      <material key="wood"/>   
@@ -68,7 +83,7 @@
                     
                       <history>
                          <origin>
-                           <origDate notBefore="1700" notAfter="1799">18th century.</origDate>
+                           <origDate notBefore="1900" notAfter="1999">20th century.</origDate>
                              </origin>
                           
                       </history>
@@ -141,10 +156,9 @@
             <textClass>
                 <keywords>
                     <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                    <term key="Poetry" ana="#Poetry"/>
-                    <term key="Gon" ana="#Gon"/> 
-                      <term key="Liturgy" ana="#Liturgy"/>
-                                  
+                    <term key="Liturgy" ana="#Liturgy"/>
+                    <term key="MoPe" ana="#MoPe"/> 
+                      <term key="NewTestament" ana="#NewTestament"/>              
                 </keywords>
             </textClass>
             <langUsage>
@@ -169,6 +183,7 @@
                 description on the basis of an examination in situ.</change>
             <change when="2026-09-07" who="#JF"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created entity with rudimentary
                 description.</change>
+            <change when="2026-09-27" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->revised the description.</change>
         </revisionDesc>
     </teiHeader><text>
         <body>

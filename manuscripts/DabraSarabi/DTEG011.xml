@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="DTEG011"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Eastern Tǝgrāy Zone, Dabra Ṣarābi, DTEG-011</title>
-                <title>Mieraf</title>
+                <title>Mǝʿrāf</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -16,7 +16,7 @@
                      This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
                   </licence>
                </availability>
-            <date type="expanded">23.9.2026 at 20:42:31</date><date type="lastModified">8.8.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG011/main</idno><idno type="URI">https://betamasaheft.eu/DTEG011</idno><idno type="filename">DTEG011.xml</idno><idno type="ID">DTEG011</idno></publicationStmt>
+            <date type="expanded">7.10.2026 at 12:36:23</date><date type="lastModified">22.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG011/main</idno><idno type="URI">https://betamasaheft.eu/DTEG011</idno><idno type="filename">DTEG011.xml</idno><idno type="ID">DTEG011</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -26,8 +26,9 @@
                     <msContents>
                        <summary/>
                        <msItem xml:id="ms_i1">                        
-                           <title type="complete">Mieraf</title>
+                           <title type="complete" ref="https://betamasaheft.eu/LIT3186Meeraf">Mǝʿrāf</title>
                          <textLang mainLang="gez"/>
+                           <notatedMusic><desc>The text is supplied with musical notation.</desc></notatedMusic>
                            </msItem>
                                                                      
                         </msContents>
@@ -45,16 +46,39 @@
                                                <depth unit="mm">80</depth>
                                            </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="300" unit="mm"/><width quantity="260" unit="mm"/><depth quantity="80" unit="mm"/></dimensions>
                                        </extent>
-                            <foliation>Modern foliation in pencil, 1-135</foliation>
-                            <condition key="deficient">The leather cover on both boards is missing. No textile inlay.</condition>
-                         </supportDesc>
+                            <foliation>Unfoliated.</foliation>
+                            <condition key="deficient"/>
+                        </supportDesc>
+                         
+                         
+                         <layoutDesc>
+                             <layout columns="3">                               
+                                 <ab type="ruling" subtype="pattern">1A-1A-1A1A-1A1A/0-0/0-0/C</ab> 
+                                 <note>The first folium pricked and ruled only in part.</note>
+                             </layout>                           
+                         </layoutDesc>
                      </objectDesc>
                        
                        
+                       <handDesc>
+                           <handNote xml:id="h1" script="Ethiopic">
+                               <seg type="script">Eighteenth-century script.</seg>
+                               <seg type="ink">Black, red.</seg>
+                               <desc>Very careful, regular; small size script, by a good scribe.</desc>
+                           </handNote>                              
+                       </handDesc>     
+                       
+                       <additions>
+                           <list>
+                               <item xml:id="a1">
+                             <desc type="Unclear">An unclear note, in the recent ball pen</desc>
+                               </item>
+                           </list>
+                       </additions>
+                       
                          <bindingDesc>
                              <binding contemporary="true">
-                                 <decoNote xml:id="b1">Two wooden boards; No leather cover. No textile inlay.
-                                     </decoNote>
+                                 <decoNote xml:id="b1">Two wooden boards.</decoNote>
                                  <decoNote xml:id="b2" type="bindingMaterial">                                     
                                      <material key="wood"/>     
                                      </decoNote>
@@ -168,6 +192,7 @@
                 description on the basis of an examination in situ.</change>
             <change when="2026-08-08" who="#JF"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created entity with rudimentary
                 description.</change>
+            <change when="2026-09-22" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->revised the description.</change>
         </revisionDesc>
     </teiHeader><text>
         <body>

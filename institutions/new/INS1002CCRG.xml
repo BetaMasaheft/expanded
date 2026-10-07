@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="ins" xml:lang="en" xml:id="INS1002CCRG"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Č̣āč̣ara Giyorgis</title>
-                
+
                 <title>Č̣āč̣ara Giyorgis</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="GS" corresp="https://betamasaheft.eu/team.html#GS" xml:id="GS">Guesh Solomon</editor>
@@ -9,14 +9,14 @@
             <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#GS" xml:id="ed-GS"><resp>editor</resp><name>Guesh Solomon</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">24.9.2026 at 00:12:15</date><date type="lastModified">30.5.2023</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS1002CCRG/main</idno><idno type="URI">https://betamasaheft.eu/INS1002CCRG</idno><idno type="filename">INS1002CCRG.xml</idno><idno type="ID">INS1002CCRG</idno></publicationStmt>
+            <date type="expanded">7.10.2026 at 15:44:07</date><date type="lastModified">30.5.2023</date><idno type="collection">institutions</idno><idno type="url">https://betamasaheft.eu/institutions/INS1002CCRG/main</idno><idno type="URI">https://betamasaheft.eu/INS1002CCRG</idno><idno type="filename">INS1002CCRG.xml</idno><idno type="ID">INS1002CCRG</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -104,21 +104,28 @@
         <revisionDesc>
             <change when="2023-05-30" who="#GS"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
         </revisionDesc>
-    </teiHeader><text>
+    </teiHeader><standOff><listRelation>
+                <relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/INS1002CCRG" passive="https://betamasaheft.eu/INS0964Chechera"/>
+            </listRelation></standOff><text>
         <body>
             <listPlace>
                 <place type="church monastery" subtype="institution">
                     <placeName xml:lang="gez" xml:id="n1">ጫጨረ፡ ጊዮርጊስ፡ </placeName>
-                    <placeName xml:lang="gez" type="normalized" corresp="#n1">Č̣āč̣ara Giyorgis</placeName>
+                    <placeName xml:lang="gez" type="normalized" corresp="#n1">Č̣āč̣ara
+                        Giyorgis</placeName>
                     <country ref="https://www.wikidata.org/entity/Q115">Ethiopia</country>
-                  
                     <location>
                         <geo> 13.585808 38.494763</geo>
-                        
-                    </location>   <note>
+                    </location>
+                    <country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</country>
+                    <region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</region>
+                    <note>Located in the north Tigray region, Ethiopia (about 80 KM from Shire
+                        town)</note>
+                    <note>
                         <ab type="tabot"><persName type="tabot" ref="https://betamasaheft.eu/PRS4585Georgeo">St George of Lydda</persName></ab>
                     </note>
                 </place>
             </listPlace>
+            
         </body>
     </text></TEI>
