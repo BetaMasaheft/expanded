@@ -12,7 +12,7 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="CH" corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH">Carsten Hoffmann</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="ed-CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="ed-CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MK" xml:id="MK"><resp>contributor</resp><name>Magdalena Krzyzanowska</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -22,7 +22,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">7.10.2026 at 10:36:48</date><date type="lastModified">27.2.2024</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6940IncarnationAmh/main</idno><idno type="URI">https://betamasaheft.eu/LIT6940IncarnationAmh</idno><idno type="filename">LIT6940IncarnationAmh.xml</idno><idno type="ID">LIT6940IncarnationAmh</idno></publicationStmt>
+            <date type="expanded">9.10.2026 at 13:49:52</date><date type="lastModified">2.10.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6940IncarnationAmh/main</idno><idno type="URI">https://betamasaheft.eu/LIT6940IncarnationAmh</idno><idno type="filename">LIT6940IncarnationAmh.xml</idno><idno type="ID">LIT6940IncarnationAmh</idno></publicationStmt>
             <sourceDesc>
                     <listWit>
                         <witness corresp="https://betamasaheft.eu/BLorient2198"><idno>BL Oriental 2198</idno></witness>
@@ -91,7 +91,7 @@
         <profileDesc>
             <creation/>
             <abstract>
-                <p>A commentary on the mystery of Incarnation with a similar content as <ref type="work" corresp="https://betamasaheft.eu/LIT1097Ammest">ʾAmmǝstu ʾaʿmāda mǝśṭir</ref>.</p>
+                <p>A commentary on the mystery of Incarnation.</p>
             </abstract>
             <textClass>
                 <keywords>
@@ -121,13 +121,19 @@
         <revisionDesc>
             <change when="2024-02-23" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
             <change when="2024-02-27" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrections after reviews by Eugenia Sokolinski and Denis Nosnitsin</change>
+            <change when="2026-10-02" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added relations</change>
         </revisionDesc>
-    </teiHeader><text>
+    </teiHeader><standOff><listRelation> 
+                    <relation name="saws:isDifferentTo" ref="http://purl.org/saws/ontology#isDifferentTo" active="https://betamasaheft.eu/LIT6940IncarnationAmh" passive="https://betamasaheft.eu/LIT5964CommIncarnation"/>
+                        <relation name="saws:isRelatedTo" ref="http://purl.org/saws/ontology#isRelatedTo" active="https://betamasaheft.eu/LIT6940IncarnationAmh" passive="https://betamasaheft.eu/LIT7892Catechism"/>
+                </listRelation></standOff><text>
         <body>
-            
-            <div type="edition" subtype="incipit" xml:id="div1LIT6940IncarnationAmh">
+            <div type="bibliography">            
+                
+            </div>
+            <div type="edition" subtype="incipit" xml:id="div2LIT6940IncarnationAmh">
                 <note>The following incipit is taken from <ref type="mss" corresp="https://betamasaheft.eu/EMIP00269">Portland, Ethiopic Manuscript Imaging Project, Weiner Codex 92</ref>.</note>
-                <ab xml:lang="am">በስመ፡ አብ፡ ወወልድ፡ <gap reason="omitted"/> የምሥጢረ፡ ሥጋዌ፡ የትስብዕትና፡ የመለኮት፡ ተዋህዶ፡ እንዴት፡ ነው፡ ቢሉ፡ አዳም፡
+                <ab xml:lang="am">በስመ፡ አብ፡ ወወልድ፡ <gap reason="ellipsis"/> የምሥጢረ፡ ሥጋዌ፡ የትስብዕትና፡ የመለኮት፡ ተዋህዶ፡ እንዴት፡ ነው፡ ቢሉ፡ አዳም፡
                     ሥላሴ፡ ያዘዙትን፡ ትእዛዝ፡ ቢያፈርስ፡ ሞተ፡ ሥጋ፡ ሞተ፡ ነፍስ፡ ተፈረዶበት፡ (sic) ሲኖር፡ ከሥላሴ፡ ምሕረት፡ አይለይምና፡</ab>
             </div>
         </body>

@@ -6,7 +6,7 @@
             <title corresp="#t1" xml:lang="en">Account of the Faith</title>
             <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MK" xml:id="MK"><resp>contributor</resp><name>Magdalena Krzyzanowska</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -18,10 +18,19 @@
                      Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">7.10.2026 at 10:36:42</date><date type="lastModified">14.2.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2048Nagara/main</idno><idno type="URI">https://betamasaheft.eu/LIT2048Nagara</idno><idno type="filename">LIT2048Nagara.xml</idno><idno type="ID">LIT2048Nagara</idno></publicationStmt>
+         <date type="expanded">9.10.2026 at 13:50:00</date><date type="lastModified">7.8.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2048Nagara/main</idno><idno type="URI">https://betamasaheft.eu/LIT2048Nagara</idno><idno type="filename">LIT2048Nagara.xml</idno><idno type="ID">LIT2048Nagara</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+         </sourceDesc>
+         <sourceDesc>
+            <listWit>
+               <witness corresp="https://betamasaheft.eu/EMML1710"><idno>MS EMML no. 1710</idno></witness>
+               <witness corresp="https://betamasaheft.eu/EMIP00299"><idno n="241" facs="EMIP/Codices/299/">Weiner Codex 115</idno></witness>
+               <witness corresp="https://betamasaheft.eu/EMML1533"><idno>MS EMML no. 1533</idno></witness>
+               <witness corresp="https://betamasaheft.eu/EMML1648"><idno>MS EMML no. 1648</idno></witness>
+               <witness corresp="https://betamasaheft.eu/EMML2950"><idno>MS EMML no. 2950</idno></witness>
+            </listWit>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -83,9 +92,9 @@
      </prefixDef>
      <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1">
      </prefixDef>
-</listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+</listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="explicit" use="@subtype"><desc><list><item>explicit</item></list></desc></citeStructure><citeStructure match="t:div" unit="incipit" use="@subtype"><desc><list><item>incipit</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <t:langUsage><t:language ident="gez"/></t:langUsage>
+         <t:langUsage><t:language ident="am"/><t:language ident="gez"/><t:language ident="en">English</t:language></t:langUsage>
          <t:textClass>
             <t:keywords>
                <t:term key="AmharicLiterature" ana="#AmharicLiterature"/>
@@ -94,7 +103,8 @@
             </t:keywords>
          </t:textClass>
          <t:abstract>
-            <t:p>Amharic treatise on the Karra doctrine</t:p>
+            <t:p>An Amharic treatise presenting the Kārrā view of the nature of Christ and contrasting it with the views held by other religious movements and heresies. 
+               <t:ref type="mss" corresp="https://betamasaheft.eu/EMML1710">Collegeville, Hill Museum and Manuscript Library, MS EMML no. 1710</t:ref> contains a relatively long version. </t:p>
          </t:abstract>
       <calendarDesc>
 	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
@@ -114,12 +124,35 @@
             spreadsheet </change>
          <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
          <change when="2017-02-14" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated title keywords relation</change>
+         <change when="2026-08-07" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added bibliography, witnesses and incipit</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation>
             <relation name="saws:hasChild" ref="http://purl.org/saws/ontology#hasChild" active="https://betamasaheft.eu/LIT2048Nagara" passive="https://betamasaheft.eu/LIT2047Nagara"/>
          </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
+         <t:div type="bibliography">
+            <t:listBibl type="secondary">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/VVJKEFN4"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Wion2007NagaraHay"/><title level="a">Nägärä haymanot</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Anaïs</forename><surname>Wion</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowits Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">1103</biblScope><note type="tags"><note type="tag">bm:Wion2007NagaraHay</note></note><note type="tag">bm:Wion2007NagaraHay</note></t:bibl>
+            </t:listBibl>
+            <t:div type="edition" xml:id="div1LIT2048Nagara">
+               <t:note>The following incipit and explicit are taken from <t:ref type="mss" corresp="https://betamasaheft.eu/EMIP00299">Portland, Ethiopic Manuscript Imaging Project, Weiner Codex 115</t:ref>.</t:note>
+               <t:div type="textpart" subtype="incipit">
+               <t:ab>በስመ፡ <t:gap reason="ellipsis"/> እጽሕፍ፡ ነገረ፡ ሃይማኖት፡ ዘአበዊነ፡ ቀደምት። ለክሕደት፡ ነቁ፡ ጳውሎስ፡ ሳምሳጢ፡ ነው፡ ከበረኃ፡ ይኖር፡ ነበር፡ ቅጠልና፡ ውሀ፡ እየተመገበ፡ የበቃ፡ 
+                  ሰው፡ ሆነ፡ ዲያብሎስ፡ እግዚእትነ፡ ማርያም፡ ተመስሎ፡ መግበት<t:sic/>፡ በጽሐ፡ ጽሎትከ፡ ወገአርከ፡ ቅድመ፡ እግዚአብሔር፡ አለው፡ እኔን፡ ባጭር፡ ቁመት፡ በጠባብ፡ ደረት፡ ተወስኘ፡ ታየኛለህ፡
+               </t:ab>
+               </t:div>
+            <t:div type="textpart" subtype="explicit">
+               <t:ab>ያባታችንም፡ የአቡነ፡ ተክለ፡ ሃይማኖት፡ ትውልድም፡ ከአዛርያስ፡ ነውና፡ ዛሬም፡ የአቡነ፡ ተክለ፡ ሃይማኖት፡ ልጆች፡ ከሊቀ፡ ጳጳስ፡ በታች፡ ሊቀ፡ ካህናትነት፡ መሾም፡ ይገባቸዋል፡ የቤተ፡ ኤዎስጣቴዎስ፡ ግን፡ አይገባቸውም፡ ይ<t:surplus>ን</t:surplus>ህንም፡ የሚያስረዳ፡ 
+                  ጽሑፍ፡ አለ፡ ዘኢተወልደ፡ እቤተ፡ ተክለ፡ ሃይማኖት፡ ውጉዝ፡ ውእቱ፡ ብለዋል፡ ካ፲፪ቱ፡ ንቡራነ፡ እድ፡ ያልመነኮሰ፡ ሲል፡ ነ<t:add>ው፡፡</t:add></t:ab>
+            </t:div>
+            </t:div>
+            <t:div type="edition" xml:id="div2LIT2048Nagara">
+               <t:note>The following incipit is taken from <t:ref type="mss" corresp="https://betamasaheft.eu/EMML2950">Collegeville, Hill Museum and Manuscript Library, MS EMML no. 2950</t:ref>.</t:note>
+            <t:ab>በስመ፡ <t:gap reason="ellipsis"/> ሃይማኖት፡ ዘአስተጋብዕዎ፡ ሊቃውንት፡ ርቱዓነ፡ ሃይማኖት። የክሕደት፡ ነቁ፡ ጳውሎስ፡ ሳምሳጢ፡ ነው፡፡ ቅጠልና፡ ውሀ፡ እየተመገበ፡ ከበረሀ፡ ውድቆ፡ ይኖር፡ ነበር፡ የበቃ፡ 
+               ሰው፡ ሆነ፡፡ ዲያብሎስ፡ በመቤታችን፡ ተመስሎ፡ መጥቶ፡ በጽሐ፡ ጽሎትከ፡ ወዓርገ፡ ቅድመ፡ እግዚአብሔር፡ አለው፡ አሁንም፡ እኔን፡ ባጭር፡፡ በጸቢብ፡ ደረት፡ ተወስኜ፡ ታየኛለህ፡
+            </t:ab>
+         </t:div>
          
-         <t:ab/>
+         </t:div>
       </t:body>
    </t:text></TEI>

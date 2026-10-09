@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="ESsdm018"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Gāntā ʾAfašum, Soṭā Dabra Salām Qǝddus Mikāʾel, SDM-018</title>
-            <title>ʾAmmǝstu ʾaʿmāda mǝśṭir “The Five Pillars of Mystery”</title>
+            <title>ʾAmmǝstu ʾaʿmāda mǝśṭir ‘The Five Pillars of Mystery’</title>
             <editor role="cataloguer" key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="ca-DN">Denis Nosnitsin</editor>
             <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
          <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DN" xml:id="cat-DN"><resp>cataloguer</resp><name>Denis Nosnitsin</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
@@ -15,36 +15,44 @@
             under the Creative Commons Attribution-ShareAlike 4.0.</licence>
             </availability>
             
-         <date type="expanded">7.10.2026 at 13:31:48</date><date type="lastModified">25.4.2019</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ESsdm018/main</idno><idno type="URI">https://betamasaheft.eu/ESsdm018</idno><idno type="filename">ESsdm018.xml</idno><idno type="ID">ESsdm018</idno></publicationStmt>
+         <date type="expanded">9.10.2026 at 16:42:34</date><date type="lastModified">25.4.2019</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ESsdm018/main</idno><idno type="URI">https://betamasaheft.eu/ESsdm018</idno><idno type="filename">ESsdm018.xml</idno><idno type="ID">ESsdm018</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository ref="https://betamasaheft.eu/INS0177SDM">Soṭā Dabra Salām Qǝddus Mikāʾel</repository>
                   <collection>Ethio-SPaRe</collection>
-                  <idno>SDM-018</idno>
+                  <idno facs="SDM/018/SDM-018" n="58" corresp="https://betamasaheft.eu/api/iiif/ESsdm018/manifest">SDM-018</idno>
                </msIdentifier>
                <msContents>
-                  <summary>I) ʾAmmǝstu ʾaʿmāda mǝśṭir “The Five Pillars of Mystery” (fols. 1v-45r),
-                     incomplete
- I-1) Mǝśṭira ṭǝmqat “Mystery of Baptism” (fols. 1v-20r)
-                     I-2) Mǝśṭira qʷǝrbān “Mystery of the Eucharist” (fols. 20r-32r)
- I-3)
-                     Mǝśṭira tǝnśāʾe mutān “Mystery of the Resurrection of the
-                     Dead”(32r-45r)</summary>
+                  <summary/>
+                  
                   <msItem xml:id="ms_i1">
-                     <title type="incomplete">ʾAmmǝstu ʾaʿmāda mǝśṭir</title>
-                     <note>only three out of five mysteries</note>
+                     <locus from="1v" to="45r"/>
+                     <title type="incomplete" ref="https://betamasaheft.eu/LIT1097Ammest">ʾAmmǝstu ʾaʿmāda mǝśṭir</title>
+                     <textLang mainLang="am"/>
+                     <note>The introductory part and the beginning of the Mystery of the Baptism are missing.</note>
+         
                      <msItem xml:id="ms_i1.1">
-                        <title>Mǝśṭira ṭǝmqat</title>                    
-                        
+                        <locus from="1v" to="20r"/>
+                        <title type="incomplete" ref="https://betamasaheft.eu/LIT1097Ammest#BaptismMystery">ʾAmmǝstu ʾaʿmāda mǝśṭir: Mystery of the Baptism,
+        ምሥጢረ፡ ጥምቀት፡)</title>
+                        <explicit xml:lang="am">የአረሚ፡ ልጅ፡ ግን፡ ወደ፡ አረሚ፡ ስፍራ፡ ይገባል፡ ክፉ፡ ሰርቶአል፡ ብሎ፡ ስቃይ፡ አይጸናበትም፡ ክፉና፡ በጎ፡ ሳውቁ፡ በሕፃንነታቸው፡ የሞቱ፡ አነዋወራቸው፡ እንዴህ፡ ነው። ምሥጥረ፡ ጥምቀት፡ ይህ፡ ነው፡</explicit>
                      </msItem>
+                     
                      <msItem xml:id="ms_i1.2">
-                        <title>Mǝśṭira qʷǝrbān</title>                    
+                        <locus from="20r" to="32r"/>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1097Ammest#Eucharist">ʾAmmǝstu ʾaʿmāda mǝśṭir: Mystery of the Eucharist (ምሥጢረ፡
+        ቍርባን፡)</title>
+                        <incipit xml:lang="am"><hi rend="rubric">ምሥጢረ፡ ቍርባን፡ እንዴት፡ ነው፡ ቢሉ፡ ጌታ፡</hi> እስራኤል፡ ከግብጽ፡ ሲያወጻቸው፡ በ፲፭ቀን፡ በሚያዝያ፡ አወፃቸው፡ ያን፡ የወጹበት፡ ቀን፡ ባመት፡ ባመት፡ አክብሩት፡ ብላቸው፡ ያከብሩታል፡ ለያስተርኢ፡ ተባዕትከ፡ ፫ጊዜ፡ 
+                           በበመዓት፡ ብሎ፡ አዘዋቸል፡ ፫በዓላት፡ በኢየሩሳሌም፡ ጠንቅቆ፡ ያክብሩ፡ ነበር፡ ምንና፡ ምን፡ ናቸው፡ ቢሉ፡ በዓለ፡ ፋሲካ፡ አመ፲ወ፭ለሚያዝያ፡ በዓለ፡ ሰዊት፡ አመ፭ለሴኔ፡ መጸለት፡ አመ፲ለጥቅምት፡ እሌህ፡ ናቸው። <gap reason="ellipsis" xml:lang="gez"/></incipit>
+                     </msItem>             
                         
-                     </msItem>
                      <msItem xml:id="ms_i1.3">
-                        <title>Mǝśṭira tǝnśāʾe</title>                    
-                        
+                        <locus from="32r" to="45r"/>
+                        <title type="complete" ref="https://betamasaheft.eu/LIT1097Ammest#Resurrection">ʾAmmǝstu ʾaʿmāda mǝśṭir: Mystery of the Resurrection
+        (ምሥጢረ፡ ትንሣኤ፡)</title>
+                        <incipit xml:lang="am"><hi rend="rubric">ምሥጢረ፡ ትንሣኤ፡ እንዴት፡ ነው፡ ቢሉ፡ ጌታ፡</hi> በፈቃዱ፡ በዕለተ፡ አርብ፡ ሞተ፡ ሞተ<sic/>፡ በፈቃዱ፡ ወተቀብረ፡ በሥምረቱ፡ እንዳለ፡ ቅዱስ፡ ቄርሎስ። ጌታም፡ አልቦ፡ ዘየኃይደንያ፡ እሞዕዴየ፡ ወለልየ፡ 
+                           እሜጥዋ፡ በፈቃድየ፡ እንዳለ። ሲሞትም፡ ፬ባሕርያት፡ ማይ፡ መሬት፡ ነፋስ፡ እሳት፡ አልተለያዩም። ሞተ፡ ማለት፡ መጽሐፍ፡ እንዴት፡ ነው፡ ቢሉ። ነፍስና፡ ሥጋ፡ መለያየት፡ ነው፡ <gap reason="ellipsis" xml:lang="gez"/></incipit>                
                      </msItem>
                   </msItem>
                </msContents>

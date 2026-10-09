@@ -1,0 +1,176 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT7891PillarsGeez"><teiHeader>
+        <fileDesc>
+            <titleStmt><title type="full">Ḫamǝstu ʾaʿmāda mǝśṭir (general record)</title>
+                <title xml:lang="gez" xml:id="t1">ኀምስቱ፡ አዕማደ፡ ምሥጢር፡</title>
+                <title xml:lang="gez" corresp="#t1" type="normalized">Ḫamǝstu ʾaʿmāda mǝśṭir (general record)</title>
+                <title xml:lang="en" corresp="#t1">Five Pillars of Mystery (Gǝʿǝz)</title>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
+                <editor key="MK" corresp="https://betamasaheft.eu/team.html#MK" xml:id="MK">Magdalena Krzyzanowska</editor>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MK" xml:id="ed-MK"><resp>editor</resp><name>Magdalena Krzyzanowska</name></respStmt></titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            <date type="expanded">9.10.2026 at 18:04:01</date><date type="lastModified">12.8.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT7891PillarsGeez/main</idno><idno type="URI">https://betamasaheft.eu/LIT7891PillarsGeez</idno><idno type="filename">LIT7891PillarsGeez.xml</idno><idno type="ID">LIT7891PillarsGeez</idno></publicationStmt>
+            <sourceDesc>
+                <p>Work of the literatures of Ethiopia and Eritrea</p>
+            </sourceDesc>
+            <sourceDesc>
+                    <listWit>
+                        <witness corresp="https://betamasaheft.eu/ESmakm101#ms_i1"><idno facs="MAKM/101/MAKM-101" n="143">C4-IV-60</idno></witness>
+                    </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef>
+     <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1">
+    </prefixDef>
+     <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1">
+    </prefixDef>
+     <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1">
+    </prefixDef>
+    <prefixDef ident="pleiades" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://pleiades.stoa.org/places/$1">
+    </prefixDef>
+    <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1">
+    </prefixDef>
+    <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1">
+    </prefixDef>
+    <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+    </prefixDef>
+    <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1">
+    </prefixDef>
+    <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1">
+    </prefixDef>
+
+    <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1">
+    </prefixDef>
+    <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1">
+    </prefixDef>
+    <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1">
+    </prefixDef>
+
+    <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1">
+    </prefixDef>
+
+    <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1">
+    </prefixDef>
+     <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1">
+     </prefixDef>
+     <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9_]+)" replacementPattern="http://erlangen-crm.org/current/$1">
+     </prefixDef>
+     <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1">
+     </prefixDef>
+</listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="div" unit="textsubunit" use="@subtype"><desc><list><item>Unity</item></list></desc></citeStructure><citeStructure match="div" unit="Mystery-of-the-Trinity" use="@xml:id"><desc><list><item>Trinity</item></list></desc></citeStructure><citeStructure match="div" unit="Mystery-of-the-Resurrection-of-the-Dead" use="@xml:id"><desc><list><item>Resurrection</item></list></desc></citeStructure><citeStructure match="div" unit="Mystery-of-Baptism" use="@xml:id"><desc><list><item>Baptism</item></list></desc></citeStructure><citeStructure match="div" unit="textpart" use="@subtype"><citeStructure match="div" unit="incipit" use="@subtype"><desc><list><item>incipit</item></list></desc></citeStructure><desc><list><item>Introduction</item></list></desc></citeStructure><citeStructure match="div" unit="Conclusion-on-the-Authenticity-of-the-Teaching" use="@xml:id"><desc><list><item>Conclusion</item></list></desc></citeStructure><citeStructure match="div" unit="Mystery-of-the-Eucharist" use="@xml:id"><desc><list><item>Eucharist</item></list></desc></citeStructure><citeStructure match="div" unit="Mystery-of-the-Incarnation" use="@xml:id"><desc><list><item>Incarnation</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p>This is a general record for any Gǝʿǝz texts that contain the teachings of the Orthodox Church about the five main tenets of belief: 
+                    belief in the Holy Trinity, the Incarnation, the baptism, the Eucharist, and the resurrection of the dead. 
+                    The text is typically structured in the form of questions (inquiries) and answers (explanations).</p>
+            </abstract>
+            <textClass>
+                <keywords>
+                    <term key="ChristianLiterature" ana="#ChristianLiterature"/>
+                    <term key="Theology" ana="#Theology"/>
+                    <term key="generalRecord" ana="#generalRecord"/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        <calendarDesc>
+	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
+	<calendar xml:id="ethiopian">
+		<p> ʿĀmata śəggāwe (Era of the Incarnation – Ethiopian)</p>
+	</calendar>
+	<calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar>
+	<calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar>
+	<calendar xml:id="alexander"><p> Era of Alexander</p></calendar>
+	<calendar xml:id="evangelists"><p>Evangelists' years</p></calendar>
+	<calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar>
+	<calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar>
+	<calendar xml:id="julian"><p>Julian</p></calendar>
+</calendarDesc></profileDesc>
+        <revisionDesc>
+            <change when="2026-08-12" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+        </revisionDesc>
+    </teiHeader><standOff><listRelation>
+                    <relation name="saws:isDifferentTo" ref="http://purl.org/saws/ontology#isDifferentTo" active="https://betamasaheft.eu/LIT7891PillarsGeez" passive="https://betamasaheft.eu/LIT1584Hayman"/>
+                    <relation name="saws:isRelatedTo" ref="http://purl.org/saws/ontology#isRelatedTo" active="https://betamasaheft.eu/LIT7891PillarsGeez" passive="https://betamasaheft.eu/LIT1097Ammest"/>
+                </listRelation></standOff><text>
+        <body>
+            <div type="bibliography">
+                
+            </div>
+            <div type="edition" xml:id="div2LIT7891PillarsGeez">
+                <note>The text edition follows <ref type="mss" corresp="https://betamasaheft.eu/MAKM101"><seg corresp="MAKM101">No item: MAKM101</seg></ref>.</note>
+                <div type="textpart" subtype="textpart" xml:lang="gez" xml:id="Introduction">
+                    <label>Introduction to the Five Pillars of Mystery</label>
+                    <div type="textpart" subtype="incipit" xml:lang="gez">
+                    <ab>በስመ፡ <gap reason="ellipsis" resp="MK"/> ንቀድም፡ በረድኤተ፡ እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ጽሒፈ፡ መቅድመ፡ ፭አዕመደ፡ ምሥጢር፡ ዘውእቶሙ፡ ምሥጢረ፡ ፫አካላት፡ ወምሥጢረ፡ ሥጋዌሁ፡ ለ፩እምእሉ፡ ወምሥጢረ፡ ጥምቀት፡ ዘይእቲ፡ ሐዳስ፡ ልደት።
+                        ወምሥጢረ፡ ሥጋሁ፡ ወደሙ፡ ለክርስቶስ፡ ዘውእቱ፡ ዓረቦነ፡ መንግሥተ፡ ሰማያት። ወምሥጢረ፡ ትንሣኤ፡ ዘይእቲ፡ ትእምርተ፡ ልደት፡ ወቦ፡ እለ፡ ይብሉ፡ ኃምሳይስ፡ ምሥጢረ፡ ንስሐ፡ ውእቱ።</ab>
+                </div>
+                </div>
+                <div type="textpart" xml:id="Trinity">
+                    <label>Mystery of the Trinity</label>
+                    <ab>በስመ፡ <gap reason="ellipsis" resp="MK"/> ዛቲ፡ ይእቲ፡ መጽሐፈ፡ ሐተታ፡ ወተሠጥዎ፡ ወምሥጢረ፡ ሥላሴሁ፡ ለ፩አምላክ። ሐተታ፡ አይ፡ ይእቲ፡ ዛቲ፡ ምሥጢር። ተሠጥ፡ ሃይማኖት፡ ይእቲ፡ ዘእነበለ፡ ኑፋቄ፡ ከመ፡ እግዚአብሔር፡ እንዘ፡ ፫፩ ወእንዘ፡ ፩፫።
+                        ሐተታ፡ ዘከመ፡ እፎ፡ ይትከሃል፡ ዝንቱ፡ ከዊን። ተሠጥ፡ ንድግስ፡ ፈጣሬ፡ ፍጡራንኒ፡ ከመዝ፡ እሙንቱ፡ ናሁ፡ ፀሐይ፡ ወክበቡ፡ ወበጸዳሉ፡ ወበሙቀቱ፡ ፫ውእቱ፡ እንዘ፡ ፩ፀሐይ፡ ይሰመይ። </ab>
+                </div>
+                <div type="textpart" subtype="textsubunit" xml:id="Unity">
+                    <label>Mystery of the Unity</label>
+                    <ab>ወእምዝ፡ ናተሉ፡ ምሥጡረ፡ ተዋህዶሙ፡ እስመ፡ ይትዋሀዱ፡ በኵሉ፡ ፆታ፡ እንበለ፡ ዘዘከርነ፡ ቀዳሚ፡ በእግዚአብሔርና፡ በአምላክና፡ በመለኮት፡ በመንግሥት፡ በሥልጣን፡ በምኵናን፡ በእኂዝ፡ ፩እሙንቱ፡ 
+                        ወፍካሬ፡ እሉ፡ ቃላት፡ ፩ውእቱ፡ እስመ፡ ኵሎሙ፡ ያኢምሩ፡ ከመ፡ ፈጣሪያነ፡ ኵሉ፡ ወመላክያነ፡ ኵሉ፡ በተዋህዶ።</ab>
+                </div>
+                <div type="textpart" xml:id="Incarnation">
+                    <label>Mystery of the Incarnation</label>
+                    <ab>ወካዕበ፡ ንጽሐፍ፡ ምሥጢረ፡ ሥጋዌሁ፡ ለ፩ዘእምቅድስት፡ ሥላሴ፡ በከመ፡ ይቤ፡ ዮሐንስ፡ ቲአጎሎስ፡ ውእቱ፡ ቃል፡ ሥጋ፡ ኮነ፡ ወኀደረ፡ ላዕሌነ፡ እመቦ፡ ዘይብል፡ በእንተ፡ ምንት፡ ወልድ፡ ባሕቲቱ፡ ተሠገወ፡ 
+                        ወአብ፡ ወመንፈስ፡ ቅዱስ፡ ኢተሠገዉ፡ ንብል፡ ከመ፡ ይሰመይ፡ በቃዳሚ፡ ስመ፡ ወልድ፡ ናሁ። ወከመ፡ ኢይትፋለሱ፡ አስማተ፡ ሥላሴ፡ በከመ፡ ይቤ፡ ሳዊሮስ፡ ዘአንጾኪያ፡</ab>
+                </div>
+                <div type="textpart" xml:id="Baptism">
+                    <label>Mystery of Baptism</label>
+                    <ab>ወእምዝ፡ ናተሉ፡ ምሥጢረ፡ ማየ፡ ጥምቀትነ፡ ዘይእቲ፡ መሠረተ፡ ንጽሕነ፡ ወቀዳሚተ፡ መድኃኒትነ፡ በከመ፡ ይቤ፡ ጳውሎስ፡ መጠወ፡ ርእሶ፡ በእንቲአሃ፡ ከመ፡ ይቀድስ፡ ወያንጽሐ፡ በማየ፡ ጥምቀት፡ ወበቃሉ። 
+                        ወካዕበ፡ ይቤ፡ አኮ፡ በምግባረ፡ ጽድቅነ፡ ዳእሙ፡ በምሕረቱ፡ አድኃነነ፡ በጥምቀት፡ በዳግም፡ ልደት፡ ወተሐድሶ፡ በመንፈስ፡ ቅዱስ።</ab>
+                </div>
+                <div type="textpart" xml:id="Eucharist">
+                    <label>Mystery of the Eucharist</label>
+                    <ab>ወሶበ፡ ተወለድነ፡ እምዛቲ፡ ሐዳስ፡ እም፡ ንሴስይ፡ ሲሳየ፡ ሐዲሰ፡ ወትረ፡ በከመ፡ መሀረነ፡ ንበሎ፡ ሲሳየነ፡ ዘለለዕለትነ፡ ሀበነ፡ ዮም፡ ዝንቱ፡ ሲሳይ፡ ትፍሥሕተ፡ ነፍስነ፡ ወጽንዓ፡ ኃይልነ፡ 
+                        በከመ፡ ይቤ፡ ነቢይ፡ ወይን፡ ያስተፌሥሕ፡ ልበ፡ ሰብእ፡ ወቅብዕ፡ ለአብርሆ፡ ገጽ፡ እክል፡ ያጻንዕ፡ ኃይለ፡ ሰብእ፡ ዝንቱ፡ ሲሳይ፡ ሕይወትነ፡ ወመድኃኒትነ።</ab>
+                </div>
+                <div type="textpart" xml:id="Resurrection">
+                    <label>Mystery of the Resurrection of the Dead</label>
+                    <ab>ወእምዝ፡ ንጽሕፍ፡ ምሥጢረ፡ ትንሣኢነ፡ ዘይእቲ፡ ዳግም፡ ልደትነ፡ በከመ፡ ይቤሎሙ፡ ክርስቶስ፡ ለአርዳኢኩ፡ አመ፡ ዳግም፡ ልደት፡ ትነብሩ፡ ዲበ፡ ፲ወ፪መናብርት፡ 
+                        ወዝልደት፡ ተወጥነ፡ በሥጋሁ፡ እስመ፡ ከመ፡ ተንሥአ፡ ያነሥአነ፡ ለነ፡  እምኅቱም፡ መቃብር፡ እስመ፡ ውእቱ፡ በኵርነ፡ ወአምላክነ።</ab>
+                </div>
+                <div type="textpart" xml:id="Conclusion">
+                    <label>Conclusion on the Authenticity of the Teaching</label>
+                    <ab>ተፈጸመ፡ መሥጡረ፡ ፭አዕመደ፡ ምሥጢር፡ ሐተታ፡ አይ፡ መጽሐፍ፡ ዘከረ፡ እሎንተ። ተሠጥዎ፡ ማህበረ፡ ኒቅያ፡ ወቍስጥንጥንያ፡ ጸሐፉ፡ ጸሎተ፡ ሃይማኖት፡ ወአልቦ፡ ካልእ፡ ምሥጢር፡ ውስቴታ፡ ዘእንበለ፡ እሉ፡ ፭ወአዘዙነ፡ ንትመሀራ፡ እስመ፡ ይእቲ፡ ጥንተ፡ ክርስትና፡ ይቤሉ፡ ነአምን፡ በ፩አምላክ፡ እግዚአብሔር፡ አብ፡ ወመትልወ፡ ዝንቱ፡ ወነአምን፡ 
+                        በ፩እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ ወመትልወ፡ ዝንቱ፡ ወነአምን፡ በመንፈስ፡ ቅዱስ፡ እግዚእ፡ ማኅየዊ፡ ወመትልወ፡ ዝንቱ፡ ዝውእቱ፡ ፩ምሥጢር። </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

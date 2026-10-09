@@ -1,11 +1,11 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT5963CommTrinity"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Amharic Commentary on the Mystery of the Trinity</title>
-                <title xml:lang="en" xml:id="t1">Amharic Commentary on the Mystery of the Trinity</title>
+                <title xml:lang="en" xml:id="t1">Amharic Commentary on the Mystery of the Trinity (general record)</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MK" xml:id="MK"><resp>contributor</resp><name>Magdalena Krzyzanowska</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -15,9 +15,18 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">7.10.2026 at 10:37:06</date><date type="lastModified">2.6.2020</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5963CommTrinity/main</idno><idno type="URI">https://betamasaheft.eu/LIT5963CommTrinity</idno><idno type="filename">LIT5963CommTrinity.xml</idno><idno type="ID">LIT5963CommTrinity</idno></publicationStmt>
+            <date type="expanded">9.10.2026 at 13:50:11</date><date type="lastModified">2.10.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5963CommTrinity/main</idno><idno type="URI">https://betamasaheft.eu/LIT5963CommTrinity</idno><idno type="filename">LIT5963CommTrinity.xml</idno><idno type="ID">LIT5963CommTrinity</idno></publicationStmt>
             <sourceDesc>
                 <p/>
+            </sourceDesc>
+            <sourceDesc>
+                <listWit>
+                    <witness type="external" corresp="https://w3id.org/vhmml/readingRoom/view/872464">IES 2592</witness>
+                    <witness type="external" corresp="https://w3id.org/vhmml/readingRoom/view/872605">IES 3673</witness>
+                    <witness type="external" corresp="https://w3id.org/vhmml/readingRoom/view/872073">IES 729</witness>
+                    <witness corresp="https://betamasaheft.eu/EMDA276"><idno facs="EMIP/Codices/2954/" n="144">G4-IV-91-14</idno></witness>
+                    <witness corresp="https://betamasaheft.eu/EMML1810"><idno>MS EMML no. 1810</idno></witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -81,13 +90,16 @@
         <profileDesc>
             <creation/>
             <abstract>
-                <p/>
+                <p>This is a general record that encompasses texts dealing with the first mystery of faith: the Mystery of the Trinity. 
+                    Most often it is included in the <ref type="work" corresp="https://betamasaheft.eu/LIT1097Ammest">ʾAmmǝstu ʾaʿmāda mǝśṭir</ref>, but sometimes it appears alone or in tandem with <ref type="work" corresp="https://betamasaheft.eu/LIT5964CommIncarnation">Commentary on the Mystery of the Incarnation</ref>.
+                   </p>
             </abstract>
             <textClass>
                 <keywords>
                     <term key="AmharicLiterature" ana="#AmharicLiterature"/>
                     <term key="ChristianLiterature" ana="#ChristianLiterature"/>
                     <term key="Commentary" ana="#Commentary"/>
+                    <term key="generalRecord" ana="#generalRecord"/>
                 </keywords>
             </textClass>
             <langUsage>
@@ -110,12 +122,14 @@
         <revisionDesc>
             <change when="2020-05-22" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
             <change when="2020-06-02" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added relation after clarification by Ralph Lee</change>
+            <change when="2026-10-02" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added relation, witnesses, abstract, info about "general record"</change>
         </revisionDesc>
     </teiHeader><standOff><listRelation>
                     <relation name="saws:isRelatedTo" ref="http://purl.org/saws/ontology#isRelatedTo" active="https://betamasaheft.eu/LIT5963CommTrinity" passive="https://betamasaheft.eu/LIT5938CommAmmestu">
                         <desc>The relation between the commentary on the Five Pillars of Mystery, and the commentaries on 
                             the single mysteries, still awaits further study.</desc>
                     </relation>
+                    <relation name="saws:isRelatedTo" ref="http://purl.org/saws/ontology#isRelatedTo" active="https://betamasaheft.eu/LIT5963CommTrinity" passive="https://betamasaheft.eu/LIT7565MasAm"/>
                 </listRelation></standOff><text>
         <body>
             <div type="bibliography">

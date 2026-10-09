@@ -4,7 +4,7 @@
             <title xml:id="t1">EMML 1126</title>
             <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
          <editionStmt>
             <p>The initial version of this file was created from data kindly
                                 provided by Hill Museum &amp; Manuscript Library.</p>
@@ -24,7 +24,7 @@
                </licence>
             </availability>
             
-         <date type="expanded">7.10.2026 at 12:49:46</date><date type="lastModified">29.5.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMML1126/main</idno><idno type="URI">https://betamasaheft.eu/EMML1126</idno><idno type="filename">EMML1126.xml</idno><idno type="ID">EMML1126</idno></publicationStmt>
+         <date type="expanded">9.10.2026 at 15:58:20</date><date type="lastModified">30.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMML1126/main</idno><idno type="URI">https://betamasaheft.eu/EMML1126</idno><idno type="filename">EMML1126.xml</idno><idno type="ID">EMML1126</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -62,14 +62,15 @@
                      <note>Copied from a manuscript from Enṭoṭṭo, fol. 24r</note>
                   </msItem>
                   <msItem xml:id="ms_i3">
-                     <title>Tārik za-Gāllā wa-rāʻeya neguś Lebna Dengel</title>
+                     <title ref="https://betamasaheft.eu/LIT2419Tarikz">Tārik za-Gāllā wa-rāʾǝya Lǝbna Dǝngǝl</title>
                      <incipit xml:lang="gez">ንጽሕፍ፡ መጽሐፈ፡ ታሪክ፡ ዘጋላ፡ ወራዕየ፡ ንጉሥ፡ ልብነ፡ ድንግል፡ ዘርአየ፡ በእንተ፡ ሀገሩ፡ ከመ፡ ትትኰነን፡ በእደ፡ ተንባላት፡ ወአረሚ።
                         
                      </incipit>
-                     <note>Work is composed by the command of Emperor Zadengel by Liqa Zamalakot, fol. 113r</note>
+                     <note>Work is composed on the command of <persName ref="https://betamasaheft.eu/PRS10513Zadenge">Zadǝngǝl</persName> by <persName ref="https://betamasaheft.eu/PRS14997Zamalakot">Zamalakot</persName>
+                        (cf. <locus target="#113r"/>).</note>
                   </msItem>
                   <msItem xml:id="ms_i4">
-                     <title>Tarik za-Wayzaro ʼAgāyā</title>
+                     <title ref="https://betamasaheft.eu/LIT7915TarikAgaya">Maṣḥafa tārik za-wayzaro ʾAgāyā</title>
                      <incipit xml:lang="gez">ወዝንቱ፡ መጽሐፈ፡ ተሪክ፡ ዘወይዘሮ፡ አጋያ፡ ወለተ፡ ወለቱ፡ ለዘድንግል፡ ንጉሠ፡ ንገሥት፡ ዘአምጽአቶ፡ እምደሴተ፡ ባሕረ፡ ዟይ።
                      </incipit>
                      
@@ -222,6 +223,7 @@
          <change when="2017-11-30" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created minimal record with link from data sent from Daniel Gullo, HMML
                             project.</change>
          <change when="2024-05-29" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated repository, added link and facs, aligned metadata produced by Jeremy R. Brown for vHMML</change>
+         <change when="2026-09-30" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated ms_i3 and ms_i4.</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation><relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/EMML1126" passive="https://betamasaheft.eu/EMIP02935"/></listRelation></standOff><t:facsimile xmlns:t="http://www.tei-c.org/ns/1.0">
       <t:graphic url="https://w3id.org/vhmml/readingRoom/view/202962"/>

@@ -5,7 +5,7 @@
             <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
             <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
          <editionStmt>
             <p>Digitized by the Ethiopic Manuscript Imaging Project directed
                by Steve Delamarter.</p>
@@ -18,7 +18,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">7.10.2026 at 14:28:51</date><date type="lastModified">4.5.2022</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLbruce93/main</idno><idno type="URI">https://betamasaheft.eu/BDLbruce93</idno><idno type="filename">BDLbruce93.xml</idno><idno type="ID">BDLbruce93</idno></publicationStmt>
+         <date type="expanded">9.10.2026 at 17:34:55</date><date type="lastModified">5.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLbruce93/main</idno><idno type="URI">https://betamasaheft.eu/BDLbruce93</idno><idno type="filename">BDLbruce93.xml</idno><idno type="ID">BDLbruce93</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                   <msIdentifier>
@@ -781,7 +781,7 @@
                      
                      <msItem xml:id="p2_i2">
                         <locus from="89" to="96"/>
-                        <title type="complete">Documents on the History of ʾAksum</title>
+                        <title ref="https://betamasaheft.eu/LIT1913Mashaf">Documents on the History of ʾAksum</title>
                         <textLang mainLang="gez"/>
                         <note>The description of the content of this manuscript follows <bibl corresp="http://zotero.org/groups/358366/items/WFZXDU5E"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Wion2009LibAks"/><title level="a">Le Liber Aksumae selon le manuscrit Bodleian Bruce 93 : le plus ancien témoin d'un projet historiographique sans cesse réactivé</title><title level="j">Oriens Christianus</title><author><forename>Anais</forename><surname>Wion</surname></author><date>2009</date><biblScope unit="volume">93</biblScope><biblScope unit="page">135-171</biblScope><note type="url">http://www.academia.edu/3022230/Le_Liber_Aksumae_selon_le_manuscrit_Bodleian_Bruce_93_le_plus_ancien_t%C3%A9moin_dun_projet_historiographique_sans_cesse_r%C3%A9activ%C3%A9</note><note type="tags"><note type="tag">bm:Wion2009LibAks</note></note><note type="tag">bm:Wion2009LibAks</note></bibl>.</note>
                         
@@ -1196,6 +1196,7 @@
          <change when="2017-05-10" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
          <change when="2017-07-26" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added binding description</change>
          <change when="2022-05-04" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added EMIP</change>
+         <change when="2026-10-05" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added LIT1913Mashaf to p2_i2</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation><relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/BDLbruce93" passive="https://betamasaheft.eu/EMIP03191"/></listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       

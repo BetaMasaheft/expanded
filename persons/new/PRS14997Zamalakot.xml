@@ -5,7 +5,7 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">7.10.2026 at 15:42:29</date><date type="lastModified">5.8.2025</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS14997Zamalakot/main</idno><idno type="URI">https://betamasaheft.eu/PRS14997Zamalakot</idno><idno type="filename">PRS14997Zamalakot.xml</idno><idno type="ID">PRS14997Zamalakot</idno></publicationStmt>
+            <date type="expanded">9.10.2026 at 18:07:53</date><date type="lastModified">30.9.2026</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS14997Zamalakot/main</idno><idno type="URI">https://betamasaheft.eu/PRS14997Zamalakot</idno><idno type="filename">PRS14997Zamalakot.xml</idno><idno type="ID">PRS14997Zamalakot</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -103,22 +103,20 @@
         <revisionDesc>
             <change when="2025-08-05" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity. I distance myself from the norm ISO
                 5218:2004, used here for legacy reasons.</change>
+            <change when="2026-09-30" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated floruit and note, deleted relation.</change>
         </revisionDesc>
-    </teiHeader><standOff><listRelation>
-                    <relation name="saws:isCopierOf" ref="http://purl.org/saws/ontology#isCopierOf" active="https://betamasaheft.eu/PRS14997Zamalakot" passive="https://betamasaheft.eu/ANLcr25"/>
-                </listRelation></standOff><text>
+    </teiHeader><text>
         <body>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ዘመለኮት፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zamalakot</persName>
-                    <note>Zamalakot is described in the colophon of <ref type="mss" corresp="https://betamasaheft.eu/ANLcr25">Rome, Biblioteca dell’Accademia Nazionale dei Lincei, Conti Rossini 25</ref> as
-                        ‘son of the
-                        children of Marqorewos, head of
-                        the scribes and ṣaḥafe tǝʾǝzāz of <persName ref="https://betamasaheft.eu/PRS10626ZaraY">Zarʾa Yāʿqob</persName>’.</note>
-                    <floruit when="1902"/>
+                    <persName><roleName type="title">liqa</roleName></persName>
+                    <note>Zamalakot is described in <ref type="work" corresp="https://betamasaheft.eu/LIT2419Tarikz">Tārik za-Gāllā wa-rāʾǝya Lǝbna Dǝngǝl</ref> as ‘son of the
+                        children of Marqorewos, head of the scribes and ṣaḥāfe tǝʾǝzāz of Zarʾa Yāʿqob’.</note>
+                    <floruit notBefore="1600" notAfter="1605">Beginning of the seventeenth century during the reign of 
+                        <persName ref="https://betamasaheft.eu/PRS10513Zadenge">Zadǝngǝl</persName>.</floruit>
                 </person>
-                
             </listPerson>
         </body>
     </text></TEI>

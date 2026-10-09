@@ -5,7 +5,7 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">7.10.2026 at 14:37:07</date><date type="lastModified">30.7.2025</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr25/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr25</idno><idno type="filename">ANLcr25.xml</idno><idno type="ID">ANLcr25</idno></publicationStmt>
+            <date type="expanded">9.10.2026 at 17:39:55</date><date type="lastModified">30.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ANLcr25/main</idno><idno type="URI">https://betamasaheft.eu/ANLcr25</idno><idno type="filename">ANLcr25.xml</idno><idno type="ID">ANLcr25</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -44,7 +44,7 @@
                                 ልጆች፡ ወለደችለት፡ ሶስት፡ ሴቶች፡ አራት፡ ወንዶች፡
                             </incipit>
                             <explicit xml:lang="gez">ተፈጸመ፡ ታሪከ፡ ነገሥት፡ ዘአጽሐፎ፡ ዘድንግል፡ ንጉሠ፡ <sic>ነገሥተ፡</sic> 
-                                ጸሓፊሑ፡ <persName role="scribe" ref="https://betamasaheft.eu/PRS14997Zamalakot">ሊቀ፡ ዘመለኮት፡</persName>
+                                ጸሓፊሑ፡ <persName role="author" ref="https://betamasaheft.eu/PRS14997Zamalakot"><roleName type="title">ሊቀ፡</roleName> ዘመለኮት፡</persName>
                                 ወልደ፡ ውሉዱ፡ ለመርቆሬዎስ፡ ሊቀ፡ ጸሐፍት፡ ጸሓፌ፡ ትእዛዙ፡ ለዘርዐ፡ ያዕቆብ፡ ርቱአ፡ 
                                 ሃይማኖት፡ ዘጸሐፈ፡ ድርሳነ፡ ማርያም፡ ወተአምራቲሃ፡ በቀለመ፡ ወርቅ።</explicit>
                             <colophon xml:id="coloph1" xml:lang="gez">
@@ -259,6 +259,7 @@
 </calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change when="2025-07-30" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2026-09-30" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated role of PRS14997Zamalakot</change>
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body> 

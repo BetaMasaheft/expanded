@@ -1,11 +1,12 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="CBD940"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt><title type="full">Dublin, Chester Beatty Library Dublin, CBD W 940</title>
-                <title>Magical texts</title>
+                <title>Magic texts</title>
                 <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
+                <editor key="ESh" corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ESh">Elizaveta Shvarts</editor>
                 <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ed-ESh"><resp>editor</resp><name>Elizaveta Shvarts</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">7.10.2026 at 12:44:06</date><date type="lastModified">30.4.2022</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD940/main</idno><idno type="URI">https://betamasaheft.eu/CBD940</idno><idno type="filename">CBD940.xml</idno><idno type="ID">CBD940</idno></publicationStmt>
+            <date type="expanded">9.10.2026 at 15:54:38</date><date type="lastModified">5.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD940/main</idno><idno type="URI">https://betamasaheft.eu/CBD940</idno><idno type="filename">CBD940.xml</idno><idno type="ID">CBD940</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -22,18 +23,66 @@
                         <collection>Ethiopian</collection>
                         <idno>CBD W 940</idno>
                     </msIdentifier>
-                    <msContents><summary/></msContents>
+                    <msContents><summary/>
+                        <msItem xml:id="ms_i1">
+                            <title ref="https://betamasaheft.eu/LIT6609ProtectPrayer">Protective Prayer (general record)</title>
+                            <incipit xml:lang="gez">በስመ፡ <gap reason="ellipsis" resp="ESh"/> ጸሎተ፡ <unclear/> በኃይለ፡ ዝንቱ፡ አስማቲከ፡ እግዕ፡ ደማ፡ ለዓመትከ፡ <gap reason="ellipsis" resp="ESh"/>
+                                ሜሎስ፡ ኤልያያስ፡ በ፩መለኮትከ፡ ይቁም፡
+                                ኦእግዚእየ፡ ኢየሱስ፡ ክርስቶስ፡ ዓቢይ፡ ስሙ፡ ዘሀሎ፡</incipit>
+                            <explicit xml:lang="gez">በከመ፡ ሰማዕከ፡ ጸሎታ፡ ለሐና፡ እመ፡ ሳሙኤል፡ ወሐና፡ እመ፡ ማርያም፡ እምከ፡ ዘእስተኃደርከ፡ ዘርእ፡ ኂሩትከ፡ ሀቦ፡ ውልደ፡ ለዓመትከ፡ <gap reason="ellipsis" resp="ESh"/></explicit>
+                        </msItem>
+                        <msItem xml:id="ms_i2">
+                            <title ref="https://betamasaheft.eu/LIT7768PPLisAflis">Lis ʾaflis mali wa-malalis</title>
+                        </msItem>
+                        <msItem xml:id="ms_i3">
+                            <title type="incomplete" ref="https://betamasaheft.eu/LIT2715John">J 1:1-1:5</title>
+                        </msItem>
+                        <msItem xml:id="ms_i4">
+                            <title type="incomplete" ref="https://betamasaheft.eu/LIT2711Mark">Gospel of Mark (Mk)</title>
+                        
+                        <msItem xml:id="ms_i4.1">
+                            <title>Mk 8:28-8:32</title>
+                        </msItem>
+                            <msItem xml:id="ms_i4.2">
+                                <title ref="https://betamasaheft.eu/LIT7276MarkOne">Mk 1:23-1:27</title>
+                            </msItem>
+                        </msItem>
+                        <msItem xml:id="ms_i5">
+                            <title type="incomplete" ref="https://betamasaheft.eu/LIT2713Luke">Lk 4:33-4:37</title>
+                        </msItem>
+                    </msContents>
                     <physDesc>
                         <objectDesc form="Scroll">                            
+                            <supportDesc>
+                                <support>
+                                    <material key="parchment"/>
+                                </support>
+                               
+                                <condition key="deficient">At least one additional strip is missing at the bottom. Due to the dirtiness of the parchment and severe ink fading, the text on the second parchment strip is partially illegible.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1"/>
+                            </layoutDesc>
                         </objectDesc>
+                        <decoDesc>
+                            <decoNote xml:id="d1" type="miniature">
+                                <desc>A <term key="MagicDrawing" ana="#MagicDrawing">magic drawing</term> of an eight-pointed star with a face, most probably of a <term key="angel" ana="#angel">cherub</term>.</desc>
+                            </decoNote>
+                        </decoDesc>
+                        
                     </physDesc>
-                    
+                    <history>
+                        <origin><origDate notBefore="1800" notAfter="1899" cert="unknown">19th
+                                century (?)</origDate></origin>
+                        <provenance>The name of <persName role="owner" ref="https://betamasaheft.eu/PRS15564NegestMar">Nǝgǝśt Māryām</persName>is written throughout the scoll, by a secondary hand, above the name of the previous owner
+                            <persName role="owner" ref="https://betamasaheft.eu/PRS15563WalattaGiy">Walatta Giyorgis</persName>.</provenance>
+                    </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
                                     <listBibl type="catalogue">
-                                        <bibl corresp="http://zotero.org/groups/358366/items/TDIJ8SGG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Cerulli1965ChesterBeatty"/><title level="m">I manoscritti etiopici della Chester Beatty Library in Dublino</title><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><author><forename>Enrico</forename><surname>Cerulli</surname></author><pubPlace>[Roma]</pubPlace><publisher>[Accademia nazionale dei Lincei]</publisher><date>1965</date><series><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><biblScope unit="volume">Serie ottava, 11/6</biblScope></series><biblScope unit="volume">Serie ottava, 11/6</biblScope><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note></note><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note><citedRange unit="page">304-305</citedRange></bibl>
+                                        <bibl corresp="http://zotero.org/groups/358366/items/TDIJ8SGG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Cerulli1965ChesterBeatty"/><title level="m">I manoscritti etiopici della Chester Beatty Library in Dublino</title><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><author><forename>Enrico</forename><surname>Cerulli</surname></author><pubPlace>[Roma]</pubPlace><publisher>[Accademia nazionale dei Lincei]</publisher><date>1965</date><series><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><biblScope unit="volume">Serie ottava, 11/6</biblScope></series><biblScope unit="volume">Serie ottava, 11/6</biblScope><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note></note><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note><citedRange unit="page">304–305</citedRange></bibl>
                                     </listBibl>
                                 </source>
                             </recordHist>
@@ -108,7 +157,10 @@
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <t:textClass>
                 <t:keywords scheme="#ethioauthlist">
-                    <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>               
+                    <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
+                    <t:term key="Magic" ana="#Magic"/>
+                    <t:term key="Prayers" ana="#Prayers"/>
+                    <t:term key="NewTestament" ana="#NewTestament"/>
                 </t:keywords>
             </t:textClass>
             <t:langUsage><t:language ident="gez">Gǝʿǝz</t:language> <t:language ident="en">English</t:language></t:langUsage>         
@@ -126,7 +178,9 @@
 	<calendar xml:id="julian"><p>Julian</p></calendar>
 </calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created stub</change>
+            <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+            <change when="2026-09-28" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->completed the record</change>
+            <change when="2026-10-05" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated after the review of Magdalena Krzyżanowska</change>
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>
