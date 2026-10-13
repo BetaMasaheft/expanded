@@ -5,7 +5,10 @@ name: Scheduled Re-expansion
 # workflow_dispatch ONLY. Each shard boots ghcr.io/betamasaheft/betamasaheft
 # (app image: BetMasWeb + BetMasData + EthioStudies), expands one BetMasData
 # collection path, uploads an artifact. Assemble merges into this repo;
-# push_to_main gates notify-betmas. Image contents are asserted in BetMas bats.
+# push_to_main gates the bot commit. Image contents are asserted in BetMas bats.
+# Bot pushes use GITHUB_TOKEN and do not fire notify-betmas on push — after a
+# successful push_to_main commit we dispatch expanded-updated with DEPLOY_PAT
+# (same payload as notify-betmas.yml). Human/PR pushes to main still notify.
 #
 # Pilot: collection=corpora or manuscripts/EMML/1-1000, push_to_main=false.
 #          collection=manuscripts/EMML expands to all EMML L2 buckets.
@@ -351,6 +354,20 @@ jobs:
             authority-files manuscripts corpora
           git commit -m "chore(expand): re-expansion snapshot (${{ inputs.shard_mode }})"
           git push origin HEAD:main
+
+      # repository_dispatch always creates a run (unlike push-from-GITHUB_TOKEN).
+      - name: Notify BetMas data image
+        if: steps.diff.outputs.changed == 'true' && inputs.push_to_main == true
+        env:
+          GH_TOKEN: ${{ secrets.DEPLOY_PAT }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::DEPLOY_PAT is not set on this repo."
+            exit 1
+          fi
+          gh api repos/BetaMasaheft/BetMas/dispatches \
+            -f event_type=expanded-updated
+          echo "Dispatched expanded-updated to BetMas."
 
       - name: Skip push (changed but push_to_main=false)
         if: steps.diff.outputs.changed == 'true' && inputs.push_to_main != true
