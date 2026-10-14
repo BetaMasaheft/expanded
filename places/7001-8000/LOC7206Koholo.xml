@@ -5,7 +5,7 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MK" xml:id="MK"><resp>contributor</resp><name>Magdalena Krzyzanowska</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">7.10.2026 at 15:09:13</date><date type="lastModified">19.3.2019</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC7206Koholo/main</idno><idno type="URI">https://betamasaheft.eu/LOC7206Koholo</idno><idno type="filename">LOC7206Koholo.xml</idno><idno type="ID">LOC7206Koholo</idno></publicationStmt>
+            <date type="expanded">14.10.2026 at 22:10:47</date><date type="lastModified">7.10.2026</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC7206Koholo/main</idno><idno type="URI">https://betamasaheft.eu/LOC7206Koholo</idno><idno type="filename">LOC7206Koholo.xml</idno><idno type="ID">LOC7206Koholo</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -102,12 +102,16 @@
 </calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change when="2019-03-19" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2026-10-07" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Completed place name, added place name</change>
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>
             <t:listPlace>
                 <t:place type="district qushat">
-                    <t:placeName>Koholo</t:placeName>
+                    <t:placeName xml:id="n1" xml:lang="ti">ኮሆሎ፡</t:placeName>
+                    <t:placeName corresp="#n1" xml:lang="ti" type="normalized">Koholo</t:placeName>
+                    <t:placeName xml:id="n2" xml:lang="ti">ኰኰሎ፡</t:placeName>
+                    <t:placeName corresp="#n2" xml:lang="ti" type="normalized">Kʷakʷalo</t:placeName>
                     <t:country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:country>
                     <t:region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</t:region>
                     
