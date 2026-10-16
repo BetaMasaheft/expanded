@@ -27,35 +27,8 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libxml2-utils ripgrep
-      - name: Read bibliography pin
-        id: bibpin
-        run: |
-          set -euo pipefail
-          pin=$(grep -E '^[0-9a-f]{40}$' scripts/ci/pins/bibliography.sha | head -1)
-          if [ -z "${pin}" ]; then
-            echo "missing pin in scripts/ci/pins/bibliography.sha" >&2
-            exit 1
-          fi
-          echo "sha=${pin}" >> "$GITHUB_OUTPUT"
-      - name: Checkout bibliography (citations.xml)
-        uses: actions/checkout@v7
-        with:
-          repository: BetaMasaheft/bibliography
-          ref: ${{ steps.bibpin.outputs.sha }}
-          path: bibliography
-          sparse-checkout: citations.xml
-          sparse-checkout-cone-mode: false
-      - name: Checkout BetMas catalog artifacts
-        uses: actions/checkout@v7
-        with:
-          repository: BetaMasaheft/BetMas
-          ref: master
-          path: betmas
-          sparse-checkout: |
-            db/apps/catalogs/bibl-exceptions.xml
-            db/apps/catalogs/place-labels.xml
-            scripts/place-labels
-          sparse-checkout-cone-mode: false
+      - name: Checkout reference-gate dependencies
+        uses: ./project/.github/actions/checkout-reference-gates
       # Write changed XML paths to a file — never stuff tens of thousands of
       # paths into GITHUB_OUTPUT (breaks corpus-wide baseline PRs).
       - name: Check for changed source files
@@ -161,8 +134,8 @@ jobs:
             --root . \
             --citations "${GITHUB_WORKSPACE}/bibliography/citations.xml" \
             --exceptions "${GITHUB_WORKSPACE}/betmas/db/apps/catalogs/bibl-exceptions.xml"
-      # Warn-only until HP6 backlog is empty (BetMas #234); bm: gate above is fail-closed.
-      - name: External place ref coverage (warn)
+      # Warn-only backlog (BetMas #234); missing BetMas checker/artifact still fails.
+      - name: External place ref coverage (warn backlog; fail on misconfig)
         run: |
           bash scripts/ci/check-place-refs.sh \
             --root . \

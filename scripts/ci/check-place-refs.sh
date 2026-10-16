@@ -5,6 +5,7 @@
 # green while the HP6 backlog burns down — same policy as BetMas #234.
 # Set PLACE_LABELS_STRICT=1 in the environment to fail CI on missing refs.
 #
+# Misconfiguration (missing BetMas checker/artifact) still fails the job (exit 2).
 # Delegates to BetMas scripts/place-labels/check_coverage.sh.
 set -euo pipefail
 
@@ -51,4 +52,16 @@ export EXPANDED_ROOT="${root}"
 export ARTIFACT="${artifact}"
 # Inherit PLACE_LABELS_STRICT if set; do not default to 1 (option A / #44).
 
-bash "${checker}"
+set +e
+out=$(bash "${checker}" 2>&1)
+status=$?
+set -e
+printf '%s\n' "${out}"
+
+# Surface backlog in the GitHub Actions UI without failing the job.
+if printf '%s\n' "${out}" | grep -qE '[0-9]+ expanded refs still missing'; then
+  count=$(printf '%s\n' "${out}" | sed -nE 's/.* ([0-9]+) expanded refs still missing.*/\1/p' | head -1)
+  echo "::warning title=HP6 place-labels backlog::${count:-?} expanded refs missing from place-labels.xml (warn-only; set PLACE_LABELS_STRICT=1 after backlog is empty)"
+fi
+
+exit "${status}"
