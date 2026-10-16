@@ -161,7 +161,8 @@ jobs:
             --root . \
             --citations "${GITHUB_WORKSPACE}/bibliography/citations.xml" \
             --exceptions "${GITHUB_WORKSPACE}/betmas/db/apps/catalogs/bibl-exceptions.xml"
-      - name: External place ref coverage (strict)
+      # Warn-only until HP6 backlog is empty (BetMas #234); bm: gate above is fail-closed.
+      - name: External place ref coverage (warn)
         run: |
           bash scripts/ci/check-place-refs.sh \
             --root . \
