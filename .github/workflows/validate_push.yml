@@ -56,7 +56,7 @@ jobs:
 
       - name: Report overdue new/ stubs (warn only)
         run: bash scripts/ci/report-overdue-new-stubs.sh --root .
-      - name: bm: bibliography ptr coverage
+      - name: "bm: bibliography ptr coverage"
         run: |
           bash scripts/ci/check-bibl-ptrs.sh \
             --root . \
