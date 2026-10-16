@@ -1,0 +1,50 @@
+scripts/ci/pins/betmas.sha
+  s_e98fb2299e704f::t_f91b6d08bd6294 1-4
+.github/workflows/validate_pr.yml
+  s_e98fb2299e704f::t_d82df96049a8c1 30-31
+  s_e98fb2299e704f::t_316967832b19b2 137-138
+scripts/ci/pins/README.md
+  s_e98fb2299e704f::t_afc1150a486bbb 1-21
+.github/actions/checkout-reference-gates/action.yml
+  s_e98fb2299e704f::t_c07a118461cbfe 1-54
+scripts/ci/pins/bibliography.sha
+  s_e98fb2299e704f::t_cbd84fba8deacb 3
+scripts/ci/fixtures/mini-bibl/bibl-exceptions.xml
+  s_e98fb2299e704f::t_6957d6e6d325e1 1-4
+scripts/ci/check-bibl-ptrs.sh
+  s_e98fb2299e704f::t_840ecc6b42df54 4-8,54-58,108-111
+  s_e98fb2299e704f::t_27dd3d41957602 71
+  s_e98fb2299e704f::t_628605e5e27df9 78-80
+  s_e98fb2299e704f::t_340f434d8174f6 66-68,70,75-76,81-83,85,88,90,93-95
+  s_e98fb2299e704f::t_da23e3a1a5a845 69,77
+  s_e98fb2299e704f::t_f44d025ac47bc2 112
+test/11-check-bibl-ptrs.bats
+  s_e98fb2299e704f::t_cdef017110b153 1-42
+scripts/ci/fixtures/mini-bibl/tei-ok.xml
+  s_e98fb2299e704f::t_79a42ddbe79b39 1-5
+.github/workflows/validate_push.yml
+  s_e98fb2299e704f::t_00a55e4f4358a0 65-66
+  s_e98fb2299e704f::t_b00f1564606b59 39-40
+scripts/ci/fixtures/mini-bibl/citations.xml
+  s_e98fb2299e704f::t_720c4cf782194b 1-5
+scripts/ci/fixtures/mini-bibl/tei-missing.xml
+  s_e98fb2299e704f::t_a68c30f4a1af14 1-5
+scripts/ci/check-place-refs.sh
+  s_e98fb2299e704f::t_492dbabf473094 8,55-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ab8f1b11f1cbddfdcdb9df1fefe4e695c1cb5768",
+  "prompts": {},
+  "sessions": {
+    "s_e98fb2299e704f": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "fe63e19d-7812-4cd3-8078-f384be04c806",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
