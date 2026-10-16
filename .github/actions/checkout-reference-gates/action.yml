@@ -1,0 +1,54 @@
+name: Checkout reference-gate dependencies
+description: >
+  Sparse-checkout pinned bibliography citations.xml and BetMas place-labels /
+  bibl-exceptions / checker scripts for validate_* reference gates.
+
+runs:
+  using: composite
+  steps:
+    - name: Read bibliography pin
+      id: bibpin
+      shell: bash
+      working-directory: ${{ github.workspace }}/project
+      run: |
+        set -euo pipefail
+        pin=$(grep -E '^[0-9a-f]{40}$' scripts/ci/pins/bibliography.sha | head -1)
+        if [ -z "${pin}" ]; then
+          echo "missing pin in scripts/ci/pins/bibliography.sha" >&2
+          exit 1
+        fi
+        echo "sha=${pin}" >> "$GITHUB_OUTPUT"
+
+    - name: Checkout bibliography (citations.xml)
+      uses: actions/checkout@v7
+      with:
+        repository: BetaMasaheft/bibliography
+        ref: ${{ steps.bibpin.outputs.sha }}
+        path: bibliography
+        sparse-checkout: citations.xml
+        sparse-checkout-cone-mode: false
+
+    - name: Read BetMas pin
+      id: betmaspin
+      shell: bash
+      working-directory: ${{ github.workspace }}/project
+      run: |
+        set -euo pipefail
+        pin=$(grep -E '^[0-9a-f]{40}$' scripts/ci/pins/betmas.sha | head -1)
+        if [ -z "${pin}" ]; then
+          echo "missing pin in scripts/ci/pins/betmas.sha" >&2
+          exit 1
+        fi
+        echo "sha=${pin}" >> "$GITHUB_OUTPUT"
+
+    - name: Checkout BetMas catalog artifacts
+      uses: actions/checkout@v7
+      with:
+        repository: BetaMasaheft/BetMas
+        ref: ${{ steps.betmaspin.outputs.sha }}
+        path: betmas
+        sparse-checkout: |
+          db/apps/catalogs/bibl-exceptions.xml
+          db/apps/catalogs/place-labels.xml
+          scripts/place-labels
+        sparse-checkout-cone-mode: false
