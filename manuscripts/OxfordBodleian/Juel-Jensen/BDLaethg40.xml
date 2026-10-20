@@ -1,23 +1,39 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS12037Eusebios"><teiHeader xml:base="https://betamasaheft.eu/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="BDLaethg40"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
-            <titleStmt><title type="full"><seg corresp="PRS12037Eusebios">More than 1 PRS12037Eusebios</seg></title>
-                <title>ʾAwsābyos</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
-                <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
+            <titleStmt><title type="full"><seg corresp="BDLaethg40">More than 1 BDLaethg40</seg></title>
+                <title>Magic prayers</title>
+                <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
+                <editor key="JG" corresp="https://betamasaheft.eu/team.html#JG" xml:id="JG">Jacopo Gnisci</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#JG" xml:id="ed-JG"><resp>editor</resp><name>Jacopo Gnisci</name></respStmt></titleStmt>
             <publicationStmt>
-                <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">14.10.2026 at 17:55:04</date><date type="lastModified">26.1.2026</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS12037Eusebios/main</idno><idno type="URI">https://betamasaheft.eu/PRS12037Eusebios</idno><idno type="filename">PRS12037Eusebios.xml</idno><idno type="ID">PRS12037Eusebios</idno></publicationStmt>
+            <date type="expanded">20.10.2026 at 13:18:17</date><date type="lastModified">20.1.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLaethg40/main</idno><idno type="URI">https://betamasaheft.eu/BDLaethg40</idno><idno type="filename">BDLaethg40.xml</idno><idno type="ID">BDLaethg40</idno></publicationStmt>
             <sourceDesc>
-                <p/>
+                <msDesc xml:id="ms">
+                    <msIdentifier>
+                        <repository ref="https://betamasaheft.eu/INS0312BDL">Bodleian Library</repository>
+                        <idno>Bodleian Aeth. g. 40</idno>
+                        <altIdentifier>
+                            <idno>Juel-Jensen 37</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="Scroll">
+                            <supportDesc>
+                                <support>
+                                    <material key="parchment"/>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -82,11 +98,13 @@
      </prefixDef>
 </listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <t:creation/>
             <t:abstract>
-                <t:p/>
+                <t:p>This record is beeing edited for a catalogue and will be available after publication.</t:p>
             </t:abstract>
-            <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+            <t:langUsage>
+                <t:language ident="en">English</t:language>
+                <t:language ident="gez">Gǝʿǝz</t:language>
+            </t:langUsage>
         <calendarDesc>
 	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
 	<calendar xml:id="ethiopian">
@@ -101,18 +119,10 @@
 	<calendar xml:id="julian"><p>Julian</p></calendar>
 </calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <change when="2026-01-26" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2020-01-20" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>
-            <t:listPerson>
-                <t:person sex="1">
-                    <t:persName xml:lang="gez" xml:id="n1">አውሳብዮስ፡</t:persName>
-                    <t:persName xml:lang="gez" type="normalized" corresp="#n1">ʾAwsābyos</t:persName>
-                    <t:persName xml:lang="en" type="main" corresp="#n1">Eusebius</t:persName>
-                    <t:floruit>a martyr 'slave of Sissinios', commemorated on <t:date type="diesNatalis">18 Miyāziyā</t:date></t:floruit>
-                </t:person>
-                
-            </t:listPerson>
+            <t:div type="bibliography"/>
         </t:body>
     </t:text></TEI>
