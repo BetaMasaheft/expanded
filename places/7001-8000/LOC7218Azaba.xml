@@ -1,11 +1,11 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC7218Azaba"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
-         <titleStmt><title type="full">ʾĀzabā</title>
-            <title>ʾĀzabā</title>
+         <titleStmt><title type="full">ʿĀzabā</title>
+            <title>ʿĀzabā</title>
             <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN"><resp>contributor</resp><name>Denis Nosnitsin</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
@@ -15,7 +15,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">20.10.2026 at 14:17:35</date><date type="lastModified">15.3.2019</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC7218Azaba/main</idno><idno type="URI">https://betamasaheft.eu/LOC7218Azaba</idno><idno type="filename">LOC7218Azaba.xml</idno><idno type="ID">LOC7218Azaba</idno></publicationStmt>
+         <date type="expanded">22.10.2026 at 14:21:47</date><date type="lastModified">13.10.2026</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC7218Azaba/main</idno><idno type="URI">https://betamasaheft.eu/LOC7218Azaba</idno><idno type="filename">LOC7218Azaba.xml</idno><idno type="ID">LOC7218Azaba</idno></publicationStmt>
          <sourceDesc>
             <p/>
          </sourceDesc>
@@ -102,6 +102,7 @@
 </calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change when="2019-03-15" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+         <change when="2026-10-13" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->revised record</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
@@ -109,12 +110,12 @@
             <t:place type="district tabiya">
                
                <t:placeName xml:id="n1" xml:lang="gez">ዓዘባ፡</t:placeName>
-               <t:placeName corresp="#n1" xml:lang="gez" type="normalized">ʾĀzabā</t:placeName>
+               <t:placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀzabā</t:placeName>
+            
+               <t:region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">The regional State of Tǝgrāy</t:region>
+               <t:settlement type="zone" when="2026-09-13" ref="https://betamasaheft.eu/LOC6653EastTegray">East Tǝgrāy zone</t:settlement>
+               <t:settlement type="warada" when="2026-09-13" ref="https://betamasaheft.eu/LOC3293GantaA">waradā  Gāntā ʾAfašum</t:settlement>  
                <t:country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:country>
-               <t:region notBefore="1991" type="RegionalState" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</t:region>
-               
-               <t:settlement type="warada" when="2010-12-02" ref="https://betamasaheft.eu/LOC3293GantaA">Gāntā ʾAfašum</t:settlement>  
-               
                
                
             </t:place>

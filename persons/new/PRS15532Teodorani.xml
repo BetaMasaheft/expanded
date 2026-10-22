@@ -1,0 +1,130 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS15532Teodorani"><teiHeader>
+        <fileDesc>
+            <titleStmt><title type="full">Paolo Teodorani</title>
+                <title>Teodorani</title>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
+                <editor key="CH" corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH">Carsten Hoffmann</editor>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="ed-CH"><resp>editor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            <date type="expanded">22.10.2026 at 14:50:01</date><date type="lastModified">18.8.2026</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS15532Teodorani/main</idno><idno type="URI">https://betamasaheft.eu/PRS15532Teodorani</idno><idno type="filename">PRS15532Teodorani.xml</idno><idno type="ID">PRS15532Teodorani</idno></publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef>
+     <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1">
+    </prefixDef>
+     <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1">
+    </prefixDef>
+     <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1">
+    </prefixDef>
+    <prefixDef ident="pleiades" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://pleiades.stoa.org/places/$1">
+    </prefixDef>
+    <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1">
+    </prefixDef>
+    <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1">
+    </prefixDef>
+    <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+    </prefixDef>
+    <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1">
+    </prefixDef>
+    <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1">
+    </prefixDef>
+
+    <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1">
+    </prefixDef>
+    <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1">
+    </prefixDef>
+    <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1">
+    </prefixDef>
+
+    <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1">
+    </prefixDef>
+
+    <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1">
+    </prefixDef>
+     <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1">
+     </prefixDef>
+     <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9_]+)" replacementPattern="http://erlangen-crm.org/current/$1">
+     </prefixDef>
+     <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1">
+     </prefixDef>
+</listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="it">Italian</language>
+            </langUsage>
+        <calendarDesc>
+	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
+	<calendar xml:id="ethiopian">
+		<p> ʿĀmata śəggāwe (Era of the Incarnation – Ethiopian)</p>
+	</calendar>
+	<calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar>
+	<calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar>
+	<calendar xml:id="alexander"><p> Era of Alexander</p></calendar>
+	<calendar xml:id="evangelists"><p>Evangelists' years</p></calendar>
+	<calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar>
+	<calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar>
+	<calendar xml:id="julian"><p>Julian</p></calendar>
+</calendarDesc></profileDesc>
+        <revisionDesc>
+            <change when="2026-08-18" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+            <change when="2026-08-18" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated after review by Eugenia Sokolinski, Elizaveta Shvarts and Magdalena Krzyżanowska</change>
+        </revisionDesc>
+    </teiHeader><standOff><listRelation>
+                <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/PRS15532Teodorani" passive="https://betamasaheft.eu/ANLcr84#p2"/>
+            </listRelation></standOff><text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName><forename>Paolo</forename> <surname>Teodorani</surname></persName>
+                    <persName><roleName type="rank">commissario commendatore</roleName></persName>
+                    <occupation type="military">He was a prominent Italian colonial official and administrator in Eritrea.</occupation>
+                    <nationality type="Italy"/>
+                    <birth when="1867">1867</birth>
+                    <floruit notBefore="1895" notAfter="1921">He held office in Italian Eritrea from 1895 to 1921.</floruit>
+                </person>           
+            </listPerson>
+            
+            <listBibl type="secondary">
+                <bibl corresp="http://zotero.org/groups/358366/items/LHRKG3XK"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Teodorani1912Commerci"/><title level="m">Commerci e dogane del Tigrai</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Paolo</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Teodorani</t:surname></author><pubPlace>Asmara</pubPlace><publisher>Tip. Francescana</publisher><date>1912</date></bibl>
+                <bibl><ptr target="bm:Giorgi2012Africa"/><citedRange unit="page">116, 117, 139, 140</citedRange></bibl>
+                <bibl corresp="http://zotero.org/groups/358366/items/AGLSGAXM"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Zaccaria2009Folchi"/><title level="m">Le note del commissario: Teobaldo Folchi e i cenni storico amministrativi sul commissariato di Massaua (1898)</title><title level="s">Centro studi per i popoli extraeuropei Cesare Bonacossa dell’Università di Pavia</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Massimo</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Zaccaria</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Massimo</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Zaccaria</t:surname></editor><pubPlace>Bologna</pubPlace><publisher>FrancoAngeli</publisher><date>2009</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">Centro studi per i popoli extraeuropei Cesare Bonacossa dell’Università di Pavia</t:title><t:biblScope xmlns:t="http://www.tei-c.org/ns/1.0" unit="volume">22</t:biblScope></series><biblScope unit="volume">22</biblScope><note type="url">https://www.academia.edu/4602637/Le_note_del_commissario_Teobaldo_Folchi_e_i_cenni_storico_amministrativi_sul_commissariato_di_Massaua_1898_</note><citedRange unit="page">51, 56, 63–65</citedRange></bibl>
+                <bibl corresp="http://zotero.org/groups/358366/items/DA925HQW"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Zaccaria2012Agenzie"/><title level="a">Agenzie commerciali, compagnie di navigazione e näggadras — La definizione dello spazio coloniale nell’Eritrea italiana</title><title level="m">Votare con i piedi — La mobilità degli individui nell’Africa coloniale italiana</title><title level="s">eum&gt; storia&gt; istituzioni</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Massimo</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Zaccaria</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Isabella</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Rosoni</t:surname></editor><editor><t:name xmlns:t="http://www.tei-c.org/ns/1.0">Uoldelul Chelati Dirar</t:name></editor><pubPlace>Gorgonzola</pubPlace><publisher>eum</publisher><date>2012</date><series><t:title xmlns:t="http://www.tei-c.org/ns/1.0" level="s">eum&gt; storia&gt; istituzioni</t:title></series><biblScope unit="page">273–312</biblScope><citedRange unit="page">278, 282, 283</citedRange></bibl>
+                <bibl corresp="http://zotero.org/groups/358366/items/FRK9HF8L"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Barrera2003Racial"/><title level="a">The Construction of Racial Hierarchies in Colonial Eritrea — The Liberal and Early Fascist Period (1897–1934)</title><title level="m">A Place in the Sun — Africa in Italian Colonial Culture from Post-Unification to the Present</title><author><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Giulia</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Barrera</t:surname></author><editor><t:forename xmlns:t="http://www.tei-c.org/ns/1.0">Patrizia</t:forename><t:surname xmlns:t="http://www.tei-c.org/ns/1.0">Palumbo</t:surname></editor><pubPlace>Berkeley, CA–Los Angeles, CA–London</pubPlace><publisher>University of California Press</publisher><date>2003</date><biblScope unit="page">81–115</biblScope><note type="url">file:///C:/Users/Hoffmann/Downloads/place-in-the-sun-africa-in-italian-colonial-culture-from-post-unification-to-the-present-9780520936263-9780520232341_compress.pdf</note><citedRange unit="page">104, 110</citedRange><citedRange unit="note">18, 82</citedRange></bibl>
+            </listBibl>
+        </body>
+    </text></TEI>

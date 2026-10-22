@@ -1,20 +1,22 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="CBD939"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt><title type="full">Dublin, Chester Beatty Library Dublin, CBD W 939</title>
-                <title>Magical texts</title>
+                <title>Magic texts</title>
                 <editor key="ES" corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES">Eugenia Sokolinski</editor>
+                <editor key="ESh" corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ESh">Elizaveta Shvarts</editor>
                 <editor key="AB" role="generalEditor" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ed-ES"><resp>editor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ed-ESh"><resp>editor</resp><name>Elizaveta Shvarts</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">20.10.2026 at 11:36:34</date><date type="lastModified">30.4.2022</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD939/main</idno><idno type="URI">https://betamasaheft.eu/CBD939</idno><idno type="filename">CBD939.xml</idno><idno type="ID">CBD939</idno></publicationStmt>
+            <date type="expanded">22.10.2026 at 11:55:28</date><date type="lastModified">23.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD939/main</idno><idno type="URI">https://betamasaheft.eu/CBD939</idno><idno type="filename">CBD939.xml</idno><idno type="ID">CBD939</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -22,18 +24,91 @@
                         <collection>Ethiopian</collection>
                         <idno>CBD W 939</idno>
                     </msIdentifier>
-                    <msContents><summary/></msContents>
+                    <msContents>
+                        <summary/>
+                        <msItem xml:id="ms_i1">
+                            <title ref="https://betamasaheft.eu/LIT7893PrMaganga">Prayer against the pain caused by Magāññā, Šotalāy, Zār, and others</title>
+                        </msItem>
+                        <msItem xml:id="ms_i2">
+                            <title ref="https://betamasaheft.eu/LIT1763Legend">Legend of St Susǝnyos and Wǝrzǝlyā (general record)</title>
+                        </msItem>
+                        <msItem xml:id="ms_i3">
+                            <title ref="https://betamasaheft.eu/LIT5822MagicPrayer">Ṣalot baʾǝnta ḥǝmāma dam</title>
+                        </msItem>
+                        <msItem xml:id="ms_i4">
+                            <title ref="https://betamasaheft.eu/LIT7212PPTaosAzyos">Prayer containing ʾasmāt</title>
+                        </msItem>
+                        <msItem xml:id="ms_i5">
+                            <title ref="https://betamasaheft.eu/LIT7226AynatBarya">Prayer against the evil eye, Bāryā, Legewon, Šotalāy and for
+        pregnant women</title>
+                        </msItem>
+                    </msContents>
                     <physDesc>
-                        <objectDesc form="Scroll">                            
+                        <objectDesc form="Scroll">
+                            <supportDesc>
+                                <support>
+                                    <material key="parchment"/>
+                                </support>
+                                <extent>
+                                    <dimensions type="outer" unit="mm">
+                                        <height>1524</height>
+                                        <width>89</width>
+                                    </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="1524" unit="mm"/><width quantity="89" unit="mm"/></dimensions>
+                                </extent>
+                                <condition key="good">Despite the overall dirtiness of the parchment
+                                    and several stains, the text is almost fully
+                                    readable.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2"/>
+                            </layoutDesc>
                         </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="h1" script="Ethiopic">
+                                <seg type="ink">Black, red.</seg>
+                                <seg type="rubrication">Some divine names, incipits, and the name of
+                                    owner.</seg>
+                                <desc>Regular handwriting, semi-square letters.</desc>
+                                <note>The script contains <term key="MagicSymbols" ana="#MagicSymbols">charaktêres</term> and the ligature in the word <foreign xml:lang="gez">እ<hi rend="ligature">ግዚ</hi>አብሔር፡</foreign>.</note>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote xml:id="d1" type="miniature">
+                                <desc>A <term key="MagicDrawing" ana="#MagicDrawing">magic drawing</term> of a <term key="angel" ana="#angel">guardian angel</term> with a <term key="sword" ana="#sword">sword</term>.</desc>
+                            </decoNote>
+                            <decoNote xml:id="d2" type="miniature">
+                                <desc>A <term key="MagicDrawing" ana="#MagicDrawing">magic drawing</term> of the Net of
+                                    Solomon with a <term key="angel" ana="#angel">cherub</term> inside it.</desc>
+                            </decoNote>
+                            <decoNote xml:id="d3" type="miniature">
+                                <desc>A <term key="MagicDrawing" ana="#MagicDrawing">magic drawing</term> of a talisman
+                                    with a face inside, probably another Net of Solomon.</desc>
+                            </decoNote>
+                            <decoNote xml:id="d4" type="diagram">
+                                <desc>A chart with the same sign, which looks similar to the Arabic
+                                    number <foreign xml:lang="ar">٩</foreign>, but with a vertical
+                                    serif at the top, written 42 times in black and red.</desc>
+                            </decoNote>
+                            <decoNote xml:id="d5" type="frame">
+                                <desc>The margins of the scroll are painted yellow.</desc>
+                            </decoNote>
+                        </decoDesc>
                     </physDesc>
-                    
+                    <history>
+                        <origin>
+                            <origDate notBefore="1700" notAfter="1850" cert="medium" evidence="lettering">Sometime between the 18th century and the first
+                                half of the 19th century</origDate>
+                        </origin>
+                        <provenance><persName role="owner" ref="https://betamasaheft.eu/PRS15538EhetaMaryam">ʾƎḫǝta Māryām
+                                (wayzaro Tǝrǝngo)</persName> appears as the owner of the
+                            manuscript.</provenance>
+                    </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
                                     <listBibl type="catalogue">
-                                        <bibl corresp="http://zotero.org/groups/358366/items/TDIJ8SGG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Cerulli1965ChesterBeatty"/><title level="m">I manoscritti etiopici della Chester Beatty Library in Dublino</title><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><author><forename>Enrico</forename><surname>Cerulli</surname></author><pubPlace>[Roma]</pubPlace><publisher>[Accademia nazionale dei Lincei]</publisher><date>1965</date><series><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><biblScope unit="volume">Serie ottava, 11/6</biblScope></series><biblScope unit="volume">Serie ottava, 11/6</biblScope><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note></note><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note><citedRange unit="page">303-304</citedRange></bibl>
+                                        <bibl corresp="http://zotero.org/groups/358366/items/TDIJ8SGG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Cerulli1965ChesterBeatty"/><title level="m">I manoscritti etiopici della Chester Beatty Library in Dublino</title><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><author><forename>Enrico</forename><surname>Cerulli</surname></author><pubPlace>[Roma]</pubPlace><publisher>[Accademia nazionale dei Lincei]</publisher><date>1965</date><series><title level="s">&lt;hi rend="italics"&gt;Atti della Reale Accademia nazionale dei Lincei, Memorie, Classe di scienze morali, storiche e filologiche&lt;/hi&gt;</title><biblScope unit="volume">Serie ottava, 11/6</biblScope></series><biblScope unit="volume">Serie ottava, 11/6</biblScope><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note></note><note type="tag">Cataloguing</note><note type="tag">Dublin</note><note type="tag">Ethiopic</note><note type="tag">Manuscripts</note><note type="tag">bm:Cerulli1965ChesterBeatty</note><citedRange unit="page">303–304</citedRange></bibl>
                                     </listBibl>
                                 </source>
                             </recordHist>
@@ -108,10 +183,14 @@
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <t:textClass>
                 <t:keywords scheme="#ethioauthlist">
-                    <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>               
+                    <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
                 </t:keywords>
             </t:textClass>
-            <t:langUsage><t:language ident="gez">Gǝʿǝz</t:language> <t:language ident="en">English</t:language></t:langUsage>         
+            <t:langUsage>
+                <t:language ident="gez">Gǝʿǝz</t:language>
+                <t:language ident="en">English</t:language>
+                <t:language ident="ar">Arabic</t:language>
+            </t:langUsage>
         <calendarDesc>
 	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
 	<calendar xml:id="ethiopian">
@@ -126,7 +205,8 @@
 	<calendar xml:id="julian"><p>Julian</p></calendar>
 </calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created stub</change>
+            <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+            <change when="2026-09-23" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Completed the record</change>
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>

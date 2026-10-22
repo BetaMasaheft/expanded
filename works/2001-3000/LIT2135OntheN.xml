@@ -3,13 +3,14 @@
          <titleStmt><title type="full">Dǝrsān za-qǝddus Yoḥannǝs ʾAfa Warq baʾǝnta lǝdatu la-ʾǝgziʾǝna ʾIyasus Krǝstos</title>
             <title xml:lang="gez" xml:id="t1">ድርሳን፡ ዘቅዱስ፡ ዮሐንስ፡ አፈ፡ ወርቅ፡ በእንተ፡ ልደቱ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡</title>
             <title xml:lang="gez" corresp="#t1" type="normalized">Dǝrsān za-qǝddus Yoḥannǝs ʾAfa Warq baʾǝnta lǝdatu la-ʾǝgziʾǝna ʾIyasus Krǝstos</title>
-            <title xml:lang="en" corresp="#t1">Homily by St John Chrysostom on the Nativity of Jesus</title>
+            <title xml:lang="en" corresp="#t1">Homily by St John Chrysostom on the Nativity of Jesus Christ</title>
             <title xml:lang="la" corresp="#t1">De nativitate</title>
             <title xml:lang="grc" xml:id="t2greek"/>
-            <title xml:lang="la" xml:id="t3latin"/>
+            <title xml:lang="la" xml:id="t3latin">Homilia Sancti Iohannis Chrysostomi de nativitate Domini nostri Iesu Christi</title>
+            <author ref="PRS5720JohnChr">John Chrysostom</author>
             <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MK" xml:id="MK"><resp>contributor</resp><name>Magdalena Krzyzanowska</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -21,7 +22,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">20.10.2026 at 09:30:04</date><date type="lastModified">20.12.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2135OntheN/main</idno><idno type="URI">https://betamasaheft.eu/LIT2135OntheN</idno><idno type="filename">LIT2135OntheN.xml</idno><idno type="ID">LIT2135OntheN</idno></publicationStmt>
+         <date type="expanded">22.10.2026 at 09:49:51</date><date type="lastModified">19.10.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2135OntheN/main</idno><idno type="URI">https://betamasaheft.eu/LIT2135OntheN</idno><idno type="filename">LIT2135OntheN.xml</idno><idno type="ID">LIT2135OntheN</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -121,6 +122,7 @@
          <change when="2016-09-19" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Title updated</change>
          <change when="2017-02-15" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->keywords relation</change>
          <change when="2017-12-20" who="#MV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated</change>
+         <change when="2026-10-19" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added Latin title t3</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="saws:isAttributedToAuthor" ref="http://purl.org/saws/ontology#isAttributedToAuthor" active="https://betamasaheft.eu/LIT2135OntheN" passive="https://betamasaheft.eu/PRS5720JohnChr"/>

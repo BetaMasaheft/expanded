@@ -1,11 +1,11 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1478Antalo"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
-         <titleStmt><title type="full">Anṭalo</title>
-            <title>Anṭalo</title>
+         <titleStmt><title type="full">Hǝnṭālo</title>
+            <title>ʾAnṭālo</title>
             <author/>
             <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
@@ -18,7 +18,7 @@
             </availability>
             
             <date>2016-03-21</date>
-         <date type="expanded">20.10.2026 at 14:06:39</date><date type="lastModified">27.4.2016</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC1478Antalo/main</idno><idno type="URI">https://betamasaheft.eu/LOC1478Antalo</idno><idno type="filename">LOC1478Antalo.xml</idno><idno type="ID">LOC1478Antalo</idno></publicationStmt>
+         <date type="expanded">22.10.2026 at 14:18:24</date><date type="lastModified">26.2.2026</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC1478Antalo/main</idno><idno type="URI">https://betamasaheft.eu/LOC1478Antalo</idno><idno type="filename">LOC1478Antalo.xml</idno><idno type="ID">LOC1478Antalo</idno></publicationStmt>
          <sourceDesc>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
@@ -85,7 +85,7 @@
      </prefixDef>
 </listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="ti">Tigrinya</t:language></t:langUsage>
       <calendarDesc>
 	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
 	<calendar xml:id="ethiopian">
@@ -104,14 +104,23 @@
          <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
                                                   google spreadsheet </change>
          <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: place</change>
+         <change when="2026-02-26" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added country and region</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
          <t:listPlace>
             <t:place type="town">
-               <t:placeName>Anṭalo</t:placeName>
-               <t:placeName type="alt">Ḥinṭālū</t:placeName>
-               <t:placeName type="alt">Hǝnṭalo</t:placeName>
+               <t:placeName xml:id="n1" xml:lang="ti">ህንጣሎ፡</t:placeName>
+               <t:placeName corresp="#n1" xml:lang="ti" type="normalized">Hǝnṭālo</t:placeName>
+               <t:placeName xml:id="n2" xml:lang="ti">ሒንጣሉ፡</t:placeName>
+               <t:placeName corresp="#n2" xml:lang="ti" type="normalized">Ḥinṭālu</t:placeName>
+               <t:placeName xml:id="n3" xml:lang="ti">አንጣሎ፡</t:placeName>
+               <t:placeName corresp="#n3" xml:lang="ti" type="normalized">ʾAnṭālo</t:placeName>
+               <t:country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:country>
+               <t:region type="RegionalState" notBefore="1991" ref="https://betamasaheft.eu/LOC5932Tegray">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy</t:region>
+               <t:settlement type="warada" notBefore="1991" ref="https://betamasaheft.eu/LOC7490AntaloWa">Hǝnṭālo</t:settlement>
+               <t:settlement type="zoba" notBefore="1991" ref="https://betamasaheft.eu/LOC6655SudTegray">Dabubāwi Tǝgrāy</t:settlement>
+               <t:settlement type="region" ref="https://betamasaheft.eu/LOC2947Endart">ʾƎndartā</t:settlement>
             </t:place>
          </t:listPlace>
       </t:body>
