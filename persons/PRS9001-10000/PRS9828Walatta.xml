@@ -1,9 +1,9 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS9828Walatta"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
-         <titleStmt><title type="full">Wälättä Ǝsraʾel Śǝyyum</title>
-            <title>Wälättä Ǝsraʾel Śǝyyum</title>
+         <titleStmt><title type="full">Walatta ʾƎsrāʾel Śǝyum</title>
+            <title>Walatta ʾƎsrāʾel Śǝyum</title>
             <author/>
-         <respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ESh"><resp>contributor</resp><name>Elizaveta Shvarts</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,7 +14,7 @@
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
-         <date type="expanded">22.10.2026 at 11:02:59</date><date type="lastModified">28.4.2016</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS9828Walatta/main</idno><idno type="URI">https://betamasaheft.eu/PRS9828Walatta</idno><idno type="filename">PRS9828Walatta.xml</idno><idno type="ID">PRS9828Walatta</idno></publicationStmt>
+         <date type="expanded">26.10.2026 at 15:19:57</date><date type="lastModified">20.10.2026</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS9828Walatta/main</idno><idno type="URI">https://betamasaheft.eu/PRS9828Walatta</idno><idno type="filename">PRS9828Walatta.xml</idno><idno type="ID">PRS9828Walatta</idno></publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
@@ -82,7 +82,7 @@
      </prefixDef>
 </listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc>
 	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
 	<calendar xml:id="ethiopian">
@@ -97,21 +97,37 @@
 	<calendar xml:id="julian"><p>Julian</p></calendar>
 </calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2026-10-20" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->fixed spelling, added wikidata id, relations, and bibliography</change>
          <change when="2016-04-28" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->batch updated according to requirements and issues.</change>
          <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
                                                   google spreadsheet </change>
          <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: person</change>
       </t:revisionDesc>
-   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+   </teiHeader><standOff><listRelation>
+               <relation name="betmas:wifeOf" ref="betmas:wifeOf" active="https://betamasaheft.eu/PRS9828Walatta" passive="https://betamasaheft.eu/PRS2112AsfaWas"/>
+               <relation name="snap:SisterOf" ref="http://data.snapdrgn.net/ontology/snap#SisterOf" active="https://betamasaheft.eu/PRS9828Walatta" passive="https://betamasaheft.eu/PRS6665Mangasa"/>
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
          <t:listPerson>
-            <t:person sex="2">
-               <t:persName>
-                  
-                  Wälättä Ǝsraʾel Śǝyyum
+            <t:person sex="2" sameAs="wd:Q8029754">
+               <t:persName xml:lang="gez" xml:id="n1" type="birth">ወለተ፡ እስራኤል፡ ሥዩም፡</t:persName>
+               <t:persName xml:lang="gez" corresp="#n1" type="normalized">Walatta ʾƎsrāʾel Śǝyum
                </t:persName>
-               <t:occupation> wäyz.  </t:occupation>
+               <t:persName xml:lang="gez" corresp="#n1" type="normalized">Walatta ʾƎsrāʾel Śǝyyum
+               </t:persName>
+               <t:persName>
+                  <t:roleName type="title">wayzaro</t:roleName>
+               </t:persName>
+               <t:birth when="1907"/>
+               <t:death when="1989"/>
             </t:person>
+            
+            
          </t:listPerson>
+         <t:listBibl type="secondary">
+            <t:bibl corresp="http://zotero.org/groups/358366/items/EJFUS234"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Rubinkowska2003AsfaWasan"/><title level="a">Asfa Wäsän Ḫaylä Sǝllase</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Hanna</forename><surname>Rubinkowska</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">366a-367a</biblScope><note type="tags"><note type="tag">bm:Rubinkowska2003AsfaWasan</note></note><note type="tag">bm:Rubinkowska2003AsfaWasan</note></t:bibl>
+            <t:bibl corresp="http://zotero.org/groups/358366/items/B8PAPBME"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Rubinkowska2010Seyyum"/><title level="a">Śǝyyum Mängäša</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Hanna</forename><surname>Rubinkowska</surname></author><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><biblScope unit="page">646-647</biblScope><note type="tags"><note type="tag">bm:Rubinkowska2010Seyyum</note></note><note type="tag">bm:Rubinkowska2010Seyyum</note></t:bibl>
+            
+         </t:listBibl>
       </t:body>
    </t:text></TEI>

@@ -25,7 +25,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">22.10.2026 at 09:51:08</date><date type="lastModified">2.10.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1097Ammest/main</idno><idno type="URI">https://betamasaheft.eu/LIT1097Ammest</idno><idno type="filename">LIT1097Ammest.xml</idno><idno type="ID">LIT1097Ammest</idno></publicationStmt>
+         <date type="expanded">26.10.2026 at 14:05:51</date><date type="lastModified">20.10.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1097Ammest/main</idno><idno type="URI">https://betamasaheft.eu/LIT1097Ammest</idno><idno type="filename">LIT1097Ammest.xml</idno><idno type="ID">LIT1097Ammest</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -190,6 +190,7 @@
          <change when="2017-02-09" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
          <change when="2024-11-25" who="#JK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated transcription</change>
          <change when="2026-10-02" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrections, added language "am", added witnesses, added abstract, added relations</change>
+         <change when="2026-10-20" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added second bibliographic note</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="saws:isRelatedTo" ref="http://purl.org/saws/ontology#isRelatedTo" active="https://betamasaheft.eu/LIT1097Ammest" passive="https://betamasaheft.eu/LIT5963CommTrinity"/>
@@ -204,6 +205,7 @@
             
             <t:listBibl type="editions">
                <t:bibl corresp="http://zotero.org/groups/358366/items/K4PGBXHF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:AmmestuAM1993"/><title level="m">አምስቱ፡ አዕማደ፡ ምሥጢር፡ በአማርኛ (ʾAmmǝstu aʿǝmāda mǝśṭir ba-ʾamārǝññā, ‘The Five Pillars of Mystery in Amharic’)</title><pubPlace>n.p.</pubPlace><publisher>Tasfā mattāmiyā bet</publisher><date>1993</date><note type="tags"><note type="tag">bm:AmmestuAM1993</note></note><note type="tag">bm:AmmestuAM1993</note></t:bibl>
+               <t:bibl corresp="http://zotero.org/groups/358366/items/UFTEJJMZ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Zalalam2026Ammestu"/><title level="m">አምስቱ አዕማደ ምስጢር (ʾAmmǝstu ʾaʿmāda mǝsṭir ‘The Five Pillars of Mystery’)</title><author><name>Zalaʿalam Ḥaddis</name></author><pubPlace>n.p.</pubPlace><publisher>Kannu Māttamiyā Bet</publisher><date>2025</date><note type="tags"><note type="tag">bm:Zalalam2026Ammestu</note></note><note type="tag">bm:Zalalam2026Ammestu</note></t:bibl>
             </t:listBibl>
          </t:div>
          <t:div type="edition" xml:id="div2LIT1097Ammest">
