@@ -5,7 +5,7 @@
             <editor role="cataloguer" key="MK" corresp="https://betamasaheft.eu/team.html#MK" xml:id="ca-MK">Magdalena Krzyzanowska</editor>
             <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
             <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
-         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MK" xml:id="cat-MK"><resp>cataloguer</resp><name>Magdalena Krzyzanowska</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DN" xml:id="ed-DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MK" xml:id="cat-MK"><resp>cataloguer</resp><name>Magdalena Krzyzanowska</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DN" xml:id="ed-DN"><resp>editor</resp><name>Denis Nosnitsin</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
@@ -16,7 +16,7 @@
             under the Creative Commons Attribution-ShareAlike 4.0.</licence>
             </availability>
             
-         <date type="expanded">26.10.2026 at 16:54:26</date><date type="lastModified">3.7.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ESmakm019/main</idno><idno type="URI">https://betamasaheft.eu/ESmakm019</idno><idno type="filename">ESmakm019.xml</idno><idno type="ID">ESmakm019</idno></publicationStmt>
+         <date type="expanded">28.10.2026 at 13:38:59</date><date type="lastModified">26.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/ESmakm019/main</idno><idno type="URI">https://betamasaheft.eu/ESmakm019</idno><idno type="filename">ESmakm019.xml</idno><idno type="ID">ESmakm019</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -137,7 +137,7 @@
                         </list>
                         <seg type="rubrication">1st and 3rd line on the incipit page of the text;
                            names of sections followed by feast names (e.g., <foreign xml:lang="gez">wāzemā za-masqal</foreign>, <foreign xml:lang="gez">wāzemā
-                              za-ʾarbaʿǝtu ʾǝnsǝsa</foreign>); names of antiphons and their abbreviations (e.g.,
+                              za-ʾarbaʿtu ʾǝnsǝsa</foreign>); names of antiphons and their abbreviations (e.g.,
                            <foreign xml:lang="gez">māḥlet</foreign>, <foreign xml:lang="gez">mazmur</foreign>, <foreign xml:lang="gez">śalast</foreign>, <foreign xml:lang="gez">salām</foreign>, 
                            <foreign xml:lang="gez">ba-5-tu</foreign>, <foreign xml:lang="gez">ʾabun</foreign>, <foreign xml:lang="gez">ʾaryām</foreign>, <foreign xml:lang="gez">ʾǝsma la-ʿālam</foreign>,
                            <foreign xml:lang="gez">za-ʾamlākiya</foreign>, <foreign xml:lang="gez">za-yǝʾǝze</foreign>, <foreign xml:lang="gez">yǝtbārak</foreign>); names of other chants and their
@@ -310,6 +310,7 @@
          <change when="2016-05-10" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->transformed from mycore to TEI P5</change>
          <change when="2019-04-25" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added missing extras from domlib</change>
          <change when="2026-07-03" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->further adjustment to TEI</change>
+         <change when="2026-10-26" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated transliteration</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>

@@ -1,11 +1,11 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC7110BilbalArbaetu"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
-            <titleStmt><title type="full">Bilbālā Giyorgis</title>
-                <title>Bilbālā Ārbāʿǝtu Ǝnsǝsā</title>
+            <titleStmt><title type="full">Bilbālā ʾArbāʿtu ʾƎnsǝsā</title>
+                <title>Bilbālā ʾArbāʿtu ʾƎnsǝsā</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="JG" corresp="https://betamasaheft.eu/team.html#JG" xml:id="JG">Jacopo Gnisci</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#JG" xml:id="ed-JG"><resp>editor</resp><name>Jacopo Gnisci</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#JG" xml:id="ed-JG"><resp>editor</resp><name>Jacopo Gnisci</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
@@ -14,7 +14,7 @@
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">26.10.2026 at 18:33:55</date><date type="lastModified">27.11.2018</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC7110BilbalArbaetu/main</idno><idno type="URI">https://betamasaheft.eu/LOC7110BilbalArbaetu</idno><idno type="filename">LOC7110BilbalArbaetu.xml</idno><idno type="ID">LOC7110BilbalArbaetu</idno></publicationStmt>
+            <date type="expanded">28.10.2026 at 15:17:09</date><date type="lastModified">25.10.2026</date><idno type="collection">places</idno><idno type="url">https://betamasaheft.eu/places/LOC7110BilbalArbaetu/main</idno><idno type="URI">https://betamasaheft.eu/LOC7110BilbalArbaetu</idno><idno type="filename">LOC7110BilbalArbaetu.xml</idno><idno type="ID">LOC7110BilbalArbaetu</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -101,12 +101,14 @@
 </calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change when="2018-11-27" who="#JG"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added region country, note, coordinates, and edited transliteration</change>
+            <change when="2026-10-25" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated transliteration of ʾArbāʿtu and added n1/n2</change>
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>
             <t:listPlace>
                 <t:place type="church">
-                    <t:placeName>Bilbālā Giyorgis</t:placeName>
+                    <t:placeName xml:id="n1">Bilbālā ʾArbāʿtu ʾƎnsǝsā</t:placeName>
+                    <t:placeName xml:id="n2">Bilbālā Giyorgis</t:placeName>
                     <t:region ref="https://betamasaheft.eu/LOC6573NorthWallo">Samen Wallo</t:region>
                     <t:country ref="https://betamasaheft.eu/LOC3010Ethiop">Ethiopia</t:country>
                     <t:location>

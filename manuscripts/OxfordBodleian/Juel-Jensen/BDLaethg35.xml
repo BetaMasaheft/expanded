@@ -1,25 +1,39 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT4862ChronicleZadengel"><teiHeader xml:base="https://betamasaheft.eu/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="BDLaethg35"><teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
-            <titleStmt><title type="full">Chronicle of Zadǝngǝl</title>
-                <title xml:lang="gez" xml:id="t1">Chronicle of Zadǝngǝl</title>
-                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
+            <titleStmt><title type="full"><seg corresp="BDLaethg35">More than 1 BDLaethg35</seg></title>
+                <title>Malkǝʾ to St George, Malkǝʾ to  St George, Hymn to St Mary</title>
                 <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
+                <editor key="JG" corresp="https://betamasaheft.eu/team.html#JG" xml:id="JG">Jacopo Gnisci</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#JG" xml:id="ed-JG"><resp>editor</resp><name>Jacopo Gnisci</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">26.10.2026 at 14:03:37</date><date type="lastModified">8.1.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT4862ChronicleZadengel/main</idno><idno type="URI">https://betamasaheft.eu/LIT4862ChronicleZadengel</idno><idno type="filename">LIT4862ChronicleZadengel.xml</idno><idno type="ID">LIT4862ChronicleZadengel</idno></publicationStmt>
+            <date type="expanded">28.10.2026 at 14:34:12</date><date type="lastModified">17.1.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BDLaethg35/main</idno><idno type="URI">https://betamasaheft.eu/BDLaethg35</idno><idno type="filename">BDLaethg35.xml</idno><idno type="ID">BDLaethg35</idno></publicationStmt>
             <sourceDesc>
-            <p>Work of the literatures of Ethiopia and Eritrea</p>
-         </sourceDesc>
-         <sourceDesc>
-                <p/>
+                <msDesc xml:id="ms">
+                    <msIdentifier>
+                        <repository ref="https://betamasaheft.eu/INS0312BDL">Bodleian Library</repository>
+                        <idno>Bodleian Aeth. g. 35</idno>
+                        <altIdentifier>
+                            <idno>Juel-Jensen 28</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc>
+                                <support>
+                                    <material key="parchment"/>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -84,19 +98,13 @@
      </prefixDef>
 </listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
         <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <t:creation/>
             <t:abstract>
-                <t:p/>
+                <t:p>This record is beeing edited for a catalogue and will be available after publication.</t:p>
             </t:abstract>
-            <t:textClass>
-                <t:keywords>
-                    <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                    <t:term key="Chronicles" ana="#Chronicles"/>
-                    <t:term key="HistoryAndHistoriography" ana="#HistoryAndHistoriography"/>
-                    <t:term key="Paks2" ana="#Paks2"/>
-                </t:keywords>
-            </t:textClass>
-            <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
+            <t:langUsage>
+                <t:language ident="en">English</t:language>
+                <t:language ident="gez">Gǝʿǝz</t:language>
+            </t:langUsage>
         <calendarDesc>
 	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
 	<calendar xml:id="ethiopian">
@@ -111,7 +119,7 @@
 	<calendar xml:id="julian"><p>Julian</p></calendar>
 </calendarDesc></t:profileDesc>
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <change when="2018-01-08" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2020-01-17" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>
