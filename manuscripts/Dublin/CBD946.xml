@@ -15,7 +15,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">28.10.2026 at 12:54:40</date><date type="lastModified">15.7.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD946/main</idno><idno type="URI">https://betamasaheft.eu/CBD946</idno><idno type="filename">CBD946.xml</idno><idno type="ID">CBD946</idno></publicationStmt>
+         <date type="expanded">30.10.2026 at 15:51:52</date><date type="lastModified">28.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD946/main</idno><idno type="URI">https://betamasaheft.eu/CBD946</idno><idno type="filename">CBD946.xml</idno><idno type="ID">CBD946</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                   <msIdentifier>
@@ -35,7 +35,8 @@
                      <textLang mainLang="gez"/>
                      <msItem xml:id="ms_i1.1">
                         <locus from="3r" to="11v9"/>
-                     <title ref="https://betamasaheft.eu/LIT1716Kidanz">Kidān za-nagh</title>
+                     <title type="incomplete" ref="https://betamasaheft.eu/LIT1716Kidanz">Kidān za-nagh</title>
+                        <incipit xml:lang="gez">ሰብሐት፡ ለመንፈስ፡ ቅዱስ፡ ይእዜኒ፡ ወለዓለመ፡ ዓለም፡ አሜን፡</incipit>
                      </msItem>
                      <msItem xml:id="ms_i1.2">
                         <locus from="11v10" to="21v1"/>
@@ -84,7 +85,8 @@
                         <item xml:id="a1">
                            <locus from="1v" to="2v"/>                             
                            <desc type="GuestText"><title ref="https://betamasaheft.eu/LIT3063RepCh343">Hymn to Our Lady Mary</title>
-                           </desc>               
+                           </desc>      
+                           <q xml:lang="gez">እሰብሕ፡ ጸጋኪ፡ ኦእግዝእትየ፡ ማርያም፡ ዕፅ፡ ልምሉም፡</q>
                         </item>
                      </list>
                   </additions>
@@ -199,6 +201,7 @@
          <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
          <change when="2022-05-04" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added EMIP</change>
          <change when="2026-07-15" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added information from the catalogue as well as hand description</change>
+         <change when="2026-10-28" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added an incipit</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation><relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/CBD946" passive="https://betamasaheft.eu/EMIP03182"/></listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       

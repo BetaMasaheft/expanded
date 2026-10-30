@@ -14,7 +14,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">28.10.2026 at 12:54:40</date><date type="lastModified">13.8.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD935/main</idno><idno type="URI">https://betamasaheft.eu/CBD935</idno><idno type="filename">CBD935.xml</idno><idno type="ID">CBD935</idno></publicationStmt>
+            <date type="expanded">30.10.2026 at 15:51:52</date><date type="lastModified">28.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD935/main</idno><idno type="URI">https://betamasaheft.eu/CBD935</idno><idno type="filename">CBD935.xml</idno><idno type="ID">CBD935</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -25,6 +25,11 @@
                     <msContents><summary/>
                     <msItem xml:id="ms_i1">
                         <title type="incomplete" ref="https://betamasaheft.eu/LIT6491MalkeaFanuel">Malkǝʾa Fānuʾel</title>
+                        <incipit xml:lang="gez"><q xml:lang="gez">
+                                <l n="1"> ወጠነ፡ ማሕሌተ፡ ክቡር፡ ፋኑኤል፡ ወዘመልክዑ፡ ድርሳነ።</l>
+                                <l n="2">ነዓ፡ ፋኑኤል፡ ርድአኒ፡ ወአንስአኒ፡ ፍጡነ፡</l>
+                                <l n="3"> እስመ፡ ልሳንየ፡ <choice><sic>ላዕላዕ፡</sic><corr>ላዕላዐ፡</corr></choice> ኮነ።</l>
+                            </q></incipit>
                         <note>The text starts with the second verse.</note>
                     </msItem>
                     </msContents>
@@ -140,6 +145,7 @@
         <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created stub</change>
             <change when="2026-08-13" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added work ID and object description</change>
+            <change when="2026-10-28" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added an incipit</change> 
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>

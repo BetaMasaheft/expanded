@@ -6,7 +6,7 @@
             <editor key="MV" corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV">Massimo Villa</editor>
             <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="ed-MV"><resp>editor</resp><name>Massimo Villa</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="ed-MV"><resp>editor</resp><name>Massimo Villa</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ESh"><resp>contributor</resp><name>Elizaveta Shvarts</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
@@ -18,7 +18,7 @@
                </licence>
             </availability>
             <date>2016-12-28T18:02:37.552+02:00</date>
-         <date type="expanded">28.10.2026 at 15:02:04</date><date type="lastModified">28.12.2016</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BAVet37/main</idno><idno type="URI">https://betamasaheft.eu/BAVet37</idno><idno type="filename">BAVet37.xml</idno><idno type="ID">BAVet37</idno></publicationStmt>
+         <date type="expanded">30.10.2026 at 17:58:28</date><date type="lastModified">28.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BAVet37/main</idno><idno type="URI">https://betamasaheft.eu/BAVet37</idno><idno type="filename">BAVet37.xml</idno><idno type="ID">BAVet37</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
 
@@ -303,9 +303,9 @@
                            <measure unit="quire">17 (A + 15 + B)</measure>
                            <measure unit="leaf" type="blank"/>
                            <dimensions type="outer" unit="mm">
-                              <height>166</height>
-                              <width>144</width>
-                           </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="166" unit="mm"/><width quantity="144" unit="mm"/></dimensions>
+                              <height>95</height>
+                              <width>77</width>
+                           </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="95" unit="mm"/><width quantity="77" unit="mm"/></dimensions>
                         </extent>
                         <foliation>
                            Leaf after <locus target="#40"/> is numbered as 40a.
@@ -389,8 +389,8 @@
                         <condition key="good"/>
                         </supportDesc>
                      <layoutDesc>
-                        <layout columns="2" writtenLines="11">
-                        </layout><layout subtype="computed" type="catalogue" columns="2"><writtenLines quantity="11"/></layout>
+                        <layout columns="1" writtenLines="11">
+                        </layout><layout subtype="computed" type="catalogue" columns="1"><writtenLines quantity="11"/></layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -596,6 +596,7 @@
 </calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <change when="2016-12-28" who="#MV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created catalogue entry</change>
+         <change when="2026-10-28" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->minor corrections</change>
       </t:revisionDesc>
   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
 

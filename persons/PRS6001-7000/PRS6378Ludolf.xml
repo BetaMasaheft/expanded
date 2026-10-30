@@ -1,10 +1,10 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS6378Ludolf"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Hiob Ludolf</title>
-            <title>Ludolf</title>
+            <title>Hiob Ludolf</title>
             <title>Founder of Ethiopian Studies in Europe</title>
             <author/>
-         <respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MK" xml:id="MK"><resp>contributor</resp><name>Magdalena Krzyzanowska</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -15,7 +15,7 @@
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
-         <date type="expanded">26.10.2026 at 15:06:22</date><date type="lastModified">30.5.2017</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS6378Ludolf/main</idno><idno type="URI">https://betamasaheft.eu/PRS6378Ludolf</idno><idno type="filename">PRS6378Ludolf.xml</idno><idno type="ID">PRS6378Ludolf</idno></publicationStmt>
+         <date type="expanded">30.10.2026 at 14:45:21</date><date type="lastModified">27.10.2026</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS6378Ludolf/main</idno><idno type="URI">https://betamasaheft.eu/PRS6378Ludolf</idno><idno type="filename">PRS6378Ludolf.xml</idno><idno type="ID">PRS6378Ludolf</idno></publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
@@ -104,6 +104,7 @@
          <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: person</change>
          <change when="2016-11-23" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Small changes</change>
          <change when="2017-05-30" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Additions</change>
+         <change when="2026-10-27" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Minor changes</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation>
                <relation name="betmas:husbandOf" ref="betmas:husbandOf" active="https://betamasaheft.eu/PRS6378Ludolf" passive="https://betamasaheft.eu/PRS3570Dimpler"/>
@@ -131,22 +132,24 @@
                <t:death when="1704-04-08">8th April 1704</t:death>
                <t:floruit>
                   <t:persName ref="https://betamasaheft.eu/PRS6378Ludolf">Hiob Ludolf</t:persName> was the founder of Ethiopian studies in Europe. He studied medicine, law and Oriental languages at Erfurt and then at Leiden,
-                  and subsequently travelled widely across Europe. In <t:date>1649</t:date> he travelled to <t:placeName ref="https://www.wikidata.org/entity/Q220">Rome</t:placeName> 
+                  and subsequently travelled widely across Europe. In <t:date when="1649">1649</t:date> he travelled to <t:placeName ref="https://www.wikidata.org/entity/Q220">Rome</t:placeName> 
                   at the bequest of <t:persName ref="https://betamasaheft.eu/PRS3110Christin">Christina of Sweden</t:persName>, where he came into contact with the Ethiopian monks 
                   living at <t:placeName ref="https://betamasaheft.eu/INS0302SanStefano">Santo Stefano de' Mori</t:placeName>. One of them, <t:persName ref="https://betamasaheft.eu/PRS4767Gorgoryo">
-                     <t:roleName type="title">ʾabbā</t:roleName> 
+                     <t:roleName type="title">ʾAbbā</t:roleName> 
                   </t:persName>
-                  <t:persName ref="https://betamasaheft.eu/PRS4767Gorgoryo">Gorgoryos</t:persName>, became Ludolf's teacher and main informant.
-                  After returning to Erfurt, <t:persName ref="https://betamasaheft.eu/PRS6378Ludolf">Hiob Ludolf</t:persName> entered in <t:date>1652</t:date> the service of <t:persName ref="https://betamasaheft.eu/PRS3841ErnstI">Ernst I of Sachsen-Coburg-Gotha (Sachsen-Gotha-Altenburg)</t:persName>, who suggested to invite <t:persName ref="https://betamasaheft.eu/PRS4767Gorgoryo">Gorgoryos</t:persName> to his castle. During this stay, 
-                  <t:persName ref="https://betamasaheft.eu/PRS6378Ludolf">Hiob Ludolf</t:persName> worked on his Gǝʿǝz and Amharic dictionaries, and later would use recordings of their conversations for his historical and theological works. Beside his political activities as 
-               court counsellor, he continued his studies of the Ethiopian culture, history and languages. In <t:date>1661</t:date>, he published his Gǝʿǝz dictionary and grammar, which were edited by 
+                  <t:persName ref="https://betamasaheft.eu/PRS4767Gorgoryo">Gorgoryos</t:persName>, became Ludolf’s teacher and main informant.
+                  After returning to Erfurt, <t:persName ref="https://betamasaheft.eu/PRS6378Ludolf">Hiob Ludolf</t:persName> entered in <t:date when="1652">1652</t:date> the service of <t:persName ref="https://betamasaheft.eu/PRS3841ErnstI">Ernst I of Sachsen-Coburg-Gotha (Sachsen-Gotha-Altenburg)</t:persName>, 
+                  who suggested to invite <t:persName ref="https://betamasaheft.eu/PRS4767Gorgoryo">Gorgoryos</t:persName> to his castle. During this stay, 
+                  <t:persName ref="https://betamasaheft.eu/PRS6378Ludolf">Hiob Ludolf</t:persName> worked on his Gǝʿǝz and Amharic dictionaries, and later would use recordings of their conversations for his historical and theological works. 
+                  Beside his political activities as court counsellor, he continued his studies of the Ethiopian culture, history and languages. 
+                  In <t:date when="1661">1661</t:date>, he published his Gǝʿǝz dictionary and grammar, which were edited by 
                   <t:persName ref="https://betamasaheft.eu/PRS10036Wansleb">Johann-Michael Wansleben</t:persName>.  He also began organizing a mission to Ethiopia, to be let by <t:persName ref="https://betamasaheft.eu/PRS10036Wansleb">Johann-Michael Wansleben</t:persName>, who would, however, only reach
                   Egypt.
-               After the siege of Vienna in <t:date>1683</t:date>, he participated in political attempts at an alliance with Ethiopia against the Ottomon empire by sending a letter written in Gǝʿǝz to Ethiopia.
+               After the siege of Vienna in <t:date when="1683">1683</t:date>, he participated in political attempts at an alliance with Ethiopia against the Ottoman empire by sending a letter written in Gǝʿǝz to Ethiopia.
                His historical and linguistic works remained standard for 200 years, until the publication of <t:persName ref="https://betamasaheft.eu/PRS3562Dillmann">
-               Christian Friedrich August Dillmann </t:persName>'s grammar and dictionary.
-                  <t:persName ref="https://betamasaheft.eu/PRS6378Ludolf">Hiob Ludolf</t:persName>'s interest in Ethiopia was partly motivated by the wish to prove the theological vicinity of the Ethiopian and Protestant Churches. His disappointment at the 
-               impossibility of this alliance contributed to his harsh condemnation of his former student <t:persName ref="https://betamasaheft.eu/PRS10036Wansleb">Johann-Michael Wansleben</t:persName>, after the latter's conversion to Catholicism.</t:floruit>
+               Christian Friedrich August Dillmann </t:persName>’s grammar and dictionary.
+                  <t:persName ref="https://betamasaheft.eu/PRS6378Ludolf">Hiob Ludolf</t:persName>’s interest in Ethiopia was partly motivated by the wish to prove the theological vicinity of the Ethiopian and Protestant Churches. His disappointment at the 
+               impossibility of this alliance contributed to his harsh condemnation of his former student <t:persName ref="https://betamasaheft.eu/PRS10036Wansleb">Johann-Michael Wansleben</t:persName>, after the latter’s conversion to Catholicism.</t:floruit>
             </t:person>
          </t:listPerson>
          <t:div type="bibliography">

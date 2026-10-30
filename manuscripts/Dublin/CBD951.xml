@@ -16,7 +16,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">28.10.2026 at 12:54:40</date><date type="lastModified">17.8.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD951/main</idno><idno type="URI">https://betamasaheft.eu/CBD951</idno><idno type="filename">CBD951.xml</idno><idno type="ID">CBD951</idno></publicationStmt>
+         <date type="expanded">30.10.2026 at 15:51:52</date><date type="lastModified">28.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD951/main</idno><idno type="URI">https://betamasaheft.eu/CBD951</idno><idno type="filename">CBD951.xml</idno><idno type="ID">CBD951</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -44,6 +44,7 @@
                      <msItem xml:id="ms_i1.2">
                         <locus from="9vb16" to="11va6"/>
                         <title type="complete" ref="https://betamasaheft.eu/LIT3584Intro">Introductive exhortation to the Taʾammǝra Māryām</title>
+                        <incipit xml:lang="gez">እምቅድመ፡ ተአምር፡ ይትነበብ፡</incipit>
                      </msItem>
                      <msItem xml:id="ms_i1.3">
                         <locus from="11va7" to="12va15"/>
@@ -323,6 +324,7 @@
                         <item xml:id="a1">
                            <locus from="1va" to="2va"/>
                            <desc type="GuestText"><title ref="https://betamasaheft.eu/LIT3093RepCh373">Hymn to Our Lady Mary</title></desc>
+                           <q xml:lang="gez">ሰላም፡ ለኪ፡ እግዝእትየ፡ ማርያም፡ እሙ፡ ለኢየሱስ፡ ክርስቶስ፡ ከሃሊ፡</q>
                         </item>
                         <item xml:id="a2">
                            <locus target="#79v"/>
@@ -468,6 +470,7 @@
          <change when="2026-08-04" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated content, added physical description</change>
          <change when="2026-08-14" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated after the review of Magdalena Krzyżanowska</change>
          <change when="2026-08-17" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->fixed a typo after the review of Carsten Hoffmann</change>
+         <change when="2026-10-28" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added incipits</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation>
          <relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/CBD951" passive="https://betamasaheft.eu/EMIP03184"/>

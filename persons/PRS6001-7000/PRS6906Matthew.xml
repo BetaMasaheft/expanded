@@ -1,9 +1,9 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS6906Matthew"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Matthew (Matewos) IV</title>
-            <title>Matthew (Matewos) IV</title>
+            <title>Matthew IV</title>
             <author/>
-         <respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MK" xml:id="MK"><resp>contributor</resp><name>Magdalena Krzyzanowska</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -14,7 +14,7 @@
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
-         <date type="expanded">26.10.2026 at 15:06:22</date><date type="lastModified">28.4.2016</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS6906Matthew/main</idno><idno type="URI">https://betamasaheft.eu/PRS6906Matthew</idno><idno type="filename">PRS6906Matthew.xml</idno><idno type="ID">PRS6906Matthew</idno></publicationStmt>
+         <date type="expanded">30.10.2026 at 14:45:21</date><date type="lastModified">23.10.2026</date><idno type="collection">persons</idno><idno type="url">https://betamasaheft.eu/persons/PRS6906Matthew/main</idno><idno type="URI">https://betamasaheft.eu/PRS6906Matthew</idno><idno type="filename">PRS6906Matthew.xml</idno><idno type="ID">PRS6906Matthew</idno></publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
@@ -82,7 +82,7 @@
      </prefixDef>
 </listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-         <t:langUsage><t:language ident="en">English</t:language></t:langUsage>
+         <t:langUsage><t:language ident="en">English</t:language><t:language ident="gez">Gǝʿǝz</t:language></t:langUsage>
       <calendarDesc>
 	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
 	<calendar xml:id="ethiopian">
@@ -101,16 +101,19 @@
          <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from
                                                   google spreadsheet </change>
          <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: person</change>
+         <change when="2026-10-23" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added details</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
          <t:listPerson>
-            <t:person sex="1">
-               <t:persName>
-                  
-                  Matthew (Matewos) IV
-               </t:persName>
-                <t:occupation type="ecclesiastic">Patriarch</t:occupation>
+               <t:person sex="1" sameAs="wd:Q4117917">
+                  <t:persName xml:lang="en" xml:id="n1" type="main">Matthew IV</t:persName>
+                  <t:persName xml:lang="gez" xml:id="n2">ማቴዎስ፡</t:persName>
+                  <t:persName xml:lang="gez" corresp="#n2" type="normalized">Mātewos</t:persName>
+                  <t:persName xml:lang="en" xml:id="n3" type="birth">George</t:persName>
+                  <t:occupation type="ecclesiastic">102nd Patriarch of Alexandria</t:occupation>
+                  <t:floruit notBefore="1660-12-06" notAfter="1675-08-15">6 December 1660–15 August 1675</t:floruit>
+                  <t:death when="1675-08-15">15.08.1675</t:death>
             </t:person>
          </t:listPerson>
       </t:body>

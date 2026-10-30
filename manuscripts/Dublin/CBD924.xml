@@ -16,7 +16,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">28.10.2026 at 12:54:40</date><date type="lastModified">22.6.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD924/main</idno><idno type="URI">https://betamasaheft.eu/CBD924</idno><idno type="filename">CBD924.xml</idno><idno type="ID">CBD924</idno></publicationStmt>
+         <date type="expanded">30.10.2026 at 15:51:52</date><date type="lastModified">28.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD924/main</idno><idno type="URI">https://betamasaheft.eu/CBD924</idno><idno type="filename">CBD924.xml</idno><idno type="ID">CBD924</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -34,6 +34,7 @@
                   <msItem xml:id="ms_i1">
                      <locus from="2r"/>
                      <title ref="https://betamasaheft.eu/LIT3064RepCh344">ʾƎsebbǝḥ ṣaggāki ʾo-mǝlʾǝta ṣaggā</title>
+                     <incipit xml:lang="gez">እሴብሕ፡ ይሰጋኬ፡ ኦምልእተ፡ ጸጋ፡</incipit>
                   </msItem>
                   <msItem xml:id="ms_i2">
                      <locus from="3r" to="150ra7"/>
@@ -91,7 +92,7 @@
                            <locus target="#148rb"/>
                            <desc type="ProtectivePrayer">Protective prayer mentioning names of <persName ref="https://betamasaheft.eu/PRS6819Mary">St Mary</persName> in different languages including Arabic, Hebrew
                               and Coptic. </desc>
-                           <q xml:lang="gez">ስማ፡ ለእዝእትነ፡ ማርያም፡ በዓረቢ፡ ዕድራ፡ በዕብራይስጢ፡ ማሪሃም፡ በቅብጢ፡ ሶልያና፡
+                           <q xml:lang="gez">ስምዒ፡ ኦእግዝእትነ፡ ማርያም፡ በዓረቢ፡ ዕድራ፡ በዕብራይስጢ፡ ማሪሃም፡ በቅብጢ፡ ሶልያና፡
                               በሱርስት፡ ሳይዳ፡ በዕብራዉያን፡ በጊሮማ፡ በሮም፡ በር<gap reason="illegible"/>ማር፡ በዝንቱ፡
                               ስምኪ፡ ተማኀፀንኩ፡</q>
                         </item>
@@ -240,6 +241,7 @@
             hand and supplications</change>
          <change when="2026-06-22" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Edited after the review of
             Magdalena Krzyżanowska and Carsten Hoffmann</change>
+         <change when="2026-10-28" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added incipits</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation>
          <relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/CBD924" passive="https://betamasaheft.eu/EMIP03177"/>

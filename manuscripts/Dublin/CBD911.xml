@@ -16,7 +16,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">28.10.2026 at 12:54:40</date><date type="lastModified">16.3.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD911/main</idno><idno type="URI">https://betamasaheft.eu/CBD911</idno><idno type="filename">CBD911.xml</idno><idno type="ID">CBD911</idno></publicationStmt>
+         <date type="expanded">30.10.2026 at 15:51:52</date><date type="lastModified">28.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD911/main</idno><idno type="URI">https://betamasaheft.eu/CBD911</idno><idno type="filename">CBD911.xml</idno><idno type="ID">CBD911</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -243,11 +243,18 @@
                            <locus from="2v"/>
                            <desc type="GuestText"><title ref="https://betamasaheft.eu/LIT2940RepCh221">Malkǝʾ-hymn to Our Lady Mary</title>, written in the
                               same hand as <ref type="item" target="#a2"/>.</desc>
+                           <q xml:lang="gez">
+                              <l n="1">ሰላም፡ ለዝክረ፡ ስምከ፡ በአምኃ፡ ሠርከ፡ ወነግሀ፡</l>
+                              <l n="2">ማርያም፡ ደብተራ፡ ኤዶም፡ በከተማሃ፡</l>
+                              <l n="3">ኃጢአትየ፡ ለገብርኪ፡ እምኮከ<supplied reason="omitted" resp="bm:Cerulli1965ChesterBeatty">በ</supplied>፡ ሰማይ፡ ዘበዝኀ፡</l>
+                           </q>
                         </item>
                         <item xml:id="a2">
                            <locus from="183v"/>
                            <desc type="GuestText"><title ref="https://betamasaheft.eu/LIT2932RepCh213">Malkǝʾa fǝlsatā</title>, written in the
-                              same hand as <ref type="item" target="#a1"/>.</desc>
+                              same hand as <ref type="item" target="#a1"/>.
+                           </desc>
+                           <q xml:lang="gez">ሰላም፡ ለፍልሰተ፡ ሥጋኪ፡ ምስለ፡ ነፍስኪ፡ አሐቲ፡</q>
                         </item>
                         <item xml:id="a3">
                            <locus target="#5r"/>
@@ -392,6 +399,7 @@
          <change when="2022-05-04" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added EMIP</change>
          <change when="2026-03-16" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated content according to the catalogue, added
             binding, additions and decorations according to the frames</change>
+         <change when="2026-10-28" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added incipits</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation>
          <relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/CBD911" passive="https://betamasaheft.eu/EMIP03165"/>

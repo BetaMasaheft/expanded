@@ -16,7 +16,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">28.10.2026 at 12:54:40</date><date type="lastModified">24.7.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD932/main</idno><idno type="URI">https://betamasaheft.eu/CBD932</idno><idno type="filename">CBD932.xml</idno><idno type="ID">CBD932</idno></publicationStmt>
+         <date type="expanded">30.10.2026 at 15:51:52</date><date type="lastModified">28.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD932/main</idno><idno type="URI">https://betamasaheft.eu/CBD932</idno><idno type="filename">CBD932.xml</idno><idno type="ID">CBD932</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -37,6 +37,7 @@
                      <msItem xml:id="ms_i1.1">
                         <locus from="2ra" to="37vb"/>
                         <title ref="https://betamasaheft.eu/LIT7292MartyrMa">The Martyrdom of Mercurius (recension a)</title>
+                        <incipit xml:lang="gez">ወኮነ፡ በመዋዕለ፡ ደክዮስ፡ ንጉሠ፡ ሮሜ፡ ተወልደ፡ ሕጻን፡ ፒሎፓዴር፡ ዘበተርጋሜሁ፡ መርቆርዮስ፡</incipit>
                      </msItem>
                      <msItem xml:id="ms_i1.2">
                         <locus from="37vb" to="44r"/>
@@ -282,6 +283,7 @@
          <change when="2022-05-04" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added EMIP</change>
          <change when="2026-07-24" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added information from the catalogue as well as
             additions</change>
+         <change when="2026-10-28" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added an incipit</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation>
          <relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/CBD932" passive="https://betamasaheft.eu/EMIP03181"/>

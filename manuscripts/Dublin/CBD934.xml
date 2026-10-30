@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">28.10.2026 at 12:54:40</date><date type="lastModified">5.6.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD934/main</idno><idno type="URI">https://betamasaheft.eu/CBD934</idno><idno type="filename">CBD934.xml</idno><idno type="ID">CBD934</idno></publicationStmt>
+            <date type="expanded">30.10.2026 at 15:51:52</date><date type="lastModified">28.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD934/main</idno><idno type="URI">https://betamasaheft.eu/CBD934</idno><idno type="filename">CBD934.xml</idno><idno type="ID">CBD934</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -27,6 +27,7 @@
                     <msItem xml:id="ms_i1">
                         <locus from="3r"/>
                         <title ref="https://betamasaheft.eu/LIT3034RepCh314">Lǝssāna sabʾ</title>
+                        <incipit xml:lang="gez">ተማኅፀንኩ፡ በህልዎትከ፡ ወበስምከ፡ ኆኅያት፡ ካፍ፡</incipit>
                     </msItem>
                         
                     </msContents>
@@ -169,7 +170,9 @@
             <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
             <change when="2026-06-02" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added information from the catalogue, corrected Cerulli's hymn attribution according to its text</change>
             <change when="2026-06-05" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated according to suggestions of Magdalena Krzyżanowska and Carsten Hoffmann</change>
+            <change when="2026-10-28" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added an incipit</change>
         </t:revisionDesc>
+        
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>
             <t:ab/>

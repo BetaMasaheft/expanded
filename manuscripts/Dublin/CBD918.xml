@@ -16,7 +16,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">28.10.2026 at 12:54:40</date><date type="lastModified">22.5.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD918/main</idno><idno type="URI">https://betamasaheft.eu/CBD918</idno><idno type="filename">CBD918.xml</idno><idno type="ID">CBD918</idno></publicationStmt>
+         <date type="expanded">30.10.2026 at 15:51:52</date><date type="lastModified">28.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD918/main</idno><idno type="URI">https://betamasaheft.eu/CBD918</idno><idno type="filename">CBD918.xml</idno><idno type="ID">CBD918</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -52,7 +52,7 @@
                      <locus from="27r" to="29r"/>
 
                      <title ref="https://betamasaheft.eu/LIT7854Sequtqut">Magic prayer for loosening the tongue with Asmat mentioning Šǝquṭquṭ</title>
-
+                     <incipit xml:lang="gez">ሁዝ፡ ሉዝ፡ ሁዝ፡ ሉዝ፡ ቁዝ፡ ፍታሕ፡ ልሳነ፡ ድርሰት፡ በአስማተ፡ ሽቍጥቍጥ፡</incipit>
                   </msItem>
                </msContents>
                <physDesc>
@@ -113,14 +113,14 @@
                            <desc type="MagicText">A fragment of a magic prayer against cataract that
                               cuts off in the middle of the sentence The prayer starts with a supplication for
                                  <persName ref="https://betamasaheft.eu/PRS15356WaldaIy">Walda
-               ʾIyasus</persName>. <q xml:lang="gez">በሰመ፡ አብ፡<choice>
+               ʾIyasus</persName>. </desc><q xml:lang="gez">በሰመ፡ አብ፡<choice>
                                     <sic>ወወልድ፡</sic>
                                     <corr>ወወለድ፡</corr>
                                  </choice> ወመንፈስ፡ ቅዱስ፡ አምላክ፡ ጸሎት፡ በእንተ፡ አይነ፡ ጥላ፡ ሕማመ፡ አይነ፡ ጥላ፡ ወአይነ፡
                                  ወርቅ፡ <gap reason="illegible"/> ወአላድን፡ <unclear>መፉቀጄን፡</unclear>
                                  <gap reason="illegible"/>
                                  <unclear>ኤናላዚዑን፡</unclear>
-                                 <gap reason="ellipsis" resp="ESh"/></q></desc>
+                                 <gap reason="ellipsis" resp="ESh"/></q>
                         </item>
                         <item xml:id="a2">
                            <locus from="30r" to="30v"/>
@@ -128,6 +128,7 @@
                               and ends with supplications for <persName ref="https://betamasaheft.eu/PRS15356WaldaIy">Walda
                ʾIyasus</persName> and
                               is written by the same hand as <ref target="#a1"/>.</desc>
+                           <q xml:lang="gez">አልፋ፡ አልፋ፡ አልፋኤል፡ ሙራድኤል፡ ዝቦኤል፡ አልፋሉል፡ መርታደን፡<gap reason="ellipsis"/></q>
                         </item>
                         <item xml:id="e1">
                            <locus target="#3r #32r"/>
@@ -262,6 +263,7 @@
          <change when="2022-05-04" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added EMIP</change>
          <change when="2026-04-22" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added content and physical description</change>
          <change when="2026-05-22" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated after the reviews of Magdalena Krzyżanowska and Carsten Hoffmann</change>
+         <change when="2026-10-28" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added incipits</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation>
          <relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/CBD918" passive="https://betamasaheft.eu/EMIP03172"/>

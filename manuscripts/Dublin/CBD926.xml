@@ -16,7 +16,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">28.10.2026 at 12:54:40</date><date type="lastModified">14.7.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD926/main</idno><idno type="URI">https://betamasaheft.eu/CBD926</idno><idno type="filename">CBD926.xml</idno><idno type="ID">CBD926</idno></publicationStmt>
+         <date type="expanded">30.10.2026 at 15:51:52</date><date type="lastModified">28.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD926/main</idno><idno type="URI">https://betamasaheft.eu/CBD926</idno><idno type="filename">CBD926.xml</idno><idno type="ID">CBD926</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -119,7 +119,8 @@
                            <locus from="79ra" to="79vc"/>
                            <desc type="GuestText">Different prayers, written by a crude
                               late-19th-century hand, with numerous corrections, making them
-                              illegible. These prayers may be pen trials.</desc>
+                              illegible. These prayers may be pen trials. The first one starts as follows:</desc>
+                           <q xml:lang="gez">እምኅቡእ፡ ኮነ፡ ክሡተ፡ በቤተ፡ ልሔም፡ ትወሊዶ፡ እምቅድስት፡ ድንግል፡ <gap reason="illegible"/></q>
                         </item>
                         <item xml:id="a5">
                            <locus target="#80ra"/>
@@ -259,6 +260,7 @@
          <change when="2026-06-05" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added information from the catalogue as well as
             decorations and additions</change>
          <change when="2026-07-14" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated after the reviews of Magdalena Krzyżanowska and Carsten Hoffmann</change>
+         <change when="2026-10-28" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added an incipit</change>
       </t:revisionDesc>
    </teiHeader><standOff><listRelation>
          <relation name="betmas:formerlyAlsoListedAs" ref="betmas:formerlyAlsoListedAs" active="https://betamasaheft.eu/CBD926" passive="https://betamasaheft.eu/EMIP03179"/>
