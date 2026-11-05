@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="DTEG024"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Eastern Tǝgrāy Zone, Dabra Ṣarābi, DTEG-024</title>
-                <title>Qidase</title>
+                <title>Missal</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -16,7 +16,7 @@
                      This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
                   </licence>
                </availability>
-            <date type="expanded">30.10.2026 at 15:43:27</date><date type="lastModified">7.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG024/main</idno><idno type="URI">https://betamasaheft.eu/DTEG024</idno><idno type="filename">DTEG024.xml</idno><idno type="ID">DTEG024</idno></publicationStmt>
+            <date type="expanded">5.11.2026 at 14:14:54</date><date type="lastModified">7.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG024/main</idno><idno type="URI">https://betamasaheft.eu/DTEG024</idno><idno type="filename">DTEG024.xml</idno><idno type="ID">DTEG024</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -26,8 +26,9 @@
                     <msContents>
                        <summary/>
                        <msItem xml:id="ms_i1">                        
-                           <title type="complete">Qidase</title>
+                           <title type="complete" corresp="LIT1960Mashaf">Missal</title>
                          <textLang mainLang="gez"/>
+                           <notatedMusic><desc>The text is supplied with musical notation.</desc></notatedMusic>
                            </msItem>
                                                                      
                         </msContents>
@@ -45,19 +46,51 @@
                                                <depth unit="mm">70</depth>
                                            </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="280" unit="mm"/><width quantity="210" unit="mm"/><depth quantity="70" unit="mm"/></dimensions>
                                        </extent>
-                            <foliation>Modern foliation in pencil, 1-135</foliation>
-                            <condition key="deficient">The leather cover and inflay on both sides mostly intact. No textile inlay.</condition>
+                            <foliation>Unfoliated.</foliation>
+                            <condition key="intact"/>
                          </supportDesc>
-                     </objectDesc>
+                     
                        
+                       <layoutDesc>
+                           <layout columns="2">                               
+                               <ab type="ruling" subtype="pattern">1A-1A-1A1A/0-0/0-0/C</ab>                                 
+                           </layout>                          
+                       </layoutDesc>                 
+                       </objectDesc>
+                       
+                       
+                       <handDesc>
+                           <handNote xml:id="h1" script="Ethiopic">
+                               <seg type="script">Second half of the twentieth-/first half of the twenty-first-century hand.</seg>
+                               <seg type="ink">Black, red.</seg>
+                               <desc>Not very careful, somewhat irregular; by a mediocre scribe.</desc>
+                           </handNote>                              
+                       </handDesc>                      
+                       
+                       <additions>
+                           <list>                            
+                               
+                               <item xml:id="a1">
+                                   <locus target="#3v"/>
+                                   <desc type="OwnershipNote">A recent ownership note crudely written in a ball pen, 
+                                       the name of the donor is  illegible</desc>
+                               </item>
+                               
+                               <item xml:id="a2">                         
+                                   <desc type="OwnershipNote">A recent donation note crudely written in a ball pen on the last page, 
+                                       in the same hand as Addition 2</desc>
+                               </item>
+                           </list>
+                       </additions>
                        
                          <bindingDesc>
                              <binding contemporary="true">
-                                 <decoNote xml:id="b1">Two wooden boards; Leather cover and inlay. No textile inlay.
-                                     </decoNote>
+                                 <decoNote xml:id="b1">Two wooden boards; blind-tooled leather cover; leather inlays.</decoNote>
                                  <decoNote xml:id="b2" type="bindingMaterial">                                     
                                      <material key="wood"/>
                                      <material key="leather"/>
+                                         
+                                     
                                      </decoNote>
                                            </binding>
                          </bindingDesc>                       
@@ -68,7 +101,7 @@
                     
                       <history>
                          <origin>
-                           <origDate notBefore="1700" notAfter="1799">18th century.</origDate>
+                           <origDate notBefore="1970" notAfter="2026">Late 20th/first half of the 21th century.</origDate>
                              </origin>
                           
                       </history>
@@ -141,16 +174,16 @@
             <textClass>
                 <keywords>
                     <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                    <term key="Poetry" ana="#Poetry"/>
-                    <term key="Gon" ana="#Gon"/> 
+                    <term key="Missal" ana="#Missal"/>
+                    <term key="MoPe" ana="#MoPe"/> 
                       <term key="Liturgy" ana="#Liturgy"/>
                                   
                 </keywords>
             </textClass>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language> 
-                <language ident="am">Amharic</language>
+                <language ident="gez">Gǝʿǝz</language>
+               
             </langUsage>
         <calendarDesc>
 	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
@@ -170,6 +203,7 @@
                 description on the basis of an examination in situ.</change>
             <change when="2026-09-07" who="#JF"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created entity with rudimentary
                 description.</change>
+            <change when="2026-10-07" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->revised the description.</change>
         </revisionDesc>
     </teiHeader><text>
         <body>

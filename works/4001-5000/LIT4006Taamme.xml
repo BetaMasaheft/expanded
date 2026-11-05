@@ -4,13 +4,10 @@
             <title xml:lang="gez" xml:id="t1">ተአምረ፡ ጊዮርጊስ፡</title>
             <title xml:lang="gez" corresp="#t1" type="normalized">Taʾammǝra Giyorgis</title>
             <title xml:lang="en" corresp="#t1">Miracles of St George</title>
-            <title xml:lang="ar" xml:id="t2arabic"/>
-            <title xml:lang="ar" corresp="#t2arabic" type="normalized"/>
-            
-            <title xml:lang="gez" xml:id="t3">ተአምረ፡ ቅዱስ፡ ማር፡ ጊዮርጊስ፡</title>
+            <title xml:lang="gez" xml:id="t2">ተአምረ፡ ቅዱስ፡ ማር፡ ጊዮርጊስ፡</title>
             <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -22,13 +19,13 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">30.10.2026 at 13:51:17</date><date type="lastModified">29.6.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT4006Taamme/main</idno><idno type="URI">https://betamasaheft.eu/LIT4006Taamme</idno><idno type="filename">LIT4006Taamme.xml</idno><idno type="ID">LIT4006Taamme</idno></publicationStmt>
+         <date type="expanded">5.11.2026 at 12:14:26</date><date type="lastModified">27.10.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT4006Taamme/main</idno><idno type="URI">https://betamasaheft.eu/LIT4006Taamme</idno><idno type="filename">LIT4006Taamme.xml</idno><idno type="ID">LIT4006Taamme</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
          <sourceDesc>
            <listWit>
-              <witness corresp="https://betamasaheft.eu/BNFet133#p2_i2"><idno facs="https://gallica.bnf.fr/ark:/12148/btv1b525037181">BnF Éthiopien 133</idno></witness>
+              <witness corresp="https://betamasaheft.eu/BNFet133#p2_i3"><idno facs="https://gallica.bnf.fr/ark:/12148/btv1b525037181">BnF Éthiopien 133</idno></witness>
               <witness corresp="https://betamasaheft.eu/ESbhm002#p2_i2"><idno facs="BHM/002/BHM-002" n="130">BHM-002</idno></witness>
            </listWit>
          </sourceDesc>
@@ -123,6 +120,7 @@
          <change when="2016-11-30" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Correction </change>
          <change when="2017-03-24" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
          <change when="2017-06-29" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
+         <change when="2026-10-27" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected witness, deleted empty title (ar)</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>

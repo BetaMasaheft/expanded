@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">30.10.2026 at 15:51:52</date><date type="lastModified">9.7.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD933/main</idno><idno type="URI">https://betamasaheft.eu/CBD933</idno><idno type="filename">CBD933.xml</idno><idno type="ID">CBD933</idno></publicationStmt>
+            <date type="expanded">5.11.2026 at 14:22:15</date><date type="lastModified">1.11.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD933/main</idno><idno type="URI">https://betamasaheft.eu/CBD933</idno><idno type="filename">CBD933.xml</idno><idno type="ID">CBD933</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -92,22 +92,23 @@
                         <msItem xml:id="ms_i4">
                             <locus from="27v"/>
                             <title ref="https://betamasaheft.eu/LIT7890SalotaEphrem">Ṣalotu za-ʾabuna ʾEfrem Soryāwi</title>
+                            <incipit xml:lang="gez">ጸሎት፡ ዘአቡነ፡ ኤፍሬም፡ ሶርያዊ፡ ዘነበበ፡ ቦቱ፡ መንፈስ፡ ቅዱስ፡ <choice resp="MK"><sic>ለኵሉ፡</sic><corr>ለኩሉ፡</corr></choice> ዘይፈቅድ፡ ኀብተ፡ ትምህርት፡</incipit>
                         </msItem>
                         <msItem xml:id="ms_i5">
                             <locus from="30r"/>
                             <title type="incomplete" ref="https://betamasaheft.eu/LIT2317Senodo">Senodos</title>
                             <note>A fragment of Senodos</note>
-                            <incipit><q xml:lang="gez">መጽሐፈ፡ <sic>ሲኖዶስ፡</sic> ለዘይትመየጥ፡ ኀበ፡ ንስሓ፡ ዘተቀድሐ፡ እም፹ወ፩፡ መጻህፍት፡</q></incipit>
+                            <incipit xml:lang="gez">መጽሐፈ፡ <sic>ሲኖዶስ፡</sic> ለዘይትመየጥ፡ ኀበ፡ ንስሓ፡ ዘተቀድሐ፡ እም፹ወ፩፡ መጻሕፍት፡</incipit>
                         </msItem>
                         <msItem xml:id="ms_i6">
                             <locus from="37r"/>
                             <title>Book of Verses</title>
-                            <incipit><q xml:lang="gez"> እስእለከ፡ ኦጰራቅሌጦስ፡ መንፈሰ፡ አብ፡ ወወልድ፡ ወመንፈሰ፡ ንጹሕ፡ ወመንፈሰ፡ ጽድቅ፡</q></incipit>
+                            <incipit xml:lang="gez"> እስእለከ፡ ኦጰራቅሌጦስ፡ መንፈሰ፡ አብ፡ ወወልድ፡ ወመንፈሰ፡ ንጹሕ፡ ወመንፈሰ፡ ጽድቅ፡</incipit>
                         </msItem>
                         <msItem xml:id="ms_i7">
                             <locus from="38r"/>
                             <title cert="low" ref="https://betamasaheft.eu/LIT6749PPBinding">Protective prayer for the binding of demons</title>
-                            <incipit><q xml:lang="gez">ስሙ፡ ለአብ፡ ምናቴር፡ ስሙ፡ ለወልድ፡ ሙራኤል፡ <sic>ስው፡</sic> ለመንፈስ፡ ቅዱስ፡ አብያቴር፡</q></incipit>
+                            <incipit xml:lang="gez">ስሙ፡ ለአብ፡ ምናቴር፡ ስሙ፡ ለወልድ፡ ሙራኤል፡ <sic>ስው፡</sic> ለመንፈስ፡ ቅዱስ፡ አብያቴር፡</incipit>
                         </msItem>
                         <msItem xml:id="ms_i8">
                             <locus from="39v"/>
@@ -273,6 +274,8 @@
             <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
             <change when="2026-07-07" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added information from the catalogue</change>
             <change when="2026-07-09" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated after the review of Carsten Hoffmann</change>
+            <change when="2026-10-29" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added missing incipits</change>
+            <change when="2026-11-01" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated after the riview of Magdalena Krzyżanowska</change>
         </t:revisionDesc>
     </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
         <t:body>

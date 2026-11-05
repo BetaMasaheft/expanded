@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="DTEG021"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Eastern Tǝgrāy Zone, Dabra Ṣarābi, DTEG-021</title>
-                <title>Qidase</title>
+                <title>Missal</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -16,7 +16,7 @@
                      This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
                   </licence>
                </availability>
-            <date type="expanded">30.10.2026 at 15:43:27</date><date type="lastModified">7.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG021/main</idno><idno type="URI">https://betamasaheft.eu/DTEG021</idno><idno type="filename">DTEG021.xml</idno><idno type="ID">DTEG021</idno></publicationStmt>
+            <date type="expanded">5.11.2026 at 14:14:54</date><date type="lastModified">3.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG021/main</idno><idno type="URI">https://betamasaheft.eu/DTEG021</idno><idno type="filename">DTEG021.xml</idno><idno type="ID">DTEG021</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -25,9 +25,12 @@
                         </msIdentifier>
                     <msContents>
                        <summary/>
-                       <msItem xml:id="ms_i1">                        
-                           <title type="complete">Qidase</title>
+                       <msItem xml:id="ms_i1">      
+                           <locus from="2r"/>
+                           <title type="complete" corresp="LIT1960Mashaf">Missal</title>
                          <textLang mainLang="gez"/>
+                           <notatedMusic><desc>Supplied with rubricated musical notation, 
+                               in part written over erasures.</desc></notatedMusic>
                            </msItem>
                                                                      
                         </msContents>
@@ -45,19 +48,45 @@
                                                <depth unit="mm">80</depth>
                                            </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="240" unit="mm"/><width quantity="220" unit="mm"/><depth quantity="80" unit="mm"/></dimensions>
                                        </extent>
-                            <foliation>Modern foliation in pencil, 1-135</foliation>
-                            <condition key="deficient">The leather cover and inflay on both sides damaged. No textile inlay.</condition>
+                            <foliation>Unfoliated.</foliation>
+                            <condition key="deficient">The leather cover is cut off on the spine and partly on the boards. 
+                                Textile inlays are missing.</condition>
                          </supportDesc>
+                         <layoutDesc>
+                             <layout columns="2">                               
+                                 <ab type="ruling" subtype="pattern">1A-1A-1A1A/0-0/0-0/C</ab>
+                               
+                             </layout>                           
+                         </layoutDesc>
                      </objectDesc>
                        
                        
+                       <handDesc>
+                           <handNote xml:id="h1" script="Ethiopic">
+                               <seg type="script">Mid-seventeenth-/mid-eighteenth-century script.</seg>
+                               <seg type="ink">Black, red.</seg>
+                               <desc>Careful, regular; by a good scribe. Slightly left-sloping script. (Possibly more than one hand
+                                   participated in copying).</desc>
+                           </handNote>                              
+                       </handDesc> 
+                       <additions>
+                           <list>
+                               <item xml:id="a1">
+                                   <desc type="OwnershipNote">Written in a careful hand, rubricated, inside a rubricated 
+                                       dotted frame.</desc>
+                                   <q xml:lang="gez">ዝመጽሐፍ፡ ዘዘሚካኤል፡ ዘደብረ፡ ጸራቢ፡ ዘአጥረዮ፡ በንዋዩ፡<gap reason="ellipsis" resp="DN"/></q>
+                               </item>
+                           </list>
+                       </additions>
+                       
                          <bindingDesc>
                              <binding contemporary="true">
-                                 <decoNote xml:id="b1">Two wooden boards; Leather cover and inlay. No textile inlay.
-                                     </decoNote>
+                                 <decoNote xml:id="b1">Two wooden boards; blind-tooled leather cover.</decoNote>
                                  <decoNote xml:id="b2" type="bindingMaterial">                                     
                                      <material key="wood"/>
-                                     <material key="leather"/>
+                                     <material key="leather">
+                                         
+                                     </material>
                                      </decoNote>
                                            </binding>
                          </bindingDesc>                       
@@ -68,7 +97,10 @@
                     
                       <history>
                          <origin>
-                           <origDate notBefore="1700" notAfter="1799">18th century.</origDate>
+                           <origDate notBefore="1650" notAfter="1750">Mid-17th to mid-18th century.</origDate>
+                             The manuscript was donated to the monastery by Za-Mikāʾel 
+                             (mentioned in the <ref target="#a1">Addition 1</ref>); his name is written over an erasure,
+                             also in the supplication formula on fol. 3r.
                              </origin>
                           
                       </history>
@@ -140,8 +172,7 @@
             </abstract>
             <textClass>
                 <keywords>
-                    <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                    <term key="Poetry" ana="#Poetry"/>
+                    <term key="ChristianLiterature" ana="#ChristianLiterature"/>              
                     <term key="Gon" ana="#Gon"/> 
                       <term key="Liturgy" ana="#Liturgy"/>
                                   
@@ -169,6 +200,7 @@
                 description on the basis of an examination in situ.</change>
             <change when="2026-09-07" who="#JF"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created entity with rudimentary
                 description.</change>
+            <change when="2026-10-03" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->revised the description.</change>
         </revisionDesc>
     </teiHeader><text>
         <body>

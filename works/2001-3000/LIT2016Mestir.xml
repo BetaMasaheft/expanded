@@ -9,11 +9,11 @@
             
             <title xml:id="t2" xml:lang="am">ኦማርያም፡ መሰረት፡</title>
             <title xml:lang="am" corresp="#t2" type="normalized">ʾO-Māryām masarat</title>
-            <title xml:lang="en" corresp="#t2">Oh Mary, the foundation</title>
+            <title xml:lang="en" corresp="#t2">O Mary, the foundation</title>
             
             <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MK" xml:id="MK"><resp>contributor</resp><name>Magdalena Krzyzanowska</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -25,7 +25,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">30.10.2026 at 13:52:21</date><date type="lastModified">9.2.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2016Mestir/main</idno><idno type="URI">https://betamasaheft.eu/LIT2016Mestir</idno><idno type="filename">LIT2016Mestir.xml</idno><idno type="ID">LIT2016Mestir</idno></publicationStmt>
+         <date type="expanded">5.11.2026 at 12:14:51</date><date type="lastModified">27.10.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2016Mestir/main</idno><idno type="URI">https://betamasaheft.eu/LIT2016Mestir</idno><idno type="filename">LIT2016Mestir.xml</idno><idno type="ID">LIT2016Mestir</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -34,9 +34,11 @@
                <witness corresp="https://betamasaheft.eu/BerOrOct234"><idno>SBP, Ms. orient. oct. 234</idno></witness>
                <witness corresp="https://betamasaheft.eu/BNFabb235"><idno>BnF Éthiopien d'Abbadie 235</idno></witness>
                <witness corresp="https://betamasaheft.eu/BLadd11292"><idno>BL Additional 11292</idno></witness>
-               <witness type="external" corresp="EMML1308"/>
-               <witness type="external" corresp="EMML3842"/>
-               <witness type="external" corresp="EMML4007"/>
+               <witness corresp="https://betamasaheft.eu/EMML586"><idno>MS EMML no. 586</idno></witness>
+               <witness corresp="https://betamasaheft.eu/EMML1308"><idno>MS EMML no. 1308</idno></witness>
+               <witness corresp="https://betamasaheft.eu/EMML1878"><idno>MS EMML no. 1878</idno></witness>
+               <witness corresp="https://betamasaheft.eu/EMML3842"><idno>MS EMML no. 3842</idno></witness>
+               <witness corresp="https://betamasaheft.eu/EMML4007"><idno>MS EMML no. 4007</idno></witness>
             </listWit>
 
             
@@ -101,7 +103,7 @@
      </prefixDef>
      <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1">
      </prefixDef>
-</listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
+</listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="t:div" unit="incipit" use="@subtype"><citeStructure match="t:l" unit="t:l" use="@n"><desc><list><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item></list></desc></citeStructure><desc><list><item>incipit</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:langUsage><t:language ident="am">Amharic</t:language></t:langUsage>
          <t:textClass>
@@ -113,7 +115,8 @@
          </t:textClass>
          
          <t:abstract>
-            <t:p>An Amharic hymn in honour of <t:persName ref="https://betamasaheft.eu/PRS6819Mary">St Mary</t:persName>. One of the very few Old Amharic poetic compositions extolling St Mary</t:p>
+            <t:p>It is an Amharic version of the Catholic Mysteries of the Rosary. It consists of fifteen mysteries divided into three groups: 
+               The Five Joyful Mysteries, the Five Sorrowful Mysteries and the Five Glorious Mysteries. The Amharic text originates from the 17th century.</t:p>
          </t:abstract>
       <calendarDesc>
 	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
@@ -134,10 +137,36 @@
             spreadsheet </change>
          <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>
          <change when="2017-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated title, keyword, abstract</change>
+         <change when="2026-10-27" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added a few mss, relations, bibliography, incipit</change>
          
       </t:revisionDesc>
-   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+   </teiHeader><standOff><listRelation>
+               <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_is_about" active="https://betamasaheft.eu/LIT2016Mestir" passive="https://betamasaheft.eu/PRS6819Mary"/>
+               <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_is_about" active="https://betamasaheft.eu/LIT2016Mestir" passive="https://betamasaheft.eu/PRS5684JesusCh"/>
+            </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
-         <t:ab/>
+         <t:div type="bibliography">            
+            
+            <t:listBibl type="editions">
+               <t:bibl corresp="http://zotero.org/groups/358366/items/VGLD22QS"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Goldenberg2013Rosaries"/><title level="a">ምሥጢረ፡ ጽጌያት። The Old Amharic mysteries of the rosary</title><title level="m">Further Studies in Semitic Linguistics</title><author><forename>Gideon</forename><surname>Goldenberg</surname></author><pubPlace>Münster</pubPlace><publisher>Ugarit-Verlag</publisher><date>2013</date><biblScope unit="page">155–175</biblScope><note type="tags"><note type="tag">bm:Goldenberg2013Rosaries</note></note><note type="tag">bm:Goldenberg2013Rosaries</note></t:bibl>
+            </t:listBibl>
+         </t:div>
+         <t:div type="edition" xml:id="div2LIT2016Mestir">
+            <t:note>The following introduction and the incipit of the hymn to St Mary is taken from <t:bibl corresp="http://zotero.org/groups/358366/items/VGLD22QS"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Goldenberg2013Rosaries"/><title level="a">ምሥጢረ፡ ጽጌያት። The Old Amharic mysteries of the rosary</title><title level="m">Further Studies in Semitic Linguistics</title><author><forename>Gideon</forename><surname>Goldenberg</surname></author><pubPlace>Münster</pubPlace><publisher>Ugarit-Verlag</publisher><date>2013</date><biblScope unit="page">155–175</biblScope><note type="tags"><note type="tag">bm:Goldenberg2013Rosaries</note></note><note type="tag">bm:Goldenberg2013Rosaries</note><t:citedRange unit="page">162</t:citedRange></t:bibl>.</t:note>
+            <t:div type="textpart" subtype="incipit">
+               <t:ab><t:l n="1">[ምሥጢረ፡ ጽጌያት።]</t:l>
+                  <t:l n="2">ማርያም፡ መሠረት፡</t:l>
+                  <t:l n="3">የክርስቲያን፡ ጸሎት፡</t:l>
+                  <t:l n="4">የኁሉ፡ እምቤት፡</t:l>
+                <t:l n="5">እናገራለሁ፡ ጥቄት፡</t:l>
+                <t:l n="6">ከምሥጢረ፡ ጽጌያት፡</t:l>
+                 <t:l n="7">የተናገረ፡</t:l>
+                  <t:l n="8">የማርያም፡ ጸላእት፡</t:l>
+                  <t:l n="9"> ኦመሠረት፡ አንቲ፡</t:l>
+                  <t:l n="10">ማርያም፡ መሠረት፡ የኁሉ፡ ነገር፡ የጥንት፡</t:l>
+                     <t:l n="11">ማርያም፡ መሠረት፡ የኁሉ፡ ተፍጻሜት።</t:l>
+               </t:ab>
+            </t:div>
+         </t:div>
       </t:body>
    </t:text></TEI>

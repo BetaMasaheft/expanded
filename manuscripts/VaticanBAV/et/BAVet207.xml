@@ -1,11 +1,11 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="BAVet201"><teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="BAVet207"><teiHeader>
         <fileDesc>
-            <titleStmt><title type="full"><seg corresp="BAVet201">More than 1 BAVet201</seg></title>
+            <titleStmt><title type="full">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 207</title>
                 <title>Lǝfāfa ṣǝdq</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="AD" corresp="https://betamasaheft.eu/team.html#AD" xml:id="AD">Augustine Dickinson</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#AD" xml:id="ed-AD"><resp>editor</resp><name>Augustine Dickinson</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#AD" xml:id="ed-AD"><resp>editor</resp><name>Augustine Dickinson</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MV" xml:id="MV"><resp>contributor</resp><name>Massimo Villa</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -15,13 +15,13 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">30.10.2026 at 17:58:28</date><date type="lastModified">29.1.2025</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BAVet201/main</idno><idno type="URI">https://betamasaheft.eu/BAVet201</idno><idno type="filename">BAVet201.xml</idno><idno type="ID">BAVet201</idno></publicationStmt>
+            <date type="expanded">5.11.2026 at 16:35:46</date><date type="lastModified">30.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BAVet207/main</idno><idno type="URI">https://betamasaheft.eu/BAVet207</idno><idno type="filename">BAVet207.xml</idno><idno type="ID">BAVet207</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
                         <repository ref="https://betamasaheft.eu/INS0003BAV">Biblioteca Apostolica Vaticana</repository>
                         <collection>Aethiopici</collection>
-                        <idno>Aeth. 201</idno>
+                        <idno>Aeth. 207</idno>
                     </msIdentifier>
                     <msContents>
                       <summary/>
@@ -33,7 +33,7 @@
                           <locus from="3r" to="6v"/>
                           <title type="complete">Prologue</title>
                           <textLang mainLang="gez"/>
-                          
+                          <note>According to the catalogue, the text is somewhat shorter than in <ref type="item" corresp="https://betamasaheft.eu/BAVet201#ms_i1.1">Vatican City, Biblioteca Apostolica Vaticana, Aeth. 201: </ref>.</note>
                           </msItem>
                         <msItem xml:id="ms_i1.2">
                           <locus from="6v" to="9v"/>
@@ -343,6 +343,7 @@
       <revisionDesc>
           <change when="2020-04-26" who="#AD"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
         <change when="2025-01-29" who="#MV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Completed description</change>
+        <change when="2026-10-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->corrected ID</change>
       </revisionDesc>
     </teiHeader><text>
     <body>

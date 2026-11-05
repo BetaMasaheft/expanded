@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="DTEG026"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Eastern Tǝgrāy Zone, Dabra Ṣarābi, DTEG-026</title>
-                <title>Qidase</title>
+                <title>Missal</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -16,7 +16,7 @@
                      This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
                   </licence>
                </availability>
-            <date type="expanded">30.10.2026 at 15:43:27</date><date type="lastModified">7.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG026/main</idno><idno type="URI">https://betamasaheft.eu/DTEG026</idno><idno type="filename">DTEG026.xml</idno><idno type="ID">DTEG026</idno></publicationStmt>
+            <date type="expanded">5.11.2026 at 14:14:54</date><date type="lastModified">16.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG026/main</idno><idno type="URI">https://betamasaheft.eu/DTEG026</idno><idno type="filename">DTEG026.xml</idno><idno type="ID">DTEG026</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -26,8 +26,9 @@
                     <msContents>
                        <summary/>
                        <msItem xml:id="ms_i1">                        
-                           <title type="complete">Qidase</title>
+                           <title type="complete" corresp="LIT1960Mashaf">Missal</title>
                          <textLang mainLang="gez"/>
+                           <notatedMusic><desc>The text is supplied with musical notation.</desc></notatedMusic>
                            </msItem>
                                                                      
                         </msContents>
@@ -45,16 +46,45 @@
                                                <depth unit="mm">80</depth>
                                            </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="290" unit="mm"/><width quantity="230" unit="mm"/><depth quantity="80" unit="mm"/></dimensions>
                                        </extent>
-                            <foliation>Modern foliation in pencil, 1-135</foliation>
-                            <condition key="deficient">The leather cover on both boards is mostly preserved. Leather inlay mostly preserved.</condition>
+                            <foliation>Unfoliated.</foliation>
+                            <condition key="intact"/>
                          </supportDesc>
-                     </objectDesc>
+                                            
+                       <layoutDesc>
+                           <layout columns="2">                               
+                               <ab type="ruling" subtype="pattern">1A-1A-1A1A/0-0/0-0/C</ab> 
+                               <note>The first folium is not pricked and not ruled.</note>
+                           </layout>                           
+                       </layoutDesc>
+                       </objectDesc>
                        
+                       <handDesc>
+                           <handNote xml:id="h1" script="Ethiopic">
+                               <seg type="script">Twentieth-century script.</seg>
+                               <seg type="ink">Black, red.</seg>
+                               <desc>Not very careful, irregular; by a mediocre scribe.</desc>
+                           </handNote>                              
+                       </handDesc> 
                        
+                     <additions>
+                           <list>
+                               <item xml:id="a1">    
+                                   <desc type="PurchaseNote">The note states that the manuscript was sold to wayzāro Takʾen ʾAmāra
+                                       by Gabra Tǝnśāʾe Tadlā, on <date>20 Miyāzyā 1971 EC</date>. The note is written in red ink, on the last text page.</desc>
+                               </item>  
+                               
+                               <item xml:id="a2">
+                                                        
+                                   <desc type="DonationNote">The note is written in red ink, on the last text page.</desc>
+                               </item>
+                          
+                               
+                           </list>
+                           
+                       </additions>    
                          <bindingDesc>
                              <binding contemporary="true">
-                                 <decoNote xml:id="b1">Two wooden boards; Leather cover and inlay.
-                                     </decoNote>
+                                 <decoNote xml:id="b1">Two wooden boards; blind-tooled leather cover; no inlays.</decoNote>
                                  <decoNote xml:id="b2" type="bindingMaterial">                                     
                                      <material key="wood"/>   
                                      <material key="leather"/>
@@ -68,7 +98,8 @@
                     
                       <history>
                          <origin>
-                           <origDate notBefore="1700" notAfter="1799">18th century.</origDate>
+                           <origDate notBefore="1978" notAfter="1979">Around 1978 or 1979 EC.</origDate>
+                             The manuscript was bought by wayzāro Takʾen ʾAmāra and donated to the monastery.
                              </origin>
                           
                       </history>
@@ -141,8 +172,7 @@
             <textClass>
                 <keywords>
                     <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                    <term key="Poetry" ana="#Poetry"/>
-                    <term key="Gon" ana="#Gon"/> 
+                 <term key="MoPe" ana="#MoPe"/> 
                       <term key="Liturgy" ana="#Liturgy"/>
                                   
                 </keywords>
@@ -169,6 +199,7 @@
                 description on the basis of an examination in situ.</change>
             <change when="2026-09-07" who="#JF"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created entity with rudimentary
                 description.</change>
+            <change when="2026-10-16" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->revised the description.</change>
         </revisionDesc>
     </teiHeader><text>
         <body>

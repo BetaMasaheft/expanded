@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="DTEG030"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Eastern Tǝgrāy Zone, Dabra Ṣarābi, DTEG-030</title>
-                <title>Gedle Ewestatewos</title>
+                <title>Vita of ʾEwosṭātewos</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DN" corresp="https://betamasaheft.eu/team.html#DN" xml:id="DN">Denis Nosnitsin</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -16,7 +16,7 @@
                      This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
                   </licence>
                </availability>
-            <date type="expanded">30.10.2026 at 15:43:27</date><date type="lastModified">7.9.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG030/main</idno><idno type="URI">https://betamasaheft.eu/DTEG030</idno><idno type="filename">DTEG030.xml</idno><idno type="ID">DTEG030</idno></publicationStmt>
+            <date type="expanded">5.11.2026 at 14:14:54</date><date type="lastModified">7.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/DTEG030/main</idno><idno type="URI">https://betamasaheft.eu/DTEG030</idno><idno type="filename">DTEG030.xml</idno><idno type="ID">DTEG030</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -26,8 +26,9 @@
                     <msContents>
                        <summary/>
                        <msItem xml:id="ms_i1">                        
-                           <title type="complete">Gedle Ewestatewos</title>
+                           <title type="complete" corresp="LIT4319GadlaEA">Vita of ʾEwosṭātewos (recension α)</title>
                          <textLang mainLang="gez"/>
+                           <note>Possibly followed by the Miracles.</note>
                            </msItem>
                                                                      
                         </msContents>
@@ -45,19 +46,41 @@
                                                <depth unit="mm">60</depth>
                                            </dimensions><dimensions subtype="computed" unit="mm" type="outer"><height quantity="300" unit="mm"/><width quantity="260" unit="mm"/><depth quantity="60" unit="mm"/></dimensions>
                                        </extent>
-                            <foliation>Modern foliation in pencil, 1-135</foliation>
-                            <condition key="deficient">No leather cover on front board. The leather cover on bottom board damaged. No Leather nor textile inlay. Bindnig partially detached. Sewing partially broken.The wooden boards are broken and have been repaired by stitching with a coarse thread and other bands.</condition>
+                            <foliation>Unfoliated.</foliation>
+                            <condition key="deficient">The sewing is broken, the quires are loose; the wooder boards are detached from the textblock.</condition>
                          </supportDesc>
+                         <layoutDesc>
+                             <layout columns="2">                               
+                                 <ab type="ruling" subtype="pattern">1A-1A-1A1A/0-0/0-0/C</ab>                                 
+                             </layout>                          
+                         </layoutDesc>                 
                      </objectDesc>
                        
                        
+                       <handDesc>
+                           <handNote xml:id="h1" script="Ethiopic">
+                               <seg type="script">Eighteenth-century script.</seg>
+                               <seg type="ink">Black, red.</seg>
+                               <desc>Not very careful, somewhat irregular; by a mediocre scribe.</desc>
+                           </handNote>                              
+                       </handDesc>                      
+                                                      
+                       <additions>
+                           <list>                            
+                               
+                               <item xml:id="a1">
+                                   <locus target="#5r"/>
+                                   <desc type="OwnershipNote" cert="medium">An ownership note in the upper margin, partly illegible,
+                                       mentioning the name of the donor Kǝfla Giyorgis</desc>
+                               </item>
+                           </list>
+                       </additions>
+                       
                          <bindingDesc>
                              <binding contemporary="true">
-                                 <decoNote xml:id="b1">Two wooden boards; Leather cover on the back. No textile inlay. Leaves loose.
-                                     </decoNote>
+                                 <decoNote xml:id="b1">Two wooden boards.</decoNote>
                                  <decoNote xml:id="b2" type="bindingMaterial">                                     
-                                     <material key="wood"/>   
-                                     <material key="leather"/>
+                                     <material key="wood"/>           
                                      </decoNote>
                                            </binding>
                          </bindingDesc>                       
@@ -68,7 +91,10 @@
                     
                       <history>
                          <origin>
-                           <origDate notBefore="1700" notAfter="1799">18th century.</origDate>
+                             <origDate notBefore="1700" notAfter="1799" source="lettering">18th century.</origDate>
+                             The donor Kǝfla Giyorgis is mentioned in <ref target="#1">Addition 1</ref>; the names 
+                             Walda Śǝllāse and Walda Gabrǝʾel appear on the laste text page, in a supplication formula, 
+                             written over an erasure. 
                              </origin>
                           
                       </history>
@@ -141,9 +167,10 @@
             <textClass>
                 <keywords>
                     <term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                    <term key="Poetry" ana="#Poetry"/>
+                    <term key="Hagiography" ana="#Hagiography"/>
                     <term key="Gon" ana="#Gon"/> 
-                      <term key="Liturgy" ana="#Liturgy"/>
+                    <term key="ZaMa" ana="#ZaMa"/> 
+                      <term key="Miracle" ana="#Miracle"/>
                                   
                 </keywords>
             </textClass>
@@ -169,6 +196,7 @@
                 description on the basis of an examination in situ.</change>
             <change when="2026-09-07" who="#JF"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created entity with rudimentary
                 description.</change>
+            <change when="2026-10-07" who="#DN"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->revised the description.</change>
         </revisionDesc>
     </teiHeader><text>
         <body>

@@ -1,11 +1,11 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT6858PPsnakes"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Short prayer against snakes</title>
-                <title xml:lang="en" xml:id="t1">Short prayer against snakes</title>
+                <title xml:lang="en" xml:id="t1">Prayer against snake bites</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="JK" corresp="https://betamasaheft.eu/team.html#JK" xml:id="JK">Jonas Karlsson</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#JK" xml:id="ed-JK"><resp>editor</resp><name>Jonas Karlsson</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#JK" xml:id="ed-JK"><resp>editor</resp><name>Jonas Karlsson</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MK" xml:id="MK"><resp>contributor</resp><name>Magdalena Krzyzanowska</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -15,9 +15,16 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">30.10.2026 at 13:51:13</date><date type="lastModified">14.8.2023</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6858PPsnakes/main</idno><idno type="URI">https://betamasaheft.eu/LIT6858PPsnakes</idno><idno type="filename">LIT6858PPsnakes.xml</idno><idno type="ID">LIT6858PPsnakes</idno></publicationStmt>
+            <date type="expanded">5.11.2026 at 12:15:07</date><date type="lastModified">27.10.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6858PPsnakes/main</idno><idno type="URI">https://betamasaheft.eu/LIT6858PPsnakes</idno><idno type="filename">LIT6858PPsnakes.xml</idno><idno type="ID">LIT6858PPsnakes</idno></publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Work of the literatures of Ethiopia and Eritrea</p>
+            </sourceDesc>
+            <sourceDesc>
+                <listWit>
+                    <witness corresp="https://betamasaheft.eu/BDLaethf25"><idno>Bodleian Aeth. f. 25</idno></witness>
+                    <witness corresp="https://betamasaheft.eu/ESdd045#a4"><idno facs="DD/045/DD-045" n="208">DD-045</idno></witness>
+                    <witness corresp="https://betamasaheft.eu/EStkmg012#a2"><idno facs="TKMG/012/TKMG-012" n="91">TKMG-012</idno></witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -87,6 +94,7 @@
                 <keywords>
                     <term key="Prayers" ana="#Prayers"/>
                     <term key="ChristianLiterature" ana="#ChristianLiterature"/>
+                    <term key="Magic" ana="#Magic"/>
                 </keywords>
             </textClass>
             <langUsage>
@@ -108,14 +116,20 @@
 </calendarDesc></profileDesc>
         <revisionDesc>
             <change when="2023-08-14" who="#JK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2026-10-27" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added the text from EStkmg012, slightly changed title, changed "has attestation" to "witness".</change>
         </revisionDesc>
-    </teiHeader><standOff><listRelation>
-                    <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT6858PPsnakes" passive="https://betamasaheft.eu/BDLaethf25"/>
-                    <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT6858PPsnakes" passive="https://betamasaheft.eu/ESdd045"/>
-                </listRelation></standOff><text>
+    </teiHeader><text>
         <body>
-            <div type="bibliography">
-                
+            <div type="edition" xml:id="div1LIT6858PPsnakes">
+                <div type="textpart" xml:lang="gez" xml:id="div1div1LIT6858PPsnakes">
+                    <note>This is the entire text, which is taken from <ref type="mss" corresp="https://betamasaheft.eu/EStkmg012">Dagʿa Tamben, Tansǝḥe Kidāna Mǝḥrat, TKMG-012</ref>. It is slightly longer at the end than <ref type="mss" corresp="https://betamasaheft.eu/BDLaethf25">Oxford, Bodleian Library, Bodleian Aeth. f. 25</ref>, 
+                        just as <ref type="mss" corresp="https://betamasaheft.eu/ESdd045">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy, Dabra Dāmmo ʾAbuna ʾAragāwi, DD-045</ref> is.</note>
+                    <ab>በስመ፡ አብ፡ በል፡ አክዮስ፡ አክዮሳዊ፡ ዶል፡ መርግዎን፡ አቅለሚድ፡ መልአኩ፡ ለአርዌ፡ ምድር፡ አኅዝኩ፡ ቀረጽ፡ በቀረጽ፡ አግአዚ፡ አርግዛና፡ ሙለዱ፡ ለከይሲ፡ ዘሙስና፡ 
+                        ፈውስ፡ ኩን፡ ዘአፍዖት፡ ፈውስ፡ ኩን፡ ለከይሲ፡ ፈውስ፡ ፈውስ፡ ኩን፡ ለተመን፡ ፈውስ፡ ኩን፡ በማቴዎስ፡ <surplus>በማቴዎስ፡</surplus> በማርቆስ፡ ሉቃስ፡ ወበዮሐንስ፡ በ፬፡ ወንጌላውያን፡ ኅድግ፡ 
+                        ይቤሉከ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ከመ፡ ይፃዕ፡ ሕምዙ፡ ለከይሲ፡  በኀይለ፡ መስ<supplied reason="lost">ቀሉ</supplied>፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ አመ፡ 
+                        ሐገጉ፡ ሐዋርያት፡ አድኅኖ፡ ለገብርከ፡ <gap reason="ellipsis" resp="MK"/> ለእመ፡ ኮነ፡ ርኁቀ፡ ብሔረ፡ አስትዮ፡ ለላዕኩ፡ ደጊመከ፡ በማይ፡ ሶበ፡ በጽሐ፡ ላዕኩ፡ ይክድኖ፡ አልባሲሁ፡ በቀይ፡ ቀለበት፡ ደጊመከ፡ ሀቦ፡ ለላዕኬ።
+                    </ab>
+                </div>
             </div>
             <div type="edition" xml:id="div2LIT6858PPsnakes">
                 <div type="textpart" xml:lang="gez" xml:id="div2div1LIT6858PPsnakes">

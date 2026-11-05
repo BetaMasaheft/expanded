@@ -16,7 +16,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                   licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
-         <date type="expanded">30.10.2026 at 15:51:52</date><date type="lastModified">16.7.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD945/main</idno><idno type="URI">https://betamasaheft.eu/CBD945</idno><idno type="filename">CBD945.xml</idno><idno type="ID">CBD945</idno></publicationStmt>
+         <date type="expanded">5.11.2026 at 14:22:15</date><date type="lastModified">29.10.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/CBD945/main</idno><idno type="URI">https://betamasaheft.eu/CBD945</idno><idno type="filename">CBD945.xml</idno><idno type="ID">CBD945</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -69,6 +69,7 @@
                      <msItem xml:id="p1_i2">
                         <locus from="2v"/>
                         <title cert="unknown" ref="https://betamasaheft.eu/LIT4228Invocation">Invocation to Jesus Christ</title>
+                        <incipit xml:lang="gez">ኦእግዚእየ፡ ኢየሱስ፡ ክርስቶስ፡ ክሥት፡ አፋየ፡ ወአብርህ፡ አዕይንተ፡ ልብየ፡</incipit>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -199,6 +200,7 @@
                            <item xml:id="a1">
                               <locus from="33v"/>
                               <desc type="GuestText"><title ref="https://betamasaheft.eu/LIT2769RepCh53">Malkǝʾ-hymn to Takla Hāymānot</title></desc>
+                              <q xml:lang="gez">ሰላም፡ ለከ፡ ተክለ፡ ሃይማኖት፡ አቡነ፡ ምሉአ፡ ሞገስ፡ ወጸጋ፡</q>
                            </item>
                            <item xml:id="a2">
                               <locus target="#35v"/>
@@ -319,6 +321,7 @@
          <change when="2022-04-30" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->created record</change>
          <change when="2026-07-15" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->added information from the catalogue</change>
          <change when="2026-07-16" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->updated after the review of Carsten Hoffmann</change>
+         <change when="2026-10-29" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added missing incipits</change>
       </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
