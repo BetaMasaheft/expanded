@@ -57,7 +57,7 @@ env:
 
 jobs:
   expand-shard:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 300
     outputs:
       shards: ${{ steps.list.outputs.shards }}

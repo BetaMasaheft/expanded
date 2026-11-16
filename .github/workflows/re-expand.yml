@@ -133,7 +133,7 @@ jobs:
 
   select:
     needs: plan
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       shards: ${{ steps.pick.outputs.shards }}
       count: ${{ steps.pick.outputs.count }}
@@ -232,7 +232,7 @@ jobs:
   assemble:
     needs: [plan, select, expand]
     if: ${{ !cancelled() && needs.select.result == 'success' }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     steps:
       - name: Guard push_to_main requires main
