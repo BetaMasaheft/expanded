@@ -12,7 +12,7 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="SH" corresp="https://betamasaheft.eu/team.html#SH" xml:id="SH">Susanne Hummel</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#SH" xml:id="ed-SH"><resp>editor</resp><name>Susanne Hummel</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#SH" xml:id="ed-SH"><resp>editor</resp><name>Susanne Hummel</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
@@ -22,7 +22,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">13.11.2026 at 20:57:11</date><date type="lastModified">13.10.2020</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6194MGSatan/main</idno><idno type="URI">https://betamasaheft.eu/LIT6194MGSatan</idno><idno type="filename">LIT6194MGSatan.xml</idno><idno type="ID">LIT6194MGSatan</idno></publicationStmt>
+            <date type="expanded">18.11.2026 at 07:38:53</date><date type="lastModified">5.11.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6194MGSatan/main</idno><idno type="URI">https://betamasaheft.eu/LIT6194MGSatan</idno><idno type="filename">LIT6194MGSatan.xml</idno><idno type="ID">LIT6194MGSatan</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -116,10 +116,12 @@
 </calendarDesc></profileDesc>
         <revisionDesc>
             <change when="2020-10-13" who="#SH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2026-11-05" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Changed relation to ecrm:CLP46i_may_form_part_of</change>
         </revisionDesc>
     </teiHeader><standOff><listRelation>
                     <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT6194MGSatan" passive="https://betamasaheft.eu/BDLaethb4"/>
-                    <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT6194MGSatan" passive="https://betamasaheft.eu/LIT4006Taamme"/>
+                    <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_may_form_part_of" active="https://betamasaheft.eu/LIT6194MGSatan" passive="https://betamasaheft.eu/LIT4006Taamme"/>
+                    <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_is_about" active="https://betamasaheft.eu/LIT6194MGSatan" passive="https://betamasaheft.eu/PRS4585Georgeo"/>
                 </listRelation></standOff><text>
         <body>
             <div type="bibliography">

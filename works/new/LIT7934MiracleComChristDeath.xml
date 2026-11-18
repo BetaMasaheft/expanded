@@ -1,0 +1,182 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT7934MiracleComChristDeath"><teiHeader>
+        <fileDesc>
+            <titleStmt><title type="full">Taʾammǝra tazkāra motu la-ʾƎgziʾǝna ʾIyasus Krǝstos</title>
+                <title xml:lang="gez" xml:id="t1">ተአምረ፡ ተዝካረ፡ ሞቱ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡</title>
+                <title xml:lang="gez" corresp="#t1" type="normalized">Taʾammǝra tazkāra motu la-ʾƎgziʾǝna ʾIyasus Krǝstos</title>
+                <title xml:lang="en" corresp="#t1">Miracles associated with the Commemoration of the Death of Our Lord Jesus Christ</title>
+                <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
+                <editor key="MK" corresp="https://betamasaheft.eu/team.html#MK" xml:id="MK">Magdalena Krzyzanowska</editor>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MK" xml:id="ed-MK"><resp>editor</resp><name>Magdalena Krzyzanowska</name></respStmt></titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+                </availability>
+            <date type="expanded">18.11.2026 at 11:38:48</date><date type="lastModified">9.11.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT7934MiracleComChristDeath/main</idno><idno type="URI">https://betamasaheft.eu/LIT7934MiracleComChristDeath</idno><idno type="filename">LIT7934MiracleComChristDeath.xml</idno><idno type="ID">LIT7934MiracleComChristDeath</idno></publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+            <sourceDesc>
+                <listWit>
+                    <witness corresp="https://betamasaheft.eu/BNFet116"><idno facs="https://gallica.bnf.fr/ark:/12148/btv1b100931108">BnF Éthiopien 116</idno></witness>
+                    <witness corresp="https://betamasaheft.eu/ESmma010"><idno facs="MMA/010/MMA-010" n="103">MMA-010</idno></witness>
+                    <witness corresp="https://betamasaheft.eu/ESgbi013"><idno>GBI-013</idno></witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        <p>Encoded according
+                        to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>.
+                        These Guidelines detail the TEI format ruled by
+                        the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>.
+                        The present TEI file is enriched with an
+                        <ref target="https://github.com/BetaMasaheft/BetMas/blob/master/db/apps/BetMasWeb/modules/expand.xqm">Xquery transformation</ref>
+                        taking advantage of the <ref target="https://betamasaheft.eu">exist-db database instance</ref> where
+                        the data is stored and of the many external resources to which this data points to.</p><listPrefixDef>
+     <prefixDef ident="bm" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.zotero.org/groups/358366/ethiostudies/items/tag/bm:$1">
+    </prefixDef>
+     <prefixDef ident="betmas" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://betamasaheft.eu/$1">
+    </prefixDef>
+     <prefixDef ident="ethiocal" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/calendars/ethiopian.xml#$1">
+    </prefixDef>
+    <prefixDef ident="pleiades" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://pleiades.stoa.org/places/$1">
+    </prefixDef>
+    <prefixDef ident="sdc" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://w3id.org/sdc/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="wd" matchPattern="([a-zA-Z0-9]+)" replacementPattern="https://www.wikidata.org/entity/$1">
+    </prefixDef>
+    <prefixDef ident="snap" matchPattern="([a-zA-Z]+)" replacementPattern="http://data.snapdrgn.net/ontology/snap#$1">
+    </prefixDef>
+    <prefixDef ident="saws" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/saws/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="skos" matchPattern="([a-za-zA-Z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+    </prefixDef>
+    <prefixDef ident="gn" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://www.geonames.org/ontology#$1">
+    </prefixDef>
+    <prefixDef ident="dcterms" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+    </prefixDef>
+    <prefixDef ident="lawd" matchPattern="([a-zA-Z]+)" replacementPattern="http://lawd.info/ontology/$1">
+    </prefixDef>
+    <prefixDef ident="syriaca" matchPattern="([a-zA-Z\-]+)" replacementPattern="http://syriaca.org/documentation/relations.html#$1">
+    </prefixDef>
+
+    <prefixDef ident="agrelon" matchPattern="([a-zA-Z]+)" replacementPattern="http://d-nb.info/standards/elementset/agrelon.owl#$1">
+    </prefixDef>
+    <prefixDef ident="rel" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/vocab/relationship/$1">
+    </prefixDef>
+    <prefixDef ident="em" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/material/lod/$1">
+    </prefixDef>
+
+    <prefixDef ident="eo" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/objtyp/lod/$1">
+    </prefixDef>
+
+    <prefixDef ident="ew" matchPattern="(\d+)" replacementPattern="https://www.eagle-network.eu/voc/writing/lod/$1">
+    </prefixDef>
+     <prefixDef ident="ic" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://iconclass.org/$1">
+     </prefixDef>
+     <prefixDef ident="ecrm" matchPattern="([a-zA-Z0-9_]+)" replacementPattern="http://erlangen-crm.org/current/$1">
+     </prefixDef>
+     <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1">
+     </prefixDef>
+</listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"><citeStructure match="div" unit="chapter" use="@subtype"><desc><list><item>Introduction</item><item>PiousDeacon</item><item>BlindWoman</item><item>PunishedMan</item><item>WomanHen</item><item>Epilogue</item></list></desc></citeStructure></citeStructure></refsDecl></encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <textClass>
+                <keywords>
+                    <term key="ChristianLiterature" ana="#ChristianLiterature"/>
+                    <term key="Miracle" ana="#Miracle"/>
+                    <term key="Hagiography" ana="#Hagiography"/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+            <abstract><p>This work comprises a set of five miracles (the first miracle is included in the introduction) preceded by an introduction and completed by an epilogue (the epilogue may be absent in some manuscript witnesses; 
+                it is present in <ref type="mss" corresp="https://betamasaheft.eu/BNFet116">Paris, Bibliothèque nationale de France, BnF Éthiopien 116</ref>).  
+                As stated in the introduction, the miracles pertain to the feast of the Commemoration of Christ’s Death—a celebration that gained popularity among Christians thanks to 
+                <persName ref="https://betamasaheft.eu/PRS6418Mabaas">Mabāʾa Ṣǝyon</persName> and his <ref type="work" corresp="https://betamasaheft.eu/LIT1475GadlaM">Vita</ref>. 
+                The introduction also mentions a certain priest Yoḥannǝs, who began celebrating the commemoration in the city of Ṭāmo, in the region known as ʾAnāmo, 
+                following the example of <persName ref="https://betamasaheft.eu/PRS6418Mabaas">Mabāʾa Ṣǝyon</persName>. 
+                Of the three witnesses identified so far, the <ref type="mss" corresp="https://betamasaheft.eu/BNFet116">Paris, Bibliothèque nationale de France, BnF Éthiopien 116</ref> is the most legible, thanks to its clear and fine handwriting. 
+                The other two witnesses,  <ref type="mss" corresp="https://betamasaheft.eu/ESmma010">Bǝḥerāwi Kǝllǝlāwi Mangǝśti Tǝgrāy, Maʿago ʾAmānuʾel, MMA-010</ref> and <ref type="mss" corresp="https://betamasaheft.eu/ESgbi013">Gāntā ʾAfašum, Gʷāḥgot ʾIyasus, GBI-013</ref> are readable but present some difficulties 
+                due to the relatively poor condition of the parchment and poorly formed handwriting.
+            </p>
+            </abstract>
+        <calendarDesc>
+	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
+	<calendar xml:id="ethiopian">
+		<p> ʿĀmata śəggāwe (Era of the Incarnation – Ethiopian)</p>
+	</calendar>
+	<calendar xml:id="grace"><p>ʿĀmata məḥrat (Era of Grace)</p></calendar>
+	<calendar xml:id="diocletian"><p>ʿĀmata samāʿtāt (Era of Martyrs (Diocletian))</p></calendar>
+	<calendar xml:id="alexander"><p> Era of Alexander</p></calendar>
+	<calendar xml:id="evangelists"><p>Evangelists' years</p></calendar>
+	<calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar>
+	<calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar>
+	<calendar xml:id="julian"><p>Julian</p></calendar>
+</calendarDesc></profileDesc>
+        
+        <revisionDesc>
+            <change when="2026-11-09" who="#MK"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created record</change>
+        </revisionDesc>
+    </teiHeader><standOff><listRelation>
+                    <relation name="saws:isRelatedTo" ref="http://purl.org/saws/ontology#isRelatedTo" active="https://betamasaheft.eu/LIT7934MiracleComChristDeath" passive="https://betamasaheft.eu/LIT1973Mashaf"/>
+                    <relation name="saws:isRelatedTo" ref="http://purl.org/saws/ontology#isRelatedTo" active="https://betamasaheft.eu/LIT7934MiracleComChristDeath" passive="https://betamasaheft.eu/LIT6577DossierMS"/>
+                </listRelation></standOff><text>
+        <body>
+            <div type="bibliography">
+                
+            </div>
+            <div type="edition" xml:lang="gez" xml:id="div2LIT7934MiracleComChristDeath">
+                <note>This division into textparts follows <ref type="mss" corresp="https://betamasaheft.eu/BNFet116">Paris, Bibliothèque nationale de France, BnF Éthiopien 116</ref>.</note>
+                
+                <div type="textpart" subtype="chapter" xml:id="Introduction">
+                    <label>Introduction and a miracle: How a man who threw the bread during the Commemoration of Christ’s Death was punished and then healed</label>
+                    <ab>በስመ፡ <gap reason="omitted" resp="MK"/>
+                     ንጽሕፍ፡ ተአምረ፡ ተዝካ<hi rend="rubric">ረ፡ ሞቱ፡ ለእግዚእነ፡ ወመድኀ</hi>ኒነ፡ ኢየሱስ፡ ዘገብረ፡ በተዝካረ፡ ሞቱ፡ ማኅየዊ፡ ለክብረ፡ ስሙ፡ ይደሉ፡ ስብሐት፡ ወአኰቴት፡ አሜን።
+                     ስምዑ፡ አበውየ፡ ወአኀውየ፡ እለ፡ ኮንክሙ፡ መፍቀርያነ፡ ክርስቶስ፡ መድኀኒነ፡ ሰሚዓ፡ ዜናሁ፡ ለእግዚእነ፡ ያስተፌሥሕ፡ ኅዙናነ፡ <gap reason="omitted" resp="MK"/>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="chapter" xml:id="PiousDeacon">
+                    <label>How a pious deacon saw Mabāʾa Ṣǝyon in Heaven and began to observe the Commemoration of Christ’s Death</label>
+                    <ab>ተአምሪሁ፡ ለእግዚእነ፡ ኢየሱስ፡ ወመድኒነ፡ ኢየሱስ፡ ወቤዛነ፡
+                        ዘገብረ፡ ተዝካረ፡ መድኅን፡ ማሕየዊ፡ ወሀሎ፡ ፩ዲያቆን፡ ሥርግው፡ መነኮስ። 
+                        በጾም፡ ወበጸሎት፡ ጽምው፡ ወስነ፡ ምግባሩ፡ ፍትው፡ ወምስለ፡ ኵሉ፡ ስንዕው፡ ተክለ፡ ሐዋርያት፡ 
+                        ስሙ፡ ዘኢያፈተዎ፡ ለዓለም፡ ጣዕሙ፡ በኃሢሠ፡ ጽድቅ። <gap reason="ellipsis" resp="MK"/></ab>
+                </div>
+                <div type="textpart" subtype="chapter" xml:id="BlindWoman">
+                    <label>How a blind woman was healed by observing the Commemoration of Christ’s Death</label>
+                    <ab>በስመ፡ <gap reason="ellipsis" resp="MK"/> ወሀለዉ፡ ቅዱሳን፡ መንፈሳውያን፡ በሀገረ፡ ወረብ፡ በብሔረ፡ ቆላዝን፡ 
+                        ወሶበ፡ ሰምዑ፡ ዘከመ፡ ይትገበር፡ ተዝካረ፡ መድኅን፡ አፍቀሩ፡ እምልቦሙ፡ መሥምሩ፡ ወይቤሉ፡ ንሕነኒ፡ ንግበር፡ በከመ፡ ገብረ፡ መባዓ፡ ጽዮን፡ ጻድቅ።
+                        ወእምዝ፡ ተጋብኡ፡ ወገብሩ፡ ለተዝካረ፡ መድኃኒነ።<gap reason="ellipsis" resp="MK"/></ab>
+            </div>
+            <div type="textpart" subtype="chapter" xml:id="PunishedMan">
+                <label>How a man was punished with an illness for sinning on the day of the Commemoration of Christ’s Death and daring to drink during the feast</label>
+                <ab>ተአምሪሁ፡ ለመድኃኒነ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ <gap reason="ellipsis" resp="MK"/> ወኮነ፡ ፩ብእሲ፡ ወረሰይዎ፡ ላእከ፡ ለማኅበረ፡ ተዝካረ፡ መድኅን። 
+                    ከመ፡ ይቅዳሕ፡ አይገነ፡ ወይሕፅብ፡ ጽዋዓተ። ወአሐተ፡ ዕለት፡ በበዓለ፡ ተዝካረ፡ መድኅን፡ ወሰከበ፡ ምስለ፡ ብእሲቱ፡ ወኮነ፡ ማዕደ፡ ማኅበር፡ ረፈቀ፡ ምስሌሆሙ።<gap reason="ellipsis" resp="MK"/></ab>
+            </div>
+                <div type="textpart" subtype="chapter" xml:id="WomanHen">
+                <label>On a woman who wanted to offer a hen in observance of the Commemoration of Christ’s Death, but whose offering was not accepted</label>
+                    <ab>ተአምሪሁ፡ ለእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ <gap reason="ellipsis" resp="MK"/> ወሶበ፡ ሰምዓት፡ አሐቲ፡ ብእሲት፡ ዘትነብር፡ በደወለ፡ ዳርት፡ ዜናሁ፡
+                        ለተዝካረ፡ መድኃኒነ። ወአፍቀረት፡ ወሠምረት፡ ወበጽዓት፡ ርእሳ፡ እንዘ፡ ትብል፡ አነኒ፡ ገደፍኩ፡ ሥጋየ፡ ወነፍስየ፡ ሎቱ፡ እትመኃፀን፡ ሎቱ፡ ወአበዕ፡ መባዓ፡ በእንተ፡ ተዝካረ፡ ሞቱ፡ እንተ፡ ነድየት፡ አመቱ፡፡ 
+                        ወእምዝ፡ አጥረየት፡ ፩ዶርሆ፡ ወበፅዓት፡ <gap reason="ellipsis" resp="MK"/></ab>
+            </div>
+                <div type="textpart" subtype="chapter" xml:id="Epilogue">
+                    <label>Epilogue: On the observance of the Commemoration of Christ’s Death</label>
+                    <ab>ወእምዝ፡ አመ፡ ፳ወ፯ ለወርኃ፡ መጋቢት፡ ኦእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ በሌሊተ፡ ዕሑድ፡ ወአሜሃ፡ ዕለተ፡ ሆሣዕና፡ ኮነ፡ ወመጽአ፡ ምስለ፡ እሙ፡ ቅድስት፡ ድንግል። ወምስለ፡ መላእክቲሁ፡ ወቅዱሳኒሁ።</ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

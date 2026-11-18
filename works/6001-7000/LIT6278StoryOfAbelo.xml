@@ -5,13 +5,13 @@
         malāʾǝkt</title>
                 <title xml:lang="gez" xml:id="t1">እም፭፡ ለወርኀ፡ የካቲስ፡ ለአበዊነ፡ ቅዱሳን፡ አትናስዮስ፡ ሊቀ፡ ጳጳሳት፡ ዘእለስክንድርያ፡
                 ወባስልዮስ፡ ወተዝካረ፡ ቅዱስ፡ አብ፡ አባ፡ አብሎ፡ ዘይመስል፡ መላእክት፡</title>
-                <title xml:lang="gez" corresp="#t1">ʾƎm5 la-warḫa Yakkātit la-ʾabawina qǝddusān ʾAtnāsǝyos liqa ṗāṗṗāsāt
+                <title xml:lang="gez" corresp="#t1">ʾƎm5 la-warḫa Yakkātit la-ʾabawina qǝddusān ʾAtnāsǝyos liqa ṗāṗāsāt
                 za-ʾƎlaskǝndǝryā wa-Bāsǝlyos wa-tazkāra qǝddus ʾab ʾabbā ʾAbbǝlo za-yǝmasǝl malāʾǝkt</title>
                 <title xml:lang="en" type="main" xml:id="t2">History of the hermit ʾAbbǝlo</title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="MKr" corresp="https://betamasaheft.eu/team.html#MKr" xml:id="MKr">Marcin Krawczuk</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MKr" xml:id="ed-MKr"><resp>editor</resp><name>Marcin Krawczuk</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#MKr" xml:id="ed-MKr"><resp>editor</resp><name>Marcin Krawczuk</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -21,7 +21,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">13.11.2026 at 20:57:11</date><date type="lastModified">1.12.2020</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6278StoryOfAbelo/main</idno><idno type="URI">https://betamasaheft.eu/LIT6278StoryOfAbelo</idno><idno type="filename">LIT6278StoryOfAbelo.xml</idno><idno type="ID">LIT6278StoryOfAbelo</idno></publicationStmt>
+            <date type="expanded">18.11.2026 at 07:38:53</date><date type="lastModified">1.12.2020</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6278StoryOfAbelo/main</idno><idno type="URI">https://betamasaheft.eu/LIT6278StoryOfAbelo</idno><idno type="filename">LIT6278StoryOfAbelo.xml</idno><idno type="ID">LIT6278StoryOfAbelo</idno></publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness corresp="https://betamasaheft.eu/EMML141">EMML 141: 5 (1904/05): ff. 94ra-102vb; EMML [I] p. 143 "(Combat) of Sts. Athanasius and Basil and the Commemoration of Abba Ablo [ገድል፡ ለቅዱሳን፡ አትናስዮስ፡ ወባስልዮስ፡ ወተዝካረ፡ አባ፡ አብሎ፡]".</witness>
@@ -125,6 +125,7 @@ is the most perfect monk in the land of Egypt. <persName ref="https://betamasahe
 </calendarDesc></profileDesc>
         <revisionDesc>
             <change when="2020-12-01" who="#MKr"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2020-11-02" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated title</change>
         </revisionDesc>
     </teiHeader><standOff><listRelation>
                     <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_is_about" active="https://betamasaheft.eu/LIT6278StoryOfAbelo" passive="https://betamasaheft.eu/PRS2546Basilth"/>

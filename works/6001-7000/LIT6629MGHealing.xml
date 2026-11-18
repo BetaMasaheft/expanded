@@ -7,7 +7,7 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="DR" corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR">Dorothea Reule</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="ed-DR"><resp>editor</resp><name>Dorothea Reule</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -17,7 +17,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">13.11.2026 at 20:57:11</date><date type="lastModified">5.5.2022</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6629MGHealing/main</idno><idno type="URI">https://betamasaheft.eu/LIT6629MGHealing</idno><idno type="filename">LIT6629MGHealing.xml</idno><idno type="ID">LIT6629MGHealing</idno></publicationStmt>
+            <date type="expanded">18.11.2026 at 07:38:53</date><date type="lastModified">5.11.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6629MGHealing/main</idno><idno type="URI">https://betamasaheft.eu/LIT6629MGHealing</idno><idno type="filename">LIT6629MGHealing.xml</idno><idno type="ID">LIT6629MGHealing</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -112,9 +112,10 @@
 </calendarDesc></profileDesc>
         <revisionDesc>
             <change when="2022-05-05" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2026-11-05" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated notes in edition</change>
         </revisionDesc>
     </teiHeader><standOff><listRelation>
-                        <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT6629MGHealing" passive="https://betamasaheft.eu/LIT4006Taamme"/>
+                        <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_may_form_part_of" active="https://betamasaheft.eu/LIT6629MGHealing" passive="https://betamasaheft.eu/LIT4006Taamme"/>
                     </listRelation></standOff><text>
         <body>
                 <div type="bibliography">
@@ -131,13 +132,13 @@
             </div>
             
             <div type="edition" xml:id="div2LIT6629MGHealing">
-            <div type="textpart" subtype="incipit" xml:lang="gez">
-                <note>This incipit is taken from the edition.</note>
-                <ab>፹፡ ተአምሪሁ፡ ለቅዱስ፡ ጊዮርጊስ፡ በረከቱ፡ የሃሉ፡ ምስሌነ፡ አሜን፡ ወነበረት፡ አሐቲ፡ ብእሲት፡ ጽንዕት፡ በፍቅሩ፡ ለጊዮርጊስ፡ ወአይሁዳዊት፡ ይእቲ፡ እምአዋልደ፡ 
-                እስራኤል። ወዓቢይ፡ ፍጥረታ፡ በውስተ፡ ሕዝብ፡ ወሰሚዓ፡ ከመ፡ ይገብር፡ ተአምረ፡ ዓቢየ፡ አምነት፡ ወትቤ፡ አነኒ፡ አሐውር፡ ኀበ፡ መቃብሩ፡</ab>
-            </div>
+                <div type="textpart" subtype="incipit" xml:lang="gez">
+                    <note>This incipit is taken from <bibl corresp="http://zotero.org/groups/358366/items/RR7ITNGQ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Arras1953GeorgiusText"/><title level="m">Miraculorum S. Georgii Megalomartyris. Collectio altera</title><title level="s">Corpus Scriptorum Christianorum Orientalium</title><author><forename>Victor</forename><surname>Arras</surname></author><editor><forename>Victor</forename><surname>Arras</surname></editor><pubPlace>Louvain</pubPlace><publisher>Imprimerie Orientaliste L. Durbecq</publisher><date>1953</date><series><title level="s">Corpus Scriptorum Christianorum Orientalium</title><biblScope unit="volume">138, Scriptores Aethiopici, 31</biblScope></series><biblScope unit="volume">138, Scriptores Aethiopici, 31</biblScope><note type="url">https://archive.org/details/miraculorumsgeor0000geor/mode/2up</note><note type="tags"><note type="tag">bm:Arras1953GeorgiusText</note></note><note type="tag">bm:Arras1953GeorgiusText</note><citedRange unit="page">109</citedRange><citedRange unit="item">80</citedRange></bibl>.</note>
+                    <ab>፹። ተአምሪሁ፡ ለቅዱስ፡ ጊዮርጊስ፡ በረከቱ፡ የሃሉ፡ ምስሌነ፡ አሜን፡ ወነበረት፡ አሐቲ፡ ብእሲት፡ ጽንዕት፡ በፍቅሩ፡ ለጊዮርጊስ፡ ወአይሁዳዊት፡ ይእቲ፡ እምአዋልደ፡ 
+                        እስራኤል። ወዓቢይ፡ ፍጥረታ፡ በውስተ፡ ሕዝብ፡ ወሰሚዓ፡ ከመ፡ ይገብር፡ ተአምረ፡ ዓቢየ፡ አምነት፡ ወትቤ፡ አነኒ፡ አሐውር፡ ኀበ፡ መቃብሩ።</ab>
+                </div>
                 <div type="textpart" subtype="explicit" xml:lang="gez">
-                    <note>This incipit is taken from the edition.</note>
+                    <note>This explicit is taken from <bibl corresp="http://zotero.org/groups/358366/items/RR7ITNGQ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Arras1953GeorgiusText"/><title level="m">Miraculorum S. Georgii Megalomartyris. Collectio altera</title><title level="s">Corpus Scriptorum Christianorum Orientalium</title><author><forename>Victor</forename><surname>Arras</surname></author><editor><forename>Victor</forename><surname>Arras</surname></editor><pubPlace>Louvain</pubPlace><publisher>Imprimerie Orientaliste L. Durbecq</publisher><date>1953</date><series><title level="s">Corpus Scriptorum Christianorum Orientalium</title><biblScope unit="volume">138, Scriptores Aethiopici, 31</biblScope></series><biblScope unit="volume">138, Scriptores Aethiopici, 31</biblScope><note type="url">https://archive.org/details/miraculorumsgeor0000geor/mode/2up</note><note type="tags"><note type="tag">bm:Arras1953GeorgiusText</note></note><note type="tag">bm:Arras1953GeorgiusText</note><citedRange unit="page">110</citedRange><citedRange unit="item">80</citedRange></bibl>.</note>
                     <ab>ሑሩኬ፡ ወዜነዉ፡ እመቦ፡ ሕሙም፡ ውስተ፡ ብሔርክሙ፡ ፈንዉ፡ ዝየ፡ ከመ፡ ይሕየዉ፡ ሕሙማን፡ ውስተ፡ ቤቱ፡ ለቅዱስ፡ ጊዮርጊስ፡
                         እምንዳቤሆሙ። ወይጸንሕዋ፡ አዝማዲሃ፡ ከመ፡ ይቅትልዋ፡ ወስዕንዋ፡ ረኪቦታ፡ እስመ፡ ቅዱስ፡ ጊዮርጊስ፡ አድኃና፡ ወሎሙኒ፡ አድከመ፡ ኃይሎሙ፡ እስከ፡ ፈጸመት፡ አሚኖታ፡
                     </ab>

@@ -19,15 +19,9 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">13.11.2026 at 20:57:38</date><date type="lastModified">27.10.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT4006Taamme/main</idno><idno type="URI">https://betamasaheft.eu/LIT4006Taamme</idno><idno type="filename">LIT4006Taamme.xml</idno><idno type="ID">LIT4006Taamme</idno></publicationStmt>
+         <date type="expanded">18.11.2026 at 07:39:17</date><date type="lastModified">29.10.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT4006Taamme/main</idno><idno type="URI">https://betamasaheft.eu/LIT4006Taamme</idno><idno type="filename">LIT4006Taamme.xml</idno><idno type="ID">LIT4006Taamme</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
-         </sourceDesc>
-         <sourceDesc>
-           <listWit>
-              <witness corresp="https://betamasaheft.eu/BNFet133#p2_i3"><idno facs="https://gallica.bnf.fr/ark:/12148/btv1b525037181">BnF Éthiopien 133</idno></witness>
-              <witness corresp="https://betamasaheft.eu/ESbhm002#p2_i2"><idno facs="BHM/002/BHM-002" n="130">BHM-002</idno></witness>
-           </listWit>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -121,15 +115,26 @@
          <change when="2017-03-24" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
          <change when="2017-06-29" who="#DR"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added keywords</change>
          <change when="2026-10-27" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected witness, deleted empty title (ar)</change>
+         <change when="2026-10-29" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Deleted witList; added editions</change>
       </t:revisionDesc>
-   </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
+   </teiHeader><standOff><listRelation>
+              <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_is_about" active="https://betamasaheft.eu/LIT4006Taamme" passive="https://betamasaheft.eu/PRS4585Georgeo"/>
+           </listRelation></standOff><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>
         <t:div type="bibliography">
-           
+              <t:listBibl type="editions">
+                 <t:bibl corresp="http://zotero.org/groups/358366/items/JCCVEYK8"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Budge1930George"/><title level="m">George of Lydda, the Patron Saint of England: A Study of the Cultus of St. George in Ethiopia. The Ethiopic texts in facsimile edited for the first time from the manuscripts from Maḳdalâ now in the British Museum, with translations and an introduction</title><title level="s">Luzac’s Semitic Text &amp; Translation Series</title><author><forename>Ernest A. Wallis</forename><surname>Budge</surname></author><pubPlace>London</pubPlace><publisher>Luzac &amp; Co. Ltd.</publisher><date>1930</date><series><title level="s">Luzac’s Semitic Text &amp; Translation Series</title><biblScope unit="volume">20</biblScope></series><biblScope unit="volume">20</biblScope><note type="url">https://archive.org/details/stgeorge_20190327</note><note type="tags"><note type="tag">bm:Budge1930George</note></note><note type="tag">bm:Budge1930George</note></t:bibl>
+                 <t:bibl corresp="http://zotero.org/groups/358366/items/A2CZ8F67"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1968GadTamMalkGiyorgis"/><title level="m">ገድለ ጊዮርጊስ ወተአምራቲሁ ዘምስለ መልክአ ጊዮርጊስ። (Gadla giyorgis wataʾammǝrātihu zamǝsla malkǝʿa giyorgis, 'The Life of George and His Miracles Together with the Effigy of George')</title><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā Māttamiyā Bet</publisher><date>1968</date><note type="tags"><note type="tag">bm:1968GadTamMalkGiyorgis</note></note><note type="tag">bm:1968GadTamMalkGiyorgis</note></t:bibl>
+              <t:bibl corresp="http://zotero.org/groups/358366/items/RR7ITNGQ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Arras1953GeorgiusText"/><title level="m">Miraculorum S. Georgii Megalomartyris. Collectio altera</title><title level="s">Corpus Scriptorum Christianorum Orientalium</title><author><forename>Victor</forename><surname>Arras</surname></author><editor><forename>Victor</forename><surname>Arras</surname></editor><pubPlace>Louvain</pubPlace><publisher>Imprimerie Orientaliste L. Durbecq</publisher><date>1953</date><series><title level="s">Corpus Scriptorum Christianorum Orientalium</title><biblScope unit="volume">138, Scriptores Aethiopici, 31</biblScope></series><biblScope unit="volume">138, Scriptores Aethiopici, 31</biblScope><note type="url">https://archive.org/details/miraculorumsgeor0000geor/mode/2up</note><note type="tags"><note type="tag">bm:Arras1953GeorgiusText</note></note><note type="tag">bm:Arras1953GeorgiusText</note></t:bibl>
+           </t:listBibl>
+           <t:listBibl type="translation">
+              <t:bibl corresp="http://zotero.org/groups/358366/items/VUCJJJZD"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Arras1953GeorgiusTrans"/><title level="m">Miraculorum S. Georgii Megalomartyris. Collectio altera</title><title level="s">Corpus Scriptorum Christianorum Orientalium</title><author><forename>Victor</forename><surname>Arras</surname></author><pubPlace>Louvain</pubPlace><publisher>Imprimerie Orientaliste L. Durbecq</publisher><date>1953</date><series><title level="s">Corpus Scriptorum Christianorum Orientalium</title><biblScope unit="volume">139, Scriptores Aethiopici, 32</biblScope></series><biblScope unit="volume">139, Scriptores Aethiopici, 32</biblScope><note type="tags"><note type="tag">bm:Arras1953GeorgiusTrans</note></note><note type="tag">bm:Arras1953GeorgiusTrans</note></t:bibl>
+           </t:listBibl>
            <t:listBibl type="secondary">
               <t:bibl corresp="http://zotero.org/groups/358366/items/XIGIRUCA"><seg corresp="#t1" type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Zotenberg1877Catalogue"/><title level="m">Catalogue des manuscrits éthiopiens &lt;hi rend="italics"&gt;(&lt;/hi&gt;gheez et amharique&lt;hi rend="italics"&gt;)&lt;/hi&gt; de la Bibliothèque nationale</title><title level="s">Manuscrits Orientaux</title><author><forename>Hermann</forename><surname>Zotenberg</surname></author><pubPlace>Paris</pubPlace><publisher>Imprimerie nationale</publisher><date>1877</date><series><title level="s">Manuscrits Orientaux</title></series><note type="url">https://archive.org/details/manuscritsorient00bibl</note><note type="tags"><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Zotenberg1877Catalogue</note></note><note type="tag">Bibliothèque Nationale</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Zotenberg1877Catalogue</note><t:citedRange unit="page">199b</t:citedRange><note type="about">about   title  <ref target="https://betamasaheft.eu/LIT4006Taamme#t1">ተአምረ፡ ጊዮርጊስ፡</ref></note></t:bibl>
               <t:bibl corresp="http://zotero.org/groups/358366/items/M5RWCUII"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Raineri2005EAEGeorge"/><title level="a">George of Lydda: Cult and Hagiography</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Osvaldo</forename><surname>Raineri</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">763b-764b</biblScope><note type="tags"><note type="tag">bm:Raineri2005EAEGeorge</note></note><note type="tag">bm:Raineri2005EAEGeorge</note></t:bibl>
            </t:listBibl>
+           
         </t:div>
          <t:div type="edition" xml:lang="gez" xml:id="div2LIT4006Taamme">
             <t:div type="textpart" subtype="colophon" xml:id="coloph1">

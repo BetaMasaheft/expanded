@@ -10,7 +10,7 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="SH" corresp="https://betamasaheft.eu/team.html#SH" xml:id="SH">Susanne Hummel</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#SH" xml:id="ed-SH"><resp>editor</resp><name>Susanne Hummel</name></respStmt></titleStmt>
+            <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#SH" xml:id="ed-SH"><resp>editor</resp><name>Susanne Hummel</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt></titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -20,7 +20,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">13.11.2026 at 20:57:11</date><date type="lastModified">6.11.2020</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6229MGBebaHorse/main</idno><idno type="URI">https://betamasaheft.eu/LIT6229MGBebaHorse</idno><idno type="filename">LIT6229MGBebaHorse.xml</idno><idno type="ID">LIT6229MGBebaHorse</idno></publicationStmt>
+            <date type="expanded">18.11.2026 at 07:38:53</date><date type="lastModified">2.11.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT6229MGBebaHorse/main</idno><idno type="URI">https://betamasaheft.eu/LIT6229MGBebaHorse</idno><idno type="filename">LIT6229MGBebaHorse.xml</idno><idno type="ID">LIT6229MGBebaHorse</idno></publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -114,10 +114,11 @@
 </calendarDesc></profileDesc>
         <revisionDesc>
             <change when="2020-11-06" who="#SH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
+            <change when="2026-11-02" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Changed edition to bm:Arras1953GeorgiusText</change>
         </revisionDesc>
     </teiHeader><standOff><listRelation>
-                    <relation name="lawd:hasAttestation" ref="http://lawd.info/ontology/hasAttestation" active="https://betamasaheft.eu/LIT6229MGBebaHorse" passive="https://betamasaheft.eu/BDLaethb4"/>
-                    <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT6229MGBebaHorse" passive="https://betamasaheft.eu/LIT4006Taamme"/>
+                    <relation name="ecrm:CLP46i_may_form_part_of" ref="http://erlangen-crm.org/current/CLP46i_may_form_part_of" active="https://betamasaheft.eu/LIT6229MGBebaHorse" passive="https://betamasaheft.eu/LIT4006Taamme"/>
+                    <relation name="ecrm:P129_is_about" ref="http://erlangen-crm.org/current/P129_is_about" active="https://betamasaheft.eu/LIT6229MGBebaHorse" passive="https://betamasaheft.eu/PRS4585Georgeo"/>
                 </listRelation></standOff><text>
         <body>
             <div type="bibliography">
@@ -128,24 +129,18 @@
                     <bibl corresp="http://zotero.org/groups/358366/items/A2CZ8F67"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:1968GadTamMalkGiyorgis"/><title level="m">ገድለ ጊዮርጊስ ወተአምራቲሁ ዘምስለ መልክአ ጊዮርጊስ። (Gadla giyorgis wataʾammǝrātihu zamǝsla malkǝʿa giyorgis, 'The Life of George and His Miracles Together with the Effigy of George')</title><pubPlace>ʾAddis ʾAbabā</pubPlace><publisher>Tasfā Māttamiyā Bet</publisher><date>1968</date><note type="tags"><note type="tag">bm:1968GadTamMalkGiyorgis</note></note><note type="tag">bm:1968GadTamMalkGiyorgis</note><citedRange unit="page">175–177</citedRange><citedRange unit="item">10</citedRange></bibl>
                 </listBibl>
                 
-                <listBibl type="secondary">
-                    <bibl corresp="http://zotero.org/groups/358366/items/VHDME76V"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1974CatJRylands"/><title level="m">Catalogue of Ethiopic Manuscripts in the John Rylands University Library of Manchester</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>Manchester</pubPlace><publisher>University Press</publisher><date>1974</date><note type="url">https://books.google.de/books?id=4NlRAQAAIAAJ&amp;lpg=PR8&amp;ots=6SQQLoQuml&amp;dq=Catalogue%20of%20Ethiopic%20Manuscripts%20in%20the%20John%20Rylands%20University%20Library%20of%20Manchester&amp;hl=de&amp;pg=PR7#v=onepage&amp;q&amp;f=false</note><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Strelcyn1974CatJRylands</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Strelcyn1974CatJRylands</note><citedRange unit="page">34</citedRange><citedRange unit="item">Ms 12, II.20 (19th miracle)</citedRange></bibl>
-                    <bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><forename>Sylvain</forename><surname>Grébaut</surname></author><author><forename>Eugène</forename><surname>Tisserant</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note><citedRange unit="page">720–721</citedRange><citedRange unit="item">Vat 233, 3.20 (19th miracle)</citedRange></bibl>
-                </listBibl>
-                
                 
             </div>
             <div type="edition" xml:id="div2LIT6229MGBebaHorse">
                 <div type="textpart" subtype="incipit" xml:lang="gez">
-                    <note>This incipit is taken from <ref type="mss" corresp="https://betamasaheft.eu/BDLaethb4">Oxford, Bodleian Library, Bodleian Aeth. b. 4</ref>.</note>
-                    <ab>፲ወ፱፡ ተአምሪሁ፡ <gap reason="ellipsis" resp="SH"/> ወሀሎ፡ ፩ ብእሲ፡ በሀገረ፡ ብባ፡
+                    <note>Incipit and explicit are taken from <bibl corresp="http://zotero.org/groups/358366/items/RR7ITNGQ"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Arras1953GeorgiusText"/><title level="m">Miraculorum S. Georgii Megalomartyris. Collectio altera</title><title level="s">Corpus Scriptorum Christianorum Orientalium</title><author><forename>Victor</forename><surname>Arras</surname></author><editor><forename>Victor</forename><surname>Arras</surname></editor><pubPlace>Louvain</pubPlace><publisher>Imprimerie Orientaliste L. Durbecq</publisher><date>1953</date><series><title level="s">Corpus Scriptorum Christianorum Orientalium</title><biblScope unit="volume">138, Scriptores Aethiopici, 31</biblScope></series><biblScope unit="volume">138, Scriptores Aethiopici, 31</biblScope><note type="url">https://archive.org/details/miraculorumsgeor0000geor/mode/2up</note><note type="tags"><note type="tag">bm:Arras1953GeorgiusText</note></note><note type="tag">bm:Arras1953GeorgiusText</note><citedRange unit="page">11–14</citedRange><citedRange unit="item">19</citedRange></bibl>.</note>
+                    <ab>፲ወ፱፡ ተአምሪሁ፡ <gap reason="ellipsis"/> ወሀሎ፡ ፩፡ ብእሲ፡ በሀገረ፡ ብባ፡
                         አረሚ፡ እምሰብአ፡ ይእቲ፡ ሀገር፡ ወያፈቅሮ፡ ለሰማዕት፡ ወለቤተ፡ ክርስቲያኑ።</ab>
                     <div type="textpart" subtype="explicit" xml:lang="gez">
-                        <note>This explicit is taken from <ref type="mss" corresp="https://betamasaheft.eu/BDLaethb4">Oxford, Bodleian Library, Bodleian Aeth. b. 4</ref>.</note>
                         <ab>ወሰብአ፡ ሀገርሰ፡ ሶበ፡ ሰምዑ፡ ዘንተ፡
                             ኵሎ፡ ተአምረ፡ ዘገብረ፡ ቅዱስ፡ ማር፡ ጊዮርጊስ፡ ኃያል፡
-                            ሰማዕቱ፡ ለክርስቶስ፡ አኀዞሙ፡ ፍርሃት፡ ወረዓድ፡ ወድንጋፄ፡ ወአክበርዎ፡ ወፈርህዎ። ጸሎቱ፡
-                            ወበረከቱ፡ ወኃይለ፡ ረድኤቱ፡ የሀሉ፡ ምስለ፡ <gap reason="ellipsis" resp="SH"/>
+                            ሰማዕቱ፡ ለክርስቶስ፡ አኀዞሙ፡ ፍርሃት፡ ወረዓድ፡ ወድንጋፄ፡ ወአክበርዎ፡ ወፈርህዎ፨ ጸሎቱ፡
+                            ወበረከቱ፡ ወኃይለ፡ ረድኤቱ፡ የሃሉ፡ ምስለ፡ ፍቁሩ፡ <gap reason="ellipsis"/>
                         </ab>
                     </div>
                 </div>
