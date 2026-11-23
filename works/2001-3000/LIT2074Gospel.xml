@@ -1,10 +1,10 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT2074Gospel"><teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt><title type="full">Gospel ofNicodemus</title>
-            <title xml:id="t1">Gospel ofNicodemus</title>
+            <title xml:id="t1">Gospel of Nicodemus</title>
             <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
-         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#CH" xml:id="CH"><resp>contributor</resp><name>Carsten Hoffmann</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="ES"><resp>contributor</resp><name>Eugenia Sokolinski</name></respStmt></titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -16,7 +16,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">18.11.2026 at 07:40:07</date><date type="lastModified">21.3.2016</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2074Gospel/main</idno><idno type="URI">https://betamasaheft.eu/LIT2074Gospel</idno><idno type="filename">LIT2074Gospel.xml</idno><idno type="ID">LIT2074Gospel</idno></publicationStmt>
+         <date type="expanded">23.11.2026 at 10:44:13</date><date type="lastModified">17.11.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2074Gospel/main</idno><idno type="URI">https://betamasaheft.eu/LIT2074Gospel</idno><idno type="filename">LIT2074Gospel.xml</idno><idno type="ID">LIT2074Gospel</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -98,6 +98,7 @@
 	<calendar xml:id="julian"><p>Julian</p></calendar>
 </calendarDesc></t:profileDesc>
       <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+         <change when="2026-11-17" who="#CH"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Updated title</change>
          <change when="2016-03-21" who="#PL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: --> Created file from google
             spreadsheet </change>
          <change when="2016-02-09" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->CREATED: text record</change>

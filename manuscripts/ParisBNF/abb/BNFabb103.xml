@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="BNFabb103"><teiHeader>
         <fileDesc>
             <titleStmt><title type="full">Paris, Bibliothèque nationale de France, BnF Éthiopien d'Abbadie 103</title>
-                <title>End of Life of Mabāʾa Ṣǝyon, Homily by John Chrysostom on the Glory of John the Baptist, Life of Gabra Krǝstos (Alexis), Qidra, Life of Kiros </title>
+                <title>Life of Mabāʾa Ṣǝyon, Homily by John Chrysostom on the Glory of John the Baptist, Life of Gabra Krǝstos (Alexis), Qidra, Life of Kiros </title>
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="ge-AB">Alessandro Bausi</editor>
                 <editor key="NV" corresp="https://betamasaheft.eu/team.html#NV" xml:id="NV">Nafisa Valieva</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">18.11.2026 at 11:03:28</date><date type="lastModified">20.5.2025</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFabb103/main</idno><idno type="URI">https://betamasaheft.eu/BNFabb103</idno><idno type="filename">BNFabb103.xml</idno><idno type="ID">BNFabb103</idno></publicationStmt>
+            <date type="expanded">23.11.2026 at 14:06:01</date><date type="lastModified">17.11.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BNFabb103/main</idno><idno type="URI">https://betamasaheft.eu/BNFabb103</idno><idno type="filename">BNFabb103.xml</idno><idno type="ID">BNFabb103</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -27,13 +27,13 @@
                             Éthiopien d'Abbadie 103</idno>
                     </msIdentifier>
                     <msContents>
-                        <summary/>
                         <msItem xml:id="ms_i1">
-                            <locus target="1rab"/>
+                            <locus target="#1rab"/>
                             <textLang mainLang="gez"/>
                             <title type="incomplete" ref="https://betamasaheft.eu/LIT1475GadlaM">Gadla Mabāʾa Ṣǝyon</title>
                             <note>The excerpt contains only the end of the Life of Mabāʾa Ṣǝyon, mainly supplications.</note>
                         </msItem>
+                        
                         <msItem xml:id="ms_i2">
                             <locus from="2r" to="10vb"/>
                             <textLang mainLang="gez"/>
@@ -67,6 +67,7 @@
                                 signaling that the current text was copied from an antigraph dated
                                 to the time of King <ref type="pers" corresp="https://betamasaheft.eu/PRS7481NaodA">Nāʿod</ref>.</note>
                         </msItem>
+                        
                         <msItem xml:id="ms_i3">
                             <locus from="11r" to="27vb"/>
                             <textLang mainLang="gez"/>
@@ -86,6 +87,7 @@
                                 ወአረፈ፡ አመ፡ ፲ወ፬ በወርኃ፡ ጥቅምት፡ በዕለተ፡ እሑድ፡ ጊዜ፡ ፫ሰዓት፡ ለዘጸሐፎ፡ ወለዘአጽሐፎ፡
                                 ወለዘአንበቦ፡ ወለዘሰምዓ፡ ቃላቲሁ፡ ኅቡረ፡ ይምሐረነ፡ እግዚአብሔር፡ አሜን።</explicit>
                         </msItem>
+                        
                         <msItem xml:id="ms_i4">
                             <locus from="28ra" to="50ra"/>
                             <textLang mainLang="gez"/>
@@ -104,6 +106,7 @@
                                     <persName ref="https://betamasaheft.eu/PRS14835AdamS">አዳም፡ ስና፡</persName></hi>
                                 <space reason="rubrication"/> እስከ፡ ለዓለመ፡ ዓለም፡ አሜን፡ ወአሜን። </explicit>
                         </msItem>
+                        
                         <msItem xml:id="ms_i5">
                             <locus from="51ra" to="87rb"/>
                             <textLang mainLang="gez"/>
@@ -128,7 +131,9 @@
                                 </persName>ወለአኃዊሃ፡ <space reason="rubrication" unit="chars" quantity="12"/>ወለዘሰምዓ፡ ቃላቲሁ፡ ኅቡረ፡ ይምሐረነ፡ እግዚአብሔር፡ በመንግሥተ፡ ሰማያት፡
                                 ለዓለመ፡ ንግ፡ ዓለም፡ አሜን፡ ወአሜን።</explicit>
                         </msItem>
+                        
                     </msContents>
+                    
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc>
@@ -321,6 +326,8 @@
             <change when="2025-05-09" who="#NV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created entity</change>
             <change when="2025-05-20" who="#NV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Developed the record</change>
             <change when="2025-05-20" who="#NV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected the encoding based on Dorothea Reule's review and Carsten Hoffmann's approval of her corrections</change>
+            <change when="2026-11-17" who="#NV"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Corrected the encoding based on Magdalena Krzyżanowska's comments</change>
+            
         </revisionDesc>
     </teiHeader><text>
         <body>

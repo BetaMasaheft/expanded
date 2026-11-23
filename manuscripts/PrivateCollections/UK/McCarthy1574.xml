@@ -14,7 +14,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">18.11.2026 at 11:04:55</date><date type="lastModified">1.10.2022</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/McCarthy1574/main</idno><idno type="URI">https://betamasaheft.eu/McCarthy1574</idno><idno type="filename">McCarthy1574.xml</idno><idno type="ID">McCarthy1574</idno></publicationStmt>
+            <date type="expanded">23.11.2026 at 14:09:49</date><date type="lastModified">1.10.2022</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/McCarthy1574/main</idno><idno type="URI">https://betamasaheft.eu/McCarthy1574</idno><idno type="filename">McCarthy1574.xml</idno><idno type="ID">McCarthy1574</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -44,6 +44,8 @@
         </fileDesc>
         <encodingDesc>
             
+                
+                    <p>Definitions of prefixes used.</p>
                 
             
         <p>Encoded according
@@ -102,15 +104,15 @@
      <prefixDef ident="foaf" matchPattern="([a-zA-Z0-9]+)" replacementPattern="http://xmlns.com/foaf/0.1/$1">
      </prefixDef>
 </listPrefixDef><p xmlns:xi="http://www.w3.org/2001/XInclude">Canonical taxonomy unavailable.</p><refsDecl><citeStructure delim="." match="//div[@type='edition']" unit="edition" use="@xml:id"/></refsDecl></encodingDesc>
-        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <t:textClass>
-                <t:keywords>
-                    <t:term key="ChristianLiterature" ana="#ChristianLiterature"/>
-                </t:keywords>
-            </t:textClass>
-            <t:langUsage>
-                <t:language ident="en">English</t:language>
-            </t:langUsage>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term key="ChristianLiterature" ana="#ChristianLiterature"/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
         <calendarDesc>
 	<calendar xml:id="world"><p>ʿĀmata ʿālam/ʿĀmata ʾəm-fəṭrat (Era of the World)</p></calendar>
 	<calendar xml:id="ethiopian">
@@ -123,12 +125,12 @@
 	<calendar xml:id="islamic"><p>Hiǧrī (Islamic)</p></calendar>
 	<calendar xml:id="hijri"><p>Hiǧrī (Islamic) in IslHornAfr</p></calendar>
 	<calendar xml:id="julian"><p>Julian</p></calendar>
-</calendarDesc></t:profileDesc>
-        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+</calendarDesc></profileDesc>
+        <revisionDesc>
             <change when="2022-10-01" who="#ES"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Created stub for EMIP03689_BobMcCarthy1574</change>
-        </t:revisionDesc>
-    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
-        <t:body>
-            <t:ab/>
-        </t:body>
-    </t:text></TEI>
+        </revisionDesc>
+    </teiHeader><text xml:base="https://betamasaheft.eu/">
+        <body>
+            <ab/>
+        </body>
+    </text></TEI>
