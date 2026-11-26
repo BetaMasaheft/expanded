@@ -18,7 +18,7 @@
                                     Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">23.11.2026 at 10:44:20</date><date type="lastModified">27.6.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3181Commen/main</idno><idno type="URI">https://betamasaheft.eu/LIT3181Commen</idno><idno type="filename">LIT3181Commen.xml</idno><idno type="ID">LIT3181Commen</idno></publicationStmt>
+         <date type="expanded">26.11.2026 at 16:21:16</date><date type="lastModified">27.6.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT3181Commen/main</idno><idno type="URI">https://betamasaheft.eu/LIT3181Commen</idno><idno type="filename">LIT3181Commen.xml</idno><idno type="ID">LIT3181Commen</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
@@ -121,8 +121,12 @@
       <t:body>
          <t:div type="bibliography">
             <t:listBibl type="secondary">
-               <t:bibl corresp="http://zotero.org/groups/358366/items/7TBKN9K3"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Garcia2010EAETergwame"/><title level="a">Tǝrgʷame</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Miguel Angel</forename><surname>García</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz</publisher><date>2010</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">921a-923a</biblScope><note type="tags"><note type="tag">Commentary</note><note type="tag">bm:Garcia2010EAETergwame</note></note><note type="tag">Commentary</note><note type="tag">bm:Garcia2010EAETergwame</note></t:bibl>
-               <t:bibl corresp="http://zotero.org/groups/358366/items/BA77CDXK"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Witakowski2007JohnChry"/><title level="a">John Chrysostom</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Witold</forename><surname>Witakowski</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">293a-295b</biblScope><note type="tags"><note type="tag">bm:Witakowski2007JohnChry</note></note><note type="tag">bm:Witakowski2007JohnChry</note></t:bibl>
+               <t:bibl>
+                  <t:ptr target="bm:Garcia2010EAETergwame"/>
+               </t:bibl>
+               <t:bibl>
+                  <t:ptr target="bm:Witakowski2007JohnChry"/>
+               </t:bibl>
             </t:listBibl>
             
          </t:div>
@@ -139,7 +143,11 @@
             </t:div>
             <t:div type="textpart" subtype="chapter" xml:id="Testimonies">
                <t:label>Table of the single testimonies which are stated in the epistles</t:label>
-               <t:note> See <t:bibl corresp="http://zotero.org/groups/358366/items/NMHJ56PR"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Dillmann1848Catalogus"/><title level="m">Catalogus codicum manuscriptorum Bibliothecae Bodleianae Oxoniensis, Pars VII: Codices Aethiopici</title><author><forename>Christian Friedrich August</forename><surname>Dillmann</surname></author><pubPlace>Oxonii</pubPlace><publisher>E Typographeo Academico</publisher><date>1848</date><note type="url">https://archive.org/details/CatalogiCodicumManuscriptorumBibliothP7</note><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">bm:Dillmann1848Catalogus</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">Oxford</note><note type="tag">bm:Dillmann1848Catalogus</note><t:citedRange unit="page">24a</t:citedRange><t:citedRange unit="note">g</t:citedRange></t:bibl>.</t:note>
+               <t:note> See <t:bibl>
+                     <t:ptr target="bm:Dillmann1848Catalogus"/>
+                     <t:citedRange unit="page">24a</t:citedRange>
+                     <t:citedRange unit="note">g</t:citedRange>
+                  </t:bibl>.</t:note>
             </t:div>
          </t:div>
       </t:body>

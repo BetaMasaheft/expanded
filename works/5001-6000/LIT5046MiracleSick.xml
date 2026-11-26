@@ -16,7 +16,7 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
          under the Creative Commons Attribution-ShareAlike 4.0.</licence>
             </availability>
-         <date type="expanded">23.11.2026 at 10:44:17</date><date type="lastModified">6.5.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5046MiracleSick/main</idno><idno type="URI">https://betamasaheft.eu/LIT5046MiracleSick</idno><idno type="filename">LIT5046MiracleSick.xml</idno><idno type="ID">LIT5046MiracleSick</idno></publicationStmt>
+         <date type="expanded">26.11.2026 at 16:21:04</date><date type="lastModified">6.5.2025</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT5046MiracleSick/main</idno><idno type="URI">https://betamasaheft.eu/LIT5046MiracleSick</idno><idno type="filename">LIT5046MiracleSick.xml</idno><idno type="ID">LIT5046MiracleSick</idno></publicationStmt>
          <sourceDesc>
             <p/>
          </sourceDesc>
@@ -122,7 +122,7 @@
                <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT5046MiracleSick" passive="https://betamasaheft.eu/LIT2384Taamme"/>
                <relation name="syriaca:possibly-identical" ref="http://syriaca.org/documentation/relations.html#possibly-identical" active="https://betamasaheft.eu/LIT5046MiracleSick" passive="https://betamasaheft.eu/LIT3674Miracle">
                   <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">
-                     <t:bibl corresp="http://zotero.org/groups/358366/items/9PSXFIQK"><seg type="document"><!-- attributes from original bibl--></seg><ptr target="bm:MacomberMiracles"/><title level="m">Miracles of Mary</title><author><forename>William</forename><surname>Macomber</surname></author><date>n.d.</date><note type="tags"><note type="tag">bm:MacomberMiracles</note></note><note type="tag">bm:MacomberMiracles</note></t:bibl> identifies the miracle
+                     <t:bibl><t:ptr target="bm:MacomberMiracles"/></t:bibl> identifies the miracle
                      occurring in <t:ref type="mss" corresp="https://betamasaheft.eu/IVsuhtelen255">Saint Petersburg, Institut Vostočnyh Rukopisej Rossijskoj Akademii Nauk, IV Suhtelen 255</t:ref> as ms_i1.1 with <t:ref type="work" corresp="https://betamasaheft.eu/LIT3674Miracle">Miracle of Mary: Miracle of the transmigration of the Virgin, the
         apostles convene around the Virgin</t:ref>, 
                         however the description and incipit provided do not a allow a certain identification before consultation of the manuscript.
@@ -137,11 +137,21 @@
       <t:body>
          <t:div type="bibliography">
             <t:listBibl type="secondary">
-               <t:bibl corresp="http://zotero.org/groups/358366/items/BT4V8WSC"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Cerulli1965Leningrado"/><title level="a">Il codice di Leningrado del libro etiopico dei Miracoli di Maria</title><title level="j">Atti della Accademia nazionale dei Lincei, Rendiconti, Classe di scienze morali, storiche e filologiche</title><author><forename>Enrico</forename><surname>Cerulli</surname></author><date>1965</date><biblScope unit="volume">Serie ottava, 20</biblScope><biblScope unit="page">1-19</biblScope><note type="tags"><note type="tag">Miracles of Mary</note><note type="tag">bm:Cerulli1965Leningrado</note></note><note type="tag">Miracles of Mary</note><note type="tag">bm:Cerulli1965Leningrado</note><t:citedRange unit="page">5</t:citedRange><t:citedRange unit="item">1</t:citedRange></t:bibl>
-               <t:bibl xml:id="Macomber" corresp="http://zotero.org/groups/358366/items/9PSXFIQK"><seg type="document"><!-- attributes from original bibl--></seg><ptr target="bm:MacomberMiracles"/><title level="m">Miracles of Mary</title><author><forename>William</forename><surname>Macomber</surname></author><date>n.d.</date><note type="tags"><note type="tag">bm:MacomberMiracles</note></note><note type="tag">bm:MacomberMiracles</note><t:citedRange unit="item">603</t:citedRange></t:bibl>
+               <t:bibl>
+                  <t:ptr target="bm:Cerulli1965Leningrado"/>
+                  <t:citedRange unit="page">5</t:citedRange>
+                  <t:citedRange unit="item">1</t:citedRange>
+               </t:bibl>
+               <t:bibl xml:id="Macomber">
+                  <t:ptr target="bm:MacomberMiracles"/>
+                  <t:citedRange unit="item">603</t:citedRange>
+               </t:bibl>
             </t:listBibl>
             <t:listBibl type="clavis">
-               <t:bibl type="PEMM" corresp="http://zotero.org/groups/358366/items/RIDA7E4W"><seg type="dataset"><!-- attributes from original bibl--></seg><ptr target="bm:PEMM"/><title level="m">The Princeton Ethiopian, Eritrean, and Egyptian Miracles of Mary</title><author><forename>Wendy Laura</forename><surname>Belcher</surname></author><author><forename>Jeremy R.</forename><surname>Brown</surname></author><date>2018</date><note type="url">https://pemm.princeton.edu/</note><note type="tags"><note type="tag">bm:PEMM</note></note><note type="tag">bm:PEMM</note><t:citedRange unit="item">603</t:citedRange></t:bibl>
+               <t:bibl type="PEMM">
+                  <t:ptr type="story" target="bm:PEMM"/>
+                  <t:citedRange unit="item">603</t:citedRange>
+               </t:bibl>
             </t:listBibl>
             
             

@@ -24,13 +24,16 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">23.11.2026 at 10:44:23</date><date type="lastModified">20.11.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1201Bartos/main</idno><idno type="URI">https://betamasaheft.eu/LIT1201Bartos</idno><idno type="filename">LIT1201Bartos.xml</idno><idno type="ID">LIT1201Bartos</idno></publicationStmt>
+         <date type="expanded">26.11.2026 at 16:21:02</date><date type="lastModified">20.11.2017</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1201Bartos/main</idno><idno type="URI">https://betamasaheft.eu/LIT1201Bartos</idno><idno type="filename">LIT1201Bartos.xml</idno><idno type="ID">LIT1201Bartos</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
          <sourceDesc>
             <listBibl type="clavis">
-               <bibl type="BHO" corresp="http://zotero.org/groups/358366/items/D9KQXSXB"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:BHO"/><title level="m">Bibliotheca hagiographica orientalis</title><title type="short">BHO</title><title level="s">Subsidia Hagiographica</title><author><name>Socii Bollandiani</name></author><pubPlace>Bruxellis–Beyrouth</pubPlace><publisher>Apoud Editores–Imprimerie Catholique</publisher><date>1910</date><series><title level="s">Subsidia Hagiographica</title><biblScope unit="volume">10</biblScope></series><biblScope unit="volume">10</biblScope><note type="url">https://archive.org/stream/bibliothecahagi00peet</note><note type="tags"><note type="tag">bm:BHO</note></note><note type="tag">bm:BHO</note><citedRange unit="item">654</citedRange></bibl>
+               <bibl type="BHO">
+                  <ptr target="bm:BHO"/>
+                  <citedRange unit="item">654</citedRange>
+               </bibl>
             </listBibl>
            <listWit>
               <witness corresp="https://betamasaheft.eu/BAVet42"><idno>Aeth. 42</idno></witness>
@@ -115,7 +118,10 @@
          <t:abstract>
             <t:p>
                Prayer of the Virgin Mary on Bartos (identified by <t:persName ref="https://betamasaheft.eu/PRS6378Ludolf">Ludolf</t:persName>, <t:persName ref="https://betamasaheft.eu/PRS3562Dillmann">Dillmann</t:persName> and <t:persName ref="https://betamasaheft.eu/PRS10747Zotenbe">Zotenberg</t:persName> as Berytus, i.e. <t:placeName ref="https://betamasaheft.eu/LOC1833Beirut">Bayrūt</t:placeName>, 
-               but probably from the Παρθος, cp. <t:bibl corresp="http://zotero.org/groups/358366/items/B6QB3HZ6"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Guidi1888Atti"/><title level="a">Gli atti apocrifi degli apostoli nei testi copti, arabi ed etiopici</title><title level="j">Giornale della Società Asiatica Italiana</title><author><forename>Ignazio</forename><surname>Guidi</surname></author><date>1888</date><biblScope unit="volume">2</biblScope><biblScope unit="page">1-66</biblScope><note type="url">https://archive.org/details/GiornaleDellaSocietaAsiaticaItaliana2</note><note type="tags"><note type="tag">bm:Guidi1888Atti</note></note><note type="tag">bm:Guidi1888Atti</note><t:citedRange unit="page">9</t:citedRange></t:bibl>), by which she delivered the <t:persName ref="https://betamasaheft.eu/PRS11023Mathias">Apostle Mathias</t:persName>.
+               but probably from the Παρθος, cp. <t:bibl>
+                  <t:ptr target="bm:Guidi1888Atti"/>
+                  <t:citedRange unit="page">9</t:citedRange>
+               </t:bibl>), by which she delivered the <t:persName ref="https://betamasaheft.eu/PRS11023Mathias">Apostle Mathias</t:persName>.
               It is used for magical purposes. 
             </t:p>
          </t:abstract>
@@ -142,11 +148,17 @@
       </t:revisionDesc>
    </teiHeader><standOff><listRelation>
             <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT1201Bartos" passive="https://betamasaheft.eu/LIT1959Mashaf">
-               <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">According to <t:bibl corresp="http://zotero.org/groups/358366/items/V4P5NG24"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Basset1895Prieres"/><title level="m">Les Prières de la Vierge à Bartos et au Golgotha</title><title level="s">Les apocryphes éthiopiens</title><author><forename>René</forename><surname>Basset</surname></author><pubPlace>Paris</pubPlace><publisher>Librairie de l'Art Indépendant</publisher><date>1895</date><series><title level="s">Les apocryphes éthiopiens</title><biblScope unit="volume">5</biblScope></series><biblScope unit="volume">5</biblScope><note type="tags"><note type="tag">Apokryphon</note><note type="tag">Ethiopia</note><note type="tag">Maria</note><note type="tag">Mariengebete</note><note type="tag">bm:Basset1895Prieres</note></note><note type="tag">Apokryphon</note><note type="tag">Ethiopia</note><note type="tag">Maria</note><note type="tag">Mariengebete</note><note type="tag">bm:Basset1895Prieres</note><t:citedRange unit="page">7-8</t:citedRange></t:bibl>,
+               <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">According to <t:bibl>
+                     <t:ptr target="bm:Basset1895Prieres"/>
+                     <t:citedRange unit="page">7-8</t:citedRange>
+                  </t:bibl>,
                   the Prayer of Mary on Bartos is contained in the <t:ref type="work" corresp="https://betamasaheft.eu/LIT1959Mashaf">Maṣḥafa qedar</t:ref>.</t:desc>
             </relation>
             <relation name="saws:formsPartOf" ref="http://purl.org/saws/ontology#formsPartOf" active="https://betamasaheft.eu/LIT1201Bartos" passive="https://betamasaheft.eu/LIT3557Salota">
-               <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">According to <t:bibl corresp="http://zotero.org/groups/358366/items/V4P5NG24"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Basset1895Prieres"/><title level="m">Les Prières de la Vierge à Bartos et au Golgotha</title><title level="s">Les apocryphes éthiopiens</title><author><forename>René</forename><surname>Basset</surname></author><pubPlace>Paris</pubPlace><publisher>Librairie de l'Art Indépendant</publisher><date>1895</date><series><title level="s">Les apocryphes éthiopiens</title><biblScope unit="volume">5</biblScope></series><biblScope unit="volume">5</biblScope><note type="tags"><note type="tag">Apokryphon</note><note type="tag">Ethiopia</note><note type="tag">Maria</note><note type="tag">Mariengebete</note><note type="tag">bm:Basset1895Prieres</note></note><note type="tag">Apokryphon</note><note type="tag">Ethiopia</note><note type="tag">Maria</note><note type="tag">Mariengebete</note><note type="tag">bm:Basset1895Prieres</note><t:citedRange unit="page">7</t:citedRange></t:bibl>,
+               <t:desc xmlns:t="http://www.tei-c.org/ns/1.0">According to <t:bibl>
+                     <t:ptr target="bm:Basset1895Prieres"/>
+                     <t:citedRange unit="page">7</t:citedRange>
+                  </t:bibl>,
                   the Prayer of Mary on Bartos is contained in the <t:ref type="work" corresp="https://betamasaheft.eu/LIT3557Salota">Ṣalota rǝqet</t:ref>.</t:desc>
             </relation>
             <relation name="saws:isVersionInAnotherLanguageOf" ref="http://purl.org/saws/ontology#isVersionInAnotherLanguageOf" active="https://betamasaheft.eu/LIT1201Bartos" passive="https://betamasaheft.eu/LIT1201Bartos#t3Arabic">
@@ -158,28 +170,51 @@
          <t:div type="bibliography">
             
             <t:listBibl type="editions">
-               <t:bibl corresp="http://zotero.org/groups/358366/items/VAZ6GVMU"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1896Vergine"/><title level="a">La redazione etiopica della preghiera della Vergine tra i Parti</title><title level="j">Atti della Reale Accademia dei Lincei, Rendiconti, Classe di scienze morale, storiche e filologiche</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><date>1896</date><biblScope unit="volume">Serie quinta, 5</biblScope><biblScope unit="page">457-479</biblScope><note type="tags"><note type="tag">Ethiopic</note><note type="tag">bm:ContiRossini1896Vergine</note></note><note type="tag">Ethiopic</note><note type="tag">bm:ContiRossini1896Vergine</note><t:citedRange>463-479</t:citedRange></t:bibl>
+               <t:bibl> 
+                  <t:ptr target="bm:ContiRossini1896Vergine"/>
+                  <t:citedRange>463-479</t:citedRange>
+               </t:bibl>
             </t:listBibl>
             
             <t:listBibl type="translation">
-               <t:bibl corresp="http://zotero.org/groups/358366/items/V4P5NG24"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Basset1895Prieres"/><title level="m">Les Prières de la Vierge à Bartos et au Golgotha</title><title level="s">Les apocryphes éthiopiens</title><author><forename>René</forename><surname>Basset</surname></author><pubPlace>Paris</pubPlace><publisher>Librairie de l'Art Indépendant</publisher><date>1895</date><series><title level="s">Les apocryphes éthiopiens</title><biblScope unit="volume">5</biblScope></series><biblScope unit="volume">5</biblScope><note type="tags"><note type="tag">Apokryphon</note><note type="tag">Ethiopia</note><note type="tag">Maria</note><note type="tag">Mariengebete</note><note type="tag">bm:Basset1895Prieres</note></note><note type="tag">Apokryphon</note><note type="tag">Ethiopia</note><note type="tag">Maria</note><note type="tag">Mariengebete</note><note type="tag">bm:Basset1895Prieres</note><t:citedRange>11-30</t:citedRange></t:bibl>
+               <t:bibl> 
+                  <t:ptr target="bm:Basset1895Prieres"/>
+                  <t:citedRange>11-30</t:citedRange>
+               </t:bibl>
             </t:listBibl>
             
             <t:listBibl type="translation" corresp="#t4Arabic">
-               <t:bibl corresp="http://zotero.org/groups/358366/items/V4P5NG24"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Basset1895Prieres"/><title level="m">Les Prières de la Vierge à Bartos et au Golgotha</title><title level="s">Les apocryphes éthiopiens</title><author><forename>René</forename><surname>Basset</surname></author><pubPlace>Paris</pubPlace><publisher>Librairie de l'Art Indépendant</publisher><date>1895</date><series><title level="s">Les apocryphes éthiopiens</title><biblScope unit="volume">5</biblScope></series><biblScope unit="volume">5</biblScope><note type="tags"><note type="tag">Apokryphon</note><note type="tag">Ethiopia</note><note type="tag">Maria</note><note type="tag">Mariengebete</note><note type="tag">bm:Basset1895Prieres</note></note><note type="tag">Apokryphon</note><note type="tag">Ethiopia</note><note type="tag">Maria</note><note type="tag">Mariengebete</note><note type="tag">bm:Basset1895Prieres</note><t:citedRange>48-71</t:citedRange></t:bibl>
+               <t:bibl> 
+                  <t:ptr target="bm:Basset1895Prieres"/>
+                  <t:citedRange>48-71</t:citedRange>
+               </t:bibl>
             </t:listBibl>
             
             <t:listBibl type="secondary">
-               <t:bibl corresp="http://zotero.org/groups/358366/items/V4P5NG24"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Basset1895Prieres"/><title level="m">Les Prières de la Vierge à Bartos et au Golgotha</title><title level="s">Les apocryphes éthiopiens</title><author><forename>René</forename><surname>Basset</surname></author><pubPlace>Paris</pubPlace><publisher>Librairie de l'Art Indépendant</publisher><date>1895</date><series><title level="s">Les apocryphes éthiopiens</title><biblScope unit="volume">5</biblScope></series><biblScope unit="volume">5</biblScope><note type="tags"><note type="tag">Apokryphon</note><note type="tag">Ethiopia</note><note type="tag">Maria</note><note type="tag">Mariengebete</note><note type="tag">bm:Basset1895Prieres</note></note><note type="tag">Apokryphon</note><note type="tag">Ethiopia</note><note type="tag">Maria</note><note type="tag">Mariengebete</note><note type="tag">bm:Basset1895Prieres</note></t:bibl>
+               <t:bibl>
+                  <t:ptr target="bm:Basset1895Prieres"/>
+               </t:bibl>
                
-               <t:bibl corresp="http://zotero.org/groups/358366/items/WVSRCXHF"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:GetatchewNosnitsin2005EnAeMarian"/><title level="a">Marian Literature</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><name>Getatchew Haile</name></author><author><forename>Denis</forename><surname>Nosnitsin</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2007</date><biblScope unit="volume">III</biblScope><biblScope unit="page">814a-817b</biblScope><note type="tags"><note type="tag">bm:GetatchewNosnitsin2005EnAeMarian</note></note><note type="tag">bm:GetatchewNosnitsin2005EnAeMarian</note><t:citedRange unit="page">816b</t:citedRange></t:bibl>
+               <t:bibl> 
+                  <t:ptr target="bm:GetatchewNosnitsin2005EnAeMarian"/>
+                  <t:citedRange unit="page">816b</t:citedRange>
+               </t:bibl>
                
-               <t:bibl corresp="http://zotero.org/groups/358366/items/47M6WDIH"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Burtea2005EnAeDemons"/><title level="a">Demons</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Bogdan</forename><surname>Burtea</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2005</date><biblScope unit="volume">II</biblScope><biblScope unit="page">130a-132b</biblScope><note type="tags"><note type="tag">bm:Burtea2005EnAeDemons</note></note><note type="tag">bm:Burtea2005EnAeDemons</note><t:citedRange unit="page">132a</t:citedRange></t:bibl>
+               <t:bibl> 
+                  <t:ptr target="bm:Burtea2005EnAeDemons"/>
+                  <t:citedRange unit="page">132a</t:citedRange>
+               </t:bibl>
                
        
-               <t:bibl corresp="http://zotero.org/groups/358366/items/UWP7X2VT"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Lifchitz1940textes"/><title level="m">Textes éthiopiens magico-religieux</title><title level="s">Travaux et Mémoires de l’Institut d’Ethnologie</title><author><forename>Déborah</forename><surname>Lifchitz</surname></author><pubPlace>Paris</pubPlace><publisher>Institut d’Ethnologie</publisher><date>1940</date><series><title level="s">Travaux et Mémoires de l’Institut d’Ethnologie</title><biblScope unit="volume">38</biblScope></series><biblScope unit="volume">38</biblScope><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k26162n/f3.item</note><note type="tags"><note type="tag">Ethiopian Literature</note><note type="tag">Magic</note><note type="tag">bm:Lifchitz1940textes</note></note><note type="tag">Ethiopian Literature</note><note type="tag">Magic</note><note type="tag">bm:Lifchitz1940textes</note><t:citedRange unit="page">15</t:citedRange></t:bibl>
+               <t:bibl> 
+                  <t:ptr target="bm:Lifchitz1940textes"/>
+                  <t:citedRange unit="page">15</t:citedRange>
+               </t:bibl>
                
-               <t:bibl corresp="http://zotero.org/groups/358366/items/V4NKSAPV"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Ludolf1691Commentarius"/><title level="m">Ad suam Historiam Æthiopicam antehac editam Commentarius, In quo Multa breviter dicta fusius narrantur: contraria refelluntur: Atque hac occasione præter res Æthiopicas multa Autorum, quædam etiam S. Scripturæ loca declarantur: Aliaque plurima geographica, historica et critica, Inprimis verò antiquitatem ecclesiasticam illustrantia, alibi haud facilè obvia, exponuntur vt variarum observationum loco haberi possit</title><author><forename>Hiob</forename><surname>Ludolf</surname></author><pubPlace>Francofurti ad Mœnum</pubPlace><publisher>Sumptibus Johannis David Zunneri, Typis Martini Jacqueti</publisher><date>1691</date><note type="url">https://www.deutsche-digitale-bibliothek.de/item/SXTJEUN2ADNDZNZ5AF6FVA7RZ4F5AZQT</note><note type="tags"><note type="tag">Early studies</note><note type="tag">bm:Ludolf1691Commentarius</note></note><note type="tag">Early studies</note><note type="tag">bm:Ludolf1691Commentarius</note><t:citedRange unit="page">349</t:citedRange></t:bibl>
+               <t:bibl> 
+                  <t:ptr target="bm:Ludolf1691Commentarius"/>
+                  <t:citedRange unit="page">349</t:citedRange>
+               </t:bibl>
             </t:listBibl>
             
          

@@ -21,7 +21,7 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">23.11.2026 at 10:44:23</date><date type="lastModified">31.7.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1171Awdana/main</idno><idno type="URI">https://betamasaheft.eu/LIT1171Awdana</idno><idno type="filename">LIT1171Awdana.xml</idno><idno type="ID">LIT1171Awdana</idno></publicationStmt>
+         <date type="expanded">26.11.2026 at 16:21:02</date><date type="lastModified">31.7.2026</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1171Awdana/main</idno><idno type="URI">https://betamasaheft.eu/LIT1171Awdana</idno><idno type="filename">LIT1171Awdana.xml</idno><idno type="ID">LIT1171Awdana</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -136,11 +136,18 @@
          </t:div>
          <t:div type="bibliography">
             <t:listBibl type="editions">
-               <t:bibl corresp="http://zotero.org/groups/358366/items/IHD4VC4U"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1941AwdaNagast"/><title level="a">Lo ʿawda nagast scritto divinatorio etiopico</title><title level="j">Rassegna di Studi Etiopici</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><date>1941</date><biblScope unit="volume">1</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">127-145</biblScope><note type="url">http://www.jstor.org/stable/41460166</note><note type="tags"><note type="tag">Divination</note><note type="tag">bm:ContiRossini1941AwdaNagast</note></note><note type="tag">Divination</note><note type="tag">bm:ContiRossini1941AwdaNagast</note></t:bibl>
-               <t:bibl corresp="http://zotero.org/groups/358366/items/Z86ISJY5"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Abreha1949Hatata"/><title level="m">Ḥatatā manāfǝst (kaʾǝna tǝrgumu wa-'awda nagast)</title><author><name>Za-Manfas Qǝddus ʾAbrǝha</name></author><pubPlace>Asmara</pubPlace><date>1949</date><note type="tags"><note type="tag">bm:Abreha1949Hatata</note></note><note type="tag">bm:Abreha1949Hatata</note><t:citedRange unit="page">75-131</t:citedRange></t:bibl>
+               <t:bibl>
+                  <t:ptr target="bm:ContiRossini1941AwdaNagast"/>
+               </t:bibl>
+               <t:bibl>
+                  <t:ptr target="bm:Abreha1949Hatata"/>
+                  <t:citedRange unit="page">75-131</t:citedRange>
+               </t:bibl>
             </t:listBibl>
             <t:listBibl type="secondary">
-               <t:bibl corresp="http://zotero.org/groups/358366/items/6N6BD4CD"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Pietruschka2003Awda"/><title level="a">ʿAwdä nägäśt</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Ute</forename><surname>Pietruschka</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2003</date><biblScope unit="volume">I</biblScope><biblScope unit="page">402b</biblScope><note type="tags"><note type="tag">bm:Pietruschka2003Awda</note></note><note type="tag">bm:Pietruschka2003Awda</note></t:bibl>
+               <t:bibl> 
+                  <t:ptr target="bm:Pietruschka2003Awda"/>
+               </t:bibl>
             </t:listBibl>
          </t:div>
          <t:div type="edition" xml:id="div3LIT1171Awdana">
@@ -153,12 +160,13 @@
             <t:div type="textpart" xml:id="seas" xml:lang="gez">
                <t:label>Sixteen "seas" (<t:foreign xml:lang="gez">ባሕር፡</t:foreign>), each containing 16 sentences as a response to the previous questions</t:label>
                <t:note>The division in textparts is taken from 
-                  <t:bibl corresp="http://zotero.org/groups/358366/items/IHD4VC4U"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:ContiRossini1941AwdaNagast"/><title level="a">Lo ʿawda nagast scritto divinatorio etiopico</title><title level="j">Rassegna di Studi Etiopici</title><author><forename>Carlo</forename><surname>Conti Rossini</surname></author><date>1941</date><biblScope unit="volume">1</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">127-145</biblScope><note type="url">http://www.jstor.org/stable/41460166</note><note type="tags"><note type="tag">Divination</note><note type="tag">bm:ContiRossini1941AwdaNagast</note></note><note type="tag">Divination</note><note type="tag">bm:ContiRossini1941AwdaNagast</note><t:citedRange unit="page">131</t:citedRange></t:bibl>.
+                  <t:bibl><t:ptr target="bm:ContiRossini1941AwdaNagast"/><t:citedRange unit="page">131</t:citedRange></t:bibl>.
                   The Ethiopic titles of textparts are taken from <t:ref type="mss" corresp="https://betamasaheft.eu/BLorient12034">London, British Library, BL Oriental 12034</t:ref> according to the description in
-                  <t:bibl corresp="http://zotero.org/groups/358366/items/RSEA4WPK"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Strelcyn1978BritishLibrary"/><title level="m">Catalogue of Ethiopian Manuscripts in the British Library Acquired Since the Year 1877</title><author><forename>Stefan</forename><surname>Strelcyn</surname></author><pubPlace>London</pubPlace><publisher>Published by British Museum Publications for the British Library</publisher><date>1978</date><note type="tags"><note type="tag">British Museum</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Strelcyn1978BritishLibrary</note></note><note type="tag">British Museum</note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Strelcyn1978BritishLibrary</note><t:citedRange unit="item">98,20</t:citedRange><t:citedRange unit="page">146</t:citedRange></t:bibl>.</t:note>
+                  <t:bibl><t:ptr target="bm:Strelcyn1978BritishLibrary"/><t:citedRange unit="item">98,20</t:citedRange>
+                     <t:citedRange unit="page">146</t:citedRange></t:bibl>.</t:note>
                <t:div type="textpart" subtype="chapter" xml:id="Intro">
                   <t:note>The following incipit is taken from <t:ref type="mss" corresp="https://betamasaheft.eu/BAVet119">Vatican City, Biblioteca Apostolica Vaticana, Aeth.119</t:ref> according to
-                     <t:bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><forename>Sylvain</forename><surname>Grébaut</surname></author><author><forename>Eugène</forename><surname>Tisserant</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note><t:citedRange unit="page">480</t:citedRange></t:bibl>.</t:note>
+                     <t:bibl><t:ptr target="bm:GrebTiss1935Codices"/><t:citedRange unit="page">480</t:citedRange></t:bibl>.</t:note>
                   <t:ab>
                      በስመ፡ አብ፡ <t:gap reason="ellipsis"/> ፩ አምላክ፡ መሐሪ፡ ወመስተሣህል፡ ዘተናገረ፡ ፩ ጠቢ<t:surplus>ቢ</t:surplus>ብ፡ እምነ፡ ብዙኃን፡ ጠቢባን፡ ወፈላስፋውያን፡
                      ዘንተ፡ ዘስሙ፡ መጽሐፈ፡ ምክር፡ ለአበው፡  <t:sic>ቀደመት፡</t:sic> ከመ፡ ያእምሩ፡ በቱ፡ በዝ፡ እምሂ፡ ሠናየ፡ ወዕመሂ፡ እኩየ፡
@@ -233,7 +241,7 @@
                   <t:ab>ዘባሕረ፡ አባዊ፡</t:ab>
                   <t:div type="textpart" subtype="explicit" xml:lang="gez">
                      <t:note>The following explicit is taken from <t:ref type="mss" corresp="https://betamasaheft.eu/BAVet119">Vatican City, Biblioteca Apostolica Vaticana, Aeth.119</t:ref> according to
-                        <t:bibl corresp="http://zotero.org/groups/358366/items/QZH8VYBF"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:GrebTiss1935Codices"/><title level="m">Bybliothecae apostolicae Vaticanae codices manu scripti recensiti iussu Pii XI Pontificis maximi. Codices Aethiopici Vaticani et Borgiani, Barberinianus orientalis 2, Rossianus 865&lt;hi rend="italics"&gt;, I:&lt;/hi&gt; Enarratio codicum</title><author><forename>Sylvain</forename><surname>Grébaut</surname></author><author><forename>Eugène</forename><surname>Tisserant</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>In Bybliotheca Vaticana</publisher><date>1935</date><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:GrebTiss1935Codices</note><t:citedRange unit="page">480</t:citedRange></t:bibl>.</t:note>
+                        <t:bibl><t:ptr target="bm:GrebTiss1935Codices"/><t:citedRange unit="page">480</t:citedRange></t:bibl>.</t:note>
                      <t:ab>
                         ፲፮ ሐቲ<t:supplied reason="omitted">ት፡</t:supplied> በተዋስቦ፡ እመሰ፡ ትፈቅድ፡ ተዋስቦ፡ ተዓገሥ፡ እስመ፡ <t:sic>በተዓገሦ፡</t:sic> ይትረከብ፡
                         በ<t:del rend="expunctuated">ብ</t:del>ትፍሥሕት፡ <t:sic>ወኃሢት፤</t:sic> ወብዕል፡ ወኵሉ፡ <t:sic>ተምኒትከ፡</t:sic> ወአንተ፡ <t:sic>ኵን፡</t:sic> ኅዱዓ፡

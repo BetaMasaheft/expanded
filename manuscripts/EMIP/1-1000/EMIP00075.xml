@@ -5,7 +5,7 @@
             <editor key="JS" corresp="https://betamasaheft.eu/team.html#JS" xml:id="JS">Jonah Sandford</editor>
             <editor key="RL" corresp="https://betamasaheft.eu/team.html#RL" xml:id="RL">Ralph Lee</editor>
             <editor key="ABe" corresp="https://betamasaheft.eu/team.html#ABe" xml:id="ABe">Ashlee Benson</editor>
-         <respStmt corresp="https://betamasaheft.eu/team.html#JS" xml:id="ed-JS"><resp>editor</resp><name>Jonah Sandford</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#RL" xml:id="ed-RL"><resp>editor</resp><name>Ralph Lee</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ABe" xml:id="ed-ABe"><resp>editor</resp><name>Ashlee Benson</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt></titleStmt>
+         <respStmt corresp="https://betamasaheft.eu/team.html#JS" xml:id="ed-JS"><resp>editor</resp><name>Jonah Sandford</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#RL" xml:id="ed-RL"><resp>editor</resp><name>Ralph Lee</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ABe" xml:id="ed-ABe"><resp>editor</resp><name>Ashlee Benson</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ESh" xml:id="ESh"><resp>contributor</resp><name>Eliza Shvarts</name></respStmt></titleStmt>
          <editionStmt>
             <p>The initial version of this file was created from data kindly
                                         provided by the Ethiopic Manuscript Imaging Project directed
@@ -21,7 +21,7 @@
                                                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">23.11.2026 at 12:36:52</date><date type="lastModified">30.11.2020</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMIP00075/main</idno><idno type="URI">https://betamasaheft.eu/EMIP00075</idno><idno type="filename">EMIP00075.xml</idno><idno type="ID">EMIP00075</idno></publicationStmt>
+         <date type="expanded">26.11.2026 at 17:46:14</date><date type="lastModified">23.11.2026</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/EMIP00075/main</idno><idno type="URI">https://betamasaheft.eu/EMIP00075</idno><idno type="filename">EMIP00075.xml</idno><idno type="ID">EMIP00075</idno></publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
@@ -35,10 +35,9 @@
 
                   <msItem xml:id="ms_i1">
                     <locus from="1r" to="7r" facs="003"/>
-                    <title type="complete" ref="https://betamasaheft.eu/LIT5888AsmatPrayer"> Asmat prayer against evil eve and charm</title>
-                    <incipit xml:lang="gez">
-                      በስመ፡ አብ፡<gap reason="omitted"/>ጸሎት፡ በእንተ፡ ዓይነ፡ ጥላ፡ ገርጋሪያ፡ ዓይነ፡ ባርያ፡ ወሌጌዎን፡ ዓይነ፡ ቡዳ፡ ወዓይነ፡ ጠቢብ፡ ዓይነ፡ መቅኛ፡ ወዓይነ፡ ወትንኰልኛ፡ መንኛ፡ ወጕሥምት፡ ወለሕማመ፡ አስወንውንውን፡ ወለሽንትምፅ፡ ወጐርኍሆ፡ ወጊርባ፡ ጀርባ፡...
-                    </incipit>
+                     <title type="complete" ref="https://betamasaheft.eu/LIT7940PPAynaTela">Ṣalot ba-ʾǝnta ʿāyna Ṭǝlā ʿāyna Gargāriyā ʿāyna Budā</title> 
+                     <incipit xml:lang="gez">ብስመ፡ <gap reason="ellipsis" resp="ESh"/> ጸሎት፡ በእንተ፡ ዓይነ፡ ጥላ፡ <supplied reason="omitted">አ</supplied>ገርጋሪያ፡ ዓይነ፡ ባርያ፡ ወሌጌዎን፡ ዓይነ፡ ቡዳ፡ ወዓይነ፡ ጠቢብ፡ ዓይነ፡ መቅኛ፡ ወዓይነ፡
+                        <sic>ወትንኰልኛ፡</sic> <sic>መንኛ፡</sic> ወጕሥምት፡ ወለሕማመ፡ አስወንውንውን፡ ወለሽንትምፅ፡ ወጐርኍሆ፡ ወጊርባ፡ ጀርባ፡ <gap reason="ellipsis"/></incipit>
                   </msItem>
                   <msItem xml:id="ms_i2">
                     <locus from="7v" to="14r" facs="010"/>
@@ -225,6 +224,7 @@
          <change when="2020-05-21" who="#RL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added Asmat prayer as work</change>
          <change when="2020-11-18" who="#RL"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Format edits</change>
          <change when="2020-11-30" who="#ABe"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added facs statements</change>
+         <change when="2026-11-23" who="#ESh"><!--{let $resp := $node/@who return $expand:editorslist//t:item[@xml:id = string($resp)]/text()}: -->Added LIT ID to ms_i1</change>
     </t:revisionDesc>
    </teiHeader><t:text xmlns:t="http://www.tei-c.org/ns/1.0" xml:base="https://betamasaheft.eu/">
       <t:body>

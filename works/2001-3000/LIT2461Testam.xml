@@ -25,7 +25,9 @@
          <respStmt corresp="https://betamasaheft.eu/team.html#AB" xml:id="ged-AB"><resp>general editor</resp><name>Alessandro Bausi</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#AE" xml:id="enc-AE"><resp>encoder annotator</resp><name>Andreas Ellwardt</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#ES" xml:id="met-ES"><resp>metadata</resp><name>Eugenia Sokolinski</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#PL" xml:id="PL"><resp>contributor</resp><name>Pietro Maria Liuzzo</name></respStmt><respStmt corresp="https://betamasaheft.eu/team.html#DR" xml:id="DR"><resp>contributor</resp><name>Dorothea Reule</name></respStmt></titleStmt>
 
          <editionStmt>
-            <p>Digital text based on  <bibl corresp="http://zotero.org/groups/358366/items/BZ4W2XUP"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Beylot1984TestDom"/><title level="m">Testamentum Domini éthiopien: Édition et traduction</title><author><forename>Robert</forename><surname>Beylot</surname></author><editor><forename>Robert</forename><surname>Beylot</surname></editor><pubPlace>Louvain</pubPlace><publisher>Éditions Peeters</publisher><date>1984</date><note type="tags"><note type="tag">bm:Beylot1984TestDom</note></note><note type="tag">bm:Beylot1984TestDom</note></bibl>.</p>
+            <p>Digital text based on  <bibl>
+                  <ptr target="bm:Beylot1984TestDom"/>
+               </bibl>.</p>
          </editionStmt>
 
          <publicationStmt>
@@ -39,13 +41,16 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">23.11.2026 at 10:44:13</date><date type="lastModified">27.11.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2461Testam/main</idno><idno type="URI">https://betamasaheft.eu/LIT2461Testam</idno><idno type="filename">LIT2461Testam.xml</idno><idno type="ID">LIT2461Testam</idno></publicationStmt>
+         <date type="expanded">26.11.2026 at 16:21:01</date><date type="lastModified">27.11.2018</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT2461Testam/main</idno><idno type="URI">https://betamasaheft.eu/LIT2461Testam</idno><idno type="filename">LIT2461Testam.xml</idno><idno type="ID">LIT2461Testam</idno></publicationStmt>
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
          <sourceDesc>
             <listBibl type="clavis">
-               <bibl type="CPG" corresp="http://zotero.org/groups/358366/items/NTS4PW6M"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:CPG1"/><title level="m">Clavis patrum Graecorum, I: Patres antenicaeni, schedulis usi quibus rem paravit F. Winkelmann</title><title type="short">CPG</title><title level="s">Corpus Christianorum</title><author><forename>Maurice</forename><surname>Geerard</surname></author><pubPlace>Turnhout</pubPlace><publisher>Brepols</publisher><date>1983</date><series><title level="s">Corpus Christianorum</title></series><note type="tags"><note type="tag">bm:CPG1</note></note><note type="tag">bm:CPG1</note><citedRange unit="item">1743</citedRange></bibl>
+               <bibl type="CPG">
+                  <ptr target="bm:CPG1"/>
+                  <citedRange unit="item">1743</citedRange>
+               </bibl>
             </listBibl>
             <listWit>
                <witness corresp="https://betamasaheft.eu/StuttgartOrientFol49"><idno>WLB, Orient. Fol. 49</idno></witness>
@@ -138,7 +143,9 @@
       <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
          <t:creation notBefore="0500" corresp="#t5greek">The work, one of the last products of the pseudo-apostolic literature, was originally composed in Greek in the 5th cent.
             The almost totally lost <t:ref target="#t5greek">Greek original</t:ref> is attested by three integral versions in <t:ref target="#t4syriac">Syriac</t:ref>, <t:ref target="#t3arabic">Arabic</t:ref>, and Gǝʿǝz,
-            plus a few Latin and Georgian fragments, and the widely attested Coptic version of the Mystagogy.  See <t:bibl corresp="http://zotero.org/groups/358366/items/WF3SMHQX"><seg type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2010TestDom"/><title level="a">Testamentum Domini</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">927a-928b</biblScope><note type="tags"><note type="tag">bm:Bausi2010TestDom</note></note><note type="tag">bm:Bausi2010TestDom</note></t:bibl>.
+            plus a few Latin and Georgian fragments, and the widely attested Coptic version of the Mystagogy.  See <t:bibl>
+               <t:ptr target="bm:Bausi2010TestDom"/>
+            </t:bibl>.
          </t:creation>
          <t:langUsage><t:language ident="en">English</t:language><t:language ident="ar">Arabic</t:language><t:language ident="gez">Gǝʿǝz</t:language><t:language ident="syr">Syriac</t:language><t:language ident="grc">Greek</t:language><t:language ident="la">Latin</t:language></t:langUsage>
          <t:abstract>
@@ -185,18 +192,34 @@
       <t:body>
          <t:div type="bibliography">
             <t:listBibl type="secondary">
-               <t:bibl corresp="http://zotero.org/groups/358366/items/WF3SMHQX"><seg corresp="#t2eth" type="encyclopediaArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Bausi2010TestDom"/><title level="a">Testamentum Domini</title><title type="short">EAe</title><title level="m">Encyclopaedia Aethiopica</title><author><forename>Alessandro</forename><surname>Bausi</surname></author><editor><forename>Siegbert</forename><surname>Uhlig</surname></editor><editor><forename>Alessandro</forename><surname>Bausi</surname></editor><pubPlace>Wiesbaden</pubPlace><publisher>Harrassowitz Verlag</publisher><date>2010</date><biblScope unit="volume">IV</biblScope><biblScope unit="page">927a-928b</biblScope><note type="tags"><note type="tag">bm:Bausi2010TestDom</note></note><note type="tag">bm:Bausi2010TestDom</note><note type="about">about   title  <ref target="https://betamasaheft.eu/LIT2461Testam#t2eth">ኪዳን፡ ዘእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡</ref></note></t:bibl>
-               <t:bibl corresp="http://zotero.org/groups/358366/items/8UTWCUF3"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Coquin1974TestDom"/><title level="a">Le Testamentum Domini: problèmes de tradition textuelle</title><title level="j">Parole de l’Orient</title><author><forename>René -Georges</forename><surname>Coquin</surname></author><date>1974</date><biblScope unit="volume">5</biblScope><biblScope unit="page">165-188</biblScope><note type="tags"><note type="tag">bm:Coquin1974TestDom</note></note><note type="tag">bm:Coquin1974TestDom</note></t:bibl>
-               <t:bibl corresp="http://zotero.org/groups/358366/items/37IG23SS"><seg corresp="#t2eth" type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:DickhutEllwardt2018Dillmann"/><title level="a">Die Quellen von August Dillmanns Lexicon linguae Aethiopicae: Anmerkungen zu den Prolegomena und den verwendeten Sigla</title><title level="j">Comparative Oriental Manuscript Studies Bulletin</title><author><forename>Wolfgang</forename><surname>Dickhut</surname></author><author><forename>Andreas</forename><surname>Ellwardt</surname></author><date>2018</date><biblScope unit="volume">4</biblScope><biblScope unit="issue">1</biblScope><biblScope unit="page">79-88</biblScope><note type="tags"><note type="tag">TraCES</note><note type="tag">bm:DickhutEllwardt2018Dillmann</note></note><note type="tag">TraCES</note><note type="tag">bm:DickhutEllwardt2018Dillmann</note><note type="about">about   title  <ref target="https://betamasaheft.eu/LIT2461Testam#t2eth">ኪዳን፡ ዘእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡</ref></note></t:bibl>
-               <t:bibl corresp="http://zotero.org/groups/358366/items/V9CITGHF"><seg corresp="#t2eth" type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:vanRompay1985Beylot"/><title level="a">Review of R. Beylot, Testamentum domini éthiopien, Louvain: Peeters, 1984</title><title level="j">Le Muséon</title><author><forename>Lucien</forename><surname>Van Rompay</surname></author><date>1985</date><biblScope unit="volume">98</biblScope><biblScope unit="page">279-280</biblScope><note type="tags"><note type="tag">Review</note><note type="tag">bm:vanRompay1985Beylot</note></note><note type="tag">Review</note><note type="tag">bm:vanRompay1985Beylot</note><note type="about">about   title  <ref target="https://betamasaheft.eu/LIT2461Testam#t2eth">ኪዳን፡ ዘእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡</ref></note></t:bibl>
-               <t:bibl corresp="http://zotero.org/groups/358366/items/G55YJBAD"><seg corresp="#t2eth" type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Cowley1986Beylot"/><title level="a">Review of R. Beylot, Testamentum domini éthiopien, Louvain: Peeters, 1984</title><title level="j">Journal of Semitic Studies</title><author><forename>Roger Wenman</forename><surname>Cowley</surname></author><date>1986</date><biblScope unit="volume">31</biblScope><biblScope unit="page">292-295</biblScope><note type="tags"><note type="tag">Review</note><note type="tag">bm:Cowley1986Beylot</note></note><note type="tag">Review</note><note type="tag">bm:Cowley1986Beylot</note><note type="about">about   title  <ref target="https://betamasaheft.eu/LIT2461Testam#t2eth">ኪዳን፡ ዘእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡</ref></note></t:bibl>
-               <t:bibl corresp="http://zotero.org/groups/358366/items/ZS8KURP6"><seg corresp="#t2eth" type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:MG1985Beylot"/><title level="a">Review of R. Beylot, Testamentum domini éthiopien, Louvain: Peeters, 1984</title><title level="j">Orientalia Lovaniensia Periodica</title><author><name>M.G.</name></author><date>1985</date><biblScope unit="volume">16</biblScope><biblScope unit="page">141-142</biblScope><note type="tags"><note type="tag">Review</note><note type="tag">bm:MG1985Beylot</note></note><note type="tag">Review</note><note type="tag">bm:MG1985Beylot</note><note type="about">about   title  <ref target="https://betamasaheft.eu/LIT2461Testam#t2eth">ኪዳን፡ ዘእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡</ref></note></t:bibl>
-               <t:bibl corresp="http://zotero.org/groups/358366/items/UDQKVP5V"><seg corresp="#t4syriac #t3arabic" type="thesis"><!-- attributes from original bibl--></seg><ptr target="bm:Ellwardt2005TestDom"/><title level="m">Textkritische Untersuchungen zu den syrischen und arabischen Redaktionen der Apokalypse aus dem Testamentum Domini Nostri Jesu Christi</title><author><forename>Andreas</forename><surname>Ellwardt</surname></author><date>2005</date><note type="thesisType">M.A. Thesis</note><note type="tags"><note type="tag">bm:Ellwardt2005TestDom</note></note><note type="tag">bm:Ellwardt2005TestDom</note><note type="about">about   title  <ref target="https://betamasaheft.eu/LIT2461Testam#t4syriac">Testamentum Domini (Syriac)</ref>,    title  <ref target="https://betamasaheft.eu/LIT2461Testam#t3arabic">Testamentum Domini (Arabic)</ref></note></t:bibl>
+               <t:bibl corresp="#t2eth">
+                  <t:ptr target="bm:Bausi2010TestDom"/>
+               </t:bibl>
+               <t:bibl>
+                  <t:ptr target="bm:Coquin1974TestDom"/>
+               </t:bibl>
+               <t:bibl corresp="#t2eth">
+                  <t:ptr target="bm:DickhutEllwardt2018Dillmann"/>
+               </t:bibl>
+               <t:bibl corresp="#t2eth">
+                  <t:ptr target="bm:vanRompay1985Beylot"/>
+               </t:bibl>
+               <t:bibl corresp="#t2eth">
+                  <t:ptr target="bm:Cowley1986Beylot"/>
+               </t:bibl>
+               <t:bibl corresp="#t2eth">
+                  <t:ptr target="bm:MG1985Beylot"/>
+               </t:bibl>
+               <t:bibl corresp="#t4syriac #t3arabic">
+                  <t:ptr target="bm:Ellwardt2005TestDom"/>
+               </t:bibl>
             </t:listBibl>
 
 
             <t:listBibl type="editions">
-               <t:bibl corresp="http://zotero.org/groups/358366/items/BZ4W2XUP"><seg corresp="#t2eth" type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Beylot1984TestDom"/><title level="m">Testamentum Domini éthiopien: Édition et traduction</title><author><forename>Robert</forename><surname>Beylot</surname></author><editor><forename>Robert</forename><surname>Beylot</surname></editor><pubPlace>Louvain</pubPlace><publisher>Éditions Peeters</publisher><date>1984</date><note type="tags"><note type="tag">bm:Beylot1984TestDom</note></note><note type="tag">bm:Beylot1984TestDom</note><note type="about">about   title  <ref target="https://betamasaheft.eu/LIT2461Testam#t2eth">ኪዳን፡ ዘእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡</ref></note></t:bibl>
+               <t:bibl corresp="#t2eth">
+                  <t:ptr target="bm:Beylot1984TestDom"/>
+               </t:bibl>
             </t:listBibl>
 
          </t:div>

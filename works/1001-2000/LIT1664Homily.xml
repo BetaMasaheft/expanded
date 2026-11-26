@@ -23,10 +23,13 @@
                 Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-         <date type="expanded">23.11.2026 at 10:44:23</date><date type="lastModified">5.1.2022</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1664Homily/main</idno><idno type="URI">https://betamasaheft.eu/LIT1664Homily</idno><idno type="filename">LIT1664Homily.xml</idno><idno type="ID">LIT1664Homily</idno></publicationStmt>
+         <date type="expanded">26.11.2026 at 16:21:02</date><date type="lastModified">5.1.2022</date><idno type="collection">works</idno><idno type="url">https://betamasaheft.eu/works/LIT1664Homily/main</idno><idno type="URI">https://betamasaheft.eu/LIT1664Homily</idno><idno type="filename">LIT1664Homily.xml</idno><idno type="ID">LIT1664Homily</idno></publicationStmt>
          <sourceDesc>
            <listBibl type="clavis">
-            <bibl type="CPG" corresp="http://zotero.org/groups/358366/items/Q7DFWHB4"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:CPG2"/><title level="m">Clavis patrum Graecorum, II: Ab Athanasio ad Chrysostomum</title><title type="short">CPG</title><title level="s">Corpus Christianorum</title><author><forename>Maurice</forename><surname>Geerard</surname></author><pubPlace>Turnhout</pubPlace><publisher>Brepols</publisher><date>1974</date><series><title level="s">Corpus Christianorum</title></series><note type="tags"><note type="tag">bm:CPG2</note></note><note type="tag">bm:CPG2</note><citedRange unit="item">2626</citedRange></bibl>
+            <bibl type="CPG">
+               <ptr target="bm:CPG2"/>
+               <citedRange unit="item">2626</citedRange>
+            </bibl>
          </listBibl>
             <listWit>
                <witness corresp="https://betamasaheft.eu/BNFabb179">BNA 179: 19 = BNAC 179: 21 = BNACR 163: 21 (1509): ff. 112vb-118vc (f. 112v: 10 Gǝnbot)</witness>
@@ -135,7 +138,11 @@
          <t:div type="bibliography">
             
            <t:listBibl type="secondary">
-               <t:bibl corresp="http://zotero.org/groups/358366/items/SIIU5NKA"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Crum1915Papyruscodex"/><title level="m">Der Papyruscodex saec. VI - VII der Phillippsbibliothek in Cheltenham. Koptische theologische Schriften</title><title level="s">Schriften der Wissenschaftlichen Gesellschaft in Straßburg</title><author><forename>Walter E.</forename><surname>Crum</surname></author><pubPlace>Straßburg</pubPlace><publisher>Karl J. Trübner</publisher><date>1915</date><series><title level="s">Schriften der Wissenschaftlichen Gesellschaft in Straßburg</title><biblScope unit="volume">18</biblScope></series><biblScope unit="volume">18</biblScope><note type="tags"><note type="tag">bm:Crum1915Papyruscodex</note></note><note type="tag">bm:Crum1915Papyruscodex</note><t:citedRange unit="page">XVII</t:citedRange></t:bibl>
+               <t:bibl><t:ptr target="bm:Crum1915Papyruscodex"/>
+               <t:citedRange unit="page">XVII</t:citedRange>
+                  <t:bibl><t:ptr target="bm:Chaine1912Catalogue"/>
+                  <t:citedRange unit="page">108</t:citedRange></t:bibl>
+             </t:bibl>
            </t:listBibl>
              
          </t:div>

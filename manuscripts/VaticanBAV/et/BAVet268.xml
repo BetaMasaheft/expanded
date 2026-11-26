@@ -15,7 +15,7 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            <date type="expanded">23.11.2026 at 14:30:09</date><date type="lastModified">24.11.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BAVet268/main</idno><idno type="URI">https://betamasaheft.eu/BAVet268</idno><idno type="filename">BAVet268.xml</idno><idno type="ID">BAVet268</idno></publicationStmt>
+            <date type="expanded">26.11.2026 at 19:16:28</date><date type="lastModified">24.11.2024</date><idno type="collection">manuscripts</idno><idno type="url">https://betamasaheft.eu/manuscripts/BAVet268/main</idno><idno type="URI">https://betamasaheft.eu/BAVet268</idno><idno type="filename">BAVet268.xml</idno><idno type="ID">BAVet268</idno></publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="ms">
                     <msIdentifier>
@@ -79,7 +79,7 @@
 <msItem xml:id="ms_i7">
 <locus from="64r" to="72v"/>
 <title type="incomplete" xml:lang="en">A fragment of the apocryphal acts of Peter and Paul</title>
-<note>The fragment was published as <bibl corresp="http://zotero.org/groups/358366/items/IAB2AKN9"><seg type="journalArticle"><!-- attributes from original bibl--></seg><ptr target="bm:Lantschoot1955Contribution"/><title level="a">Contribution aux Actes de S. Pierre et de S. Paul</title><title level="j">Le Muséon</title><author><forename>Arnold van</forename><surname>Lantschoot</surname></author><date>1955</date><biblScope unit="volume">68</biblScope><biblScope unit="page">17-46, 219-233</biblScope><note type="tags"><note type="tag">bm:Lantschoot1955Contribution</note></note><note type="tag">bm:Lantschoot1955Contribution</note></bibl>.</note>
+<note>The fragment was published as <bibl><ptr target="bm:Lantschoot1955Contribution"/></bibl>.</note>
 <textLang xml:lang="gez"/>
 </msItem>
 
@@ -147,7 +147,7 @@
 
   <handDesc>
   <handNote script="Ethiopic" xml:id="h1">
-    <desc>The script is typical of a round script from period II in <bibl corresp="http://zotero.org/groups/358366/items/MIBCP4VG"><seg type="book"><!-- attributes from original bibl--></seg><ptr target="bm:Uhlig1988Palaographie"/><title level="m">Äthiopische Paläographie</title><title level="s">Äthiopistische Forschungen</title><author><forename>Siegbert</forename><surname>Uhlig</surname></author><pubPlace>Stuttgart</pubPlace><publisher>Franz Steiner Verlag</publisher><date>1988</date><series><title level="s">Äthiopistische Forschungen</title><biblScope unit="volume">22</biblScope></series><biblScope unit="volume">22</biblScope><note type="tags"><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">bm:Uhlig1988Palaographie</note></note><note type="tag">Codicology</note><note type="tag">Ethiopic</note><note type="tag">Palaeography</note><note type="tag">bm:Uhlig1988Palaographie</note></bibl>.</desc>
+    <desc>The script is typical of a round script from period II in <bibl><ptr target="bm:Uhlig1988Palaographie"/></bibl>.</desc>
     <date notBefore="1350" notAfter="1450"/>
   </handNote>
   </handDesc>
@@ -175,7 +175,10 @@ A very similar note is to be found in <ref type="mss" corresp="https://betamasah
     <recordHist>
       <source>
         <listBibl type="catalogue">
-          <bibl corresp="http://zotero.org/groups/358366/items/YF8HQKPI"><seg type="bookSection"><!-- attributes from original bibl--></seg><ptr target="bm:Lantschoot1962Vatican"/><title level="a">Inventaire sommaire des mss. vaticans éthiopiens 251–299</title><title level="m">Collectanea Vaticana in honorem Anselmi M. &lt;hi rend="italics"&gt;Card.&lt;/hi&gt; Albareda: a Bibiotheca Apostolica edita</title><title level="s">Studi e Testi</title><author><forename>Arnold van</forename><surname>Lantschoot</surname></author><pubPlace>Città del Vaticano</pubPlace><publisher>Biblioteca Apostolica Vaticana</publisher><date>1962</date><series><title level="s">Studi e Testi</title><biblScope unit="volume">219</biblScope></series><biblScope unit="volume">I</biblScope><biblScope unit="page">453-512</biblScope><biblScope unit="volume">219</biblScope><note type="url">https://archive.org/details/collectaneavatic0001bibl/page/n5/mode/2up</note><note type="tags"><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Lantschoot1962Vatican</note></note><note type="tag">Cataloguing</note><note type="tag">Ethiopic</note><note type="tag">bm:Lantschoot1962Vatican</note><citedRange unit="page">469-471</citedRange></bibl>
+          <bibl>
+            <ptr target="bm:Lantschoot1962Vatican"/>
+            <citedRange unit="page">469-471</citedRange>
+          </bibl>
         </listBibl>
       </source>
     </recordHist>
