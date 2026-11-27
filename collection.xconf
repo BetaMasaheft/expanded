@@ -44,8 +44,9 @@
                 <facet dimension="height" if="@type='mss'" expression="t:teiHeader//t:dimensions[@subtype='computed'][@type='outer']/t:height/@quantity"/>
                 <facet dimension="width" if="@type='mss'" expression="t:teiHeader//t:dimensions[@subtype='computed'][@type='outer']/t:width/@quantity"/>
                 <facet dimension="depth" if="@type='mss'" expression="t:teiHeader//t:dimensions[@subtype='computed'][@type='outer']/t:depth/@quantity"/>
-                <facet dimension="scribe" if="@type='mss'" expression="t:teiHeader//t:persName[@role='scribe']"/>
-                <facet dimension="donor" if="@type='mss'" expression="t:teiHeader//t:persName[@role='donor']"/>
+                <!-- Debake Task 3 / expanded#50: index @ref, not baked element text -->
+                <facet dimension="scribe" if="@type='mss'" expression="t:teiHeader//t:persName[@role='scribe']/@ref"/>
+                <facet dimension="donor" if="@type='mss'" expression="t:teiHeader//t:persName[@role='donor']/@ref"/>
                 <facet dimension="msItemsCount" if="@type='mss'" expression="count(t:teiHeader//t:msItem)"/>
                 <facet dimension="msPartsCount" if="@type='mss'" expression="t:teiHeader//t:msPartsCount/@quantity"/>
                 <facet dimension="handsCount" if="@type='mss'" expression="count(t:teiHeader//t:handNote)"/>
@@ -53,7 +54,8 @@
                 <facet dimension="QuireCount" if="@type='mss'" expression="count(t:teiHeader//t:collation//t:item[@n])"/>
                 <facet dimension="AdditionsCount" if="@type='mss'" expression="count(t:teiHeader//t:additions//t:item[starts-with(@xml:id, 'a')])"/>
                 <facet dimension="AdditionsType" if="@type='mss'" expression="t:teiHeader//t:additions//t:item[starts-with(@xml:id, 'a')]/t:desc/@type"/>
-                <facet dimension="titleRef" if="@type='mss'" expression="t:teiHeader//t:msContents/t:msItem/t:title"/>
+                <!-- Debake Task 3 / expanded#50: Contents facet by work @ref (titles without ref drop out) -->
+                <facet dimension="titleRef" if="@type='mss'" expression="t:teiHeader//t:msContents/t:msItem/t:title/@ref"/>
                 <facet dimension="titleType" if="@type='mss'" expression="t:teiHeader//t:msItem//t:title/@type"/>
                 <facet dimension="ExtraCount" if="@type='mss'" expression="count(t:teiHeader//t:additions//t:item[starts-with(@xml:id, 'e')])"/>
                 <facet dimension="ExtraType" if="@type='mss'" expression="t:teiHeader//t:additions//t:item[starts-with(@xml:id, 'e')]/t:desc/@type"/>
